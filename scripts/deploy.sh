@@ -10,6 +10,7 @@
 
 
 
+# // batch: add_function — getBatch
 
 
 
@@ -342,3 +343,5 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // auth: add_conditional — transformAuth
 # // focus: add_function — setFocus
 # // debug: add_function — parseDebug
+# // decode: add_function — initDecode
+# // check: add_constant — fetchCheck
