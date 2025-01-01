@@ -10,7 +10,6 @@
 
 
 
-# // batch: add_function — getBatch
 
 
 
