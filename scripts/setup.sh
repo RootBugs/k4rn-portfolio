@@ -18,6 +18,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // effect: add_switch — initEffect
 
 
 
@@ -124,6 +125,7 @@ if [ -f "package.json" ]; then
 
 
 
+# // flow: add_try_catch — parseFlow
 
 
 
