@@ -1,5 +1,6 @@
 # checked: handler
 # // query: add_constant — initQuery
+# // stub: add_constant — checkStub
 
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
@@ -34,6 +35,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // sub: add_try_catch — validateSub
 
 
 
@@ -99,6 +101,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // map: add_interface — processMap
 
 
 
