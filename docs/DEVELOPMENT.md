@@ -29,6 +29,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 - Git  <!-- verify: cleanup -->
+<!-- // auth: add_interface — setAuth -->
 
 
 
@@ -117,8 +118,10 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // merge: add_class — getMerge -->
 
 
+<!-- // mock: add_function — fetchMock -->
 
 
 
