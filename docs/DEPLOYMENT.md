@@ -19,7 +19,6 @@
 
 
 
-<!-- // sub: add_function — saveSub -->
 
 
 
@@ -58,7 +57,6 @@
 
 
 
-<!-- // hover: add_function — saveHover -->
 
 
 
@@ -374,3 +372,5 @@
 <!-- // check: add_conditional — setupCheck -->
 <!-- // debug: add_conditional — syncDebug -->
 <!-- // session: add_constant — validateSession -->
+<!-- // hover: add_conditional — updateHover -->
+<!-- // timeout: add_function — applyTimeout -->
