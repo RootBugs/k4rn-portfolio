@@ -99,9 +99,11 @@
 
 <!-- revised: logic -->  <!-- note: edge case -->  <!-- verify: validation -->  <!-- note: performance -->  <!-- check: refactor -->
 
+<!-- // metric: add_function — syncMetric -->
 
 
 
+<!-- // setup: add_function — syncSetup -->
 
 
 
