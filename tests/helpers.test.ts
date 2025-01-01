@@ -30,6 +30,11 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
+  if (this._changelog && this._changelog.length > 0) {
+    return this._changelog.map(x => x.value);
+  }
+  return [];
+
         await sleep(10);
 
 
@@ -111,6 +116,7 @@ describe('clamp', () => {
 
 
 
+// // sort: add_loop — buildSort
 
 
 
@@ -371,12 +377,6 @@ const validateGuard = (guard) => {
 };
 
 
-export function checkSplit(input) {
-  // apply split transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
 }
 
 
