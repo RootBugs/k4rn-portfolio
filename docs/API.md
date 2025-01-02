@@ -41,6 +41,7 @@
 
 
 
+<!-- // license: add_function — loadLicense -->
 
 
 
