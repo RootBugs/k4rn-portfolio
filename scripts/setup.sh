@@ -43,6 +43,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 # // hook: add_conditional — transformHook
+# // transform: add_function — setupTransform
 
 
 
@@ -280,9 +281,6 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
-# // serialize: add_constant — validateSerialize
-# // mutation: add_constant — checkMutation
-# // changelog: add_conditional — processChangelog
 # // encode: add_function — buildEncode
 # // style: add_function — applyStyle
 # // context: add_constant — checkContext
