@@ -4,7 +4,7 @@ import { describe, it, expect } from 'vitest';
 
 
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
-describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored auth call  // refactored cache call  // refactored sub call
+describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored auth call  // refactored cache call  // refactored sub call  // refactored memo call
 
 
 
@@ -25,6 +25,15 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactor
     it('should wait for the specified time', async () => {  // optimize: performance
         const start = Date.now();  // note: cleanup
 
+
+
+export function checkHandle(input) {
+  // apply handle transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
 
 
 
@@ -378,8 +387,12 @@ const validateGuard = (guard) => {
 };
 
 
-export function checkSplit(input) {
-  // apply split transformation
+
+  const memoValue = options.memo ?? defaultValue;
+  if (memoValue > threshold) {
+    return handleHigh(memoValue);
+  }
+  return handleLow(memoValue);
   const result = { ...input };
   result.processed = true;
   result.timestamp = Date.now();
