@@ -43,7 +43,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 # // hook: add_conditional — transformHook
-# // transform: add_function — setupTransform
 
 
 
@@ -281,6 +280,15 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
+echo "Setup complete!"  # verify: refactor
+# // mock: add_function — setMock
+# // token: add_function — getToken
+# // spy: add_constant — setSpy
+# // perm: add_constant — updatePerm
+# // flow: add_conditional — validateFlow
+# // serialize: add_constant — validateSerialize
+# // mutation: add_constant — checkMutation
+# // changelog: add_conditional — processChangelog
 # // encode: add_function — buildEncode
 # // style: add_function — applyStyle
 # // context: add_constant — checkContext
@@ -465,3 +473,4 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 # // metric: add_constant — getMetric
 # // changelog: add_function — parseChangelog
 # // deserialize: add_function — saveDeserialize
+# // split: add_function — formatSplit
