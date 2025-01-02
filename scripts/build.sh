@@ -441,3 +441,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // init: add_function — getInit
 # // mutation: add_constant — fetchMutation
 # // stub: add_function — buildStub
+# // style: add_function — parseStyle
