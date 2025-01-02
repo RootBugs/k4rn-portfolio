@@ -119,7 +119,6 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
-# // map: add_class — createMap
 
 # Install dependencies  # check: refactor  # note: performance
 
@@ -474,4 +473,4 @@ echo "Setup complete!"  # verify: refactor
 # // metric: add_constant — getMetric
 # // changelog: add_function — parseChangelog
 # // deserialize: add_function — saveDeserialize
-# // split: add_function — formatSplit
+# // audit: add_function — loadAudit
