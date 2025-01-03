@@ -19,7 +19,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // validate: add_function — transformValidate
 
 
 
@@ -281,7 +280,4 @@ echo "Setup complete!"  # verify: refactor
 # // serialize: add_constant — validateSerialize
 # // mutation: add_constant — checkMutation
 # // changelog: add_conditional — processChangelog
-# // encode: add_function — buildEncode
-# // style: add_function — applyStyle
-# // context: add_constant — checkContext
-# // guard: add_conditional — applyGuard
+# // fixture: add_function — handleFixture
