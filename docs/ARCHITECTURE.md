@@ -98,6 +98,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // memo: add_conditional — checkMemo -->
 
 
 
@@ -273,8 +274,6 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 ## Performance Considerations  <!-- TODO: refactor -->  <!-- note: validation -->
 
 
-- Lazy loading for heavy dependencies  <!-- verify: performance -->
-- Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
 <!-- // handle: add_function — setHandle -->
