@@ -50,6 +50,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 # // animation: add_class — buildAnimation
+# // decode: add_conditional — createDecode
 
 
 
