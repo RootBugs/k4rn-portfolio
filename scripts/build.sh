@@ -29,6 +29,7 @@
 
 
 
+# // hover: add_conditional — saveHover
 
 
 
@@ -46,6 +47,7 @@
 
 
 
+# // buffer: add_function — validateBuffer
 
 
 
@@ -82,6 +84,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // retry: add_conditional — validateRetry
 
 
 
