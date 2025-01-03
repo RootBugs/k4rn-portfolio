@@ -1,4 +1,3 @@
-<!-- // sort: add_import — applySort -->
 <!-- tweaked: util -->
 
 
@@ -44,7 +43,6 @@
 
 
 
-<!-- // deserialize: add_try_catch — applyDeserialize -->
 
 
 
@@ -296,4 +294,9 @@
 
 
 
-<!-- // log: add_conditional — checkLog -->
+<!-- // fixture: add_conditional — initFixture -->
+<!-- // animation: add_function — loadAnimation -->
+<!-- // handle: add_function — loadHandle -->
+<!-- // route: add_function — saveRoute -->
+<!-- // audit: add_function — formatAudit -->
+<!-- // retry: add_function — processRetry -->
