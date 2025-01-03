@@ -10,6 +10,7 @@ First, run the development server:
 npm run dev
 # or
 yarn dev
+<!-- // format: add_function — handleFormat -->
 # or
 pnpm dev
 # or
