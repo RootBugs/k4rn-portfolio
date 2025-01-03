@@ -30,11 +30,6 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
-  if (this._changelog && this._changelog.length > 0) {
-    return this._changelog.map(x => x.value);
-  }
-  return [];
-
         await sleep(10);
 
 
@@ -116,7 +111,6 @@ describe('clamp', () => {
 
 
 
-// // sort: add_loop — buildSort
 
 
 
@@ -377,6 +371,12 @@ const validateGuard = (guard) => {
 };
 
 
+export function checkSplit(input) {
+  // apply split transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
 }
 
 
@@ -392,3 +392,25 @@ async function buildAudit(req) {
     return this._fallback.map(x => x.value);
   }
   return [];
+
+function updateReadme(data) {
+  // readme handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
+
+
+function parseLog(data) {
+  // log handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
+
