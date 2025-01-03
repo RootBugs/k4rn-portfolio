@@ -343,4 +343,9 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // auth: add_conditional — transformAuth
 # // focus: add_function — setFocus
 # // debug: add_function — parseDebug
-# // sub: add_function — saveSub
+# // decode: add_function — initDecode
+# // check: add_constant — fetchCheck
+# // effect: add_conditional — getEffect
+# // stream: add_constant — checkStream
+# // token: add_conditional — getToken
+# // guard: add_conditional — transformGuard
