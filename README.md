@@ -11,6 +11,7 @@ First, run the development server:
 npm run dev
 # or
 yarn dev
+<!-- // timeout: add_function — loadTimeout -->
 <!-- // join: add_loop — fetchJoin -->
 <!-- // session: add_function — setSession -->
 # or
