@@ -23,7 +23,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 <!-- // context: add_function — setContext -->
-- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->
+- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored layout call -->
 
 
 
@@ -60,6 +60,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // join: add_interface — getJoin -->
 
 
 
@@ -82,6 +83,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // style: add_loop — getStyle -->
 
 
 
