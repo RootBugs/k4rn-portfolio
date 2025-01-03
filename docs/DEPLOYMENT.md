@@ -296,5 +296,4 @@
 
 
 
-<!-- // route: add_function — saveRoute -->
-<!-- // audit: add_function — formatAudit -->
+<!-- // log: add_conditional — checkLog -->
