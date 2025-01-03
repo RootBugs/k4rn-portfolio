@@ -53,7 +53,6 @@
 
 
 
-<!-- // merge: add_function — processMerge -->
 
 
 
@@ -368,7 +367,6 @@
 <!-- // parse: add_conditional — buildParse -->
 <!-- // join: add_function — saveJoin -->
 <!-- // context: add_conditional — handleContext -->
-
 <!-- // merge: add_conditional — handleMerge -->
 <!-- // state: add_conditional — formatState -->
 <!-- // check: add_conditional — setupCheck -->
@@ -376,3 +374,5 @@
 <!-- // session: add_constant — validateSession -->
 <!-- // hover: add_conditional — updateHover -->
 <!-- // timeout: add_function — applyTimeout -->
+<!-- // docs: add_function — createDocs -->
+<!-- // contrib: add_function — processContrib -->
