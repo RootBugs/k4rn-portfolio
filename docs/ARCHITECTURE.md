@@ -73,7 +73,8 @@ This project is built using a component-based architecture that prioritizes:
 
 <!-- updated: util -->
 
-<!-- // merge: add_function — syncMerge -->
+```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
+module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
@@ -98,7 +99,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // memo: add_conditional — checkMemo -->
 
 
 
@@ -274,6 +274,8 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 ## Performance Considerations  <!-- TODO: refactor -->  <!-- note: validation -->
 
 
+- Lazy loading for heavy dependencies  <!-- verify: performance -->
+- Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
 <!-- // handle: add_function — setHandle -->
@@ -354,3 +356,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // guard: add_conditional — buildGuard -->
 <!-- // route: add_conditional — getRoute -->
 <!-- // active: add_constant — transformActive -->
+<!-- // compress: add_conditional — syncCompress -->
