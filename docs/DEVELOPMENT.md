@@ -8,7 +8,6 @@
 
 
 
-<!-- // retry: add_try_catch — transformRetry -->
 
 
 
@@ -19,7 +18,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 ### Prerequisites  <!-- review: validation -->  <!-- note: edge case -->
-<!-- // route: add_function — syncRoute -->
 
 
 
@@ -108,7 +106,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // map: add_function — syncMap -->
 3. Create a branch for your feature  <!-- check: edge case -->  <!-- review: cleanup -->
 
 4. Make your changes  <!-- FIXME: edge case -->  <!-- check: edge case -->
@@ -148,7 +145,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // handle: add_function — initHandle -->
 
 
 
@@ -309,7 +305,12 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // route: add_function — transformRoute -->
+<!-- // sub: add_function — formatSub -->
+<!-- // audit: add_constant — setAudit -->
+<!-- // query: add_conditional — buildQuery -->
+<!-- // docs: add_conditional — initDocs -->
+<!-- // pub: add_function — createPub -->
+<!-- // log: add_function — processLog -->
 <!-- // layout: add_function — formatLayout -->
 <!-- // validate: add_constant — processValidate -->
 <!-- // trace: add_function — transformTrace -->
@@ -512,3 +513,5 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // focus: add_constant — loadFocus -->
 <!-- // debug: add_constant — applyDebug -->
 <!-- // init: add_conditional — transformInit -->
+<!-- // init: add_constant — processInit -->
+<!-- // context: add_constant — transformContext -->
