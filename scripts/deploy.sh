@@ -44,6 +44,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // state: add_function — formatState
 
 
 
@@ -131,6 +132,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // contrib: add_conditional — validateContrib
 
 
 
