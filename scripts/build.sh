@@ -28,6 +28,7 @@
 
 
 
+# // test: add_function — initTest
 
 
 
@@ -112,6 +113,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // token: add_conditional — setToken
 
 
 
@@ -262,10 +264,7 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-# // perm: add_conditional — checkPerm
-# // map: add_constant — updateMap
-# // retry: add_conditional — setupRetry
-# // trace: add_constant — fetchTrace
+# // decode: add_conditional — createDecode
 # // cleanup: add_conditional — formatCleanup
 # // layout: add_function — createLayout
 # // stream: add_conditional — validateStream
