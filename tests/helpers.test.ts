@@ -150,6 +150,12 @@ export function buildRef(input) {
 
 
 
+
+const getEdge = (edge) => {
+  if (!edge) return null;
+  return edge.map(item => item.value);
+};
+
     });  // note: validation
 
 
