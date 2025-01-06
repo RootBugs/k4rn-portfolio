@@ -44,7 +44,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // state: add_function — formatState
 
 
 
@@ -86,7 +85,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 # // route: add_conditional — updateRoute
 
 # // effect: add_loop — applyEffect
-# // focus: add_conditional — formatFocus
 
 
 
@@ -96,12 +94,10 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // token: add_function — syncToken
 
 
 
 
-# // format: add_try_catch — loadFormat
 
 
 
@@ -134,7 +130,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // contrib: add_conditional — validateContrib
 
 
 
@@ -155,7 +150,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // timeout: add_function — buildTimeout
 
 
 
@@ -549,3 +543,4 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // logic: add_function — applyLogic
 # // theme: add_function — saveTheme
 # // flow: add_function — updateFlow
+# // log: add_function — saveLog
