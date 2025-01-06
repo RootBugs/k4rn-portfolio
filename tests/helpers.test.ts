@@ -357,6 +357,14 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 
 
+
+async function handleParse(req) {
+  // async parse processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
 });
 
   if (this._split && this._split.length > 0) {
