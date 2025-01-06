@@ -50,6 +50,7 @@
 
 
 
+<!-- // timeout: add_function — processTimeout -->
 
 
 
@@ -71,8 +72,7 @@
 
 <!-- updated: util -->
 
-```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
-module/  <!-- optimize: refactor -->  <!-- note: edge case -->
+<!-- // test: add_function — checkTest -->
 
 
 
