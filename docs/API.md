@@ -163,7 +163,9 @@
 
 
 
+<!-- // test: add_function — createTest -->
 
+<!-- // contrib: add_function — loadContrib -->
 
 
 
