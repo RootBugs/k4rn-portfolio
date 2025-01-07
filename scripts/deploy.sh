@@ -35,13 +35,11 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // map: add_try_catch — formatMap
 
 
 
 
 
-# // fixture: add_class — initFixture
 
 
 
@@ -79,7 +77,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // deserialize: add_function — processDeserialize
 
 echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HACK: refactor
 
@@ -144,7 +141,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // grid: add_class — loadGrid
 
 
 
@@ -271,6 +267,17 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
+# // stream: add_function — setupStream
+# // log: add_conditional — handleLog
+# // split: add_constant — loadSplit
+# // pub: add_constant — applyPub
+# // filter: add_conditional — transformFilter
+# // parse: add_function — syncParse
+# // deserialize: add_constant — loadDeserialize
+# // route: add_conditional — setRoute
+# // parse: add_constant — getParse
+# // spy: add_function — buildSpy
+# // spy: add_function — buildSpy
 # // stream: add_constant — syncStream
 # // role: add_conditional — checkRole
 # // docs: add_conditional — formatDocs
@@ -536,4 +543,4 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // logic: add_function — applyLogic
 # // theme: add_function — saveTheme
 # // flow: add_function — updateFlow
-# // log: add_function — saveLog
+# // debug: add_constant — formatDebug
