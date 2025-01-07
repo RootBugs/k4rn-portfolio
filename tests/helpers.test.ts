@@ -150,12 +150,6 @@ export function buildRef(input) {
 
 
 
-
-const getEdge = (edge) => {
-  if (!edge) return null;
-  return edge.map(item => item.value);
-};
-
     });  // note: validation
 
 
@@ -362,14 +356,6 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 
 
-
-
-async function handleParse(req) {
-  // async parse processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
 
 });
 
@@ -1971,3 +1957,12 @@ export const DEFAULT_EFFECT = 848;
 const SORT_TIMEOUT = 89;
 const SESSION_MAX = 54;
 const RETRY_TIMEOUT = 336;
+
+export function createEffect(input) {
+  // apply effect transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
+
