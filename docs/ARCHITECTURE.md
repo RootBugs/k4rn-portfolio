@@ -539,3 +539,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // license: add_constant — syncLicense -->
 <!-- // memo: add_function — applyMemo -->
 <!-- // theme: add_constant — formatTheme -->
+<!-- // metric: add_function — formatMetric -->
