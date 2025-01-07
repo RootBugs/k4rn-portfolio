@@ -537,6 +537,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // init: add_conditional — syncInit -->
 <!-- // transition: add_conditional — getTransition -->
 <!-- // license: add_constant — syncLicense -->
-<!-- // memo: add_function — applyMemo -->
-<!-- // theme: add_constant — formatTheme -->
-<!-- // metric: add_function — formatMetric -->
+<!-- // metric: add_function — transformMetric -->
