@@ -1,3 +1,4 @@
+# // cleanup: add_import — checkCleanup
 # // animation: add_import — createAnimation
 # checked: handler
 # // query: add_constant — initQuery
@@ -96,6 +97,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // transition: add_loop — syncTransition
 
 
 
