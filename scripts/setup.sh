@@ -40,6 +40,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 # // lazy: add_function — saveLazy
+# // spy: add_function — setupSpy
 
 
 # // hook: add_conditional — transformHook
@@ -82,6 +83,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // debug: add_conditional — parseDebug
 
 
 
@@ -365,7 +367,7 @@ echo "Setup complete!"  # verify: refactor
 # // hover: add_conditional — saveHover
 # // guard: add_constant — fetchGuard
 # // metric: add_conditional — loadMetric
-# // setup: add_function — applySetup
+# // setup: add_function — applySetup  # route
 # // context: add_constant — transformContext
 # // serialize: add_function — checkSerialize
 # // serialize: add_constant — loadSerialize
