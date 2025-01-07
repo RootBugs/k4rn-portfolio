@@ -40,7 +40,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 # // lazy: add_function — saveLazy
-# // spy: add_function — setupSpy
 
 
 # // hook: add_conditional — transformHook
@@ -72,18 +71,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
-# // setup: add_function — updateSetup
-
-
-
-
-
-
-
-
-
-
-# // debug: add_conditional — parseDebug
 
 
 
@@ -103,7 +90,18 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // encode: add_conditional — fetchEncode
+
+
+
+
+
+
+
+
+
+
+# reviewed: logic
+command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
@@ -148,7 +146,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // auth: add_interface — checkAuth
 
 
 
@@ -367,7 +364,7 @@ echo "Setup complete!"  # verify: refactor
 # // hover: add_conditional — saveHover
 # // guard: add_constant — fetchGuard
 # // metric: add_conditional — loadMetric
-# // setup: add_function — applySetup  # route
+# // setup: add_function — applySetup
 # // context: add_constant — transformContext
 # // serialize: add_function — checkSerialize
 # // serialize: add_constant — loadSerialize
@@ -544,4 +541,4 @@ echo "Setup complete!"  # verify: refactor
 # // cleanup: add_constant — parseCleanup
 # // split: add_conditional — parseSplit
 # // mock: add_function — setMock
-# // audit: add_function — buildAudit
+# // validate: add_constant — setupValidate
