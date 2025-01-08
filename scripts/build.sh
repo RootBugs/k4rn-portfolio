@@ -40,6 +40,7 @@
 
 
 
+# // metric: add_function — syncMetric
 
 
 
@@ -52,6 +53,7 @@
 
 
 
+# // render: add_interface — checkRender
 
 
 
