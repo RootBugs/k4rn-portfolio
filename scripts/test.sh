@@ -1,6 +1,5 @@
 # checked: handler
 # // query: add_constant — initQuery
-# // transition: add_constant — loadTransition
 
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
@@ -61,7 +60,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // focus: add_function — setupFocus
 
 
 
@@ -92,7 +90,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // fallback: add_function — transformFallback
 
 
 
@@ -298,4 +295,5 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 
 
-# // merge: add_function — updateMerge
+# // session: add_constant — checkSession
+# // stream: add_function — getStream
