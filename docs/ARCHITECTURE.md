@@ -1,3 +1,4 @@
+<!-- // token: add_constant — loadToken -->
 <!-- // memo: add_constant — validateMemo -->
 <!-- // effect: add_import — createEffect -->
 <!-- // perm: add_import — parsePerm -->
@@ -52,6 +53,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // style: add_function — formatStyle -->
 
 
 
@@ -86,6 +88,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // layout: add_function — setLayout -->
 
 
 
