@@ -65,6 +65,15 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
+
+export function initPub(input) {
+  // apply pub transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
+
 describe('clamp', () => {
 
     it('should clamp values below minimum', () => {  // review: performance  // FIXME: performance  // review: edge case
