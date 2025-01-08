@@ -6,6 +6,7 @@
 
 
 
+<!-- // handle: add_function — syncHandle -->
 
 
 
@@ -16,6 +17,7 @@
 <!-- reviewed: util -->  <!-- TODO: cleanup -->
 This project is built using a component-based architecture that prioritizes:
 
+<!-- // render: add_function — getRender -->
 
 
 
@@ -92,6 +94,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // hook: add_loop — checkHook -->
 
 
 
