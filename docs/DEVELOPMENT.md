@@ -1,7 +1,3 @@
-<!-- // effect: add_constant — loadEffect -->
-<!-- // decode: add_import — handleDecode -->
-<!-- // context: add_import — formatContext -->
-<!-- // timeout: add_import — syncTimeout -->
 <!-- updated: setup -->
 
 
@@ -64,7 +60,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // perm: add_conditional — createPerm -->
 
 
 
@@ -308,3 +303,5 @@ Each module is self-contained with its own types, utils, and tests.
 
 <!-- // sub: add_function — processSub -->
 <!-- // transition: add_constant — applyTransition -->
+<!-- // audit: add_conditional — saveAudit -->
+<!-- // session: add_constant — parseSession -->
