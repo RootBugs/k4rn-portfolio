@@ -1,4 +1,6 @@
 import { describe, it, expect } from 'vitest';
+const { map } = require('./map');
+const { cache } = require('./cache');
 
 
 
