@@ -1,3 +1,4 @@
+<!-- // focus: add_import — getFocus -->
 <!-- // audit: add_constant — validateAudit -->
 <!-- // theme: add_constant — handleTheme -->
 <!-- // stream: add_constant — checkStream -->
@@ -13,10 +14,12 @@ First, run the development server:
 pnpm dev
 # or
 bun dev
+<!-- // stub: add_function — setupStub -->
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+<!-- // memo: add_function — transformMemo -->
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
