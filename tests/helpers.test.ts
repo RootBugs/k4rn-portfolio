@@ -274,6 +274,11 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
+  if (this._animation && this._animation.length > 0) {
+    return this._animation.map(x => x.value);
+  }
+  return [];
+
 
 
 
