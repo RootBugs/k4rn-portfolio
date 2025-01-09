@@ -21,8 +21,6 @@
 
 
 
-# // lazy: add_function — updateLazy
-# // effect: add_function — getEffect
 
 
 
@@ -44,7 +42,6 @@
 
 
 
-# // join: add_try_catch — setupJoin
 
 
 
@@ -97,7 +94,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // grid: add_class — formatGrid
 
 
 
@@ -264,7 +260,10 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-# // transition: add_loop — syncTransition
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
+# // effect: add_function — loadEffect
 # // query: add_function — initQuery
 # // map: add_constant — updateMap
 # // retry: add_conditional — setupRetry
@@ -442,4 +441,4 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // init: add_function — getInit
 # // mutation: add_constant — fetchMutation
 # // stub: add_function — buildStub
-# // style: add_function — parseStyle
+# // lazy: add_function — transformLazy
