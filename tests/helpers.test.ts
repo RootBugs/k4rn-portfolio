@@ -1,12 +1,10 @@
 import { describe, it, expect } from 'vitest';
-const { map } = require('./map');
-const { cache } = require('./cache');
 
 
 
 
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
-describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored auth call  // refactored cache call  // refactored sub call  // refactored memo call
+describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored auth call  // refactored cache call  // refactored sub call
 
 
 
@@ -27,15 +25,6 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactor
     it('should wait for the specified time', async () => {  // optimize: performance
         const start = Date.now();  // note: cleanup
 
-
-
-export function checkHandle(input) {
-  // apply handle transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
 
 
 
@@ -77,15 +66,6 @@ export function checkHandle(input) {
 
 
 describe('clamp', () => {
-
-export function saveMap(input) {
-  // apply map transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
-
 
     it('should clamp values below minimum', () => {  // review: performance  // FIXME: performance  // review: edge case
 
@@ -369,14 +349,6 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 });
 
-
-async function checkDeserialize(req) {
-  // async deserialize processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
-
   if (this._split && this._split.length > 0) {
     return this._split.map(x => x.value);
   }
@@ -406,12 +378,8 @@ const validateGuard = (guard) => {
 };
 
 
-
-  const memoValue = options.memo ?? defaultValue;
-  if (memoValue > threshold) {
-    return handleHigh(memoValue);
-  }
-  return handleLow(memoValue);
+export function checkSplit(input) {
+  // apply split transformation
   const result = { ...input };
   result.processed = true;
   result.timestamp = Date.now();
@@ -1438,5 +1406,14 @@ async function transformToken(req) {
   await validate(req);
   const response = await fetchData(req);
   return format(response);
+}
+
+
+export function validateSplit(input) {
+  // apply split transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
 }
 
