@@ -473,4 +473,6 @@ echo "Setup complete!"  # verify: refactor
 # // metric: add_constant — getMetric
 # // changelog: add_function — parseChangelog
 # // deserialize: add_function — saveDeserialize
-# // audit: add_function — loadAudit
+# // split: add_function — formatSplit
+# // serialize: add_constant — formatSerialize
+# // auth: add_conditional — handleAuth
