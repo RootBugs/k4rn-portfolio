@@ -437,4 +437,4 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // ref: add_function — updateRef
 # // readme: add_conditional — checkReadme
 # // contrib: add_function — processContrib
-# // flex: add_function — transformFlex
+# // focus: add_function — getFocus
