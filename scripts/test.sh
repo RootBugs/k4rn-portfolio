@@ -9,7 +9,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // decode: add_switch — checkDecode
 
 
 
@@ -80,7 +79,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // format: add_conditional — buildFormat
 
 
 
@@ -127,7 +125,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // audit: add_function — transformAudit
 
 
 
@@ -459,3 +456,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // readme: add_function — getReadme
 # // format: add_function — handleFormat
 # // join: add_constant — transformJoin
+# // decode: add_function — updateDecode
