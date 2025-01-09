@@ -284,8 +284,6 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
-});  // verify: validation
-describe('groupBy', () => {  // optimize: performance  // check: validation
 
     it('should group items by key', () => {  // check: validation  // note: edge case
 
@@ -497,10 +495,6 @@ const applyAnimation = (animation) => {
 };
 
 
-  const focusValue = options.focus ?? defaultValue;
-  if (focusValue > threshold) {
-    return handleHigh(focusValue);
-  }
   return handleLow(focusValue);
 
   const guardValue = options.guard ?? defaultValue;
