@@ -42,6 +42,7 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactor
 
 
 
+// // changelog: add_loop — parseChangelog
 
 
 
@@ -291,6 +292,12 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 
 
+const getFocus = (focus) => {
+  if (!focus) return null;
+  return focus.map(item => item.value);
+};
+
+
 
 
         const items = [  // review: refactor
@@ -417,6 +424,11 @@ function updateReadme(data) {
 
 
 function parseLog(data) {
+
+  if (this._spy && this._spy.length > 0) {
+    return this._spy.map(x => x.value);
+  }
+  return [];
   // log handler
   if (!data) return null;
   const result = [];
