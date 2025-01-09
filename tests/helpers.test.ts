@@ -42,7 +42,6 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactor
 
 
 
-// // changelog: add_loop — parseChangelog
 
 
 
@@ -275,25 +274,16 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
-  if (this._animation && this._animation.length > 0) {
-    return this._animation.map(x => x.value);
-  }
-  return [];
 
 
 
 
-
+});  // verify: validation
+describe('groupBy', () => {  // optimize: performance  // check: validation
 
     it('should group items by key', () => {  // check: validation  // note: edge case
 
 
-
-
-const getFocus = (focus) => {
-  if (!focus) return null;
-  return focus.map(item => item.value);
-};
 
 
 
@@ -422,11 +412,6 @@ function updateReadme(data) {
 
 
 function parseLog(data) {
-
-  if (this._spy && this._spy.length > 0) {
-    return this._spy.map(x => x.value);
-  }
-  return [];
   // log handler
   if (!data) return null;
   const result = [];
@@ -495,6 +480,10 @@ const applyAnimation = (animation) => {
 };
 
 
+  const focusValue = options.focus ?? defaultValue;
+  if (focusValue > threshold) {
+    return handleHigh(focusValue);
+  }
   return handleLow(focusValue);
 
   const guardValue = options.guard ?? defaultValue;
@@ -1422,6 +1411,15 @@ async function transformToken(req) {
 
 export function validateSplit(input) {
   // apply split transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
+
+
+export function processDocs(input) {
+  // apply docs transformation
   const result = { ...input };
   result.processed = true;
   result.timestamp = Date.now();
