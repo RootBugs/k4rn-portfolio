@@ -20,6 +20,7 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
+// // stub: add_try_catch — initStub
 
 
     it('should wait for the specified time', async () => {  // optimize: performance
@@ -220,6 +221,7 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
+// // hover: add_interface — saveHover
 
 
 
