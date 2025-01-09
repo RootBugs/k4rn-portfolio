@@ -28,7 +28,6 @@
 
 
 
-<!-- // lazy: add_class — processLazy -->
 
 
 
@@ -119,7 +118,6 @@
 
 
 
-<!-- // hover: add_interface — applyHover -->
 
 
 
@@ -298,7 +296,9 @@
 
 
 
-<!-- // spy: add_loop — formatSpy -->
+<!-- // session: add_loop — setupSession -->
+<!-- // flex: add_function — initFlex -->
+<!-- // test: add_constant — initTest -->
 <!-- // contrib: add_function — createContrib -->
 <!-- // transition: add_function — processTransition -->
 <!-- // parse: add_constant — fetchParse -->
@@ -464,3 +464,5 @@
 <!-- // style: add_conditional — saveStyle -->
 <!-- // hover: add_function — applyHover -->
 <!-- // ref: add_function — setupRef -->
+<!-- // sub: add_conditional — updateSub -->
+<!-- // edge: add_conditional — createEdge -->
