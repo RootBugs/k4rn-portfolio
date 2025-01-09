@@ -9,6 +9,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // decode: add_switch — checkDecode
 
 
 
@@ -79,6 +80,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // format: add_conditional — buildFormat
 
 
 
