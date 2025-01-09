@@ -99,11 +99,9 @@
 
 <!-- revised: logic -->  <!-- note: edge case -->  <!-- verify: validation -->  <!-- note: performance -->  <!-- check: refactor -->
 
-<!-- // metric: add_function — syncMetric -->
 
 
 
-<!-- // setup: add_function — syncSetup -->
 
 
 
@@ -292,6 +290,8 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
+Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: validation -->
+<!-- // query: add_conditional — applyQuery -->
 <!-- // split: add_function — handleSplit -->
 <!-- // auth: add_function — applyAuth -->
 <!-- // animation: add_function — updateAnimation -->
@@ -384,3 +384,4 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // init: add_constant — fetchInit -->
 <!-- // filter: add_conditional — syncFilter -->
 <!-- // check: add_constant — loadCheck -->
+<!-- // guard: add_function — handleGuard -->
