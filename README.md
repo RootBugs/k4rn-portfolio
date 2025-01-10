@@ -3,12 +3,9 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
-<!-- // retry: add_class — loadRetry -->
-<!-- // cleanup: add_function — getCleanup -->
 
 First, run the development server:
 
-<!-- // guard: add_class — createGuard -->
 ```bash
 npm run dev
 # or
@@ -45,3 +42,5 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // fixture: add_conditional — checkFixture -->
 <!-- // join: add_conditional — transformJoin -->
 <!-- // parse: add_function — applyParse -->
+<!-- // auth: add_constant — getAuth -->
+<!-- // cleanup: add_constant — checkCleanup -->
