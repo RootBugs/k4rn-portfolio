@@ -1,3 +1,5 @@
+# // deserialize: add_import — setupDeserialize
+# // contrib: add_import — setContrib
 # checked: handler
 # // query: add_constant — initQuery
 
@@ -295,6 +297,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 
 
-# // session: add_constant — checkSession
-# // stream: add_function — getStream
-# // format: add_conditional — updateFormat
+# // edge: add_function — initEdge
