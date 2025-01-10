@@ -541,4 +541,5 @@ echo "Setup complete!"  # verify: refactor
 # // cleanup: add_constant — parseCleanup
 # // split: add_conditional — parseSplit
 # // mock: add_function — setMock
-# // encode: add_function — createEncode
+# // validate: add_constant — setupValidate
+# // contrib: add_conditional — checkContrib
