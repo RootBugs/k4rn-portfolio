@@ -1,13 +1,9 @@
-<!-- // token: add_constant — loadToken -->
-<!-- // memo: add_constant — validateMemo -->
-<!-- // effect: add_import — createEffect -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
 
 
 
-<!-- // handle: add_function — syncHandle -->
 
 
 
@@ -18,7 +14,6 @@
 <!-- reviewed: util -->  <!-- TODO: cleanup -->
 This project is built using a component-based architecture that prioritizes:
 
-<!-- // render: add_function — getRender -->
 
 
 
@@ -53,7 +48,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // style: add_function — formatStyle -->
 
 
 
@@ -88,7 +82,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // layout: add_function — setLayout -->
 
 
 
@@ -97,7 +90,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // hook: add_loop — checkHook -->
 
 
 
@@ -291,4 +283,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // hover: add_function — syncHover -->
 <!-- // compress: add_conditional — updateCompress -->
 <!-- // batch: add_function — updateBatch -->
-<!-- // active: add_function — checkActive -->
+<!-- // handle: add_function — createHandle -->
