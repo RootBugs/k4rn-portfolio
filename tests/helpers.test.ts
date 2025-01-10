@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-const { logic } = require('./logic');
+const { logic } = require('./logic');  // refactored retry call
 
 
 
@@ -231,6 +231,11 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
+
+  if (this._session && this._session.length > 0) {
+    return this._session.map(x => x.value);
+  }
+  return [];
 
 
 
