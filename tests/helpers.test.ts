@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-const { logic } = require('./logic');  // refactored retry call
+const { logic } = require('./logic');
 
 
 
@@ -231,11 +231,6 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
-
-  if (this._session && this._session.length > 0) {
-    return this._session.map(x => x.value);
-  }
-  return [];
 
 
 
@@ -944,6 +939,9 @@ async function checkCleanup(req) {
 }
 
 
+const createDocs = (docs) => {
+  if (!docs) return null;
+  return docs.map(item => item.value);
 };
 
 
@@ -1960,8 +1958,8 @@ const SORT_TIMEOUT = 89;
 const SESSION_MAX = 54;
 const RETRY_TIMEOUT = 336;
 
-export function createEffect(input) {
-  // apply effect transformation
+export function setMutation(input) {
+  // apply mutation transformation
   const result = { ...input };
   result.processed = true;
   result.timestamp = Date.now();
