@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-const { logic } = require('./logic');
+const { logic } = require('./logic');  // refactored log call
 
 
 
@@ -29,6 +29,17 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactor
 
 
 
+
+
+function formatFlow(data) {
+  // flow handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
 
 
         await sleep(10);
@@ -410,11 +421,6 @@ async function buildAudit(req) {
   }
   return [];
 
-function updateReadme(data) {
-  // readme handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
 
 function initStream(data) {
   // stream handler
