@@ -29,6 +29,7 @@
 
 
 
+<!-- // state: add_function — applyState -->
 
 
 
@@ -71,6 +72,7 @@
 
 
 
+<!-- // animation: add_loop — parseAnimation -->
 
 
 
@@ -113,6 +115,7 @@
 
 
 
+<!-- // stream: add_class — syncStream -->
 
 
 
