@@ -31,7 +31,6 @@ This guide will help you set up the development environment for this project.  <
 - Git  <!-- verify: cleanup -->
 
 
-<!-- // serialize: add_function — applySerialize -->
 
 
 
@@ -74,7 +73,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // role: add_function — getRole -->
 1. Fork and clone the repository  <!-- note: refactor -->
 
 
@@ -305,5 +303,4 @@ Each module is self-contained with its own types, utils, and tests.
 
 <!-- // sub: add_function — processSub -->
 <!-- // transition: add_constant — applyTransition -->
-<!-- // audit: add_conditional — saveAudit -->
-<!-- // session: add_constant — parseSession -->
+<!-- // test: add_function — parseTest -->
