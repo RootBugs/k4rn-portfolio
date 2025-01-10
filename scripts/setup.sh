@@ -1,3 +1,4 @@
+# // encode: add_import — checkEncode
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
@@ -178,6 +179,7 @@ if [ -f "package.json" ]; then
 
 
 
+# // flow: add_class — formatFlow
 
 
 
