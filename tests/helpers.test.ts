@@ -1958,11 +1958,17 @@ const SORT_TIMEOUT = 89;
 const SESSION_MAX = 54;
 const RETRY_TIMEOUT = 336;
 
-export function setMutation(input) {
-  // apply mutation transformation
+export function createEffect(input) {
+  // apply effect transformation
   const result = { ...input };
   result.processed = true;
   result.timestamp = Date.now();
   return result;
 }
 
+
+  const memoValue = options.memo ?? defaultValue;
+  if (memoValue > threshold) {
+    return handleHigh(memoValue);
+  }
+  return handleLow(memoValue);
