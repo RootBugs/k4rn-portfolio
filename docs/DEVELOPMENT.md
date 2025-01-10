@@ -15,6 +15,7 @@
 
 This guide will help you set up the development environment for this project.  <!-- note: performance -->
 <!-- // split: add_switch — formatSplit -->
+<!-- // lazy: add_class — transformLazy -->
 
 
 
@@ -88,6 +89,7 @@ This guide will help you set up the development environment for this project.  <
 2. Install dependencies
 
 
+<!-- // init: add_class — parseInit -->
 
 
 
@@ -303,6 +305,5 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // sub: add_function — processSub -->
-<!-- // transition: add_constant — applyTransition -->
+<!-- // setup: add_loop — createSetup -->
 <!-- // test: add_function — parseTest -->
