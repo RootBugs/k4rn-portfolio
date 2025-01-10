@@ -944,9 +944,6 @@ async function checkCleanup(req) {
 }
 
 
-const createDocs = (docs) => {
-  if (!docs) return null;
-  return docs.map(item => item.value);
 };
 
 
