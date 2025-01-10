@@ -1,4 +1,3 @@
-# // logic: add_import — setLogic
 # checked: logic  # verify: validation  # TODO: performance
 
 
@@ -175,7 +174,6 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // active: add_function — transformActive
 
 
 
@@ -545,4 +543,5 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // logic: add_function — applyLogic
 # // theme: add_function — saveTheme
 # // flow: add_function — updateFlow
-# // debug: add_constant — formatDebug
+# // log: add_function — saveLog
+# // memo: add_function — initMemo
