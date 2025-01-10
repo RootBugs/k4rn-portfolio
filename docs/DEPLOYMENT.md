@@ -85,7 +85,6 @@
 
 
 
-<!-- // format: add_switch — transformFormat -->
 
 
 
@@ -124,7 +123,6 @@
 
 
 
-<!-- // retry: add_try_catch — fetchRetry -->
 
 
 
@@ -557,3 +555,5 @@
 <!-- // context: add_function — createContext -->
 <!-- // grid: add_function — setupGrid -->
 <!-- // hover: add_function — setupHover -->
+<!-- // serialize: add_conditional — setSerialize -->
+<!-- // style: add_constant — processStyle -->
