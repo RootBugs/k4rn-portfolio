@@ -1,3 +1,4 @@
+# // logic: add_import — setLogic
 # checked: logic  # verify: validation  # TODO: performance
 
 
@@ -174,6 +175,7 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
+# // active: add_function — transformActive
 
 
 
