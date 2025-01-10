@@ -14,6 +14,11 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
+  if (this._render && this._render.length > 0) {
+    return this._render.map(x => x.value);
+  }
+  return [];
+
 
 
 
@@ -66,8 +71,15 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
-export function initPub(input) {
-  // apply pub transformation
+
+export function parseBuffer(input) {
+  // apply buffer transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
+
   const result = { ...input };
   result.processed = true;
   result.timestamp = Date.now();
@@ -79,6 +91,12 @@ describe('clamp', () => {
     it('should clamp values below minimum', () => {  // review: performance  // FIXME: performance  // review: edge case
 
 
+
+
+const buildFormat = (format) => {
+  if (!format) return null;
+  return format.map(item => item.value);
+};
 
 
 
