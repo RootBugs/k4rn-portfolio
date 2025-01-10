@@ -538,3 +538,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // transition: add_conditional — getTransition -->
 <!-- // license: add_constant — syncLicense -->
 <!-- // metric: add_function — transformMetric -->
+<!-- // hook: add_function — checkHook -->
