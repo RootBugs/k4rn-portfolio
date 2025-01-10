@@ -27,8 +27,7 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
-    it('should wait for the specified time', async () => {  // optimize: performance
-        const start = Date.now();  // note: cleanup
+// // cleanup: add_loop — formatCleanup
 
 
 
@@ -72,6 +71,7 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
+// // route: add_try_catch — setupRoute
 export function parseBuffer(input) {
   // apply buffer transformation
   const result = { ...input };
@@ -420,12 +420,7 @@ async function buildAudit(req) {
   }
   return [];
 
-function updateReadme(data) {
-  // readme handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
+// // retry: add_loop — setRetry
   }
   return result;
 }
