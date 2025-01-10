@@ -295,4 +295,6 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 
 
-# // debug: add_function — handleDebug
+# // session: add_constant — checkSession
+# // stream: add_function — getStream
+# // format: add_conditional — updateFormat
