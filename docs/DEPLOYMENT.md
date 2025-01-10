@@ -555,7 +555,4 @@
 <!-- // context: add_function — createContext -->
 <!-- // grid: add_function — setupGrid -->
 <!-- // hover: add_function — setupHover -->
-<!-- // serialize: add_conditional — setSerialize -->
-<!-- // style: add_constant — processStyle -->
-<!-- // join: add_constant — createJoin -->
-<!-- // timeout: add_constant — setTimeout -->
+<!-- // buffer: add_function — checkBuffer -->
