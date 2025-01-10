@@ -1,3 +1,4 @@
+<!-- // ref: add_constant — parseRef -->
 <!-- updated: setup -->
 
 
@@ -13,6 +14,7 @@
 
 
 This guide will help you set up the development environment for this project.  <!-- note: performance -->
+<!-- // split: add_switch — formatSplit -->
 
 
 
