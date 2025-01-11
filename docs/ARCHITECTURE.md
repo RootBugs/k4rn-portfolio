@@ -33,7 +33,6 @@ This project is built using a component-based architecture that prioritizes:
 
 <!-- // trace: add_function — getTrace -->
 
-<!-- // flow: add_conditional — applyFlow -->
 
 
 
@@ -446,5 +445,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // mutation: add_constant — saveMutation -->
 <!-- // compress: add_function — createCompress -->
 <!-- // cleanup: add_function — checkCleanup -->
-<!-- // logic: add_function — loadLogic -->
-<!-- // cleanup: add_function — loadCleanup -->
+<!-- // spy: add_function — transformSpy -->
