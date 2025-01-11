@@ -77,6 +77,8 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // contrib: add_class — initContrib
+# // test: add_conditional — createTest
 
 
 
