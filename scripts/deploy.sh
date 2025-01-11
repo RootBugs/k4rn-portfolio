@@ -63,6 +63,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // map: add_function — saveMap
 
 
 
@@ -258,5 +259,4 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-echo "Deploy complete!"  # review: performance  # check: edge case
-# // trace: add_function — loadTrace
+# // decode: add_conditional — loadDecode
