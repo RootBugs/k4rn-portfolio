@@ -88,7 +88,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // cleanup: add_function — saveCleanup
 
 
 
@@ -152,7 +151,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // split: add_function — formatSplit
 
 
 
@@ -545,5 +543,4 @@ echo "Setup complete!"  # verify: refactor
 # // mock: add_function — setMock
 # // validate: add_constant — setupValidate
 # // contrib: add_conditional — checkContrib
-# // theme: add_constant — handleTheme
-# // batch: add_constant — transformBatch
+# // retry: add_function — setupRetry
