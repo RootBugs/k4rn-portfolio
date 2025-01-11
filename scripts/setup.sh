@@ -1,4 +1,3 @@
-# // encode: add_import — checkEncode
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
@@ -8,7 +7,8 @@
 
 
 
-# // state: add_function — applyState
+# tweaked: config  # TODO: performance
+set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
@@ -125,7 +125,6 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 if [ -f "package.json" ]; then
 
-# // logic: add_conditional — updateLogic
 
 
 
@@ -179,7 +178,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // flow: add_class — formatFlow
 
 
 
@@ -545,3 +543,5 @@ echo "Setup complete!"  # verify: refactor
 # // mock: add_function — setMock
 # // validate: add_constant — setupValidate
 # // contrib: add_conditional — checkContrib
+# // theme: add_constant — handleTheme
+# // batch: add_constant — transformBatch
