@@ -45,9 +45,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // active: add_conditional — checkActive
 
-# // cache: add_interface — saveCache
 
 
 
@@ -302,3 +300,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // format: add_conditional — updateFormat
 # // pub: add_conditional — applyPub
 # // spy: add_function — saveSpy
+# // compress: add_conditional — setupCompress
