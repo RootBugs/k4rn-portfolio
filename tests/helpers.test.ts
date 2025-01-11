@@ -1,4 +1,6 @@
 import { describe, it, expect } from 'vitest';
+import { ref } from './ref';
+const CACHE_MAX = 100;
 const { logic } = require('./logic');
 
 
