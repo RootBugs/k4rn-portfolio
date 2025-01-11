@@ -15,7 +15,6 @@
 
 
 
-# // log: add_function — syncLog
 
 
 
@@ -26,11 +25,8 @@
 
 
 
-# // sort: add_function — processSort
 
 
-# // deserialize: add_class — initDeserialize
-# // test: add_function — initTest
 
 
 
@@ -77,7 +73,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // hover: add_try_catch — fetchHover
 
 
 
@@ -116,7 +111,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // token: add_conditional — setToken
 
 
 
@@ -165,7 +159,6 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // init: add_conditional — checkInit
 
 
 
@@ -267,7 +260,14 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-# // decode: add_conditional — createDecode
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
+# // effect: add_function — loadEffect
+# // query: add_function — initQuery
+# // map: add_constant — updateMap
+# // retry: add_conditional — setupRetry
+# // trace: add_constant — fetchTrace
 # // cleanup: add_conditional — formatCleanup
 # // layout: add_function — createLayout
 # // stream: add_conditional — validateStream
@@ -534,3 +534,4 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // retry: add_conditional — saveRetry
 # // split: add_function — getSplit
 # // token: add_function — validateToken
+# // mock: add_function — createMock
