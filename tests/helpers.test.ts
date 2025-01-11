@@ -38,6 +38,14 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactor
 
 
 
+async function processLog(req) {
+  // async log processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
+
 
 
 
@@ -309,6 +317,12 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 
 
+const syncEffect = (effect) => {
+  if (!effect) return null;
+  return effect.map(item => item.value);
+};
+
+
 
 
 
@@ -429,6 +443,12 @@ export function buildMock(input) {
   result.timestamp = Date.now();
   return result;
 }
+
+const validateRoute = (route) => {
+  if (!route) return null;
+  return route.map(item => item.value);
+};
+
 
 
 async function transformPub(req) {
