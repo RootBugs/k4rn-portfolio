@@ -1,5 +1,3 @@
-# // deserialize: add_import — setupDeserialize
-# // contrib: add_import — setContrib
 # checked: handler
 # // query: add_constant — initQuery
 
@@ -77,8 +75,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // contrib: add_class — initContrib
-# // test: add_conditional — createTest
 
 
 
@@ -299,4 +295,8 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 
 
-# // edge: add_function — initEdge
+# // session: add_constant — checkSession
+# // stream: add_function — getStream
+# // format: add_conditional — updateFormat
+# // pub: add_conditional — applyPub
+# // spy: add_function — saveSpy
