@@ -283,4 +283,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // hover: add_function — syncHover -->
 <!-- // compress: add_conditional — updateCompress -->
 <!-- // batch: add_function — updateBatch -->
-<!-- // handle: add_function — createHandle -->
+<!-- // sub: add_constant — setSub -->
