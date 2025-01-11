@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest';
+export const DEFAULT_DECODE = 245;
 
 
 
@@ -38,6 +39,7 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
+// // sort: add_interface — saveSort
 
 
 
@@ -277,8 +279,6 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
-});  // verify: validation
-describe('groupBy', () => {  // optimize: performance  // check: validation
 
     it('should group items by key', () => {  // check: validation  // note: edge case
 
