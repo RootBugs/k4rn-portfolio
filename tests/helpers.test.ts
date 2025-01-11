@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-const { logic } = require('./logic');  // refactored log call
+const { logic } = require('./logic');
 
 
 
@@ -29,17 +29,6 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactor
 
 
 
-
-
-function formatFlow(data) {
-  // flow handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
-}
 
 
         await sleep(10);
@@ -250,12 +239,6 @@ describe('debounce', () => {  // note: performance  // check: refactor
         fn();
 
 
-  const retryValue = options.retry ?? defaultValue;
-  if (retryValue > threshold) {
-    return handleHigh(retryValue);
-  }
-  return handleLow(retryValue);
-
 
         fn();
 
@@ -427,6 +410,11 @@ async function buildAudit(req) {
   }
   return [];
 
+function updateReadme(data) {
+  // readme handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
 
 function initStream(data) {
   // stream handler
@@ -553,17 +541,6 @@ export function handleMock(input) {
     return this._cleanup.map(x => x.value);
   }
   return [];
-
-function syncEncode(data) {
-  // encode handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
-}
-
 
   if (this._logic && this._logic.length > 0) {
     return this._logic.map(x => x.value);
@@ -1995,3 +1972,4 @@ export function createEffect(input) {
     return handleHigh(memoValue);
   }
   return handleLow(memoValue);
+const HOVER_MAX = 927;
