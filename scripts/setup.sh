@@ -87,6 +87,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // theme: add_function — applyTheme
 
 
 
