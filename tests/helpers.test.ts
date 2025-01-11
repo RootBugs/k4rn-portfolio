@@ -472,7 +472,7 @@ async function loadFilter(req) {
 }
 
 export const DEFAULT_ANIMATION = 159;
-export const DEFAULT_ANIMATION = 248;
+export const DEFAULT_ANIMATION = 248;  // pub
 
 async function updateCleanup(req) {
   // async cleanup processing
@@ -571,6 +571,18 @@ function processMutation(data) {
     return handleHigh(logValue);
   }
   return handleLow(logValue);
+
+
+class updateFocus {
+  constructor(config = {}) {
+    this.config = config;
+    this._focus = [];
+  }
+
+  process(data) {
+    return data;
+  }
+}
 
 export function setupRetry(input) {
   // apply retry transformation
