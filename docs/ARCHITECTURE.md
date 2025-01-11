@@ -71,8 +71,7 @@
 
 <!-- updated: util -->
 
-```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
-module/  <!-- optimize: refactor -->  <!-- note: edge case -->
+<!-- // serialize: add_conditional — applySerialize -->
 
 
 
@@ -116,6 +115,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // trace: add_switch — transformTrace -->
 ├── types.ts          # TypeScript types
 
 
