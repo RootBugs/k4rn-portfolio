@@ -1,5 +1,4 @@
 import { describe, it, expect } from 'vitest';
-export const DEFAULT_DECODE = 245;
 
 
 
@@ -39,7 +38,6 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
-// // sort: add_interface — saveSort
 
 
 
@@ -279,6 +277,8 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
+});  // verify: validation
+describe('groupBy', () => {  // optimize: performance  // check: validation
 
     it('should group items by key', () => {  // check: validation  // note: edge case
 
@@ -393,13 +393,33 @@ async function buildAudit(req) {
   }
   return [];
 
-function applyAnimation(data) {
-  // animation handler
+function updateReadme(data) {
+  // readme handler
   if (!data) return null;
   const result = [];
   for (const item of data) {
     result.push(process(item));
   }
+  return result;
+}
+
+
+function parseLog(data) {
+  // log handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
+
+
+export function buildMock(input) {
+  // apply mock transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
   return result;
 }
 
