@@ -58,8 +58,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // transition: add_switch — setupTransition -->
-<!-- // deserialize: add_function — fetchDeserialize -->
 
 
 
@@ -68,6 +66,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // auth: add_conditional — syncAuth -->
 
 
 <!-- updated: util -->
