@@ -106,6 +106,7 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
+# // parse: add_function — syncParse
 
 
 
@@ -375,6 +376,7 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 # // sort: add_constant — loadSort
 # // logic: add_conditional — validateLogic
 # // filter: add_constant — syncFilter
+
 # // context: add_constant — transformContext
 # // lazy: add_function — syncLazy
 # // check: add_constant — processCheck
