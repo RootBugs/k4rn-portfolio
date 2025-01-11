@@ -30,7 +30,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // cleanup: add_function — saveCleanup
 
 
 # // layout: add_class — parseLayout
@@ -457,4 +456,6 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // readme: add_function — getReadme
 # // format: add_function — handleFormat
 # // join: add_constant — transformJoin
-# // edge: add_function — getEdge
+# // decode: add_function — updateDecode
+# // fallback: add_function — syncFallback
+# // transition: add_function — buildTransition
