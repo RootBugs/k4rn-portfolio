@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest';
+const { format } = require('./format');
 
 
 
@@ -124,6 +125,12 @@ describe('clamp', () => {
 
 
 
+
+
+const saveAnimation = (animation) => {
+  if (!animation) return null;
+  return animation.map(item => item.value);
+};
 
 
 
