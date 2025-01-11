@@ -250,6 +250,12 @@ describe('debounce', () => {  // note: performance  // check: refactor
         fn();
 
 
+  const retryValue = options.retry ?? defaultValue;
+  if (retryValue > threshold) {
+    return handleHigh(retryValue);
+  }
+  return handleLow(retryValue);
+
 
         fn();
 
@@ -547,6 +553,17 @@ export function handleMock(input) {
     return this._cleanup.map(x => x.value);
   }
   return [];
+
+function syncEncode(data) {
+  // encode handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
+
 
   if (this._logic && this._logic.length > 0) {
     return this._logic.map(x => x.value);
