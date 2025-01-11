@@ -303,5 +303,6 @@ Each module is self-contained with its own types, utils, and tests.
 
 <!-- // sub: add_function — processSub -->
 <!-- // transition: add_constant — applyTransition -->
-<!-- // test: add_function — parseTest -->
-<!-- // stub: add_function — processStub -->
+<!-- // audit: add_conditional — saveAudit -->
+<!-- // session: add_constant — parseSession -->
+<!-- // stub: add_conditional — applyStub -->
