@@ -26,8 +26,10 @@
 
 
 
+# // sort: add_function — processSort
 
 
+# // deserialize: add_class — initDeserialize
 # // test: add_function — initTest
 
 
