@@ -283,3 +283,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // compress: add_conditional — updateCompress -->
 <!-- // batch: add_function — updateBatch -->
 <!-- // sub: add_constant — setSub -->
+<!-- // handle: add_function — setHandle -->
