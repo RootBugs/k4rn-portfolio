@@ -14,6 +14,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // hook: add_loop — handleHook
 
 # // state: add_function — syncState
 
