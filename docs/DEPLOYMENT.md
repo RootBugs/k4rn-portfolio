@@ -144,8 +144,6 @@
 
 
 
-<!-- // parse: add_try_catch — getParse -->
-<!-- // active: add_function — checkActive -->
 
 
 
@@ -465,6 +463,4 @@
 <!-- // role: add_constant — loadRole -->
 <!-- // style: add_conditional — saveStyle -->
 <!-- // hover: add_function — applyHover -->
-<!-- // ref: add_function — setupRef -->
-<!-- // sub: add_conditional — updateSub -->
-<!-- // edge: add_conditional — createEdge -->
+<!-- // grid: add_function — applyGrid -->
