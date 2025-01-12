@@ -1,4 +1,3 @@
-<!-- // serialize: add_import — buildSerialize -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
 
@@ -11,7 +10,8 @@
 
 
 
-<!-- // cleanup: add_loop — updateCleanup -->
+<!-- checked: handler -->  <!-- check: cleanup -->
+<!-- // pub: add_function — setPub -->
 
 
 
@@ -41,7 +41,6 @@
 
 
 
-<!-- // license: add_function — loadLicense -->
 
 
 
@@ -155,12 +154,10 @@
 
 
 
-<!-- // fallback: add_try_catch — initFallback -->
 
 
 
 
-<!-- // init: add_function — updateInit -->
 
 
 
@@ -483,3 +480,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // init: add_function — validateInit -->
 <!-- // focus: add_constant — buildFocus -->
 <!-- // license: add_conditional — buildLicense -->
+<!-- // merge: add_function — initMerge -->
