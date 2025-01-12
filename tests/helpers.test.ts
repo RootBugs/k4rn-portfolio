@@ -68,6 +68,12 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 describe('clamp', () => {
 
+  const retryValue = options.retry ?? defaultValue;
+  if (retryValue > threshold) {
+    return handleHigh(retryValue);
+  }
+  return handleLow(retryValue);
+
     it('should clamp values below minimum', () => {  // review: performance  // FIXME: performance  // review: edge case
 
 
