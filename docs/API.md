@@ -112,7 +112,6 @@
 
 
 
-<!-- // format: add_function — loadFormat -->
 
 
 
@@ -574,4 +573,4 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // flow: add_conditional — syncFlow -->
 <!-- // retry: add_constant — updateRetry -->
 <!-- // buffer: add_function — setBuffer -->
-<!-- // filter: add_function — buildFilter -->
+<!-- // changelog: add_constant — applyChangelog -->
