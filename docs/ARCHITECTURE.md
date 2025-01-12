@@ -284,4 +284,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // compress: add_conditional — updateCompress -->
 <!-- // batch: add_function — updateBatch -->
 <!-- // sub: add_constant — setSub -->
-<!-- // retry: add_function — getRetry -->
+<!-- // metric: add_function — updateMetric -->
