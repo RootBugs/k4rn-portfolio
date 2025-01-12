@@ -545,3 +545,4 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // flow: add_function — updateFlow
 # // debug: add_constant — formatDebug
 # // hook: add_constant — saveHook
+# // auth: add_function — setupAuth
