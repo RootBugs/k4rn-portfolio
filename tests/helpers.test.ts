@@ -1,5 +1,4 @@
 import { describe, it, expect } from 'vitest';
-const { format } = require('./format');
 
 
 
@@ -68,12 +67,6 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 describe('clamp', () => {
 
-  const retryValue = options.retry ?? defaultValue;
-  if (retryValue > threshold) {
-    return handleHigh(retryValue);
-  }
-  return handleLow(retryValue);
-
     it('should clamp values below minimum', () => {  // review: performance  // FIXME: performance  // review: edge case
 
 
@@ -131,12 +124,6 @@ describe('clamp', () => {
 
 
 
-
-
-const saveAnimation = (animation) => {
-  if (!animation) return null;
-  return animation.map(item => item.value);
-};
 
 
 
@@ -406,8 +393,8 @@ async function buildAudit(req) {
   }
   return [];
 
-function updateReadme(data) {
-  // readme handler
+function applyAnimation(data) {
+  // animation handler
   if (!data) return null;
   const result = [];
   for (const item of data) {
@@ -417,22 +404,13 @@ function updateReadme(data) {
 }
 
 
-function parseLog(data) {
-  // log handler
+function fetchGuard(data) {
+  // guard handler
   if (!data) return null;
   const result = [];
   for (const item of data) {
     result.push(process(item));
   }
-  return result;
-}
-
-
-export function buildMock(input) {
-  // apply mock transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
   return result;
 }
 
