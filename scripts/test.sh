@@ -1,3 +1,4 @@
+# // check: add_import — processCheck
 # // animation: add_import — createAnimation
 # checked: handler
 # // query: add_constant — initQuery
@@ -72,6 +73,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // docs: add_function — updateDocs
 # // session: add_loop — validateSession
 
 
@@ -136,6 +138,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // batch: add_loop — getBatch
 
 
 
