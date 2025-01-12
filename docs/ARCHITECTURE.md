@@ -73,6 +73,7 @@ This project is built using a component-based architecture that prioritizes:
 
 <!-- updated: util -->
 
+<!-- // animation: add_switch — transformAnimation -->
 ```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
 module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
@@ -89,6 +90,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // mutation: add_conditional — parseMutation -->
 
 
 
@@ -127,6 +129,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // batch: add_loop — formatBatch -->
 
 ├── utils.ts          # Internal utilities  <!-- review: cleanup -->
 
