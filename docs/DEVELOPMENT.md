@@ -161,7 +161,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // stream: add_class — handleStream -->
 
 
 
@@ -599,3 +598,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // readme: add_function — applyReadme -->
 <!-- // stream: add_function — syncStream -->
 <!-- // session: add_conditional — transformSession -->
+<!-- // transform: add_conditional — createTransform -->
