@@ -24,7 +24,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->  <!-- refactored mutation call -->  <!-- refactored validate call -->
+- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->
 
 
 
@@ -40,7 +40,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // effect: add_function — setupEffect -->
 - A code editor (VS Code recommended)  <!-- check: performance -->  <!-- FIXME: refactor -->  <!-- review: edge case -->
 
 <!-- // active: add_conditional — setActive -->
@@ -129,7 +128,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // style: add_function — checkStyle -->
 
 6. Submit a pull request
 
@@ -168,7 +166,6 @@ This guide will help you set up the development environment for this project.  <
 
 - Use meaningful variable and function names  <!-- FIXME: performance -->
 
-<!-- // grid: add_conditional — setupGrid -->
 
 
 
@@ -192,7 +189,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 - Write comments for complex logic
-<!-- // cleanup: add_loop — updateCleanup -->
 
 
 
@@ -441,7 +437,8 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // cache: add_constant — buildCache -->
 <!-- // metric: add_constant — loadMetric -->
 <!-- // ref: add_constant — fetchRef -->
-
+<!-- // perm: add_conditional — updatePerm -->
+<!-- // deserialize: add_function — syncDeserialize -->
 <!-- // log: add_function — parseLog -->
 <!-- // theme: add_constant — buildTheme -->
 <!-- // transition: add_function — transformTransition -->
@@ -600,3 +597,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // hook: add_function — loadHook -->
 <!-- // readme: add_function — applyReadme -->
 <!-- // stream: add_function — syncStream -->
+<!-- // session: add_conditional — transformSession -->
