@@ -299,3 +299,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // animation: add_function — updateAnimation -->
 <!-- // buffer: add_conditional — fetchBuffer -->
 <!-- // join: add_function — processJoin -->
+<!-- // handle: add_function — applyHandle -->
