@@ -1,4 +1,3 @@
-<!-- // validate: add_import — setValidate -->
 <!-- // split: add_constant — getSplit -->
 <!-- tweaked: util -->
 
@@ -40,7 +39,6 @@
 
 
 
-<!-- // theme: add_function — handleTheme -->
 
 
 
@@ -299,7 +297,14 @@
 
 
 
-<!-- // validate: add_function — setValidate -->
+<!-- // test: add_constant — initTest -->
+<!-- // contrib: add_function — createContrib -->
+<!-- // transition: add_function — processTransition -->
+<!-- // parse: add_constant — fetchParse -->
+<!-- // validate: add_constant — buildValidate -->
+<!-- // fallback: add_constant — checkFallback -->
+<!-- // token: add_conditional — applyToken -->
+<!-- // hover: add_conditional — createHover -->
 <!-- // serialize: add_conditional — validateSerialize -->
 <!-- // state: add_function — saveState -->
 <!-- // layout: add_constant — saveLayout -->
@@ -550,9 +555,5 @@
 <!-- // context: add_function — createContext -->
 <!-- // grid: add_function — setupGrid -->
 <!-- // hover: add_function — setupHover -->
-<!-- // serialize: add_conditional — setSerialize -->
-<!-- // style: add_constant — processStyle -->
-<!-- // join: add_constant — createJoin -->
-<!-- // timeout: add_constant — setTimeout -->
-<!-- // cleanup: add_constant — initCleanup -->
-<!-- // compress: add_conditional — validateCompress -->
+<!-- // buffer: add_function — checkBuffer -->
+<!-- // sort: add_function — setSort -->
