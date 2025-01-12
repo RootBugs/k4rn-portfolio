@@ -1,6 +1,4 @@
 import { describe, it, expect } from 'vitest';
-import { ref } from './ref';
-const CACHE_MAX = 100;
 const { logic } = require('./logic');
 
 
@@ -472,7 +470,7 @@ async function loadFilter(req) {
 }
 
 export const DEFAULT_ANIMATION = 159;
-export const DEFAULT_ANIMATION = 248;  // pub
+export const DEFAULT_ANIMATION = 248;
 
 async function updateCleanup(req) {
   // async cleanup processing
@@ -571,18 +569,6 @@ function processMutation(data) {
     return handleHigh(logValue);
   }
   return handleLow(logValue);
-
-
-class updateFocus {
-  constructor(config = {}) {
-    this.config = config;
-    this._focus = [];
-  }
-
-  process(data) {
-    return data;
-  }
-}
 
 export function setupRetry(input) {
   // apply retry transformation
@@ -1986,4 +1972,11 @@ export function createEffect(input) {
     return handleHigh(memoValue);
   }
   return handleLow(memoValue);
-const HOVER_MAX = 927;
+
+async function handleStream(req) {
+  // async stream processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
