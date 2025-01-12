@@ -83,7 +83,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // deserialize: add_function — getDeserialize
 
 
 
@@ -127,7 +126,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 echo "Building project..."  # TODO: performance  # review: performance  # verify: cleanup  # check: validation
 
-# // memo: add_function — loadMemo
 
 
 
@@ -262,6 +260,9 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
 # // effect: add_function — loadEffect
 # // query: add_function — initQuery
 # // map: add_constant — updateMap
@@ -441,3 +442,5 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // mutation: add_constant — fetchMutation
 # // stub: add_function — buildStub
 # // query: add_function — handleQuery
+# // buffer: add_constant — fetchBuffer
+# // split: add_function — validateSplit
