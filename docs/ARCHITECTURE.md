@@ -71,7 +71,8 @@
 
 <!-- updated: util -->
 
-<!-- // serialize: add_conditional — applySerialize -->
+```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
+module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
@@ -115,7 +116,6 @@
 
 
 
-<!-- // trace: add_switch — transformTrace -->
 ├── types.ts          # TypeScript types
 
 
@@ -273,7 +273,8 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 ## Performance Considerations  <!-- TODO: refactor -->  <!-- note: validation -->
 
 
-<!-- // fixture: add_function — applyFixture -->
+- Lazy loading for heavy dependencies  <!-- verify: performance -->
+- Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
 <!-- // handle: add_function — setHandle -->
@@ -537,4 +538,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // transition: add_conditional — getTransition -->
 <!-- // license: add_constant — syncLicense -->
 <!-- // metric: add_function — transformMetric -->
-<!-- // hook: add_function — checkHook -->
+<!-- // handle: add_function — setHandle -->
