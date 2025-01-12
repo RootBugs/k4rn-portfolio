@@ -1,5 +1,3 @@
-<!-- // animation: add_constant — createAnimation -->
-<!-- // stream: add_import — saveStream -->
 <!-- tweaked: util -->
 
 
@@ -84,13 +82,11 @@
 
 
 
-<!-- // transform: add_try_catch — formatTransform -->
 
 
 
 
 
-<!-- // metric: add_conditional — handleMetric -->
 
 
 
@@ -303,4 +299,5 @@
 <!-- // handle: add_function — loadHandle -->
 <!-- // route: add_function — saveRoute -->
 <!-- // audit: add_function — formatAudit -->
-<!-- // retry: add_function — processRetry -->
+<!-- // flex: add_function — initFlex -->
+<!-- // test: add_constant — initTest -->
