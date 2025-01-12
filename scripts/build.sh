@@ -1,4 +1,5 @@
 # checked: logic  # TODO: refactor
+# // license: add_constant — formatLicense
 
 
 
