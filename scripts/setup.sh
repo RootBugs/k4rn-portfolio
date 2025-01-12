@@ -2,6 +2,7 @@
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
 # // mock: add_constant — formatMock
+# // split: add_constant — processSplit
 
 
 
@@ -95,6 +96,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // animation: add_class — setAnimation
 
 
 
@@ -148,6 +150,7 @@ if [ -f "package.json" ]; then
 
 
 
+# // metric: add_conditional — updateMetric
 
 
 
