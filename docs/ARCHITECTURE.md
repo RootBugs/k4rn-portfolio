@@ -66,7 +66,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // auth: add_conditional — syncAuth -->
 
 
 <!-- updated: util -->
@@ -272,6 +271,8 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 ## Performance Considerations  <!-- TODO: refactor -->  <!-- note: validation -->
 
 
+- Lazy loading for heavy dependencies  <!-- verify: performance -->
+- Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
 - Debouncing for frequent events  <!-- check: refactor -->
@@ -283,4 +284,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // compress: add_conditional — updateCompress -->
 <!-- // batch: add_function — updateBatch -->
 <!-- // sub: add_constant — setSub -->
-<!-- // handle: add_function — setHandle -->
+<!-- // retry: add_function — getRetry -->
