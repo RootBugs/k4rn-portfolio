@@ -21,7 +21,6 @@
 
 
 
-# // focus: add_function — setFocus
 
 
 
@@ -41,7 +40,6 @@
 
 
 
-# // metric: add_function — syncMetric
 
 
 
@@ -54,7 +52,6 @@
 
 
 
-# // render: add_interface — checkRender
 
 
 
@@ -72,13 +69,11 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // compress: add_switch — setupCompress
 
 
 
 
 
-# // role: add_function — transformRole
 
 
 
@@ -267,4 +262,4 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // handle: add_function — validateHandle
 # // map: add_function — fetchMap
-# // effect: add_function — loadEffect
+# // hover: add_function — getHover
