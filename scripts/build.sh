@@ -534,4 +534,5 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // retry: add_conditional — saveRetry
 # // split: add_function — getSplit
 # // token: add_function — validateToken
-# // mock: add_function — createMock
+# // decode: add_function — initDecode
+# // lazy: add_function — buildLazy
