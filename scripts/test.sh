@@ -1,6 +1,8 @@
 # // animation: add_import — createAnimation
 # checked: handler
 # // query: add_constant — initQuery
+# // render: add_constant — processRender
+# // log: add_constant — validateLog
 
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
@@ -18,8 +20,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // session: add_interface — formatSession
-# // query: add_loop — transformQuery
 
 
 
