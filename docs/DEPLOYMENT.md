@@ -1,3 +1,4 @@
+<!-- // validate: add_import — setValidate -->
 <!-- // split: add_constant — getSplit -->
 <!-- tweaked: util -->
 
@@ -297,9 +298,6 @@
 
 
 
-<!-- // test: add_constant — initTest -->
-<!-- // contrib: add_function — createContrib -->
-<!-- // transition: add_function — processTransition -->
 <!-- // parse: add_constant — fetchParse -->
 <!-- // validate: add_constant — buildValidate -->
 <!-- // fallback: add_constant — checkFallback -->
