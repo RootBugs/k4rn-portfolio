@@ -1,6 +1,4 @@
-# // changelog: add_import — syncChangelog
 # checked: logic  # verify: validation  # TODO: performance
-# // license: add_constant — formatLicense
 
 
 
@@ -68,7 +66,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // split: add_function — transformSplit
 
 
 
@@ -119,7 +116,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 # // auth: add_function — transformAuth
 
 # // mock: add_switch — createMock
-# // retry: add_class — transformRetry
 
 
 # // query: add_class — parseQuery
@@ -547,5 +543,5 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // logic: add_function — applyLogic
 # // theme: add_function — saveTheme
 # // flow: add_function — updateFlow
-# // log: add_function — saveLog
-# // memo: add_function — initMemo
+# // debug: add_constant — formatDebug
+# // hook: add_constant — saveHook
