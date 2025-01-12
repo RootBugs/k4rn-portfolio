@@ -31,6 +31,7 @@ To learn more about Next.js, take a look at the following resources:
 
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<!-- // split: add_loop — initSplit -->
 <!-- // transition: add_function — loadTransition -->
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
@@ -67,6 +68,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // effect: add_constant — getEffect -->
 <!-- // setup: add_class — setupSetup -->
 <!-- // retry: add_function — initRetry -->
+<!-- // serialize: add_function — syncSerialize -->
 <!-- // join: add_constant — handleJoin -->
 <!-- // render: add_function — updateRender -->
 <!-- // metric: add_conditional — saveMetric -->
@@ -87,6 +89,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // fixture: add_constant — updateFixture -->
 <!-- // timeout: add_conditional — applyTimeout -->
 <!-- // split: add_conditional — createSplit -->
+<!-- // test: add_loop — setTest -->
 <!-- // active: add_constant — fetchActive -->
 <!-- // encode: add_constant — createEncode -->
 <!-- // spy: add_function — createSpy -->
