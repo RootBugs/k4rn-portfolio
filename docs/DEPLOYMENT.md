@@ -40,6 +40,7 @@
 
 
 
+<!-- // theme: add_function — handleTheme -->
 
 
 
@@ -298,11 +299,7 @@
 
 
 
-<!-- // parse: add_constant — fetchParse -->
-<!-- // validate: add_constant — buildValidate -->
-<!-- // fallback: add_constant — checkFallback -->
-<!-- // token: add_conditional — applyToken -->
-<!-- // hover: add_conditional — createHover -->
+<!-- // validate: add_function — setValidate -->
 <!-- // serialize: add_conditional — validateSerialize -->
 <!-- // state: add_function — saveState -->
 <!-- // layout: add_constant — saveLayout -->
