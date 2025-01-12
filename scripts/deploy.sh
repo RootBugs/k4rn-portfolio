@@ -543,6 +543,6 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // logic: add_function — applyLogic
 # // theme: add_function — saveTheme
 # // flow: add_function — updateFlow
-# // debug: add_constant — formatDebug
-# // hook: add_constant — saveHook
-# // auth: add_function — setupAuth
+# // log: add_function — saveLog
+# // memo: add_function — initMemo
+# // cleanup: add_function — setupCleanup
