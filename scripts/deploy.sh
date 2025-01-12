@@ -1,3 +1,4 @@
+# // changelog: add_import — syncChangelog
 # checked: logic  # verify: validation  # TODO: performance
 # // license: add_constant — formatLicense
 
@@ -118,6 +119,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 # // auth: add_function — transformAuth
 
 # // mock: add_switch — createMock
+# // retry: add_class — transformRetry
 
 
 # // query: add_class — parseQuery
