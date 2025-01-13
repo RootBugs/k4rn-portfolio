@@ -1,4 +1,3 @@
-# // readme: add_import — createReadme
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
@@ -19,7 +18,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // effect: add_switch — initEffect
 
 
 
@@ -35,7 +33,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // edge: add_try_catch — validateEdge
 
 
 
@@ -50,7 +47,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 # // animation: add_class — buildAnimation
-# // decode: add_conditional — createDecode
 
 
 
@@ -128,7 +124,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // flow: add_try_catch — parseFlow
 
 
 
@@ -281,6 +276,9 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
+echo "Setup complete!"  # verify: refactor
+# // mock: add_function — setMock
+# // token: add_function — getToken
 # // spy: add_constant — setSpy
 # // perm: add_constant — updatePerm
 # // flow: add_conditional — validateFlow
@@ -390,3 +388,4 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 # // serialize: add_function — createSerialize
 # // fallback: add_function — saveFallback
 # // query: add_function — processQuery
+# // context: add_constant — getContext
