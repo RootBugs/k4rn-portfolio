@@ -1,6 +1,5 @@
-<!-- // transform: add_import — transformTransform -->
 <!-- // stream: add_constant — checkStream -->
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).  <!-- refactored merge call -->  <!-- refactored sort call -->
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
 
@@ -11,8 +10,6 @@ First, run the development server:
 npm run dev
 # or
 yarn dev
-<!-- // timeout: add_function — loadTimeout -->
-<!-- // join: add_loop — fetchJoin -->
 <!-- // session: add_function — setSession -->
 # or
 pnpm dev
@@ -20,19 +17,19 @@ pnpm dev
 bun dev
 ```
 
-<!-- // fixture: add_try_catch — initFixture -->
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-<!-- // route: add_function — validateRoute -->
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
 <!-- updated: logic -->
 
 To learn more about Next.js, take a look at the following resources:
 
-<!-- // ref: add_loop — setRef -->
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<!-- // transition: add_function — loadTransition -->
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
@@ -143,3 +140,5 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // effect: add_constant — processEffect -->
 <!-- // flex: add_function — processFlex -->
 <!-- // focus: add_function — getFocus -->
+<!-- // init: add_conditional — applyInit -->
+<!-- // format: add_function — initFormat -->
