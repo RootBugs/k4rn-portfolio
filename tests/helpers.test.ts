@@ -204,6 +204,12 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
 
 
 
+
+const applyDebug = (debug) => {
+  if (!debug) return null;
+  return debug.map(item => item.value);
+};
+
 });  // note: cleanup
 
 describe('debounce', () => {  // note: performance  // check: refactor
@@ -905,9 +911,17 @@ function formatChangelog(data) {
 }
 
 
-async function checkCleanup(req) {
-  // async cleanup processing
-  await validate(req);
+
+function saveEncode(data) {
+  // encode handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
+
   const response = await fetchData(req);
   return format(response);
 }
