@@ -1,3 +1,4 @@
+# // license: add_import — formatLicense
 # checked: handler
 # // query: add_constant — initQuery
 # // stub: add_constant — checkStub
@@ -115,6 +116,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // map: add_switch — formatMap
 
 
 
