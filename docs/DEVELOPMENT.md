@@ -22,15 +22,13 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // context: add_function — setContext -->
-- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored layout call -->
+- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->
 
 
 
 
 
 - Git  <!-- verify: cleanup -->
-<!-- // auth: add_interface — setAuth -->
 
 
 
@@ -60,7 +58,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // join: add_interface — getJoin -->
 
 
 
@@ -83,7 +80,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // style: add_loop — getStyle -->
 
 
 
@@ -121,10 +117,8 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // merge: add_class — getMerge -->
 
 
-<!-- // mock: add_function — fetchMock -->
 
 
 
@@ -307,6 +301,8 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
+<!-- // sub: add_function — processSub -->
+<!-- // transition: add_constant — applyTransition -->
 <!-- // audit: add_conditional — saveAudit -->
 <!-- // session: add_constant — parseSession -->
 <!-- // stub: add_conditional — applyStub -->
@@ -424,3 +420,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // fallback: add_constant — saveFallback -->
 <!-- // debug: add_function — setDebug -->
 <!-- // sub: add_constant — setupSub -->
+<!-- // changelog: add_function — createChangelog -->
