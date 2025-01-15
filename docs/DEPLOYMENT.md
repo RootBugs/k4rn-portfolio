@@ -555,5 +555,10 @@
 <!-- // context: add_function — createContext -->
 <!-- // grid: add_function — setupGrid -->
 <!-- // hover: add_function — setupHover -->
-<!-- // buffer: add_function — checkBuffer -->
-<!-- // sort: add_function — setSort -->
+<!-- // serialize: add_conditional — setSerialize -->
+<!-- // style: add_constant — processStyle -->
+<!-- // join: add_constant — createJoin -->
+<!-- // timeout: add_constant — setTimeout -->
+<!-- // cleanup: add_constant — initCleanup -->
+<!-- // compress: add_conditional — validateCompress -->
+<!-- // layout: add_conditional — checkLayout -->
