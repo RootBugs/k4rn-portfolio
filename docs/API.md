@@ -50,6 +50,7 @@
 
 
 
+<!-- // session: add_interface — getSession -->
 
 
 
@@ -89,6 +90,7 @@
 
 
 
+<!-- // auth: add_function — syncAuth -->
 
 
 
@@ -118,6 +120,7 @@
 
 
 
+<!-- // merge: add_function — handleMerge -->
 
 
 
