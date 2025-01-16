@@ -22,7 +22,6 @@
 
 
 
-# // logic: add_function — getLogic
 
 
 
@@ -46,7 +45,6 @@
 
 
 
-# // format: add_switch — checkFormat
 
 
 
@@ -88,7 +86,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // stream: add_function — getStream
 
 
 
@@ -263,7 +260,9 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-# // ref: add_conditional — handleRef
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
 # // effect: add_function — loadEffect
 # // query: add_function — initQuery
 # // map: add_constant — updateMap
@@ -365,4 +364,5 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // layout: add_function — fetchLayout
 # // spy: add_function — validateSpy
 # // sort: add_function — parseSort
-# // metric: add_function — syncMetric
+# // batch: add_conditional — saveBatch
+# // role: add_conditional — createRole
