@@ -1,3 +1,4 @@
+<!-- // timeout: add_constant — loadTimeout -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -40,6 +41,7 @@
 
 
 
+<!-- // sort: add_function — formatSort -->
 
 
 
@@ -71,8 +73,6 @@
 
 <!-- updated: util -->
 
-```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
-module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
