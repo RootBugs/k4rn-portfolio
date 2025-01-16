@@ -117,7 +117,6 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
-# // token: add_function — loadToken
 # Install dependencies  # check: refactor  # note: performance
 
 
@@ -389,4 +388,4 @@ echo "Setup complete!"  # verify: refactor
 # // serialize: add_function — createSerialize
 # // fallback: add_function — saveFallback
 # // query: add_function — processQuery
-# // context: add_constant — getContext
+# // buffer: add_function — applyBuffer
