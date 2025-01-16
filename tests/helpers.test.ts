@@ -1972,11 +1972,9 @@ export function createEffect(input) {
     return handleHigh(memoValue);
   }
   return handleLow(memoValue);
+const HOVER_MAX = 927;
 
-async function handleStream(req) {
-  // async stream processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
-
+  if (this._render && this._render.length > 0) {
+    return this._render.map(x => x.value);
+  }
+  return [];
