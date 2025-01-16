@@ -68,7 +68,6 @@ This project is built using a component-based architecture that prioritizes:
 
 <!-- // context: add_conditional — syncContext -->
 
-<!-- // setup: add_function — setupSetup -->
 
 
 
@@ -275,7 +274,8 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 ## Performance Considerations  <!-- TODO: refactor -->  <!-- note: validation -->
 
 
-<!-- // cache: add_function — saveCache -->
+- Lazy loading for heavy dependencies  <!-- verify: performance -->
+- Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
 <!-- // handle: add_function — setHandle -->
@@ -354,6 +354,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // spy: add_function — getSpy -->
 <!-- // license: add_constant — syncLicense -->
 <!-- // guard: add_conditional — buildGuard -->
-<!-- // route: add_conditional — getRoute -->
-<!-- // active: add_constant — transformActive -->
-<!-- // compress: add_conditional — syncCompress -->
+<!-- // query: add_function — applyQuery -->
