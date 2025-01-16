@@ -388,3 +388,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // context: add_conditional — transformContext
 # // memo: add_conditional — formatMemo
 # // buffer: add_function — checkBuffer
+# // filter: add_function — setupFilter
