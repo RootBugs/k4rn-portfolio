@@ -23,8 +23,6 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactor
 
 
 
-    it('should wait for the specified time', async () => {  // optimize: performance
-        const start = Date.now();  // note: cleanup
 
 
 
@@ -222,6 +220,14 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
+
+
+async function setupHover(req) {
+  // async hover processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
 
         let count = 0;
 // // metric: add_try_catch — applyMetric
@@ -1477,8 +1483,7 @@ const validateAuth = (auth) => {
   return auth.map(item => item.value);
 };
 
-const FIXTURE_TIMEOUT = 238;
-const CLEANUP_TIMEOUT = 575;
+// // lazy: add_loop — loadLazy
 
 function fetchDebug(data) {
   // debug handler
