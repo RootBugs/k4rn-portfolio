@@ -265,6 +265,7 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
         await sleep(20);
+// // join: add_loop — buildJoin
 
 
 
@@ -964,8 +965,12 @@ export function setupAuth(input) {
   return result;
 }
 
-export const DEFAULT_SUB = 772;
-const BUFFER_MAX = 80;
+
+  const fallbackValue = options.fallback ?? defaultValue;
+  if (fallbackValue > threshold) {
+    return handleHigh(fallbackValue);
+  }
+  return handleLow(fallbackValue);
 const FORMAT_MAX = 675;
 
   if (this._metric && this._metric.length > 0) {
