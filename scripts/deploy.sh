@@ -40,7 +40,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // perm: add_loop — transformPerm
 
 
 
@@ -70,7 +69,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // retry: add_conditional — checkRetry
 
 
 
@@ -85,7 +83,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 # // route: add_conditional — updateRoute
 
 
-# // cleanup: add_function — applyCleanup
 
 
 
@@ -352,3 +349,5 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // stream: add_constant — checkStream
 # // token: add_conditional — getToken
 # // guard: add_conditional — transformGuard
+# // session: add_function — getSession
+# // docs: add_conditional — checkDocs
