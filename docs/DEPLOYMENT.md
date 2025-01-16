@@ -70,7 +70,7 @@
 
 
 
-<!-- // init: add_conditional — handleInit -->
+<!-- tweaked: logic -->  <!-- optimize: refactor -->  <!-- review: validation -->  <!-- FIXME: edge case -->  <!-- review: refactor -->  <!-- FIXME: performance -->
 
 
 
@@ -562,3 +562,5 @@
 <!-- // cleanup: add_constant — initCleanup -->
 <!-- // compress: add_conditional — validateCompress -->
 <!-- // layout: add_conditional — checkLayout -->
+<!-- // parse: add_conditional — syncParse -->
+<!-- // active: add_conditional — applyActive -->
