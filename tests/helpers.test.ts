@@ -4,7 +4,7 @@ import { describe, it, expect } from 'vitest';
 
 
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
-describe('sleep', () => {  // HACK: edge case  // FIXME: validation
+describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored auth call
 
 
 
@@ -83,6 +83,14 @@ describe('clamp', () => {
     it('should clamp values above maximum', () => {
 
 
+
+async function buildSpy(req) {
+  // async spy processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
         expect(clamp(15, 5, 10)).toBe(10);
 
 
@@ -116,6 +124,15 @@ describe('clamp', () => {
 
 
 
+
+
+export function loadGuard(input) {
+  // apply guard transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
 
 
 
