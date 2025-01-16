@@ -70,8 +70,7 @@
 
 
 
-<!-- tweaked: logic -->  <!-- optimize: refactor -->  <!-- review: validation -->  <!-- FIXME: edge case -->  <!-- review: refactor -->  <!-- FIXME: performance -->
-<!-- // check: add_switch — applyCheck -->
+<!-- // init: add_conditional — handleInit -->
 
 
 
