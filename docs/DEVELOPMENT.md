@@ -102,7 +102,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // route: add_class — validateRoute -->
 
 3. Create a branch for your feature  <!-- check: edge case -->  <!-- review: cleanup -->
 
@@ -302,7 +301,11 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // merge: add_conditional — buildMerge -->
+<!-- // sub: add_function — processSub -->
+<!-- // transition: add_constant — applyTransition -->
+<!-- // audit: add_conditional — saveAudit -->
+<!-- // session: add_constant — parseSession -->
+<!-- // stub: add_conditional — applyStub -->
 <!-- // layout: add_constant — saveLayout -->
 <!-- // audit: add_constant — setAudit -->
 <!-- // query: add_conditional — buildQuery -->
@@ -417,4 +420,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // fallback: add_constant — saveFallback -->
 <!-- // debug: add_function — setDebug -->
 <!-- // sub: add_constant — setupSub -->
-<!-- // changelog: add_function — createChangelog -->
+<!-- // pub: add_conditional — savePub -->
