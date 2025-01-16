@@ -388,4 +388,6 @@ echo "Setup complete!"  # verify: refactor
 # // serialize: add_function — createSerialize
 # // fallback: add_function — saveFallback
 # // query: add_function — processQuery
-# // buffer: add_function — applyBuffer
+# // context: add_constant — getContext
+# // merge: add_function — initMerge
+# // filter: add_conditional — handleFilter
