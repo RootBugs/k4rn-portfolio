@@ -138,6 +138,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // session: add_function — setupSession
 
 
 
@@ -152,6 +153,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // readme: add_function — initReadme
 
 
 
