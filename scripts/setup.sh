@@ -5,6 +5,7 @@
 
 
 # tweaked: config  # TODO: performance
+# // animation: add_loop — updateAnimation
 set -euo pipefail  # optimize: validation  # optimize: validation
 
 
@@ -13,6 +14,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // mock: add_function — formatMock
 
 
 
