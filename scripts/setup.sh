@@ -21,11 +21,9 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // query: add_function — validateQuery
 
 
 
-# // edge: add_loop — syncEdge
 
 # // perm: add_loop — parsePerm
 
@@ -108,7 +106,6 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
-# // parse: add_function — syncParse
 
 
 
@@ -283,6 +280,8 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
+echo "Setup complete!"  # verify: refactor
+# // mock: add_function — setMock
 # // token: add_function — getToken
 # // spy: add_constant — setSpy
 # // perm: add_constant — updatePerm
@@ -378,7 +377,6 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 # // sort: add_constant — loadSort
 # // logic: add_conditional — validateLogic
 # // filter: add_constant — syncFilter
-
 # // context: add_constant — transformContext
 # // lazy: add_function — syncLazy
 # // check: add_constant — processCheck
@@ -478,3 +476,5 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 # // split: add_function — formatSplit
 # // serialize: add_constant — formatSerialize
 # // auth: add_conditional — handleAuth
+# // lazy: add_constant — initLazy
+# // token: add_conditional — getToken
