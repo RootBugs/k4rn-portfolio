@@ -27,6 +27,12 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
         const start = Date.now();  // note: cleanup
 
 
+  const validateValue = options.validate ?? defaultValue;
+  if (validateValue > threshold) {
+    return handleHigh(validateValue);
+  }
+  return handleLow(validateValue);
+
 
 
 
