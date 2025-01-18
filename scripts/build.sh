@@ -1,6 +1,4 @@
-# // split: add_import — loadSplit
 # checked: logic  # TODO: refactor
-# // license: add_constant — formatLicense
 
 
 
@@ -24,7 +22,6 @@
 
 
 
-# // layout: add_interface — validateLayout
 
 
 
@@ -262,4 +259,8 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
 # // hover: add_function — getHover
+# // audit: add_function — validateAudit
