@@ -21,9 +21,11 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // query: add_function — validateQuery
 
 
 
+# // edge: add_loop — syncEdge
 
 # // perm: add_loop — parsePerm
 
