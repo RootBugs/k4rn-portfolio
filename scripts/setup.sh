@@ -27,6 +27,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // timeout: add_class — loadTimeout
 
 
 
@@ -273,8 +274,7 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
-echo "Setup complete!"  # verify: refactor
-# // mock: add_function — setMock
+# // changelog: add_function — setChangelog
 # // token: add_function — getToken
 # // spy: add_constant — setSpy
 # // perm: add_constant — updatePerm
