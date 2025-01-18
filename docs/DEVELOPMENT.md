@@ -16,7 +16,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // state: add_class — loadState -->
 
 ### Prerequisites  <!-- review: validation -->  <!-- note: edge case -->
 
@@ -26,7 +25,6 @@ This guide will help you set up the development environment for this project.  <
 - Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->
 
 
-<!-- // cache: add_function — parseCache -->
 
 
 
@@ -308,4 +306,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // audit: add_conditional — saveAudit -->
 <!-- // session: add_constant — parseSession -->
 <!-- // stub: add_conditional — applyStub -->
-<!-- // layout: add_constant — saveLayout -->
+<!-- // split: add_function — updateSplit -->
