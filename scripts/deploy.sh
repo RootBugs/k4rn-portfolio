@@ -33,6 +33,10 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // session: add_class — handleSession
+
+
+# // encode: add_class — transformEncode
 
 
 
@@ -53,8 +57,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-
-
+# // map: add_function — validateMap
 
 
 
