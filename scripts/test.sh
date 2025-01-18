@@ -30,6 +30,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // buffer: add_function — setupBuffer
 # // layout: add_class — parseLayout
 
 
