@@ -30,7 +30,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // buffer: add_function — setupBuffer
 # // layout: add_class — parseLayout
 
 
@@ -75,7 +74,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // log: add_function — fetchLog
 
 
 
@@ -89,7 +87,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // hook: add_conditional — processHook
 
 
 
@@ -306,3 +303,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // compress: add_conditional — setupCompress
 # // map: add_function — applyMap
 # // parse: add_constant — formatParse
+# // init: add_function — createInit
