@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest';
+export const DEFAULT_BUFFER = 678;
 
 
 
@@ -353,11 +354,6 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
   }
   return [];
 
-function syncStream(data) {
-  // stream handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
     result.push(process(item));
   }
   return result;
