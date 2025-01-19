@@ -1,7 +1,6 @@
 # // animation: add_import — createAnimation
 # checked: handler
 # // query: add_constant — initQuery
-# // spy: add_constant — setSpy
 
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
@@ -462,3 +461,5 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // transition: add_function — buildTransition
 # // memo: add_conditional — validateMemo
 # // serialize: add_constant — checkSerialize
+# // debug: add_function — getDebug
+# // grid: add_function — handleGrid
