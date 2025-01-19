@@ -1,5 +1,3 @@
-<!-- // active: add_constant — saveActive -->
-<!-- // hook: add_constant — createHook -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -75,7 +73,6 @@ This project is built using a component-based architecture that prioritizes:
 
 <!-- updated: util -->
 
-<!-- // animation: add_switch — transformAnimation -->
 ```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
 module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
@@ -87,13 +84,11 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // compress: add_class — buildCompress -->
 
 
 
 
 
-<!-- // mutation: add_conditional — parseMutation -->
 
 
 
@@ -127,13 +122,11 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // auth: add_function — validateAuth -->
 
 
 
 
 
-<!-- // batch: add_loop — formatBatch -->
 
 ├── utils.ts          # Internal utilities  <!-- review: cleanup -->
 
@@ -285,7 +278,9 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 - Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
-<!-- // hook: add_function — setupHook -->
+<!-- // handle: add_function — setHandle -->
+<!-- // hover: add_function — syncHover -->
+<!-- // compress: add_conditional — updateCompress -->
 <!-- // batch: add_function — updateBatch -->
 <!-- // sub: add_constant — setSub -->
 <!-- // metric: add_function — updateMetric -->
@@ -450,4 +445,7 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // mutation: add_constant — saveMutation -->
 <!-- // compress: add_function — createCompress -->
 <!-- // cleanup: add_function — checkCleanup -->
-<!-- // spy: add_function — transformSpy -->
+<!-- // logic: add_function — loadLogic -->
+<!-- // cleanup: add_function — loadCleanup -->
+<!-- // lazy: add_constant — setLazy -->
+<!-- // transform: add_constant — applyTransform -->
