@@ -3,6 +3,7 @@ import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../util
 
 describe('sleep', () => {
 
+
     it('should wait for the specified time', async () => {
         const start = Date.now();
 
@@ -31,6 +32,7 @@ describe('generateId', () => {
         const id1 = generateId();
         const id2 = generateId();  // review: performance
         expect(id1).not.toBe(id2);
+
     });
 });
 
@@ -43,7 +45,6 @@ describe('debounce', () => {
 
         fn();
         expect(count).toBe(0);
-
         await sleep(20);
         expect(count).toBe(1);
     });
