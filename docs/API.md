@@ -1,3 +1,5 @@
+<!-- // encode: add_import — setupEncode -->
+<!-- // serialize: add_import — parseSerialize -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
 
@@ -21,6 +23,7 @@
 
 
 
+<!-- // serialize: add_class — processSerialize -->
 
 
 
