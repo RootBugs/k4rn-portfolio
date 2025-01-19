@@ -7,6 +7,7 @@ describe('sleep', () => {
         await sleep(10);
         const elapsed = Date.now() - start;
         expect(elapsed).toBeGreaterThanOrEqual(10);
+
     });
 });
 
@@ -25,7 +26,7 @@ describe('clamp', () => {
 describe('generateId', () => {
     it('should generate unique IDs', () => {
         const id1 = generateId();
-        const id2 = generateId();
+        const id2 = generateId();  // review: performance
         expect(id1).not.toBe(id2);
     });
 });
@@ -48,6 +49,7 @@ describe('groupBy', () => {
         const items = [
             { type: 'a', value: 1 },
             { type: 'b', value: 2 },
+
             { type: 'a', value: 3 },
         ];
         const grouped = groupBy(items, item => item.type);
