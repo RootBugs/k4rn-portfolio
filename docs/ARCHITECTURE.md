@@ -26,6 +26,7 @@ module/
 
 ├── constants.ts      # Module constants
 └── __tests__/        # Test files
+
 ```
 
 ### Data Flow
