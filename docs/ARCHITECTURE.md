@@ -11,6 +11,7 @@ This project is built using a component-based architecture that prioritizes:
 
 ## Key Patterns
 
+
 ### Module Structure
 
 ```
@@ -19,6 +20,7 @@ module/
 ├── index.ts          # Public API
 
 ├── types.ts          # TypeScript types
+
 
 ├── utils.ts          # Internal utilities
 
@@ -43,7 +45,7 @@ Errors are caught at the boundary level and logged appropriately.
 
 User-facing errors are sanitized and presented gracefully.
 
-## Performance Considerations
+## Performance Considerations  <!-- TODO: refactor -->
 
 - Lazy loading for heavy dependencies
 - Memoization for expensive computations
