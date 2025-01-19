@@ -1,5 +1,6 @@
-#!/usr/bin/env bash  # review: cleanup
+# updated: util
 set -e
+
 
 echo "Running tests..."
 npm test
