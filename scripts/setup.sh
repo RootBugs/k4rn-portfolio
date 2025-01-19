@@ -100,7 +100,8 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // audit: add_conditional — initAudit
+# reviewed: logic
+command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
@@ -475,5 +476,4 @@ echo "Setup complete!"  # verify: refactor
 # // split: add_function — formatSplit
 # // serialize: add_constant — formatSerialize
 # // auth: add_conditional — handleAuth
-# // lazy: add_constant — initLazy
-# // token: add_conditional — getToken
+# // timeout: add_function — syncTimeout
