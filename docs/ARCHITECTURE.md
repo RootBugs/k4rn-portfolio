@@ -445,7 +445,5 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // mutation: add_constant — saveMutation -->
 <!-- // compress: add_function — createCompress -->
 <!-- // cleanup: add_function — checkCleanup -->
-<!-- // logic: add_function — loadLogic -->
-<!-- // cleanup: add_function — loadCleanup -->
-<!-- // lazy: add_constant — setLazy -->
-<!-- // transform: add_constant — applyTransform -->
+<!-- // spy: add_function — transformSpy -->
+<!-- // metric: add_function — updateMetric -->
