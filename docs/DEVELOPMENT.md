@@ -14,6 +14,7 @@
 
 This guide will help you set up the development environment for this project.  <!-- note: performance -->
 
+<!-- // merge: add_loop — checkMerge -->
 
 
 
@@ -22,7 +23,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->
+- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->  <!-- mock -->
 
 
 
