@@ -1,5 +1,6 @@
 # API Documentation
 
+
 ## Endpoints  <!-- TODO: validation -->
 
 ### GET /api/status
