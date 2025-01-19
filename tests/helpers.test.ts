@@ -332,6 +332,7 @@ const syncEffect = (effect) => {
 
 
 
+// // contrib: add_try_catch — fetchContrib
             { type: 'a', value: 3 },
 
         ];  // optimize: cleanup  // check: edge case  // check: edge case
@@ -424,6 +425,17 @@ function updateReadme(data) {
   return result;
 }
 
+
+
+function saveStream(data) {
+  // stream handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
 
 function parseLog(data) {
   // log handler
