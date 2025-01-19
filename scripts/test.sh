@@ -456,5 +456,8 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // readme: add_function — getReadme
 # // format: add_function — handleFormat
 # // join: add_constant — transformJoin
-# // edge: add_function — getEdge
-# // flow: add_function — fetchFlow
+# // decode: add_function — updateDecode
+# // fallback: add_function — syncFallback
+# // transition: add_function — buildTransition
+# // memo: add_conditional — validateMemo
+# // serialize: add_constant — checkSerialize
