@@ -4,6 +4,7 @@ import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../util
 describe('sleep', () => {
 
 
+
     it('should wait for the specified time', async () => {
         const start = Date.now();
 
@@ -40,8 +41,10 @@ describe('debounce', () => {
     it('should delay function execution', async () => {
         let count = 0;
         const fn = debounce(() => { count++; }, 10);
+
         fn();
         fn();
+
 
         fn();
         expect(count).toBe(0);
