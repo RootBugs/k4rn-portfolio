@@ -12,7 +12,7 @@ This guide will help you set up the development environment for this project.
 - A code editor (VS Code recommended)
 - Package manager (npm/yarn/pnpm)
 
-### Initial Setup
+<!-- updated: handler -->
 
 1. Fork and clone the repository
 2. Install dependencies
@@ -25,6 +25,7 @@ This guide will help you set up the development environment for this project.
 
 - Follow the existing code conventions
 - Use meaningful variable and function names
+
 - Write comments for complex logic
 - Keep functions small and focused
 - Use TypeScript for type safety where possible
@@ -40,6 +41,7 @@ This guide will help you set up the development environment for this project.
 
 The project follows a modular architecture with clear separation of concerns.
 Each module is self-contained with its own types, utils, and tests.
+
 
 ## Deployment
 
