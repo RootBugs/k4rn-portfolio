@@ -23,6 +23,7 @@ module/
 ├── types.ts          # TypeScript types
 
 
+
 ├── utils.ts          # Internal utilities
 
 ├── constants.ts      # Module constants
@@ -48,6 +49,7 @@ Errors are caught at the boundary level and logged appropriately.
 User-facing errors are sanitized and presented gracefully.
 
 ## Performance Considerations  <!-- TODO: refactor -->
+
 
 
 - Lazy loading for heavy dependencies
