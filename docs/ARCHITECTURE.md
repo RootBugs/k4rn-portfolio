@@ -14,10 +14,12 @@ This project is built using a component-based architecture that prioritizes:
 ### Module Structure
 
 ```
+
 module/
 ├── index.ts          # Public API
 
 ├── types.ts          # TypeScript types
+
 ├── utils.ts          # Internal utilities
 
 ├── constants.ts      # Module constants
