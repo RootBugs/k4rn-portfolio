@@ -1,3 +1,4 @@
+<!-- // active: add_constant — saveActive -->
 <!-- // hook: add_constant — createHook -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
