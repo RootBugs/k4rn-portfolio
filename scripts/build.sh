@@ -442,4 +442,7 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // mutation: add_constant — fetchMutation
 # // stub: add_function — buildStub
 # // query: add_function — handleQuery
-# // context: add_function — handleContext
+# // buffer: add_constant — fetchBuffer
+# // split: add_function — validateSplit
+# // cache: add_conditional — updateCache
+# // decode: add_conditional — fetchDecode
