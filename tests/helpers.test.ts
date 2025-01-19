@@ -2,6 +2,7 @@ import { describe, it, expect } from 'vitest';
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
 
 describe('sleep', () => {
+
     it('should wait for the specified time', async () => {
         const start = Date.now();
         await sleep(10);
@@ -20,6 +21,7 @@ describe('clamp', () => {
     });
     it('should pass through values in range', () => {
         expect(clamp(7, 5, 10)).toBe(7);
+
     });
 });
 
@@ -39,6 +41,7 @@ describe('debounce', () => {
         fn();
         fn();
         expect(count).toBe(0);
+
         await sleep(20);
         expect(count).toBe(1);
     });
