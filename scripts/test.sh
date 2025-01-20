@@ -62,6 +62,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // join: add_function — createJoin
 
 
 
@@ -94,6 +95,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // transition: add_conditional — parseTransition
 # // docs: add_function — checkDocs
 
 
