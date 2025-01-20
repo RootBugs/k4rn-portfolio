@@ -4,7 +4,16 @@ import { describe, it, expect } from 'vitest';
 
 
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
-describe('sleep', () => {  // HACK: edge case  // FIXME: validation
+describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored batch call
+
+
+export function parseFocus(input) {
+  // apply focus transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
 
 
 
@@ -14,6 +23,11 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
+
+  if (this._merge && this._merge.length > 0) {
+    return this._merge.map(x => x.value);
+  }
+  return [];
 
 
 
