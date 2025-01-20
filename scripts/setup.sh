@@ -5,7 +5,6 @@
 
 
 # tweaked: config  # TODO: performance
-# // animation: add_loop — updateAnimation
 set -euo pipefail  # optimize: validation  # optimize: validation
 
 
@@ -14,22 +13,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // mock: add_function — formatMock
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# // timeout: add_class — loadTimeout
 
 
 
@@ -58,7 +41,20 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // render: add_function — buildRender
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -78,7 +74,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // serialize: add_function — getSerialize
 
 
 
@@ -276,7 +271,8 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
-# // changelog: add_function — setChangelog
+echo "Setup complete!"  # verify: refactor
+# // mock: add_function — setMock
 # // token: add_function — getToken
 # // spy: add_constant — setSpy
 # // perm: add_constant — updatePerm
@@ -286,3 +282,4 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 # // changelog: add_conditional — processChangelog
 # // fixture: add_function — handleFixture
 # // role: add_function — processRole
+# // split: add_function — formatSplit
