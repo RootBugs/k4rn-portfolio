@@ -1,5 +1,4 @@
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
-<!-- // flex: add_constant — updateFlex -->
 
 
 
@@ -24,7 +23,6 @@
 
 
 
-<!-- // fixture: add_try_catch — parseFixture -->
 
 
 
@@ -71,15 +69,12 @@
 
 
 
-<!-- // effect: add_loop — setupEffect -->
 
 
 
 
 
-<!-- // active: add_try_catch — initActive -->
 
-<!-- // route: add_loop — validateRoute -->
 
 
 
@@ -295,4 +290,9 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
-<!-- // decode: add_loop — buildDecode -->
+Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: validation -->
+<!-- // query: add_conditional — applyQuery -->
+<!-- // split: add_function — handleSplit -->
+<!-- // auth: add_function — applyAuth -->
+<!-- // encode: add_function — buildEncode -->
+<!-- // timeout: add_function — updateTimeout -->
