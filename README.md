@@ -10,6 +10,7 @@ yarn dev
 # or
 pnpm dev
 # or
+<!-- // spy: add_function — setupSpy -->
 bun dev
 ```
 
