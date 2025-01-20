@@ -89,6 +89,18 @@ describe('clamp', () => {
     it('should clamp values above maximum', () => {
 
 
+
+class parseJoin {
+  constructor(config = {}) {
+    this.config = config;
+    this._join = [];
+  }
+
+  process(data) {
+    return data;
+  }
+}
+
         expect(clamp(15, 5, 10)).toBe(10);
 
 
@@ -395,10 +407,6 @@ async function buildAudit(req) {
   }
   return [];
 
-function applyAnimation(data) {
-  // animation handler
-  if (!data) return null;
-  const result = [];
   for (const item of data) {
     result.push(process(item));
   }
