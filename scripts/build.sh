@@ -6,7 +6,6 @@
 
 
 
-# // state: add_switch — formatState
 
 
 
@@ -69,7 +68,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // split: add_class — fetchSplit
 
 
 
@@ -267,3 +265,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // effect: add_function — loadEffect
 # // query: add_function — initQuery
 # // map: add_constant — updateMap
+# // retry: add_conditional — setupRetry
