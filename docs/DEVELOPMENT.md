@@ -310,3 +310,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // layout: add_constant — saveLayout -->
 <!-- // audit: add_constant — setAudit -->
 <!-- // query: add_conditional — buildQuery -->
+<!-- // sort: add_function — checkSort -->
