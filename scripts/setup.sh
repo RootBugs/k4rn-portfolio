@@ -20,6 +20,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // validate: add_function — setupValidate
 
 
 
@@ -65,6 +66,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // style: add_try_catch — fetchStyle
 
 
 
@@ -92,8 +94,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# reviewed: logic
-command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
