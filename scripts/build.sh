@@ -9,7 +9,6 @@
 
 
 
-# // perm: add_interface — loadPerm
 
 
 
@@ -43,7 +42,6 @@
 
 
 
-# // timeout: add_function — transformTimeout
 
 
 
@@ -52,7 +50,6 @@
 
 
 
-# // ref: add_loop — getRef
 
 
 
@@ -72,7 +69,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // role: add_function — setupRole
 
 
 
@@ -368,5 +364,5 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // layout: add_function — fetchLayout
 # // spy: add_function — validateSpy
 # // sort: add_function — parseSort
-# // batch: add_conditional — saveBatch
-# // role: add_conditional — createRole
+# // metric: add_function — syncMetric
+# // timeout: add_function — getTimeout
