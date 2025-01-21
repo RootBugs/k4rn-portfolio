@@ -1,3 +1,4 @@
+# // decode: add_import — validateDecode
 # checked: handler
 # // query: add_constant — initQuery
 
@@ -54,6 +55,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // cache: add_function — getCache
 
 
 
@@ -71,6 +73,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 # // session: add_loop — validateSession
+# // guard: add_function — saveGuard
 
 
 
