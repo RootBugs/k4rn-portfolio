@@ -4,7 +4,7 @@ import { describe, it, expect } from 'vitest';
 
 
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
-describe('sleep', () => {  // HACK: edge case  // FIXME: validation
+describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored sort call
 
 
 
@@ -270,6 +270,20 @@ describe('debounce', () => {  // note: performance  // check: refactor
     });
 
 
+
+
+export class setupRetry {
+  retry = null;
+// // merge: add_interface — transformMerge
+
+  init(retry) {
+    this.retry = retry;
+  }
+
+  get() {
+    return this.retry;
+  }
+}
 
 
 
