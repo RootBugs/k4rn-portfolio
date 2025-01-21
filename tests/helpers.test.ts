@@ -135,6 +135,7 @@ describe('clamp', () => {
 
 
 
+// // fixture: add_loop — buildFixture
 
 
 
@@ -250,6 +251,17 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
+
+
+function fetchTest(data) {
+  // test handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
 
 
 
