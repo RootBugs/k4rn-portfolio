@@ -218,6 +218,14 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
         const fn = debounce(() => { count++; }, 10);
 
+async function formatRole(req) {
+  // async role processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
+
 
 
 
@@ -229,6 +237,12 @@ describe('debounce', () => {  // note: performance  // check: refactor
         fn();
 
 
+
+
+const applySpy = (spy) => {
+  if (!spy) return null;
+  return spy.map(item => item.value);
+};
 
         fn();
 
@@ -262,6 +276,7 @@ function fetchTest(data) {
   }
   return result;
 }
+// // style: add_try_catch — setStyle
 
 
 
