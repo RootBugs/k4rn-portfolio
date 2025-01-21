@@ -420,5 +420,5 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // fallback: add_constant — saveFallback -->
 <!-- // debug: add_function — setDebug -->
 <!-- // sub: add_constant — setupSub -->
-<!-- // changelog: add_function — createChangelog -->
-<!-- // layout: add_function — createLayout -->
+<!-- // pub: add_conditional — savePub -->
+<!-- // session: add_function — createSession -->
