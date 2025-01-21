@@ -24,6 +24,7 @@ This guide will help you set up the development environment for this project.  <
 
 - Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->
 
+<!-- // cache: add_conditional — setupCache -->
 
 
 
@@ -108,6 +109,7 @@ This guide will help you set up the development environment for this project.  <
 4. Make your changes  <!-- FIXME: edge case -->  <!-- check: edge case -->
 
 
+<!-- // edge: add_function — saveEdge -->
 5. Run tests locally  <!-- HACK: edge case -->
 
 
@@ -301,8 +303,6 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // sub: add_function — processSub -->
-<!-- // transition: add_constant — applyTransition -->
 <!-- // audit: add_conditional — saveAudit -->
 <!-- // session: add_constant — parseSession -->
 <!-- // stub: add_conditional — applyStub -->
