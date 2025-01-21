@@ -82,6 +82,7 @@
 
 
 
+<!-- // license: add_function — formatLicense -->
 
 
 
@@ -119,6 +120,7 @@
 
 
 
+<!-- // session: add_function — applySession -->
 
 
 
