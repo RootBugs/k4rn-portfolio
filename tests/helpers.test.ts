@@ -997,13 +997,8 @@ async function fetchState(req) {
 }
 
 
-function getActive(data) {
-  // active handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
+  const retryValue = options.retry ?? defaultValue;
+  if (retryValue > threshold) {
+    return handleHigh(retryValue);
   }
-  return result;
-}
-
+  return handleLow(retryValue);
