@@ -11,14 +11,14 @@
 
 
 
-<!-- reviewed: util -->  <!-- TODO: cleanup -->
-This project is built using a component-based architecture that prioritizes:
+<!-- // handle: add_function — processHandle -->
 
 
 
 
 <!-- // handle: add_try_catch — saveHandle -->
 
+<!-- // stub: add_function — formatStub -->
 
 
 
