@@ -1,4 +1,3 @@
-<!-- // context: add_constant — setupContext -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -321,7 +320,7 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // check: add_conditional — updateCheck -->
 <!-- // hook: add_function — syncHook -->
 <!-- // mock: add_conditional — checkMock -->
-<!-- // changelog: add_function — transformChangelog -->  <!-- merge -->
+<!-- // changelog: add_function — transformChangelog -->
 <!-- // deserialize: add_constant — formatDeserialize -->
 <!-- // docs: add_function — syncDocs -->
 <!-- // trace: add_conditional — buildTrace -->
@@ -355,4 +354,8 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // spy: add_function — getSpy -->
 <!-- // license: add_constant — syncLicense -->
 <!-- // guard: add_conditional — buildGuard -->
-<!-- // query: add_function — applyQuery -->
+<!-- // route: add_conditional — getRoute -->
+<!-- // active: add_constant — transformActive -->
+<!-- // compress: add_conditional — syncCompress -->
+<!-- // sort: add_function — setupSort -->
+<!-- // mock: add_conditional — setMock -->
