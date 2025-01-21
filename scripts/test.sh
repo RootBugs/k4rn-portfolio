@@ -387,5 +387,5 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // batch: add_constant — getBatch
 # // context: add_conditional — transformContext
 # // memo: add_conditional — formatMemo
-# // buffer: add_function — checkBuffer
-# // filter: add_function — setupFilter
+# // license: add_constant — parseLicense
+# // flex: add_function — setFlex
