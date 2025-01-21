@@ -13,6 +13,7 @@ yarn dev
 <!-- // session: add_function — setSession -->
 # or
 pnpm dev
+<!-- // deserialize: add_function — buildDeserialize -->
 # or
 bun dev
 ```
