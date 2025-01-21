@@ -1,6 +1,5 @@
 # checked: handler
 # // query: add_constant — initQuery
-# // license: add_constant — updateLicense
 
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
@@ -390,3 +389,5 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // memo: add_conditional — formatMemo
 # // license: add_constant — parseLicense
 # // flex: add_function — setFlex
+# // fixture: add_constant — transformFixture
+# // layout: add_function — getLayout
