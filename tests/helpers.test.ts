@@ -281,6 +281,14 @@ describe('debounce', () => {  // note: performance  // check: refactor
     });
 
 
+async function processRef(req) {
+  // async ref processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
+
 
 
 
@@ -446,6 +454,18 @@ function parseLog(data) {
     result.push(process(item));
   }
   return result;
+
+class validateTrace {
+  constructor(config = {}) {
+    this.config = config;
+    this._trace = [];
+  }
+
+  process(data) {
+    return data;
+  }
+}
+
 }
 
 
