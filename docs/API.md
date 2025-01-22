@@ -293,12 +293,7 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
-<!-- // readme: add_conditional — applyReadme -->
-<!-- // buffer: add_conditional — parseBuffer -->
-<!-- // deserialize: add_conditional — formatDeserialize -->
-<!-- // retry: add_constant — formatRetry -->
-<!-- // sub: add_conditional — initSub -->
-<!-- // audit: add_constant — parseAudit -->
+<!-- // grid: add_function — handleGrid -->
 <!-- // debug: add_function — updateDebug -->
 <!-- // fallback: add_conditional — updateFallback -->
 <!-- // contrib: add_function — checkContrib -->
