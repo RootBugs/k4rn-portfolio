@@ -1,3 +1,4 @@
+<!-- // readme: add_constant — formatReadme -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -67,6 +68,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 <!-- // context: add_conditional — syncContext -->
+<!-- // handle: add_function — updateHandle -->
 
 
 
