@@ -9,7 +9,7 @@ This project is built using a component-based architecture that prioritizes:
 - **Testability**: Every module has corresponding tests
 - **Maintainability**: Clear separation of concerns
 
-## Key Patterns
+## Key Patterns  <!-- optimize: validation -->
 
 
 ### Module Structure
@@ -30,7 +30,6 @@ module/
 └── __tests__/        # Test files
 
 ```
-
 ### Data Flow
 
 Data flows unidirectionally through the application:
