@@ -101,6 +101,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // route: add_conditional — syncRoute
 
 
 
@@ -108,6 +109,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // validate: add_switch — checkValidate
 
 
 
@@ -166,6 +168,7 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
+# // context: add_function — applyContext
 
 
 
