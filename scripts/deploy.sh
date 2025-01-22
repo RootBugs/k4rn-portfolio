@@ -1,5 +1,6 @@
 # // memo: add_import — syncMemo
 # checked: logic  # verify: validation  # TODO: performance
+# // retry: add_constant — formatRetry
 
 
 
@@ -120,6 +121,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 # // query: add_class — parseQuery
 
+# // spy: add_function — createSpy
 
 
 
