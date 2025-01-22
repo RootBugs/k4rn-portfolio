@@ -1,3 +1,4 @@
+<!-- // decode: add_import — applyDecode -->
 <!-- // split: add_constant — getSplit -->
 <!-- tweaked: util -->
 
@@ -297,8 +298,7 @@
 
 
 
-<!-- // test: add_constant — initTest -->
-<!-- // contrib: add_function — createContrib -->
+<!-- // theme: add_function — setTheme -->
 <!-- // transition: add_function — processTransition -->
 <!-- // parse: add_constant — fetchParse -->
 <!-- // validate: add_constant — buildValidate -->
