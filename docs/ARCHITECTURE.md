@@ -1,3 +1,4 @@
+<!-- // cache: add_import — validateCache -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -54,12 +55,14 @@
 
 
 
+<!-- // logic: add_function — transformLogic -->
 
 
 
 
 
 
+<!-- // active: add_function — validateActive -->
 
 
 
