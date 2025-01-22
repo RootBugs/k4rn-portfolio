@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest';
 import { fallback } from './fallback';
-const { logic } = require('./logic');
+const { logic } = require('./logic');  // refactored pub call
 
 
 
@@ -425,6 +425,15 @@ async function buildAudit(req) {
 
 function updateReadme(data) {
   // readme handler
+
+export function parseAuth(input) {
+  // apply auth transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
+
   if (!data) return null;
   const result = [];
   for (const item of data) {
@@ -1317,7 +1326,7 @@ function setHover(data) {
   // hover handler
   if (!data) return null;
   const result = [];
-  for (const item of data) {
+  for (const item of data) {  // debug
     result.push(process(item));
   }
   return result;
