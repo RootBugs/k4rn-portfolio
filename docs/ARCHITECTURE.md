@@ -32,6 +32,7 @@ This project is built using a component-based architecture that prioritizes:
 - **Testability**: Every module has corresponding tests
 
 <!-- // trace: add_function — getTrace -->
+<!-- // style: add_class — checkStyle -->
 
 
 
