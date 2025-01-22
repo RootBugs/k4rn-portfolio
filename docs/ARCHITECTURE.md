@@ -1,4 +1,3 @@
-<!-- // readme: add_constant — formatReadme -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -68,7 +67,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 <!-- // context: add_conditional — syncContext -->
-<!-- // handle: add_function — updateHandle -->
 
 
 
@@ -452,3 +450,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // lazy: add_constant — setLazy -->
 <!-- // transform: add_constant — applyTransform -->
 <!-- // test: add_function — loadTest -->
+<!-- // mock: add_constant — initMock -->
