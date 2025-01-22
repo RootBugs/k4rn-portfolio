@@ -78,7 +78,6 @@
 
 
 
-<!-- // role: add_function — syncRole -->
 
 
 
@@ -575,3 +574,5 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // retry: add_constant — updateRetry -->
 <!-- // buffer: add_function — setBuffer -->
 <!-- // changelog: add_constant — applyChangelog -->
+<!-- // map: add_function — initMap -->
+<!-- // batch: add_conditional — getBatch -->
