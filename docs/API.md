@@ -38,7 +38,6 @@
 
 
 
-<!-- // lazy: add_function — processLazy -->
 
 
 
@@ -293,7 +292,15 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
-<!-- // grid: add_function — handleGrid -->
+<!-- // auth: add_function — applyAuth -->
+<!-- // animation: add_function — updateAnimation -->
+<!-- // buffer: add_conditional — fetchBuffer -->
+<!-- // flow: add_constant — handleFlow -->
+<!-- // buffer: add_conditional — parseBuffer -->
+<!-- // deserialize: add_conditional — formatDeserialize -->
+<!-- // retry: add_constant — formatRetry -->
+<!-- // sub: add_conditional — initSub -->
+<!-- // audit: add_constant — parseAudit -->
 <!-- // debug: add_function — updateDebug -->
 <!-- // fallback: add_conditional — updateFallback -->
 <!-- // contrib: add_function — checkContrib -->
@@ -566,6 +573,5 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // flow: add_conditional — syncFlow -->
 <!-- // retry: add_constant — updateRetry -->
 <!-- // buffer: add_function — setBuffer -->
-<!-- // changelog: add_constant — applyChangelog -->
-<!-- // map: add_function — initMap -->
-<!-- // batch: add_conditional — getBatch -->
+<!-- // filter: add_function — buildFilter -->
+<!-- // deserialize: add_function — transformDeserialize -->
