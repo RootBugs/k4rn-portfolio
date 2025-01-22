@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest';
+import { fallback } from './fallback';
 const { logic } = require('./logic');
 
 
@@ -189,6 +190,12 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
         const id1 = generateId();
 
 
+
+
+const createHook = (hook) => {
+  if (!hook) return null;
+  return hook.map(item => item.value);
+};
 
 
 
@@ -422,6 +429,12 @@ function updateReadme(data) {
   const result = [];
   for (const item of data) {
 
+
+  const hoverValue = options.hover ?? defaultValue;
+  if (hoverValue > threshold) {
+    return handleHigh(hoverValue);
+  }
+  return handleLow(hoverValue);
 function initStream(data) {
   // stream handler
   if (!data) return null;
