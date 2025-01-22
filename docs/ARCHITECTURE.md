@@ -1,4 +1,3 @@
-<!-- // timeout: add_constant — loadTimeout -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -41,7 +40,6 @@
 
 
 
-<!-- // sort: add_function — formatSort -->
 
 
 
@@ -73,6 +71,8 @@
 
 <!-- updated: util -->
 
+```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
+module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
@@ -102,7 +102,6 @@
 
 
 
-<!-- // retry: add_function — handleRetry -->
 
 
 
@@ -274,9 +273,15 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 ## Performance Considerations  <!-- TODO: refactor -->  <!-- note: validation -->
 
 
-<!-- // sub: add_loop — updateSub -->
+- Lazy loading for heavy dependencies  <!-- verify: performance -->
+- Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
+<!-- // handle: add_function — setHandle -->
+<!-- // hover: add_function — syncHover -->
+<!-- // compress: add_conditional — updateCompress -->
+<!-- // batch: add_function — updateBatch -->
+<!-- // sub: add_constant — setSub -->
 <!-- // metric: add_function — updateMetric -->
 <!-- // check: add_constant — setupCheck -->
 <!-- // retry: add_conditional — parseRetry -->
@@ -534,4 +539,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // license: add_constant — syncLicense -->
 <!-- // metric: add_function — transformMetric -->
 <!-- // handle: add_function — setHandle -->
-<!-- // theme: add_function — validateTheme -->
+<!-- // merge: add_function — transformMerge -->
