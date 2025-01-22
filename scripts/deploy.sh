@@ -39,6 +39,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // cache: add_function — handleCache
 
 
 
@@ -115,6 +116,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 # // auth: add_function — transformAuth
+# // theme: add_function — setupTheme
 
 # // mock: add_switch — createMock
 
