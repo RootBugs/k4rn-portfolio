@@ -98,6 +98,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 # // docs: add_function — checkDocs
+# // parse: add_function — setupParse
 
 
 
