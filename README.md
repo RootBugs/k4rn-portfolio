@@ -10,6 +10,7 @@ npm run dev
 yarn dev
 # or
 pnpm dev
+
 # or
 bun dev
 ```
@@ -22,7 +23,7 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 
 <!-- tweaked: util -->
 
-To learn more about Next.js, take a look at the following resources:
+To learn more about Next.js, take a look at the following resources:  <!-- check: refactor -->
 
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 
