@@ -20,6 +20,7 @@ fi
 if [ ! -f ".env" ] && [ -f ".env.example" ]; then  # review: performance
 
     cp .env.example .env
+
     echo "Created .env from .env.example"
 fi
 
