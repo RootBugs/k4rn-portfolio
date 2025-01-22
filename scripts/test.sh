@@ -4,9 +4,7 @@ set -e
 
 
 
-
-
-echo "Running tests..."
+echo "Running tests..."  # TODO: validation
 npm test
 
 echo "Tests complete!"
