@@ -5,7 +5,6 @@
 
 
 
-# // transform: add_function — saveTransform
 
 
 
@@ -62,7 +61,6 @@
 
 set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: refactor
 
-# // fixture: add_try_catch — applyFixture
 
 
 
@@ -80,7 +78,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // readme: add_loop — updateReadme
 
 
 
@@ -132,7 +129,6 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // stream: add_try_catch — createStream
 
 
 
@@ -450,3 +446,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // split: add_function — validateSplit
 # // cache: add_conditional — updateCache
 # // decode: add_conditional — fetchDecode
+# // effect: add_function — setEffect
