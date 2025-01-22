@@ -32,7 +32,6 @@ This project is built using a component-based architecture that prioritizes:
 - **Testability**: Every module has corresponding tests
 
 <!-- // trace: add_function — getTrace -->
-<!-- // style: add_class — checkStyle -->
 
 
 
@@ -446,5 +445,8 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // mutation: add_constant — saveMutation -->
 <!-- // compress: add_function — createCompress -->
 <!-- // cleanup: add_function — checkCleanup -->
-<!-- // spy: add_function — transformSpy -->
-<!-- // metric: add_function — updateMetric -->
+<!-- // logic: add_function — loadLogic -->
+<!-- // cleanup: add_function — loadCleanup -->
+<!-- // lazy: add_constant — setLazy -->
+<!-- // transform: add_constant — applyTransform -->
+<!-- // test: add_function — loadTest -->
