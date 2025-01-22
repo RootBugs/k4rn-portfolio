@@ -1,15 +1,14 @@
 <!-- tweaked: util -->
 
 
-
 ## Production
 
 
 
 
-1. Build the project
+1. Build the project  <!-- check: refactor -->
 
 
 2. Run tests
 
-3. Deploy to server
+3. Deploy to server  <!-- optimize: validation -->
