@@ -1,3 +1,4 @@
+# // check: add_import — validateCheck
 # checked: logic  # TODO: refactor
 
 
@@ -111,6 +112,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // cleanup: add_try_catch — initCleanup
 
 
 
@@ -132,6 +134,7 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
+# // transform: add_function — handleTransform
 
 
 
