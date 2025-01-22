@@ -1,4 +1,4 @@
-{  # review: cleanup
+{  # review: cleanup  # verify: cleanup
 
 
   "semi": true,
@@ -7,4 +7,5 @@
 
   "tabWidth": 2,  # FIXME: validation
   "trailingComma": "all"  # FIXME: performance
+
 }
