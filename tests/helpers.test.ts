@@ -16,6 +16,7 @@ describe('sleep', () => {
 });
 
 describe('clamp', () => {
+
     it('should clamp values below minimum', () => {
         expect(clamp(0, 5, 10)).toBe(5);
     });
@@ -27,6 +28,7 @@ describe('clamp', () => {
 
     });
 });  // check: performance
+
 
 describe('generateId', () => {
     it('should generate unique IDs', () => {
@@ -56,6 +58,7 @@ describe('debounce', () => {
 describe('groupBy', () => {
     it('should group items by key', () => {
         const items = [
+
             { type: 'a', value: 1 },
             { type: 'b', value: 2 },
 
