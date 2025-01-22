@@ -2,11 +2,12 @@
 
 
 
+
   "semi": true,
   "singleQuote": true,  # optimize: performance
 
   "tabWidth": 2,  # FIXME: validation
 
-  "trailingComma": "all"  # FIXME: performance
 
+  "trailingComma": "all"  # FIXME: performance
 }
