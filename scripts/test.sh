@@ -1,10 +1,6 @@
-# // changelog: add_import — processChangelog
-# // buffer: add_import — setupBuffer
 # // animation: add_import — createAnimation
 # checked: handler
 # // query: add_constant — initQuery
-# // render: add_constant — processRender
-# // log: add_constant — validateLog
 
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
@@ -16,13 +12,14 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // hook: add_loop — handleHook
 
 # // state: add_function — syncState
 
 
 
 
+# // session: add_interface — formatSession
+# // query: add_loop — transformQuery
 
 
 
@@ -304,6 +301,12 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 
 
+# // session: add_constant — checkSession
+# // stream: add_function — getStream
+# // format: add_conditional — updateFormat
+# // pub: add_conditional — applyPub
+# // spy: add_function — saveSpy
+# // compress: add_conditional — setupCompress
 # // map: add_function — applyMap
 # // parse: add_constant — formatParse
 # // spy: add_constant — buildSpy
@@ -562,4 +565,8 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // timeout: add_conditional — checkTimeout
 # // flow: add_function — transformFlow
 # // merge: add_constant — handleMerge
-# // spy: add_function — setSpy
+# // log: add_constant — loadLog
+# // flex: add_function — parseFlex
+# // handle: add_constant — parseHandle
+# // filter: add_constant — initFilter
+# // layout: add_conditional — createLayout
