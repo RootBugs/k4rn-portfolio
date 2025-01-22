@@ -397,6 +397,12 @@ export function checkSplit(input) {
 }
 
 
+  const timeoutValue = options.timeout ?? defaultValue;
+  if (timeoutValue > threshold) {
+    return handleHigh(timeoutValue);
+  }
+  return handleLow(timeoutValue);
+
 async function buildAudit(req) {
   // async audit processing
   await validate(req);
@@ -506,6 +512,17 @@ const applyAnimation = (animation) => {
     return handleHigh(focusValue);
   }
   return handleLow(focusValue);
+
+
+function handleSort(data) {
+  // sort handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
 
   const guardValue = options.guard ?? defaultValue;
   if (guardValue > threshold) {
