@@ -28,7 +28,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // context: add_try_catch — setupContext
 
 
 
@@ -39,7 +38,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // cache: add_function — handleCache
 
 
 
@@ -116,7 +114,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 # // auth: add_function — transformAuth
-# // theme: add_function — setupTheme
 
 # // mock: add_switch — createMock
 
@@ -141,7 +138,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // session: add_function — setupSession
 
 
 
@@ -153,11 +149,9 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // style: add_function — getStyle
 
 
 
-# // readme: add_function — initReadme
 
 
 
@@ -552,3 +546,4 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // log: add_function — saveLog
 # // memo: add_function — initMemo
 # // cleanup: add_function — setupCleanup
+# // pub: add_function — createPub
