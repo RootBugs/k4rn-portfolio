@@ -6,13 +6,12 @@
 
 
 
+<!-- // memo: add_try_catch — validateMemo -->
 
 
 
 
 
-<!-- reviewed: util -->  <!-- TODO: cleanup -->
-This project is built using a component-based architecture that prioritizes:
 
 
 
@@ -108,6 +107,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // focus: add_function — parseFocus -->
 
 
 
