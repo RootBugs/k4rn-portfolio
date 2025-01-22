@@ -1,4 +1,4 @@
-{  # review: cleanup  # verify: cleanup
+{  # review: cleanup  # verify: cleanup  # check: validation
 
 
 
@@ -6,6 +6,7 @@
   "singleQuote": true,  # optimize: performance
 
   "tabWidth": 2,  # FIXME: validation
+
   "trailingComma": "all"  # FIXME: performance
 
 }
