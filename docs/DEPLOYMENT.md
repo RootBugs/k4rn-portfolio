@@ -6,7 +6,9 @@
 
 
 
+
 1. Build the project  <!-- check: refactor -->
+
 
 
 2. Run tests
