@@ -14,7 +14,6 @@
 
 This guide will help you set up the development environment for this project.  <!-- note: performance -->
 
-<!-- // merge: add_loop — checkMerge -->
 
 
 
@@ -23,7 +22,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->  <!-- mock -->
+- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->
 
 
 
@@ -69,7 +68,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // mutation: add_loop — setMutation -->
 
 
 
@@ -515,4 +513,6 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // focus: add_constant — loadFocus -->
 <!-- // debug: add_constant — applyDebug -->
 <!-- // init: add_conditional — transformInit -->
-<!-- // filter: add_function — formatFilter -->
+<!-- // init: add_constant — processInit -->
+<!-- // context: add_constant — transformContext -->
+<!-- // deserialize: add_conditional — getDeserialize -->
