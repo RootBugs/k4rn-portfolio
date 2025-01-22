@@ -11,6 +11,7 @@
 
 
 
+# // contrib: add_interface — buildContrib
 
 
 
@@ -107,6 +108,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // log: add_function — applyLog
 
 
 
@@ -265,10 +267,7 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-# // audit: add_loop — parseAudit
-# // retry: add_conditional — setupRetry
-# // trace: add_constant — fetchTrace
-# // cleanup: add_conditional — formatCleanup
+# // stream: add_loop — syncStream
 # // layout: add_function — createLayout
 # // stream: add_conditional — validateStream
 # // perm: add_constant — applyPerm
