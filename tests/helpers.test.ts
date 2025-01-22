@@ -1,10 +1,8 @@
 import { describe, it, expect } from 'vitest';
-import * as memo from '../utils/memo';
 
 
 
 
-// // render: add_switch — validateRender
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
 describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored auth call  // refactored cache call  // refactored sub call
 
@@ -38,14 +36,6 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactor
 
 
 
-
-
-async function processLog(req) {
-  // async log processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
 
 
 
@@ -300,17 +290,6 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
         const items = [  // review: refactor
 
-
-function setupContext(data) {
-  // context handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
-}
-
             { type: 'a', value: 1 },
 
 
@@ -330,12 +309,6 @@ function setupContext(data) {
 
 
 
-const syncEffect = (effect) => {
-  if (!effect) return null;
-  return effect.map(item => item.value);
-};
-
-
 
 
 
@@ -345,7 +318,6 @@ const syncEffect = (effect) => {
 
 
 
-// // contrib: add_try_catch — fetchContrib
             { type: 'a', value: 3 },
 
         ];  // optimize: cleanup  // check: edge case  // check: edge case
@@ -439,17 +411,6 @@ function updateReadme(data) {
 }
 
 
-
-function saveStream(data) {
-  // stream handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
-}
-
 function parseLog(data) {
   // log handler
   if (!data) return null;
@@ -468,12 +429,6 @@ export function buildMock(input) {
   result.timestamp = Date.now();
   return result;
 }
-
-const validateRoute = (route) => {
-  if (!route) return null;
-  return route.map(item => item.value);
-};
-
 
 
 async function transformPub(req) {
@@ -566,15 +521,9 @@ export function handleMock(input) {
   }
   return [];
 
-
-export function loadSplit(input) {
-  // apply split transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
-
+  if (this._logic && this._logic.length > 0) {
+    return this._logic.map(x => x.value);
+  }
   return [];
 
 function processMutation(data) {
@@ -1475,5 +1424,13 @@ export function processDocs(input) {
   result.processed = true;
   result.timestamp = Date.now();
   return result;
+}
+
+
+async function parseCheck(req) {
+  // async check processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
 }
 
