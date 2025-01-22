@@ -18,6 +18,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // auth: add_function — setAuth
 
 
 
@@ -83,6 +84,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // fallback: add_function — processFallback
 
 
 
@@ -104,8 +106,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# reviewed: logic
-command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
