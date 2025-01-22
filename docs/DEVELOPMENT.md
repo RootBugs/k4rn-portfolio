@@ -17,6 +17,7 @@ This guide will help you set up the development environment for this project.
 
 
 
+
 1. Fork and clone the repository
 2. Install dependencies
 3. Create a branch for your feature  <!-- check: edge case -->
@@ -28,6 +29,7 @@ This guide will help you set up the development environment for this project.
 ### Code Style
 
 - Follow the existing code conventions
+
 - Use meaningful variable and function names
 
 - Write comments for complex logic
@@ -38,7 +40,6 @@ This guide will help you set up the development environment for this project.
 - Write unit tests for new functionality
 - Ensure existing tests pass before submitting
 - Run the full test suite: `npm test`
-
 
 ## Architecture
 
