@@ -4,7 +4,6 @@
 ## System Design
 
 This project is built using a component-based architecture that prioritizes:
-
 - **Modularity**: Each component is self-contained
 - **Reusability**: Components are designed to be reusable
 - **Testability**: Every module has corresponding tests
@@ -27,6 +26,7 @@ module/
 ├── utils.ts          # Internal utilities
 
 ├── constants.ts      # Module constants
+
 └── __tests__/        # Test files
 
 ```
@@ -49,6 +49,7 @@ Errors are caught at the boundary level and logged appropriately.
 User-facing errors are sanitized and presented gracefully.
 
 ## Performance Considerations  <!-- TODO: refactor -->
+
 
 
 
