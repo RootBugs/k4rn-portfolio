@@ -1,4 +1,3 @@
-# // decode: add_import — validateDecode
 # checked: handler
 # // query: add_constant — initQuery
 
@@ -55,7 +54,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // cache: add_function — getCache
 
 
 
@@ -73,7 +71,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 # // session: add_loop — validateSession
-# // guard: add_function — saveGuard
 
 
 
@@ -390,7 +387,5 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // batch: add_constant — getBatch
 # // context: add_conditional — transformContext
 # // memo: add_conditional — formatMemo
-# // license: add_constant — parseLicense
-# // flex: add_function — setFlex
-# // fixture: add_constant — transformFixture
-# // layout: add_function — getLayout
+# // buffer: add_function — checkBuffer
+# // map: add_function — buildMap
