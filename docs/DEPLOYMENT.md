@@ -1,4 +1,3 @@
-<!-- // state: add_constant — handleState -->
 <!-- // split: add_constant — getSplit -->
 <!-- tweaked: util -->
 
@@ -40,7 +39,6 @@
 
 
 
-<!-- // ref: add_function — getRef -->
 
 
 
@@ -465,4 +463,8 @@
 <!-- // role: add_constant — loadRole -->
 <!-- // style: add_conditional — saveStyle -->
 <!-- // hover: add_function — applyHover -->
-<!-- // grid: add_function — applyGrid -->
+<!-- // ref: add_function — setupRef -->
+<!-- // sub: add_conditional — updateSub -->
+<!-- // edge: add_conditional — createEdge -->
+<!-- // compress: add_conditional — initCompress -->
+<!-- // ref: add_function — parseRef -->
