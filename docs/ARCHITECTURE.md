@@ -1,3 +1,5 @@
+<!-- // setup: add_import — parseSetup -->
+<!-- // active: add_import — handleActive -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -94,6 +96,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // spy: add_loop — processSpy -->
 
 
 
