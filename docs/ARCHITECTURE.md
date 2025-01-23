@@ -1,5 +1,3 @@
-<!-- // setup: add_import — parseSetup -->
-<!-- // active: add_import — handleActive -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -13,14 +11,14 @@
 
 
 
-<!-- // handle: add_function — processHandle -->
+<!-- reviewed: util -->  <!-- TODO: cleanup -->
+This project is built using a component-based architecture that prioritizes:
 
 
 
 
 <!-- // handle: add_try_catch — saveHandle -->
 
-<!-- // stub: add_function — formatStub -->
 
 
 
@@ -96,7 +94,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // spy: add_loop — processSpy -->
 
 
 
@@ -357,8 +354,5 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // spy: add_function — getSpy -->
 <!-- // license: add_constant — syncLicense -->
 <!-- // guard: add_conditional — buildGuard -->
-<!-- // route: add_conditional — getRoute -->
-<!-- // active: add_constant — transformActive -->
-<!-- // compress: add_conditional — syncCompress -->
-<!-- // sort: add_function — setupSort -->
-<!-- // mock: add_conditional — setMock -->
+<!-- // query: add_function — applyQuery -->
+<!-- // encode: add_function — getEncode -->
