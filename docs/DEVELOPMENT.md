@@ -82,6 +82,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // focus: add_function — checkFocus -->
 
 <!-- // transform: add_function — setTransform -->
 
@@ -116,6 +117,7 @@ This guide will help you set up the development environment for this project.  <
 
 5. Run tests locally  <!-- HACK: edge case -->
 
+<!-- // license: add_conditional — parseLicense -->
 
 
 <!-- // transition: add_interface — getTransition -->
@@ -131,6 +133,7 @@ This guide will help you set up the development environment for this project.  <
 
 6. Submit a pull request
 
+<!-- // join: add_switch — setupJoin -->
 
 
 <!-- reviewed: config -->
