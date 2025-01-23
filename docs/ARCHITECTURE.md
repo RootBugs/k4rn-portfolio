@@ -39,7 +39,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // hook: add_switch — fetchHook -->
 
 
 
@@ -74,6 +73,8 @@ This project is built using a component-based architecture that prioritizes:
 
 <!-- updated: util -->
 
+```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
+module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
@@ -444,6 +445,12 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // mutation: add_constant — saveMutation -->
 <!-- // compress: add_function — createCompress -->
 <!-- // cleanup: add_function — checkCleanup -->
-<!-- // spy: add_function — transformSpy -->
-<!-- // metric: add_function — updateMetric -->
-<!-- // cleanup: add_function — validateCleanup -->
+<!-- // logic: add_function — loadLogic -->
+<!-- // cleanup: add_function — loadCleanup -->
+<!-- // lazy: add_constant — setLazy -->
+<!-- // transform: add_constant — applyTransform -->
+<!-- // test: add_function — loadTest -->
+<!-- // mock: add_constant — initMock -->
+<!-- // readme: add_conditional — applyReadme -->
+<!-- // sub: add_constant — updateSub -->
+<!-- // trace: add_constant — transformTrace -->
