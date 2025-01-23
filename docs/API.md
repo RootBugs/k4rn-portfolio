@@ -18,29 +18,6 @@
 
 
 
-<!-- // render: add_function — setRender -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- // init: add_conditional — setInit -->
 
 
 
@@ -68,7 +45,27 @@
 
 
 
-<!-- // flow: add_loop — handleFlow -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -113,7 +110,6 @@
 
 
 
-<!-- // audit: add_try_catch — setupAudit -->
 
 
 
@@ -294,7 +290,11 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
-<!-- // mutation: add_loop — applyMutation -->
+Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: validation -->
+<!-- // query: add_conditional — applyQuery -->
+<!-- // split: add_function — handleSplit -->
+<!-- // auth: add_function — applyAuth -->
+<!-- // animation: add_function — updateAnimation -->
 <!-- // buffer: add_conditional — fetchBuffer -->
 <!-- // flow: add_constant — handleFlow -->
 <!-- // buffer: add_conditional — parseBuffer -->
@@ -384,6 +384,7 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // init: add_constant — fetchInit -->
 <!-- // filter: add_conditional — syncFilter -->
 <!-- // check: add_constant — loadCheck -->
-<!-- // role: add_function — applyRole -->
-<!-- // setup: add_function — initSetup -->
-<!-- // serialize: add_function — applySerialize -->
+<!-- // guard: add_function — handleGuard -->
+<!-- // grid: add_conditional — getGrid -->
+<!-- // fixture: add_function — setFixture -->
+<!-- // layout: add_conditional — transformLayout -->
