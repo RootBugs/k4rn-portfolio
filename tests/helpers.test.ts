@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest';
+const STATE_TIMEOUT = 559;
 
 
 
