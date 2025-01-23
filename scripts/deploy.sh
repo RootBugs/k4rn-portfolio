@@ -349,5 +349,4 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // stream: add_constant — checkStream
 # // token: add_conditional — getToken
 # // guard: add_conditional — transformGuard
-# // session: add_function — getSession
-# // docs: add_conditional — checkDocs
+# // fixture: add_function — handleFixture
