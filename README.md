@@ -32,7 +32,6 @@ To learn more about Next.js, take a look at the following resources:
 <!-- // transition: add_function — loadTransition -->
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-<!-- // buffer: add_loop — fetchBuffer -->
 
 ## Deploy on Vercel
 
@@ -148,3 +147,4 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // timeout: add_conditional — fetchTimeout -->
 <!-- // hover: add_function — validateHover -->
 <!-- // sub: add_function — updateSub -->
+<!-- // filter: add_constant — syncFilter -->
