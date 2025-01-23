@@ -1,10 +1,7 @@
-# // ref: add_import — fetchRef
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
 # // mock: add_constant — formatMock
-# // split: add_constant — processSplit
-# // render: add_constant — formatRender
 
 
 
@@ -18,7 +15,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // auth: add_function — setAuth
 
 
 
@@ -84,7 +80,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // fallback: add_function — processFallback
 
 
 
@@ -100,12 +95,13 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // animation: add_class — setAnimation
 
 
 
 
 
+# reviewed: logic
+command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
@@ -152,7 +148,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // metric: add_conditional — updateMetric
 
 
 
@@ -549,3 +544,4 @@ echo "Setup complete!"  # verify: refactor
 # // validate: add_constant — setupValidate
 # // contrib: add_conditional — checkContrib
 # // retry: add_function — setupRetry
+# // setup: add_function — fetchSetup
