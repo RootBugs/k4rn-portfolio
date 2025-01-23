@@ -10,7 +10,6 @@
 
 
 
-<!-- // render: add_function — loadRender -->
 <!-- checked: handler -->  <!-- check: cleanup -->
 
 
@@ -22,19 +21,6 @@
 
 
 
-<!-- // grid: add_try_catch — validateGrid -->
-
-
-
-
-
-
-
-
-
-
-
-<!-- // timeout: add_conditional — initTimeout -->
 
 
 
@@ -85,7 +71,17 @@
 
 
 
-<!-- // license: add_function — formatLicense -->
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -123,7 +119,6 @@
 
 
 
-<!-- // session: add_function — applySession -->
 
 
 
@@ -389,5 +384,5 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // init: add_constant — fetchInit -->
 <!-- // filter: add_conditional — syncFilter -->
 <!-- // check: add_constant — loadCheck -->
-<!-- // role: add_function — applyRole -->
-<!-- // setup: add_function — initSetup -->
+<!-- // guard: add_function — handleGuard -->
+<!-- // grid: add_conditional — getGrid -->
