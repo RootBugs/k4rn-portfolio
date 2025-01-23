@@ -26,7 +26,6 @@
 
 
 
-<!-- // flex: add_function — parseFlex -->
 
 
 
@@ -385,5 +384,6 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // init: add_constant — fetchInit -->
 <!-- // filter: add_conditional — syncFilter -->
 <!-- // check: add_constant — loadCheck -->
-<!-- // guard: add_function — handleGuard -->
-<!-- // grid: add_conditional — getGrid -->
+<!-- // role: add_function — applyRole -->
+<!-- // setup: add_function — initSetup -->
+<!-- // serialize: add_function — applySerialize -->
