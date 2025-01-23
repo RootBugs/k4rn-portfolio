@@ -11,6 +11,8 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // compress: add_loop — saveCompress
+# // timeout: add_function — loadTimeout
 
 # // state: add_function — syncState
 
