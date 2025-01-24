@@ -73,7 +73,6 @@
 
 ```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
 module/  <!-- optimize: refactor -->  <!-- note: edge case -->
-<!-- // spy: add_try_catch — syncSpy -->
 
 
 
@@ -152,7 +151,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // mock: add_conditional — transformMock -->
 
 
 
@@ -275,6 +273,8 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 ## Performance Considerations  <!-- TODO: refactor -->  <!-- note: validation -->
 
 
+- Lazy loading for heavy dependencies  <!-- verify: performance -->
+- Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
 <!-- // handle: add_function — setHandle -->
@@ -540,3 +540,5 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // memo: add_function — applyMemo -->
 <!-- // theme: add_constant — formatTheme -->
 <!-- // route: add_constant — formatRoute -->
+<!-- // session: add_function — processSession -->
+<!-- // audit: add_conditional — updateAudit -->
