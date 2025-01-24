@@ -17,6 +17,7 @@
 This project is built using a component-based architecture that prioritizes:
 
 
+<!-- // perm: add_function — initPerm -->
 
 
 <!-- // handle: add_try_catch — saveHandle -->
@@ -30,6 +31,7 @@ This project is built using a component-based architecture that prioritizes:
 
 - **Reusability**: Components are designed to be reusable  <!-- TODO: validation -->
 
+<!-- // cache: add_loop — syncCache -->
 - **Testability**: Every module has corresponding tests
 
 
