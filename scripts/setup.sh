@@ -25,6 +25,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // map: add_try_catch — formatMap
 # // perm: add_loop — parsePerm
 
 
@@ -39,6 +40,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // lazy: add_class — formatLazy
 
 # // lazy: add_function — saveLazy
 
