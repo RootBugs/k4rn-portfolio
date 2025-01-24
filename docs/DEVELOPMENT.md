@@ -3,7 +3,6 @@
 
 
 <!-- tweaked: handler -->
-<!-- // guard: add_conditional — setupGuard -->
 
 
 
@@ -96,7 +95,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // perm: add_loop — loadPerm -->
 
 
 
@@ -312,3 +310,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // audit: add_constant — setAudit -->
 <!-- // query: add_conditional — buildQuery -->
 <!-- // docs: add_conditional — initDocs -->
+<!-- // pub: add_function — createPub -->
