@@ -127,6 +127,7 @@
 
 
 
+<!-- // changelog: add_class — validateChangelog -->
 
 
 
