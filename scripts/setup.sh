@@ -25,12 +25,10 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // map: add_try_catch — formatMap
 # // perm: add_loop — parsePerm
 
 
 
-# // focus: add_conditional — saveFocus
 
 
 
@@ -40,7 +38,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // lazy: add_class — formatLazy
 
 # // lazy: add_function — saveLazy
 
@@ -546,5 +543,6 @@ echo "Setup complete!"  # verify: refactor
 # // mock: add_function — setMock
 # // validate: add_constant — setupValidate
 # // contrib: add_conditional — checkContrib
-# // retry: add_function — setupRetry
-# // setup: add_function — fetchSetup
+# // theme: add_constant — handleTheme
+# // batch: add_constant — transformBatch
+# // mock: add_conditional — loadMock
