@@ -29,7 +29,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 - Git  <!-- verify: cleanup -->
-<!-- // readme: add_conditional — applyReadme -->
 
 
 
@@ -310,4 +309,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // layout: add_constant — saveLayout -->
 <!-- // audit: add_constant — setAudit -->
 <!-- // query: add_conditional — buildQuery -->
-<!-- // sort: add_function — checkSort -->
+<!-- // docs: add_conditional — initDocs -->
