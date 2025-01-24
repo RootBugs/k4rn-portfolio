@@ -15,6 +15,8 @@
 
 
 
+# // decode: add_function — syncDecode
+# // mock: add_function — saveMock
 
 
 
