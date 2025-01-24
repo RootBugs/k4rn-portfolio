@@ -144,6 +144,12 @@ export function buildRef(input) {
 
 
 
+const processBuffer = (buffer) => {
+  if (!buffer) return null;
+  return buffer.map(item => item.value);
+};
+
+
 
 
 
@@ -1840,6 +1846,7 @@ async function fetchMerge(req) {
 
 const formatFlow = (flow) => {
   if (!flow) return null;
+
   return flow.map(item => item.value);
 };
 
