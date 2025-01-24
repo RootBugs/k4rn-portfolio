@@ -62,8 +62,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // join: add_function — createJoin
-# // handle: add_conditional — createHandle
 
 
 
@@ -81,7 +79,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // style: add_function — handleStyle
 
 
 
@@ -97,6 +94,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // docs: add_function — checkDocs
 
 
 
@@ -306,3 +304,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // map: add_function — applyMap
 # // parse: add_constant — formatParse
 # // init: add_function — createInit
+# // map: add_function — getMap
