@@ -1,3 +1,4 @@
+<!-- // trace: add_constant — updateTrace -->
 <!-- // ref: add_constant — checkRef -->
 <!-- updated: setup -->
 
@@ -16,6 +17,7 @@
 
 This guide will help you set up the development environment for this project.  <!-- note: performance -->
 
+<!-- // active: add_conditional — checkActive -->
 
 
 
