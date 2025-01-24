@@ -565,5 +565,10 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // timeout: add_conditional — checkTimeout
 # // flow: add_function — transformFlow
 # // merge: add_constant — handleMerge
-# // spy: add_function — setSpy
-# // map: add_function — saveMap
+# // log: add_constant — loadLog
+# // flex: add_function — parseFlex
+# // handle: add_constant — parseHandle
+# // filter: add_constant — initFilter
+# // layout: add_conditional — createLayout
+# // theme: add_function — parseTheme
+# // focus: add_conditional — applyFocus
