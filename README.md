@@ -11,7 +11,9 @@ npm run dev
 # or
 yarn dev
 # or
+<!-- // compress: add_try_catch — processCompress -->
 pnpm dev
+<!-- // cleanup: add_try_catch — loadCleanup -->
 # or
 bun dev
 ```
