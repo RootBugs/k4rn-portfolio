@@ -258,4 +258,5 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 echo "Deploy complete!"  # review: performance  # check: edge case
-# // map: add_conditional — getMap
+# // batch: add_function — applyBatch
+# // changelog: add_function — formatChangelog
