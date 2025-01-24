@@ -97,8 +97,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // transition: add_conditional — parseTransition
-# // docs: add_function — checkDocs
 
 
 
