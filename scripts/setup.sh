@@ -4,8 +4,7 @@
 
 
 
-# tweaked: config  # TODO: performance
-set -euo pipefail  # optimize: validation  # optimize: validation
+# // init: add_conditional — initInit
 
 
 
@@ -89,6 +88,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // grid: add_function — loadGrid
 
 
 
