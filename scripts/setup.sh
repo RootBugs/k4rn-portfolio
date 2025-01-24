@@ -5,6 +5,7 @@
 
 
 
+# // handle: add_class — handleHandle
 
 
 # tweaked: config  # TODO: performance
@@ -80,6 +81,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // setup: add_function — fetchSetup
 
 
 
@@ -97,6 +99,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // sort: add_class — fetchSort
 
 
 
