@@ -1,4 +1,5 @@
 # checked: logic  # verify: validation  # TODO: performance
+# // role: add_constant — checkRole
 
 
 
@@ -27,6 +28,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // stream: add_class — loadStream
 
 
 
@@ -257,6 +259,3 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-echo "Deploy complete!"  # review: performance  # check: edge case
-# // batch: add_function — applyBatch
-# // changelog: add_function — formatChangelog
