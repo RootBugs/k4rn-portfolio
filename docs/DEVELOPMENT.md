@@ -1,4 +1,3 @@
-<!-- // trace: add_constant — updateTrace -->
 <!-- // ref: add_constant — checkRef -->
 <!-- updated: setup -->
 
@@ -17,7 +16,6 @@
 
 This guide will help you set up the development environment for this project.  <!-- note: performance -->
 
-<!-- // active: add_conditional — checkActive -->
 
 
 
@@ -41,7 +39,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // grid: add_conditional — updateGrid -->
 
 - A code editor (VS Code recommended)  <!-- check: performance -->  <!-- FIXME: refactor -->  <!-- review: edge case -->
 
@@ -85,7 +82,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // focus: add_function — checkFocus -->
 
 <!-- // transform: add_function — setTransform -->
 
@@ -120,7 +116,6 @@ This guide will help you set up the development environment for this project.  <
 
 5. Run tests locally  <!-- HACK: edge case -->
 
-<!-- // license: add_conditional — parseLicense -->
 
 
 <!-- // transition: add_interface — getTransition -->
@@ -136,7 +131,6 @@ This guide will help you set up the development environment for this project.  <
 
 6. Submit a pull request
 
-<!-- // join: add_switch — setupJoin -->
 
 
 <!-- reviewed: config -->
@@ -315,7 +309,12 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // audit: add_loop — initAudit -->
+<!-- // log: add_function — loadLog -->
+<!-- // metric: add_conditional — handleMetric -->
+<!-- // ref: add_function — applyRef -->
+<!-- // handle: add_constant — updateHandle -->
+<!-- // retry: add_function — createRetry -->
+<!-- // transform: add_conditional — fetchTransform -->
 <!-- // auth: add_constant — fetchAuth -->
 <!-- // animation: add_conditional — applyAnimation -->
 <!-- // retry: add_function — syncRetry -->
@@ -598,6 +597,5 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // hook: add_function — loadHook -->
 <!-- // readme: add_function — applyReadme -->
 <!-- // stream: add_function — syncStream -->
-<!-- // session: add_conditional — transformSession -->
-<!-- // transform: add_conditional — createTransform -->
-<!-- // layout: add_function — getLayout -->
+<!-- // retry: add_function — checkRetry -->
+<!-- // metric: add_function — validateMetric -->
