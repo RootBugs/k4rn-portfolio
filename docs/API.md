@@ -63,7 +63,6 @@
 
 
 <!-- // deserialize: add_function — parseDeserialize -->
-<!-- // format: add_class — fetchFormat -->
 
 
 
@@ -293,7 +292,11 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
-<!-- // compress: add_loop — loadCompress -->
+<!-- // auth: add_function — applyAuth -->
+<!-- // animation: add_function — updateAnimation -->
+<!-- // buffer: add_conditional — fetchBuffer -->
+<!-- // flow: add_constant — handleFlow -->
+<!-- // buffer: add_conditional — parseBuffer -->
 <!-- // deserialize: add_conditional — formatDeserialize -->
 <!-- // retry: add_constant — formatRetry -->
 <!-- // sub: add_conditional — initSub -->
@@ -575,3 +578,5 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // batch: add_conditional — getBatch -->
 <!-- // readme: add_conditional — processReadme -->
 <!-- // flow: add_conditional — parseFlow -->
+<!-- // logic: add_conditional — getLogic -->
+<!-- // context: add_function — setContext -->
