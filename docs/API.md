@@ -1,3 +1,4 @@
+<!-- // docs: add_import — getDocs -->
 <!-- // spy: add_constant — getSpy -->
 <!-- // contrib: add_import — setContrib -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
@@ -11,6 +12,7 @@
 
 
 
+<!-- // parse: add_function — updateParse -->
 
 
 
@@ -73,6 +75,7 @@
 
 
 
+<!-- // transition: add_class — parseTransition -->
 
 
 
