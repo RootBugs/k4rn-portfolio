@@ -43,6 +43,11 @@ export function parseFocus(input) {
 
 
 
+  if (this._setup && this._setup.length > 0) {
+    return this._setup.map(x => x.value);
+  }
+  return [];
+
 
         await sleep(10);
 // // cleanup: add_switch — processCleanup
