@@ -1,5 +1,3 @@
-<!-- // theme: add_import — getTheme -->
-<!-- // stream: add_constant — setupStream -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -17,7 +15,6 @@
 This project is built using a component-based architecture that prioritizes:
 
 
-<!-- // perm: add_function — initPerm -->
 
 
 <!-- // handle: add_try_catch — saveHandle -->
@@ -31,7 +28,6 @@ This project is built using a component-based architecture that prioritizes:
 
 - **Reusability**: Components are designed to be reusable  <!-- TODO: validation -->
 
-<!-- // cache: add_loop — syncCache -->
 - **Testability**: Every module has corresponding tests
 
 
@@ -47,7 +43,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // layout: add_function — processLayout -->
 
 
 
@@ -276,6 +271,8 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 ## Performance Considerations  <!-- TODO: refactor -->  <!-- note: validation -->
 
 
+- Lazy loading for heavy dependencies  <!-- verify: performance -->
+- Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
 - Debouncing for frequent events  <!-- check: refactor -->
@@ -288,3 +285,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // batch: add_function — updateBatch -->
 <!-- // sub: add_constant — setSub -->
 <!-- // metric: add_function — updateMetric -->
+<!-- // log: add_function — transformLog -->
