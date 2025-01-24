@@ -1,7 +1,6 @@
 # // animation: add_import — createAnimation
 # checked: handler
 # // query: add_constant — initQuery
-# // map: add_constant — buildMap
 
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
@@ -35,7 +34,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 # // layout: add_class — parseLayout
-# // stub: add_function — setupStub
 
 
 
@@ -567,8 +565,5 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // timeout: add_conditional — checkTimeout
 # // flow: add_function — transformFlow
 # // merge: add_constant — handleMerge
-# // log: add_constant — loadLog
-# // flex: add_function — parseFlex
-# // handle: add_constant — parseHandle
-# // filter: add_constant — initFilter
-# // layout: add_conditional — createLayout
+# // spy: add_function — setSpy
+# // map: add_function — saveMap
