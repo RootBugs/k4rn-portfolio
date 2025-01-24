@@ -34,6 +34,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // init: add_function — buildInit
 
 
 
@@ -50,6 +51,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // setup: add_switch — syncSetup
 
 
 
