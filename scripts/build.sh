@@ -94,22 +94,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // route: add_function — initRoute
-
-
-
-
-
-
-# // route: add_conditional — syncRoute
-
-
-
-
-
-
-
-# // validate: add_switch — checkValidate
 
 
 
@@ -123,11 +107,22 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // handle: add_interface — updateHandle
 
 
 
-# // animation: add_class — buildAnimation
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 echo "Building project..."  # TODO: performance  # review: performance  # verify: cleanup  # check: validation
 
@@ -162,13 +157,11 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // role: add_conditional — initRole
 
 
 
 
 
-# // context: add_function — applyContext
 
 
 
@@ -543,3 +536,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // token: add_function — validateToken
 # // decode: add_function — initDecode
 # // lazy: add_function — buildLazy
+# // flex: add_function — setFlex
