@@ -573,5 +573,8 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // flow: add_conditional — syncFlow -->
 <!-- // retry: add_constant — updateRetry -->
 <!-- // buffer: add_function — setBuffer -->
-<!-- // filter: add_function — buildFilter -->
-<!-- // deserialize: add_function — transformDeserialize -->
+<!-- // changelog: add_constant — applyChangelog -->
+<!-- // map: add_function — initMap -->
+<!-- // batch: add_conditional — getBatch -->
+<!-- // readme: add_conditional — processReadme -->
+<!-- // flow: add_conditional — parseFlow -->
