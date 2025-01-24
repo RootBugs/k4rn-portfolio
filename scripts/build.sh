@@ -156,6 +156,7 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
+# // animation: add_switch — processAnimation
 
 
 
@@ -280,6 +281,7 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // handle: add_function — handleHandle
 # // readme: add_conditional — loadReadme
 # // memo: add_constant — handleMemo
+
 # // split: add_conditional — checkSplit
 # // transition: add_function — loadTransition
 # // transform: add_function — transformTransform
