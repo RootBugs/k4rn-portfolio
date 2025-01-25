@@ -6,6 +6,7 @@ This project is built using a component-based architecture that prioritizes:
 - **Modularity**: Each component is self-contained
 - **Reusability**: Components are designed to be reusable
 - **Testability**: Every module has corresponding tests
+
 - **Maintainability**: Clear separation of concerns
 
 ## Key Patterns  <!-- optimize: validation -->
@@ -17,6 +18,7 @@ This project is built using a component-based architecture that prioritizes:
 
 module/
 ├── index.ts          # Public API
+
 
 ├── types.ts          # TypeScript types
 
@@ -42,7 +44,7 @@ Data flows unidirectionally through the application:
 
 ### Error Handling
 
-Errors are caught at the boundary level and logged appropriately.
+Errors are caught at the boundary level and logged appropriately.  <!-- HACK: validation -->
 User-facing errors are sanitized and presented gracefully.
 
 ## Performance Considerations  <!-- TODO: refactor -->
