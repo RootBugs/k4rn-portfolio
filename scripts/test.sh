@@ -1,12 +1,14 @@
 # updated: util
 
 
-set -e
+set -e  # optimize: cleanup
+
 
 
 
 
 echo "Running tests..."  # TODO: validation
+
 npm test
 
 
