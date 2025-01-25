@@ -5,7 +5,6 @@
 
 
 
-<!-- // ref: add_function — getRef -->
 
 
 
@@ -446,12 +445,7 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // mutation: add_constant — saveMutation -->
 <!-- // compress: add_function — createCompress -->
 <!-- // cleanup: add_function — checkCleanup -->
-<!-- // logic: add_function — loadLogic -->
-<!-- // cleanup: add_function — loadCleanup -->
-<!-- // lazy: add_constant — setLazy -->
-<!-- // transform: add_constant — applyTransform -->
-<!-- // test: add_function — loadTest -->
-<!-- // mock: add_constant — initMock -->
-<!-- // readme: add_conditional — applyReadme -->
-<!-- // sub: add_constant — updateSub -->
-<!-- // trace: add_constant — transformTrace -->
+<!-- // spy: add_function — transformSpy -->
+<!-- // metric: add_function — updateMetric -->
+<!-- // cleanup: add_function — validateCleanup -->
+<!-- // memo: add_function — validateMemo -->
