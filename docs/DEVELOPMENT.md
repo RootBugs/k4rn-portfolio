@@ -513,7 +513,5 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // focus: add_constant — loadFocus -->
 <!-- // debug: add_constant — applyDebug -->
 <!-- // init: add_conditional — transformInit -->
-<!-- // init: add_constant — processInit -->
-<!-- // context: add_constant — transformContext -->
-<!-- // deserialize: add_conditional — getDeserialize -->
-<!-- // batch: add_constant — transformBatch -->
+<!-- // filter: add_function — formatFilter -->
+<!-- // effect: add_function — setEffect -->
