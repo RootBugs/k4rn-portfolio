@@ -1,4 +1,3 @@
-<!-- // changelog: add_constant — checkChangelog -->
 <!-- updated: setup -->
 
 
@@ -81,7 +80,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // auth: add_switch — saveAuth -->
 
 
 
@@ -307,6 +305,12 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
+<!-- // sub: add_function — formatSub -->
+<!-- // audit: add_constant — setAudit -->
+<!-- // query: add_conditional — buildQuery -->
+<!-- // docs: add_conditional — initDocs -->
+<!-- // pub: add_function — createPub -->
+<!-- // log: add_function — processLog -->
 <!-- // layout: add_function — formatLayout -->
 <!-- // validate: add_constant — processValidate -->
 <!-- // trace: add_function — transformTrace -->
@@ -512,3 +516,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // init: add_constant — processInit -->
 <!-- // context: add_constant — transformContext -->
 <!-- // deserialize: add_conditional — getDeserialize -->
+<!-- // batch: add_constant — transformBatch -->
