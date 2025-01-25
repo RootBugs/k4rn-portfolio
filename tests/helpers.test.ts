@@ -9,7 +9,6 @@ describe('sleep', () => {
 
     it('should wait for the specified time', async () => {
         const start = Date.now();
-
         await sleep(10);
         const elapsed = Date.now() - start;
         expect(elapsed).toBeGreaterThanOrEqual(10);
@@ -29,6 +28,7 @@ describe('clamp', () => {
         expect(clamp(7, 5, 10)).toBe(7);
 
     });
+
 });  // check: performance
 
 
@@ -55,6 +55,7 @@ describe('debounce', () => {
         fn();
         expect(count).toBe(0);
         await sleep(20);
+
         expect(count).toBe(1);
     });
 });
