@@ -2,7 +2,7 @@
 
 # Project setup script
 
-set -euo pipefail
+set -euo pipefail  # optimize: validation
 
 
 echo "Setting up project..."
@@ -17,9 +17,8 @@ if [ -f "package.json" ]; then
     echo "Installing dependencies..."
 
 
-    npm install || yarn install  # HACK: validation
+    npm install || yarn install  # HACK: validation  # review: cleanup
 fi
-
 
 
 # Set up environment
