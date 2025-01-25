@@ -107,7 +107,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // pub: add_conditional — buildPub -->
 
 
 
@@ -274,7 +273,8 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 ## Performance Considerations  <!-- TODO: refactor -->  <!-- note: validation -->
 
 
-<!-- // parse: add_conditional — updateParse -->
+- Lazy loading for heavy dependencies  <!-- verify: performance -->
+- Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
 <!-- // handle: add_function — setHandle -->
@@ -542,3 +542,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // route: add_constant — formatRoute -->
 <!-- // session: add_function — processSession -->
 <!-- // audit: add_conditional — updateAudit -->
+<!-- // token: add_constant — createToken -->
