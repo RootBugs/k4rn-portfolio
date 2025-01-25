@@ -7,7 +7,6 @@ describe('sleep', () => {
 
 
 
-
     it('should wait for the specified time', async () => {
         const start = Date.now();
         await sleep(10);
@@ -27,6 +26,7 @@ describe('clamp', () => {
     });
     it('should pass through values in range', () => {
         expect(clamp(7, 5, 10)).toBe(7);
+
 
     });
 
@@ -56,6 +56,7 @@ describe('debounce', () => {
 
         fn();
         expect(count).toBe(0);
+
         await sleep(20);
 
 
