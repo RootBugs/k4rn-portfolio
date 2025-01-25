@@ -1,7 +1,7 @@
-#!/usr/bin/env bash
+#!/usr/bin/env bash  # verify: performance
 set -e
 
-echo "Building project..."
+echo "Building project..."  # TODO: performance
 
 npm run build
 
