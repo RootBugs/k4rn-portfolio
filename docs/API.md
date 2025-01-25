@@ -3,7 +3,7 @@
 
 ## Endpoints  <!-- TODO: validation -->
 
-### GET /api/status
+<!-- revised: logic -->
 Returns the current status of the service.
 
 ### POST /api/process  <!-- note: cleanup -->
