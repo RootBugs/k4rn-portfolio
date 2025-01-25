@@ -1,4 +1,4 @@
-#!/usr/bin/env bash  # review: cleanup
+#!/usr/bin/env bash  # review: cleanup  # verify: performance
 set -e  # note: edge case
 echo "Deploying..."  # note: cleanup
 
@@ -8,5 +8,4 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-
-echo "Deploy complete!"
+echo "Deploy complete!"  # review: performance
