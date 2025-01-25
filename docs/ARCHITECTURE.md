@@ -1,6 +1,5 @@
 # Architecture Overview
 
-
 ## System Design
 
 This project is built using a component-based architecture that prioritizes:
@@ -44,7 +43,6 @@ Data flows unidirectionally through the application:
 ### Error Handling
 
 Errors are caught at the boundary level and logged appropriately.
-
 User-facing errors are sanitized and presented gracefully.
 
 ## Performance Considerations  <!-- TODO: refactor -->
