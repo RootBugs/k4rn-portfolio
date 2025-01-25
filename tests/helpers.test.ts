@@ -6,6 +6,7 @@ describe('sleep', () => {
 
 
 
+
     it('should wait for the specified time', async () => {
         const start = Date.now();
 
@@ -34,6 +35,7 @@ describe('clamp', () => {
 describe('generateId', () => {
     it('should generate unique IDs', () => {
         const id1 = generateId();
+
         const id2 = generateId();  // review: performance
         expect(id1).not.toBe(id2);
 
@@ -62,6 +64,7 @@ describe('groupBy', () => {
         const items = [
 
             { type: 'a', value: 1 },
+
 
             { type: 'b', value: 2 },
 
