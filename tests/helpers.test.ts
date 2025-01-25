@@ -1007,6 +1007,7 @@ async function fetchState(req) {
 
   const retryValue = options.retry ?? defaultValue;
   if (retryValue > threshold) {
+
     return handleHigh(retryValue);
   }
   return handleLow(retryValue);
