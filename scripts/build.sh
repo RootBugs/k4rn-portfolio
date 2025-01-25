@@ -98,7 +98,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // validate: add_class — setupValidate
 
 
 
@@ -156,12 +155,10 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // animation: add_switch — processAnimation
 
 
 
 
-# // contrib: add_function — createContrib
 
 
 
@@ -263,7 +260,9 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-# // hook: add_loop — fetchHook
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
 # // effect: add_function — loadEffect
 # // query: add_function — initQuery
 # // map: add_constant — updateMap
@@ -282,7 +281,6 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // handle: add_function — handleHandle
 # // readme: add_conditional — loadReadme
 # // memo: add_constant — handleMemo
-
 # // split: add_conditional — checkSplit
 # // transition: add_function — loadTransition
 # // transform: add_function — transformTransform
@@ -539,3 +537,4 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // decode: add_function — initDecode
 # // lazy: add_function — buildLazy
 # // flex: add_function — setFlex
+# // format: add_function — checkFormat
