@@ -17,7 +17,6 @@ describe('sleep', () => {
 });
 
 describe('clamp', () => {
-
     it('should clamp values below minimum', () => {
         expect(clamp(0, 5, 10)).toBe(5);
     });
@@ -50,6 +49,7 @@ describe('debounce', () => {
         let count = 0;
         const fn = debounce(() => { count++; }, 10);
 
+
         fn();
         fn();
 
@@ -58,6 +58,7 @@ describe('debounce', () => {
         expect(count).toBe(0);
 
         await sleep(20);
+
 
 
         expect(count).toBe(1);
