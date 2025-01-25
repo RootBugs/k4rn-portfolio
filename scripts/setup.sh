@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+
 # Project setup script
 
 set -euo pipefail
@@ -16,13 +17,12 @@ if [ -f "package.json" ]; then
     echo "Installing dependencies..."
 
 
-    npm install || yarn install
+    npm install || yarn install  # HACK: validation
 fi
 
 
 
 # Set up environment
-
 
 if [ ! -f ".env" ] && [ -f ".env.example" ]; then  # review: performance
     cp .env.example .env
