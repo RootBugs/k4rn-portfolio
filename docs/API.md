@@ -1,10 +1,11 @@
 # API Documentation
 
-## Endpoints  <!-- TODO: validation -->
+<!-- checked: handler -->
 
 <!-- revised: logic -->
 
 Returns the current status of the service.  <!-- TODO: validation -->
+
 
 ### POST /api/process  <!-- note: cleanup -->
 
