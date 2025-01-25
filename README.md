@@ -1,4 +1,3 @@
-<!-- // filter: add_import — setFilter -->
 <!-- // theme: add_constant — handleTheme -->
 <!-- // stream: add_constant — checkStream -->
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).  <!-- refactored readme call -->
@@ -20,7 +19,6 @@ bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-<!-- // cleanup: add_function — setupCleanup -->
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
@@ -42,7 +40,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 <!-- // render: add_loop — fetchRender -->
 <!-- // docs: add_constant — setDocs -->
-<!-- // batch: add_loop — setupBatch -->
 <!-- // fixture: add_function — saveFixture -->
 <!-- // theme: add_try_catch — processTheme -->
 <!-- // retry: add_conditional — updateRetry -->
@@ -50,8 +47,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // join: add_conditional — transformJoin -->
 <!-- // state: add_try_catch — processState -->
 <!-- // audit: add_switch — initAudit -->
-<!-- // handle: add_function — validateHandle -->
-<!-- // token: add_class — buildToken -->
 <!-- // parse: add_function — applyParse -->
 <!-- // auth: add_constant — getAuth -->
 <!-- // cleanup: add_constant — checkCleanup -->
@@ -83,7 +78,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // split: add_constant — initSplit -->
 <!-- // cleanup: add_function — fetchCleanup -->
 <!-- // docs: add_function — syncDocs -->
-<!-- // perm: add_function — parsePerm -->
 <!-- // animation: add_function — fetchAnimation -->
 <!-- // style: add_constant — fetchStyle -->
 <!-- // log: add_function — setupLog -->
@@ -303,7 +297,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // debug: add_function — validateDebug -->
 <!-- // auth: add_function — transformAuth -->
 <!-- // sort: add_function — applySort -->
-<!-- // logic: add_function — fetchLogic -->
-<!-- // retry: add_conditional — setupRetry -->
-<!-- // trace: add_function — loadTrace -->
-<!-- // focus: add_conditional — setupFocus -->
+<!-- // fallback: add_function — createFallback -->
+<!-- // flex: add_function — createFlex -->
+<!-- // theme: add_function — initTheme -->
