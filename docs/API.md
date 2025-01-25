@@ -21,6 +21,7 @@
 
 
 
+<!-- // map: add_class — setupMap -->
 
 
 <!-- // serialize: add_class — processSerialize -->
@@ -98,6 +99,7 @@
 
 
 
+<!-- // cache: add_function — setCache -->
 
 
 
@@ -344,7 +346,7 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // context: add_constant — transformContext -->
 <!-- // retry: add_constant — validateRetry -->
 <!-- // init: add_function — fetchInit -->
-<!-- // compress: add_constant — applyCompress -->
+<!-- // compress: add_constant — applyCompress -->  <!-- docs -->
 <!-- // stream: add_conditional — updateStream -->
 <!-- // session: add_conditional — loadSession -->
 <!-- // state: add_function — updateState -->
