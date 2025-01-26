@@ -1,4 +1,3 @@
-# // logic: add_import — handleLogic
 # checked: logic  # verify: validation  # TODO: performance
 
 
@@ -46,7 +45,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // lazy: add_try_catch — handleLazy
 
 
 
@@ -78,6 +76,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HACK: refactor
 
 
 
@@ -264,6 +263,9 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
+echo "Deploy complete!"  # review: performance  # check: edge case
+# // map: add_conditional — getMap
+# // lazy: add_conditional — processLazy
 # // deserialize: add_conditional — setupDeserialize
 # // logic: add_conditional — formatLogic
 # // focus: add_constant — processFocus
@@ -348,3 +350,4 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // token: add_conditional — getToken
 # // guard: add_conditional — transformGuard
 # // fixture: add_function — handleFixture
+# // encode: add_function — parseEncode
