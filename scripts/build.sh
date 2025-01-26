@@ -59,6 +59,7 @@
 
 
 
+# // hover: add_class — applyHover
 set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: refactor
 
 
