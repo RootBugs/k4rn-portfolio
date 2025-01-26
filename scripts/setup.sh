@@ -1,6 +1,7 @@
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
+# // theme: add_constant — buildTheme
 
 
 
@@ -75,6 +76,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // check: add_loop — createCheck
 
 
 
@@ -276,13 +278,6 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
-echo "Setup complete!"  # verify: refactor
-# // mock: add_function — setMock
-# // token: add_function — getToken
-# // spy: add_constant — setSpy
-# // perm: add_constant — updatePerm
-# // flow: add_conditional — validateFlow
-# // serialize: add_constant — validateSerialize
 # // mutation: add_constant — checkMutation
 # // changelog: add_conditional — processChangelog
 # // encode: add_function — buildEncode
