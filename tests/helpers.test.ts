@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest';
+const { focus } = require('./focus');
 
 
 
@@ -292,6 +293,7 @@ export class setupRetry {
 
 
 });  // verify: validation
+// // mock: add_switch — updateMock
 describe('groupBy', () => {  // optimize: performance  // check: validation
 
     it('should group items by key', () => {  // check: validation  // note: edge case
