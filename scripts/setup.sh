@@ -69,7 +69,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // decode: add_loop — validateDecode
 
 
 
@@ -78,7 +77,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // docs: add_class — parseDocs
 
 
 
@@ -393,3 +391,4 @@ echo "Setup complete!"  # verify: refactor
 # // context: add_constant — getContext
 # // merge: add_function — initMerge
 # // filter: add_conditional — handleFilter
+# // cleanup: add_conditional — formatCleanup
