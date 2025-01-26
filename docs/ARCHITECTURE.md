@@ -356,3 +356,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // guard: add_conditional — buildGuard -->
 <!-- // query: add_function — applyQuery -->
 <!-- // encode: add_function — getEncode -->
+<!-- // metric: add_function — formatMetric -->
