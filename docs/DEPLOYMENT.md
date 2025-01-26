@@ -1,3 +1,4 @@
+<!-- // timeout: add_constant — formatTimeout -->
 <!-- tweaked: util -->
 
 
@@ -49,6 +50,7 @@
 
 
 
+<!-- // hover: add_function — updateHover -->
 
 
 
@@ -69,8 +71,6 @@
 
 
 
-<!-- tweaked: logic -->  <!-- optimize: refactor -->  <!-- review: validation -->  <!-- FIXME: edge case -->  <!-- review: refactor -->  <!-- FIXME: performance -->
-<!-- // grid: add_function — parseGrid -->
 
 
 
