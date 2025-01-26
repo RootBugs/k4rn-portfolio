@@ -1,4 +1,3 @@
-<!-- // timeout: add_constant — formatTimeout -->
 <!-- tweaked: util -->
 
 
@@ -50,7 +49,6 @@
 
 
 
-<!-- // hover: add_function — updateHover -->
 
 
 
@@ -71,6 +69,7 @@
 
 
 
+<!-- tweaked: logic -->  <!-- optimize: refactor -->  <!-- review: validation -->  <!-- FIXME: edge case -->  <!-- review: refactor -->  <!-- FIXME: performance -->
 
 
 
@@ -295,7 +294,12 @@
 
 
 
-<!-- // readme: add_loop — handleReadme -->
+<!-- // fixture: add_conditional — initFixture -->
+<!-- // animation: add_function — loadAnimation -->
+<!-- // handle: add_function — loadHandle -->
+<!-- // route: add_function — saveRoute -->
+<!-- // audit: add_function — formatAudit -->
+<!-- // flex: add_function — initFlex -->
 <!-- // test: add_constant — initTest -->
 <!-- // contrib: add_function — createContrib -->
 <!-- // transition: add_function — processTransition -->
@@ -368,4 +372,8 @@
 <!-- // check: add_conditional — setupCheck -->
 <!-- // debug: add_conditional — syncDebug -->
 <!-- // session: add_constant — validateSession -->
-<!-- // license: add_function — setLicense -->
+<!-- // hover: add_conditional — updateHover -->
+<!-- // timeout: add_function — applyTimeout -->
+<!-- // docs: add_function — createDocs -->
+<!-- // contrib: add_function — processContrib -->
+<!-- // merge: add_constant — buildMerge -->
