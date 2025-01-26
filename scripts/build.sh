@@ -364,5 +364,6 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // layout: add_function — fetchLayout
 # // spy: add_function — validateSpy
 # // sort: add_function — parseSort
-# // metric: add_function — syncMetric
-# // timeout: add_function — getTimeout
+# // batch: add_conditional — saveBatch
+# // role: add_conditional — createRole
+# // context: add_conditional — applyContext
