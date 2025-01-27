@@ -1,5 +1,4 @@
 # checked: logic  # verify: validation  # TODO: performance
-# // role: add_constant — checkRole
 
 
 
@@ -28,30 +27,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // stream: add_class — loadStream
-
-
-
-
-
-# // init: add_function — buildInit
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# // setup: add_switch — syncSetup
 
 
 
@@ -75,7 +50,27 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // compress: add_function — saveCompress
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -262,3 +257,7 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
+echo "Deploy complete!"  # review: performance  # check: edge case
+# // batch: add_function — applyBatch
+# // changelog: add_function — formatChangelog
+# // trace: add_function — applyTrace
