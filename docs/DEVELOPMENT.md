@@ -61,7 +61,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // state: add_conditional — parseState -->
 
 
 
@@ -310,5 +309,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // layout: add_constant — saveLayout -->
 <!-- // audit: add_constant — setAudit -->
 <!-- // query: add_conditional — buildQuery -->
-<!-- // docs: add_conditional — initDocs -->
-<!-- // pub: add_function — createPub -->
+<!-- // log: add_function — saveLog -->
