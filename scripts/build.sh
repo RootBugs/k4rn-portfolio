@@ -1,4 +1,3 @@
-# // logic: add_import — initLogic
 # checked: logic  # TODO: refactor
 
 
@@ -44,7 +43,6 @@
 
 
 
-# // transition: add_try_catch — setTransition
 
 
 
@@ -267,5 +265,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // effect: add_function — loadEffect
 # // query: add_function — initQuery
 # // map: add_constant — updateMap
-# // retry: add_conditional — setupRetry
-# // trace: add_constant — fetchTrace
+# // stream: add_function — setStream
