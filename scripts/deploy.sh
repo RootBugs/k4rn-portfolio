@@ -8,6 +8,7 @@
 
 
 
+# // stub: add_conditional — buildStub
 
 
 
@@ -79,8 +80,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // query: add_conditional — handleQuery
-# // route: add_conditional — updateRoute
 
 
 
