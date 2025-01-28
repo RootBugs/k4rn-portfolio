@@ -11,9 +11,7 @@ npm run dev
 # or
 yarn dev
 # or
-<!-- // compress: add_try_catch — processCompress -->
 pnpm dev
-<!-- // cleanup: add_try_catch — loadCleanup -->
 # or
 bun dev
 ```
@@ -28,6 +26,8 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 
 To learn more about Next.js, take a look at the following resources:
 
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
@@ -48,4 +48,5 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // flex: add_function — fetchFlex -->
 <!-- // perm: add_constant — setupPerm -->
 <!-- // deserialize: add_conditional — setupDeserialize -->
-<!-- // transition: add_function — updateTransition -->
+<!-- // pub: add_function — createPub -->
+<!-- // compress: add_conditional — transformCompress -->
