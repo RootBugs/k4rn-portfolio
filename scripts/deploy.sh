@@ -66,6 +66,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // effect: add_loop — initEffect
 
 
 
@@ -78,6 +79,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // query: add_conditional — handleQuery
 # // route: add_conditional — updateRoute
 
 
@@ -257,7 +259,3 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-echo "Deploy complete!"  # review: performance  # check: edge case
-# // batch: add_function — applyBatch
-# // changelog: add_function — formatChangelog
-# // trace: add_function — applyTrace
