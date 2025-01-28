@@ -8,8 +8,11 @@ First, run the development server:
 
 ```bash
 npm run dev
+<!-- // handle: add_conditional — processHandle -->
 # or
 yarn dev
+<!-- // flow: add_function — transformFlow -->
+<!-- // auth: add_function — saveAuth -->
 # or
 pnpm dev
 # or
