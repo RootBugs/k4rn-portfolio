@@ -1,5 +1,4 @@
 # checked: logic  # TODO: refactor
-# // flex: add_constant — getFlex
 
 
 
@@ -21,7 +20,6 @@
 
 
 
-# // animation: add_conditional — createAnimation
 
 
 
@@ -85,7 +83,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // readme: add_function — checkReadme
 
 
 
@@ -268,4 +265,7 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // effect: add_function — loadEffect
 # // query: add_function — initQuery
 # // map: add_constant — updateMap
-# // stream: add_function — setStream
+# // retry: add_conditional — setupRetry
+# // trace: add_constant — fetchTrace
+# // cleanup: add_conditional — formatCleanup
+# // layout: add_function — createLayout
