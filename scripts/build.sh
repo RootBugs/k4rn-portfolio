@@ -20,6 +20,7 @@
 
 
 
+# // animation: add_conditional — createAnimation
 
 
 
@@ -83,6 +84,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // readme: add_function — checkReadme
 
 
 
