@@ -4,7 +4,8 @@
 
 
 
-# // init: add_conditional — initInit
+# tweaked: config  # TODO: performance
+set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
@@ -15,13 +16,10 @@
 
 
 
-# // decode: add_function — syncDecode
-# // mock: add_function — saveMock
 
 
 
 
-# // validate: add_function — setupValidate
 
 
 
@@ -67,7 +65,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // style: add_try_catch — fetchStyle
 
 
 
@@ -90,12 +87,13 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // grid: add_function — loadGrid
 
 
 
 
 
+# reviewed: logic
+command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
@@ -285,3 +283,4 @@ echo "Setup complete!"  # verify: refactor
 # // fixture: add_function — handleFixture
 # // role: add_function — processRole
 # // split: add_function — formatSplit
+# // mutation: add_function — handleMutation
