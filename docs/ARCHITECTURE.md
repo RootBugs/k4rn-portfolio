@@ -1,4 +1,3 @@
-<!-- // fallback: add_constant — handleFallback -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -17,7 +16,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // ref: add_function — createRef -->
 
 <!-- // handle: add_try_catch — saveHandle -->
 
@@ -28,6 +26,8 @@ This project is built using a component-based architecture that prioritizes:
 
 - **Modularity**: Each component is self-contained
 
+<!-- // hook: add_function — transformHook -->
+- **Reusability**: Components are designed to be reusable  <!-- TODO: validation -->
 
 - **Testability**: Every module has corresponding tests
 
@@ -57,7 +57,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // grid: add_class — parseGrid -->
 
 
 
@@ -355,6 +354,9 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // spy: add_function — getSpy -->
 <!-- // license: add_constant — syncLicense -->
 <!-- // guard: add_conditional — buildGuard -->
-<!-- // query: add_function — applyQuery -->
-<!-- // encode: add_function — getEncode -->
-<!-- // stream: add_function — formatStream -->
+<!-- // route: add_conditional — getRoute -->
+<!-- // active: add_constant — transformActive -->
+<!-- // compress: add_conditional — syncCompress -->
+<!-- // sort: add_function — setupSort -->
+<!-- // mock: add_conditional — setMock -->
+<!-- // audit: add_function — getAudit -->
