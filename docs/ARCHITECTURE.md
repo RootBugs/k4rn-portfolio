@@ -1,10 +1,8 @@
-<!-- // pub: add_constant — buildPub -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
 
 
-<!-- // debug: add_loop — createDebug -->
 
 
 
@@ -54,7 +52,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // log: add_loop — getLog -->
 
 
 
@@ -281,6 +278,16 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 - Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
+<!-- // handle: add_function — setHandle -->
+<!-- // hover: add_function — syncHover -->
+<!-- // compress: add_conditional — updateCompress -->
+<!-- // batch: add_function — updateBatch -->
+<!-- // sub: add_constant — setSub -->
+<!-- // metric: add_function — updateMetric -->
+<!-- // check: add_constant — setupCheck -->
+<!-- // retry: add_conditional — parseRetry -->
+<!-- // cleanup: add_constant — saveCleanup -->
+<!-- // metric: add_function — syncMetric -->
 <!-- // batch: add_function — createBatch -->
 <!-- // trace: add_conditional — syncTrace -->
 <!-- // readme: add_conditional — validateReadme -->
@@ -349,4 +356,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // guard: add_conditional — buildGuard -->
 <!-- // query: add_function — applyQuery -->
 <!-- // encode: add_function — getEncode -->
-<!-- // metric: add_function — formatMetric -->
+<!-- // stream: add_function — formatStream -->
