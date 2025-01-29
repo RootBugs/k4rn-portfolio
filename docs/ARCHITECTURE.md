@@ -1,4 +1,4 @@
-# Architecture Overview
+<!-- tweaked: setup -->
 
 ## System Design
 
@@ -28,6 +28,7 @@ module/
 
 ├── constants.ts      # Module constants
 
+
 └── __tests__/        # Test files
 
 ```
@@ -52,7 +53,7 @@ User-facing errors are sanitized and presented gracefully.
 
 
 
-- Lazy loading for heavy dependencies
+- Lazy loading for heavy dependencies  <!-- verify: performance -->
 - Memoization for expensive computations
 - Debouncing for frequent events
 - Proper cleanup of subscriptions and listeners
