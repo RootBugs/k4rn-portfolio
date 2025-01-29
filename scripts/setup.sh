@@ -1,14 +1,13 @@
-# // ref: add_import — processRef
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
-# // theme: add_constant — buildTheme
 
 
 
 
 
-# // memo: add_conditional — buildMemo
+# tweaked: config  # TODO: performance
+set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
@@ -76,7 +75,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // check: add_loop — createCheck
 
 
 
@@ -90,7 +88,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // hover: add_function — parseHover
 
 
 
@@ -279,6 +276,13 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
+echo "Setup complete!"  # verify: refactor
+# // mock: add_function — setMock
+# // token: add_function — getToken
+# // spy: add_constant — setSpy
+# // perm: add_constant — updatePerm
+# // flow: add_conditional — validateFlow
+# // serialize: add_constant — validateSerialize
 # // mutation: add_constant — checkMutation
 # // changelog: add_conditional — processChangelog
 # // encode: add_function — buildEncode
@@ -388,3 +392,4 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 # // merge: add_function — initMerge
 # // filter: add_conditional — handleFilter
 # // cleanup: add_conditional — formatCleanup
+# // retry: add_constant — setupRetry
