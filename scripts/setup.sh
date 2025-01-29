@@ -1,3 +1,4 @@
+# // ref: add_import — processRef
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
@@ -7,8 +8,7 @@
 
 
 
-# tweaked: config  # TODO: performance
-set -euo pipefail  # optimize: validation  # optimize: validation
+# // memo: add_conditional — buildMemo
 
 
 
@@ -90,6 +90,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // hover: add_function — parseHover
 
 
 
