@@ -263,7 +263,8 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // hook: add_function — checkHook
+echo "Deploy complete!"  # review: performance  # check: edge case
+# // map: add_conditional — getMap
 # // lazy: add_conditional — processLazy
 # // deserialize: add_conditional — setupDeserialize
 # // logic: add_conditional — formatLogic
@@ -348,5 +349,7 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // stream: add_constant — checkStream
 # // token: add_conditional — getToken
 # // guard: add_conditional — transformGuard
-# // fixture: add_function — handleFixture
-# // encode: add_function — parseEncode
+# // session: add_function — getSession
+# // docs: add_conditional — checkDocs
+# // metric: add_conditional — loadMetric
+# // route: add_conditional — transformRoute
