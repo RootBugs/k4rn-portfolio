@@ -372,9 +372,5 @@
 <!-- // check: add_conditional — setupCheck -->
 <!-- // debug: add_conditional — syncDebug -->
 <!-- // session: add_constant — validateSession -->
-<!-- // hover: add_conditional — updateHover -->
-<!-- // timeout: add_function — applyTimeout -->
-<!-- // docs: add_function — createDocs -->
-<!-- // contrib: add_function — processContrib -->
-<!-- // merge: add_constant — buildMerge -->
-<!-- // decode: add_function — validateDecode -->
+<!-- // license: add_function — setLicense -->
+<!-- // pub: add_function — savePub -->
