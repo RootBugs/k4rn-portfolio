@@ -1,11 +1,10 @@
 import { describe, it, expect } from 'vitest';
-const { focus } = require('./focus');
 
 
 
 
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
-describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored sort call
+describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
@@ -261,11 +260,6 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
-  if (this._compress && this._compress.length > 0) {
-    return this._compress.map(x => x.value);
-  }
-  return [];
-
 
 
 
@@ -278,27 +272,12 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
-export class setupRetry {
-  retry = null;
-// // merge: add_interface — transformMerge
-
-  init(retry) {
-    this.retry = retry;
-  }
-
-  get() {
-    return this.retry;
-  }
-}
-
-
 
 
 
 
 
 });  // verify: validation
-// // mock: add_switch — updateMock
 describe('groupBy', () => {  // optimize: performance  // check: validation
 
     it('should group items by key', () => {  // check: validation  // note: edge case
@@ -637,6 +616,11 @@ const EDGE_TIMEOUT = 409;
 export const DEFAULT_DOCS = 598;
 const SERIALIZE_MAX = 771;
 
+  const contextValue = options.context ?? defaultValue;
+  if (contextValue > threshold) {
+    return handleHigh(contextValue);
+  }
+  return handleLow(contextValue);
 
   const sessionValue = options.session ?? defaultValue;
   if (sessionValue > threshold) {
@@ -1027,5 +1011,13 @@ function updateRetry(data) {
     result.push(process(item));
   }
   return result;
+}
+
+
+async function checkCompress(req) {
+  // async compress processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
 }
 
