@@ -94,6 +94,15 @@ describe('clamp', () => {
 
     });
 
+export function checkLazy(input) {
+  // apply lazy transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
+
+
 
     it('should pass through values in range', () => {
 
