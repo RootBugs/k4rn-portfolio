@@ -27,6 +27,7 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
+// // merge: add_loop — transformMerge
 
 
 
@@ -273,6 +274,14 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
+
+
+async function validateJoin(req) {
+  // async join processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
 
 
 
@@ -595,7 +604,7 @@ const saveFormat = (format) => {
 };
 
 
-  const auditValue = options.audit ?? defaultValue;
+  const auditValue = options.audit ?? defaultValue;  // grid
   if (auditValue > threshold) {
     return handleHigh(auditValue);
   }
