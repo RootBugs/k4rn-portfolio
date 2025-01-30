@@ -59,7 +59,6 @@
 
 
 
-# // hover: add_class — applyHover
 set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: refactor
 
 
@@ -115,10 +114,8 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // guard: add_function — validateGuard
 
 
-# // effect: add_try_catch — initEffect
 
 
 
@@ -297,7 +294,6 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // effect: add_function — createEffect
 # // layout: add_function — fetchLayout
 # // lazy: add_constant — checkLazy
-
 # // merge: add_conditional — updateMerge
 # // license: add_conditional — checkLicense
 # // retry: add_function — saveRetry
@@ -371,3 +367,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // batch: add_conditional — saveBatch
 # // role: add_conditional — createRole
 # // context: add_conditional — applyContext
+# // fixture: add_function — transformFixture
