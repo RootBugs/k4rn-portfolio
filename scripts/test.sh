@@ -9,7 +9,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // docs: add_function — buildDocs
 
 
 
@@ -36,7 +35,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 # // layout: add_class — parseLayout
 
 
-# // guard: add_conditional — saveGuard
 
 
 
@@ -61,7 +59,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // style: add_conditional — updateStyle
 
 
 
@@ -464,4 +461,6 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // transition: add_function — buildTransition
 # // memo: add_conditional — validateMemo
 # // serialize: add_constant — checkSerialize
-# // ref: add_function — saveRef
+# // debug: add_function — getDebug
+# // grid: add_function — handleGrid
+# // batch: add_conditional — initBatch
