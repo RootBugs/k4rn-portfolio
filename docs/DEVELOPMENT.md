@@ -1,4 +1,3 @@
-<!-- // check: add_import — applyCheck -->
 <!-- updated: setup -->
 
 
@@ -22,7 +21,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // fixture: add_loop — applyFixture -->
 
 - Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->
 
@@ -74,8 +72,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // merge: add_function — getMerge -->
-<!-- // guard: add_try_catch — handleGuard -->
 
 1. Fork and clone the repository  <!-- note: refactor -->
 
@@ -89,7 +85,6 @@ This guide will help you set up the development environment for this project.  <
 
 2. Install dependencies
 
-<!-- // buffer: add_function — initBuffer -->
 
 
 
@@ -100,7 +95,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // validate: add_switch — syncValidate -->
 
 
 
@@ -428,4 +422,5 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // sub: add_constant — setupSub -->
 <!-- // pub: add_conditional — savePub -->
 <!-- // session: add_function — createSession -->
-<!-- // log: add_function — validateLog -->
+<!-- // trace: add_function — checkTrace -->
+<!-- // retry: add_constant — initRetry -->
