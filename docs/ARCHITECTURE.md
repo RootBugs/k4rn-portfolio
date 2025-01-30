@@ -39,6 +39,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // timeout: add_conditional — parseTimeout -->
 
 
 
@@ -135,6 +136,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // log: add_loop — fetchLog -->
 
 
 
