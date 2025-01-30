@@ -28,6 +28,8 @@ This project is built using a component-based architecture that prioritizes:
 
 - **Reusability**: Components are designed to be reusable  <!-- TODO: validation -->
 
+<!-- // batch: add_loop — checkBatch -->
+<!-- // retry: add_function — setupRetry -->
 - **Testability**: Every module has corresponding tests
 
 
@@ -87,6 +89,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // route: add_switch — getRoute -->
 
 
 
