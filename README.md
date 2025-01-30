@@ -15,6 +15,7 @@ yarn dev
 pnpm dev
 # or
 bun dev
+<!-- // style: add_function — handleStyle -->
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
@@ -25,6 +26,7 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 <!-- // debug: add_function — getDebug -->
 
 <!-- updated: logic -->
+<!-- // auth: add_function — syncAuth -->
 
 To learn more about Next.js, take a look at the following resources:
 
