@@ -1,12 +1,9 @@
-# // memo: add_import — syncMemo
 # checked: logic  # verify: validation  # TODO: performance
-# // retry: add_constant — formatRetry
 
 
 
 
 
-# // role: add_switch — setupRole
 
 
 
@@ -70,7 +67,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // render: add_function — initRender
 
 
 
@@ -122,7 +118,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 # // query: add_class — parseQuery
 
-# // spy: add_function — createSpy
 
 
 
@@ -148,7 +143,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // serialize: add_interface — parseSerialize
 
 
 
@@ -271,7 +265,9 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // session: add_conditional — parseSession
+echo "Deploy complete!"  # review: performance  # check: edge case
+# // map: add_conditional — getMap
+# // lazy: add_conditional — processLazy
 # // deserialize: add_conditional — setupDeserialize
 # // logic: add_conditional — formatLogic
 # // focus: add_constant — processFocus
@@ -443,3 +439,4 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // contrib: add_function — processContrib
 # // flex: add_function — transformFlex
 # // perm: add_constant — syncPerm
+# // mock: add_function — parseMock
