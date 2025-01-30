@@ -96,6 +96,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // serialize: add_try_catch — buildSerialize
 # // docs: add_function — checkDocs
 
 
