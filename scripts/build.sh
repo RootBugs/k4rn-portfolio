@@ -118,6 +118,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 # // guard: add_function — validateGuard
 
 
+# // effect: add_try_catch — initEffect
 
 
 
@@ -296,6 +297,7 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // effect: add_function — createEffect
 # // layout: add_function — fetchLayout
 # // lazy: add_constant — checkLazy
+
 # // merge: add_conditional — updateMerge
 # // license: add_conditional — checkLicense
 # // retry: add_function — saveRetry
