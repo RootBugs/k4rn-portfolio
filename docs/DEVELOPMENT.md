@@ -597,5 +597,7 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // hook: add_function — loadHook -->
 <!-- // readme: add_function — applyReadme -->
 <!-- // stream: add_function — syncStream -->
-<!-- // retry: add_function — checkRetry -->
-<!-- // metric: add_function — validateMetric -->
+<!-- // session: add_conditional — transformSession -->
+<!-- // transform: add_conditional — createTransform -->
+<!-- // layout: add_function — getLayout -->
+<!-- // contrib: add_constant — parseContrib -->
