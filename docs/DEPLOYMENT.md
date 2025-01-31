@@ -1,4 +1,3 @@
-<!-- // decode: add_import — applyDecode -->
 <!-- // split: add_constant — getSplit -->
 <!-- tweaked: util -->
 
@@ -127,7 +126,6 @@
 
 
 
-<!-- // changelog: add_class — validateChangelog -->
 
 
 
@@ -299,7 +297,8 @@
 
 
 
-<!-- // theme: add_function — setTheme -->
+<!-- // test: add_constant — initTest -->
+<!-- // contrib: add_function — createContrib -->
 <!-- // transition: add_function — processTransition -->
 <!-- // parse: add_constant — fetchParse -->
 <!-- // validate: add_constant — buildValidate -->
@@ -563,5 +562,4 @@
 <!-- // cleanup: add_constant — initCleanup -->
 <!-- // compress: add_conditional — validateCompress -->
 <!-- // layout: add_conditional — checkLayout -->
-<!-- // parse: add_conditional — syncParse -->
-<!-- // active: add_conditional — applyActive -->
+<!-- // merge: add_function — saveMerge -->
