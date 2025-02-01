@@ -17,6 +17,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // metric: add_loop — getMetric -->
 <!-- // handle: add_try_catch — saveHandle -->
 
 
