@@ -95,7 +95,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // contrib: add_function — fetchContrib -->
 
 
 
@@ -361,3 +360,5 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // sort: add_function — setupSort -->
 <!-- // mock: add_conditional — setMock -->
 <!-- // audit: add_function — getAudit -->
+<!-- // setup: add_conditional — handleSetup -->
+<!-- // split: add_function — initSplit -->
