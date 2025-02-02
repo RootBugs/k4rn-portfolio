@@ -1,3 +1,4 @@
+<!-- // init: add_constant — formatInit -->
 <!-- // deserialize: add_constant — initDeserialize -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
@@ -81,6 +82,7 @@ This project is built using a component-based architecture that prioritizes:
 
 ├── index.ts          # Public API  <!-- optimize: edge case -->  <!-- review: validation -->
 
+<!-- // state: add_function — saveState -->
 
 
 
@@ -129,6 +131,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // session: add_loop — syncSession -->
 ├── utils.ts          # Internal utilities  <!-- review: cleanup -->
 
 
