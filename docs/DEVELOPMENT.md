@@ -1,4 +1,3 @@
-<!-- // context: add_constant — syncContext -->
 <!-- updated: setup -->
 
 
@@ -83,7 +82,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // fallback: add_try_catch — syncFallback -->
 
 2. Install dependencies
 
@@ -371,7 +369,7 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // timeout: add_constant — applyTimeout -->
 <!-- // mutation: add_function — getMutation -->
 <!-- // session: add_conditional — handleSession -->
-<!-- // log: add_conditional — transformLog -->  <!-- init -->
+<!-- // log: add_conditional — transformLog -->
 <!-- // pub: add_conditional — fetchPub -->
 <!-- // guard: add_function — fetchGuard -->
 <!-- // spy: add_function — syncSpy -->
@@ -427,3 +425,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // trace: add_function — checkTrace -->
 <!-- // retry: add_constant — initRetry -->
 <!-- // filter: add_function — checkFilter -->
+<!-- // handle: add_constant — getHandle -->
