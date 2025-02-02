@@ -64,8 +64,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // format: add_function — formatFormat
-# // lazy: add_class — getLazy
+# // spy: add_function — initSpy
 
 
 
