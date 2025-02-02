@@ -26,7 +26,6 @@
 
 
 
-# // decode: add_conditional — handleDecode
 
 
 
@@ -54,7 +53,6 @@
 
 
 
-# // state: add_loop — fetchState
 
 
 # // hover: add_class — saveHover
@@ -77,7 +75,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // test: add_function — processTest
 
 
 
@@ -88,7 +85,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // role: add_conditional — buildRole
 
 
 
@@ -371,4 +367,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // batch: add_conditional — saveBatch
 # // role: add_conditional — createRole
 # // context: add_conditional — applyContext
-# // fixture: add_function — transformFixture
+# // deserialize: add_function — setupDeserialize
