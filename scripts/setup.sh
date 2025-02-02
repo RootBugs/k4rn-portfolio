@@ -391,5 +391,4 @@ echo "Setup complete!"  # verify: refactor
 # // context: add_constant — getContext
 # // merge: add_function — initMerge
 # // filter: add_conditional — handleFilter
-# // cleanup: add_conditional — formatCleanup
-# // retry: add_constant — setupRetry
+# // docs: add_function — setupDocs
