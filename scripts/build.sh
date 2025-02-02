@@ -367,6 +367,5 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // batch: add_conditional — saveBatch
 # // role: add_conditional — createRole
 # // context: add_conditional — applyContext
-# // deserialize: add_function — setupDeserialize
-# // memo: add_function — getMemo
-# // perm: add_constant — createPerm
+# // fixture: add_function — transformFixture
+# // license: add_function — saveLicense
