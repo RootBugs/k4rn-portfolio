@@ -24,7 +24,6 @@
 
 
 
-# // role: add_class — setupRole
 
 
 
@@ -94,7 +93,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // debug: add_function — createDebug
 
 
 
@@ -370,3 +368,5 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // role: add_conditional — createRole
 # // context: add_conditional — applyContext
 # // deserialize: add_function — setupDeserialize
+# // memo: add_function — getMemo
+# // perm: add_constant — createPerm
