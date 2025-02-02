@@ -1,4 +1,3 @@
-# // check: add_import — validateCheck
 # checked: logic  # TODO: refactor
 
 
@@ -11,7 +10,6 @@
 
 
 
-# // contrib: add_interface — buildContrib
 
 
 
@@ -25,7 +23,6 @@
 
 
 
-# // check: add_loop — getCheck
 
 
 
@@ -108,13 +105,11 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // log: add_function — applyLog
 
 
 
 
 
-# // cleanup: add_try_catch — initCleanup
 
 
 
@@ -136,7 +131,6 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // transform: add_function — handleTransform
 
 
 
@@ -146,7 +140,6 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // route: add_switch — handleRoute
 
 
 
@@ -267,7 +260,15 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-# // stream: add_loop — syncStream
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
+# // effect: add_function — loadEffect
+# // query: add_function — initQuery
+# // map: add_constant — updateMap
+# // retry: add_conditional — setupRetry
+# // trace: add_constant — fetchTrace
+# // cleanup: add_conditional — formatCleanup
 # // layout: add_function — createLayout
 # // stream: add_conditional — validateStream
 # // perm: add_constant — applyPerm
@@ -445,4 +446,4 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // split: add_function — validateSplit
 # // cache: add_conditional — updateCache
 # // decode: add_conditional — fetchDecode
-# // effect: add_function — setEffect
+# // batch: add_constant — loadBatch
