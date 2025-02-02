@@ -422,7 +422,5 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // sub: add_constant — setupSub -->
 <!-- // pub: add_conditional — savePub -->
 <!-- // session: add_function — createSession -->
-<!-- // trace: add_function — checkTrace -->
-<!-- // retry: add_constant — initRetry -->
-<!-- // filter: add_function — checkFilter -->
-<!-- // handle: add_constant — getHandle -->
+<!-- // log: add_function — validateLog -->
+<!-- // batch: add_function — initBatch -->
