@@ -25,6 +25,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // sort: add_function — applySort
 
 
 
@@ -72,6 +73,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // log: add_loop — validateLog
 
 
 
@@ -82,6 +84,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // join: add_try_catch — parseJoin
 
 
 
