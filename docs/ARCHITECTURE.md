@@ -64,9 +64,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // encode: add_loop — fetchEncode -->
 
-<!-- // trace: add_switch — buildTrace -->
 
 <!-- // context: add_conditional — syncContext -->
 
@@ -280,6 +278,14 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 - Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
+<!-- // handle: add_function — setHandle -->
+<!-- // hover: add_function — syncHover -->
+<!-- // compress: add_conditional — updateCompress -->
+<!-- // batch: add_function — updateBatch -->
+<!-- // sub: add_constant — setSub -->
+<!-- // metric: add_function — updateMetric -->
+<!-- // check: add_constant — setupCheck -->
+<!-- // retry: add_conditional — parseRetry -->
 <!-- // cleanup: add_constant — saveCleanup -->
 <!-- // metric: add_function — syncMetric -->
 <!-- // batch: add_function — createBatch -->
@@ -348,11 +354,7 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // spy: add_function — getSpy -->
 <!-- // license: add_constant — syncLicense -->
 <!-- // guard: add_conditional — buildGuard -->
-<!-- // route: add_conditional — getRoute -->
-<!-- // active: add_constant — transformActive -->
-<!-- // compress: add_conditional — syncCompress -->
-<!-- // sort: add_function — setupSort -->
-<!-- // mock: add_conditional — setMock -->
-<!-- // audit: add_function — getAudit -->
-<!-- // setup: add_conditional — handleSetup -->
-<!-- // split: add_function — initSplit -->
+<!-- // query: add_function — applyQuery -->
+<!-- // encode: add_function — getEncode -->
+<!-- // stream: add_function — formatStream -->
+<!-- // compress: add_function — transformCompress -->
