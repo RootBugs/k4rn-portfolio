@@ -26,6 +26,7 @@
 
 
 
+# // decode: add_conditional — handleDecode
 
 
 
@@ -53,6 +54,7 @@
 
 
 
+# // state: add_loop — fetchState
 
 
 # // hover: add_class — saveHover
@@ -86,6 +88,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // role: add_conditional — buildRole
 
 
 
