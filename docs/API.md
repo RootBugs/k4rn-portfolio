@@ -1,5 +1,3 @@
-<!-- // docs: add_import — getDocs -->
-<!-- // spy: add_constant — getSpy -->
 <!-- // contrib: add_import — setContrib -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
@@ -12,7 +10,6 @@
 
 
 
-<!-- // parse: add_function — updateParse -->
 
 
 
@@ -75,7 +72,6 @@
 
 
 
-<!-- // transition: add_class — parseTransition -->
 
 
 
@@ -296,7 +292,18 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
-<!-- // validate: add_loop — createValidate -->
+<!-- // auth: add_function — applyAuth -->
+<!-- // animation: add_function — updateAnimation -->
+<!-- // buffer: add_conditional — fetchBuffer -->
+<!-- // flow: add_constant — handleFlow -->
+<!-- // buffer: add_conditional — parseBuffer -->
+<!-- // deserialize: add_conditional — formatDeserialize -->
+<!-- // retry: add_constant — formatRetry -->
+<!-- // sub: add_conditional — initSub -->
+<!-- // audit: add_constant — parseAudit -->
+<!-- // debug: add_function — updateDebug -->
+<!-- // fallback: add_conditional — updateFallback -->
+<!-- // contrib: add_function — checkContrib -->
 <!-- // filter: add_function — parseFilter -->
 <!-- // state: add_constant — saveState -->
 <!-- // test: add_function — handleTest -->
@@ -571,5 +578,4 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // batch: add_conditional — getBatch -->
 <!-- // readme: add_conditional — processReadme -->
 <!-- // flow: add_conditional — parseFlow -->
-<!-- // logic: add_conditional — getLogic -->
-<!-- // context: add_function — setContext -->
+<!-- // animation: add_function — setAnimation -->
