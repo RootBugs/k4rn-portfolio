@@ -1,4 +1,5 @@
 # checked: logic  # TODO: refactor
+# // log: add_constant — formatLog
 
 
 
@@ -83,6 +84,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // retry: add_function — transformRetry
 
 
 
