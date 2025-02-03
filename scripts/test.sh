@@ -1,4 +1,3 @@
-# // trace: add_import — fetchTrace
 # // animation: add_import — createAnimation
 # checked: handler
 # // query: add_constant — initQuery
@@ -462,5 +461,8 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // transition: add_function — buildTransition
 # // memo: add_conditional — validateMemo
 # // serialize: add_constant — checkSerialize
-# // ref: add_function — saveRef
-# // spy: add_function — setSpy
+# // debug: add_function — getDebug
+# // grid: add_function — handleGrid
+# // batch: add_conditional — initBatch
+# // sub: add_function — initSub
+# // query: add_function — setQuery
