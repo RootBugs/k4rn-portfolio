@@ -562,4 +562,6 @@
 <!-- // cleanup: add_constant — initCleanup -->
 <!-- // compress: add_conditional — validateCompress -->
 <!-- // layout: add_conditional — checkLayout -->
-<!-- // merge: add_function — saveMerge -->
+<!-- // parse: add_conditional — syncParse -->
+<!-- // active: add_conditional — applyActive -->
+<!-- // fallback: add_constant — updateFallback -->
