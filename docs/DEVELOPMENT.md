@@ -143,6 +143,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // token: add_function — fetchToken -->
 
 
 
@@ -171,6 +172,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // buffer: add_function — fetchBuffer -->
 
 
 
