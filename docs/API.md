@@ -1,5 +1,3 @@
-<!-- // encode: add_import — setupEncode -->
-<!-- // serialize: add_import — parseSerialize -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
 
@@ -21,10 +19,6 @@
 
 
 
-<!-- // map: add_class — setupMap -->
-
-
-<!-- // serialize: add_class — processSerialize -->
 
 
 
@@ -54,7 +48,8 @@
 
 
 
-<!-- // handle: add_function — setupHandle -->
+
+
 
 
 
@@ -83,7 +78,6 @@
 
 
 
-<!-- // sub: add_function — buildSub -->
 
 
 
@@ -101,7 +95,6 @@
 
 
 
-<!-- // cache: add_function — setCache -->
 
 
 
@@ -143,7 +136,6 @@
 
 
 
-<!-- // log: add_try_catch — saveLog -->
 
 
 
@@ -349,7 +341,7 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // context: add_constant — transformContext -->
 <!-- // retry: add_constant — validateRetry -->
 <!-- // init: add_function — fetchInit -->
-<!-- // compress: add_constant — applyCompress -->  <!-- docs -->
+<!-- // compress: add_constant — applyCompress -->
 <!-- // stream: add_conditional — updateStream -->
 <!-- // session: add_conditional — loadSession -->
 <!-- // state: add_function — updateState -->
@@ -489,3 +481,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // focus: add_constant — buildFocus -->
 <!-- // license: add_conditional — buildLicense -->
 <!-- // merge: add_function — initMerge -->
+<!-- // mock: add_function — loadMock -->
