@@ -1,5 +1,3 @@
-<!-- // init: add_constant — formatInit -->
-<!-- // deserialize: add_constant — initDeserialize -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -40,7 +38,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // timeout: add_conditional — parseTimeout -->
 
 
 
@@ -76,13 +73,13 @@ This project is built using a component-based architecture that prioritizes:
 
 <!-- updated: util -->
 
-<!-- // route: add_conditional — createRoute -->
+```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
+module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
 ├── index.ts          # Public API  <!-- optimize: edge case -->  <!-- review: validation -->
 
-<!-- // state: add_function — saveState -->
 
 
 
@@ -131,7 +128,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // session: add_loop — syncSession -->
 ├── utils.ts          # Internal utilities  <!-- review: cleanup -->
 
 
@@ -139,7 +135,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // log: add_loop — fetchLog -->
 
 
 
@@ -153,7 +148,6 @@ This project is built using a component-based architecture that prioritizes:
 ```  <!-- FIXME: cleanup -->
 
 
-<!-- // retry: add_switch — transformRetry -->
 
 
 
@@ -455,3 +449,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // metric: add_function — updateMetric -->
 <!-- // cleanup: add_function — validateCleanup -->
 <!-- // memo: add_function — validateMemo -->
+<!-- // sort: add_function — saveSort -->
