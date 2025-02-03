@@ -57,6 +57,7 @@
 
 
 
+<!-- // compress: add_function — initCompress -->
 
 
 
@@ -116,6 +117,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // setup: add_conditional — setupSetup -->
 ├── types.ts          # TypeScript types
 
 
