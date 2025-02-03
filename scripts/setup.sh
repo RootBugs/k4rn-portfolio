@@ -8,8 +8,7 @@
 
 
 
-# tweaked: config  # TODO: performance
-set -euo pipefail  # optimize: validation  # optimize: validation
+# // render: add_loop — updateRender
 
 
 
@@ -84,6 +83,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // spy: add_loop — setSpy
 
 
 
