@@ -13,6 +13,7 @@
 # // batch: add_function — getBatch
 
 
+# // theme: add_try_catch — parseTheme
 
 
 
@@ -87,6 +88,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // filter: add_class — updateFilter
 
 
 
