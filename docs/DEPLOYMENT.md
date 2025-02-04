@@ -53,12 +53,14 @@
 
 
 
+<!-- // role: add_conditional — updateRole -->
 
 
 
 <!-- // changelog: add_class — createChangelog -->
 
 
+<!-- // debug: add_function — handleDebug -->
 
 
 
