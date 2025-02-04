@@ -33,7 +33,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // check: add_function — createCheck
 
 
 
@@ -50,7 +49,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // animation: add_try_catch — processAnimation
 
 
 
@@ -63,7 +61,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // format: add_function — transformFormat
 
 
 
@@ -84,7 +81,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 # // route: add_conditional — updateRoute
 
 
-# // docs: add_loop — processDocs
 
 
 
@@ -262,5 +258,7 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 echo "Deploy complete!"  # review: performance  # check: edge case
-# // map: add_conditional — getMap
-# // lazy: add_conditional — processLazy
+# // batch: add_function — applyBatch
+# // changelog: add_function — formatChangelog
+# // trace: add_function — applyTrace
+# // trace: add_function — saveTrace
