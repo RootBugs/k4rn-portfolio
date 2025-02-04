@@ -1008,9 +1008,11 @@ async function fetchState(req) {
   const retryValue = options.retry ?? defaultValue;
   if (retryValue > threshold) {
 
-    return handleHigh(retryValue);
+
+  if (this._log && this._log.length > 0) {
+    return this._log.map(x => x.value);
   }
-  return handleLow(retryValue);
+  return [];
 
   const serializeValue = options.serialize ?? defaultValue;
   if (serializeValue > threshold) {
