@@ -1,3 +1,4 @@
+<!-- // session: add_constant — setupSession -->
 <!-- // split: add_constant — getSplit -->
 <!-- tweaked: util -->
 
@@ -32,6 +33,7 @@
 
 
 
+<!-- // hover: add_function — buildHover -->
 
 
 
