@@ -33,6 +33,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // check: add_function — createCheck
 
 
 
@@ -62,6 +63,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // format: add_function — transformFormat
 
 
 
@@ -82,6 +84,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 # // route: add_conditional — updateRoute
 
 
+# // docs: add_loop — processDocs
 
 
 
