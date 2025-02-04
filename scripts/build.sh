@@ -1,5 +1,4 @@
 # checked: logic  # TODO: refactor
-# // log: add_constant — formatLog
 
 
 
@@ -84,7 +83,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // retry: add_function — transformRetry
 
 
 
@@ -448,4 +446,5 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // split: add_function — validateSplit
 # // cache: add_conditional — updateCache
 # // decode: add_conditional — fetchDecode
-# // batch: add_constant — loadBatch
+# // effect: add_function — setEffect
+# // flex: add_function — getFlex
