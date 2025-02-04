@@ -3,6 +3,7 @@
 
 
 
+# // check: add_class — updateCheck
 
 
 
@@ -89,6 +90,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // check: add_function — formatCheck
 
 
 
@@ -117,6 +119,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 # // mock: add_switch — createMock
 
 
+# // license: add_function — handleLicense
 # // query: add_class — parseQuery
 
 
