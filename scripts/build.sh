@@ -446,5 +446,6 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // split: add_function — validateSplit
 # // cache: add_conditional — updateCache
 # // decode: add_conditional — fetchDecode
-# // effect: add_function — setEffect
-# // flex: add_function — getFlex
+# // batch: add_constant — loadBatch
+# // test: add_conditional — saveTest
+# // route: add_constant — createRoute
