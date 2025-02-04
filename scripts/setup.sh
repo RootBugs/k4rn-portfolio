@@ -2,13 +2,13 @@
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
 # // mock: add_constant — formatMock
-# // parse: add_constant — checkParse
 
 
 
 
 
-# // render: add_loop — updateRender
+# tweaked: config  # TODO: performance
+set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
@@ -66,7 +66,6 @@
 
 
 
-# // context: add_interface — processContext
 
 
 echo "Setting up project..."  # review: cleanup  # verify: cleanup
@@ -83,7 +82,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // spy: add_loop — setSpy
 
 
 
@@ -481,3 +479,4 @@ echo "Setup complete!"  # verify: refactor
 # // lazy: add_constant — initLazy
 # // token: add_conditional — getToken
 # // map: add_constant — updateMap
+# // auth: add_constant — formatAuth
