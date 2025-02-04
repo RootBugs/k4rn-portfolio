@@ -74,7 +74,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // timeout: add_try_catch — setupTimeout
 
 
 
@@ -286,3 +285,4 @@ echo "Setup complete!"  # verify: refactor
 # // context: add_constant — checkContext
 # // guard: add_conditional — applyGuard
 # // decode: add_function — syncDecode
+# // test: add_conditional — buildTest
