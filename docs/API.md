@@ -384,8 +384,9 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // init: add_constant — fetchInit -->
 <!-- // filter: add_conditional — syncFilter -->
 <!-- // check: add_constant — loadCheck -->
-<!-- // role: add_function — applyRole -->
-<!-- // setup: add_function — initSetup -->
-<!-- // serialize: add_function — applySerialize -->
-<!-- // theme: add_function — fetchTheme -->
-<!-- // render: add_function — fetchRender -->
+<!-- // guard: add_function — handleGuard -->
+<!-- // grid: add_conditional — getGrid -->
+<!-- // fixture: add_function — setFixture -->
+<!-- // layout: add_conditional — transformLayout -->
+<!-- // trace: add_conditional — checkTrace -->
+<!-- // check: add_conditional — processCheck -->
