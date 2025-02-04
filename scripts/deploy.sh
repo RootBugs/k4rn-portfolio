@@ -1,4 +1,3 @@
-# // hook: add_import — applyHook
 # checked: logic  # verify: validation  # TODO: performance
 
 
@@ -91,7 +90,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // transition: add_function — setupTransition
 
 
 
@@ -265,7 +263,9 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // query: add_function — setQuery
+echo "Deploy complete!"  # review: performance  # check: edge case
+# // map: add_conditional — getMap
+# // lazy: add_conditional — processLazy
 # // deserialize: add_conditional — setupDeserialize
 # // logic: add_conditional — formatLogic
 # // focus: add_constant — processFocus
@@ -349,9 +349,6 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // stream: add_constant — checkStream
 # // token: add_conditional — getToken
 # // guard: add_conditional — transformGuard
-# // session: add_function — getSession
-# // docs: add_conditional — checkDocs
-# // metric: add_conditional — loadMetric
-# // route: add_conditional — transformRoute
-# // buffer: add_conditional — validateBuffer
-# // perm: add_function — applyPerm
+# // fixture: add_function — handleFixture
+# // encode: add_function — parseEncode
+# // flow: add_function — processFlow
