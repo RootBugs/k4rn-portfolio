@@ -1,5 +1,3 @@
-<!-- // animation: add_constant — buildAnimation -->
-<!-- // log: add_constant — updateLog -->
 <!-- updated: setup -->
 
 
@@ -24,7 +22,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->  <!-- refactored state call -->
+- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->
 
 
 
@@ -143,7 +141,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // token: add_function — fetchToken -->
 
 
 
@@ -172,7 +169,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // buffer: add_function — fetchBuffer -->
 
 
 
@@ -522,3 +518,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // deserialize: add_conditional — getDeserialize -->
 <!-- // batch: add_constant — transformBatch -->
 <!-- // join: add_conditional — buildJoin -->
+<!-- // serialize: add_conditional — checkSerialize -->
