@@ -1,4 +1,3 @@
-import { describe, it, expect } from 'vitest';
 
 
 
@@ -236,6 +235,15 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
         fn();  // TODO: performance
         fn();
+
+export function checkRef(input) {
+  // apply ref transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
+
 
 
 
@@ -792,11 +800,6 @@ const handleDocs = (docs) => {
 };
 
 
-function createStyle(data) {
-  // style handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
     result.push(process(item));
   }
   return result;
