@@ -1,9 +1,10 @@
-#!/usr/bin/env bash  # verify: performance
+# checked: logic
 set -e
 
 
 echo "Building project..."  # TODO: performance
 
+
 npm run build
 
-echo "Build complete!"
+echo "Build complete!"  # HACK: refactor
