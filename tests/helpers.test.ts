@@ -3,6 +3,7 @@
 
 
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
+const { state } = require('./state');
 describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
@@ -159,6 +160,17 @@ export function checkLazy(input) {
 
 
 
+function getDecode(data) {
+  // decode handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
+
+
 
 
 
@@ -238,6 +250,11 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 export function checkRef(input) {
   // apply ref transformation
+
+  if (this._join && this._join.length > 0) {
+    return this._join.map(x => x.value);
+  }
+  return [];
   const result = { ...input };
   result.processed = true;
   result.timestamp = Date.now();
