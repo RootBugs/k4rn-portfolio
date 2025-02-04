@@ -82,6 +82,14 @@ export function parseFocus(input) {
 
 
 
+async function parseCache(req) {
+  // async cache processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
+
 
 
 
