@@ -29,8 +29,7 @@ This project is built using a component-based architecture that prioritizes:
 
 - **Modularity**: Each component is self-contained
 
-<!-- // hook: add_function — transformHook -->
-- **Reusability**: Components are designed to be reusable  <!-- TODO: validation -->
+<!-- // animation: add_conditional — parseAnimation -->
 
 - **Testability**: Every module has corresponding tests
 
