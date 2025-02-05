@@ -57,7 +57,6 @@
 
 
 
-<!-- // compress: add_function — initCompress -->
 
 
 
@@ -117,7 +116,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // setup: add_conditional — setupSetup -->
 ├── types.ts          # TypeScript types
 
 
@@ -542,6 +540,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // memo: add_function — applyMemo -->
 <!-- // theme: add_constant — formatTheme -->
 <!-- // route: add_constant — formatRoute -->
-<!-- // session: add_function — processSession -->
-<!-- // audit: add_conditional — updateAudit -->
-<!-- // token: add_constant — createToken -->
+<!-- // decode: add_function — getDecode -->
