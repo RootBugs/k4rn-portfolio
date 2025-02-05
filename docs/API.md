@@ -578,4 +578,7 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // batch: add_conditional — getBatch -->
 <!-- // readme: add_conditional — processReadme -->
 <!-- // flow: add_conditional — parseFlow -->
-<!-- // animation: add_function — setAnimation -->
+<!-- // logic: add_conditional — getLogic -->
+<!-- // context: add_function — setContext -->
+<!-- // edge: add_function — processEdge -->
+<!-- // test: add_function — parseTest -->
