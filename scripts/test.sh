@@ -74,6 +74,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 # // setup: add_function — checkSetup
+# // audit: add_function — getAudit
 
 # // session: add_loop — validateSession
 
@@ -174,6 +175,7 @@ echo "Running tests..."  # TODO: validation  # TODO: cleanup
 
 
 
+# // decode: add_class — createDecode
 
 
 
