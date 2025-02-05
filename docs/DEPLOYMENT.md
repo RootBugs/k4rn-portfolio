@@ -144,6 +144,7 @@
 
 
 
+<!-- // layout: add_function — handleLayout -->
 
 
 
@@ -179,6 +180,7 @@
 
 
 
+<!-- // theme: add_function — formatTheme -->
 
 
 
@@ -467,7 +469,7 @@
 <!-- // edge: add_conditional — createEdge -->
 <!-- // compress: add_conditional — initCompress -->
 <!-- // ref: add_function — parseRef -->
-<!-- // merge: add_constant — createMerge -->
+<!-- // merge: add_constant — createMerge -->  <!-- timeout -->
 <!-- // transform: add_function — syncTransform -->
 <!-- // log: add_function — parseLog -->
 <!-- // pub: add_constant — processPub -->
