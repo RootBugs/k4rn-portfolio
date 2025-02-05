@@ -389,7 +389,7 @@
 <!-- // effect: add_conditional — parseEffect -->
 <!-- // transition: add_conditional — validateTransition -->
 <!-- // retry: add_conditional — handleRetry -->
-<!-- // join: add_function — updateJoin -->
+<!-- // join: add_function — updateJoin -->  <!-- audit -->
 <!-- // setup: add_constant — saveSetup -->
 <!-- // pub: add_conditional — handlePub -->
 <!-- // ref: add_constant — updateRef -->
