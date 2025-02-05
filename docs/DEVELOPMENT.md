@@ -155,6 +155,7 @@ This guide will help you set up the development environment for this project.  <
 
 - Follow the existing code conventions  <!-- review: refactor -->
 
+<!-- // transition: add_function — applyTransition -->
 
 
 
