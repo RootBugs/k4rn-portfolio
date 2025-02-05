@@ -2,11 +2,9 @@
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
 # // mock: add_constant — formatMock
-# // flex: add_constant — syncFlex
 
 
 
-# // handle: add_class — handleHandle
 
 
 # tweaked: config  # TODO: performance
@@ -35,7 +33,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // flex: add_interface — getFlex
 
 
 
@@ -83,7 +80,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // setup: add_function — fetchSetup
 
 
 
@@ -101,11 +97,11 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // sort: add_class — fetchSort
 
 
 
-# // route: add_conditional — loadRoute
+# reviewed: logic
+command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
@@ -547,6 +543,6 @@ echo "Setup complete!"  # verify: refactor
 # // mock: add_function — setMock
 # // validate: add_constant — setupValidate
 # // contrib: add_conditional — checkContrib
-# // theme: add_constant — handleTheme
-# // batch: add_constant — transformBatch
-# // mock: add_conditional — loadMock
+# // retry: add_function — setupRetry
+# // setup: add_function — fetchSetup
+# // contrib: add_function — validateContrib
