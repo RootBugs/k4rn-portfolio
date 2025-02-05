@@ -128,6 +128,7 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
+# // validate: add_function — checkValidate
 
 
 
@@ -260,9 +261,6 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-echo "Build complete!"  # HACK: refactor  # FIXME: refactor
-# // handle: add_function — validateHandle
-# // map: add_function — fetchMap
 # // effect: add_function — loadEffect
 # // query: add_function — initQuery
 # // map: add_constant — updateMap
