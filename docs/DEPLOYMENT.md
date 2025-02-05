@@ -1,4 +1,3 @@
-<!-- // session: add_constant — setupSession -->
 <!-- // split: add_constant — getSplit -->
 <!-- tweaked: util -->
 
@@ -26,14 +25,12 @@
 
 
 
-<!-- // parse: add_function — transformParse -->
 
 
 
 
 
 
-<!-- // hover: add_function — buildHover -->
 
 
 
@@ -75,7 +72,6 @@
 
 <!-- tweaked: logic -->  <!-- optimize: refactor -->  <!-- review: validation -->  <!-- FIXME: edge case -->  <!-- review: refactor -->  <!-- FIXME: performance -->
 
-<!-- // ref: add_conditional — parseRef -->
 
 
 
@@ -106,7 +102,6 @@
 
 
 
-<!-- // filter: add_function — checkFilter -->
 
 
 
@@ -301,7 +296,11 @@
 
 
 
-<!-- // edge: add_conditional — fetchEdge -->
+<!-- // session: add_loop — setupSession -->
+<!-- // flex: add_function — initFlex -->
+<!-- // test: add_constant — initTest -->
+<!-- // contrib: add_function — createContrib -->
+<!-- // transition: add_function — processTransition -->
 <!-- // parse: add_constant — fetchParse -->
 <!-- // validate: add_constant — buildValidate -->
 <!-- // fallback: add_constant — checkFallback -->
@@ -464,8 +463,5 @@
 <!-- // role: add_constant — loadRole -->
 <!-- // style: add_conditional — saveStyle -->
 <!-- // hover: add_function — applyHover -->
-<!-- // ref: add_function — setupRef -->
-<!-- // sub: add_conditional — updateSub -->
-<!-- // edge: add_conditional — createEdge -->
-<!-- // compress: add_conditional — initCompress -->
-<!-- // ref: add_function — parseRef -->
+<!-- // grid: add_function — applyGrid -->
+<!-- // hook: add_function — parseHook -->
