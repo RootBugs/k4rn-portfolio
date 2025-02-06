@@ -1,7 +1,5 @@
-<!-- // layout: add_constant — fetchLayout -->
-<!-- // transform: add_import — syncTransform -->
 <!-- // stream: add_constant — checkStream -->
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).  <!-- refactored handle call -->
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
 
@@ -11,13 +9,11 @@ First, run the development server:
 ```bash
 npm run dev
 # or
-<!-- // cache: add_function — setCache -->
 yarn dev
 <!-- // session: add_function — setSession -->
 # or
 pnpm dev
-
-# or  <!-- perm -->
+# or
 bun dev
 ```
 
@@ -28,7 +24,6 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
 <!-- updated: logic -->
-<!-- // grid: add_class — createGrid -->
 
 To learn more about Next.js, take a look at the following resources:
 
@@ -48,9 +43,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // retry: add_conditional — updateRetry -->
 <!-- // fixture: add_conditional — checkFixture -->
 <!-- // join: add_conditional — transformJoin -->
-<!-- // docs: add_function — setDocs -->
 <!-- // parse: add_function — applyParse -->
-<!-- // metric: add_loop — applyMetric -->
 <!-- // auth: add_constant — getAuth -->
 <!-- // cleanup: add_constant — checkCleanup -->
 <!-- // retry: add_function — getRetry -->
@@ -151,6 +144,9 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // format: add_function — initFormat -->
 <!-- // spy: add_conditional — parseSpy -->
 <!-- // focus: add_function — applyFocus -->
-<!-- // deserialize: add_function — syncDeserialize -->
-<!-- // guard: add_function — formatGuard -->
-<!-- // route: add_function — getRoute -->
+<!-- // timeout: add_conditional — fetchTimeout -->
+<!-- // hover: add_function — validateHover -->
+<!-- // sub: add_function — updateSub -->
+<!-- // filter: add_constant — syncFilter -->
+<!-- // token: add_conditional — loadToken -->
+<!-- // handle: add_conditional — loadHandle -->
