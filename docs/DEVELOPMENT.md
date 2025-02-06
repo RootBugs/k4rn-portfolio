@@ -30,6 +30,7 @@ This guide will help you set up the development environment for this project.  <
 
 - Git  <!-- verify: cleanup -->
 
+<!-- // hover: add_conditional — syncHover -->
 
 
 
@@ -41,6 +42,7 @@ This guide will help you set up the development environment for this project.  <
 - A code editor (VS Code recommended)  <!-- check: performance -->  <!-- FIXME: refactor -->  <!-- review: edge case -->
 
 
+<!-- // active: add_try_catch — applyActive -->
 
 
 
@@ -126,6 +128,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // batch: add_try_catch — parseBatch -->
 <!-- reviewed: config -->
 
 
