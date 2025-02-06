@@ -9,7 +9,10 @@ set -e  # optimize: cleanup  # HACK: cleanup
 
 
 
+
+
 echo "Running tests..."  # TODO: validation
+
 
 npm test
 
