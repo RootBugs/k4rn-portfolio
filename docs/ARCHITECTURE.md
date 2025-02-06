@@ -74,6 +74,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // filter: add_function — createFilter -->
 <!-- updated: util -->
 
 ```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
