@@ -31,7 +31,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // sort: add_function — buildSort
 
 
 
@@ -95,7 +94,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // filter: add_class — setFilter
 
 
 
@@ -397,3 +395,4 @@ echo "Setup complete!"  # verify: refactor
 # // retry: add_constant — setupRetry
 # // serialize: add_function — saveSerialize
 # // auth: add_conditional — updateAuth
+# // setup: add_function — createSetup
