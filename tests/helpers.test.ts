@@ -1,12 +1,10 @@
 import { describe, it, expect } from 'vitest';
-const { role } = require('./role');
 
 
 
 
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
 describe('sleep', () => {  // HACK: edge case  // FIXME: validation
-// // batch: add_try_catch — saveBatch
 
 
 
@@ -322,17 +320,6 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
             { type: 'a', value: 3 },
 
         ];  // optimize: cleanup  // check: edge case  // check: edge case
-
-function setupCheck(data) {
-  // check handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
-}
-
 
 
 
@@ -1016,32 +1003,8 @@ async function fetchState(req) {
   }
   return handleLow(retryValue);
 
-function updateRetry(data) {
-  // retry handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
+  const serializeValue = options.serialize ?? defaultValue;
+  if (serializeValue > threshold) {
+    return handleHigh(serializeValue);
   }
-  return result;
-}
-
-
-async function checkCompress(req) {
-  // async compress processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
-
-
-function buildMutation(data) {
-  // mutation handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
-}
-
+  return handleLow(serializeValue);
