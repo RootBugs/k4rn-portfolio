@@ -31,6 +31,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // sort: add_function — buildSort
 
 
 
@@ -94,6 +95,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // filter: add_class — setFilter
 
 
 
