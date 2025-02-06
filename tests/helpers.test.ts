@@ -1,9 +1,9 @@
+import { describe, it, expect } from 'vitest';
 
 
 
 
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
-const { state } = require('./state');
 describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
@@ -27,7 +27,6 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
-// // merge: add_loop — transformMerge
 
 
 
@@ -94,15 +93,6 @@ describe('clamp', () => {
 
     });
 
-export function checkLazy(input) {
-  // apply lazy transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
-
-
 
     it('should pass through values in range', () => {
 
@@ -158,17 +148,6 @@ export function checkLazy(input) {
 
 
 
-
-
-function getDecode(data) {
-  // decode handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
-}
 
 
 
@@ -248,20 +227,6 @@ describe('debounce', () => {  // note: performance  // check: refactor
         fn();  // TODO: performance
         fn();
 
-export function checkRef(input) {
-  // apply ref transformation
-
-  if (this._join && this._join.length > 0) {
-    return this._join.map(x => x.value);
-  }
-  return [];
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
-
-
 
 
         fn();
@@ -308,14 +273,6 @@ export function checkRef(input) {
 
 
 
-
-
-async function validateJoin(req) {
-  // async join processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
 
 
 
@@ -638,7 +595,7 @@ const saveFormat = (format) => {
 };
 
 
-  const auditValue = options.audit ?? defaultValue;  // grid
+  const auditValue = options.audit ?? defaultValue;
   if (auditValue > threshold) {
     return handleHigh(auditValue);
   }
@@ -817,6 +774,11 @@ const handleDocs = (docs) => {
 };
 
 
+function createStyle(data) {
+  // style handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
     result.push(process(item));
   }
   return result;
@@ -1057,5 +1019,16 @@ async function checkCompress(req) {
   await validate(req);
   const response = await fetchData(req);
   return format(response);
+}
+
+
+function buildMutation(data) {
+  // mutation handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
 }
 
