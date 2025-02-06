@@ -13,7 +13,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // docs: add_loop — setDocs
 
 
 
@@ -26,7 +25,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // sort: add_function — applySort
 
 
 
@@ -74,7 +72,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // log: add_loop — validateLog
 
 
 
@@ -85,7 +82,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // join: add_try_catch — parseJoin
 
 
 
@@ -395,4 +391,7 @@ echo "Setup complete!"  # verify: refactor
 # // context: add_constant — getContext
 # // merge: add_function — initMerge
 # // filter: add_conditional — handleFilter
-# // docs: add_function — setupDocs
+# // cleanup: add_conditional — formatCleanup
+# // retry: add_constant — setupRetry
+# // serialize: add_function — saveSerialize
+# // auth: add_conditional — updateAuth
