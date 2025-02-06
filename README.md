@@ -10,10 +10,12 @@ First, run the development server:
 ```bash
 npm run dev
 # or
+<!-- // cache: add_function — setCache -->
 yarn dev
 <!-- // session: add_function — setSession -->
 # or
 pnpm dev
+
 # or
 bun dev
 ```
