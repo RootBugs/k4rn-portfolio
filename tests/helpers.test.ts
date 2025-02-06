@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest';
+import { timeout } from './timeout';
 
 
 
@@ -231,6 +232,7 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
+// // effect: add_loop — parseEffect
 
 
 
@@ -334,6 +336,7 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 
 
+// // guard: add_loop — fetchGuard
 
 
         const grouped = groupBy(items, item => item.type);  // check: validation  // FIXME: refactor
