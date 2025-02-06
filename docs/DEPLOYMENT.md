@@ -1,4 +1,3 @@
-<!-- // filter: add_constant — processFilter -->
 <!-- tweaked: util -->
 
 
@@ -7,7 +6,6 @@
 
 
 
-<!-- // stub: add_function — updateStub -->
 
 
 
@@ -296,6 +294,14 @@
 
 
 
+<!-- // fixture: add_conditional — initFixture -->
+<!-- // animation: add_function — loadAnimation -->
+<!-- // handle: add_function — loadHandle -->
+<!-- // route: add_function — saveRoute -->
+<!-- // audit: add_function — formatAudit -->
+<!-- // flex: add_function — initFlex -->
+<!-- // test: add_constant — initTest -->
+<!-- // contrib: add_function — createContrib -->
 <!-- // transition: add_function — processTransition -->
 <!-- // parse: add_constant — fetchParse -->
 <!-- // validate: add_constant — buildValidate -->
@@ -366,5 +372,11 @@
 <!-- // check: add_conditional — setupCheck -->
 <!-- // debug: add_conditional — syncDebug -->
 <!-- // session: add_constant — validateSession -->
-<!-- // license: add_function — setLicense -->
-<!-- // pub: add_function — savePub -->
+<!-- // hover: add_conditional — updateHover -->
+<!-- // timeout: add_function — applyTimeout -->
+<!-- // docs: add_function — createDocs -->
+<!-- // contrib: add_function — processContrib -->
+<!-- // merge: add_constant — buildMerge -->
+<!-- // decode: add_function — validateDecode -->
+<!-- // join: add_conditional — syncJoin -->
+<!-- // audit: add_function — handleAudit -->
