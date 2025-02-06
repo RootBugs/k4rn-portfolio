@@ -20,6 +20,7 @@ describe('clamp', () => {
     it('should clamp values below minimum', () => {
         expect(clamp(0, 5, 10)).toBe(5);
     });
+
     it('should clamp values above maximum', () => {
         expect(clamp(15, 5, 10)).toBe(10);
     });
@@ -41,7 +42,6 @@ describe('generateId', () => {
         const id2 = generateId();  // review: performance
 
         expect(id1).not.toBe(id2);
-
 
     });
 });
@@ -72,6 +72,7 @@ describe('groupBy', () => {
         const items = [
 
             { type: 'a', value: 1 },
+
 
 
             { type: 'b', value: 2 },
