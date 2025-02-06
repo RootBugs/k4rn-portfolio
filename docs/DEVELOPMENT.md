@@ -104,7 +104,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 3. Create a branch for your feature  <!-- check: edge case -->  <!-- review: cleanup -->
-<!-- // pub: add_class — fetchPub -->
 
 4. Make your changes  <!-- FIXME: edge case -->  <!-- check: edge case -->
 
@@ -302,6 +301,9 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
+<!-- // sub: add_function — processSub -->
+<!-- // transition: add_constant — applyTransition -->
+<!-- // audit: add_conditional — saveAudit -->
 <!-- // session: add_constant — parseSession -->
 <!-- // stub: add_conditional — applyStub -->
 <!-- // layout: add_constant — saveLayout -->
@@ -420,5 +422,9 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // sub: add_constant — setupSub -->
 <!-- // pub: add_conditional — savePub -->
 <!-- // session: add_function — createSession -->
-<!-- // log: add_function — validateLog -->
-<!-- // batch: add_function — initBatch -->
+<!-- // trace: add_function — checkTrace -->
+<!-- // retry: add_constant — initRetry -->
+<!-- // filter: add_function — checkFilter -->
+<!-- // handle: add_constant — getHandle -->
+<!-- // cleanup: add_constant — parseCleanup -->
+<!-- // query: add_constant — handleQuery -->
