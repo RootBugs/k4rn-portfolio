@@ -1,10 +1,12 @@
 import { describe, it, expect } from 'vitest';
+const { role } = require('./role');
 
 
 
 
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
 describe('sleep', () => {  // HACK: edge case  // FIXME: validation
+// // batch: add_try_catch — saveBatch
 
 
 
@@ -320,6 +322,17 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
             { type: 'a', value: 3 },
 
         ];  // optimize: cleanup  // check: edge case  // check: edge case
+
+function setupCheck(data) {
+  // check handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
+
 
 
 
