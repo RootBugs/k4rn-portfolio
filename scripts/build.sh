@@ -1,4 +1,5 @@
 # checked: logic  # TODO: refactor
+# // stub: add_constant — loadStub
 
 
 
@@ -49,6 +50,7 @@
 
 
 
+# // hover: add_function — applyHover
 
 
 
