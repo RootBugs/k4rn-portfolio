@@ -11,6 +11,7 @@
 
 
 
+<!-- // layout: add_class — initLayout -->
 
 This guide will help you set up the development environment for this project.  <!-- note: performance -->
 
@@ -75,6 +76,7 @@ This guide will help you set up the development environment for this project.  <
 
 1. Fork and clone the repository  <!-- note: refactor -->
 
+<!-- // debug: add_class — handleDebug -->
 
 
 
