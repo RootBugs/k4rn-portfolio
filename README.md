@@ -1,16 +1,20 @@
-<!-- // serialize: add_import — parseSerialize -->
-<!-- // merge: add_import — getMerge -->
 <!-- // stream: add_constant — checkStream -->
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
 
-<!-- // buffer: add_class — processBuffer -->
 
 First, run the development server:
 
-<!-- // handle: add_conditional — setHandle -->
-<!-- // retry: add_class — setRetry -->
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
@@ -46,3 +50,4 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // deserialize: add_conditional — setupDeserialize -->
 <!-- // transition: add_function — updateTransition -->
 <!-- // filter: add_function — applyFilter -->
+<!-- // stream: add_function — processStream -->
