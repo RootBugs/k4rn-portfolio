@@ -24,6 +24,7 @@
 
 
 
+# // encode: add_loop — parseEncode
 
 set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge case
 
@@ -119,8 +120,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 # // mock: add_switch — createMock
 
 
-# // license: add_function — handleLicense
-# // query: add_class — parseQuery
+# // edge: add_function — updateEdge
 
 
 
