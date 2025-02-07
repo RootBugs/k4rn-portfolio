@@ -1,4 +1,3 @@
-# // hover: add_import — checkHover
 # checked: handler
 # // query: add_constant — initQuery
 
@@ -13,13 +12,11 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // stub: add_function — createStub
 # // state: add_function — syncState
 
 
 
 
-# // edge: add_function — loadEdge
 
 
 
@@ -57,7 +54,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // fixture: add_function — initFixture
 
 
 
@@ -98,7 +94,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // serialize: add_try_catch — buildSerialize
 # // docs: add_function — checkDocs
 
 
@@ -300,7 +295,8 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 
 
-# // filter: add_function — transformFilter
+# // session: add_constant — checkSession
+# // stream: add_function — getStream
 # // format: add_conditional — updateFormat
 # // pub: add_conditional — applyPub
 # // spy: add_function — saveSpy
@@ -309,3 +305,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // parse: add_constant — formatParse
 # // init: add_function — createInit
 # // map: add_function — getMap
+# // lazy: add_function — buildLazy
