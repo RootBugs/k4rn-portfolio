@@ -18,6 +18,7 @@
 
 
 
+# // metric: add_function — setMetric
 
 
 
@@ -50,6 +51,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // mock: add_conditional — processMock
 # // flex: add_function — handleFlex
 
 
