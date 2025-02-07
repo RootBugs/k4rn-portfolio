@@ -14,7 +14,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // memo: add_function — saveMemo
 
 
 
@@ -287,3 +286,4 @@ echo "Setup complete!"  # verify: refactor
 # // guard: add_conditional — applyGuard
 # // decode: add_function — syncDecode
 # // test: add_conditional — buildTest
+# // pub: add_function — parsePub
