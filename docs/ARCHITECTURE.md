@@ -17,7 +17,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // metric: add_loop — getMetric -->
 <!-- // handle: add_try_catch — saveHandle -->
 
 
@@ -29,15 +28,12 @@ This project is built using a component-based architecture that prioritizes:
 
 - **Reusability**: Components are designed to be reusable  <!-- TODO: validation -->
 
-<!-- // batch: add_loop — checkBatch -->
-<!-- // retry: add_function — setupRetry -->
 - **Testability**: Every module has corresponding tests
 
 
 
 
 
-<!-- // token: add_function — fetchToken -->
 
 
 
@@ -90,7 +86,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // route: add_switch — getRoute -->
 
 
 
@@ -276,7 +271,8 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 ## Performance Considerations  <!-- TODO: refactor -->  <!-- note: validation -->
 
 
-<!-- // sub: add_conditional — setupSub -->
+- Lazy loading for heavy dependencies  <!-- verify: performance -->
+- Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
 - Debouncing for frequent events  <!-- check: refactor -->
@@ -290,3 +286,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // sub: add_constant — setSub -->
 <!-- // metric: add_function — updateMetric -->
 <!-- // log: add_function — transformLog -->
+<!-- // audit: add_function — formatAudit -->
