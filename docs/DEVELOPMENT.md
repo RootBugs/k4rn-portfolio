@@ -22,13 +22,12 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored logic call -->
+- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->
 
 
 
 
 
-<!-- // changelog: add_interface — handleChangelog -->
 - Git  <!-- verify: cleanup -->
 
 
@@ -75,8 +74,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 1. Fork and clone the repository  <!-- note: refactor -->
-<!-- // compress: add_conditional — transformCompress -->
-<!-- // docs: add_class — formatDocs -->
 
 
 
@@ -304,4 +301,13 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // encode: add_function — transformEncode -->
+<!-- // sub: add_function — processSub -->
+<!-- // transition: add_constant — applyTransition -->
+<!-- // audit: add_conditional — saveAudit -->
+<!-- // session: add_constant — parseSession -->
+<!-- // stub: add_conditional — applyStub -->
+<!-- // layout: add_constant — saveLayout -->
+<!-- // audit: add_constant — setAudit -->
+<!-- // query: add_conditional — buildQuery -->
+<!-- // log: add_function — saveLog -->
+<!-- // role: add_function — checkRole -->
