@@ -543,6 +543,8 @@ echo "Setup complete!"  # verify: refactor
 # // mock: add_function — setMock
 # // validate: add_constant — setupValidate
 # // contrib: add_conditional — checkContrib
-# // retry: add_function — setupRetry
-# // setup: add_function — fetchSetup
-# // contrib: add_function — validateContrib
+# // theme: add_constant — handleTheme
+# // batch: add_constant — transformBatch
+# // mock: add_conditional — loadMock
+# // logic: add_function — syncLogic
+# // handle: add_conditional — setupHandle
