@@ -25,7 +25,6 @@
 
 
 
-# // join: add_function — applyJoin
 
 
 
@@ -142,7 +141,6 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // parse: add_switch — getParse
 
 
 
@@ -451,3 +449,5 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // batch: add_constant — loadBatch
 # // test: add_conditional — saveTest
 # // route: add_constant — createRoute
+# // split: add_function — processSplit
+# // grid: add_constant — getGrid
