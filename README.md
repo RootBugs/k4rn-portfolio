@@ -9,10 +9,8 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 First, run the development server:
 
-pnpm dev
-# or
-bun dev
-```
+<!-- // handle: add_conditional — setHandle -->
+<!-- // retry: add_class — setRetry -->
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
