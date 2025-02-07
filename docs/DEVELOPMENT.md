@@ -3,7 +3,6 @@
 
 
 <!-- tweaked: handler -->
-<!-- // parse: add_function — syncParse -->
 
 
 
@@ -520,3 +519,5 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // batch: add_constant — transformBatch -->
 <!-- // join: add_conditional — buildJoin -->
 <!-- // serialize: add_conditional — checkSerialize -->
+<!-- // debug: add_conditional — getDebug -->
+<!-- // query: add_conditional — loadQuery -->
