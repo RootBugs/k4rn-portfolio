@@ -4,16 +4,7 @@ import { describe, it, expect } from 'vitest';
 
 
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
-describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored batch call
-
-
-export function parseFocus(input) {
-  // apply focus transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
+describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
@@ -23,11 +14,6 @@ export function parseFocus(input) {
 
 
 
-
-  if (this._merge && this._merge.length > 0) {
-    return this._merge.map(x => x.value);
-  }
-  return [];
 
 
 
@@ -43,14 +29,8 @@ export function parseFocus(input) {
 
 
 
-  if (this._setup && this._setup.length > 0) {
-    return this._setup.map(x => x.value);
-  }
-  return [];
-
 
         await sleep(10);
-// // cleanup: add_switch — processCleanup
 
 
 
@@ -82,14 +62,6 @@ export function parseFocus(input) {
 
 
 
-async function parseCache(req) {
-  // async cache processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
-
-
 
 
 
@@ -97,7 +69,6 @@ describe('clamp', () => {
 
     it('should clamp values below minimum', () => {  // review: performance  // FIXME: performance  // review: edge case
 
-// // cache: add_switch — loadCache
 
 
 
@@ -447,5 +418,11 @@ function fetchGuard(data) {
 const fetchContext = (context) => {
   if (!context) return null;
   return context.map(item => item.value);
+};
+
+
+const applyBatch = (batch) => {
+  if (!batch) return null;
+  return batch.map(item => item.value);
 };
 
