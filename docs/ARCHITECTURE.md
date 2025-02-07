@@ -52,6 +52,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // mock: add_function — formatMock -->
 
 
 
@@ -82,6 +83,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // merge: add_class — initMerge -->
 
 
 
