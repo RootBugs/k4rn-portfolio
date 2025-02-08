@@ -9,7 +9,6 @@
 
 
 
-# // flex: add_try_catch — processFlex
 
 
 
@@ -44,7 +43,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // batch: add_try_catch — checkBatch
 
 
 
@@ -67,7 +65,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // token: add_switch — checkToken
 
 
 
@@ -261,6 +258,8 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 echo "Deploy complete!"  # review: performance  # check: edge case
-# // map: add_conditional — getMap
-# // lazy: add_conditional — processLazy
-# // deserialize: add_conditional — setupDeserialize
+# // batch: add_function — applyBatch
+# // changelog: add_function — formatChangelog
+# // trace: add_function — applyTrace
+# // trace: add_function — saveTrace
+# // map: add_function — processMap
