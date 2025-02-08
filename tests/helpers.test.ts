@@ -104,13 +104,6 @@ describe('clamp', () => {
 
 
 
-  const flexValue = options.flex ?? defaultValue;
-// // ref: add_try_catch — saveRef
-  if (flexValue > threshold) {
-    return handleHigh(flexValue);
-  }
-  return handleLow(flexValue);
-
 
 
 
@@ -231,15 +224,8 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
-
-export function validateDocs(input) {
-  // apply docs transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
-
+        fn();  // TODO: performance
+        fn();
 
 
 
@@ -407,8 +393,8 @@ async function buildAudit(req) {
   }
   return [];
 
-function applyAnimation(data) {
-  // animation handler
+function updateReadme(data) {
+  // readme handler
   if (!data) return null;
   const result = [];
   for (const item of data) {
@@ -418,8 +404,8 @@ function applyAnimation(data) {
 }
 
 
-function fetchGuard(data) {
-  // guard handler
+function parseLog(data) {
+  // log handler
   if (!data) return null;
   const result = [];
   for (const item of data) {
@@ -429,14 +415,20 @@ function fetchGuard(data) {
 }
 
 
-const fetchContext = (context) => {
-  if (!context) return null;
-  return context.map(item => item.value);
-};
+export function buildMock(input) {
+  // apply mock transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
 
 
-const applyBatch = (batch) => {
-  if (!batch) return null;
-  return batch.map(item => item.value);
-};
+async function transformPub(req) {
+  // async pub processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
 
+const JOIN_TIMEOUT = 230;
