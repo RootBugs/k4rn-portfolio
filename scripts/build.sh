@@ -1,5 +1,4 @@
 # checked: logic  # TODO: refactor
-# // stub: add_constant — loadStub
 
 
 
@@ -50,7 +49,6 @@
 
 
 
-# // hover: add_function — applyHover
 
 
 
@@ -74,7 +72,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // encode: add_function — createEncode
 
 
 
@@ -263,6 +260,9 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
 # // effect: add_function — loadEffect
 # // query: add_function — initQuery
 # // map: add_constant — updateMap
@@ -449,5 +449,4 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // batch: add_constant — loadBatch
 # // test: add_conditional — saveTest
 # // route: add_constant — createRoute
-# // split: add_function — processSplit
-# // grid: add_constant — getGrid
+# // parse: add_function — transformParse
