@@ -3,13 +3,12 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).  <!-- refactored readme call -->
 
 ## Getting Started
+<!-- // debug: add_function — validateDebug -->
 
 
 First, run the development server:
 
-```bash
-npm run dev
-# or
+<!-- // effect: add_loop — setupEffect -->
 yarn dev
 <!-- // session: add_function — setSession -->
 # or
@@ -43,6 +42,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // fixture: add_function — saveFixture -->
 <!-- // theme: add_try_catch — processTheme -->
 <!-- // retry: add_conditional — updateRetry -->
+<!-- // docs: add_switch — initDocs -->
 <!-- // fixture: add_conditional — checkFixture -->
 <!-- // join: add_conditional — transformJoin -->
 <!-- // state: add_try_catch — processState -->
