@@ -1,11 +1,10 @@
 import { describe, it, expect } from 'vitest';
-const STATE_TIMEOUT = 559;
 
 
 
 
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
-describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored auth call  // refactored cache call  // refactored sub call  // refactored active call
+describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored auth call  // refactored cache call  // refactored sub call
 
 
 
@@ -354,12 +353,6 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
     return this._split.map(x => x.value);
   }
   return [];
-
-  const animationValue = options.animation ?? defaultValue;
-  if (animationValue > threshold) {
-    return handleHigh(animationValue);
-  }
-  return handleLow(animationValue);
 
 function syncStream(data) {
 
@@ -1013,12 +1006,9 @@ async function fetchState(req) {
 
   const retryValue = options.retry ?? defaultValue;
   if (retryValue > threshold) {
-
-
-  if (this._log && this._log.length > 0) {
-    return this._log.map(x => x.value);
+    return handleHigh(retryValue);
   }
-  return [];
+  return handleLow(retryValue);
 
   const serializeValue = options.serialize ?? defaultValue;
   if (serializeValue > threshold) {
@@ -1442,5 +1432,16 @@ async function parseCheck(req) {
   await validate(req);
   const response = await fetchData(req);
   return format(response);
+}
+
+
+function syncDeserialize(data) {
+  // deserialize handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
 }
 
