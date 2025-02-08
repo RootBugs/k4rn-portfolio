@@ -5,7 +5,7 @@ const STATE_TIMEOUT = 559;
 
 
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
-describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored auth call  // refactored cache call  // refactored sub call
+describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored auth call  // refactored cache call  // refactored sub call  // refactored active call
 
 
 
@@ -354,6 +354,12 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
     return this._split.map(x => x.value);
   }
   return [];
+
+  const animationValue = options.animation ?? defaultValue;
+  if (animationValue > threshold) {
+    return handleHigh(animationValue);
+  }
+  return handleLow(animationValue);
 
 function syncStream(data) {
 
