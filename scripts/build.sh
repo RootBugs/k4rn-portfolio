@@ -450,3 +450,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // test: add_conditional — saveTest
 # // route: add_constant — createRoute
 # // parse: add_function — transformParse
+# // lazy: add_function — setLazy
