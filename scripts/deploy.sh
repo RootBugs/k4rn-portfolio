@@ -439,5 +439,5 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // contrib: add_function — processContrib
 # // flex: add_function — transformFlex
 # // perm: add_constant — syncPerm
-# // parse: add_function — parseParse
-# // fallback: add_conditional — checkFallback
+# // mock: add_function — parseMock
+# // setup: add_function — processSetup
