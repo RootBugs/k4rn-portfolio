@@ -1,4 +1,5 @@
 # checked: logic  # TODO: refactor
+# // active: add_constant — transformActive
 
 
 
@@ -62,6 +63,7 @@
 
 set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: refactor
 
+# // perm: add_function — updatePerm
 
 
 
