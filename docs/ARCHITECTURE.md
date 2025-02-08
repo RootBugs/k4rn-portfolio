@@ -5,6 +5,7 @@
 
 
 
+<!-- // batch: add_loop — loadBatch -->
 
 
 
@@ -27,6 +28,7 @@ This project is built using a component-based architecture that prioritizes:
 - **Modularity**: Each component is self-contained
 
 - **Reusability**: Components are designed to be reusable  <!-- TODO: validation -->
+<!-- // serialize: add_function — checkSerialize -->
 
 - **Testability**: Every module has corresponding tests
 
