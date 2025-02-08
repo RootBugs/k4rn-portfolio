@@ -3,7 +3,6 @@
 
 
 
-# // check: add_class — updateCheck
 
 
 
@@ -11,7 +10,6 @@
 
 
 
-# // fixture: add_function — getFixture
 # // batch: add_function — getBatch
 
 
@@ -24,7 +22,6 @@
 
 
 
-# // encode: add_loop — parseEncode
 
 set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge case
 
@@ -91,7 +88,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // check: add_function — formatCheck
 
 
 
@@ -120,7 +116,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 # // mock: add_switch — createMock
 
 
-# // edge: add_function — updateEdge
+# // query: add_class — parseQuery
 
 
 
@@ -144,7 +140,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // route: add_class — setupRoute
 
 
 
@@ -270,6 +265,11 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
+echo "Deploy complete!"  # review: performance  # check: edge case
+# // map: add_conditional — getMap
+# // lazy: add_conditional — processLazy
+# // deserialize: add_conditional — setupDeserialize
+# // logic: add_conditional — formatLogic
 # // focus: add_constant — processFocus
 # // log: add_conditional — handleLog
 # // split: add_constant — loadSplit
@@ -439,4 +439,5 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // contrib: add_function — processContrib
 # // flex: add_function — transformFlex
 # // perm: add_constant — syncPerm
-# // mock: add_function — parseMock
+# // parse: add_function — parseParse
+# // fallback: add_conditional — checkFallback
