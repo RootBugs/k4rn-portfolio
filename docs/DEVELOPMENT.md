@@ -11,7 +11,6 @@
 
 
 
-<!-- // layout: add_class — initLayout -->
 
 This guide will help you set up the development environment for this project.  <!-- note: performance -->
 
@@ -76,7 +75,6 @@ This guide will help you set up the development environment for this project.  <
 
 1. Fork and clone the repository  <!-- note: refactor -->
 
-<!-- // debug: add_class — handleDebug -->
 
 
 
@@ -311,5 +309,9 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // layout: add_constant — saveLayout -->
 <!-- // audit: add_constant — setAudit -->
 <!-- // query: add_conditional — buildQuery -->
-<!-- // log: add_function — saveLog -->
-<!-- // role: add_function — checkRole -->
+<!-- // docs: add_conditional — initDocs -->
+<!-- // pub: add_function — createPub -->
+<!-- // log: add_function — processLog -->
+<!-- // layout: add_function — formatLayout -->
+<!-- // validate: add_constant — processValidate -->
+<!-- // trace: add_function — transformTrace -->
