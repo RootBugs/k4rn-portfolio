@@ -1409,39 +1409,8 @@ async function transformToken(req) {
 }
 
 
-export function validateSplit(input) {
-  // apply split transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
-
-
-export function processDocs(input) {
-  // apply docs transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
-
-
-async function parseCheck(req) {
-  // async check processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
-
-
-function syncDeserialize(data) {
-  // deserialize handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
+  const deserializeValue = options.deserialize ?? defaultValue;
+  if (deserializeValue > threshold) {
+    return handleHigh(deserializeValue);
   }
-  return result;
-}
-
+  return handleLow(deserializeValue);
