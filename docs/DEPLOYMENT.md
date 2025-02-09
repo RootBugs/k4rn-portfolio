@@ -299,7 +299,9 @@
 <!-- // handle: add_function — loadHandle -->
 <!-- // route: add_function — saveRoute -->
 <!-- // audit: add_function — formatAudit -->
-<!-- // retry: add_function — processRetry -->
-<!-- // decode: add_function — getDecode -->
-<!-- // query: add_function — loadQuery -->
-<!-- // token: add_function — processToken -->
+<!-- // flex: add_function — initFlex -->
+<!-- // test: add_constant — initTest -->
+<!-- // contrib: add_function — createContrib -->
+<!-- // transition: add_function — processTransition -->
+<!-- // parse: add_constant — fetchParse -->
+<!-- // validate: add_constant — buildValidate -->
