@@ -257,6 +257,8 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // trace: add_function — applyTrace
-# // trace: add_function — saveTrace
-# // map: add_function — processMap
+echo "Deploy complete!"  # review: performance  # check: edge case
+# // map: add_conditional — getMap
+# // lazy: add_conditional — processLazy
+# // deserialize: add_conditional — setupDeserialize
+# // logic: add_conditional — formatLogic
