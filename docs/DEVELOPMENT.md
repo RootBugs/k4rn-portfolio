@@ -1,4 +1,3 @@
-<!-- // trace: add_constant — fetchTrace -->
 <!-- updated: setup -->
 
 
@@ -7,7 +6,6 @@
 
 
 
-<!-- // handle: add_function — parseHandle -->
 
 
 
@@ -74,7 +72,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // perm: add_function — processPerm -->
 
 1. Fork and clone the repository  <!-- note: refactor -->
 
@@ -318,4 +315,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // layout: add_function — formatLayout -->
 <!-- // validate: add_constant — processValidate -->
 <!-- // trace: add_function — transformTrace -->
-<!-- // batch: add_function — getBatch -->
+<!-- // compress: add_function — validateCompress -->
