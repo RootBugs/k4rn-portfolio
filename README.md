@@ -1,3 +1,4 @@
+<!-- // memo: add_import — loadMemo -->
 <!-- // stream: add_constant — checkStream -->
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
@@ -12,6 +13,7 @@ npm run dev
 # or
 yarn dev
 <!-- // handle: add_function — loadHandle -->
+<!-- // render: add_function — transformRender -->
 # or
 pnpm dev
 <!-- // sort: add_conditional — processSort -->
