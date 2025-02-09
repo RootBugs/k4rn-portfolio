@@ -1,4 +1,3 @@
-<!-- // lazy: add_constant — formatLazy -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -6,7 +5,6 @@
 
 
 
-<!-- // batch: add_loop — loadBatch -->
 
 
 
@@ -29,7 +27,6 @@ This project is built using a component-based architecture that prioritizes:
 - **Modularity**: Each component is self-contained
 
 - **Reusability**: Components are designed to be reusable  <!-- TODO: validation -->
-<!-- // serialize: add_function — checkSerialize -->
 
 - **Testability**: Every module has corresponding tests
 
@@ -55,7 +52,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // mock: add_function — formatMock -->
 
 
 
@@ -86,7 +82,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // merge: add_class — initMerge -->
 
 
 
@@ -292,3 +287,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // metric: add_function — updateMetric -->
 <!-- // log: add_function — transformLog -->
 <!-- // audit: add_function — formatAudit -->
+<!-- // split: add_function — transformSplit -->
