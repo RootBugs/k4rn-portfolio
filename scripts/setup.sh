@@ -41,12 +41,14 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // join: add_try_catch — setJoin
 
 
 
 
 
 
+# // join: add_function — buildJoin
 
 
 
@@ -88,6 +90,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // context: add_try_catch — checkContext
 
 
 
