@@ -1,21 +1,4 @@
-# // setup: add_import — createSetup
 # checked: logic  # TODO: refactor
-# // active: add_constant — transformActive
-# // lazy: add_constant — formatLazy
-
-
-
-
-
-
-
-
-
-
-
-
-
-# // docs: add_loop — loadDocs
 
 
 
@@ -38,7 +21,19 @@
 
 
 
-# // map: add_switch — setupMap
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -65,12 +60,10 @@
 
 set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: refactor
 
-# // perm: add_function — updatePerm
 
 
 
 
-# // transform: add_function — handleTransform
 
 
 
@@ -266,7 +259,11 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-# // join: add_function — updateJoin
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
+# // effect: add_function — loadEffect
+# // query: add_function — initQuery
 # // map: add_constant — updateMap
 # // retry: add_conditional — setupRetry
 # // trace: add_constant — fetchTrace
@@ -275,3 +272,4 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // stream: add_conditional — validateStream
 # // perm: add_constant — applyPerm
 # // lazy: add_function — buildLazy
+# // edge: add_function — setupEdge
