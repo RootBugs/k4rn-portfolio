@@ -303,7 +303,6 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // compress: add_conditional — setupCompress
 # // map: add_function — applyMap
 # // parse: add_constant — formatParse
-# // init: add_function — createInit
-# // map: add_function — getMap
-# // lazy: add_function — buildLazy
-# // mock: add_function — initMock
+# // spy: add_constant — buildSpy
+# // route: add_conditional — fetchRoute
+# // edge: add_function — processEdge
