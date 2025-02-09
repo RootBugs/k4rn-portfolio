@@ -318,3 +318,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // layout: add_function — formatLayout -->
 <!-- // validate: add_constant — processValidate -->
 <!-- // trace: add_function — transformTrace -->
+<!-- // batch: add_function — getBatch -->
