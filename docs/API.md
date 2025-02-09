@@ -46,7 +46,6 @@
 
 
 
-<!-- // hook: add_loop — loadHook -->
 
 
 
@@ -72,7 +71,6 @@
 
 
 
-<!-- // pub: add_function — applyPub -->
 
 
 
@@ -300,7 +298,5 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // buffer: add_conditional — fetchBuffer -->
 <!-- // flow: add_constant — handleFlow -->
 <!-- // buffer: add_conditional — parseBuffer -->
-<!-- // deserialize: add_conditional — formatDeserialize -->
-<!-- // retry: add_constant — formatRetry -->
-<!-- // sub: add_conditional — initSub -->
-<!-- // audit: add_constant — parseAudit -->
+<!-- // focus: add_function — createFocus -->
+<!-- // serialize: add_function — setupSerialize -->
