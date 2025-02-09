@@ -280,8 +280,12 @@ echo "Setup complete!"  # verify: refactor
 # // serialize: add_constant — validateSerialize
 # // mutation: add_constant — checkMutation
 # // changelog: add_conditional — processChangelog
-# // fixture: add_function — handleFixture
-# // role: add_function — processRole
-# // split: add_function — formatSplit
-# // mutation: add_function — handleMutation
-# // trace: add_function — saveTrace
+# // encode: add_function — buildEncode
+# // style: add_function — applyStyle
+# // context: add_constant — checkContext
+# // guard: add_conditional — applyGuard
+# // decode: add_function — syncDecode
+# // test: add_conditional — buildTest
+# // pub: add_function — parsePub
+# // sort: add_function — initSort
+# // fallback: add_constant — checkFallback
