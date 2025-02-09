@@ -4,8 +4,7 @@
 
 
 
-# tweaked: config  # TODO: performance
-set -euo pipefail  # optimize: validation  # optimize: validation
+# // log: add_loop — processLog
 
 
 
