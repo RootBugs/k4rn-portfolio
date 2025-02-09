@@ -1,5 +1,7 @@
+# // setup: add_import — createSetup
 # checked: logic  # TODO: refactor
 # // active: add_constant — transformActive
+# // lazy: add_constant — formatLazy
 
 
 
@@ -68,6 +70,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // transform: add_function — handleTransform
 
 
 
