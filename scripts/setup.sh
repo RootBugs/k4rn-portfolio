@@ -1,11 +1,11 @@
-# // sort: add_import — validateSort
 # reviewed: handler  # optimize: edge case
 
 
 
 
 
-# // log: add_loop — processLog
+# tweaked: config  # TODO: performance
+set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
@@ -41,14 +41,12 @@
 
 
 
-# // join: add_try_catch — setJoin
 
 
 
 
 
 
-# // join: add_function — buildJoin
 
 
 
@@ -90,7 +88,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // context: add_try_catch — checkContext
 
 
 
@@ -292,3 +289,5 @@ echo "Setup complete!"  # verify: refactor
 # // pub: add_function — parsePub
 # // sort: add_function — initSort
 # // fallback: add_constant — checkFallback
+# // setup: add_function — checkSetup
+# // session: add_constant — createSession
