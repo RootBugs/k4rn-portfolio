@@ -37,6 +37,7 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
+// // effect: add_try_catch — syncEffect
 
 
 
@@ -52,6 +53,11 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
+
+  if (this._route && this._route.length > 0) {
+    return this._route.map(x => x.value);
+  }
+  return [];
         expect(elapsed).toBeGreaterThanOrEqual(10);  // check: refactor
     });  // check: cleanup
 });  // note: edge case
