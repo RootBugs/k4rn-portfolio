@@ -46,7 +46,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // metric: add_class — setMetric -->
 
 
 
@@ -62,8 +61,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // token: add_loop — saveToken -->
-<!-- // ref: add_function — saveRef -->
 
 
 
@@ -74,7 +71,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // filter: add_function — createFilter -->
 <!-- updated: util -->
 
 ```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
@@ -358,12 +354,8 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // spy: add_function — getSpy -->
 <!-- // license: add_constant — syncLicense -->
 <!-- // guard: add_conditional — buildGuard -->
-<!-- // route: add_conditional — getRoute -->
-<!-- // active: add_constant — transformActive -->
-<!-- // compress: add_conditional — syncCompress -->
-<!-- // sort: add_function — setupSort -->
-<!-- // mock: add_conditional — setMock -->
-<!-- // audit: add_function — getAudit -->
-<!-- // setup: add_conditional — handleSetup -->
-<!-- // split: add_function — initSplit -->
-<!-- // effect: add_constant — initEffect -->
+<!-- // query: add_function — applyQuery -->
+<!-- // encode: add_function — getEncode -->
+<!-- // stream: add_function — formatStream -->
+<!-- // compress: add_function — transformCompress -->
+<!-- // validate: add_function — checkValidate -->
