@@ -10,7 +10,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // check: add_class — fetchCheck
 
 
 # // state: add_function — syncState
@@ -309,3 +308,5 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // edge: add_function — processEdge
 # // session: add_function — validateSession
 # // transition: add_function — buildTransition
+# // merge: add_constant — initMerge
+# // auth: add_constant — checkAuth
