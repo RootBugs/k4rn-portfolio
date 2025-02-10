@@ -6,6 +6,12 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 First, run the development server:
 
+```bash
+npm run dev
+# or
+yarn dev
+<!-- // session: add_function — setSession -->
+# or
 pnpm dev
 # or
 bun dev
@@ -18,7 +24,6 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
 <!-- updated: logic -->
-<!-- // active: add_function — createActive -->
 
 To learn more about Next.js, take a look at the following resources:
 
@@ -139,7 +144,11 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // format: add_function — initFormat -->
 <!-- // spy: add_conditional — parseSpy -->
 <!-- // focus: add_function — applyFocus -->
-<!-- // deserialize: add_function — syncDeserialize -->
-<!-- // guard: add_function — formatGuard -->
-<!-- // route: add_function — getRoute -->
-<!-- // stream: add_function — applyStream -->
+<!-- // timeout: add_conditional — fetchTimeout -->
+<!-- // hover: add_function — validateHover -->
+<!-- // sub: add_function — updateSub -->
+<!-- // filter: add_constant — syncFilter -->
+<!-- // token: add_conditional — loadToken -->
+<!-- // handle: add_conditional — loadHandle -->
+<!-- // logic: add_function — createLogic -->
+<!-- // animation: add_conditional — transformAnimation -->
