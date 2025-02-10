@@ -1,4 +1,3 @@
-# // perm: add_import — updatePerm
 # checked: handler
 # // query: add_constant — initQuery
 
@@ -307,3 +306,5 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // spy: add_constant — buildSpy
 # // route: add_conditional — fetchRoute
 # // edge: add_function — processEdge
+# // session: add_function — validateSession
+# // transition: add_function — buildTransition
