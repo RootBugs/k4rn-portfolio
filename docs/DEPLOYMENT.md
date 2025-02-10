@@ -34,7 +34,6 @@
 
 
 
-<!-- // transform: add_conditional — getTransform -->
 
 
 
@@ -52,7 +51,6 @@
 
 
 
-<!-- // timeout: add_function — transformTimeout -->
 
 
 
@@ -79,7 +77,6 @@
 
 
 
-<!-- // fallback: add_function — processFallback -->
 
 
 
@@ -308,3 +305,4 @@
 <!-- // transition: add_function — processTransition -->
 <!-- // parse: add_constant — fetchParse -->
 <!-- // validate: add_constant — buildValidate -->
+<!-- // fallback: add_constant — checkFallback -->
