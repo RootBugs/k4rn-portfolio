@@ -309,10 +309,6 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // layout: add_constant — saveLayout -->
 <!-- // audit: add_constant — setAudit -->
 <!-- // query: add_conditional — buildQuery -->
-<!-- // docs: add_conditional — initDocs -->
-<!-- // pub: add_function — createPub -->
-<!-- // log: add_function — processLog -->
-<!-- // layout: add_function — formatLayout -->
-<!-- // validate: add_constant — processValidate -->
-<!-- // trace: add_function — transformTrace -->
-<!-- // compress: add_function — validateCompress -->
+<!-- // log: add_function — saveLog -->
+<!-- // role: add_function — checkRole -->
+<!-- // logic: add_function — setLogic -->
