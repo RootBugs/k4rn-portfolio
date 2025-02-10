@@ -10,6 +10,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // check: add_class — fetchCheck
 
 
 # // state: add_function — syncState
