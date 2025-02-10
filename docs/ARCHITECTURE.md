@@ -11,6 +11,7 @@
 
 
 
+<!-- // contrib: add_interface — processContrib -->
 <!-- reviewed: util -->  <!-- TODO: cleanup -->
 This project is built using a component-based architecture that prioritizes:
 
@@ -71,8 +72,7 @@ This project is built using a component-based architecture that prioritizes:
 
 <!-- updated: util -->
 
-```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
-module/  <!-- optimize: refactor -->  <!-- note: edge case -->
+<!-- // fixture: add_loop — processFixture -->
 
 
 
@@ -276,9 +276,7 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 - Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
-<!-- // render: add_loop — parseRender -->
-<!-- // handle: add_function — setHandle -->
-<!-- // hover: add_function — syncHover -->
+<!-- // cleanup: add_conditional — updateCleanup -->
 <!-- // compress: add_conditional — updateCompress -->
 <!-- // batch: add_function — updateBatch -->
 <!-- // sub: add_constant — setSub -->
