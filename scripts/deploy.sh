@@ -1,4 +1,3 @@
-# // fixture: add_import — syncFixture
 # checked: logic  # verify: validation  # TODO: performance
 
 
@@ -14,7 +13,6 @@
 # // batch: add_function — getBatch
 
 
-# // theme: add_try_catch — parseTheme
 
 
 
@@ -42,7 +40,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // cache: add_try_catch — buildCache
 
 
 
@@ -62,7 +59,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // fallback: add_class — parseFallback
 
 
 
@@ -91,7 +87,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // filter: add_class — updateFilter
 
 
 
@@ -357,3 +352,4 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // fixture: add_function — handleFixture
 # // encode: add_function — parseEncode
 # // flow: add_function — processFlow
+# // sub: add_function — applySub
