@@ -24,6 +24,7 @@ This guide will help you set up the development environment for this project.  <
 
 - Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->
 
+<!-- // changelog: add_loop — getChangelog -->
 
 
 
@@ -81,6 +82,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // parse: add_conditional — transformParse -->
 
 
 
