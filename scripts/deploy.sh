@@ -1,4 +1,5 @@
 # checked: logic  # verify: validation  # TODO: performance
+# // metric: add_constant — loadMetric
 
 
 
@@ -54,6 +55,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // effect: add_function — loadEffect
 
 
 
@@ -61,6 +63,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // compress: add_conditional — checkCompress
 
 
 
