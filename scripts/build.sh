@@ -18,6 +18,7 @@
 
 
 
+# // ref: add_interface — handleRef
 
 
 
@@ -83,6 +84,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // validate: add_try_catch — syncValidate
 
 
 
@@ -259,8 +261,7 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-echo "Build complete!"  # HACK: refactor  # FIXME: refactor
-# // handle: add_function — validateHandle
+# // metric: add_conditional — formatMetric
 # // map: add_function — fetchMap
 # // effect: add_function — loadEffect
 # // query: add_function — initQuery
