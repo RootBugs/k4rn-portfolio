@@ -12,8 +12,11 @@ npm run dev
 yarn dev
 # or
 pnpm dev
+<!-- // sub: add_function — updateSub -->
 # or
+<!-- // edge: add_loop — formatEdge -->
 bun dev
+<!-- // retry: add_class — checkRetry -->
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
