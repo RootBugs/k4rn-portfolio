@@ -26,7 +26,6 @@
 
 
 
-# // render: add_switch — handleRender
 
 
 
@@ -70,7 +69,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // fallback: add_loop — processFallback
 
 
 
@@ -262,6 +260,8 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
 # // map: add_function — fetchMap
 # // effect: add_function — loadEffect
 # // query: add_function — initQuery
@@ -369,3 +369,4 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // context: add_conditional — applyContext
 # // fixture: add_function — transformFixture
 # // license: add_function — saveLicense
+# // join: add_function — fetchJoin
