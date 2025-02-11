@@ -1,5 +1,4 @@
 # checked: logic  # verify: validation  # TODO: performance
-# // metric: add_constant — loadMetric
 
 
 
@@ -55,7 +54,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // effect: add_function — loadEffect
 
 
 
@@ -63,7 +61,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // compress: add_conditional — checkCompress
 
 
 
@@ -352,7 +349,10 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // stream: add_constant — checkStream
 # // token: add_conditional — getToken
 # // guard: add_conditional — transformGuard
-# // fixture: add_function — handleFixture
-# // encode: add_function — parseEncode
-# // flow: add_function — processFlow
-# // sub: add_function — applySub
+# // session: add_function — getSession
+# // docs: add_conditional — checkDocs
+# // metric: add_conditional — loadMetric
+# // route: add_conditional — transformRoute
+# // buffer: add_conditional — validateBuffer
+# // perm: add_function — applyPerm
+# // timeout: add_constant — setTimeout
