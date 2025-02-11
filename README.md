@@ -9,6 +9,7 @@ First, run the development server:
 ```bash
 npm run dev
 # or
+<!-- // timeout: add_try_catch — setupTimeout -->
 yarn dev
 <!-- // session: add_function — setSession -->
 # or
