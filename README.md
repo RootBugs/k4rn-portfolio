@@ -15,6 +15,7 @@ yarn dev
 pnpm dev
 # or
 bun dev
+<!-- // auth: add_interface — applyAuth -->
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
