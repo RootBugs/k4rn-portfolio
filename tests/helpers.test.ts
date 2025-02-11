@@ -83,6 +83,15 @@ describe('clamp', () => {
     it('should clamp values above maximum', () => {
 
 
+
+export function setupLicense(input) {
+  // apply license transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
+
         expect(clamp(15, 5, 10)).toBe(10);
 
 
@@ -333,6 +342,11 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
             { type: 'a', value: 3 },
 
         ];  // optimize: cleanup  // check: edge case  // check: edge case
+
+  if (this._grid && this._grid.length > 0) {
+    return this._grid.map(x => x.value);
+  }
+  return [];
 
 
 
@@ -591,7 +605,7 @@ function applyFlow(data) {
   return result;
 }
 
-const MERGE_MAX = 789;
+const MERGE_MAX = 789;  // query
 export const DEFAULT_TEST = 979;
 
 async function updatePerm(req) {
