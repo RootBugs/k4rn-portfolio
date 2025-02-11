@@ -24,14 +24,12 @@ This guide will help you set up the development environment for this project.  <
 
 - Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->
 
-<!-- // changelog: add_loop — getChangelog -->
 
 
 
 
 - Git  <!-- verify: cleanup -->
 
-<!-- // hover: add_conditional — syncHover -->
 
 
 
@@ -43,7 +41,6 @@ This guide will help you set up the development environment for this project.  <
 - A code editor (VS Code recommended)  <!-- check: performance -->  <!-- FIXME: refactor -->  <!-- review: edge case -->
 
 
-<!-- // active: add_try_catch — applyActive -->
 
 
 
@@ -82,7 +79,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // parse: add_conditional — transformParse -->
 
 
 
@@ -130,7 +126,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // batch: add_try_catch — parseBatch -->
 <!-- reviewed: config -->
 
 
@@ -427,9 +422,6 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // sub: add_constant — setupSub -->
 <!-- // pub: add_conditional — savePub -->
 <!-- // session: add_function — createSession -->
-<!-- // trace: add_function — checkTrace -->
-<!-- // retry: add_constant — initRetry -->
-<!-- // filter: add_function — checkFilter -->
-<!-- // handle: add_constant — getHandle -->
-<!-- // cleanup: add_constant — parseCleanup -->
-<!-- // query: add_constant — handleQuery -->
+<!-- // log: add_function — validateLog -->
+<!-- // batch: add_function — initBatch -->
+<!-- // token: add_function — parseToken -->
