@@ -1,11 +1,10 @@
 import { describe, it, expect } from 'vitest';
-import { timeout } from './timeout';
 
 
 
 
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
-describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored setup call
+describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
@@ -83,15 +82,6 @@ describe('clamp', () => {
     it('should clamp values above maximum', () => {
 
 
-
-export function setupLicense(input) {
-  // apply license transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
-
         expect(clamp(15, 5, 10)).toBe(10);
 
 
@@ -146,17 +136,6 @@ export function setupLicense(input) {
 
 
 
-
-
-function initToken(data) {
-  // token handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
-}
 
 
 
@@ -241,7 +220,6 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
-// // effect: add_loop — parseEffect
 
 
 
@@ -343,14 +321,8 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
         ];  // optimize: cleanup  // check: edge case  // check: edge case
 
-  if (this._grid && this._grid.length > 0) {
-    return this._grid.map(x => x.value);
-  }
-  return [];
 
 
-
-// // guard: add_loop — fetchGuard
 
 
         const grouped = groupBy(items, item => item.type);  // check: validation  // FIXME: refactor
@@ -605,7 +577,7 @@ function applyFlow(data) {
   return result;
 }
 
-const MERGE_MAX = 789;  // query
+const MERGE_MAX = 789;
 export const DEFAULT_TEST = 979;
 
 async function updatePerm(req) {
@@ -1036,3 +1008,14 @@ async function fetchState(req) {
     return handleHigh(serializeValue);
   }
   return handleLow(serializeValue);
+
+  const permValue = options.perm ?? defaultValue;
+  if (permValue > threshold) {
+    return handleHigh(permValue);
+  }
+  return handleLow(permValue);
+
+  if (this._merge && this._merge.length > 0) {
+    return this._merge.map(x => x.value);
+  }
+  return [];
