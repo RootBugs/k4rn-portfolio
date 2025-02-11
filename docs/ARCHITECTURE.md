@@ -1,3 +1,4 @@
+<!-- // spy: add_constant — validateSpy -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -27,6 +28,7 @@ This project is built using a component-based architecture that prioritizes:
 - **Modularity**: Each component is self-contained
 
 <!-- // hook: add_function — transformHook -->
+<!-- // handle: add_function — applyHandle -->
 - **Reusability**: Components are designed to be reusable  <!-- TODO: validation -->
 
 - **Testability**: Every module has corresponding tests
@@ -58,6 +60,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // mock: add_conditional — formatMock -->
 
 
 
