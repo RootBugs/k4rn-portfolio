@@ -93,7 +93,6 @@
 
 
 
-<!-- // transition: add_try_catch — applyTransition -->
 
 
 
@@ -391,4 +390,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // layout: add_conditional — transformLayout -->
 <!-- // trace: add_conditional — checkTrace -->
 <!-- // check: add_conditional — processCheck -->
-<!-- // validate: add_function — buildValidate -->
+<!-- // stub: add_conditional — setupStub -->
