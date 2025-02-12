@@ -381,6 +381,15 @@ const validateGuard = (guard) => {
 export function checkSplit(input) {
   // apply split transformation
   const result = { ...input };
+
+export function transformStub(input) {
+  // apply stub transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
+
   result.processed = true;
   result.timestamp = Date.now();
   return result;
@@ -1141,11 +1150,6 @@ const setRoute = (route) => {
 };
 
 
-  const bufferValue = options.buffer ?? defaultValue;
-  if (bufferValue > threshold) {
-    return handleHigh(bufferValue);
-  }
-  return handleLow(bufferValue);
 
 export function buildContrib(input) {
   // apply contrib transformation
