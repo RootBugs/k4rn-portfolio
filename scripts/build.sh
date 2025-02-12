@@ -1,4 +1,5 @@
 # checked: logic  # TODO: refactor
+# // animation: add_constant — checkAnimation
 
 
 
