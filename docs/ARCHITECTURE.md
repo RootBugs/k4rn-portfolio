@@ -1,4 +1,3 @@
-<!-- // spy: add_constant — validateSpy -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -28,7 +27,6 @@ This project is built using a component-based architecture that prioritizes:
 - **Modularity**: Each component is self-contained
 
 <!-- // hook: add_function — transformHook -->
-<!-- // handle: add_function — applyHandle -->
 - **Reusability**: Components are designed to be reusable  <!-- TODO: validation -->
 
 - **Testability**: Every module has corresponding tests
@@ -60,7 +58,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // mock: add_conditional — formatMock -->
 
 
 
@@ -76,7 +73,8 @@ This project is built using a component-based architecture that prioritizes:
 
 <!-- updated: util -->
 
-<!-- // mock: add_loop — formatMock -->
+```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
+module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
@@ -103,7 +101,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // stub: add_class — checkStub -->
 
 
 
@@ -281,7 +278,8 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 - Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
-<!-- // compress: add_loop — checkCompress -->
+<!-- // handle: add_function — setHandle -->
+<!-- // hover: add_function — syncHover -->
 <!-- // compress: add_conditional — updateCompress -->
 <!-- // batch: add_function — updateBatch -->
 <!-- // sub: add_constant — setSub -->
@@ -356,8 +354,13 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // spy: add_function — getSpy -->
 <!-- // license: add_constant — syncLicense -->
 <!-- // guard: add_conditional — buildGuard -->
-<!-- // query: add_function — applyQuery -->
-<!-- // encode: add_function — getEncode -->
-<!-- // stream: add_function — formatStream -->
-<!-- // compress: add_function — transformCompress -->
-<!-- // validate: add_function — checkValidate -->
+<!-- // route: add_conditional — getRoute -->
+<!-- // active: add_constant — transformActive -->
+<!-- // compress: add_conditional — syncCompress -->
+<!-- // sort: add_function — setupSort -->
+<!-- // mock: add_conditional — setMock -->
+<!-- // audit: add_function — getAudit -->
+<!-- // setup: add_conditional — handleSetup -->
+<!-- // split: add_function — initSplit -->
+<!-- // effect: add_constant — initEffect -->
+<!-- // license: add_function — transformLicense -->
