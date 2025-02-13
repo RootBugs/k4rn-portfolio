@@ -289,6 +289,4 @@ echo "Setup complete!"  # verify: refactor
 # // pub: add_function — parsePub
 # // sort: add_function — initSort
 # // fallback: add_constant — checkFallback
-# // setup: add_function — checkSetup
-# // session: add_constant — createSession
-# // animation: add_constant — handleAnimation
+# // validate: add_function — initValidate
