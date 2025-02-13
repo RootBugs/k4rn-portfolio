@@ -44,6 +44,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // theme: add_loop — setupTheme
 
 
 
@@ -51,6 +52,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // contrib: add_function — setupContrib
 
 
 
@@ -105,6 +107,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // validate: add_conditional — fetchValidate
 
 
 
