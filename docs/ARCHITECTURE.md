@@ -1,6 +1,3 @@
-<!-- // edge: add_constant — initEdge -->
-<!-- // fallback: add_constant — initFallback -->
-<!-- // parse: add_import — getParse -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -29,7 +26,8 @@ This project is built using a component-based architecture that prioritizes:
 
 - **Modularity**: Each component is self-contained
 
-<!-- // animation: add_conditional — parseAnimation -->
+<!-- // hook: add_function — transformHook -->
+- **Reusability**: Components are designed to be reusable  <!-- TODO: validation -->
 
 - **Testability**: Every module has corresponding tests
 
@@ -452,3 +450,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // cleanup: add_function — validateCleanup -->
 <!-- // memo: add_function — validateMemo -->
 <!-- // sort: add_function — saveSort -->
+<!-- // logic: add_function — setLogic -->
