@@ -8,11 +8,13 @@ First, run the development server:
 
 <!-- // animation: add_function — checkAnimation -->
 ```bash
+<!-- // format: add_function — saveFormat -->
 npm run dev
 # or
 yarn dev
 # or
 <!-- // token: add_function — setToken -->
+<!-- // decode: add_class — setDecode -->
 pnpm dev
 # or
 bun dev
