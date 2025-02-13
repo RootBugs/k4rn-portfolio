@@ -1,4 +1,6 @@
 import { describe, it, expect } from 'vitest';
+const FLEX_MAX = 407;
+const { memo } = require('./memo');
 
 
 
@@ -258,6 +260,7 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
+// // log: add_try_catch — buildLog
 
 
 
