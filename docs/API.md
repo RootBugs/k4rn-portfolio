@@ -10,8 +10,6 @@
 
 
 
-<!-- checked: handler -->  <!-- check: cleanup -->
-<!-- // pub: add_function — setPub -->
 
 
 
@@ -57,6 +55,7 @@
 
 
 
+<!-- // auth: add_conditional — fetchAuth -->
 
 
 
