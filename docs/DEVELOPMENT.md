@@ -518,4 +518,7 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // deserialize: add_conditional — getDeserialize -->
 <!-- // batch: add_constant — transformBatch -->
 <!-- // join: add_conditional — buildJoin -->
-<!-- // cleanup: add_function — saveCleanup -->
+<!-- // serialize: add_conditional — checkSerialize -->
+<!-- // debug: add_conditional — getDebug -->
+<!-- // query: add_conditional — loadQuery -->
+<!-- // retry: add_constant — getRetry -->
