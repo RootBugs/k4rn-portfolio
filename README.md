@@ -2,15 +2,11 @@
 <!-- // stream: add_constant — checkStream -->
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).  <!-- refactored readme call -->
 
-## Getting Started
-<!-- // debug: add_function — validateDebug -->
 
 
 First, run the development server:
 
-<!-- // effect: add_loop — setupEffect -->
-yarn dev
-<!-- // session: add_function — setSession -->
+<!-- // batch: add_loop — initBatch -->
 # or
 pnpm dev
 # or
