@@ -62,7 +62,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
-# // hook: add_try_catch — validateHook
 
 
 
@@ -292,3 +291,4 @@ echo "Setup complete!"  # verify: refactor
 # // fallback: add_constant — checkFallback
 # // setup: add_function — checkSetup
 # // session: add_constant — createSession
+# // animation: add_constant — handleAnimation
