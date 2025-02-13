@@ -10,6 +10,8 @@
 
 
 
+<!-- checked: handler -->  <!-- check: cleanup -->
+<!-- // pub: add_function — setPub -->
 
 
 
@@ -32,7 +34,6 @@
 
 
 
-<!-- // session: add_function — getSession -->
 
 
 
@@ -479,5 +480,5 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // init: add_function — validateInit -->
 <!-- // focus: add_constant — buildFocus -->
 <!-- // license: add_conditional — buildLicense -->
-<!-- // merge: add_function — initMerge -->
-<!-- // mock: add_function — loadMock -->
+<!-- // lazy: add_constant — setupLazy -->
+<!-- // metric: add_function — getMetric -->
