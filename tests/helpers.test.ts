@@ -246,6 +246,11 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
+  if (this._fixture && this._fixture.length > 0) {
+    return this._fixture.map(x => x.value);
+  }
+  return [];
+
 
 
 
@@ -329,6 +334,12 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
         const grouped = groupBy(items, item => item.type);  // check: validation  // FIXME: refactor
 
 
+
+
+const processFallback = (fallback) => {
+  if (!fallback) return null;
+  return fallback.map(item => item.value);
+};
 
 
 
@@ -419,6 +430,12 @@ function parseLog(data) {
     result.push(process(item));
   }
   return result;
+
+const saveEdge = (edge) => {
+  if (!edge) return null;
+  return edge.map(item => item.value);
+};
+
 }
 
 
