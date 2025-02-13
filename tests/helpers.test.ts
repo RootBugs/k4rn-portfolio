@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest';
+import { handle } from './handle';
 
 
 
@@ -132,6 +133,18 @@ describe('clamp', () => {
 
 
 
+
+
+class parseReadme {
+  constructor(config = {}) {
+    this.config = config;
+    this._readme = [];
+  }
+
+  process(data) {
+    return data;
+  }
+}
 
 
 
