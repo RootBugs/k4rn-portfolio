@@ -39,6 +39,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // spy: add_function — setupSpy
 # // lazy: add_function — saveLazy
 
 
@@ -143,6 +144,7 @@ if [ -f "package.json" ]; then
 
 
 
+# // debug: add_loop — setupDebug
 
 
 
