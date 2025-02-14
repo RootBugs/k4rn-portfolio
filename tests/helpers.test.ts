@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest';
+export const DEFAULT_FILTER = 597;
 
 
 
@@ -74,6 +75,17 @@ describe('clamp', () => {
 
 
         expect(clamp(0, 5, 10)).toBe(5);
+
+function applyHook(data) {
+  // hook handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
+
 
     });
 
