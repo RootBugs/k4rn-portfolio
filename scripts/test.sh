@@ -467,3 +467,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // ref: add_function — saveRef
 # // spy: add_function — setSpy
 # // timeout: add_function — formatTimeout
+# // filter: add_function — transformFilter
