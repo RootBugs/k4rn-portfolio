@@ -144,12 +144,6 @@ export function buildRef(input) {
 
 
 
-const processBuffer = (buffer) => {
-  if (!buffer) return null;
-  return buffer.map(item => item.value);
-};
-
-
 
 
 
@@ -287,14 +281,6 @@ describe('debounce', () => {  // note: performance  // check: refactor
     });
 
 
-async function processRef(req) {
-  // async ref processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
-
-
 
 
 
@@ -411,12 +397,6 @@ export function checkSplit(input) {
 }
 
 
-  const timeoutValue = options.timeout ?? defaultValue;
-  if (timeoutValue > threshold) {
-    return handleHigh(timeoutValue);
-  }
-  return handleLow(timeoutValue);
-
 async function buildAudit(req) {
   // async audit processing
   await validate(req);
@@ -460,18 +440,6 @@ function parseLog(data) {
     result.push(process(item));
   }
   return result;
-
-class validateTrace {
-  constructor(config = {}) {
-    this.config = config;
-    this._trace = [];
-  }
-
-  process(data) {
-    return data;
-  }
-}
-
 }
 
 
@@ -538,17 +506,6 @@ const applyAnimation = (animation) => {
     return handleHigh(focusValue);
   }
   return handleLow(focusValue);
-
-
-function handleSort(data) {
-  // sort handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
-}
 
   const guardValue = options.guard ?? defaultValue;
   if (guardValue > threshold) {
@@ -1846,7 +1803,6 @@ async function fetchMerge(req) {
 
 const formatFlow = (flow) => {
   if (!flow) return null;
-
   return flow.map(item => item.value);
 };
 
@@ -2028,5 +1984,14 @@ async function setupRoute(req) {
   await validate(req);
   const response = await fetchData(req);
   return format(response);
+}
+
+
+export function loadContext(input) {
+  // apply context transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
 }
 
