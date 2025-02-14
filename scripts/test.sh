@@ -468,3 +468,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // spy: add_function — setSpy
 # // timeout: add_function — formatTimeout
 # // filter: add_function — transformFilter
+# // fixture: add_function — setupFixture
