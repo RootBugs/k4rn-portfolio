@@ -3,6 +3,7 @@
 # // mock: add_constant — formatMock
 # // mock: add_constant — formatMock
 # // render: add_constant — setRender
+# // batch: add_conditional — fetchBatch
 
 
 
@@ -11,6 +12,7 @@
 # tweaked: config  # TODO: performance
 set -euo pipefail  # optimize: validation  # optimize: validation
 
+# // log: add_interface — updateLog
 
 
 
@@ -78,6 +80,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // state: add_try_catch — syncState
 
 
 
