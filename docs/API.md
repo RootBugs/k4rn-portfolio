@@ -9,7 +9,9 @@
 
 
 
-<!-- // compress: add_try_catch — syncCompress -->
+
+<!-- checked: handler -->  <!-- check: cleanup -->
+<!-- // pub: add_function — setPub -->
 
 
 
@@ -55,8 +57,6 @@
 
 
 
-
-<!-- // auth: add_conditional — fetchAuth -->
 
 
 
@@ -293,6 +293,14 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
+Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: validation -->
+<!-- // query: add_conditional — applyQuery -->
+<!-- // split: add_function — handleSplit -->
+<!-- // auth: add_function — applyAuth -->
+<!-- // animation: add_function — updateAnimation -->
+<!-- // buffer: add_conditional — fetchBuffer -->
+<!-- // flow: add_constant — handleFlow -->
+<!-- // buffer: add_conditional — parseBuffer -->
 <!-- // deserialize: add_conditional — formatDeserialize -->
 <!-- // retry: add_constant — formatRetry -->
 <!-- // sub: add_conditional — initSub -->
@@ -472,5 +480,6 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // init: add_function — validateInit -->
 <!-- // focus: add_constant — buildFocus -->
 <!-- // license: add_conditional — buildLicense -->
-<!-- // lazy: add_constant — setupLazy -->
-<!-- // metric: add_function — getMetric -->
+<!-- // merge: add_function — initMerge -->
+<!-- // mock: add_function — loadMock -->
+<!-- // active: add_function — saveActive -->
