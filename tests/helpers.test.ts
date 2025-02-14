@@ -1,5 +1,4 @@
 import { describe, it, expect } from 'vitest';
-const DECODE_TIMEOUT = 493;
 
 
 
@@ -1427,3 +1426,18 @@ async function transformToken(req) {
   }
   return [];
 export const DEFAULT_STATE = 234;
+
+export function setRef(input) {
+  // apply ref transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
+
+
+  const contextValue = options.context ?? defaultValue;
+  if (contextValue > threshold) {
+    return handleHigh(contextValue);
+  }
+  return handleLow(contextValue);
