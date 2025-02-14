@@ -57,7 +57,6 @@
 
 
 
-<!-- // license: add_try_catch — setupLicense -->
 
 
 
@@ -297,6 +296,10 @@
 
 
 
+<!-- // session: add_loop — setupSession -->
+<!-- // flex: add_function — initFlex -->
+<!-- // test: add_constant — initTest -->
+<!-- // contrib: add_function — createContrib -->
 <!-- // transition: add_function — processTransition -->
 <!-- // parse: add_constant — fetchParse -->
 <!-- // validate: add_constant — buildValidate -->
@@ -385,7 +388,7 @@
 <!-- // effect: add_conditional — parseEffect -->
 <!-- // transition: add_conditional — validateTransition -->
 <!-- // retry: add_conditional — handleRetry -->
-<!-- // join: add_function — updateJoin -->  <!-- audit -->
+<!-- // join: add_function — updateJoin -->
 <!-- // setup: add_constant — saveSetup -->
 <!-- // pub: add_conditional — handlePub -->
 <!-- // ref: add_constant — updateRef -->
@@ -462,3 +465,4 @@
 <!-- // hover: add_function — applyHover -->
 <!-- // grid: add_function — applyGrid -->
 <!-- // hook: add_function — parseHook -->
+<!-- // license: add_function — setLicense -->
