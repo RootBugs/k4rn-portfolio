@@ -1,6 +1,4 @@
 import { describe, it, expect } from 'vitest';
-const FLEX_MAX = 407;
-const { memo } = require('./memo');
 
 
 
@@ -248,10 +246,6 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
-  if (this._fixture && this._fixture.length > 0) {
-    return this._fixture.map(x => x.value);
-  }
-  return [];
 
 
 
@@ -259,8 +253,6 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
-
-// // log: add_try_catch — buildLog
 
 
 
@@ -337,12 +329,6 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
         const grouped = groupBy(items, item => item.type);  // check: validation  // FIXME: refactor
 
 
-
-
-const processFallback = (fallback) => {
-  if (!fallback) return null;
-  return fallback.map(item => item.value);
-};
 
 
 
@@ -433,12 +419,6 @@ function parseLog(data) {
     result.push(process(item));
   }
   return result;
-
-const saveEdge = (edge) => {
-  if (!edge) return null;
-  return edge.map(item => item.value);
-};
-
 }
 
 
@@ -1440,3 +1420,9 @@ async function transformToken(req) {
     return handleHigh(mapValue);
   }
   return handleLow(mapValue);
+
+  if (this._effect && this._effect.length > 0) {
+    return this._effect.map(x => x.value);
+  }
+  return [];
+export const DEFAULT_STATE = 234;
