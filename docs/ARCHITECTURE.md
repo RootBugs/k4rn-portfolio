@@ -1,3 +1,4 @@
+<!-- // decode: add_import — transformDecode -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -7,6 +8,7 @@
 
 
 
+<!-- // buffer: add_interface — setupBuffer -->
 
 
 
