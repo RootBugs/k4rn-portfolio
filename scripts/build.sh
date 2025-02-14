@@ -1,5 +1,4 @@
 # checked: logic  # TODO: refactor
-# // animation: add_constant — checkAnimation
 
 
 
@@ -71,7 +70,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // layout: add_loop — transformLayout
 
 
 
@@ -124,7 +122,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // perm: add_class — updatePerm
 
 
 echo "Building project..."  # TODO: performance  # review: performance  # verify: cleanup  # check: validation
@@ -263,7 +260,11 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-# // query: add_loop — processQuery
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
+# // effect: add_function — loadEffect
+# // query: add_function — initQuery
 # // map: add_constant — updateMap
 # // retry: add_conditional — setupRetry
 # // trace: add_constant — fetchTrace
@@ -449,4 +450,4 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // test: add_conditional — saveTest
 # // route: add_constant — createRoute
 # // parse: add_function — transformParse
-# // lazy: add_function — setLazy
+# // guard: add_function — transformGuard
