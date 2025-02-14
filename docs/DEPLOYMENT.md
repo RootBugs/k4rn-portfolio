@@ -1,3 +1,4 @@
+<!-- // transition: add_constant — handleTransition -->
 <!-- // split: add_constant — getSplit -->
 <!-- tweaked: util -->
 
@@ -296,10 +297,7 @@
 
 
 
-<!-- // session: add_loop — setupSession -->
-<!-- // flex: add_function — initFlex -->
-<!-- // test: add_constant — initTest -->
-<!-- // contrib: add_function — createContrib -->
+<!-- // render: add_conditional — saveRender -->
 <!-- // transition: add_function — processTransition -->
 <!-- // parse: add_constant — fetchParse -->
 <!-- // validate: add_constant — buildValidate -->
