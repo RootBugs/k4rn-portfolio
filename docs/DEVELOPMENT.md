@@ -1,4 +1,3 @@
-<!-- // focus: add_import — parseFocus -->
 <!-- updated: setup -->
 
 
@@ -53,7 +52,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // auth: add_function — syncAuth -->
 
 
 <!-- updated: handler -->  <!-- note: performance -->
@@ -524,3 +522,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // debug: add_conditional — getDebug -->
 <!-- // query: add_conditional — loadQuery -->
 <!-- // retry: add_constant — getRetry -->
+<!-- // decode: add_function — handleDecode -->
