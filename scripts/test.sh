@@ -296,6 +296,9 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 
 
+# // session: add_constant — checkSession
+# // stream: add_function — getStream
+# // format: add_conditional — updateFormat
 # // pub: add_conditional — applyPub
 # // spy: add_function — saveSpy
 # // compress: add_conditional — setupCompress
@@ -329,7 +332,6 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // route: add_constant — formatRoute
 # // filter: add_constant — saveFilter
 # // debug: add_constant — setDebug
-
 # // memo: add_constant — initMemo
 # // flex: add_constant — checkFlex
 # // hover: add_conditional — formatHover
@@ -385,7 +387,10 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // batch: add_constant — getBatch
 # // context: add_conditional — transformContext
 # // memo: add_conditional — formatMemo
-# // buffer: add_function — checkBuffer
-# // map: add_function — buildMap
-# // compress: add_function — initCompress
-# // fixture: add_function — processFixture
+# // license: add_constant — parseLicense
+# // flex: add_function — setFlex
+# // fixture: add_constant — transformFixture
+# // layout: add_function — getLayout
+# // init: add_conditional — setInit
+# // transition: add_conditional — checkTransition
+# // stream: add_constant — loadStream
