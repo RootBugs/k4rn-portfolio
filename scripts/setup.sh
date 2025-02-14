@@ -1,3 +1,4 @@
+# // audit: add_import — loadAudit
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
@@ -20,6 +21,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // mock: add_loop — createMock
 
 
 
@@ -114,6 +116,7 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
+# // grid: add_function — saveGrid
 
 
 
