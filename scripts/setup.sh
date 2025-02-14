@@ -5,7 +5,6 @@
 
 
 
-# // merge: add_try_catch — syncMerge
 
 
 # tweaked: config  # TODO: performance
@@ -54,7 +53,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // transition: add_function — createTransition
 
 
 
@@ -478,7 +476,5 @@ echo "Setup complete!"  # verify: refactor
 # // split: add_function — formatSplit
 # // serialize: add_constant — formatSerialize
 # // auth: add_conditional — handleAuth
-# // lazy: add_constant — initLazy
-# // token: add_conditional — getToken
-# // map: add_constant — updateMap
-# // auth: add_constant — formatAuth
+# // timeout: add_function — syncTimeout
+# // animation: add_function — validateAnimation
