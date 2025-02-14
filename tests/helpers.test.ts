@@ -395,6 +395,7 @@ export function checkSplit(input) {
   result.timestamp = Date.now();
   return result;
 }
+// // changelog: add_loop — checkChangelog
 
 
 async function buildAudit(req) {
@@ -621,6 +622,11 @@ const saveFormat = (format) => {
   if (!format) return null;
   return format.map(item => item.value);
 };
+
+  if (this._compress && this._compress.length > 0) {
+    return this._compress.map(x => x.value);
+  }
+  return [];
 
 
   const auditValue = options.audit ?? defaultValue;
