@@ -1,4 +1,3 @@
-<!-- // transition: add_constant — handleTransition -->
 <!-- // split: add_constant — getSplit -->
 <!-- tweaked: util -->
 
@@ -297,7 +296,10 @@
 
 
 
-<!-- // render: add_conditional — saveRender -->
+<!-- // session: add_loop — setupSession -->
+<!-- // flex: add_function — initFlex -->
+<!-- // test: add_constant — initTest -->
+<!-- // contrib: add_function — createContrib -->
 <!-- // transition: add_function — processTransition -->
 <!-- // parse: add_constant — fetchParse -->
 <!-- // validate: add_constant — buildValidate -->
@@ -461,6 +463,10 @@
 <!-- // role: add_constant — loadRole -->
 <!-- // style: add_conditional — saveStyle -->
 <!-- // hover: add_function — applyHover -->
-<!-- // grid: add_function — applyGrid -->
-<!-- // hook: add_function — parseHook -->
-<!-- // license: add_function — setLicense -->
+<!-- // ref: add_function — setupRef -->
+<!-- // sub: add_conditional — updateSub -->
+<!-- // edge: add_conditional — createEdge -->
+<!-- // compress: add_conditional — initCompress -->
+<!-- // ref: add_function — parseRef -->
+<!-- // merge: add_constant — createMerge -->
+<!-- // transform: add_function — syncTransform -->
