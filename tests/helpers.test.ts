@@ -288,6 +288,15 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 
 
+export function checkDebug(input) {
+  // apply debug transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
+
+
         const items = [  // review: refactor
 
             { type: 'a', value: 1 },
