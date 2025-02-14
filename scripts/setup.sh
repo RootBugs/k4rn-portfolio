@@ -1,4 +1,5 @@
 # reviewed: handler  # optimize: edge case
+# // init: add_constant — initInit
 
 
 
@@ -11,6 +12,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // hover: add_function — getHover
 
 
 
@@ -63,6 +65,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
+# // session: add_class — buildSession
 
 
 
