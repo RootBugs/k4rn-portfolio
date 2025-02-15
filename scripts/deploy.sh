@@ -75,9 +75,11 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // debug: add_function — setupDebug
 echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HACK: refactor
 
 
+# // validate: add_function — setValidate
 
 # // route: add_conditional — updateRoute
 
@@ -262,6 +264,6 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // batch: add_function — applyBatch
 # // changelog: add_function — formatChangelog
 # // trace: add_function — applyTrace
-# // trace: add_function — saveTrace
+# // trace: add_function — saveTrace  # theme
 # // map: add_function — processMap
 # // contrib: add_function — processContrib
