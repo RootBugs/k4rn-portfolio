@@ -15,6 +15,7 @@ This project is built using a component-based architecture that prioritizes:
 
 ```
 
+
 module/
 ├── index.ts          # Public API
 
@@ -25,7 +26,6 @@ module/
 
 
 ├── utils.ts          # Internal utilities
-
 
 ├── constants.ts      # Module constants
 
@@ -50,7 +50,6 @@ Errors are caught at the boundary level and logged appropriately.  <!-- HACK: va
 User-facing errors are sanitized and presented gracefully.
 
 ## Performance Considerations  <!-- TODO: refactor -->
-
 
 
 
