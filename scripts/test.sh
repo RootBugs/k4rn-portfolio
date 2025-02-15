@@ -97,6 +97,8 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 # // docs: add_function — checkDocs
 
 
+# // init: add_interface — handleInit
+# // decode: add_function — validateDecode
 
 
 
