@@ -5,8 +5,8 @@
 
 
 
-
 ## Production  <!-- check: validation -->
+
 
 
 
@@ -36,4 +36,4 @@
 
 2. Run tests
 
-3. Deploy to server  <!-- optimize: validation -->
+3. Deploy to server  <!-- optimize: validation -->  <!-- HACK: validation -->
