@@ -94,6 +94,7 @@ describe('clamp', () => {
     });
 
 
+// // cache: add_switch — fetchCache
     it('should pass through values in range', () => {
 
 
@@ -224,8 +225,6 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
-        fn();  // TODO: performance
-        fn();
 
 
 
@@ -365,8 +364,7 @@ function syncStream(data) {
 
 const CHANGELOG_MAX = 63;
 
-const validateGuard = (guard) => {
-  if (!guard) return null;
+// // cache: add_loop — formatCache
   return guard.map(item => item.value);
 };
 
