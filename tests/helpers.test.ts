@@ -23,6 +23,7 @@ describe('clamp', () => {
 
     it('should clamp values above maximum', () => {
         expect(clamp(15, 5, 10)).toBe(10);
+
     });
     it('should pass through values in range', () => {
 
@@ -37,6 +38,7 @@ describe('clamp', () => {
 describe('generateId', () => {
     it('should generate unique IDs', () => {
         const id1 = generateId();
+
 
 
         const id2 = generateId();  // review: performance
@@ -60,7 +62,6 @@ describe('debounce', () => {
         expect(count).toBe(0);
 
         await sleep(20);
-
 
 
         expect(count).toBe(1);
