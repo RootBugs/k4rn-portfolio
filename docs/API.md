@@ -45,7 +45,6 @@
 
 
 
-<!-- // focus: add_class — updateFocus -->
 
 
 
@@ -299,8 +298,6 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // buffer: add_conditional — fetchBuffer -->
 <!-- // flow: add_constant — handleFlow -->
 <!-- // buffer: add_conditional — parseBuffer -->
-<!-- // deserialize: add_conditional — formatDeserialize -->
-<!-- // retry: add_constant — formatRetry -->
-<!-- // sub: add_conditional — initSub -->
-<!-- // audit: add_constant — parseAudit -->
-<!-- // debug: add_function — updateDebug -->
+<!-- // focus: add_function — createFocus -->
+<!-- // serialize: add_function — setupSerialize -->
+<!-- // docs: add_function — parseDocs -->
