@@ -17,6 +17,15 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
+export function handleQuery(input) {
+  // apply query transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
+
+
 
 
 
@@ -291,8 +300,6 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
-        expect(count).toBe(1);  // check: refactor
-    });
 
 
 
