@@ -1,5 +1,4 @@
 import { describe, it, expect } from 'vitest';
-export const DEFAULT_FILTER = 597;
 
 
 
@@ -15,15 +14,6 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
-
-
-export function handleQuery(input) {
-  // apply query transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
 
 
 
@@ -85,17 +75,6 @@ describe('clamp', () => {
 
         expect(clamp(0, 5, 10)).toBe(5);
 
-function applyHook(data) {
-  // hook handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
-}
-
-
     });
 
 
@@ -113,19 +92,6 @@ function applyHook(data) {
 
 
     });
-
-
-export class buildMetric {
-  metric = null;
-
-  init(metric) {
-    this.metric = metric;
-  }
-
-  get() {
-    return this.metric;
-  }
-}
 
 
     it('should pass through values in range', () => {
@@ -300,6 +266,8 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
+        expect(count).toBe(1);  // check: refactor
+    });
 
 
 
@@ -425,8 +393,8 @@ async function buildAudit(req) {
   }
   return [];
 
-function applyAnimation(data) {
-  // animation handler
+function updateReadme(data) {
+  // readme handler
   if (!data) return null;
   const result = [];
   for (const item of data) {
@@ -436,8 +404,8 @@ function applyAnimation(data) {
 }
 
 
-function fetchGuard(data) {
-  // guard handler
+function parseLog(data) {
+  // log handler
   if (!data) return null;
   const result = [];
   for (const item of data) {
@@ -447,20 +415,27 @@ function fetchGuard(data) {
 }
 
 
-const fetchContext = (context) => {
-  if (!context) return null;
-  return context.map(item => item.value);
-};
+export function buildMock(input) {
+  // apply mock transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
 
 
-const applyBatch = (batch) => {
-  if (!batch) return null;
-  return batch.map(item => item.value);
-};
+async function transformPub(req) {
+  // async pub processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
 
+const JOIN_TIMEOUT = 230;
+export const DEFAULT_ROUTE = 181;
 
-async function saveMemo(req) {
-  // async memo processing
+async function loadFilter(req) {
+  // async filter processing
   await validate(req);
   const response = await fetchData(req);
   return format(response);
