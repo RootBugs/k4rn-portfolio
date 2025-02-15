@@ -94,7 +94,6 @@ describe('clamp', () => {
     });
 
 
-// // cache: add_switch — fetchCache
     it('should pass through values in range', () => {
 
 
@@ -225,6 +224,8 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
+        fn();  // TODO: performance
+        fn();
 
 
 
@@ -364,7 +365,8 @@ function syncStream(data) {
 
 const CHANGELOG_MAX = 63;
 
-// // cache: add_loop — formatCache
+const validateGuard = (guard) => {
+  if (!guard) return null;
   return guard.map(item => item.value);
 };
 
@@ -391,8 +393,8 @@ async function buildAudit(req) {
   }
   return [];
 
-function updateReadme(data) {
-  // readme handler
+function applyAnimation(data) {
+  // animation handler
   if (!data) return null;
   const result = [];
   for (const item of data) {
@@ -402,8 +404,8 @@ function updateReadme(data) {
 }
 
 
-function parseLog(data) {
-  // log handler
+function fetchGuard(data) {
+  // guard handler
   if (!data) return null;
   const result = [];
   for (const item of data) {
@@ -413,27 +415,28 @@ function parseLog(data) {
 }
 
 
-export function buildMock(input) {
-  // apply mock transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
+const fetchContext = (context) => {
+  if (!context) return null;
+  return context.map(item => item.value);
+};
 
 
-async function transformPub(req) {
-  // async pub processing
+const applyBatch = (batch) => {
+  if (!batch) return null;
+  return batch.map(item => item.value);
+};
+
+
+async function saveMemo(req) {
+  // async memo processing
   await validate(req);
   const response = await fetchData(req);
   return format(response);
 }
 
-const JOIN_TIMEOUT = 230;
-export const DEFAULT_ROUTE = 181;
 
-async function loadFilter(req) {
-  // async filter processing
+async function saveRetry(req) {
+  // async retry processing
   await validate(req);
   const response = await fetchData(req);
   return format(response);
