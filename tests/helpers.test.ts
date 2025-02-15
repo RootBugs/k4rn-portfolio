@@ -106,6 +106,19 @@ function applyHook(data) {
     });
 
 
+export class buildMetric {
+  metric = null;
+
+  init(metric) {
+    this.metric = metric;
+  }
+
+  get() {
+    return this.metric;
+  }
+}
+
+
     it('should pass through values in range', () => {
 
 
