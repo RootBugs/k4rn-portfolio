@@ -1,4 +1,3 @@
-<!-- // decode: add_import — transformDecode -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -8,7 +7,6 @@
 
 
 
-<!-- // buffer: add_interface — setupBuffer -->
 
 
 
@@ -52,7 +50,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // token: add_try_catch — applyToken -->
 
 
 
@@ -87,7 +84,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // hook: add_switch — formatHook -->
 
 
 
@@ -289,7 +285,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // batch: add_function — updateBatch -->
 <!-- // sub: add_constant — setSub -->
 <!-- // metric: add_function — updateMetric -->
-<!-- // log: add_function — transformLog -->
-<!-- // audit: add_function — formatAudit -->
-<!-- // split: add_function — transformSplit -->
-<!-- // readme: add_function — loadReadme -->
+<!-- // check: add_constant — setupCheck -->
