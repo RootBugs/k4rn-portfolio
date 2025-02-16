@@ -291,3 +291,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // split: add_function — transformSplit -->
 <!-- // readme: add_function — loadReadme -->
 <!-- // debug: add_function — loadDebug -->
+<!-- // trace: add_function — loadTrace -->
