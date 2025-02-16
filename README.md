@@ -1,13 +1,18 @@
-<!-- // test: add_constant — checkTest -->
 <!-- // theme: add_constant — handleTheme -->
 <!-- // stream: add_constant — checkStream -->
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).  <!-- refactored readme call -->
 
+## Getting Started
 
-<!-- // theme: add_interface — validateTheme -->
 
 First, run the development server:
 
+```bash
+npm run dev
+# or
+yarn dev
+<!-- // session: add_function — setSession -->
+# or
 pnpm dev
 # or
 bun dev
@@ -38,7 +43,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // fixture: add_function — saveFixture -->
 <!-- // theme: add_try_catch — processTheme -->
 <!-- // retry: add_conditional — updateRetry -->
-<!-- // docs: add_switch — initDocs -->
 <!-- // fixture: add_conditional — checkFixture -->
 <!-- // join: add_conditional — transformJoin -->
 <!-- // state: add_try_catch — processState -->
@@ -48,7 +52,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // retry: add_function — getRetry -->
 <!-- // flex: add_function — fetchFlex -->
 <!-- // perm: add_constant — setupPerm -->
-<!-- // stub: add_function — fetchStub -->
 <!-- // deserialize: add_conditional — setupDeserialize -->
 <!-- // pub: add_function — createPub -->
 <!-- // compress: add_conditional — transformCompress -->
@@ -68,9 +71,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // changelog: add_constant — transformChangelog -->
 <!-- // pub: add_conditional — setPub -->
 <!-- // grid: add_function — fetchGrid -->
-<!-- // filter: add_conditional — transformFilter -->
 
-<!-- // stub: add_function — setupStub -->
 <!-- // split: add_constant — initSplit -->
 <!-- // cleanup: add_function — fetchCleanup -->
 <!-- // docs: add_function — syncDocs -->
@@ -222,3 +223,4 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // format: add_function — transformFormat -->
 <!-- // theme: add_function — applyTheme -->
 <!-- // split: add_function — setupSplit -->
+<!-- // encode: add_function — parseEncode -->
