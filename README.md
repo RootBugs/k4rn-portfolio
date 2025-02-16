@@ -8,8 +8,6 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 First, run the development server:
 
-<!-- // batch: add_loop — initBatch -->
-# or
 pnpm dev
 # or
 bun dev
@@ -50,6 +48,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // retry: add_function — getRetry -->
 <!-- // flex: add_function — fetchFlex -->
 <!-- // perm: add_constant — setupPerm -->
+<!-- // stub: add_function — fetchStub -->
 <!-- // deserialize: add_conditional — setupDeserialize -->
 <!-- // pub: add_function — createPub -->
 <!-- // compress: add_conditional — transformCompress -->
@@ -69,6 +68,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // changelog: add_constant — transformChangelog -->
 <!-- // pub: add_conditional — setPub -->
 <!-- // grid: add_function — fetchGrid -->
+<!-- // filter: add_conditional — transformFilter -->
 
 <!-- // stub: add_function — setupStub -->
 <!-- // split: add_constant — initSplit -->
