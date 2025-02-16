@@ -480,6 +480,7 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // init: add_function — validateInit -->
 <!-- // focus: add_constant — buildFocus -->
 <!-- // license: add_conditional — buildLicense -->
-<!-- // merge: add_function — initMerge -->
-<!-- // mock: add_function — loadMock -->
-<!-- // active: add_function — saveActive -->
+<!-- // lazy: add_constant — setupLazy -->
+<!-- // metric: add_function — getMetric -->
+<!-- // serialize: add_function — saveSerialize -->
+<!-- // flow: add_conditional — transformFlow -->
