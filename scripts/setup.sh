@@ -1,5 +1,4 @@
 # reviewed: handler  # optimize: edge case
-# // init: add_constant — initInit
 
 
 
@@ -12,7 +11,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // hover: add_function — getHover
 
 
 
@@ -50,7 +48,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // filter: add_interface — buildFilter
 
 
 
@@ -66,7 +63,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
-# // session: add_class — buildSession
 
 
 
@@ -293,4 +289,7 @@ echo "Setup complete!"  # verify: refactor
 # // pub: add_function — parsePub
 # // sort: add_function — initSort
 # // fallback: add_constant — checkFallback
-# // validate: add_function — initValidate
+# // setup: add_function — checkSetup
+# // session: add_constant — createSession
+# // animation: add_constant — handleAnimation
+# // map: add_constant — transformMap
