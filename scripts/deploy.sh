@@ -1,5 +1,6 @@
 # // deserialize: add_import — checkDeserialize
 # checked: logic  # verify: validation  # TODO: performance
+# // license: add_constant — formatLicense
 
 
 
@@ -34,6 +35,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // handle: add_conditional — checkHandle
 
 
 
@@ -97,6 +99,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // hook: add_conditional — checkHook
 
 
 
