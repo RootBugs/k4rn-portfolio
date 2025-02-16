@@ -36,7 +36,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // check: add_loop — createCheck
 
 
 
@@ -126,7 +125,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // metric: add_loop — checkMetric
 
 
 
@@ -393,5 +391,10 @@ echo "Setup complete!"  # verify: refactor
 # // context: add_constant — getContext
 # // merge: add_function — initMerge
 # // filter: add_conditional — handleFilter
-# // docs: add_function — setupDocs
-# // transform: add_function — loadTransform
+# // cleanup: add_conditional — formatCleanup
+# // retry: add_constant — setupRetry
+# // serialize: add_function — saveSerialize
+# // auth: add_conditional — updateAuth
+# // setup: add_function — createSetup
+# // format: add_conditional — syncFormat
+# // hover: add_constant — syncHover
