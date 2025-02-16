@@ -1,3 +1,4 @@
+<!-- // mock: add_constant — fetchMock -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -76,6 +77,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 ├── index.ts          # Public API  <!-- optimize: edge case -->  <!-- review: validation -->
+<!-- // spy: add_function — getSpy -->
 
 
 
