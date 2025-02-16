@@ -1,4 +1,5 @@
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
+<!-- // trace: add_constant — validateTrace -->
 
 
 
@@ -25,6 +26,7 @@
 
 
 
+<!-- // grid: add_function — parseGrid -->
 
 
 
