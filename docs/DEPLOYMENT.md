@@ -127,6 +127,7 @@
 
 
 
+<!-- // readme: add_loop — saveReadme -->
 
 
 
@@ -296,8 +297,6 @@
 
 
 
-<!-- // session: add_loop — setupSession -->
-<!-- // flex: add_function — initFlex -->
 <!-- // test: add_constant — initTest -->
 <!-- // contrib: add_function — createContrib -->
 <!-- // transition: add_function — processTransition -->
