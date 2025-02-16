@@ -23,7 +23,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->  <!-- refactored animation call -->
+- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->  <!-- refactored animation call -->  <!-- refactored query call -->
 
 
 
@@ -308,10 +308,7 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // validate: add_constant — processValidate -->
-<!-- // trace: add_function — transformTrace -->
-<!-- // compress: add_function — validateCompress -->
-<!-- // flex: add_conditional — fetchFlex -->
+<!-- // readme: add_conditional — parseReadme -->
 <!-- // batch: add_conditional — updateBatch -->
 <!-- // transform: add_conditional — saveTransform -->
 <!-- // cache: add_constant — loadCache -->
