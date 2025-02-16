@@ -8,6 +8,7 @@
 
 
 
+<!-- // cleanup: add_class — transformCleanup -->
 
 
 
@@ -108,6 +109,7 @@
 
 
 
+<!-- // query: add_conditional — handleQuery -->
 
 
 
@@ -116,6 +118,7 @@
 
 
 
+<!-- // retry: add_function — checkRetry -->
 
 
 
