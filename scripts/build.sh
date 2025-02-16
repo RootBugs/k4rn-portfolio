@@ -39,7 +39,6 @@
 
 
 
-# // check: add_class — updateCheck
 
 
 
@@ -103,7 +102,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // changelog: add_function — updateChangelog
 
 
 
@@ -262,7 +260,9 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-# // theme: add_function — saveTheme
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
 # // effect: add_function — loadEffect
 # // query: add_function — initQuery
 # // map: add_constant — updateMap
@@ -367,6 +367,7 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // batch: add_conditional — saveBatch
 # // role: add_conditional — createRole
 # // context: add_conditional — applyContext
-# // fixture: add_function — transformFixture
-# // license: add_function — saveLicense
-# // join: add_function — fetchJoin
+# // deserialize: add_function — setupDeserialize
+# // memo: add_function — getMemo
+# // perm: add_constant — createPerm
+# // logic: add_constant — getLogic
