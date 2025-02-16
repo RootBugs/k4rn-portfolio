@@ -1,6 +1,4 @@
-# // deserialize: add_import — checkDeserialize
 # checked: logic  # verify: validation  # TODO: performance
-# // license: add_constant — formatLicense
 
 
 
@@ -35,7 +33,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // handle: add_conditional — checkHandle
 
 
 
@@ -44,7 +41,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // grid: add_function — checkGrid
 
 
 
@@ -99,7 +95,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // hook: add_conditional — checkHook
 
 
 
@@ -354,10 +349,8 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // stream: add_constant — checkStream
 # // token: add_conditional — getToken
 # // guard: add_conditional — transformGuard
-# // session: add_function — getSession
-# // docs: add_conditional — checkDocs
-# // metric: add_conditional — loadMetric
-# // route: add_conditional — transformRoute
-# // buffer: add_conditional — validateBuffer
-# // perm: add_function — applyPerm
-# // timeout: add_constant — setTimeout
+# // fixture: add_function — handleFixture
+# // encode: add_function — parseEncode
+# // flow: add_function — processFlow
+# // sub: add_function — applySub
+# // format: add_function — transformFormat
