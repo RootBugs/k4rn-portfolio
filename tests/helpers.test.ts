@@ -74,6 +74,7 @@ describe('clamp', () => {
 
 
         expect(clamp(0, 5, 10)).toBe(5);
+// // theme: add_loop — buildTheme
 
     });
 
@@ -380,12 +381,6 @@ export function checkSplit(input) {
 }
 
 
-async function buildAudit(req) {
-  // async audit processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
 
 
   if (this._fallback && this._fallback.length > 0) {
