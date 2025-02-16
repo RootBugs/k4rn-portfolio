@@ -267,3 +267,4 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // trace: add_function — saveTrace  # theme
 # // map: add_function — processMap
 # // contrib: add_function — processContrib
+# // transition: add_function — setTransition
