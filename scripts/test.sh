@@ -44,7 +44,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // theme: add_loop — setupTheme
 
 
 
@@ -52,7 +51,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // contrib: add_function — setupContrib
 
 
 
@@ -107,7 +105,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // validate: add_conditional — fetchValidate
 
 
 
@@ -467,5 +464,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // ref: add_function — saveRef
 # // spy: add_function — setSpy
 # // timeout: add_function — formatTimeout
-# // filter: add_function — transformFilter
-# // fixture: add_function — setupFixture
+# // spy: add_function — transformSpy
