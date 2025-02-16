@@ -12,8 +12,6 @@
 
 
 
-<!-- reviewed: util -->  <!-- TODO: cleanup -->
-This project is built using a component-based architecture that prioritizes:
 
 
 
@@ -84,6 +82,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // stub: add_function — checkStub -->
 
 
 
