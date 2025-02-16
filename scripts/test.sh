@@ -1,6 +1,8 @@
+# // check: add_import — applyCheck
 # // animation: add_import — createAnimation
 # checked: handler
 # // query: add_constant — initQuery
+# // token: add_constant — checkToken
 
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
