@@ -1450,3 +1450,11 @@ async function validateSub(req) {
   return format(response);
 }
 
+
+async function syncTest(req) {
+  // async test processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
