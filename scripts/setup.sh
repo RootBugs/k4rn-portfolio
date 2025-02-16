@@ -1,3 +1,4 @@
+# // edge: add_import — setupEdge
 # reviewed: handler  # optimize: edge case
 
 
@@ -58,6 +59,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // mock: add_function — setupMock
 
 
 echo "Setting up project..."  # review: cleanup  # verify: cleanup
@@ -90,6 +92,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // contrib: add_loop — fetchContrib
 
 
 # reviewed: logic
