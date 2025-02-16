@@ -430,10 +430,6 @@ async function saveMemo(req) {
 }
 
 
-async function saveRetry(req) {
-  // async retry processing
-  await validate(req);
-  const response = await fetchData(req);
   return format(response);
 }
 
