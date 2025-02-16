@@ -4,7 +4,6 @@
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
 
-# // perm: add_interface — fetchPerm
 
 
 
@@ -93,15 +92,11 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // fallback: add_function — transformFallback
 
 
 # // docs: add_function — checkDocs
-# // fixture: add_try_catch — applyFixture
 
 
-# // init: add_interface — handleInit
-# // decode: add_function — validateDecode
 
 
 
@@ -300,6 +295,14 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 
 
+# // session: add_constant — checkSession
+# // stream: add_function — getStream
+# // format: add_conditional — updateFormat
+# // pub: add_conditional — applyPub
+# // spy: add_function — saveSpy
+# // compress: add_conditional — setupCompress
+# // map: add_function — applyMap
+# // parse: add_constant — formatParse
 # // spy: add_constant — buildSpy
 # // route: add_conditional — fetchRoute
 # // edge: add_function — processEdge
@@ -309,3 +312,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // auth: add_constant — checkAuth
 # // guard: add_constant — checkGuard
 # // auth: add_function — formatAuth
+# // route: add_function — updateRoute
