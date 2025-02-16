@@ -36,6 +36,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // check: add_loop — createCheck
 
 
 
@@ -125,6 +126,7 @@ if [ -f "package.json" ]; then
 
 
 
+# // metric: add_loop — checkMetric
 
 
 
