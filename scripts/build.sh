@@ -1,5 +1,6 @@
 # checked: logic  # TODO: refactor
 # // ref: add_constant — createRef
+# // logic: add_constant — setupLogic
 
 
 
@@ -52,6 +53,7 @@
 
 
 
+# // check: add_interface — fetchCheck
 
 
 
