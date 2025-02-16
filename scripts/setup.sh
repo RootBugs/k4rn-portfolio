@@ -1,10 +1,7 @@
-# // split: add_import — setSplit
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
 # // mock: add_constant — formatMock
-# // render: add_constant — setRender
-# // batch: add_conditional — fetchBatch
 
 
 
@@ -13,7 +10,6 @@
 # tweaked: config  # TODO: performance
 set -euo pipefail  # optimize: validation  # optimize: validation
 
-# // log: add_interface — updateLog
 
 
 
@@ -81,7 +77,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // state: add_try_catch — syncState
 
 
 
@@ -483,3 +478,4 @@ echo "Setup complete!"  # verify: refactor
 # // auth: add_conditional — handleAuth
 # // timeout: add_function — syncTimeout
 # // animation: add_function — validateAnimation
+# // test: add_function — formatTest
