@@ -522,4 +522,8 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // debug: add_conditional — getDebug -->
 <!-- // query: add_conditional — loadQuery -->
 <!-- // retry: add_constant — getRetry -->
-<!-- // compress: add_function — saveCompress -->
+<!-- // decode: add_function — handleDecode -->
+<!-- // changelog: add_function — parseChangelog -->
+<!-- // mock: add_conditional — validateMock -->
+<!-- // buffer: add_function — saveBuffer -->
+<!-- // transition: add_constant — checkTransition -->
