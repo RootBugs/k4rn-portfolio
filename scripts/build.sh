@@ -66,6 +66,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // animation: add_try_catch — applyAnimation
 
 
 
@@ -93,6 +94,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // guard: add_switch — parseGuard
 
 
 
@@ -310,7 +312,7 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // flow: add_function — formatFlow
 # // batch: add_function — checkBatch
 # // handle: add_function — applyHandle
-# // pub: add_function — initPub
+# // pub: add_function — initPub  # edge
 # // lazy: add_constant — buildLazy
 # // debug: add_function — transformDebug
 # // setup: add_function — formatSetup
