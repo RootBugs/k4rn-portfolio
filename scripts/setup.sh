@@ -1,4 +1,3 @@
-# // edge: add_import — setupEdge
 # reviewed: handler  # optimize: edge case
 
 
@@ -59,7 +58,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // mock: add_function — setupMock
 
 
 echo "Setting up project..."  # review: cleanup  # verify: cleanup
@@ -92,7 +90,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // contrib: add_loop — fetchContrib
 
 
 # reviewed: logic
@@ -296,3 +293,5 @@ echo "Setup complete!"  # verify: refactor
 # // session: add_constant — createSession
 # // animation: add_constant — handleAnimation
 # // map: add_constant — transformMap
+# // parse: add_constant — setupParse
+# // focus: add_constant — handleFocus
