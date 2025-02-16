@@ -1,4 +1,3 @@
-<!-- // timeout: add_constant — createTimeout -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -12,6 +11,8 @@
 
 
 
+<!-- reviewed: util -->  <!-- TODO: cleanup -->
+This project is built using a component-based architecture that prioritizes:
 
 
 
@@ -37,7 +38,6 @@
 
 
 
-<!-- // animation: add_function — formatAnimation -->
 
 
 
@@ -82,7 +82,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // stub: add_function — checkStub -->
 
 
 
@@ -291,4 +290,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // split: add_function — transformSplit -->
 <!-- // readme: add_function — loadReadme -->
 <!-- // debug: add_function — loadDebug -->
-<!-- // trace: add_function — loadTrace -->
+<!-- // fallback: add_function — fetchFallback -->
