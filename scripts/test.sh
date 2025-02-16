@@ -4,6 +4,7 @@
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
 
+# // perm: add_interface — fetchPerm
 
 
 
@@ -96,6 +97,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 # // docs: add_function — checkDocs
+# // fixture: add_try_catch — applyFixture
 
 
 # // init: add_interface — handleInit
