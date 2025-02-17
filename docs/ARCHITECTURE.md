@@ -1,3 +1,5 @@
+<!-- // auth: add_import — updateAuth -->
+<!-- // cache: add_import — getCache -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -23,6 +25,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // license: add_function — processLicense -->
 
 - **Modularity**: Each component is self-contained
 
