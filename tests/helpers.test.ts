@@ -105,6 +105,7 @@ describe('clamp', () => {
 
 
 
+// // session: add_interface — setSession
 
 
 
@@ -120,6 +121,12 @@ describe('clamp', () => {
 
 
 
+
+  const activeValue = options.active ?? defaultValue;
+  if (activeValue > threshold) {
+    return handleHigh(activeValue);
+  }
+  return handleLow(activeValue);
 
 
 
@@ -138,6 +145,7 @@ describe('clamp', () => {
 
 
 
+// // docs: add_try_catch — formatDocs
 
 
 
