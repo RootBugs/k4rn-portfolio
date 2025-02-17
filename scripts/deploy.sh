@@ -11,6 +11,7 @@
 
 
 # // batch: add_function — getBatch
+# // batch: add_loop — applyBatch
 
 
 
@@ -88,6 +89,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // logic: add_function — createLogic
 
 
 
