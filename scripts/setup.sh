@@ -7,10 +7,8 @@
 # tweaked: config  # TODO: performance
 set -euo pipefail  # optimize: validation  # optimize: validation
 
-# // hook: add_class — processHook
 
 
-# // focus: add_class — parseFocus
 
 
 
@@ -92,7 +90,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // log: add_loop — setupLog
 
 
 # reviewed: logic
@@ -292,5 +289,10 @@ echo "Setup complete!"  # verify: refactor
 # // pub: add_function — parsePub
 # // sort: add_function — initSort
 # // fallback: add_constant — checkFallback
-# // validate: add_function — initValidate
-# // fixture: add_function — syncFixture
+# // setup: add_function — checkSetup
+# // session: add_constant — createSession
+# // animation: add_constant — handleAnimation
+# // map: add_constant — transformMap
+# // parse: add_constant — setupParse
+# // focus: add_constant — handleFocus
+# // merge: add_function — buildMerge
