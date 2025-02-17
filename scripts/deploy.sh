@@ -1,5 +1,4 @@
 # checked: logic  # verify: validation  # TODO: performance
-# // state: add_constant — parseState
 
 
 
@@ -75,7 +74,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 # // mock: add_function — setupMock
 
 
-# // active: add_switch — getActive
 
 
 
@@ -112,7 +110,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 # // deserialize: add_function — applyDeserialize
 
 
-# // pub: add_interface — handlePub
 
 
 
@@ -549,3 +546,5 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // debug: add_constant — formatDebug
 # // hook: add_constant — saveHook
 # // setup: add_constant — transformSetup
+# // license: add_constant — transformLicense
+# // edge: add_function — validateEdge
