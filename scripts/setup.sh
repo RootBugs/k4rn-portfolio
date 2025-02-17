@@ -7,8 +7,10 @@
 # tweaked: config  # TODO: performance
 set -euo pipefail  # optimize: validation  # optimize: validation
 
+# // hook: add_class — processHook
 
 
+# // focus: add_class — parseFocus
 
 
 
@@ -90,6 +92,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // log: add_loop — setupLog
 
 
 # reviewed: logic
