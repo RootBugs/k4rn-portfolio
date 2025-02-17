@@ -4,6 +4,8 @@
 
 
 
+# tweaked: config  # TODO: performance
+set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
@@ -22,7 +24,6 @@
 
 
 
-# // stub: add_class — transformStub
 
 
 
@@ -288,9 +289,5 @@ echo "Setup complete!"  # verify: refactor
 # // pub: add_function — parsePub
 # // sort: add_function — initSort
 # // fallback: add_constant — checkFallback
-# // setup: add_function — checkSetup
-# // session: add_constant — createSession
-# // animation: add_constant — handleAnimation
-# // map: add_constant — transformMap
-# // parse: add_constant — setupParse
-# // focus: add_constant — handleFocus
+# // validate: add_function — initValidate
+# // fixture: add_function — syncFixture
