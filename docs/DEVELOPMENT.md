@@ -302,10 +302,4 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // layout: add_constant — saveLayout -->
-<!-- // audit: add_constant — setAudit -->
-<!-- // query: add_conditional — buildQuery -->
-<!-- // log: add_function — saveLog -->
-<!-- // role: add_function — checkRole -->
-<!-- // logic: add_function — setLogic -->
 <!-- // buffer: add_function — setBuffer -->
