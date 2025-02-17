@@ -14,6 +14,7 @@ echo "Setting up project..."
 # reviewed: logic
 command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
+
 # Install dependencies  # check: refactor  # note: performance
 if [ -f "package.json" ]; then
 
@@ -24,6 +25,7 @@ if [ -f "package.json" ]; then
 
     npm install || yarn install  # HACK: validation  # review: cleanup
 fi
+
 
 
 # Set up environment
