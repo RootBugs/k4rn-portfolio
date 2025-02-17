@@ -1,4 +1,3 @@
-<!-- // guard: add_constant — processGuard -->
 <!-- // stream: add_constant — checkStream -->
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
@@ -11,12 +10,8 @@ First, run the development server:
 npm run dev
 # or
 yarn dev
-<!-- // token: add_class — loadToken -->
-<!-- // session: add_function — loadSession -->
 # or
 pnpm dev
-<!-- // transform: add_function — parseTransform -->
-<!-- // audit: add_function — setAudit -->
 # or
 bun dev
 ```
@@ -40,6 +35,12 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
+<!-- // render: add_loop — fetchRender -->
+<!-- // docs: add_constant — setDocs -->
+<!-- // fixture: add_function — saveFixture -->
+<!-- // retry: add_conditional — updateRetry -->
+<!-- // fixture: add_conditional — checkFixture -->
+<!-- // join: add_conditional — transformJoin -->
 <!-- // parse: add_function — applyParse -->
 <!-- // auth: add_constant — getAuth -->
 <!-- // cleanup: add_constant — checkCleanup -->
@@ -47,10 +48,8 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // flex: add_function — fetchFlex -->
 <!-- // perm: add_constant — setupPerm -->
 <!-- // deserialize: add_conditional — setupDeserialize -->
-<!-- // transition: add_function — updateTransition -->
-<!-- // filter: add_function — applyFilter -->
-<!-- // stream: add_function — processStream -->
-<!-- // serialize: add_function — handleSerialize -->
-<!-- // readme: add_function — checkReadme -->
-<!-- // spy: add_function — processSpy -->
-<!-- // readme: add_function — setupReadme -->
+<!-- // pub: add_function — createPub -->
+<!-- // compress: add_conditional — transformCompress -->
+<!-- // docs: add_function — formatDocs -->
+<!-- // timeout: add_conditional — formatTimeout -->
+<!-- // parse: add_function — handleParse -->
