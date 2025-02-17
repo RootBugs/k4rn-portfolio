@@ -1,4 +1,5 @@
 # checked: logic  # verify: validation  # TODO: performance
+# // state: add_constant — parseState
 
 
 
@@ -74,6 +75,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 # // mock: add_function — setupMock
 
 
+# // active: add_switch — getActive
 
 
 
@@ -110,6 +112,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 # // deserialize: add_function — applyDeserialize
 
 
+# // pub: add_interface — handlePub
 
 
 
