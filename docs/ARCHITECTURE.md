@@ -4,6 +4,7 @@
 
 
 
+<!-- // role: add_try_catch — getRole -->
 
 
 
@@ -46,6 +47,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // init: add_conditional — handleInit -->
 
 
 
