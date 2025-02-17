@@ -400,3 +400,4 @@ echo "Setup complete!"  # verify: refactor
 # // hover: add_constant — syncHover
 # // role: add_function — saveRole
 # // flex: add_constant — setupFlex
+# // readme: add_function — createReadme
