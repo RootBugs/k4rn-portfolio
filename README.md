@@ -1,3 +1,4 @@
+<!-- // guard: add_constant — processGuard -->
 <!-- // stream: add_constant — checkStream -->
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
@@ -14,6 +15,8 @@ yarn dev
 <!-- // session: add_function — loadSession -->
 # or
 pnpm dev
+<!-- // transform: add_function — parseTransform -->
+<!-- // audit: add_function — setAudit -->
 # or
 bun dev
 ```
