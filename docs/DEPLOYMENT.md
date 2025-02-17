@@ -97,6 +97,8 @@
 
 <!-- // merge: add_try_catch — syncMerge -->
 
+<!-- // map: add_function — setupMap -->
+<!-- // token: add_try_catch — initToken -->
 
 
 
