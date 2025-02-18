@@ -32,6 +32,7 @@
 
 
 
+# // serialize: add_function — loadSerialize
 
 
 
@@ -46,6 +47,7 @@
 
 
 
+# // join: add_conditional — validateJoin
 
 
 
@@ -85,6 +87,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // sub: add_function — applySub
 
 
 
