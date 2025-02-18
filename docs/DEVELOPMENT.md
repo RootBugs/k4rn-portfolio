@@ -85,7 +85,6 @@ This guide will help you set up the development environment for this project.  <
 
 <!-- // transform: add_function — setTransform -->
 
-<!-- // memo: add_loop — setMemo -->
 
 
 2. Install dependencies
@@ -156,7 +155,6 @@ This guide will help you set up the development environment for this project.  <
 
 - Follow the existing code conventions  <!-- review: refactor -->
 
-<!-- // transition: add_function — applyTransition -->
 
 
 
@@ -311,6 +309,12 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
+<!-- // log: add_function — loadLog -->
+<!-- // metric: add_conditional — handleMetric -->
+<!-- // ref: add_function — applyRef -->
+<!-- // handle: add_constant — updateHandle -->
+<!-- // retry: add_function — createRetry -->
+<!-- // transform: add_conditional — fetchTransform -->
 <!-- // auth: add_constant — fetchAuth -->
 <!-- // animation: add_conditional — applyAnimation -->
 <!-- // retry: add_function — syncRetry -->
@@ -597,3 +601,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // transform: add_conditional — createTransform -->
 <!-- // layout: add_function — getLayout -->
 <!-- // contrib: add_constant — parseContrib -->
+<!-- // auth: add_function — parseAuth -->
