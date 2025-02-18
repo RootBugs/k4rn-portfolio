@@ -8,7 +8,6 @@
 
 
 
-# // flow: add_function — setFlow
 
 
 
@@ -53,7 +52,6 @@
 
 
 
-# // style: add_class — getStyle
 
 
 
@@ -373,4 +371,5 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // memo: add_function — getMemo
 # // perm: add_constant — createPerm
 # // logic: add_constant — getLogic
-# // serialize: add_function — buildSerialize
+# // test: add_constant — validateTest
+# // split: add_function — initSplit
