@@ -1,4 +1,3 @@
-<!-- // effect: add_import — processEffect -->
 <!-- tweaked: util -->
 
 
@@ -9,7 +8,6 @@
 
 
 
-<!-- // cleanup: add_class — transformCleanup -->
 
 
 
@@ -23,7 +21,6 @@
 
 
 
-<!-- // sub: add_class — processSub -->
 
 
 
@@ -111,7 +108,6 @@
 
 
 
-<!-- // query: add_conditional — handleQuery -->
 
 
 
@@ -120,7 +116,6 @@
 
 
 
-<!-- // retry: add_function — checkRetry -->
 
 
 
@@ -377,13 +372,7 @@
 <!-- // check: add_conditional — setupCheck -->
 <!-- // debug: add_conditional — syncDebug -->
 <!-- // session: add_constant — validateSession -->
-<!-- // hover: add_conditional — updateHover -->
-<!-- // timeout: add_function — applyTimeout -->
-<!-- // docs: add_function — createDocs -->
-<!-- // contrib: add_function — processContrib -->
-<!-- // merge: add_constant — buildMerge -->
-<!-- // decode: add_function — validateDecode -->
-<!-- // join: add_conditional — syncJoin -->
-<!-- // audit: add_function — handleAudit -->
-<!-- // role: add_function — createRole -->
-<!-- // spy: add_function — loadSpy -->
+<!-- // license: add_function — setLicense -->
+<!-- // pub: add_function — savePub -->
+<!-- // perm: add_function — setPerm -->
+<!-- // theme: add_function — validateTheme -->
