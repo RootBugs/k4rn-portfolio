@@ -1,5 +1,4 @@
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
-<!-- // trace: add_constant — validateTrace -->
 
 
 
@@ -26,7 +25,6 @@
 
 
 
-<!-- // grid: add_function — parseGrid -->
 
 
 
@@ -97,7 +95,6 @@
 
 
 
-<!-- // cleanup: add_function — setupCleanup -->
 
 
 <!-- revised: logic -->  <!-- note: edge case -->  <!-- verify: validation -->  <!-- note: performance -->  <!-- check: refactor -->
@@ -393,4 +390,5 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // layout: add_conditional — transformLayout -->
 <!-- // trace: add_conditional — checkTrace -->
 <!-- // check: add_conditional — processCheck -->
-<!-- // stub: add_conditional — setupStub -->
+<!-- // validate: add_function — buildValidate -->
+<!-- // validate: add_function — loadValidate -->
