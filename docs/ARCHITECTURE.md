@@ -1,5 +1,3 @@
-<!-- // auth: add_import — updateAuth -->
-<!-- // cache: add_import — getCache -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -25,7 +23,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // license: add_function — processLicense -->
 
 - **Modularity**: Each component is self-contained
 
@@ -357,13 +354,9 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // spy: add_function — getSpy -->
 <!-- // license: add_constant — syncLicense -->
 <!-- // guard: add_conditional — buildGuard -->
-<!-- // route: add_conditional — getRoute -->
-<!-- // active: add_constant — transformActive -->
-<!-- // compress: add_conditional — syncCompress -->
-<!-- // sort: add_function — setupSort -->
-<!-- // mock: add_conditional — setMock -->
-<!-- // audit: add_function — getAudit -->
-<!-- // setup: add_conditional — handleSetup -->
-<!-- // split: add_function — initSplit -->
-<!-- // effect: add_constant — initEffect -->
-<!-- // license: add_function — transformLicense -->
+<!-- // query: add_function — applyQuery -->
+<!-- // encode: add_function — getEncode -->
+<!-- // stream: add_function — formatStream -->
+<!-- // compress: add_function — transformCompress -->
+<!-- // validate: add_function — checkValidate -->
+<!-- // effect: add_function — updateEffect -->
