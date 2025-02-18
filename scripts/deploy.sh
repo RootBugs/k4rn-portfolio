@@ -1,4 +1,3 @@
-# // theme: add_import — buildTheme
 # checked: logic  # verify: validation  # TODO: performance
 
 
@@ -12,7 +11,6 @@
 
 
 # // batch: add_function — getBatch
-# // batch: add_loop — applyBatch
 
 
 
@@ -60,7 +58,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // parse: add_function — fetchParse
 
 
 
@@ -85,14 +82,12 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 # // route: add_conditional — updateRoute
 
-# // ref: add_function — validateRef
 
 
 
 
 
 
-# // logic: add_function — createLogic
 
 
 
@@ -354,8 +349,12 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // stream: add_constant — checkStream
 # // token: add_conditional — getToken
 # // guard: add_conditional — transformGuard
-# // fixture: add_function — handleFixture
-# // encode: add_function — parseEncode
-# // flow: add_function — processFlow
-# // sub: add_function — applySub
-# // format: add_function — transformFormat
+# // session: add_function — getSession
+# // docs: add_conditional — checkDocs
+# // metric: add_conditional — loadMetric
+# // route: add_conditional — transformRoute
+# // buffer: add_conditional — validateBuffer
+# // perm: add_function — applyPerm
+# // timeout: add_constant — setTimeout
+# // map: add_constant — setupMap
+# // state: add_function — fetchState
