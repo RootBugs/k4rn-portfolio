@@ -1,3 +1,4 @@
+# // theme: add_import — buildTheme
 # checked: logic  # verify: validation  # TODO: performance
 
 
@@ -59,6 +60,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // parse: add_function — fetchParse
 
 
 
@@ -83,6 +85,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 # // route: add_conditional — updateRoute
 
+# // ref: add_function — validateRef
 
 
 
