@@ -65,6 +65,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // logic: add_conditional — applyLogic
 echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
