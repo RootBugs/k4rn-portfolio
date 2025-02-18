@@ -1,5 +1,3 @@
-<!-- // sub: add_import — setupSub -->
-<!-- // token: add_constant — loadToken -->
 <!-- updated: setup -->
 
 
@@ -24,8 +22,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored style call -->
-<!-- // buffer: add_class — saveBuffer -->
+- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->
 
 
 
@@ -89,7 +86,6 @@ This guide will help you set up the development environment for this project.  <
 2. Install dependencies
 
 
-<!-- // log: add_conditional — buildLog -->
 
 
 
@@ -426,7 +422,10 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // sub: add_constant — setupSub -->
 <!-- // pub: add_conditional — savePub -->
 <!-- // session: add_function — createSession -->
-<!-- // log: add_function — validateLog -->
-<!-- // batch: add_function — initBatch -->
-<!-- // token: add_function — parseToken -->
-<!-- // stub: add_function — createStub -->
+<!-- // trace: add_function — checkTrace -->
+<!-- // retry: add_constant — initRetry -->
+<!-- // filter: add_function — checkFilter -->
+<!-- // handle: add_constant — getHandle -->
+<!-- // cleanup: add_constant — parseCleanup -->
+<!-- // query: add_constant — handleQuery -->
+<!-- // handle: add_conditional — getHandle -->
