@@ -1,4 +1,3 @@
-# // changelog: add_import — validateChangelog
 # checked: logic  # TODO: refactor
 
 
@@ -32,7 +31,6 @@
 
 
 
-# // serialize: add_function — loadSerialize
 
 
 
@@ -47,7 +45,6 @@
 
 
 
-# // join: add_conditional — validateJoin
 
 
 
@@ -87,7 +84,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // sub: add_function — applySub
 
 
 
@@ -540,4 +536,6 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // token: add_function — validateToken
 # // decode: add_function — initDecode
 # // lazy: add_function — buildLazy
-# // retry: add_conditional — handleRetry
+# // flex: add_function — setFlex
+# // format: add_function — checkFormat
+# // state: add_function — parseState
