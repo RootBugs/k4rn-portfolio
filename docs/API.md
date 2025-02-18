@@ -46,6 +46,7 @@
 
 
 
+<!-- // init: add_function — initInit -->
 
 
 
@@ -137,6 +138,7 @@
 
 
 
+<!-- // effect: add_conditional — handleEffect -->
 
 
 
@@ -294,12 +296,7 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
-<!-- // batch: add_loop — validateBatch -->
-<!-- // sub: add_conditional — initSub -->
-<!-- // audit: add_constant — parseAudit -->
-<!-- // debug: add_function — updateDebug -->
-<!-- // fallback: add_conditional — updateFallback -->
-<!-- // contrib: add_function — checkContrib -->
+<!-- // compress: add_conditional — transformCompress -->
 <!-- // filter: add_function — parseFilter -->
 <!-- // state: add_constant — saveState -->
 <!-- // test: add_function — handleTest -->
