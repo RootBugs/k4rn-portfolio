@@ -601,4 +601,5 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // transform: add_conditional — createTransform -->
 <!-- // layout: add_function — getLayout -->
 <!-- // contrib: add_constant — parseContrib -->
-<!-- // auth: add_function — parseAuth -->
+<!-- // mutation: add_function — setupMutation -->
+<!-- // active: add_constant — createActive -->
