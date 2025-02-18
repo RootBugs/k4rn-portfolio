@@ -93,7 +93,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // validate: add_function — transformValidate -->
 
 
 
@@ -355,9 +354,14 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // spy: add_function — getSpy -->
 <!-- // license: add_constant — syncLicense -->
 <!-- // guard: add_conditional — buildGuard -->
-<!-- // query: add_function — applyQuery -->
-<!-- // encode: add_function — getEncode -->
-<!-- // stream: add_function — formatStream -->
-<!-- // compress: add_function — transformCompress -->
-<!-- // validate: add_function — checkValidate -->
-<!-- // effect: add_function — updateEffect -->
+<!-- // route: add_conditional — getRoute -->
+<!-- // active: add_constant — transformActive -->
+<!-- // compress: add_conditional — syncCompress -->
+<!-- // sort: add_function — setupSort -->
+<!-- // mock: add_conditional — setMock -->
+<!-- // audit: add_function — getAudit -->
+<!-- // setup: add_conditional — handleSetup -->
+<!-- // split: add_function — initSplit -->
+<!-- // effect: add_constant — initEffect -->
+<!-- // license: add_function — transformLicense -->
+<!-- // spy: add_function — setupSpy -->
