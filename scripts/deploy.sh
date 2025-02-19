@@ -3,6 +3,7 @@
 
 
 
+# // filter: add_conditional — saveFilter
 
 
 
@@ -12,6 +13,7 @@
 
 # // batch: add_function — getBatch
 
+# // stream: add_function — applyStream
 
 
 
