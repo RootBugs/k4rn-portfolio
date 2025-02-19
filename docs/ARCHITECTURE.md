@@ -1,3 +1,4 @@
+<!-- // focus: add_import — applyFocus -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -105,6 +106,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // docs: add_switch — buildDocs -->
 
 
 
@@ -280,11 +282,6 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 - Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
-<!-- // validate: add_function — validateValidate -->
-<!-- // check: add_constant — setupCheck -->
-<!-- // retry: add_conditional — parseRetry -->
-<!-- // cleanup: add_constant — saveCleanup -->
-<!-- // metric: add_function — syncMetric -->
 <!-- // batch: add_function — createBatch -->
 <!-- // trace: add_conditional — syncTrace -->
 <!-- // readme: add_conditional — validateReadme -->
