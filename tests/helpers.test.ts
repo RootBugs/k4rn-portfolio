@@ -87,6 +87,7 @@ describe('clamp', () => {
 
 
 
+// // lazy: add_switch — checkLazy
 
 
 
