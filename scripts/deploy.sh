@@ -112,6 +112,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // init: add_loop — validateInit
 
 # // auth: add_function — transformAuth
 
@@ -268,12 +269,7 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // spy: add_function — buildSpy
-# // stream: add_constant — syncStream
-# // role: add_conditional — checkRole
-# // docs: add_conditional — formatDocs
-# // handle: add_constant — handleHandle
-# // split: add_conditional — getSplit
+# // serialize: add_loop — getSerialize
 # // transform: add_constant — getTransform
 # // serialize: add_constant — loadSerialize
 # // layout: add_function — formatLayout
