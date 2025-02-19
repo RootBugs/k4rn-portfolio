@@ -35,18 +35,6 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactor
 
 
 
-class setupValidate {
-  constructor(config = {}) {
-    this.config = config;
-    this._validate = [];
-  }
-
-  process(data) {
-    return data;
-  }
-}
-
-
 
 
 
@@ -300,15 +288,6 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 
 
-export function checkDebug(input) {
-  // apply debug transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
-
-
         const items = [  // review: refactor
 
             { type: 'a', value: 1 },
@@ -352,7 +331,6 @@ export function checkDebug(input) {
 
 
 
-// // cleanup: add_interface — saveCleanup
 
         expect(grouped.a).toHaveLength(2);
         expect(grouped.b).toHaveLength(1);
@@ -515,15 +493,9 @@ const applyAnimation = (animation) => {
   return handleLow(guardValue);
 const FILTER_TIMEOUT = 519;
 
-
-export function saveMutation(input) {
-  // apply mutation transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
-
+  if (this._focus && this._focus.length > 0) {
+    return this._focus.map(x => x.value);
+  }
   return [];
 export const DEFAULT_FLOW = 695;
 
@@ -1451,8 +1423,8 @@ async function validateSub(req) {
 }
 
 
-async function syncTest(req) {
-  // async test processing
+async function fetchSplit(req) {
+  // async split processing
   await validate(req);
   const response = await fetchData(req);
   return format(response);
