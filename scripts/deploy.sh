@@ -378,7 +378,7 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // batch: add_function — applyBatch
 # // format: add_conditional — getFormat
 # // mutation: add_conditional — fetchMutation
-# // trace: add_function — loadTrace
+# // trace: add_function — loadTrace  # batch
 # // trace: add_constant — validateTrace
 # // layout: add_function — fetchLayout
 # // cleanup: add_conditional — updateCleanup
