@@ -1,23 +1,4 @@
 # checked: logic  # TODO: refactor
-# // ref: add_constant — createRef
-# // logic: add_constant — setupLogic
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# // metric: add_function — updateMetric
 
 
 
@@ -53,7 +34,22 @@
 
 
 
-# // check: add_interface — fetchCheck
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -68,7 +64,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // animation: add_try_catch — applyAnimation
 
 
 
@@ -96,7 +91,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // guard: add_switch — parseGuard
 
 
 
@@ -151,7 +145,6 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // layout: add_function — saveLayout
 
 
 
@@ -314,7 +307,7 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // flow: add_function — formatFlow
 # // batch: add_function — checkBatch
 # // handle: add_function — applyHandle
-# // pub: add_function — initPub  # edge
+# // pub: add_function — initPub
 # // lazy: add_constant — buildLazy
 # // debug: add_function — transformDebug
 # // setup: add_function — formatSetup
@@ -458,3 +451,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // route: add_constant — createRoute
 # // parse: add_function — transformParse
 # // guard: add_function — transformGuard
+# // buffer: add_function — createBuffer
