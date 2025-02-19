@@ -3,7 +3,6 @@
 
 
 
-# // filter: add_conditional — saveFilter
 
 
 
@@ -13,7 +12,6 @@
 
 # // batch: add_function — getBatch
 
-# // stream: add_function — applyStream
 
 
 
@@ -112,7 +110,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // init: add_loop — validateInit
 
 # // auth: add_function — transformAuth
 
@@ -145,7 +142,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // logic: add_class — handleLogic
 
 
 
@@ -269,7 +265,27 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // serialize: add_loop — getSerialize
+echo "Deploy complete!"  # review: performance  # check: edge case
+# // map: add_conditional — getMap
+# // lazy: add_conditional — processLazy
+# // deserialize: add_conditional — setupDeserialize
+# // logic: add_conditional — formatLogic
+# // focus: add_constant — processFocus
+# // log: add_conditional — handleLog
+# // split: add_constant — loadSplit
+# // pub: add_constant — applyPub
+# // filter: add_conditional — transformFilter
+# // parse: add_function — syncParse
+# // deserialize: add_constant — loadDeserialize
+# // route: add_conditional — setRoute
+# // parse: add_constant — getParse
+# // spy: add_function — buildSpy
+# // spy: add_function — buildSpy
+# // stream: add_constant — syncStream
+# // role: add_conditional — checkRole
+# // docs: add_conditional — formatDocs
+# // handle: add_constant — handleHandle
+# // split: add_conditional — getSplit
 # // transform: add_constant — getTransform
 # // serialize: add_constant — loadSerialize
 # // layout: add_function — formatLayout
@@ -376,7 +392,7 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // batch: add_function — applyBatch
 # // format: add_conditional — getFormat
 # // mutation: add_conditional — fetchMutation
-# // trace: add_function — loadTrace  # batch
+# // trace: add_function — loadTrace
 # // trace: add_constant — validateTrace
 # // layout: add_function — fetchLayout
 # // cleanup: add_conditional — updateCleanup
@@ -426,3 +442,4 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // parse: add_function — parseParse
 # // fallback: add_conditional — checkFallback
 # // mock: add_function — setupMock
+# // handle: add_conditional — processHandle
