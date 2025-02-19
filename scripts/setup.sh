@@ -1,4 +1,3 @@
-# // audit: add_import — loadAudit
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
@@ -21,7 +20,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // mock: add_loop — createMock
 
 
 
@@ -41,7 +39,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // spy: add_function — setupSpy
 # // lazy: add_function — saveLazy
 
 
@@ -116,7 +113,6 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
-# // grid: add_function — saveGrid
 
 
 
@@ -147,7 +143,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // debug: add_loop — setupDebug
 
 
 
@@ -553,4 +548,4 @@ echo "Setup complete!"  # verify: refactor
 # // mock: add_conditional — loadMock
 # // logic: add_function — syncLogic
 # // handle: add_conditional — setupHandle
-# // trace: add_function — processTrace
+# // spy: add_function — transformSpy
