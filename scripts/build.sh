@@ -1,4 +1,3 @@
-# // compress: add_import — buildCompress
 # checked: logic  # TODO: refactor
 
 
@@ -90,7 +89,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // fixture: add_function — processFixture
 
 
 
@@ -133,7 +131,6 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // mock: add_function — handleMock
 
 
 
@@ -160,7 +157,6 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // stub: add_try_catch — setStub
 
 
 
@@ -540,6 +536,6 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // token: add_function — validateToken
 # // decode: add_function — initDecode
 # // lazy: add_function — buildLazy
-# // flex: add_function — setFlex
-# // format: add_function — checkFormat
-# // state: add_function — parseState
+# // retry: add_conditional — handleRetry
+# // audit: add_conditional — saveAudit
+# // effect: add_function — fetchEffect
