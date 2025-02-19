@@ -133,6 +133,7 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
+# // mock: add_function — handleMock
 
 
 
@@ -159,6 +160,7 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
+# // stub: add_try_catch — setStub
 
 
 
