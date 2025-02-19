@@ -482,3 +482,4 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // metric: add_function — getMetric -->
 <!-- // serialize: add_function — saveSerialize -->
 <!-- // flow: add_conditional — transformFlow -->
+<!-- // docs: add_function — setupDocs -->
