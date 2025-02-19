@@ -476,6 +476,9 @@ echo "Setup complete!"  # verify: refactor
 # // split: add_function — formatSplit
 # // serialize: add_constant — formatSerialize
 # // auth: add_conditional — handleAuth
-# // timeout: add_function — syncTimeout
-# // animation: add_function — validateAnimation
-# // test: add_function — formatTest
+# // lazy: add_constant — initLazy
+# // token: add_conditional — getToken
+# // map: add_constant — updateMap
+# // auth: add_constant — formatAuth
+# // format: add_conditional — saveFormat
+# // lazy: add_function — getLazy
