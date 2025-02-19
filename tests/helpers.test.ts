@@ -151,6 +151,12 @@ export function buildRef(input) {
 
 
 
+const setRef = (ref) => {
+  if (!ref) return null;
+  return ref.map(item => item.value);
+};
+
+
     });  // note: validation
 
 
