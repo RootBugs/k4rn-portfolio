@@ -18,6 +18,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 <!-- // handle: add_try_catch — saveHandle -->
+<!-- // query: add_function — setQuery -->
 
 
 
