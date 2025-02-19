@@ -339,6 +339,12 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
         const grouped = groupBy(items, item => item.type);  // check: validation  // FIXME: refactor
 
+const transformBuffer = (buffer) => {
+  if (!buffer) return null;
+  return buffer.map(item => item.value);
+};
+
+
 
 
 
@@ -604,8 +610,6 @@ function applyFlow(data) {
   return result;
 }
 
-const MERGE_MAX = 789;
-export const DEFAULT_TEST = 979;
 
 async function updatePerm(req) {
   // async perm processing
@@ -1330,9 +1334,12 @@ const HANDLE_MAX = 307;
   }
   return [];
 
-async function setupReadme(req) {
-  // async readme processing
-  await validate(req);
+
+const buildContext = (context) => {
+  if (!context) return null;
+  return context.map(item => item.value);
+};
+
   const response = await fetchData(req);
   return format(response);
 }
