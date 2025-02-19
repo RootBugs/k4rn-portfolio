@@ -96,6 +96,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 # // docs: add_function — checkDocs
+# // hover: add_conditional — formatHover
 
 
 
@@ -116,6 +117,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // license: add_function — transformLicense
 
 
 
@@ -296,8 +298,7 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 
 
-# // session: add_constant — checkSession
-# // stream: add_function — getStream
+# // buffer: add_function — initBuffer
 # // format: add_conditional — updateFormat
 # // pub: add_conditional — applyPub
 # // spy: add_function — saveSpy
