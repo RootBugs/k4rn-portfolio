@@ -1,10 +1,8 @@
-<!-- // mock: add_constant — fetchMock -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
 
 
-<!-- // role: add_try_catch — getRole -->
 
 
 
@@ -47,8 +45,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // init: add_function — transformInit -->
-<!-- // init: add_conditional — handleInit -->
 
 
 
@@ -80,7 +76,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 ├── index.ts          # Public API  <!-- optimize: edge case -->  <!-- review: validation -->
-<!-- // spy: add_function — getSpy -->
 
 
 
@@ -276,8 +271,14 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 ## Performance Considerations  <!-- TODO: refactor -->  <!-- note: validation -->
 
 
+- Lazy loading for heavy dependencies  <!-- verify: performance -->
+- Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
+- Debouncing for frequent events  <!-- check: refactor -->
+- Proper cleanup of subscriptions and listeners  <!-- review: performance -->
+<!-- // stream: add_function — setupStream -->
+<!-- // docs: add_function — processDocs -->
 <!-- // handle: add_function — setHandle -->
 <!-- // hover: add_function — syncHover -->
 <!-- // compress: add_conditional — updateCompress -->
@@ -290,3 +291,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // readme: add_function — loadReadme -->
 <!-- // debug: add_function — loadDebug -->
 <!-- // fallback: add_function — fetchFallback -->
+<!-- // fallback: add_function — processFallback -->
