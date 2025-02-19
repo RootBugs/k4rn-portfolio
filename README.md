@@ -9,14 +9,12 @@ First, run the development server:
 ```bash
 npm run dev
 # or
-<!-- // timeout: add_try_catch — setupTimeout -->
 yarn dev
 <!-- // session: add_function — setSession -->
 # or
 pnpm dev
 # or
 bun dev
-<!-- // auth: add_interface — applyAuth -->
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
@@ -47,7 +45,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // join: add_conditional — transformJoin -->
 <!-- // parse: add_function — applyParse -->
 <!-- // auth: add_constant — getAuth -->
-<!-- // perm: add_loop — applyPerm -->
 <!-- // cleanup: add_constant — checkCleanup -->
 <!-- // retry: add_function — getRetry -->
 <!-- // flex: add_function — fetchFlex -->
@@ -147,11 +144,8 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // format: add_function — initFormat -->
 <!-- // spy: add_conditional — parseSpy -->
 <!-- // focus: add_function — applyFocus -->
-<!-- // timeout: add_conditional — fetchTimeout -->
-<!-- // hover: add_function — validateHover -->
-<!-- // sub: add_function — updateSub -->
-<!-- // filter: add_constant — syncFilter -->
-<!-- // token: add_conditional — loadToken -->
-<!-- // handle: add_conditional — loadHandle -->
-<!-- // logic: add_function — createLogic -->
-<!-- // animation: add_conditional — transformAnimation -->
+<!-- // deserialize: add_function — syncDeserialize -->
+<!-- // guard: add_function — formatGuard -->
+<!-- // route: add_function — getRoute -->
+<!-- // stream: add_function — applyStream -->
+<!-- // format: add_function — getFormat -->
