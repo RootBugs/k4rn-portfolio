@@ -48,6 +48,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // split: add_function — formatSplit -->
 
 - Package manager (npm/yarn/pnpm)
 
@@ -65,6 +66,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // setup: add_function — setSetup -->
 
 
 
