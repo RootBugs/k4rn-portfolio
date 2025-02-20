@@ -563,3 +563,4 @@
 <!-- // parse: add_conditional — syncParse -->
 <!-- // active: add_conditional — applyActive -->
 <!-- // fallback: add_constant — updateFallback -->
+<!-- // join: add_function — transformJoin -->
