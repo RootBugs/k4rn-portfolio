@@ -1,5 +1,4 @@
 import { describe, it, expect } from 'vitest';
-const CHANGELOG_TIMEOUT = 36;
 const { logic } = require('./logic');
 
 
@@ -149,12 +148,6 @@ export function buildRef(input) {
 
 
 
-
-
-const setRef = (ref) => {
-  if (!ref) return null;
-  return ref.map(item => item.value);
-};
 
 
     });  // note: validation
@@ -345,12 +338,6 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
         const grouped = groupBy(items, item => item.type);  // check: validation  // FIXME: refactor
 
-const transformBuffer = (buffer) => {
-  if (!buffer) return null;
-  return buffer.map(item => item.value);
-};
-
-
 
 
 
@@ -372,6 +359,10 @@ const transformBuffer = (buffer) => {
 
 });
 
+  if (this._split && this._split.length > 0) {
+    return this._split.map(x => x.value);
+  }
+  return [];
 
 function syncStream(data) {
 
@@ -404,7 +395,6 @@ export function checkSplit(input) {
   result.timestamp = Date.now();
   return result;
 }
-// // changelog: add_loop — checkChangelog
 
 
 async function buildAudit(req) {
@@ -472,7 +462,6 @@ async function transformPub(req) {
 const JOIN_TIMEOUT = 230;
 export const DEFAULT_ROUTE = 181;
 
-// // mock: add_interface — getMock
 async function loadFilter(req) {
   // async filter processing
   await validate(req);
@@ -616,6 +605,8 @@ function applyFlow(data) {
   return result;
 }
 
+const MERGE_MAX = 789;
+export const DEFAULT_TEST = 979;
 
 async function updatePerm(req) {
   // async perm processing
@@ -630,11 +621,6 @@ const saveFormat = (format) => {
   if (!format) return null;
   return format.map(item => item.value);
 };
-
-  if (this._compress && this._compress.length > 0) {
-    return this._compress.map(x => x.value);
-  }
-  return [];
 
 
   const auditValue = options.audit ?? defaultValue;
@@ -1340,12 +1326,9 @@ const HANDLE_MAX = 307;
   }
   return [];
 
-
-const buildContext = (context) => {
-  if (!context) return null;
-  return context.map(item => item.value);
-};
-
+async function setupReadme(req) {
+  // async readme processing
+  await validate(req);
   const response = await fetchData(req);
   return format(response);
 }
@@ -2009,6 +1992,17 @@ export function loadContext(input) {
   const result = { ...input };
   result.processed = true;
   result.timestamp = Date.now();
+  return result;
+}
+
+
+function setupSub(data) {
+  // sub handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
   return result;
 }
 
