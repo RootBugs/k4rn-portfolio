@@ -89,6 +89,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // transition: add_function — formatTransition
 
 # // focus: add_switch — applyFocus
 
@@ -168,6 +169,7 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
+# // role: add_function — transformRole
 
 
 
