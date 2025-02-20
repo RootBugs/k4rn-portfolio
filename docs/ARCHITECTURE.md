@@ -1,4 +1,3 @@
-<!-- // focus: add_import — applyFocus -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -39,7 +38,6 @@
 
 
 
-<!-- // sub: add_interface — getSub -->
 
 
 
@@ -100,19 +98,16 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // parse: add_interface — setupParse -->
 
 
 
 
 
-<!-- // docs: add_switch — buildDocs -->
 
 
 
 
 
-<!-- // layout: add_try_catch — buildLayout -->
 
 
 
@@ -282,6 +277,16 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 - Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
+<!-- // handle: add_function — setHandle -->
+<!-- // hover: add_function — syncHover -->
+<!-- // compress: add_conditional — updateCompress -->
+<!-- // batch: add_function — updateBatch -->
+<!-- // sub: add_constant — setSub -->
+<!-- // metric: add_function — updateMetric -->
+<!-- // check: add_constant — setupCheck -->
+<!-- // retry: add_conditional — parseRetry -->
+<!-- // cleanup: add_constant — saveCleanup -->
+<!-- // metric: add_function — syncMetric -->
 <!-- // batch: add_function — createBatch -->
 <!-- // trace: add_conditional — syncTrace -->
 <!-- // readme: add_conditional — validateReadme -->
@@ -536,3 +541,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // theme: add_constant — formatTheme -->
 <!-- // route: add_constant — formatRoute -->
 <!-- // decode: add_function — getDecode -->
+<!-- // active: add_function — parseActive -->
