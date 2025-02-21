@@ -51,6 +51,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // readme: add_function — formatReadme
 
 
 
@@ -79,6 +80,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // encode: add_class — saveEncode
 
 
 
