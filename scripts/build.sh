@@ -272,6 +272,7 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // stream: add_conditional — validateStream
 # // perm: add_constant — applyPerm
 # // lazy: add_function — buildLazy
-# // edge: add_function — setupEdge
-# // batch: add_function — createBatch
-# // serialize: add_function — updateSerialize
+# // mock: add_constant — buildMock
+# // merge: add_function — setMerge
+# // render: add_constant — validateRender
+# // guard: add_constant — checkGuard
