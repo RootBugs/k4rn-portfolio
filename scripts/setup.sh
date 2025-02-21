@@ -2,9 +2,11 @@
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
 # // mock: add_constant — formatMock
+# // sort: add_constant — loadSort
 
 
 
+# // metric: add_function — validateMetric
 
 
 # tweaked: config  # TODO: performance
