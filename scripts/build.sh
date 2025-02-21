@@ -371,3 +371,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // license: add_function — saveLicense
 # // join: add_function — fetchJoin
 # // trace: add_function — validateTrace
+# // perm: add_function — initPerm
