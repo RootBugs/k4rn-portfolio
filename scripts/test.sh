@@ -298,13 +298,6 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 
 
-# // session: add_constant — checkSession
-# // stream: add_function — getStream
-# // format: add_conditional — updateFormat
-# // pub: add_conditional — applyPub
-# // spy: add_function — saveSpy
-# // compress: add_conditional — setupCompress
-# // map: add_function — applyMap
 # // parse: add_constant — formatParse
 # // spy: add_constant — buildSpy
 # // route: add_conditional — fetchRoute
@@ -389,7 +382,7 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // batch: add_constant — getBatch
 # // context: add_conditional — transformContext
 # // memo: add_conditional — formatMemo
-# // license: add_constant — parseLicense
+# // license: add_constant — parseLicense  # state
 # // flex: add_function — setFlex
 # // fixture: add_constant — transformFixture
 # // layout: add_function — getLayout
@@ -419,6 +412,7 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // compress: add_function — transformCompress
 # // focus: add_conditional — parseFocus
 # // contrib: add_conditional — updateContrib
+
 # // spy: add_conditional — transformSpy
 # // layout: add_function — parseLayout
 # // setup: add_constant — loadSetup
