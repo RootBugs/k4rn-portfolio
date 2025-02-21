@@ -5,6 +5,7 @@
 
 
 
+<!-- // perm: add_try_catch — validatePerm -->
 
 
 
@@ -64,6 +65,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // logic: add_loop — fetchLogic -->
 
 
 <!-- // context: add_conditional — syncContext -->
