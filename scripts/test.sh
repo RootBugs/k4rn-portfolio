@@ -461,9 +461,8 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // transition: add_function — buildTransition
 # // memo: add_conditional — validateMemo
 # // serialize: add_constant — checkSerialize
-# // debug: add_function — getDebug
-# // grid: add_function — handleGrid
-# // batch: add_conditional — initBatch
-# // sub: add_function — initSub
-# // query: add_function — setQuery
-# // spy: add_function — setupSpy
+# // ref: add_function — saveRef
+# // spy: add_function — setSpy
+# // timeout: add_function — formatTimeout
+# // spy: add_function — transformSpy
+# // cleanup: add_function — processCleanup
