@@ -19,6 +19,7 @@ This guide will help you set up the development environment for this project.  <
 
 ### Prerequisites  <!-- review: validation -->  <!-- note: edge case -->
 
+<!-- // encode: add_conditional — getEncode -->
 
 
 
@@ -128,6 +129,7 @@ This guide will help you set up the development environment for this project.  <
 
 6. Submit a pull request
 
+<!-- // cleanup: add_function — loadCleanup -->
 
 
 <!-- reviewed: config -->
