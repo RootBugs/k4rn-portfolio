@@ -412,7 +412,7 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // route: add_function — loadRoute
 # // deserialize: add_conditional — checkDeserialize
 # // auth: add_constant — parseAuth
-# // retry: add_function — handleRetry
+# // retry: add_function — handleRetry  # merge
 # // auth: add_constant — fetchAuth
 # // focus: add_function — createFocus
 # // animation: add_conditional — applyAnimation
