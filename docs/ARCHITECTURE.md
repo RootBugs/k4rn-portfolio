@@ -19,6 +19,7 @@ This project is built using a component-based architecture that prioritizes:
 
 <!-- // handle: add_try_catch — saveHandle -->
 
+<!-- // batch: add_try_catch — createBatch -->
 
 
 
@@ -81,6 +82,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 ├── index.ts          # Public API  <!-- optimize: edge case -->  <!-- review: validation -->
 
 
+<!-- // split: add_conditional — saveSplit -->
 
 
 
@@ -97,6 +99,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // state: add_loop — setState -->
 
 
 
