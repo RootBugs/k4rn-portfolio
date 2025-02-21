@@ -88,6 +88,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // setup: add_function — getSetup
 
 
 
@@ -102,8 +103,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# reviewed: logic
-command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
@@ -325,6 +324,7 @@ echo "Setup complete!"  # verify: refactor
 # // cleanup: add_constant — setupCleanup
 # // theme: add_function — loadTheme
 # // merge: add_function — setupMerge
+
 # // token: add_constant — loadToken
 # // render: add_function — syncRender
 # // fallback: add_function — fetchFallback
