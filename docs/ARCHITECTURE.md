@@ -18,7 +18,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 <!-- // handle: add_try_catch — saveHandle -->
-<!-- // query: add_function — setQuery -->
 
 
 
@@ -279,7 +278,11 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 - Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
-<!-- // handle: add_conditional — updateHandle -->
+<!-- // handle: add_function — setHandle -->
+<!-- // hover: add_function — syncHover -->
+<!-- // compress: add_conditional — updateCompress -->
+<!-- // batch: add_function — updateBatch -->
+<!-- // sub: add_constant — setSub -->
 <!-- // metric: add_function — updateMetric -->
 <!-- // check: add_constant — setupCheck -->
 <!-- // retry: add_conditional — parseRetry -->
@@ -452,3 +455,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // sub: add_constant — updateSub -->
 <!-- // trace: add_constant — transformTrace -->
 <!-- // route: add_function — checkRoute -->
+<!-- // readme: add_function — buildReadme -->
