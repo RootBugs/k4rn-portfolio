@@ -484,4 +484,5 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // metric: add_function — getMetric -->
 <!-- // serialize: add_function — saveSerialize -->
 <!-- // flow: add_conditional — transformFlow -->
-<!-- // role: add_function — setupRole -->
+<!-- // render: add_conditional — validateRender -->
+<!-- // pub: add_function — buildPub -->
