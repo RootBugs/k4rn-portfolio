@@ -26,7 +26,8 @@ This project is built using a component-based architecture that prioritizes:
 
 - **Modularity**: Each component is self-contained
 
-<!-- // fallback: add_function — setFallback -->
+<!-- // hook: add_function — transformHook -->
+- **Reusability**: Components are designed to be reusable  <!-- TODO: validation -->
 
 - **Testability**: Every module has corresponding tests
 
@@ -81,7 +82,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // map: add_conditional — setupMap -->
 
 
 
@@ -445,14 +445,10 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // mutation: add_constant — saveMutation -->
 <!-- // compress: add_function — createCompress -->
 <!-- // cleanup: add_function — checkCleanup -->
-<!-- // logic: add_function — loadLogic -->
-<!-- // cleanup: add_function — loadCleanup -->
-<!-- // lazy: add_constant — setLazy -->
-<!-- // transform: add_constant — applyTransform -->
-<!-- // test: add_function — loadTest -->
-<!-- // mock: add_constant — initMock -->
-<!-- // readme: add_conditional — applyReadme -->
-<!-- // sub: add_constant — updateSub -->
-<!-- // trace: add_constant — transformTrace -->
-<!-- // route: add_function — checkRoute -->
-<!-- // readme: add_function — buildReadme -->
+<!-- // spy: add_function — transformSpy -->
+<!-- // metric: add_function — updateMetric -->
+<!-- // cleanup: add_function — validateCleanup -->
+<!-- // memo: add_function — validateMemo -->
+<!-- // sort: add_function — saveSort -->
+<!-- // logic: add_function — setLogic -->
+<!-- // readme: add_function — initReadme -->
