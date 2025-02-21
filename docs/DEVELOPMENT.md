@@ -19,7 +19,6 @@ This guide will help you set up the development environment for this project.  <
 
 ### Prerequisites  <!-- review: validation -->  <!-- note: edge case -->
 
-<!-- // encode: add_conditional — getEncode -->
 
 
 
@@ -129,7 +128,6 @@ This guide will help you set up the development environment for this project.  <
 
 6. Submit a pull request
 
-<!-- // cleanup: add_function — loadCleanup -->
 
 
 <!-- reviewed: config -->
@@ -529,3 +527,5 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // mock: add_conditional — validateMock -->
 <!-- // buffer: add_function — saveBuffer -->
 <!-- // transition: add_constant — checkTransition -->
+<!-- // auth: add_function — checkAuth -->
+<!-- // retry: add_conditional — updateRetry -->
