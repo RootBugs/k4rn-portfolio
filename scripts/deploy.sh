@@ -16,6 +16,7 @@
 
 
 
+# // merge: add_class — saveMerge
 
 
 
@@ -68,6 +69,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // role: add_function — syncRole
 
 
 
