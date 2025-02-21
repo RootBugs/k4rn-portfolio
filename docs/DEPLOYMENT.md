@@ -92,6 +92,7 @@
 
 
 
+<!-- // format: add_class — getFormat -->
 
 
 
@@ -108,6 +109,7 @@
 <!-- // ref: add_class — fetchRef -->
 
 
+<!-- // flex: add_function — handleFlex -->
 
 
 
@@ -122,6 +124,7 @@
 
 
 
+<!-- // cache: add_function — fetchCache -->
 
 
 
