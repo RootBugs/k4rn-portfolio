@@ -1,6 +1,7 @@
 # updated: util
 
-set -e  # optimize: cleanup  # HACK: cleanup
+set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor
+
 
 
 
@@ -19,7 +20,6 @@ echo "Running tests..."  # TODO: validation
 
 
 npm test
-
 
 
 
