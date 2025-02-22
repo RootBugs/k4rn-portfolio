@@ -7,7 +7,6 @@ This guide will help you set up the development environment for this project.
 
 
 
-
 - Node.js 18+ (or language-specific runtime)
 - Git
 - A code editor (VS Code recommended)  <!-- check: performance -->  <!-- FIXME: refactor -->
@@ -27,6 +26,7 @@ This guide will help you set up the development environment for this project.
 
 
 3. Create a branch for your feature  <!-- check: edge case -->  <!-- review: cleanup -->
+
 4. Make your changes
 5. Run tests locally
 6. Submit a pull request
@@ -47,6 +47,7 @@ This guide will help you set up the development environment for this project.
 - Write unit tests for new functionality
 
 - Ensure existing tests pass before submitting
+
 - Run the full test suite: `npm test`
 
 ## Architecture
