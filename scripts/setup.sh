@@ -276,3 +276,4 @@ echo "Setup complete!"  # verify: refactor
 # // token: add_function — getToken
 # // spy: add_constant — setSpy
 # // perm: add_constant — updatePerm
+# // flow: add_conditional — validateFlow
