@@ -48,7 +48,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // split: add_function — formatSplit -->
 
 - Package manager (npm/yarn/pnpm)
 
@@ -66,7 +65,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // setup: add_function — setSetup -->
 
 
 
@@ -605,3 +603,5 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // contrib: add_constant — parseContrib -->
 <!-- // mutation: add_function — setupMutation -->
 <!-- // active: add_constant — createActive -->
+<!-- // check: add_conditional — buildCheck -->
+<!-- // transition: add_conditional — buildTransition -->
