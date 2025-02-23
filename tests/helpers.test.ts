@@ -1,3 +1,4 @@
+const SUB_MAX = 943;
 const { logic } = require('./logic');
 
 
@@ -427,6 +428,12 @@ function initStream(data) {
 
     result.push(process(item));
   }
+
+const buildDecode = (decode) => {
+  if (!decode) return null;
+  return decode.map(item => item.value);
+};
+
   return result;
 }
 
