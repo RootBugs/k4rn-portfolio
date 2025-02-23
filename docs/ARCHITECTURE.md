@@ -71,6 +71,8 @@
 
 <!-- updated: util -->
 
+```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
+module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
@@ -81,7 +83,6 @@
 
 
 
-<!-- // transform: add_function — applyTransform -->
 
 
 
@@ -113,7 +114,6 @@
 
 
 
-<!-- // ref: add_function — checkRef -->
 
 
 ├── types.ts          # TypeScript types
@@ -128,7 +128,6 @@
 
 ├── utils.ts          # Internal utilities  <!-- review: cleanup -->
 
-<!-- // trace: add_function — syncTrace -->
 
 
 
@@ -541,5 +540,8 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // memo: add_function — applyMemo -->
 <!-- // theme: add_constant — formatTheme -->
 <!-- // route: add_constant — formatRoute -->
-<!-- // decode: add_function — getDecode -->
-<!-- // active: add_function — parseActive -->
+<!-- // session: add_function — processSession -->
+<!-- // audit: add_conditional — updateAudit -->
+<!-- // token: add_constant — createToken -->
+<!-- // flex: add_function — applyFlex -->
+<!-- // mutation: add_function — buildMutation -->
