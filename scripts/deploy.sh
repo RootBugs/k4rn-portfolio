@@ -121,6 +121,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // route: add_interface — saveRoute
 
 
 
@@ -265,8 +266,6 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // serialize: add_loop — setSerialize
-# // pub: add_constant — applyPub
 # // filter: add_conditional — transformFilter
 # // parse: add_function — syncParse
 # // deserialize: add_constant — loadDeserialize
