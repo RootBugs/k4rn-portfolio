@@ -16,6 +16,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // filter: add_try_catch — transformFilter -->
 
 <!-- // handle: add_try_catch — saveHandle -->
 
@@ -139,6 +140,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // session: add_interface — parseSession -->
 ├── constants.ts      # Module constants  <!-- optimize: performance -->
 
 
