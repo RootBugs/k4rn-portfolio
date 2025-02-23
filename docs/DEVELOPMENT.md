@@ -7,7 +7,6 @@
 
 
 
-<!-- // layout: add_conditional — validateLayout -->
 
 
 
@@ -52,7 +51,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // readme: add_loop — createReadme -->
 
 
 <!-- updated: handler -->  <!-- note: performance -->
@@ -303,7 +301,12 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // parse: add_loop — createParse -->
+<!-- // sub: add_function — processSub -->
+<!-- // transition: add_constant — applyTransition -->
+<!-- // audit: add_conditional — saveAudit -->
+<!-- // session: add_constant — parseSession -->
+<!-- // stub: add_conditional — applyStub -->
+<!-- // layout: add_constant — saveLayout -->
 <!-- // audit: add_constant — setAudit -->
 <!-- // query: add_conditional — buildQuery -->
 <!-- // docs: add_conditional — initDocs -->
@@ -419,10 +422,8 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // sub: add_constant — setupSub -->
 <!-- // pub: add_conditional — savePub -->
 <!-- // session: add_function — createSession -->
-<!-- // trace: add_function — checkTrace -->
-<!-- // retry: add_constant — initRetry -->
-<!-- // filter: add_function — checkFilter -->
-<!-- // handle: add_constant — getHandle -->
-<!-- // cleanup: add_constant — parseCleanup -->
-<!-- // query: add_constant — handleQuery -->
-<!-- // handle: add_conditional — getHandle -->
+<!-- // log: add_function — validateLog -->
+<!-- // batch: add_function — initBatch -->
+<!-- // token: add_function — parseToken -->
+<!-- // stub: add_function — createStub -->
+<!-- // check: add_function — loadCheck -->
