@@ -3,6 +3,7 @@
 
 
 
+# // mock: add_class — fetchMock
 
 
 
@@ -36,6 +37,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // theme: add_loop — transformTheme
 
 
 
@@ -116,6 +118,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 # // auth: add_function — transformAuth
 
 # // mock: add_switch — createMock
+# // transition: add_class — processTransition
 
 
 # // query: add_class — parseQuery
