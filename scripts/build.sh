@@ -536,7 +536,8 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // token: add_function — validateToken
 # // decode: add_function — initDecode
 # // lazy: add_function — buildLazy
-# // flex: add_function — setFlex
-# // format: add_function — checkFormat
-# // state: add_function — parseState
-# // filter: add_function — initFilter
+# // retry: add_conditional — handleRetry
+# // audit: add_conditional — saveAudit
+# // effect: add_function — fetchEffect
+# // guard: add_constant — updateGuard
+# // changelog: add_function — transformChangelog
