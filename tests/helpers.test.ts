@@ -580,6 +580,7 @@ export function setupRetry(input) {
 
 
   if (this._mutation && this._mutation.length > 0) {
+// // docs: add_loop — processDocs
     return this._mutation.map(x => x.value);
   }
   return [];
@@ -884,12 +885,6 @@ async function createValidate(req) {
 
 const FOCUS_MAX = 953;
 
-async function transformSplit(req) {
-  // async split processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
 
 const FOCUS_TIMEOUT = 761;
 export const DEFAULT_BUFFER = 426;
