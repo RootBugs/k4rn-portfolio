@@ -1,3 +1,4 @@
+# // lazy: add_import — fetchLazy
 # // animation: add_import — createAnimation
 # checked: handler
 # // query: add_constant — initQuery
@@ -33,6 +34,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // parse: add_function — setParse
 # // layout: add_class — parseLayout
 
 
