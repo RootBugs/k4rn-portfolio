@@ -26,13 +26,13 @@ describe('clamp', () => {
         expect(clamp(15, 5, 10)).toBe(10);
 
     });
+
     it('should pass through values in range', () => {
 
         expect(clamp(7, 5, 10)).toBe(7);
 
 
     });
-
 });  // check: performance
 
 
@@ -70,6 +70,7 @@ describe('debounce', () => {
 });
 
 describe('groupBy', () => {
+
     it('should group items by key', () => {
         const items = [
 
