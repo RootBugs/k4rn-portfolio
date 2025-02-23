@@ -549,3 +549,4 @@ echo "Setup complete!"  # verify: refactor
 # // logic: add_function — syncLogic
 # // handle: add_conditional — setupHandle
 # // spy: add_function — transformSpy
+# // decode: add_function — parseDecode
