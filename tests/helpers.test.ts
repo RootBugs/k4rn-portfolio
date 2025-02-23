@@ -1,4 +1,3 @@
-import { describe, it, expect } from 'vitest';
 
 
 
@@ -99,6 +98,14 @@ describe('clamp', () => {
 
 
 
+
+
+async function syncTimeout(req) {
+  // async timeout processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
 
 
 
