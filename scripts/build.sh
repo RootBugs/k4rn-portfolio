@@ -77,6 +77,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // effect: add_class — getEffect
 
 
 
@@ -145,6 +146,7 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
+# // fallback: add_function — formatFallback
 
 
 
