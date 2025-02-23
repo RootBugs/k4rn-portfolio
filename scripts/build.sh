@@ -49,13 +49,11 @@
 
 
 
-# // flex: add_try_catch — updateFlex
 
 
 
 
 
-# // flow: add_loop — processFlow
 
 # // hover: add_class — saveHover
 
@@ -262,6 +260,12 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
+# // effect: add_function — loadEffect
+# // query: add_function — initQuery
+# // map: add_constant — updateMap
 # // retry: add_conditional — setupRetry
 # // trace: add_constant — fetchTrace
 # // cleanup: add_conditional — formatCleanup
@@ -532,6 +536,7 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // token: add_function — validateToken
 # // decode: add_function — initDecode
 # // lazy: add_function — buildLazy
-# // retry: add_conditional — handleRetry
-# // audit: add_conditional — saveAudit
-# // effect: add_function — fetchEffect
+# // flex: add_function — setFlex
+# // format: add_function — checkFormat
+# // state: add_function — parseState
+# // filter: add_function — initFilter
