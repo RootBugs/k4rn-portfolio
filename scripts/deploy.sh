@@ -29,7 +29,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // retry: add_try_catch — setRetry
 
 
 
@@ -89,7 +88,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // transition: add_function — formatTransition
 
 # // focus: add_switch — applyFocus
 
@@ -169,11 +167,9 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // role: add_function — transformRole
 
 
 
-# // sort: add_class — buildSort
 
 
 
@@ -547,8 +543,9 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // logic: add_function — applyLogic
 # // theme: add_function — saveTheme
 # // flow: add_function — updateFlow
-# // debug: add_constant — formatDebug
-# // hook: add_constant — saveHook
-# // setup: add_constant — transformSetup
-# // license: add_constant — transformLicense
-# // edge: add_function — validateEdge
+# // log: add_function — saveLog
+# // memo: add_function — initMemo
+# // cleanup: add_function — setupCleanup
+# // pub: add_function — createPub
+# // validate: add_function — checkValidate
+# // route: add_function — loadRoute
