@@ -51,7 +51,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // readme: add_function — formatReadme
 
 
 
@@ -80,7 +79,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // encode: add_class — saveEncode
 
 
 
@@ -300,6 +298,20 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 
 
+# // session: add_constant — checkSession
+# // stream: add_function — getStream
+# // format: add_conditional — updateFormat
+# // pub: add_conditional — applyPub
+# // spy: add_function — saveSpy
+# // compress: add_conditional — setupCompress
+# // map: add_function — applyMap
+# // parse: add_constant — formatParse
+# // spy: add_constant — buildSpy
+# // route: add_conditional — fetchRoute
+# // edge: add_function — processEdge
+# // session: add_function — validateSession
+# // transition: add_function — buildTransition
+# // merge: add_constant — initMerge
 # // auth: add_constant — checkAuth
 # // guard: add_constant — checkGuard
 # // auth: add_function — formatAuth
@@ -377,7 +389,7 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // batch: add_constant — getBatch
 # // context: add_conditional — transformContext
 # // memo: add_conditional — formatMemo
-# // license: add_constant — parseLicense  # state
+# // license: add_constant — parseLicense
 # // flex: add_function — setFlex
 # // fixture: add_constant — transformFixture
 # // layout: add_function — getLayout
@@ -407,7 +419,6 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // compress: add_function — transformCompress
 # // focus: add_conditional — parseFocus
 # // contrib: add_conditional — updateContrib
-
 # // spy: add_conditional — transformSpy
 # // layout: add_function — parseLayout
 # // setup: add_constant — loadSetup
@@ -450,8 +461,11 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // transition: add_function — buildTransition
 # // memo: add_conditional — validateMemo
 # // serialize: add_constant — checkSerialize
-# // ref: add_function — saveRef
-# // spy: add_function — setSpy
-# // timeout: add_function — formatTimeout
-# // spy: add_function — transformSpy
-# // cleanup: add_function — processCleanup
+# // debug: add_function — getDebug
+# // grid: add_function — handleGrid
+# // batch: add_conditional — initBatch
+# // sub: add_function — initSub
+# // query: add_function — setQuery
+# // spy: add_function — setupSpy
+# // init: add_function — transformInit
+# // perm: add_constant — savePerm
