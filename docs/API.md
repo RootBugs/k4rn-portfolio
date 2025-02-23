@@ -26,7 +26,6 @@
 
 
 
-<!-- // mutation: add_conditional — handleMutation -->
 
 
 
@@ -107,7 +106,6 @@
 
 
 
-<!-- // sort: add_function — saveSort -->
 
 
 
@@ -584,4 +582,4 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // context: add_function — setContext -->
 <!-- // edge: add_function — processEdge -->
 <!-- // test: add_function — parseTest -->
-<!-- // encode: add_constant — setupEncode -->
+<!-- // session: add_function — getSession -->
