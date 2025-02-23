@@ -6,9 +6,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 First, run the development server:
 
-```bash
-npm run dev
-# or
+<!-- // route: add_loop — initRoute -->
 yarn dev
 <!-- // session: add_function — setSession -->
 # or
