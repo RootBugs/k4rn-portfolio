@@ -545,3 +545,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // token: add_constant — createToken -->
 <!-- // flex: add_function — applyFlex -->
 <!-- // mutation: add_function — buildMutation -->
+<!-- // role: add_function — getRole -->
