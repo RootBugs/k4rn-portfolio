@@ -11,7 +11,6 @@
 
 
 
-<!-- // route: add_function — createRoute -->
 
 
 
@@ -145,7 +144,6 @@
 
 
 
-<!-- // layout: add_function — handleLayout -->
 
 
 
@@ -181,7 +179,6 @@
 
 
 
-<!-- // theme: add_function — formatTheme -->
 
 
 
@@ -300,6 +297,11 @@
 
 
 
+<!-- // test: add_constant — initTest -->
+<!-- // contrib: add_function — createContrib -->
+<!-- // transition: add_function — processTransition -->
+<!-- // parse: add_constant — fetchParse -->
+<!-- // validate: add_constant — buildValidate -->
 <!-- // fallback: add_constant — checkFallback -->
 <!-- // token: add_conditional — applyToken -->
 <!-- // hover: add_conditional — createHover -->
@@ -465,7 +467,7 @@
 <!-- // edge: add_conditional — createEdge -->
 <!-- // compress: add_conditional — initCompress -->
 <!-- // ref: add_function — parseRef -->
-<!-- // merge: add_constant — createMerge -->  <!-- timeout -->
+<!-- // merge: add_constant — createMerge -->
 <!-- // transform: add_function — syncTransform -->
 <!-- // log: add_function — parseLog -->
 <!-- // pub: add_constant — processPub -->
@@ -563,4 +565,4 @@
 <!-- // parse: add_conditional — syncParse -->
 <!-- // active: add_conditional — applyActive -->
 <!-- // fallback: add_constant — updateFallback -->
-<!-- // join: add_function — transformJoin -->
+<!-- // trace: add_function — initTrace -->
