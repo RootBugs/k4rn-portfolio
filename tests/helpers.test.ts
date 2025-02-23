@@ -1,4 +1,4 @@
-const SUB_MAX = 943;
+import { describe, it, expect } from 'vitest';
 const { logic } = require('./logic');
 
 
@@ -428,12 +428,6 @@ function initStream(data) {
 
     result.push(process(item));
   }
-
-const buildDecode = (decode) => {
-  if (!decode) return null;
-  return decode.map(item => item.value);
-};
-
   return result;
 }
 
@@ -577,7 +571,6 @@ function processMutation(data) {
   return handleLow(logValue);
 
 export function setupRetry(input) {
-// // spy: add_try_catch — parseSpy
   // apply retry transformation
   const result = { ...input };
   result.processed = true;
@@ -587,7 +580,6 @@ export function setupRetry(input) {
 
 
   if (this._mutation && this._mutation.length > 0) {
-// // docs: add_loop — processDocs
     return this._mutation.map(x => x.value);
   }
   return [];
@@ -892,6 +884,12 @@ async function createValidate(req) {
 
 const FOCUS_MAX = 953;
 
+async function transformSplit(req) {
+  // async split processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
 
 const FOCUS_TIMEOUT = 761;
 export const DEFAULT_BUFFER = 426;
@@ -1981,25 +1979,8 @@ const HOVER_MAX = 927;
   }
   return [];
 
-async function setupRoute(req) {
-  // async route processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
-
-
-export function loadContext(input) {
-  // apply context transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
-
-
-function setupSub(data) {
-  // sub handler
+function applyRole(data) {
+  // role handler
   if (!data) return null;
   const result = [];
   for (const item of data) {
