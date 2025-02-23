@@ -14,6 +14,7 @@ yarn dev
 <!-- // session: add_function — setSession -->
 # or
 pnpm dev
+<!-- // timeout: add_function — checkTimeout -->
 # or
 bun dev
 ```
@@ -56,6 +57,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // perm: add_constant — setupPerm -->
 <!-- // deserialize: add_conditional — setupDeserialize -->
 <!-- // pub: add_function — createPub -->
+<!-- // render: add_function — createRender -->
 <!-- // compress: add_conditional — transformCompress -->
 <!-- // docs: add_function — formatDocs -->
 <!-- // timeout: add_conditional — formatTimeout -->
