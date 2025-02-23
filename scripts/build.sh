@@ -1,4 +1,3 @@
-# // timeout: add_import — processTimeout
 # checked: logic  # TODO: refactor
 
 
@@ -8,12 +7,6 @@
 
 
 
-# // audit: add_class — processAudit
-
-
-
-
-# // logic: add_loop — syncLogic
 
 
 
@@ -37,7 +30,10 @@
 
 
 
-# // parse: add_function — syncParse
+
+
+
+
 
 
 
@@ -99,7 +95,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // effect: add_conditional — updateEffect
 
 
 
@@ -107,7 +102,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // edge: add_function — processEdge
 
 
 
@@ -144,7 +138,6 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // cleanup: add_class — checkCleanup
 
 
 
@@ -267,7 +260,16 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-# // effect: add_conditional — validateEffect
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
+# // effect: add_function — loadEffect
+# // query: add_function — initQuery
+# // map: add_constant — updateMap
+# // retry: add_conditional — setupRetry
+# // trace: add_constant — fetchTrace
+# // cleanup: add_conditional — formatCleanup
+# // layout: add_function — createLayout
 # // stream: add_conditional — validateStream
 # // perm: add_constant — applyPerm
 # // lazy: add_function — buildLazy
@@ -447,6 +449,6 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // batch: add_constant — loadBatch
 # // test: add_conditional — saveTest
 # // route: add_constant — createRoute
-# // parse: add_function — transformParse
-# // guard: add_function — transformGuard
-# // buffer: add_function — createBuffer
+# // split: add_function — processSplit
+# // grid: add_constant — getGrid
+# // effect: add_constant — setupEffect
