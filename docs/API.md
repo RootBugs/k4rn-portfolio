@@ -109,6 +109,7 @@
 
 
 
+<!-- // audit: add_function — handleAudit -->
 
 
 
@@ -292,12 +293,7 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
-<!-- // cache: add_loop — setCache -->
-<!-- // auth: add_function — applyAuth -->
-<!-- // animation: add_function — updateAnimation -->
-<!-- // buffer: add_conditional — fetchBuffer -->
-<!-- // flow: add_constant — handleFlow -->
-<!-- // buffer: add_conditional — parseBuffer -->
+<!-- // token: add_function — validateToken -->
 <!-- // deserialize: add_conditional — formatDeserialize -->
 <!-- // retry: add_constant — formatRetry -->
 <!-- // sub: add_conditional — initSub -->
@@ -336,7 +332,7 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // context: add_function — parseContext -->
 <!-- // context: add_conditional — syncContext -->
 <!-- // context: add_constant — transformContext -->
-<!-- // retry: add_constant — validateRetry -->
+<!-- // retry: add_constant — validateRetry -->  <!-- timeout -->
 <!-- // init: add_function — fetchInit -->
 <!-- // compress: add_constant — applyCompress -->
 <!-- // stream: add_conditional — updateStream -->
