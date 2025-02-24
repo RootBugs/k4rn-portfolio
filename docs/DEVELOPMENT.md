@@ -7,7 +7,6 @@
 
 
 
-<!-- // spy: add_loop — handleSpy -->
 
 
 
@@ -306,6 +305,10 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
+<!-- // sub: add_function — formatSub -->
+<!-- // audit: add_constant — setAudit -->
+<!-- // query: add_conditional — buildQuery -->
+<!-- // docs: add_conditional — initDocs -->
 <!-- // pub: add_function — createPub -->
 <!-- // log: add_function — processLog -->
 <!-- // layout: add_function — formatLayout -->
@@ -524,7 +527,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // mock: add_conditional — validateMock -->
 <!-- // buffer: add_function — saveBuffer -->
 <!-- // transition: add_constant — checkTransition -->
-<!-- // auth: add_function — checkAuth -->
-<!-- // retry: add_conditional — updateRetry -->
-<!-- // spy: add_constant — loadSpy -->
-<!-- // compress: add_conditional — validateCompress -->
+<!-- // spy: add_function — parseSpy -->
