@@ -33,7 +33,6 @@
 
 
 
-<!-- // grid: add_function — handleGrid -->
 
 
 
@@ -52,7 +51,6 @@
 
 
 
-<!-- // retry: add_loop — initRetry -->
 
 
 
@@ -109,7 +107,6 @@
 
 
 
-<!-- // audit: add_function — handleAudit -->
 
 
 
@@ -293,7 +290,14 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
-<!-- // token: add_function — validateToken -->
+Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: validation -->
+<!-- // query: add_conditional — applyQuery -->
+<!-- // split: add_function — handleSplit -->
+<!-- // auth: add_function — applyAuth -->
+<!-- // animation: add_function — updateAnimation -->
+<!-- // buffer: add_conditional — fetchBuffer -->
+<!-- // flow: add_constant — handleFlow -->
+<!-- // buffer: add_conditional — parseBuffer -->
 <!-- // deserialize: add_conditional — formatDeserialize -->
 <!-- // retry: add_constant — formatRetry -->
 <!-- // sub: add_conditional — initSub -->
@@ -332,7 +336,7 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // context: add_function — parseContext -->
 <!-- // context: add_conditional — syncContext -->
 <!-- // context: add_constant — transformContext -->
-<!-- // retry: add_constant — validateRetry -->  <!-- timeout -->
+<!-- // retry: add_constant — validateRetry -->
 <!-- // init: add_function — fetchInit -->
 <!-- // compress: add_constant — applyCompress -->
 <!-- // stream: add_conditional — updateStream -->
@@ -388,3 +392,4 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // check: add_conditional — processCheck -->
 <!-- // validate: add_function — buildValidate -->
 <!-- // validate: add_function — loadValidate -->
+<!-- // trace: add_function — validateTrace -->
