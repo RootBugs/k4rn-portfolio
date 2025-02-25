@@ -1,4 +1,3 @@
-<!-- // layout: add_import — createLayout -->
 <!-- // split: add_constant — getSplit -->
 <!-- tweaked: util -->
 
@@ -6,7 +5,6 @@
 
 
 
-<!-- // edge: add_function — formatEdge -->
 
 
 
@@ -49,7 +47,6 @@
 
 
 
-<!-- // fixture: add_function — updateFixture -->
 
 
 
@@ -57,7 +54,6 @@
 
 
 
-<!-- // license: add_loop — fetchLicense -->
 
 
 
@@ -300,7 +296,11 @@
 
 
 
-<!-- // route: add_function — applyRoute -->
+<!-- // session: add_loop — setupSession -->
+<!-- // flex: add_function — initFlex -->
+<!-- // test: add_constant — initTest -->
+<!-- // contrib: add_function — createContrib -->
+<!-- // transition: add_function — processTransition -->
 <!-- // parse: add_constant — fetchParse -->
 <!-- // validate: add_constant — buildValidate -->
 <!-- // fallback: add_constant — checkFallback -->
@@ -475,3 +475,4 @@
 <!-- // encode: add_conditional — handleEncode -->
 <!-- // batch: add_function — getBatch -->
 <!-- // compress: add_function — checkCompress -->
+<!-- // timeout: add_function — transformTimeout -->
