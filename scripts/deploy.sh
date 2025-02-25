@@ -1,4 +1,5 @@
 # checked: logic  # verify: validation  # TODO: performance
+# // transition: add_constant — formatTransition
 
 
 
