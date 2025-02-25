@@ -16,7 +16,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // filter: add_try_catch — transformFilter -->
 
 <!-- // handle: add_try_catch — saveHandle -->
 
@@ -66,7 +65,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // context: add_function — saveContext -->
 
 <!-- // context: add_conditional — syncContext -->
 
@@ -141,8 +139,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // map: add_switch — formatMap -->
-<!-- // session: add_interface — parseSession -->
 ├── constants.ts      # Module constants  <!-- optimize: performance -->
 
 
@@ -449,16 +445,11 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // mutation: add_constant — saveMutation -->
 <!-- // compress: add_function — createCompress -->
 <!-- // cleanup: add_function — checkCleanup -->
-<!-- // logic: add_function — loadLogic -->
-<!-- // cleanup: add_function — loadCleanup -->
-<!-- // lazy: add_constant — setLazy -->
-<!-- // transform: add_constant — applyTransform -->
-<!-- // test: add_function — loadTest -->
-<!-- // mock: add_constant — initMock -->
-<!-- // readme: add_conditional — applyReadme -->
-<!-- // sub: add_constant — updateSub -->
-<!-- // trace: add_constant — transformTrace -->
-<!-- // route: add_function — checkRoute -->
-<!-- // readme: add_function — buildReadme -->
-<!-- // split: add_constant — syncSplit -->
-<!-- // format: add_conditional — checkFormat -->
+<!-- // spy: add_function — transformSpy -->
+<!-- // metric: add_function — updateMetric -->
+<!-- // cleanup: add_function — validateCleanup -->
+<!-- // memo: add_function — validateMemo -->
+<!-- // sort: add_function — saveSort -->
+<!-- // logic: add_function — setLogic -->
+<!-- // readme: add_function — initReadme -->
+<!-- // session: add_function — fetchSession -->
