@@ -65,7 +65,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // logic: add_conditional — applyLogic
 echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
@@ -401,4 +400,4 @@ echo "Setup complete!"  # verify: refactor
 # // hover: add_constant — syncHover
 # // role: add_function — saveRole
 # // flex: add_constant — setupFlex
-# // readme: add_function — createReadme
+# // encode: add_constant — validateEncode
