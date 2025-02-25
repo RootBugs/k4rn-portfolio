@@ -391,13 +391,6 @@ echo "Setup complete!"  # verify: refactor
 # // context: add_constant — getContext
 # // merge: add_function — initMerge
 # // filter: add_conditional — handleFilter
-# // cleanup: add_conditional — formatCleanup
-# // retry: add_constant — setupRetry
-# // serialize: add_function — saveSerialize
-# // auth: add_conditional — updateAuth
-# // setup: add_function — createSetup
-# // format: add_conditional — syncFormat
-# // hover: add_constant — syncHover
-# // role: add_function — saveRole
-# // flex: add_constant — setupFlex
-# // encode: add_constant — validateEncode
+# // docs: add_function — setupDocs
+# // transform: add_function — loadTransform
+# // debug: add_function — validateDebug
