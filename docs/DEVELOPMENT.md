@@ -527,4 +527,9 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // mock: add_conditional — validateMock -->
 <!-- // buffer: add_function — saveBuffer -->
 <!-- // transition: add_constant — checkTransition -->
-<!-- // spy: add_function — parseSpy -->
+<!-- // auth: add_function — checkAuth -->
+<!-- // retry: add_conditional — updateRetry -->
+<!-- // spy: add_constant — loadSpy -->
+<!-- // compress: add_conditional — validateCompress -->
+<!-- // hover: add_function — initHover -->
+<!-- // ref: add_conditional — fetchRef -->
