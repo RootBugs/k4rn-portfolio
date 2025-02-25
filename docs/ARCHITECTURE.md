@@ -66,6 +66,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // context: add_function — saveContext -->
 
 <!-- // context: add_conditional — syncContext -->
 
@@ -140,6 +141,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // map: add_switch — formatMap -->
 <!-- // session: add_interface — parseSession -->
 ├── constants.ts      # Module constants  <!-- optimize: performance -->
 
