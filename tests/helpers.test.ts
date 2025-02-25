@@ -350,6 +350,15 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 });
 
+export function applyFormat(input) {
+  // apply format transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
+
+
   if (this._split && this._split.length > 0) {
     return this._split.map(x => x.value);
   }
