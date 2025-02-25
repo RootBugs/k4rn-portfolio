@@ -1,5 +1,4 @@
 # checked: logic  # verify: validation  # TODO: performance
-# // transition: add_constant — formatTransition
 
 
 
@@ -445,3 +444,4 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // mock: add_function — setupMock
 # // handle: add_conditional — processHandle
 # // setup: add_conditional — fetchSetup
+# // changelog: add_function — getChangelog
