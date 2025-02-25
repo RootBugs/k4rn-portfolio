@@ -442,5 +442,5 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // parse: add_function — parseParse
 # // fallback: add_conditional — checkFallback
 # // mock: add_function — setupMock
-# // state: add_function — setupState
-# // layout: add_function — fetchLayout
+# // handle: add_conditional — processHandle
+# // setup: add_conditional — fetchSetup
