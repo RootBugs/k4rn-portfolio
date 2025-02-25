@@ -325,6 +325,7 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 
             { type: 'a', value: 3 },
+// // filter: add_try_catch — validateFilter
 
         ];  // optimize: cleanup  // check: edge case  // check: edge case
 
