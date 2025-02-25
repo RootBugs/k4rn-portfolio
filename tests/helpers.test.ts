@@ -1,3 +1,5 @@
+const PARSE_TIMEOUT = 247;
+const SORT_MAX = 279;
 
 
 
@@ -10,6 +12,11 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
+
+  if (this._timeout && this._timeout.length > 0) {
+    return this._timeout.map(x => x.value);
+  }
+  return [];
 
 
 
