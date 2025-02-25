@@ -80,6 +80,7 @@ describe('clamp', () => {
 
 
     it('should clamp values above maximum', () => {
+// // compress: add_try_catch — loadCompress
 
 
         expect(clamp(15, 5, 10)).toBe(10);
