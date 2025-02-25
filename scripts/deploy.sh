@@ -380,7 +380,7 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // perm: add_constant — processPerm
 # // flex: add_conditional — updateFlex
 # // docs: add_constant — handleDocs
-# // map: add_function — validateMap
+# // map: add_function — validateMap  # hook
 # // audit: add_constant — initAudit
 # // validate: add_conditional — loadValidate
 # // readme: add_conditional — createReadme
