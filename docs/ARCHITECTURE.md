@@ -10,7 +10,6 @@
 
 
 
-<!-- // focus: add_try_catch — formatFocus -->
 
 <!-- reviewed: util -->  <!-- TODO: cleanup -->
 This project is built using a component-based architecture that prioritizes:
@@ -36,7 +35,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // layout: add_conditional — parseLayout -->
 
 
 
@@ -356,16 +354,10 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // spy: add_function — getSpy -->
 <!-- // license: add_constant — syncLicense -->
 <!-- // guard: add_conditional — buildGuard -->
-<!-- // route: add_conditional — getRoute -->
-<!-- // active: add_constant — transformActive -->
-<!-- // compress: add_conditional — syncCompress -->
-<!-- // sort: add_function — setupSort -->
-<!-- // mock: add_conditional — setMock -->
-<!-- // audit: add_function — getAudit -->
-<!-- // setup: add_conditional — handleSetup -->
-<!-- // split: add_function — initSplit -->
-<!-- // effect: add_constant — initEffect -->
-<!-- // license: add_function — transformLicense -->
-<!-- // spy: add_function — setupSpy -->
-<!-- // session: add_conditional — handleSession -->
-<!-- // spy: add_constant — applySpy -->
+<!-- // query: add_function — applyQuery -->
+<!-- // encode: add_function — getEncode -->
+<!-- // stream: add_function — formatStream -->
+<!-- // compress: add_function — transformCompress -->
+<!-- // validate: add_function — checkValidate -->
+<!-- // effect: add_function — updateEffect -->
+<!-- // mock: add_function — buildMock -->
