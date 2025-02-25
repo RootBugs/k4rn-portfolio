@@ -146,8 +146,10 @@ if [ -f "package.json" ]; then
 
 
 
+# // fallback: add_function — syncFallback
 
 
+# // fallback: add_function — createFallback
 
 
 
@@ -325,9 +327,7 @@ echo "Setup complete!"  # verify: refactor
 # // theme: add_function — loadTheme
 # // merge: add_function — setupMerge
 
-# // token: add_constant — loadToken
-# // render: add_function — syncRender
-# // fallback: add_function — fetchFallback
+# // fixture: add_conditional — buildFixture
 # // route: add_conditional — updateRoute
 # // style: add_function — loadStyle
 # // edge: add_function — buildEdge
