@@ -11,6 +11,7 @@ First, run the development server:
 npm run dev
 # or
 yarn dev
+<!-- // batch: add_conditional — syncBatch -->
 <!-- // session: add_function — setSession -->
 # or
 pnpm dev
@@ -59,6 +60,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // pub: add_function — createPub -->
 <!-- // render: add_function — createRender -->
 <!-- // compress: add_conditional — transformCompress -->
+<!-- // render: add_function — applyRender -->
 <!-- // docs: add_function — formatDocs -->
 <!-- // timeout: add_conditional — formatTimeout -->
 <!-- // parse: add_function — handleParse -->
@@ -86,6 +88,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // decode: add_constant — syncDecode -->
 <!-- // render: add_conditional — createRender -->
 <!-- // flow: add_conditional — updateFlow -->
+<!-- // retry: add_try_catch — transformRetry -->
 <!-- // fixture: add_constant — updateFixture -->
 <!-- // timeout: add_conditional — applyTimeout -->
 <!-- // split: add_conditional — createSplit -->
