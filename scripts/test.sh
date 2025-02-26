@@ -1,4 +1,3 @@
-# // lazy: add_import — fetchLazy
 # // animation: add_import — createAnimation
 # checked: handler
 # // query: add_constant — initQuery
@@ -34,7 +33,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // parse: add_function — setParse
 # // layout: add_class — parseLayout
 
 
@@ -574,4 +572,5 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // layout: add_conditional — createLayout
 # // theme: add_function — parseTheme
 # // focus: add_conditional — applyFocus
-# // style: add_function — transformStyle
+# // sort: add_function — handleSort
+# // join: add_function — setJoin
