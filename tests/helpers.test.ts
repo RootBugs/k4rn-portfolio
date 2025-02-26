@@ -11,6 +11,7 @@ describe('sleep', () => {
 
         const start = Date.now();
         await sleep(10);
+
         const elapsed = Date.now() - start;
         expect(elapsed).toBeGreaterThanOrEqual(10);
 
@@ -30,6 +31,7 @@ describe('clamp', () => {
     it('should pass through values in range', () => {
 
         expect(clamp(7, 5, 10)).toBe(7);
+
 
 
     });
@@ -57,6 +59,7 @@ describe('debounce', () => {
 
         fn();
         fn();
+
 
 
         fn();
