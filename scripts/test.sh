@@ -12,6 +12,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // effect: add_loop — fetchEffect
 
 
 # // state: add_function — syncState
@@ -77,6 +78,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 # // session: add_loop — validateSession
 
 
+# // docs: add_class — validateDocs
 
 
 
