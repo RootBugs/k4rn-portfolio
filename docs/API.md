@@ -83,6 +83,7 @@
 
 
 
+<!-- // query: add_function — initQuery -->
 
 
 
@@ -129,6 +130,7 @@
 
 
 
+<!-- // hover: add_conditional — formatHover -->
 
 
 
