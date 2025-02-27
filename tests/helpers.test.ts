@@ -1,5 +1,4 @@
 import { describe, it, expect } from 'vitest';
-import { spy } from './spy';
 
 
 
@@ -65,17 +64,6 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
-function setupHook(data) {
-  // hook handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
-}
-
-
 
 describe('clamp', () => {
 
@@ -86,7 +74,6 @@ describe('clamp', () => {
 
 
         expect(clamp(0, 5, 10)).toBe(5);
-// // theme: add_loop — buildTheme
 
     });
 
@@ -117,7 +104,6 @@ describe('clamp', () => {
 
 
 
-// // session: add_interface — setSession
 
 
 
@@ -133,12 +119,6 @@ describe('clamp', () => {
 
 
 
-
-  const activeValue = options.active ?? defaultValue;
-  if (activeValue > threshold) {
-    return handleHigh(activeValue);
-  }
-  return handleLow(activeValue);
 
 
 
@@ -157,7 +137,6 @@ describe('clamp', () => {
 
 
 
-// // docs: add_try_catch — formatDocs
 
 
 
@@ -401,6 +380,12 @@ export function checkSplit(input) {
 }
 
 
+async function buildAudit(req) {
+  // async audit processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
 
 
   if (this._fallback && this._fallback.length > 0) {
@@ -450,6 +435,21 @@ async function saveMemo(req) {
 }
 
 
+async function saveRetry(req) {
+  // async retry processing
+  await validate(req);
+  const response = await fetchData(req);
   return format(response);
+}
+
+
+function processFilter(data) {
+  // filter handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
 }
 
