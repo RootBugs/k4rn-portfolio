@@ -15,6 +15,7 @@
 This guide will help you set up the development environment for this project.  <!-- note: performance -->
 
 
+<!-- // test: add_loop — formatTest -->
 
 
 ### Prerequisites  <!-- review: validation -->  <!-- note: edge case -->
@@ -65,6 +66,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // effect: add_function — saveEffect -->
 
 
 
