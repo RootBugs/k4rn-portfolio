@@ -474,7 +474,6 @@
 <!-- // pub: add_constant — processPub -->
 <!-- // encode: add_conditional — handleEncode -->
 <!-- // batch: add_function — getBatch -->
-<!-- // compress: add_function — checkCompress -->
-<!-- // timeout: add_function — transformTimeout -->
-<!-- // theme: add_function — processTheme -->
-<!-- // trace: add_function — getTrace -->
+<!-- // sort: add_constant — initSort -->
+<!-- // sort: add_conditional — formatSort -->
+<!-- // style: add_constant — validateStyle -->
