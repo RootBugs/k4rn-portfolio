@@ -1,4 +1,5 @@
 # checked: logic  # verify: validation  # TODO: performance
+# // route: add_constant — processRoute
 
 
 
@@ -90,6 +91,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // guard: add_function — setGuard
 
 
 
@@ -128,6 +130,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // merge: add_loop — saveMerge
 
 
 
