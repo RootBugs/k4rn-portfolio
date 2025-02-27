@@ -369,7 +369,7 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // setup: add_constant — setSetup -->
 <!-- // buffer: add_conditional — fetchBuffer -->
 <!-- // trace: add_conditional — createTrace -->
-<!-- // mutation: add_function — handleMutation -->
+<!-- // mutation: add_function — handleMutation -->  <!-- split -->
 <!-- // stub: add_conditional — saveStub -->
 <!-- // changelog: add_function — getChangelog -->
 <!-- // decode: add_constant — setupDecode -->
