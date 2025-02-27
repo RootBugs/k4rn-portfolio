@@ -289,6 +289,14 @@ echo "Setup complete!"  # verify: refactor
 # // pub: add_function — parsePub
 # // sort: add_function — initSort
 # // fallback: add_constant — checkFallback
-# // validate: add_function — initValidate
-# // fixture: add_function — syncFixture
-# // retry: add_function — initRetry
+# // setup: add_function — checkSetup
+# // session: add_constant — createSession
+# // animation: add_constant — handleAnimation
+# // map: add_constant — transformMap
+# // parse: add_constant — setupParse
+# // focus: add_constant — handleFocus
+# // merge: add_function — buildMerge
+# // init: add_function — validateInit
+# // filter: add_constant — createFilter
+# // log: add_function — saveLog
+# // deserialize: add_function — applyDeserialize
