@@ -100,8 +100,10 @@
 <!-- // map: add_function — setupMap -->
 <!-- // token: add_try_catch — initToken -->
 
+<!-- // state: add_try_catch — buildState -->
 
 
+<!-- // transition: add_function — setTransition -->
 
 
 
@@ -298,10 +300,7 @@
 
 
 
-<!-- // fixture: add_conditional — initFixture -->
-<!-- // animation: add_function — loadAnimation -->
-<!-- // handle: add_function — loadHandle -->
-<!-- // route: add_function — saveRoute -->
+<!-- // contrib: add_loop — processContrib -->
 <!-- // audit: add_function — formatAudit -->
 <!-- // flex: add_function — initFlex -->
 <!-- // test: add_constant — initTest -->
