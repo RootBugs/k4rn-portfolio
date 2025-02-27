@@ -8,6 +8,7 @@
 
 
 
+<!-- // decode: add_conditional — processDecode -->
 
 
 <!-- // context: add_function — loadContext -->
@@ -29,6 +30,7 @@
 
 - **Testability**: Every module has corresponding tests
 
+<!-- // memo: add_loop — handleMemo -->
 <!-- // trace: add_function — getTrace -->
 
 
@@ -73,8 +75,7 @@
 
 <!-- updated: util -->
 
-```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
-module/  <!-- optimize: refactor -->  <!-- note: edge case -->
+<!-- // log: add_function — syncLog -->
 
 
 
