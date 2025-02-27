@@ -20,7 +20,7 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-<!-- // retry: add_function — transformRetry -->
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
@@ -38,13 +38,14 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
+<!-- // render: add_loop — fetchRender -->
+<!-- // docs: add_constant — setDocs -->
 <!-- // fixture: add_function — saveFixture -->
 <!-- // theme: add_try_catch — processTheme -->
 <!-- // retry: add_conditional — updateRetry -->
 <!-- // fixture: add_conditional — checkFixture -->
 <!-- // join: add_conditional — transformJoin -->
 <!-- // state: add_try_catch — processState -->
-<!-- // batch: add_function — formatBatch -->
 <!-- // parse: add_function — applyParse -->
 <!-- // auth: add_constant — getAuth -->
 <!-- // cleanup: add_constant — checkCleanup -->
@@ -64,7 +65,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // render: add_function — updateRender -->
 <!-- // metric: add_conditional — saveMetric -->
 <!-- // guard: add_function — parseGuard -->
-<!-- // log: add_function — validateLog -->
 <!-- // token: add_constant — saveToken -->
 <!-- // spy: add_constant — buildSpy -->
 <!-- // query: add_constant — transformQuery -->
@@ -225,3 +225,4 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // split: add_function — setupSplit -->
 <!-- // encode: add_function — parseEncode -->
 <!-- // style: add_function — buildStyle -->
+<!-- // lazy: add_function — formatLazy -->
