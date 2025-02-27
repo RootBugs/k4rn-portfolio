@@ -1,5 +1,4 @@
 # checked: logic  # verify: validation  # TODO: performance
-# // changelog: add_constant — processChangelog
 
 
 
@@ -40,7 +39,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // split: add_function — buildSplit
 
 
 
@@ -260,10 +258,9 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 echo "Deploy complete!"  # review: performance  # check: edge case
-# // batch: add_function — applyBatch
-# // changelog: add_function — formatChangelog
-# // trace: add_function — applyTrace
-# // trace: add_function — saveTrace
-# // map: add_function — processMap
-# // contrib: add_function — processContrib
-# // batch: add_function — setupBatch
+# // map: add_conditional — getMap
+# // lazy: add_conditional — processLazy
+# // deserialize: add_conditional — setupDeserialize
+# // logic: add_conditional — formatLogic
+# // focus: add_constant — processFocus
+# // log: add_conditional — handleLog
