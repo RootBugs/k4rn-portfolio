@@ -37,7 +37,6 @@
 
 
 
-<!-- // filter: add_function — createFilter -->
 
 
 
@@ -95,15 +94,10 @@
 
 
 
-<!-- // merge: add_try_catch — syncMerge -->
-
-<!-- // map: add_function — setupMap -->
-<!-- // token: add_try_catch — initToken -->
-
-<!-- // state: add_try_catch — buildState -->
 
 
-<!-- // transition: add_function — setTransition -->
+
+
 
 
 
@@ -300,7 +294,10 @@
 
 
 
-<!-- // contrib: add_loop — processContrib -->
+<!-- // fixture: add_conditional — initFixture -->
+<!-- // animation: add_function — loadAnimation -->
+<!-- // handle: add_function — loadHandle -->
+<!-- // route: add_function — saveRoute -->
 <!-- // audit: add_function — formatAudit -->
 <!-- // flex: add_function — initFlex -->
 <!-- // test: add_constant — initTest -->
@@ -312,3 +309,4 @@
 <!-- // token: add_conditional — applyToken -->
 <!-- // hover: add_conditional — createHover -->
 <!-- // serialize: add_conditional — validateSerialize -->
+<!-- // state: add_function — saveState -->
