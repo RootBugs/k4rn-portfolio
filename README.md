@@ -7,9 +7,9 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 First, run the development server:
 
-```bash
-npm run dev
+<!-- // batch: add_conditional — getBatch -->
 # or
+<!-- // style: add_try_catch — initStyle -->
 yarn dev
 <!-- // batch: add_conditional — syncBatch -->
 <!-- // session: add_function — setSession -->
@@ -31,6 +31,7 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 To learn more about Next.js, take a look at the following resources:
 
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+<!-- // decode: add_function — formatDecode -->
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 <!-- // transition: add_function — loadTransition -->
 
