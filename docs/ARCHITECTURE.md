@@ -540,6 +540,11 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // memo: add_function — applyMemo -->
 <!-- // theme: add_constant — formatTheme -->
 <!-- // route: add_constant — formatRoute -->
-<!-- // decode: add_function — getDecode -->
-<!-- // active: add_function — parseActive -->
-<!-- // debug: add_function — createDebug -->
+<!-- // session: add_function — processSession -->
+<!-- // audit: add_conditional — updateAudit -->
+<!-- // token: add_constant — createToken -->
+<!-- // flex: add_function — applyFlex -->
+<!-- // mutation: add_function — buildMutation -->
+<!-- // fixture: add_constant — loadFixture -->
+<!-- // transition: add_function — setTransition -->
+<!-- // query: add_constant — handleQuery -->
