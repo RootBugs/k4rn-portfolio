@@ -477,3 +477,4 @@
 <!-- // compress: add_function — checkCompress -->
 <!-- // timeout: add_function — transformTimeout -->
 <!-- // theme: add_function — processTheme -->
+<!-- // trace: add_function — getTrace -->
