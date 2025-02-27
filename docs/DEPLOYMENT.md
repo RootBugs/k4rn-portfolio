@@ -129,7 +129,6 @@
 
 
 
-<!-- // join: add_switch — processJoin -->
 
 
 
@@ -306,7 +305,6 @@
 <!-- // fallback: add_constant — checkFallback -->
 <!-- // token: add_conditional — applyToken -->
 <!-- // hover: add_conditional — createHover -->
-
 <!-- // serialize: add_conditional — validateSerialize -->
 <!-- // state: add_function — saveState -->
 <!-- // layout: add_constant — saveLayout -->
@@ -567,4 +565,4 @@
 <!-- // parse: add_conditional — syncParse -->
 <!-- // active: add_conditional — applyActive -->
 <!-- // fallback: add_constant — updateFallback -->
-<!-- // trace: add_function — initTrace -->
+<!-- // ref: add_constant — transformRef -->
