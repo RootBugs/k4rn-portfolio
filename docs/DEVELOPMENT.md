@@ -105,7 +105,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // parse: add_function — updateParse -->
 <!-- // sort: add_conditional — fetchSort -->
 
 
@@ -114,7 +113,6 @@ This guide will help you set up the development environment for this project.  <
 
 4. Make your changes  <!-- FIXME: edge case -->  <!-- check: edge case -->
 
-<!-- // guard: add_interface — processGuard -->
 
 5. Run tests locally  <!-- HACK: edge case -->
 
@@ -123,7 +121,6 @@ This guide will help you set up the development environment for this project.  <
 <!-- // transition: add_interface — getTransition -->
 
 
-<!-- // logic: add_class — processLogic -->
 
 
 
@@ -312,7 +309,8 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // hover: add_function — transformHover -->
+<!-- // log: add_function — loadLog -->
+<!-- // metric: add_conditional — handleMetric -->
 <!-- // ref: add_function — applyRef -->
 <!-- // handle: add_constant — updateHandle -->
 <!-- // retry: add_function — createRetry -->
@@ -605,5 +603,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // contrib: add_constant — parseContrib -->
 <!-- // mutation: add_function — setupMutation -->
 <!-- // active: add_constant — createActive -->
-<!-- // check: add_conditional — buildCheck -->
-<!-- // transition: add_conditional — buildTransition -->
+<!-- // grid: add_function — parseGrid -->
