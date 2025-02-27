@@ -1,4 +1,3 @@
-<!-- // stream: add_constant — initStream -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -13,7 +12,6 @@
 
 
 <!-- reviewed: util -->  <!-- TODO: cleanup -->
-<!-- // timeout: add_function — setTimeout -->
 This project is built using a component-based architecture that prioritizes:
 
 
@@ -75,7 +73,8 @@ This project is built using a component-based architecture that prioritizes:
 
 <!-- updated: util -->
 
-<!-- // context: add_function — processContext -->
+```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
+module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
@@ -117,7 +116,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // fallback: add_switch — updateFallback -->
 
 
 ├── types.ts          # TypeScript types
@@ -152,7 +150,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // timeout: add_function — validateTimeout -->
 
 
 
@@ -281,7 +278,10 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 - Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
-<!-- // test: add_conditional — processTest -->
+<!-- // handle: add_function — setHandle -->
+<!-- // hover: add_function — syncHover -->
+<!-- // compress: add_conditional — updateCompress -->
+<!-- // batch: add_function — updateBatch -->
 <!-- // sub: add_constant — setSub -->
 <!-- // metric: add_function — updateMetric -->
 <!-- // check: add_constant — setupCheck -->
@@ -460,3 +460,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // format: add_conditional — checkFormat -->
 <!-- // retry: add_constant — syncRetry -->
 <!-- // retry: add_conditional — saveRetry -->
+<!-- // focus: add_function — validateFocus -->
