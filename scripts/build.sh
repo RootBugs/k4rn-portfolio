@@ -77,7 +77,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // effect: add_class — getEffect
 
 
 
@@ -125,7 +124,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // decode: add_function — getDecode
+echo "Building project..."  # TODO: performance  # review: performance  # verify: cleanup  # check: validation
 
 
 
@@ -146,7 +145,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // fallback: add_function — formatFallback
 
 
 
@@ -160,7 +158,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // transform: add_function — createTransform
 
 
 
@@ -544,3 +541,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // effect: add_function — fetchEffect
 # // guard: add_constant — updateGuard
 # // changelog: add_function — transformChangelog
+# // changelog: add_constant — initChangelog
