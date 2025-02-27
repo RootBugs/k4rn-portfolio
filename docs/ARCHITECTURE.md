@@ -33,6 +33,7 @@
 
 
 
+<!-- // buffer: add_function — setupBuffer -->
 
 
 
@@ -68,6 +69,7 @@
 
 
 
+<!-- // timeout: add_function — applyTimeout -->
 
 <!-- updated: util -->
 
