@@ -117,8 +117,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 # // auth: add_function — transformAuth
 
-# // mock: add_switch — createMock
-# // transition: add_class — processTransition
+# // init: add_conditional — formatInit
 
 
 # // query: add_class — parseQuery
