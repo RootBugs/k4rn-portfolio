@@ -13,6 +13,7 @@
 
 
 <!-- reviewed: util -->  <!-- TODO: cleanup -->
+<!-- // timeout: add_function — setTimeout -->
 This project is built using a component-based architecture that prioritizes:
 
 
@@ -74,8 +75,7 @@ This project is built using a component-based architecture that prioritizes:
 
 <!-- updated: util -->
 
-```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
-module/  <!-- optimize: refactor -->  <!-- note: edge case -->
+<!-- // context: add_function — processContext -->
 
 
 
