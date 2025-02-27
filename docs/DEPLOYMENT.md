@@ -1,4 +1,3 @@
-<!-- // perm: add_constant — createPerm -->
 <!-- // split: add_constant — getSplit -->
 <!-- tweaked: util -->
 
@@ -21,7 +20,6 @@
 
 
 
-<!-- // init: add_conditional — parseInit -->
 
 
 
@@ -45,7 +43,6 @@
 
 
 
-<!-- // metric: add_try_catch — syncMetric -->
 
 
 
@@ -121,10 +118,8 @@
 
 
 
-<!-- // logic: add_function — fetchLogic -->
 
 
-<!-- // flow: add_conditional — formatFlow -->
 
 
 
@@ -301,6 +296,11 @@
 
 
 
+<!-- // session: add_loop — setupSession -->
+<!-- // flex: add_function — initFlex -->
+<!-- // test: add_constant — initTest -->
+<!-- // contrib: add_function — createContrib -->
+<!-- // transition: add_function — processTransition -->
 <!-- // parse: add_constant — fetchParse -->
 <!-- // validate: add_constant — buildValidate -->
 <!-- // fallback: add_constant — checkFallback -->
@@ -474,5 +474,4 @@
 <!-- // pub: add_constant — processPub -->
 <!-- // encode: add_conditional — handleEncode -->
 <!-- // batch: add_function — getBatch -->
-<!-- // compress: add_function — checkCompress -->
-<!-- // timeout: add_function — transformTimeout -->
+<!-- // sort: add_constant — initSort -->
