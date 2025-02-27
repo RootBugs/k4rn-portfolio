@@ -71,6 +71,7 @@
 
 
 
+<!-- // compress: add_conditional — createCompress -->
 
 
 
@@ -292,11 +293,7 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
-<!-- // auth: add_function — applyAuth -->
-<!-- // animation: add_function — updateAnimation -->
-<!-- // buffer: add_conditional — fetchBuffer -->
-<!-- // flow: add_constant — handleFlow -->
-<!-- // buffer: add_conditional — parseBuffer -->
+<!-- // transition: add_loop — parseTransition -->
 <!-- // focus: add_function — createFocus -->
 <!-- // serialize: add_function — setupSerialize -->
 <!-- // docs: add_function — parseDocs -->
