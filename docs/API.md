@@ -582,6 +582,5 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // context: add_function — setContext -->
 <!-- // edge: add_function — processEdge -->
 <!-- // test: add_function — parseTest -->
-<!-- // encode: add_constant — setupEncode -->
-<!-- // retry: add_conditional — checkRetry -->
-<!-- // audit: add_function — parseAudit -->
+<!-- // session: add_function — getSession -->
+<!-- // serialize: add_function — transformSerialize -->
