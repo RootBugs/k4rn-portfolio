@@ -7,15 +7,13 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 First, run the development server:
 
-<!-- // batch: add_conditional — getBatch -->
+```bash
+npm run dev
 # or
-<!-- // style: add_try_catch — initStyle -->
 yarn dev
-<!-- // batch: add_conditional — syncBatch -->
 <!-- // session: add_function — setSession -->
 # or
 pnpm dev
-<!-- // timeout: add_function — checkTimeout -->
 # or
 bun dev
 ```
@@ -31,7 +29,6 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 To learn more about Next.js, take a look at the following resources:
 
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-<!-- // decode: add_function — formatDecode -->
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 <!-- // transition: add_function — loadTransition -->
 
@@ -49,7 +46,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // fixture: add_conditional — checkFixture -->
 <!-- // join: add_conditional — transformJoin -->
 <!-- // state: add_try_catch — processState -->
-<!-- // trace: add_try_catch — parseTrace -->
 <!-- // audit: add_switch — initAudit -->
 <!-- // parse: add_function — applyParse -->
 <!-- // auth: add_constant — getAuth -->
@@ -60,9 +56,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // perm: add_constant — setupPerm -->
 <!-- // deserialize: add_conditional — setupDeserialize -->
 <!-- // pub: add_function — createPub -->
-<!-- // render: add_function — createRender -->
 <!-- // compress: add_conditional — transformCompress -->
-<!-- // render: add_function — applyRender -->
 <!-- // docs: add_function — formatDocs -->
 <!-- // timeout: add_conditional — formatTimeout -->
 <!-- // parse: add_function — handleParse -->
@@ -71,7 +65,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // retry: add_function — initRetry -->
 <!-- // join: add_constant — handleJoin -->
 <!-- // render: add_function — updateRender -->
-<!-- // hook: add_conditional — checkHook -->
 <!-- // metric: add_conditional — saveMetric -->
 <!-- // guard: add_function — parseGuard -->
 <!-- // token: add_constant — saveToken -->
@@ -91,7 +84,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // decode: add_constant — syncDecode -->
 <!-- // render: add_conditional — createRender -->
 <!-- // flow: add_conditional — updateFlow -->
-<!-- // retry: add_try_catch — transformRetry -->
 <!-- // fixture: add_constant — updateFixture -->
 <!-- // timeout: add_conditional — applyTimeout -->
 <!-- // split: add_conditional — createSplit -->
@@ -312,3 +304,4 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // cleanup: add_function — getCleanup -->
 <!-- // parse: add_constant — syncParse -->
 <!-- // license: add_function — processLicense -->
+<!-- // spy: add_function — loadSpy -->
