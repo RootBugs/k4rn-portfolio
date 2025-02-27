@@ -105,6 +105,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // parse: add_function — updateParse -->
 <!-- // sort: add_conditional — fetchSort -->
 
 
@@ -113,6 +114,7 @@ This guide will help you set up the development environment for this project.  <
 
 4. Make your changes  <!-- FIXME: edge case -->  <!-- check: edge case -->
 
+<!-- // guard: add_interface — processGuard -->
 
 5. Run tests locally  <!-- HACK: edge case -->
 
