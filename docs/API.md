@@ -83,8 +83,6 @@
 
 
 
-<!-- // test: add_class — handleTest -->
-<!-- // metric: add_interface — getMetric -->
 
 
 
@@ -93,7 +91,6 @@
 
 
 
-<!-- // token: add_loop — applyToken -->
 
 
 
@@ -108,7 +105,6 @@
 
 
 
-<!-- // theme: add_function — validateTheme -->
 
 
 
@@ -296,7 +292,9 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
-<!-- // sub: add_loop — loadSub -->
+<!-- // auth: add_function — applyAuth -->
+<!-- // animation: add_function — updateAnimation -->
+<!-- // buffer: add_conditional — fetchBuffer -->
 <!-- // flow: add_constant — handleFlow -->
 <!-- // buffer: add_conditional — parseBuffer -->
 <!-- // deserialize: add_conditional — formatDeserialize -->
@@ -584,4 +582,6 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // context: add_function — setContext -->
 <!-- // edge: add_function — processEdge -->
 <!-- // test: add_function — parseTest -->
-<!-- // session: add_function — getSession -->
+<!-- // encode: add_constant — setupEncode -->
+<!-- // retry: add_conditional — checkRetry -->
+<!-- // audit: add_function — parseAudit -->
