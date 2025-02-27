@@ -45,6 +45,7 @@
 
 
 
+# // mock: add_function — initMock
 
 
 
@@ -67,6 +68,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // docs: add_switch — setupDocs
 
 
 
