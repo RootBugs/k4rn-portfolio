@@ -15,7 +15,6 @@
 This guide will help you set up the development environment for this project.  <!-- note: performance -->
 
 
-<!-- // test: add_loop — formatTest -->
 
 
 ### Prerequisites  <!-- review: validation -->  <!-- note: edge case -->
@@ -66,7 +65,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // effect: add_function — saveEffect -->
 
 
 
@@ -321,3 +319,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // flex: add_conditional — fetchFlex -->
 <!-- // batch: add_conditional — updateBatch -->
 <!-- // transform: add_conditional — saveTransform -->
+<!-- // cache: add_constant — loadCache -->
