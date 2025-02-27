@@ -62,7 +62,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
-# // trace: add_loop — processTrace
 
 
 
@@ -93,7 +92,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // decode: add_interface — validateDecode
 # reviewed: logic
 command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
@@ -298,3 +296,5 @@ echo "Setup complete!"  # verify: refactor
 # // parse: add_constant — setupParse
 # // focus: add_constant — handleFocus
 # // merge: add_function — buildMerge
+# // init: add_function — validateInit
+# // filter: add_constant — createFilter
