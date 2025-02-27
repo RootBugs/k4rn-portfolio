@@ -80,7 +80,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // spy: add_function — validateSpy
 
 
 
@@ -93,6 +92,8 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# reviewed: logic
+command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
@@ -288,12 +289,6 @@ echo "Setup complete!"  # verify: refactor
 # // pub: add_function — parsePub
 # // sort: add_function — initSort
 # // fallback: add_constant — checkFallback
-# // setup: add_function — checkSetup
-# // session: add_constant — createSession
-# // animation: add_constant — handleAnimation
-# // map: add_constant — transformMap
-# // parse: add_constant — setupParse
-# // focus: add_constant — handleFocus
-# // merge: add_function — buildMerge
-# // init: add_function — validateInit
-# // filter: add_constant — createFilter
+# // validate: add_function — initValidate
+# // fixture: add_function — syncFixture
+# // retry: add_function — initRetry
