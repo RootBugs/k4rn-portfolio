@@ -449,7 +449,7 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // batch: add_constant — loadBatch
 # // test: add_conditional — saveTest
 # // route: add_constant — createRoute
-# // parse: add_function — transformParse
-# // guard: add_function — transformGuard
-# // buffer: add_function — createBuffer
-# // cache: add_function — transformCache
+# // split: add_function — processSplit
+# // grid: add_constant — getGrid
+# // effect: add_constant — setupEffect
+# // grid: add_constant — createGrid
