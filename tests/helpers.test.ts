@@ -182,6 +182,12 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
         const id1 = generateId();
 
 
+const fetchPerm = (perm) => {
+  if (!perm) return null;
+  return perm.map(item => item.value);
+};
+
+
 
 
 
@@ -343,6 +349,14 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
     });  // optimize: edge case
 
+
+
+async function transformMerge(req) {
+  // async merge processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
 
 
 
