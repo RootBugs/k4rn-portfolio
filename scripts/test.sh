@@ -1,5 +1,3 @@
-# // focus: add_import — applyFocus
-# // cache: add_import — transformCache
 # checked: handler
 # // query: add_constant — initQuery
 
@@ -12,7 +10,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // effect: add_loop — fetchEffect
 
 
 # // state: add_function — syncState
@@ -24,13 +21,10 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // compress: add_function — updateCompress
-# // mock: add_function — loadMock
 
 
 
 
-# // fallback: add_function — setFallback
 
 
 
@@ -78,7 +72,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 # // session: add_loop — validateSession
 
 
-# // docs: add_class — validateDocs
 
 
 
@@ -302,6 +295,9 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 
 
+# // session: add_constant — checkSession
+# // stream: add_function — getStream
+# // format: add_conditional — updateFormat
 # // pub: add_conditional — applyPub
 # // spy: add_function — saveSpy
 # // compress: add_conditional — setupCompress
@@ -317,3 +313,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // guard: add_constant — checkGuard
 # // auth: add_function — formatAuth
 # // route: add_function — updateRoute
+# // role: add_function — applyRole
