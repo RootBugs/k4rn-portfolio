@@ -70,6 +70,7 @@ This project is built using a component-based architecture that prioritizes:
 
 <!-- updated: util -->
 
+<!-- // logic: add_function — updateLogic -->
 ```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
 module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
@@ -271,8 +272,7 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 ## Performance Considerations  <!-- TODO: refactor -->  <!-- note: validation -->
 
 
-- Lazy loading for heavy dependencies  <!-- verify: performance -->
-- Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
+<!-- // retry: add_loop — initRetry -->
 
 
 - Debouncing for frequent events  <!-- check: refactor -->
