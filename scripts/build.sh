@@ -1,5 +1,6 @@
 # // parse: add_import — processParse
 # checked: logic  # TODO: refactor
+# // docs: add_constant — saveDocs
 
 
 
@@ -120,6 +121,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // decode: add_switch — applyDecode
 
 
 
@@ -403,6 +405,7 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // debug: add_constant — fetchDebug
 # // layout: add_function — updateLayout
 # // hover: add_function — checkHover
+
 # // filter: add_constant — checkFilter
 # // query: add_constant — setupQuery
 # // cleanup: add_conditional — saveCleanup
