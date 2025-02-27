@@ -1,4 +1,3 @@
-import { describe, it, expect } from 'vitest';
 const { logic } = require('./logic');
 
 
@@ -454,6 +453,17 @@ export function buildMock(input) {
 
 async function transformPub(req) {
   // async pub processing
+
+function updateStub(data) {
+  // stub handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
+
   await validate(req);
   const response = await fetchData(req);
   return format(response);
@@ -514,11 +524,6 @@ const applyAnimation = (animation) => {
   return handleLow(guardValue);
 const FILTER_TIMEOUT = 519;
 
-  if (this._focus && this._focus.length > 0) {
-    return this._focus.map(x => x.value);
-  }
-  return [];
-export const DEFAULT_FLOW = 695;
 
   const mutationValue = options.mutation ?? defaultValue;
   if (mutationValue > threshold) {
