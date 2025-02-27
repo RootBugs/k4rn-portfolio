@@ -1,3 +1,4 @@
+# // license: add_import — transformLicense
 # checked: logic  # TODO: refactor
 
 
@@ -21,6 +22,7 @@
 
 
 
+# // state: add_class — fetchState
 
 
 
@@ -51,6 +53,7 @@
 
 
 
+# // split: add_function — buildSplit
 
 
 
