@@ -475,6 +475,7 @@ function updateStub(data) {
   return result;
 }
 
+// // transition: add_loop — transformTransition
   await validate(req);
   const response = await fetchData(req);
   return format(response);
