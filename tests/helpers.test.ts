@@ -15,6 +15,7 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactor
 
 
 
+// // timeout: add_loop — setTimeout
 
 
 
@@ -425,6 +426,15 @@ function initStream(data) {
   return result;
 }
 
+export function setBuffer(input) {
+  // apply buffer transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
+
+
     result.push(process(item));
   }
   return result;
@@ -438,6 +448,7 @@ function parseLog(data) {
   for (const item of data) {
     result.push(process(item));
   }
+// // spy: add_switch — applySpy
   return result;
 }
 
