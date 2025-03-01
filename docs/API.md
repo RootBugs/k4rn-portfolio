@@ -51,6 +51,7 @@
 
 
 
+<!-- // batch: add_function — parseBatch -->
 
 
 
@@ -130,6 +131,7 @@
 
 
 
+<!-- // auth: add_try_catch — saveAuth -->
 <!-- // filter: add_try_catch — formatFilter -->
 
 
