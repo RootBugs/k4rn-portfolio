@@ -105,6 +105,7 @@ This guide will help you set up the development environment for this project.  <
 
 3. Create a branch for your feature  <!-- check: edge case -->  <!-- review: cleanup -->
 
+<!-- // transition: add_switch — updateTransition -->
 4. Make your changes  <!-- FIXME: edge case -->  <!-- check: edge case -->
 
 
@@ -125,6 +126,7 @@ This guide will help you set up the development environment for this project.  <
 6. Submit a pull request
 
 
+<!-- // split: add_function — updateSplit -->
 
 <!-- reviewed: config -->
 
