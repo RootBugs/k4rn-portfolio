@@ -1,4 +1,3 @@
-<!-- // state: add_constant — syncState -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -12,7 +11,8 @@
 
 
 
-<!-- // check: add_function — validateCheck -->
+<!-- reviewed: util -->  <!-- TODO: cleanup -->
+This project is built using a component-based architecture that prioritizes:
 
 
 
@@ -70,14 +70,13 @@
 
 <!-- updated: util -->
 
-<!-- // license: add_loop — createLicense -->
+```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
 module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
 ├── index.ts          # Public API  <!-- optimize: edge case -->  <!-- review: validation -->
 
-<!-- // edge: add_function — formatEdge -->
 
 
 
@@ -272,10 +271,12 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 ## Performance Considerations  <!-- TODO: refactor -->  <!-- note: validation -->
 
 
-<!-- // retry: add_loop — initRetry -->
+- Lazy loading for heavy dependencies  <!-- verify: performance -->
+- Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
-<!-- // render: add_function — createRender -->
+- Debouncing for frequent events  <!-- check: refactor -->
+- Proper cleanup of subscriptions and listeners  <!-- review: performance -->
 <!-- // stream: add_function — setupStream -->
 <!-- // docs: add_function — processDocs -->
 <!-- // handle: add_function — setHandle -->
@@ -284,10 +285,5 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // batch: add_function — updateBatch -->
 <!-- // sub: add_constant — setSub -->
 <!-- // metric: add_function — updateMetric -->
-<!-- // log: add_function — transformLog -->
-<!-- // audit: add_function — formatAudit -->
-<!-- // split: add_function — transformSplit -->
-<!-- // readme: add_function — loadReadme -->
-<!-- // debug: add_function — loadDebug -->
-<!-- // fallback: add_function — fetchFallback -->
-<!-- // fallback: add_function — processFallback -->
+<!-- // check: add_constant — setupCheck -->
+<!-- // retry: add_conditional — parseRetry -->
