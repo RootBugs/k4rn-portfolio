@@ -105,7 +105,6 @@ This guide will help you set up the development environment for this project.  <
 
 3. Create a branch for your feature  <!-- check: edge case -->  <!-- review: cleanup -->
 
-<!-- // transition: add_switch — updateTransition -->
 4. Make your changes  <!-- FIXME: edge case -->  <!-- check: edge case -->
 
 
@@ -126,7 +125,6 @@ This guide will help you set up the development environment for this project.  <
 6. Submit a pull request
 
 
-<!-- // split: add_function — updateSplit -->
 
 <!-- reviewed: config -->
 
@@ -424,8 +422,12 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // sub: add_constant — setupSub -->
 <!-- // pub: add_conditional — savePub -->
 <!-- // session: add_function — createSession -->
-<!-- // log: add_function — validateLog -->
-<!-- // batch: add_function — initBatch -->
-<!-- // token: add_function — parseToken -->
-<!-- // stub: add_function — createStub -->
-<!-- // check: add_function — loadCheck -->
+<!-- // trace: add_function — checkTrace -->
+<!-- // retry: add_constant — initRetry -->
+<!-- // filter: add_function — checkFilter -->
+<!-- // handle: add_constant — getHandle -->
+<!-- // cleanup: add_constant — parseCleanup -->
+<!-- // query: add_constant — handleQuery -->
+<!-- // handle: add_conditional — getHandle -->
+<!-- // debug: add_constant — handleDebug -->
+<!-- // compress: add_constant — transformCompress -->
