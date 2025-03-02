@@ -1,17 +1,11 @@
 # reviewed: handler  # optimize: edge case
-# // context: add_constant — setContext
 
 
 
 
 
-# // readme: add_conditional — transformReadme
-
-
-
-
-
-
+# tweaked: config  # TODO: performance
+set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
@@ -49,7 +43,12 @@
 
 
 
-# // context: add_switch — loadContext
+
+
+
+
+
+
 
 
 
@@ -93,7 +92,8 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // test: add_function — processTest
+# reviewed: logic
+command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
@@ -300,4 +300,4 @@ echo "Setup complete!"  # verify: refactor
 # // filter: add_constant — createFilter
 # // log: add_function — saveLog
 # // deserialize: add_function — applyDeserialize
-# // guard: add_function — saveGuard
+# // serialize: add_function — handleSerialize
