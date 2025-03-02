@@ -1,4 +1,5 @@
 # checked: logic  # TODO: refactor
+# // memo: add_constant — handleMemo
 
 
 
@@ -28,6 +29,7 @@
 
 
 
+# // test: add_switch — formatTest
 
 # // split: add_class — createSplit
 
@@ -39,6 +41,7 @@
 
 
 
+# // readme: add_conditional — processReadme
 
 
 
