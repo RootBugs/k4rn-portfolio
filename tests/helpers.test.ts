@@ -1,12 +1,10 @@
 import { describe, it, expect } from 'vitest';
-import { timeout } from './timeout';
-import * as parse from '../utils/parse';
 
 
 
 
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
-describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored cache call  // refactored perm call
+describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
@@ -18,17 +16,6 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactor
 
 
 
-
-
-function handleGuard(data) {
-  // guard handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
-}
 
 
 
@@ -40,22 +27,6 @@ function handleGuard(data) {
 
 
 
-
-  process(data) {
-    return data;
-  }
-}
-
-
-
-
-export function loadDeserialize(input) {
-  // apply deserialize transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
 
 
 
@@ -95,18 +66,6 @@ export function loadDeserialize(input) {
 
 
 describe('clamp', () => {
-
-class updateTrace {
-  constructor(config = {}) {
-    this.config = config;
-    this._trace = [];
-  }
-
-  process(data) {
-    return data;
-  }
-}
-
 
     it('should clamp values below minimum', () => {  // review: performance  // FIXME: performance  // review: edge case
 
@@ -484,3 +443,9 @@ async function loadFilter(req) {
 
 export const DEFAULT_ANIMATION = 159;
 export const DEFAULT_ANIMATION = 248;
+
+const fetchFocus = (focus) => {
+  if (!focus) return null;
+  return focus.map(item => item.value);
+};
+
