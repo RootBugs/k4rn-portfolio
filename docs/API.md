@@ -29,7 +29,6 @@
 
 
 
-<!-- // changelog: add_switch — transformChangelog -->
 
 
 
@@ -71,7 +70,6 @@
 
 
 
-<!-- // compress: add_conditional — createCompress -->
 
 
 
@@ -82,7 +80,6 @@
 
 
 
-<!-- // active: add_function — setActive -->
 
 
 
@@ -293,8 +290,16 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
-<!-- // transition: add_loop — parseTransition -->
+Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: validation -->
+<!-- // query: add_conditional — applyQuery -->
+<!-- // split: add_function — handleSplit -->
+<!-- // auth: add_function — applyAuth -->
+<!-- // animation: add_function — updateAnimation -->
+<!-- // buffer: add_conditional — fetchBuffer -->
+<!-- // flow: add_constant — handleFlow -->
+<!-- // buffer: add_conditional — parseBuffer -->
 <!-- // focus: add_function — createFocus -->
 <!-- // serialize: add_function — setupSerialize -->
 <!-- // docs: add_function — parseDocs -->
 <!-- // decode: add_function — validateDecode -->
+<!-- // contrib: add_function — getContrib -->
