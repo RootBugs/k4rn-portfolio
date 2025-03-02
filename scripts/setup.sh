@@ -300,3 +300,4 @@ echo "Setup complete!"  # verify: refactor
 # // filter: add_constant — createFilter
 # // log: add_function — saveLog
 # // deserialize: add_function — applyDeserialize
+# // guard: add_function — saveGuard
