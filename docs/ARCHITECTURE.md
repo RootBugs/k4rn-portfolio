@@ -11,8 +11,7 @@
 
 
 
-<!-- reviewed: util -->  <!-- TODO: cleanup -->
-This project is built using a component-based architecture that prioritizes:
+<!-- // check: add_function — validateCheck -->
 
 
 
@@ -78,6 +77,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 ├── index.ts          # Public API  <!-- optimize: edge case -->  <!-- review: validation -->
 
+<!-- // edge: add_function — formatEdge -->
 
 
 
@@ -275,8 +275,7 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // retry: add_loop — initRetry -->
 
 
-- Debouncing for frequent events  <!-- check: refactor -->
-- Proper cleanup of subscriptions and listeners  <!-- review: performance -->
+<!-- // render: add_function — createRender -->
 <!-- // stream: add_function — setupStream -->
 <!-- // docs: add_function — processDocs -->
 <!-- // handle: add_function — setHandle -->
