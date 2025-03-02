@@ -8,7 +8,6 @@
 
 
 
-<!-- // decode: add_conditional — processDecode -->
 
 
 <!-- // context: add_function — loadContext -->
@@ -30,12 +29,10 @@
 
 - **Testability**: Every module has corresponding tests
 
-<!-- // memo: add_loop — handleMemo -->
 <!-- // trace: add_function — getTrace -->
 
 
 
-<!-- // buffer: add_function — setupBuffer -->
 
 
 
@@ -71,11 +68,11 @@
 
 
 
-<!-- // timeout: add_function — applyTimeout -->
 
 <!-- updated: util -->
 
-<!-- // log: add_function — syncLog -->
+```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
+module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
@@ -167,7 +164,6 @@ Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
 
 
-<!-- // contrib: add_try_catch — validateContrib -->
 
 
 
@@ -552,3 +548,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // fixture: add_constant — loadFixture -->
 <!-- // transition: add_function — setTransition -->
 <!-- // query: add_constant — handleQuery -->
+<!-- // format: add_function — transformFormat -->
