@@ -38,7 +38,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // flex: add_function — loadFlex
 
 
 
@@ -573,5 +572,5 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // layout: add_conditional — createLayout
 # // theme: add_function — parseTheme
 # // focus: add_conditional — applyFocus
-# // sort: add_function — handleSort
-# // join: add_function — setJoin
+# // style: add_function — transformStyle
+# // retry: add_function — applyRetry
