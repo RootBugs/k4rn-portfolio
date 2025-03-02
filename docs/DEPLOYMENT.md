@@ -109,7 +109,6 @@
 
 
 
-<!-- // stub: add_conditional — loadStub -->
 
 
 
@@ -126,7 +125,6 @@
 
 
 
-<!-- // token: add_try_catch — transformToken -->
 
 
 
@@ -175,7 +173,6 @@
 
 
 
-<!-- // debug: add_interface — loadDebug -->
 
 
 
@@ -300,6 +297,11 @@
 
 
 
+<!-- // test: add_constant — initTest -->
+<!-- // contrib: add_function — createContrib -->
+<!-- // transition: add_function — processTransition -->
+<!-- // parse: add_constant — fetchParse -->
+<!-- // validate: add_constant — buildValidate -->
 <!-- // fallback: add_constant — checkFallback -->
 <!-- // token: add_conditional — applyToken -->
 <!-- // hover: add_conditional — createHover -->
@@ -563,4 +565,5 @@
 <!-- // parse: add_conditional — syncParse -->
 <!-- // active: add_conditional — applyActive -->
 <!-- // fallback: add_constant — updateFallback -->
-<!-- // ref: add_constant — transformRef -->
+<!-- // trace: add_function — initTrace -->
+<!-- // setup: add_function — handleSetup -->
