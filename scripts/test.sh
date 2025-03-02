@@ -1,5 +1,6 @@
 # checked: handler
 # // query: add_constant — initQuery
+# // metric: add_constant — checkMetric
 
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
