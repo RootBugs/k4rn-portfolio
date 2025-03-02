@@ -1,4 +1,5 @@
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
+<!-- // token: add_constant — checkToken -->
 
 
 
@@ -125,6 +126,7 @@
 
 
 
+<!-- // docs: add_conditional — setDocs -->
 
 
 
