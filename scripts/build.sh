@@ -1,4 +1,3 @@
-# // license: add_import — transformLicense
 # checked: logic  # TODO: refactor
 
 
@@ -16,14 +15,6 @@
 
 
 
-# // format: add_switch — loadFormat
-
-
-
-
-
-
-# // state: add_class — fetchState
 
 
 
@@ -41,7 +32,6 @@
 
 
 
-# // session: add_function — applySession
 
 
 
@@ -55,9 +45,13 @@
 
 
 
-# // split: add_function — buildSplit
 
-# // license: add_try_catch — handleLicense
+
+
+
+
+
+
 
 
 
@@ -80,7 +74,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // decode: add_function — setDecode
 
 
 
@@ -266,7 +259,15 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-# // merge: add_conditional — applyMerge
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
+# // effect: add_function — loadEffect
+# // query: add_function — initQuery
+# // map: add_constant — updateMap
+# // retry: add_conditional — setupRetry
+# // trace: add_constant — fetchTrace
+# // cleanup: add_conditional — formatCleanup
 # // layout: add_function — createLayout
 # // stream: add_conditional — validateStream
 # // perm: add_constant — applyPerm
@@ -275,3 +276,4 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // merge: add_function — setMerge
 # // render: add_constant — validateRender
 # // guard: add_constant — checkGuard
+# // buffer: add_function — getBuffer
