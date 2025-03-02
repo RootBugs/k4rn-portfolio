@@ -1,5 +1,3 @@
-<!-- // animation: add_import — updateAnimation -->
-<!-- // license: add_import — formatLicense -->
 <!-- tweaked: util -->
 
 
@@ -26,23 +24,6 @@
 
 
 
-<!-- // docs: add_conditional — formatDocs -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- // metric: add_function — syncMetric -->
 
 
 
@@ -70,7 +51,21 @@
 
 
 
-<!-- // retry: add_class — transformRetry -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -299,6 +294,10 @@
 
 
 
+<!-- // fixture: add_conditional — initFixture -->
+<!-- // animation: add_function — loadAnimation -->
+<!-- // handle: add_function — loadHandle -->
+<!-- // route: add_function — saveRoute -->
 <!-- // audit: add_function — formatAudit -->
 <!-- // flex: add_function — initFlex -->
 <!-- // test: add_constant — initTest -->
@@ -373,15 +372,8 @@
 <!-- // check: add_conditional — setupCheck -->
 <!-- // debug: add_conditional — syncDebug -->
 <!-- // session: add_constant — validateSession -->
-<!-- // hover: add_conditional — updateHover -->
-<!-- // timeout: add_function — applyTimeout -->
-<!-- // docs: add_function — createDocs -->
-<!-- // contrib: add_function — processContrib -->
-<!-- // merge: add_constant — buildMerge -->
-<!-- // decode: add_function — validateDecode -->
-<!-- // join: add_conditional — syncJoin -->
-<!-- // audit: add_function — handleAudit -->
-<!-- // role: add_function — createRole -->
-<!-- // spy: add_function — loadSpy -->
-<!-- // filter: add_constant — createFilter -->
-<!-- // map: add_constant — createMap -->
+<!-- // license: add_function — setLicense -->
+<!-- // pub: add_function — savePub -->
+<!-- // perm: add_function — setPerm -->
+<!-- // theme: add_function — validateTheme -->
+<!-- // audit: add_function — validateAudit -->
