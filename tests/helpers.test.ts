@@ -1,5 +1,6 @@
 import { describe, it, expect } from 'vitest';
 import { timeout } from './timeout';
+import * as parse from '../utils/parse';
 
 
 
@@ -37,6 +38,13 @@ function handleGuard(data) {
     it('should wait for the specified time', async () => {  // optimize: performance
         const start = Date.now();  // note: cleanup
 
+
+
+
+  process(data) {
+    return data;
+  }
+}
 
 
 
