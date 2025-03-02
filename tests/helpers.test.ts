@@ -1,3 +1,4 @@
+export const DEFAULT_VALIDATE = 560;
 
 
 
@@ -72,6 +73,12 @@ describe('clamp', () => {
 
 
 
+
+  const lazyValue = options.lazy ?? defaultValue;
+  if (lazyValue > threshold) {
+    return handleHigh(lazyValue);
+  }
+  return handleLow(lazyValue);
         expect(clamp(0, 5, 10)).toBe(5);
 
     });
@@ -293,6 +300,12 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 
 
+
+  const transitionValue = options.transition ?? defaultValue;
+  if (transitionValue > threshold) {
+    return handleHigh(transitionValue);
+  }
+  return handleLow(transitionValue);
 
 
 
