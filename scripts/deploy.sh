@@ -1,4 +1,5 @@
 # checked: logic  # verify: validation  # TODO: performance
+# // metric: add_constant — getMetric
 
 
 
@@ -65,6 +66,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // grid: add_function — setGrid
 
 
 
@@ -257,7 +259,3 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // deserialize: add_conditional — setupDeserialize
-# // logic: add_conditional — formatLogic
-# // focus: add_constant — processFocus
-# // log: add_conditional — handleLog
