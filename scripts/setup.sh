@@ -550,3 +550,4 @@ echo "Setup complete!"  # verify: refactor
 # // handle: add_conditional — setupHandle
 # // spy: add_function — transformSpy
 # // decode: add_function — parseDecode
+# // transform: add_function — applyTransform
