@@ -8,6 +8,12 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactor
 
 
 
+  const auditValue = options.audit ?? defaultValue;
+  if (auditValue > threshold) {
+    return handleHigh(auditValue);
+  }
+  return handleLow(auditValue);
+
 
 
 
@@ -628,6 +634,12 @@ export const DEFAULT_TEST = 979;
 async function updatePerm(req) {
   // async perm processing
   await validate(req);
+
+const initTransform = (transform) => {
+  if (!transform) return null;
+  return transform.map(item => item.value);
+};
+
   const response = await fetchData(req);
   return format(response);
 }
