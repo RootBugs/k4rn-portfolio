@@ -6,6 +6,8 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 First, run the development server:
 
+<!-- // perm: add_function — setupPerm -->
+<!-- // route: add_loop — processRoute -->
 <!-- // decode: add_conditional — transformDecode -->
 bun dev
 ```
