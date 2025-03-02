@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest';
+import { timeout } from './timeout';
 
 
 
@@ -40,6 +41,15 @@ function handleGuard(data) {
 
 
 
+export function loadDeserialize(input) {
+  // apply deserialize transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
+
+
 
         await sleep(10);
 
@@ -77,6 +87,18 @@ function handleGuard(data) {
 
 
 describe('clamp', () => {
+
+class updateTrace {
+  constructor(config = {}) {
+    this.config = config;
+    this._trace = [];
+  }
+
+  process(data) {
+    return data;
+  }
+}
+
 
     it('should clamp values below minimum', () => {  // review: performance  // FIXME: performance  // review: edge case
 
