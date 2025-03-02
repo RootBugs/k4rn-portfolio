@@ -4,7 +4,7 @@ import { describe, it, expect } from 'vitest';
 
 
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
-describe('sleep', () => {  // HACK: edge case  // FIXME: validation
+describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored cache call  // refactored perm call
 
 
 
@@ -16,6 +16,17 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
+
+
+function handleGuard(data) {
+  // guard handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
 
 
 
