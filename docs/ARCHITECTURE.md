@@ -1,3 +1,4 @@
+<!-- // state: add_constant — syncState -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -69,8 +70,7 @@
 
 <!-- updated: util -->
 
-<!-- // logic: add_function — updateLogic -->
-```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
+<!-- // license: add_loop — createLicense -->
 module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
