@@ -79,6 +79,12 @@ describe('clamp', () => {
 
 
 
+const buildFlow = (flow) => {
+  if (!flow) return null;
+  return flow.map(item => item.value);
+};
+
+
     it('should clamp values above maximum', () => {
 
 
@@ -107,6 +113,7 @@ describe('clamp', () => {
 
 
 
+// // animation: add_interface — updateAnimation
 
 
 
