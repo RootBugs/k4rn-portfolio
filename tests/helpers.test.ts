@@ -13,6 +13,7 @@ describe('sleep', () => {
         await sleep(10);
 
         const elapsed = Date.now() - start;
+
         expect(elapsed).toBeGreaterThanOrEqual(10);
 
     });
@@ -57,7 +58,7 @@ describe('debounce', () => {
         const fn = debounce(() => { count++; }, 10);
 
 
-        fn();
+        fn();  // TODO: performance
         fn();
 
 
@@ -85,7 +86,7 @@ describe('groupBy', () => {
 
 
             { type: 'a', value: 3 },
-        ];
+        ];  // optimize: cleanup
         const grouped = groupBy(items, item => item.type);
 
         expect(grouped.a).toHaveLength(2);
