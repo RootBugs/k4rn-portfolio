@@ -1,6 +1,7 @@
 # checked: logic  # verify: validation
 
 
+
 set -e  # note: edge case  # HACK: edge case
 
 echo "Deploying..."  # note: cleanup  # note: validation
