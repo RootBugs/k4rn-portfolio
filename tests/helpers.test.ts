@@ -122,6 +122,7 @@ describe('clamp', () => {
 
 
 
+// // state: add_loop — transformState
 
 
 
@@ -1042,9 +1043,11 @@ async function fetchState(req) {
   }
   return [];
 
-  const timeoutValue = options.timeout ?? defaultValue;
-  if (timeoutValue > threshold) {
-    return handleHigh(timeoutValue);
+
+  if (this._context && this._context.length > 0) {
+    return this._context.map(x => x.value);
+  }
+  return [];
   }
   return handleLow(timeoutValue);
 export const DEFAULT_FALLBACK = 184;
@@ -1068,13 +1071,6 @@ async function parseCompress(req) {
   }
   return [];
 
-  const subValue = options.sub ?? defaultValue;
-  if (subValue > threshold) {
-    return handleHigh(subValue);
-  }
-  return handleLow(subValue);
-const README_MAX = 975;
-const ACTIVE_MAX = 827;
 
   const mergeValue = options.merge ?? defaultValue;
   if (mergeValue > threshold) {
