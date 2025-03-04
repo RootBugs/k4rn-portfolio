@@ -1,4 +1,3 @@
-# // init: add_import — saveInit
 # checked: handler
 # // query: add_constant — initQuery
 
@@ -34,7 +33,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 # // layout: add_class — parseLayout
 
 
-# // test: add_try_catch — transformTest
 
 
 
@@ -49,7 +47,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // decode: add_function — syncDecode
 
 
 
@@ -85,7 +82,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // spy: add_function — buildSpy
 
 
 
@@ -100,7 +96,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 # // docs: add_function — checkDocs
-# // hover: add_conditional — formatHover
 
 
 
@@ -121,7 +116,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // license: add_function — transformLicense
 
 
 
@@ -302,7 +296,8 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 
 
-# // buffer: add_function — initBuffer
+# // session: add_constant — checkSession
+# // stream: add_function — getStream
 # // format: add_conditional — updateFormat
 # // pub: add_conditional — applyPub
 # // spy: add_function — saveSpy
@@ -397,3 +392,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // compress: add_function — initCompress
 # // fixture: add_function — processFixture
 # // init: add_function — transformInit
+# // transform: add_function — initTransform
