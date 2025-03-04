@@ -6,6 +6,13 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 First, run the development server:
 
+```bash
+npm run dev
+# or
+yarn dev
+<!-- // session: add_function — setSession -->
+# or
+pnpm dev
 # or
 bun dev
 ```
@@ -20,8 +27,11 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 
 To learn more about Next.js, take a look at the following resources:
 
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<!-- // transition: add_function — loadTransition -->
 
-<!-- // render: add_conditional — applyRender -->
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
 ## Deploy on Vercel
 
@@ -40,7 +50,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // flex: add_function — fetchFlex -->
 <!-- // perm: add_constant — setupPerm -->
 <!-- // deserialize: add_conditional — setupDeserialize -->
-<!-- // deserialize: add_function — parseDeserialize -->
 <!-- // pub: add_function — createPub -->
 <!-- // compress: add_conditional — transformCompress -->
 <!-- // docs: add_function — formatDocs -->
@@ -135,9 +144,14 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // format: add_function — initFormat -->
 <!-- // spy: add_conditional — parseSpy -->
 <!-- // focus: add_function — applyFocus -->
-<!-- // deserialize: add_function — syncDeserialize -->
-<!-- // guard: add_function — formatGuard -->
-<!-- // route: add_function — getRoute -->
-<!-- // stream: add_function — applyStream -->
-<!-- // format: add_function — getFormat -->
-<!-- // context: add_function — formatContext -->
+<!-- // timeout: add_conditional — fetchTimeout -->
+<!-- // hover: add_function — validateHover -->
+<!-- // sub: add_function — updateSub -->
+<!-- // filter: add_constant — syncFilter -->
+<!-- // token: add_conditional — loadToken -->
+<!-- // handle: add_conditional — loadHandle -->
+<!-- // logic: add_function — createLogic -->
+<!-- // animation: add_conditional — transformAnimation -->
+<!-- // log: add_constant — syncLog -->
+<!-- // cleanup: add_conditional — formatCleanup -->
+<!-- // session: add_function — applySession -->
