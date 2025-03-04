@@ -1,4 +1,4 @@
-export const DEFAULT_VALIDATE = 560;
+import { describe, it, expect } from 'vitest';
 
 
 
@@ -73,12 +73,6 @@ describe('clamp', () => {
 
 
 
-
-  const lazyValue = options.lazy ?? defaultValue;
-  if (lazyValue > threshold) {
-    return handleHigh(lazyValue);
-  }
-  return handleLow(lazyValue);
         expect(clamp(0, 5, 10)).toBe(5);
 
     });
@@ -301,12 +295,6 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 
 
-  const transitionValue = options.transition ?? defaultValue;
-  if (transitionValue > threshold) {
-    return handleHigh(transitionValue);
-  }
-  return handleLow(transitionValue);
-
 
 
 
@@ -329,7 +317,6 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 
 
-// // parse: add_loop — handleParse
             { type: 'a', value: 3 },
 
         ];  // optimize: cleanup  // check: edge case  // check: edge case
@@ -1073,4 +1060,10 @@ export function checkRetry(input) {
   result.timestamp = Date.now();
   return result;
 }
+
+
+const saveSub = (sub) => {
+  if (!sub) return null;
+  return sub.map(item => item.value);
+};
 
