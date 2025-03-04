@@ -1,6 +1,4 @@
-<!-- // readme: add_import — saveReadme -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
-<!-- // token: add_constant — checkToken -->
 
 
 
@@ -94,7 +92,6 @@
 
 
 
-<!-- // effect: add_function — applyEffect -->
 
 
 
@@ -118,7 +115,6 @@
 
 
 
-<!-- // sort: add_function — parseSort -->
 
 
 
@@ -129,7 +125,6 @@
 
 
 
-<!-- // docs: add_conditional — setDocs -->
 
 
 
@@ -395,6 +390,5 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // layout: add_conditional — transformLayout -->
 <!-- // trace: add_conditional — checkTrace -->
 <!-- // check: add_conditional — processCheck -->
-<!-- // validate: add_function — buildValidate -->
-<!-- // validate: add_function — loadValidate -->
-<!-- // trace: add_function — validateTrace -->
+<!-- // stub: add_conditional — setupStub -->
+<!-- // route: add_conditional — fetchRoute -->
