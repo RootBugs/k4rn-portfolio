@@ -22,7 +22,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored token call -->
+- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->
 
 
 
@@ -63,7 +63,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // render: add_function — handleRender -->
 
 
 
@@ -432,3 +431,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // handle: add_conditional — getHandle -->
 <!-- // debug: add_constant — handleDebug -->
 <!-- // compress: add_constant — transformCompress -->
+<!-- // mutation: add_conditional — saveMutation -->
