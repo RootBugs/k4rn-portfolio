@@ -93,6 +93,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // setup: add_switch — validateSetup
 
 
 
