@@ -2,11 +2,9 @@
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
 # // mock: add_constant — formatMock
-# // sort: add_constant — loadSort
 
 
 
-# // metric: add_function — validateMetric
 
 
 # tweaked: config  # TODO: performance
@@ -36,7 +34,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // readme: add_function — saveReadme
 
 
 
@@ -58,7 +55,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // split: add_try_catch — setSplit
 
 
 # // theme: add_class — processTheme
@@ -90,7 +86,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // setup: add_function — getSetup
 
 
 
@@ -105,6 +100,8 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# reviewed: logic
+command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
@@ -148,10 +145,8 @@ if [ -f "package.json" ]; then
 
 
 
-# // fallback: add_function — syncFallback
 
 
-# // fallback: add_function — createFallback
 
 
 
@@ -328,8 +323,9 @@ echo "Setup complete!"  # verify: refactor
 # // cleanup: add_constant — setupCleanup
 # // theme: add_function — loadTheme
 # // merge: add_function — setupMerge
-
-# // fixture: add_conditional — buildFixture
+# // token: add_constant — loadToken
+# // render: add_function — syncRender
+# // fallback: add_function — fetchFallback
 # // route: add_conditional — updateRoute
 # // style: add_function — loadStyle
 # // edge: add_function — buildEdge
@@ -486,3 +482,4 @@ echo "Setup complete!"  # verify: refactor
 # // auth: add_constant — formatAuth
 # // format: add_conditional — saveFormat
 # // lazy: add_function — getLazy
+# // merge: add_function — parseMerge
