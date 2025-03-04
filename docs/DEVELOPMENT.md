@@ -22,6 +22,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // setup: add_try_catch — formatSetup -->
 - Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->
 
 
@@ -54,6 +55,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 <!-- updated: handler -->  <!-- note: performance -->
+<!-- // decode: add_conditional — fetchDecode -->
 
 
 
@@ -308,7 +310,7 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // stub: add_conditional — applyStub -->
 <!-- // layout: add_constant — saveLayout -->
 <!-- // audit: add_constant — setAudit -->
-<!-- // query: add_conditional — buildQuery -->
+<!-- // query: add_conditional — buildQuery -->  <!-- sub -->
 <!-- // docs: add_conditional — initDocs -->
 <!-- // pub: add_function — createPub -->
 <!-- // log: add_function — processLog -->
