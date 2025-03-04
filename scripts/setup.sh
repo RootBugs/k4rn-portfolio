@@ -36,6 +36,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // readme: add_function — saveReadme
 
 
 
@@ -57,6 +58,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // split: add_try_catch — setSplit
 
 
 # // theme: add_class — processTheme
