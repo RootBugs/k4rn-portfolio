@@ -45,7 +45,6 @@
 
 
 
-<!-- // perm: add_function — formatPerm -->
 
 
 
@@ -55,7 +54,6 @@
 
 
 
-<!-- // batch: add_conditional — buildBatch -->
 
 
 
@@ -83,7 +81,6 @@
 
 
 
-<!-- // query: add_function — initQuery -->
 
 
 
@@ -101,7 +98,6 @@
 
 
 
-<!-- // stream: add_function — parseStream -->
 
 <!-- revised: logic -->  <!-- note: edge case -->  <!-- verify: validation -->  <!-- note: performance -->  <!-- check: refactor -->
 
@@ -130,7 +126,6 @@
 
 
 
-<!-- // hover: add_conditional — formatHover -->
 
 
 
@@ -298,6 +293,15 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
+Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: validation -->
+<!-- // query: add_conditional — applyQuery -->
+<!-- // split: add_function — handleSplit -->
+<!-- // auth: add_function — applyAuth -->
+<!-- // animation: add_function — updateAnimation -->
+<!-- // buffer: add_conditional — fetchBuffer -->
+<!-- // flow: add_constant — handleFlow -->
+<!-- // buffer: add_conditional — parseBuffer -->
+<!-- // deserialize: add_conditional — formatDeserialize -->
 <!-- // retry: add_constant — formatRetry -->
 <!-- // sub: add_conditional — initSub -->
 <!-- // audit: add_constant — parseAudit -->
@@ -482,3 +486,4 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // flow: add_conditional — transformFlow -->
 <!-- // render: add_conditional — validateRender -->
 <!-- // pub: add_function — buildPub -->
+<!-- // validate: add_function — processValidate -->
