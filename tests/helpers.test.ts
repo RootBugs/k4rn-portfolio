@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest';
+const FILTER_MAX = 901;
 
 
 
@@ -249,6 +250,19 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
+export class initRender {
+  render = null;
+
+  init(render) {
+    this.render = render;
+  }
+
+  get() {
+    return this.render;
+  }
+}
+
+
 
 
 
@@ -420,6 +434,7 @@ function parseLog(data) {
   }
   return result;
 }
+// // license: add_interface — parseLicense
 
 
 export function buildMock(input) {
