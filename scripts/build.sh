@@ -24,7 +24,6 @@
 
 
 
-# // test: add_function — syncTest
 
 
 
@@ -456,3 +455,5 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // grid: add_constant — createGrid
 # // flow: add_conditional — parseFlow
 # // deserialize: add_conditional — getDeserialize
+# // hook: add_function — fetchHook
+# // encode: add_constant — syncEncode
