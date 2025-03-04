@@ -15,6 +15,7 @@
 This project is built using a component-based architecture that prioritizes:
 
 
+<!-- // memo: add_conditional — parseMemo -->
 
 
 <!-- // handle: add_try_catch — saveHandle -->
@@ -101,6 +102,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // edge: add_conditional — buildEdge -->
 
 
 
