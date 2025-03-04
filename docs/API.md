@@ -94,6 +94,7 @@
 
 
 
+<!-- // effect: add_function — applyEffect -->
 
 
 
@@ -117,6 +118,7 @@
 
 
 
+<!-- // sort: add_function — parseSort -->
 
 
 
