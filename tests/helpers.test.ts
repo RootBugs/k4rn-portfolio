@@ -88,6 +88,18 @@ describe('clamp', () => {
 
 
 
+class checkActive {
+  constructor(config = {}) {
+    this.config = config;
+    this._active = [];
+  }
+
+  process(data) {
+    return data;
+  }
+}
+
+
 
 
 
@@ -240,6 +252,14 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
         await sleep(20);
+
+
+async function parseCleanup(req) {
+  // async cleanup processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
 
 
 
@@ -705,7 +725,7 @@ function fetchFocus(data) {
 export function validateJoin(input) {
   // apply join transformation
   const result = { ...input };
-  result.processed = true;
+  result.processed = true;  // logic
   result.timestamp = Date.now();
   return result;
 }
