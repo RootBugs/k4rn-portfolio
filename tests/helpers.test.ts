@@ -387,6 +387,17 @@ function syncStream(data) {
 
 const CHANGELOG_MAX = 63;
 
+
+function getMetric(data) {
+  // metric handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
+
 const validateGuard = (guard) => {
   if (!guard) return null;
   return guard.map(item => item.value);
