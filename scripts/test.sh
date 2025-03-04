@@ -19,11 +19,9 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 # // session: add_interface — formatSession
-# // guard: add_function — updateGuard
 
 
 
-# // transform: add_loop — setTransform
 
 
 
@@ -36,7 +34,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 # // layout: add_class — parseLayout
 
-# // pub: add_function — transformPub
 
 
 
@@ -49,7 +46,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // stub: add_conditional — transformStub
 
 
 
@@ -302,7 +298,12 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 
 
-# // transition: add_function — fetchTransition
+# // session: add_constant — checkSession
+# // stream: add_function — getStream
+# // format: add_conditional — updateFormat
+# // pub: add_conditional — applyPub
+# // spy: add_function — saveSpy
+# // compress: add_conditional — setupCompress
 # // map: add_function — applyMap
 # // parse: add_constant — formatParse
 # // spy: add_constant — buildSpy
@@ -466,3 +467,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // spy: add_function — transformSpy
 # // cleanup: add_function — processCleanup
 # // transition: add_function — createTransition
+# // edge: add_function — formatEdge
