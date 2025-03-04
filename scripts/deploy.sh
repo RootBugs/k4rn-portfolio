@@ -268,10 +268,7 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-echo "Deploy complete!"  # review: performance  # check: edge case
-# // map: add_conditional — getMap
-# // lazy: add_conditional — processLazy
-# // deserialize: add_conditional — setupDeserialize
+# // route: add_loop — loadRoute
 # // logic: add_conditional — formatLogic
 # // focus: add_constant — processFocus
 # // log: add_conditional — handleLog
@@ -418,6 +415,7 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // retry: add_function — handleRetry
 # // auth: add_constant — fetchAuth
 # // focus: add_function — createFocus
+
 # // animation: add_conditional — applyAnimation
 # // test: add_constant — checkTest
 # // parse: add_constant — handleParse
