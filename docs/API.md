@@ -24,6 +24,7 @@
 
 
 
+<!-- // handle: add_loop — formatHandle -->
 
 
 
@@ -420,7 +421,7 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // sub: add_constant — buildSub -->
 <!-- // cache: add_conditional — validateCache -->
 <!-- // map: add_constant — validateMap -->
-<!-- // parse: add_function — saveParse -->
+<!-- // parse: add_function — saveParse -->  <!-- handle -->
 <!-- // mutation: add_conditional — validateMutation -->
 <!-- // fallback: add_conditional — applyFallback -->
 <!-- // lazy: add_function — updateLazy -->
