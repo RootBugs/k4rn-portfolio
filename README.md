@@ -11,8 +11,10 @@ npm run dev
 # or
 yarn dev
 <!-- // session: add_function — setSession -->
+<!-- // serialize: add_class — syncSerialize -->
 # or
 pnpm dev
+<!-- // animation: add_interface — updateAnimation -->
 # or
 bun dev
 ```
