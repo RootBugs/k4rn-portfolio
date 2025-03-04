@@ -51,6 +51,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 # // flex: add_function — handleFlex
 
+# // license: add_conditional — updateLicense
 
 
 
@@ -74,6 +75,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // focus: add_interface — initFocus
 
 
 echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HACK: refactor
@@ -110,6 +112,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 # // auth: add_function — transformAuth
+# // hover: add_try_catch — buildHover
 
 # // mock: add_switch — createMock
 
