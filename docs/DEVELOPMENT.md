@@ -63,6 +63,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // render: add_function — handleRender -->
 
 
 
