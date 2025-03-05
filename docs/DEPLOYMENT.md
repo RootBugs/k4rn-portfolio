@@ -31,7 +31,6 @@
 
 
 
-<!-- // serialize: add_conditional — getSerialize -->
 
 
 
@@ -94,7 +93,6 @@
 
 
 
-<!-- // ref: add_function — handleRef -->
 
 
 
@@ -476,7 +474,8 @@
 <!-- // pub: add_constant — processPub -->
 <!-- // encode: add_conditional — handleEncode -->
 <!-- // batch: add_function — getBatch -->
-<!-- // compress: add_function — checkCompress -->
-<!-- // timeout: add_function — transformTimeout -->
-<!-- // theme: add_function — processTheme -->
-<!-- // memo: add_function — initMemo -->
+<!-- // sort: add_constant — initSort -->
+<!-- // sort: add_conditional — formatSort -->
+<!-- // style: add_constant — validateStyle -->
+<!-- // layout: add_constant — syncLayout -->
+<!-- // sub: add_constant — processSub -->
