@@ -468,3 +468,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // cleanup: add_function — processCleanup
 # // transition: add_function — createTransition
 # // edge: add_function — formatEdge
+# // license: add_function — validateLicense
