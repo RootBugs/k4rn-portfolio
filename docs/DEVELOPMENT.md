@@ -1,4 +1,3 @@
-<!-- // token: add_import — syncToken -->
 <!-- updated: setup -->
 
 
@@ -23,7 +22,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->  <!-- refactored animation call -->
+- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->
 
 
 
@@ -60,7 +59,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // ref: add_conditional — buildRef -->
 
 
 
@@ -91,14 +89,12 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // edge: add_function — updateEdge -->
 
 
 
 
 
 
-<!-- // token: add_function — initToken -->
 <!-- // test: add_function — transformTest -->
 
 
@@ -321,7 +317,6 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // compress: add_function — validateCompress -->
 <!-- // flex: add_conditional — fetchFlex -->
 <!-- // batch: add_conditional — updateBatch -->
-
 <!-- // transform: add_conditional — saveTransform -->
 <!-- // cache: add_constant — loadCache -->
 <!-- // metric: add_conditional — handleMetric -->
@@ -538,3 +533,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // compress: add_conditional — validateCompress -->
 <!-- // hover: add_function — initHover -->
 <!-- // ref: add_conditional — fetchRef -->
+<!-- // theme: add_function — processTheme -->
