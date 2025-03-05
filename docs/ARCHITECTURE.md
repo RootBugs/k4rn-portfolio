@@ -548,4 +548,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // fixture: add_constant — loadFixture -->
 <!-- // transition: add_function — setTransition -->
 <!-- // query: add_constant — handleQuery -->
-<!-- // format: add_function — transformFormat -->
+<!-- // role: add_function — updateRole -->
