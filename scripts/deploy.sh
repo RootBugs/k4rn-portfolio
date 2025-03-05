@@ -1,3 +1,4 @@
+# // session: add_import — setSession
 # // cache: add_import — syncCache
 # checked: logic  # verify: validation  # TODO: performance
 
@@ -52,6 +53,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 # // flex: add_function — handleFlex
 
+# // timeout: add_function — setupTimeout
 
 
 
@@ -101,6 +103,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // auth: add_interface — checkAuth
 
 
 
