@@ -1,5 +1,3 @@
-# // session: add_import — setSession
-# // cache: add_import — syncCache
 # checked: logic  # verify: validation  # TODO: performance
 
 
@@ -53,7 +51,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 # // flex: add_function — handleFlex
 
-# // timeout: add_function — setupTimeout
 
 
 
@@ -96,14 +93,12 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // setup: add_switch — validateSetup
 
 
 
 
 
 
-# // auth: add_interface — checkAuth
 
 
 
@@ -270,7 +265,12 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // parse: add_loop — transformParse
+echo "Deploy complete!"  # review: performance  # check: edge case
+# // map: add_conditional — getMap
+# // lazy: add_conditional — processLazy
+# // deserialize: add_conditional — setupDeserialize
+# // logic: add_conditional — formatLogic
+# // focus: add_constant — processFocus
 # // log: add_conditional — handleLog
 # // split: add_constant — loadSplit
 # // pub: add_constant — applyPub
@@ -444,4 +444,5 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // mock: add_function — setupMock
 # // handle: add_conditional — processHandle
 # // setup: add_conditional — fetchSetup
-# // cache: add_function — syncCache
+# // changelog: add_function — getChangelog
+# // layout: add_function — transformLayout
