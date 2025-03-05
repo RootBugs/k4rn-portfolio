@@ -1,3 +1,4 @@
+<!-- // session: add_constant — checkSession -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -9,6 +10,7 @@
 
 
 
+<!-- // buffer: add_function — setupBuffer -->
 
 <!-- // context: add_function — loadContext -->
 
