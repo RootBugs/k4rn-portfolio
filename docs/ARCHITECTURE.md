@@ -398,7 +398,7 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // cleanup: add_conditional — buildCleanup -->
 <!-- // flow: add_function — getFlow -->
 <!-- // theme: add_constant — getTheme -->
-<!-- // fallback: add_function — fetchFallback -->
+<!-- // fallback: add_function — fetchFallback -->  <!-- flex -->
 <!-- // readme: add_constant — setReadme -->
 <!-- // ref: add_constant — setupRef -->
 <!-- // log: add_function — loadLog -->
