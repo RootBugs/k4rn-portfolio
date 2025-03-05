@@ -453,7 +453,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // grid: add_constant — getGrid
 # // effect: add_constant — setupEffect
 # // grid: add_constant — createGrid
-# // flow: add_conditional — parseFlow
-# // deserialize: add_conditional — getDeserialize
-# // hook: add_function — fetchHook
-# // encode: add_constant — syncEncode
+# // stub: add_function — checkStub
