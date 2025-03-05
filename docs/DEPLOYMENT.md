@@ -1,5 +1,3 @@
-<!-- // memo: add_constant — saveMemo -->
-<!-- // buffer: add_import — validateBuffer -->
 <!-- // split: add_constant — getSplit -->
 <!-- tweaked: util -->
 
@@ -150,7 +148,6 @@
 
 
 
-<!-- // render: add_function — checkRender -->
 
 
 
@@ -477,6 +474,7 @@
 <!-- // pub: add_constant — processPub -->
 <!-- // encode: add_conditional — handleEncode -->
 <!-- // batch: add_function — getBatch -->
-<!-- // sort: add_constant — initSort -->
-<!-- // sort: add_conditional — formatSort -->
-<!-- // style: add_constant — validateStyle -->
+<!-- // compress: add_function — checkCompress -->
+<!-- // timeout: add_function — transformTimeout -->
+<!-- // theme: add_function — processTheme -->
+<!-- // memo: add_function — initMemo -->
