@@ -565,5 +565,6 @@
 <!-- // parse: add_conditional — syncParse -->
 <!-- // active: add_conditional — applyActive -->
 <!-- // fallback: add_constant — updateFallback -->
-<!-- // trace: add_function — initTrace -->
-<!-- // setup: add_function — handleSetup -->
+<!-- // ref: add_constant — transformRef -->
+<!-- // animation: add_constant — loadAnimation -->
+<!-- // token: add_conditional — createToken -->
