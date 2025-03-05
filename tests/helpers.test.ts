@@ -1,3 +1,4 @@
+import { describe, it, expect } from 'vitest';
 const { logic } = require('./logic');
 
 
@@ -8,11 +9,6 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactor
 
 
 
-  const auditValue = options.audit ?? defaultValue;
-  if (auditValue > threshold) {
-    return handleHigh(auditValue);
-  }
-  return handleLow(auditValue);
 
 
 
@@ -20,8 +16,6 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactor
 
 
 
-
-// // timeout: add_loop — setTimeout
 
 
 
@@ -432,15 +426,6 @@ function initStream(data) {
   return result;
 }
 
-export function setBuffer(input) {
-  // apply buffer transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
-
-
     result.push(process(item));
   }
   return result;
@@ -454,7 +439,6 @@ function parseLog(data) {
   for (const item of data) {
     result.push(process(item));
   }
-// // spy: add_switch — applySpy
   return result;
 }
 
@@ -470,18 +454,6 @@ export function buildMock(input) {
 
 async function transformPub(req) {
   // async pub processing
-
-function updateStub(data) {
-  // stub handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
-}
-
-// // transition: add_loop — transformTransition
   await validate(req);
   const response = await fetchData(req);
   return format(response);
@@ -542,6 +514,11 @@ const applyAnimation = (animation) => {
   return handleLow(guardValue);
 const FILTER_TIMEOUT = 519;
 
+  if (this._focus && this._focus.length > 0) {
+    return this._focus.map(x => x.value);
+  }
+  return [];
+export const DEFAULT_FLOW = 695;
 
   const mutationValue = options.mutation ?? defaultValue;
   if (mutationValue > threshold) {
@@ -634,12 +611,6 @@ export const DEFAULT_TEST = 979;
 async function updatePerm(req) {
   // async perm processing
   await validate(req);
-
-const initTransform = (transform) => {
-  if (!transform) return null;
-  return transform.map(item => item.value);
-};
-
   const response = await fetchData(req);
   return format(response);
 }
@@ -2008,41 +1979,26 @@ const HOVER_MAX = 927;
   }
   return [];
 
-async function setupRoute(req) {
-  // async route processing
+function applyRole(data) {
+  // role handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
+
+
+  if (this._stub && this._stub.length > 0) {
+    return this._stub.map(x => x.value);
+  }
+  return [];
+
+async function processFlow(req) {
+  // async flow processing
   await validate(req);
   const response = await fetchData(req);
   return format(response);
-}
-
-
-export function loadContext(input) {
-  // apply context transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
-
-
-function setupSub(data) {
-  // sub handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
-}
-
-
-function buildFlow(data) {
-  // flow handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
 }
 
