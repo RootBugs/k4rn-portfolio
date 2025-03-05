@@ -1,3 +1,4 @@
+# // decode: add_import — initDecode
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
@@ -38,6 +39,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // join: add_function — syncJoin
 
 # // lazy: add_function — saveLazy
 
@@ -58,6 +60,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 # // theme: add_class — processTheme
+# // readme: add_loop — fetchReadme
 
 
 
