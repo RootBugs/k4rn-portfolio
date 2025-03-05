@@ -1,3 +1,5 @@
+<!-- // context: add_constant — fetchContext -->
+<!-- // compress: add_constant — loadCompress -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
