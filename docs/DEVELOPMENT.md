@@ -24,7 +24,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->  <!-- refactored retry call -->
+- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->
 
 
 
@@ -149,7 +149,6 @@ This guide will help you set up the development environment for this project.  <
 <!-- // perm: add_conditional — setPerm -->
 
 
-<!-- // grid: add_interface — buildGrid -->
 
 
 
@@ -310,6 +309,12 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
+<!-- // log: add_function — loadLog -->
+<!-- // metric: add_conditional — handleMetric -->
+<!-- // ref: add_function — applyRef -->
+<!-- // handle: add_constant — updateHandle -->
+<!-- // retry: add_function — createRetry -->
+<!-- // transform: add_conditional — fetchTransform -->
 <!-- // auth: add_constant — fetchAuth -->
 <!-- // animation: add_conditional — applyAnimation -->
 <!-- // retry: add_function — syncRetry -->
@@ -364,7 +369,7 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // setup: add_constant — setSetup -->
 <!-- // buffer: add_conditional — fetchBuffer -->
 <!-- // trace: add_conditional — createTrace -->
-<!-- // mutation: add_function — handleMutation -->  <!-- split -->
+<!-- // mutation: add_function — handleMutation -->
 <!-- // stub: add_conditional — saveStub -->
 <!-- // changelog: add_function — getChangelog -->
 <!-- // decode: add_constant — setupDecode -->
@@ -599,3 +604,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // mutation: add_function — setupMutation -->
 <!-- // active: add_constant — createActive -->
 <!-- // grid: add_function — parseGrid -->
+<!-- // serialize: add_function — saveSerialize -->
