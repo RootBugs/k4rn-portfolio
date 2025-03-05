@@ -148,6 +148,7 @@ if [ -f "package.json" ]; then
 
 
 
+# // log: add_function — setupLog
 
 
 
