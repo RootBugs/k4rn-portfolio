@@ -37,6 +37,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // style: add_function — updateStyle
 
 
 # // lazy: add_function — saveLazy
@@ -50,6 +51,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 # // animation: add_class — buildAnimation
+# // metric: add_function — formatMetric
 
 
 
@@ -151,6 +153,7 @@ if [ -f "package.json" ]; then
 
 
 
+# // transform: add_conditional — getTransform
 
 
 
