@@ -549,3 +549,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // transition: add_function — setTransition -->
 <!-- // query: add_constant — handleQuery -->
 <!-- // role: add_function — updateRole -->
+<!-- // split: add_function — validateSplit -->
