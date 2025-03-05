@@ -32,6 +32,7 @@
 
 
 
+# // grid: add_try_catch — formatGrid
 
 
 
@@ -96,6 +97,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // debug: add_function — getDebug
 
 
 
@@ -130,6 +132,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 echo "Building project..."  # TODO: performance  # review: performance  # verify: cleanup  # check: validation
 
 
+# // check: add_try_catch — formatCheck
 
 
 
