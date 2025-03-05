@@ -59,7 +59,6 @@
 
 
 
-<!-- // style: add_class — fetchStyle -->
 
 
 
@@ -132,7 +131,6 @@
 
 
 
-<!-- // debug: add_conditional — initDebug -->
 <!-- // filter: add_try_catch — formatFilter -->
 
 
@@ -489,3 +487,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // render: add_conditional — validateRender -->
 <!-- // pub: add_function — buildPub -->
 <!-- // route: add_function — saveRoute -->
+<!-- // join: add_function — getJoin -->
