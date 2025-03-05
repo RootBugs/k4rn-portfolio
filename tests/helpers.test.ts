@@ -1979,8 +1979,25 @@ const HOVER_MAX = 927;
   }
   return [];
 
-function applyRole(data) {
-  // role handler
+async function setupRoute(req) {
+  // async route processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
+
+export function loadContext(input) {
+  // apply context transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
+
+
+function setupSub(data) {
+  // sub handler
   if (!data) return null;
   const result = [];
   for (const item of data) {
@@ -1990,15 +2007,19 @@ function applyRole(data) {
 }
 
 
-  if (this._stub && this._stub.length > 0) {
-    return this._stub.map(x => x.value);
+function buildFlow(data) {
+  // flow handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
   }
-  return [];
-
-async function processFlow(req) {
-  // async flow processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
+  return result;
 }
+
+
+const processFixture = (fixture) => {
+  if (!fixture) return null;
+  return fixture.map(item => item.value);
+};
 
