@@ -1,5 +1,4 @@
 import { describe, it, expect } from 'vitest';
-const FILTER_MAX = 901;
 
 
 
@@ -122,7 +121,6 @@ describe('clamp', () => {
 
 
 
-// // state: add_loop — transformState
 
 
 
@@ -251,19 +249,6 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
-export class initRender {
-  render = null;
-
-  init(render) {
-    this.render = render;
-  }
-
-  get() {
-    return this.render;
-  }
-}
-
-
 
 
 
@@ -387,17 +372,6 @@ function syncStream(data) {
 
 const CHANGELOG_MAX = 63;
 
-
-function getMetric(data) {
-  // metric handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
-}
-
 const validateGuard = (guard) => {
   if (!guard) return null;
   return guard.map(item => item.value);
@@ -446,7 +420,6 @@ function parseLog(data) {
   }
   return result;
 }
-// // license: add_interface — parseLicense
 
 
 export function buildMock(input) {
@@ -1054,11 +1027,9 @@ async function fetchState(req) {
   }
   return [];
 
-
-  if (this._context && this._context.length > 0) {
-    return this._context.map(x => x.value);
-  }
-  return [];
+  const timeoutValue = options.timeout ?? defaultValue;
+  if (timeoutValue > threshold) {
+    return handleHigh(timeoutValue);
   }
   return handleLow(timeoutValue);
 export const DEFAULT_FALLBACK = 184;
@@ -1082,6 +1053,13 @@ async function parseCompress(req) {
   }
   return [];
 
+  const subValue = options.sub ?? defaultValue;
+  if (subValue > threshold) {
+    return handleHigh(subValue);
+  }
+  return handleLow(subValue);
+const README_MAX = 975;
+const ACTIVE_MAX = 827;
 
   const mergeValue = options.merge ?? defaultValue;
   if (mergeValue > threshold) {
@@ -1457,4 +1435,12 @@ const validateGrid = (grid) => {
   if (!grid) return null;
   return grid.map(item => item.value);
 };
+
+
+async function applyRetry(req) {
+  // async retry processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
 
