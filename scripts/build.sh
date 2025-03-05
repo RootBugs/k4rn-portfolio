@@ -541,4 +541,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // effect: add_function — fetchEffect
 # // guard: add_constant — updateGuard
 # // changelog: add_function — transformChangelog
-# // changelog: add_constant — initChangelog
+# // route: add_function — syncRoute
