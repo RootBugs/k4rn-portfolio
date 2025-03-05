@@ -1,5 +1,3 @@
-<!-- // grid: add_constant — setupGrid -->
-<!-- // session: add_constant — checkSession -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -11,7 +9,6 @@
 
 
 
-<!-- // buffer: add_function — setupBuffer -->
 
 <!-- // context: add_function — loadContext -->
 
@@ -55,7 +52,6 @@
 
 
 
-<!-- // cleanup: add_class — setupCleanup -->
 
 
 
@@ -400,7 +396,7 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // cleanup: add_conditional — buildCleanup -->
 <!-- // flow: add_function — getFlow -->
 <!-- // theme: add_constant — getTheme -->
-<!-- // fallback: add_function — fetchFallback -->  <!-- flex -->
+<!-- // fallback: add_function — fetchFallback -->
 <!-- // readme: add_constant — setReadme -->
 <!-- // ref: add_constant — setupRef -->
 <!-- // log: add_function — loadLog -->
@@ -553,4 +549,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // transition: add_function — setTransition -->
 <!-- // query: add_constant — handleQuery -->
 <!-- // role: add_function — updateRole -->
-<!-- // split: add_function — validateSplit -->
+<!-- // handle: add_function — setupHandle -->
