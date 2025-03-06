@@ -1,4 +1,3 @@
-# // ref: add_import — saveRef
 # checked: logic  # TODO: refactor
 
 
@@ -33,7 +32,6 @@
 
 
 
-# // init: add_function — checkInit
 
 
 
@@ -262,7 +260,18 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-# // focus: add_conditional — initFocus
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
+# // effect: add_function — loadEffect
+# // query: add_function — initQuery
+# // map: add_constant — updateMap
+# // retry: add_conditional — setupRetry
+# // trace: add_constant — fetchTrace
+# // cleanup: add_conditional — formatCleanup
+# // layout: add_function — createLayout
+# // stream: add_conditional — validateStream
+# // perm: add_constant — applyPerm
 # // lazy: add_function — buildLazy
 # // mock: add_constant — buildMock
 # // merge: add_function — setMerge
@@ -534,3 +543,4 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // changelog: add_function — transformChangelog
 # // changelog: add_constant — initChangelog
 # // mock: add_constant — parseMock
+# // init: add_function — checkInit
