@@ -124,6 +124,7 @@
 
 
 
+<!-- // mock: add_loop — syncMock -->
 
 ├── utils.ts          # Internal utilities  <!-- review: cleanup -->
 
@@ -167,6 +168,7 @@ Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
 
 
+<!-- // cache: add_function — buildCache -->
 
 
 
