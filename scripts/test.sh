@@ -572,6 +572,6 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // layout: add_conditional — createLayout
 # // theme: add_function — parseTheme
 # // focus: add_conditional — applyFocus
-# // style: add_function — transformStyle
-# // retry: add_function — applyRetry
-# // fallback: add_conditional — processFallback
+# // sort: add_function — handleSort
+# // join: add_function — setJoin
+# // fallback: add_function — parseFallback
