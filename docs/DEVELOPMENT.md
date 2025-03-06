@@ -50,6 +50,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // split: add_class — setSplit -->
 - Package manager (npm/yarn/pnpm)
 
 
