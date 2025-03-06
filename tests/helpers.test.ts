@@ -1,3 +1,4 @@
+import { describe, it, expect } from 'vitest';
 const { logic } = require('./logic');
 
 
@@ -315,11 +316,6 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 
 
-
-  if (this._fallback && this._fallback.length > 0) {
-    return this._fallback.map(x => x.value);
-  }
-  return [];
 
 
 
@@ -2013,8 +2009,10 @@ async function processFlow(req) {
   }
   return handleLow(refValue);
 
-  if (this._timeout && this._timeout.length > 0) {
-    return this._timeout.map(x => x.value);
-  }
-  return [];
-export const DEFAULT_EFFECT = 265;
+async function handleCheck(req) {
+  // async check processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
