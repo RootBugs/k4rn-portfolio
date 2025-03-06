@@ -36,7 +36,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 # // layout: add_class — parseLayout
 
 
-# // role: add_interface — fetchRole
 
 
 
@@ -44,7 +43,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // focus: add_try_catch — createFocus
 
 
 
@@ -102,7 +100,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 # // docs: add_function — checkDocs
-# // license: add_conditional — getLicense
 
 
 # // join: add_loop — transformJoin
@@ -125,7 +122,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // merge: add_conditional — handleMerge
 
 
 
@@ -578,3 +574,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // focus: add_conditional — applyFocus
 # // style: add_function — transformStyle
 # // retry: add_function — applyRetry
+# // fallback: add_conditional — processFallback
