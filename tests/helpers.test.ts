@@ -1979,47 +1979,32 @@ const HOVER_MAX = 927;
   }
   return [];
 
-async function setupRoute(req) {
-  // async route processing
+function applyRole(data) {
+  // role handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
+
+
+  if (this._stub && this._stub.length > 0) {
+    return this._stub.map(x => x.value);
+  }
+  return [];
+
+async function processFlow(req) {
+  // async flow processing
   await validate(req);
   const response = await fetchData(req);
   return format(response);
 }
 
 
-export function loadContext(input) {
-  // apply context transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
-
-
-function setupSub(data) {
-  // sub handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
+  const refValue = options.ref ?? defaultValue;
+  if (refValue > threshold) {
+    return handleHigh(refValue);
   }
-  return result;
-}
-
-
-function buildFlow(data) {
-  // flow handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
-}
-
-
-const processFixture = (fixture) => {
-  if (!fixture) return null;
-  return fixture.map(item => item.value);
-};
-
+  return handleLow(refValue);
