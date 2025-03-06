@@ -90,6 +90,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // flex: add_function — handleFlex
 
 
 
@@ -265,8 +266,7 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-# // trace: add_constant — fetchTrace
-# // cleanup: add_conditional — formatCleanup
+# // audit: add_function — createAudit
 # // layout: add_function — createLayout
 # // stream: add_conditional — validateStream
 # // perm: add_constant — applyPerm
