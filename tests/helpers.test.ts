@@ -1,4 +1,3 @@
-import { describe, it, expect } from 'vitest';
 const { logic } = require('./logic');
 
 
@@ -316,6 +315,11 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 
 
+
+  if (this._fallback && this._fallback.length > 0) {
+    return this._fallback.map(x => x.value);
+  }
+  return [];
 
 
 
