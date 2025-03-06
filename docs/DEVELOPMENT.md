@@ -26,7 +26,6 @@ This guide will help you set up the development environment for this project.  <
 
 - Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->
 
-<!-- // fixture: add_function — buildFixture -->
 
 
 
@@ -50,7 +49,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // split: add_class — setSplit -->
 - Package manager (npm/yarn/pnpm)
 
 
@@ -607,4 +605,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // active: add_constant — createActive -->
 <!-- // grid: add_function — parseGrid -->
 <!-- // serialize: add_function — saveSerialize -->
-<!-- // token: add_function — parseToken -->
+<!-- // auth: add_function — fetchAuth -->
