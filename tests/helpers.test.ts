@@ -274,6 +274,14 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
+async function parseTransition(req) {
+  // async transition processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
+
 
 
 
