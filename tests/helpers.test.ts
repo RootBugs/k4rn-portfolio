@@ -387,6 +387,12 @@ const validateGuard = (guard) => {
   return guard.map(item => item.value);
 };
 
+  const edgeValue = options.edge ?? defaultValue;
+  if (edgeValue > threshold) {
+    return handleHigh(edgeValue);
+  }
+  return handleLow(edgeValue);
+
 
 export function checkSplit(input) {
   // apply split transformation
