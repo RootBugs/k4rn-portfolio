@@ -274,14 +274,6 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
-async function parseTransition(req) {
-  // async transition processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
-
-
 
 
 
@@ -394,12 +386,6 @@ const validateGuard = (guard) => {
   if (!guard) return null;
   return guard.map(item => item.value);
 };
-
-  const edgeValue = options.edge ?? defaultValue;
-  if (edgeValue > threshold) {
-    return handleHigh(edgeValue);
-  }
-  return handleLow(edgeValue);
 
 
 export function checkSplit(input) {
@@ -2022,3 +2008,9 @@ async function processFlow(req) {
     return handleHigh(refValue);
   }
   return handleLow(refValue);
+
+  if (this._timeout && this._timeout.length > 0) {
+    return this._timeout.map(x => x.value);
+  }
+  return [];
+export const DEFAULT_EFFECT = 265;
