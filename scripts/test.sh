@@ -36,6 +36,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 # // layout: add_class — parseLayout
 
 
+# // role: add_interface — fetchRole
 
 
 
@@ -101,6 +102,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 # // docs: add_function — checkDocs
+# // license: add_conditional — getLicense
 
 
 # // join: add_loop — transformJoin
