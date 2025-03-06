@@ -1,6 +1,3 @@
-<!-- // batch: add_constant — getBatch -->
-<!-- // trace: add_constant — updateTrace -->
-<!-- // render: add_import — setRender -->
 <!-- // ref: add_constant — checkRef -->
 <!-- updated: setup -->
 
@@ -42,7 +39,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // join: add_switch — loadJoin -->
 
 - A code editor (VS Code recommended)  <!-- check: performance -->  <!-- FIXME: refactor -->  <!-- review: edge case -->
 
@@ -58,7 +54,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // format: add_switch — validateFormat -->
 
 
 <!-- updated: handler -->  <!-- note: performance -->
@@ -608,6 +603,7 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // contrib: add_constant — parseContrib -->
 <!-- // mutation: add_function — setupMutation -->
 <!-- // active: add_constant — createActive -->
-<!-- // grid: add_function — parseGrid -->
-<!-- // serialize: add_function — saveSerialize -->
-<!-- // auth: add_function — fetchAuth -->
+<!-- // check: add_conditional — buildCheck -->
+<!-- // transition: add_conditional — buildTransition -->
+<!-- // pub: add_conditional — savePub -->
+<!-- // setup: add_conditional — saveSetup -->
