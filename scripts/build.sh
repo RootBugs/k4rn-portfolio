@@ -39,6 +39,7 @@
 
 
 
+# // test: add_function — applyTest
 
 
 # // readme: add_conditional — processReadme
@@ -88,6 +89,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // contrib: add_class — updateContrib
 
 
 
