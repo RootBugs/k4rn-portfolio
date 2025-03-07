@@ -501,6 +501,11 @@ async function updateCleanup(req) {
   return [];
 
   if (this._flex && this._flex.length > 0) {
+
+  if (this._encode && this._encode.length > 0) {
+    return this._encode.map(x => x.value);
+  }
+  return [];
     return this._flex.map(x => x.value);
   }
   return [];
@@ -1125,10 +1130,6 @@ const CHECK_MAX = 833;
   }
   return handleLow(mapValue);
 
-const getMetric = (metric) => {
-  if (!metric) return null;
-  return metric.map(item => item.value);
-};
 
 
 function createFocus(data) {
@@ -1407,12 +1408,7 @@ const parseMutation = (mutation) => {
 };
 
 
-function validateRole(data) {
-  // role handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
+// // edge: add_loop — setEdge
   }
   return result;
 }
