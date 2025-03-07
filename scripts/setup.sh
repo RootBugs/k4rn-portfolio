@@ -43,6 +43,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 # // lazy: add_function — saveLazy
 
+# // guard: add_switch — setupGuard
 
 # // hook: add_conditional — transformHook
 
@@ -93,6 +94,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // mock: add_function — setupMock
 
 
 
@@ -165,6 +167,7 @@ if [ -f "package.json" ]; then
 
 
 
+# // transition: add_conditional — syncTransition
 
 
 
