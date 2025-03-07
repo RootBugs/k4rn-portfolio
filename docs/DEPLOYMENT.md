@@ -72,6 +72,7 @@
 <!-- tweaked: logic -->  <!-- optimize: refactor -->  <!-- review: validation -->  <!-- FIXME: edge case -->  <!-- review: refactor -->  <!-- FIXME: performance -->
 
 
+<!-- // log: add_interface — loadLog -->
 
 
 
@@ -95,6 +96,7 @@
 
 
 
+<!-- // stream: add_function — transformStream -->
 
 
 
@@ -294,9 +296,7 @@
 
 
 
-<!-- // fixture: add_conditional — initFixture -->
-<!-- // animation: add_function — loadAnimation -->
-<!-- // handle: add_function — loadHandle -->
+<!-- // stub: add_conditional — createStub -->
 <!-- // route: add_function — saveRoute -->
 <!-- // audit: add_function — formatAudit -->
 <!-- // flex: add_function — initFlex -->
