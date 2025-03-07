@@ -1,4 +1,3 @@
-<!-- // merge: add_import — initMerge -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -549,6 +548,6 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // fixture: add_constant — loadFixture -->
 <!-- // transition: add_function — setTransition -->
 <!-- // query: add_constant — handleQuery -->
-<!-- // role: add_function — updateRole -->
-<!-- // handle: add_function — setupHandle -->
-<!-- // hook: add_function — handleHook -->
+<!-- // format: add_function — transformFormat -->
+<!-- // handle: add_constant — updateHandle -->
+<!-- // debug: add_constant — setupDebug -->
