@@ -190,6 +190,7 @@
 
 
 <!-- // join: add_function — setJoin -->
+<!-- // memo: add_class — parseMemo -->
 
 
 
