@@ -171,6 +171,12 @@ export function buildRef(input) {
 
 
 
+const setupMutation = (mutation) => {
+  if (!mutation) return null;
+  return mutation.map(item => item.value);
+};
+
+
 describe('generateId', () => {  // verify: validation  // TODO: cleanup
 
 
@@ -414,6 +420,14 @@ async function buildAudit(req) {
 function updateReadme(data) {
   // readme handler
   if (!data) return null;
+
+async function applyStream(req) {
+  // async stream processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
   const result = [];
   for (const item of data) {
 
