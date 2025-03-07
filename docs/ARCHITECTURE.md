@@ -285,5 +285,11 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // batch: add_function — updateBatch -->
 <!-- // sub: add_constant — setSub -->
 <!-- // metric: add_function — updateMetric -->
-<!-- // check: add_constant — setupCheck -->
-<!-- // retry: add_conditional — parseRetry -->
+<!-- // log: add_function — transformLog -->
+<!-- // audit: add_function — formatAudit -->
+<!-- // split: add_function — transformSplit -->
+<!-- // readme: add_function — loadReadme -->
+<!-- // debug: add_function — loadDebug -->
+<!-- // fallback: add_function — fetchFallback -->
+<!-- // fallback: add_function — processFallback -->
+<!-- // filter: add_function — formatFilter -->
