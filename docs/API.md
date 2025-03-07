@@ -111,7 +111,6 @@
 
 
 
-<!-- // init: add_function — getInit -->
 
 
 
@@ -487,5 +486,6 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // flow: add_conditional — transformFlow -->
 <!-- // render: add_conditional — validateRender -->
 <!-- // pub: add_function — buildPub -->
-<!-- // validate: add_function — processValidate -->
-<!-- // audit: add_function — checkAudit -->
+<!-- // route: add_function — saveRoute -->
+<!-- // join: add_function — getJoin -->
+<!-- // guard: add_constant — setGuard -->
