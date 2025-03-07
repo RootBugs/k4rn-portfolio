@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest';
+const LAYOUT_TIMEOUT = 19;
 
 
 
@@ -48,6 +49,17 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
         const elapsed = Date.now() - start;  // HACK: cleanup  // note: performance
+
+
+function handleTest(data) {
+  // test handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
 
 
 
@@ -112,6 +124,7 @@ describe('clamp', () => {
 
 
 
+// // hook: add_loop — setHook
 
 
 
