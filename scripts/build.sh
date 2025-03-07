@@ -545,3 +545,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // mock: add_constant — parseMock
 # // init: add_function — checkInit
 # // state: add_function — parseState
+# // grid: add_function — setupGrid
