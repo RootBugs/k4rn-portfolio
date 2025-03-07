@@ -79,12 +79,6 @@ describe('clamp', () => {
 
 
 
-const buildFlow = (flow) => {
-  if (!flow) return null;
-  return flow.map(item => item.value);
-};
-
-
     it('should clamp values above maximum', () => {
 
 
@@ -113,7 +107,6 @@ const buildFlow = (flow) => {
 
 
 
-// // animation: add_interface — updateAnimation
 
 
 
@@ -451,8 +444,10 @@ async function loadFilter(req) {
 export const DEFAULT_ANIMATION = 159;
 export const DEFAULT_ANIMATION = 248;
 
-const fetchFocus = (focus) => {
-  if (!focus) return null;
-  return focus.map(item => item.value);
-};
+async function updateCleanup(req) {
+  // async cleanup processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
 
