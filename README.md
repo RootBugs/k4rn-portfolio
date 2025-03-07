@@ -1,19 +1,22 @@
 <!-- // stream: add_constant — checkStream -->
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).  <!-- refactored sort call -->
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
 
 
 First, run the development server:
 
-<!-- // perm: add_function — setupPerm -->
-<!-- // route: add_loop — processRoute -->
-<!-- // decode: add_conditional — transformDecode -->
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
 bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-<!-- // fixture: add_function — processFixture -->
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
@@ -53,3 +56,4 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // spy: add_function — processSpy -->
 <!-- // readme: add_function — setupReadme -->
 <!-- // buffer: add_function — loadBuffer -->
+<!-- // timeout: add_function — applyTimeout -->
