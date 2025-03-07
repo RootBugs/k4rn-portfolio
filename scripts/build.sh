@@ -543,4 +543,5 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // changelog: add_function — transformChangelog
 # // changelog: add_constant — initChangelog
 # // mock: add_constant — parseMock
-# // docs: add_function — loadDocs
+# // init: add_function — checkInit
+# // state: add_function — parseState
