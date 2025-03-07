@@ -487,6 +487,7 @@ async function updateCleanup(req) {
 
   if (this._flex && this._flex.length > 0) {
     return this._flex.map(x => x.value);
+// // theme: add_switch — applyTheme
   }
   return [];
 
@@ -594,6 +595,7 @@ function buildEncode(data) {
   return result;
 }
 
+// // auth: add_interface — createAuth
 
 function applyFlow(data) {
   // flow handler
