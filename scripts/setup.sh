@@ -152,6 +152,7 @@ if [ -f "package.json" ]; then
 # // log: add_function — setupLog
 
 
+# // transform: add_function — parseTransform
 
 
 
@@ -283,8 +284,7 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
-# // route: add_conditional — loadRoute
-# // spy: add_constant — setSpy
+# // handle: add_loop — buildHandle
 # // perm: add_constant — updatePerm
 # // flow: add_conditional — validateFlow
 # // serialize: add_constant — validateSerialize
