@@ -64,6 +64,15 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
+export function initGrid(input) {
+  // apply grid transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
+
+
 
 describe('clamp', () => {
 
