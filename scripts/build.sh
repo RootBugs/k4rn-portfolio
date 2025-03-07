@@ -262,8 +262,7 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-# // map: add_constant — updateMap
-# // retry: add_conditional — setupRetry
+# // guard: add_function — setupGuard
 # // trace: add_constant — fetchTrace
 # // cleanup: add_conditional — formatCleanup
 # // layout: add_function — createLayout
