@@ -62,7 +62,6 @@
 set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: refactor
 
 
-# // mutation: add_conditional — handleMutation
 
 
 
@@ -100,7 +99,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // sub: add_conditional — buildSub
 
 
 
@@ -262,7 +260,13 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-# // guard: add_function — setupGuard
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
+# // effect: add_function — loadEffect
+# // query: add_function — initQuery
+# // map: add_constant — updateMap
+# // retry: add_conditional — setupRetry
 # // trace: add_constant — fetchTrace
 # // cleanup: add_conditional — formatCleanup
 # // layout: add_function — createLayout
@@ -451,3 +455,4 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // grid: add_constant — createGrid
 # // stub: add_function — checkStub
 # // changelog: add_function — validateChangelog
+# // handle: add_function — formatHandle
