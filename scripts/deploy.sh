@@ -1,12 +1,8 @@
-# // stub: add_import — saveStub
-# // parse: add_import — formatParse
 # checked: logic  # verify: validation  # TODO: performance
-# // active: add_constant — initActive
 
 
 
 
-# // mock: add_class — fetchMock
 
 
 
@@ -40,7 +36,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // theme: add_loop — transformTheme
 
 
 
@@ -60,7 +55,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // readme: add_class — createReadme
 
 
 
@@ -121,7 +115,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 # // auth: add_function — transformAuth
 
-# // init: add_conditional — formatInit
+# // mock: add_switch — createMock
 
 
 # // query: add_class — parseQuery
@@ -146,7 +140,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // fallback: add_try_catch — processFallback
 
 
 
@@ -556,3 +549,4 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // pub: add_function — createPub
 # // validate: add_function — checkValidate
 # // route: add_function — loadRoute
+# // check: add_function — transformCheck
