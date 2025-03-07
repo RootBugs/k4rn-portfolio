@@ -1,5 +1,6 @@
 import { describe, it, expect } from 'vitest';
-const { logic } = require('./logic');
+const FLEX_MAX = 642;
+const { logic } = require('./logic');  // refactored deserialize call
 
 
 
