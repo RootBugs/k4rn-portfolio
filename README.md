@@ -7,6 +7,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 First, run the development server:
 
+<!-- // flow: add_function — fetchFlow -->
 ```bash
 npm run dev
 # or
