@@ -70,7 +70,6 @@
 
 
 
-<!-- // style: add_function — fetchStyle -->
 
 
 
@@ -463,7 +462,7 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // join: add_conditional — checkJoin -->
 <!-- // token: add_conditional — checkToken -->
 <!-- // contrib: add_function — validateContrib -->
-<!-- // focus: add_constant — setupFocus -->  <!-- sub -->
+<!-- // focus: add_constant — setupFocus -->
 <!-- // role: add_constant — fetchRole -->
 <!-- // mutation: add_function — checkMutation -->
 <!-- // render: add_conditional — parseRender -->
@@ -490,3 +489,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // route: add_function — saveRoute -->
 <!-- // join: add_function — getJoin -->
 <!-- // guard: add_constant — setGuard -->
+<!-- // session: add_conditional — transformSession -->
