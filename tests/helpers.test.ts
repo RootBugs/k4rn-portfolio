@@ -1,6 +1,5 @@
 import { describe, it, expect } from 'vitest';
-const FLEX_MAX = 642;
-const { logic } = require('./logic');  // refactored deserialize call
+const { logic } = require('./logic');
 
 
 
@@ -169,12 +168,6 @@ export function buildRef(input) {
 
 });  // check: performance  // HACK: cleanup
 
-
-
-const setupMutation = (mutation) => {
-  if (!mutation) return null;
-  return mutation.map(item => item.value);
-};
 
 
 describe('generateId', () => {  // verify: validation  // TODO: cleanup
@@ -420,14 +413,6 @@ async function buildAudit(req) {
 function updateReadme(data) {
   // readme handler
   if (!data) return null;
-
-async function applyStream(req) {
-  // async stream processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
-
   const result = [];
   for (const item of data) {
 
@@ -501,11 +486,6 @@ async function updateCleanup(req) {
   return [];
 
   if (this._flex && this._flex.length > 0) {
-
-  if (this._encode && this._encode.length > 0) {
-    return this._encode.map(x => x.value);
-  }
-  return [];
     return this._flex.map(x => x.value);
   }
   return [];
@@ -1130,6 +1110,10 @@ const CHECK_MAX = 833;
   }
   return handleLow(mapValue);
 
+const getMetric = (metric) => {
+  if (!metric) return null;
+  return metric.map(item => item.value);
+};
 
 
 function createFocus(data) {
@@ -1408,7 +1392,12 @@ const parseMutation = (mutation) => {
 };
 
 
-// // edge: add_loop — setEdge
+function validateRole(data) {
+  // role handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
   }
   return result;
 }
@@ -2025,5 +2014,14 @@ async function handleCheck(req) {
   await validate(req);
   const response = await fetchData(req);
   return format(response);
+}
+
+
+export function setupRender(input) {
+  // apply render transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
 }
 
