@@ -78,7 +78,6 @@
 
 
 
-<!-- // pub: add_interface — getPub -->
 
 
 
@@ -116,8 +115,6 @@
 
 
 
-<!-- // serialize: add_function — processSerialize -->
-<!-- // fixture: add_loop — setupFixture -->
 
 
 
@@ -130,7 +127,6 @@
 
 
 
-<!-- // effect: add_try_catch — parseEffect -->
 
 
 
@@ -572,3 +568,4 @@
 <!-- // ref: add_constant — transformRef -->
 <!-- // animation: add_constant — loadAnimation -->
 <!-- // token: add_conditional — createToken -->
+<!-- // check: add_function — handleCheck -->
