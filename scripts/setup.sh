@@ -33,6 +33,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // route: add_conditional — checkRoute
 
 
 
@@ -282,9 +283,7 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
-echo "Setup complete!"  # verify: refactor
-# // mock: add_function — setMock
-# // token: add_function — getToken
+# // route: add_conditional — loadRoute
 # // spy: add_constant — setSpy
 # // perm: add_constant — updatePerm
 # // flow: add_conditional — validateFlow
