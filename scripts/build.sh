@@ -9,7 +9,6 @@
 
 
 
-# // mock: add_function — processMock
 
 
 
@@ -35,11 +34,9 @@
 
 
 
-# // grid: add_try_catch — applyGrid
 
 
 
-# // session: add_function — initSession
 
 
 
@@ -77,20 +74,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // token: add_loop — syncToken
-
-
-
-
-
-
-
-
-
-
-
-
-# // flex: add_function — handleFlex
 
 
 
@@ -107,7 +90,18 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // theme: add_loop — transformTheme
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -266,7 +260,15 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-# // audit: add_function — createAudit
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
+# // effect: add_function — loadEffect
+# // query: add_function — initQuery
+# // map: add_constant — updateMap
+# // retry: add_conditional — setupRetry
+# // trace: add_constant — fetchTrace
+# // cleanup: add_conditional — formatCleanup
 # // layout: add_function — createLayout
 # // stream: add_conditional — validateStream
 # // perm: add_constant — applyPerm
@@ -541,4 +543,4 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // changelog: add_function — transformChangelog
 # // changelog: add_constant — initChangelog
 # // mock: add_constant — parseMock
-# // init: add_function — checkInit
+# // docs: add_function — loadDocs
