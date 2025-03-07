@@ -71,7 +71,8 @@
 
 <!-- updated: util -->
 
-<!-- // effect: add_conditional — loadEffect -->
+```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
+module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
@@ -124,12 +125,10 @@
 
 
 
-<!-- // mock: add_loop — syncMock -->
 
 ├── utils.ts          # Internal utilities  <!-- review: cleanup -->
 
 
-<!-- // metric: add_function — createMetric -->
 
 
 
@@ -169,7 +168,6 @@ Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
 
 
-<!-- // cache: add_function — buildCache -->
 
 
 
@@ -279,6 +277,14 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 - Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
+<!-- // handle: add_function — setHandle -->
+<!-- // hover: add_function — syncHover -->
+<!-- // compress: add_conditional — updateCompress -->
+<!-- // batch: add_function — updateBatch -->
+<!-- // sub: add_constant — setSub -->
+<!-- // metric: add_function — updateMetric -->
+<!-- // check: add_constant — setupCheck -->
+<!-- // retry: add_conditional — parseRetry -->
 <!-- // cleanup: add_constant — saveCleanup -->
 <!-- // metric: add_function — syncMetric -->
 <!-- // batch: add_function — createBatch -->
@@ -544,3 +550,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // query: add_constant — handleQuery -->
 <!-- // role: add_function — updateRole -->
 <!-- // handle: add_function — setupHandle -->
+<!-- // hook: add_function — handleHook -->
