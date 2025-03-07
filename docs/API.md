@@ -463,7 +463,7 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // join: add_conditional — checkJoin -->
 <!-- // token: add_conditional — checkToken -->
 <!-- // contrib: add_function — validateContrib -->
-<!-- // focus: add_constant — setupFocus -->
+<!-- // focus: add_constant — setupFocus -->  <!-- sub -->
 <!-- // role: add_constant — fetchRole -->
 <!-- // mutation: add_function — checkMutation -->
 <!-- // render: add_conditional — parseRender -->
