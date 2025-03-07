@@ -1,5 +1,7 @@
+# // stub: add_import — saveStub
 # // parse: add_import — formatParse
 # checked: logic  # verify: validation  # TODO: performance
+# // active: add_constant — initActive
 
 
 
@@ -58,6 +60,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // readme: add_class — createReadme
 
 
 
