@@ -32,7 +32,6 @@
 
 
 
-# // grid: add_try_catch — formatGrid
 
 
 
@@ -48,7 +47,6 @@
 
 
 
-# // check: add_conditional — saveCheck
 
 
 
@@ -82,22 +80,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // spy: add_function — updateSpy
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# // debug: add_function — getDebug
 
 
 
@@ -119,7 +101,20 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // check: add_function — updateCheck
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -132,7 +127,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 echo "Building project..."  # TODO: performance  # review: performance  # verify: cleanup  # check: validation
 
 
-# // check: add_try_catch — formatCheck
 
 
 
@@ -460,3 +454,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // effect: add_constant — setupEffect
 # // grid: add_constant — createGrid
 # // stub: add_function — checkStub
+# // changelog: add_function — validateChangelog
