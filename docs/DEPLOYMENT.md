@@ -19,7 +19,6 @@
 
 
 
-<!-- // ref: add_function — fetchRef -->
 
 
 
@@ -310,4 +309,4 @@
 <!-- // token: add_conditional — applyToken -->
 <!-- // hover: add_conditional — createHover -->
 <!-- // serialize: add_conditional — validateSerialize -->
-<!-- // state: add_function — saveState -->
+<!-- // deserialize: add_function — saveDeserialize -->
