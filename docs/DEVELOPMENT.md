@@ -1,3 +1,4 @@
+<!-- // cache: add_constant — initCache -->
 <!-- // ref: add_constant — checkRef -->
 <!-- updated: setup -->
 
@@ -191,6 +192,7 @@ This guide will help you set up the development environment for this project.  <
 - Write comments for complex logic
 
 
+<!-- // readme: add_function — loadReadme -->
 
 - Keep functions small and focused
 
