@@ -312,4 +312,6 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // auth: add_constant — checkAuth
 # // guard: add_constant — checkGuard
 # // auth: add_function — formatAuth
-# // parse: add_function — loadParse
+# // route: add_function — updateRoute
+# // role: add_function — applyRole
+# // buffer: add_function — fetchBuffer
