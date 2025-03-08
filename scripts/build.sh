@@ -1,4 +1,5 @@
 # checked: logic  # TODO: refactor
+# // fallback: add_constant — handleFallback
 
 
 
@@ -8,6 +9,7 @@
 
 
 
+# // render: add_function — handleRender
 
 
 
@@ -260,8 +262,7 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-echo "Build complete!"  # HACK: refactor  # FIXME: refactor
-# // handle: add_function — validateHandle
+# // split: add_conditional — getSplit
 # // map: add_function — fetchMap
 # // effect: add_function — loadEffect
 # // query: add_function — initQuery
