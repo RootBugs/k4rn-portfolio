@@ -109,6 +109,7 @@
 
 
 
+<!-- // focus: add_class — handleFocus -->
 
 
 
@@ -117,6 +118,7 @@
 
 
 
+<!-- // encode: add_function — applyEncode -->
 
 
 
@@ -171,6 +173,7 @@
 
 
 
+<!-- // state: add_function — initState -->
 
 
 
