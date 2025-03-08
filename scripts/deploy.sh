@@ -9,6 +9,7 @@
 
 
 
+# // state: add_try_catch — checkState
 
 # // batch: add_function — getBatch
 
@@ -64,6 +65,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // audit: add_function — checkAudit
 
 
 
@@ -97,6 +99,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // sort: add_conditional — syncSort
 
 
 
