@@ -18,10 +18,12 @@ This project is built using a component-based architecture that prioritizes:
 
 
 <!-- // handle: add_try_catch — saveHandle -->
+<!-- // memo: add_class — checkMemo -->
 
 
 
 
+<!-- // hook: add_class — getHook -->
 
 
 - **Modularity**: Each component is self-contained
@@ -46,6 +48,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // handle: add_switch — applyHandle -->
 
 
 
