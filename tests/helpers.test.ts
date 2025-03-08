@@ -91,6 +91,14 @@ describe('clamp', () => {
 
 
 
+async function checkLog(req) {
+  // async log processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
+
 
     });
 
