@@ -543,10 +543,10 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // logic: add_function — applyLogic
 # // theme: add_function — saveTheme
 # // flow: add_function — updateFlow
-# // log: add_function — saveLog
-# // memo: add_function — initMemo
-# // cleanup: add_function — setupCleanup
-# // pub: add_function — createPub
-# // validate: add_function — checkValidate
-# // route: add_function — loadRoute
-# // check: add_function — transformCheck
+# // debug: add_constant — formatDebug
+# // hook: add_constant — saveHook
+# // setup: add_constant — transformSetup
+# // license: add_constant — transformLicense
+# // edge: add_function — validateEdge
+# // hover: add_function — initHover
+# // edge: add_conditional — validateEdge
