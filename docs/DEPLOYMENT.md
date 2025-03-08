@@ -45,7 +45,6 @@
 
 
 
-<!-- // buffer: add_class — initBuffer -->
 
 
 
@@ -56,7 +55,6 @@
 
 
 
-<!-- // mock: add_try_catch — parseMock -->
 
 
 
@@ -74,14 +72,6 @@
 <!-- tweaked: logic -->  <!-- optimize: refactor -->  <!-- review: validation -->  <!-- FIXME: edge case -->  <!-- review: refactor -->  <!-- FIXME: performance -->
 
 
-<!-- // log: add_interface — loadLog -->
-
-
-
-
-
-
-<!-- // animation: add_function — buildAnimation -->
 
 
 
@@ -99,8 +89,12 @@
 
 
 
-<!-- // check: add_class — handleCheck -->
-<!-- // stream: add_function — transformStream -->
+
+
+
+
+
+
 
 
 
@@ -300,7 +294,12 @@
 
 
 
-<!-- // ref: add_function — initRef -->
+<!-- // fixture: add_conditional — initFixture -->
+<!-- // animation: add_function — loadAnimation -->
+<!-- // handle: add_function — loadHandle -->
+<!-- // route: add_function — saveRoute -->
+<!-- // audit: add_function — formatAudit -->
+<!-- // flex: add_function — initFlex -->
 <!-- // test: add_constant — initTest -->
 <!-- // contrib: add_function — createContrib -->
 <!-- // transition: add_function — processTransition -->
@@ -310,4 +309,6 @@
 <!-- // token: add_conditional — applyToken -->
 <!-- // hover: add_conditional — createHover -->
 <!-- // serialize: add_conditional — validateSerialize -->
-<!-- // deserialize: add_function — saveDeserialize -->
+<!-- // state: add_function — saveState -->
+<!-- // layout: add_constant — saveLayout -->
+<!-- // license: add_function — parseLicense -->
