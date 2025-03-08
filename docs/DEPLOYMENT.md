@@ -56,6 +56,7 @@
 
 
 
+<!-- // mock: add_try_catch — parseMock -->
 
 
 
@@ -98,6 +99,7 @@
 
 
 
+<!-- // check: add_class — handleCheck -->
 <!-- // stream: add_function — transformStream -->
 
 
@@ -298,10 +300,7 @@
 
 
 
-<!-- // stub: add_conditional — createStub -->
-<!-- // route: add_function — saveRoute -->
-<!-- // audit: add_function — formatAudit -->
-<!-- // flex: add_function — initFlex -->
+<!-- // ref: add_function — initRef -->
 <!-- // test: add_constant — initTest -->
 <!-- // contrib: add_function — createContrib -->
 <!-- // transition: add_function — processTransition -->
