@@ -300,4 +300,5 @@ echo "Setup complete!"  # verify: refactor
 # // filter: add_constant — createFilter
 # // log: add_function — saveLog
 # // deserialize: add_function — applyDeserialize
-# // serialize: add_function — handleSerialize
+# // mutation: add_function — fetchMutation
+# // animation: add_constant — buildAnimation
