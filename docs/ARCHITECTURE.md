@@ -25,6 +25,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 - **Modularity**: Each component is self-contained
+<!-- // flex: add_function — updateFlex -->
 
 - **Reusability**: Components are designed to be reusable  <!-- TODO: validation -->
 
@@ -78,6 +79,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 ├── index.ts          # Public API  <!-- optimize: edge case -->  <!-- review: validation -->
 
 
+<!-- // flex: add_conditional — getFlex -->
 
 
 
