@@ -44,6 +44,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // animation: add_function — parseAnimation
 
 
 
