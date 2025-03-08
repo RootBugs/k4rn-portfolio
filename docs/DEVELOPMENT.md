@@ -33,6 +33,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // retry: add_function — loadRetry -->
 
 
 
@@ -60,6 +61,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // render: add_function — applyRender -->
 
 
 
@@ -303,9 +305,3 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // query: add_conditional — buildQuery -->
-<!-- // log: add_function — saveLog -->
-<!-- // role: add_function — checkRole -->
-<!-- // logic: add_function — setLogic -->
-<!-- // buffer: add_function — setBuffer -->
-<!-- // retry: add_function — handleRetry -->
