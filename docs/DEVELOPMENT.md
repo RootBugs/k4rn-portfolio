@@ -4,7 +4,6 @@
 
 <!-- tweaked: handler -->
 
-<!-- // handle: add_try_catch — handleHandle -->
 
 
 
@@ -23,7 +22,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored init call -->
+- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->
 
 
 
@@ -33,11 +32,9 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // retry: add_function — loadRetry -->
 
 
 
-<!-- // mutation: add_class — syncMutation -->
 
 
 
@@ -61,7 +58,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // render: add_function — applyRender -->
 
 
 
@@ -305,3 +301,17 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
+<!-- // sub: add_function — processSub -->
+<!-- // transition: add_constant — applyTransition -->
+<!-- // audit: add_conditional — saveAudit -->
+<!-- // session: add_constant — parseSession -->
+<!-- // stub: add_conditional — applyStub -->
+<!-- // layout: add_constant — saveLayout -->
+<!-- // audit: add_constant — setAudit -->
+<!-- // query: add_conditional — buildQuery -->
+<!-- // log: add_function — saveLog -->
+<!-- // role: add_function — checkRole -->
+<!-- // logic: add_function — setLogic -->
+<!-- // buffer: add_function — setBuffer -->
+<!-- // retry: add_function — handleRetry -->
+<!-- // grid: add_function — fetchGrid -->
