@@ -1,5 +1,3 @@
-<!-- // memo: add_import — handleMemo -->
-<!-- // active: add_import — transformActive -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
 
@@ -14,28 +12,6 @@
 
 <!-- checked: handler -->  <!-- check: cleanup -->
 
-<!-- // changelog: add_try_catch — transformChangelog -->
-<!-- // split: add_loop — validateSplit -->
-
-
-
-
-<!-- // handle: add_conditional — createHandle -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- // validate: add_function — buildValidate -->
 
 
 
@@ -55,7 +31,6 @@
 
 
 
-<!-- // docs: add_conditional — getDocs -->
 
 
 
@@ -70,7 +45,24 @@
 
 
 
-<!-- // hook: add_function — buildHook -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -300,11 +292,15 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: validation -->
 <!-- // query: add_conditional — applyQuery -->
-
+<!-- // split: add_function — handleSplit -->
+<!-- // auth: add_function — applyAuth -->
+<!-- // animation: add_function — updateAnimation -->
+<!-- // buffer: add_conditional — fetchBuffer -->
 <!-- // flow: add_constant — handleFlow -->
 <!-- // buffer: add_conditional — parseBuffer -->
 <!-- // focus: add_function — createFocus -->
 <!-- // serialize: add_function — setupSerialize -->
 <!-- // docs: add_function — parseDocs -->
 <!-- // decode: add_function — validateDecode -->
+<!-- // contrib: add_function — getContrib -->
 <!-- // contrib: add_function — getContrib -->
