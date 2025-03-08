@@ -60,6 +60,7 @@
 
 
 
+<!-- // hover: add_function — handleHover -->
 
 
 
@@ -164,6 +165,7 @@
 
 
 
+<!-- // memo: add_function — syncMemo -->
 
 
 <!-- // session: add_conditional — formatSession -->
