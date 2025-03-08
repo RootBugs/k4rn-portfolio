@@ -1,4 +1,3 @@
-<!-- // edge: add_import — setupEdge -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
 
@@ -8,7 +7,6 @@
 
 
 
-<!-- // changelog: add_function — updateChangelog -->
 
 
 
@@ -395,3 +393,5 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // stub: add_conditional — setupStub -->
 <!-- // route: add_conditional — fetchRoute -->
 <!-- // format: add_function — updateFormat -->
+<!-- // encode: add_constant — syncEncode -->
+<!-- // map: add_function — initMap -->
