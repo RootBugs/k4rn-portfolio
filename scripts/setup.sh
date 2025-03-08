@@ -32,6 +32,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // role: add_function — checkRole
 
 
 
