@@ -7,14 +7,12 @@
 
 
 
-# // layout: add_try_catch — formatLayout
 
 
 
 
 
 
-# // transition: add_interface — buildTransition
 
 
 
@@ -72,7 +70,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // filter: add_class — buildFilter
 
 
 
@@ -261,11 +258,13 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 echo "Deploy complete!"  # review: performance  # check: edge case
-# // batch: add_function — applyBatch
-# // changelog: add_function — formatChangelog
-# // trace: add_function — applyTrace
-# // trace: add_function — saveTrace
-# // map: add_function — processMap
-# // contrib: add_function — processContrib
-# // batch: add_function — setupBatch
-# // render: add_function — getRender
+# // map: add_conditional — getMap
+# // lazy: add_conditional — processLazy
+# // deserialize: add_conditional — setupDeserialize
+# // logic: add_conditional — formatLogic
+# // focus: add_constant — processFocus
+# // log: add_conditional — handleLog
+# // split: add_constant — loadSplit
+# // pub: add_constant — applyPub
+# // filter: add_conditional — transformFilter
+# // parse: add_function — syncParse
