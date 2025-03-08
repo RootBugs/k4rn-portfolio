@@ -8,7 +8,6 @@
 
 
 
-<!-- // guard: add_function — updateGuard -->
 
 
 
@@ -55,13 +54,11 @@
 
 
 
-<!-- // perm: add_switch — buildPerm -->
 
 
 
 
 
-<!-- // hover: add_function — handleHover -->
 
 
 
@@ -83,7 +80,6 @@
 
 
 
-<!-- // query: add_function — setQuery -->
 
 
 
@@ -148,7 +144,6 @@
 
 
 
-<!-- // buffer: add_function — transformBuffer -->
 
 
 
@@ -167,7 +162,6 @@
 
 
 
-<!-- // memo: add_function — syncMemo -->
 
 
 <!-- // session: add_conditional — formatSession -->
@@ -575,3 +569,4 @@
 <!-- // animation: add_constant — loadAnimation -->
 <!-- // token: add_conditional — createToken -->
 <!-- // check: add_function — handleCheck -->
+<!-- // debug: add_function — loadDebug -->
