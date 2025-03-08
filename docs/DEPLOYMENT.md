@@ -8,6 +8,7 @@
 
 
 
+<!-- // guard: add_function — updateGuard -->
 
 
 
@@ -82,6 +83,7 @@
 
 
 
+<!-- // query: add_function — setQuery -->
 
 
 
