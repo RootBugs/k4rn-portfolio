@@ -1,5 +1,4 @@
 # checked: logic  # TODO: refactor
-# // memo: add_constant — handleMemo
 
 
 
@@ -29,9 +28,6 @@
 
 
 
-# // test: add_switch — formatTest
-
-# // split: add_class — createSplit
 
 
 
@@ -39,10 +35,9 @@
 
 
 
-# // test: add_function — applyTest
 
 
-# // readme: add_conditional — processReadme
+
 
 
 
@@ -89,7 +84,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // contrib: add_class — updateContrib
 
 
 
@@ -282,4 +276,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // merge: add_function — setMerge
 # // render: add_constant — validateRender
 # // guard: add_constant — checkGuard
-# // buffer: add_function — getBuffer
+# // context: add_function — updateContext
