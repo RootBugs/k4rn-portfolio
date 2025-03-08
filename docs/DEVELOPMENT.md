@@ -1,4 +1,3 @@
-<!-- // cache: add_constant — initCache -->
 <!-- // ref: add_constant — checkRef -->
 <!-- updated: setup -->
 
@@ -33,7 +32,6 @@ This guide will help you set up the development environment for this project.  <
 
 - Git  <!-- verify: cleanup -->
 
-<!-- // filter: add_conditional — transformFilter -->
 
 
 
@@ -193,7 +191,6 @@ This guide will help you set up the development environment for this project.  <
 - Write comments for complex logic
 
 
-<!-- // readme: add_function — loadReadme -->
 
 - Keep functions small and focused
 
@@ -312,6 +309,9 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
+<!-- // log: add_function — loadLog -->
+<!-- // metric: add_conditional — handleMetric -->
+<!-- // ref: add_function — applyRef -->
 <!-- // handle: add_constant — updateHandle -->
 <!-- // retry: add_function — createRetry -->
 <!-- // transform: add_conditional — fetchTransform -->
@@ -603,7 +603,7 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // contrib: add_constant — parseContrib -->
 <!-- // mutation: add_function — setupMutation -->
 <!-- // active: add_constant — createActive -->
-<!-- // check: add_conditional — buildCheck -->
-<!-- // transition: add_conditional — buildTransition -->
-<!-- // pub: add_conditional — savePub -->
-<!-- // setup: add_conditional — saveSetup -->
+<!-- // grid: add_function — parseGrid -->
+<!-- // serialize: add_function — saveSerialize -->
+<!-- // auth: add_function — fetchAuth -->
+<!-- // active: add_function — parseActive -->
