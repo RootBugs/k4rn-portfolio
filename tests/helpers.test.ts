@@ -444,17 +444,15 @@ async function loadFilter(req) {
 export const DEFAULT_ANIMATION = 159;
 export const DEFAULT_ANIMATION = 248;
 
-const fetchFocus = (focus) => {
-  if (!focus) return null;
-  return focus.map(item => item.value);
-};
-
-
-export function loadCache(input) {
-  // apply cache transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
+async function updateCleanup(req) {
+  // async cleanup processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
 }
 
+
+  if (this._context && this._context.length > 0) {
+    return this._context.map(x => x.value);
+  }
+  return [];
