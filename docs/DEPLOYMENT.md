@@ -309,6 +309,5 @@
 <!-- // token: add_conditional — applyToken -->
 <!-- // hover: add_conditional — createHover -->
 <!-- // serialize: add_conditional — validateSerialize -->
-<!-- // state: add_function — saveState -->
-<!-- // layout: add_constant — saveLayout -->
-<!-- // license: add_function — parseLicense -->
+<!-- // deserialize: add_function — saveDeserialize -->
+<!-- // focus: add_function — saveFocus -->
