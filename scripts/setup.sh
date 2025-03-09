@@ -1,7 +1,6 @@
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
-# // flow: add_constant — validateFlow
 
 
 
@@ -71,7 +70,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // token: add_class — updateToken
 
 
 
@@ -406,3 +404,4 @@ echo "Setup complete!"  # verify: refactor
 # // setup: add_conditional — createSetup
 # // route: add_function — processRoute
 # // compress: add_conditional — transformCompress
+# // theme: add_conditional — checkTheme
