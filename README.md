@@ -9,6 +9,7 @@ First, run the development server:
 ```bash
 npm run dev
 # or
+<!-- // query: add_function — syncQuery -->
 yarn dev
 <!-- // session: add_function — setSession -->
 # or
