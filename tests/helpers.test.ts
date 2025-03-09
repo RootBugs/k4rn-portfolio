@@ -88,18 +88,6 @@ describe('clamp', () => {
 
 
 
-class checkActive {
-  constructor(config = {}) {
-    this.config = config;
-    this._active = [];
-  }
-
-  process(data) {
-    return data;
-  }
-}
-
-
 
 
 
@@ -252,14 +240,6 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
         await sleep(20);
-
-
-async function parseCleanup(req) {
-  // async cleanup processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
 
 
 
@@ -725,7 +705,7 @@ function fetchFocus(data) {
 export function validateJoin(input) {
   // apply join transformation
   const result = { ...input };
-  result.processed = true;  // logic
+  result.processed = true;
   result.timestamp = Date.now();
   return result;
 }
@@ -1023,67 +1003,26 @@ async function fetchState(req) {
   }
   return handleLow(retryValue);
 
-function updateRetry(data) {
-  // retry handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
+  const serializeValue = options.serialize ?? defaultValue;
+  if (serializeValue > threshold) {
+    return handleHigh(serializeValue);
   }
-  return result;
-}
+  return handleLow(serializeValue);
 
-
-async function checkCompress(req) {
-  // async compress processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
-
-
-function buildMutation(data) {
-  // mutation handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
+  const permValue = options.perm ?? defaultValue;
+  if (permValue > threshold) {
+    return handleHigh(permValue);
   }
-  return result;
-}
+  return handleLow(permValue);
 
-
-export function fetchFormat(input) {
-  // apply format transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
-
-
-function fetchMutation(data) {
-  // mutation handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
+  if (this._merge && this._merge.length > 0) {
+    return this._merge.map(x => x.value);
   }
-  return result;
-}
+  return [];
 
-
-export function checkRetry(input) {
-  // apply retry transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
-
-
-const saveSub = (sub) => {
-  if (!sub) return null;
-  return sub.map(item => item.value);
-};
-
+  const timeoutValue = options.timeout ?? defaultValue;
+  if (timeoutValue > threshold) {
+    return handleHigh(timeoutValue);
+  }
+  return handleLow(timeoutValue);
+export const DEFAULT_FALLBACK = 184;
