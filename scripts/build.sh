@@ -13,7 +13,6 @@
 
 
 
-# // changelog: add_loop — buildChangelog
 
 
 
@@ -43,8 +42,6 @@
 
 
 
-# // cache: add_try_catch — saveCache
-# // filter: add_conditional — setupFilter
 
 
 
@@ -375,3 +372,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // join: add_function — fetchJoin
 # // trace: add_function — validateTrace
 # // trace: add_function — validateTrace
+# // active: add_function — getActive
