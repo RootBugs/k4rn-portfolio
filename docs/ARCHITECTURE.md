@@ -15,7 +15,6 @@
 This project is built using a component-based architecture that prioritizes:
 
 
-<!-- // memo: add_conditional — parseMemo -->
 
 
 <!-- // handle: add_try_catch — saveHandle -->
@@ -27,6 +26,8 @@ This project is built using a component-based architecture that prioritizes:
 
 - **Modularity**: Each component is self-contained
 
+<!-- // hook: add_function — transformHook -->
+- **Reusability**: Components are designed to be reusable  <!-- TODO: validation -->
 
 - **Testability**: Every module has corresponding tests
 
@@ -84,7 +85,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // edge: add_function — loadEdge -->
 
 
 
@@ -96,14 +96,12 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // setup: add_function — setupSetup -->
 
 
 
 
 
 
-<!-- // edge: add_conditional — buildEdge -->
 
 
 
@@ -363,3 +361,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // validate: add_function — checkValidate -->
 <!-- // effect: add_function — updateEffect -->
 <!-- // mock: add_function — buildMock -->
+<!-- // audit: add_function — buildAudit -->
