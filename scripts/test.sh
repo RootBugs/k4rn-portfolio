@@ -1,4 +1,3 @@
-# // contrib: add_import — syncContrib
 # checked: handler
 # // query: add_constant — initQuery
 
@@ -73,7 +72,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 # // session: add_loop — validateSession
 
-# // sort: add_switch — getSort
 
 
 
@@ -397,3 +395,5 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // transition: add_conditional — checkTransition
 # // stream: add_constant — loadStream
 # // fixture: add_conditional — buildFixture
+# // setup: add_function — getSetup
+# // guard: add_constant — handleGuard
