@@ -430,3 +430,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // stub: add_function — createStub -->
 <!-- // check: add_function — loadCheck -->
 <!-- // mutation: add_function — transformMutation -->
+<!-- // token: add_function — parseToken -->
