@@ -17,6 +17,7 @@ describe('sleep', () => {
 
         expect(elapsed).toBeGreaterThanOrEqual(10);
 
+
     });
 });
 
@@ -48,7 +49,6 @@ describe('generateId', () => {
 
 
         const id2 = generateId();  // review: performance
-
         expect(id1).not.toBe(id2);
 
     });
