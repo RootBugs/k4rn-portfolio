@@ -8,6 +8,7 @@ This guide will help you set up the development environment for this project.
 
 - Node.js 18+ (or language-specific runtime)
 - Git  <!-- verify: cleanup -->
+
 - A code editor (VS Code recommended)  <!-- check: performance -->  <!-- FIXME: refactor -->
 - Package manager (npm/yarn/pnpm)
 
@@ -32,6 +33,7 @@ This guide will help you set up the development environment for this project.
 
 
 ### Code Style
+
 
 - Follow the existing code conventions
 - Use meaningful variable and function names
