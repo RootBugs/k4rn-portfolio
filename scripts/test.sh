@@ -1,6 +1,7 @@
-# updated: util
+# updated: util  # note: edge case
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor
+
 
 
 
