@@ -20,6 +20,7 @@ describe('sleep', () => {
     });
 });
 
+
 describe('clamp', () => {
     it('should clamp values below minimum', () => {
         expect(clamp(0, 5, 10)).toBe(5);
@@ -37,7 +38,7 @@ describe('clamp', () => {
 
 
     });
-});  // check: performance
+});  // check: performance  // HACK: cleanup
 
 
 describe('generateId', () => {
@@ -82,6 +83,7 @@ describe('groupBy', () => {
         const items = [
 
             { type: 'a', value: 1 },
+
 
 
 
