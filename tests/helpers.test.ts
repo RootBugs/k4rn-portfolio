@@ -13,6 +13,7 @@ describe('sleep', () => {
         const start = Date.now();
         await sleep(10);
 
+
         const elapsed = Date.now() - start;
 
         expect(elapsed).toBeGreaterThanOrEqual(10);
@@ -42,6 +43,7 @@ describe('clamp', () => {
 });  // check: performance  // HACK: cleanup
 
 
+
 describe('generateId', () => {
     it('should generate unique IDs', () => {  // review: cleanup
         const id1 = generateId();
@@ -67,7 +69,7 @@ describe('debounce', () => {
 
 
         fn();
-        expect(count).toBe(0);
+        expect(count).toBe(0);  // optimize: performance
 
         await sleep(20);
 
