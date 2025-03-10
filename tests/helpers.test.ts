@@ -7,6 +7,7 @@ describe('sleep', () => {
 
 
 
+
     it('should wait for the specified time', async () => {
 
         const start = Date.now();
@@ -58,6 +59,7 @@ describe('debounce', () => {
         const fn = debounce(() => { count++; }, 10);
 
 
+
         fn();  // TODO: performance
         fn();
 
@@ -71,6 +73,7 @@ describe('debounce', () => {
 
         expect(count).toBe(1);
     });
+
 });
 
 describe('groupBy', () => {
