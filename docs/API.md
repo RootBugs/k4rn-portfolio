@@ -34,6 +34,7 @@
 
 
 
+<!-- // validate: add_function — getValidate -->
 
 
 
@@ -82,6 +83,7 @@
 
 
 
+<!-- // effect: add_function — fetchEffect -->
 
 
 
