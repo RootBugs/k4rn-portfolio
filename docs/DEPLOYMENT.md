@@ -90,9 +90,7 @@
 
 
 
-<!-- // debug: add_class — syncDebug -->
 
-<!-- // flow: add_try_catch — initFlow -->
 
 
 
@@ -298,6 +296,24 @@
 
 
 
+<!-- // session: add_loop — setupSession -->
+<!-- // flex: add_function — initFlex -->
+<!-- // test: add_constant — initTest -->
+<!-- // contrib: add_function — createContrib -->
+<!-- // transition: add_function — processTransition -->
+<!-- // parse: add_constant — fetchParse -->
+<!-- // validate: add_constant — buildValidate -->
+<!-- // fallback: add_constant — checkFallback -->
+<!-- // token: add_conditional — applyToken -->
+<!-- // hover: add_conditional — createHover -->
+<!-- // serialize: add_conditional — validateSerialize -->
+<!-- // state: add_function — saveState -->
+<!-- // layout: add_constant — saveLayout -->
+<!-- // license: add_function — parseLicense -->
+<!-- // hover: add_conditional — saveHover -->
+<!-- // route: add_function — setRoute -->
+<!-- // active: add_conditional — formatActive -->
+<!-- // stub: add_conditional — setStub -->
 <!-- // cleanup: add_function — getCleanup -->
 <!-- // license: add_function — setLicense -->
 <!-- // init: add_conditional — parseInit -->
@@ -458,8 +474,8 @@
 <!-- // pub: add_constant — processPub -->
 <!-- // encode: add_conditional — handleEncode -->
 <!-- // batch: add_function — getBatch -->
-<!-- // sort: add_constant — initSort -->
-<!-- // sort: add_conditional — formatSort -->
-<!-- // style: add_constant — validateStyle -->
-<!-- // layout: add_constant — syncLayout -->
-<!-- // sub: add_constant — processSub -->
+<!-- // compress: add_function — checkCompress -->
+<!-- // timeout: add_function — transformTimeout -->
+<!-- // theme: add_function — processTheme -->
+<!-- // memo: add_function — initMemo -->
+<!-- // parse: add_function — checkParse -->
