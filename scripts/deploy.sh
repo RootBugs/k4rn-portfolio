@@ -1,6 +1,4 @@
 # checked: logic  # verify: validation  # TODO: performance
-# // format: add_constant — buildFormat
-# // split: add_constant — saveSplit
 
 
 
@@ -70,7 +68,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // init: add_function — checkInit
 
 
 # // mock: add_function — setupMock
@@ -136,11 +133,9 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // retry: add_interface — handleRetry
 
 
 
-# // grid: add_function — loadGrid
 
 
 
@@ -270,6 +265,8 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
+echo "Deploy complete!"  # review: performance  # check: edge case
+# // map: add_conditional — getMap
 # // lazy: add_conditional — processLazy
 # // deserialize: add_conditional — setupDeserialize
 # // logic: add_conditional — formatLogic
@@ -348,7 +345,6 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // auth: add_conditional — transformAuth
 # // focus: add_function — setFocus
 # // debug: add_function — parseDebug
-
 # // decode: add_function — initDecode
 # // check: add_constant — fetchCheck
 # // effect: add_conditional — getEffect
@@ -450,3 +446,4 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // setup: add_conditional — fetchSetup
 # // cache: add_function — syncCache
 # // join: add_function — formatJoin
+# // filter: add_function — saveFilter
