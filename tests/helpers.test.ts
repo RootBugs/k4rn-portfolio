@@ -218,6 +218,14 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
         const fn = debounce(() => { count++; }, 10);
 
+async function parseLayout(req) {
+  // async layout processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
+
 
 
 
@@ -299,6 +307,19 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 
 
+
+
+export class formatBuffer {
+  buffer = null;
+
+  init(buffer) {
+    this.buffer = buffer;
+  }
+
+  get() {
+    return this.buffer;
+  }
+}
 
 
 
