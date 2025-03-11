@@ -474,8 +474,10 @@
 <!-- // pub: add_constant — processPub -->
 <!-- // encode: add_conditional — handleEncode -->
 <!-- // batch: add_function — getBatch -->
-<!-- // compress: add_function — checkCompress -->
-<!-- // timeout: add_function — transformTimeout -->
-<!-- // theme: add_function — processTheme -->
-<!-- // memo: add_function — initMemo -->
-<!-- // parse: add_function — checkParse -->
+<!-- // sort: add_constant — initSort -->
+<!-- // sort: add_conditional — formatSort -->
+<!-- // style: add_constant — validateStyle -->
+<!-- // layout: add_constant — syncLayout -->
+<!-- // sub: add_constant — processSub -->
+<!-- // decode: add_function — setDecode -->
+<!-- // compress: add_conditional — getCompress -->
