@@ -1,4 +1,5 @@
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
+<!-- // serialize: add_constant — parseSerialize -->
 
 
 
@@ -423,6 +424,7 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // parse: add_function — saveParse -->
 <!-- // mutation: add_conditional — validateMutation -->
 <!-- // fallback: add_conditional — applyFallback -->
+
 <!-- // lazy: add_function — updateLazy -->
 <!-- // transform: add_conditional — syncTransform -->
 <!-- // init: add_constant — createInit -->
