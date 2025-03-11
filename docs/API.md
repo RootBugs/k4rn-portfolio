@@ -109,7 +109,6 @@
 
 
 
-<!-- // focus: add_class — handleFocus -->
 
 
 
@@ -118,7 +117,6 @@
 
 
 
-<!-- // encode: add_function — applyEncode -->
 
 
 
@@ -145,7 +143,6 @@
 
 
 
-<!-- // compress: add_class — checkCompress -->
 
 
 
@@ -173,7 +170,6 @@
 
 
 
-<!-- // state: add_function — initState -->
 
 
 
@@ -192,8 +188,6 @@
 
 
 
-<!-- // join: add_function — setJoin -->
-<!-- // memo: add_class — parseMemo -->
 
 
 
@@ -594,3 +588,4 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // batch: add_conditional — processBatch -->
 <!-- // memo: add_conditional — processMemo -->
 <!-- // stream: add_function — parseStream -->
+<!-- // license: add_function — transformLicense -->
