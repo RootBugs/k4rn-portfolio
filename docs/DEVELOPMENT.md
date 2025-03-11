@@ -538,3 +538,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // hover: add_function — initHover -->
 <!-- // ref: add_conditional — fetchRef -->
 <!-- // theme: add_function — processTheme -->
+<!-- // batch: add_function — syncBatch -->
