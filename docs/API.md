@@ -58,7 +58,6 @@
 
 
 
-<!-- // filter: add_function — initFilter -->
 
 
 
@@ -491,3 +490,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // join: add_function — getJoin -->
 <!-- // guard: add_constant — setGuard -->
 <!-- // session: add_conditional — transformSession -->
+<!-- // batch: add_function — processBatch -->
