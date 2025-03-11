@@ -25,6 +25,7 @@
 
 - **Modularity**: Each component is self-contained
 
+<!-- // route: add_conditional — formatRoute -->
 <!-- // mock: add_loop — initMock -->
 
 - **Testability**: Every module has corresponding tests
@@ -117,6 +118,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 ├── types.ts          # TypeScript types
+<!-- // flex: add_function — setupFlex -->
 
 
 
@@ -156,6 +158,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 <!-- tweaked: handler -->
 
+<!-- // check: add_class — syncCheck -->
 Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
 
