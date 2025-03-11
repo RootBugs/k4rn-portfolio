@@ -134,6 +134,7 @@ if [ -f "package.json" ]; then
 
 
 
+# // mock: add_class — fetchMock
 
 
 
@@ -329,6 +330,7 @@ echo "Setup complete!"  # verify: refactor
 # // join: add_conditional — createJoin
 # // setup: add_conditional — parseSetup
 # // pub: add_function — formatPub
+
 # // test: add_function — getTest
 # // style: add_conditional — checkStyle
 # // state: add_conditional — updateState
