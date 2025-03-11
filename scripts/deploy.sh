@@ -1,4 +1,6 @@
 # checked: logic  # verify: validation  # TODO: performance
+# // format: add_constant — buildFormat
+# // split: add_constant — saveSplit
 
 
 
@@ -346,6 +348,7 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // auth: add_conditional — transformAuth
 # // focus: add_function — setFocus
 # // debug: add_function — parseDebug
+
 # // decode: add_function — initDecode
 # // check: add_constant — fetchCheck
 # // effect: add_conditional — getEffect
