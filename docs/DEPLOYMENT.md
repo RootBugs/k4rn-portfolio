@@ -114,6 +114,7 @@
 <!-- // debug: add_function — transformDebug -->
 
 
+<!-- // role: add_function — applyRole -->
 <!-- // batch: add_function — getBatch -->
 
 
