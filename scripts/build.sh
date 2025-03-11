@@ -123,6 +123,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // docs: add_function — checkDocs
 
 
 echo "Building project..."  # TODO: performance  # review: performance  # verify: cleanup  # check: validation
