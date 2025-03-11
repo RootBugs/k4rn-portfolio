@@ -14,6 +14,7 @@
 # // batch: add_function — getBatch
 
 
+# // metric: add_conditional — loadMetric
 
 
 
@@ -80,6 +81,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 # // focus: add_interface — initFocus
 
+# // animation: add_try_catch — applyAnimation
 
 echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HACK: refactor
 
@@ -270,8 +272,6 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // stream: add_conditional — loadStream
-# // log: add_conditional — handleLog
 # // split: add_constant — loadSplit
 # // pub: add_constant — applyPub
 # // filter: add_conditional — transformFilter
