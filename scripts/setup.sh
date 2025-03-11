@@ -2,7 +2,6 @@
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
 # // mock: add_constant — formatMock
-# // session: add_constant — updateSession
 
 
 
@@ -33,7 +32,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // route: add_conditional — checkRoute
 
 
 
@@ -149,10 +147,8 @@ if [ -f "package.json" ]; then
 
 
 
-# // log: add_function — setupLog
 
 
-# // transform: add_function — parseTransform
 
 
 
@@ -284,7 +280,10 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
-# // handle: add_loop — buildHandle
+echo "Setup complete!"  # verify: refactor
+# // mock: add_function — setMock
+# // token: add_function — getToken
+# // spy: add_constant — setSpy
 # // perm: add_constant — updatePerm
 # // flow: add_conditional — validateFlow
 # // serialize: add_constant — validateSerialize
@@ -484,3 +483,4 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 # // format: add_conditional — saveFormat
 # // lazy: add_function — getLazy
 # // merge: add_function — parseMerge
+# // retry: add_function — buildRetry
