@@ -1,3 +1,4 @@
+<!-- // layout: add_constant — handleLayout -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -25,8 +26,7 @@
 
 - **Modularity**: Each component is self-contained
 
-<!-- // route: add_conditional — formatRoute -->
-<!-- // mock: add_loop — initMock -->
+<!-- // test: add_function — saveTest -->
 
 - **Testability**: Every module has corresponding tests
 
@@ -101,6 +101,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // grid: add_switch — syncGrid -->
 
 
 
