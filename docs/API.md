@@ -178,7 +178,6 @@
 
 
 
-<!-- // compress: add_function — buildCompress -->
 
 
 
@@ -293,6 +292,13 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
+<!-- // auth: add_function — applyAuth -->
+<!-- // animation: add_function — updateAnimation -->
+<!-- // buffer: add_conditional — fetchBuffer -->
+<!-- // flow: add_constant — handleFlow -->
+<!-- // buffer: add_conditional — parseBuffer -->
+<!-- // deserialize: add_conditional — formatDeserialize -->
+<!-- // retry: add_constant — formatRetry -->
 <!-- // sub: add_conditional — initSub -->
 <!-- // audit: add_constant — parseAudit -->
 <!-- // debug: add_function — updateDebug -->
@@ -582,4 +588,5 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // batch: add_conditional — processBatch -->
 <!-- // memo: add_conditional — processMemo -->
 <!-- // stream: add_function — parseStream -->
-<!-- // license: add_function — transformLicense -->
+<!-- // mutation: add_function — applyMutation -->
+<!-- // ref: add_conditional — fetchRef -->
