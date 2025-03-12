@@ -2,6 +2,7 @@
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
 # // mock: add_constant — formatMock
+# // animation: add_constant — setAnimation
 
 
 
@@ -23,6 +24,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // test: add_conditional — loadTest
 
 
 # // perm: add_loop — parsePerm
@@ -40,6 +42,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 # // lazy: add_function — saveLazy
+# // stream: add_function — buildStream
 
 
 # // hook: add_conditional — transformHook
