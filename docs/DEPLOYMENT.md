@@ -42,6 +42,7 @@
 
 
 
+<!-- // theme: add_function — formatTheme -->
 
 
 
@@ -54,6 +55,7 @@
 
 
 
+<!-- // handle: add_function — buildHandle -->
 
 <!-- // debug: add_conditional — transformDebug -->
 
