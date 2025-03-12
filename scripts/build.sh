@@ -1,6 +1,4 @@
-# // sort: add_import — parseSort
 # checked: logic  # TODO: refactor
-# // fallback: add_constant — handleFallback
 
 
 
@@ -10,7 +8,6 @@
 
 
 
-# // render: add_function — handleRender
 
 
 
@@ -82,7 +79,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // flex: add_class — parseFlex
 
 
 
@@ -264,7 +260,8 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-# // split: add_conditional — getSplit
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
 # // map: add_function — fetchMap
 # // effect: add_function — loadEffect
 # // query: add_function — initQuery
@@ -548,4 +545,4 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // mock: add_constant — parseMock
 # // init: add_function — checkInit
 # // state: add_function — parseState
-# // grid: add_function — setupGrid
+# // session: add_function — setSession
