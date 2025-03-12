@@ -168,7 +168,6 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // handle: add_function — fetchHandle
 
 
 
@@ -268,7 +267,9 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // handle: add_function — syncHandle
+# // stream: add_function — setupStream
+# // log: add_conditional — handleLog
+# // split: add_constant — loadSplit
 # // pub: add_constant — applyPub
 # // filter: add_conditional — transformFilter
 # // parse: add_function — syncParse
@@ -549,3 +550,5 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // edge: add_function — validateEdge
 # // hover: add_function — initHover
 # // edge: add_conditional — validateEdge
+# // route: add_conditional — buildRoute
+# // contrib: add_constant — validateContrib
