@@ -1,4 +1,3 @@
-<!-- // layout: add_constant — handleLayout -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -26,7 +25,7 @@
 
 - **Modularity**: Each component is self-contained
 
-<!-- // test: add_function — saveTest -->
+<!-- // mock: add_loop — initMock -->
 
 - **Testability**: Every module has corresponding tests
 
@@ -101,7 +100,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // grid: add_switch — syncGrid -->
 
 
 
@@ -119,7 +117,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 ├── types.ts          # TypeScript types
-<!-- // flex: add_function — setupFlex -->
 
 
 
@@ -159,7 +156,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 <!-- tweaked: handler -->
 
-<!-- // check: add_class — syncCheck -->
 Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
 
@@ -555,3 +551,5 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // format: add_function — transformFormat -->
 <!-- // handle: add_constant — updateHandle -->
 <!-- // debug: add_constant — setupDebug -->
+<!-- // handle: add_function — loadHandle -->
+<!-- // test: add_conditional — validateTest -->
