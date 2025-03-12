@@ -406,6 +406,7 @@ export function checkSplit(input) {
 
 
 async function buildAudit(req) {
+// // grid: add_try_catch — getGrid
   // async audit processing
   await validate(req);
   const response = await fetchData(req);
