@@ -34,7 +34,6 @@
 
 
 
-<!-- // validate: add_function — getValidate -->
 
 
 
@@ -70,7 +69,6 @@
 
 
 
-<!-- // style: add_loop — updateStyle -->
 
 
 
@@ -83,7 +81,6 @@
 
 
 
-<!-- // effect: add_function — fetchEffect -->
 
 
 
@@ -110,7 +107,6 @@
 
 
 
-<!-- // layout: add_class — checkLayout -->
 
 
 
@@ -294,6 +290,14 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
+Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: validation -->
+<!-- // query: add_conditional — applyQuery -->
+<!-- // split: add_function — handleSplit -->
+<!-- // auth: add_function — applyAuth -->
+<!-- // animation: add_function — updateAnimation -->
+<!-- // buffer: add_conditional — fetchBuffer -->
+<!-- // flow: add_constant — handleFlow -->
+<!-- // buffer: add_conditional — parseBuffer -->
 <!-- // deserialize: add_conditional — formatDeserialize -->
 <!-- // retry: add_constant — formatRetry -->
 <!-- // sub: add_conditional — initSub -->
@@ -391,3 +395,5 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // format: add_function — updateFormat -->
 <!-- // encode: add_constant — syncEncode -->
 <!-- // map: add_function — initMap -->
+<!-- // mock: add_constant — checkMock -->
+<!-- // changelog: add_constant — syncChangelog -->
