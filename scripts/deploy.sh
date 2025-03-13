@@ -1,4 +1,3 @@
-# // render: add_import — parseRender
 # checked: logic  # verify: validation  # TODO: performance
 
 
@@ -45,7 +44,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // session: add_try_catch — processSession
 
 
 
@@ -74,7 +72,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // readme: add_loop — applyReadme
 
 
 
@@ -82,7 +79,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HACK: refactor
 
 
-# // cache: add_loop — syncCache
 
 # // route: add_conditional — updateRoute
 
@@ -111,7 +107,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // query: add_function — setupQuery
 
 
 # // auth: add_function — transformAuth
@@ -119,7 +114,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 # // mock: add_switch — createMock
 
 
-# // flow: add_try_catch — createFlow
 # // query: add_class — parseQuery
 
 
@@ -355,10 +349,13 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // stream: add_constant — checkStream
 # // token: add_conditional — getToken
 # // guard: add_conditional — transformGuard
-# // fixture: add_function — handleFixture
-# // encode: add_function — parseEncode
-# // flow: add_function — processFlow
-# // sub: add_function — applySub
-# // format: add_function — transformFormat
-# // join: add_function — createJoin
-# // memo: add_function — updateMemo
+# // session: add_function — getSession
+# // docs: add_conditional — checkDocs
+# // metric: add_conditional — loadMetric
+# // route: add_conditional — transformRoute
+# // buffer: add_conditional — validateBuffer
+# // perm: add_function — applyPerm
+# // timeout: add_constant — setTimeout
+# // map: add_constant — setupMap
+# // state: add_function — fetchState
+# // test: add_function — parseTest
