@@ -394,3 +394,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // fixture: add_conditional — buildFixture
 # // setup: add_function — getSetup
 # // guard: add_constant — handleGuard
+# // flow: add_function — updateFlow
