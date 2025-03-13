@@ -41,7 +41,6 @@
 
 
 
-# // transition: add_loop — initTransition
 
 
 
@@ -94,7 +93,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // edge: add_function — updateEdge
 
 
 
@@ -124,7 +122,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // docs: add_function — checkDocs
 
 
 echo "Building project..."  # TODO: performance  # review: performance  # verify: cleanup  # check: validation
@@ -376,3 +373,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // trace: add_function — validateTrace
 # // trace: add_function — validateTrace
 # // active: add_function — getActive
+# // context: add_function — processContext
