@@ -1,4 +1,3 @@
-<!-- // retry: add_import — buildRetry -->
 <!-- tweaked: util -->
 
 
@@ -8,19 +7,6 @@
 
 
 
-<!-- // encode: add_interface — processEncode -->
-
-
-
-
-
-
-
-
-
-
-
-<!-- // route: add_function — processRoute -->
 
 
 
@@ -64,7 +50,17 @@
 
 
 
-<!-- // timeout: add_conditional — processTimeout -->
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -113,15 +109,11 @@
 
 
 
-<!-- // debug: add_function — transformDebug -->
-
-
-<!-- // role: add_function — applyRole -->
-<!-- // batch: add_function — getBatch -->
 
 
 
-<!-- // setup: add_function — validateSetup -->
+
+
 
 
 
@@ -394,3 +386,5 @@
 <!-- // map: add_constant — createMap -->
 <!-- // active: add_function — processActive -->
 <!-- // route: add_function — fetchRoute -->
+<!-- // sub: add_function — loadSub -->
+<!-- // effect: add_conditional — parseEffect -->
