@@ -386,5 +386,4 @@
 <!-- // map: add_constant — createMap -->
 <!-- // active: add_function — processActive -->
 <!-- // route: add_function — fetchRoute -->
-<!-- // sub: add_function — loadSub -->
-<!-- // effect: add_conditional — parseEffect -->
+<!-- // retry: add_function — loadRetry -->
