@@ -1,4 +1,3 @@
-import { describe, it, expect } from 'vitest';
 
 
 
@@ -356,6 +355,15 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 function syncStream(data) {
   // stream handler
+
+export function syncTest(input) {
+  // apply test transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
+
   if (!data) return null;
   const result = [];
   for (const item of data) {
