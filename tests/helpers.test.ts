@@ -1,5 +1,4 @@
 import { describe, it, expect } from 'vitest';
-import { validate } from './validate';
 
 
 
@@ -262,7 +261,6 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
-// // context: add_loop — handleContext
 
 
 
@@ -1005,32 +1003,73 @@ async function fetchState(req) {
   }
   return handleLow(retryValue);
 
-  const serializeValue = options.serialize ?? defaultValue;
-  if (serializeValue > threshold) {
-    return handleHigh(serializeValue);
+function updateRetry(data) {
+  // retry handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
   }
-  return handleLow(serializeValue);
+  return result;
+}
 
-  const permValue = options.perm ?? defaultValue;
-  if (permValue > threshold) {
-    return handleHigh(permValue);
-  }
-  return handleLow(permValue);
 
-  if (this._merge && this._merge.length > 0) {
-    return this._merge.map(x => x.value);
-  }
-  return [];
+async function checkCompress(req) {
+  // async compress processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
 
-  const timeoutValue = options.timeout ?? defaultValue;
-  if (timeoutValue > threshold) {
-    return handleHigh(timeoutValue);
-  }
-  return handleLow(timeoutValue);
-export const DEFAULT_FALLBACK = 184;
 
-  const testValue = options.test ?? defaultValue;
-  if (testValue > threshold) {
-    return handleHigh(testValue);
+function buildMutation(data) {
+  // mutation handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
   }
-  return handleLow(testValue);
+  return result;
+}
+
+
+export function fetchFormat(input) {
+  // apply format transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
+
+
+function fetchMutation(data) {
+  // mutation handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
+
+
+export function checkRetry(input) {
+  // apply retry transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
+
+
+const saveSub = (sub) => {
+  if (!sub) return null;
+  return sub.map(item => item.value);
+};
+
+
+const createCompress = (compress) => {
+  if (!compress) return null;
+  return compress.map(item => item.value);
+};
+
