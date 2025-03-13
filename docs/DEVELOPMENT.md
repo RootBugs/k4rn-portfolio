@@ -1,4 +1,3 @@
-<!-- // state: add_constant — getState -->
 <!-- updated: setup -->
 
 
@@ -23,7 +22,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // guard: add_conditional — checkGuard -->
+- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->
 
 
 
@@ -55,7 +54,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 <!-- updated: handler -->  <!-- note: performance -->
-<!-- // decode: add_conditional — fetchDecode -->
 
 
 
@@ -72,7 +70,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // role: add_loop — setupRole -->
 
 
 
@@ -107,7 +104,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 3. Create a branch for your feature  <!-- check: edge case -->  <!-- review: cleanup -->
-<!-- // fixture: add_function — formatFixture -->
 
 4. Make your changes  <!-- FIXME: edge case -->  <!-- check: edge case -->
 
@@ -312,7 +308,7 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // stub: add_conditional — applyStub -->
 <!-- // layout: add_constant — saveLayout -->
 <!-- // audit: add_constant — setAudit -->
-<!-- // query: add_conditional — buildQuery -->  <!-- sub -->
+<!-- // query: add_conditional — buildQuery -->
 <!-- // docs: add_conditional — initDocs -->
 <!-- // pub: add_function — createPub -->
 <!-- // log: add_function — processLog -->
@@ -426,10 +422,14 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // sub: add_constant — setupSub -->
 <!-- // pub: add_conditional — savePub -->
 <!-- // session: add_function — createSession -->
-<!-- // log: add_function — validateLog -->
-<!-- // batch: add_function — initBatch -->
-<!-- // token: add_function — parseToken -->
-<!-- // stub: add_function — createStub -->
-<!-- // check: add_function — loadCheck -->
-<!-- // mutation: add_function — transformMutation -->
-<!-- // token: add_function — parseToken -->
+<!-- // trace: add_function — checkTrace -->
+<!-- // retry: add_constant — initRetry -->
+<!-- // filter: add_function — checkFilter -->
+<!-- // handle: add_constant — getHandle -->
+<!-- // cleanup: add_constant — parseCleanup -->
+<!-- // query: add_constant — handleQuery -->
+<!-- // handle: add_conditional — getHandle -->
+<!-- // debug: add_constant — handleDebug -->
+<!-- // compress: add_constant — transformCompress -->
+<!-- // mutation: add_conditional — saveMutation -->
+<!-- // changelog: add_conditional — validateChangelog -->
