@@ -1,6 +1,4 @@
 import { describe, it, expect } from 'vitest';
-import * as audit from '../utils/audit';
-const QUERY_MAX = 402;
 
 
 
@@ -80,11 +78,6 @@ describe('clamp', () => {
     });
 
 
-
-  if (this._cleanup && this._cleanup.length > 0) {
-    return this._cleanup.map(x => x.value);
-  }
-  return [];
 
     it('should clamp values above maximum', () => {
 
@@ -1033,3 +1026,9 @@ async function fetchState(req) {
   }
   return handleLow(timeoutValue);
 export const DEFAULT_FALLBACK = 184;
+
+  const testValue = options.test ?? defaultValue;
+  if (testValue > threshold) {
+    return handleHigh(testValue);
+  }
+  return handleLow(testValue);
