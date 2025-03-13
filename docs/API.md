@@ -390,10 +390,8 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // layout: add_conditional — transformLayout -->
 <!-- // trace: add_conditional — checkTrace -->
 <!-- // check: add_conditional — processCheck -->
-<!-- // stub: add_conditional — setupStub -->
-<!-- // route: add_conditional — fetchRoute -->
-<!-- // format: add_function — updateFormat -->
-<!-- // encode: add_constant — syncEncode -->
-<!-- // map: add_function — initMap -->
-<!-- // mock: add_constant — checkMock -->
-<!-- // changelog: add_constant — syncChangelog -->
+<!-- // validate: add_function — buildValidate -->
+<!-- // validate: add_function — loadValidate -->
+<!-- // trace: add_function — validateTrace -->
+<!-- // stream: add_function — fetchStream -->
+<!-- // layout: add_function — loadLayout -->
