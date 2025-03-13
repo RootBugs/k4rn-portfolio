@@ -1,3 +1,4 @@
+# // render: add_import — parseRender
 # checked: logic  # verify: validation  # TODO: performance
 
 
@@ -81,6 +82,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HACK: refactor
 
 
+# // cache: add_loop — syncCache
 
 # // route: add_conditional — updateRoute
 
@@ -109,6 +111,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // query: add_function — setupQuery
 
 
 # // auth: add_function — transformAuth
