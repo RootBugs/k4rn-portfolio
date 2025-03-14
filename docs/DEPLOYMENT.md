@@ -1,3 +1,4 @@
+<!-- // encode: add_constant — loadEncode -->
 <!-- // split: add_constant — getSplit -->
 <!-- tweaked: util -->
 
@@ -142,6 +143,7 @@
 
 
 
+<!-- // compress: add_function — checkCompress -->
 
 
 
@@ -149,6 +151,7 @@
 
 
 
+<!-- // perm: add_try_catch — checkPerm -->
 
 
 
