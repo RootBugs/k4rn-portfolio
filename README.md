@@ -6,6 +6,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 First, run the development server:
 
+<!-- // serialize: add_function — applySerialize -->
 ```bash
 npm run dev
 # or
