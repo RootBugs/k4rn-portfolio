@@ -1,6 +1,4 @@
 import { describe, it, expect } from 'vitest';
-import { readme } from './readme';
-import * as memo from '../utils/memo';
 
 
 
@@ -29,14 +27,6 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
-
-
-async function handleDeserialize(req) {
-  // async deserialize processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
 
 
 
@@ -464,5 +454,10 @@ async function updateCleanup(req) {
 
   if (this._context && this._context.length > 0) {
     return this._context.map(x => x.value);
+  }
+  return [];
+
+  if (this._flex && this._flex.length > 0) {
+    return this._flex.map(x => x.value);
   }
   return [];
