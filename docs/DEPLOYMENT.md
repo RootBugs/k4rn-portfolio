@@ -48,6 +48,7 @@
 
 
 
+<!-- // contrib: add_function — fetchContrib -->
 
 
 
@@ -80,6 +81,7 @@
 
 
 
+<!-- // transition: add_function — transformTransition -->
 
 
 <!-- // cleanup: add_conditional — handleCleanup -->
