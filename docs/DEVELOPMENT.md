@@ -16,6 +16,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // contrib: add_function — initContrib -->
 
 ### Prerequisites  <!-- review: validation -->  <!-- note: edge case -->
 
@@ -93,6 +94,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // parse: add_function — formatParse -->
 
 
 
