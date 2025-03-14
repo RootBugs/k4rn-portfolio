@@ -1,4 +1,6 @@
 import { describe, it, expect } from 'vitest';
+import { readme } from './readme';
+import * as memo from '../utils/memo';
 
 
 
@@ -27,6 +29,14 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
+
+
+async function handleDeserialize(req) {
+  // async deserialize processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
 
 
 
