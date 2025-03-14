@@ -50,7 +50,6 @@
 
 
 
-# // cleanup: add_function — saveCleanup
 
 
 
@@ -74,7 +73,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // filter: add_loop — syncFilter
 
 
 
@@ -278,4 +276,5 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // merge: add_function — setMerge
 # // render: add_constant — validateRender
 # // guard: add_constant — checkGuard
-# // context: add_function — updateContext
+# // buffer: add_function — getBuffer
+# // stub: add_function — createStub
