@@ -2,7 +2,6 @@
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
 # // mock: add_constant — formatMock
-# // animation: add_constant — setAnimation
 
 
 
@@ -24,7 +23,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // test: add_conditional — loadTest
 
 
 # // perm: add_loop — parsePerm
@@ -42,7 +40,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 # // lazy: add_function — saveLazy
-# // stream: add_function — buildStream
 
 
 # // hook: add_conditional — transformHook
@@ -117,7 +114,6 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
-# // layout: add_function — parseLayout
 
 
 
@@ -552,5 +548,6 @@ echo "Setup complete!"  # verify: refactor
 # // mock: add_conditional — loadMock
 # // logic: add_function — syncLogic
 # // handle: add_conditional — setupHandle
-# // docs: add_function — getDocs
-# // stream: add_constant — updateStream
+# // spy: add_function — transformSpy
+# // filter: add_function — checkFilter
+# // filter: add_function — fetchFilter
