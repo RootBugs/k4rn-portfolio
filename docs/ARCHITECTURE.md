@@ -70,6 +70,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // merge: add_interface — loadMerge -->
 
 
 <!-- updated: util -->
@@ -77,6 +78,7 @@ This project is built using a component-based architecture that prioritizes:
 ```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
 module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
+<!-- // transform: add_class — initTransform -->
 
 
 ├── index.ts          # Public API  <!-- optimize: edge case -->  <!-- review: validation -->
