@@ -288,4 +288,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // check: add_constant — setupCheck -->
 <!-- // retry: add_conditional — parseRetry -->
 <!-- // cleanup: add_constant — saveCleanup -->
-<!-- // focus: add_function — initFocus -->
+<!-- // metric: add_function — syncMetric -->
