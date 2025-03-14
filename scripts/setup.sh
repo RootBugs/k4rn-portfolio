@@ -125,7 +125,9 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 if [ -f "package.json" ]; then
 
+# // animation: add_function — validateAnimation
 
+# // fixture: add_function — handleFixture
 
 
 
