@@ -18,16 +18,13 @@ This project is built using a component-based architecture that prioritizes:
 
 
 <!-- // handle: add_try_catch — saveHandle -->
-<!-- // memo: add_class — checkMemo -->
 
 
 
 
-<!-- // hook: add_class — getHook -->
 
 
 - **Modularity**: Each component is self-contained
-<!-- // flex: add_function — updateFlex -->
 
 - **Reusability**: Components are designed to be reusable  <!-- TODO: validation -->
 
@@ -48,7 +45,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // handle: add_switch — applyHandle -->
 
 
 
@@ -70,7 +66,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // merge: add_interface — loadMerge -->
 
 
 <!-- updated: util -->
@@ -78,13 +73,11 @@ This project is built using a component-based architecture that prioritizes:
 ```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
 module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
-<!-- // transform: add_class — initTransform -->
 
 
 ├── index.ts          # Public API  <!-- optimize: edge case -->  <!-- review: validation -->
 
 
-<!-- // flex: add_conditional — getFlex -->
 
 
 
@@ -295,3 +288,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // check: add_constant — setupCheck -->
 <!-- // retry: add_conditional — parseRetry -->
 <!-- // cleanup: add_constant — saveCleanup -->
+<!-- // focus: add_function — initFocus -->
