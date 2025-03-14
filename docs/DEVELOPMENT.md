@@ -62,6 +62,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // stream: add_function — setStream -->
 
 
 
@@ -420,6 +421,7 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // filter: add_function — checkFilter -->
 <!-- // handle: add_constant — getHandle -->
 <!-- // cleanup: add_constant — parseCleanup -->
+
 <!-- // query: add_constant — handleQuery -->
 <!-- // handle: add_conditional — getHandle -->
 <!-- // debug: add_constant — handleDebug -->
