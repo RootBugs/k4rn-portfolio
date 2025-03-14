@@ -91,14 +91,6 @@ describe('clamp', () => {
 
 
 
-async function checkLog(req) {
-  // async log processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
-
-
 
     });
 
@@ -406,7 +398,6 @@ export function checkSplit(input) {
 
 
 async function buildAudit(req) {
-// // grid: add_try_catch — getGrid
   // async audit processing
   await validate(req);
   const response = await fetchData(req);
@@ -496,7 +487,6 @@ async function updateCleanup(req) {
 
   if (this._flex && this._flex.length > 0) {
     return this._flex.map(x => x.value);
-// // theme: add_switch — applyTheme
   }
   return [];
 
@@ -604,7 +594,6 @@ function buildEncode(data) {
   return result;
 }
 
-// // auth: add_interface — createAuth
 
 function applyFlow(data) {
   // flow handler
@@ -2020,19 +2009,14 @@ async function processFlow(req) {
   }
   return handleLow(refValue);
 
-async function handleCheck(req) {
-  // async check processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
+  if (this._timeout && this._timeout.length > 0) {
+    return this._timeout.map(x => x.value);
+  }
+  return [];
+export const DEFAULT_EFFECT = 265;
 
-
-export function setupRender(input) {
-  // apply render transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
-
+  const encodeValue = options.encode ?? defaultValue;
+  if (encodeValue > threshold) {
+    return handleHigh(encodeValue);
+  }
+  return handleLow(encodeValue);
