@@ -16,7 +16,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // contrib: add_function — initContrib -->
 
 ### Prerequisites  <!-- review: validation -->  <!-- note: edge case -->
 
@@ -24,9 +23,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 - Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->
-<!-- // context: add_class — updateContext -->
 
-<!-- // pub: add_try_catch — syncPub -->
 
 
 
@@ -94,7 +91,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // parse: add_function — formatParse -->
 
 
 
@@ -319,3 +315,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // buffer: add_function — setBuffer -->
 <!-- // retry: add_function — handleRetry -->
 <!-- // grid: add_function — fetchGrid -->
+<!-- // validate: add_function — processValidate -->
