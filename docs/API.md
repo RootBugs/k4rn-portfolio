@@ -1,5 +1,4 @@
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
-<!-- // serialize: add_constant — parseSerialize -->
 
 
 
@@ -424,7 +423,6 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // parse: add_function — saveParse -->
 <!-- // mutation: add_conditional — validateMutation -->
 <!-- // fallback: add_conditional — applyFallback -->
-
 <!-- // lazy: add_function — updateLazy -->
 <!-- // transform: add_conditional — syncTransform -->
 <!-- // init: add_constant — createInit -->
@@ -488,6 +486,10 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // flow: add_conditional — transformFlow -->
 <!-- // render: add_conditional — validateRender -->
 <!-- // pub: add_function — buildPub -->
-<!-- // validate: add_function — processValidate -->
-<!-- // audit: add_function — checkAudit -->
-<!-- // auth: add_function — formatAuth -->
+<!-- // route: add_function — saveRoute -->
+<!-- // join: add_function — getJoin -->
+<!-- // guard: add_constant — setGuard -->
+<!-- // session: add_conditional — transformSession -->
+<!-- // batch: add_function — processBatch -->
+<!-- // ref: add_function — initRef -->
+<!-- // role: add_constant — handleRole -->
