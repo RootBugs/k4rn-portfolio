@@ -14,7 +14,6 @@
 <!-- // pub: add_function — setPub -->
 
 
-<!-- // flex: add_function — buildFlex -->
 
 
 
@@ -103,9 +102,7 @@
 <!-- revised: logic -->  <!-- note: edge case -->  <!-- verify: validation -->  <!-- note: performance -->  <!-- check: refactor -->
 
 
-<!-- // query: add_class — initQuery -->
 
-<!-- // flow: add_try_catch — initFlow -->
 
 
 
@@ -296,7 +293,14 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
-<!-- // hover: add_loop — initHover -->
+Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: validation -->
+<!-- // query: add_conditional — applyQuery -->
+<!-- // split: add_function — handleSplit -->
+<!-- // auth: add_function — applyAuth -->
+<!-- // animation: add_function — updateAnimation -->
+<!-- // buffer: add_conditional — fetchBuffer -->
+<!-- // flow: add_constant — handleFlow -->
+<!-- // buffer: add_conditional — parseBuffer -->
 <!-- // deserialize: add_conditional — formatDeserialize -->
 <!-- // retry: add_constant — formatRetry -->
 <!-- // sub: add_conditional — initSub -->
@@ -482,10 +486,7 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // flow: add_conditional — transformFlow -->
 <!-- // render: add_conditional — validateRender -->
 <!-- // pub: add_function — buildPub -->
-<!-- // route: add_function — saveRoute -->
-<!-- // join: add_function — getJoin -->
-<!-- // guard: add_constant — setGuard -->
-<!-- // session: add_conditional — transformSession -->
-<!-- // batch: add_function — processBatch -->
-<!-- // ref: add_function — initRef -->
-<!-- // role: add_constant — handleRole -->
+<!-- // validate: add_function — processValidate -->
+<!-- // audit: add_function — checkAudit -->
+<!-- // auth: add_function — formatAuth -->
+<!-- // pub: add_function — buildPub -->
