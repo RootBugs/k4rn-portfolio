@@ -316,3 +316,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // role: add_function — applyRole
 # // buffer: add_function — fetchBuffer
 # // pub: add_function — fetchPub
+# // retry: add_function — parseRetry
