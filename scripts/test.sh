@@ -472,3 +472,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // transition: add_function — createTransition
 # // edge: add_function — formatEdge
 # // audit: add_function — formatAudit
+# // map: add_function — setMap
