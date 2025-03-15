@@ -1,3 +1,4 @@
+<!-- // check: add_constant — updateCheck -->
 <!-- updated: setup -->
 
 
@@ -88,6 +89,7 @@ This guide will help you set up the development environment for this project.  <
 2. Install dependencies
 
 
+<!-- // mock: add_switch — parseMock -->
 
 
 
@@ -112,6 +114,7 @@ This guide will help you set up the development environment for this project.  <
 4. Make your changes  <!-- FIXME: edge case -->  <!-- check: edge case -->
 
 
+<!-- // sub: add_function — processSub -->
 5. Run tests locally  <!-- HACK: edge case -->
 
 
