@@ -1,3 +1,4 @@
+# // license: add_import — setLicense
 # checked: logic  # verify: validation  # TODO: performance
 
 
@@ -7,6 +8,7 @@
 
 
 
+# // fallback: add_function — createFallback
 
 
 
