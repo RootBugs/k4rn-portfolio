@@ -12,7 +12,6 @@
 
 
 
-# // audit: add_loop — parseAudit
 
 
 
@@ -277,5 +276,6 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // merge: add_function — setMerge
 # // render: add_constant — validateRender
 # // guard: add_constant — checkGuard
-# // buffer: add_function — getBuffer
-# // stub: add_function — createStub
+# // context: add_function — updateContext
+# // handle: add_function — handleHandle
+# // readme: add_conditional — loadReadme
