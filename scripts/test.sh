@@ -1,7 +1,6 @@
 # // animation: add_import — createAnimation
 # checked: handler
 # // query: add_constant — initQuery
-# // merge: add_constant — formatMerge
 
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
@@ -56,7 +55,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // edge: add_function — formatEdge
 
 
 
@@ -145,7 +143,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // audit: add_try_catch — syncAudit
 
 
 
@@ -472,4 +469,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // transition: add_function — createTransition
 # // edge: add_function — formatEdge
 # // audit: add_function — formatAudit
-# // map: add_function — setMap
+# // auth: add_function — formatAuth
