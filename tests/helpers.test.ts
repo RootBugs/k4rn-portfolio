@@ -1,4 +1,3 @@
-import { describe, it, expect } from 'vitest';
 
 
 
@@ -71,6 +70,18 @@ describe('clamp', () => {
 
 
 
+
+
+class handleInit {
+  constructor(config = {}) {
+    this.config = config;
+    this._init = [];
+  }
+
+  process(data) {
+    return data;
+  }
+}
 
 
         expect(clamp(0, 5, 10)).toBe(5);
