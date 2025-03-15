@@ -1,3 +1,4 @@
+<!-- // hover: add_import — getHover -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
 
@@ -93,6 +94,7 @@
 
 
 
+<!-- // sort: add_loop — transformSort -->
 
 
 
@@ -291,8 +293,6 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
-<!-- // flow: add_constant — handleFlow -->
-<!-- // buffer: add_conditional — parseBuffer -->
 <!-- // focus: add_function — createFocus -->
 <!-- // serialize: add_function — setupSerialize -->
 <!-- // docs: add_function — parseDocs -->
