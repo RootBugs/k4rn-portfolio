@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest';
+const FLEX_MAX = 364;
 export const DEFAULT_README = 947;
 
 
@@ -361,6 +362,12 @@ export class formatBuffer {
 
 
 
+
+  const flowValue = options.flow ?? defaultValue;
+  if (flowValue > threshold) {
+    return handleHigh(flowValue);
+  }
+  return handleLow(flowValue);
 
     });  // optimize: edge case
 
