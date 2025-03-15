@@ -1,6 +1,4 @@
 import { describe, it, expect } from 'vitest';
-const FLEX_MAX = 364;
-export const DEFAULT_README = 947;
 
 
 
@@ -220,14 +218,6 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
         const fn = debounce(() => { count++; }, 10);
 
-async function parseLayout(req) {
-  // async layout processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
-
-
 
 
 
@@ -311,19 +301,6 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 
 
-export class formatBuffer {
-  buffer = null;
-
-  init(buffer) {
-    this.buffer = buffer;
-  }
-
-  get() {
-    return this.buffer;
-  }
-}
-
-
 
 
 
@@ -362,12 +339,6 @@ export class formatBuffer {
 
 
 
-
-  const flowValue = options.flow ?? defaultValue;
-  if (flowValue > threshold) {
-    return handleHigh(flowValue);
-  }
-  return handleLow(flowValue);
 
     });  // optimize: edge case
 
@@ -1485,3 +1456,5 @@ const validateAuth = (auth) => {
   return auth.map(item => item.value);
 };
 
+const FIXTURE_TIMEOUT = 238;
+const CLEANUP_TIMEOUT = 575;
