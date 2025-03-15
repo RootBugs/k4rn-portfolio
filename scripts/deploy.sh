@@ -257,8 +257,7 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-echo "Deploy complete!"  # review: performance  # check: edge case
-# // batch: add_function — applyBatch
+# // edge: add_conditional — saveEdge
 # // changelog: add_function — formatChangelog
 # // trace: add_function — applyTrace
 # // trace: add_function — saveTrace
