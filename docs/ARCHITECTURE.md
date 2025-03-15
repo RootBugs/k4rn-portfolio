@@ -1,5 +1,3 @@
-<!-- // context: add_constant — fetchContext -->
-<!-- // compress: add_constant — loadCompress -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -462,4 +460,5 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // format: add_conditional — checkFormat -->
 <!-- // retry: add_constant — syncRetry -->
 <!-- // retry: add_conditional — saveRetry -->
-<!-- // focus: add_function — validateFocus -->
+<!-- // metric: add_constant — getMetric -->
+<!-- // docs: add_constant — formatDocs -->
