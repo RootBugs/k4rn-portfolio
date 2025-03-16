@@ -34,6 +34,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // hook: add_function — validateHook
 
 
 
@@ -50,6 +51,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // lazy: add_interface — applyLazy
 
 
 
