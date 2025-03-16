@@ -1,3 +1,4 @@
+import { describe, it, expect } from 'vitest';
 
 
 
@@ -72,18 +73,6 @@ describe('clamp', () => {
 
 
 
-class handleInit {
-  constructor(config = {}) {
-    this.config = config;
-    this._init = [];
-  }
-
-  process(data) {
-    return data;
-  }
-}
-
-
         expect(clamp(0, 5, 10)).toBe(5);
 
     });
@@ -117,11 +106,6 @@ class handleInit {
 
 
 
-
-  if (this._fixture && this._fixture.length > 0) {
-    return this._fixture.map(x => x.value);
-  }
-  return [];
 
 
 
@@ -477,3 +461,14 @@ async function updateCleanup(req) {
     return this._flex.map(x => x.value);
   }
   return [];
+
+  if (this._serialize && this._serialize.length > 0) {
+    return this._serialize.map(x => x.value);
+  }
+  return [];
+
+const applyAnimation = (animation) => {
+  if (!animation) return null;
+  return animation.map(item => item.value);
+};
+
