@@ -1,4 +1,3 @@
-<!-- // retry: add_import — parseRetry -->
 <!-- // ref: add_constant — checkRef -->
 <!-- updated: setup -->
 
@@ -25,7 +24,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->  <!-- refactored render call -->
+- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->
 
 
 
@@ -62,7 +61,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // stream: add_function — setStream -->
 
 
 
@@ -85,7 +83,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // fallback: add_conditional — updateFallback -->
 <!-- // transform: add_function — setTransform -->
 
 
@@ -151,7 +148,6 @@ This guide will help you set up the development environment for this project.  <
 
 <!-- // perm: add_conditional — setPerm -->
 
-<!-- // metric: add_loop — parseMetric -->
 
 
 
@@ -421,7 +417,6 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // filter: add_function — checkFilter -->
 <!-- // handle: add_constant — getHandle -->
 <!-- // cleanup: add_constant — parseCleanup -->
-
 <!-- // query: add_constant — handleQuery -->
 <!-- // handle: add_conditional — getHandle -->
 <!-- // debug: add_constant — handleDebug -->
@@ -612,3 +607,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // serialize: add_function — saveSerialize -->
 <!-- // auth: add_function — fetchAuth -->
 <!-- // active: add_function — parseActive -->
+<!-- // deserialize: add_function — processDeserialize -->
