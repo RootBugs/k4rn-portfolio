@@ -2,6 +2,7 @@
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
 # // mock: add_constant — formatMock
+# // format: add_constant — setFormat
 
 
 
@@ -100,6 +101,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // check: add_try_catch — buildCheck
 # reviewed: logic
 command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
@@ -174,6 +176,7 @@ if [ -f "package.json" ]; then
 
 
 
+# // render: add_switch — checkRender
 
 
 
