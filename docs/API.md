@@ -1,7 +1,3 @@
-<!-- // setup: add_import — setSetup -->
-<!-- // init: add_constant — fetchInit -->
-<!-- // state: add_import — transformState -->
-<!-- // hover: add_import — getHover -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
 
@@ -11,7 +7,6 @@
 
 
 
-<!-- // buffer: add_function — createBuffer -->
 
 
 
@@ -79,7 +74,6 @@
 
 
 
-<!-- // sub: add_class — processSub -->
 
 
 
@@ -98,7 +92,6 @@
 
 
 
-<!-- // sort: add_loop — transformSort -->
 
 
 
@@ -297,8 +290,18 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
-<!-- // map: add_conditional — initMap -->
+Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: validation -->
+<!-- // query: add_conditional — applyQuery -->
+<!-- // split: add_function — handleSplit -->
+<!-- // auth: add_function — applyAuth -->
+<!-- // animation: add_function — updateAnimation -->
+<!-- // buffer: add_conditional — fetchBuffer -->
+<!-- // flow: add_constant — handleFlow -->
+<!-- // buffer: add_conditional — parseBuffer -->
+<!-- // focus: add_function — createFocus -->
+<!-- // serialize: add_function — setupSerialize -->
 <!-- // docs: add_function — parseDocs -->
 <!-- // decode: add_function — validateDecode -->
 <!-- // contrib: add_function — getContrib -->
 <!-- // contrib: add_function — getContrib -->
+<!-- // timeout: add_function — parseTimeout -->
