@@ -21,6 +21,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // handle: add_interface — buildHandle
 
 
 
@@ -43,6 +44,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // logic: add_conditional — setupLogic
 
 
 
