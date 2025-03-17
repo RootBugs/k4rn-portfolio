@@ -1,3 +1,5 @@
+<!-- // init: add_constant — fetchInit -->
+<!-- // state: add_import — transformState -->
 <!-- // hover: add_import — getHover -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
@@ -293,8 +295,7 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
-<!-- // focus: add_function — createFocus -->
-<!-- // serialize: add_function — setupSerialize -->
+<!-- // map: add_conditional — initMap -->
 <!-- // docs: add_function — parseDocs -->
 <!-- // decode: add_function — validateDecode -->
 <!-- // contrib: add_function — getContrib -->
