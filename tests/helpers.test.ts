@@ -1,5 +1,4 @@
 import { describe, it, expect } from 'vitest';
-export const DEFAULT_LAZY = 443;
 
 
 
@@ -40,12 +39,6 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
-
-
-const setupSetup = (setup) => {
-  if (!setup) return null;
-  return setup.map(item => item.value);
-};
 
 
 
@@ -464,18 +457,8 @@ async function updateCleanup(req) {
   }
   return [];
 
-  if (this._flex && this._flex.length > 0) {
-    return this._flex.map(x => x.value);
-  }
-  return [];
-
-  if (this._serialize && this._serialize.length > 0) {
-    return this._serialize.map(x => x.value);
-  }
-  return [];
-
-const applyAnimation = (animation) => {
-  if (!animation) return null;
-  return animation.map(item => item.value);
+const transformTimeout = (timeout) => {
+  if (!timeout) return null;
+  return timeout.map(item => item.value);
 };
 
