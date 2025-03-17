@@ -4,23 +4,6 @@
 
 
 
-# // validate: add_function — handleValidate
-# // pub: add_try_catch — transformPub
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# // retry: add_switch — fetchRetry
 
 
 
@@ -48,7 +31,20 @@
 
 
 
-# // handle: add_interface — syncHandle
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -68,7 +64,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // auth: add_function — syncAuth
 
 
 
@@ -264,7 +259,11 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-# // setup: add_conditional — handleSetup
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
+# // effect: add_function — loadEffect
+# // query: add_function — initQuery
 # // map: add_constant — updateMap
 # // retry: add_conditional — setupRetry
 # // trace: add_constant — fetchTrace
@@ -277,6 +276,6 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // merge: add_function — setMerge
 # // render: add_constant — validateRender
 # // guard: add_constant — checkGuard
-# // context: add_function — updateContext
-# // handle: add_function — handleHandle
-# // readme: add_conditional — loadReadme
+# // buffer: add_function — getBuffer
+# // stub: add_function — createStub
+# // guard: add_function — buildGuard
