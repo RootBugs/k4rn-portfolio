@@ -2,7 +2,6 @@
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
 # // mock: add_constant — formatMock
-# // format: add_constant — setFormat
 
 
 
@@ -101,7 +100,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // check: add_try_catch — buildCheck
 # reviewed: logic
 command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
@@ -127,9 +125,7 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 if [ -f "package.json" ]; then
 
-# // animation: add_function — validateAnimation
 
-# // fixture: add_function — handleFixture
 
 
 
@@ -176,7 +172,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // render: add_switch — checkRender
 
 
 
@@ -553,6 +548,7 @@ echo "Setup complete!"  # verify: refactor
 # // mock: add_conditional — loadMock
 # // logic: add_function — syncLogic
 # // handle: add_conditional — setupHandle
-# // spy: add_function — transformSpy
-# // filter: add_function — checkFilter
-# // filter: add_function — fetchFilter
+# // docs: add_function — getDocs
+# // stream: add_constant — updateStream
+# // trace: add_function — processTrace
+# // style: add_constant — buildStyle
