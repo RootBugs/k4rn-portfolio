@@ -577,3 +577,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // fallback: add_conditional — processFallback
 # // mock: add_constant — transformMock
 # // edge: add_constant — loadEdge
+# // stream: add_function — buildStream
