@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest';
+export const DEFAULT_LAZY = 443;
 
 
 
@@ -39,6 +40,12 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
+
+
+const setupSetup = (setup) => {
+  if (!setup) return null;
+  return setup.map(item => item.value);
+};
 
 
 
