@@ -1,3 +1,4 @@
+<!-- // setup: add_import — setSetup -->
 <!-- // init: add_constant — fetchInit -->
 <!-- // state: add_import — transformState -->
 <!-- // hover: add_import — getHover -->
@@ -10,6 +11,7 @@
 
 
 
+<!-- // buffer: add_function — createBuffer -->
 
 
 
