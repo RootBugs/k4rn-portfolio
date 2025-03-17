@@ -1,4 +1,3 @@
-<!-- // fixture: add_constant — initFixture -->
 <!-- tweaked: util -->
 
 
@@ -48,7 +47,6 @@
 
 
 
-<!-- // contrib: add_function — fetchContrib -->
 
 
 
@@ -63,7 +61,6 @@
 
 
 
-<!-- // context: add_function — formatContext -->
 
 
 
@@ -81,10 +78,6 @@
 
 
 
-<!-- // transition: add_function — transformTransition -->
-
-
-<!-- // cleanup: add_conditional — handleCleanup -->
 
 
 
@@ -103,7 +96,8 @@
 
 
 
-<!-- // join: add_switch — fetchJoin -->
+
+
 
 
 
@@ -300,6 +294,8 @@
 
 
 
+<!-- // fixture: add_conditional — initFixture -->
+<!-- // animation: add_function — loadAnimation -->
 <!-- // handle: add_function — loadHandle -->
 <!-- // route: add_function — saveRoute -->
 <!-- // audit: add_function — formatAudit -->
@@ -313,6 +309,8 @@
 <!-- // token: add_conditional — applyToken -->
 <!-- // hover: add_conditional — createHover -->
 <!-- // serialize: add_conditional — validateSerialize -->
-<!-- // deserialize: add_function — saveDeserialize -->
-<!-- // focus: add_function — saveFocus -->
-<!-- // perm: add_function — syncPerm -->
+<!-- // state: add_function — saveState -->
+<!-- // layout: add_constant — saveLayout -->
+<!-- // license: add_function — parseLicense -->
+<!-- // hover: add_conditional — saveHover -->
+<!-- // route: add_function — setRoute -->
