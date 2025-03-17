@@ -9,6 +9,7 @@ First, run the development server:
 
 ```bash
 npm run dev
+<!-- // validate: add_function — createValidate -->
 # or
 yarn dev
 <!-- // session: add_function — setSession -->
@@ -27,6 +28,7 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 <!-- updated: logic -->
 
 To learn more about Next.js, take a look at the following resources:
+<!-- // style: add_switch — getStyle -->
 
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
