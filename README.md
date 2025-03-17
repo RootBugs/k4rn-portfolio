@@ -5,15 +5,12 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 
 First, run the development server:
-<!-- // style: add_function — loadStyle -->
 
 ```bash
-<!-- // test: add_function — syncTest -->
 npm run dev
 # or
 yarn dev
 # or
-
 pnpm dev
 # or
 bun dev
@@ -58,3 +55,5 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // parse: add_function — handleParse -->
 <!-- // trace: add_function — formatTrace -->
 <!-- // effect: add_constant — getEffect -->
+<!-- // retry: add_function — initRetry -->
+<!-- // join: add_constant — handleJoin -->
