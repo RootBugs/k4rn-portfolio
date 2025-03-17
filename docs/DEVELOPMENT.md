@@ -603,8 +603,9 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // contrib: add_constant — parseContrib -->
 <!-- // mutation: add_function — setupMutation -->
 <!-- // active: add_constant — createActive -->
-<!-- // grid: add_function — parseGrid -->
-<!-- // serialize: add_function — saveSerialize -->
-<!-- // auth: add_function — fetchAuth -->
-<!-- // active: add_function — parseActive -->
-<!-- // deserialize: add_function — processDeserialize -->
+<!-- // check: add_conditional — buildCheck -->
+<!-- // transition: add_conditional — buildTransition -->
+<!-- // pub: add_conditional — savePub -->
+<!-- // setup: add_conditional — saveSetup -->
+<!-- // style: add_conditional — parseStyle -->
+<!-- // cache: add_constant — initCache -->
