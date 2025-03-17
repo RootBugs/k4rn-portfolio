@@ -315,3 +315,4 @@
 <!-- // serialize: add_conditional — validateSerialize -->
 <!-- // deserialize: add_function — saveDeserialize -->
 <!-- // focus: add_function — saveFocus -->
+<!-- // perm: add_function — syncPerm -->
