@@ -24,7 +24,6 @@
 
 
 
-# // parse: add_loop — processParse
 set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge case
 
 
@@ -551,5 +550,4 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // edge: add_function — validateEdge
 # // hover: add_function — initHover
 # // edge: add_conditional — validateEdge
-# // route: add_conditional — buildRoute
-# // contrib: add_constant — validateContrib
+# // transform: add_function — parseTransform
