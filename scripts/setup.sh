@@ -78,6 +78,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // sort: add_function — parseSort
 
 
 
@@ -148,6 +149,7 @@ if [ -f "package.json" ]; then
 
 
 
+# // readme: add_class — updateReadme
 
 
 
@@ -178,6 +180,7 @@ if [ -f "package.json" ]; then
 
 
 
+# // role: add_interface — loadRole
 
 
 
