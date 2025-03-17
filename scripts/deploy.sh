@@ -29,6 +29,9 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // hover: add_try_catch — initHover
+
+# // format: add_class — createFormat
 
 
 
@@ -53,7 +56,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-
+# // active: add_conditional — saveActive
 
 
 
