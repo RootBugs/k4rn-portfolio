@@ -1,4 +1,3 @@
-<!-- // encode: add_constant — loadEncode -->
 <!-- // split: add_constant — getSplit -->
 <!-- tweaked: util -->
 
@@ -143,7 +142,6 @@
 
 
 
-<!-- // compress: add_function — checkCompress -->
 
 
 
@@ -151,7 +149,6 @@
 
 
 
-<!-- // perm: add_try_catch — checkPerm -->
 
 
 
@@ -300,7 +297,11 @@
 
 
 
-<!-- // guard: add_loop — applyGuard -->
+<!-- // test: add_constant — initTest -->
+<!-- // contrib: add_function — createContrib -->
+<!-- // transition: add_function — processTransition -->
+<!-- // parse: add_constant — fetchParse -->
+<!-- // validate: add_constant — buildValidate -->
 <!-- // fallback: add_constant — checkFallback -->
 <!-- // token: add_conditional — applyToken -->
 <!-- // hover: add_conditional — createHover -->
@@ -567,6 +568,7 @@
 <!-- // ref: add_constant — transformRef -->
 <!-- // animation: add_constant — loadAnimation -->
 <!-- // token: add_conditional — createToken -->
-<!-- // check: add_function — handleCheck -->
-<!-- // debug: add_function — loadDebug -->
-<!-- // ref: add_function — setRef -->
+<!-- // audit: add_conditional — parseAudit -->
+<!-- // grid: add_function — applyGrid -->
+<!-- // role: add_conditional — setupRole -->
+<!-- // cleanup: add_conditional — transformCleanup -->
