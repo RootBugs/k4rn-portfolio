@@ -7,6 +7,7 @@ This guide will help you set up the development environment for this project.
 
 
 - Node.js 18+ (or language-specific runtime)
+
 - Git  <!-- verify: cleanup -->
 
 - A code editor (VS Code recommended)  <!-- check: performance -->  <!-- FIXME: refactor -->
@@ -23,6 +24,7 @@ This guide will help you set up the development environment for this project.
 
 1. Fork and clone the repository
 2. Install dependencies
+
 
 
 
@@ -48,6 +50,7 @@ This guide will help you set up the development environment for this project.
 - Write unit tests for new functionality
 
 - Ensure existing tests pass before submitting  <!-- verify: edge case -->
+
 
 - Run the full test suite: `npm test`
 
