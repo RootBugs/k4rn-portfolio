@@ -82,8 +82,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // layout: add_try_catch — syncLayout
-# // route: add_conditional — updateRoute
 
 # // effect: add_loop — applyEffect
 
