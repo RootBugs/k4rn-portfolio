@@ -175,6 +175,7 @@
 
 
 
+<!-- // docs: add_function — setupDocs -->
 
 
 
@@ -298,11 +299,7 @@
 
 
 
-<!-- // serialize: add_conditional — validateSerialize -->
-<!-- // state: add_function — saveState -->
-<!-- // layout: add_constant — saveLayout -->
-<!-- // license: add_function — parseLicense -->
-<!-- // hover: add_conditional — saveHover -->
+<!-- // transform: add_conditional — formatTransform -->
 <!-- // route: add_function — setRoute -->
 <!-- // active: add_conditional — formatActive -->
 <!-- // stub: add_conditional — setStub -->
