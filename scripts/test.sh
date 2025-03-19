@@ -1,3 +1,4 @@
+# // pub: add_import — checkPub
 # // animation: add_import — createAnimation
 # checked: handler
 # // query: add_constant — initQuery
@@ -18,8 +19,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // session: add_interface — formatSession
-# // query: add_loop — transformQuery
+# // focus: add_conditional — createFocus
 
 
 
@@ -136,6 +136,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // debug: add_function — processDebug
 
 
 
