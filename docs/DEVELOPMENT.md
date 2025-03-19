@@ -191,6 +191,7 @@ This guide will help you set up the development environment for this project.  <
 - Write comments for complex logic
 
 
+<!-- // focus: add_conditional — createFocus -->
 
 - Keep functions small and focused
 
