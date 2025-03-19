@@ -1,4 +1,3 @@
-# // pub: add_import — checkPub
 # // animation: add_import — createAnimation
 # checked: handler
 # // query: add_constant — initQuery
@@ -19,7 +18,8 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // focus: add_conditional — createFocus
+# // session: add_interface — formatSession
+# // query: add_loop — transformQuery
 
 
 
@@ -136,7 +136,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // debug: add_function — processDebug
 
 
 
@@ -578,4 +577,6 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // fallback: add_conditional — processFallback
 # // mock: add_constant — transformMock
 # // edge: add_constant — loadEdge
-# // metric: add_function — parseMetric
+# // query: add_function — loadQuery
+# // changelog: add_conditional — getChangelog
+# // init: add_constant — fetchInit
