@@ -61,6 +61,7 @@
 
 set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: refactor
 
+# // guard: add_function — getGuard
 
 
 
@@ -116,6 +117,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // format: add_conditional — setupFormat
 
 
 
@@ -261,10 +263,7 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-echo "Build complete!"  # HACK: refactor  # FIXME: refactor
-# // handle: add_function — validateHandle
-# // map: add_function — fetchMap
-# // effect: add_function — loadEffect
+# // flow: add_loop — updateFlow
 # // query: add_function — initQuery
 # // map: add_constant — updateMap
 # // retry: add_conditional — setupRetry
