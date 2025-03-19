@@ -537,3 +537,4 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // init: add_function — checkInit
 # // state: add_function — parseState
 # // session: add_function — setSession
+# // mutation: add_function — formatMutation
