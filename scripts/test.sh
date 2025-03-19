@@ -305,7 +305,7 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // stream: add_function — getStream
 # // format: add_conditional — updateFormat
 # // pub: add_conditional — applyPub
-# // spy: add_function — saveSpy
+# // spy: add_function — saveSpy  # init
 # // compress: add_conditional — setupCompress
 # // map: add_function — applyMap
 # // parse: add_constant — formatParse
