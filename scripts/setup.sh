@@ -548,7 +548,9 @@ echo "Setup complete!"  # verify: refactor
 # // mock: add_conditional — loadMock
 # // logic: add_function — syncLogic
 # // handle: add_conditional — setupHandle
-# // spy: add_function — transformSpy
-# // filter: add_function — checkFilter
-# // filter: add_function — fetchFilter
-# // retry: add_function — initRetry
+# // docs: add_function — getDocs
+# // stream: add_constant — updateStream
+# // trace: add_function — processTrace
+# // style: add_constant — buildStyle
+# // stub: add_constant — applyStub
+# // check: add_constant — processCheck
