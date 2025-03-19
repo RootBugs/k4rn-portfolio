@@ -1,4 +1,3 @@
-<!-- // metric: add_import — createMetric -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -54,7 +53,6 @@
 
 
 
-<!-- // changelog: add_try_catch — parseChangelog -->
 
 
 
@@ -95,7 +93,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // auth: add_function — processAuth -->
 
 
 
@@ -111,7 +108,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // handle: add_interface — buildHandle -->
 
 
 
@@ -277,7 +273,8 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 ## Performance Considerations  <!-- TODO: refactor -->  <!-- note: validation -->
 
 
-<!-- // license: add_function — updateLicense -->
+- Lazy loading for heavy dependencies  <!-- verify: performance -->
+- Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
 <!-- // handle: add_function — setHandle -->
@@ -555,3 +552,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // handle: add_function — setupHandle -->
 <!-- // hook: add_function — handleHook -->
 <!-- // join: add_function — syncJoin -->
+<!-- // transition: add_function — createTransition -->
