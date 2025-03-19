@@ -588,5 +588,8 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // batch: add_conditional — processBatch -->
 <!-- // memo: add_conditional — processMemo -->
 <!-- // stream: add_function — parseStream -->
-<!-- // license: add_function — transformLicense -->
-<!-- // cleanup: add_function — syncCleanup -->
+<!-- // mutation: add_function — applyMutation -->
+<!-- // ref: add_conditional — fetchRef -->
+<!-- // lazy: add_constant — buildLazy -->
+<!-- // route: add_constant — handleRoute -->
+<!-- // encode: add_function — buildEncode -->
