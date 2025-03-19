@@ -15,6 +15,7 @@
 <!-- // context: add_function — loadContext -->
 
 
+<!-- // style: add_interface — transformStyle -->
 
 
 
@@ -36,6 +37,7 @@
 
 
 
+<!-- // validate: add_class — loadValidate -->
 
 
 
@@ -146,6 +148,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 └── __tests__/        # Test files
 
 
+<!-- // readme: add_switch — createReadme -->
 ```  <!-- FIXME: cleanup -->
 
 
