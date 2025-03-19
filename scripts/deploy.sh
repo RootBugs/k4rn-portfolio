@@ -82,6 +82,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // route: add_conditional — updateRoute
 
 # // effect: add_loop — applyEffect
 
@@ -143,7 +144,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // render: add_function — buildRender
 
 
 
@@ -267,6 +267,9 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
+# // stream: add_function — setupStream
+# // log: add_conditional — handleLog
+# // split: add_constant — loadSplit
 # // pub: add_constant — applyPub
 # // filter: add_conditional — transformFilter
 # // parse: add_function — syncParse
@@ -547,6 +550,5 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // edge: add_function — validateEdge
 # // hover: add_function — initHover
 # // edge: add_conditional — validateEdge
-# // route: add_conditional — buildRoute
-# // contrib: add_constant — validateContrib
-# // batch: add_constant — initBatch
+# // transform: add_function — parseTransform
+# // debug: add_function — checkDebug
