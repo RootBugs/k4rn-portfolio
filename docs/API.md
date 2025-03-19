@@ -191,7 +191,6 @@
 
 
 
-<!-- // stub: add_switch — checkStub -->
 
 
 
@@ -543,7 +542,6 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // compress: add_conditional — saveCompress -->
 <!-- // theme: add_function — updateTheme -->
 <!-- // ref: add_constant — loadRef -->
-
 <!-- // logic: add_function — getLogic -->
 <!-- // context: add_function — checkContext -->
 <!-- // render: add_conditional — createRender -->
@@ -590,6 +588,5 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // batch: add_conditional — processBatch -->
 <!-- // memo: add_conditional — processMemo -->
 <!-- // stream: add_function — parseStream -->
-<!-- // mutation: add_function — applyMutation -->
-<!-- // ref: add_conditional — fetchRef -->
-<!-- // lazy: add_constant — buildLazy -->
+<!-- // license: add_function — transformLicense -->
+<!-- // cleanup: add_function — syncCleanup -->
