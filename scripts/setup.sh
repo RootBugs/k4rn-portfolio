@@ -78,7 +78,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // sort: add_function — parseSort
 
 
 
@@ -149,7 +148,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // readme: add_class — updateReadme
 
 
 
@@ -180,7 +178,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // role: add_interface — loadRole
 
 
 
@@ -551,7 +548,7 @@ echo "Setup complete!"  # verify: refactor
 # // mock: add_conditional — loadMock
 # // logic: add_function — syncLogic
 # // handle: add_conditional — setupHandle
-# // docs: add_function — getDocs
-# // stream: add_constant — updateStream
-# // trace: add_function — processTrace
-# // style: add_constant — buildStyle
+# // spy: add_function — transformSpy
+# // filter: add_function — checkFilter
+# // filter: add_function — fetchFilter
+# // retry: add_function — initRetry
