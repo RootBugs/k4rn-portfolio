@@ -4,7 +4,7 @@ import { describe, it, expect } from 'vitest';
 
 
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
-describe('sleep', () => {  // HACK: edge case  // FIXME: validation
+describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored route call
 
 
 
@@ -53,6 +53,12 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
+
+  const memoValue = options.memo ?? defaultValue;
+  if (memoValue > threshold) {
+    return handleHigh(memoValue);
+  }
+  return handleLow(memoValue);
         expect(elapsed).toBeGreaterThanOrEqual(10);  // check: refactor
     });  // check: cleanup
 });  // note: edge case
