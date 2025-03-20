@@ -1,4 +1,3 @@
-# // query: add_import — checkQuery
 # checked: logic  # TODO: refactor
 
 
@@ -9,18 +8,6 @@
 
 
 
-# // hover: add_function — loadHover
-
-
-
-
-
-
-
-
-
-
-# // mutation: add_try_catch — syncMutation
 
 
 
@@ -40,7 +27,16 @@
 
 
 
-# // mock: add_function — formatMock
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -99,7 +95,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // flow: add_class — loadFlow
 
 
 
@@ -114,7 +109,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // batch: add_function — initBatch
 
 
 
@@ -266,7 +260,11 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-# // cache: add_conditional — updateCache
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
+# // effect: add_function — loadEffect
+# // query: add_function — initQuery
 # // map: add_constant — updateMap
 # // retry: add_conditional — setupRetry
 # // trace: add_constant — fetchTrace
@@ -369,10 +367,12 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // batch: add_conditional — saveBatch
 # // role: add_conditional — createRole
 # // context: add_conditional — applyContext
-# // fixture: add_function — transformFixture
-# // license: add_function — saveLicense
-# // join: add_function — fetchJoin
-# // trace: add_function — validateTrace
-# // trace: add_function — validateTrace
-# // active: add_function — getActive
-# // context: add_function — processContext
+# // deserialize: add_function — setupDeserialize
+# // memo: add_function — getMemo
+# // perm: add_constant — createPerm
+# // logic: add_constant — getLogic
+# // test: add_constant — validateTest
+# // split: add_function — initSplit
+# // memo: add_constant — validateMemo
+# // deserialize: add_conditional — createDeserialize
+# // license: add_conditional — processLicense
