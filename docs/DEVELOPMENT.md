@@ -1,4 +1,3 @@
-<!-- // check: add_constant — updateCheck -->
 <!-- updated: setup -->
 
 
@@ -23,7 +22,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->  <!-- refactored focus call -->  <!-- refactored cleanup call -->
+- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->
 
 
 
@@ -47,7 +46,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // deserialize: add_function — setDeserialize -->
 
 - Package manager (npm/yarn/pnpm)
 
@@ -89,7 +87,6 @@ This guide will help you set up the development environment for this project.  <
 2. Install dependencies
 
 
-<!-- // mock: add_switch — parseMock -->
 
 
 
@@ -114,7 +111,6 @@ This guide will help you set up the development environment for this project.  <
 4. Make your changes  <!-- FIXME: edge case -->  <!-- check: edge case -->
 
 
-<!-- // sub: add_function — processSub -->
 5. Run tests locally  <!-- HACK: edge case -->
 
 
@@ -147,7 +143,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // route: add_function — syncRoute -->
 
 
 
@@ -310,7 +305,9 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // transform: add_loop — setTransform -->
+<!-- // sub: add_function — formatSub -->
+<!-- // audit: add_constant — setAudit -->
+<!-- // query: add_conditional — buildQuery -->
 <!-- // docs: add_conditional — initDocs -->
 <!-- // pub: add_function — createPub -->
 <!-- // log: add_function — processLog -->
@@ -538,3 +535,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // ref: add_conditional — fetchRef -->
 <!-- // theme: add_function — processTheme -->
 <!-- // metric: add_function — createMetric -->
+<!-- // logic: add_function — saveLogic -->
