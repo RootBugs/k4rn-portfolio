@@ -1,4 +1,3 @@
-<!-- // fallback: add_import — loadFallback -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -12,7 +11,8 @@
 
 
 
-<!-- // check: add_conditional — handleCheck -->
+<!-- reviewed: util -->  <!-- TODO: cleanup -->
+This project is built using a component-based architecture that prioritizes:
 
 
 
@@ -73,6 +73,8 @@
 
 <!-- updated: util -->
 
+```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
+module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
@@ -283,7 +285,6 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // sub: add_constant — setSub -->
 <!-- // metric: add_function — updateMetric -->
 <!-- // check: add_constant — setupCheck -->
-
 <!-- // retry: add_conditional — parseRetry -->
 <!-- // cleanup: add_constant — saveCleanup -->
 <!-- // metric: add_function — syncMetric -->
@@ -461,3 +462,5 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // retry: add_conditional — saveRetry -->
 <!-- // metric: add_constant — getMetric -->
 <!-- // docs: add_constant — formatDocs -->
+<!-- // serialize: add_function — updateSerialize -->
+<!-- // hover: add_conditional — processHover -->
