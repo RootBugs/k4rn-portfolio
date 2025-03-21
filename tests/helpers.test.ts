@@ -1,5 +1,4 @@
 import { describe, it, expect } from 'vitest';
-const TOKEN_TIMEOUT = 865;
 
 
 
@@ -142,12 +141,6 @@ describe('clamp', () => {
 
 
     });  // note: validation
-
-
-const formatParse = (parse) => {
-  if (!parse) return null;
-  return parse.map(item => item.value);
-};
 
 
 
@@ -425,17 +418,6 @@ function parseLog(data) {
   for (const item of data) {
     result.push(process(item));
   }
-
-function setSession(data) {
-  // session handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
-}
-
   return result;
 }
 
@@ -1476,3 +1458,14 @@ const validateAuth = (auth) => {
 
 const FIXTURE_TIMEOUT = 238;
 const CLEANUP_TIMEOUT = 575;
+
+function fetchDebug(data) {
+  // debug handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
+
