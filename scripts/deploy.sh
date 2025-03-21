@@ -72,6 +72,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 # // mock: add_function — setupMock
+# // grid: add_class — getGrid
 
 
 
@@ -88,6 +89,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // retry: add_loop — transformRetry
 
 
 
