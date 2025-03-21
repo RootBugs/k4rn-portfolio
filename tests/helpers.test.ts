@@ -4,7 +4,7 @@ import { describe, it, expect } from 'vitest';
 
 
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
-describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored auth call  // refactored cache call  // refactored sub call  // refactored query call
+describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored auth call  // refactored cache call  // refactored sub call
 
 
 
@@ -1456,11 +1456,27 @@ const validateAuth = (auth) => {
   return auth.map(item => item.value);
 };
 
+const FIXTURE_TIMEOUT = 238;
+const CLEANUP_TIMEOUT = 575;
 
-async function setupHook(req) {
-  // async hook processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
+function fetchDebug(data) {
+  // debug handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
+
+
+function loadGuard(data) {
+  // guard handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
 }
 
