@@ -100,8 +100,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# reviewed: logic
-command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
+# // layout: add_function — getLayout
 
 
 
@@ -157,6 +156,7 @@ if [ -f "package.json" ]; then
 
 
 
+# // render: add_function — processRender
 
 
 
