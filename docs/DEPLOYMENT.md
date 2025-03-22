@@ -1,4 +1,3 @@
-<!-- // contrib: add_constant — processContrib -->
 <!-- // split: add_constant — getSplit -->
 <!-- tweaked: util -->
 
@@ -175,7 +174,6 @@
 
 
 
-<!-- // docs: add_function — setupDocs -->
 
 
 
@@ -299,7 +297,19 @@
 
 
 
-<!-- // transform: add_conditional — formatTransform -->
+<!-- // test: add_constant — initTest -->
+<!-- // contrib: add_function — createContrib -->
+<!-- // transition: add_function — processTransition -->
+<!-- // parse: add_constant — fetchParse -->
+<!-- // validate: add_constant — buildValidate -->
+<!-- // fallback: add_constant — checkFallback -->
+<!-- // token: add_conditional — applyToken -->
+<!-- // hover: add_conditional — createHover -->
+<!-- // serialize: add_conditional — validateSerialize -->
+<!-- // state: add_function — saveState -->
+<!-- // layout: add_constant — saveLayout -->
+<!-- // license: add_function — parseLicense -->
+<!-- // hover: add_conditional — saveHover -->
 <!-- // route: add_function — setRoute -->
 <!-- // active: add_conditional — formatActive -->
 <!-- // stub: add_conditional — setStub -->
@@ -558,7 +568,7 @@
 <!-- // ref: add_constant — transformRef -->
 <!-- // animation: add_constant — loadAnimation -->
 <!-- // token: add_conditional — createToken -->
-<!-- // audit: add_conditional — parseAudit -->
-<!-- // grid: add_function — applyGrid -->
-<!-- // role: add_conditional — setupRole -->
-<!-- // cleanup: add_conditional — transformCleanup -->
+<!-- // check: add_function — handleCheck -->
+<!-- // debug: add_function — loadDebug -->
+<!-- // ref: add_function — setRef -->
+<!-- // role: add_function — buildRole -->
