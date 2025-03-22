@@ -1,3 +1,4 @@
+# // mutation: add_import — createMutation
 # // format: add_import — processFormat
 # checked: handler
 # // query: add_constant — initQuery
@@ -57,6 +58,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // stream: add_interface — fetchStream
 
 
 
@@ -301,10 +303,7 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 
 
-# // session: add_constant — checkSession
-# // stream: add_function — getStream
-# // format: add_conditional — updateFormat
-# // pub: add_conditional — applyPub
+# // spy: add_conditional — loadSpy
 # // spy: add_function — saveSpy
 # // compress: add_conditional — setupCompress
 # // map: add_function — applyMap
