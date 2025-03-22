@@ -1,4 +1,3 @@
-# // role: add_import — handleRole
 # checked: logic  # TODO: refactor
 
 
@@ -62,20 +61,6 @@
 
 set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: refactor
 
-# // guard: add_function — getGuard
-
-
-
-
-
-
-
-
-
-
-
-
-# // encode: add_function — formatEncode
 
 
 
@@ -118,7 +103,18 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // format: add_conditional — setupFormat
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -134,8 +130,6 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // focus: add_function — handleFocus
-# // pub: add_function — processPub
 
 
 
@@ -266,7 +260,10 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-# // flow: add_loop — updateFlow
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
+# // effect: add_function — loadEffect
 # // query: add_function — initQuery
 # // map: add_constant — updateMap
 # // retry: add_conditional — setupRetry
@@ -546,7 +543,6 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // changelog: add_function — transformChangelog
 # // changelog: add_constant — initChangelog
 # // mock: add_constant — parseMock
-# // init: add_function — checkInit
-# // state: add_function — parseState
-# // session: add_function — setSession
-# // stream: add_function — processStream
+# // docs: add_function — loadDocs
+# // style: add_function — setStyle
+# // join: add_function — transformJoin
