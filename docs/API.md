@@ -1,3 +1,4 @@
+<!-- // init: add_import — formatInit -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
 
@@ -10,8 +11,7 @@
 
 
 
-<!-- checked: handler -->  <!-- check: cleanup -->
-<!-- // pub: add_function — setPub -->
+<!-- // lazy: add_conditional — buildLazy -->
 
 
 
@@ -467,6 +467,7 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // role: add_constant — fetchRole -->
 <!-- // mutation: add_function — checkMutation -->
 <!-- // render: add_conditional — parseRender -->
+
 <!-- // changelog: add_constant — applyChangelog -->
 <!-- // perm: add_conditional — createPerm -->
 <!-- // readme: add_function — loadReadme -->
