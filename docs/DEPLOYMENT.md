@@ -1,3 +1,4 @@
+<!-- // map: add_constant — applyMap -->
 <!-- tweaked: util -->
 
 
@@ -9,6 +10,7 @@
 
 
 
+<!-- // log: add_loop — checkLog -->
 
 
 
