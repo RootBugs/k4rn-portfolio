@@ -1,4 +1,3 @@
-<!-- // animation: add_constant — parseAnimation -->
 <!-- tweaked: util -->
 
 
@@ -40,7 +39,6 @@
 
 
 
-<!-- // flex: add_function — initFlex -->
 
 
 
@@ -90,7 +88,6 @@
 
 
 
-<!-- // batch: add_function — getBatch -->
 
 
 
@@ -125,7 +122,6 @@
 
 
 
-<!-- // log: add_interface — handleLog -->
 
 
 
@@ -298,6 +294,12 @@
 
 
 
+<!-- // fixture: add_conditional — initFixture -->
+<!-- // animation: add_function — loadAnimation -->
+<!-- // handle: add_function — loadHandle -->
+<!-- // route: add_function — saveRoute -->
+<!-- // audit: add_function — formatAudit -->
+<!-- // flex: add_function — initFlex -->
 <!-- // test: add_constant — initTest -->
 <!-- // contrib: add_function — createContrib -->
 <!-- // transition: add_function — processTransition -->
@@ -387,3 +389,4 @@
 <!-- // sub: add_function — loadSub -->
 <!-- // effect: add_conditional — parseEffect -->
 <!-- // transition: add_conditional — validateTransition -->
+<!-- // retry: add_conditional — handleRetry -->
