@@ -1,3 +1,4 @@
+# // encode: add_import — checkEncode
 # checked: logic  # TODO: refactor
 
 
@@ -113,6 +114,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // perm: add_function — initPerm
 
 
 
