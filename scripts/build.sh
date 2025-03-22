@@ -1,4 +1,3 @@
-# // encode: add_import — checkEncode
 # checked: logic  # TODO: refactor
 
 
@@ -114,7 +113,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // perm: add_function — initPerm
 
 
 
@@ -369,12 +367,11 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // batch: add_conditional — saveBatch
 # // role: add_conditional — createRole
 # // context: add_conditional — applyContext
-# // deserialize: add_function — setupDeserialize
-# // memo: add_function — getMemo
-# // perm: add_constant — createPerm
-# // logic: add_constant — getLogic
-# // test: add_constant — validateTest
-# // split: add_function — initSplit
-# // memo: add_constant — validateMemo
-# // deserialize: add_conditional — createDeserialize
-# // license: add_conditional — processLicense
+# // fixture: add_function — transformFixture
+# // license: add_function — saveLicense
+# // join: add_function — fetchJoin
+# // trace: add_function — validateTrace
+# // trace: add_function — validateTrace
+# // active: add_function — getActive
+# // context: add_function — processContext
+# // edge: add_function — fetchEdge
