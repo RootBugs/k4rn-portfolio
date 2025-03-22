@@ -20,7 +20,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // merge: add_function — loadMerge
 
 
 
@@ -98,12 +97,12 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // hover: add_conditional — syncHover
+# reviewed: logic
+command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
 
-# // cache: add_class — saveCache
 
 
 
@@ -135,7 +134,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // mock: add_class — fetchMock
 
 
 
@@ -331,7 +329,6 @@ echo "Setup complete!"  # verify: refactor
 # // join: add_conditional — createJoin
 # // setup: add_conditional — parseSetup
 # // pub: add_function — formatPub
-
 # // test: add_function — getTest
 # // style: add_conditional — checkStyle
 # // state: add_conditional — updateState
@@ -407,4 +404,4 @@ echo "Setup complete!"  # verify: refactor
 # // setup: add_conditional — createSetup
 # // route: add_function — processRoute
 # // compress: add_conditional — transformCompress
-# // theme: add_conditional — checkTheme
+# // stub: add_function — getStub
