@@ -1,3 +1,4 @@
+# // format: add_import — processFormat
 # checked: handler
 # // query: add_constant — initQuery
 
@@ -20,6 +21,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // docs: add_class — setDocs
 
 
 
@@ -130,6 +132,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // trace: add_conditional — parseTrace
 
 
 
