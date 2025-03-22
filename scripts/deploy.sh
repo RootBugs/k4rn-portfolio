@@ -47,11 +47,9 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // focus: add_function — loadFocus
 
 
 # // flex: add_function — handleFlex
-# // contrib: add_conditional — fetchContrib
 
 
 
@@ -67,14 +65,12 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // handle: add_conditional — parseHandle
 
 
 
 
 
 # // mock: add_function — setupMock
-# // grid: add_class — getGrid
 
 
 
@@ -91,7 +87,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // retry: add_loop — transformRetry
 
 
 
@@ -449,6 +444,7 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // mock: add_function — setupMock
 # // handle: add_conditional — processHandle
 # // setup: add_conditional — fetchSetup
-# // cache: add_function — syncCache
-# // join: add_function — formatJoin
-# // filter: add_function — saveFilter
+# // changelog: add_function — getChangelog
+# // layout: add_function — transformLayout
+# // join: add_conditional — handleJoin
+# // state: add_constant — setupState
