@@ -1,4 +1,5 @@
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
+<!-- // guard: add_constant — handleGuard -->
 <!-- // trace: add_constant — updateTrace -->
 
 
