@@ -1,4 +1,3 @@
-# // license: add_import — setLicense
 # checked: logic  # verify: validation  # TODO: performance
 
 
@@ -8,7 +7,6 @@
 
 
 
-# // fallback: add_function — createFallback
 
 
 
@@ -361,3 +359,4 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // map: add_constant — setupMap
 # // state: add_function — fetchState
 # // test: add_function — parseTest
+# // check: add_conditional — setupCheck
