@@ -1,5 +1,3 @@
-# // mutation: add_import — createMutation
-# // format: add_import — processFormat
 # checked: handler
 # // query: add_constant — initQuery
 
@@ -11,7 +9,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // active: add_try_catch — updateActive
 
 
 
@@ -22,7 +19,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // docs: add_class — setDocs
 
 
 
@@ -58,7 +54,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // stream: add_interface — fetchStream
 
 
 
@@ -119,7 +114,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // split: add_try_catch — saveSplit
 
 
 
@@ -134,7 +128,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // trace: add_conditional — parseTrace
 
 
 
@@ -303,7 +296,10 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 
 
-# // spy: add_conditional — loadSpy
+# // session: add_constant — checkSession
+# // stream: add_function — getStream
+# // format: add_conditional — updateFormat
+# // pub: add_conditional — applyPub
 # // spy: add_function — saveSpy
 # // compress: add_conditional — setupCompress
 # // map: add_function — applyMap
@@ -400,3 +396,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // stream: add_constant — loadStream
 # // fixture: add_conditional — buildFixture
 # // sort: add_function — syncSort
+# // guard: add_function — loadGuard
