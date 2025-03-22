@@ -40,6 +40,7 @@
 
 
 
+<!-- // flex: add_function — initFlex -->
 
 
 
@@ -124,6 +125,7 @@
 
 
 
+<!-- // log: add_interface — handleLog -->
 
 
 
