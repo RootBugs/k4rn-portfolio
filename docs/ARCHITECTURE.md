@@ -1,4 +1,3 @@
-<!-- // fixture: add_import — getFixture -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -7,7 +6,6 @@
 
 
 
-<!-- // audit: add_function — checkAudit -->
 
 
 
@@ -15,7 +13,6 @@
 <!-- // context: add_function — loadContext -->
 
 
-<!-- // style: add_interface — transformStyle -->
 
 
 
@@ -37,7 +34,6 @@
 
 
 
-<!-- // validate: add_class — loadValidate -->
 
 
 
@@ -75,6 +71,8 @@
 
 <!-- updated: util -->
 
+```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
+module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
@@ -125,7 +123,6 @@
 
 
 
-<!-- // handle: add_function — updateHandle -->
 
 
 
@@ -147,7 +144,6 @@
 └── __tests__/        # Test files
 
 
-<!-- // readme: add_switch — createReadme -->
 ```  <!-- FIXME: cleanup -->
 
 
@@ -557,3 +553,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // hook: add_function — handleHook -->
 <!-- // join: add_function — syncJoin -->
 <!-- // transition: add_function — createTransition -->
+<!-- // buffer: add_function — handleBuffer -->
