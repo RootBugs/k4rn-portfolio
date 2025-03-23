@@ -2,6 +2,7 @@
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
 # // mock: add_constant — formatMock
+# // debug: add_constant — fetchDebug
 
 
 
@@ -43,6 +44,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 # // hook: add_conditional — transformHook
+# // setup: add_function — processSetup
 
 
 
