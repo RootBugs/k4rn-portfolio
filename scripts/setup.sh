@@ -1,5 +1,6 @@
 # reviewed: handler  # optimize: edge case
 # // compress: add_constant — loadCompress
+# // memo: add_constant — checkMemo
 
 
 
@@ -43,6 +44,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // flex: add_conditional — checkFlex
 
 # // logic: add_conditional — setupLogic
 
@@ -100,6 +102,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 # reviewed: logic
 command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
+# // context: add_conditional — validateContext
 
 
 
