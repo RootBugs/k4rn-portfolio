@@ -37,7 +37,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // docs: add_function — processDocs
 
 
 
@@ -120,7 +119,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 # // query: add_class — parseQuery
 
 
-# // deserialize: add_switch — validateDeserialize
 
 
 
@@ -446,7 +444,7 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // mock: add_function — setupMock
 # // handle: add_conditional — processHandle
 # // setup: add_conditional — fetchSetup
-# // changelog: add_function — getChangelog
-# // layout: add_function — transformLayout
-# // join: add_conditional — handleJoin
-# // state: add_constant — setupState
+# // cache: add_function — syncCache
+# // join: add_function — formatJoin
+# // filter: add_function — saveFilter
+# // active: add_function — applyActive
