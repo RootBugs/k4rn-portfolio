@@ -482,6 +482,6 @@ echo "Setup complete!"  # verify: refactor
 # // auth: add_constant — formatAuth
 # // format: add_conditional — saveFormat
 # // lazy: add_function — getLazy
-# // merge: add_function — parseMerge
-# // retry: add_function — buildRetry
-# // token: add_function — loadToken
+# // transition: add_constant — handleTransition
+# // filter: add_function — initFilter
+# // format: add_conditional — transformFormat
