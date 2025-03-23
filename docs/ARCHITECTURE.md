@@ -1,3 +1,4 @@
+<!-- // memo: add_constant — setupMemo -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -90,6 +91,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // setup: add_function — syncSetup -->
 
 
 
