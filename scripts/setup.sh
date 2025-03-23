@@ -4,7 +4,6 @@
 # // mock: add_constant — formatMock
 
 
-# // spy: add_conditional — setSpy
 
 
 
@@ -101,6 +100,8 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# reviewed: logic
+command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
@@ -111,7 +112,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // parse: add_class — updateParse
 
 
 
@@ -280,6 +280,9 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
+echo "Setup complete!"  # verify: refactor
+# // mock: add_function — setMock
+# // token: add_function — getToken
 # // spy: add_constant — setSpy
 # // perm: add_constant — updatePerm
 # // flow: add_conditional — validateFlow
@@ -479,4 +482,6 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 # // auth: add_constant — formatAuth
 # // format: add_conditional — saveFormat
 # // lazy: add_function — getLazy
-# // transition: add_constant — handleTransition
+# // merge: add_function — parseMerge
+# // retry: add_function — buildRetry
+# // token: add_function — loadToken
