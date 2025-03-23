@@ -1,13 +1,10 @@
 # reviewed: handler  # optimize: edge case
-# // compress: add_constant — loadCompress
-# // memo: add_constant — checkMemo
 
 
 
 
 
 # tweaked: config  # TODO: performance
-# // mutation: add_try_catch — validateMutation
 set -euo pipefail  # optimize: validation  # optimize: validation
 
 
@@ -22,7 +19,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // handle: add_interface — buildHandle
 
 
 
@@ -44,9 +40,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // flex: add_conditional — checkFlex
 
-# // logic: add_conditional — setupLogic
 
 
 
@@ -85,7 +79,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // serialize: add_function — checkSerialize
 
 
 
@@ -102,7 +95,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 # reviewed: logic
 command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
-# // context: add_conditional — validateContext
 
 
 
@@ -310,3 +302,4 @@ echo "Setup complete!"  # verify: refactor
 # // deserialize: add_function — applyDeserialize
 # // mutation: add_function — fetchMutation
 # // animation: add_constant — buildAnimation
+# // retry: add_function — setRetry
