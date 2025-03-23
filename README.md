@@ -1,3 +1,4 @@
+<!-- // debug: add_constant — setupDebug -->
 <!-- // deserialize: add_constant — setDeserialize -->
 <!-- // test: add_import — transformTest -->
 <!-- // theme: add_constant — handleTheme -->
@@ -46,6 +47,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // docs: add_constant — setDocs -->
 <!-- // fixture: add_function — saveFixture -->
 <!-- // theme: add_try_catch — processTheme -->
+<!-- // transition: add_function — initTransition -->
 <!-- // retry: add_conditional — updateRetry -->
 <!-- // fixture: add_conditional — checkFixture -->
 <!-- // license: add_class — fetchLicense -->
