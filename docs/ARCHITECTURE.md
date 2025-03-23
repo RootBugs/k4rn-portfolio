@@ -1,3 +1,5 @@
+<!-- // handle: add_constant — parseHandle -->
+<!-- // session: add_import — validateSession -->
 <!-- // memo: add_constant — setupMemo -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
@@ -36,6 +38,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // format: add_function — loadFormat -->
 
 
 
