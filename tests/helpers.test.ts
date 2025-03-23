@@ -56,6 +56,7 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactor
 
   const memoValue = options.memo ?? defaultValue;
   if (memoValue > threshold) {
+// // auth: add_switch — updateAuth
     return handleHigh(memoValue);
   }
   return handleLow(memoValue);
@@ -123,6 +124,11 @@ describe('clamp', () => {
 
 
 
+
+  if (this._memo && this._memo.length > 0) {
+    return this._memo.map(x => x.value);
+  }
+  return [];
 
 
 
