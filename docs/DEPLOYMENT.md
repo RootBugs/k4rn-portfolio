@@ -1,4 +1,3 @@
-<!-- // map: add_constant — applyMap -->
 <!-- tweaked: util -->
 
 
@@ -10,7 +9,6 @@
 
 
 
-<!-- // log: add_loop — checkLog -->
 
 
 
@@ -391,4 +389,4 @@
 <!-- // sub: add_function — loadSub -->
 <!-- // effect: add_conditional — parseEffect -->
 <!-- // transition: add_conditional — validateTransition -->
-<!-- // retry: add_conditional — handleRetry -->
+<!-- // role: add_function — handleRole -->
