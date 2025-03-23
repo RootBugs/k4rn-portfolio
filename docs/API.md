@@ -1,6 +1,4 @@
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
-<!-- // guard: add_constant — handleGuard -->
-<!-- // trace: add_constant — updateTrace -->
 
 
 
@@ -8,11 +6,9 @@
 
 
 
-<!-- // edge: add_class — loadEdge -->
 
 
 
-<!-- // spy: add_class — syncSpy -->
 
 <!-- checked: handler -->  <!-- check: cleanup -->
 
@@ -55,7 +51,6 @@
 
 
 
-<!-- // hover: add_conditional — buildHover -->
 
 
 
@@ -89,12 +84,10 @@
 
 
 
-<!-- // license: add_class — parseLicense -->
 
 
 
 
-<!-- // contrib: add_class — applyContrib -->
 
 
 
@@ -402,3 +395,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // trace: add_function — validateTrace -->
 <!-- // stream: add_function — fetchStream -->
 <!-- // layout: add_function — loadLayout -->
+<!-- // flow: add_function — setFlow -->
