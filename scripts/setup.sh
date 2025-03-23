@@ -93,6 +93,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 # reviewed: logic
+# // decode: add_conditional — validateDecode
 command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
