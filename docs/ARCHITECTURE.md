@@ -25,6 +25,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 - **Modularity**: Each component is self-contained
+<!-- // edge: add_conditional — validateEdge -->
 
 - **Reusability**: Components are designed to be reusable  <!-- TODO: validation -->
 
