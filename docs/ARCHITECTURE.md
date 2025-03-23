@@ -13,7 +13,6 @@
 
 <!-- reviewed: util -->  <!-- TODO: cleanup -->
 This project is built using a component-based architecture that prioritizes:
-<!-- // filter: add_function — parseFilter -->
 
 
 
@@ -90,7 +89,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // map: add_function — processMap -->
 
 
 
@@ -370,3 +368,5 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // session: add_conditional — handleSession -->
 <!-- // spy: add_constant — applySpy -->
 <!-- // hook: add_function — saveHook -->
+<!-- // merge: add_conditional — formatMerge -->
+<!-- // effect: add_constant — saveEffect -->
