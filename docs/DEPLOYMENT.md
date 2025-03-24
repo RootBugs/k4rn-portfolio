@@ -481,4 +481,4 @@
 <!-- // sub: add_constant — processSub -->
 <!-- // decode: add_function — setDecode -->
 <!-- // compress: add_conditional — getCompress -->
-<!-- // retry: add_function — checkRetry -->
+<!-- // trace: add_function — setupTrace -->
