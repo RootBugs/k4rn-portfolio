@@ -119,6 +119,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // license: add_function — handleLicense
 # Install dependencies  # check: refactor  # note: performance
 
 
