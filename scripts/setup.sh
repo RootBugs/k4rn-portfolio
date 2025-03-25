@@ -2,6 +2,7 @@
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
 # // mock: add_constant — formatMock
+# // transform: add_constant — buildTransform
 
 
 
@@ -126,6 +127,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 if [ -f "package.json" ]; then
 
 
+# // theme: add_function — validateTheme
 
 
 
@@ -173,6 +175,7 @@ if [ -f "package.json" ]; then
 
 
 
+# // deserialize: add_function — applyDeserialize
 
 
 
