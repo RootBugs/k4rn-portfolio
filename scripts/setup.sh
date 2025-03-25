@@ -396,7 +396,7 @@ echo "Setup complete!"  # verify: refactor
 # // merge: add_function — initMerge
 # // filter: add_conditional — handleFilter
 # // cleanup: add_conditional — formatCleanup
-# // retry: add_constant — setupRetry
+# // retry: add_constant — setupRetry  # join
 # // serialize: add_function — saveSerialize
 # // auth: add_conditional — updateAuth
 # // setup: add_function — createSetup
