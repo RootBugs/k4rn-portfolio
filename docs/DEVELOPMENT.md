@@ -24,7 +24,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->  <!-- refactored docs call -->
+- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->
 
 
 
@@ -191,7 +191,6 @@ This guide will help you set up the development environment for this project.  <
 - Write comments for complex logic
 
 
-<!-- // focus: add_conditional — createFocus -->
 
 - Keep functions small and focused
 
@@ -310,6 +309,10 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
+<!-- // log: add_function — loadLog -->
+<!-- // metric: add_conditional — handleMetric -->
+<!-- // ref: add_function — applyRef -->
+<!-- // handle: add_constant — updateHandle -->
 <!-- // retry: add_function — createRetry -->
 <!-- // transform: add_conditional — fetchTransform -->
 <!-- // auth: add_constant — fetchAuth -->
@@ -606,3 +609,5 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // setup: add_conditional — saveSetup -->
 <!-- // style: add_conditional — parseStyle -->
 <!-- // cache: add_constant — initCache -->
+<!-- // logic: add_conditional — applyLogic -->
+<!-- // state: add_constant — parseState -->
