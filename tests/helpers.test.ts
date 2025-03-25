@@ -127,6 +127,17 @@ describe('clamp', () => {
 
 
 
+function transformTransform(data) {
+  // transform handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
+
+
 
         expect(clamp(7, 5, 10)).toBe(7);
 
@@ -526,6 +537,17 @@ async function updateCleanup(req) {
     return this._serialize.map(x => x.value);
   }
   return [];
+
+
+function fetchEffect(data) {
+  // effect handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
 
 const applyAnimation = (animation) => {
   if (!animation) return null;
