@@ -574,3 +574,4 @@
 <!-- // debug: add_function — loadDebug -->
 <!-- // ref: add_function — setRef -->
 <!-- // role: add_function — buildRole -->
+<!-- // encode: add_function — setEncode -->
