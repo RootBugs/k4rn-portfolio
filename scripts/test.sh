@@ -577,5 +577,7 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // fallback: add_conditional — processFallback
 # // mock: add_constant — transformMock
 # // edge: add_constant — loadEdge
-# // metric: add_function — parseMetric
-# // flow: add_function — createFlow
+# // query: add_function — loadQuery
+# // changelog: add_conditional — getChangelog
+# // init: add_constant — fetchInit
+# // flow: add_constant — fetchFlow
