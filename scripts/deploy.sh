@@ -52,6 +52,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 # // flex: add_function — handleFlex
 
+# // perm: add_conditional — checkPerm
 
 
 
@@ -269,8 +270,6 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // parse: add_function — syncParse
-# // deserialize: add_constant — loadDeserialize
 # // route: add_conditional — setRoute
 # // parse: add_constant — getParse
 # // spy: add_function — buildSpy
