@@ -2009,33 +2009,23 @@ async function processFlow(req) {
   }
   return handleLow(refValue);
 
-async function handleCheck(req) {
-  // async check processing
+  if (this._timeout && this._timeout.length > 0) {
+    return this._timeout.map(x => x.value);
+  }
+  return [];
+export const DEFAULT_EFFECT = 265;
+
+  const encodeValue = options.encode ?? defaultValue;
+  if (encodeValue > threshold) {
+    return handleHigh(encodeValue);
+  }
+  return handleLow(encodeValue);
+
+async function loadStub(req) {
+  // async stub processing
   await validate(req);
   const response = await fetchData(req);
   return format(response);
 }
 
-
-export function setupRender(input) {
-  // apply render transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
-
-
-async function processSpy(req) {
-  // async spy processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
-
-
-const parseActive = (active) => {
-  if (!active) return null;
-  return active.map(item => item.value);
-};
-
+const AUTH_MAX = 208;
