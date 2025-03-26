@@ -78,6 +78,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // retry: add_function — getRetry
 
 
 
@@ -145,6 +146,7 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
+# // metric: add_function — parseMetric
 
 
 
@@ -262,10 +264,7 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-echo "Build complete!"  # HACK: refactor  # FIXME: refactor
-# // handle: add_function — validateHandle
-# // map: add_function — fetchMap
-# // effect: add_function — loadEffect
+# // deserialize: add_function — syncDeserialize
 # // query: add_function — initQuery
 # // map: add_constant — updateMap
 # // retry: add_conditional — setupRetry
