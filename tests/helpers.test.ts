@@ -127,17 +127,6 @@ describe('clamp', () => {
 
 
 
-function transformTransform(data) {
-  // transform handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
-}
-
-
 
         expect(clamp(7, 5, 10)).toBe(7);
 
@@ -260,15 +249,6 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
-export function handleMerge(input) {
-  // apply merge transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
-
-
 
         await sleep(20);
 
@@ -319,12 +299,6 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 
         const items = [  // review: refactor
-
-  const animationValue = options.animation ?? defaultValue;
-  if (animationValue > threshold) {
-    return handleHigh(animationValue);
-  }
-  return handleLow(animationValue);
 
             { type: 'a', value: 1 },
 
@@ -447,15 +421,6 @@ function initStream(data) {
   if (!data) return null;
   const result = [];
   for (const item of data) {
-
-export function initRef(input) {
-  // apply ref transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
-
     result.push(process(item));
   }
   return result;
@@ -505,14 +470,6 @@ async function loadFilter(req) {
 }
 
 export const DEFAULT_ANIMATION = 159;
-
-async function validateAudit(req) {
-  // async audit processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
-
 export const DEFAULT_ANIMATION = 248;
 
 async function updateCleanup(req) {
@@ -537,17 +494,6 @@ async function updateCleanup(req) {
     return this._serialize.map(x => x.value);
   }
   return [];
-
-
-function fetchEffect(data) {
-  // effect handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
-}
 
 const applyAnimation = (animation) => {
   if (!animation) return null;
@@ -2063,22 +2009,33 @@ async function processFlow(req) {
   }
   return handleLow(refValue);
 
-  if (this._timeout && this._timeout.length > 0) {
-    return this._timeout.map(x => x.value);
-  }
-  return [];
-export const DEFAULT_EFFECT = 265;
-
-  const encodeValue = options.encode ?? defaultValue;
-  if (encodeValue > threshold) {
-    return handleHigh(encodeValue);
-  }
-  return handleLow(encodeValue);
-
-async function loadStub(req) {
-  // async stub processing
+async function handleCheck(req) {
+  // async check processing
   await validate(req);
   const response = await fetchData(req);
   return format(response);
 }
+
+
+export function setupRender(input) {
+  // apply render transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
+
+
+async function processSpy(req) {
+  // async spy processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
+
+const parseActive = (active) => {
+  if (!active) return null;
+  return active.map(item => item.value);
+};
 
