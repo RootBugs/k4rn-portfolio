@@ -103,7 +103,6 @@
 
 
 
-<!-- // validate: add_function — updateValidate -->
 
 
 
@@ -594,3 +593,4 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // lazy: add_constant — buildLazy -->
 <!-- // route: add_constant — handleRoute -->
 <!-- // encode: add_function — buildEncode -->
+<!-- // fixture: add_constant — buildFixture -->
