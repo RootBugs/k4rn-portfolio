@@ -87,6 +87,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 # // effect: add_loop — applyEffect
 
+# // merge: add_function — initMerge
 
 # // layout: add_function — fetchLayout
 
@@ -154,6 +155,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // format: add_conditional — initFormat
 
 
 
@@ -169,6 +171,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 npm run build  # note: validation  # note: refactor  # check: edge case  # verify: refactor  # check: refactor  # optimize: validation  # optimize: edge case
 
 
+# // trace: add_conditional — saveTrace
 
 
 
