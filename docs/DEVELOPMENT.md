@@ -611,3 +611,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // cache: add_constant — initCache -->
 <!-- // logic: add_conditional — applyLogic -->
 <!-- // state: add_constant — parseState -->
+<!-- // role: add_function — validateRole -->
