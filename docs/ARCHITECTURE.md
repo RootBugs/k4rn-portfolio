@@ -114,7 +114,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // style: add_conditional — handleStyle -->
 
 
 ├── types.ts          # TypeScript types
@@ -549,9 +548,9 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // fixture: add_constant — loadFixture -->
 <!-- // transition: add_function — setTransition -->
 <!-- // query: add_constant — handleQuery -->
-<!-- // role: add_function — updateRole -->
-<!-- // handle: add_function — setupHandle -->
-<!-- // hook: add_function — handleHook -->
-<!-- // join: add_function — syncJoin -->
-<!-- // transition: add_function — createTransition -->
-<!-- // buffer: add_function — handleBuffer -->
+<!-- // format: add_function — transformFormat -->
+<!-- // handle: add_constant — updateHandle -->
+<!-- // debug: add_constant — setupDebug -->
+<!-- // handle: add_function — loadHandle -->
+<!-- // test: add_conditional — validateTest -->
+<!-- // route: add_function — initRoute -->
