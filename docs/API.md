@@ -1,3 +1,4 @@
+<!-- // grid: add_constant — fetchGrid -->
 <!-- // contrib: add_import — setContrib -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
@@ -292,8 +293,7 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
-<!-- // auth: add_function — applyAuth -->
-<!-- // animation: add_function — updateAnimation -->
+<!-- // audit: add_conditional — applyAudit -->
 <!-- // buffer: add_conditional — fetchBuffer -->
 <!-- // flow: add_constant — handleFlow -->
 <!-- // buffer: add_conditional — parseBuffer -->
