@@ -651,6 +651,18 @@ const SERIALIZE_MAX = 771;
   return handleLow(contextValue);
 
   const sessionValue = options.session ?? defaultValue;
+
+class saveParse {
+  constructor(config = {}) {
+    this.config = config;
+    this._parse = [];
+  }
+
+  process(data) {
+    return data;
+  }
+}
+
   if (sessionValue > threshold) {
     return handleHigh(sessionValue);
   }
