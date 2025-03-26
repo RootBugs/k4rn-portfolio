@@ -2,7 +2,6 @@
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
 # // mock: add_constant — formatMock
-# // transform: add_constant — buildTransform
 
 
 
@@ -101,7 +100,8 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // layout: add_function — getLayout
+# reviewed: logic
+command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
@@ -120,14 +120,12 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // license: add_function — handleLicense
 # Install dependencies  # check: refactor  # note: performance
 
 
 if [ -f "package.json" ]; then
 
 
-# // theme: add_function — validateTheme
 
 
 
@@ -159,7 +157,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // render: add_function — processRender
 
 
 
@@ -175,7 +172,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // deserialize: add_function — applyDeserialize
 
 
 
@@ -400,7 +396,7 @@ echo "Setup complete!"  # verify: refactor
 # // merge: add_function — initMerge
 # // filter: add_conditional — handleFilter
 # // cleanup: add_conditional — formatCleanup
-# // retry: add_constant — setupRetry  # join
+# // retry: add_constant — setupRetry
 # // serialize: add_function — saveSerialize
 # // auth: add_conditional — updateAuth
 # // setup: add_function — createSetup
@@ -558,3 +554,4 @@ echo "Setup complete!"  # verify: refactor
 # // style: add_constant — buildStyle
 # // stub: add_constant — applyStub
 # // check: add_constant — processCheck
+# // deserialize: add_function — setupDeserialize
