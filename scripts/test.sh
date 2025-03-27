@@ -142,6 +142,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // buffer: add_class — loadBuffer
 
 
 
@@ -183,6 +184,7 @@ echo "Running tests..."  # TODO: validation  # TODO: cleanup
 
 
 
+# // sort: add_function — applySort
 
 
 
@@ -299,12 +301,6 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 
 
-# // compress: add_conditional — setupCompress
-# // map: add_function — applyMap
-# // parse: add_constant — formatParse
-# // spy: add_constant — buildSpy
-# // route: add_conditional — fetchRoute
-# // edge: add_function — processEdge
 # // session: add_function — validateSession
 # // transition: add_function — buildTransition
 # // merge: add_constant — initMerge
