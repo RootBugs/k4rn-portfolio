@@ -70,6 +70,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // mock: add_function — setupMock
 
 
 
@@ -366,7 +367,7 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // layout: add_conditional — setLayout
 # // context: add_constant — checkContext
 # // map: add_conditional — setMap
-# // fixture: add_constant — getFixture  # layout
+# // fixture: add_constant — getFixture
 # // deserialize: add_function — buildDeserialize
 # // debug: add_function — checkDebug
 # // readme: add_function — handleReadme
@@ -449,3 +450,5 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // state: add_constant — setupState
 # // mock: add_function — updateMock
 # // lazy: add_constant — setLazy
+# // deserialize: add_conditional — updateDeserialize
+# // grid: add_conditional — formatGrid
