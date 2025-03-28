@@ -4,6 +4,7 @@
 # // mock: add_constant — formatMock
 # // debug: add_constant — fetchDebug
 # // join: add_constant — getJoin
+# // auth: add_constant — createAuth
 
 
 
