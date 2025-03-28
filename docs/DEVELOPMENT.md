@@ -46,6 +46,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // session: add_try_catch — parseSession -->
 - Package manager (npm/yarn/pnpm)
 
 
@@ -301,12 +302,7 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // sub: add_function — processSub -->
-<!-- // transition: add_constant — applyTransition -->
-<!-- // audit: add_conditional — saveAudit -->
-<!-- // session: add_constant — parseSession -->
-<!-- // stub: add_conditional — applyStub -->
-<!-- // layout: add_constant — saveLayout -->
+<!-- // stream: add_conditional — parseStream -->
 <!-- // audit: add_constant — setAudit -->
 <!-- // query: add_conditional — buildQuery -->
 <!-- // docs: add_conditional — initDocs -->
