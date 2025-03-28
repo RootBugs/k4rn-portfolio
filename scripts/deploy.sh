@@ -444,7 +444,9 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // mock: add_function — setupMock
 # // handle: add_conditional — processHandle
 # // setup: add_conditional — fetchSetup
-# // cache: add_function — syncCache
-# // join: add_function — formatJoin
-# // filter: add_function — saveFilter
-# // active: add_function — applyActive
+# // changelog: add_function — getChangelog
+# // layout: add_function — transformLayout
+# // join: add_conditional — handleJoin
+# // state: add_constant — setupState
+# // mock: add_function — updateMock
+# // lazy: add_constant — setLazy
