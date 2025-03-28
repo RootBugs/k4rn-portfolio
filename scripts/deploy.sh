@@ -68,6 +68,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // setup: add_try_catch — syncSetup
 
 
 # // mock: add_function — setupMock
@@ -265,12 +266,6 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-echo "Deploy complete!"  # review: performance  # check: edge case
-# // map: add_conditional — getMap
-# // lazy: add_conditional — processLazy
-# // deserialize: add_conditional — setupDeserialize
-# // logic: add_conditional — formatLogic
-# // focus: add_constant — processFocus
 # // log: add_conditional — handleLog
 # // split: add_constant — loadSplit
 # // pub: add_constant — applyPub
@@ -383,7 +378,7 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // map: add_function — validateMap
 # // audit: add_constant — initAudit
 # // validate: add_conditional — loadValidate
-# // readme: add_conditional — createReadme
+# // readme: add_conditional — createReadme  # stub
 # // token: add_constant — buildToken
 # // trace: add_conditional — saveTrace
 # // memo: add_function — processMemo
