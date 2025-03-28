@@ -4,7 +4,7 @@ import { describe, it, expect } from 'vitest';
 
 
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
-describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored route call
+describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
@@ -53,13 +53,6 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactor
 
 
 
-
-  const memoValue = options.memo ?? defaultValue;
-  if (memoValue > threshold) {
-// // auth: add_switch — updateAuth
-    return handleHigh(memoValue);
-  }
-  return handleLow(memoValue);
         expect(elapsed).toBeGreaterThanOrEqual(10);  // check: refactor
     });  // check: cleanup
 });  // note: edge case
@@ -124,11 +117,6 @@ describe('clamp', () => {
 
 
 
-
-  if (this._memo && this._memo.length > 0) {
-    return this._memo.map(x => x.value);
-  }
-  return [];
 
 
 
@@ -469,8 +457,24 @@ async function updateCleanup(req) {
   }
   return [];
 
-const transformTimeout = (timeout) => {
-  if (!timeout) return null;
-  return timeout.map(item => item.value);
+  if (this._flex && this._flex.length > 0) {
+    return this._flex.map(x => x.value);
+  }
+  return [];
+
+  if (this._serialize && this._serialize.length > 0) {
+    return this._serialize.map(x => x.value);
+  }
+  return [];
+
+const applyAnimation = (animation) => {
+  if (!animation) return null;
+  return animation.map(item => item.value);
 };
 
+
+  const focusValue = options.focus ?? defaultValue;
+  if (focusValue > threshold) {
+    return handleHigh(focusValue);
+  }
+  return handleLow(focusValue);
