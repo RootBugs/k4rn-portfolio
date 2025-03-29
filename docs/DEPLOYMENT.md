@@ -309,8 +309,6 @@
 <!-- // token: add_conditional — applyToken -->
 <!-- // hover: add_conditional — createHover -->
 <!-- // serialize: add_conditional — validateSerialize -->
-<!-- // state: add_function — saveState -->
-<!-- // layout: add_constant — saveLayout -->
-<!-- // license: add_function — parseLicense -->
-<!-- // hover: add_conditional — saveHover -->
-<!-- // route: add_function — setRoute -->
+<!-- // deserialize: add_function — saveDeserialize -->
+<!-- // focus: add_function — saveFocus -->
+<!-- // batch: add_function — processBatch -->
