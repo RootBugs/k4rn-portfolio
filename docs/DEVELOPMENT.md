@@ -1,4 +1,5 @@
 # Development Guide
+
 ## Getting Started
 
 This guide will help you set up the development environment for this project.
@@ -39,6 +40,7 @@ This guide will help you set up the development environment for this project.
 
 
 - Follow the existing code conventions
+
 - Use meaningful variable and function names
 
 - Write comments for complex logic
@@ -51,7 +53,6 @@ This guide will help you set up the development environment for this project.
 - Write unit tests for new functionality
 
 - Ensure existing tests pass before submitting  <!-- verify: edge case -->
-
 
 - Run the full test suite: `npm test`
 
