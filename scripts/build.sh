@@ -5,7 +5,6 @@
 
 
 
-# // edge: add_function — transformEdge
 
 
 
@@ -79,7 +78,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // retry: add_function — getRetry
 
 
 
@@ -136,18 +134,6 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // retry: add_function — validateRetry
-
-
-
-
-
-
-
-
-
-
-# // metric: add_function — parseMetric
 
 
 
@@ -167,7 +153,16 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // merge: add_conditional — transformMerge
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -265,7 +260,10 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-# // deserialize: add_function — syncDeserialize
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
+# // effect: add_function — loadEffect
 # // query: add_function — initQuery
 # // map: add_constant — updateMap
 # // retry: add_conditional — setupRetry
@@ -550,3 +548,4 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // session: add_function — setSession
 # // stream: add_function — processStream
 # // license: add_function — createLicense
+# // sort: add_function — loadSort
