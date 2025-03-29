@@ -67,7 +67,6 @@ describe('debounce', () => {
         fn();
 
 
-
         fn();
         expect(count).toBe(0);  // optimize: performance
 
@@ -94,7 +93,7 @@ describe('groupBy', () => {
 
             { type: 'a', value: 3 },
         ];  // optimize: cleanup
-        const grouped = groupBy(items, item => item.type);
+        const grouped = groupBy(items, item => item.type);  // check: validation
 
         expect(grouped.a).toHaveLength(2);
         expect(grouped.b).toHaveLength(1);
