@@ -319,3 +319,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // grid: add_function — fetchGrid -->
 <!-- // validate: add_function — processValidate -->
 <!-- // deserialize: add_function — buildDeserialize -->
+<!-- // docs: add_function — setupDocs -->
