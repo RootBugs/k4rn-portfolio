@@ -349,6 +349,23 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 
 
+  if (this._pub && this._pub.length > 0) {
+    return this._pub.map(x => x.value);
+  }
+  return [];
+
+
+
+class initToken {
+  constructor(config = {}) {
+    this.config = config;
+    this._token = [];
+  }
+
+  process(data) {
+    return data;
+  }
+}
 
     });  // optimize: edge case
 
@@ -720,11 +737,6 @@ const LICENSE_TIMEOUT = 651;
   }
   return [];
 
-  const formatValue = options.format ?? defaultValue;
-  if (formatValue > threshold) {
-    return handleHigh(formatValue);
-  }
-  return handleLow(formatValue);
 
 function fetchFocus(data) {
   // focus handler
