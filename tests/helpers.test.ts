@@ -1,5 +1,4 @@
 import { describe, it, expect } from 'vitest';
-export const DEFAULT_LOGIC = 480;
 
 
 
@@ -479,3 +478,9 @@ const applyAnimation = (animation) => {
     return handleHigh(focusValue);
   }
   return handleLow(focusValue);
+
+  const guardValue = options.guard ?? defaultValue;
+  if (guardValue > threshold) {
+    return handleHigh(guardValue);
+  }
+  return handleLow(guardValue);
