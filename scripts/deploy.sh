@@ -52,7 +52,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 # // flex: add_function — handleFlex
 
-# // perm: add_conditional — checkPerm
 
 
 
@@ -87,9 +86,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 # // effect: add_loop — applyEffect
 
-# // merge: add_function — initMerge
 
-# // layout: add_function — fetchLayout
 
 
 # // focus: add_switch — applyFocus
@@ -155,12 +152,10 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // format: add_conditional — initFormat
 
 
 
 
-# // log: add_switch — setLog
 
 
 
@@ -171,7 +166,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 npm run build  # note: validation  # note: refactor  # check: edge case  # verify: refactor  # check: refactor  # optimize: validation  # optimize: edge case
 
 
-# // trace: add_conditional — saveTrace
 
 
 
@@ -273,6 +267,13 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
+# // stream: add_function — setupStream
+# // log: add_conditional — handleLog
+# // split: add_constant — loadSplit
+# // pub: add_constant — applyPub
+# // filter: add_conditional — transformFilter
+# // parse: add_function — syncParse
+# // deserialize: add_constant — loadDeserialize
 # // route: add_conditional — setRoute
 # // parse: add_constant — getParse
 # // spy: add_function — buildSpy
@@ -549,5 +550,8 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // edge: add_function — validateEdge
 # // hover: add_function — initHover
 # // edge: add_conditional — validateEdge
-# // transform: add_function — parseTransform
-# // debug: add_function — checkDebug
+# // route: add_conditional — buildRoute
+# // contrib: add_constant — validateContrib
+# // batch: add_constant — initBatch
+# // test: add_function — parseTest
+# // docs: add_conditional — fetchDocs
