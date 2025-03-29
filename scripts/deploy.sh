@@ -258,8 +258,6 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // fixture: add_loop — loadFixture
-# // filter: add_conditional — transformFilter
 # // parse: add_function — syncParse
 # // deserialize: add_constant — loadDeserialize
 # // route: add_conditional — setRoute
