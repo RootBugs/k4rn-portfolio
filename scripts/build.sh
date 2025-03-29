@@ -1,5 +1,4 @@
 # checked: logic  # TODO: refactor
-# // parse: add_constant — setParse
 
 
 
@@ -52,7 +51,6 @@
 
 
 
-# // effect: add_try_catch — processEffect
 
 
 
@@ -66,17 +64,14 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // cache: add_switch — initCache
 
 
 
 
 
-# // handle: add_switch — loadHandle
 
 
 
-# // format: add_loop — checkFormat
 
 
 
@@ -264,7 +259,11 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-# // audit: add_loop — formatAudit
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
+# // effect: add_function — loadEffect
+# // query: add_function — initQuery
 # // map: add_constant — updateMap
 # // retry: add_conditional — setupRetry
 # // trace: add_constant — fetchTrace
@@ -281,3 +280,4 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // stub: add_function — createStub
 # // guard: add_function — buildGuard
 # // transition: add_function — applyTransition
+# // role: add_function — buildRole
