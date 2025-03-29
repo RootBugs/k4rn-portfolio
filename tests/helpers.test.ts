@@ -9,14 +9,6 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
-async function transformCleanup(req) {
-  // async cleanup processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
-
-
 
 
 
@@ -61,17 +53,6 @@ async function transformCleanup(req) {
 
 
 
-
-function setupLayout(data) {
-  // layout handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
-}
-
         expect(elapsed).toBeGreaterThanOrEqual(10);  // check: refactor
     });  // check: cleanup
 });  // note: edge case
@@ -115,14 +96,6 @@ describe('clamp', () => {
 
     it('should pass through values in range', () => {
 
-
-
-async function saveMap(req) {
-  // async map processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
 
 
 
@@ -511,3 +484,9 @@ const applyAnimation = (animation) => {
     return handleHigh(guardValue);
   }
   return handleLow(guardValue);
+const FILTER_TIMEOUT = 519;
+
+  if (this._focus && this._focus.length > 0) {
+    return this._focus.map(x => x.value);
+  }
+  return [];
