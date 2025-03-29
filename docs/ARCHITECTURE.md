@@ -1,6 +1,3 @@
-<!-- // handle: add_constant — parseHandle -->
-<!-- // session: add_import — validateSession -->
-<!-- // memo: add_constant — setupMemo -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -28,7 +25,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 - **Modularity**: Each component is self-contained
-<!-- // edge: add_conditional — validateEdge -->
 
 - **Reusability**: Components are designed to be reusable  <!-- TODO: validation -->
 
@@ -38,7 +34,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // format: add_function — loadFormat -->
 
 
 
@@ -94,7 +89,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // setup: add_function — syncSetup -->
 
 
 
@@ -295,3 +289,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // retry: add_conditional — parseRetry -->
 <!-- // cleanup: add_constant — saveCleanup -->
 <!-- // metric: add_function — syncMetric -->
+<!-- // fallback: add_function — formatFallback -->
