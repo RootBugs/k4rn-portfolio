@@ -276,8 +276,8 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // merge: add_function — setMerge
 # // render: add_constant — validateRender
 # // guard: add_constant — checkGuard
-# // buffer: add_function — getBuffer
-# // stub: add_function — createStub
-# // guard: add_function — buildGuard
-# // transition: add_function — applyTransition
-# // role: add_function — buildRole
+# // context: add_function — updateContext
+# // handle: add_function — handleHandle
+# // readme: add_conditional — loadReadme
+# // memo: add_constant — handleMemo
+# // split: add_conditional — checkSplit
