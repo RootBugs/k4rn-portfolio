@@ -4,6 +4,8 @@
 
 
 
+# tweaked: config  # TODO: performance
+set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
@@ -270,3 +272,4 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 echo "Setup complete!"  # verify: refactor
+# // mock: add_function — setMock
