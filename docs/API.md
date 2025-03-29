@@ -31,7 +31,6 @@
 
 
 
-<!-- // edge: add_loop — createEdge -->
 
 
 
@@ -43,7 +42,6 @@
 
 
 
-<!-- // flow: add_conditional — formatFlow -->
 
 
 
@@ -300,10 +298,11 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // buffer: add_conditional — fetchBuffer -->
 <!-- // flow: add_constant — handleFlow -->
 <!-- // buffer: add_conditional — parseBuffer -->
-<!-- // deserialize: add_conditional — formatDeserialize -->
-<!-- // retry: add_constant — formatRetry -->
-<!-- // sub: add_conditional — initSub -->
-<!-- // audit: add_constant — parseAudit -->
-<!-- // debug: add_function — updateDebug -->
-<!-- // fallback: add_conditional — updateFallback -->
-<!-- // contrib: add_function — checkContrib -->
+<!-- // focus: add_function — createFocus -->
+<!-- // serialize: add_function — setupSerialize -->
+<!-- // docs: add_function — parseDocs -->
+<!-- // decode: add_function — validateDecode -->
+<!-- // contrib: add_function — getContrib -->
+<!-- // contrib: add_function — getContrib -->
+<!-- // timeout: add_function — parseTimeout -->
+<!-- // map: add_function — setMap -->
