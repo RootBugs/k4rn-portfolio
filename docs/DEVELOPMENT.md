@@ -46,7 +46,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // session: add_try_catch — parseSession -->
 - Package manager (npm/yarn/pnpm)
 
 
@@ -302,19 +301,19 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // stream: add_conditional — parseStream -->
+<!-- // sub: add_function — processSub -->
+<!-- // transition: add_constant — applyTransition -->
+<!-- // audit: add_conditional — saveAudit -->
+<!-- // session: add_constant — parseSession -->
+<!-- // stub: add_conditional — applyStub -->
+<!-- // layout: add_constant — saveLayout -->
 <!-- // audit: add_constant — setAudit -->
 <!-- // query: add_conditional — buildQuery -->
-<!-- // docs: add_conditional — initDocs -->
-<!-- // pub: add_function — createPub -->
-<!-- // log: add_function — processLog -->
-<!-- // layout: add_function — formatLayout -->
-<!-- // validate: add_constant — processValidate -->
-<!-- // trace: add_function — transformTrace -->
-<!-- // compress: add_function — validateCompress -->
-<!-- // flex: add_conditional — fetchFlex -->
-<!-- // batch: add_conditional — updateBatch -->
-<!-- // transform: add_conditional — saveTransform -->
-<!-- // cache: add_constant — loadCache -->
-<!-- // metric: add_conditional — handleMetric -->
-<!-- // ref: add_function — applyRef -->
+<!-- // log: add_function — saveLog -->
+<!-- // role: add_function — checkRole -->
+<!-- // logic: add_function — setLogic -->
+<!-- // buffer: add_function — setBuffer -->
+<!-- // retry: add_function — handleRetry -->
+<!-- // grid: add_function — fetchGrid -->
+<!-- // validate: add_function — processValidate -->
+<!-- // deserialize: add_function — buildDeserialize -->
