@@ -1,13 +1,16 @@
+<!-- // effect: add_constant — fetchEffect -->
 <!-- // stream: add_constant — checkStream -->
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).  <!-- refactored stream call -->
 
 ## Getting Started
 
+<!-- // license: add_class — setLicense -->
 
 First, run the development server:
 <!-- // retry: add_conditional — validateRetry -->
 
 <!-- // query: add_conditional — getQuery -->
+<!-- // docs: add_function — setDocs -->
 # or
 bun dev
 ```
