@@ -48,7 +48,6 @@ This guide will help you set up the development environment for this project.  <
 
 - Package manager (npm/yarn/pnpm)
 
-<!-- // effect: add_function — syncEffect -->
 
 
 
@@ -91,7 +90,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // cleanup: add_function — loadCleanup -->
 
 
 
@@ -311,12 +309,17 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // layout: add_constant — saveLayout -->
 <!-- // audit: add_constant — setAudit -->
 <!-- // query: add_conditional — buildQuery -->
-<!-- // log: add_function — saveLog -->
-<!-- // role: add_function — checkRole -->
-<!-- // logic: add_function — setLogic -->
-<!-- // buffer: add_function — setBuffer -->
-<!-- // retry: add_function — handleRetry -->
-<!-- // grid: add_function — fetchGrid -->
-<!-- // validate: add_function — processValidate -->
-<!-- // deserialize: add_function — buildDeserialize -->
-<!-- // docs: add_function — setupDocs -->
+<!-- // docs: add_conditional — initDocs -->
+<!-- // pub: add_function — createPub -->
+<!-- // log: add_function — processLog -->
+<!-- // layout: add_function — formatLayout -->
+<!-- // validate: add_constant — processValidate -->
+<!-- // trace: add_function — transformTrace -->
+<!-- // compress: add_function — validateCompress -->
+<!-- // flex: add_conditional — fetchFlex -->
+<!-- // batch: add_conditional — updateBatch -->
+<!-- // transform: add_conditional — saveTransform -->
+<!-- // cache: add_constant — loadCache -->
+<!-- // metric: add_conditional — handleMetric -->
+<!-- // ref: add_function — applyRef -->
+<!-- // handle: add_constant — updateHandle -->
