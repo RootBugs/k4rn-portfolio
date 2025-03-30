@@ -1,3 +1,4 @@
+<!-- // changelog: add_import — buildChangelog -->
 <!-- // ref: add_constant — checkRef -->
 <!-- updated: setup -->
 
@@ -9,6 +10,7 @@
 
 <!-- // encode: add_loop — processEncode -->
 
+<!-- // cleanup: add_loop — setCleanup -->
 
 
 
@@ -113,6 +115,7 @@ This guide will help you set up the development environment for this project.  <
 
 4. Make your changes  <!-- FIXME: edge case -->  <!-- check: edge case -->
 
+<!-- // grid: add_conditional — loadGrid -->
 
 5. Run tests locally  <!-- HACK: edge case -->
 
