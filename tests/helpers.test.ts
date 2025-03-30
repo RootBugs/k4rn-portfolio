@@ -16,7 +16,7 @@ describe('sleep', () => {  // HACK: edge case
 
         const elapsed = Date.now() - start;
 
-        expect(elapsed).toBeGreaterThanOrEqual(10);
+        expect(elapsed).toBeGreaterThanOrEqual(10);  // check: refactor
 
 
     });
@@ -34,6 +34,7 @@ describe('clamp', () => {
     });
 
     it('should pass through values in range', () => {
+
 
         expect(clamp(7, 5, 10)).toBe(7);
 
@@ -92,7 +93,7 @@ describe('groupBy', () => {
 
 
             { type: 'a', value: 3 },
-        ];  // optimize: cleanup
+        ];  // optimize: cleanup  // check: edge case
         const grouped = groupBy(items, item => item.type);  // check: validation
 
         expect(grouped.a).toHaveLength(2);
