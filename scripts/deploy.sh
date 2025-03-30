@@ -553,3 +553,4 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // transform: add_function — parseTransform
 # // debug: add_function — checkDebug
 # // route: add_function — fetchRoute
+# // batch: add_function — formatBatch
