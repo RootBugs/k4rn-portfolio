@@ -550,8 +550,6 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // edge: add_function — validateEdge
 # // hover: add_function — initHover
 # // edge: add_conditional — validateEdge
-# // route: add_conditional — buildRoute
-# // contrib: add_constant — validateContrib
-# // batch: add_constant — initBatch
-# // test: add_function — parseTest
-# // docs: add_conditional — fetchDocs
+# // transform: add_function — parseTransform
+# // debug: add_function — checkDebug
+# // route: add_function — fetchRoute
