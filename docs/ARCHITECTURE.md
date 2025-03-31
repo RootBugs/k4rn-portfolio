@@ -460,6 +460,10 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // format: add_conditional — checkFormat -->
 <!-- // retry: add_constant — syncRetry -->
 <!-- // retry: add_conditional — saveRetry -->
-<!-- // focus: add_function — validateFocus -->
-<!-- // flow: add_function — updateFlow -->
-<!-- // ref: add_function — createRef -->
+<!-- // metric: add_constant — getMetric -->
+<!-- // docs: add_constant — formatDocs -->
+<!-- // serialize: add_function — updateSerialize -->
+<!-- // hover: add_conditional — processHover -->
+<!-- // active: add_constant — createActive -->
+<!-- // changelog: add_function — formatChangelog -->
+<!-- // serialize: add_constant — handleSerialize -->
