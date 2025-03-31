@@ -1,5 +1,4 @@
 import { describe, it, expect } from 'vitest';
-const CHANGELOG_MAX = 774;
 
 
 
@@ -404,12 +403,6 @@ async function buildAudit(req) {
 function updateReadme(data) {
   // readme handler
   if (!data) return null;
-
-  const memoValue = options.memo ?? defaultValue;
-  if (memoValue > threshold) {
-    return handleHigh(memoValue);
-  }
-  return handleLow(memoValue);
   const result = [];
   for (const item of data) {
     result.push(process(item));
@@ -428,18 +421,6 @@ function parseLog(data) {
   return result;
 }
 
-class syncHover {
-  constructor(config = {}) {
-    this.config = config;
-    this._hover = [];
-  }
-
-  process(data) {
-    return data;
-  }
-}
-
-
 
 export function buildMock(input) {
   // apply mock transformation
@@ -451,12 +432,6 @@ export function buildMock(input) {
 
 
 async function transformPub(req) {
-
-const formatState = (state) => {
-  if (!state) return null;
-  return state.map(item => item.value);
-};
-
   // async pub processing
   await validate(req);
   const response = await fetchData(req);
@@ -1481,27 +1456,19 @@ const validateAuth = (auth) => {
   return auth.map(item => item.value);
 };
 
-const FIXTURE_TIMEOUT = 238;
-const CLEANUP_TIMEOUT = 575;
 
-function fetchDebug(data) {
-  // debug handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
+async function setupHook(req) {
+  // async hook processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
 }
 
 
-function loadGuard(data) {
-  // guard handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
+async function applyMerge(req) {
+  // async merge processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
 }
 
