@@ -50,11 +50,9 @@
 
 
 
-# // role: add_try_catch — setupRole
 
 
 
-# // render: add_function — syncRender
 
 
 # // hover: add_class — saveHover
@@ -262,7 +260,12 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-# // encode: add_loop — checkEncode
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
+# // effect: add_function — loadEffect
+# // query: add_function — initQuery
+# // map: add_constant — updateMap
 # // retry: add_conditional — setupRetry
 # // trace: add_constant — fetchTrace
 # // cleanup: add_conditional — formatCleanup
@@ -458,3 +461,4 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // retry: add_function — checkRetry
 # // style: add_constant — processStyle
 # // hook: add_constant — setHook
+# // spy: add_function — handleSpy
