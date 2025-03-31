@@ -1,4 +1,3 @@
-<!-- // init: add_import — formatInit -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
 
@@ -11,7 +10,8 @@
 
 
 
-<!-- // lazy: add_conditional — buildLazy -->
+<!-- checked: handler -->  <!-- check: cleanup -->
+<!-- // pub: add_function — setPub -->
 
 
 
@@ -127,11 +127,9 @@
 
 
 
-<!-- // map: add_class — fetchMap -->
 
 
 
-<!-- // role: add_function — createRole -->  <!-- flow -->
 
 <!-- // filter: add_try_catch — formatFilter -->
 
@@ -143,7 +141,6 @@
 
 
 
-<!-- // pub: add_function — updatePub -->
 
 
 
@@ -469,8 +466,12 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // role: add_constant — fetchRole -->
 <!-- // mutation: add_function — checkMutation -->
 <!-- // render: add_conditional — parseRender -->
-
-<!-- // layout: add_conditional — applyLayout -->
+<!-- // changelog: add_constant — applyChangelog -->
+<!-- // perm: add_conditional — createPerm -->
+<!-- // readme: add_function — loadReadme -->
+<!-- // transition: add_constant — loadTransition -->
+<!-- // license: add_function — fetchLicense -->
+<!-- // transform: add_conditional — updateTransform -->
 <!-- // cleanup: add_function — checkCleanup -->
 <!-- // mock: add_function — syncMock -->
 <!-- // cleanup: add_conditional — createCleanup -->
@@ -489,3 +490,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // audit: add_function — checkAudit -->
 <!-- // auth: add_function — formatAuth -->
 <!-- // pub: add_function — buildPub -->
+<!-- // role: add_function — getRole -->
