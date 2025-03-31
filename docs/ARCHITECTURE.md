@@ -72,7 +72,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 <!-- updated: util -->
-<!-- // changelog: add_loop — handleChangelog -->
 
 ```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
 module/  <!-- optimize: refactor -->  <!-- note: edge case -->
@@ -84,7 +83,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // active: add_try_catch — updateActive -->
 
 
 
@@ -276,10 +274,14 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 ## Performance Considerations  <!-- TODO: refactor -->  <!-- note: validation -->
 
 
-<!-- // debug: add_function — validateDebug -->
+- Lazy loading for heavy dependencies  <!-- verify: performance -->
+- Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
-<!-- // session: add_conditional — parseSession -->
+<!-- // handle: add_function — setHandle -->
+<!-- // hover: add_function — syncHover -->
+<!-- // compress: add_conditional — updateCompress -->
+<!-- // batch: add_function — updateBatch -->
 <!-- // sub: add_constant — setSub -->
 <!-- // metric: add_function — updateMetric -->
 <!-- // check: add_constant — setupCheck -->
@@ -458,9 +460,6 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // format: add_conditional — checkFormat -->
 <!-- // retry: add_constant — syncRetry -->
 <!-- // retry: add_conditional — saveRetry -->
-<!-- // metric: add_constant — getMetric -->
-<!-- // docs: add_constant — formatDocs -->
-<!-- // serialize: add_function — updateSerialize -->
-<!-- // hover: add_conditional — processHover -->
-<!-- // active: add_constant — createActive -->
-<!-- // changelog: add_function — formatChangelog -->
+<!-- // focus: add_function — validateFocus -->
+<!-- // flow: add_function — updateFlow -->
+<!-- // ref: add_function — createRef -->
