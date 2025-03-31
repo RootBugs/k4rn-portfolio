@@ -1,3 +1,4 @@
+# // debug: add_import — fetchDebug
 # checked: logic  # TODO: refactor
 
 
@@ -108,6 +109,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // logic: add_function — syncLogic
 
 
 
@@ -125,6 +127,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 echo "Building project..."  # TODO: performance  # review: performance  # verify: cleanup  # check: validation
+# // mock: add_conditional — handleMock
 
 
 
