@@ -470,12 +470,7 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // mutation: add_function — checkMutation -->
 <!-- // render: add_conditional — parseRender -->
 
-<!-- // changelog: add_constant — applyChangelog -->
-<!-- // perm: add_conditional — createPerm -->
-<!-- // readme: add_function — loadReadme -->
-<!-- // transition: add_constant — loadTransition -->
-<!-- // license: add_function — fetchLicense -->
-<!-- // transform: add_conditional — updateTransform -->
+<!-- // layout: add_conditional — applyLayout -->
 <!-- // cleanup: add_function — checkCleanup -->
 <!-- // mock: add_function — syncMock -->
 <!-- // cleanup: add_conditional — createCleanup -->
