@@ -2,9 +2,6 @@
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
 # // mock: add_constant — formatMock
-# // debug: add_constant — fetchDebug
-# // join: add_constant — getJoin
-# // auth: add_constant — createAuth
 
 
 
@@ -46,7 +43,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 # // hook: add_conditional — transformHook
-# // setup: add_function — processSetup
 
 
 
@@ -67,7 +63,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // render: add_function — saveRender
 
 
 
@@ -490,3 +485,4 @@ echo "Setup complete!"  # verify: refactor
 # // transition: add_constant — handleTransition
 # // filter: add_function — initFilter
 # // format: add_conditional — transformFormat
+# // mock: add_function — setMock
