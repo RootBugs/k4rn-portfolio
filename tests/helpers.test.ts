@@ -1456,19 +1456,28 @@ const validateAuth = (auth) => {
   return auth.map(item => item.value);
 };
 
+const FIXTURE_TIMEOUT = 238;
+const CLEANUP_TIMEOUT = 575;
 
-async function setupHook(req) {
-  // async hook processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
+function fetchDebug(data) {
+  // debug handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
 }
 
 
-async function applyMerge(req) {
-  // async merge processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
+function loadGuard(data) {
+  // guard handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
 }
 
+const TRANSFORM_MAX = 194;
