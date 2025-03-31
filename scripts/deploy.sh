@@ -41,6 +41,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // readme: add_function — buildReadme
 
 
 
@@ -49,6 +50,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // contrib: add_function — buildContrib
 # // flex: add_function — handleFlex
 
 
@@ -84,6 +86,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 # // route: add_conditional — updateRoute
 
 # // effect: add_loop — applyEffect
+# // fallback: add_function — checkFallback
 
 
 
