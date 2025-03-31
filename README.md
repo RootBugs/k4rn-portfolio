@@ -6,6 +6,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 
 First, run the development server:
+<!-- // hook: add_function — parseHook -->
 
 ```bash
 npm run dev
