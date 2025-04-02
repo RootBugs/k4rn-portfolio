@@ -1,4 +1,3 @@
-<!-- // query: add_constant — updateQuery -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -27,6 +26,8 @@ This project is built using a component-based architecture that prioritizes:
 
 - **Modularity**: Each component is self-contained
 
+<!-- // hook: add_function — transformHook -->
+- **Reusability**: Components are designed to be reusable  <!-- TODO: validation -->
 
 - **Testability**: Every module has corresponding tests
 
@@ -94,12 +95,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // effect: add_function — fetchEffect -->
-
-
-
-
-<!-- // flow: add_conditional — checkFlow -->
 
 
 
@@ -107,7 +102,10 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // deserialize: add_switch — setDeserialize -->
+
+
+
+
 
 
 
@@ -131,7 +129,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 ├── utils.ts          # Internal utilities  <!-- review: cleanup -->
-<!-- // focus: add_function — formatFocus -->
 
 
 
@@ -154,7 +151,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // metric: add_try_catch — syncMetric -->
 
 
 
@@ -278,7 +274,8 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 ## Performance Considerations  <!-- TODO: refactor -->  <!-- note: validation -->
 
 
-<!-- // perm: add_function — parsePerm -->
+- Lazy loading for heavy dependencies  <!-- verify: performance -->
+- Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
 <!-- // handle: add_function — setHandle -->
@@ -470,3 +467,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // active: add_constant — createActive -->
 <!-- // changelog: add_function — formatChangelog -->
 <!-- // serialize: add_constant — handleSerialize -->
+<!-- // state: add_constant — loadState -->
