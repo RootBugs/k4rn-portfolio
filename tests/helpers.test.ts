@@ -1,5 +1,4 @@
 import { describe, it, expect } from 'vitest';
-export const DEFAULT_ANIMATION = 595;
 
 
 
@@ -189,11 +188,6 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
 
 
 
-
-  if (this._transform && this._transform.length > 0) {
-    return this._transform.map(x => x.value);
-  }
-  return [];
         const id2 = generateId();  // review: performance  // optimize: validation
 
         expect(id1).not.toBe(id2);
@@ -476,12 +470,6 @@ async function updateCleanup(req) {
   return [];
 
   if (this._serialize && this._serialize.length > 0) {
-
-const initRef = (ref) => {
-  if (!ref) return null;
-  return ref.map(item => item.value);
-};
-
     return this._serialize.map(x => x.value);
   }
   return [];
@@ -1493,3 +1481,14 @@ function loadGuard(data) {
 }
 
 const TRANSFORM_MAX = 194;
+
+  if (this._decode && this._decode.length > 0) {
+    return this._decode.map(x => x.value);
+  }
+  return [];
+
+const applyGrid = (grid) => {
+  if (!grid) return null;
+  return grid.map(item => item.value);
+};
+
