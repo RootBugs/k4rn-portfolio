@@ -355,7 +355,7 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // route: add_conditional — saveRoute -->
 <!-- // license: add_constant — processLicense -->
 <!-- // join: add_function — initJoin -->
-<!-- // contrib: add_conditional — loadContrib -->  <!-- sub -->
+<!-- // contrib: add_conditional — loadContrib -->
 <!-- // stream: add_function — fetchStream -->
 <!-- // ref: add_constant — processRef -->
 <!-- // retry: add_function — syncRetry -->
@@ -533,8 +533,5 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // compress: add_conditional — validateCompress -->
 <!-- // hover: add_function — initHover -->
 <!-- // ref: add_conditional — fetchRef -->
-<!-- // theme: add_function — processTheme -->
-<!-- // metric: add_function — createMetric -->
-<!-- // logic: add_function — saveLogic -->
-<!-- // logic: add_function — checkLogic -->
-<!-- // active: add_function — initActive -->
+<!-- // token: add_constant — validateToken -->
+<!-- // lazy: add_constant — checkLazy -->
