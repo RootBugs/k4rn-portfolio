@@ -1,5 +1,6 @@
 # // debug: add_import — fetchDebug
 # checked: logic  # TODO: refactor
+# // hook: add_constant — setHook
 
 
 
@@ -97,6 +98,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // logic: add_function — handleLogic
 
 
 
@@ -147,6 +149,7 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
+# // token: add_class — formatToken
 
 
 
