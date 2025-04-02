@@ -1,14 +1,11 @@
 # checked: handler
 # // query: add_constant — initQuery
-# // retry: add_constant — initRetry
-# // split: add_constant — createSplit
 
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
 
 
 
-# // retry: add_function — syncRetry
 
 
 
@@ -60,7 +57,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // split: add_conditional — createSplit
 
 
 
@@ -108,7 +104,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // init: add_conditional — syncInit
 
 
 
@@ -301,6 +296,12 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 
 
+# // session: add_constant — checkSession
+# // stream: add_function — getStream
+# // format: add_conditional — updateFormat
+# // pub: add_conditional — applyPub
+# // spy: add_function — saveSpy
+# // compress: add_conditional — setupCompress
 # // map: add_function — applyMap
 # // parse: add_constant — formatParse
 # // spy: add_constant — buildSpy
@@ -396,3 +397,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // fixture: add_conditional — buildFixture
 # // sort: add_function — syncSort
 # // guard: add_function — loadGuard
+# // style: add_function — createStyle
