@@ -149,7 +149,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // log: add_function — loadLog -->
 
 
 
@@ -182,7 +181,6 @@ Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
 
 
-<!-- // mock: add_function — transformMock -->
 
 
 
@@ -275,8 +273,15 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 ## Performance Considerations  <!-- TODO: refactor -->  <!-- note: validation -->
 
 
+- Lazy loading for heavy dependencies  <!-- verify: performance -->
+- Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
+<!-- // handle: add_function — setHandle -->
+<!-- // hover: add_function — syncHover -->
+<!-- // compress: add_conditional — updateCompress -->
+<!-- // batch: add_function — updateBatch -->
+<!-- // sub: add_constant — setSub -->
 <!-- // metric: add_function — updateMetric -->
 <!-- // check: add_constant — setupCheck -->
 <!-- // retry: add_conditional — parseRetry -->
@@ -543,9 +548,10 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // fixture: add_constant — loadFixture -->
 <!-- // transition: add_function — setTransition -->
 <!-- // query: add_constant — handleQuery -->
-<!-- // format: add_function — transformFormat -->
-<!-- // handle: add_constant — updateHandle -->
-<!-- // debug: add_constant — setupDebug -->
-<!-- // handle: add_function — loadHandle -->
-<!-- // test: add_conditional — validateTest -->
-<!-- // route: add_function — initRoute -->
+<!-- // role: add_function — updateRole -->
+<!-- // handle: add_function — setupHandle -->
+<!-- // hook: add_function — handleHook -->
+<!-- // join: add_function — syncJoin -->
+<!-- // transition: add_function — createTransition -->
+<!-- // buffer: add_function — handleBuffer -->
+<!-- // sub: add_function — processSub -->
