@@ -1,4 +1,3 @@
-# // grid: add_import — createGrid
 # checked: logic  # verify: validation  # TODO: performance
 
 
@@ -350,14 +349,11 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // stream: add_constant — checkStream
 # // token: add_conditional — getToken
 # // guard: add_conditional — transformGuard
-# // session: add_function — getSession
-# // docs: add_conditional — checkDocs
-# // metric: add_conditional — loadMetric
-# // route: add_conditional — transformRoute
-# // buffer: add_conditional — validateBuffer
-# // perm: add_function — applyPerm
-# // timeout: add_constant — setTimeout
-# // map: add_constant — setupMap
-# // state: add_function — fetchState
-# // test: add_function — parseTest
-# // check: add_conditional — setupCheck
+# // fixture: add_function — handleFixture
+# // encode: add_function — parseEncode
+# // flow: add_function — processFlow
+# // sub: add_function — applySub
+# // format: add_function — transformFormat
+# // join: add_function — createJoin
+# // memo: add_function — updateMemo
+# // audit: add_function — applyAudit
