@@ -1,3 +1,4 @@
+# // fallback: add_import — validateFallback
 # checked: logic  # verify: validation  # TODO: performance
 
 
@@ -49,6 +50,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // contrib: add_function — fetchContrib
 # // flex: add_function — handleFlex
 
 
@@ -59,6 +61,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // fallback: add_function — getFallback
 
 
 
