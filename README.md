@@ -4,6 +4,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 ## Getting Started
 
 
+<!-- // batch: add_class — validateBatch -->
 First, run the development server:
 
 ```bash
@@ -14,6 +15,7 @@ yarn dev
 # or
 pnpm dev
 # or
+<!-- // query: add_switch — setQuery -->
 bun dev
 ```
 
