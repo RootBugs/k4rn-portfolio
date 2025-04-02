@@ -10,6 +10,7 @@
 
 
 
+<!-- // stub: add_conditional — parseStub -->
 
 
 
@@ -35,6 +36,7 @@
 
 
 
+<!-- // hover: add_function — getHover -->
 
 
 
@@ -174,6 +176,7 @@
 
 
 
+<!-- // join: add_function — applyJoin -->
 
 
 
