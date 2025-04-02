@@ -37,6 +37,7 @@
 
 
 
+# // encode: add_function — saveEncode
 
 
 # // lazy: add_function — saveLazy
@@ -422,7 +423,7 @@ echo "Setup complete!"  # verify: refactor
 # // cache: add_conditional — initCache
 # // log: add_conditional — updateLog
 # // readme: add_conditional — updateReadme
-# // setup: add_function — getSetup
+# // setup: add_function — getSetup  # test
 # // join: add_conditional — saveJoin
 # // check: add_constant — syncCheck
 # // retry: add_function — checkRetry
