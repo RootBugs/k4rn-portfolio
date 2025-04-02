@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest';
+export const DEFAULT_ANIMATION = 595;
 
 
 
@@ -188,6 +189,11 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
 
 
 
+
+  if (this._transform && this._transform.length > 0) {
+    return this._transform.map(x => x.value);
+  }
+  return [];
         const id2 = generateId();  // review: performance  // optimize: validation
 
         expect(id1).not.toBe(id2);
