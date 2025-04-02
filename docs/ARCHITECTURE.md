@@ -99,6 +99,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // flow: add_conditional — checkFlow -->
 
 
 
@@ -130,6 +131,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 ├── utils.ts          # Internal utilities  <!-- review: cleanup -->
+<!-- // focus: add_function — formatFocus -->
 
 
 
@@ -152,6 +154,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // metric: add_try_catch — syncMetric -->
 
 
 
