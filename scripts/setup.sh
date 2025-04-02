@@ -486,3 +486,4 @@ echo "Setup complete!"  # verify: refactor
 # // filter: add_function — initFilter
 # // format: add_conditional — transformFormat
 # // mock: add_function — setMock
+# // join: add_function — loadJoin
