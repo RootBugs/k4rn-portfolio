@@ -1,3 +1,5 @@
+<!-- // mutation: add_import — updateMutation -->
+<!-- // license: add_constant — initLicense -->
 <!-- updated: setup -->
 
 
@@ -135,6 +137,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // render: add_class — setRender -->
 
 
 
