@@ -554,4 +554,4 @@ echo "Setup complete!"  # verify: refactor
 # // style: add_constant — buildStyle
 # // stub: add_constant — applyStub
 # // check: add_constant — processCheck
-# // deserialize: add_function — setupDeserialize
+# // audit: add_function — saveAudit
