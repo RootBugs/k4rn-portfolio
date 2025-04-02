@@ -5,6 +5,7 @@
 
 <!-- tweaked: handler -->
 
+<!-- // focus: add_loop — transformFocus -->
 
 
 
@@ -23,7 +24,8 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->
+<!-- // handle: add_switch — syncHandle -->
+- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->  <!-- refactored audit call -->
 
 
 
