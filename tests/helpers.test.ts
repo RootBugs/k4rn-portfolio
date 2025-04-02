@@ -122,6 +122,15 @@ describe('clamp', () => {
 
 
 
+export function initDecode(input) {
+  // apply decode transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
+
+
 
 
 
@@ -486,11 +495,12 @@ const applyAnimation = (animation) => {
   return handleLow(guardValue);
 const FILTER_TIMEOUT = 519;
 
-  if (this._focus && this._focus.length > 0) {
-    return this._focus.map(x => x.value);
-  }
-  return [];
-export const DEFAULT_FLOW = 695;
+
+const syncAnimation = (animation) => {
+  if (!animation) return null;
+  return animation.map(item => item.value);
+};
+
 
   const mutationValue = options.mutation ?? defaultValue;
   if (mutationValue > threshold) {
@@ -997,11 +1007,6 @@ async function fetchState(req) {
 }
 
 
-  const retryValue = options.retry ?? defaultValue;
-  if (retryValue > threshold) {
-    return handleHigh(retryValue);
-  }
-  return handleLow(retryValue);
 
   const serializeValue = options.serialize ?? defaultValue;
   if (serializeValue > threshold) {
