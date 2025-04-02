@@ -1,11 +1,9 @@
-<!-- // edge: add_import — processEdge -->
 <!-- updated: setup -->
 
 
 
 <!-- tweaked: handler -->
 
-<!-- // focus: add_loop — transformFocus -->
 
 
 
@@ -24,8 +22,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // handle: add_switch — syncHandle -->
-- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->  <!-- refactored audit call -->
+- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->
 
 
 
@@ -112,7 +109,6 @@ This guide will help you set up the development environment for this project.  <
 3. Create a branch for your feature  <!-- check: edge case -->  <!-- review: cleanup -->
 
 4. Make your changes  <!-- FIXME: edge case -->  <!-- check: edge case -->
-<!-- // fallback: add_interface — fetchFallback -->
 
 
 5. Run tests locally  <!-- HACK: edge case -->
@@ -537,4 +533,8 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // compress: add_conditional — validateCompress -->
 <!-- // hover: add_function — initHover -->
 <!-- // ref: add_conditional — fetchRef -->
-<!-- // token: add_constant — validateToken -->
+<!-- // theme: add_function — processTheme -->
+<!-- // metric: add_function — createMetric -->
+<!-- // logic: add_function — saveLogic -->
+<!-- // logic: add_function — checkLogic -->
+<!-- // active: add_function — initActive -->
