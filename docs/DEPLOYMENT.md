@@ -389,4 +389,5 @@
 <!-- // sub: add_function — loadSub -->
 <!-- // effect: add_conditional — parseEffect -->
 <!-- // transition: add_conditional — validateTransition -->
-<!-- // role: add_function — handleRole -->
+<!-- // retry: add_conditional — handleRetry -->
+<!-- // join: add_function — updateJoin -->
