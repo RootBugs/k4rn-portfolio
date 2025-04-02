@@ -67,6 +67,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // mutation: add_function — applyMutation -->
 
 
 
@@ -136,7 +137,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- reviewed: config -->
+<!-- // check: add_function — formatCheck -->
 
 
 
