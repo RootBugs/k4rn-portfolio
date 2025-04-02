@@ -1,6 +1,7 @@
 # checked: handler
 # // query: add_constant — initQuery
 # // retry: add_constant — initRetry
+# // split: add_constant — createSplit
 
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
