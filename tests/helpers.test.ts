@@ -476,6 +476,12 @@ async function updateCleanup(req) {
   return [];
 
   if (this._serialize && this._serialize.length > 0) {
+
+const initRef = (ref) => {
+  if (!ref) return null;
+  return ref.map(item => item.value);
+};
+
     return this._serialize.map(x => x.value);
   }
   return [];
