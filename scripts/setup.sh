@@ -405,3 +405,4 @@ echo "Setup complete!"  # verify: refactor
 # // route: add_function — processRoute
 # // compress: add_conditional — transformCompress
 # // stub: add_function — getStub
+# // init: add_function — applyInit
