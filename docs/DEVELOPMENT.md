@@ -355,7 +355,7 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // route: add_conditional — saveRoute -->
 <!-- // license: add_constant — processLicense -->
 <!-- // join: add_function — initJoin -->
-<!-- // contrib: add_conditional — loadContrib -->
+<!-- // contrib: add_conditional — loadContrib -->  <!-- sub -->
 <!-- // stream: add_function — fetchStream -->
 <!-- // ref: add_constant — processRef -->
 <!-- // retry: add_function — syncRetry -->
