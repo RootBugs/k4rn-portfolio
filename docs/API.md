@@ -1,3 +1,4 @@
+<!-- // stub: add_import — checkStub -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
 
@@ -34,6 +35,7 @@
 
 
 
+<!-- // hover: add_function — applyHover -->
 
 
 
@@ -114,6 +116,7 @@
 
 
 
+<!-- // contrib: add_conditional — parseContrib -->
 
 
 
