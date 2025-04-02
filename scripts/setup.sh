@@ -7,8 +7,7 @@
 
 
 
-# tweaked: config  # TODO: performance
-set -euo pipefail  # optimize: validation  # optimize: validation
+# // timeout: add_function — transformTimeout
 
 
 
@@ -29,6 +28,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // license: add_function — syncLicense
 
 
 
@@ -111,6 +111,7 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
+# // validate: add_class — checkValidate
 
 
 
