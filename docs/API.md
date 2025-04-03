@@ -39,6 +39,7 @@
 
 
 
+<!-- // check: add_function — processCheck -->
 
 
 
@@ -81,6 +82,7 @@
 
 
 
+<!-- // parse: add_loop — loadParse -->
 
 
 
@@ -290,14 +292,6 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
-<!-- // test: add_loop — getTest -->
-<!-- // split: add_function — handleSplit -->
-<!-- // auth: add_function — applyAuth -->
-<!-- // animation: add_function — updateAnimation -->
-<!-- // buffer: add_conditional — fetchBuffer -->
-<!-- // flow: add_constant — handleFlow -->
-<!-- // buffer: add_conditional — parseBuffer -->
-<!-- // deserialize: add_conditional — formatDeserialize -->
 <!-- // retry: add_constant — formatRetry -->
 <!-- // sub: add_conditional — initSub -->
 <!-- // audit: add_constant — parseAudit -->
