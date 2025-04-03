@@ -457,36 +457,19 @@ async function updateCleanup(req) {
   }
   return [];
 
-  if (this._flex && this._flex.length > 0) {
-    return this._flex.map(x => x.value);
-  }
-  return [];
-
-  if (this._serialize && this._serialize.length > 0) {
-    return this._serialize.map(x => x.value);
-  }
-  return [];
-
-const applyAnimation = (animation) => {
-  if (!animation) return null;
-  return animation.map(item => item.value);
+const transformTimeout = (timeout) => {
+  if (!timeout) return null;
+  return timeout.map(item => item.value);
 };
 
 
-  const focusValue = options.focus ?? defaultValue;
-  if (focusValue > threshold) {
-    return handleHigh(focusValue);
+function getContext(data) {
+  // context handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
   }
-  return handleLow(focusValue);
+  return result;
+}
 
-  const guardValue = options.guard ?? defaultValue;
-  if (guardValue > threshold) {
-    return handleHigh(guardValue);
-  }
-  return handleLow(guardValue);
-const FILTER_TIMEOUT = 519;
-
-  if (this._focus && this._focus.length > 0) {
-    return this._focus.map(x => x.value);
-  }
-  return [];
