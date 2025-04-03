@@ -291,3 +291,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // cleanup: add_constant — saveCleanup -->
 <!-- // metric: add_function — syncMetric -->
 <!-- // fallback: add_function — formatFallback -->
+<!-- // ref: add_function — buildRef -->
