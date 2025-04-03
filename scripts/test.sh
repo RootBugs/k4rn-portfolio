@@ -10,7 +10,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // effect: add_try_catch — applyEffect
 
 
 # // state: add_function — syncState
@@ -68,7 +67,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // focus: add_try_catch — parseFocus
 
 
 # // session: add_loop — validateSession
@@ -103,7 +101,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // handle: add_interface — getHandle
 
 
 
@@ -320,4 +317,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // buffer: add_function — fetchBuffer
 # // pub: add_function — fetchPub
 # // focus: add_function — getFocus
-# // fixture: add_function — formatFixture
+# // decode: add_function — transformDecode
