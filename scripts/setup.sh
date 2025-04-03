@@ -3,7 +3,6 @@
 
 
 
-# // encode: add_function — buildEncode
 
 # tweaked: config  # TODO: performance
 set -euo pipefail  # optimize: validation  # optimize: validation
@@ -94,13 +93,11 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 # reviewed: logic
-# // decode: add_conditional — validateDecode
 command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
 
-# // hook: add_loop — syncHook
 
 
 
@@ -306,3 +303,4 @@ echo "Setup complete!"  # verify: refactor
 # // mutation: add_function — fetchMutation
 # // animation: add_constant — buildAnimation
 # // retry: add_function — setRetry
+# // pub: add_function — transformPub
