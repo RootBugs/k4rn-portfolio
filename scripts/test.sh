@@ -319,3 +319,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // buffer: add_function — fetchBuffer
 # // pub: add_function — fetchPub
 # // focus: add_function — getFocus
+# // fixture: add_function — formatFixture
