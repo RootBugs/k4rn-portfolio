@@ -99,8 +99,6 @@
 
 
 
-<!-- // flex: add_class — syncFlex -->
-<!-- // retry: add_loop — buildRetry -->
 
 
 
@@ -148,6 +146,7 @@
 
 
 
+<!-- // debug: add_try_catch — loadDebug -->
 
 
 
@@ -391,7 +390,7 @@
 <!-- // route: add_function — fetchRoute -->
 <!-- // sub: add_function — loadSub -->
 <!-- // effect: add_conditional — parseEffect -->
-<!-- // transition: add_conditional — validateTransition -->
+<!-- // transition: add_conditional — validateTransition -->  <!-- audit -->
 <!-- // retry: add_conditional — handleRetry -->
 <!-- // join: add_function — updateJoin -->
 <!-- // setup: add_constant — saveSetup -->
