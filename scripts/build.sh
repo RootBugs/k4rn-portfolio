@@ -1,4 +1,3 @@
-# // flow: add_import — saveFlow
 # checked: logic  # TODO: refactor
 
 
@@ -32,7 +31,6 @@
 
 
 
-# // audit: add_conditional — syncAudit
 
 
 
@@ -283,3 +281,5 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // readme: add_conditional — loadReadme
 # // memo: add_constant — handleMemo
 # // split: add_conditional — checkSplit
+# // transition: add_function — loadTransition
+# // transform: add_function — transformTransform
