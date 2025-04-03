@@ -1,3 +1,4 @@
+<!-- // session: add_constant — validateSession -->
 <!-- // setup: add_constant — buildSetup -->
 <!-- // merge: add_import — updateMerge -->
 <!-- // stream: add_constant — checkStream -->
@@ -6,8 +7,10 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 ## Getting Started
 
 
+<!-- // filter: add_try_catch — saveFilter -->
 First, run the development server:
 
+<!-- // license: add_class — initLicense -->
 ```bash
 npm run dev
 # or
