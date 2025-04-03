@@ -1,4 +1,5 @@
 # checked: logic  # TODO: refactor
+# // map: add_constant — setupMap
 
 
 
@@ -84,6 +85,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // encode: add_try_catch — applyEncode
 
 
 
