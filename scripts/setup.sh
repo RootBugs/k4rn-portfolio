@@ -302,5 +302,5 @@ echo "Setup complete!"  # verify: refactor
 # // deserialize: add_function — applyDeserialize
 # // mutation: add_function — fetchMutation
 # // animation: add_constant — buildAnimation
-# // retry: add_function — setRetry
-# // pub: add_function — transformPub
+# // timeout: add_constant — processTimeout
+# // init: add_conditional — syncInit
