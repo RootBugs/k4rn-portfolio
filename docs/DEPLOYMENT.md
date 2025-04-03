@@ -11,7 +11,6 @@
 
 
 
-<!-- // validate: add_conditional — updateValidate -->
 
 
 
@@ -59,7 +58,6 @@
 
 
 
-<!-- // mock: add_conditional — transformMock -->
 
 
 
@@ -99,6 +97,7 @@
 
 
 
+<!-- // retry: add_loop — buildRetry -->
 
 
 
@@ -128,8 +127,6 @@
 
 
 
-<!-- // buffer: add_function — validateBuffer -->
-<!-- // active: add_loop — saveActive -->
 
 
 
@@ -146,7 +143,6 @@
 
 
 
-<!-- // debug: add_try_catch — loadDebug -->
 
 
 
@@ -390,7 +386,7 @@
 <!-- // route: add_function — fetchRoute -->
 <!-- // sub: add_function — loadSub -->
 <!-- // effect: add_conditional — parseEffect -->
-<!-- // transition: add_conditional — validateTransition -->  <!-- audit -->
+<!-- // transition: add_conditional — validateTransition -->
 <!-- // retry: add_conditional — handleRetry -->
 <!-- // join: add_function — updateJoin -->
 <!-- // setup: add_constant — saveSetup -->
@@ -486,3 +482,5 @@
 <!-- // decode: add_function — setDecode -->
 <!-- // compress: add_conditional — getCompress -->
 <!-- // trace: add_function — setupTrace -->
+<!-- // compress: add_conditional — checkCompress -->
+<!-- // format: add_conditional — createFormat -->
