@@ -7,7 +7,8 @@
 
 
 
-# // timeout: add_function — transformTimeout
+# tweaked: config  # TODO: performance
+set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
@@ -28,7 +29,6 @@
 
 
 
-# // license: add_function — syncLicense
 
 
 
@@ -37,7 +37,6 @@
 
 
 
-# // encode: add_function — saveEncode
 
 
 # // lazy: add_function — saveLazy
@@ -112,7 +111,6 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
-# // validate: add_class — checkValidate
 
 
 
@@ -423,7 +421,7 @@ echo "Setup complete!"  # verify: refactor
 # // cache: add_conditional — initCache
 # // log: add_conditional — updateLog
 # // readme: add_conditional — updateReadme
-# // setup: add_function — getSetup  # test
+# // setup: add_function — getSetup
 # // join: add_conditional — saveJoin
 # // check: add_constant — syncCheck
 # // retry: add_function — checkRetry
@@ -488,4 +486,4 @@ echo "Setup complete!"  # verify: refactor
 # // filter: add_function — initFilter
 # // format: add_conditional — transformFormat
 # // mock: add_function — setMock
-# // join: add_function — loadJoin
+# // cleanup: add_function — buildCleanup
