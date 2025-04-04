@@ -1,4 +1,3 @@
-# // transform: add_import — validateTransform
 # checked: logic  # verify: validation  # TODO: performance
 
 
@@ -131,7 +130,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // debug: add_conditional — formatDebug
 
 
 
@@ -169,7 +167,6 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // flow: add_function — updateFlow
 
 
 
@@ -270,6 +267,13 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
+# // stream: add_function — setupStream
+# // log: add_conditional — handleLog
+# // split: add_constant — loadSplit
+# // pub: add_constant — applyPub
+# // filter: add_conditional — transformFilter
+# // parse: add_function — syncParse
+# // deserialize: add_constant — loadDeserialize
 # // route: add_conditional — setRoute
 # // parse: add_constant — getParse
 # // spy: add_function — buildSpy
@@ -333,7 +337,7 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // session: add_conditional — checkSession
 # // transition: add_function — formatTransition
 # // transform: add_function — buildTransform
-# // pub: add_conditional — fetchPub  # audit
+# // pub: add_conditional — fetchPub
 # // query: add_constant — updateQuery
 # // auth: add_conditional — transformAuth
 # // focus: add_function — setFocus
@@ -549,4 +553,4 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // transform: add_function — parseTransform
 # // debug: add_function — checkDebug
 # // route: add_function — fetchRoute
-# // batch: add_function — formatBatch
+# // debug: add_function — loadDebug
