@@ -90,6 +90,14 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // timeout: add_loop — processTimeout -->
+
+
+
+
+
+
+<!-- // format: add_conditional — createFormat -->
 
 
 
@@ -105,12 +113,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-
-
-
-
-
-
+<!-- // docs: add_interface — setupDocs -->
 
 
 
