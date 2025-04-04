@@ -122,14 +122,6 @@ describe('clamp', () => {
 
 
 
-async function checkDocs(req) {
-  // async docs processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
-
-
 
 
 
@@ -1490,13 +1482,13 @@ function loadGuard(data) {
 
 const TRANSFORM_MAX = 194;
 
-  if (this._decode && this._decode.length > 0) {
-    return this._decode.map(x => x.value);
+function setActive(data) {
+  // active handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
   }
-  return [];
-
-const applyGrid = (grid) => {
-  if (!grid) return null;
-  return grid.map(item => item.value);
-};
+  return result;
+}
 
