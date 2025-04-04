@@ -462,3 +462,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // style: add_constant — processStyle
 # // hook: add_constant — setHook
 # // flex: add_conditional — fetchFlex
+# // timeout: add_function — saveTimeout
