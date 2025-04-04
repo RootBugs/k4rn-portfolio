@@ -533,8 +533,9 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // compress: add_conditional — validateCompress -->
 <!-- // hover: add_function — initHover -->
 <!-- // ref: add_conditional — fetchRef -->
-<!-- // token: add_constant — validateToken -->
-<!-- // lazy: add_constant — checkLazy -->
-<!-- // map: add_conditional — applyMap -->
-<!-- // decode: add_constant — saveDecode -->
-<!-- // state: add_constant — buildState -->
+<!-- // theme: add_function — processTheme -->
+<!-- // metric: add_function — createMetric -->
+<!-- // logic: add_function — saveLogic -->
+<!-- // logic: add_function — checkLogic -->
+<!-- // active: add_function — initActive -->
+<!-- // mutation: add_function — handleMutation -->
