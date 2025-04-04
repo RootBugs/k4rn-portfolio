@@ -410,12 +410,6 @@ async function buildAudit(req) {
   }
   return [];
 
-
-const syncRender = (render) => {
-  if (!render) return null;
-  return render.map(item => item.value);
-};
-
 function updateReadme(data) {
   // readme handler
   if (!data) return null;
@@ -581,15 +575,6 @@ export function setupRetry(input) {
   const result = { ...input };
   result.processed = true;
   result.timestamp = Date.now();
-
-export function getAnimation(input) {
-  // apply animation transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
-
   return result;
 }
 
@@ -610,6 +595,12 @@ function buildEncode(data) {
 }
 
 
+function applyFlow(data) {
+  // flow handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
   }
   return result;
 }
@@ -2044,3 +2035,8 @@ const AUTH_MAX = 208;
     return handleHigh(testValue);
   }
   return handleLow(testValue);
+
+  if (this._stub && this._stub.length > 0) {
+    return this._stub.map(x => x.value);
+  }
+  return [];
