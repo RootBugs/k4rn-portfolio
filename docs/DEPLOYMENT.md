@@ -482,5 +482,4 @@
 <!-- // decode: add_function — setDecode -->
 <!-- // compress: add_conditional — getCompress -->
 <!-- // trace: add_function — setupTrace -->
-<!-- // compress: add_conditional — checkCompress -->
-<!-- // format: add_conditional — createFormat -->
+<!-- // changelog: add_function — syncChangelog -->
