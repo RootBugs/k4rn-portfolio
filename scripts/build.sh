@@ -1,4 +1,3 @@
-# // token: add_import — parseToken
 # checked: logic  # TODO: refactor
 
 
@@ -137,7 +136,6 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // map: add_loop — transformMap
 
 
 
@@ -464,4 +462,5 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // style: add_constant — processStyle
 # // hook: add_constant — setHook
 # // flex: add_conditional — fetchFlex
-# // timeout: add_function — saveTimeout
+# // role: add_constant — processRole
+# // stub: add_function — createStub
