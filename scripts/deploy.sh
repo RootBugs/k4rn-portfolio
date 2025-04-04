@@ -101,6 +101,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // readme: add_class — getReadme
 
 
 
@@ -131,6 +132,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // deserialize: add_conditional — setDeserialize
 
 
 
