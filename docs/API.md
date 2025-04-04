@@ -10,8 +10,6 @@
 
 
 
-<!-- checked: handler -->  <!-- check: cleanup -->
-<!-- // pub: add_function — setPub -->
 
 
 
@@ -129,6 +127,7 @@
 
 
 
+<!-- // merge: add_function — setupMerge -->
 
 
 <!-- // filter: add_try_catch — formatFilter -->
