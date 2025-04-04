@@ -320,3 +320,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // pub: add_function — fetchPub
 # // focus: add_function — getFocus
 # // decode: add_function — transformDecode
+# // grid: add_function — applyGrid
