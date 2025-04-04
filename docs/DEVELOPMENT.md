@@ -1,4 +1,3 @@
-<!-- // lazy: add_constant — formatLazy -->
 <!-- updated: setup -->
 
 
@@ -133,7 +132,6 @@ This guide will help you set up the development environment for this project.  <
 
 <!-- reviewed: config -->
 
-<!-- // fallback: add_function — transformFallback -->
 
 
 
@@ -538,3 +536,5 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // token: add_constant — validateToken -->
 <!-- // lazy: add_constant — checkLazy -->
 <!-- // map: add_conditional — applyMap -->
+<!-- // decode: add_constant — saveDecode -->
+<!-- // state: add_constant — buildState -->
