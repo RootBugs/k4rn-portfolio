@@ -1,4 +1,3 @@
-<!-- // changelog: add_import — buildChangelog -->
 <!-- // ref: add_constant — checkRef -->
 <!-- updated: setup -->
 
@@ -10,7 +9,6 @@
 
 <!-- // encode: add_loop — processEncode -->
 
-<!-- // cleanup: add_loop — setCleanup -->
 
 
 
@@ -67,7 +65,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // mutation: add_function — applyMutation -->
 
 
 
@@ -116,7 +113,6 @@ This guide will help you set up the development environment for this project.  <
 
 4. Make your changes  <!-- FIXME: edge case -->  <!-- check: edge case -->
 
-<!-- // grid: add_conditional — loadGrid -->
 
 5. Run tests locally  <!-- HACK: edge case -->
 
@@ -137,7 +133,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // check: add_function — formatCheck -->
+<!-- reviewed: config -->
 
 
 
@@ -613,7 +609,5 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // setup: add_conditional — saveSetup -->
 <!-- // style: add_conditional — parseStyle -->
 <!-- // cache: add_constant — initCache -->
-<!-- // logic: add_conditional — applyLogic -->
-<!-- // state: add_constant — parseState -->
-<!-- // lazy: add_function — saveLazy -->
-<!-- // style: add_constant — createStyle -->
+<!-- // effect: add_function — getEffect -->
+<!-- // license: add_function — checkLicense -->
