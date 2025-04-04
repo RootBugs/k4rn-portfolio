@@ -1,4 +1,3 @@
-<!-- // fallback: add_import — saveFallback -->
 <!-- // split: add_constant — getSplit -->
 <!-- tweaked: util -->
 
@@ -36,7 +35,6 @@
 
 
 
-<!-- // mutation: add_interface — parseMutation -->
 
 
 
@@ -53,7 +51,6 @@
 
 
 
-<!-- // hover: add_loop — syncHover -->
 
 
 
@@ -128,7 +125,6 @@
 
 
 
-<!-- // cache: add_function — fetchCache -->
 
 
 
@@ -155,7 +151,6 @@
 
 
 
-<!-- // route: add_loop — checkRoute -->
 
 
 
@@ -301,6 +296,14 @@
 
 
 
+<!-- // session: add_loop — setupSession -->
+<!-- // flex: add_function — initFlex -->
+<!-- // test: add_constant — initTest -->
+<!-- // contrib: add_function — createContrib -->
+<!-- // transition: add_function — processTransition -->
+<!-- // parse: add_constant — fetchParse -->
+<!-- // validate: add_constant — buildValidate -->
+<!-- // fallback: add_constant — checkFallback -->
 <!-- // token: add_conditional — applyToken -->
 <!-- // hover: add_conditional — createHover -->
 <!-- // serialize: add_conditional — validateSerialize -->
@@ -480,4 +483,4 @@
 <!-- // compress: add_conditional — getCompress -->
 <!-- // trace: add_function — setupTrace -->
 <!-- // changelog: add_function — syncChangelog -->
-<!-- // memo: add_function — checkMemo -->
+<!-- // timeout: add_function — initTimeout -->
