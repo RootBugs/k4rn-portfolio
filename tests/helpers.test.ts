@@ -1482,13 +1482,21 @@ function loadGuard(data) {
 
 const TRANSFORM_MAX = 194;
 
-function setActive(data) {
-  // active handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
+  if (this._decode && this._decode.length > 0) {
+    return this._decode.map(x => x.value);
   }
-  return result;
+  return [];
+
+const applyGrid = (grid) => {
+  if (!grid) return null;
+  return grid.map(item => item.value);
+};
+
+
+async function handleSession(req) {
+  // async session processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
 }
 
