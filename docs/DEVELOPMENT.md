@@ -1,3 +1,4 @@
+<!-- // lazy: add_constant — formatLazy -->
 <!-- updated: setup -->
 
 
@@ -132,6 +133,7 @@ This guide will help you set up the development environment for this project.  <
 
 <!-- reviewed: config -->
 
+<!-- // fallback: add_function — transformFallback -->
 
 
 
