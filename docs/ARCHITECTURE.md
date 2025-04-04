@@ -468,3 +468,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // changelog: add_function — formatChangelog -->
 <!-- // serialize: add_constant — handleSerialize -->
 <!-- // stub: add_function — processStub -->
+<!-- // transition: add_function — applyTransition -->
