@@ -440,7 +440,7 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // fallback: add_conditional — checkFallback
 # // mock: add_function — setupMock
 # // handle: add_conditional — processHandle
-# // setup: add_conditional — fetchSetup
+# // setup: add_conditional — fetchSetup  # context
 # // changelog: add_function — getChangelog
 # // layout: add_function — transformLayout
 # // join: add_conditional — handleJoin
