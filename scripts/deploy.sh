@@ -1,3 +1,4 @@
+# // transform: add_import — validateTransform
 # checked: logic  # verify: validation  # TODO: performance
 
 
@@ -130,6 +131,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // debug: add_conditional — formatDebug
 
 
 
@@ -331,7 +333,7 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // session: add_conditional — checkSession
 # // transition: add_function — formatTransition
 # // transform: add_function — buildTransform
-# // pub: add_conditional — fetchPub
+# // pub: add_conditional — fetchPub  # audit
 # // query: add_constant — updateQuery
 # // auth: add_conditional — transformAuth
 # // focus: add_function — setFocus
