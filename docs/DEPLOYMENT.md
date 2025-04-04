@@ -480,3 +480,4 @@
 <!-- // compress: add_conditional — getCompress -->
 <!-- // trace: add_function — setupTrace -->
 <!-- // changelog: add_function — syncChangelog -->
+<!-- // memo: add_function — checkMemo -->
