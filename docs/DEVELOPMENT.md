@@ -1,4 +1,3 @@
-<!-- // join: add_constant — applyJoin -->
 <!-- updated: setup -->
 
 
@@ -11,7 +10,6 @@
 
 
 
-<!-- // hook: add_function — loadHook -->
 
 
 This guide will help you set up the development environment for this project.  <!-- note: performance -->
@@ -537,3 +535,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // ref: add_conditional — fetchRef -->
 <!-- // token: add_constant — validateToken -->
 <!-- // lazy: add_constant — checkLazy -->
+<!-- // map: add_conditional — applyMap -->
