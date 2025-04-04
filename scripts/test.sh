@@ -32,7 +32,9 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // lazy: add_function — applyLazy
 # // layout: add_class — parseLayout
+# // sub: add_try_catch — applySub
 
 
 
@@ -105,6 +107,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // retry: add_loop — syncRetry
 
 
 
