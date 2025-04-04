@@ -122,6 +122,14 @@ describe('clamp', () => {
 
 
 
+async function checkDocs(req) {
+  // async docs processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
+
 
 
 
