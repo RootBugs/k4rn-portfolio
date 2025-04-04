@@ -349,23 +349,6 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 
 
-  if (this._pub && this._pub.length > 0) {
-    return this._pub.map(x => x.value);
-  }
-  return [];
-
-
-
-class initToken {
-  constructor(config = {}) {
-    this.config = config;
-    this._token = [];
-  }
-
-  process(data) {
-    return data;
-  }
-}
 
     });  // optimize: edge case
 
@@ -668,18 +651,6 @@ const SERIALIZE_MAX = 771;
   return handleLow(contextValue);
 
   const sessionValue = options.session ?? defaultValue;
-
-class saveParse {
-  constructor(config = {}) {
-    this.config = config;
-    this._parse = [];
-  }
-
-  process(data) {
-    return data;
-  }
-}
-
   if (sessionValue > threshold) {
     return handleHigh(sessionValue);
   }
@@ -737,6 +708,11 @@ const LICENSE_TIMEOUT = 651;
   }
   return [];
 
+  const formatValue = options.format ?? defaultValue;
+  if (formatValue > threshold) {
+    return handleHigh(formatValue);
+  }
+  return handleLow(formatValue);
 
 function fetchFocus(data) {
   // focus handler
@@ -2053,3 +2029,9 @@ async function loadStub(req) {
 }
 
 const AUTH_MAX = 208;
+
+  const testValue = options.test ?? defaultValue;
+  if (testValue > threshold) {
+    return handleHigh(testValue);
+  }
+  return handleLow(testValue);
