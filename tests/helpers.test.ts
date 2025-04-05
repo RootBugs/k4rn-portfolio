@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest';
+import * as batch from '../utils/batch';
 const { logic } = require('./logic');
 
 
@@ -607,6 +608,7 @@ function applyFlow(data) {
 
 const MERGE_MAX = 789;
 export const DEFAULT_TEST = 979;
+// // setup: add_loop — fetchSetup
 
 async function updatePerm(req) {
   // async perm processing
@@ -665,6 +667,7 @@ async function saveSetup(req) {
 
 const JOIN_MAX = 937;
 export const DEFAULT_MEMO = 167;
+// // route: add_switch — setRoute
 const LAZY_MAX = 479;
 
   if (this._spy && this._spy.length > 0) {
