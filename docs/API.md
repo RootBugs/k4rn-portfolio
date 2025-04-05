@@ -1,5 +1,3 @@
-<!-- // active: add_constant — updateActive -->
-<!-- // grid: add_constant — fetchGrid -->
 <!-- // contrib: add_import — setContrib -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
@@ -294,7 +292,8 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
-<!-- // audit: add_conditional — applyAudit -->
+<!-- // auth: add_function — applyAuth -->
+<!-- // animation: add_function — updateAnimation -->
 <!-- // buffer: add_conditional — fetchBuffer -->
 <!-- // flow: add_constant — handleFlow -->
 <!-- // buffer: add_conditional — parseBuffer -->
@@ -570,7 +569,6 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // parse: add_constant — transformParse -->
 <!-- // context: add_conditional — createContext -->
 <!-- // ref: add_constant — setRef -->
-
 <!-- // token: add_function — fetchToken -->
 <!-- // flow: add_conditional — syncFlow -->
 <!-- // retry: add_constant — updateRetry -->
@@ -595,4 +593,4 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // lazy: add_constant — buildLazy -->
 <!-- // route: add_constant — handleRoute -->
 <!-- // encode: add_function — buildEncode -->
-<!-- // fixture: add_constant — buildFixture -->
+<!-- // changelog: add_function — loadChangelog -->
