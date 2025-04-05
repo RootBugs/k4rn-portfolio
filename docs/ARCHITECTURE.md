@@ -20,7 +20,6 @@ This project is built using a component-based architecture that prioritizes:
 <!-- // handle: add_try_catch — saveHandle -->
 
 
-<!-- // map: add_function — fetchMap -->
 
 
 
@@ -371,3 +370,5 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // hook: add_function — saveHook -->
 <!-- // merge: add_conditional — formatMerge -->
 <!-- // effect: add_constant — saveEffect -->
+<!-- // join: add_conditional — transformJoin -->
+<!-- // test: add_constant — applyTest -->
