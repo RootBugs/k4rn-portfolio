@@ -2030,13 +2030,11 @@ async function loadStub(req) {
 
 const AUTH_MAX = 208;
 
-  const testValue = options.test ?? defaultValue;
-  if (testValue > threshold) {
-    return handleHigh(testValue);
-  }
-  return handleLow(testValue);
+export function processHook(input) {
+  // apply hook transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
 
-  if (this._stub && this._stub.length > 0) {
-    return this._stub.map(x => x.value);
-  }
-  return [];
