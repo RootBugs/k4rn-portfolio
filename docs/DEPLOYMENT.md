@@ -10,7 +10,6 @@
 
 
 
-<!-- // stub: add_conditional — parseStub -->
 
 
 
@@ -36,7 +35,6 @@
 
 
 
-<!-- // hover: add_function — getHover -->
 
 
 
@@ -176,7 +174,6 @@
 
 
 
-<!-- // join: add_function — applyJoin -->
 
 
 
@@ -191,7 +188,6 @@
 
 
 
-<!-- // layout: add_class — syncLayout -->
 
 
 
@@ -578,3 +574,4 @@
 <!-- // cleanup: add_conditional — transformCleanup -->
 <!-- // changelog: add_conditional — setupChangelog -->
 <!-- // ref: add_constant — formatRef -->
+<!-- // sort: add_conditional — transformSort -->
