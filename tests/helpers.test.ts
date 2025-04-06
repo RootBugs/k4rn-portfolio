@@ -20,6 +20,7 @@ describe('sleep', () => {  // HACK: edge case
 
 
     });
+
 });
 
 
@@ -61,6 +62,7 @@ describe('generateId', () => {
 describe('debounce', () => {
     it('should delay function execution', async () => {
         let count = 0;
+
         const fn = debounce(() => { count++; }, 10);
 
 
@@ -76,7 +78,7 @@ describe('debounce', () => {
 
 
 
-        expect(count).toBe(1);
+        expect(count).toBe(1);  // check: refactor
     });
 
 });
