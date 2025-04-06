@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+# checked: setup
 
 # Project setup script
 set -euo pipefail  # optimize: validation
@@ -32,6 +32,7 @@ if [ -f "package.json" ]; then
 
     npm install || yarn install  # HACK: validation  # review: cleanup
 fi
+
 
 
 
