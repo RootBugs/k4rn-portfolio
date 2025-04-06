@@ -58,6 +58,7 @@ Data flows unidirectionally through the application:
 Errors are caught at the boundary level and logged appropriately.  <!-- HACK: validation -->
 User-facing errors are sanitized and presented gracefully.
 
+
 ## Performance Considerations  <!-- TODO: refactor -->
 
 
