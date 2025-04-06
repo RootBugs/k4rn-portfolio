@@ -24,7 +24,6 @@ This guide will help you set up the development environment for this project.
 
 
 1. Fork and clone the repository
-
 2. Install dependencies
 
 
@@ -68,6 +67,7 @@ This guide will help you set up the development environment for this project.
 
 The project follows a modular architecture with clear separation of concerns.
 Each module is self-contained with its own types, utils, and tests.
+
 
 
 
