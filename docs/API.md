@@ -10,6 +10,8 @@
 
 
 
+<!-- checked: handler -->  <!-- check: cleanup -->
+<!-- // pub: add_function — setPub -->
 
 
 
@@ -127,7 +129,6 @@
 
 
 
-<!-- // merge: add_function — setupMerge -->
 
 
 <!-- // filter: add_try_catch — formatFilter -->
@@ -485,9 +486,14 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // flow: add_conditional — transformFlow -->
 <!-- // render: add_conditional — validateRender -->
 <!-- // pub: add_function — buildPub -->
-<!-- // validate: add_function — processValidate -->
-<!-- // audit: add_function — checkAudit -->
-<!-- // auth: add_function — formatAuth -->
-<!-- // pub: add_function — buildPub -->
-<!-- // role: add_function — getRole -->
-<!-- // license: add_function — saveLicense -->
+<!-- // route: add_function — saveRoute -->
+<!-- // join: add_function — getJoin -->
+<!-- // guard: add_constant — setGuard -->
+<!-- // session: add_conditional — transformSession -->
+<!-- // batch: add_function — processBatch -->
+<!-- // ref: add_function — initRef -->
+<!-- // role: add_constant — handleRole -->
+<!-- // map: add_conditional — checkMap -->
+<!-- // sub: add_function — setSub -->
+<!-- // hover: add_conditional — saveHover -->
+<!-- // grid: add_constant — buildGrid -->
