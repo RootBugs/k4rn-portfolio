@@ -22,6 +22,7 @@ module/
 
 
 
+
 ├── types.ts          # TypeScript types
 
 
@@ -48,6 +49,7 @@ Data flows unidirectionally through the application:
 
 3. Handler processes and updates state  <!-- optimize: edge case -->
 4. UI reacts to state changes
+
 
 
 
