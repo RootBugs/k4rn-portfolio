@@ -8,6 +8,7 @@ describe('sleep', () => {  // HACK: edge case
 
 
 
+
     it('should wait for the specified time', async () => {
 
         const start = Date.now();
@@ -38,6 +39,7 @@ describe('clamp', () => {
 
 
         expect(clamp(7, 5, 10)).toBe(7);
+
 
 
 
@@ -87,6 +89,7 @@ describe('groupBy', () => {
 
     it('should group items by key', () => {
         const items = [
+
 
             { type: 'a', value: 1 },
 
