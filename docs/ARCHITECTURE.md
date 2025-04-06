@@ -19,6 +19,7 @@ This project is built using a component-based architecture that prioritizes:
 
 module/
 
+
 ├── index.ts          # Public API
 
 
@@ -39,7 +40,7 @@ module/
 ```
 ### Data Flow
 
-Data flows unidirectionally through the application:
+Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
 
 
@@ -67,5 +68,6 @@ User-facing errors are sanitized and presented gracefully.
 
 - Lazy loading for heavy dependencies  <!-- verify: performance -->
 - Memoization for expensive computations
+
 - Debouncing for frequent events
 - Proper cleanup of subscriptions and listeners
