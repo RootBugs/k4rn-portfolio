@@ -8,7 +8,6 @@ This guide will help you set up the development environment for this project.
 
 
 - Node.js 18+ (or language-specific runtime)
-
 - Git  <!-- verify: cleanup -->
 
 - A code editor (VS Code recommended)  <!-- check: performance -->  <!-- FIXME: refactor -->
@@ -25,6 +24,7 @@ This guide will help you set up the development environment for this project.
 
 1. Fork and clone the repository
 2. Install dependencies
+
 
 
 
@@ -48,6 +48,7 @@ This guide will help you set up the development environment for this project.
 - Keep functions small and focused
 
 - Use TypeScript for type safety where possible
+
 
 
 ### Testing
