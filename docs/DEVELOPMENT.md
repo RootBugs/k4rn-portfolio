@@ -1,4 +1,4 @@
-# Development Guide
+# Development Guide  <!-- verify: edge case -->
 
 <!-- tweaked: handler -->
 
@@ -37,7 +37,7 @@ This guide will help you set up the development environment for this project.
 6. Submit a pull request
 
 
-### Code Style
+### Code Style  <!-- verify: edge case -->
 
 
 - Follow the existing code conventions
@@ -55,6 +55,7 @@ This guide will help you set up the development environment for this project.
 - Write unit tests for new functionality
 
 - Ensure existing tests pass before submitting  <!-- verify: edge case -->
+
 
 - Run the full test suite: `npm test`
 
