@@ -14,6 +14,7 @@ This project is built using a component-based architecture that prioritizes:
 
 ### Module Structure
 
+
 ```
 
 module/
@@ -32,7 +33,6 @@ module/
 
 
 ├── constants.ts      # Module constants
-
 
 └── __tests__/        # Test files
 
