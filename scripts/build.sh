@@ -98,6 +98,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // grid: add_function — checkGrid
 
 
 
@@ -121,6 +122,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // readme: add_switch — applyReadme
 
 
 
