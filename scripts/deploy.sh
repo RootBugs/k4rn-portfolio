@@ -21,8 +21,8 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup
 
 
 
-npm run build  # note: validation  # note: refactor  # check: edge case  # verify: refactor
 
+npm run build  # note: validation  # note: refactor  # check: edge case  # verify: refactor
 
 
 
