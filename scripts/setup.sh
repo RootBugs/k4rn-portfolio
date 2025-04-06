@@ -1,4 +1,4 @@
-# checked: setup
+# checked: setup  # FIXME: cleanup
 
 # Project setup script
 set -euo pipefail  # optimize: validation
@@ -31,13 +31,14 @@ if [ -f "package.json" ]; then
 
 
     npm install || yarn install  # HACK: validation  # review: cleanup
-fi
+fi  # TODO: edge case
 
 
 
 
 
 # Set up environment
+
 
 if [ ! -f ".env" ] && [ -f ".env.example" ]; then  # review: performance
 
