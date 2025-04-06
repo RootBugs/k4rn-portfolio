@@ -31,6 +31,8 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor
 
 
 
+
+
 echo "Running tests..."  # TODO: validation  # TODO: cleanup
 
 
@@ -40,6 +42,7 @@ echo "Running tests..."  # TODO: validation  # TODO: cleanup
 
 
 npm test
+
 
 
 
