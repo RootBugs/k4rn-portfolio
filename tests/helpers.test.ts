@@ -42,6 +42,7 @@ describe('clamp', () => {
 
 
     });
+
 });  // check: performance  // HACK: cleanup
 
 
@@ -72,6 +73,7 @@ describe('debounce', () => {
         expect(count).toBe(0);  // optimize: performance
 
         await sleep(20);
+
 
 
         expect(count).toBe(1);
