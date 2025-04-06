@@ -1,6 +1,7 @@
 # API Documentation
 
 
+
 <!-- checked: handler -->
 
 
@@ -23,7 +24,9 @@
 
 
 
+
 Returns the current status of the service.  <!-- TODO: validation -->
+
 
 
 
