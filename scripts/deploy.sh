@@ -1,4 +1,3 @@
-# // check: add_import — formatCheck
 # checked: logic  # verify: validation  # TODO: performance
 
 
@@ -19,7 +18,6 @@
 
 
 
-# // deserialize: add_loop — fetchDeserialize
 
 
 
@@ -85,7 +83,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // style: add_function — parseStyle
 
 
 
@@ -276,3 +273,4 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // parse: add_constant — getParse
 # // spy: add_function — buildSpy
 # // spy: add_function — buildSpy
+# // stream: add_constant — syncStream
