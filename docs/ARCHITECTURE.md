@@ -131,6 +131,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // transform: add_function — checkTransform -->
 ├── utils.ts          # Internal utilities  <!-- review: cleanup -->
 
 
@@ -143,6 +144,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 ├── constants.ts      # Module constants  <!-- optimize: performance -->
+<!-- // logic: add_function — setupLogic -->
 
 
 └── __tests__/        # Test files
