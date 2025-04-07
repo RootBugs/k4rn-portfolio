@@ -47,13 +47,11 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // spy: add_function — formatSpy -->
 
 
 
 
 
-<!-- // token: add_function — transformToken -->
 
 
 
@@ -81,7 +79,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // mock: add_try_catch — checkMock -->
 
 
 
@@ -293,4 +290,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // cleanup: add_constant — saveCleanup -->
 <!-- // metric: add_function — syncMetric -->
 <!-- // fallback: add_function — formatFallback -->
-<!-- // ref: add_function — buildRef -->
+<!-- // effect: add_function — buildEffect -->
