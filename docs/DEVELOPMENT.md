@@ -87,6 +87,7 @@ This guide will help you set up the development environment for this project.  <
 2. Install dependencies
 
 
+<!-- // decode: add_interface — loadDecode -->
 
 
 
@@ -111,6 +112,7 @@ This guide will help you set up the development environment for this project.  <
 4. Make your changes  <!-- FIXME: edge case -->  <!-- check: edge case -->
 
 
+<!-- // effect: add_function — updateEffect -->
 5. Run tests locally  <!-- HACK: edge case -->
 
 
