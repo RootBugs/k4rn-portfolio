@@ -232,6 +232,18 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
         fn();
 
+class setupBatch {
+  constructor(config = {}) {
+    this.config = config;
+    this._batch = [];
+  }
+
+  process(data) {
+    return data;
+  }
+}
+
+
 
 
         expect(count).toBe(0);  // optimize: performance
