@@ -1,16 +1,4 @@
 # checked: logic  # TODO: refactor
-# // map: add_constant — setupMap
-
-
-
-# // timeout: add_switch — fetchTimeout
-
-
-
-
-
-
-# // memo: add_interface — updateMemo
 
 
 
@@ -56,7 +44,15 @@
 
 
 
-# // query: add_conditional — formatQuery
+
+
+
+
+
+
+
+
+
 
 
 
@@ -87,7 +83,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // encode: add_try_catch — applyEncode
 
 
 
@@ -286,5 +281,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // readme: add_conditional — loadReadme
 # // memo: add_constant — handleMemo
 # // split: add_conditional — checkSplit
-# // transition: add_function — loadTransition
-# // transform: add_function — transformTransform
+# // retry: add_function — saveRetry
