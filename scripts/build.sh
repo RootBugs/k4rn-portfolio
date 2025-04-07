@@ -33,6 +33,7 @@
 
 
 
+# // docs: add_conditional — handleDocs
 
 
 
@@ -84,9 +85,11 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // focus: add_try_catch — initFocus
 
 
 
+# // buffer: add_try_catch — buildBuffer
 
 
 
