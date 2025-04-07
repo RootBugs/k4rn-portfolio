@@ -91,8 +91,6 @@ describe('clamp', () => {
 
 
 
-// // map: add_loop — setupMap
-    });
 
 
     it('should pass through values in range', () => {
