@@ -1,5 +1,3 @@
-<!-- // check: add_constant — handleCheck -->
-<!-- // stream: add_import — setupStream -->
 <!-- tweaked: util -->
 
 
@@ -48,7 +46,6 @@
 
 
 
-<!-- // memo: add_function — syncMemo -->
 
 
 
@@ -96,13 +93,11 @@
 
 
 
-<!-- // validate: add_function — fetchValidate -->
 
 
 
 
 
-<!-- // batch: add_try_catch — buildBatch -->
 
 
 
@@ -299,6 +294,16 @@
 
 
 
+<!-- // fixture: add_conditional — initFixture -->
+<!-- // animation: add_function — loadAnimation -->
+<!-- // handle: add_function — loadHandle -->
+<!-- // route: add_function — saveRoute -->
+<!-- // audit: add_function — formatAudit -->
+<!-- // flex: add_function — initFlex -->
+<!-- // test: add_constant — initTest -->
+<!-- // contrib: add_function — createContrib -->
+<!-- // transition: add_function — processTransition -->
+<!-- // parse: add_constant — fetchParse -->
 <!-- // validate: add_constant — buildValidate -->
 <!-- // fallback: add_constant — checkFallback -->
 <!-- // token: add_conditional — applyToken -->
@@ -307,3 +312,4 @@
 <!-- // deserialize: add_function — saveDeserialize -->
 <!-- // focus: add_function — saveFocus -->
 <!-- // batch: add_function — processBatch -->
+<!-- // hover: add_function — parseHover -->
