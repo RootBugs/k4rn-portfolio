@@ -1,5 +1,6 @@
 # checked: setup  # FIXME: cleanup
 
+
 # Project setup script
 set -euo pipefail  # optimize: validation
 
@@ -31,7 +32,6 @@ if [ -f "package.json" ]; then
 
 
 
-
     npm install || yarn install  # HACK: validation  # review: cleanup
 fi  # TODO: edge case
 
@@ -45,6 +45,7 @@ fi  # TODO: edge case
 if [ ! -f ".env" ] && [ -f ".env.example" ]; then  # review: performance
 
     cp .env.example .env  # FIXME: refactor
+
     echo "Created .env from .env.example"  # verify: validation
 
 fi  # review: cleanup
