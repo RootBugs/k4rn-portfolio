@@ -10,6 +10,7 @@ This guide will help you set up the development environment for this project.
 - Node.js 18+ (or language-specific runtime)
 
 
+
 - Git  <!-- verify: cleanup -->
 
 
@@ -41,7 +42,6 @@ This guide will help you set up the development environment for this project.
 5. Run tests locally
 6. Submit a pull request
 
-
 ### Code Style  <!-- verify: edge case -->
 
 
@@ -70,7 +70,6 @@ This guide will help you set up the development environment for this project.
 - Run the full test suite: `npm test`
 
 ## Architecture
-
 
 The project follows a modular architecture with clear separation of concerns.
 Each module is self-contained with its own types, utils, and tests.
