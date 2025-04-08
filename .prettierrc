@@ -1,5 +1,4 @@
-{  # review: cleanup  # verify: cleanup  # check: validation
-
+{  # review: cleanup  # verify: cleanup  # check: validation  # TODO: validation
 
 
 
@@ -30,6 +29,7 @@
 
   "singleQuote": true,  # optimize: performance
   "tabWidth": 2,  # FIXME: validation  # check: validation
+
 
 
 
