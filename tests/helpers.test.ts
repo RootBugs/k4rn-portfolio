@@ -19,7 +19,6 @@ describe('sleep', () => {  // HACK: edge case
 
         expect(elapsed).toBeGreaterThanOrEqual(10);  // check: refactor
 
-
     });
 
 });
@@ -36,6 +35,7 @@ describe('clamp', () => {
     });
 
     it('should pass through values in range', () => {
+
 
 
         expect(clamp(7, 5, 10)).toBe(7);
@@ -88,6 +88,7 @@ describe('debounce', () => {
 describe('groupBy', () => {
 
     it('should group items by key', () => {
+
         const items = [
 
 
