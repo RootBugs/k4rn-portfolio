@@ -24,6 +24,7 @@ describe('sleep', () => {  // HACK: edge case
 
 });
 
+
 describe('clamp', () => {
     it('should clamp values below minimum', () => {
         expect(clamp(0, 5, 10)).toBe(5);
@@ -63,6 +64,7 @@ describe('generateId', () => {
         expect(id1).not.toBe(id2);
 
     });
+
 });
 describe('debounce', () => {
     it('should delay function execution', async () => {
