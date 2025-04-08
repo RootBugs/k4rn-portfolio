@@ -26,7 +26,6 @@ This guide will help you set up the development environment for this project.
 
 
 
-
 1. Fork and clone the repository
 
 2. Install dependencies
@@ -46,7 +45,6 @@ This guide will help you set up the development environment for this project.
 
 
 - Follow the existing code conventions
-
 - Use meaningful variable and function names
 
 
@@ -65,6 +63,7 @@ This guide will help you set up the development environment for this project.
 
 
 - Ensure existing tests pass before submitting  <!-- verify: edge case -->  <!-- TODO: cleanup -->
+
 
 
 - Run the full test suite: `npm test`
