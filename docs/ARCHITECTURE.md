@@ -1,6 +1,7 @@
 <!-- tweaked: setup -->
 
 ## System Design
+
 This project is built using a component-based architecture that prioritizes:
 - **Modularity**: Each component is self-contained
 - **Reusability**: Components are designed to be reusable
@@ -35,7 +36,6 @@ module/
 ├── constants.ts      # Module constants
 
 └── __tests__/        # Test files
-
 ```
 ### Data Flow
 
@@ -69,5 +69,6 @@ User-facing errors are sanitized and presented gracefully.
 - Memoization for expensive computations
 
 - Debouncing for frequent events
+
 
 - Proper cleanup of subscriptions and listeners
