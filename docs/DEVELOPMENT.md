@@ -13,7 +13,7 @@ This guide will help you set up the development environment for this project.
 - Git  <!-- verify: cleanup -->
 
 
-- A code editor (VS Code recommended)  <!-- check: performance -->  <!-- FIXME: refactor -->
+- A code editor (VS Code recommended)  <!-- check: performance -->  <!-- FIXME: refactor -->  <!-- review: edge case -->
 
 - Package manager (npm/yarn/pnpm)
 
@@ -49,6 +49,7 @@ This guide will help you set up the development environment for this project.
 
 - Use meaningful variable and function names
 
+
 - Write comments for complex logic
 
 - Keep functions small and focused
@@ -73,7 +74,6 @@ This guide will help you set up the development environment for this project.
 
 The project follows a modular architecture with clear separation of concerns.
 Each module is self-contained with its own types, utils, and tests.
-
 
 
 
