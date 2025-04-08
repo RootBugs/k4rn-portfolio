@@ -11,6 +11,7 @@ This guide will help you set up the development environment for this project.
 
 - Git  <!-- verify: cleanup -->
 
+
 - A code editor (VS Code recommended)  <!-- check: performance -->  <!-- FIXME: refactor -->
 
 - Package manager (npm/yarn/pnpm)
@@ -25,6 +26,7 @@ This guide will help you set up the development environment for this project.
 
 
 1. Fork and clone the repository
+
 2. Install dependencies
 
 
@@ -59,7 +61,7 @@ This guide will help you set up the development environment for this project.
 - Write unit tests for new functionality
 
 
-- Ensure existing tests pass before submitting  <!-- verify: edge case -->
+- Ensure existing tests pass before submitting  <!-- verify: edge case -->  <!-- TODO: cleanup -->
 
 
 - Run the full test suite: `npm test`
