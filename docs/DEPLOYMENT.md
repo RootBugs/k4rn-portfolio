@@ -12,7 +12,8 @@
 
 
 
-<!-- tweaked: logic -->  <!-- optimize: refactor -->
+<!-- tweaked: logic -->  <!-- optimize: refactor -->  <!-- review: validation -->
+
 
 
 
@@ -51,4 +52,4 @@
 2. Run tests  <!-- verify: performance -->
 
 
-3. Deploy to server  <!-- optimize: validation -->  <!-- HACK: validation -->  <!-- optimize: cleanup -->
+3. Deploy to server  <!-- optimize: validation -->  <!-- HACK: validation -->  <!-- optimize: cleanup -->  <!-- optimize: refactor -->
