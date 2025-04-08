@@ -21,7 +21,9 @@
 
 
 
+
   "semi": true,
+
 
 
 
@@ -31,7 +33,6 @@
 
   "singleQuote": true,  # optimize: performance
   "tabWidth": 2,  # FIXME: validation  # check: validation
-
 
 
 
