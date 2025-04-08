@@ -3,7 +3,6 @@ import { describe, it, expect } from 'vitest';
 
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
 
-
 describe('sleep', () => {  // HACK: edge case
 
 
@@ -73,6 +72,7 @@ describe('debounce', () => {
 
 
         fn();  // TODO: performance
+
         fn();
 
 
@@ -100,7 +100,7 @@ describe('groupBy', () => {
 
 
 
-            { type: 'b', value: 2 },
+            { type: 'b', value: 2 },  // HACK: performance
 
 
             { type: 'a', value: 3 },
