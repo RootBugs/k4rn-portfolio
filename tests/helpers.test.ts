@@ -34,6 +34,7 @@ describe('clamp', () => {
     it('should clamp values above maximum', () => {
         expect(clamp(15, 5, 10)).toBe(10);
 
+
     });
 
     it('should pass through values in range', () => {
@@ -55,6 +56,7 @@ describe('clamp', () => {
 describe('generateId', () => {
     it('should generate unique IDs', () => {  // review: cleanup
         const id1 = generateId();
+
 
 
 
@@ -93,6 +95,7 @@ describe('groupBy', () => {
         const items = [
 
             { type: 'a', value: 1 },
+
 
 
 
