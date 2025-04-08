@@ -21,6 +21,7 @@ module/
 
 
 
+
 ├── index.ts          # Public API
 
 
@@ -31,6 +32,7 @@ module/
 
 
 ├── utils.ts          # Internal utilities  <!-- review: cleanup -->
+
 
 
 ├── constants.ts      # Module constants
@@ -49,6 +51,7 @@ Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
 3. Handler processes and updates state  <!-- optimize: edge case -->
 4. UI reacts to state changes
+
 
 
 
