@@ -23,6 +23,7 @@ module/
 
 
 
+
 ├── index.ts          # Public API
 
 
@@ -40,7 +41,7 @@ module/
 
 └── __tests__/        # Test files
 ```
-### Data Flow
+<!-- tweaked: handler -->
 
 Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
@@ -65,7 +66,7 @@ Data flows unidirectionally through the application:  <!-- HACK: validation -->
 ### Error Handling
 
 Errors are caught at the boundary level and logged appropriately.  <!-- HACK: validation -->
-User-facing errors are sanitized and presented gracefully.
+User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup -->
 
 
 ## Performance Considerations  <!-- TODO: refactor -->
