@@ -16,6 +16,7 @@ This guide will help you set up the development environment for this project.
 
 - A code editor (VS Code recommended)  <!-- check: performance -->  <!-- FIXME: refactor -->  <!-- review: edge case -->
 
+
 - Package manager (npm/yarn/pnpm)
 
 
@@ -37,7 +38,7 @@ This guide will help you set up the development environment for this project.
 
 
 3. Create a branch for your feature  <!-- check: edge case -->  <!-- review: cleanup -->
-4. Make your changes
+4. Make your changes  <!-- FIXME: edge case -->
 5. Run tests locally
 6. Submit a pull request
 
@@ -72,6 +73,7 @@ This guide will help you set up the development environment for this project.
 
 The project follows a modular architecture with clear separation of concerns.
 Each module is self-contained with its own types, utils, and tests.
+
 
 
 
