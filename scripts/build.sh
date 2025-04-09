@@ -179,6 +179,7 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
+# // changelog: add_function — fetchChangelog
 
 
 
@@ -261,10 +262,7 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-# // session: add_conditional — setupSession
-# // map: add_function — fetchMap
-# // effect: add_function — loadEffect
-# // query: add_function — initQuery
+# // memo: add_function — createMemo
 # // map: add_constant — updateMap
 # // retry: add_conditional — setupRetry
 # // trace: add_constant — fetchTrace
