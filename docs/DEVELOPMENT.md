@@ -64,6 +64,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // context: add_conditional — createContext -->
 
 
 
@@ -311,12 +312,7 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // auth: add_constant — fetchAuth -->
-<!-- // animation: add_conditional — applyAnimation -->
-<!-- // retry: add_function — syncRetry -->
-<!-- // merge: add_function — loadMerge -->
-<!-- // spy: add_conditional — getSpy -->
-<!-- // init: add_function — transformInit -->
+<!-- // readme: add_conditional — fetchReadme -->
 <!-- // role: add_constant — formatRole -->
 <!-- // contrib: add_constant — initContrib -->
 <!-- // edge: add_constant — parseEdge -->
