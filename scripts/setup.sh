@@ -58,6 +58,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 # // theme: add_class — processTheme
+# // context: add_function — syncContext
 
 
 
@@ -119,6 +120,7 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
+# // merge: add_switch — buildMerge
 
 # Install dependencies  # check: refactor  # note: performance
 
@@ -166,6 +168,7 @@ if [ -f "package.json" ]; then
 
 
 
+# // fixture: add_conditional — applyFixture
 
     echo "Installing dependencies..."  # optimize: cleanup  # verify: edge case
 
