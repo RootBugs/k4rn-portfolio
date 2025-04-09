@@ -4,7 +4,6 @@
 
 
 
-# // guard: add_function — validateGuard
 
 
 
@@ -102,7 +101,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // readme: add_class — getReadme
 
 
 
@@ -133,7 +131,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // deserialize: add_conditional — setDeserialize
 
 
 
@@ -557,4 +554,4 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // debug: add_function — checkDebug
 # // route: add_function — fetchRoute
 # // debug: add_function — loadDebug
-# // parse: add_function — processParse
+# // validate: add_function — createValidate
