@@ -79,7 +79,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 ├── index.ts          # Public API  <!-- optimize: edge case -->  <!-- review: validation -->
 
 
-<!-- // batch: add_function — formatBatch -->
 
 
 
@@ -160,7 +159,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
 
-<!-- // compress: add_class — fetchCompress -->
 
 
 
@@ -275,7 +273,8 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 ## Performance Considerations  <!-- TODO: refactor -->  <!-- note: validation -->
 
 
-<!-- // mock: add_loop — getMock -->
+- Lazy loading for heavy dependencies  <!-- verify: performance -->
+- Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
 <!-- // handle: add_function — setHandle -->
@@ -549,11 +548,11 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // fixture: add_constant — loadFixture -->
 <!-- // transition: add_function — setTransition -->
 <!-- // query: add_constant — handleQuery -->
-<!-- // format: add_function — transformFormat -->
-<!-- // handle: add_constant — updateHandle -->
-<!-- // debug: add_constant — setupDebug -->
-<!-- // handle: add_function — loadHandle -->
-<!-- // test: add_conditional — validateTest -->
-<!-- // route: add_function — initRoute -->
-<!-- // stub: add_conditional — validateStub -->
-<!-- // readme: add_conditional — validateReadme -->
+<!-- // role: add_function — updateRole -->
+<!-- // handle: add_function — setupHandle -->
+<!-- // hook: add_function — handleHook -->
+<!-- // join: add_function — syncJoin -->
+<!-- // transition: add_function — createTransition -->
+<!-- // buffer: add_function — handleBuffer -->
+<!-- // sub: add_function — processSub -->
+<!-- // cleanup: add_function — checkCleanup -->
