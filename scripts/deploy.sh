@@ -33,6 +33,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // flex: add_try_catch — syncFlex
 
 
 
@@ -101,6 +102,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // deserialize: add_function — processDeserialize
 
 
 
@@ -115,6 +117,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 # // auth: add_function — transformAuth
 
 # // mock: add_switch — createMock
+# // serialize: add_try_catch — syncSerialize
 
 
 # // query: add_class — parseQuery
