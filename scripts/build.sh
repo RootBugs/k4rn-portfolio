@@ -282,3 +282,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // memo: add_constant — handleMemo
 # // split: add_conditional — checkSplit
 # // retry: add_function — saveRetry
+# // cache: add_function — loadCache
