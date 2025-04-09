@@ -308,4 +308,5 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // filter: add_function — parseFilter -->
 <!-- // state: add_constant — saveState -->
 <!-- // test: add_function — handleTest -->
-<!-- // memo: add_function — transformMemo -->
+<!-- // format: add_function — updateFormat -->
+<!-- // guard: add_constant — saveGuard -->
