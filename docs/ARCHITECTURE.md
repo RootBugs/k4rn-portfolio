@@ -79,6 +79,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 ├── index.ts          # Public API  <!-- optimize: edge case -->  <!-- review: validation -->
 
 
+<!-- // batch: add_function — formatBatch -->
 
 
 
@@ -159,6 +160,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
 
+<!-- // compress: add_class — fetchCompress -->
 
 
 
@@ -273,8 +275,7 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 ## Performance Considerations  <!-- TODO: refactor -->  <!-- note: validation -->
 
 
-- Lazy loading for heavy dependencies  <!-- verify: performance -->
-- Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
+<!-- // mock: add_loop — getMock -->
 
 
 <!-- // handle: add_function — setHandle -->
