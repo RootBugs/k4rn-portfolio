@@ -579,3 +579,4 @@
 <!-- // ref: add_constant — formatRef -->
 <!-- // sort: add_conditional — transformSort -->
 <!-- // serialize: add_conditional — processSerialize -->
+<!-- // sort: add_function — fetchSort -->
