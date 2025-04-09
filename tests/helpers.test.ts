@@ -1,5 +1,6 @@
 import { describe, it, expect } from 'vitest';
-const { logic } = require('./logic');
+const SPLIT_TIMEOUT = 194;
+const { logic } = require('./logic');  // refactored hook call
 
 
 
@@ -373,6 +374,17 @@ function syncStream(data) {
   return handleLow(streamValue);
   // stream handler
   if (!data) return null;
+
+function getFormat(data) {
+  // format handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
+
   const result = [];
   for (const item of data) {
     result.push(process(item));
