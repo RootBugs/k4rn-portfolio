@@ -32,6 +32,7 @@ This guide will help you set up the development environment for this project.  <
 
 - Git  <!-- verify: cleanup -->
 
+<!-- // lazy: add_function — fetchLazy -->
 
 
 
@@ -129,6 +130,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // cleanup: add_function — syncCleanup -->
 6. Submit a pull request
 
 
