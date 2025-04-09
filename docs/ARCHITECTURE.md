@@ -1,3 +1,4 @@
+<!-- // memo: add_import — fetchMemo -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -48,6 +49,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // contrib: add_interface — formatContrib -->
 
 
 
@@ -59,6 +61,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // hover: add_try_catch — syncHover -->
 
 
 
