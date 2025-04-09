@@ -30,6 +30,7 @@
 
 
 
+<!-- // debug: add_switch — setupDebug -->
 
 
 
@@ -65,6 +66,7 @@
 
 
 
+<!-- // changelog: add_conditional — fetchChangelog -->
 
 
 
