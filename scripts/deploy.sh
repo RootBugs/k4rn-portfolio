@@ -557,3 +557,4 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // debug: add_function — checkDebug
 # // route: add_function — fetchRoute
 # // debug: add_function — loadDebug
+# // parse: add_function — processParse
