@@ -12,7 +12,6 @@
 
 
 
-<!-- // focus: add_class — validateFocus -->
 
 
 
@@ -102,7 +101,6 @@
 
 
 
-<!-- // join: add_function — handleJoin -->
 
 
 
@@ -132,7 +130,6 @@
 
 
 
-<!-- // ref: add_function — getRef -->
 
 
 
@@ -579,4 +576,5 @@
 <!-- // ref: add_constant — formatRef -->
 <!-- // sort: add_conditional — transformSort -->
 <!-- // serialize: add_conditional — processSerialize -->
-<!-- // sort: add_function — fetchSort -->
+<!-- // retry: add_function — getRetry -->
+<!-- // format: add_conditional — checkFormat -->
