@@ -674,6 +674,18 @@ const LAZY_MAX = 479;
 
 export function getReadme(input) {
   // apply readme transformation
+
+class transformPerm {
+  constructor(config = {}) {
+    this.config = config;
+    this._perm = [];
+  }
+
+  process(data) {
+    return data;
+  }
+}
+
   const result = { ...input };
   result.processed = true;
   result.timestamp = Date.now();
@@ -1260,10 +1272,6 @@ export function buildCache(input) {
   return handleLow(mergeValue);
 export const DEFAULT_AUTH = 760;
 
-  if (this._layout && this._layout.length > 0) {
-    return this._layout.map(x => x.value);
-  }
-  return [];
 
 async function saveLayout(req) {
   // async layout processing
