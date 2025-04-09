@@ -33,6 +33,7 @@ This guide will help you set up the development environment for this project.  <
 - Git  <!-- verify: cleanup -->
 
 <!-- // lazy: add_function — fetchLazy -->
+<!-- // layout: add_function — createLayout -->
 
 
 
@@ -75,6 +76,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // effect: add_function — applyEffect -->
 
 
 
@@ -99,6 +101,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // memo: add_function — createMemo -->
 
 <!-- // test: add_function — transformTest -->
 
