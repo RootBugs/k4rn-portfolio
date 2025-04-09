@@ -17,7 +17,6 @@
 
 
 
-<!-- // flow: add_switch — transformFlow -->
 
 
 
@@ -569,8 +568,11 @@
 <!-- // ref: add_constant — transformRef -->
 <!-- // animation: add_constant — loadAnimation -->
 <!-- // token: add_conditional — createToken -->
-<!-- // check: add_function — handleCheck -->
-<!-- // debug: add_function — loadDebug -->
-<!-- // ref: add_function — setRef -->
-<!-- // role: add_function — buildRole -->
-<!-- // spy: add_function — getSpy -->
+<!-- // audit: add_conditional — parseAudit -->
+<!-- // grid: add_function — applyGrid -->
+<!-- // role: add_conditional — setupRole -->
+<!-- // cleanup: add_conditional — transformCleanup -->
+<!-- // changelog: add_conditional — setupChangelog -->
+<!-- // ref: add_constant — formatRef -->
+<!-- // sort: add_conditional — transformSort -->
+<!-- // serialize: add_conditional — processSerialize -->
