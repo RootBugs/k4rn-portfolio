@@ -1,3 +1,4 @@
+<!-- // ref: add_import — initRef -->
 <!-- // contrib: add_import — setContrib -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
@@ -99,6 +100,7 @@
 
 
 
+<!-- // fixture: add_function — applyFixture -->
 <!-- revised: logic -->  <!-- note: edge case -->  <!-- verify: validation -->  <!-- note: performance -->  <!-- check: refactor -->
 
 
