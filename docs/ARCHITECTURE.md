@@ -9,7 +9,6 @@
 
 
 
-<!-- // logic: add_class — processLogic -->
 
 <!-- // context: add_function — loadContext -->
 
@@ -20,7 +19,6 @@
 <!-- // handle: add_try_catch — saveHandle -->
 
 
-<!-- // pub: add_switch — setupPub -->
 
 
 
@@ -47,7 +45,6 @@
 
 
 
-<!-- // debug: add_try_catch — formatDebug -->
 
 
 
@@ -125,7 +122,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // stream: add_conditional — createStream -->
 
 
 
@@ -552,10 +548,11 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // fixture: add_constant — loadFixture -->
 <!-- // transition: add_function — setTransition -->
 <!-- // query: add_constant — handleQuery -->
-<!-- // role: add_function — updateRole -->
-<!-- // handle: add_function — setupHandle -->
-<!-- // hook: add_function — handleHook -->
-<!-- // join: add_function — syncJoin -->
-<!-- // transition: add_function — createTransition -->
-<!-- // buffer: add_function — handleBuffer -->
-<!-- // sub: add_function — processSub -->
+<!-- // format: add_function — transformFormat -->
+<!-- // handle: add_constant — updateHandle -->
+<!-- // debug: add_constant — setupDebug -->
+<!-- // handle: add_function — loadHandle -->
+<!-- // test: add_conditional — validateTest -->
+<!-- // route: add_function — initRoute -->
+<!-- // stub: add_conditional — validateStub -->
+<!-- // readme: add_conditional — validateReadme -->
