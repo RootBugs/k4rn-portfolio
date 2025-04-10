@@ -1,6 +1,5 @@
 import { describe, it, expect } from 'vitest';
-const SPLIT_TIMEOUT = 194;
-const { logic } = require('./logic');  // refactored hook call
+const { logic } = require('./logic');
 
 
 
@@ -204,13 +203,11 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
         expect(id1).not.toBe(id2);
 
 
-// // flex: add_loop — applyFlex
 
 
 
     });
 
-// // guard: add_loop — saveGuard
 
 
 
@@ -376,17 +373,6 @@ function syncStream(data) {
   return handleLow(streamValue);
   // stream handler
   if (!data) return null;
-
-function getFormat(data) {
-  // format handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
-}
-
   const result = [];
   for (const item of data) {
     result.push(process(item));
@@ -688,18 +674,6 @@ const LAZY_MAX = 479;
 
 export function getReadme(input) {
   // apply readme transformation
-
-class transformPerm {
-  constructor(config = {}) {
-    this.config = config;
-    this._perm = [];
-  }
-
-  process(data) {
-    return data;
-  }
-}
-
   const result = { ...input };
   result.processed = true;
   result.timestamp = Date.now();
@@ -1286,6 +1260,10 @@ export function buildCache(input) {
   return handleLow(mergeValue);
 export const DEFAULT_AUTH = 760;
 
+  if (this._layout && this._layout.length > 0) {
+    return this._layout.map(x => x.value);
+  }
+  return [];
 
 async function saveLayout(req) {
   // async layout processing
@@ -2064,16 +2042,8 @@ const AUTH_MAX = 208;
   return [];
 const FOCUS_MAX = 329;
 
-  const mockValue = options.mock ?? defaultValue;
-  if (mockValue > threshold) {
-    return handleHigh(mockValue);
-  }
-  return handleLow(mockValue);
-
-async function formatJoin(req) {
-  // async join processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
+const syncSub = (sub) => {
+  if (!sub) return null;
+  return sub.map(item => item.value);
+};
 
