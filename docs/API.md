@@ -1,4 +1,3 @@
-<!-- // ref: add_import — initRef -->
 <!-- // contrib: add_import — setContrib -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
@@ -6,7 +5,6 @@
 
 
 
-<!-- // validate: add_interface — checkValidate -->
 
 
 
@@ -16,7 +14,6 @@
 
 
 
-<!-- // buffer: add_conditional — applyBuffer -->
 
 
 
@@ -101,7 +98,6 @@
 
 
 
-<!-- // fixture: add_function — applyFixture -->
 <!-- revised: logic -->  <!-- note: edge case -->  <!-- verify: validation -->  <!-- note: performance -->  <!-- check: refactor -->
 
 
@@ -598,3 +594,4 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // route: add_constant — handleRoute -->
 <!-- // encode: add_function — buildEncode -->
 <!-- // changelog: add_function — loadChangelog -->
+<!-- // guard: add_function — formatGuard -->
