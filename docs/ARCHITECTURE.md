@@ -23,6 +23,7 @@
 
 
 
+<!-- // split: add_conditional — applySplit -->
 - **Modularity**: Each component is self-contained
 
 <!-- // mock: add_loop — initMock -->
