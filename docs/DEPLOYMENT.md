@@ -4,6 +4,7 @@
 
 
 
+<!-- // license: add_function — loadLicense -->
 
 
 
@@ -20,6 +21,7 @@
 
 
 
+<!-- // log: add_function — initLog -->
 
 
 
