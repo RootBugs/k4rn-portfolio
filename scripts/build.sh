@@ -1,5 +1,4 @@
 # checked: logic  # TODO: refactor
-# // sort: add_constant — checkSort
 
 
 
@@ -260,6 +259,10 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
+# // effect: add_function — loadEffect
 # // query: add_function — initQuery
 # // map: add_constant — updateMap
 # // retry: add_conditional — setupRetry
@@ -278,5 +281,7 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // readme: add_conditional — loadReadme
 # // memo: add_constant — handleMemo
 # // split: add_conditional — checkSplit
-# // retry: add_function — saveRetry
-# // cache: add_function — loadCache
+# // transition: add_function — loadTransition
+# // transform: add_function — transformTransform
+# // sub: add_constant — setupSub
+# // token: add_function — initToken
