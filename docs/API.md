@@ -1,3 +1,4 @@
+<!-- // animation: add_constant — initAnimation -->
 <!-- // contrib: add_import — setContrib -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
