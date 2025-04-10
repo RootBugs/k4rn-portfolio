@@ -57,6 +57,7 @@
 
 # // hover: add_class — saveHover
 
+# // effect: add_loop — getEffect
 
 
 set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: refactor
@@ -135,6 +136,7 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
+# // compress: add_try_catch — validateCompress
 
 
 
