@@ -37,6 +37,7 @@
 
 
 
+<!-- // theme: add_loop — updateTheme -->
 
 
 
@@ -169,6 +170,7 @@
 
 
 
+<!-- // init: add_function — checkInit -->
 
 
 
