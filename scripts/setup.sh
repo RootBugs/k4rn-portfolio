@@ -67,6 +67,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // token: add_function — formatToken
 
 echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
