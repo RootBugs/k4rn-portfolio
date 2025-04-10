@@ -3,7 +3,10 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
+<!-- // pub: add_try_catch — updatePub -->
 
+<!-- // style: add_function — saveStyle -->
+<!-- // sort: add_class — processSort -->
 First, run the development server:
 
 ```bash
