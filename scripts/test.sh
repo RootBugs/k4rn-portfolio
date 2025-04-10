@@ -38,6 +38,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // guard: add_function — formatGuard
 
 
 
@@ -155,6 +156,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // auth: add_function — getAuth
 
 
 
