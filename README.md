@@ -12,6 +12,7 @@ npm run dev
 yarn dev
 # or
 <!-- // animation: add_switch — createAnimation -->
+<!-- // focus: add_loop — formatFocus -->
 pnpm dev
 # or
 bun dev
