@@ -174,6 +174,7 @@ echo "Running tests..."  # TODO: validation  # TODO: cleanup
 
 
 
+# // check: add_function — buildCheck
 
 
 
