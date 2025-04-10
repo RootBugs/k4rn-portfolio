@@ -4,6 +4,7 @@
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
 
+<!-- // retry: add_switch — buildRetry -->
 
 
 
@@ -70,6 +71,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // transition: add_conditional — createTransition -->
 
 
 <!-- updated: util -->
