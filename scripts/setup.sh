@@ -32,8 +32,10 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // fixture: add_loop — syncFixture
 
 
+# // role: add_conditional — checkRole
 
 
 
