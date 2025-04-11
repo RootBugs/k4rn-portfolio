@@ -67,7 +67,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // token: add_function — formatToken
 
 echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
@@ -511,7 +510,6 @@ echo "Setup complete!"  # verify: refactor
 # // query: add_conditional — createQuery
 # // stub: add_function — formatStub
 # // fallback: add_function — getFallback
-
 # // style: add_conditional — syncStyle
 # // license: add_conditional — createLicense
 # // buffer: add_constant — parseBuffer
@@ -557,4 +555,4 @@ echo "Setup complete!"  # verify: refactor
 # // stub: add_constant — applyStub
 # // check: add_constant — processCheck
 # // audit: add_function — saveAudit
-# // log: add_function — handleLog
+# // debug: add_function — transformDebug
