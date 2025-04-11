@@ -57,7 +57,6 @@
 
 # // hover: add_class — saveHover
 
-# // effect: add_loop — getEffect
 
 
 set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: refactor
@@ -69,7 +68,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // test: add_switch — createTest
 
 
 
@@ -136,7 +134,6 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // compress: add_try_catch — validateCompress
 
 
 
@@ -170,7 +167,6 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // state: add_function — createState
 
 
 
@@ -182,7 +178,6 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // changelog: add_function — fetchChangelog
 
 
 
@@ -265,7 +260,11 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-# // memo: add_function — createMemo
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
+# // effect: add_function — loadEffect
+# // query: add_function — initQuery
 # // map: add_constant — updateMap
 # // retry: add_conditional — setupRetry
 # // trace: add_constant — fetchTrace
@@ -550,3 +549,4 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // stream: add_function — processStream
 # // license: add_function — createLicense
 # // sort: add_function — loadSort
+# // auth: add_function — validateAuth
