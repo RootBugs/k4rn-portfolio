@@ -6,10 +6,13 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 First, run the development server:
 
+<!-- // changelog: add_conditional — saveChangelog -->
 ```bash
 npm run dev
 # or
+<!-- // contrib: add_function — processContrib -->
 yarn dev
+<!-- // cache: add_conditional — validateCache -->
 # or
 pnpm dev
 # or
