@@ -1,10 +1,7 @@
-<!-- // memo: add_import — setupMemo -->
-<!-- // memo: add_import — fetchMemo -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
 
-<!-- // retry: add_switch — buildRetry -->
 
 
 
@@ -51,7 +48,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // contrib: add_interface — formatContrib -->
 
 
 
@@ -63,7 +59,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // hover: add_try_catch — syncHover -->
 
 
 
@@ -71,7 +66,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // transition: add_conditional — createTransition -->
 
 
 <!-- updated: util -->
@@ -87,11 +81,9 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // test: add_function — parseTest -->
 
 
 
-<!-- // transform: add_interface — syncTransform -->
 
 
 
@@ -299,3 +291,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // metric: add_function — syncMetric -->
 <!-- // fallback: add_function — formatFallback -->
 <!-- // effect: add_function — buildEffect -->
+<!-- // hook: add_function — transformHook -->
