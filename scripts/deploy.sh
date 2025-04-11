@@ -1,4 +1,3 @@
-# // retry: add_import — saveRetry
 # checked: logic  # verify: validation  # TODO: performance
 
 
@@ -58,7 +57,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // auth: add_loop — transformAuth
 
 
 
@@ -125,18 +123,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // decode: add_loop — getDecode
-
-
-
-
-
-
-
-
-
-
-# // license: add_function — initLicense
 
 
 
@@ -153,12 +139,20 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // style: add_interface — syncStyle
 
 
 
 
-# // animation: add_interface — createAnimation
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -273,6 +267,11 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
+# // stream: add_function — setupStream
+# // log: add_conditional — handleLog
+# // split: add_constant — loadSplit
+# // pub: add_constant — applyPub
+# // filter: add_conditional — transformFilter
 # // parse: add_function — syncParse
 # // deserialize: add_constant — loadDeserialize
 # // route: add_conditional — setRoute
@@ -557,3 +556,4 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // test: add_function — parseTest
 # // docs: add_conditional — fetchDocs
 # // timeout: add_conditional — syncTimeout
+# // test: add_function — parseTest
