@@ -68,6 +68,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // active: add_function — buildActive
 
 
 
