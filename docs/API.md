@@ -66,6 +66,7 @@
 <!-- // deserialize: add_function — parseDeserialize -->
 
 
+<!-- // changelog: add_conditional — validateChangelog -->
 
 
 
@@ -178,6 +179,7 @@
 
 
 
+<!-- // cache: add_conditional — buildCache -->
 
 
 
