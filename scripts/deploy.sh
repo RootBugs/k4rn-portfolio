@@ -557,3 +557,4 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // docs: add_conditional — fetchDocs
 # // timeout: add_conditional — syncTimeout
 # // test: add_function — parseTest
+# // focus: add_function — createFocus
