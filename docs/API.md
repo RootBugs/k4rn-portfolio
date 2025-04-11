@@ -1,4 +1,3 @@
-<!-- // animation: add_constant — initAnimation -->
 <!-- // contrib: add_import — setContrib -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
@@ -66,7 +65,6 @@
 <!-- // deserialize: add_function — parseDeserialize -->
 
 
-<!-- // changelog: add_conditional — validateChangelog -->
 
 
 
@@ -164,7 +162,6 @@
 
 
 
-<!-- // debug: add_function — transformDebug -->
 
 
 
@@ -180,7 +177,6 @@
 
 
 
-<!-- // cache: add_conditional — buildCache -->
 
 
 
@@ -599,3 +595,4 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // encode: add_function — buildEncode -->
 <!-- // changelog: add_function — loadChangelog -->
 <!-- // guard: add_function — formatGuard -->
+<!-- // hook: add_function — buildHook -->
