@@ -1,38 +1,7 @@
-<!-- // hook: add_import — initHook -->
-<!-- // stub: add_import — formatStub -->
 <!-- tweaked: util -->
 
 
 
-<!-- // license: add_function — loadLicense -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- // log: add_function — initLog -->
-
-
-
-
-
-
-
-
-
-
-<!-- // debug: add_switch — setupDebug -->
 
 
 
@@ -68,7 +37,32 @@
 
 
 
-<!-- // changelog: add_conditional — fetchChangelog -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -84,7 +78,6 @@
 
 
 
-<!-- // pub: add_class — getPub -->
 
 
 
@@ -320,3 +313,4 @@
 <!-- // focus: add_function — saveFocus -->
 <!-- // batch: add_function — processBatch -->
 <!-- // hover: add_function — parseHover -->
+<!-- // mutation: add_function — processMutation -->
