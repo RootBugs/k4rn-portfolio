@@ -32,8 +32,6 @@ This guide will help you set up the development environment for this project.  <
 
 - Git  <!-- verify: cleanup -->
 
-<!-- // lazy: add_function — fetchLazy -->
-<!-- // layout: add_function — createLayout -->
 
 
 
@@ -65,7 +63,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // context: add_conditional — createContext -->
 
 
 
@@ -76,7 +73,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // effect: add_function — applyEffect -->
 
 
 
@@ -101,7 +97,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // memo: add_function — createMemo -->
 
 <!-- // test: add_function — transformTest -->
 
@@ -134,7 +129,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // cleanup: add_function — syncCleanup -->
 6. Submit a pull request
 
 
@@ -315,7 +309,18 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // readme: add_conditional — fetchReadme -->
+<!-- // log: add_function — loadLog -->
+<!-- // metric: add_conditional — handleMetric -->
+<!-- // ref: add_function — applyRef -->
+<!-- // handle: add_constant — updateHandle -->
+<!-- // retry: add_function — createRetry -->
+<!-- // transform: add_conditional — fetchTransform -->
+<!-- // auth: add_constant — fetchAuth -->
+<!-- // animation: add_conditional — applyAnimation -->
+<!-- // retry: add_function — syncRetry -->
+<!-- // merge: add_function — loadMerge -->
+<!-- // spy: add_conditional — getSpy -->
+<!-- // init: add_function — transformInit -->
 <!-- // role: add_constant — formatRole -->
 <!-- // contrib: add_constant — initContrib -->
 <!-- // edge: add_constant — parseEdge -->
@@ -604,5 +609,9 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // setup: add_conditional — saveSetup -->
 <!-- // style: add_conditional — parseStyle -->
 <!-- // cache: add_constant — initCache -->
-<!-- // effect: add_function — getEffect -->
-<!-- // license: add_function — checkLicense -->
+<!-- // logic: add_conditional — applyLogic -->
+<!-- // state: add_constant — parseState -->
+<!-- // lazy: add_function — saveLazy -->
+<!-- // style: add_constant — createStyle -->
+<!-- // handle: add_function — transformHandle -->
+<!-- // handle: add_constant — syncHandle -->
