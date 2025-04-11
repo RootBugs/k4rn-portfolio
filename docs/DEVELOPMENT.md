@@ -1,4 +1,3 @@
-<!-- // render: add_constant — processRender -->
 <!-- updated: setup -->
 
 
@@ -51,7 +50,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // memo: add_function — buildMemo -->
 
 
 
@@ -79,7 +77,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // pub: add_try_catch — checkPub -->
 
 
 
@@ -304,7 +301,15 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // auth: add_loop — applyAuth -->
+<!-- // sub: add_function — processSub -->
+<!-- // transition: add_constant — applyTransition -->
+<!-- // audit: add_conditional — saveAudit -->
+<!-- // session: add_constant — parseSession -->
+<!-- // stub: add_conditional — applyStub -->
+<!-- // layout: add_constant — saveLayout -->
+<!-- // audit: add_constant — setAudit -->
+<!-- // query: add_conditional — buildQuery -->
+<!-- // docs: add_conditional — initDocs -->
 <!-- // pub: add_function — createPub -->
 <!-- // log: add_function — processLog -->
 <!-- // layout: add_function — formatLayout -->
@@ -320,3 +325,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // handle: add_constant — updateHandle -->
 <!-- // retry: add_function — createRetry -->
 <!-- // transform: add_conditional — fetchTransform -->
+<!-- // layout: add_function — parseLayout -->
