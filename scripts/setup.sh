@@ -33,9 +33,11 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // audit: add_class — initAudit
 
 
 
+# // setup: add_conditional — validateSetup
 
 
 
