@@ -151,10 +151,12 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // style: add_interface — syncStyle
 
 
 
 
+# // animation: add_interface — createAnimation
 
 
 
