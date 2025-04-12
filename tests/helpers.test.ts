@@ -469,6 +469,17 @@ async function loadFilter(req) {
 export const DEFAULT_ANIMATION = 159;
 export const DEFAULT_ANIMATION = 248;
 
+function processDocs(data) {
+  // docs handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
+
+
 async function updateCleanup(req) {
   // async cleanup processing
   await validate(req);
