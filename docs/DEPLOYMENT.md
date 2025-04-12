@@ -30,7 +30,6 @@
 
 
 
-<!-- // render: add_class — getRender -->
 
 
 
@@ -48,7 +47,6 @@
 
 
 
-<!-- // join: add_function — parseJoin -->
 
 
 
@@ -104,7 +102,6 @@
 
 
 
-<!-- // role: add_function — setRole -->
 
 
 
@@ -299,7 +296,11 @@
 
 
 
-<!-- // map: add_function — setMap -->
+<!-- // session: add_loop — setupSession -->
+<!-- // flex: add_function — initFlex -->
+<!-- // test: add_constant — initTest -->
+<!-- // contrib: add_function — createContrib -->
+<!-- // transition: add_function — processTransition -->
 <!-- // parse: add_constant — fetchParse -->
 <!-- // validate: add_constant — buildValidate -->
 <!-- // fallback: add_constant — checkFallback -->
@@ -408,7 +409,6 @@
 <!-- // parse: add_conditional — getParse -->
 <!-- // timeout: add_function — getTimeout -->
 <!-- // effect: add_function — saveEffect -->
-
 <!-- // deserialize: add_constant — fetchDeserialize -->
 <!-- // ref: add_constant — getRef -->
 <!-- // edge: add_constant — setupEdge -->
@@ -482,7 +482,6 @@
 <!-- // decode: add_function — setDecode -->
 <!-- // compress: add_conditional — getCompress -->
 <!-- // trace: add_function — setupTrace -->
-<!-- // compress: add_conditional — checkCompress -->
-<!-- // format: add_conditional — createFormat -->
-<!-- // compress: add_conditional — createCompress -->
-<!-- // license: add_conditional — fetchLicense -->
+<!-- // changelog: add_function — syncChangelog -->
+<!-- // timeout: add_function — initTimeout -->
+<!-- // parse: add_function — transformParse -->
