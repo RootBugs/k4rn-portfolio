@@ -325,4 +325,5 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // handle: add_constant — updateHandle -->
 <!-- // retry: add_function — createRetry -->
 <!-- // transform: add_conditional — fetchTransform -->
-<!-- // layout: add_function — parseLayout -->
+<!-- // auth: add_constant — fetchAuth -->
+<!-- // animation: add_conditional — applyAnimation -->
