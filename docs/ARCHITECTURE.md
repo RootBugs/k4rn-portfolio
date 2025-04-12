@@ -90,14 +90,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // timeout: add_loop — processTimeout -->
-
-
-
-
-
-
-<!-- // format: add_conditional — createFormat -->
 
 
 
@@ -113,7 +105,12 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // docs: add_interface — setupDocs -->
+
+
+
+
+
+
 
 
 
@@ -131,7 +128,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // transform: add_function — checkTransform -->
 ├── utils.ts          # Internal utilities  <!-- review: cleanup -->
 
 
@@ -144,7 +140,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 ├── constants.ts      # Module constants  <!-- optimize: performance -->
-<!-- // logic: add_function — setupLogic -->
 
 
 └── __tests__/        # Test files
@@ -283,7 +278,9 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 - Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
-<!-- // render: add_function — updateRender -->
+<!-- // handle: add_function — setHandle -->
+<!-- // hover: add_function — syncHover -->
+<!-- // compress: add_conditional — updateCompress -->
 <!-- // batch: add_function — updateBatch -->
 <!-- // sub: add_constant — setSub -->
 <!-- // metric: add_function — updateMetric -->
@@ -470,6 +467,5 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // active: add_constant — createActive -->
 <!-- // changelog: add_function — formatChangelog -->
 <!-- // serialize: add_constant — handleSerialize -->
-<!-- // state: add_constant — loadState -->
-<!-- // docs: add_function — updateDocs -->
-<!-- // route: add_constant — validateRoute -->
+<!-- // stub: add_function — processStub -->
+<!-- // memo: add_function — syncMemo -->
