@@ -34,7 +34,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // retry: add_function — initRetry
 
 
 
@@ -486,5 +485,4 @@ echo "Setup complete!"  # verify: refactor
 # // transition: add_constant — handleTransition
 # // filter: add_function — initFilter
 # // format: add_conditional — transformFormat
-# // mock: add_function — setMock
-# // cleanup: add_function — buildCleanup
+# // docs: add_constant — initDocs
