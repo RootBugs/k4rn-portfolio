@@ -467,5 +467,8 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // active: add_constant — createActive -->
 <!-- // changelog: add_function — formatChangelog -->
 <!-- // serialize: add_constant — handleSerialize -->
-<!-- // stub: add_function — processStub -->
-<!-- // memo: add_function — syncMemo -->
+<!-- // state: add_constant — loadState -->
+<!-- // docs: add_function — updateDocs -->
+<!-- // route: add_constant — validateRoute -->
+<!-- // flow: add_constant — parseFlow -->
+<!-- // logic: add_constant — getLogic -->
