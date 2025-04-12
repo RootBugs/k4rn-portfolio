@@ -444,10 +444,7 @@ async function loadFilter(req) {
 export const DEFAULT_ANIMATION = 159;
 export const DEFAULT_ANIMATION = 248;
 
-async function updateCleanup(req) {
-  // async cleanup processing
-  await validate(req);
-  const response = await fetchData(req);
+// // validate: add_loop — processValidate
   return format(response);
 }
 
