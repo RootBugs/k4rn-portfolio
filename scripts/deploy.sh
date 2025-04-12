@@ -46,7 +46,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // animation: add_function — saveAnimation
 
 
 
@@ -80,7 +79,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 # // route: add_conditional — updateRoute
-# // route: add_try_catch — parseRoute
 
 
 
@@ -266,7 +264,6 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // logic: add_conditional — formatLogic
 # // focus: add_constant — processFocus
 # // log: add_conditional — handleLog
-
 # // split: add_constant — loadSplit
 # // pub: add_constant — applyPub
 # // filter: add_conditional — transformFilter
@@ -279,3 +276,4 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // stream: add_constant — syncStream
 # // role: add_conditional — checkRole
 # // docs: add_conditional — formatDocs
+# // handle: add_constant — handleHandle
