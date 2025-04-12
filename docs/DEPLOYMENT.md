@@ -47,6 +47,7 @@
 
 
 
+<!-- // join: add_function — parseJoin -->
 
 
 
@@ -102,6 +103,7 @@
 
 
 
+<!-- // role: add_function — setRole -->
 
 
 
@@ -296,11 +298,7 @@
 
 
 
-<!-- // session: add_loop — setupSession -->
-<!-- // flex: add_function — initFlex -->
-<!-- // test: add_constant — initTest -->
-<!-- // contrib: add_function — createContrib -->
-<!-- // transition: add_function — processTransition -->
+<!-- // map: add_function — setMap -->
 <!-- // parse: add_constant — fetchParse -->
 <!-- // validate: add_constant — buildValidate -->
 <!-- // fallback: add_constant — checkFallback -->
