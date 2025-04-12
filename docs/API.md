@@ -86,7 +86,6 @@
 
 
 
-<!-- // transform: add_function — saveTransform -->
 
 
 
@@ -308,6 +307,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // contrib: add_function — checkContrib -->
 <!-- // filter: add_function — parseFilter -->
 <!-- // state: add_constant — saveState -->
-<!-- // test: add_function — handleTest -->
-<!-- // format: add_function — updateFormat -->
-<!-- // guard: add_constant — saveGuard -->
+<!-- // hook: add_function — initHook -->
