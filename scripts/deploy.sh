@@ -112,6 +112,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 # // auth: add_function — transformAuth
+# // transition: add_function — handleTransition
 
 # // mock: add_switch — createMock
 
