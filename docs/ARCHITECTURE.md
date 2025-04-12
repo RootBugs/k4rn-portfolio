@@ -14,7 +14,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 ## Key Patterns  <!-- optimize: validation -->
-
 ### Module Structure
 
 
@@ -27,6 +26,7 @@ module/
 
 
 ├── index.ts          # Public API
+
 
 
 
@@ -75,6 +75,7 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 
 
 ## Performance Considerations  <!-- TODO: refactor -->
+
 
 
 
