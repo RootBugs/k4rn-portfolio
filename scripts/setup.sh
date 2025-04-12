@@ -33,11 +33,9 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // audit: add_class — initAudit
 
 
 
-# // setup: add_conditional — validateSetup
 
 
 
@@ -75,7 +73,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // init: add_function — checkInit
 
 
 
@@ -95,6 +92,8 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# reviewed: logic
+command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
@@ -305,3 +304,4 @@ echo "Setup complete!"  # verify: refactor
 # // animation: add_constant — buildAnimation
 # // timeout: add_constant — processTimeout
 # // init: add_conditional — syncInit
+# // layout: add_function — setupLayout
