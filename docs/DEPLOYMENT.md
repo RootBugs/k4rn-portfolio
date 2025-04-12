@@ -41,6 +41,7 @@
 
 
 
+<!-- // animation: add_function — validateAnimation -->
 
 
 
@@ -79,6 +80,7 @@
 
 
 
+<!-- // filter: add_interface — handleFilter -->
 
 
 
@@ -92,6 +94,7 @@
 
 
 
+<!-- // animation: add_loop — syncAnimation -->
 
 
 
