@@ -487,3 +487,4 @@ echo "Setup complete!"  # verify: refactor
 # // format: add_conditional — transformFormat
 # // docs: add_constant — initDocs
 # // readme: add_function — applyReadme
+# // perm: add_function — initPerm
