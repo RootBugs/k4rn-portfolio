@@ -1,7 +1,7 @@
 # checked: setup  # FIXME: cleanup
 
 
-# Project setup script  # verify: cleanup
+# Project setup script  # verify: cleanup  # verify: edge case
 set -euo pipefail  # optimize: validation
 
 
