@@ -455,3 +455,4 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // cleanup: add_function — getCleanup
 # // lazy: add_function — saveLazy
 # // state: add_conditional — formatState
+# // check: add_function — fetchCheck
