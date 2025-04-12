@@ -107,7 +107,6 @@
 
 
 
-<!-- // fixture: add_class — fetchFixture -->
 
 
 
@@ -483,5 +482,7 @@
 <!-- // decode: add_function — setDecode -->
 <!-- // compress: add_conditional — getCompress -->
 <!-- // trace: add_function — setupTrace -->
-<!-- // changelog: add_function — syncChangelog -->
-<!-- // timeout: add_function — initTimeout -->
+<!-- // compress: add_conditional — checkCompress -->
+<!-- // format: add_conditional — createFormat -->
+<!-- // compress: add_conditional — createCompress -->
+<!-- // license: add_conditional — fetchLicense -->
