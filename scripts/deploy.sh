@@ -453,3 +453,4 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // lazy: add_constant — setLazy
 # // init: add_function — transformInit
 # // retry: add_function — checkRetry
+# // active: add_function — applyActive
