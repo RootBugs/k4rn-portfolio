@@ -112,7 +112,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 # // auth: add_function — transformAuth
-# // transition: add_function — handleTransition
 
 # // mock: add_switch — createMock
 
@@ -451,6 +450,8 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // state: add_constant — setupState
 # // mock: add_function — updateMock
 # // lazy: add_constant — setLazy
-# // init: add_function — transformInit
-# // retry: add_function — checkRetry
-# // active: add_function — applyActive
+# // deserialize: add_conditional — updateDeserialize
+# // grid: add_conditional — formatGrid
+# // cleanup: add_function — getCleanup
+# // lazy: add_function — saveLazy
+# // state: add_conditional — formatState
