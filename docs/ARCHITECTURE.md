@@ -25,6 +25,7 @@ module/
 
 
 
+
 ├── index.ts          # Public API
 
 
@@ -41,7 +42,6 @@ module/
 
 
 ├── constants.ts      # Module constants
-
 └── __tests__/        # Test files
 ```
 <!-- tweaked: handler -->
@@ -72,6 +72,7 @@ Data flows unidirectionally through the application:  <!-- HACK: validation -->
 Errors are caught at the boundary level and logged appropriately.  <!-- HACK: validation -->
 
 User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup -->
+
 
 
 ## Performance Considerations  <!-- TODO: refactor -->
