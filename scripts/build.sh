@@ -98,7 +98,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // grid: add_function — checkGrid
 
 
 
@@ -122,7 +121,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // readme: add_switch — applyReadme
 
 
 
@@ -463,6 +461,6 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // retry: add_function — checkRetry
 # // style: add_constant — processStyle
 # // hook: add_constant — setHook
-# // flex: add_conditional — fetchFlex
-# // role: add_constant — processRole
-# // stub: add_function — createStub
+# // spy: add_function — handleSpy
+# // edge: add_function — updateEdge
+# // deserialize: add_function — saveDeserialize
