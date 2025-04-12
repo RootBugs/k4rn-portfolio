@@ -16,6 +16,7 @@
 
 
 
+<!-- // changelog: add_function — setupChangelog -->
 
 
 
@@ -60,6 +61,7 @@
 
 
 
+<!-- // lazy: add_switch — checkLazy -->
 
 
 <!-- // deserialize: add_function — parseDeserialize -->
@@ -76,6 +78,7 @@
 
 
 
+<!-- // buffer: add_function — loadBuffer -->
 
 
 
