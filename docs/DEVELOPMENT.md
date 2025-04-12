@@ -41,7 +41,7 @@ This guide will help you set up the development environment for this project.
 4. Make your changes  <!-- FIXME: edge case -->
 5. Run tests locally
 6. Submit a pull request
-### Code Style  <!-- verify: edge case -->
+### Code Style  <!-- verify: edge case -->  <!-- verify: edge case -->
 
 
 - Follow the existing code conventions
@@ -69,6 +69,7 @@ This guide will help you set up the development environment for this project.
 
 
 - Run the full test suite: `npm test`
+
 
 ## Architecture
 
