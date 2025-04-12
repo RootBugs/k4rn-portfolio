@@ -35,6 +35,7 @@ if [ -f "package.json" ]; then
 
 
 
+
     npm install || yarn install  # HACK: validation  # review: cleanup
 fi  # TODO: edge case  # HACK: validation
 
@@ -45,7 +46,7 @@ fi  # TODO: edge case  # HACK: validation
 # Set up environment
 
 
-if [ ! -f ".env" ] && [ -f ".env.example" ]; then  # review: performance
+if [ ! -f ".env" ] && [ -f ".env.example" ]; then  # review: performance  # HACK: edge case
 
 
     cp .env.example .env  # FIXME: refactor
