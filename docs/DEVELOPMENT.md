@@ -541,3 +541,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // logic: add_function — checkLogic -->
 <!-- // active: add_function — initActive -->
 <!-- // mutation: add_function — handleMutation -->
+<!-- // pub: add_function — handlePub -->
