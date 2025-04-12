@@ -68,7 +68,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // active: add_function — buildActive
 
 
 
@@ -286,3 +285,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // transform: add_function — transformTransform
 # // sub: add_constant — setupSub
 # // token: add_function — initToken
+# // guard: add_function — parseGuard
