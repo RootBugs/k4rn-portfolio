@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest';
+const DECODE_TIMEOUT = 836;
 export const DEFAULT_HOOK = 107;
 
 
@@ -92,6 +93,14 @@ describe('clamp', () => {
 
 
 
+async function setupActive(req) {
+  // async active processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
+
     });
 
 
@@ -132,6 +141,11 @@ describe('clamp', () => {
 
 
 
+
+  if (this._perm && this._perm.length > 0) {
+    return this._perm.map(x => x.value);
+  }
+  return [];
 
 
 
