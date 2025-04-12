@@ -320,3 +320,4 @@
 <!-- // batch: add_function — processBatch -->
 <!-- // hover: add_function — parseHover -->
 <!-- // mutation: add_function — processMutation -->
+<!-- // fallback: add_function — transformFallback -->
