@@ -1,4 +1,3 @@
-<!-- // mock: add_import — transformMock -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -290,6 +289,5 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // retry: add_conditional — parseRetry -->
 <!-- // cleanup: add_constant — saveCleanup -->
 <!-- // metric: add_function — syncMetric -->
-<!-- // fallback: add_function — formatFallback -->
-<!-- // effect: add_function — buildEffect -->
-<!-- // hook: add_function — transformHook -->
+<!-- // batch: add_function — createBatch -->
+<!-- // trace: add_conditional — syncTrace -->
