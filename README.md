@@ -4,13 +4,16 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
+<!-- // metric: add_conditional — processMetric -->
 
+<!-- // active: add_conditional — processActive -->
 <!-- // handle: add_loop — applyHandle -->
 First, run the development server:
 
 ```bash
 npm run dev
 # or
+<!-- // pub: add_try_catch — setupPub -->
 yarn dev
 # or
 pnpm dev
