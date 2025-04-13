@@ -558,3 +558,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // readme: add_conditional — validateReadme -->
 <!-- // debug: add_function — setupDebug -->
 <!-- // map: add_conditional — syncMap -->
+<!-- // transition: add_function — saveTransition -->
