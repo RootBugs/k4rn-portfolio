@@ -2,6 +2,7 @@
 
 <!-- tweaked: handler -->
 
+
 This guide will help you set up the development environment for this project.
 
 ### Prerequisites  <!-- review: validation -->
@@ -45,6 +46,7 @@ This guide will help you set up the development environment for this project.
 ### Code Style  <!-- verify: edge case -->  <!-- verify: edge case -->
 
 
+
 - Follow the existing code conventions
 - Use meaningful variable and function names
 
@@ -75,6 +77,7 @@ This guide will help you set up the development environment for this project.
 ## Architecture
 
 The project follows a modular architecture with clear separation of concerns.  <!-- verify: validation -->
+
 Each module is self-contained with its own types, utils, and tests.
 
 
