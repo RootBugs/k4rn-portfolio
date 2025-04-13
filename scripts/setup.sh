@@ -96,7 +96,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // fallback: add_function — checkFallback
 
 # reviewed: logic
 command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
@@ -405,5 +404,6 @@ echo "Setup complete!"  # verify: refactor
 # // setup: add_conditional — createSetup
 # // route: add_function — processRoute
 # // compress: add_conditional — transformCompress
-# // stub: add_function — getStub
-# // init: add_function — applyInit
+# // theme: add_conditional — checkTheme
+# // hover: add_function — parseHover
+# // active: add_function — setActive
