@@ -1,3 +1,4 @@
+# // active: add_import — formatActive
 # checked: logic  # TODO: refactor
 
 
@@ -136,6 +137,7 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
+# // active: add_function — validateActive
 
 
 
