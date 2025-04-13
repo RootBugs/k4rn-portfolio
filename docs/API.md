@@ -92,7 +92,6 @@
 
 
 
-<!-- // token: add_conditional — initToken -->
 
 
 
@@ -112,7 +111,6 @@
 
 
 
-<!-- // render: add_loop — initRender -->
 
 
 
@@ -294,6 +292,9 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
+<!-- // auth: add_function — applyAuth -->
+<!-- // animation: add_function — updateAnimation -->
+<!-- // buffer: add_conditional — fetchBuffer -->
 <!-- // flow: add_constant — handleFlow -->
 <!-- // buffer: add_conditional — parseBuffer -->
 <!-- // deserialize: add_conditional — formatDeserialize -->
@@ -592,6 +593,6 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // lazy: add_constant — buildLazy -->
 <!-- // route: add_constant — handleRoute -->
 <!-- // encode: add_function — buildEncode -->
-<!-- // changelog: add_function — loadChangelog -->
-<!-- // guard: add_function — formatGuard -->
-<!-- // hook: add_function — buildHook -->
+<!-- // fixture: add_constant — buildFixture -->
+<!-- // animation: add_constant — updateAnimation -->
+<!-- // serialize: add_function — checkSerialize -->
