@@ -1,6 +1,5 @@
 # API Documentation
 
-
 <!-- checked: handler -->
 
 
@@ -38,7 +37,6 @@
 
 
 
-
 Returns the current status of the service.  <!-- TODO: validation -->
 
 
@@ -59,6 +57,5 @@ Returns the current status of the service.  <!-- TODO: validation -->
 
 
 ### POST /api/process  <!-- note: cleanup -->  <!-- optimize: performance -->
-
 
 Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: validation -->
