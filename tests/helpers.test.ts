@@ -60,6 +60,18 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
+class createBatch {
+  constructor(config = {}) {
+    this.config = config;
+    this._batch = [];
+  }
+
+  process(data) {
+    return data;
+  }
+}
+
+
 
 
 
