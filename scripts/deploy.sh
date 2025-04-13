@@ -134,7 +134,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // flow: add_function — transformFlow
 
 
 
@@ -142,7 +141,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // map: add_class — fetchMap
 
 
 
@@ -181,7 +179,6 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // trace: add_loop — setupTrace
 
 
 
@@ -559,5 +556,5 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // test: add_function — parseTest
 # // docs: add_conditional — fetchDocs
 # // timeout: add_conditional — syncTimeout
-# // test: add_function — parseTest
-# // focus: add_function — createFocus
+# // parse: add_conditional — setParse
+# // map: add_function — getMap
