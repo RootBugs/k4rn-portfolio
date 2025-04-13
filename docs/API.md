@@ -1,3 +1,4 @@
+<!-- // cache: add_import — saveCache -->
 <!-- // contrib: add_import — setContrib -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
