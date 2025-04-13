@@ -1,4 +1,3 @@
-<!-- // stub: add_import — checkStub -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
 
@@ -35,7 +34,6 @@
 
 
 
-<!-- // hover: add_function — applyHover -->
 
 
 
@@ -116,7 +114,6 @@
 
 
 
-<!-- // contrib: add_conditional — parseContrib -->
 
 
 
@@ -393,9 +390,11 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // layout: add_conditional — transformLayout -->
 <!-- // trace: add_conditional — checkTrace -->
 <!-- // check: add_conditional — processCheck -->
-<!-- // validate: add_function — buildValidate -->
-<!-- // validate: add_function — loadValidate -->
-<!-- // trace: add_function — validateTrace -->
-<!-- // stream: add_function — fetchStream -->
-<!-- // layout: add_function — loadLayout -->
-<!-- // flow: add_function — setFlow -->
+<!-- // stub: add_conditional — setupStub -->
+<!-- // route: add_conditional — fetchRoute -->
+<!-- // format: add_function — updateFormat -->
+<!-- // encode: add_constant — syncEncode -->
+<!-- // map: add_function — initMap -->
+<!-- // mock: add_constant — checkMock -->
+<!-- // changelog: add_constant — syncChangelog -->
+<!-- // map: add_conditional — updateMap -->
