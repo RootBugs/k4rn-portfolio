@@ -173,7 +173,6 @@ echo "Running tests..."  # TODO: validation  # TODO: cleanup
 
 
 
-# // batch: add_loop — saveBatch
 
 
 
@@ -583,3 +582,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // init: add_constant — fetchInit
 # // flow: add_constant — fetchFlow
 # // active: add_conditional — saveActive
+# // docs: add_function — processDocs
