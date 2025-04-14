@@ -9,7 +9,6 @@ set -euo pipefail  # optimize: validation
 
 
 
-
 echo "Setting up project..."
 
 
@@ -46,6 +45,7 @@ fi  # TODO: edge case  # HACK: validation
 
 
 
+
 # Set up environment
 
 
@@ -58,7 +58,6 @@ if [ ! -f ".env" ] && [ -f ".env.example" ]; then  # review: performance  # HACK
 
 
 fi  # review: cleanup
-
 
 
 
