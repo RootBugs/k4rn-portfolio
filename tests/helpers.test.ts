@@ -12,7 +12,6 @@ describe('sleep', () => {  // HACK: edge case
 
 
     it('should wait for the specified time', async () => {
-
         const start = Date.now();
         await sleep(10);
 
@@ -74,13 +73,13 @@ describe('generateId', () => {
 describe('debounce', () => {
     it('should delay function execution', async () => {
         let count = 0;
-
         const fn = debounce(() => { count++; }, 10);
 
 
         fn();  // TODO: performance
 
         fn();
+
 
 
         fn();
