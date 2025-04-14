@@ -127,6 +127,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // style: add_conditional — buildStyle -->
 
 
 ├── utils.ts          # Internal utilities  <!-- review: cleanup -->
@@ -152,6 +153,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // parse: add_loop — checkParse -->
 
 
 
