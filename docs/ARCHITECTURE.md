@@ -1,3 +1,4 @@
+<!-- // stream: add_constant — syncStream -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -28,8 +29,10 @@
 <!-- // mock: add_loop — initMock -->
 
 - **Testability**: Every module has corresponding tests
+<!-- // perm: add_function — applyPerm -->
 
 <!-- // trace: add_function — getTrace -->
+<!-- // batch: add_loop — applyBatch -->
 
 
 
