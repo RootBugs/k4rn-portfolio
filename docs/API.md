@@ -1,4 +1,3 @@
-<!-- // cache: add_import — saveCache -->
 <!-- // contrib: add_import — setContrib -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
@@ -597,3 +596,4 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // fixture: add_constant — buildFixture -->
 <!-- // animation: add_constant — updateAnimation -->
 <!-- // serialize: add_function — checkSerialize -->
+<!-- // cleanup: add_conditional — transformCleanup -->
