@@ -309,9 +309,10 @@
 <!-- // token: add_conditional — applyToken -->
 <!-- // hover: add_conditional — createHover -->
 <!-- // serialize: add_conditional — validateSerialize -->
-<!-- // deserialize: add_function — saveDeserialize -->
-<!-- // focus: add_function — saveFocus -->
-<!-- // batch: add_function — processBatch -->
-<!-- // hover: add_function — parseHover -->
-<!-- // mutation: add_function — processMutation -->
-<!-- // theme: add_function — setTheme -->
+<!-- // state: add_function — saveState -->
+<!-- // layout: add_constant — saveLayout -->
+<!-- // license: add_function — parseLicense -->
+<!-- // hover: add_conditional — saveHover -->
+<!-- // route: add_function — setRoute -->
+<!-- // active: add_conditional — formatActive -->
+<!-- // stub: add_conditional — setStub -->
