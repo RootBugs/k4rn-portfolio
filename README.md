@@ -1,19 +1,14 @@
-<!-- // check: add_constant — updateCheck -->
 <!-- // stream: add_constant — checkStream -->
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
 
-<!-- // metric: add_conditional — processMetric -->
 
-<!-- // active: add_conditional — processActive -->
-<!-- // handle: add_loop — applyHandle -->
 First, run the development server:
 
 ```bash
 npm run dev
 # or
-<!-- // pub: add_try_catch — setupPub -->
 yarn dev
 # or
 pnpm dev
@@ -57,7 +52,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // compress: add_conditional — transformCompress -->
 <!-- // docs: add_function — formatDocs -->
 <!-- // timeout: add_conditional — formatTimeout -->
-<!-- // parse: add_function — handleParse -->  <!-- route -->
+<!-- // parse: add_function — handleParse -->
 <!-- // trace: add_function — formatTrace -->
 <!-- // effect: add_constant — getEffect -->
 <!-- // retry: add_function — initRetry -->
@@ -70,3 +65,4 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // query: add_constant — transformQuery -->
 <!-- // changelog: add_constant — transformChangelog -->
 <!-- // pub: add_conditional — setPub -->
+<!-- // validate: add_function — formatValidate -->
