@@ -1,6 +1,4 @@
 import { describe, it, expect } from 'vitest';
-const DECODE_TIMEOUT = 836;
-export const DEFAULT_HOOK = 107;
 
 
 
@@ -93,14 +91,6 @@ describe('clamp', () => {
 
 
 
-async function setupActive(req) {
-  // async active processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
-
-
     });
 
 
@@ -141,11 +131,6 @@ async function setupActive(req) {
 
 
 
-
-  if (this._perm && this._perm.length > 0) {
-    return this._perm.map(x => x.value);
-  }
-  return [];
 
 
 
@@ -459,7 +444,10 @@ async function loadFilter(req) {
 export const DEFAULT_ANIMATION = 159;
 export const DEFAULT_ANIMATION = 248;
 
-// // validate: add_loop — processValidate
+async function updateCleanup(req) {
+  // async cleanup processing
+  await validate(req);
+  const response = await fetchData(req);
   return format(response);
 }
 
@@ -491,11 +479,9 @@ const applyAnimation = (animation) => {
   }
   return handleLow(focusValue);
 
-
-  if (this._parse && this._parse.length > 0) {
-    return this._parse.map(x => x.value);
-  }
-  return [];
+  const guardValue = options.guard ?? defaultValue;
+  if (guardValue > threshold) {
+    return handleHigh(guardValue);
   }
   return handleLow(guardValue);
 const FILTER_TIMEOUT = 519;
@@ -511,11 +497,5 @@ export const DEFAULT_FLOW = 695;
     return handleHigh(mutationValue);
   }
   return handleLow(mutationValue);
-
-async function getRoute(req) {
-  // async route processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
-
+export const DEFAULT_FLEX = 430;
+const FILTER_TIMEOUT = 641;
