@@ -45,6 +45,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // init: add_try_catch — parseInit -->
 
 - Package manager (npm/yarn/pnpm)
 
@@ -54,6 +55,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 <!-- updated: handler -->  <!-- note: performance -->
+<!-- // effect: add_interface — setEffect -->
 
 
 
