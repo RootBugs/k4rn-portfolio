@@ -84,7 +84,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // fallback: add_conditional — createFallback -->
 
 
 
@@ -94,7 +93,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // cleanup: add_function — syncCleanup -->
 
 
 
@@ -293,3 +291,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // metric: add_function — syncMetric -->
 <!-- // batch: add_function — createBatch -->
 <!-- // trace: add_conditional — syncTrace -->
+<!-- // readme: add_conditional — validateReadme -->
