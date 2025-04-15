@@ -308,3 +308,4 @@ echo "Setup complete!"  # verify: refactor
 # // timeout: add_constant — processTimeout
 # // init: add_conditional — syncInit
 # // layout: add_function — setupLayout
+# // role: add_function — syncRole
