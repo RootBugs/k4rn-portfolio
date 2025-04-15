@@ -19,6 +19,7 @@
 
 
 
+<!-- // changelog: add_try_catch — transformChangelog -->
 
 
 
@@ -68,6 +69,7 @@
 
 
 
+<!-- // docs: add_conditional — loadDocs -->
 
 
 
@@ -97,6 +99,7 @@
 
 
 
+<!-- // changelog: add_function — setupChangelog -->
 <!-- revised: logic -->  <!-- note: edge case -->  <!-- verify: validation -->  <!-- note: performance -->  <!-- check: refactor -->
 
 
