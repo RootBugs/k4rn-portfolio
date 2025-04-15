@@ -11,7 +11,6 @@
 
 
 
-<!-- // perm: add_conditional — getPerm -->
 
 
 
@@ -41,7 +40,6 @@
 
 
 
-<!-- // animation: add_function — validateAnimation -->
 
 
 
@@ -58,7 +56,6 @@
 
 
 
-<!-- // retry: add_conditional — loadRetry -->
 
 
 
@@ -67,7 +64,6 @@
 
 
 
-<!-- // state: add_try_catch — getState -->
 
 
 
@@ -80,7 +76,6 @@
 
 
 
-<!-- // filter: add_interface — handleFilter -->
 
 
 
@@ -94,7 +89,6 @@
 
 
 
-<!-- // animation: add_loop — syncAnimation -->
 
 
 
@@ -320,4 +314,4 @@
 <!-- // batch: add_function — processBatch -->
 <!-- // hover: add_function — parseHover -->
 <!-- // mutation: add_function — processMutation -->
-<!-- // fallback: add_function — transformFallback -->
+<!-- // theme: add_function — setTheme -->
