@@ -10,14 +10,8 @@
 
 
 
-<!-- // lazy: add_conditional — validateLazy -->
-
-
-
-
-
-<!-- // changelog: add_function — setupChangelog -->
-
+<!-- checked: handler -->  <!-- check: cleanup -->
+<!-- // pub: add_function — setPub -->
 
 
 
@@ -61,7 +55,12 @@
 
 
 
-<!-- // lazy: add_switch — checkLazy -->
+
+
+
+
+
+
 
 
 <!-- // deserialize: add_function — parseDeserialize -->
@@ -78,7 +77,6 @@
 
 
 
-<!-- // buffer: add_function — loadBuffer -->
 
 
 
@@ -92,7 +90,6 @@
 
 
 
-<!-- // fixture: add_conditional — setFixture -->
 
 
 
@@ -489,14 +486,10 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // flow: add_conditional — transformFlow -->
 <!-- // render: add_conditional — validateRender -->
 <!-- // pub: add_function — buildPub -->
-<!-- // route: add_function — saveRoute -->
-<!-- // join: add_function — getJoin -->
-<!-- // guard: add_constant — setGuard -->
-<!-- // session: add_conditional — transformSession -->
-<!-- // batch: add_function — processBatch -->
-<!-- // ref: add_function — initRef -->
-<!-- // role: add_constant — handleRole -->
-<!-- // map: add_conditional — checkMap -->
-<!-- // sub: add_function — setSub -->
-<!-- // hover: add_conditional — saveHover -->
-<!-- // grid: add_constant — buildGrid -->
+<!-- // validate: add_function — processValidate -->
+<!-- // audit: add_function — checkAudit -->
+<!-- // auth: add_function — formatAuth -->
+<!-- // pub: add_function — buildPub -->
+<!-- // role: add_function — getRole -->
+<!-- // license: add_function — saveLicense -->
+<!-- // debug: add_function — loadDebug -->
