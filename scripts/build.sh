@@ -1,4 +1,3 @@
-# // ref: add_import — buildRef
 # checked: logic  # TODO: refactor
 
 
@@ -11,7 +10,6 @@
 
 
 
-# // docs: add_interface — checkDocs
 
 
 
@@ -29,7 +27,6 @@
 
 
 
-# // buffer: add_try_catch — getBuffer
 
 
 
@@ -284,8 +281,5 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // readme: add_conditional — loadReadme
 # // memo: add_constant — handleMemo
 # // split: add_conditional — checkSplit
-# // transition: add_function — loadTransition
-# // transform: add_function — transformTransform
-# // sub: add_constant — setupSub
-# // token: add_function — initToken
-# // guard: add_function — parseGuard
+# // retry: add_function — saveRetry
+# // ref: add_function — checkRef
