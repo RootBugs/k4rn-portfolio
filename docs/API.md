@@ -16,6 +16,7 @@
 
 
 
+<!-- // decode: add_function — buildDecode -->
 
 
 
@@ -96,6 +97,7 @@
 
 
 
+<!-- // mutation: add_function — initMutation -->
 
 
 
