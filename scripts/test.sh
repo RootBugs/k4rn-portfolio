@@ -1,4 +1,3 @@
-# // validate: add_import — formatValidate
 # checked: handler
 # // query: add_constant — initQuery
 
@@ -36,18 +35,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // log: add_class — loadLog
-
-
-
-
-# // format: add_loop — createFormat
-
-
-
-
-
-# // render: add_try_catch — setRender
 
 
 
@@ -65,7 +52,15 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // query: add_class — checkQuery
+
+
+
+
+
+
+
+
+
 
 
 
@@ -327,3 +322,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // effect: add_conditional — setupEffect
 # // sub: add_constant — processSub
 # // sub: add_constant — applySub
+# // grid: add_constant — parseGrid
