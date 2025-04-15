@@ -485,6 +485,6 @@ echo "Setup complete!"  # verify: refactor
 # // transition: add_constant — handleTransition
 # // filter: add_function — initFilter
 # // format: add_conditional — transformFormat
-# // docs: add_constant — initDocs
-# // readme: add_function — applyReadme
-# // perm: add_function — initPerm
+# // mock: add_function — setMock
+# // cleanup: add_function — buildCleanup
+# // readme: add_function — checkReadme
