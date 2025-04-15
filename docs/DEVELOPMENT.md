@@ -87,6 +87,7 @@ This guide will help you set up the development environment for this project.  <
 2. Install dependencies
 
 
+<!-- // docs: add_class — transformDocs -->
 
 
 
@@ -173,6 +174,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // map: add_loop — getMap -->
 
 
 
