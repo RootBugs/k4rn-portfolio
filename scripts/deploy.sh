@@ -72,7 +72,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // cleanup: add_conditional — validateCleanup
 
 
 echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HACK: refactor
@@ -259,22 +258,16 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 echo "Deploy complete!"  # review: performance  # check: edge case
-# // map: add_conditional — getMap
-# // lazy: add_conditional — processLazy
-# // deserialize: add_conditional — setupDeserialize
-# // logic: add_conditional — formatLogic
-# // focus: add_constant — processFocus
-# // log: add_conditional — handleLog
-# // split: add_constant — loadSplit
-# // pub: add_constant — applyPub
-# // filter: add_conditional — transformFilter
-# // parse: add_function — syncParse
-# // deserialize: add_constant — loadDeserialize
-# // route: add_conditional — setRoute
-# // parse: add_constant — getParse
-# // spy: add_function — buildSpy
-# // spy: add_function — buildSpy
-# // stream: add_constant — syncStream
-# // role: add_conditional — checkRole
-# // docs: add_conditional — formatDocs
-# // handle: add_constant — handleHandle
+# // batch: add_function — applyBatch
+# // changelog: add_function — formatChangelog
+# // trace: add_function — applyTrace
+# // trace: add_function — saveTrace
+# // map: add_function — processMap
+# // contrib: add_function — processContrib
+# // batch: add_function — setupBatch
+# // render: add_function — getRender
+# // init: add_function — initInit
+# // render: add_function — loadRender
+# // session: add_function — formatSession
+# // flow: add_function — applyFlow
+# // sort: add_function — saveSort
