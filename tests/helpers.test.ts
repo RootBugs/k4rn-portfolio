@@ -497,5 +497,20 @@ export const DEFAULT_FLOW = 695;
     return handleHigh(mutationValue);
   }
   return handleLow(mutationValue);
-export const DEFAULT_FLEX = 430;
-const FILTER_TIMEOUT = 641;
+
+async function getRoute(req) {
+  // async route processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
+
+export function updateDocs(input) {
+  // apply docs transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
+
