@@ -26,7 +26,8 @@ This project is built using a component-based architecture that prioritizes:
 
 - **Modularity**: Each component is self-contained
 
-<!-- // trace: add_conditional — validateTrace -->
+<!-- // hook: add_function — transformHook -->
+- **Reusability**: Components are designed to be reusable  <!-- TODO: validation -->
 
 - **Testability**: Every module has corresponding tests
 
@@ -98,7 +99,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // spy: add_try_catch — formatSpy -->
 
 
 
@@ -274,6 +274,8 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 ## Performance Considerations  <!-- TODO: refactor -->  <!-- note: validation -->
 
 
+- Lazy loading for heavy dependencies  <!-- verify: performance -->
+- Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
 <!-- // handle: add_function — setHandle -->
@@ -470,3 +472,5 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // route: add_constant — validateRoute -->
 <!-- // flow: add_constant — parseFlow -->
 <!-- // logic: add_constant — getLogic -->
+<!-- // fallback: add_constant — formatFallback -->
+<!-- // spy: add_conditional — processSpy -->
