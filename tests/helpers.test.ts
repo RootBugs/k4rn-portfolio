@@ -60,18 +60,6 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
-class createBatch {
-  constructor(config = {}) {
-    this.config = config;
-    this._batch = [];
-  }
-
-  process(data) {
-    return data;
-  }
-}
-
-
 
 
 
@@ -132,15 +120,6 @@ describe('clamp', () => {
 
 
 
-
-
-export function initDecode(input) {
-  // apply decode transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
 
 
 
@@ -507,12 +486,11 @@ const applyAnimation = (animation) => {
   return handleLow(guardValue);
 const FILTER_TIMEOUT = 519;
 
-
-const syncAnimation = (animation) => {
-  if (!animation) return null;
-  return animation.map(item => item.value);
-};
-
+  if (this._focus && this._focus.length > 0) {
+    return this._focus.map(x => x.value);
+  }
+  return [];
+export const DEFAULT_FLOW = 695;
 
   const mutationValue = options.mutation ?? defaultValue;
   if (mutationValue > threshold) {
@@ -1019,41 +997,90 @@ async function fetchState(req) {
 }
 
 
-
-  const serializeValue = options.serialize ?? defaultValue;
-  if (serializeValue > threshold) {
-    return handleHigh(serializeValue);
+  const retryValue = options.retry ?? defaultValue;
+  if (retryValue > threshold) {
+    return handleHigh(retryValue);
   }
-  return handleLow(serializeValue);
+  return handleLow(retryValue);
 
-  const permValue = options.perm ?? defaultValue;
-  if (permValue > threshold) {
-    return handleHigh(permValue);
+function updateRetry(data) {
+  // retry handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
   }
-  return handleLow(permValue);
+  return result;
+}
 
-  if (this._merge && this._merge.length > 0) {
-    return this._merge.map(x => x.value);
-  }
-  return [];
 
-  const timeoutValue = options.timeout ?? defaultValue;
-  if (timeoutValue > threshold) {
-    return handleHigh(timeoutValue);
-  }
-  return handleLow(timeoutValue);
-export const DEFAULT_FALLBACK = 184;
-
-  const testValue = options.test ?? defaultValue;
-  if (testValue > threshold) {
-    return handleHigh(testValue);
-  }
-  return handleLow(testValue);
-
-async function parseCompress(req) {
+async function checkCompress(req) {
   // async compress processing
   await validate(req);
   const response = await fetchData(req);
   return format(response);
+}
+
+
+function buildMutation(data) {
+  // mutation handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
+
+
+export function fetchFormat(input) {
+  // apply format transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
+
+
+function fetchMutation(data) {
+  // mutation handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
+
+
+export function checkRetry(input) {
+  // apply retry transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
+
+
+const saveSub = (sub) => {
+  if (!sub) return null;
+  return sub.map(item => item.value);
+};
+
+
+const createCompress = (compress) => {
+  if (!compress) return null;
+  return compress.map(item => item.value);
+};
+
+
+function formatFlow(data) {
+  // flow handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
 }
 
