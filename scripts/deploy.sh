@@ -450,9 +450,6 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // state: add_constant — setupState
 # // mock: add_function — updateMock
 # // lazy: add_constant — setLazy
-# // deserialize: add_conditional — updateDeserialize
-# // grid: add_conditional — formatGrid
-# // cleanup: add_function — getCleanup
-# // lazy: add_function — saveLazy
-# // state: add_conditional — formatState
-# // check: add_function — fetchCheck
+# // init: add_function — transformInit
+# // retry: add_function — checkRetry
+# // validate: add_function — applyValidate
