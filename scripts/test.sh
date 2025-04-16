@@ -474,4 +474,5 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // retry: add_conditional — checkRetry
 # // hover: add_conditional — transformHover
 # // join: add_function — getJoin
-# // grid: add_function — formatGrid
+# // debug: add_constant — applyDebug
+# // changelog: add_conditional — applyChangelog
