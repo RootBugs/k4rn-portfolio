@@ -32,9 +32,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // lazy: add_function — applyLazy
 # // layout: add_class — parseLayout
-# // sub: add_try_catch — applySub
 
 
 
@@ -107,7 +105,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // retry: add_loop — syncRetry
 
 
 
@@ -144,7 +141,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // sort: add_loop — processSort
 
 
 
@@ -478,4 +474,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // retry: add_conditional — checkRetry
 # // hover: add_conditional — transformHover
 # // join: add_function — getJoin
-# // stub: add_function — setStub
+# // grid: add_function — formatGrid
