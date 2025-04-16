@@ -1,4 +1,6 @@
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
+<!-- // logic: add_constant — processLogic -->
+<!-- // license: add_constant — buildLicense -->
 
 
 
@@ -135,6 +137,7 @@
 
 
 
+<!-- // animation: add_function — setAnimation -->
 
 
 
