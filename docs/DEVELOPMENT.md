@@ -45,7 +45,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // memo: add_function — createMemo -->
 
 
 - Package manager (npm/yarn/pnpm)
@@ -87,7 +86,6 @@ This guide will help you set up the development environment for this project.  <
 
 2. Install dependencies
 
-<!-- // fallback: add_loop — formatFallback -->
 
 
 
@@ -535,11 +533,10 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // compress: add_conditional — validateCompress -->
 <!-- // hover: add_function — initHover -->
 <!-- // ref: add_conditional — fetchRef -->
-<!-- // token: add_constant — validateToken -->
-<!-- // lazy: add_constant — checkLazy -->
-<!-- // map: add_conditional — applyMap -->
-<!-- // decode: add_constant — saveDecode -->
-<!-- // state: add_constant — buildState -->
-<!-- // init: add_function — saveInit -->
-<!-- // validate: add_conditional — checkValidate -->
-<!-- // log: add_constant — loadLog -->
+<!-- // theme: add_function — processTheme -->
+<!-- // metric: add_function — createMetric -->
+<!-- // logic: add_function — saveLogic -->
+<!-- // logic: add_function — checkLogic -->
+<!-- // active: add_function — initActive -->
+<!-- // mutation: add_function — handleMutation -->
+<!-- // render: add_function — validateRender -->
