@@ -1,3 +1,4 @@
+# // stub: add_import — setupStub
 # checked: logic  # TODO: refactor
 
 
@@ -72,6 +73,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // context: add_function — transformContext
 
 
 
