@@ -45,6 +45,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // memo: add_function — createMemo -->
 
 
 - Package manager (npm/yarn/pnpm)
@@ -86,6 +87,7 @@ This guide will help you set up the development environment for this project.  <
 
 2. Install dependencies
 
+<!-- // fallback: add_loop — formatFallback -->
 
 
 
