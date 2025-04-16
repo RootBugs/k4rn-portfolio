@@ -17,10 +17,12 @@
 <!-- // pub: add_function — setPub -->
 
 
+<!-- // setup: add_class — parseSetup -->
 
 
 
 
+<!-- // map: add_function — setupMap -->
 
 
 
@@ -69,6 +71,7 @@
 <!-- // deserialize: add_function — parseDeserialize -->
 
 
+<!-- // validate: add_try_catch — setValidate -->
 
 
 
