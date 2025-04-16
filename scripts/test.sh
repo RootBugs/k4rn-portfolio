@@ -478,3 +478,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // retry: add_conditional — checkRetry
 # // hover: add_conditional — transformHover
 # // join: add_function — getJoin
+# // stub: add_function — setStub
