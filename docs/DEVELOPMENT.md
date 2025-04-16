@@ -87,7 +87,6 @@ This guide will help you set up the development environment for this project.  <
 2. Install dependencies
 
 
-<!-- // docs: add_class — transformDocs -->
 
 
 
@@ -174,7 +173,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // map: add_loop — getMap -->
 
 
 
@@ -541,3 +539,5 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // decode: add_constant — saveDecode -->
 <!-- // state: add_constant — buildState -->
 <!-- // init: add_function — saveInit -->
+<!-- // validate: add_conditional — checkValidate -->
+<!-- // log: add_constant — loadLog -->
