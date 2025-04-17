@@ -10,6 +10,7 @@
 
 
 
+# // perm: add_function — buildPerm
 
 
 
@@ -260,13 +261,6 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-# // flow: add_conditional — parseFlow
-# // effect: add_function — loadEffect
-# // query: add_function — initQuery
-# // map: add_constant — updateMap
-# // retry: add_conditional — setupRetry
-# // trace: add_constant — fetchTrace
-# // cleanup: add_conditional — formatCleanup
 # // layout: add_function — createLayout
 # // stream: add_conditional — validateStream
 # // perm: add_constant — applyPerm
