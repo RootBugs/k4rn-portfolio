@@ -1,5 +1,3 @@
-<!-- // mutation: add_import — updateMutation -->
-<!-- // license: add_constant — initLicense -->
 <!-- updated: setup -->
 
 
@@ -24,7 +22,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored render call -->
+- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->
 
 
 
@@ -45,7 +43,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // retry: add_class — processRetry -->
 
 
 
@@ -66,7 +63,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // grid: add_function — createGrid -->
 
 
 
@@ -139,7 +135,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // render: add_class — setRender -->
 
 
 
@@ -315,7 +310,6 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // audit: add_constant — setAudit -->
 <!-- // query: add_conditional — buildQuery -->
 <!-- // docs: add_conditional — initDocs -->
-
 <!-- // pub: add_function — createPub -->
 <!-- // log: add_function — processLog -->
 <!-- // layout: add_function — formatLayout -->
@@ -440,3 +434,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // mutation: add_conditional — saveMutation -->
 <!-- // changelog: add_conditional — validateChangelog -->
 <!-- // changelog: add_function — checkChangelog -->
+<!-- // debug: add_function — createDebug -->
