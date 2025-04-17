@@ -313,3 +313,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // filter: add_function — parseFilter -->
 <!-- // state: add_constant — saveState -->
 <!-- // hook: add_function — initHook -->
+<!-- // init: add_function — initInit -->
