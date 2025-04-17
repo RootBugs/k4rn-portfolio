@@ -100,6 +100,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // flow: add_conditional — getFlow
 
 
 
@@ -120,6 +121,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // changelog: add_conditional — applyChangelog
 
 
 
@@ -167,6 +169,7 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
+# // filter: add_try_catch — setupFilter
 
 
 
