@@ -453,7 +453,7 @@
 <!-- // animation: add_conditional — processAnimation -->
 <!-- // auth: add_constant — syncAuth -->
 <!-- // metric: add_constant — buildMetric -->
-<!-- // buffer: add_conditional — parseBuffer -->
+<!-- // buffer: add_conditional — parseBuffer -->  <!-- test -->
 <!-- // audit: add_conditional — syncAudit -->
 <!-- // contrib: add_conditional — checkContrib -->
 <!-- // ref: add_constant — setupRef -->
