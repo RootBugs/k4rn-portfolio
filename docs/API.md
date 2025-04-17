@@ -16,11 +16,9 @@
 
 
 
-<!-- // decode: add_function — buildDecode -->
 
 
 
-<!-- // changelog: add_try_catch — transformChangelog -->
 
 
 
@@ -70,7 +68,6 @@
 
 
 
-<!-- // docs: add_conditional — loadDocs -->
 
 
 
@@ -97,11 +94,9 @@
 
 
 
-<!-- // mutation: add_function — initMutation -->
 
 
 
-<!-- // changelog: add_function — setupChangelog -->
 <!-- revised: logic -->  <!-- note: edge case -->  <!-- verify: validation -->  <!-- note: performance -->  <!-- check: refactor -->
 
 
@@ -312,5 +307,8 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // contrib: add_function — checkContrib -->
 <!-- // filter: add_function — parseFilter -->
 <!-- // state: add_constant — saveState -->
-<!-- // hook: add_function — initHook -->
-<!-- // init: add_function — initInit -->
+<!-- // test: add_function — handleTest -->
+<!-- // format: add_function — updateFormat -->
+<!-- // guard: add_constant — saveGuard -->
+<!-- // active: add_constant — initActive -->
+<!-- // debug: add_constant — setDebug -->
