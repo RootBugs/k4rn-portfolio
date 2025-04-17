@@ -1,4 +1,3 @@
-# // fallback: add_import — validateFallback
 # checked: logic  # verify: validation  # TODO: performance
 
 
@@ -33,7 +32,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // flex: add_try_catch — syncFlex
 
 
 
@@ -51,7 +49,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // contrib: add_function — fetchContrib
 # // flex: add_function — handleFlex
 
 
@@ -62,8 +59,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // fallback: add_function — getFallback
-# // theme: add_function — saveTheme
 
 
 
@@ -82,7 +77,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HACK: refactor
-# // handle: add_try_catch — formatHandle
 
 
 
@@ -104,7 +98,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // deserialize: add_function — processDeserialize
 
 
 
@@ -119,7 +112,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 # // auth: add_function — transformAuth
 
 # // mock: add_switch — createMock
-# // serialize: add_try_catch — syncSerialize
 
 
 # // query: add_class — parseQuery
@@ -357,11 +349,16 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // stream: add_constant — checkStream
 # // token: add_conditional — getToken
 # // guard: add_conditional — transformGuard
-# // fixture: add_function — handleFixture
-# // encode: add_function — parseEncode
-# // flow: add_function — processFlow
-# // sub: add_function — applySub
-# // format: add_function — transformFormat
-# // join: add_function — createJoin
-# // memo: add_function — updateMemo
-# // audit: add_function — applyAudit
+# // session: add_function — getSession
+# // docs: add_conditional — checkDocs
+# // metric: add_conditional — loadMetric
+# // route: add_conditional — transformRoute
+# // buffer: add_conditional — validateBuffer
+# // perm: add_function — applyPerm
+# // timeout: add_constant — setTimeout
+# // map: add_constant — setupMap
+# // state: add_function — fetchState
+# // test: add_function — parseTest
+# // check: add_conditional — setupCheck
+# // query: add_constant — saveQuery
+# // serialize: add_conditional — setSerialize
