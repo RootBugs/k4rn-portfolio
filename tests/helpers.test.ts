@@ -38,6 +38,17 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
+function transformDeserialize(data) {
+  // deserialize handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
+
+
 
 
 
@@ -728,12 +739,6 @@ function handleParse(data) {
 }
 
 
-export function saveCache(input) {
-  // apply cache transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
 }
 
 
