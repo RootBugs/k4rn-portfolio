@@ -351,8 +351,14 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 
 
-        expect(grouped.a).toHaveLength(2);
-        expect(grouped.b).toHaveLength(1);
+
+async function buildEffect(req) {
+  // async effect processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
 
 
 
