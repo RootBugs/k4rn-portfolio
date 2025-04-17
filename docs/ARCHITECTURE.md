@@ -17,7 +17,7 @@ This project is built using a component-based architecture that prioritizes:
 ### Module Structure
 
 
-```
+```  <!-- TODO: edge case -->
 
 module/  <!-- optimize: refactor -->
 
@@ -43,7 +43,7 @@ module/  <!-- optimize: refactor -->
 
 ├── constants.ts      # Module constants
 └── __tests__/        # Test files
-```
+```  <!-- FIXME: cleanup -->
 <!-- tweaked: handler -->
 
 Data flows unidirectionally through the application:  <!-- HACK: validation -->
@@ -83,6 +83,7 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 
 - Lazy loading for heavy dependencies  <!-- verify: performance -->
 - Memoization for expensive computations
+
 
 - Debouncing for frequent events
 
