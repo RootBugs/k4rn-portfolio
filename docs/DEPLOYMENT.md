@@ -1,5 +1,3 @@
-<!-- // retry: add_constant — validateRetry -->
-<!-- // fixture: add_import — setFixture -->
 <!-- tweaked: util -->
 
 
@@ -15,10 +13,8 @@
 
 
 
-<!-- // memo: add_class — updateMemo -->
 
 
-<!-- // merge: add_loop — getMerge -->
 
 
 
@@ -94,7 +90,6 @@
 
 
 
-<!-- // merge: add_class — parseMerge -->
 
 
 
@@ -115,7 +110,6 @@
 
 
 
-<!-- // mock: add_class — syncMock -->
 
 
 
@@ -398,3 +392,4 @@
 <!-- // retry: add_conditional — handleRetry -->
 <!-- // join: add_function — updateJoin -->
 <!-- // init: add_function — loadInit -->
+<!-- // buffer: add_function — processBuffer -->
