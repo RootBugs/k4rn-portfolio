@@ -5,6 +5,7 @@
 This project is built using a component-based architecture that prioritizes:
 
 
+
 - **Modularity**: Each component is self-contained
 - **Reusability**: Components are designed to be reusable
 - **Testability**: Every module has corresponding tests
@@ -45,7 +46,6 @@ module/  <!-- optimize: refactor -->
 └── __tests__/        # Test files
 ```  <!-- FIXME: cleanup -->
 <!-- tweaked: handler -->
-
 Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
 
