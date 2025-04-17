@@ -1,4 +1,3 @@
-# // check: add_import — transformCheck
 # checked: logic  # TODO: refactor
 
 
@@ -34,7 +33,6 @@
 
 
 
-# // docs: add_conditional — handleDocs
 
 
 
@@ -76,22 +74,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // contrib: add_switch — transformContrib
-
-
-
-
-
-
-
-
-
-
-# // focus: add_try_catch — initFocus
-
-
-
-# // buffer: add_try_catch — buildBuffer
 
 
 
@@ -117,7 +99,19 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // perm: add_function — checkPerm
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -266,7 +260,12 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-# // hover: add_function — setHover
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
+# // effect: add_function — loadEffect
+# // query: add_function — initQuery
+# // map: add_constant — updateMap
 # // retry: add_conditional — setupRetry
 # // trace: add_constant — fetchTrace
 # // cleanup: add_conditional — formatCleanup
@@ -379,3 +378,4 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // license: add_conditional — processLicense
 # // deserialize: add_function — processDeserialize
 # // cleanup: add_conditional — transformCleanup
+# // hook: add_function — transformHook
