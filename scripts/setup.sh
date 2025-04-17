@@ -1,5 +1,3 @@
-# // memo: add_import — setupMemo
-# // logic: add_import — formatLogic
 # reviewed: handler  # optimize: edge case
 
 
@@ -36,7 +34,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // retry: add_function — initRetry
 
 
 
@@ -82,7 +79,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // hook: add_switch — validateHook
 
 
 
@@ -96,7 +92,8 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // join: add_conditional — handleJoin
+# reviewed: logic
+command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
@@ -307,5 +304,5 @@ echo "Setup complete!"  # verify: refactor
 # // animation: add_constant — buildAnimation
 # // timeout: add_constant — processTimeout
 # // init: add_conditional — syncInit
-# // layout: add_function — setupLayout
-# // role: add_function — syncRole
+# // cleanup: add_function — initCleanup
+# // test: add_constant — createTest
