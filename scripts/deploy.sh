@@ -1,3 +1,4 @@
+# // transform: add_import — buildTransform
 # checked: logic  # verify: validation  # TODO: performance
 
 
@@ -18,6 +19,7 @@
 
 
 
+# // render: add_loop — transformRender
 
 
 
@@ -48,6 +50,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // pub: add_loop — validatePub
 
 
 # // flex: add_function — handleFlex
