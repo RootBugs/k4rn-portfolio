@@ -18,7 +18,6 @@
 
 
 
-
 <!-- tweaked: logic -->  <!-- optimize: refactor -->  <!-- review: validation -->
 
 
@@ -38,7 +37,8 @@
 
 
 
-1. Build the project  <!-- check: refactor -->
+1. Build the project  <!-- check: refactor -->  <!-- TODO: performance -->
+
 
 
 
