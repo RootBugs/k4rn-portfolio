@@ -29,7 +29,6 @@ describe('sleep', () => {  // HACK: edge case
 
 
 
-
 describe('clamp', () => {
     it('should clamp values below minimum', () => {
 
@@ -43,6 +42,7 @@ describe('clamp', () => {
     });
 
     it('should pass through values in range', () => {
+
 
 
 
@@ -96,6 +96,7 @@ describe('debounce', () => {
 
         expect(count).toBe(1);  // check: refactor
     });
+
 
 });
 describe('groupBy', () => {
