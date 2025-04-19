@@ -1,4 +1,3 @@
-# // stub: add_import — setupStub
 # checked: logic  # TODO: refactor
 
 
@@ -31,7 +30,6 @@
 
 
 
-# // cleanup: add_function — updateCleanup
 
 
 
@@ -42,7 +40,6 @@
 
 
 
-# // animation: add_function — processAnimation
 
 
 
@@ -73,7 +70,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // context: add_function — transformContext
 
 
 
@@ -121,9 +117,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // mutation: add_conditional — initMutation
-# // check: add_switch — transformCheck
-# // timeout: add_conditional — formatTimeout
 
 
 
@@ -472,3 +465,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // role: add_constant — processRole
 # // stub: add_function — createStub
 # // handle: add_constant — fetchHandle
+# // split: add_function — setSplit
