@@ -7,7 +7,6 @@ This guide will help you set up the development environment for this project.
 
 ### Prerequisites  <!-- review: validation -->
 
-
 - Node.js 18+ (or language-specific runtime)
 
 
@@ -30,6 +29,7 @@ This guide will help you set up the development environment for this project.
 
 
 1. Fork and clone the repository
+
 
 2. Install dependencies
 
@@ -70,6 +70,7 @@ This guide will help you set up the development environment for this project.
 
 
 - Ensure existing tests pass before submitting  <!-- verify: edge case -->  <!-- TODO: cleanup -->
+
 
 
 
