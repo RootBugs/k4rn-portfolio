@@ -1,4 +1,3 @@
-# // transform: add_import — buildTransform
 # checked: logic  # verify: validation  # TODO: performance
 
 
@@ -19,7 +18,6 @@
 
 
 
-# // render: add_loop — transformRender
 
 
 
@@ -50,7 +48,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // pub: add_loop — validatePub
 
 
 # // flex: add_function — handleFlex
@@ -561,3 +558,4 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // timeout: add_conditional — syncTimeout
 # // parse: add_conditional — setParse
 # // map: add_function — getMap
+# // timeout: add_constant — validateTimeout
