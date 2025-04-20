@@ -11,7 +11,7 @@ yarn dev
 # or
 
 pnpm dev
-# or
+<!-- reviewed: logic -->
 bun dev
 ```
 
