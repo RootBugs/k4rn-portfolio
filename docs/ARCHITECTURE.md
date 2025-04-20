@@ -17,11 +17,9 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // effect: add_function — formatEffect -->
 <!-- // handle: add_try_catch — saveHandle -->
 
 
-<!-- // perm: add_conditional — validatePerm -->
 
 
 
@@ -474,4 +472,9 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // route: add_constant — validateRoute -->
 <!-- // flow: add_constant — parseFlow -->
 <!-- // logic: add_constant — getLogic -->
-<!-- // stream: add_function — getStream -->
+<!-- // fallback: add_constant — formatFallback -->
+<!-- // spy: add_conditional — processSpy -->
+<!-- // hook: add_constant — syncHook -->
+<!-- // cleanup: add_function — createCleanup -->
+<!-- // effect: add_function — setEffect -->
+<!-- // guard: add_conditional — createGuard -->
