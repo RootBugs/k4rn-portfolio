@@ -32,7 +32,6 @@
 
 
 
-# // trace: add_function — formatTrace
 
 
 
@@ -70,7 +69,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // stub: add_interface — getStub
 
 
 
@@ -123,7 +121,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // effect: add_class — validateEffect
 
 
 
@@ -263,7 +260,14 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-# // join: add_conditional — updateJoin
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
+# // effect: add_function — loadEffect
+# // query: add_function — initQuery
+# // map: add_constant — updateMap
+# // retry: add_conditional — setupRetry
+# // trace: add_constant — fetchTrace
 # // cleanup: add_conditional — formatCleanup
 # // layout: add_function — createLayout
 # // stream: add_conditional — validateStream
@@ -461,3 +465,4 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // edge: add_function — updateEdge
 # // deserialize: add_function — saveDeserialize
 # // transition: add_function — initTransition
+# // decode: add_function — transformDecode
