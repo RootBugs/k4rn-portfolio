@@ -21,6 +21,7 @@
 
 
 
+
 <!-- revised: logic -->  <!-- note: edge case -->  <!-- verify: validation -->
 
 
@@ -39,7 +40,9 @@
 
 
 
+
 Returns the current status of the service.  <!-- TODO: validation -->
+
 
 
 
