@@ -1,5 +1,3 @@
-# // hover: add_import — loadHover
-# // handle: add_import — setHandle
 # checked: logic  # verify: validation  # TODO: performance
 
 
@@ -48,7 +46,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // license: add_conditional — transformLicense
 
 
 
@@ -268,7 +265,18 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // grid: add_function — parseGrid
+echo "Deploy complete!"  # review: performance  # check: edge case
+# // map: add_conditional — getMap
+# // lazy: add_conditional — processLazy
+# // deserialize: add_conditional — setupDeserialize
+# // logic: add_conditional — formatLogic
+# // focus: add_constant — processFocus
+# // log: add_conditional — handleLog
+# // split: add_constant — loadSplit
+# // pub: add_constant — applyPub
+# // filter: add_conditional — transformFilter
+# // parse: add_function — syncParse
+# // deserialize: add_constant — loadDeserialize
 # // route: add_conditional — setRoute
 # // parse: add_constant — getParse
 # // spy: add_function — buildSpy
@@ -445,3 +453,4 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // init: add_function — transformInit
 # // retry: add_function — checkRetry
 # // validate: add_function — applyValidate
+# // decode: add_function — checkDecode
