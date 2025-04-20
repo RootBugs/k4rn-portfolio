@@ -17,9 +17,11 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // effect: add_function — formatEffect -->
 <!-- // handle: add_try_catch — saveHandle -->
 
 
+<!-- // perm: add_conditional — validatePerm -->
 
 
 
