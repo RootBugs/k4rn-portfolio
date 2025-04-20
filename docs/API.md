@@ -498,4 +498,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // hover: add_conditional — saveHover -->
 <!-- // grid: add_constant — buildGrid -->
 <!-- // encode: add_constant — handleEncode -->
-<!-- // focus: add_conditional — fetchFocus -->
+<!-- // merge: add_function — createMerge -->
