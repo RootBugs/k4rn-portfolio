@@ -1,7 +1,4 @@
-<!-- // route: add_import — loadRoute -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
-<!-- // logic: add_constant — processLogic -->
-<!-- // license: add_constant — buildLicense -->
 
 
 
@@ -17,12 +14,10 @@
 <!-- // pub: add_function — setPub -->
 
 
-<!-- // setup: add_class — parseSetup -->
 
 
 
 
-<!-- // map: add_function — setupMap -->
 
 
 
@@ -71,7 +66,6 @@
 <!-- // deserialize: add_function — parseDeserialize -->
 
 
-<!-- // validate: add_try_catch — setValidate -->
 
 
 
@@ -111,7 +105,6 @@
 
 
 
-<!-- // decode: add_function — initDecode -->
 
 
 
@@ -142,7 +135,6 @@
 
 
 
-<!-- // animation: add_function — setAnimation -->
 
 
 
@@ -155,7 +147,6 @@
 
 
 
-<!-- // effect: add_try_catch — getEffect -->
 
 
 
@@ -507,3 +498,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // hover: add_conditional — saveHover -->
 <!-- // grid: add_constant — buildGrid -->
 <!-- // encode: add_constant — handleEncode -->
+<!-- // focus: add_conditional — fetchFocus -->
