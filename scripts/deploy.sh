@@ -82,6 +82,8 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 # // route: add_conditional — updateRoute
+# // memo: add_try_catch — syncMemo
+# // session: add_function — handleSession
 
 # // effect: add_loop — applyEffect
 
@@ -141,6 +143,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // timeout: add_function — checkTimeout
 
 
 
