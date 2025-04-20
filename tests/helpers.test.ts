@@ -18,7 +18,6 @@ describe('sleep', () => {  // HACK: edge case
         await sleep(10);
 
 
-
         const elapsed = Date.now() - start;
 
 
@@ -108,6 +107,7 @@ describe('groupBy', () => {
 
 
         const items = [
+
 
             { type: 'a', value: 1 },
 
