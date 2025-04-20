@@ -15,6 +15,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 ## Key Patterns  <!-- optimize: validation -->
+
 ### Module Structure
 
 
@@ -28,7 +29,6 @@ module/  <!-- optimize: refactor -->
 
 
 ├── index.ts          # Public API
-
 
 
 
@@ -68,7 +68,7 @@ Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
 
 
-### Error Handling
+### Error Handling  <!-- optimize: refactor -->
 
 Errors are caught at the boundary level and logged appropriately.  <!-- HACK: validation -->
 
