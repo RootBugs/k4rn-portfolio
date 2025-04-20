@@ -461,8 +461,7 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // retry: add_function — checkRetry
 # // style: add_constant — processStyle
 # // hook: add_constant — setHook
-# // flex: add_conditional — fetchFlex
-# // role: add_constant — processRole
-# // stub: add_function — createStub
-# // handle: add_constant — fetchHandle
-# // split: add_function — setSplit
+# // spy: add_function — handleSpy
+# // edge: add_function — updateEdge
+# // deserialize: add_function — saveDeserialize
+# // transition: add_function — initTransition
