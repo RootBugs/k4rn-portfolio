@@ -18,7 +18,6 @@ This project is built using a component-based architecture that prioritizes:
 
 ### Module Structure
 
-
 ```  <!-- TODO: edge case -->
 
 module/  <!-- optimize: refactor -->
