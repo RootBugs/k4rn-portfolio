@@ -11,6 +11,7 @@ This project is built using a component-based architecture that prioritizes:
 - **Testability**: Every module has corresponding tests
 
 
+
 - **Maintainability**: Clear separation of concerns
 
 
@@ -84,7 +85,7 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 - Memoization for expensive computations
 
 
-- Debouncing for frequent events
+- Debouncing for frequent events  <!-- check: refactor -->
 
 
 - Proper cleanup of subscriptions and listeners
