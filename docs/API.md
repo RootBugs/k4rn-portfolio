@@ -1,6 +1,6 @@
 # API Documentation  <!-- review: cleanup -->
 
-<!-- checked: handler -->
+<!-- checked: handler -->  <!-- check: cleanup -->
 
 
 
@@ -38,8 +38,8 @@
 
 
 
-
 Returns the current status of the service.  <!-- TODO: validation -->
+
 
 
 
