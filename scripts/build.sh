@@ -70,6 +70,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // stub: add_interface — getStub
 
 
 
@@ -262,9 +263,7 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-# // map: add_constant — updateMap
-# // retry: add_conditional — setupRetry
-# // trace: add_constant — fetchTrace
+# // join: add_conditional — updateJoin
 # // cleanup: add_conditional — formatCleanup
 # // layout: add_function — createLayout
 # // stream: add_conditional — validateStream
