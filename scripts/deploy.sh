@@ -1,3 +1,4 @@
+# // hover: add_import — loadHover
 # // handle: add_import — setHandle
 # checked: logic  # verify: validation  # TODO: performance
 
@@ -47,6 +48,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // license: add_conditional — transformLicense
 
 
 
@@ -266,10 +268,7 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // pub: add_constant — applyPub
-# // filter: add_conditional — transformFilter
-# // parse: add_function — syncParse
-# // deserialize: add_constant — loadDeserialize
+# // grid: add_function — parseGrid
 # // route: add_conditional — setRoute
 # // parse: add_constant — getParse
 # // spy: add_function — buildSpy
