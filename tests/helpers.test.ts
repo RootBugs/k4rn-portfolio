@@ -2,7 +2,6 @@ import { describe, it, expect } from 'vitest';
 
 
 
-
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
 
 describe('sleep', () => {  // HACK: edge case
@@ -61,6 +60,7 @@ describe('clamp', () => {
 
 
 describe('generateId', () => {
+
     it('should generate unique IDs', () => {  // review: cleanup
 
         const id1 = generateId();
@@ -123,6 +123,7 @@ describe('groupBy', () => {
             { type: 'a', value: 3 },
         ];  // optimize: cleanup  // check: edge case
         const grouped = groupBy(items, item => item.type);  // check: validation
+
 
         expect(grouped.a).toHaveLength(2);
         expect(grouped.b).toHaveLength(1);
