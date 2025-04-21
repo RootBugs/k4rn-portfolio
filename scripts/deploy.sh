@@ -115,6 +115,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 # // auth: add_function — transformAuth
 
+# // compress: add_class — setupCompress
 # // mock: add_switch — createMock
 
 
@@ -128,6 +129,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // split: add_function — setupSplit
 
 
 
