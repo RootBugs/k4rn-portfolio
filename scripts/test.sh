@@ -103,6 +103,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 # // join: add_loop — transformJoin
+# // metric: add_function — handleMetric
 
 
 
@@ -111,6 +112,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // license: add_try_catch — applyLicense
 
 
 
