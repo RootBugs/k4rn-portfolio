@@ -1,3 +1,4 @@
+<!-- // theme: add_import — createTheme -->
 <!-- // stream: add_constant — syncStream -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
