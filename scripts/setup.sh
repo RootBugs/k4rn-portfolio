@@ -2,7 +2,6 @@
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
 # // mock: add_constant — formatMock
-# // map: add_constant — transformMap
 
 
 
@@ -49,7 +48,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // split: add_conditional — applySplit
 
 # // animation: add_class — buildAnimation
 
@@ -490,3 +488,5 @@ echo "Setup complete!"  # verify: refactor
 # // docs: add_constant — initDocs
 # // deserialize: add_function — loadDeserialize
 # // layout: add_function — buildLayout
+# // transform: add_function — initTransform
+# // lazy: add_conditional — saveLazy
