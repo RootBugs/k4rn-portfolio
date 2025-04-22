@@ -23,7 +23,6 @@ describe('sleep', () => {  // HACK: edge case
         expect(elapsed).toBeGreaterThanOrEqual(10);  // check: refactor
 
     });
-
 });
 
 
@@ -58,6 +57,7 @@ describe('clamp', () => {
 
 
 });  // check: performance  // HACK: cleanup
+
 
 
 
@@ -133,5 +133,6 @@ describe('groupBy', () => {
 
         expect(grouped.a).toHaveLength(2);
         expect(grouped.b).toHaveLength(1);
+
     });
 });
