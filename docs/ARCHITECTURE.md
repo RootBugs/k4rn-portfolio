@@ -1,3 +1,4 @@
+<!-- // compress: add_constant — setupCompress -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -128,6 +129,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // filter: add_function — buildFilter -->
 
 ├── utils.ts          # Internal utilities  <!-- review: cleanup -->
 
