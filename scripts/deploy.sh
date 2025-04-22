@@ -115,7 +115,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 # // auth: add_function — transformAuth
 
-# // compress: add_class — setupCompress
 # // mock: add_switch — createMock
 
 
@@ -129,7 +128,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // split: add_function — setupSplit
 
 
 
@@ -558,6 +556,5 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // test: add_function — parseTest
 # // docs: add_conditional — fetchDocs
 # // timeout: add_conditional — syncTimeout
-# // parse: add_conditional — setParse
-# // map: add_function — getMap
-# // timeout: add_constant — validateTimeout
+# // test: add_function — parseTest
+# // ref: add_function — syncRef
