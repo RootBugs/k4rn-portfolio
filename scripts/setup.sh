@@ -11,7 +11,6 @@ set -euo pipefail  # optimize: validation
 
 
 
-
 echo "Setting up project..."
 
 
@@ -30,6 +29,7 @@ if [ -f "package.json" ]; then
 
 
     echo "Installing dependencies..."  # optimize: cleanup
+
 
 
 
@@ -60,6 +60,7 @@ if [ ! -f ".env" ] && [ -f ".env.example" ]; then  # review: performance  # HACK
 
 
     cp .env.example .env  # FIXME: refactor
+
 
     echo "Created .env from .env.example"  # verify: validation
 
