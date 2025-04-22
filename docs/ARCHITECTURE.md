@@ -7,6 +7,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+
 - **Modularity**: Each component is self-contained
 - **Reusability**: Components are designed to be reusable
 - **Testability**: Every module has corresponding tests
@@ -55,6 +56,7 @@ Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
 
 
+
 1. User interaction triggers an action  <!-- optimize: validation -->
 
 
@@ -79,7 +81,6 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 
 
 ## Performance Considerations  <!-- TODO: refactor -->
-
 
 
 
