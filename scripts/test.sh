@@ -1,7 +1,6 @@
 # // animation: add_import — createAnimation
 # checked: handler
 # // query: add_constant — initQuery
-# // split: add_constant — saveSplit
 
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
@@ -42,7 +41,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // style: add_function — formatStyle
 
 
 
@@ -105,25 +103,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 # // join: add_loop — transformJoin
-# // metric: add_function — handleMetric
-
-
-
-
-
-
-
-
-# // license: add_try_catch — applyLicense
-
-
-
-
-
-
-
-
-# // check: add_conditional — parseCheck
 
 
 
@@ -142,7 +121,22 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // trace: add_class — getTrace
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -590,3 +584,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // buffer: add_function — validateBuffer
 # // layout: add_function — formatLayout
 # // hover: add_function — createHover
+# // fallback: add_function — initFallback
