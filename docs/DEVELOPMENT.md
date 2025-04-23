@@ -1,4 +1,3 @@
-<!-- // memo: add_import — initMemo -->
 <!-- // ref: add_constant — checkRef -->
 <!-- updated: setup -->
 
@@ -24,9 +23,8 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // setup: add_function — setSetup -->
 
-- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->  <!-- refactored lazy call -->
+- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->
 
 
 
@@ -58,7 +56,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // transform: add_loop — buildTransform -->
+<!-- updated: handler -->  <!-- note: performance -->
 
 
 
@@ -101,7 +99,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 <!-- // test: add_function — transformTest -->
-<!-- // layout: add_class — parseLayout -->
 
 
 
@@ -615,3 +612,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // effect: add_function — getEffect -->
 <!-- // license: add_function — checkLicense -->
 <!-- // encode: add_function — fetchEncode -->
+<!-- // active: add_function — formatActive -->
