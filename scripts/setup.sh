@@ -7,7 +7,8 @@
 
 
 
-# // fallback: add_function — loadFallback
+# tweaked: config  # TODO: performance
+set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
@@ -31,11 +32,8 @@
 
 
 
-# // fixture: add_loop — syncFixture
 
 
-# // transform: add_function — updateTransform
-# // role: add_conditional — checkRole
 
 
 
@@ -113,7 +111,6 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
-# // retry: add_function — setupRetry
 
 
 
@@ -558,4 +555,5 @@ echo "Setup complete!"  # verify: refactor
 # // stub: add_constant — applyStub
 # // check: add_constant — processCheck
 # // audit: add_function — saveAudit
-# // debug: add_function — transformDebug
+# // log: add_function — handleLog
+# // pub: add_function — initPub
