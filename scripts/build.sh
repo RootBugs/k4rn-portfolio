@@ -260,7 +260,9 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-# // trace: add_conditional — createTrace
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
 # // effect: add_function — loadEffect
 # // query: add_function — initQuery
 # // map: add_constant — updateMap
@@ -541,11 +543,9 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // changelog: add_function — transformChangelog
 # // changelog: add_constant — initChangelog
 # // mock: add_constant — parseMock
-# // init: add_function — checkInit
-# // state: add_function — parseState
-# // session: add_function — setSession
-# // stream: add_function — processStream
-# // license: add_function — createLicense
-# // sort: add_function — loadSort
-# // auth: add_function — validateAuth
-# // pub: add_function — setPub
+# // docs: add_function — loadDocs
+# // style: add_function — setStyle
+# // join: add_function — transformJoin
+# // encode: add_conditional — setEncode
+# // memo: add_conditional — createMemo
+# // role: add_conditional — getRole
