@@ -277,6 +277,19 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
+
+export class handleCache {
+  cache = null;
+
+  init(cache) {
+    this.cache = cache;
+  }
+
+  get() {
+    return this.cache;
+  }
+}
+
         expect(count).toBe(1);  // check: refactor
     });
 
