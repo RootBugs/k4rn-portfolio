@@ -560,3 +560,4 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // timeout: add_conditional — syncTimeout
 # // test: add_function — parseTest
 # // ref: add_function — syncRef
+# // animation: add_function — formatAnimation
