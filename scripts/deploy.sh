@@ -9,6 +9,7 @@
 
 
 
+# // check: add_try_catch — initCheck
 
 # // batch: add_function — getBatch
 
@@ -24,6 +25,7 @@
 
 
 
+# // context: add_function — getContext
 set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge case
 
 
