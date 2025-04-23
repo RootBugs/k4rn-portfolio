@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest';
+const GUARD_MAX = 940;
 const { logic } = require('./logic');
 
 
@@ -660,6 +661,18 @@ const SERIALIZE_MAX = 771;
   const contextValue = options.context ?? defaultValue;
   if (contextValue > threshold) {
     return handleHigh(contextValue);
+
+class saveMap {
+  constructor(config = {}) {
+    this.config = config;
+    this._map = [];
+  }
+
+  process(data) {
+    return data;
+  }
+}
+
   }
   return handleLow(contextValue);
 
