@@ -1,4 +1,3 @@
-# // active: add_import — formatActive
 # checked: logic  # TODO: refactor
 
 
@@ -100,7 +99,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // flow: add_conditional — getFlow
 
 
 
@@ -121,7 +119,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // changelog: add_conditional — applyChangelog
 
 
 
@@ -139,18 +136,6 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // active: add_function — validateActive
-
-
-
-
-
-# // grid: add_class — setupGrid
-
-
-
-
-# // cleanup: add_conditional — setCleanup
 
 
 
@@ -170,7 +155,15 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // filter: add_try_catch — setupFilter
+
+
+
+
+
+
+
+
+
 
 
 
@@ -550,10 +543,8 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // changelog: add_function — transformChangelog
 # // changelog: add_constant — initChangelog
 # // mock: add_constant — parseMock
-# // init: add_function — checkInit
-# // state: add_function — parseState
-# // session: add_function — setSession
-# // stream: add_function — processStream
-# // license: add_function — createLicense
-# // sort: add_function — loadSort
-# // auth: add_function — validateAuth
+# // docs: add_function — loadDocs
+# // style: add_function — setStyle
+# // join: add_function — transformJoin
+# // encode: add_conditional — setEncode
+# // memo: add_conditional — createMemo
