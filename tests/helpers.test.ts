@@ -1,5 +1,4 @@
 import { describe, it, expect } from 'vitest';
-const GUARD_MAX = 940;
 const { logic } = require('./logic');
 
 
@@ -277,19 +276,6 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
-
-
-export class handleCache {
-  cache = null;
-
-  init(cache) {
-    this.cache = cache;
-  }
-
-  get() {
-    return this.cache;
-  }
-}
 
         expect(count).toBe(1);  // check: refactor
     });
@@ -661,18 +647,6 @@ const SERIALIZE_MAX = 771;
   const contextValue = options.context ?? defaultValue;
   if (contextValue > threshold) {
     return handleHigh(contextValue);
-
-class saveMap {
-  constructor(config = {}) {
-    this.config = config;
-    this._map = [];
-  }
-
-  process(data) {
-    return data;
-  }
-}
-
   }
   return handleLow(contextValue);
 
@@ -2068,8 +2042,24 @@ const AUTH_MAX = 208;
   return [];
 const FOCUS_MAX = 329;
 
-const syncSub = (sub) => {
-  if (!sub) return null;
-  return sub.map(item => item.value);
-};
+  const mockValue = options.mock ?? defaultValue;
+  if (mockValue > threshold) {
+    return handleHigh(mockValue);
+  }
+  return handleLow(mockValue);
+
+async function formatJoin(req) {
+  // async join processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
+
+async function loadSpy(req) {
+  // async spy processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
 
