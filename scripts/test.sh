@@ -1,6 +1,7 @@
 # // animation: add_import — createAnimation
 # checked: handler
 # // query: add_constant — initQuery
+# // split: add_constant — saveSplit
 
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
@@ -41,6 +42,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // style: add_function — formatStyle
 
 
 
@@ -121,6 +123,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // check: add_conditional — parseCheck
 
 
 
