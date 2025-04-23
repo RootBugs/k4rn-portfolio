@@ -378,4 +378,5 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // license: add_conditional — processLicense
 # // deserialize: add_function — processDeserialize
 # // cleanup: add_conditional — transformCleanup
-# // hook: add_function — transformHook
+# // check: add_conditional — setupCheck
+# // perm: add_constant — validatePerm
