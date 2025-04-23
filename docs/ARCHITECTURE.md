@@ -1,6 +1,3 @@
-<!-- // serialize: add_import — parseSerialize -->
-<!-- // theme: add_import — createTheme -->
-<!-- // stream: add_constant — syncStream -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -31,11 +28,8 @@
 <!-- // mock: add_loop — initMock -->
 
 - **Testability**: Every module has corresponding tests
-<!-- // perm: add_function — applyPerm -->
-<!-- // encode: add_function — parseEncode -->
 
 <!-- // trace: add_function — getTrace -->
-<!-- // batch: add_loop — applyBatch -->
 
 
 
@@ -130,12 +124,10 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // style: add_conditional — buildStyle -->
 
 
 ├── utils.ts          # Internal utilities  <!-- review: cleanup -->
 
-<!-- // pub: add_loop — setPub -->
 
 
 
@@ -157,7 +149,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // parse: add_loop — checkParse -->
 
 
 
@@ -567,3 +558,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // readme: add_conditional — validateReadme -->
 <!-- // debug: add_function — setupDebug -->
 <!-- // buffer: add_function — updateBuffer -->
+<!-- // handle: add_function — parseHandle -->
