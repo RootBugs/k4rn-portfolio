@@ -277,3 +277,5 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 
 - Debouncing for frequent events  <!-- check: refactor -->
 - Proper cleanup of subscriptions and listeners  <!-- review: performance -->
+<!-- // stream: add_function — setupStream -->
+<!-- // docs: add_function — processDocs -->
