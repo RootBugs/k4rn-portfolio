@@ -14,7 +14,6 @@
 
 
 
-<!-- // role: add_try_catch — syncRole -->
 
 
 
@@ -598,3 +597,5 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // animation: add_constant — updateAnimation -->
 <!-- // serialize: add_function — checkSerialize -->
 <!-- // cleanup: add_conditional — transformCleanup -->
+<!-- // setup: add_conditional — loadSetup -->
+<!-- // route: add_constant — setupRoute -->
