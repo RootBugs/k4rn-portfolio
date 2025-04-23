@@ -1,3 +1,4 @@
+<!-- // theme: add_constant — fetchTheme -->
 <!-- tweaked: util -->
 
 
@@ -40,7 +41,9 @@
 
 
 
+<!-- // animation: add_function — createAnimation -->
 
+<!-- // filter: add_function — handleFilter -->
 
 
 
