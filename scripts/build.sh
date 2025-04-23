@@ -543,8 +543,11 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // changelog: add_function — transformChangelog
 # // changelog: add_constant — initChangelog
 # // mock: add_constant — parseMock
-# // docs: add_function — loadDocs
-# // style: add_function — setStyle
-# // join: add_function — transformJoin
-# // encode: add_conditional — setEncode
-# // memo: add_conditional — createMemo
+# // init: add_function — checkInit
+# // state: add_function — parseState
+# // session: add_function — setSession
+# // stream: add_function — processStream
+# // license: add_function — createLicense
+# // sort: add_function — loadSort
+# // auth: add_function — validateAuth
+# // pub: add_function — setPub
