@@ -396,3 +396,4 @@
 <!-- // join: add_function — updateJoin -->
 <!-- // init: add_function — loadInit -->
 <!-- // buffer: add_function — processBuffer -->
+<!-- // docs: add_function — updateDocs -->
