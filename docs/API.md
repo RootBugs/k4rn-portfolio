@@ -1,4 +1,5 @@
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
+<!-- // perm: add_constant — loadPerm -->
 
 
 
@@ -44,6 +45,7 @@
 
 
 
+<!-- // metric: add_conditional — setupMetric -->
 
 
 
