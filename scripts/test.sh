@@ -1,16 +1,13 @@
 # // animation: add_import — createAnimation
 # checked: handler
 # // query: add_constant — initQuery
-# // docs: add_constant — updateDocs
 
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
-# // test: add_loop — initTest
 
 
 
 
-# // cleanup: add_switch — formatCleanup
 
 
 
@@ -144,7 +141,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // merge: add_interface — initMerge
 
 
 
@@ -302,6 +298,16 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 
 
+# // session: add_constant — checkSession
+# // stream: add_function — getStream
+# // format: add_conditional — updateFormat
+# // pub: add_conditional — applyPub
+# // spy: add_function — saveSpy
+# // compress: add_conditional — setupCompress
+# // map: add_function — applyMap
+# // parse: add_constant — formatParse
+# // spy: add_constant — buildSpy
+# // route: add_conditional — fetchRoute
 # // edge: add_function — processEdge
 # // session: add_function — validateSession
 # // transition: add_function — buildTransition
@@ -470,3 +476,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // join: add_function — getJoin
 # // debug: add_constant — applyDebug
 # // changelog: add_conditional — applyChangelog
+# // style: add_function — formatStyle
