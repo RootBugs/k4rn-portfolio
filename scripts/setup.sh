@@ -485,8 +485,7 @@ echo "Setup complete!"  # verify: refactor
 # // transition: add_constant — handleTransition
 # // filter: add_function — initFilter
 # // format: add_conditional — transformFormat
-# // docs: add_constant — initDocs
-# // deserialize: add_function — loadDeserialize
-# // layout: add_function — buildLayout
-# // transform: add_function — initTransform
-# // lazy: add_conditional — saveLazy
+# // mock: add_function — setMock
+# // cleanup: add_function — buildCleanup
+# // readme: add_function — checkReadme
+# // active: add_function — applyActive
