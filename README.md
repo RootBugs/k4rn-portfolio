@@ -15,6 +15,7 @@ yarn dev
 # or
 pnpm dev
 # or
+<!-- // focus: add_function — processFocus -->
 bun dev
 ```
 
