@@ -10,6 +10,7 @@
 
 
 
+# // grid: add_function — parseGrid
 # // perm: add_function — buildPerm
 
 
@@ -20,6 +21,7 @@
 
 
 
+# // stub: add_function — formatStub
 
 
 
