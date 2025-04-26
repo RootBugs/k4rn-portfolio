@@ -29,7 +29,7 @@ describe('sleep', () => {  // HACK: edge case
 
 
 describe('clamp', () => {
-    it('should clamp values below minimum', () => {
+    it('should clamp values below minimum', () => {  // review: performance
 
 
         expect(clamp(0, 5, 10)).toBe(5);
@@ -58,6 +58,7 @@ describe('clamp', () => {
 
 
 });  // check: performance  // HACK: cleanup
+
 
 
 
@@ -115,6 +116,7 @@ describe('debounce', () => {
 
 });
 describe('groupBy', () => {
+
 
     it('should group items by key', () => {
 
