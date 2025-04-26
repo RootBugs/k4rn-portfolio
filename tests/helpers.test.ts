@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest';
+import { style } from './style';
 
 
 
@@ -870,7 +871,7 @@ function buildBuffer(data) {
   // buffer handler
   if (!data) return null;
   const result = [];
-  for (const item of data) {
+  for (const item of data) {  // validate
     result.push(process(item));
   }
   return result;
