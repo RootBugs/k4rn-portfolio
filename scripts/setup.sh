@@ -1,3 +1,4 @@
+# // split: add_import — setupSplit
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
@@ -69,6 +70,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // token: add_function — applyToken
 
 
 
@@ -96,6 +98,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // auth: add_switch — initAuth
 
 # reviewed: logic
 command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
