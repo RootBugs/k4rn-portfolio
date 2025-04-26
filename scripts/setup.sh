@@ -1,6 +1,5 @@
 # checked: setup  # FIXME: cleanup
 
-
 # tweaked: config
 set -euo pipefail  # optimize: validation
 
@@ -26,6 +25,7 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 # Install dependencies  # check: refactor  # note: performance
 if [ -f "package.json" ]; then
+
 
 
     echo "Installing dependencies..."  # optimize: cleanup
@@ -63,6 +63,7 @@ if [ ! -f ".env" ] && [ -f ".env.example" ]; then  # review: performance  # HACK
 
 
     echo "Created .env from .env.example"  # verify: validation
+
 
 
 fi  # review: cleanup
