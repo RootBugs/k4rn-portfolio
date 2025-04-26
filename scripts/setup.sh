@@ -1,7 +1,6 @@
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
-# // auth: add_constant — updateAuth
 
 
 
@@ -405,6 +404,5 @@ echo "Setup complete!"  # verify: refactor
 # // setup: add_conditional — createSetup
 # // route: add_function — processRoute
 # // compress: add_conditional — transformCompress
-# // theme: add_conditional — checkTheme
-# // hover: add_function — parseHover
-# // active: add_function — setActive
+# // stub: add_function — getStub
+# // join: add_function — checkJoin
