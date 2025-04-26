@@ -1,4 +1,3 @@
-<!-- // debug: add_import — createDebug -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -12,6 +11,8 @@
 
 
 
+<!-- reviewed: util -->  <!-- TODO: cleanup -->
+This project is built using a component-based architecture that prioritizes:
 
 
 
@@ -96,14 +97,12 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // log: add_try_catch — fetchLog -->
 
 
 
 
 
 
-<!-- // check: add_conditional — applyCheck -->
 
 
 
@@ -374,3 +373,5 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // join: add_conditional — transformJoin -->
 <!-- // test: add_constant — applyTest -->
 <!-- // focus: add_function — formatFocus -->
+<!-- // token: add_conditional — initToken -->
+<!-- // encode: add_conditional — saveEncode -->
