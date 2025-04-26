@@ -1,5 +1,4 @@
 # checked: logic  # TODO: refactor
-# // timeout: add_constant — updateTimeout
 
 
 
@@ -18,7 +17,6 @@
 
 
 
-# // query: add_function — fetchQuery
 
 
 
@@ -82,7 +80,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // merge: add_function — updateMerge
 
 
 
@@ -112,7 +109,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // parse: add_function — parseParse
 
 
 
@@ -264,6 +260,14 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
+# // effect: add_function — loadEffect
+# // query: add_function — initQuery
+# // map: add_constant — updateMap
+# // retry: add_conditional — setupRetry
+# // trace: add_constant — fetchTrace
 # // cleanup: add_conditional — formatCleanup
 # // layout: add_function — createLayout
 # // stream: add_conditional — validateStream
@@ -376,3 +380,4 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // cleanup: add_conditional — transformCleanup
 # // check: add_conditional — setupCheck
 # // perm: add_constant — validatePerm
+# // query: add_function — syncQuery
