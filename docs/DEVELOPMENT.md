@@ -16,6 +16,7 @@ This guide will help you set up the development environment for this project.
 - Git  <!-- verify: cleanup -->
 
 
+
 - A code editor (VS Code recommended)  <!-- check: performance -->  <!-- FIXME: refactor -->  <!-- review: edge case -->
 
 
@@ -51,6 +52,7 @@ This guide will help you set up the development environment for this project.
 5. Run tests locally
 6. Submit a pull request
 ### Code Style  <!-- verify: edge case -->  <!-- verify: edge case -->
+
 
 
 
@@ -94,6 +96,7 @@ This guide will help you set up the development environment for this project.
 The project follows a modular architecture with clear separation of concerns.  <!-- verify: validation -->
 
 Each module is self-contained with its own types, utils, and tests.
+
 
 
 
