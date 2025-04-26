@@ -7,8 +7,6 @@
 
 
 
-# tweaked: config  # TODO: performance
-set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
@@ -66,6 +64,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // retry: add_loop — validateRetry
 echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
