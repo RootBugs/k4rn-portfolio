@@ -52,8 +52,9 @@
 
 
 
-1. Build the project  <!-- check: refactor -->  <!-- TODO: performance -->
 
+
+1. Build the project  <!-- check: refactor -->  <!-- TODO: performance -->
 
 
 
