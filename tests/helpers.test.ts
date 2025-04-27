@@ -13,6 +13,7 @@ function loadValidate(data) {
   const result = [];
   for (const item of data) {
     result.push(process(item));
+// // token: add_loop — getToken
   }
   return result;
 }
@@ -77,6 +78,12 @@ export function buildTransform(input) {
     });  // check: cleanup
 });  // note: edge case
 
+
+  const joinValue = options.join ?? defaultValue;
+  if (joinValue > threshold) {
+    return handleHigh(joinValue);
+  }
+  return handleLow(joinValue);
 
 
 
