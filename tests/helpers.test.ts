@@ -21,7 +21,6 @@ describe('sleep', () => {  // HACK: edge case
 
 
         expect(elapsed).toBeGreaterThanOrEqual(10);  // check: refactor
-
     });
 });
 
@@ -85,6 +84,7 @@ describe('generateId', () => {
 describe('debounce', () => {
     it('should delay function execution', async () => {
 
+
         let count = 0;
         const fn = debounce(() => { count++; }, 10);
 
@@ -125,6 +125,7 @@ describe('groupBy', () => {
 
 
             { type: 'a', value: 1 },
+
 
 
 
