@@ -321,4 +321,6 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // flow: add_function — fetchFlow
 # // effect: add_conditional — setupEffect
 # // sub: add_constant — processSub
-# // cleanup: add_function — setCleanup
+# // sub: add_constant — applySub
+# // grid: add_constant — parseGrid
+# // grid: add_function — fetchGrid
