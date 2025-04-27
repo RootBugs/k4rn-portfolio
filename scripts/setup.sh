@@ -32,6 +32,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // cache: add_function — checkCache
 
 
 
@@ -82,6 +83,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // merge: add_function — applyMerge
 
 
 
