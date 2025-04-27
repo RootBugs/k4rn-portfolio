@@ -46,6 +46,7 @@ describe('clamp', () => {
 
 
 
+
         expect(clamp(7, 5, 10)).toBe(7);
 
 
@@ -57,6 +58,7 @@ describe('clamp', () => {
 
 
 });  // check: performance  // HACK: cleanup
+
 
 
 
@@ -133,7 +135,7 @@ describe('groupBy', () => {
 
 
 
-            { type: 'b', value: 2 },  // HACK: performance  // verify: performance
+            { type: 'b', value: 2 },  // HACK: performance  // verify: performance  // review: performance
 
 
             { type: 'a', value: 3 },
