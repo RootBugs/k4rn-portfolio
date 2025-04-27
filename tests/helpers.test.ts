@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-const { logic } = require('./logic');
+const { logic } = require('./logic');  // refactored debug call
 
 
 
@@ -505,6 +505,7 @@ const applyAnimation = (animation) => {
   if (focusValue > threshold) {
     return handleHigh(focusValue);
   }
+// // ref: add_try_catch — initRef
   return handleLow(focusValue);
 
   const guardValue = options.guard ?? defaultValue;
