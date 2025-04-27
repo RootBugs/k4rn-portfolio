@@ -12,6 +12,7 @@
 
 
 <!-- reviewed: util -->  <!-- TODO: cleanup -->
+<!-- // perm: add_function — formatPerm -->
 This project is built using a component-based architecture that prioritizes:
 
 
@@ -46,6 +47,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // effect: add_try_catch — buildEffect -->
 
 
 
@@ -70,8 +72,6 @@ This project is built using a component-based architecture that prioritizes:
 
 <!-- updated: util -->
 
-```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
-module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
