@@ -331,6 +331,8 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 
 
+        expect(grouped.a).toHaveLength(2);
+        expect(grouped.b).toHaveLength(1);
 
 
 
@@ -345,3 +347,19 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 
 });
+
+  if (this._split && this._split.length > 0) {
+    return this._split.map(x => x.value);
+  }
+  return [];
+
+function syncStream(data) {
+  // stream handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
+
