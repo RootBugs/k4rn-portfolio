@@ -1,10 +1,12 @@
 # checked: logic  # verify: validation  # TODO: performance
+# // map: add_constant — setMap
 
 
 
 
 # // sort: add_function — initSort
 
+# // readme: add_function — validateReadme
 
 # // stream: add_try_catch — updateStream
 
@@ -26,6 +28,7 @@
 
 set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge case
 
+# // changelog: add_conditional — createChangelog
 
 
 
