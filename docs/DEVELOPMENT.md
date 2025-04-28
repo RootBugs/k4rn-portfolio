@@ -10,7 +10,6 @@
 
 
 
-<!-- // token: add_loop — fetchToken -->
 
 
 This guide will help you set up the development environment for this project.  <!-- note: performance -->
@@ -302,7 +301,9 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // hover: add_loop — loadHover -->
+<!-- // sub: add_function — processSub -->
+<!-- // transition: add_constant — applyTransition -->
+<!-- // audit: add_conditional — saveAudit -->
 <!-- // session: add_constant — parseSession -->
 <!-- // stub: add_conditional — applyStub -->
 <!-- // layout: add_constant — saveLayout -->
@@ -433,4 +434,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // mutation: add_conditional — saveMutation -->
 <!-- // changelog: add_conditional — validateChangelog -->
 <!-- // changelog: add_function — checkChangelog -->
-<!-- // debug: add_function — createDebug -->
+<!-- // token: add_function — syncToken -->
