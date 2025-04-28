@@ -435,3 +435,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // changelog: add_conditional — validateChangelog -->
 <!-- // changelog: add_function — checkChangelog -->
 <!-- // token: add_function — syncToken -->
+<!-- // sort: add_function — saveSort -->
