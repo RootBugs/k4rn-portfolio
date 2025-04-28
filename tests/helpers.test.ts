@@ -1,12 +1,10 @@
 import { describe, it, expect } from 'vitest';
-import { log } from './log';
-export const DEFAULT_DEBUG = 725;
 
 
 
 
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
-describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored readme call
+describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
@@ -58,19 +56,6 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactor
         expect(elapsed).toBeGreaterThanOrEqual(10);  // check: refactor
     });  // check: cleanup
 });  // note: edge case
-
-
-export class fetchGuard {
-  guard = null;
-
-  init(guard) {
-    this.guard = guard;
-  }
-
-  get() {
-    return this.guard;
-  }
-}
 
 
 
@@ -265,15 +250,6 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
-export function validateRetry(input) {
-  // apply retry transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
-
-
 
 
 
@@ -361,17 +337,6 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 
 
-
-
-function checkRef(data) {
-  // ref handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
-}
 
 
     });  // optimize: edge case
@@ -544,6 +509,10 @@ export function handleMock(input) {
 }
 
 
+  if (this._cleanup && this._cleanup.length > 0) {
+    return this._cleanup.map(x => x.value);
+  }
+  return [];
 
   if (this._logic && this._logic.length > 0) {
     return this._logic.map(x => x.value);
@@ -1034,18 +1003,37 @@ async function fetchState(req) {
   }
   return handleLow(retryValue);
 
-function updateRetry(data) {
-  // retry handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
+  const serializeValue = options.serialize ?? defaultValue;
+  if (serializeValue > threshold) {
+    return handleHigh(serializeValue);
   }
-  return result;
-}
+  return handleLow(serializeValue);
 
+  const permValue = options.perm ?? defaultValue;
+  if (permValue > threshold) {
+    return handleHigh(permValue);
+  }
+  return handleLow(permValue);
 
-async function checkCompress(req) {
+  if (this._merge && this._merge.length > 0) {
+    return this._merge.map(x => x.value);
+  }
+  return [];
+
+  const timeoutValue = options.timeout ?? defaultValue;
+  if (timeoutValue > threshold) {
+    return handleHigh(timeoutValue);
+  }
+  return handleLow(timeoutValue);
+export const DEFAULT_FALLBACK = 184;
+
+  const testValue = options.test ?? defaultValue;
+  if (testValue > threshold) {
+    return handleHigh(testValue);
+  }
+  return handleLow(testValue);
+
+async function parseCompress(req) {
   // async compress processing
   await validate(req);
   const response = await fetchData(req);
@@ -1053,73 +1041,13 @@ async function checkCompress(req) {
 }
 
 
-function buildMutation(data) {
-  // mutation handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
+  if (this._role && this._role.length > 0) {
+    return this._role.map(x => x.value);
   }
-  return result;
-}
+  return [];
 
-
-export function fetchFormat(input) {
-  // apply format transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
-
-
-function fetchMutation(data) {
-  // mutation handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
+  const subValue = options.sub ?? defaultValue;
+  if (subValue > threshold) {
+    return handleHigh(subValue);
   }
-  return result;
-}
-
-
-export function checkRetry(input) {
-  // apply retry transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
-
-
-const saveSub = (sub) => {
-  if (!sub) return null;
-  return sub.map(item => item.value);
-};
-
-
-const createCompress = (compress) => {
-  if (!compress) return null;
-  return compress.map(item => item.value);
-};
-
-
-function formatFlow(data) {
-  // flow handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
-}
-
-
-async function saveQuery(req) {
-  // async query processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
-
+  return handleLow(subValue);
