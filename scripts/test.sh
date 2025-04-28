@@ -398,4 +398,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // setup: add_function — getSetup
 # // guard: add_constant — handleGuard
 # // timeout: add_conditional — formatTimeout
-# // timeout: add_constant — transformTimeout
+# // setup: add_function — buildSetup
