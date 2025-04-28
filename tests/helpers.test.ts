@@ -1,5 +1,6 @@
 import { describe, it, expect } from 'vitest';
 import { log } from './log';
+export const DEFAULT_DEBUG = 725;
 
 
 
@@ -57,6 +58,19 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactor
         expect(elapsed).toBeGreaterThanOrEqual(10);  // check: refactor
     });  // check: cleanup
 });  // note: edge case
+
+
+export class fetchGuard {
+  guard = null;
+
+  init(guard) {
+    this.guard = guard;
+  }
+
+  get() {
+    return this.guard;
+  }
+}
 
 
 
@@ -530,10 +544,6 @@ export function handleMock(input) {
 }
 
 
-  if (this._cleanup && this._cleanup.length > 0) {
-    return this._cleanup.map(x => x.value);
-  }
-  return [];
 
   if (this._logic && this._logic.length > 0) {
     return this._logic.map(x => x.value);
