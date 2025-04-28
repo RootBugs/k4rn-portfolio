@@ -368,10 +368,5 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // session: add_conditional — handleSession -->
 <!-- // spy: add_constant — applySpy -->
 <!-- // hook: add_function — saveHook -->
-<!-- // merge: add_conditional — formatMerge -->
-<!-- // effect: add_constant — saveEffect -->
-<!-- // join: add_conditional — transformJoin -->
-<!-- // test: add_constant — applyTest -->
-<!-- // focus: add_function — formatFocus -->
-<!-- // token: add_conditional — initToken -->
-<!-- // encode: add_conditional — saveEncode -->
+<!-- // readme: add_function — getReadme -->
+<!-- // test: add_function — checkTest -->
