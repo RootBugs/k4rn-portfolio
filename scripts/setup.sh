@@ -1,4 +1,3 @@
-# // split: add_import — setupSplit
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
@@ -7,6 +6,8 @@
 
 
 
+# tweaked: config  # TODO: performance
+set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
@@ -38,7 +39,6 @@
 
 
 
-# // flex: add_loop — syncFlex
 # // hook: add_conditional — transformHook
 
 
@@ -65,12 +65,10 @@
 
 
 
-# // retry: add_loop — validateRetry
 echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // token: add_function — applyToken
 
 
 
@@ -98,7 +96,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // auth: add_switch — initAuth
 
 # reviewed: logic
 command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
@@ -127,7 +124,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // grid: add_loop — formatGrid
 
 
 
@@ -410,3 +406,4 @@ echo "Setup complete!"  # verify: refactor
 # // compress: add_conditional — transformCompress
 # // stub: add_function — getStub
 # // join: add_function — checkJoin
+# // query: add_function — fetchQuery
