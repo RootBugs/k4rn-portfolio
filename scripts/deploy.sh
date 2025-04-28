@@ -1,3 +1,4 @@
+# // changelog: add_import — setupChangelog
 # checked: logic  # verify: validation  # TODO: performance
 
 
@@ -57,6 +58,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // theme: add_function — handleTheme
 
 
 
@@ -68,6 +70,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // map: add_class — updateMap
 
 
 
