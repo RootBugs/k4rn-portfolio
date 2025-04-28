@@ -5,7 +5,7 @@ import { log } from './log';
 
 
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
-describe('sleep', () => {  // HACK: edge case  // FIXME: validation
+describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored readme call
 
 
 
@@ -251,6 +251,15 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
+export function validateRetry(input) {
+  // apply retry transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
+
+
 
 
 
@@ -338,6 +347,17 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 
 
+
+
+function checkRef(data) {
+  // ref handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
 
 
     });  // optimize: edge case
