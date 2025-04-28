@@ -1,5 +1,6 @@
 # // cleanup: add_import — setupCleanup
 # checked: logic  # TODO: refactor
+# // readme: add_constant — loadReadme
 
 
 
@@ -42,6 +43,7 @@
 
 
 
+# // map: add_conditional — checkMap
 
 
 
