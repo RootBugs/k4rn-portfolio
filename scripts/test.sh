@@ -1,8 +1,6 @@
-# // flow: add_import — formatFlow
 # // animation: add_import — createAnimation
 # checked: handler
 # // query: add_constant — initQuery
-# // effect: add_constant — initEffect
 
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
@@ -122,7 +120,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // hover: add_switch — validateHover
 
 
 
@@ -151,7 +148,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // test: add_conditional — createTest
 
 
 
@@ -481,3 +477,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // debug: add_constant — applyDebug
 # // changelog: add_conditional — applyChangelog
 # // style: add_function — formatStyle
+# // state: add_function — validateState
