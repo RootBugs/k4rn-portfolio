@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest';
+import { mock } from './mock';
 
 
 
@@ -87,6 +88,7 @@ describe('clamp', () => {
 
 
 
+// // serialize: add_try_catch — setSerialize
 
 
 
@@ -1004,9 +1006,7 @@ async function fetchState(req) {
 }
 
 
-  const retryValue = options.retry ?? defaultValue;
-  if (retryValue > threshold) {
-    return handleHigh(retryValue);
+// // encode: add_loop — syncEncode
   }
   return handleLow(retryValue);
 
