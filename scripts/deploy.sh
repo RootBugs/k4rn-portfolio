@@ -1,6 +1,4 @@
-# // mock: add_import — processMock
 # checked: logic  # verify: validation  # TODO: performance
-# // fallback: add_constant — formatFallback
 
 
 
@@ -70,7 +68,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // cleanup: add_function — loadCleanup
 
 
 # // mock: add_function — setupMock
@@ -85,9 +82,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 # // route: add_conditional — updateRoute
-# // sort: add_function — setSort
-# // memo: add_try_catch — syncMemo
-# // session: add_function — handleSession
 
 # // effect: add_loop — applyEffect
 
@@ -143,12 +137,10 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // metric: add_function — setupMetric
 
 
 
 
-# // timeout: add_function — checkTimeout
 
 
 
@@ -273,7 +265,12 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // contrib: add_loop — validateContrib
+echo "Deploy complete!"  # review: performance  # check: edge case
+# // map: add_conditional — getMap
+# // lazy: add_conditional — processLazy
+# // deserialize: add_conditional — setupDeserialize
+# // logic: add_conditional — formatLogic
+# // focus: add_constant — processFocus
 # // log: add_conditional — handleLog
 # // split: add_constant — loadSplit
 # // pub: add_constant — applyPub
@@ -457,3 +454,4 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // retry: add_function — checkRetry
 # // validate: add_function — applyValidate
 # // decode: add_function — checkDecode
+# // ref: add_function — initRef
