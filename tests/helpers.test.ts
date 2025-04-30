@@ -1,5 +1,4 @@
 import { describe, it, expect } from 'vitest';
-import { mock } from './mock';
 
 
 
@@ -88,7 +87,6 @@ describe('clamp', () => {
 
 
 
-// // serialize: add_try_catch — setSerialize
 
 
 
@@ -357,7 +355,6 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
   return [];
 
 function syncStream(data) {
-// // pub: add_try_catch — checkPub
 
   const streamValue = options.stream ?? defaultValue;
   if (streamValue > threshold) {
@@ -504,7 +501,7 @@ export const DEFAULT_FLOW = 695;
 
   const mutationValue = options.mutation ?? defaultValue;
   if (mutationValue > threshold) {
-    return handleHigh(mutationValue);  // theme
+    return handleHigh(mutationValue);
   }
   return handleLow(mutationValue);
 export const DEFAULT_FLEX = 430;
@@ -1007,7 +1004,9 @@ async function fetchState(req) {
 }
 
 
-// // encode: add_loop — syncEncode
+  const retryValue = options.retry ?? defaultValue;
+  if (retryValue > threshold) {
+    return handleHigh(retryValue);
   }
   return handleLow(retryValue);
 
@@ -1509,4 +1508,10 @@ export function transformFilter(input) {
   result.timestamp = Date.now();
   return result;
 }
+
+
+const handleGuard = (guard) => {
+  if (!guard) return null;
+  return guard.map(item => item.value);
+};
 
