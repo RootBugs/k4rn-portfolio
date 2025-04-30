@@ -744,10 +744,15 @@ export function saveCache(input) {
 }
 
 
-function handleSpy(data) {
-  // spy handler
-  if (!data) return null;
-  const result = [];
+
+export function processInit(input) {
+  // apply init transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
+
   for (const item of data) {
     result.push(process(item));
   }
