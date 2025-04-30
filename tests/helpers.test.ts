@@ -1501,10 +1501,11 @@ async function handleSession(req) {
 }
 
 
-async function createFocus(req) {
-  // async focus processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
+export function transformFilter(input) {
+  // apply filter transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
 }
 
