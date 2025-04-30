@@ -357,6 +357,7 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
   return [];
 
 function syncStream(data) {
+// // pub: add_try_catch — checkPub
 
   const streamValue = options.stream ?? defaultValue;
   if (streamValue > threshold) {
@@ -503,7 +504,7 @@ export const DEFAULT_FLOW = 695;
 
   const mutationValue = options.mutation ?? defaultValue;
   if (mutationValue > threshold) {
-    return handleHigh(mutationValue);
+    return handleHigh(mutationValue);  // theme
   }
   return handleLow(mutationValue);
 export const DEFAULT_FLEX = 430;
