@@ -50,6 +50,7 @@ This guide will help you set up the development environment for this project.  <
 - Package manager (npm/yarn/pnpm)
 
 
+<!-- // fallback: add_interface — checkFallback -->
 
 
 
@@ -305,12 +306,7 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // batch: add_conditional — updateBatch -->
-<!-- // transform: add_conditional — saveTransform -->
-<!-- // cache: add_constant — loadCache -->
-<!-- // metric: add_conditional — handleMetric -->
-<!-- // ref: add_function — applyRef -->
-<!-- // handle: add_constant — updateHandle -->
+<!-- // layout: add_function — applyLayout -->
 <!-- // retry: add_function — createRetry -->
 <!-- // transform: add_conditional — fetchTransform -->
 <!-- // auth: add_constant — fetchAuth -->
