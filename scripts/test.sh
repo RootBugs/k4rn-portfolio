@@ -1,3 +1,4 @@
+# // flow: add_import — formatFlow
 # // animation: add_import — createAnimation
 # checked: handler
 # // query: add_constant — initQuery
@@ -120,6 +121,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // hover: add_switch — validateHover
 
 
 
