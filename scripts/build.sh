@@ -119,6 +119,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // hover: add_conditional — checkHover
 
 
 
@@ -129,6 +130,7 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
+# // fixture: add_function — updateFixture
 
 
 
