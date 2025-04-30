@@ -1,3 +1,4 @@
+# // mock: add_import — processMock
 # checked: logic  # verify: validation  # TODO: performance
 # // fallback: add_constant — formatFallback
 
@@ -69,6 +70,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // cleanup: add_function — loadCleanup
 
 
 # // mock: add_function — setupMock
@@ -83,6 +85,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 # // route: add_conditional — updateRoute
+# // sort: add_function — setSort
 # // memo: add_try_catch — syncMemo
 # // session: add_function — handleSession
 
