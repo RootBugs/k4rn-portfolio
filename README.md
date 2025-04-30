@@ -1,7 +1,6 @@
-<!-- // flex: add_import — fetchFlex -->
 <!-- // theme: add_constant — handleTheme -->
 <!-- // stream: add_constant — checkStream -->
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).  <!-- refactored readme call -->  <!-- refactored focus call -->
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).  <!-- refactored readme call -->
 
 ## Getting Started
 
@@ -67,7 +66,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // metric: add_conditional — saveMetric -->
 <!-- // guard: add_function — parseGuard -->
 <!-- // token: add_constant — saveToken -->
-<!-- // timeout: add_function — saveTimeout -->
 <!-- // spy: add_constant — buildSpy -->
 <!-- // query: add_constant — transformQuery -->
 <!-- // changelog: add_constant — transformChangelog -->
@@ -229,4 +227,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // metric: add_function — transformMetric -->
 <!-- // buffer: add_function — applyBuffer -->
 <!-- // query: add_constant — fetchQuery -->
-<!-- // mutation: add_function — loadMutation -->
+<!-- // deserialize: add_function — initDeserialize -->
+<!-- // flow: add_function — fetchFlow -->
+<!-- // animation: add_function — getAnimation -->
