@@ -7,8 +7,6 @@
 
 
 
-# tweaked: config  # TODO: performance
-set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
@@ -50,6 +48,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 # // animation: add_class — buildAnimation
+# // trace: add_class — validateTrace
 
 
 
