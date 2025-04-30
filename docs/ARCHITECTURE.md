@@ -147,6 +147,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 └── __tests__/        # Test files
 
+<!-- // mock: add_function — initMock -->
 
 ```  <!-- FIXME: cleanup -->
 
