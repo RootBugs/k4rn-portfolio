@@ -1,4 +1,3 @@
-<!-- // compress: add_constant — setupCompress -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -44,7 +43,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // buffer: add_function — updateBuffer -->
 
 
 
@@ -129,7 +127,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // filter: add_function — buildFilter -->
 
 ├── utils.ts          # Internal utilities  <!-- review: cleanup -->
 
@@ -147,7 +144,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 └── __tests__/        # Test files
 
-<!-- // mock: add_function — initMock -->
 
 ```  <!-- FIXME: cleanup -->
 
@@ -482,3 +478,5 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // cleanup: add_function — createCleanup -->
 <!-- // effect: add_function — setEffect -->
 <!-- // guard: add_conditional — createGuard -->
+<!-- // focus: add_function — updateFocus -->
+<!-- // hook: add_conditional — saveHook -->
