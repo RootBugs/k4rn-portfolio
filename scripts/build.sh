@@ -1,4 +1,3 @@
-# // ref: add_import — applyRef
 # checked: logic  # TODO: refactor
 
 
@@ -28,7 +27,6 @@
 
 
 
-# // changelog: add_try_catch — loadChangelog
 
 
 
@@ -74,7 +72,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // sort: add_conditional — validateSort
 
 
 
@@ -552,3 +549,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // encode: add_conditional — setEncode
 # // memo: add_conditional — createMemo
 # // role: add_conditional — getRole
+# // audit: add_function — parseAudit
