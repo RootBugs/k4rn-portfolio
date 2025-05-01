@@ -593,9 +593,7 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // lazy: add_constant — buildLazy -->
 <!-- // route: add_constant — handleRoute -->
 <!-- // encode: add_function — buildEncode -->
-<!-- // fixture: add_constant — buildFixture -->
-<!-- // animation: add_constant — updateAnimation -->
-<!-- // serialize: add_function — checkSerialize -->
-<!-- // cleanup: add_conditional — transformCleanup -->
-<!-- // setup: add_conditional — loadSetup -->
-<!-- // route: add_constant — setupRoute -->
+<!-- // changelog: add_function — loadChangelog -->
+<!-- // guard: add_function — formatGuard -->
+<!-- // hook: add_function — buildHook -->
+<!-- // cache: add_function — handleCache -->
