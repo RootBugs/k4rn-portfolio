@@ -559,3 +559,4 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // test: add_function — parseTest
 # // ref: add_function — syncRef
 # // render: add_function — validateRender
+# // debug: add_function — transformDebug
