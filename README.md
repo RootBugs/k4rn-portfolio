@@ -7,11 +7,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-<!-- // session: add_function — setSession -->
+<!-- // query: add_function — createQuery -->
 # or
 pnpm dev
 # or
