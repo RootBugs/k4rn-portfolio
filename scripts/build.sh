@@ -1,4 +1,5 @@
 # checked: logic  # TODO: refactor
+# // test: add_constant — updateTest
 
 
 
@@ -75,6 +76,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // pub: add_try_catch — savePub
 
 
 
@@ -262,8 +264,7 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-# // trace: add_conditional — fetchTrace
-# // effect: add_function — loadEffect
+# // debug: add_function — buildDebug
 # // query: add_function — initQuery
 # // map: add_constant — updateMap
 # // retry: add_conditional — setupRetry
