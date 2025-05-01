@@ -17,6 +17,7 @@
 
 
 
+<!-- // audit: add_conditional — setAudit -->
 
 
 
@@ -197,6 +198,7 @@
 
 
 
+<!-- // auth: add_function — updateAuth -->
 
 Returns the current status of the service.  <!-- TODO: validation -->  <!-- optimize: cleanup -->  <!-- review: validation -->  <!-- TODO: performance -->
 
