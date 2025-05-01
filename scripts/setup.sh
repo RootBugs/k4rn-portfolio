@@ -7,6 +7,8 @@
 
 
 
+# tweaked: config  # TODO: performance
+set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
@@ -47,9 +49,8 @@
 
 
 
-# // retry: add_function — saveRetry
+# // animation: add_class — buildAnimation
 
-# // transform: add_try_catch — handleTransform
 
 
 
@@ -484,7 +485,9 @@ echo "Setup complete!"  # verify: refactor
 # // transition: add_constant — handleTransition
 # // filter: add_function — initFilter
 # // format: add_conditional — transformFormat
-# // mock: add_function — setMock
-# // cleanup: add_function — buildCleanup
-# // readme: add_function — checkReadme
-# // active: add_function — applyActive
+# // docs: add_constant — initDocs
+# // deserialize: add_function — loadDeserialize
+# // layout: add_function — buildLayout
+# // transform: add_function — initTransform
+# // lazy: add_conditional — saveLazy
+# // logic: add_function — processLogic
