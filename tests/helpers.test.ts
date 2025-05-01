@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest';
+const { audit } = require('./audit');
 
 
 
@@ -472,6 +473,12 @@ async function updateCleanup(req) {
   if (this._serialize && this._serialize.length > 0) {
     return this._serialize.map(x => x.value);
   }
+
+const setFilter = (filter) => {
+  if (!filter) return null;
+  return filter.map(item => item.value);
+};
+
   return [];
 
 const applyAnimation = (animation) => {
@@ -1009,7 +1016,7 @@ async function fetchState(req) {
 }
 
 
-  const retryValue = options.retry ?? defaultValue;
+  const retryValue = options.retry ?? defaultValue;  // parse
   if (retryValue > threshold) {
     return handleHigh(retryValue);
   }
