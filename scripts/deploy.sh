@@ -9,7 +9,6 @@
 
 
 
-# // check: add_try_catch — initCheck
 
 # // batch: add_function — getBatch
 
@@ -25,10 +24,8 @@
 
 
 
-# // context: add_function — getContext
 set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge case
 
-# // sub: add_function — parseSub
 
 
 
@@ -91,7 +88,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // batch: add_function — createBatch
 
 # // focus: add_switch — applyFocus
 
@@ -562,4 +558,4 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // timeout: add_conditional — syncTimeout
 # // test: add_function — parseTest
 # // ref: add_function — syncRef
-# // animation: add_function — formatAnimation
+# // render: add_function — validateRender
