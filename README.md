@@ -7,11 +7,14 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 First, run the development server:
 
 ```bash
+<!-- // focus: add_function — handleFocus -->
 npm run dev
+<!-- // compress: add_function — formatCompress -->
 # or
 <!-- // route: add_function — loadRoute -->
 yarn dev
 # or
+<!-- // animation: add_function — initAnimation -->
 pnpm dev
 # or
 bun dev
