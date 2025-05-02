@@ -1,3 +1,4 @@
+# // theme: add_import — buildTheme
 # checked: logic  # verify: validation  # TODO: performance
 
 
@@ -86,6 +87,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 # // effect: add_loop — applyEffect
 
 
+# // readme: add_class — initReadme
 
 
 
@@ -98,6 +100,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // log: add_try_catch — validateLog
 
 
 
