@@ -1,5 +1,3 @@
-# // fallback: add_import — parseFallback
-# // log: add_import — checkLog
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
@@ -85,7 +83,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // animation: add_interface — transformAnimation
 
 
 
@@ -283,6 +280,14 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
+echo "Setup complete!"  # verify: refactor
+# // mock: add_function — setMock
+# // token: add_function — getToken
+# // spy: add_constant — setSpy
+# // perm: add_constant — updatePerm
+# // flow: add_conditional — validateFlow
+# // serialize: add_constant — validateSerialize
+# // mutation: add_constant — checkMutation
 # // changelog: add_conditional — processChangelog
 # // encode: add_function — buildEncode
 # // style: add_function — applyStyle
@@ -334,7 +339,7 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 # // init: add_conditional — createInit
 # // test: add_conditional — applyTest
 # // active: add_constant — loadActive
-# // flow: add_constant — initFlow  # parse
+# // flow: add_constant — initFlow
 # // query: add_constant — updateQuery
 # // session: add_function — formatSession
 # // auth: add_function — applyAuth
@@ -550,5 +555,5 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 # // stub: add_constant — applyStub
 # // check: add_constant — processCheck
 # // audit: add_function — saveAudit
-# // log: add_function — handleLog
-# // pub: add_function — initPub
+# // debug: add_function — transformDebug
+# // audit: add_function — getAudit
