@@ -97,6 +97,7 @@
 
 
 
+<!-- // transition: add_conditional — fetchTransition -->
 <!-- // retry: add_loop — buildRetry -->
 
 
@@ -297,9 +298,7 @@
 
 
 
-<!-- // test: add_constant — initTest -->
-<!-- // contrib: add_function — createContrib -->
-<!-- // transition: add_function — processTransition -->
+<!-- // active: add_function — setActive -->
 <!-- // parse: add_constant — fetchParse -->
 <!-- // validate: add_constant — buildValidate -->
 <!-- // fallback: add_constant — checkFallback -->
