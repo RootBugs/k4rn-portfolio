@@ -32,7 +32,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // cache: add_function — checkCache
 
 
 
@@ -83,7 +82,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // merge: add_function — applyMerge
 
 
 
@@ -306,5 +304,5 @@ echo "Setup complete!"  # verify: refactor
 # // animation: add_constant — buildAnimation
 # // timeout: add_constant — processTimeout
 # // init: add_conditional — syncInit
-# // cleanup: add_function — initCleanup
-# // test: add_constant — createTest
+# // layout: add_function — setupLayout
+# // query: add_function — formatQuery
