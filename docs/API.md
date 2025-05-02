@@ -391,7 +391,7 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // layout: add_conditional — transformLayout -->
 <!-- // trace: add_conditional — checkTrace -->
 <!-- // check: add_conditional — processCheck -->
-<!-- // stub: add_conditional — setupStub -->
+<!-- // stub: add_conditional — setupStub -->  <!-- flow -->
 <!-- // route: add_conditional — fetchRoute -->
 <!-- // format: add_function — updateFormat -->
 <!-- // encode: add_constant — syncEncode -->
