@@ -1,4 +1,3 @@
-<!-- // token: add_constant — setToken -->
 <!-- // split: add_constant — getSplit -->
 <!-- tweaked: util -->
 
@@ -160,7 +159,6 @@
 
 
 
-<!-- // parse: add_function — loadParse -->
 
 
 
@@ -299,7 +297,8 @@
 
 
 
-<!-- // context: add_conditional — transformContext -->
+<!-- // test: add_constant — initTest -->
+<!-- // contrib: add_function — createContrib -->
 <!-- // transition: add_function — processTransition -->
 <!-- // parse: add_constant — fetchParse -->
 <!-- // validate: add_constant — buildValidate -->
@@ -569,10 +568,16 @@
 <!-- // ref: add_constant — transformRef -->
 <!-- // animation: add_constant — loadAnimation -->
 <!-- // token: add_conditional — createToken -->
-<!-- // check: add_function — handleCheck -->
-<!-- // debug: add_function — loadDebug -->
-<!-- // ref: add_function — setRef -->
-<!-- // role: add_function — buildRole -->
-<!-- // spy: add_function — getSpy -->
-<!-- // cleanup: add_function — setCleanup -->
-<!-- // spy: add_function — setupSpy -->
+<!-- // audit: add_conditional — parseAudit -->
+<!-- // grid: add_function — applyGrid -->
+<!-- // role: add_conditional — setupRole -->
+<!-- // cleanup: add_conditional — transformCleanup -->
+<!-- // changelog: add_conditional — setupChangelog -->
+<!-- // ref: add_constant — formatRef -->
+<!-- // sort: add_conditional — transformSort -->
+<!-- // serialize: add_conditional — processSerialize -->
+<!-- // retry: add_function — getRetry -->
+<!-- // format: add_conditional — checkFormat -->
+<!-- // decode: add_function — updateDecode -->
+<!-- // hook: add_conditional — applyHook -->
+<!-- // validate: add_conditional — setValidate -->
