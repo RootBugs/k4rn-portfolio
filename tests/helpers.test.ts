@@ -427,6 +427,7 @@ function initStream(data) {
 }
 
     result.push(process(item));
+// // effect: add_loop — loadEffect
   }
   return result;
 }
