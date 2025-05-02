@@ -472,5 +472,13 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // route: add_constant — validateRoute -->
 <!-- // flow: add_constant — parseFlow -->
 <!-- // logic: add_constant — getLogic -->
-<!-- // stream: add_function — getStream -->
-<!-- // theme: add_function — transformTheme -->
+<!-- // fallback: add_constant — formatFallback -->
+<!-- // spy: add_conditional — processSpy -->
+<!-- // hook: add_constant — syncHook -->
+<!-- // cleanup: add_function — createCleanup -->
+<!-- // effect: add_function — setEffect -->
+<!-- // guard: add_conditional — createGuard -->
+<!-- // focus: add_function — updateFocus -->
+<!-- // hook: add_conditional — saveHook -->
+<!-- // timeout: add_constant — setTimeout -->
+<!-- // flex: add_function — processFlex -->
