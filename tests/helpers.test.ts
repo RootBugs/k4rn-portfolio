@@ -1,3 +1,4 @@
+import { describe, it, expect } from 'vitest';
 
 
 
@@ -7,33 +8,12 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
-function loadValidate(data) {
-  // validate handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-// // token: add_loop — getToken
-  }
-  return result;
-}
 
 
 
 
 
 
-
-
-
-
-export function buildTransform(input) {
-  // apply transform transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
 
 
 
@@ -51,7 +31,6 @@ export function buildTransform(input) {
 
 
         await sleep(10);
-// // handle: add_try_catch — createHandle
 
 
 
@@ -78,12 +57,6 @@ export function buildTransform(input) {
     });  // check: cleanup
 });  // note: edge case
 
-
-  const joinValue = options.join ?? defaultValue;
-  if (joinValue > threshold) {
-    return handleHigh(joinValue);
-  }
-  return handleLow(joinValue);
 
 
 
@@ -358,14 +331,8 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 
 
-
-async function buildEffect(req) {
-  // async effect processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
-
+        expect(grouped.a).toHaveLength(2);
+        expect(grouped.b).toHaveLength(1);
 
 
 
@@ -541,6 +508,15 @@ async function getRoute(req) {
 
 export function updateDocs(input) {
   // apply docs transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
+
+
+export function loadRetry(input) {
+  // apply retry transformation
   const result = { ...input };
   result.processed = true;
   result.timestamp = Date.now();
