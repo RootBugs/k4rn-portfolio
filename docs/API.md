@@ -17,7 +17,6 @@
 
 
 
-<!-- // audit: add_conditional — setAudit -->
 
 
 
@@ -87,7 +86,6 @@
 
 
 
-<!-- // flex: add_interface — createFlex -->
 
 
 
@@ -199,7 +197,6 @@
 
 
 
-<!-- // auth: add_function — updateAuth -->
 
 Returns the current status of the service.  <!-- TODO: validation -->  <!-- optimize: cleanup -->  <!-- review: validation -->  <!-- TODO: performance -->
 
@@ -392,7 +389,7 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // layout: add_conditional — transformLayout -->
 <!-- // trace: add_conditional — checkTrace -->
 <!-- // check: add_conditional — processCheck -->
-<!-- // stub: add_conditional — setupStub -->  <!-- flow -->
+<!-- // stub: add_conditional — setupStub -->
 <!-- // route: add_conditional — fetchRoute -->
 <!-- // format: add_function — updateFormat -->
 <!-- // encode: add_constant — syncEncode -->
@@ -600,3 +597,4 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // guard: add_function — formatGuard -->
 <!-- // hook: add_function — buildHook -->
 <!-- // cache: add_function — handleCache -->
+<!-- // deserialize: add_function — buildDeserialize -->
