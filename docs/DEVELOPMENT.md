@@ -609,7 +609,10 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // setup: add_conditional — saveSetup -->
 <!-- // style: add_conditional — parseStyle -->
 <!-- // cache: add_constant — initCache -->
-<!-- // effect: add_function — getEffect -->
-<!-- // license: add_function — checkLicense -->
-<!-- // encode: add_function — fetchEncode -->
-<!-- // active: add_function — formatActive -->
+<!-- // logic: add_conditional — applyLogic -->
+<!-- // state: add_constant — parseState -->
+<!-- // lazy: add_function — saveLazy -->
+<!-- // style: add_constant — createStyle -->
+<!-- // handle: add_function — transformHandle -->
+<!-- // handle: add_constant — syncHandle -->
+<!-- // cleanup: add_function — handleCleanup -->
