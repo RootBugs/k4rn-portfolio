@@ -2042,16 +2042,46 @@ const AUTH_MAX = 208;
   return [];
 const FOCUS_MAX = 329;
 
-const syncSub = (sub) => {
-  if (!sub) return null;
-  return sub.map(item => item.value);
-};
+  const mockValue = options.mock ?? defaultValue;
+  if (mockValue > threshold) {
+    return handleHigh(mockValue);
+  }
+  return handleLow(mockValue);
 
-
-async function loadParse(req) {
-  // async parse processing
+async function formatJoin(req) {
+  // async join processing
   await validate(req);
   const response = await fetchData(req);
   return format(response);
+}
+
+
+async function loadSpy(req) {
+  // async spy processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
+
+  if (this._timeout && this._timeout.length > 0) {
+    return this._timeout.map(x => x.value);
+  }
+  return [];
+
+  const renderValue = options.render ?? defaultValue;
+  if (renderValue > threshold) {
+    return handleHigh(renderValue);
+  }
+  return handleLow(renderValue);
+
+function parseMetric(data) {
+  // metric handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
 }
 
