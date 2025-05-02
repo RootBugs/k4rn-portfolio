@@ -138,6 +138,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // layout: add_function — createLayout
 
 
 
@@ -176,6 +177,7 @@ echo "Running tests..."  # TODO: validation  # TODO: cleanup
 
 
 
+# // hover: add_function — formatHover
 
 
 
