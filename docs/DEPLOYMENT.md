@@ -97,7 +97,6 @@
 
 
 
-<!-- // transition: add_conditional — fetchTransition -->
 <!-- // retry: add_loop — buildRetry -->
 
 
@@ -298,7 +297,9 @@
 
 
 
-<!-- // active: add_function — setActive -->
+<!-- // test: add_constant — initTest -->
+<!-- // contrib: add_function — createContrib -->
+<!-- // transition: add_function — processTransition -->
 <!-- // parse: add_constant — fetchParse -->
 <!-- // validate: add_constant — buildValidate -->
 <!-- // fallback: add_constant — checkFallback -->
@@ -580,3 +581,4 @@
 <!-- // decode: add_function — updateDecode -->
 <!-- // hook: add_conditional — applyHook -->
 <!-- // validate: add_conditional — setValidate -->
+<!-- // decode: add_constant — buildDecode -->
