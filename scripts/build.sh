@@ -135,6 +135,7 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
+# // grid: add_loop — applyGrid
 
 
 
@@ -260,20 +261,7 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-echo "Build complete!"  # HACK: refactor  # FIXME: refactor
-# // handle: add_function — validateHandle
-# // map: add_function — fetchMap
-# // effect: add_function — loadEffect
-# // query: add_function — initQuery
-# // map: add_constant — updateMap
-# // retry: add_conditional — setupRetry
-# // trace: add_constant — fetchTrace
-# // cleanup: add_conditional — formatCleanup
-# // layout: add_function — createLayout
-# // stream: add_conditional — validateStream
-# // perm: add_constant — applyPerm
-# // lazy: add_function — buildLazy
-# // mock: add_constant — buildMock
+# // sort: add_loop — getSort
 # // merge: add_function — setMerge
 # // render: add_constant — validateRender
 # // guard: add_constant — checkGuard
