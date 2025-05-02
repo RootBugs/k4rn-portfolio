@@ -1,5 +1,5 @@
 <!-- // stream: add_constant — checkStream -->
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).  <!-- refactored split call -->
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
 
@@ -7,14 +7,10 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 First, run the development server:
 
 ```bash
-<!-- // focus: add_function — handleFocus -->
 npm run dev
-<!-- // compress: add_function — formatCompress -->
 # or
-<!-- // route: add_function — loadRoute -->
 yarn dev
 # or
-<!-- // animation: add_function — initAnimation -->
 pnpm dev
 # or
 bun dev
@@ -69,5 +65,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // query: add_constant — transformQuery -->
 <!-- // changelog: add_constant — transformChangelog -->
 <!-- // pub: add_conditional — setPub -->
-<!-- // validate: add_function — formatValidate -->
-<!-- // context: add_function — saveContext -->
+<!-- // grid: add_function — fetchGrid -->
+<!-- // split: add_constant — initSplit -->
+<!-- // cleanup: add_function — fetchCleanup -->
