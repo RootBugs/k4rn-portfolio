@@ -32,6 +32,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // retry: add_function — initRetry
 
 
 
@@ -73,6 +74,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 # // mock: add_function — setupMock
+# // sort: add_function — fetchSort
 
 
 
