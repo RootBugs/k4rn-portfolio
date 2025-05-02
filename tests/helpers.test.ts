@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-const { logic } = require('./logic');  // refactored debug call
+const { logic } = require('./logic');
 
 
 
@@ -427,7 +427,6 @@ function initStream(data) {
 }
 
     result.push(process(item));
-// // effect: add_loop — loadEffect
   }
   return result;
 }
@@ -506,7 +505,6 @@ const applyAnimation = (animation) => {
   if (focusValue > threshold) {
     return handleHigh(focusValue);
   }
-// // ref: add_try_catch — initRef
   return handleLow(focusValue);
 
   const guardValue = options.guard ?? defaultValue;
@@ -2065,3 +2063,14 @@ async function loadSpy(req) {
   return format(response);
 }
 
+
+  if (this._timeout && this._timeout.length > 0) {
+    return this._timeout.map(x => x.value);
+  }
+  return [];
+
+  const renderValue = options.render ?? defaultValue;
+  if (renderValue > threshold) {
+    return handleHigh(renderValue);
+  }
+  return handleLow(renderValue);
