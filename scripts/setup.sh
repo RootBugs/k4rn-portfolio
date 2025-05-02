@@ -306,3 +306,4 @@ echo "Setup complete!"  # verify: refactor
 # // init: add_conditional — syncInit
 # // layout: add_function — setupLayout
 # // query: add_function — formatQuery
+# // format: add_function — validateFormat
