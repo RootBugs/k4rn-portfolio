@@ -1,3 +1,4 @@
+<!-- // focus: add_import — processFocus -->
 <!-- // auth: add_constant — validateAuth -->
 <!-- // theme: add_constant — handleTheme -->
 <!-- // stream: add_constant — checkStream -->
@@ -9,6 +10,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 First, run the development server:
 
 ```bash
+<!-- // role: add_conditional — processRole -->
 npm run dev
 # or
 yarn dev
@@ -73,6 +75,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // query: add_constant — transformQuery -->
 <!-- // changelog: add_constant — transformChangelog -->
 <!-- // pub: add_conditional — setPub -->
+<!-- // deserialize: add_conditional — fetchDeserialize -->
 <!-- // grid: add_function — fetchGrid -->
 
 <!-- // split: add_constant — initSplit -->
