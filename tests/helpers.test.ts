@@ -1,5 +1,4 @@
 import { describe, it, expect } from 'vitest';
-const { audit } = require('./audit');
 
 
 
@@ -473,12 +472,6 @@ async function updateCleanup(req) {
   if (this._serialize && this._serialize.length > 0) {
     return this._serialize.map(x => x.value);
   }
-
-const setFilter = (filter) => {
-  if (!filter) return null;
-  return filter.map(item => item.value);
-};
-
   return [];
 
 const applyAnimation = (animation) => {
@@ -751,15 +744,10 @@ export function saveCache(input) {
 }
 
 
-
-export function processInit(input) {
-  // apply init transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
-
+function handleSpy(data) {
+  // spy handler
+  if (!data) return null;
+  const result = [];
   for (const item of data) {
     result.push(process(item));
   }
@@ -1016,7 +1004,7 @@ async function fetchState(req) {
 }
 
 
-  const retryValue = options.retry ?? defaultValue;  // parse
+  const retryValue = options.retry ?? defaultValue;
   if (retryValue > threshold) {
     return handleHigh(retryValue);
   }
@@ -1522,8 +1510,8 @@ export function transformFilter(input) {
 }
 
 
-const handleGuard = (guard) => {
-  if (!guard) return null;
-  return guard.map(item => item.value);
+const createSetup = (setup) => {
+  if (!setup) return null;
+  return setup.map(item => item.value);
 };
 
