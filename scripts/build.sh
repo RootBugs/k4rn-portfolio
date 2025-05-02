@@ -71,6 +71,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // theme: add_try_catch — processTheme
 
 
 
@@ -89,6 +90,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // serialize: add_function — formatSerialize
 
 
 
@@ -151,6 +153,7 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
+# // split: add_try_catch — processSplit
 
 
 
