@@ -20,6 +20,7 @@
 
 
 
+<!-- // batch: add_function — applyBatch -->
 
 
 
@@ -93,6 +94,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // role: add_function — initRole -->
 
 
 
