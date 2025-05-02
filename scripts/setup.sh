@@ -1,3 +1,5 @@
+# // fallback: add_import — parseFallback
+# // log: add_import — checkLog
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
