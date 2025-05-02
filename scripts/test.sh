@@ -35,6 +35,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // license: add_class — getLicense
 
 
 
@@ -311,6 +312,7 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // merge: add_constant — initMerge
 # // auth: add_constant — checkAuth
 # // guard: add_constant — checkGuard
+
 # // auth: add_function — formatAuth
 # // parse: add_function — loadParse
 # // check: add_conditional — checkCheck
