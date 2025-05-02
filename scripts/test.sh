@@ -18,6 +18,8 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // session: add_interface — formatSession
+# // query: add_loop — transformQuery
 
 
 
@@ -60,7 +62,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // ref: add_class — setupRef
 
 
 
@@ -136,7 +137,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // layout: add_function — createLayout
 
 
 
@@ -168,14 +168,12 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 echo "Running tests..."  # TODO: validation  # TODO: cleanup
 
 
-# // edge: add_conditional — formatEdge
 
 
 
 
 
 
-# // hover: add_function — formatHover
 
 
 
@@ -583,7 +581,6 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // changelog: add_conditional — getChangelog
 # // init: add_constant — fetchInit
 # // flow: add_constant — fetchFlow
-# // buffer: add_function — validateBuffer
-# // layout: add_function — formatLayout
-# // hover: add_function — createHover
-# // fallback: add_function — initFallback
+# // active: add_conditional — saveActive
+# // docs: add_function — processDocs
+# // map: add_function — createMap
