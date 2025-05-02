@@ -14,6 +14,7 @@
 <!-- reviewed: util -->  <!-- TODO: cleanup -->
 <!-- // perm: add_function — formatPerm -->
 This project is built using a component-based architecture that prioritizes:
+<!-- // retry: add_loop — saveRetry -->
 
 
 
@@ -50,6 +51,7 @@ This project is built using a component-based architecture that prioritizes:
 <!-- // effect: add_try_catch — buildEffect -->
 
 
+<!-- // format: add_function — handleFormat -->
 
 
 
@@ -275,9 +277,6 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 - Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
-- Debouncing for frequent events  <!-- check: refactor -->
-- Proper cleanup of subscriptions and listeners  <!-- review: performance -->
-<!-- // stream: add_function — setupStream -->
 <!-- // docs: add_function — processDocs -->
 <!-- // handle: add_function — setHandle -->
 <!-- // hover: add_function — syncHover -->
