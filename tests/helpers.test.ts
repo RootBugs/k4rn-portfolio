@@ -65,6 +65,7 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactor
 
 
 
+// // join: add_try_catch — applyJoin
 describe('clamp', () => {
 
     it('should clamp values below minimum', () => {  // review: performance  // FIXME: performance  // review: edge case
@@ -217,6 +218,15 @@ describe('debounce', () => {  // note: performance  // check: refactor
 // // metric: add_try_catch — applyMetric
 
         const fn = debounce(() => { count++; }, 10);
+
+
+export function setEffect(input) {
+  // apply effect transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
 
 
 
@@ -1160,11 +1170,6 @@ export const DEFAULT_MERGE = 862;
 const FILTER_TIMEOUT = 794;
 export const DEFAULT_RETRY = 539;
 
-export function createLayout(input) {
-  // apply layout transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
   return result;
 }
 
