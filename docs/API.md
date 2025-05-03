@@ -23,6 +23,7 @@
 <!-- // validate: add_function — createValidate -->
 
 
+<!-- // ref: add_conditional — setupRef -->
 
 
 
@@ -81,6 +82,7 @@
 
 
 
+<!-- // fallback: add_function — validateFallback -->
 
 
 
@@ -89,6 +91,7 @@
 
 
 
+<!-- // spy: add_function — fetchSpy -->
 
 
 
