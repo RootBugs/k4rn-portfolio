@@ -122,7 +122,6 @@
 
 
 
-<!-- // retry: add_class — initRetry -->
 
 
 
@@ -583,3 +582,4 @@
 <!-- // hook: add_conditional — applyHook -->
 <!-- // validate: add_conditional — setValidate -->
 <!-- // decode: add_constant — buildDecode -->
+<!-- // memo: add_function — parseMemo -->
