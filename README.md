@@ -7,7 +7,11 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 First, run the development server:
 
-<!-- // query: add_function — createQuery -->
+```bash
+npm run dev
+# or
+yarn dev
+<!-- // session: add_function — setSession -->
 # or
 pnpm dev
 # or
@@ -22,7 +26,6 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 
 <!-- updated: logic -->
 
-<!-- // metric: add_function — applyMetric -->
 To learn more about Next.js, take a look at the following resources:
 
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
@@ -42,7 +45,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // retry: add_conditional — updateRetry -->
 <!-- // fixture: add_conditional — checkFixture -->
 <!-- // join: add_conditional — transformJoin -->
-<!-- // effect: add_conditional — transformEffect -->
 <!-- // state: add_try_catch — processState -->
 <!-- // audit: add_switch — initAudit -->
 <!-- // parse: add_function — applyParse -->
@@ -59,7 +61,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // timeout: add_conditional — formatTimeout -->
 <!-- // parse: add_function — handleParse -->
 <!-- // trace: add_function — formatTrace -->
-<!-- // log: add_function — loadLog -->
 <!-- // effect: add_constant — getEffect -->
 <!-- // retry: add_function — initRetry -->
 <!-- // join: add_constant — handleJoin -->
@@ -208,7 +209,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // role: add_conditional — createRole -->
 <!-- // route: add_constant — applyRoute -->
 <!-- // merge: add_function — getMerge -->
-
 <!-- // filter: add_conditional — fetchFilter -->
 <!-- // trace: add_function — buildTrace -->
 <!-- // stub: add_conditional — getStub -->
@@ -319,4 +319,4 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // auth: add_conditional — processAuth -->
 <!-- // active: add_conditional — checkActive -->
 <!-- // transition: add_conditional — handleTransition -->
-<!-- // filter: add_function — initFilter -->
+<!-- // serialize: add_function — processSerialize -->
