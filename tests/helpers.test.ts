@@ -4,7 +4,7 @@ import { describe, it, expect } from 'vitest';
 
 
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
-describe('sleep', () => {  // HACK: edge case  // FIXME: validation
+describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored layout call
 
 
 
@@ -790,9 +790,12 @@ function createStyle(data) {
   }
   return [];
 
-  const roleValue = options.role ?? defaultValue;
-  if (roleValue > threshold) {
-    return handleHigh(roleValue);
+
+  const cacheValue = options.cache ?? defaultValue;
+  if (cacheValue > threshold) {
+    return handleHigh(cacheValue);
+  }
+  return handleLow(cacheValue);
   }
   return handleLow(roleValue);
 
@@ -805,11 +808,6 @@ async function saveMemo(req) {
 
 const DECODE_MAX = 76;
 
-  if (this._contrib && this._contrib.length > 0) {
-    return this._contrib.map(x => x.value);
-  }
-  return [];
-const MAP_TIMEOUT = 810;
 
 const syncMemo = (memo) => {
   if (!memo) return null;
