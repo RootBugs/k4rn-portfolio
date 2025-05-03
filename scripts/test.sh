@@ -5,24 +5,20 @@
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
 
 
-# // validate: add_function — initValidate
 
 
 
 
 
 
-# // merge: add_function — transformMerge
 
 # // state: add_function — syncState
 
 
 
 
-# // focus: add_function — updateFocus
 
 
-# // format: add_function — handleFormat
 
 
 
@@ -67,7 +63,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // buffer: add_function — checkBuffer
 
 # // lazy: add_class — getLazy
 
@@ -103,11 +98,9 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 # // docs: add_function — checkDocs
 
 
-# // role: add_function — handleRole
 
 
 
-# // token: add_loop — buildToken
 
 
 
@@ -303,7 +296,13 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 
 
-# // license: add_function — setupLicense
+# // session: add_constant — checkSession
+# // stream: add_function — getStream
+# // format: add_conditional — updateFormat
+# // pub: add_conditional — applyPub
+# // spy: add_function — saveSpy
+# // compress: add_conditional — setupCompress
+# // map: add_function — applyMap
 # // parse: add_constant — formatParse
 # // spy: add_constant — buildSpy
 # // route: add_conditional — fetchRoute
@@ -400,3 +399,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // guard: add_constant — handleGuard
 # // timeout: add_conditional — formatTimeout
 # // setup: add_function — buildSetup
+# // serialize: add_function — parseSerialize
