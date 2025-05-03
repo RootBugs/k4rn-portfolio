@@ -81,11 +81,13 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // cache: add_function — syncCache -->
 
 
 
 <!-- // transform: add_function — setTransform -->
 
+<!-- // spy: add_function — saveSpy -->
 
 
 2. Install dependencies
