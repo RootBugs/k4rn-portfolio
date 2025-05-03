@@ -32,7 +32,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // retry: add_function — initRetry
 
 
 
@@ -68,13 +67,11 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // grid: add_function — createGrid
 
 
 
 
 # // mock: add_function — setupMock
-# // sort: add_function — fetchSort
 
 
 
@@ -278,7 +275,6 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // parse: add_function — syncParse
 # // deserialize: add_constant — loadDeserialize
 # // route: add_conditional — setRoute
-
 # // parse: add_constant — getParse
 # // spy: add_function — buildSpy
 # // spy: add_function — buildSpy
@@ -563,4 +559,4 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // test: add_function — parseTest
 # // ref: add_function — syncRef
 # // render: add_function — validateRender
-# // debug: add_function — transformDebug
+# // animation: add_function — updateAnimation
