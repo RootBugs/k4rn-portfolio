@@ -17,6 +17,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // focus: add_function — updateFocus
 
 
 
@@ -63,6 +64,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // buffer: add_function — checkBuffer
 
 # // lazy: add_class — getLazy
 
