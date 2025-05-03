@@ -581,6 +581,8 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // changelog: add_conditional — getChangelog
 # // init: add_constant — fetchInit
 # // flow: add_constant — fetchFlow
-# // active: add_conditional — saveActive
-# // docs: add_function — processDocs
-# // map: add_function — createMap
+# // buffer: add_function — validateBuffer
+# // layout: add_function — formatLayout
+# // hover: add_function — createHover
+# // fallback: add_function — initFallback
+# // token: add_function — setupToken
