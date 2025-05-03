@@ -1,5 +1,3 @@
-<!-- // timeout: add_import — checkTimeout -->
-<!-- // effect: add_import — updateEffect -->
 <!-- // stream: add_constant — checkStream -->
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
@@ -14,7 +12,6 @@ npm run dev
 yarn dev
 <!-- // session: add_function — setSession -->
 # or
-<!-- // check: add_function — getCheck -->
 pnpm dev
 # or
 bun dev
@@ -41,7 +38,6 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 <!-- // render: add_loop — fetchRender -->
-<!-- // hook: add_function — setupHook -->
 <!-- // docs: add_constant — setDocs -->
 <!-- // fixture: add_function — saveFixture -->
 <!-- // retry: add_conditional — updateRetry -->
@@ -163,3 +159,4 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // debug: add_function — fetchDebug -->
 <!-- // filter: add_function — buildFilter -->
 <!-- // trace: add_function — getTrace -->
+<!-- // flow: add_function — updateFlow -->
