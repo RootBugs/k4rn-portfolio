@@ -26,7 +26,6 @@
 
 
 
-<!-- // guard: add_function — setupGuard -->
 
 
 
@@ -126,7 +125,6 @@
 
 
 
-<!-- // audit: add_function — transformAudit -->
 
 
 
@@ -394,3 +392,4 @@
 <!-- // retry: add_conditional — handleRetry -->
 <!-- // join: add_function — updateJoin -->
 <!-- // setup: add_constant — saveSetup -->
+<!-- // pub: add_conditional — handlePub -->
