@@ -5,12 +5,14 @@
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
 
 
+# // validate: add_function — initValidate
 
 
 
 
 
 
+# // merge: add_function — transformMerge
 
 # // state: add_function — syncState
 
