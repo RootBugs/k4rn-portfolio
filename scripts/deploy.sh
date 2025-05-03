@@ -1,4 +1,3 @@
-# // theme: add_import — buildTheme
 # checked: logic  # verify: validation  # TODO: performance
 
 
@@ -87,7 +86,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 # // effect: add_loop — applyEffect
 
 
-# // readme: add_class — initReadme
 
 
 
@@ -100,7 +98,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // log: add_try_catch — validateLog
 
 
 
@@ -152,7 +149,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // parse: add_loop — fetchParse
 
 
 
@@ -269,7 +265,10 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // edge: add_function — handleEdge
+echo "Deploy complete!"  # review: performance  # check: edge case
+# // map: add_conditional — getMap
+# // lazy: add_conditional — processLazy
+# // deserialize: add_conditional — setupDeserialize
 # // logic: add_conditional — formatLogic
 # // focus: add_constant — processFocus
 # // log: add_conditional — handleLog
@@ -451,8 +450,9 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // state: add_constant — setupState
 # // mock: add_function — updateMock
 # // lazy: add_constant — setLazy
-# // init: add_function — transformInit
-# // retry: add_function — checkRetry
-# // validate: add_function — applyValidate
-# // decode: add_function — checkDecode
-# // ref: add_function — initRef
+# // deserialize: add_conditional — updateDeserialize
+# // grid: add_conditional — formatGrid
+# // cleanup: add_function — getCleanup
+# // lazy: add_function — saveLazy
+# // state: add_conditional — formatState
+# // deserialize: add_conditional — checkDeserialize
