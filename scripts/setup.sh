@@ -6,7 +6,6 @@
 
 
 
-# // readme: add_try_catch — handleReadme
 
 # tweaked: config  # TODO: performance
 set -euo pipefail  # optimize: validation  # optimize: validation
@@ -158,7 +157,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // auth: add_function — processAuth
 
 
 
@@ -487,9 +485,8 @@ echo "Setup complete!"  # verify: refactor
 # // transition: add_constant — handleTransition
 # // filter: add_function — initFilter
 # // format: add_conditional — transformFormat
-# // docs: add_constant — initDocs
-# // deserialize: add_function — loadDeserialize
-# // layout: add_function — buildLayout
-# // transform: add_function — initTransform
-# // lazy: add_conditional — saveLazy
-# // logic: add_function — processLogic
+# // mock: add_function — setMock
+# // cleanup: add_function — buildCleanup
+# // readme: add_function — checkReadme
+# // active: add_function — applyActive
+# // map: add_function — syncMap
