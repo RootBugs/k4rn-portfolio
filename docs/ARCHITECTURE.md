@@ -1,4 +1,3 @@
-<!-- // docs: add_constant — updateDocs -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -12,6 +11,8 @@
 
 
 
+<!-- reviewed: util -->  <!-- TODO: cleanup -->
+This project is built using a component-based architecture that prioritizes:
 
 
 
@@ -72,6 +73,8 @@
 
 <!-- updated: util -->
 
+```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
+module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
@@ -151,7 +154,6 @@
 
 
 
-<!-- // contrib: add_conditional — applyContrib -->
 
 <!-- tweaked: handler -->
 
@@ -480,3 +482,5 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // hook: add_conditional — saveHook -->
 <!-- // timeout: add_constant — setTimeout -->
 <!-- // flex: add_function — processFlex -->
+<!-- // perm: add_conditional — buildPerm -->
+<!-- // active: add_constant — checkActive -->
