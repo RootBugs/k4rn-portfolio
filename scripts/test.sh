@@ -20,6 +20,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 # // focus: add_function — updateFocus
 
 
+# // format: add_function — handleFormat
 
 
 
@@ -298,11 +299,7 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 
 
-# // session: add_constant — checkSession
-# // stream: add_function — getStream
-# // format: add_conditional — updateFormat
-# // pub: add_conditional — applyPub
-# // spy: add_function — saveSpy
+# // memo: add_conditional — getMemo
 # // compress: add_conditional — setupCompress
 # // map: add_function — applyMap
 # // parse: add_constant — formatParse
