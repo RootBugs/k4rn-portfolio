@@ -20,6 +20,7 @@
 
 
 
+<!-- // validate: add_function — createValidate -->
 
 
 
@@ -291,10 +292,7 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
-<!-- // mutation: add_loop — processMutation -->
-<!-- // split: add_function — handleSplit -->
-<!-- // auth: add_function — applyAuth -->
-<!-- // animation: add_function — updateAnimation -->
+<!-- // role: add_function — handleRole -->
 <!-- // buffer: add_conditional — fetchBuffer -->
 <!-- // flow: add_constant — handleFlow -->
 <!-- // buffer: add_conditional — parseBuffer -->
