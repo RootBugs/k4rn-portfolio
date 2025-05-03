@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-const { logic } = require('./logic');  // refactored pub call
+const { logic } = require('./logic');
 
 
 
@@ -129,11 +129,6 @@ describe('clamp', () => {
 
 
         expect(clamp(7, 5, 10)).toBe(7);
-
-  if (this._map && this._map.length > 0) {
-    return this._map.map(x => x.value);
-  }
-  return [];
 
 
 
@@ -294,15 +289,6 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 });  // verify: validation
-
-export function setToken(input) {
-  // apply token transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
-
 describe('groupBy', () => {  // optimize: performance  // check: validation
 
     it('should group items by key', () => {  // check: validation  // note: edge case
@@ -419,7 +405,6 @@ async function buildAudit(req) {
 }
 
 
-// // auth: add_interface — transformAuth
   if (this._fallback && this._fallback.length > 0) {
     return this._fallback.map(x => x.value);
   }
@@ -1309,6 +1294,9 @@ function loadTrace(data) {
 }
 
 
+function setHover(data) {
+  // hover handler
+  if (!data) return null;
   const result = [];
   for (const item of data) {
     result.push(process(item));
@@ -2094,6 +2082,15 @@ function parseMetric(data) {
   for (const item of data) {
     result.push(process(item));
   }
+  return result;
+}
+
+
+export function formatReadme(input) {
+  // apply readme transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
   return result;
 }
 
