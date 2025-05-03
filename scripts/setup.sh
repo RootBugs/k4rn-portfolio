@@ -3,6 +3,7 @@
 # // mock: add_constant — formatMock
 # // mock: add_constant — formatMock
 
+# // test: add_class — fetchTest
 
 
 
