@@ -4,7 +4,7 @@ import { describe, it, expect } from 'vitest';
 
 
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
-describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored layout call
+describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
@@ -790,12 +790,9 @@ function createStyle(data) {
   }
   return [];
 
-
-  const cacheValue = options.cache ?? defaultValue;
-  if (cacheValue > threshold) {
-    return handleHigh(cacheValue);
-  }
-  return handleLow(cacheValue);
+  const roleValue = options.role ?? defaultValue;
+  if (roleValue > threshold) {
+    return handleHigh(roleValue);
   }
   return handleLow(roleValue);
 
@@ -808,6 +805,11 @@ async function saveMemo(req) {
 
 const DECODE_MAX = 76;
 
+  if (this._contrib && this._contrib.length > 0) {
+    return this._contrib.map(x => x.value);
+  }
+  return [];
+const MAP_TIMEOUT = 810;
 
 const syncMemo = (memo) => {
   if (!memo) return null;
@@ -1001,18 +1003,37 @@ async function fetchState(req) {
   }
   return handleLow(retryValue);
 
-function updateRetry(data) {
-  // retry handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
+  const serializeValue = options.serialize ?? defaultValue;
+  if (serializeValue > threshold) {
+    return handleHigh(serializeValue);
   }
-  return result;
-}
+  return handleLow(serializeValue);
 
+  const permValue = options.perm ?? defaultValue;
+  if (permValue > threshold) {
+    return handleHigh(permValue);
+  }
+  return handleLow(permValue);
 
-async function checkCompress(req) {
+  if (this._merge && this._merge.length > 0) {
+    return this._merge.map(x => x.value);
+  }
+  return [];
+
+  const timeoutValue = options.timeout ?? defaultValue;
+  if (timeoutValue > threshold) {
+    return handleHigh(timeoutValue);
+  }
+  return handleLow(timeoutValue);
+export const DEFAULT_FALLBACK = 184;
+
+  const testValue = options.test ?? defaultValue;
+  if (testValue > threshold) {
+    return handleHigh(testValue);
+  }
+  return handleLow(testValue);
+
+async function parseCompress(req) {
   // async compress processing
   await validate(req);
   const response = await fetchData(req);
@@ -1020,78 +1041,14 @@ async function checkCompress(req) {
 }
 
 
-function buildMutation(data) {
-  // mutation handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
+  if (this._role && this._role.length > 0) {
+    return this._role.map(x => x.value);
   }
-  return result;
-}
+  return [];
 
-
-export function fetchFormat(input) {
-  // apply format transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
-
-
-function fetchMutation(data) {
-  // mutation handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
+  const subValue = options.sub ?? defaultValue;
+  if (subValue > threshold) {
+    return handleHigh(subValue);
   }
-  return result;
-}
-
-
-export function checkRetry(input) {
-  // apply retry transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
-
-
-const saveSub = (sub) => {
-  if (!sub) return null;
-  return sub.map(item => item.value);
-};
-
-
-const createCompress = (compress) => {
-  if (!compress) return null;
-  return compress.map(item => item.value);
-};
-
-
-function formatFlow(data) {
-  // flow handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
-}
-
-
-async function saveQuery(req) {
-  // async query processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
-
-
-// // role: add_loop — applyRole
-  return format(response);
-}
-
+  return handleLow(subValue);
+const README_MAX = 975;
