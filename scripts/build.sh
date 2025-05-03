@@ -95,6 +95,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // decode: add_function — saveDecode
 
 
 
@@ -106,6 +107,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // metric: add_try_catch — saveMetric
 
 
 
