@@ -6,6 +6,7 @@
 
 
 
+# // readme: add_try_catch — handleReadme
 
 # tweaked: config  # TODO: performance
 set -euo pipefail  # optimize: validation  # optimize: validation
@@ -157,6 +158,7 @@ if [ -f "package.json" ]; then
 
 
 
+# // auth: add_function — processAuth
 
 
 
