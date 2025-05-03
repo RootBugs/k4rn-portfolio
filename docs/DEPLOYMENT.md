@@ -1,4 +1,3 @@
-<!-- // theme: add_constant — fetchTheme -->
 <!-- tweaked: util -->
 
 
@@ -41,9 +40,7 @@
 
 
 
-<!-- // animation: add_function — createAnimation -->
 
-<!-- // filter: add_function — handleFilter -->
 
 
 
@@ -394,6 +391,4 @@
 <!-- // transition: add_conditional — validateTransition -->
 <!-- // retry: add_conditional — handleRetry -->
 <!-- // join: add_function — updateJoin -->
-<!-- // init: add_function — loadInit -->
-<!-- // buffer: add_function — processBuffer -->
-<!-- // docs: add_function — updateDocs -->
+<!-- // setup: add_constant — saveSetup -->
