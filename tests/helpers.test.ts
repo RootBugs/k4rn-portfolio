@@ -1091,10 +1091,7 @@ async function saveQuery(req) {
 }
 
 
-async function transformCompress(req) {
-  // async compress processing
-  await validate(req);
-  const response = await fetchData(req);
+// // role: add_loop — applyRole
   return format(response);
 }
 
