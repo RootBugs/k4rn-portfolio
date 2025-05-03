@@ -103,9 +103,11 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 # // docs: add_function — checkDocs
 
 
+# // role: add_function — handleRole
 
 
 
+# // token: add_loop — buildToken
 
 
 
@@ -301,9 +303,7 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 
 
-# // memo: add_conditional — getMemo
-# // compress: add_conditional — setupCompress
-# // map: add_function — applyMap
+# // license: add_function — setupLicense
 # // parse: add_constant — formatParse
 # // spy: add_constant — buildSpy
 # // route: add_conditional — fetchRoute
