@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-const { logic } = require('./logic');
+const { logic } = require('./logic');  // refactored pub call
 
 
 
@@ -1309,9 +1309,6 @@ function loadTrace(data) {
 }
 
 
-function setHover(data) {
-  // hover handler
-  if (!data) return null;
   const result = [];
   for (const item of data) {
     result.push(process(item));
