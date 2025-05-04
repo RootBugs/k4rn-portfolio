@@ -2,6 +2,7 @@
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
 # // mock: add_constant — formatMock
+# // cleanup: add_constant — validateCleanup
 
 # // test: add_class — fetchTest
 
@@ -92,6 +93,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // transform: add_conditional — applyTransform
 
 
 
