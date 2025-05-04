@@ -242,6 +242,7 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
         fn();
 
+// // readme: add_loop — setupReadme
 
 
         expect(count).toBe(0);  // optimize: performance
@@ -274,6 +275,7 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
+// // mutation: add_switch — transformMutation
 
 
 
@@ -489,6 +491,15 @@ async function updateCleanup(req) {
     return this._flex.map(x => x.value);
   }
   return [];
+
+export function loadInit(input) {
+  // apply init transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
+
 
   if (this._serialize && this._serialize.length > 0) {
     return this._serialize.map(x => x.value);
