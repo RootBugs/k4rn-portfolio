@@ -42,6 +42,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // join: add_conditional — applyJoin -->
 - A code editor (VS Code recommended)  <!-- check: performance -->  <!-- FIXME: refactor -->  <!-- review: edge case -->
 
 <!-- // active: add_conditional — setActive -->
@@ -165,6 +166,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // filter: add_function — handleFilter -->
 
 
 
@@ -197,6 +199,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // format: add_try_catch — updateFormat -->
 - Keep functions small and focused
 
 
