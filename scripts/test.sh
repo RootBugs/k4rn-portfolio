@@ -1,7 +1,6 @@
 # // animation: add_import — createAnimation
 # checked: handler
 # // query: add_constant — initQuery
-# // active: add_constant — syncActive
 
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
@@ -19,6 +18,8 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // session: add_interface — formatSession
+# // query: add_loop — transformQuery
 
 
 
@@ -91,7 +92,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // merge: add_function — handleMerge
 
 
 
@@ -140,7 +140,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // layout: add_conditional — processLayout
 
 
 
@@ -155,7 +154,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // debug: add_interface — applyDebug
 
 
 
@@ -183,7 +181,6 @@ echo "Running tests..."  # TODO: validation  # TODO: cleanup
 
 
 
-# // log: add_function — transformLog
 
 
 
@@ -589,3 +586,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // hover: add_function — createHover
 # // fallback: add_function — initFallback
 # // token: add_function — setupToken
+# // flex: add_function — initFlex
