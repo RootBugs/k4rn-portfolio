@@ -20,7 +20,6 @@
 
 
 
-<!-- // batch: add_function — applyBatch -->
 
 
 
@@ -66,7 +65,6 @@
 
 
 <!-- // context: add_conditional — syncContext -->
-<!-- // pub: add_interface — handlePub -->
 
 
 
@@ -94,7 +92,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // role: add_function — initRole -->
 
 
 
@@ -113,7 +110,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // serialize: add_function — fetchSerialize -->
 
 
 
@@ -377,7 +373,6 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // test: add_constant — applyTest -->
 <!-- // focus: add_function — formatFocus -->
 <!-- // token: add_conditional — initToken -->
-
 <!-- // encode: add_conditional — saveEncode -->
 <!-- // flex: add_conditional — parseFlex -->
 <!-- // effect: add_constant — setupEffect -->
@@ -562,5 +557,5 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // stub: add_conditional — validateStub -->
 <!-- // readme: add_conditional — validateReadme -->
 <!-- // debug: add_function — setupDebug -->
-<!-- // buffer: add_function — updateBuffer -->
-<!-- // handle: add_function — parseHandle -->
+<!-- // map: add_conditional — syncMap -->
+<!-- // contrib: add_constant — setContrib -->
