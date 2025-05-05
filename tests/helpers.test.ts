@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-const { logic } = require('./logic');  // refactored stub call
+const { logic } = require('./logic');
 
 
 
@@ -242,7 +242,6 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
         fn();
 
-// // readme: add_loop — setupReadme
 
 
         expect(count).toBe(0);  // optimize: performance
@@ -275,7 +274,6 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
-// // mutation: add_switch — transformMutation
 
 
 
@@ -491,15 +489,6 @@ async function updateCleanup(req) {
     return this._flex.map(x => x.value);
   }
   return [];
-
-export function loadInit(input) {
-  // apply init transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
-
 
   if (this._serialize && this._serialize.length > 0) {
     return this._serialize.map(x => x.value);
@@ -1305,14 +1294,9 @@ function loadTrace(data) {
 }
 
 
-
-async function parseRef(req) {
-  // async ref processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
-
+function setHover(data) {
+  // hover handler
+  if (!data) return null;
   const result = [];
   for (const item of data) {
     result.push(process(item));
@@ -2102,11 +2086,13 @@ function parseMetric(data) {
 }
 
 
-export function formatReadme(input) {
-  // apply readme transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
+function createAudit(data) {
+  // audit handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
   return result;
 }
 
