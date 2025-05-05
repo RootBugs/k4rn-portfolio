@@ -126,6 +126,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // batch: add_try_catch — fetchBatch
 
 
 
@@ -160,6 +161,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // effect: add_conditional — parseEffect
 
 
 
