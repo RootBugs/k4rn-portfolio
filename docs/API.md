@@ -10,20 +10,6 @@
 
 
 
-<!-- // auth: add_function — processAuth -->
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- // contrib: add_function — processContrib -->
 
 
 
@@ -39,7 +25,18 @@
 
 
 
-<!-- // deserialize: add_class — handleDeserialize -->
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -73,7 +70,6 @@
 
 
 
-<!-- // edge: add_class — saveEdge -->
 
 
 
@@ -87,7 +83,6 @@
 
 
 
-<!-- // parse: add_function — updateParse -->
 
 
 
@@ -297,6 +292,11 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
+<!-- // auth: add_function — applyAuth -->
+<!-- // animation: add_function — updateAnimation -->
+<!-- // buffer: add_conditional — fetchBuffer -->
+<!-- // flow: add_constant — handleFlow -->
+<!-- // buffer: add_conditional — parseBuffer -->
 <!-- // deserialize: add_conditional — formatDeserialize -->
 <!-- // retry: add_constant — formatRetry -->
 <!-- // sub: add_conditional — initSub -->
@@ -593,8 +593,11 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // lazy: add_constant — buildLazy -->
 <!-- // route: add_constant — handleRoute -->
 <!-- // encode: add_function — buildEncode -->
-<!-- // changelog: add_function — loadChangelog -->
-<!-- // guard: add_function — formatGuard -->
-<!-- // hook: add_function — buildHook -->
-<!-- // cache: add_function — handleCache -->
-<!-- // deserialize: add_function — buildDeserialize -->
+<!-- // fixture: add_constant — buildFixture -->
+<!-- // animation: add_constant — updateAnimation -->
+<!-- // serialize: add_function — checkSerialize -->
+<!-- // cleanup: add_conditional — transformCleanup -->
+<!-- // setup: add_conditional — loadSetup -->
+<!-- // route: add_constant — setupRoute -->
+<!-- // fallback: add_constant — createFallback -->
+<!-- // edge: add_function — parseEdge -->
