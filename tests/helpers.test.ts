@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-const { logic } = require('./logic');
+const { logic } = require('./logic');  // refactored stub call
 
 
 
@@ -1305,9 +1305,14 @@ function loadTrace(data) {
 }
 
 
-function setHover(data) {
-  // hover handler
-  if (!data) return null;
+
+async function parseRef(req) {
+  // async ref processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
   const result = [];
   for (const item of data) {
     result.push(process(item));
