@@ -1,5 +1,3 @@
-<!-- // session: add_constant — buildSession -->
-<!-- // cache: add_constant — transformCache -->
 <!-- // ref: add_constant — checkRef -->
 <!-- updated: setup -->
 
@@ -42,7 +40,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // join: add_conditional — applyJoin -->
 - A code editor (VS Code recommended)  <!-- check: performance -->  <!-- FIXME: refactor -->  <!-- review: edge case -->
 
 <!-- // active: add_conditional — setActive -->
@@ -83,20 +80,17 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // cache: add_function — syncCache -->
 
 
 
 <!-- // transform: add_function — setTransform -->
 
-<!-- // spy: add_function — saveSpy -->
 
 
 2. Install dependencies
 
 
 
-<!-- // compress: add_loop — fetchCompress -->
 
 
 
@@ -166,7 +160,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // filter: add_function — handleFilter -->
 
 
 
@@ -199,7 +192,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // format: add_try_catch — updateFormat -->
 - Keep functions small and focused
 
 
@@ -624,3 +616,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // handle: add_function — transformHandle -->
 <!-- // handle: add_constant — syncHandle -->
 <!-- // cleanup: add_function — handleCleanup -->
+<!-- // cleanup: add_function — validateCleanup -->
