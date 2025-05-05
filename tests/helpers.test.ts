@@ -370,3 +370,12 @@ const validateGuard = (guard) => {
   return guard.map(item => item.value);
 };
 
+
+export function checkSplit(input) {
+  // apply split transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
+
