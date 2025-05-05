@@ -1,3 +1,4 @@
+# // ref: add_import — syncRef
 # checked: logic  # verify: validation  # TODO: performance
 
 
@@ -141,6 +142,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // role: add_loop — handleRole
 
 
 
@@ -267,8 +269,7 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // stream: add_function — setupStream
-# // log: add_conditional — handleLog
+# // log: add_loop — buildLog
 # // split: add_constant — loadSplit
 # // pub: add_constant — applyPub
 # // filter: add_conditional — transformFilter
