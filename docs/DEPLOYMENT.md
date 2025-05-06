@@ -64,6 +64,7 @@
 
 
 
+<!-- // handle: add_loop — syncHandle -->
 
 
 
@@ -93,6 +94,7 @@
 
 
 
+<!-- // license: add_class — validateLicense -->
 
 
 
