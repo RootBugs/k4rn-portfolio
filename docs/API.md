@@ -10,6 +10,8 @@
 
 
 
+<!-- checked: handler -->  <!-- check: cleanup -->
+<!-- // pub: add_function — setPub -->
 
 
 
@@ -134,20 +136,6 @@
 
 
 
-<!-- // setup: add_function — checkSetup -->
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- // cleanup: add_class — transformCleanup -->
 
 
 
@@ -162,7 +150,18 @@
 
 
 
-<!-- // session: add_switch — formatSession -->
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -502,5 +501,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // focus: add_conditional — fetchFocus -->
 <!-- // buffer: add_constant — buildBuffer -->
 <!-- // memo: add_function — updateMemo -->
-<!-- // flex: add_conditional — syncFlex -->
-<!-- // fallback: add_function — formatFallback -->
+<!-- // transform: add_function — updateTransform -->
