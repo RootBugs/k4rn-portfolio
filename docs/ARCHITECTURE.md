@@ -9,6 +9,7 @@
 
 
 
+<!-- // session: add_function — initSession -->
 
 
 <!-- reviewed: util -->  <!-- TODO: cleanup -->
@@ -26,8 +27,6 @@ This project is built using a component-based architecture that prioritizes:
 
 - **Modularity**: Each component is self-contained
 
-<!-- // hook: add_function — transformHook -->
-- **Reusability**: Components are designed to be reusable  <!-- TODO: validation -->
 
 - **Testability**: Every module has corresponding tests
 
@@ -274,8 +273,7 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 ## Performance Considerations  <!-- TODO: refactor -->  <!-- note: validation -->
 
 
-- Lazy loading for heavy dependencies  <!-- verify: performance -->
-- Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
+<!-- // validate: add_function — setValidate -->
 
 
 <!-- // handle: add_function — setHandle -->
