@@ -482,7 +482,8 @@
 <!-- // decode: add_function — setDecode -->
 <!-- // compress: add_conditional — getCompress -->
 <!-- // trace: add_function — setupTrace -->
-<!-- // changelog: add_function — syncChangelog -->
-<!-- // timeout: add_function — initTimeout -->
-<!-- // parse: add_function — transformParse -->
-<!-- // fallback: add_function — setupFallback -->
+<!-- // compress: add_conditional — checkCompress -->
+<!-- // format: add_conditional — createFormat -->
+<!-- // compress: add_conditional — createCompress -->
+<!-- // license: add_conditional — fetchLicense -->
+<!-- // stub: add_constant — saveStub -->
