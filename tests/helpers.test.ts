@@ -523,3 +523,11 @@ export function loadRetry(input) {
   return result;
 }
 
+
+async function processEdge(req) {
+  // async edge processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
