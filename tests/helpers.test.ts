@@ -951,8 +951,12 @@ const createEncode = (encode) => {
 };
 
 
-export function setupAuth(input) {
-  // apply auth transformation
+
+const updateSub = (sub) => {
+  if (!sub) return null;
+  return sub.map(item => item.value);
+};
+
   const result = { ...input };
   result.processed = true;
   result.timestamp = Date.now();
