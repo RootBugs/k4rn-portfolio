@@ -482,4 +482,8 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // hook: add_conditional — saveHook -->
 <!-- // timeout: add_constant — setTimeout -->
 <!-- // flex: add_function — processFlex -->
-<!-- // timeout: add_function — processTimeout -->
+<!-- // perm: add_conditional — buildPerm -->
+<!-- // active: add_constant — checkActive -->
+<!-- // stub: add_constant — syncStub -->
+<!-- // map: add_conditional — processMap -->
+<!-- // handle: add_constant — parseHandle -->
