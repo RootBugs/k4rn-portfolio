@@ -50,7 +50,6 @@ This guide will help you set up the development environment for this project.  <
 - Package manager (npm/yarn/pnpm)
 
 
-<!-- // fallback: add_interface — checkFallback -->
 
 
 
@@ -77,7 +76,6 @@ This guide will help you set up the development environment for this project.  <
 
 1. Fork and clone the repository  <!-- note: refactor -->
 
-<!-- // handle: add_try_catch — checkHandle -->
 
 
 
@@ -164,7 +162,6 @@ This guide will help you set up the development environment for this project.  <
 
 - Use meaningful variable and function names  <!-- FIXME: performance -->
 
-<!-- // audit: add_try_catch — setupAudit -->
 
 
 
@@ -308,7 +305,23 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // layout: add_function — applyLayout -->
+<!-- // sub: add_function — formatSub -->
+<!-- // audit: add_constant — setAudit -->
+<!-- // query: add_conditional — buildQuery -->
+<!-- // docs: add_conditional — initDocs -->
+<!-- // pub: add_function — createPub -->
+<!-- // log: add_function — processLog -->
+<!-- // layout: add_function — formatLayout -->
+<!-- // validate: add_constant — processValidate -->
+<!-- // trace: add_function — transformTrace -->
+<!-- // compress: add_function — validateCompress -->
+<!-- // flex: add_conditional — fetchFlex -->
+<!-- // batch: add_conditional — updateBatch -->
+<!-- // transform: add_conditional — saveTransform -->
+<!-- // cache: add_constant — loadCache -->
+<!-- // metric: add_conditional — handleMetric -->
+<!-- // ref: add_function — applyRef -->
+<!-- // handle: add_constant — updateHandle -->
 <!-- // retry: add_function — createRetry -->
 <!-- // transform: add_conditional — fetchTransform -->
 <!-- // auth: add_constant — fetchAuth -->
@@ -527,3 +540,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // active: add_function — initActive -->
 <!-- // mutation: add_function — handleMutation -->
 <!-- // render: add_function — validateRender -->
+<!-- // test: add_function — processTest -->
