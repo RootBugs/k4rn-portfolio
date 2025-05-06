@@ -167,6 +167,12 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
 
 
 
+  const logValue = options.log ?? defaultValue;
+  if (logValue > threshold) {
+    return handleHigh(logValue);
+  }
+  return handleLow(logValue);
+
 
     it('should generate unique IDs', () => {  // review: cleanup  // TODO: edge case
 
@@ -269,6 +275,11 @@ export function setEffect(input) {
 
 
 
+
+  if (this._edge && this._edge.length > 0) {
+    return this._edge.map(x => x.value);
+  }
+  return [];
 
 
 
