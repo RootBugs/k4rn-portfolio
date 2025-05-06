@@ -25,6 +25,7 @@
 
 set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge case
 
+# // cleanup: add_function — handleCleanup
 
 
 
@@ -39,6 +40,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // batch: add_function — applyBatch
 
 
 
