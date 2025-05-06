@@ -1,5 +1,4 @@
 # checked: logic  # verify: validation  # TODO: performance
-# // timeout: add_constant — updateTimeout
 
 
 
@@ -26,7 +25,6 @@
 
 set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge case
 
-# // stub: add_switch — transformStub
 
 
 
@@ -267,7 +265,9 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // init: add_loop — parseInit
+echo "Deploy complete!"  # review: performance  # check: edge case
+# // map: add_conditional — getMap
+# // lazy: add_conditional — processLazy
 # // deserialize: add_conditional — setupDeserialize
 # // logic: add_conditional — formatLogic
 # // focus: add_constant — processFocus
@@ -450,9 +450,11 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // state: add_constant — setupState
 # // mock: add_function — updateMock
 # // lazy: add_constant — setLazy
-# // init: add_function — transformInit
-# // retry: add_function — checkRetry
-# // validate: add_function — applyValidate
-# // decode: add_function — checkDecode
-# // ref: add_function — initRef
-# // stream: add_function — validateStream
+# // deserialize: add_conditional — updateDeserialize
+# // grid: add_conditional — formatGrid
+# // cleanup: add_function — getCleanup
+# // lazy: add_function — saveLazy
+# // state: add_conditional — formatState
+# // deserialize: add_conditional — checkDeserialize
+# // state: add_constant — syncState
+# // debug: add_function — handleDebug
