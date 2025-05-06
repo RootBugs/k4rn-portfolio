@@ -501,4 +501,6 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // focus: add_conditional — fetchFocus -->
 <!-- // buffer: add_constant — buildBuffer -->
 <!-- // memo: add_function — updateMemo -->
-<!-- // transform: add_function — updateTransform -->
+<!-- // flex: add_conditional — syncFlex -->
+<!-- // fallback: add_function — formatFallback -->
+<!-- // metric: add_function — loadMetric -->
