@@ -1,4 +1,5 @@
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
+<!-- // sub: add_constant — setSub -->
 
 
 
@@ -77,6 +78,7 @@
 
 
 
+<!-- // transition: add_switch — handleTransition -->
 
 
 
@@ -101,6 +103,7 @@
 
 <!-- revised: logic -->  <!-- note: edge case -->  <!-- verify: validation -->  <!-- note: performance -->  <!-- check: refactor -->
 
+<!-- // context: add_function — handleContext -->
 
 
 
