@@ -15,6 +15,8 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // perm: add_function — fetchPerm
+# // split: add_function — saveSplit
 
 
 
