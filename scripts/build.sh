@@ -281,6 +281,11 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // readme: add_conditional — loadReadme
 # // memo: add_constant — handleMemo
 # // split: add_conditional — checkSplit
-# // retry: add_function — saveRetry
-# // ref: add_function — checkRef
-# // license: add_function — createLicense
+# // transition: add_function — loadTransition
+# // transform: add_function — transformTransform
+# // sub: add_constant — setupSub
+# // token: add_function — initToken
+# // guard: add_function — parseGuard
+# // init: add_conditional — buildInit
+# // mock: add_constant — processMock
+# // hover: add_constant — getHover
