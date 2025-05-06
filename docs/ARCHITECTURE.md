@@ -6,6 +6,7 @@
 
 
 
+<!-- // setup: add_function — setSetup -->
 
 
 
@@ -24,6 +25,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // retry: add_function — updateRetry -->
 - **Modularity**: Each component is self-contained
 
 - **Reusability**: Components are designed to be reusable  <!-- TODO: validation -->
@@ -31,6 +33,7 @@ This project is built using a component-based architecture that prioritizes:
 - **Testability**: Every module has corresponding tests
 
 
+<!-- // split: add_function — validateSplit -->
 
 
 
