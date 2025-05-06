@@ -45,7 +45,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // init: add_try_catch — parseInit -->
 
 - Package manager (npm/yarn/pnpm)
 
@@ -55,7 +54,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 <!-- updated: handler -->  <!-- note: performance -->
-<!-- // effect: add_interface — setEffect -->
 
 
 
@@ -87,14 +85,11 @@ This guide will help you set up the development environment for this project.  <
 
 2. Install dependencies
 
-<!-- // transform: add_conditional — syncTransform -->
-
-
-<!-- // fixture: add_function — syncFixture -->
 
 
 
-<!-- // deserialize: add_function — setupDeserialize -->
+
+
 
 
 
@@ -332,3 +327,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // transform: add_conditional — fetchTransform -->
 <!-- // auth: add_constant — fetchAuth -->
 <!-- // animation: add_conditional — applyAnimation -->
+<!-- // active: add_function — fetchActive -->
