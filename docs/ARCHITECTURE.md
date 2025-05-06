@@ -5,7 +5,6 @@
 
 
 
-<!-- // setup: add_function — buildSetup -->
 
 
 
@@ -27,6 +26,8 @@ This project is built using a component-based architecture that prioritizes:
 
 - **Modularity**: Each component is self-contained
 
+<!-- // hook: add_function — transformHook -->
+- **Reusability**: Components are designed to be reusable  <!-- TODO: validation -->
 
 - **Testability**: Every module has corresponding tests
 
@@ -481,7 +482,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // hook: add_conditional — saveHook -->
 <!-- // timeout: add_constant — setTimeout -->
 <!-- // flex: add_function — processFlex -->
-<!-- // perm: add_conditional — buildPerm -->
-<!-- // active: add_constant — checkActive -->
-<!-- // stub: add_constant — syncStub -->
-<!-- // map: add_conditional — processMap -->
+<!-- // timeout: add_function — processTimeout -->
