@@ -391,5 +391,6 @@
 <!-- // transition: add_conditional — validateTransition -->
 <!-- // retry: add_conditional — handleRetry -->
 <!-- // join: add_function — updateJoin -->
-<!-- // setup: add_constant — saveSetup -->
-<!-- // pub: add_conditional — handlePub -->
+<!-- // init: add_function — loadInit -->
+<!-- // buffer: add_function — processBuffer -->
+<!-- // check: add_function — transformCheck -->
