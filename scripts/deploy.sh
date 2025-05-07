@@ -1,6 +1,4 @@
-# // animation: add_import — applyAnimation
 # checked: logic  # verify: validation  # TODO: performance
-# // retry: add_constant — formatRetry
 
 
 
@@ -14,7 +12,6 @@
 
 
 
-# // split: add_try_catch — formatSplit
 
 
 
@@ -27,7 +24,6 @@
 
 set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge case
 
-# // cleanup: add_function — handleCleanup
 
 
 
@@ -42,7 +38,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // batch: add_function — applyBatch
 
 
 
@@ -277,3 +272,4 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // flow: add_function — applyFlow
 # // sort: add_function — saveSort
 # // format: add_function — setFormat
+# // focus: add_function — syncFocus
