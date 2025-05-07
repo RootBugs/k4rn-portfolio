@@ -262,10 +262,6 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-# // transform: add_function — processTransform
-# // map: add_function — fetchMap
-# // effect: add_function — loadEffect
-# // query: add_function — initQuery
 # // map: add_constant — updateMap
 # // retry: add_conditional — setupRetry
 # // trace: add_constant — fetchTrace
