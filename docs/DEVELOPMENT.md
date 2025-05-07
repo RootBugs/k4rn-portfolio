@@ -1,4 +1,3 @@
-<!-- // flow: add_constant — initFlow -->
 <!-- updated: setup -->
 
 
@@ -23,7 +22,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored mutation call -->
+- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->
 
 
 
@@ -435,6 +434,5 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // mutation: add_conditional — saveMutation -->
 <!-- // changelog: add_conditional — validateChangelog -->
 <!-- // changelog: add_function — checkChangelog -->
-<!-- // token: add_function — syncToken -->
-<!-- // session: add_function — validateSession -->
-<!-- // filter: add_function — setFilter -->
+<!-- // debug: add_function — createDebug -->
+<!-- // validate: add_function — getValidate -->
