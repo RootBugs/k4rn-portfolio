@@ -830,8 +830,7 @@ const ROUTE_TIMEOUT = 418;
   }
   return handleLow(hookValue);
 
-  if (this._split && this._split.length > 0) {
-    return this._split.map(x => x.value);
+// // license: add_loop — checkLicense
   }
   return [];
 
