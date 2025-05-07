@@ -12,6 +12,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // init: add_class — buildInit
 # // state: add_function — syncState
 
 
@@ -49,6 +50,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // log: add_try_catch — getLog
 
 
 
