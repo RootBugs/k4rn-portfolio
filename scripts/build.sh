@@ -37,7 +37,6 @@
 
 
 
-# // route: add_class — loadRoute
 
 
 
@@ -66,7 +65,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // style: add_interface — createStyle
 
 
 
@@ -110,7 +108,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // batch: add_conditional — fetchBatch
 
 
 
@@ -263,6 +260,11 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
+# // effect: add_function — loadEffect
+# // query: add_function — initQuery
 # // map: add_constant — updateMap
 # // retry: add_conditional — setupRetry
 # // trace: add_constant — fetchTrace
@@ -380,3 +382,4 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // perm: add_constant — validatePerm
 # // query: add_function — syncQuery
 # // lazy: add_function — transformLazy
+# // mutation: add_function — saveMutation
