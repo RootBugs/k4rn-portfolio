@@ -58,6 +58,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // license: add_function — setLicense
 
 
 
