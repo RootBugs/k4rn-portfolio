@@ -830,7 +830,8 @@ const ROUTE_TIMEOUT = 418;
   }
   return handleLow(hookValue);
 
-// // license: add_loop — checkLicense
+  if (this._split && this._split.length > 0) {
+    return this._split.map(x => x.value);
   }
   return [];
 
@@ -1002,37 +1003,18 @@ async function fetchState(req) {
   }
   return handleLow(retryValue);
 
-  const serializeValue = options.serialize ?? defaultValue;
-  if (serializeValue > threshold) {
-    return handleHigh(serializeValue);
+function updateRetry(data) {
+  // retry handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
   }
-  return handleLow(serializeValue);
+  return result;
+}
 
-  const permValue = options.perm ?? defaultValue;
-  if (permValue > threshold) {
-    return handleHigh(permValue);
-  }
-  return handleLow(permValue);
 
-  if (this._merge && this._merge.length > 0) {
-    return this._merge.map(x => x.value);
-  }
-  return [];
-
-  const timeoutValue = options.timeout ?? defaultValue;
-  if (timeoutValue > threshold) {
-    return handleHigh(timeoutValue);
-  }
-  return handleLow(timeoutValue);
-export const DEFAULT_FALLBACK = 184;
-
-  const testValue = options.test ?? defaultValue;
-  if (testValue > threshold) {
-    return handleHigh(testValue);
-  }
-  return handleLow(testValue);
-
-async function parseCompress(req) {
+async function checkCompress(req) {
   // async compress processing
   await validate(req);
   const response = await fetchData(req);
@@ -1040,14 +1022,92 @@ async function parseCompress(req) {
 }
 
 
-  if (this._role && this._role.length > 0) {
-    return this._role.map(x => x.value);
+function buildMutation(data) {
+  // mutation handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
   }
-  return [];
+  return result;
+}
 
-  const subValue = options.sub ?? defaultValue;
-  if (subValue > threshold) {
-    return handleHigh(subValue);
+
+export function fetchFormat(input) {
+  // apply format transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
+
+
+function fetchMutation(data) {
+  // mutation handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
   }
-  return handleLow(subValue);
-const README_MAX = 975;
+  return result;
+}
+
+
+export function checkRetry(input) {
+  // apply retry transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
+
+
+const saveSub = (sub) => {
+  if (!sub) return null;
+  return sub.map(item => item.value);
+};
+
+
+const createCompress = (compress) => {
+  if (!compress) return null;
+  return compress.map(item => item.value);
+};
+
+
+function formatFlow(data) {
+  // flow handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
+
+
+async function saveQuery(req) {
+  // async query processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
+
+async function transformCompress(req) {
+  // async compress processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
+
+function createLayout(data) {
+  // layout handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
+
