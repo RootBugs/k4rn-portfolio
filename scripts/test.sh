@@ -12,7 +12,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // init: add_class — buildInit
 # // state: add_function — syncState
 
 
@@ -50,7 +49,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // log: add_try_catch — getLog
 
 
 
@@ -400,5 +398,6 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // setup: add_function — getSetup
 # // guard: add_constant — handleGuard
 # // timeout: add_conditional — formatTimeout
-# // setup: add_function — buildSetup
-# // serialize: add_function — parseSerialize
+# // timeout: add_constant — transformTimeout
+# // debug: add_conditional — syncDebug
+# // state: add_conditional — handleState
