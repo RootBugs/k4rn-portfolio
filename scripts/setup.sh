@@ -273,11 +273,6 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
-# // flow: add_loop — syncFlow
-# // spy: add_constant — setSpy
-# // perm: add_constant — updatePerm
-# // flow: add_conditional — validateFlow
-# // serialize: add_constant — validateSerialize
 # // mutation: add_constant — checkMutation
 # // changelog: add_conditional — processChangelog
 # // encode: add_function — buildEncode
