@@ -110,6 +110,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // batch: add_conditional — fetchBatch
 
 
 
