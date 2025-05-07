@@ -15,8 +15,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // perm: add_function — fetchPerm
-# // split: add_function — saveSplit
 
 
 
@@ -49,7 +47,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // fallback: add_function — checkFallback
 
 
 
@@ -58,7 +55,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // license: add_function — setLicense
 
 
 
@@ -311,3 +307,5 @@ echo "Setup complete!"  # verify: refactor
 # // cleanup: add_function — initCleanup
 # // test: add_constant — createTest
 # // spy: add_conditional — loadSpy
+# // grid: add_constant — applyGrid
+# // fallback: add_function — createFallback
