@@ -86,7 +86,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // guard: add_class — checkGuard
 
 
 
