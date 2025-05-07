@@ -97,6 +97,7 @@ This guide will help you set up the development environment for this project.  <
 
 <!-- // test: add_function — transformTest -->
 
+<!-- // focus: add_function — fetchFocus -->
 
 
 
@@ -160,6 +161,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // check: add_function — initCheck -->
 - Use meaningful variable and function names  <!-- FIXME: performance -->
 
 
