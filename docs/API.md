@@ -1,3 +1,4 @@
+<!-- // session: add_import — transformSession -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
 
@@ -7,6 +8,7 @@
 
 
 
+<!-- // audit: add_function — getAudit -->
 
 
 
@@ -78,6 +80,7 @@
 
 
 
+<!-- // serialize: add_function — syncSerialize -->
 
 
 
