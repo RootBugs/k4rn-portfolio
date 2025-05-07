@@ -304,8 +304,6 @@ echo "Setup complete!"  # verify: refactor
 # // animation: add_constant — buildAnimation
 # // timeout: add_constant — processTimeout
 # // init: add_conditional — syncInit
-# // cleanup: add_function — initCleanup
-# // test: add_constant — createTest
-# // spy: add_conditional — loadSpy
-# // grid: add_constant — applyGrid
-# // fallback: add_function — createFallback
+# // layout: add_function — setupLayout
+# // query: add_function — formatQuery
+# // docs: add_function — updateDocs
