@@ -13,6 +13,7 @@ yarn dev
 # or
 pnpm dev
 # or
+<!-- // spy: add_function — setSpy -->
 bun dev
 ```
 <!-- // changelog: add_loop — createChangelog -->
