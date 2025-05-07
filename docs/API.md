@@ -307,5 +307,9 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // contrib: add_function — checkContrib -->
 <!-- // filter: add_function — parseFilter -->
 <!-- // state: add_constant — saveState -->
-<!-- // hook: add_function — initHook -->
-<!-- // changelog: add_function — syncChangelog -->
+<!-- // test: add_function — handleTest -->
+<!-- // format: add_function — updateFormat -->
+<!-- // guard: add_constant — saveGuard -->
+<!-- // active: add_constant — initActive -->
+<!-- // debug: add_constant — setDebug -->
+<!-- // sort: add_function — fetchSort -->
