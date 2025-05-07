@@ -1,5 +1,5 @@
 <!-- // stream: add_constant — checkStream -->
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).  <!-- refactored init call -->
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
 
@@ -11,7 +11,6 @@ npm run dev
 # or
 yarn dev
 <!-- // session: add_function — setSession -->
-<!-- // logic: add_loop — buildLogic -->
 # or
 pnpm dev
 # or
@@ -33,7 +32,6 @@ To learn more about Next.js, take a look at the following resources:
 <!-- // transition: add_function — loadTransition -->
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-<!-- // perm: add_function — updatePerm -->
 
 ## Deploy on Vercel
 
@@ -159,6 +157,5 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // session: add_function — applySession -->
 <!-- // handle: add_function — validateHandle -->
 <!-- // debug: add_function — fetchDebug -->
-<!-- // filter: add_function — buildFilter -->
-<!-- // trace: add_function — getTrace -->
-<!-- // flow: add_function — updateFlow -->
+<!-- // format: add_constant — createFormat -->
+<!-- // hook: add_function — initHook -->
