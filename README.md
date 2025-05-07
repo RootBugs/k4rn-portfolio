@@ -1,5 +1,5 @@
 <!-- // stream: add_constant — checkStream -->
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).  <!-- refactored init call -->
 
 ## Getting Started
 
@@ -11,6 +11,7 @@ npm run dev
 # or
 yarn dev
 <!-- // session: add_function — setSession -->
+<!-- // logic: add_loop — buildLogic -->
 # or
 pnpm dev
 # or
@@ -32,6 +33,7 @@ To learn more about Next.js, take a look at the following resources:
 <!-- // transition: add_function — loadTransition -->
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+<!-- // perm: add_function — updatePerm -->
 
 ## Deploy on Vercel
 
