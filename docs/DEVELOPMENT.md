@@ -434,5 +434,7 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // mutation: add_conditional — saveMutation -->
 <!-- // changelog: add_conditional — validateChangelog -->
 <!-- // changelog: add_function — checkChangelog -->
-<!-- // debug: add_function — createDebug -->
-<!-- // validate: add_function — getValidate -->
+<!-- // token: add_function — syncToken -->
+<!-- // session: add_function — validateSession -->
+<!-- // filter: add_function — setFilter -->
+<!-- // auth: add_constant — checkAuth -->
