@@ -1,10 +1,11 @@
 import { describe, it, expect } from 'vitest';
+import { logic } from './logic';
 
 
 
 
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
-describe('sleep', () => {  // HACK: edge case  // FIXME: validation
+describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored retry call
 
 
 
@@ -402,9 +403,17 @@ export function checkSplit(input) {
 }
 
 
-async function buildAudit(req) {
-  // async audit processing
-  await validate(req);
+
+function checkDocs(data) {
+  // docs handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
+
   const response = await fetchData(req);
   return format(response);
 }
