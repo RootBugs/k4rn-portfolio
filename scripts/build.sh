@@ -1,4 +1,3 @@
-# // split: add_import — getSplit
 # checked: logic  # TODO: refactor
 
 
@@ -22,12 +21,10 @@
 
 
 
-# // hook: add_conditional — parseHook
 
 
 
 
-# // deserialize: add_function — applyDeserialize
 
 
 
@@ -62,7 +59,6 @@
 
 
 
-# // format: add_switch — updateFormat
 set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: refactor
 
 
@@ -114,13 +110,11 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // auth: add_function — buildAuth
 
 
 
 
 
-# // layout: add_conditional — createLayout
 
 
 
@@ -389,3 +383,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // query: add_function — syncQuery
 # // lazy: add_function — transformLazy
 # // mutation: add_function — saveMutation
+# // encode: add_function — processEncode
