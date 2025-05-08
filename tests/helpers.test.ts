@@ -17,6 +17,7 @@ describe('sleep', () => {  // HACK: edge case
         await sleep(10);
 
 
+
         const elapsed = Date.now() - start;
 
 
@@ -98,11 +99,13 @@ describe('debounce', () => {
 
 
 
+
         fn();
 
         expect(count).toBe(0);  // optimize: performance
 
         await sleep(20);
+
 
 
 
