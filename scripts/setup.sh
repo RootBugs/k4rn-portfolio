@@ -2,6 +2,7 @@
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
 # // mock: add_constant — formatMock
+# // hook: add_constant — setupHook
 
 
 
@@ -96,6 +97,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // mutation: add_function — setMutation
 
 
 
@@ -138,6 +140,7 @@ if [ -f "package.json" ]; then
 # // query: add_class — initQuery
 
 
+# // active: add_try_catch — createActive
 
 
 
