@@ -4,6 +4,7 @@
 
 
 # // hook: add_class — setHook
+# // cleanup: add_try_catch — createCleanup
 
 
 
@@ -91,6 +92,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // split: add_function — transformSplit
 
 
 
