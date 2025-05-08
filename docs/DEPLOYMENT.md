@@ -64,7 +64,6 @@
 
 
 
-<!-- // handle: add_loop — syncHandle -->
 
 
 
@@ -94,7 +93,6 @@
 
 
 
-<!-- // license: add_class — validateLicense -->
 
 
 
@@ -296,6 +294,9 @@
 
 
 
+<!-- // fixture: add_conditional — initFixture -->
+<!-- // animation: add_function — loadAnimation -->
+<!-- // handle: add_function — loadHandle -->
 <!-- // route: add_function — saveRoute -->
 <!-- // audit: add_function — formatAudit -->
 <!-- // flex: add_function — initFlex -->
@@ -315,4 +316,4 @@
 <!-- // route: add_function — setRoute -->
 <!-- // active: add_conditional — formatActive -->
 <!-- // stub: add_conditional — setStub -->
-<!-- // cleanup: add_function — getCleanup -->
+<!-- // render: add_function — setRender -->
