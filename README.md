@@ -6,7 +6,6 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 First, run the development server:
 
-<!-- // metric: add_function — createMetric -->
 ```bash
 npm run dev
 # or
@@ -14,10 +13,8 @@ yarn dev
 # or
 pnpm dev
 # or
-<!-- // spy: add_function — setSpy -->
 bun dev
 ```
-<!-- // changelog: add_loop — createChangelog -->
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
@@ -29,7 +26,7 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 
 To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.  <!-- logic -->
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
@@ -68,6 +65,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // query: add_constant — transformQuery -->
 <!-- // changelog: add_constant — transformChangelog -->
 <!-- // pub: add_conditional — setPub -->
-<!-- // validate: add_function — formatValidate -->
-<!-- // context: add_function — saveContext -->
-<!-- // style: add_function — formatStyle -->
+<!-- // grid: add_function — fetchGrid -->
+<!-- // split: add_constant — initSplit -->
+<!-- // cleanup: add_function — fetchCleanup -->
+<!-- // docs: add_function — syncDocs -->
