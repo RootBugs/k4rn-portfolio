@@ -27,7 +27,8 @@
 
 
 
-<!-- revised: logic -->  <!-- note: edge case -->  <!-- verify: validation -->
+
+<!-- revised: logic -->  <!-- note: edge case -->  <!-- verify: validation -->  <!-- note: performance -->
 
 
 
@@ -52,6 +53,7 @@
 
 
 Returns the current status of the service.  <!-- TODO: validation -->
+
 
 
 
