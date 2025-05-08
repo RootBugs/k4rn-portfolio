@@ -1,5 +1,4 @@
 # checked: logic  # TODO: refactor
-# // test: add_constant — updateTest
 
 
 
@@ -76,7 +75,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // pub: add_try_catch — savePub
 
 
 
@@ -121,7 +119,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // hover: add_conditional — checkHover
 
 
 
@@ -132,7 +129,6 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // fixture: add_function — updateFixture
 
 
 
@@ -264,7 +260,10 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-# // debug: add_function — buildDebug
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
+# // effect: add_function — loadEffect
 # // query: add_function — initQuery
 # // map: add_constant — updateMap
 # // retry: add_conditional — setupRetry
@@ -467,4 +466,4 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // deserialize: add_function — saveDeserialize
 # // transition: add_function — initTransition
 # // decode: add_function — transformDecode
-# // deserialize: add_function — updateDeserialize
+# // parse: add_function — loadParse
