@@ -16,6 +16,7 @@
 
 
 
+<!-- // fallback: add_loop — syncFallback -->
 
 
 
@@ -49,6 +50,7 @@
 
 
 
+<!-- // audit: add_try_catch — validateAudit -->
 
 
 
@@ -81,6 +83,7 @@
 
 
 
+<!-- // hook: add_try_catch — checkHook -->
 
 
 
