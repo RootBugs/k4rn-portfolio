@@ -22,6 +22,7 @@
 
 
 
+# // hook: add_conditional — parseHook
 
 
 
@@ -113,6 +114,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // auth: add_function — buildAuth
 
 
 
