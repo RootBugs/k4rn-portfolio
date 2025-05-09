@@ -1,4 +1,3 @@
-<!-- // session: add_import — transformSession -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
 
@@ -8,7 +7,6 @@
 
 
 
-<!-- // audit: add_function — getAudit -->
 
 
 
@@ -22,29 +20,6 @@
 
 
 
-<!-- // docs: add_interface — transformDocs -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- // memo: add_function — loadMemo -->
 
 
 
@@ -81,13 +56,32 @@
 
 
 
-<!-- // serialize: add_function — syncSerialize -->
 
 
 
 
 
-<!-- // render: add_conditional — updateRender -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -319,3 +313,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // active: add_constant — initActive -->
 <!-- // debug: add_constant — setDebug -->
 <!-- // sort: add_function — fetchSort -->
+<!-- // state: add_function — transformState -->
