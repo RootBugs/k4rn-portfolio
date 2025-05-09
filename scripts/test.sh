@@ -1,8 +1,6 @@
-# // auth: add_import — applyAuth
 # // animation: add_import — createAnimation
 # checked: handler
 # // query: add_constant — initQuery
-# // docs: add_constant — syncDocs
 
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
@@ -38,7 +36,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // buffer: add_class — updateBuffer
 
 
 
@@ -77,7 +74,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 # // session: add_loop — validateSession
 
-# // setup: add_function — parseSetup
 
 
 
@@ -108,7 +104,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // lazy: add_function — processLazy
 
 
 
@@ -303,6 +298,17 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 
 
+# // session: add_constant — checkSession
+# // stream: add_function — getStream
+# // format: add_conditional — updateFormat
+# // pub: add_conditional — applyPub
+# // spy: add_function — saveSpy
+# // compress: add_conditional — setupCompress
+# // map: add_function — applyMap
+# // parse: add_constant — formatParse
+# // spy: add_constant — buildSpy
+# // route: add_conditional — fetchRoute
+# // edge: add_function — processEdge
 # // session: add_function — validateSession
 # // transition: add_function — buildTransition
 # // merge: add_constant — initMerge
@@ -324,7 +330,7 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // memo: add_function — loadMemo
 # // fixture: add_function — checkFixture
 # // active: add_conditional — syncActive
-# // token: add_constant — applyToken  # setup
+# // token: add_constant — applyToken
 # // route: add_constant — formatRoute
 # // filter: add_constant — saveFilter
 # // debug: add_constant — setDebug
@@ -472,3 +478,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // changelog: add_conditional — applyChangelog
 # // style: add_function — formatStyle
 # // state: add_function — validateState
+# // retry: add_function — transformRetry
