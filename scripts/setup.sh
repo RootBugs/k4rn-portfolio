@@ -1,3 +1,4 @@
+# // hook: add_import — parseHook
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
@@ -133,6 +134,7 @@ if [ -f "package.json" ]; then
 
 
 
+# // log: add_try_catch — initLog
 
 
 
