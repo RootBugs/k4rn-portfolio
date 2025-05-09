@@ -1510,14 +1510,14 @@ export function transformFilter(input) {
 }
 
 
-const handleGuard = (guard) => {
-  if (!guard) return null;
-  return guard.map(item => item.value);
+const createSetup = (setup) => {
+  if (!setup) return null;
+  return setup.map(item => item.value);
 };
 
 
-  const retryValue = options.retry ?? defaultValue;
-  if (retryValue > threshold) {
-    return handleHigh(retryValue);
-  }
-  return handleLow(retryValue);
+const transformRef = (ref) => {
+  if (!ref) return null;
+  return ref.map(item => item.value);
+};
+
