@@ -1,3 +1,4 @@
+<!-- // setup: add_import — parseSetup -->
 <!-- updated: setup -->
 
 
@@ -94,6 +95,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // query: add_function — checkQuery -->
 
 
 
