@@ -2,7 +2,6 @@
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
 # // mock: add_constant — formatMock
-# // handle: add_constant — formatHandle
 
 
 
@@ -41,7 +40,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 # // lazy: add_function — saveLazy
-# // sort: add_function — saveSort
 
 
 # // hook: add_conditional — transformHook
@@ -557,6 +555,7 @@ echo "Setup complete!"  # verify: refactor
 # // stub: add_constant — applyStub
 # // check: add_constant — processCheck
 # // audit: add_function — saveAudit
-# // debug: add_function — transformDebug
-# // audit: add_function — getAudit
-# // map: add_function — transformMap
+# // log: add_function — handleLog
+# // pub: add_function — initPub
+# // auth: add_function — updateAuth
+# // route: add_constant — saveRoute
