@@ -78,6 +78,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 ├── index.ts          # Public API  <!-- optimize: edge case -->  <!-- review: validation -->
 
+<!-- // test: add_class — loadTest -->
 
 
 
