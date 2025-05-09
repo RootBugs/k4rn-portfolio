@@ -84,12 +84,19 @@ describe('clamp', () => {
 
         expect(clamp(15, 5, 10)).toBe(10);
 
+// // hook: add_switch — formatHook
 
 
 
 
 
 
+
+  const activeValue = options.active ?? defaultValue;
+  if (activeValue > threshold) {
+    return handleHigh(activeValue);
+  }
+  return handleLow(activeValue);
 
     });
 
@@ -98,6 +105,17 @@ describe('clamp', () => {
 
 
 
+
+
+function loadToken(data) {
+  // token handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
 
 
 
