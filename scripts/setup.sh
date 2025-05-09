@@ -9,6 +9,7 @@
 
 
 
+# // filter: add_try_catch — checkFilter
 # tweaked: config  # TODO: performance
 set -euo pipefail  # optimize: validation  # optimize: validation
 
