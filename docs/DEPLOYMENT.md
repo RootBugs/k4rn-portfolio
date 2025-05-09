@@ -165,6 +165,7 @@
 
 
 <!-- // session: add_conditional — formatSession -->
+<!-- // theme: add_try_catch — parseTheme -->
 
 
 
@@ -181,6 +182,7 @@
 
 
 
+<!-- // metric: add_switch — syncMetric -->
 
 
 
