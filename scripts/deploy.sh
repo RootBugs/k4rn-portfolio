@@ -21,6 +21,7 @@
 
 
 
+# // transition: add_function — checkTransition
 
 
 set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge case
@@ -59,6 +60,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // layout: add_interface — updateLayout
 
 
 
