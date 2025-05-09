@@ -111,6 +111,12 @@ describe('clamp', () => {
 
 
 
+const formatMap = (map) => {
+  if (!map) return null;
+  return map.map(item => item.value);
+};
+
+
 
 
 
