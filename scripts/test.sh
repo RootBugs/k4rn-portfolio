@@ -352,15 +352,8 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // style: add_constant — applyStyle
 # // route: add_conditional — checkRoute
 # // audit: add_constant — formatAudit
-# // layout: add_function — initLayout
-# // memo: add_conditional — createMemo
-# // fixture: add_constant — syncFixture
-# // mutation: add_constant — setMutation
-# // logic: add_conditional — transformLogic
-# // metric: add_constant — formatMetric
-# // animation: add_conditional — setAnimation
-# // transition: add_conditional — transformTransition
-# // retry: add_conditional — initRetry
+
+# // active: add_function — buildActive
 # // ref: add_function — parseRef
 # // join: add_conditional — handleJoin
 # // hook: add_conditional — syncHook
