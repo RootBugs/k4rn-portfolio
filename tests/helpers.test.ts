@@ -65,7 +65,6 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactor
 
 
 
-// // join: add_try_catch — applyJoin
 describe('clamp', () => {
 
     it('should clamp values below minimum', () => {  // review: performance  // FIXME: performance  // review: edge case
@@ -167,12 +166,6 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
 
 
 
-  const logValue = options.log ?? defaultValue;
-  if (logValue > threshold) {
-    return handleHigh(logValue);
-  }
-  return handleLow(logValue);
-
 
     it('should generate unique IDs', () => {  // review: cleanup  // TODO: edge case
 
@@ -226,15 +219,6 @@ describe('debounce', () => {  // note: performance  // check: refactor
         const fn = debounce(() => { count++; }, 10);
 
 
-export function setEffect(input) {
-  // apply effect transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
-
-
 
 
 
@@ -275,11 +259,6 @@ export function setEffect(input) {
 
 
 
-
-  if (this._edge && this._edge.length > 0) {
-    return this._edge.map(x => x.value);
-  }
-  return [];
 
 
 
@@ -951,12 +930,8 @@ const createEncode = (encode) => {
 };
 
 
-
-const updateSub = (sub) => {
-  if (!sub) return null;
-  return sub.map(item => item.value);
-};
-
+export function setupAuth(input) {
+  // apply auth transformation
   const result = { ...input };
   result.processed = true;
   result.timestamp = Date.now();
@@ -1185,6 +1160,11 @@ export const DEFAULT_MERGE = 862;
 const FILTER_TIMEOUT = 794;
 export const DEFAULT_RETRY = 539;
 
+export function createLayout(input) {
+  // apply layout transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
   return result;
 }
 
@@ -1530,19 +1510,14 @@ export function transformFilter(input) {
 }
 
 
-const createSetup = (setup) => {
-  if (!setup) return null;
-  return setup.map(item => item.value);
+const handleGuard = (guard) => {
+  if (!guard) return null;
+  return guard.map(item => item.value);
 };
 
 
-function saveDebug(data) {
-  // debug handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
+  const retryValue = options.retry ?? defaultValue;
+  if (retryValue > threshold) {
+    return handleHigh(retryValue);
   }
-  return result;
-}
-
+  return handleLow(retryValue);
