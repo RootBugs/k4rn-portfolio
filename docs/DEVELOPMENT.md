@@ -1,4 +1,3 @@
-<!-- // setup: add_import — parseSetup -->
 <!-- updated: setup -->
 
 
@@ -95,7 +94,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // query: add_function — checkQuery -->
 
 
 
@@ -303,7 +301,11 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // style: add_conditional — parseStyle -->
+<!-- // sub: add_function — processSub -->
+<!-- // transition: add_constant — applyTransition -->
+<!-- // audit: add_conditional — saveAudit -->
+<!-- // session: add_constant — parseSession -->
+<!-- // stub: add_conditional — applyStub -->
 <!-- // layout: add_constant — saveLayout -->
 <!-- // audit: add_constant — setAudit -->
 <!-- // query: add_conditional — buildQuery -->
@@ -326,3 +328,5 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // auth: add_constant — fetchAuth -->
 <!-- // animation: add_conditional — applyAnimation -->
 <!-- // retry: add_function — syncRetry -->
+<!-- // merge: add_function — loadMerge -->
+<!-- // spy: add_conditional — getSpy -->
