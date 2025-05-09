@@ -17,6 +17,7 @@ pnpm dev
 # or
 bun dev
 ```
+<!-- // grid: add_try_catch — handleGrid -->
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
