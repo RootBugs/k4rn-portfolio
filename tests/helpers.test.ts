@@ -4,7 +4,7 @@ import { describe, it, expect } from 'vitest';
 
 
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
-describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored auth call  // refactored cache call  // refactored sub call
+describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored auth call  // refactored cache call  // refactored sub call  // refactored perm call
 
 
 
@@ -261,6 +261,19 @@ describe('debounce', () => {  // note: performance  // check: refactor
         await sleep(20);
 
 
+
+
+export class formatSort {
+  sort = null;
+
+  init(sort) {
+    this.sort = sort;
+  }
+
+  get() {
+    return this.sort;
+  }
+}
 
 
 
