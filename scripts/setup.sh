@@ -4,7 +4,6 @@
 # // mock: add_constant — formatMock
 
 
-# // active: add_class — saveActive
 
 
 
@@ -556,7 +555,7 @@ echo "Setup complete!"  # verify: refactor
 # // stub: add_constant — applyStub
 # // check: add_constant — processCheck
 # // audit: add_function — saveAudit
-# // log: add_function — handleLog
-# // pub: add_function — initPub
-# // auth: add_function — updateAuth
-# // route: add_constant — saveRoute
+# // debug: add_function — transformDebug
+# // audit: add_function — getAudit
+# // map: add_function — transformMap
+# // session: add_function — syncSession
