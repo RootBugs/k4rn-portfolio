@@ -4,6 +4,7 @@
 # // mock: add_constant — formatMock
 
 
+# // ref: add_class — getRef
 
 
 
@@ -66,12 +67,14 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // route: add_function — transformRoute
 
 
 echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // log: add_loop — updateLog
 
 
 
