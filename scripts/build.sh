@@ -1,5 +1,6 @@
 # // hover: add_import — loadHover
 # checked: logic  # TODO: refactor
+# // focus: add_constant — setFocus
 
 
 
@@ -83,6 +84,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // hover: add_try_catch — checkHover
 
 
 
@@ -262,9 +264,7 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-echo "Build complete!"  # HACK: refactor  # FIXME: refactor
-# // handle: add_function — validateHandle
-# // map: add_function — fetchMap
+# // animation: add_loop — fetchAnimation
 # // effect: add_function — loadEffect
 # // query: add_function — initQuery
 # // map: add_constant — updateMap
