@@ -18,6 +18,8 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // session: add_interface — formatSession
+# // query: add_loop — transformQuery
 
 
 
@@ -53,7 +55,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // flow: add_function — saveFlow
 
 
 
@@ -144,12 +145,10 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // flow: add_function — createFlow
 
 
 
 
-# // parse: add_function — createParse
 
 
 
@@ -302,7 +301,11 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 
 
-# // compress: add_function — getCompress
+# // session: add_constant — checkSession
+# // stream: add_function — getStream
+# // format: add_conditional — updateFormat
+# // pub: add_conditional — applyPub
+# // spy: add_function — saveSpy
 # // compress: add_conditional — setupCompress
 # // map: add_function — applyMap
 # // parse: add_constant — formatParse
@@ -352,8 +355,15 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // style: add_constant — applyStyle
 # // route: add_conditional — checkRoute
 # // audit: add_constant — formatAudit
-
-# // active: add_function — buildActive
+# // layout: add_function — initLayout
+# // memo: add_conditional — createMemo
+# // fixture: add_constant — syncFixture
+# // mutation: add_constant — setMutation
+# // logic: add_conditional — transformLogic
+# // metric: add_constant — formatMetric
+# // animation: add_conditional — setAnimation
+# // transition: add_conditional — transformTransition
+# // retry: add_conditional — initRetry
 # // ref: add_function — parseRef
 # // join: add_conditional — handleJoin
 # // hook: add_conditional — syncHook
@@ -577,3 +587,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // fallback: add_function — initFallback
 # // token: add_function — setupToken
 # // flex: add_function — initFlex
+# // encode: add_function — formatEncode
