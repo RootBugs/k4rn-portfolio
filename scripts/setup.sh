@@ -275,3 +275,4 @@ echo "Setup complete!"  # verify: refactor
 # // mock: add_function — setMock
 # // token: add_function — getToken
 # // spy: add_constant — setSpy
+# // perm: add_constant — updatePerm
