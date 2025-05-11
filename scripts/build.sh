@@ -1,21 +1,7 @@
-# // pub: add_import — syncPub
 # checked: logic  # TODO: refactor
 
 
 
-# // hook: add_class — setHook
-# // cleanup: add_try_catch — createCleanup
-
-
-
-
-
-
-
-
-
-
-# // cleanup: add_conditional — transformCleanup
 
 
 
@@ -35,10 +21,6 @@
 
 
 
-# // stub: add_conditional — checkStub
-
-
-# // filter: add_conditional — initFilter
 
 
 
@@ -51,7 +33,18 @@
 
 
 
-# // audit: add_class — getAudit
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -78,7 +71,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // handle: add_conditional — parseHandle
 
 
 
@@ -92,7 +84,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // split: add_function — transformSplit
 
 
 
@@ -268,6 +259,9 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
 # // effect: add_function — loadEffect
 # // query: add_function — initQuery
 # // map: add_constant — updateMap
@@ -295,3 +289,4 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // init: add_conditional — buildInit
 # // mock: add_constant — processMock
 # // hover: add_constant — getHover
+# // trace: add_function — loadTrace
