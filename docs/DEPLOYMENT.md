@@ -1,3 +1,4 @@
+<!-- // lazy: add_constant — parseLazy -->
 <!-- tweaked: util -->
 
 
@@ -55,6 +56,7 @@
 
 
 
+<!-- // license: add_conditional — getLicense -->
 
 
 
@@ -294,9 +296,7 @@
 
 
 
-<!-- // fixture: add_conditional — initFixture -->
-<!-- // animation: add_function — loadAnimation -->
-<!-- // handle: add_function — loadHandle -->
+<!-- // transition: add_conditional — validateTransition -->
 <!-- // route: add_function — saveRoute -->
 <!-- // audit: add_function — formatAudit -->
 <!-- // flex: add_function — initFlex -->
