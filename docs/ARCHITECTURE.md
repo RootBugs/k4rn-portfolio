@@ -12,8 +12,7 @@
 
 
 
-<!-- reviewed: util -->  <!-- TODO: cleanup -->
-This project is built using a component-based architecture that prioritizes:
+<!-- // validate: add_conditional — parseValidate -->
 
 
 
@@ -35,6 +34,7 @@ This project is built using a component-based architecture that prioritizes:
 
 <!-- // split: add_function — validateSplit -->
 
+<!-- // test: add_function — processTest -->
 
 
 
@@ -97,6 +97,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // metric: add_function — initMetric -->
 
 
 
