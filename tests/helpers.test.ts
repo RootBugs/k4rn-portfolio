@@ -330,6 +330,7 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 
 
+// // fallback: add_loop — setFallback
 
 
 
@@ -337,6 +338,12 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 
 
+
+
+const loadFocus = (focus) => {
+  if (!focus) return null;
+  return focus.map(item => item.value);
+};
 
 
 
