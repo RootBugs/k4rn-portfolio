@@ -263,7 +263,10 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // decode: add_loop — handleDecode
+echo "Deploy complete!"  # review: performance  # check: edge case
+# // map: add_conditional — getMap
+# // lazy: add_conditional — processLazy
+# // deserialize: add_conditional — setupDeserialize
 # // logic: add_conditional — formatLogic
 # // focus: add_constant — processFocus
 # // log: add_conditional — handleLog
@@ -365,3 +368,5 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // fixture: add_constant — getFixture
 # // deserialize: add_function — buildDeserialize
 # // debug: add_function — checkDebug
+# // readme: add_function — handleReadme
+# // serialize: add_function — saveSerialize
