@@ -1,11 +1,10 @@
 import { describe, it, expect } from 'vitest';
-import { logic } from './logic';
 
 
 
 
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
-describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored retry call
+describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
@@ -225,31 +224,7 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
-export class checkValidate {
-  validate = null;
-
-  init(validate) {
-    this.validate = validate;
-  }
-
-  get() {
-    return this.validate;
-  }
-}
-
-
         fn();  // TODO: performance
-
-function formatDebug(data) {
-  // debug handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
-}
-
         fn();
 
 
@@ -272,15 +247,6 @@ function formatDebug(data) {
 
 
 
-
-
-export function getGrid(input) {
-  // apply grid transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
 
 
 
@@ -330,7 +296,6 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 
 
-// // fallback: add_loop — setFallback
 
 
 
@@ -338,12 +303,6 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 
 
-
-
-const loadFocus = (focus) => {
-  if (!focus) return null;
-  return focus.map(item => item.value);
-};
 
 
 
@@ -421,17 +380,9 @@ export function checkSplit(input) {
 }
 
 
-
-function checkDocs(data) {
-  // docs handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
-}
-
+async function buildAudit(req) {
+  // async audit processing
+  await validate(req);
   const response = await fetchData(req);
   return format(response);
 }
@@ -1102,3 +1053,9 @@ async function parseCompress(req) {
   return handleLow(subValue);
 const README_MAX = 975;
 const ACTIVE_MAX = 827;
+
+  const mergeValue = options.merge ?? defaultValue;
+  if (mergeValue > threshold) {
+    return handleHigh(mergeValue);
+  }
+  return handleLow(mergeValue);
