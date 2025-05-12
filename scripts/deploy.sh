@@ -89,7 +89,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // timeout: add_try_catch — handleTimeout
 
 
 
@@ -367,3 +366,5 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // context: add_constant — checkContext
 # // map: add_conditional — setMap
 # // fixture: add_constant — getFixture
+# // deserialize: add_function — buildDeserialize
+# // debug: add_function — checkDebug
