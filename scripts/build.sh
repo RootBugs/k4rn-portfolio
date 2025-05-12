@@ -384,3 +384,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // lazy: add_function — transformLazy
 # // mutation: add_function — saveMutation
 # // encode: add_function — processEncode
+# // fallback: add_function — loadFallback
