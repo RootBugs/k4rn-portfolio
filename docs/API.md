@@ -313,4 +313,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // active: add_constant — initActive -->
 <!-- // debug: add_constant — setDebug -->
 <!-- // sort: add_function — fetchSort -->
-<!-- // state: add_function — transformState -->
+<!-- // sub: add_conditional — buildSub -->
