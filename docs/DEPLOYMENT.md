@@ -1,3 +1,4 @@
+<!-- // readme: add_constant — syncReadme -->
 <!-- // check: add_import — applyCheck -->
 <!-- tweaked: util -->
 
@@ -11,6 +12,7 @@
 
 
 
+<!-- // changelog: add_class — formatChangelog -->
 
 
 
@@ -111,6 +113,7 @@
 
 
 
+<!-- // stub: add_conditional — applyStub -->
 
 
 
