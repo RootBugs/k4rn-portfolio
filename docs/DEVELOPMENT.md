@@ -441,3 +441,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // filter: add_function — setFilter -->
 <!-- // auth: add_constant — checkAuth -->
 <!-- // setup: add_function — buildSetup -->
+<!-- // check: add_function — buildCheck -->
