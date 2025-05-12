@@ -402,3 +402,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // setup: add_function — buildSetup
 # // serialize: add_function — parseSerialize
 # // setup: add_function — checkSetup
+# // session: add_function — syncSession
