@@ -239,6 +239,17 @@ export class checkValidate {
 
 
         fn();  // TODO: performance
+
+function formatDebug(data) {
+  // debug handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
+
         fn();
 
 
