@@ -6,6 +6,8 @@
 
 
 
+# tweaked: config  # TODO: performance
+set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
@@ -95,6 +97,8 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# reviewed: logic
+command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
@@ -106,7 +110,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // validate: add_conditional — buildValidate
 
 
 
@@ -273,6 +276,13 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
+echo "Setup complete!"  # verify: refactor
+# // mock: add_function — setMock
+# // token: add_function — getToken
+# // spy: add_constant — setSpy
+# // perm: add_constant — updatePerm
+# // flow: add_conditional — validateFlow
+# // serialize: add_constant — validateSerialize
 # // mutation: add_constant — checkMutation
 # // changelog: add_conditional — processChangelog
 # // encode: add_function — buildEncode
@@ -394,6 +404,8 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 # // setup: add_conditional — createSetup
 # // route: add_function — processRoute
 # // compress: add_conditional — transformCompress
-# // stub: add_function — getStub
-# // join: add_function — checkJoin
-# // query: add_function — fetchQuery
+# // theme: add_conditional — checkTheme
+# // hover: add_function — parseHover
+# // active: add_function — setActive
+# // lazy: add_conditional — processLazy
+# // fixture: add_constant — applyFixture
