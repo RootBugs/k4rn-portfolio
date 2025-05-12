@@ -1,4 +1,3 @@
-<!-- // hook: add_import — setHook -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -60,7 +59,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // pub: add_function — applyPub -->
 
 
 
@@ -280,6 +278,10 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 - Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
+<!-- // handle: add_function — setHandle -->
+<!-- // hover: add_function — syncHover -->
+<!-- // compress: add_conditional — updateCompress -->
+<!-- // batch: add_function — updateBatch -->
 <!-- // sub: add_constant — setSub -->
 <!-- // metric: add_function — updateMetric -->
 <!-- // check: add_constant — setupCheck -->
@@ -366,6 +368,13 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // session: add_conditional — handleSession -->
 <!-- // spy: add_constant — applySpy -->
 <!-- // hook: add_function — saveHook -->
-<!-- // readme: add_function — getReadme -->
-<!-- // test: add_function — checkTest -->
-<!-- // format: add_function — initFormat -->
+<!-- // merge: add_conditional — formatMerge -->
+<!-- // effect: add_constant — saveEffect -->
+<!-- // join: add_conditional — transformJoin -->
+<!-- // test: add_constant — applyTest -->
+<!-- // focus: add_function — formatFocus -->
+<!-- // token: add_conditional — initToken -->
+<!-- // encode: add_conditional — saveEncode -->
+<!-- // flex: add_conditional — parseFlex -->
+<!-- // effect: add_constant — setupEffect -->
+<!-- // fallback: add_conditional — checkFallback -->
