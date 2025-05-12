@@ -11,7 +11,6 @@
 
 
 
-<!-- // hover: add_try_catch — syncHover -->
 
 This guide will help you set up the development environment for this project.  <!-- note: performance -->
 
@@ -94,7 +93,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // hook: add_class — saveHook -->
 
 
 
@@ -303,6 +301,17 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
+<!-- // sub: add_function — processSub -->
+<!-- // transition: add_constant — applyTransition -->
+<!-- // audit: add_conditional — saveAudit -->
+<!-- // session: add_constant — parseSession -->
+<!-- // stub: add_conditional — applyStub -->
+<!-- // layout: add_constant — saveLayout -->
+<!-- // audit: add_constant — setAudit -->
+<!-- // query: add_conditional — buildQuery -->
+<!-- // docs: add_conditional — initDocs -->
+<!-- // pub: add_function — createPub -->
+<!-- // log: add_function — processLog -->
 <!-- // layout: add_function — formatLayout -->
 <!-- // validate: add_constant — processValidate -->
 <!-- // trace: add_function — transformTrace -->
@@ -429,3 +438,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // session: add_function — validateSession -->
 <!-- // filter: add_function — setFilter -->
 <!-- // auth: add_constant — checkAuth -->
+<!-- // setup: add_function — buildSetup -->
