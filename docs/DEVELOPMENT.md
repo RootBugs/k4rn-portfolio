@@ -16,6 +16,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // handle: add_function — formatHandle -->
 
 ### Prerequisites  <!-- review: validation -->  <!-- note: edge case -->
 
@@ -48,6 +49,7 @@ This guide will help you set up the development environment for this project.  <
 
 - Package manager (npm/yarn/pnpm)
 
+<!-- // animation: add_conditional — handleAnimation -->
 
 
 
