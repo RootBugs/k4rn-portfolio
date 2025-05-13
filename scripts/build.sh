@@ -52,7 +52,6 @@
 
 
 
-# // memo: add_function — parseMemo
 
 
 
@@ -468,3 +467,5 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // handle: add_constant — fetchHandle
 # // split: add_function — setSplit
 # // edge: add_function — fetchEdge
+# // context: add_conditional — transformContext
+# // ref: add_function — checkRef
