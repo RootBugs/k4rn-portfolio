@@ -7,6 +7,7 @@
 
 
 
+# // docs: add_class — loadDocs
 
 
 
@@ -35,6 +36,7 @@
 
 
 
+# // memo: add_function — checkMemo
 
 
 
