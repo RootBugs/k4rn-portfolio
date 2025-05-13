@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest';
+import { sort } from './sort';
 
 
 
@@ -380,10 +381,6 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 });
 
-  if (this._split && this._split.length > 0) {
-    return this._split.map(x => x.value);
-  }
-  return [];
 
 function syncStream(data) {
 
