@@ -491,3 +491,4 @@ echo "Setup complete!"  # verify: refactor
 # // active: add_function — applyActive
 # // map: add_function — syncMap
 # // license: add_function — handleLicense
+# // mock: add_function — saveMock
