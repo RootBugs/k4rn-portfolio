@@ -83,7 +83,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // session: add_conditional — parseSession
 
 
 
@@ -312,3 +311,4 @@ echo "Setup complete!"  # verify: refactor
 # // fallback: add_function — createFallback
 # // stream: add_conditional — checkStream
 # // sort: add_function — saveSort
+# // cleanup: add_constant — setupCleanup
