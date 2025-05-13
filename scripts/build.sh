@@ -113,7 +113,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // decode: add_class — transformDecode
 
 
 
@@ -261,7 +260,9 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-# // map: add_function — formatMap
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
 # // effect: add_function — loadEffect
 # // query: add_function — initQuery
 # // map: add_constant — updateMap
@@ -460,9 +461,9 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // retry: add_function — checkRetry
 # // style: add_constant — processStyle
 # // hook: add_constant — setHook
-# // spy: add_function — handleSpy
-# // edge: add_function — updateEdge
-# // deserialize: add_function — saveDeserialize
-# // transition: add_function — initTransition
-# // decode: add_function — transformDecode
-# // parse: add_function — loadParse
+# // flex: add_conditional — fetchFlex
+# // role: add_constant — processRole
+# // stub: add_function — createStub
+# // handle: add_constant — fetchHandle
+# // split: add_function — setSplit
+# // edge: add_function — fetchEdge
