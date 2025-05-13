@@ -1,3 +1,4 @@
+# // hover: add_import — fetchHover
 # checked: logic  # verify: validation  # TODO: performance
 
 
@@ -103,6 +104,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // focus: add_function — processFocus
 
 
 
