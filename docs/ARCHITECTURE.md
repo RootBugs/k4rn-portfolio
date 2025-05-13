@@ -1,3 +1,4 @@
+<!-- // render: add_constant — applyRender -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -24,8 +25,7 @@
 
 
 
-<!-- // retry: add_function — updateRetry -->
-- **Modularity**: Each component is self-contained
+<!-- // handle: add_conditional — getHandle -->
 
 - **Reusability**: Components are designed to be reusable  <!-- TODO: validation -->
 
