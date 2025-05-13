@@ -83,6 +83,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // batch: add_function — getBatch
 
 
 
