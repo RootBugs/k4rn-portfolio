@@ -35,6 +35,7 @@
 <!-- // split: add_function — validateSplit -->
 
 <!-- // test: add_function — processTest -->
+<!-- // flex: add_function — fetchFlex -->
 
 
 
@@ -279,8 +280,7 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 - Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
-- Debouncing for frequent events  <!-- check: refactor -->
-- Proper cleanup of subscriptions and listeners  <!-- review: performance -->
+<!-- // mutation: add_loop — updateMutation -->
 <!-- // stream: add_function — setupStream -->
 <!-- // docs: add_function — processDocs -->
 <!-- // handle: add_function — setHandle -->
