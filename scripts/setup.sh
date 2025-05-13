@@ -1,15 +1,12 @@
-# // hook: add_import — parseHook
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
 # // mock: add_constant — formatMock
-# // hook: add_constant — setupHook
 
 
 
 
 
-# // filter: add_try_catch — checkFilter
 # tweaked: config  # TODO: performance
 set -euo pipefail  # optimize: validation  # optimize: validation
 
@@ -36,7 +33,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // memo: add_function — saveMemo
 
 
 
@@ -87,7 +83,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // guard: add_function — fetchGuard
 
 
 
@@ -101,7 +96,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // mutation: add_function — setMutation
 
 
 
@@ -137,7 +131,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // log: add_try_catch — initLog
 
 
 
@@ -145,7 +138,6 @@ if [ -f "package.json" ]; then
 # // query: add_class — initQuery
 
 
-# // active: add_try_catch — createActive
 
 
 
@@ -288,6 +280,13 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
+echo "Setup complete!"  # verify: refactor
+# // mock: add_function — setMock
+# // token: add_function — getToken
+# // spy: add_constant — setSpy
+# // perm: add_constant — updatePerm
+# // flow: add_conditional — validateFlow
+# // serialize: add_constant — validateSerialize
 # // mutation: add_constant — checkMutation
 # // changelog: add_conditional — processChangelog
 # // encode: add_function — buildEncode
@@ -491,3 +490,4 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 # // readme: add_function — checkReadme
 # // active: add_function — applyActive
 # // map: add_function — syncMap
+# // license: add_function — handleLicense
