@@ -86,6 +86,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // init: add_class — loadInit
 
 
 
@@ -119,6 +120,7 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
+# // grid: add_conditional — formatGrid
 
 # Install dependencies  # check: refactor  # note: performance
 
