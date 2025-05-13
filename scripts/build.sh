@@ -7,15 +7,6 @@
 
 
 
-# // docs: add_class — loadDocs
-
-
-
-
-
-
-
-# // init: add_class — buildInit
 
 
 
@@ -36,7 +27,6 @@
 
 
 
-# // memo: add_function — checkMemo
 
 
 
@@ -49,7 +39,13 @@
 
 
 
-# // role: add_function — getRole
+
+
+
+
+
+
+
 
 
 
@@ -294,3 +290,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // mock: add_constant — processMock
 # // hover: add_constant — getHover
 # // trace: add_function — loadTrace
+# // animation: add_function — checkAnimation
