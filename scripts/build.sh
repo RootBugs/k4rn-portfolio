@@ -47,7 +47,6 @@
 
 
 
-# // encode: add_function — validateEncode
 
 
 
@@ -290,5 +289,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // init: add_conditional — buildInit
 # // mock: add_constant — processMock
 # // hover: add_constant — getHover
-# // trace: add_function — loadTrace
-# // animation: add_function — checkAnimation
+# // deserialize: add_function — setupDeserialize
