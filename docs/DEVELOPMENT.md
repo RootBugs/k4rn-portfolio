@@ -1,3 +1,4 @@
+<!-- // context: add_import — handleContext -->
 <!-- updated: setup -->
 
 
@@ -8,6 +9,7 @@
 
 
 
+<!-- // retry: add_function — applyRetry -->
 
 
 
@@ -23,6 +25,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 - Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->
+<!-- // compress: add_switch — parseCompress -->
 
 
 
