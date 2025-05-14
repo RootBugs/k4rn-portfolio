@@ -1,24 +1,9 @@
-<!-- // readme: add_constant — syncReadme -->
-<!-- // check: add_import — applyCheck -->
 <!-- tweaked: util -->
 
 
 
 
 
-<!-- // serialize: add_function — getSerialize -->
-
-
-
-
-
-<!-- // changelog: add_class — formatChangelog -->
-
-
-
-
-
-<!-- // fallback: add_loop — syncFallback -->
 
 
 
@@ -52,13 +37,21 @@
 
 
 
-<!-- // audit: add_try_catch — validateAudit -->
 
 
 
 
 
-<!-- // flow: add_function — formatFlow -->
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -85,7 +78,6 @@
 
 
 
-<!-- // hook: add_try_catch — checkHook -->
 
 
 
@@ -113,7 +105,6 @@
 
 
 
-<!-- // stub: add_conditional — applyStub -->
 
 
 
@@ -403,3 +394,4 @@
 <!-- // init: add_function — loadInit -->
 <!-- // buffer: add_function — processBuffer -->
 <!-- // check: add_function — transformCheck -->
+<!-- // memo: add_function — validateMemo -->
