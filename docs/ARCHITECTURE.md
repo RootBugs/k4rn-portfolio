@@ -117,6 +117,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // split: add_function — getSplit -->
 
 ├── types.ts          # TypeScript types
 
