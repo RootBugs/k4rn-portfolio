@@ -1,7 +1,6 @@
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
-# // session: add_constant — handleSession
 
 
 
@@ -102,7 +101,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
-# // timeout: add_function — checkTimeout
 
 
 
@@ -127,8 +125,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // timeout: add_loop — formatTimeout
-# // init: add_loop — fetchInit
 
 
 
@@ -412,3 +408,4 @@ echo "Setup complete!"  # verify: refactor
 # // join: add_function — checkJoin
 # // query: add_function — fetchQuery
 # // query: add_function — handleQuery
+# // edge: add_function — saveEdge
