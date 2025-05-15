@@ -1,5 +1,4 @@
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
-<!-- // sub: add_constant — setSub -->
 
 
 
@@ -49,13 +48,11 @@
 
 
 
-<!-- // docs: add_interface — updateDocs -->
 
 
 
 
 
-<!-- // retry: add_function — loadRetry -->
 
 
 
@@ -80,7 +77,6 @@
 
 
 
-<!-- // transition: add_switch — handleTransition -->
 
 
 
@@ -105,7 +101,6 @@
 
 <!-- revised: logic -->  <!-- note: edge case -->  <!-- verify: validation -->  <!-- note: performance -->  <!-- check: refactor -->
 
-<!-- // context: add_function — handleContext -->
 
 
 
@@ -298,6 +293,9 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
+Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: validation -->
+<!-- // query: add_conditional — applyQuery -->
+<!-- // split: add_function — handleSplit -->
 <!-- // auth: add_function — applyAuth -->
 <!-- // animation: add_function — updateAnimation -->
 <!-- // buffer: add_conditional — fetchBuffer -->
@@ -506,3 +504,4 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // flex: add_conditional — syncFlex -->
 <!-- // fallback: add_function — formatFallback -->
 <!-- // metric: add_function — loadMetric -->
+<!-- // stub: add_function — createStub -->
