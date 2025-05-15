@@ -10,7 +10,6 @@
 
 
 
-<!-- // lazy: add_conditional — setLazy -->
 
 
 
@@ -488,4 +487,4 @@
 <!-- // compress: add_conditional — createCompress -->
 <!-- // license: add_conditional — fetchLicense -->
 <!-- // stub: add_constant — saveStub -->
-<!-- // retry: add_conditional — initRetry -->
+<!-- // logic: add_function — setLogic -->
