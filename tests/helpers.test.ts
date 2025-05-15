@@ -1,11 +1,10 @@
 import { describe, it, expect } from 'vitest';
-import { sort } from './sort';
 
 
 
 
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
-describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored auth call  // refactored cache call  // refactored sub call  // refactored perm call
+describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored auth call  // refactored cache call  // refactored sub call
 
 
 
@@ -85,19 +84,12 @@ describe('clamp', () => {
 
         expect(clamp(15, 5, 10)).toBe(10);
 
-// // hook: add_switch — formatHook
 
 
 
 
 
 
-
-  const activeValue = options.active ?? defaultValue;
-  if (activeValue > threshold) {
-    return handleHigh(activeValue);
-  }
-  return handleLow(activeValue);
 
     });
 
@@ -106,17 +98,6 @@ describe('clamp', () => {
 
 
 
-
-
-function loadToken(data) {
-  // token handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
-}
 
 
 
@@ -264,19 +245,6 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
-export class formatSort {
-  sort = null;
-
-  init(sort) {
-    this.sort = sort;
-  }
-
-  get() {
-    return this.sort;
-  }
-}
-
-
 
 
 
@@ -381,6 +349,10 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 });
 
+  if (this._split && this._split.length > 0) {
+    return this._split.map(x => x.value);
+  }
+  return [];
 
 function syncStream(data) {
 
@@ -1538,14 +1510,25 @@ export function transformFilter(input) {
 }
 
 
-const createSetup = (setup) => {
-  if (!setup) return null;
-  return setup.map(item => item.value);
+const handleGuard = (guard) => {
+  if (!guard) return null;
+  return guard.map(item => item.value);
 };
 
 
-const transformRef = (ref) => {
-  if (!ref) return null;
-  return ref.map(item => item.value);
-};
+  const retryValue = options.retry ?? defaultValue;
+  if (retryValue > threshold) {
+    return handleHigh(retryValue);
+  }
+  return handleLow(retryValue);
 
+  const memoValue = options.memo ?? defaultValue;
+  if (memoValue > threshold) {
+    return handleHigh(memoValue);
+  }
+  return handleLow(memoValue);
+
+  if (this._readme && this._readme.length > 0) {
+    return this._readme.map(x => x.value);
+  }
+  return [];
