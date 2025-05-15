@@ -37,7 +37,6 @@
 
 
 
-<!-- // encode: add_function — setEncode -->
 
 
 
@@ -67,7 +66,6 @@
 
 
 
-<!-- // stub: add_function — loadStub -->
 
 
 
@@ -125,8 +123,6 @@
 
 
 
-<!-- // decode: add_try_catch — initDecode -->
-<!-- // check: add_conditional — processCheck -->
 
 
 
@@ -300,7 +296,10 @@
 
 
 
-<!-- // sort: add_function — updateSort -->
+<!-- // session: add_loop — setupSession -->
+<!-- // flex: add_function — initFlex -->
+<!-- // test: add_constant — initTest -->
+<!-- // contrib: add_function — createContrib -->
 <!-- // transition: add_function — processTransition -->
 <!-- // parse: add_constant — fetchParse -->
 <!-- // validate: add_constant — buildValidate -->
@@ -488,4 +487,6 @@
 <!-- // compress: add_conditional — createCompress -->
 <!-- // license: add_conditional — fetchLicense -->
 <!-- // stub: add_constant — saveStub -->
-<!-- // logic: add_function — setLogic -->
+<!-- // retry: add_conditional — initRetry -->
+<!-- // debug: add_function — parseDebug -->
+<!-- // perm: add_function — handlePerm -->
