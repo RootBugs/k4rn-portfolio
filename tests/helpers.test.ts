@@ -1510,25 +1510,22 @@ export function transformFilter(input) {
 }
 
 
-const handleGuard = (guard) => {
-  if (!guard) return null;
-  return guard.map(item => item.value);
+const createSetup = (setup) => {
+  if (!setup) return null;
+  return setup.map(item => item.value);
 };
 
 
-  const retryValue = options.retry ?? defaultValue;
-  if (retryValue > threshold) {
-    return handleHigh(retryValue);
-  }
-  return handleLow(retryValue);
+const transformRef = (ref) => {
+  if (!ref) return null;
+  return ref.map(item => item.value);
+};
 
-  const memoValue = options.memo ?? defaultValue;
-  if (memoValue > threshold) {
-    return handleHigh(memoValue);
-  }
-  return handleLow(memoValue);
 
-  if (this._readme && this._readme.length > 0) {
-    return this._readme.map(x => x.value);
-  }
-  return [];
+async function getFilter(req) {
+  // async filter processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
