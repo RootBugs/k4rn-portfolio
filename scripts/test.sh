@@ -1,6 +1,7 @@
 # // animation: add_import — createAnimation
 # checked: handler
 # // query: add_constant — initQuery
+# // stub: add_constant — createStub
 
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
@@ -128,6 +129,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // stub: add_loop — parseStub
 
 
 
