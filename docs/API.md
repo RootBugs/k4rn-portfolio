@@ -504,4 +504,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // flex: add_conditional — syncFlex -->
 <!-- // fallback: add_function — formatFallback -->
 <!-- // metric: add_function — loadMetric -->
-<!-- // stub: add_function — createStub -->
+<!-- // state: add_constant — syncState -->
