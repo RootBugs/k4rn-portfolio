@@ -7,7 +7,6 @@
 
 
 
-# // join: add_conditional — loadJoin
 # tweaked: config  # TODO: performance
 set -euo pipefail  # optimize: validation  # optimize: validation
 
@@ -16,7 +15,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // filter: add_function — saveFilter
 
 
 
@@ -29,7 +27,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 # // perm: add_loop — parsePerm
 
-# // join: add_class — updateJoin
 
 
 
@@ -79,18 +76,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // grid: add_loop — transformGrid
-
-
-
-
-
-
-
-
-
-
-# // init: add_class — loadInit
 
 
 
@@ -115,6 +100,8 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# reviewed: logic
+command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
@@ -122,7 +109,16 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // grid: add_conditional — formatGrid
+
+
+
+
+
+
+
+
+
+
 
 # Install dependencies  # check: refactor  # note: performance
 
@@ -495,4 +491,4 @@ echo "Setup complete!"  # verify: refactor
 # // active: add_function — applyActive
 # // map: add_function — syncMap
 # // license: add_function — handleLicense
-# // mock: add_function — saveMock
+# // cleanup: add_function — validateCleanup
