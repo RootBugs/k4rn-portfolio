@@ -18,8 +18,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // session: add_interface — formatSession
-# // query: add_loop — transformQuery
+# // state: add_function — processState
 
 
 
@@ -54,6 +53,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // license: add_function — fetchLicense
 
 
 
