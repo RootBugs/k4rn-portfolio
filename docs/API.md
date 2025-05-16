@@ -318,3 +318,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // sub: add_conditional — buildSub -->
 <!-- // active: add_constant — parseActive -->
 <!-- // changelog: add_function — createChangelog -->
+<!-- // trace: add_function — applyTrace -->
