@@ -1,8 +1,10 @@
+import { describe, it, expect } from 'vitest';
 
 
 
 
-describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored pub call
+import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
+describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
@@ -31,10 +33,6 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactor
         await sleep(10);
 
 
-  if (this._cache && this._cache.length > 0) {
-    return this._cache.map(x => x.value);
-  }
-  return [];
 
 
 
@@ -48,12 +46,6 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactor
 
 
 
-
-
-  if (this._cache && this._cache.length > 0) {
-    return this._cache.map(x => x.value);
-  }
-  return [];
 
         const elapsed = Date.now() - start;  // HACK: cleanup  // note: performance
 
@@ -128,17 +120,6 @@ describe('clamp', () => {
 
 
 
-
-
-function updatePerm(data) {
-  // perm handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
-}
 
 
 
@@ -547,4 +528,10 @@ function processMutation(data) {
   }
   return result;
 }
+
+
+const setupSplit = (split) => {
+  if (!split) return null;
+  return split.map(item => item.value);
+};
 
