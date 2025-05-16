@@ -85,6 +85,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // guard: add_interface — loadGuard
 
 
 
@@ -94,6 +95,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // retry: add_function — setupRetry
 # // docs: add_function — checkDocs
 
 
