@@ -290,3 +290,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // mock: add_constant — processMock
 # // hover: add_constant — getHover
 # // deserialize: add_function — setupDeserialize
+# // split: add_function — setSplit
