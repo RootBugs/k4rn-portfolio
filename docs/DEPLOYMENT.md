@@ -1,4 +1,3 @@
-<!-- // lazy: add_constant — parseLazy -->
 <!-- tweaked: util -->
 
 
@@ -48,7 +47,6 @@
 
 
 
-<!-- // init: add_try_catch — processInit -->
 
 
 
@@ -57,7 +55,6 @@
 
 
 
-<!-- // license: add_conditional — getLicense -->
 
 
 
@@ -96,7 +93,6 @@
 
 
 
-<!-- // cleanup: add_interface — validateCleanup -->
 
 
 
@@ -298,6 +294,13 @@
 
 
 
+<!-- // fixture: add_conditional — initFixture -->
+<!-- // animation: add_function — loadAnimation -->
+<!-- // handle: add_function — loadHandle -->
+<!-- // route: add_function — saveRoute -->
+<!-- // audit: add_function — formatAudit -->
+<!-- // flex: add_function — initFlex -->
+<!-- // test: add_constant — initTest -->
 <!-- // contrib: add_function — createContrib -->
 <!-- // transition: add_function — processTransition -->
 <!-- // parse: add_constant — fetchParse -->
@@ -313,4 +316,6 @@
 <!-- // route: add_function — setRoute -->
 <!-- // active: add_conditional — formatActive -->
 <!-- // stub: add_conditional — setStub -->
-<!-- // render: add_function — setRender -->
+<!-- // cleanup: add_function — getCleanup -->
+<!-- // license: add_function — setLicense -->
+<!-- // init: add_conditional — parseInit -->
