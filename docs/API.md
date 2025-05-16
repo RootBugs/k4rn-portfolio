@@ -69,7 +69,6 @@
 
 
 
-<!-- // trace: add_loop — syncTrace -->
 
 
 
@@ -94,7 +93,6 @@
 
 
 
-<!-- // format: add_class — buildFormat -->
 
 
 
@@ -316,6 +314,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // debug: add_constant — setDebug -->
 <!-- // sort: add_function — fetchSort -->
 <!-- // sub: add_conditional — buildSub -->
-<!-- // active: add_constant — parseActive -->
-<!-- // changelog: add_function — createChangelog -->
-<!-- // trace: add_function — applyTrace -->
+<!-- // split: add_function — parseSplit -->
