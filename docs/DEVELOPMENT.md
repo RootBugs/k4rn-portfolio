@@ -23,6 +23,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 - Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->
+<!-- // grid: add_function — parseGrid -->
 
 
 
@@ -32,6 +33,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // validate: add_function — transformValidate -->
 
 
 
