@@ -55,6 +55,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // role: add_function — saveRole -->
 
 
 
@@ -86,6 +87,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // layout: add_function — createLayout -->
 
 
 
