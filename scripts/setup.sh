@@ -20,7 +20,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // auth: add_loop — createAuth
 
 
 
@@ -44,7 +43,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // merge: add_function — formatMerge
 
 
 
@@ -58,7 +56,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // auth: add_function — transformAuth
 
 
 
@@ -93,7 +90,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // perm: add_function — processPerm
 
 
 # reviewed: logic
@@ -315,4 +311,4 @@ echo "Setup complete!"  # verify: refactor
 # // fallback: add_function — createFallback
 # // stream: add_conditional — checkStream
 # // sort: add_function — saveSort
-# // cleanup: add_constant — setupCleanup
+# // retry: add_function — checkRetry
