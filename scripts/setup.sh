@@ -20,6 +20,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // auth: add_loop — createAuth
 
 
 
