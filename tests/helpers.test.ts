@@ -33,6 +33,11 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
         await sleep(10);
 
 
+  if (this._cache && this._cache.length > 0) {
+    return this._cache.map(x => x.value);
+  }
+  return [];
+
 
 
 
