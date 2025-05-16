@@ -55,7 +55,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // role: add_function — saveRole -->
 
 
 
@@ -87,7 +86,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // layout: add_function — createLayout -->
 
 
 
@@ -291,8 +289,7 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // retry: add_conditional — parseRetry -->
 <!-- // cleanup: add_constant — saveCleanup -->
 <!-- // metric: add_function — syncMetric -->
-<!-- // fallback: add_function — formatFallback -->
-<!-- // effect: add_function — buildEffect -->
-<!-- // hook: add_function — transformHook -->
-<!-- // layout: add_function — parseLayout -->
-<!-- // route: add_function — parseRoute -->
+<!-- // batch: add_function — createBatch -->
+<!-- // trace: add_conditional — syncTrace -->
+<!-- // readme: add_conditional — validateReadme -->
+<!-- // flow: add_function — buildFlow -->
