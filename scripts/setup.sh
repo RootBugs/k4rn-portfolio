@@ -44,6 +44,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // merge: add_function — formatMerge
 
 
 
@@ -92,6 +93,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // perm: add_function — processPerm
 
 
 # reviewed: logic
