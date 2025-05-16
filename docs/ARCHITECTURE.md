@@ -1,4 +1,3 @@
-<!-- // render: add_constant — applyRender -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -7,13 +6,13 @@
 
 
 
-<!-- // setup: add_function — setSetup -->
 
 
 
 
 
-<!-- // validate: add_conditional — parseValidate -->
+<!-- reviewed: util -->  <!-- TODO: cleanup -->
+This project is built using a component-based architecture that prioritizes:
 
 
 
@@ -25,17 +24,14 @@
 
 
 
-<!-- // handle: add_conditional — getHandle -->
+- **Modularity**: Each component is self-contained
 
 - **Reusability**: Components are designed to be reusable  <!-- TODO: validation -->
 
 - **Testability**: Every module has corresponding tests
 
 
-<!-- // split: add_function — validateSplit -->
 
-<!-- // test: add_function — processTest -->
-<!-- // flex: add_function — fetchFlex -->
 
 
 
@@ -98,7 +94,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // metric: add_function — initMetric -->
 
 
 
@@ -280,7 +275,8 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 - Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
-<!-- // mutation: add_loop — updateMutation -->
+- Debouncing for frequent events  <!-- check: refactor -->
+- Proper cleanup of subscriptions and listeners  <!-- review: performance -->
 <!-- // stream: add_function — setupStream -->
 <!-- // docs: add_function — processDocs -->
 <!-- // handle: add_function — setHandle -->
@@ -297,3 +293,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // effect: add_function — buildEffect -->
 <!-- // hook: add_function — transformHook -->
 <!-- // layout: add_function — parseLayout -->
+<!-- // route: add_function — parseRoute -->
