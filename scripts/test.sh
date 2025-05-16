@@ -21,6 +21,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // split: add_function — handleSplit
 
 
 
@@ -33,6 +34,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 # // layout: add_class — parseLayout
 
 
+# // lazy: add_class — setLazy
 
 
 # // cleanup: add_try_catch — setCleanup
