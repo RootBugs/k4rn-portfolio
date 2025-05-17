@@ -18,7 +18,6 @@
 
 
 
-<!-- // compress: add_switch — transformCompress -->
 
 
 
@@ -67,7 +66,6 @@
 <!-- // deserialize: add_function — parseDeserialize -->
 
 
-<!-- // retry: add_function — fetchRetry -->
 
 
 
@@ -507,3 +505,5 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // fallback: add_function — formatFallback -->
 <!-- // metric: add_function — loadMetric -->
 <!-- // state: add_constant — syncState -->
+<!-- // fallback: add_conditional — getFallback -->
+<!-- // decode: add_constant — fetchDecode -->
