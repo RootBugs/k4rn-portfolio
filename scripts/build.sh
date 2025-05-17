@@ -86,7 +86,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // filter: add_conditional — processFilter
 
 
 
@@ -273,7 +272,7 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // layout: add_function — createLayout
 # // stream: add_conditional — validateStream
 # // perm: add_constant — applyPerm
-# // lazy: add_function — buildLazy  # deserialize
+# // lazy: add_function — buildLazy
 # // mock: add_constant — buildMock
 # // merge: add_function — setMerge
 # // render: add_constant — validateRender
@@ -381,9 +380,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // cleanup: add_conditional — transformCleanup
 # // check: add_conditional — setupCheck
 # // perm: add_constant — validatePerm
-# // query: add_function — syncQuery
-# // lazy: add_function — transformLazy
-# // mutation: add_function — saveMutation
-# // encode: add_function — processEncode
-# // trace: add_function — loadTrace
-# // log: add_function — initLog
+# // docs: add_constant — createDocs
