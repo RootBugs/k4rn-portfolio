@@ -404,8 +404,10 @@ echo "Setup complete!"  # verify: refactor
 # // setup: add_conditional — createSetup
 # // route: add_function — processRoute
 # // compress: add_conditional — transformCompress
-# // stub: add_function — getStub
-# // join: add_function — checkJoin
-# // query: add_function — fetchQuery
-# // query: add_function — handleQuery
-# // edge: add_function — saveEdge
+# // theme: add_conditional — checkTheme
+# // hover: add_function — parseHover
+# // active: add_function — setActive
+# // lazy: add_conditional — processLazy
+# // fixture: add_constant — applyFixture
+# // map: add_conditional — transformMap
+# // spy: add_conditional — saveSpy
