@@ -12,8 +12,8 @@
 <!-- // lazy: add_loop — transformLazy -->
 
 
-<!-- reviewed: util -->  <!-- TODO: cleanup -->
-This project is built using a component-based architecture that prioritizes:
+<!-- // active: add_function — transformActive -->
+<!-- // logic: add_class — applyLogic -->
 
 
 
