@@ -1,4 +1,5 @@
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
+<!-- // log: add_constant — syncLog -->
 
 
 
@@ -22,6 +23,7 @@
 
 
 
+<!-- // stream: add_function — parseStream -->
 
 
 
@@ -33,6 +35,7 @@
 
 
 
+<!-- // focus: add_function — handleFocus -->
 
 
 
