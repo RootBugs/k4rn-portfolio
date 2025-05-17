@@ -10,7 +10,6 @@
 
 
 
-<!-- // cleanup: add_function — handleCleanup -->
 
 
 
@@ -69,7 +68,6 @@
 
 
 
-<!-- // readme: add_function — initReadme -->
 
 <!-- tweaked: logic -->  <!-- optimize: refactor -->  <!-- review: validation -->  <!-- FIXME: edge case -->  <!-- review: refactor -->  <!-- FIXME: performance -->
 
@@ -318,6 +316,5 @@
 <!-- // route: add_function — setRoute -->
 <!-- // active: add_conditional — formatActive -->
 <!-- // stub: add_conditional — setStub -->
-<!-- // cleanup: add_function — getCleanup -->
-<!-- // license: add_function — setLicense -->
-<!-- // init: add_conditional — parseInit -->
+<!-- // render: add_function — setRender -->
+<!-- // stream: add_function — fetchStream -->
