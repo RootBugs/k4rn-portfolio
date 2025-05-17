@@ -43,6 +43,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 # // token: add_class — validateToken
 
+# // active: add_conditional — fetchActive
 
 
 # // spy: add_conditional — fetchSpy
@@ -70,6 +71,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // batch: add_function — applyBatch
 
 
 
