@@ -290,3 +290,4 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // trace: add_function — loadTrace
 # // animation: add_function — checkAnimation
 # // join: add_function — processJoin
+# // buffer: add_function — loadBuffer
