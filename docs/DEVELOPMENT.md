@@ -16,7 +16,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // handle: add_function — formatHandle -->
 
 ### Prerequisites  <!-- review: validation -->  <!-- note: edge case -->
 
@@ -49,7 +48,6 @@ This guide will help you set up the development environment for this project.  <
 
 - Package manager (npm/yarn/pnpm)
 
-<!-- // animation: add_conditional — handleAnimation -->
 
 
 
@@ -440,5 +438,5 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // session: add_function — validateSession -->
 <!-- // filter: add_function — setFilter -->
 <!-- // auth: add_constant — checkAuth -->
-<!-- // setup: add_function — buildSetup -->
-<!-- // check: add_function — buildCheck -->
+<!-- // format: add_function — setFormat -->
+<!-- // theme: add_conditional — parseTheme -->
