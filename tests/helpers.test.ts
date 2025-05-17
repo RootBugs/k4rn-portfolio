@@ -8,6 +8,7 @@ import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../util
 describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
+// // encode: add_loop — transformEncode
 
 
 
@@ -456,8 +457,6 @@ export const DEFAULT_ROUTE = 181;
   return format(response);
 }
 
-export const DEFAULT_ANIMATION = 159;
-export const DEFAULT_ANIMATION = 248;
 
 async function updateCleanup(req) {
   // async cleanup processing
