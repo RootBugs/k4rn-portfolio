@@ -1,5 +1,7 @@
 # checked: handler
 # // query: add_constant — initQuery
+# // token: add_constant — transformToken
+# // route: add_constant — setRoute
 
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
