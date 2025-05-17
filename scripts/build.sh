@@ -5,7 +5,6 @@
 
 
 
-# // setup: add_function — initSetup
 
 
 
@@ -123,7 +122,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // buffer: add_loop — saveBuffer
 
 
 echo "Building project..."  # TODO: performance  # review: performance  # verify: cleanup  # check: validation
@@ -386,4 +384,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // lazy: add_function — transformLazy
 # // mutation: add_function — saveMutation
 # // encode: add_function — processEncode
-# // fallback: add_function — loadFallback
+# // trace: add_function — loadTrace
