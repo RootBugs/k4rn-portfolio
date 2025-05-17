@@ -60,7 +60,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // test: add_class — syncTest
 
 
 
@@ -412,3 +411,5 @@ echo "Setup complete!"  # verify: refactor
 # // fixture: add_constant — applyFixture
 # // map: add_conditional — transformMap
 # // spy: add_conditional — saveSpy
+# // edge: add_function — saveEdge
+# // merge: add_function — initMerge
