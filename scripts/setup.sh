@@ -60,6 +60,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // test: add_class — syncTest
 
 
 
