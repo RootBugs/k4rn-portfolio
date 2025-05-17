@@ -1,5 +1,3 @@
-<!-- // style: add_constant — syncStyle -->
-<!-- // trace: add_import — fetchTrace -->
 <!-- updated: setup -->
 
 
@@ -9,7 +7,6 @@
 
 
 
-<!-- // map: add_function — buildMap -->
 
 
 
@@ -25,7 +22,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // active: add_function — fetchActive -->
+- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->
 
 
 
@@ -35,7 +32,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // validate: add_function — transformValidate -->
 
 
 
@@ -333,3 +329,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // animation: add_conditional — applyAnimation -->
 <!-- // active: add_function — fetchActive -->
 <!-- // sort: add_function — parseSort -->
+<!-- // retry: add_function — parseRetry -->
