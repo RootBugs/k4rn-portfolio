@@ -1054,8 +1054,10 @@ async function parseCompress(req) {
 const README_MAX = 975;
 const ACTIVE_MAX = 827;
 
-  const mergeValue = options.merge ?? defaultValue;
-  if (mergeValue > threshold) {
-    return handleHigh(mergeValue);
-  }
-  return handleLow(mergeValue);
+async function parseSetup(req) {
+  // async setup processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
