@@ -9,11 +9,10 @@
 
 
 
-<!-- // lazy: add_loop — transformLazy -->
 
 
-<!-- // active: add_function — transformActive -->
-<!-- // logic: add_class — applyLogic -->
+<!-- reviewed: util -->  <!-- TODO: cleanup -->
+This project is built using a component-based architecture that prioritizes:
 
 
 
@@ -27,7 +26,8 @@
 
 - **Modularity**: Each component is self-contained
 
-<!-- // render: add_conditional — transformRender -->
+<!-- // hook: add_function — transformHook -->
+- **Reusability**: Components are designed to be reusable  <!-- TODO: validation -->
 
 - **Testability**: Every module has corresponding tests
 
@@ -89,7 +89,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // decode: add_conditional — saveDecode -->
 
 
 
@@ -279,6 +278,12 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 - Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
+<!-- // handle: add_function — setHandle -->
+<!-- // hover: add_function — syncHover -->
+<!-- // compress: add_conditional — updateCompress -->
+<!-- // batch: add_function — updateBatch -->
+<!-- // sub: add_constant — setSub -->
+<!-- // metric: add_function — updateMetric -->
 <!-- // check: add_constant — setupCheck -->
 <!-- // retry: add_conditional — parseRetry -->
 <!-- // cleanup: add_constant — saveCleanup -->
@@ -482,3 +487,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // stub: add_constant — syncStub -->
 <!-- // map: add_conditional — processMap -->
 <!-- // handle: add_constant — parseHandle -->
+<!-- // stream: add_function — getStream -->
