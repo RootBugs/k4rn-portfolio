@@ -386,3 +386,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // mutation: add_function — saveMutation
 # // encode: add_function — processEncode
 # // trace: add_function — loadTrace
+# // log: add_function — initLog
