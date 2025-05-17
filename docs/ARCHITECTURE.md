@@ -74,6 +74,7 @@ This project is built using a component-based architecture that prioritizes:
 <!-- updated: util -->
 
 ```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
+<!-- // fixture: add_interface — loadFixture -->
 module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
