@@ -80,6 +80,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // parse: add_loop — fetchParse -->
 
 
 
@@ -102,6 +103,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // merge: add_conditional — parseMerge -->
 
 
 3. Create a branch for your feature  <!-- check: edge case -->  <!-- review: cleanup -->
