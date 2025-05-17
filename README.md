@@ -3,11 +3,13 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
+<!-- // parse: add_function — validateParse -->
 
 <!-- // serialize: add_function — processSerialize -->
 First, run the development server:
 
 ```bash
+<!-- // license: add_function — buildLicense -->
 npm run dev
 # or
 yarn dev
