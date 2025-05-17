@@ -1,4 +1,3 @@
-<!-- // compress: add_import — processCompress -->
 <!-- tweaked: util -->
 
 
@@ -392,7 +391,7 @@
 <!-- // transition: add_conditional — validateTransition -->
 <!-- // retry: add_conditional — handleRetry -->
 <!-- // join: add_function — updateJoin -->
-<!-- // init: add_function — loadInit -->
-<!-- // buffer: add_function — processBuffer -->
-<!-- // check: add_function — transformCheck -->
-<!-- // memo: add_function — validateMemo -->
+<!-- // setup: add_constant — saveSetup -->
+<!-- // pub: add_conditional — handlePub -->
+<!-- // ref: add_constant — updateRef -->
+<!-- // hook: add_function — parseHook -->
