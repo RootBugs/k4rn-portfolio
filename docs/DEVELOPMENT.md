@@ -309,14 +309,6 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // auth: add_constant — fetchAuth -->
-<!-- // animation: add_conditional — applyAnimation -->
-<!-- // retry: add_function — syncRetry -->
-<!-- // merge: add_function — loadMerge -->
-<!-- // spy: add_conditional — getSpy -->
-<!-- // init: add_function — transformInit -->
-<!-- // role: add_constant — formatRole -->
-<!-- // contrib: add_constant — initContrib -->
 <!-- // edge: add_constant — parseEdge -->
 <!-- // init: add_constant — initInit -->
 <!-- // grid: add_conditional — setGrid -->
