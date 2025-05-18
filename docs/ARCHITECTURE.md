@@ -13,6 +13,7 @@
 
 <!-- reviewed: util -->  <!-- TODO: cleanup -->
 This project is built using a component-based architecture that prioritizes:
+<!-- // auth: add_class — initAuth -->
 
 
 
@@ -61,6 +62,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // split: add_function — applySplit -->
 
 
 
