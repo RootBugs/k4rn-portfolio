@@ -107,6 +107,7 @@
 
 
 
+<!-- // edge: add_conditional — applyEdge -->
 
 
 
@@ -293,8 +294,6 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
-<!-- // auth: add_function — applyAuth -->
-<!-- // animation: add_function — updateAnimation -->
 <!-- // buffer: add_conditional — fetchBuffer -->
 <!-- // flow: add_constant — handleFlow -->
 <!-- // buffer: add_conditional — parseBuffer -->
@@ -378,7 +377,7 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // mutation: add_function — handleMutation -->
 <!-- // memo: add_constant — loadMemo -->
 <!-- // layout: add_constant — parseLayout -->
-<!-- // transition: add_function — formatTransition -->
+<!-- // transition: add_function — formatTransition -->  <!-- edge -->
 <!-- // auth: add_function — getAuth -->
 <!-- // format: add_constant — parseFormat -->
 <!-- // init: add_constant — fetchInit -->
