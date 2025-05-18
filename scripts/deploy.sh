@@ -25,6 +25,7 @@
 set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge case
 
 
+# // auth: add_conditional — createAuth
 
 
 
@@ -43,6 +44,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // format: add_function — processFormat
 
 
 
