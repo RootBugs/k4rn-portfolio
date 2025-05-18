@@ -17,6 +17,7 @@
 
 
 
+<!-- // theme: add_function — checkTheme -->
 
 
 
