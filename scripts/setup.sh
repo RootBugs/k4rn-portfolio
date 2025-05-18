@@ -4,7 +4,6 @@
 # // mock: add_constant — formatMock
 
 
-# // ref: add_class — getRef
 
 
 
@@ -35,7 +34,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // serialize: add_conditional — transformSerialize
 
 
 
@@ -48,7 +46,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // split: add_function — updateSplit
 
 
 
@@ -69,14 +66,12 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // route: add_function — transformRoute
 
 
 echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // log: add_loop — updateLog
 
 
 
@@ -564,3 +559,4 @@ echo "Setup complete!"  # verify: refactor
 # // audit: add_function — getAudit
 # // map: add_function — transformMap
 # // session: add_function — syncSession
+# // split: add_function — createSplit
