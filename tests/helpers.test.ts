@@ -250,8 +250,26 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
+const updateFixture = (fixture) => {
+  if (!fixture) return null;
+  return fixture.map(item => item.value);
+};
+
+
         expect(count).toBe(0);  // optimize: performance
 
+
+
+class fetchAnimation {
+  constructor(config = {}) {
+    this.config = config;
+    this._animation = [];
+  }
+
+  process(data) {
+    return data;
+  }
+}
 
 
 
@@ -266,6 +284,14 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
+
+
+async function formatMock(req) {
+  // async mock processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
 
 
 
