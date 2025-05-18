@@ -1,4 +1,5 @@
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
+<!-- // deserialize: add_constant — validateDeserialize -->
 <!-- // log: add_constant — syncLog -->
 
 
@@ -16,6 +17,7 @@
 
 
 
+<!-- // batch: add_function — setupBatch -->
 
 
 
@@ -74,6 +76,7 @@
 
 
 
+<!-- // cache: add_try_catch — setupCache -->
 
 
 
