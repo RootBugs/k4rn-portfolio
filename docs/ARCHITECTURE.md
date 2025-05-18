@@ -72,8 +72,7 @@ This project is built using a component-based architecture that prioritizes:
 
 <!-- updated: util -->
 
-```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
-module/  <!-- optimize: refactor -->  <!-- note: edge case -->
+<!-- // fallback: add_loop — transformFallback -->
 
 
 
