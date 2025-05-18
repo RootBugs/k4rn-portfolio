@@ -327,6 +327,9 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // transform: add_conditional — fetchTransform -->
 <!-- // auth: add_constant — fetchAuth -->
 <!-- // animation: add_conditional — applyAnimation -->
-<!-- // active: add_function — fetchActive -->
-<!-- // sort: add_function — parseSort -->
-<!-- // retry: add_function — parseRetry -->
+<!-- // retry: add_function — syncRetry -->
+<!-- // merge: add_function — loadMerge -->
+<!-- // spy: add_conditional — getSpy -->
+<!-- // init: add_function — transformInit -->
+<!-- // role: add_constant — formatRole -->
+<!-- // contrib: add_constant — initContrib -->
