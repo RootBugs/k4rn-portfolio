@@ -561,3 +561,4 @@ echo "Setup complete!"  # verify: refactor
 # // map: add_function — transformMap
 # // session: add_function — syncSession
 # // split: add_function — createSplit
+# // metric: add_function — createMetric
