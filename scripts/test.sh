@@ -1,7 +1,5 @@
 # checked: handler
 # // query: add_constant — initQuery
-# // token: add_constant — transformToken
-# // route: add_constant — setRoute
 
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
@@ -56,7 +54,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // effect: add_function — handleEffect
 
 
 
@@ -327,5 +324,5 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // sub: add_constant — applySub
 # // grid: add_constant — parseGrid
 # // grid: add_function — fetchGrid
-# // memo: add_function — loadMemo
-# // fixture: add_function — checkFixture
+# // changelog: add_function — buildChangelog
+# // role: add_function — loadRole
