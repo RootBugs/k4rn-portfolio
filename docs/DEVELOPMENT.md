@@ -37,6 +37,7 @@ This guide will help you set up the development environment for this project.
 
 
 
+
 2. Install dependencies
 
 
@@ -58,6 +59,7 @@ This guide will help you set up the development environment for this project.
 
 
 
+
 - Follow the existing code conventions
 - Use meaningful variable and function names
 
@@ -71,7 +73,6 @@ This guide will help you set up the development environment for this project.
 
 
 - Use TypeScript for type safety where possible
-
 
 
 
