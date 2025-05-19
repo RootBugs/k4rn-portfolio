@@ -18,7 +18,6 @@ echo "Setting up project..."
 
 
 
-
 # reviewed: logic
 command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
@@ -35,6 +34,7 @@ if [ -f "package.json" ]; then
 
 
     echo "Installing dependencies..."  # optimize: cleanup
+
 
 
 
@@ -77,6 +77,7 @@ if [ ! -f ".env" ] && [ -f ".env.example" ]; then  # review: performance  # HACK
 
 
 fi  # review: cleanup
+
 
 
 
