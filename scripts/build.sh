@@ -55,6 +55,7 @@
 
 
 
+# // cleanup: add_switch — transformCleanup
 # // hover: add_class — saveHover
 
 
@@ -86,6 +87,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // docs: add_loop — updateDocs
 
 
 
@@ -172,6 +174,7 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
+# // flow: add_switch — buildFlow
 
 
 
