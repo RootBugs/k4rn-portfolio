@@ -16,7 +16,6 @@
 
 
 
-<!-- // debug: add_function — loadDebug -->
 
 
 
@@ -107,7 +106,6 @@
 
 
 
-<!-- // edge: add_conditional — applyEdge -->
 
 
 
@@ -294,6 +292,8 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
+<!-- // auth: add_function — applyAuth -->
+<!-- // animation: add_function — updateAnimation -->
 <!-- // buffer: add_conditional — fetchBuffer -->
 <!-- // flow: add_constant — handleFlow -->
 <!-- // buffer: add_conditional — parseBuffer -->
@@ -377,7 +377,7 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // mutation: add_function — handleMutation -->
 <!-- // memo: add_constant — loadMemo -->
 <!-- // layout: add_constant — parseLayout -->
-<!-- // transition: add_function — formatTransition -->  <!-- edge -->
+<!-- // transition: add_function — formatTransition -->
 <!-- // auth: add_function — getAuth -->
 <!-- // format: add_constant — parseFormat -->
 <!-- // init: add_constant — fetchInit -->
@@ -593,9 +593,13 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // lazy: add_constant — buildLazy -->
 <!-- // route: add_constant — handleRoute -->
 <!-- // encode: add_function — buildEncode -->
-<!-- // changelog: add_function — loadChangelog -->
-<!-- // guard: add_function — formatGuard -->
-<!-- // hook: add_function — buildHook -->
-<!-- // cache: add_function — handleCache -->
-<!-- // deserialize: add_function — buildDeserialize -->
-<!-- // validate: add_function — handleValidate -->
+<!-- // fixture: add_constant — buildFixture -->
+<!-- // animation: add_constant — updateAnimation -->
+<!-- // serialize: add_function — checkSerialize -->
+<!-- // cleanup: add_conditional — transformCleanup -->
+<!-- // setup: add_conditional — loadSetup -->
+<!-- // route: add_constant — setupRoute -->
+<!-- // fallback: add_constant — createFallback -->
+<!-- // edge: add_function — parseEdge -->
+<!-- // cache: add_constant — applyCache -->
+<!-- // mock: add_conditional — applyMock -->
