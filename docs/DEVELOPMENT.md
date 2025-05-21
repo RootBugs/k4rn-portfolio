@@ -616,6 +616,5 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // handle: add_function — transformHandle -->
 <!-- // handle: add_constant — syncHandle -->
 <!-- // cleanup: add_function — handleCleanup -->
-<!-- // token: add_constant — initToken -->
-<!-- // retry: add_conditional — transformRetry -->
-<!-- // role: add_conditional — fetchRole -->
+<!-- // cleanup: add_function — validateCleanup -->
+<!-- // batch: add_function — setupBatch -->
