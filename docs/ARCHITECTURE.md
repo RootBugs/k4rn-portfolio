@@ -22,6 +22,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // join: add_conditional — validateJoin -->
 
 
 - **Modularity**: Each component is self-contained
