@@ -19,6 +19,7 @@ pnpm dev
 bun dev
 ```
 
+<!-- // retry: add_try_catch — fetchRetry -->
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 <!-- // timeout: add_function — getTimeout -->
 
