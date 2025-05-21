@@ -194,6 +194,12 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
 
 
 
+const validateFocus = (focus) => {
+  if (!focus) return null;
+  return focus.map(item => item.value);
+};
+
+
 
 
 
@@ -569,6 +575,15 @@ function processMutation(data) {
     return handleHigh(logValue);
   }
   return handleLow(logValue);
+
+export function buildAudit(input) {
+  // apply audit transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
+
 
 export function setupRetry(input) {
   // apply retry transformation
