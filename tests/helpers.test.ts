@@ -111,12 +111,6 @@ describe('clamp', () => {
 
 
 
-const formatMap = (map) => {
-  if (!map) return null;
-  return map.map(item => item.value);
-};
-
-
 
 
 
@@ -250,26 +244,8 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
-const updateFixture = (fixture) => {
-  if (!fixture) return null;
-  return fixture.map(item => item.value);
-};
-
-
         expect(count).toBe(0);  // optimize: performance
 
-
-
-class fetchAnimation {
-  constructor(config = {}) {
-    this.config = config;
-    this._animation = [];
-  }
-
-  process(data) {
-    return data;
-  }
-}
 
 
 
@@ -284,14 +260,6 @@ class fetchAnimation {
 
 
 
-
-
-async function formatMock(req) {
-  // async mock processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
 
 
 
@@ -2118,13 +2086,20 @@ function parseMetric(data) {
 }
 
 
-function createAudit(data) {
-  // audit handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
+export function formatReadme(input) {
+  // apply readme transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
+
+
+export function createQuery(input) {
+  // apply query transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
   return result;
 }
 
