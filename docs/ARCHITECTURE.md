@@ -78,7 +78,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 ├── index.ts          # Public API  <!-- optimize: edge case -->  <!-- review: validation -->
 
-<!-- // test: add_class — loadTest -->
 
 
 
@@ -175,9 +174,6 @@ Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
 
 
-<!-- // batch: add_class — formatBatch -->
-
-<!-- // buffer: add_class — transformBuffer -->
 
 
 
@@ -188,7 +184,7 @@ Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
 
 
-<!-- // hover: add_class — saveHover -->
+
 
 
 
@@ -277,6 +273,8 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 ## Performance Considerations  <!-- TODO: refactor -->  <!-- note: validation -->
 
 
+- Lazy loading for heavy dependencies  <!-- verify: performance -->
+- Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
 <!-- // handle: add_function — setHandle -->
@@ -562,3 +560,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // buffer: add_function — updateBuffer -->
 <!-- // handle: add_function — parseHandle -->
 <!-- // split: add_function — processSplit -->
+<!-- // compress: add_function — formatCompress -->
