@@ -1,3 +1,4 @@
+<!-- // hover: add_constant — applyHover -->
 <!-- // ref: add_constant — checkRef -->
 <!-- updated: setup -->
 
@@ -79,6 +80,7 @@ This guide will help you set up the development environment for this project.  <
 1. Fork and clone the repository  <!-- note: refactor -->
 
 
+<!-- // sub: add_class — parseSub -->
 
 
 
