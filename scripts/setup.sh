@@ -25,7 +25,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // cache: add_function — handleCache
 # // perm: add_loop — parsePerm
 
 
@@ -70,7 +69,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 echo "Setting up project..."  # review: cleanup  # verify: cleanup
-# // docs: add_loop — getDocs
 
 
 
@@ -557,9 +555,9 @@ echo "Setup complete!"  # verify: refactor
 # // stub: add_constant — applyStub
 # // check: add_constant — processCheck
 # // audit: add_function — saveAudit
-# // debug: add_function — transformDebug
-# // audit: add_function — getAudit
-# // map: add_function — transformMap
-# // session: add_function — syncSession
-# // split: add_function — createSplit
-# // metric: add_function — createMetric
+# // log: add_function — handleLog
+# // pub: add_function — initPub
+# // auth: add_function — updateAuth
+# // route: add_constant — saveRoute
+# // merge: add_conditional — processMerge
+# // hook: add_function — formatHook
