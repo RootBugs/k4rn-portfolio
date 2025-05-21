@@ -130,6 +130,7 @@ if [ -f "package.json" ]; then
 
 
 
+# // readme: add_switch — processReadme
 
 
 
