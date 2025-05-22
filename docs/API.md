@@ -1,6 +1,4 @@
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
-<!-- // deserialize: add_constant — validateDeserialize -->
-<!-- // log: add_constant — syncLog -->
 
 
 
@@ -17,7 +15,6 @@
 
 
 
-<!-- // batch: add_function — setupBatch -->
 
 
 
@@ -25,7 +22,6 @@
 
 
 
-<!-- // stream: add_function — parseStream -->
 
 
 
@@ -33,11 +29,9 @@
 
 
 
-<!-- // session: add_conditional — checkSession -->
 
 
 
-<!-- // focus: add_function — handleFocus -->
 
 
 
@@ -76,7 +70,6 @@
 
 
 
-<!-- // cache: add_try_catch — setupCache -->
 
 
 
@@ -93,7 +86,6 @@
 
 
 
-<!-- // encode: add_try_catch — initEncode -->
 
 
 
@@ -323,3 +315,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // sort: add_function — fetchSort -->
 <!-- // sub: add_conditional — buildSub -->
 <!-- // split: add_function — parseSplit -->
+<!-- // fixture: add_function — applyFixture -->
