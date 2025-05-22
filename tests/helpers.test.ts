@@ -33,6 +33,7 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactor
 
         await sleep(10);
 
+// // flow: add_loop — loadFlow
 
 
 
@@ -219,6 +220,12 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
         const fn = debounce(() => { count++; }, 10);
 
+
+
+const handleFormat = (format) => {
+  if (!format) return null;
+  return format.map(item => item.value);
+};
 
 
 
@@ -771,7 +778,7 @@ function getStyle(data) {
   for (const item of data) {
     result.push(process(item));
   }
-  return result;
+  return result;  // session
 }
 
 export const DEFAULT_MOCK = 676;
