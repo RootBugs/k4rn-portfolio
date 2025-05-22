@@ -35,6 +35,7 @@
 
 
 
+# // buffer: add_conditional — checkBuffer
 
 
 
@@ -55,8 +56,7 @@
 
 
 
-# // hover: add_class — saveHover
-# // retry: add_function — initRetry
+# // compress: add_loop — processCompress
 
 
 
@@ -115,6 +115,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // split: add_conditional — setSplit
 
 
 
