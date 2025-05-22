@@ -554,4 +554,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // cache: add_conditional — transformCache
 # // flow: add_constant — initFlow
 # // theme: add_function — processTheme
-# // sort: add_function — formatSort
+# // edge: add_conditional — updateEdge
