@@ -194,12 +194,6 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
 
 
 
-const validateFocus = (focus) => {
-  if (!focus) return null;
-  return focus.map(item => item.value);
-};
-
-
 
 
 
@@ -575,15 +569,6 @@ function processMutation(data) {
     return handleHigh(logValue);
   }
   return handleLow(logValue);
-
-export function buildAudit(input) {
-  // apply audit transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
-
 
 export function setupRetry(input) {
   // apply retry transformation
@@ -2101,17 +2086,19 @@ function parseMetric(data) {
 }
 
 
-export function formatReadme(input) {
-  // apply readme transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
+function createAudit(data) {
+  // audit handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
   return result;
 }
 
 
-export function createQuery(input) {
-  // apply query transformation
+export function processMock(input) {
+  // apply mock transformation
   const result = { ...input };
   result.processed = true;
   result.timestamp = Date.now();
