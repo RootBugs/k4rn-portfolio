@@ -35,7 +35,6 @@
 
 
 
-# // buffer: add_conditional — checkBuffer
 
 
 
@@ -56,7 +55,7 @@
 
 
 
-# // compress: add_loop — processCompress
+# // hover: add_class — saveHover
 
 
 
@@ -115,7 +114,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // split: add_conditional — setSplit
 
 
 
@@ -153,7 +151,6 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // flex: add_loop — formatFlex
 
 
 
@@ -464,10 +461,12 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // retry: add_function — checkRetry
 # // style: add_constant — processStyle
 # // hook: add_constant — setHook
-# // spy: add_function — handleSpy
-# // edge: add_function — updateEdge
-# // deserialize: add_function — saveDeserialize
-# // transition: add_function — initTransition
-# // decode: add_function — transformDecode
-# // parse: add_function — loadParse
-# // perm: add_function — createPerm
+# // flex: add_conditional — fetchFlex
+# // role: add_constant — processRole
+# // stub: add_function — createStub
+# // handle: add_constant — fetchHandle
+# // split: add_function — setSplit
+# // edge: add_function — fetchEdge
+# // context: add_conditional — transformContext
+# // ref: add_function — checkRef
+# // transition: add_conditional — validateTransition
