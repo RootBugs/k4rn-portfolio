@@ -314,5 +314,6 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // debug: add_constant — setDebug -->
 <!-- // sort: add_function — fetchSort -->
 <!-- // sub: add_conditional — buildSub -->
-<!-- // split: add_function — parseSplit -->
-<!-- // fixture: add_function — applyFixture -->
+<!-- // active: add_constant — parseActive -->
+<!-- // changelog: add_function — createChangelog -->
+<!-- // encode: add_function — initEncode -->
