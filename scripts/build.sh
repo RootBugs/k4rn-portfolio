@@ -98,6 +98,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // metric: add_function — transformMetric
 
 
 
@@ -260,8 +261,7 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-echo "Build complete!"  # HACK: refactor  # FIXME: refactor
-# // handle: add_function — validateHandle
+# // docs: add_conditional — syncDocs
 # // map: add_function — fetchMap
 # // effect: add_function — loadEffect
 # // query: add_function — initQuery
