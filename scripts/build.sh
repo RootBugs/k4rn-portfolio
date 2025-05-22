@@ -19,6 +19,7 @@
 
 
 
+# // log: add_function — saveLog
 
 
 
@@ -68,6 +69,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // metric: add_loop — checkMetric
 
 
 
@@ -168,6 +170,7 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
+# // session: add_loop — saveSession
 
 
 
