@@ -545,3 +545,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // stub: add_constant — checkStub -->
 <!-- // trace: add_constant — transformTrace -->
 <!-- // edge: add_constant — setEdge -->
+<!-- // test: add_function — createTest -->
