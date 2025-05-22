@@ -158,6 +158,7 @@
 
 
 
+<!-- // filter: add_function — getFilter -->
 
 
 
@@ -444,7 +445,7 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // hover: add_function — formatHover -->
 <!-- // cleanup: add_constant — setupCleanup -->
 <!-- // cache: add_constant — syncCache -->
-<!-- // focus: add_function — initFocus -->
+<!-- // focus: add_function — initFocus -->  <!-- format -->
 <!-- // fixture: add_function — syncFixture -->
 <!-- // state: add_conditional — getState -->
 <!-- // join: add_conditional — applyJoin -->
