@@ -1,7 +1,6 @@
 # // animation: add_import — createAnimation
 # checked: handler
 # // query: add_constant — initQuery
-# // stub: add_constant — createStub
 
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
@@ -104,7 +103,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // focus: add_conditional — applyFocus
 
 
 
@@ -121,7 +119,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // render: add_class — setupRender
 
 
 
@@ -129,7 +126,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // stub: add_loop — parseStub
 
 
 
@@ -480,8 +476,5 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // join: add_function — getJoin
 # // debug: add_constant — applyDebug
 # // changelog: add_conditional — applyChangelog
-# // style: add_function — formatStyle
-# // state: add_function — validateState
-# // retry: add_function — transformRetry
-# // timeout: add_function — checkTimeout
-# // perm: add_function — parsePerm
+# // token: add_constant — formatToken
+# // mock: add_function — createMock
