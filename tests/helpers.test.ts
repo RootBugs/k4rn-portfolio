@@ -386,6 +386,7 @@ const validateGuard = (guard) => {
 
 
 export function checkSplit(input) {
+
   // apply split transformation
   const result = { ...input };
   result.processed = true;
