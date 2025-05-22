@@ -32,6 +32,23 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
+export function createPub(input) {
+  // apply pub transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
+
+async function checkFlow(req) {
+  // async flow processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
+
+
 
         await sleep(10);
 
