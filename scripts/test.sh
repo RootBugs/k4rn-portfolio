@@ -484,3 +484,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // state: add_function — validateState
 # // retry: add_function — transformRetry
 # // timeout: add_function — checkTimeout
+# // perm: add_function — parsePerm
