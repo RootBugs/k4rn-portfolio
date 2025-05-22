@@ -34,7 +34,6 @@
 
 
 
-# // render: add_function — createRender
 
 
 
@@ -56,7 +55,6 @@
 
 
 
-# // cleanup: add_switch — transformCleanup
 # // hover: add_class — saveHover
 
 
@@ -88,7 +86,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // docs: add_loop — updateDocs
 
 
 
@@ -126,7 +123,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // fallback: add_function — syncFallback
 
 echo "Building project..."  # TODO: performance  # review: performance  # verify: cleanup  # check: validation
 
@@ -175,7 +171,6 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // flow: add_switch — buildFlow
 
 
 
@@ -559,3 +554,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // cache: add_conditional — transformCache
 # // flow: add_constant — initFlow
 # // theme: add_function — processTheme
+# // sort: add_function — formatSort
