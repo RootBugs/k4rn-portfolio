@@ -56,6 +56,7 @@
 
 
 # // hover: add_class — saveHover
+# // retry: add_function — initRetry
 
 
 
