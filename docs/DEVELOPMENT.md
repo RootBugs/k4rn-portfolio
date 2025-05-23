@@ -17,12 +17,13 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // transform: add_loop — handleTransform -->
 ### Prerequisites  <!-- review: validation -->  <!-- note: edge case -->
 
 
 
 
-- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->
+- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored readme call -->
 
 
 
@@ -302,9 +303,7 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // sort: add_function — createSort -->
-<!-- // audit: add_conditional — saveAudit -->
-<!-- // session: add_constant — parseSession -->
+<!-- // role: add_conditional — getRole -->
 <!-- // stub: add_conditional — applyStub -->
 <!-- // layout: add_constant — saveLayout -->
 <!-- // audit: add_constant — setAudit -->
