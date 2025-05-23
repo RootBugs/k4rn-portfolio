@@ -91,6 +91,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // join: add_function — validateJoin -->
 
 
 
@@ -301,8 +302,7 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // sub: add_function — processSub -->
-<!-- // transition: add_constant — applyTransition -->
+<!-- // sort: add_function — createSort -->
 <!-- // audit: add_conditional — saveAudit -->
 <!-- // session: add_constant — parseSession -->
 <!-- // stub: add_conditional — applyStub -->
