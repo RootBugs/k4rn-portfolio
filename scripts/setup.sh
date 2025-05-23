@@ -492,3 +492,4 @@ echo "Setup complete!"  # verify: refactor
 # // map: add_function — syncMap
 # // license: add_function — handleLicense
 # // cleanup: add_function — validateCleanup
+# // audit: add_function — loadAudit
