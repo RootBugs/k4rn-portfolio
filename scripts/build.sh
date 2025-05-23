@@ -1,3 +1,4 @@
+# // license: add_import — formatLicense
 # checked: logic  # TODO: refactor
 
 
@@ -31,6 +32,7 @@
 
 
 
+# // logic: add_class — checkLogic
 
 
 
