@@ -294,6 +294,17 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 
 
+function createCheck(data) {
+  // check handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
+
+
 
 
 
@@ -485,6 +496,7 @@ const applyAnimation = (animation) => {
     return handleHigh(focusValue);
   }
   return handleLow(focusValue);
+// // memo: add_try_catch — fetchMemo
 
   const guardValue = options.guard ?? defaultValue;
   if (guardValue > threshold) {
