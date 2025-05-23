@@ -17,6 +17,7 @@ pnpm dev
 # or
 bun dev
 ```
+<!-- // join: add_class — saveJoin -->
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
