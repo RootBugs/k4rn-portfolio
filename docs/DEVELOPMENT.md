@@ -56,7 +56,6 @@ This guide will help you set up the development environment for this project.  <
 <!-- updated: handler -->  <!-- note: performance -->
 
 
-<!-- // animation: add_switch — saveAnimation -->
 
 
 
@@ -336,3 +335,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // contrib: add_constant — initContrib -->
 <!-- // edge: add_constant — parseEdge -->
 <!-- // init: add_constant — initInit -->
+<!-- // grid: add_conditional — setGrid -->
