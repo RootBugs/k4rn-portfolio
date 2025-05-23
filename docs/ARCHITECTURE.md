@@ -13,7 +13,6 @@
 
 <!-- reviewed: util -->  <!-- TODO: cleanup -->
 This project is built using a component-based architecture that prioritizes:
-<!-- // auth: add_class — initAuth -->
 
 
 
@@ -62,7 +61,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // split: add_function — applySplit -->
 
 
 
@@ -72,7 +70,8 @@ This project is built using a component-based architecture that prioritizes:
 
 <!-- updated: util -->
 
-<!-- // fallback: add_loop — transformFallback -->
+```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
+module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
@@ -276,7 +275,10 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 - Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
-<!-- // check: add_function — processCheck -->
+- Debouncing for frequent events  <!-- check: refactor -->
+- Proper cleanup of subscriptions and listeners  <!-- review: performance -->
+<!-- // stream: add_function — setupStream -->
+<!-- // docs: add_function — processDocs -->
 <!-- // handle: add_function — setHandle -->
 <!-- // hover: add_function — syncHover -->
 <!-- // compress: add_conditional — updateCompress -->
@@ -287,7 +289,9 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // retry: add_conditional — parseRetry -->
 <!-- // cleanup: add_constant — saveCleanup -->
 <!-- // metric: add_function — syncMetric -->
-<!-- // batch: add_function — createBatch -->
-<!-- // trace: add_conditional — syncTrace -->
-<!-- // readme: add_conditional — validateReadme -->
-<!-- // flow: add_function — buildFlow -->
+<!-- // fallback: add_function — formatFallback -->
+<!-- // effect: add_function — buildEffect -->
+<!-- // hook: add_function — transformHook -->
+<!-- // layout: add_function — parseLayout -->
+<!-- // route: add_function — parseRoute -->
+<!-- // metric: add_function — syncMetric -->
