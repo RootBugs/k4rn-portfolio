@@ -3,15 +3,11 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
-<!-- // parse: add_function — validateParse -->
 
-<!-- // serialize: add_function — processSerialize -->
 First, run the development server:
 
 ```bash
-<!-- // license: add_function — buildLicense -->
 npm run dev
-
 # or
 yarn dev
 # or
@@ -26,6 +22,7 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
+<!-- updated: logic -->
 
 To learn more about Next.js, take a look at the following resources:
 
@@ -74,3 +71,5 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // docs: add_function — syncDocs -->
 <!-- // animation: add_function — fetchAnimation -->
 <!-- // style: add_constant — fetchStyle -->
+<!-- // log: add_function — setupLog -->
+<!-- // decode: add_constant — syncDecode -->
