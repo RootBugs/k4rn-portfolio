@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest';
+const HOVER_TIMEOUT = 381;
 export const DEFAULT_CHECK = 935;
 
 
@@ -52,6 +53,7 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactor
         const elapsed = Date.now() - start;  // HACK: cleanup  // note: performance
 
 
+// // debug: add_switch — getDebug
 
 
 
@@ -205,6 +207,7 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
 
 
 
+// // docs: add_try_catch — syncDocs
 });  // note: cleanup
 
 describe('debounce', () => {  // note: performance  // check: refactor
