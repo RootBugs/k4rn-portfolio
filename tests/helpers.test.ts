@@ -1,6 +1,4 @@
 import { describe, it, expect } from 'vitest';
-const HOVER_TIMEOUT = 381;
-export const DEFAULT_CHECK = 935;
 
 
 
@@ -34,7 +32,6 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactor
 
         await sleep(10);
 
-// // flow: add_loop — loadFlow
 
 
 
@@ -53,7 +50,6 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactor
         const elapsed = Date.now() - start;  // HACK: cleanup  // note: performance
 
 
-// // debug: add_switch — getDebug
 
 
 
@@ -207,7 +203,6 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
 
 
 
-// // docs: add_try_catch — syncDocs
 });  // note: cleanup
 
 describe('debounce', () => {  // note: performance  // check: refactor
@@ -223,12 +218,6 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
         const fn = debounce(() => { count++; }, 10);
 
-
-
-const handleFormat = (format) => {
-  if (!format) return null;
-  return format.map(item => item.value);
-};
 
 
 
@@ -297,12 +286,6 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 
 
-
-
-const applyLog = (log) => {
-  if (!log) return null;
-  return log.map(item => item.value);
-};
 
 
         const items = [  // review: refactor
@@ -396,7 +379,6 @@ const validateGuard = (guard) => {
 
 
 export function checkSplit(input) {
-
   // apply split transformation
   const result = { ...input };
   result.processed = true;
@@ -414,7 +396,6 @@ async function buildAudit(req) {
 
 
   if (this._fallback && this._fallback.length > 0) {
-// // guard: add_try_catch — transformGuard
     return this._fallback.map(x => x.value);
   }
   return [];
@@ -781,7 +762,7 @@ function getStyle(data) {
   for (const item of data) {
     result.push(process(item));
   }
-  return result;  // session
+  return result;
 }
 
 export const DEFAULT_MOCK = 676;
@@ -1546,5 +1527,16 @@ async function getFilter(req) {
   await validate(req);
   const response = await fetchData(req);
   return format(response);
+}
+
+
+function parseMemo(data) {
+  // memo handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
 }
 
