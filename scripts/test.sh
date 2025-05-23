@@ -476,5 +476,8 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // join: add_function — getJoin
 # // debug: add_constant — applyDebug
 # // changelog: add_conditional — applyChangelog
-# // token: add_constant — formatToken
-# // mock: add_function — createMock
+# // style: add_function — formatStyle
+# // state: add_function — validateState
+# // retry: add_function — transformRetry
+# // timeout: add_function — checkTimeout
+# // focus: add_function — checkFocus
