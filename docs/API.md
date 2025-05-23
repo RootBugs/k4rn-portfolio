@@ -73,7 +73,6 @@
 
 
 
-<!-- // deserialize: add_function — initDeserialize -->
 
 
 
@@ -91,7 +90,6 @@
 
 
 
-<!-- // format: add_conditional — fetchFormat -->
 
 
 
@@ -112,7 +110,6 @@
 
 
 
-<!-- // grid: add_function — applyGrid -->
 
 
 
@@ -508,4 +505,6 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // fallback: add_function — formatFallback -->
 <!-- // metric: add_function — loadMetric -->
 <!-- // state: add_constant — syncState -->
-<!-- // role: add_function — syncRole -->
+<!-- // fallback: add_conditional — getFallback -->
+<!-- // decode: add_constant — fetchDecode -->
+<!-- // timeout: add_conditional — applyTimeout -->
