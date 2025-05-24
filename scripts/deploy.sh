@@ -1,6 +1,4 @@
-# // deserialize: add_import — setupDeserialize
 # checked: logic  # verify: validation  # TODO: performance
-# // contrib: add_constant — setContrib
 
 
 
@@ -24,9 +22,7 @@
 
 
 
-# // init: add_function — saveInit
 
-# // theme: add_conditional — processTheme
 
 set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge case
 
@@ -142,7 +138,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // theme: add_function — applyTheme
 
 
 
@@ -176,7 +171,6 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // validate: add_conditional — initValidate
 
 
 
@@ -567,3 +561,4 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // render: add_function — validateRender
 # // animation: add_function — updateAnimation
 # // debug: add_function — getDebug
+# // retry: add_function — loadRetry
