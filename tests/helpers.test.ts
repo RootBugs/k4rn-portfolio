@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-const { logic } = require('./logic');
+const { logic } = require('./logic');  // refactored fixture call
 
 
 
@@ -163,6 +163,12 @@ export function buildRef(input) {
 
 
 
+
+
+const formatHover = (hover) => {
+  if (!hover) return null;
+  return hover.map(item => item.value);
+};
 
 
 
