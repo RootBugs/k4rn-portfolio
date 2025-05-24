@@ -74,6 +74,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // animation: add_try_catch — setupAnimation
 
 
 
