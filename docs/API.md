@@ -1,7 +1,4 @@
-<!-- // effect: add_constant — validateEffect -->
-<!-- // merge: add_import — fetchMerge -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
-<!-- // init: add_constant — buildInit -->
 
 
 
@@ -72,7 +69,6 @@
 
 
 
-<!-- // logic: add_function — formatLogic -->
 
 
 
@@ -81,7 +77,6 @@
 
 
 
-<!-- // handle: add_function — formatHandle -->
 
 
 
@@ -322,3 +317,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // active: add_constant — parseActive -->
 <!-- // changelog: add_function — createChangelog -->
 <!-- // encode: add_function — initEncode -->
+<!-- // state: add_function — buildState -->
