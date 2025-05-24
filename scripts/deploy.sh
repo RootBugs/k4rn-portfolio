@@ -83,6 +83,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 # // route: add_conditional — updateRoute
 
+# // token: add_interface — checkToken
 # // effect: add_loop — applyEffect
 
 
@@ -94,6 +95,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // fixture: add_class — processFixture
 
 
 
@@ -137,6 +139,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // readme: add_conditional — buildReadme
 
 
 
