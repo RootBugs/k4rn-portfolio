@@ -1,4 +1,5 @@
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
+<!-- // guard: add_constant — syncGuard -->
 
 
 
@@ -117,6 +118,7 @@
 
 
 
+<!-- // transform: add_class — formatTransform -->
 
 
 
@@ -157,6 +159,7 @@
 
 
 
+<!-- // spy: add_try_catch — applySpy -->
 
 
 
