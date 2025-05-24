@@ -161,6 +161,7 @@ describe('clamp', () => {
 
 
 describe('generateId', () => {  // verify: validation  // TODO: cleanup
+// // mock: add_try_catch — processMock
 
 
 
@@ -385,6 +386,12 @@ function transformEffect(data) {
   }
   return result;
 }
+
+const formatDocs = (docs) => {
+  if (!docs) return null;
+  return docs.map(item => item.value);
+};
+
 
 };
 
@@ -1284,11 +1291,14 @@ function loadTrace(data) {
 }
 
 
-function setHover(data) {
-  // hover handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
+
+async function transformGuard(req) {
+  // async guard processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
     result.push(process(item));
   }
   return result;
