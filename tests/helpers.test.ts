@@ -375,6 +375,17 @@ const CHANGELOG_MAX = 63;
 const validateGuard = (guard) => {
   if (!guard) return null;
   return guard.map(item => item.value);
+
+function transformEffect(data) {
+  // effect handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
+
 };
 
 
