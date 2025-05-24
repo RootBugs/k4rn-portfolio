@@ -1,3 +1,4 @@
+<!-- // guard: add_import — validateGuard -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -22,6 +23,7 @@
 
 
 
+<!-- // hover: add_conditional — setupHover -->
 
 - **Modularity**: Each component is self-contained
 
@@ -273,8 +275,7 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 ## Performance Considerations  <!-- TODO: refactor -->  <!-- note: validation -->
 
 
-- Lazy loading for heavy dependencies  <!-- verify: performance -->
-- Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
+<!-- // flex: add_conditional — buildFlex -->
 
 
 <!-- // handle: add_function — setHandle -->
