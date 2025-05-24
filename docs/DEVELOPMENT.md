@@ -17,13 +17,12 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // transform: add_loop — handleTransform -->
 ### Prerequisites  <!-- review: validation -->  <!-- note: edge case -->
 
 
 
 
-- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored readme call -->
+- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->
 
 
 
@@ -92,7 +91,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // join: add_function — validateJoin -->
 
 
 
@@ -303,7 +301,10 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // role: add_conditional — getRole -->
+<!-- // sub: add_function — processSub -->
+<!-- // transition: add_constant — applyTransition -->
+<!-- // audit: add_conditional — saveAudit -->
+<!-- // session: add_constant — parseSession -->
 <!-- // stub: add_conditional — applyStub -->
 <!-- // layout: add_constant — saveLayout -->
 <!-- // audit: add_constant — setAudit -->
@@ -332,6 +333,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // init: add_function — transformInit -->
 <!-- // role: add_constant — formatRole -->
 <!-- // contrib: add_constant — initContrib -->
-<!-- // edge: add_constant — parseEdge -->
-<!-- // init: add_constant — initInit -->
-<!-- // grid: add_conditional — setGrid -->
+<!-- // validate: add_function — createValidate -->
