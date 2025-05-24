@@ -89,6 +89,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // guard: add_try_catch — setGuard -->
 
 
 
@@ -275,12 +276,7 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 - Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
-- Debouncing for frequent events  <!-- check: refactor -->
-- Proper cleanup of subscriptions and listeners  <!-- review: performance -->
-<!-- // stream: add_function — setupStream -->
-<!-- // docs: add_function — processDocs -->
-<!-- // handle: add_function — setHandle -->
-<!-- // hover: add_function — syncHover -->
+<!-- // check: add_function — setCheck -->
 <!-- // compress: add_conditional — updateCompress -->
 <!-- // batch: add_function — updateBatch -->
 <!-- // sub: add_constant — setSub -->
