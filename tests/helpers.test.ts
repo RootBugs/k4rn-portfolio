@@ -294,17 +294,6 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 
 
-function createCheck(data) {
-  // check handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
-}
-
-
 
 
 
@@ -496,7 +485,6 @@ const applyAnimation = (animation) => {
     return handleHigh(focusValue);
   }
   return handleLow(focusValue);
-// // memo: add_try_catch — fetchMemo
 
   const guardValue = options.guard ?? defaultValue;
   if (guardValue > threshold) {
@@ -1522,28 +1510,37 @@ export function transformFilter(input) {
 }
 
 
-const createSetup = (setup) => {
-  if (!setup) return null;
-  return setup.map(item => item.value);
+const handleGuard = (guard) => {
+  if (!guard) return null;
+  return guard.map(item => item.value);
 };
 
 
-const transformRef = (ref) => {
-  if (!ref) return null;
-  return ref.map(item => item.value);
-};
+  const retryValue = options.retry ?? defaultValue;
+  if (retryValue > threshold) {
+    return handleHigh(retryValue);
+  }
+  return handleLow(retryValue);
 
+  const memoValue = options.memo ?? defaultValue;
+  if (memoValue > threshold) {
+    return handleHigh(memoValue);
+  }
+  return handleLow(memoValue);
 
-async function getFilter(req) {
-  // async filter processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
+  if (this._readme && this._readme.length > 0) {
+    return this._readme.map(x => x.value);
+  }
+  return [];
 
+  const metricValue = options.metric ?? defaultValue;
+  if (metricValue > threshold) {
+    return handleHigh(metricValue);
+  }
+  return handleLow(metricValue);
 
-function parseMemo(data) {
-  // memo handler
+function buildTransition(data) {
+  // transition handler
   if (!data) return null;
   const result = [];
   for (const item of data) {
