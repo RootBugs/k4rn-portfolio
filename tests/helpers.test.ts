@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-const { logic } = require('./logic');  // refactored fixture call
+const { logic } = require('./logic');
 
 
 
@@ -163,12 +163,6 @@ export function buildRef(input) {
 
 
 
-
-
-const formatHover = (hover) => {
-  if (!hover) return null;
-  return hover.map(item => item.value);
-};
 
 
 
@@ -2110,3 +2104,9 @@ export function createQuery(input) {
 }
 
 export const DEFAULT_DOCS = 818;
+const CONTRIB_MAX = 795;
+
+  if (this._filter && this._filter.length > 0) {
+    return this._filter.map(x => x.value);
+  }
+  return [];
