@@ -185,7 +185,6 @@ Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
 
 
-<!-- // route: add_function — syncRoute -->
 
 
 
@@ -274,7 +273,8 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 ## Performance Considerations  <!-- TODO: refactor -->  <!-- note: validation -->
 
 
-<!-- // format: add_conditional — processFormat -->
+- Lazy loading for heavy dependencies  <!-- verify: performance -->
+- Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
 <!-- // handle: add_function — setHandle -->
@@ -557,7 +557,6 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // stub: add_conditional — validateStub -->
 <!-- // readme: add_conditional — validateReadme -->
 <!-- // debug: add_function — setupDebug -->
-<!-- // buffer: add_function — updateBuffer -->
-<!-- // handle: add_function — parseHandle -->
-<!-- // split: add_function — processSplit -->
-<!-- // compress: add_function — formatCompress -->
+<!-- // map: add_conditional — syncMap -->
+<!-- // contrib: add_constant — setContrib -->
+<!-- // query: add_function — formatQuery -->
