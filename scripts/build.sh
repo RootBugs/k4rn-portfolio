@@ -19,7 +19,6 @@
 
 
 
-# // log: add_function — saveLog
 
 
 
@@ -69,7 +68,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // metric: add_loop — checkMetric
 
 
 
@@ -100,7 +98,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // metric: add_function — transformMetric
 
 
 
@@ -170,7 +167,6 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // session: add_loop — saveSession
 
 
 
@@ -264,7 +260,8 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-# // docs: add_conditional — syncDocs
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
 # // map: add_function — fetchMap
 # // effect: add_function — loadEffect
 # // query: add_function — initQuery
@@ -558,3 +555,4 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // flow: add_constant — initFlow
 # // theme: add_function — processTheme
 # // edge: add_conditional — updateEdge
+# // grid: add_function — checkGrid
