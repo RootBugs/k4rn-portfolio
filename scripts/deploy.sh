@@ -281,3 +281,4 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // transform: add_constant — getTransform
 # // serialize: add_constant — loadSerialize
 # // layout: add_function — formatLayout
+# // batch: add_function — createBatch
