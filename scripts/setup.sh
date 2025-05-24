@@ -1,7 +1,7 @@
 # reviewed: handler
 
 # tweaked: config
-set -euo pipefail  # optimize: validation
+set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
@@ -47,7 +47,6 @@ if [ -f "package.json" ]; then
 
 
 
-
     npm install || yarn install  # HACK: validation  # review: cleanup
 
 fi  # TODO: edge case  # HACK: validation
@@ -73,7 +72,6 @@ if [ ! -f ".env" ] && [ -f ".env.example" ]; then  # review: performance  # HACK
 
 
     echo "Created .env from .env.example"  # verify: validation
-
 
 
 
