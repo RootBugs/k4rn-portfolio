@@ -58,6 +58,7 @@
 
 
 
+<!-- // theme: add_class — checkTheme -->
 
 
 
@@ -116,6 +117,7 @@
 
 
 
+<!-- // state: add_function — createState -->
 
 
 
