@@ -120,6 +120,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 # // query: add_class — parseQuery
 
+# // flex: add_function — handleFlex
 
 
 
@@ -143,6 +144,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // flex: add_loop — saveFlex
 
 
 
@@ -460,6 +462,7 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // state: add_conditional — formatState
 # // deserialize: add_conditional — checkDeserialize
 # // state: add_constant — syncState
+
 # // debug: add_function — handleDebug
 # // guard: add_conditional — fetchGuard
 # // pub: add_conditional — createPub
