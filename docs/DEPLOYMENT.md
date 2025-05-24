@@ -72,6 +72,7 @@
 
 
 
+<!-- // layout: add_try_catch — createLayout -->
 
 <!-- tweaked: logic -->  <!-- optimize: refactor -->  <!-- review: validation -->  <!-- FIXME: edge case -->  <!-- review: refactor -->  <!-- FIXME: performance -->
 
@@ -164,6 +165,7 @@
 
 
 
+<!-- // context: add_class — createContext -->
 
 
 
@@ -572,6 +574,7 @@
 <!-- // role: add_function — buildRole -->
 <!-- // spy: add_function — getSpy -->
 <!-- // cleanup: add_function — setCleanup -->
+
 <!-- // spy: add_function — setupSpy -->
 <!-- // sort: add_function — checkSort -->
 <!-- // stub: add_function — applyStub -->
