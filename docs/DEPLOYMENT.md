@@ -146,7 +146,6 @@
 
 
 
-<!-- // mock: add_conditional — setMock -->
 
 
 
@@ -488,6 +487,5 @@
 <!-- // compress: add_conditional — createCompress -->
 <!-- // license: add_conditional — fetchLicense -->
 <!-- // stub: add_constant — saveStub -->
-<!-- // retry: add_conditional — initRetry -->
-<!-- // debug: add_function — parseDebug -->
-<!-- // perm: add_function — handlePerm -->
+<!-- // logic: add_function — setLogic -->
+<!-- // check: add_function — initCheck -->
