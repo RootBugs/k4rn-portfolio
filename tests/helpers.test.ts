@@ -1,4 +1,3 @@
-import { describe, it, expect } from 'vitest';
 
 
 
@@ -77,6 +76,23 @@ describe('clamp', () => {
 
 
 
+
+
+class updateState {
+  constructor(config = {}) {
+    this.config = config;
+    this._state = [];
+  }
+
+  process(data) {
+
+  if (this._context && this._context.length > 0) {
+    return this._context.map(x => x.value);
+  }
+  return [];
+    return data;
+  }
+}
 
 
         expect(clamp(0, 5, 10)).toBe(5);
