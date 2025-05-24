@@ -83,7 +83,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 # // route: add_conditional — updateRoute
 
-# // token: add_interface — checkToken
 # // effect: add_loop — applyEffect
 
 
@@ -95,7 +94,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // fixture: add_class — processFixture
 
 
 
@@ -120,7 +118,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 # // query: add_class — parseQuery
 
-# // flex: add_function — handleFlex
 
 
 
@@ -140,11 +137,9 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // readme: add_conditional — buildReadme
 
 
 
-# // flex: add_loop — saveFlex
 
 
 
@@ -462,7 +457,8 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // state: add_conditional — formatState
 # // deserialize: add_conditional — checkDeserialize
 # // state: add_constant — syncState
-
 # // debug: add_function — handleDebug
 # // guard: add_conditional — fetchGuard
 # // pub: add_conditional — createPub
+# // query: add_constant — saveQuery
+# // split: add_constant — loadSplit
