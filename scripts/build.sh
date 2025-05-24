@@ -1,4 +1,5 @@
 # checked: logic  # TODO: refactor
+# // join: add_constant — processJoin
 
 
 
@@ -120,6 +121,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // render: add_function — saveRender
 
 
 
@@ -466,6 +468,6 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // deserialize: add_function — saveDeserialize
 # // transition: add_function — initTransition
 # // decode: add_function — transformDecode
-# // parse: add_function — loadParse
+# // parse: add_function — loadParse  # route
 # // perm: add_function — createPerm
 # // check: add_function — updateCheck
