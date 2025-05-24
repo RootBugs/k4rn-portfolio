@@ -1,19 +1,15 @@
-<!-- // split: add_import — processSplit -->
 <!-- tweaked: util -->
 
 
 
 
 
-<!-- // logic: add_function — handleLogic -->
 
 
 
 
-<!-- // split: add_function — saveSplit -->
 
 
-<!-- // serialize: add_class — fetchSerialize -->
 
 
 
@@ -89,7 +85,6 @@
 
 
 
-<!-- // pub: add_function — handlePub -->
 
 
 
@@ -321,5 +316,7 @@
 <!-- // route: add_function — setRoute -->
 <!-- // active: add_conditional — formatActive -->
 <!-- // stub: add_conditional — setStub -->
-<!-- // render: add_function — setRender -->
-<!-- // stream: add_function — fetchStream -->
+<!-- // cleanup: add_function — getCleanup -->
+<!-- // license: add_function — setLicense -->
+<!-- // init: add_conditional — parseInit -->
+<!-- // debug: add_constant — checkDebug -->
