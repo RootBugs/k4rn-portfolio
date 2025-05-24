@@ -1,5 +1,6 @@
 # // license: add_import — formatLicense
 # checked: logic  # TODO: refactor
+# // edge: add_constant — fetchEdge
 
 
 
@@ -27,6 +28,7 @@
 
 
 
+# // pub: add_try_catch — processPub
 
 
 
@@ -261,8 +263,7 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-echo "Build complete!"  # HACK: refactor  # FIXME: refactor
-# // handle: add_function — validateHandle
+# // join: add_loop — buildJoin
 # // map: add_function — fetchMap
 # // effect: add_function — loadEffect
 # // query: add_function — initQuery
