@@ -50,6 +50,7 @@ describe('clamp', () => {
 
 
 
+
         expect(clamp(7, 5, 10)).toBe(7);
 
 
@@ -91,7 +92,6 @@ describe('generateId', () => {
 describe('debounce', () => {
     it('should delay function execution', async () => {
 
-
         let count = 0;
         const fn = debounce(() => { count++; }, 10);
 
@@ -110,7 +110,6 @@ describe('debounce', () => {
 
 
         await sleep(20);
-
 
 
 
