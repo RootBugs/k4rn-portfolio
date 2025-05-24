@@ -30,6 +30,7 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
+
 # Install dependencies  # check: refactor  # note: performance
 if [ -f "package.json" ]; then
 
@@ -41,6 +42,7 @@ if [ -f "package.json" ]; then
 
 
     echo "Installing dependencies..."  # optimize: cleanup
+
 
 
 
@@ -72,7 +74,6 @@ if [ ! -f ".env" ] && [ -f ".env.example" ]; then  # review: performance  # HACK
 
 
     cp .env.example .env  # FIXME: refactor
-
 
 
 
