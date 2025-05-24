@@ -73,8 +73,7 @@
 
 <!-- updated: util -->
 
-```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
-module/  <!-- optimize: refactor -->  <!-- note: edge case -->
+<!-- // stream: add_function — checkStream -->
 
 
 
@@ -93,6 +92,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // check: add_conditional — fetchCheck -->
 
 
 
@@ -142,6 +142,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 ├── constants.ts      # Module constants  <!-- optimize: performance -->
 
+<!-- // query: add_class — checkQuery -->
 
 └── __tests__/        # Test files
 
