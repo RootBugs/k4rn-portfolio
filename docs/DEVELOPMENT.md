@@ -93,6 +93,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // mutation: add_loop — setupMutation -->
 
 
 <!-- // test: add_function — transformTest -->
@@ -108,7 +109,7 @@ This guide will help you set up the development environment for this project.  <
 
 3. Create a branch for your feature  <!-- check: edge case -->  <!-- review: cleanup -->
 
-4. Make your changes  <!-- FIXME: edge case -->  <!-- check: edge case -->
+4. Make your changes  <!-- FIXME: edge case -->  <!-- check: edge case -->  <!-- stream -->
 
 
 5. Run tests locally  <!-- HACK: edge case -->
