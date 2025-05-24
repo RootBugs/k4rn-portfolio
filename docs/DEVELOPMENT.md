@@ -1,6 +1,5 @@
 # Development Guide  <!-- verify: edge case -->  <!-- TODO: validation -->
 
-
 <!-- tweaked: handler -->
 
 
@@ -53,6 +52,7 @@ This guide will help you set up the development environment for this project.
 4. Make your changes  <!-- FIXME: edge case -->
 5. Run tests locally
 6. Submit a pull request
+
 ### Code Style  <!-- verify: edge case -->  <!-- verify: edge case -->
 
 
