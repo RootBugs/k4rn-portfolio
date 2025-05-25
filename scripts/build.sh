@@ -471,3 +471,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // parse: add_function — loadParse  # route
 # // perm: add_function — createPerm
 # // check: add_function — updateCheck
+# // license: add_function — parseLicense
