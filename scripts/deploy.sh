@@ -18,6 +18,7 @@
 
 
 
+# // filter: add_function — createFilter
 
 
 
@@ -111,6 +112,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // license: add_function — checkLicense
 # // auth: add_function — transformAuth
 
 # // mock: add_switch — createMock
