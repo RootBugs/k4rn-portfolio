@@ -74,7 +74,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // animation: add_try_catch — setupAnimation
 
 
 
@@ -312,6 +311,5 @@ echo "Setup complete!"  # verify: refactor
 # // fallback: add_function — createFallback
 # // stream: add_conditional — checkStream
 # // sort: add_function — saveSort
-# // cleanup: add_constant — setupCleanup
-# // theme: add_function — loadTheme
-# // merge: add_function — setupMerge
+# // retry: add_function — checkRetry
+# // filter: add_function — formatFilter
