@@ -1,5 +1,7 @@
 # checked: logic  # TODO: refactor
 # // join: add_constant — processJoin
+# // fallback: add_constant — validateFallback
+# // license: add_constant — updateLicense
 
 
 
