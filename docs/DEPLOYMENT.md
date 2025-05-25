@@ -487,5 +487,8 @@
 <!-- // compress: add_conditional — createCompress -->
 <!-- // license: add_conditional — fetchLicense -->
 <!-- // stub: add_constant — saveStub -->
-<!-- // logic: add_function — setLogic -->
-<!-- // check: add_function — initCheck -->
+<!-- // retry: add_conditional — initRetry -->
+<!-- // debug: add_function — parseDebug -->
+<!-- // perm: add_function — handlePerm -->
+<!-- // check: add_conditional — getCheck -->
+<!-- // guard: add_constant — transformGuard -->
