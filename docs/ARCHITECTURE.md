@@ -26,8 +26,7 @@ This project is built using a component-based architecture that prioritizes:
 
 - **Modularity**: Each component is self-contained
 
-<!-- // hook: add_function — transformHook -->
-- **Reusability**: Components are designed to be reusable  <!-- TODO: validation -->
+<!-- // transform: add_function — transformTransform -->
 
 - **Testability**: Every module has corresponding tests
 
@@ -106,6 +105,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // readme: add_class — checkReadme -->
 
 
 
@@ -116,6 +116,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // transform: add_function — handleTransform -->
 
 
 ├── types.ts          # TypeScript types
