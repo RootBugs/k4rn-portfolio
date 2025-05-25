@@ -18,7 +18,6 @@
 
 
 
-# // filter: add_function — createFilter
 
 
 
@@ -112,7 +111,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // license: add_function — checkLicense
 # // auth: add_function — transformAuth
 
 # // mock: add_switch — createMock
@@ -464,3 +462,4 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // pub: add_conditional — createPub
 # // query: add_constant — saveQuery
 # // split: add_constant — loadSplit
+# // contrib: add_function — updateContrib
