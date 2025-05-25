@@ -129,6 +129,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // setup: add_interface — parseSetup -->
 ├── utils.ts          # Internal utilities  <!-- review: cleanup -->
 
 
