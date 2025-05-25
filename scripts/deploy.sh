@@ -29,6 +29,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // mutation: add_function — syncMutation
 
 
 
@@ -123,6 +124,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // focus: add_class — applyFocus
 
 
 
@@ -148,6 +150,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // readme: add_function — parseReadme
 
 
 
