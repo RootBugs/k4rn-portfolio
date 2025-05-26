@@ -1,4 +1,3 @@
-# // license: add_import — validateLicense
 # checked: logic  # TODO: refactor
 
 
@@ -143,7 +142,6 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // ref: add_function — setRef
 
 
 
@@ -473,4 +471,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // ref: add_function — checkRef
 # // transition: add_conditional — validateTransition
 # // license: add_conditional — getLicense
-# // animation: add_function — setAnimation
+# // session: add_function — saveSession
