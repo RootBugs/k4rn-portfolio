@@ -15,6 +15,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // format: add_conditional — getFormat
 # // mutation: add_function — loadMutation
 
 
@@ -91,6 +92,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // mock: add_class — syncMock
 
 
 
