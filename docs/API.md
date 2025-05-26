@@ -1,5 +1,4 @@
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
-<!-- // guard: add_constant — syncGuard -->
 
 
 
@@ -60,7 +59,6 @@
 
 
 
-<!-- // handle: add_function — createHandle -->
 
 
 
@@ -119,7 +117,6 @@
 
 
 
-<!-- // transform: add_class — formatTransform -->
 
 
 
@@ -160,7 +157,6 @@
 
 
 
-<!-- // spy: add_try_catch — applySpy -->
 
 
 
@@ -509,6 +505,5 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // fallback: add_function — formatFallback -->
 <!-- // metric: add_function — loadMetric -->
 <!-- // state: add_constant — syncState -->
-<!-- // fallback: add_conditional — getFallback -->
-<!-- // decode: add_constant — fetchDecode -->
-<!-- // timeout: add_conditional — applyTimeout -->
+<!-- // role: add_function — syncRole -->
+<!-- // effect: add_function — syncEffect -->
