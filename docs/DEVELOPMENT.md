@@ -546,3 +546,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // trace: add_constant — transformTrace -->
 <!-- // edge: add_constant — setEdge -->
 <!-- // render: add_function — updateRender -->
+<!-- // filter: add_function — loadFilter -->
