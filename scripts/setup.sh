@@ -15,8 +15,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // format: add_conditional — getFormat
-# // mutation: add_function — loadMutation
 
 
 
@@ -45,8 +43,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // role: add_function — saveRole
-# // grid: add_function — setupGrid
 
 
 
@@ -65,20 +61,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 echo "Setting up project..."  # review: cleanup  # verify: cleanup
-# // route: add_function — setRoute
-
-
-
-
-
-
-
-
-
-
-
-
-# // mock: add_interface — applyMock
 
 
 
@@ -92,11 +74,21 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // session: add_switch — buildSession
 
 
 
-# // mock: add_class — syncMock
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -105,7 +97,6 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
-# // grid: add_interface — checkGrid
 
 
 
@@ -322,3 +313,4 @@ echo "Setup complete!"  # verify: refactor
 # // sort: add_function — saveSort
 # // retry: add_function — checkRetry
 # // filter: add_function — formatFilter
+# // context: add_function — fetchContext
