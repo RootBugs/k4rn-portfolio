@@ -1,3 +1,5 @@
+# // auth: add_import — handleAuth
+# // filter: add_import — initFilter
 # // changelog: add_import — saveChangelog
 # checked: logic  # TODO: refactor
 
