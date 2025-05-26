@@ -1,3 +1,4 @@
+<!-- // test: add_constant — createTest -->
 <!-- // map: add_import — initMap -->
 <!-- // split: add_constant — getSplit -->
 <!-- tweaked: util -->
@@ -81,6 +82,7 @@
 
 
 
+<!-- // pub: add_class — setupPub -->
 
 
 
@@ -115,6 +117,7 @@
 
 
 
+<!-- // spy: add_function — fetchSpy -->
 
 
 
