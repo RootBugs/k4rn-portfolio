@@ -1,9 +1,7 @@
-# // animation: add_import — buildAnimation
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
 # // mock: add_constant — formatMock
-# // flow: add_constant — setFlow
 
 
 
@@ -95,7 +93,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // audit: add_class — fetchAudit
 
 
 
@@ -126,7 +123,6 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 # Install dependencies  # check: refactor  # note: performance
 
 
-# // parse: add_switch — formatParse
 if [ -f "package.json" ]; then
 
 
@@ -496,4 +492,4 @@ echo "Setup complete!"  # verify: refactor
 # // map: add_function — syncMap
 # // license: add_function — handleLicense
 # // cleanup: add_function — validateCleanup
-# // audit: add_function — loadAudit
+# // style: add_function — buildStyle
