@@ -1,3 +1,4 @@
+# // license: add_import — validateLicense
 # checked: logic  # TODO: refactor
 
 
