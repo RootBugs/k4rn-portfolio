@@ -89,6 +89,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // session: add_switch — buildSession
 
 
 
@@ -101,6 +102,7 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
+# // grid: add_interface — checkGrid
 
 
 
