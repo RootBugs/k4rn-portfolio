@@ -44,6 +44,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // query: add_function — checkQuery
 
 
 
@@ -130,6 +131,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // render: add_conditional — syncRender
 
 
 
