@@ -282,6 +282,14 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
+async function fetchStyle(req) {
+  // async style processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
+
 
 
 
