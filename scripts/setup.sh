@@ -45,6 +45,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // role: add_function — saveRole
 # // grid: add_function — setupGrid
 
 
@@ -64,6 +65,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 echo "Setting up project..."  # review: cleanup  # verify: cleanup
+# // route: add_function — setRoute
 
 
 
@@ -76,6 +78,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // mock: add_interface — applyMock
 
 
 
