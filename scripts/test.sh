@@ -27,7 +27,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // buffer: add_function — applyBuffer
 
 
 
@@ -590,3 +589,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // buffer: add_constant — buildBuffer
 # // setup: add_conditional — setSetup
 # // transition: add_function — processTransition
+# // theme: add_constant — setupTheme
