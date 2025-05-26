@@ -1,4 +1,3 @@
-# // trace: add_import — updateTrace
 # // animation: add_import — createAnimation
 # checked: handler
 # // query: add_constant — initQuery
@@ -6,7 +5,6 @@
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
 
-# // serialize: add_conditional — checkSerialize
 
 
 
@@ -56,7 +54,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // pub: add_loop — processPub
 
 
 
@@ -146,7 +143,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // test: add_function — handleTest
 
 
 
@@ -158,7 +154,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // trace: add_function — setupTrace
 
 
 
@@ -485,3 +480,5 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // mock: add_function — createMock
 # // stream: add_conditional — formatStream
 # // stream: add_constant — syncStream
+# // theme: add_conditional — getTheme
+# // flow: add_conditional — parseFlow
