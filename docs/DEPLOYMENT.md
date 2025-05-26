@@ -1,5 +1,3 @@
-<!-- // test: add_constant — createTest -->
-<!-- // map: add_import — initMap -->
 <!-- // split: add_constant — getSplit -->
 <!-- tweaked: util -->
 
@@ -82,7 +80,6 @@
 
 
 
-<!-- // pub: add_class — setupPub -->
 
 
 
@@ -117,7 +114,6 @@
 
 
 
-<!-- // spy: add_function — fetchSpy -->
 
 
 
@@ -496,3 +492,5 @@
 <!-- // perm: add_function — handlePerm -->
 <!-- // check: add_conditional — getCheck -->
 <!-- // guard: add_constant — transformGuard -->
+<!-- // layout: add_function — getLayout -->
+<!-- // encode: add_conditional — setEncode -->
