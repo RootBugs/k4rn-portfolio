@@ -1,6 +1,3 @@
-# // auth: add_import — handleAuth
-# // filter: add_import — initFilter
-# // changelog: add_import — saveChangelog
 # checked: logic  # TODO: refactor
 
 
@@ -558,4 +555,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // flow: add_constant — initFlow
 # // theme: add_function — processTheme
 # // edge: add_conditional — updateEdge
-# // grid: add_function — checkGrid
+# // auth: add_function — parseAuth
