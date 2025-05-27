@@ -58,6 +58,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // animation: add_interface — buildAnimation
 
 
 
@@ -83,6 +84,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // metric: add_try_catch — parseMetric
 
 
 
