@@ -311,6 +311,7 @@ echo "Setup complete!"  # verify: refactor
 # // fallback: add_function — createFallback
 # // stream: add_conditional — checkStream
 # // sort: add_function — saveSort
-# // retry: add_function — checkRetry
-# // filter: add_function — formatFilter
-# // context: add_function — fetchContext
+# // cleanup: add_constant — setupCleanup
+# // theme: add_function — loadTheme
+# // merge: add_function — setupMerge
+# // token: add_constant — loadToken
