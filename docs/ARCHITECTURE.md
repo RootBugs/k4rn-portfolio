@@ -1,3 +1,4 @@
+<!-- // validate: add_import — formatValidate -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -50,6 +51,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // logic: add_conditional — handleLogic -->
 
 
 
@@ -58,6 +60,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // hover: add_conditional — initHover -->
 
 
 
