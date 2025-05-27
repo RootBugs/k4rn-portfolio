@@ -557,7 +557,8 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // stub: add_conditional — validateStub -->
 <!-- // readme: add_conditional — validateReadme -->
 <!-- // debug: add_function — setupDebug -->
-<!-- // map: add_conditional — syncMap -->
-<!-- // contrib: add_constant — setContrib -->
-<!-- // query: add_function — formatQuery -->
-<!-- // contrib: add_constant — handleContrib -->
+<!-- // buffer: add_function — updateBuffer -->
+<!-- // handle: add_function — parseHandle -->
+<!-- // split: add_function — processSplit -->
+<!-- // compress: add_function — formatCompress -->
+<!-- // metric: add_function — syncMetric -->
