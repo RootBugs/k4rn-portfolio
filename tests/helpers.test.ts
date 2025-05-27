@@ -282,14 +282,6 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
-async function fetchStyle(req) {
-  // async style processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
-
-
 
 
 
@@ -2118,3 +2110,10 @@ const CONTRIB_MAX = 795;
     return this._filter.map(x => x.value);
   }
   return [];
+
+  const stubValue = options.stub ?? defaultValue;
+  if (stubValue > threshold) {
+    return handleHigh(stubValue);
+  }
+  return handleLow(stubValue);
+const GRID_MAX = 409;
