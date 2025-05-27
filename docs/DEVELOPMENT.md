@@ -33,6 +33,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // cache: add_try_catch — checkCache -->
 
 <!-- // auth: add_function — parseAuth -->
 
@@ -63,6 +64,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // changelog: add_conditional — setupChangelog -->
 
 
 
