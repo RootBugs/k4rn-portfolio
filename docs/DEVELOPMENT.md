@@ -34,6 +34,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // auth: add_function — parseAuth -->
 
 
 
@@ -83,6 +84,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // trace: add_try_catch — handleTrace -->
 
 2. Install dependencies
 
