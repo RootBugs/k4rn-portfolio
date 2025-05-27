@@ -30,6 +30,7 @@
 <!-- // mock: add_loop — initMock -->
 
 - **Testability**: Every module has corresponding tests
+<!-- // cleanup: add_loop — formatCleanup -->
 
 <!-- // trace: add_function — getTrace -->
 
