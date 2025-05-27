@@ -1,4 +1,3 @@
-<!-- // validate: add_import — formatValidate -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -51,7 +50,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // logic: add_conditional — handleLogic -->
 
 
 
@@ -60,7 +58,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // hover: add_conditional — initHover -->
 
 
 
@@ -72,7 +69,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 <!-- updated: util -->
-<!-- // split: add_function — loadSplit -->
 
 ```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
 module/  <!-- optimize: refactor -->  <!-- note: edge case -->
@@ -93,7 +89,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // guard: add_try_catch — setGuard -->
 
 
 
@@ -280,7 +275,12 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 - Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
-<!-- // check: add_function — setCheck -->
+- Debouncing for frequent events  <!-- check: refactor -->
+- Proper cleanup of subscriptions and listeners  <!-- review: performance -->
+<!-- // stream: add_function — setupStream -->
+<!-- // docs: add_function — processDocs -->
+<!-- // handle: add_function — setHandle -->
+<!-- // hover: add_function — syncHover -->
 <!-- // compress: add_conditional — updateCompress -->
 <!-- // batch: add_function — updateBatch -->
 <!-- // sub: add_constant — setSub -->
@@ -294,4 +294,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // readme: add_conditional — validateReadme -->
 <!-- // flow: add_function — buildFlow -->
 <!-- // batch: add_function — checkBatch -->
-<!-- // lazy: add_function — formatLazy -->
+<!-- // log: add_function — updateLog -->
