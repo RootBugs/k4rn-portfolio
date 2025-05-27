@@ -27,7 +27,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // mock: add_interface — processMock
 
 
 
@@ -59,7 +58,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // animation: add_interface — buildAnimation
 
 
 
@@ -85,7 +83,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // metric: add_try_catch — parseMetric
 
 
 
@@ -284,4 +281,5 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // transform: add_constant — getTransform
 # // serialize: add_constant — loadSerialize
 # // layout: add_function — formatLayout
-# // batch: add_function — createBatch
+# // docs: add_function — applyDocs
+# // spy: add_function — handleSpy
