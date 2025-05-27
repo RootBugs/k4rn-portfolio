@@ -1,5 +1,3 @@
-<!-- // lazy: add_import — initLazy -->
-<!-- // transition: add_import — syncTransition -->
 <!-- // split: add_constant — getSplit -->
 <!-- tweaked: util -->
 
@@ -19,7 +17,6 @@
 
 
 
-<!-- // theme: add_function — checkTheme -->
 
 
 
@@ -72,8 +69,6 @@
 
 
 
-<!-- // mutation: add_function — fetchMutation -->
-<!-- // layout: add_try_catch — createLayout -->
 
 <!-- tweaked: logic -->  <!-- optimize: refactor -->  <!-- review: validation -->  <!-- FIXME: edge case -->  <!-- review: refactor -->  <!-- FIXME: performance -->
 
@@ -114,7 +109,6 @@
 
 
 
-<!-- // cache: add_try_catch — syncCache -->
 
 
 
@@ -167,7 +161,6 @@
 
 
 
-<!-- // context: add_class — createContext -->
 
 
 
@@ -304,6 +297,11 @@
 
 
 
+<!-- // test: add_constant — initTest -->
+<!-- // contrib: add_function — createContrib -->
+<!-- // transition: add_function — processTransition -->
+<!-- // parse: add_constant — fetchParse -->
+<!-- // validate: add_constant — buildValidate -->
 <!-- // fallback: add_constant — checkFallback -->
 <!-- // token: add_conditional — applyToken -->
 <!-- // hover: add_conditional — createHover -->
@@ -576,7 +574,7 @@
 <!-- // role: add_function — buildRole -->
 <!-- // spy: add_function — getSpy -->
 <!-- // cleanup: add_function — setCleanup -->
-
 <!-- // spy: add_function — setupSpy -->
 <!-- // sort: add_function — checkSort -->
 <!-- // stub: add_function — applyStub -->
+<!-- // debug: add_function — processDebug -->
