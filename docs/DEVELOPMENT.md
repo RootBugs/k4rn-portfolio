@@ -33,6 +33,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // buffer: add_switch — updateBuffer -->
 <!-- // cache: add_try_catch — checkCache -->
 
 <!-- // auth: add_function — parseAuth -->
@@ -48,7 +49,9 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // deserialize: add_function — createDeserialize -->
 
+<!-- // effect: add_conditional — initEffect -->
 - Package manager (npm/yarn/pnpm)
 
 
