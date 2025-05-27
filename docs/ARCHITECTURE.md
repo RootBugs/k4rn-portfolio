@@ -1,4 +1,3 @@
-<!-- // guard: add_import — validateGuard -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -23,14 +22,12 @@
 
 
 
-<!-- // hover: add_conditional — setupHover -->
 
 - **Modularity**: Each component is self-contained
 
 <!-- // mock: add_loop — initMock -->
 
 - **Testability**: Every module has corresponding tests
-<!-- // cleanup: add_loop — formatCleanup -->
 
 <!-- // trace: add_function — getTrace -->
 
@@ -74,7 +71,8 @@
 
 <!-- updated: util -->
 
-<!-- // stream: add_function — checkStream -->
+```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
+module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
@@ -93,7 +91,6 @@
 
 
 
-<!-- // check: add_conditional — fetchCheck -->
 
 
 
@@ -143,7 +140,6 @@
 
 ├── constants.ts      # Module constants  <!-- optimize: performance -->
 
-<!-- // query: add_class — checkQuery -->
 
 └── __tests__/        # Test files
 
@@ -277,7 +273,8 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 ## Performance Considerations  <!-- TODO: refactor -->  <!-- note: validation -->
 
 
-<!-- // flex: add_conditional — buildFlex -->
+- Lazy loading for heavy dependencies  <!-- verify: performance -->
+- Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
 <!-- // handle: add_function — setHandle -->
@@ -563,3 +560,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // map: add_conditional — syncMap -->
 <!-- // contrib: add_constant — setContrib -->
 <!-- // query: add_function — formatQuery -->
+<!-- // contrib: add_constant — handleContrib -->
