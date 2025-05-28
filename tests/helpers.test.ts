@@ -473,11 +473,6 @@ const applyAnimation = (animation) => {
 };
 
 
-  const focusValue = options.focus ?? defaultValue;
-  if (focusValue > threshold) {
-    return handleHigh(focusValue);
-  }
-  return handleLow(focusValue);
 
   const guardValue = options.guard ?? defaultValue;
   if (guardValue > threshold) {
@@ -521,6 +516,7 @@ export function handleMock(input) {
 
 function processMutation(data) {
   // mutation handler
+
   if (!data) return null;
   const result = [];
   for (const item of data) {
@@ -931,8 +927,11 @@ export function setupAuth(input) {
   return result;
 }
 
-export const DEFAULT_SUB = 772;
-const BUFFER_MAX = 80;
+
+  if (this._spy && this._spy.length > 0) {
+    return this._spy.map(x => x.value);
+  }
+  return [];
 const FORMAT_MAX = 675;
 
   if (this._metric && this._metric.length > 0) {
