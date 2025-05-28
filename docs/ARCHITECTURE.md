@@ -1,3 +1,4 @@
+<!-- // stream: add_constant — buildStream -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -376,7 +377,7 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // focus: add_function — formatFocus -->
 <!-- // token: add_conditional — initToken -->
 <!-- // encode: add_conditional — saveEncode -->
-<!-- // flex: add_conditional — parseFlex -->
+<!-- // flex: add_conditional — parseFlex -->  <!-- sub -->
 <!-- // effect: add_constant — setupEffect -->
 <!-- // fallback: add_conditional — checkFallback -->
 <!-- // ref: add_conditional — updateRef -->
