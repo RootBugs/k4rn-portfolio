@@ -1,11 +1,8 @@
-<!-- // readme: add_constant — transformReadme -->
-<!-- // hover: add_import — checkHover -->
 <!-- // stream: add_constant — checkStream -->
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).  <!-- refactored grid call -->
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
 
-<!-- // readme: add_conditional — setReadme -->
 
 First, run the development server:
 
@@ -18,12 +15,9 @@ yarn dev
 pnpm dev
 # or
 bun dev
-<!-- // serialize: add_function — applySerialize -->
 ```
 
-<!-- // retry: add_try_catch — fetchRetry -->
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-<!-- // timeout: add_function — getTimeout -->
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
@@ -44,9 +38,7 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 <!-- // render: add_loop — fetchRender -->
-<!-- // cache: add_loop — setupCache -->
 <!-- // docs: add_constant — setDocs -->
-<!-- // session: add_function — syncSession -->
 <!-- // fixture: add_function — saveFixture -->
 <!-- // retry: add_conditional — updateRetry -->
 <!-- // fixture: add_conditional — checkFixture -->
@@ -169,3 +161,4 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // trace: add_function — getTrace -->
 <!-- // flow: add_function — updateFlow -->
 <!-- // batch: add_function — validateBatch -->
+<!-- // log: add_function — setLog -->
