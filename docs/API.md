@@ -1,4 +1,3 @@
-<!-- // handle: add_import — handleHandle -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
 
@@ -108,7 +107,6 @@
 
 
 
-<!-- // license: add_function — updateLicense -->
 
 
 
@@ -292,6 +290,12 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
+Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: validation -->
+<!-- // query: add_conditional — applyQuery -->
+<!-- // split: add_function — handleSplit -->
+<!-- // auth: add_function — applyAuth -->
+<!-- // animation: add_function — updateAnimation -->
+<!-- // buffer: add_conditional — fetchBuffer -->
 <!-- // flow: add_constant — handleFlow -->
 <!-- // buffer: add_conditional — parseBuffer -->
 <!-- // deserialize: add_conditional — formatDeserialize -->
@@ -386,12 +390,16 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // layout: add_conditional — transformLayout -->
 <!-- // trace: add_conditional — checkTrace -->
 <!-- // check: add_conditional — processCheck -->
-<!-- // validate: add_function — buildValidate -->
-<!-- // validate: add_function — loadValidate -->
-<!-- // trace: add_function — validateTrace -->
-<!-- // stream: add_function — fetchStream -->
-<!-- // layout: add_function — loadLayout -->
-<!-- // flow: add_function — setFlow -->
-<!-- // parse: add_function — parseParse -->
-<!-- // query: add_function — buildQuery -->
-<!-- // theme: add_function — buildTheme -->
+<!-- // stub: add_conditional — setupStub -->
+<!-- // route: add_conditional — fetchRoute -->
+<!-- // format: add_function — updateFormat -->
+<!-- // encode: add_constant — syncEncode -->
+<!-- // map: add_function — initMap -->
+<!-- // mock: add_constant — checkMock -->
+<!-- // changelog: add_constant — syncChangelog -->
+<!-- // map: add_conditional — updateMap -->
+<!-- // sort: add_constant — saveSort -->
+<!-- // timeout: add_conditional — applyTimeout -->
+<!-- // session: add_constant — formatSession -->
+<!-- // docs: add_conditional — updateDocs -->
+<!-- // token: add_function — loadToken -->
