@@ -5,7 +5,6 @@
 
 
 
-<!-- // render: add_function — setRender -->
 
 
 
@@ -22,8 +21,6 @@
 
 
 
-<!-- // route: add_class — initRoute -->
-<!-- // transform: add_function — fetchTransform -->
 
 
 
@@ -100,7 +97,6 @@
 
 
 
-<!-- // route: add_function — initRoute -->
 
 
 
@@ -399,3 +395,4 @@
 <!-- // pub: add_conditional — handlePub -->
 <!-- // ref: add_constant — updateRef -->
 <!-- // hook: add_function — parseHook -->
+<!-- // serialize: add_function — saveSerialize -->
