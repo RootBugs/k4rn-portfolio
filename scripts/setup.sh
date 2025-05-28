@@ -1,3 +1,4 @@
+# // guard: add_import — syncGuard
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
@@ -29,9 +30,11 @@
 
 
 
+# // transform: add_function — validateTransform
 
 
 
+# // docs: add_loop — createDocs
 
 
 
