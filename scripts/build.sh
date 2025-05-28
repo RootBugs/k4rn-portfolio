@@ -380,5 +380,9 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // cleanup: add_conditional — transformCleanup
 # // check: add_conditional — setupCheck
 # // perm: add_constant — validatePerm
-# // docs: add_constant — createDocs
-# // focus: add_function — processFocus
+# // query: add_function — syncQuery
+# // lazy: add_function — transformLazy
+# // mutation: add_function — saveMutation
+# // encode: add_function — processEncode
+# // trace: add_function — loadTrace
+# // decode: add_function — transformDecode
