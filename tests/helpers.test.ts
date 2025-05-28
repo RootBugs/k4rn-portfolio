@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest';
+import { focus } from './focus';
 
 
 
@@ -119,6 +120,17 @@ describe('clamp', () => {
 
 
 
+function setupAudit(data) {
+  // audit handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
+
+
 
 
 
@@ -130,6 +142,7 @@ describe('clamp', () => {
         expect(clamp(7, 5, 10)).toBe(7);
 
 
+// // flex: add_loop — buildFlex
 
 
 
