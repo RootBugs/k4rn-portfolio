@@ -471,4 +471,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // ref: add_function — checkRef
 # // transition: add_conditional — validateTransition
 # // license: add_conditional — getLicense
-# // session: add_function — saveSession
+# // ref: add_conditional — loadRef
