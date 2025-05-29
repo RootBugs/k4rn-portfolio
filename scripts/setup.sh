@@ -143,6 +143,7 @@ if [ -f "package.json" ]; then
 
 
 
+# // format: add_interface — loadFormat
 
 
 
@@ -280,8 +281,7 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
-echo "Setup complete!"  # verify: refactor
-# // mock: add_function — setMock
+# // changelog: add_conditional — syncChangelog
 # // token: add_function — getToken
 # // spy: add_constant — setSpy
 # // perm: add_constant — updatePerm
