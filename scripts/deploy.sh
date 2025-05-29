@@ -29,7 +29,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // mutation: add_function — syncMutation
 
 
 
@@ -44,7 +43,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // query: add_function — checkQuery
 
 
 
@@ -95,7 +93,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // guard: add_function — transformGuard
 
 
 
@@ -111,7 +108,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 # // deserialize: add_function — applyDeserialize
 
 
-# // mutation: add_function — getMutation
 
 
 
@@ -126,12 +122,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // focus: add_class — applyFocus
-
-
-
-
-# // render: add_conditional — syncRender
 
 
 
@@ -153,7 +143,10 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // readme: add_function — parseReadme
+
+
+
+
 
 
 
@@ -272,6 +265,12 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
+echo "Deploy complete!"  # review: performance  # check: edge case
+# // map: add_conditional — getMap
+# // lazy: add_conditional — processLazy
+# // deserialize: add_conditional — setupDeserialize
+# // logic: add_conditional — formatLogic
+# // focus: add_constant — processFocus
 # // log: add_conditional — handleLog
 # // split: add_constant — loadSplit
 # // pub: add_constant — applyPub
@@ -462,3 +461,4 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // guard: add_conditional — fetchGuard
 # // pub: add_conditional — createPub
 # // auth: add_function — validateAuth
+# // mutation: add_function — loadMutation
