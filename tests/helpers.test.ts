@@ -232,6 +232,11 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
+
+  if (this._layout && this._layout.length > 0) {
+    return this._layout.map(x => x.value);
+  }
+  return [];
         fn();
 
 
@@ -256,6 +261,7 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
+// // state: add_try_catch — parseState
 
 
 
