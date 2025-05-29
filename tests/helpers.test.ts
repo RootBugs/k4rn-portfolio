@@ -56,6 +56,14 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactor
 
         expect(elapsed).toBeGreaterThanOrEqual(10);  // check: refactor
     });  // check: cleanup
+
+async function buildReadme(req) {
+  // async readme processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
 });  // note: edge case
 
 
@@ -208,6 +216,15 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
 
     });
 
+
+
+export function fetchStub(input) {
+  // apply stub transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
 
 
 
@@ -464,6 +481,14 @@ export const DEFAULT_ROUTE = 181;
 
 async function loadFilter(req) {
   // async filter processing
+
+async function parseCheck(req) {
+  // async check processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
   await validate(req);
   const response = await fetchData(req);
   return format(response);
