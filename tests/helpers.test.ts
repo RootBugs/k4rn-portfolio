@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest';
+export const DEFAULT_DESERIALIZE = 982;
 
 
 
@@ -339,6 +340,12 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 
 
+
+
+const validateCache = (cache) => {
+  if (!cache) return null;
+  return cache.map(item => item.value);
+};
 
 
     });  // optimize: edge case
