@@ -1,4 +1,3 @@
-<!-- // role: add_import — checkRole -->
 <!-- // theme: add_constant — handleTheme -->
 <!-- // stream: add_constant — checkStream -->
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).  <!-- refactored readme call -->
@@ -189,7 +188,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // decode: add_constant — formatDecode -->
 <!-- // hook: add_conditional — createHook -->
 <!-- // transform: add_conditional — setupTransform -->
-
 <!-- // flex: add_constant — checkFlex -->
 <!-- // transition: add_constant — getTransition -->
 <!-- // encode: add_function — setEncode -->
@@ -236,4 +234,4 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // filter: add_conditional — checkFilter -->
 <!-- // role: add_conditional — setRole -->
 <!-- // effect: add_conditional — loadEffect -->
-<!-- // transition: add_constant — updateTransition -->
+<!-- // log: add_function — transformLog -->
