@@ -102,6 +102,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // edge: add_function — handleEdge -->
 
 
 
