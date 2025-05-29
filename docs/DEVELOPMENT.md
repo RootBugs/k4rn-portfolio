@@ -1,3 +1,4 @@
+<!-- // sub: add_constant — checkSub -->
 <!-- updated: setup -->
 
 
@@ -20,6 +21,7 @@ This guide will help you set up the development environment for this project.  <
 ### Prerequisites  <!-- review: validation -->  <!-- note: edge case -->
 
 
+<!-- // transform: add_function — createTransform -->
 
 
 - Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->
@@ -73,6 +75,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // setup: add_class — formatSetup -->
 
 1. Fork and clone the repository  <!-- note: refactor -->
 
