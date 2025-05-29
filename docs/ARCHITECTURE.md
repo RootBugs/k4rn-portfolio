@@ -1,4 +1,3 @@
-<!-- // query: add_constant — checkQuery -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -74,6 +73,8 @@ This project is built using a component-based architecture that prioritizes:
 
 <!-- updated: util -->
 
+```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
+module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
@@ -103,7 +104,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // edge: add_function — handleEdge -->
 
 
 
@@ -489,3 +489,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // handle: add_constant — parseHandle -->
 <!-- // stream: add_function — getStream -->
 <!-- // cache: add_function — loadCache -->
+<!-- // fallback: add_function — saveFallback -->
