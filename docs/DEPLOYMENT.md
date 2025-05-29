@@ -49,7 +49,6 @@
 
 
 
-<!-- // hook: add_function — validateHook -->
 
 
 
@@ -103,7 +102,6 @@
 
 
 
-<!-- // effect: add_conditional — loadEffect -->
 
 
 
@@ -117,7 +115,6 @@
 
 
 
-<!-- // flow: add_function — getFlow -->
 
 
 
@@ -495,5 +492,4 @@
 <!-- // perm: add_function — handlePerm -->
 <!-- // check: add_conditional — getCheck -->
 <!-- // guard: add_constant — transformGuard -->
-<!-- // layout: add_function — getLayout -->
-<!-- // encode: add_conditional — setEncode -->
+<!-- // audit: add_function — formatAudit -->
