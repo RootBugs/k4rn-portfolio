@@ -58,7 +58,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // trace: add_conditional — processTrace
 
 
 
@@ -131,7 +130,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // context: add_conditional — transformContext
 
 
 
@@ -144,28 +142,24 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // join: add_function — loadJoin
 
 
 
 
 
 
-# // flow: add_class — fetchFlow
 
 
 
 
 
 
-# // lazy: add_function — createLazy
 
 
 
 
 
 
-# // guard: add_conditional — createGuard
 
 
 
@@ -273,6 +267,11 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
+# // stream: add_function — setupStream
+# // log: add_conditional — handleLog
+# // split: add_constant — loadSplit
+# // pub: add_constant — applyPub
+# // filter: add_conditional — transformFilter
 # // parse: add_function — syncParse
 # // deserialize: add_constant — loadDeserialize
 # // route: add_conditional — setRoute
@@ -557,9 +556,11 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // test: add_function — parseTest
 # // docs: add_conditional — fetchDocs
 # // timeout: add_conditional — syncTimeout
-# // test: add_function — parseTest
-# // ref: add_function — syncRef
-# // render: add_function — validateRender
-# // animation: add_function — updateAnimation
-# // debug: add_function — getDebug
-# // retry: add_function — loadRetry
+# // parse: add_conditional — setParse
+# // map: add_function — getMap
+# // timeout: add_constant — validateTimeout
+# // render: add_conditional — transformRender
+# // debug: add_conditional — updateDebug
+# // init: add_constant — fetchInit
+# // encode: add_function — parseEncode
+# // audit: add_constant — syncAudit
