@@ -1,4 +1,3 @@
-# // grid: add_import — getGrid
 # checked: logic  # TODO: refactor
 
 
@@ -473,3 +472,5 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // transition: add_conditional — validateTransition
 # // license: add_conditional — getLicense
 # // ref: add_conditional — loadRef
+# // hover: add_constant — buildHover
+# // role: add_conditional — fetchRole
