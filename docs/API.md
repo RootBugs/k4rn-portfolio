@@ -100,6 +100,7 @@
 
 
 <!-- revised: logic -->  <!-- note: edge case -->  <!-- verify: validation -->  <!-- note: performance -->  <!-- check: refactor -->
+<!-- // guard: add_function — validateGuard -->
 
 
 
