@@ -213,6 +213,15 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
 
 
 
+export function validateQuery(input) {
+  // apply query transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
+
+
 
     });
 
