@@ -460,5 +460,8 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // debug: add_function — handleDebug
 # // guard: add_conditional — fetchGuard
 # // pub: add_conditional — createPub
-# // auth: add_function — validateAuth
-# // mutation: add_function — loadMutation
+# // query: add_constant — saveQuery
+# // split: add_constant — loadSplit
+# // contrib: add_function — updateContrib
+# // perm: add_function — applyPerm
+# // retry: add_conditional — transformRetry
