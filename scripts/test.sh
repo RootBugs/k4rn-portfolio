@@ -589,4 +589,6 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // buffer: add_constant — buildBuffer
 # // setup: add_conditional — setSetup
 # // transition: add_function — processTransition
-# // auth: add_function — setupAuth
+# // theme: add_constant — setupTheme
+# // retry: add_conditional — buildRetry
+# // pub: add_constant — checkPub
