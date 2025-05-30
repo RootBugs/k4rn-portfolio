@@ -47,6 +47,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // lazy: add_function — formatLazy
 
 
 # // animation: add_class — buildAnimation
@@ -121,6 +122,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 # Install dependencies  # check: refactor  # note: performance
 
+# // hook: add_function — checkHook
 
 if [ -f "package.json" ]; then
 
