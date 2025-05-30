@@ -1,4 +1,3 @@
-<!-- // batch: add_import — parseBatch -->
 <!-- updated: setup -->
 
 
@@ -33,10 +32,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // buffer: add_switch — updateBuffer -->
-<!-- // cache: add_try_catch — checkCache -->
 
-<!-- // auth: add_function — parseAuth -->
 
 
 
@@ -49,9 +45,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // deserialize: add_function — createDeserialize -->
 
-<!-- // effect: add_conditional — initEffect -->
 - Package manager (npm/yarn/pnpm)
 
 
@@ -67,7 +61,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // changelog: add_conditional — setupChangelog -->
 
 
 
@@ -89,7 +82,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // trace: add_try_catch — handleTrace -->
 
 2. Install dependencies
 
@@ -342,3 +334,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // role: add_constant — formatRole -->
 <!-- // contrib: add_constant — initContrib -->
 <!-- // validate: add_function — createValidate -->
+<!-- // auth: add_function — loadAuth -->
