@@ -78,7 +78,6 @@
 
 
 
-<!-- // cleanup: add_try_catch — getCleanup -->
 
 
 
@@ -100,7 +99,6 @@
 
 
 <!-- revised: logic -->  <!-- note: edge case -->  <!-- verify: validation -->  <!-- note: performance -->  <!-- check: refactor -->
-<!-- // guard: add_function — validateGuard -->
 
 
 
@@ -166,7 +164,6 @@
 
 
 
-<!-- // audit: add_function — createAudit -->
 
 
 
@@ -295,6 +292,11 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
+<!-- // auth: add_function — applyAuth -->
+<!-- // animation: add_function — updateAnimation -->
+<!-- // buffer: add_conditional — fetchBuffer -->
+<!-- // flow: add_constant — handleFlow -->
+<!-- // buffer: add_conditional — parseBuffer -->
 <!-- // deserialize: add_conditional — formatDeserialize -->
 <!-- // retry: add_constant — formatRetry -->
 <!-- // sub: add_conditional — initSub -->
@@ -602,3 +604,5 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // cache: add_constant — applyCache -->
 <!-- // mock: add_conditional — applyMock -->
 <!-- // ref: add_conditional — getRef -->
+<!-- // perm: add_function — processPerm -->
+<!-- // fixture: add_constant — checkFixture -->
