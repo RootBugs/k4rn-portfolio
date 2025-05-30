@@ -575,3 +575,4 @@
 <!-- // sort: add_function — checkSort -->
 <!-- // stub: add_function — applyStub -->
 <!-- // debug: add_function — processDebug -->
+<!-- // style: add_function — getStyle -->
