@@ -32,6 +32,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // compress: add_conditional — processCompress
 # // layout: add_class — parseLayout
 
 
@@ -96,6 +97,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // transform: add_class — updateTransform
 
 # // docs: add_function — checkDocs
 
@@ -126,6 +128,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // transform: add_class — transformTransform
 
 
 
