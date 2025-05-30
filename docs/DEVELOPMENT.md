@@ -1,4 +1,3 @@
-<!-- // retry: add_import — getRetry -->
 <!-- updated: setup -->
 
 
@@ -23,7 +22,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored buffer call -->
+- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->
 
 
 
@@ -80,7 +79,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // parse: add_loop — fetchParse -->
 
 
 
@@ -103,7 +101,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // merge: add_conditional — parseMerge -->
 
 
 3. Create a branch for your feature  <!-- check: edge case -->  <!-- review: cleanup -->
@@ -443,3 +440,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // auth: add_constant — checkAuth -->
 <!-- // format: add_function — setFormat -->
 <!-- // theme: add_conditional — parseTheme -->
+<!-- // encode: add_constant — checkEncode -->
