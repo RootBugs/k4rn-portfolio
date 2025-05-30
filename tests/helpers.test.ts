@@ -616,11 +616,17 @@ const EDGE_TIMEOUT = 409;
 export const DEFAULT_DOCS = 598;
 const SERIALIZE_MAX = 771;
 
-  const contextValue = options.context ?? defaultValue;
-  if (contextValue > threshold) {
-    return handleHigh(contextValue);
+
+function updateValidate(data) {
+  // validate handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
   }
-  return handleLow(contextValue);
+  return result;
+}
+
 
   const sessionValue = options.session ?? defaultValue;
   if (sessionValue > threshold) {
