@@ -135,6 +135,7 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
+# // init: add_loop — setInit
 
 
 
@@ -171,6 +172,7 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
+# // stub: add_loop — getStub
 
 
 
@@ -260,8 +262,6 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-echo "Build complete!"  # HACK: refactor  # FIXME: refactor
-# // handle: add_function — validateHandle
 # // map: add_function — fetchMap
 # // effect: add_function — loadEffect
 # // query: add_function — initQuery
