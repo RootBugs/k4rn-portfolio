@@ -53,6 +53,7 @@ This guide will help you set up the development environment for this project.  <
 - Package manager (npm/yarn/pnpm)
 
 
+<!-- // token: add_class — processToken -->
 
 
 
@@ -124,6 +125,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // buffer: add_class — handleBuffer -->
 
 
 
@@ -156,6 +158,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 - Follow the existing code conventions  <!-- review: refactor -->
+<!-- // context: add_function — handleContext -->
 
 
 
