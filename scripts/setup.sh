@@ -1,3 +1,4 @@
+# // license: add_import — checkLicense
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
@@ -51,6 +52,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 # // animation: add_class — buildAnimation
 
+# // retry: add_switch — updateRetry
 
 
 
