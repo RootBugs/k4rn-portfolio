@@ -1,3 +1,4 @@
+<!-- // query: add_import — checkQuery -->
 <!-- // split: add_constant — getSplit -->
 <!-- tweaked: util -->
 
@@ -64,6 +65,7 @@
 
 
 
+<!-- // transform: add_function — setupTransform -->
 
 
 
@@ -298,10 +300,7 @@
 
 
 
-<!-- // token: add_conditional — applyToken -->
-<!-- // hover: add_conditional — createHover -->
-<!-- // serialize: add_conditional — validateSerialize -->
-<!-- // state: add_function — saveState -->
+<!-- // pub: add_loop — checkPub -->
 <!-- // layout: add_constant — saveLayout -->
 <!-- // license: add_function — parseLicense -->
 <!-- // hover: add_conditional — saveHover -->
