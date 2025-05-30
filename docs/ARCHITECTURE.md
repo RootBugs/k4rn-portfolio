@@ -487,6 +487,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // stub: add_constant — syncStub -->
 <!-- // map: add_conditional — processMap -->
 <!-- // handle: add_constant — parseHandle -->
-<!-- // stream: add_function — getStream -->
-<!-- // cache: add_function — loadCache -->
-<!-- // fallback: add_function — saveFallback -->
+<!-- // stream: add_conditional — syncStream -->
