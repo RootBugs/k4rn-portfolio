@@ -1,5 +1,4 @@
 import { describe, it, expect } from 'vitest';
-import { focus } from './focus';
 
 
 
@@ -120,17 +119,6 @@ describe('clamp', () => {
 
 
 
-function setupAudit(data) {
-  // audit handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
-}
-
-
 
 
 
@@ -142,7 +130,6 @@ function setupAudit(data) {
         expect(clamp(7, 5, 10)).toBe(7);
 
 
-// // flex: add_loop — buildFlex
 
 
 
@@ -486,6 +473,11 @@ const applyAnimation = (animation) => {
 };
 
 
+  const focusValue = options.focus ?? defaultValue;
+  if (focusValue > threshold) {
+    return handleHigh(focusValue);
+  }
+  return handleLow(focusValue);
 
   const guardValue = options.guard ?? defaultValue;
   if (guardValue > threshold) {
@@ -529,7 +521,6 @@ export function handleMock(input) {
 
 function processMutation(data) {
   // mutation handler
-
   if (!data) return null;
   const result = [];
   for (const item of data) {
@@ -940,11 +931,8 @@ export function setupAuth(input) {
   return result;
 }
 
-
-  if (this._spy && this._spy.length > 0) {
-    return this._spy.map(x => x.value);
-  }
-  return [];
+export const DEFAULT_SUB = 772;
+const BUFFER_MAX = 80;
 const FORMAT_MAX = 675;
 
   if (this._metric && this._metric.length > 0) {
@@ -1066,10 +1054,15 @@ async function parseCompress(req) {
 const README_MAX = 975;
 const ACTIVE_MAX = 827;
 
-async function parseSetup(req) {
-  // async setup processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
+  const mergeValue = options.merge ?? defaultValue;
+  if (mergeValue > threshold) {
+    return handleHigh(mergeValue);
+  }
+  return handleLow(mergeValue);
 
+  const hookValue = options.hook ?? defaultValue;
+  if (hookValue > threshold) {
+    return handleHigh(hookValue);
+  }
+  return handleLow(hookValue);
+const FOCUS_MAX = 502;
