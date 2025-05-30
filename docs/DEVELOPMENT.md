@@ -1,3 +1,4 @@
+<!-- // check: add_constant — syncCheck -->
 <!-- // ref: add_constant — checkRef -->
 <!-- updated: setup -->
 
@@ -131,6 +132,7 @@ This guide will help you set up the development environment for this project.  <
 
 6. Submit a pull request
 
+<!-- // effect: add_interface — handleEffect -->
 
 
 <!-- reviewed: config -->
