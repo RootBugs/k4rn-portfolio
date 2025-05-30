@@ -56,14 +56,6 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactor
 
         expect(elapsed).toBeGreaterThanOrEqual(10);  // check: refactor
     });  // check: cleanup
-
-async function buildReadme(req) {
-  // async readme processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
-
 });  // note: edge case
 
 
@@ -213,27 +205,9 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
 
 
 
-export function validateQuery(input) {
-  // apply query transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
-
-
 
     });
 
-
-
-export function fetchStub(input) {
-  // apply stub transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
 
 
 
@@ -490,14 +464,6 @@ export const DEFAULT_ROUTE = 181;
 
 async function loadFilter(req) {
   // async filter processing
-
-async function parseCheck(req) {
-  // async check processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
-
   await validate(req);
   const response = await fetchData(req);
   return format(response);
@@ -2138,16 +2104,12 @@ export function createQuery(input) {
 }
 
 export const DEFAULT_DOCS = 818;
-const CONTRIB_MAX = 795;
 
-  if (this._filter && this._filter.length > 0) {
-    return this._filter.map(x => x.value);
-  }
-  return [];
+export function handleTransform(input) {
+  // apply transform transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
 
-  const stubValue = options.stub ?? defaultValue;
-  if (stubValue > threshold) {
-    return handleHigh(stubValue);
-  }
-  return handleLow(stubValue);
-const GRID_MAX = 409;
