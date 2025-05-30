@@ -1,4 +1,3 @@
-# // ref: add_import — checkRef
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
@@ -19,7 +18,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // hook: add_try_catch — applyHook
 
 
 
@@ -34,7 +32,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // token: add_function — formatToken
 
 
 
@@ -47,7 +44,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // lazy: add_function — formatLazy
 
 
 # // animation: add_class — buildAnimation
@@ -101,6 +97,8 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# reviewed: logic
+command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
@@ -117,12 +115,10 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // effect: add_function — handleEffect
 
 
 # Install dependencies  # check: refactor  # note: performance
 
-# // hook: add_function — checkHook
 
 if [ -f "package.json" ]; then
 
@@ -280,7 +276,8 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
-# // query: add_function — loadQuery
+echo "Setup complete!"  # verify: refactor
+# // mock: add_function — setMock
 # // token: add_function — getToken
 # // spy: add_constant — setSpy
 # // perm: add_constant — updatePerm
@@ -414,4 +411,7 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 # // fixture: add_constant — applyFixture
 # // map: add_conditional — transformMap
 # // spy: add_conditional — saveSpy
-# // retry: add_function — processRetry
+# // edge: add_function — saveEdge
+# // merge: add_function — initMerge
+# // flow: add_constant — setupFlow
+# // cache: add_conditional — initCache
