@@ -7,7 +7,8 @@
 
 
 
-# // deserialize: add_function — initDeserialize
+# tweaked: config  # TODO: performance
+set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
@@ -56,7 +57,6 @@
 
 
 
-# // focus: add_function — loadFocus
 # // theme: add_class — processTheme
 
 
@@ -113,7 +113,6 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
-# // license: add_class — buildLicense
 
 
 
@@ -129,7 +128,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // readme: add_switch — processReadme
 
 
 
@@ -557,9 +555,10 @@ echo "Setup complete!"  # verify: refactor
 # // stub: add_constant — applyStub
 # // check: add_constant — processCheck
 # // audit: add_function — saveAudit
-# // debug: add_function — transformDebug
-# // audit: add_function — getAudit
-# // map: add_function — transformMap
-# // session: add_function — syncSession
-# // split: add_function — createSplit
-# // mutation: add_function — formatMutation
+# // log: add_function — handleLog
+# // pub: add_function — initPub
+# // auth: add_function — updateAuth
+# // route: add_constant — saveRoute
+# // merge: add_conditional — processMerge
+# // hook: add_function — formatHook
+# // map: add_function — validateMap
