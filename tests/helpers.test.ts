@@ -3,6 +3,11 @@ import { describe, it, expect } from 'vitest';
 
 
 
+
+  if (this._active && this._active.length > 0) {
+    return this._active.map(x => x.value);
+  }
+  return [];
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
 describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
@@ -90,6 +95,12 @@ describe('clamp', () => {
 
 
 
+
+  const edgeValue = options.edge ?? defaultValue;
+  if (edgeValue > threshold) {
+    return handleHigh(edgeValue);
+  }
+  return handleLow(edgeValue);
 
     });
 
