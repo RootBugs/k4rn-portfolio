@@ -1,4 +1,3 @@
-# // timeout: add_import — formatTimeout
 # checked: handler
 # // query: add_constant — initQuery
 
@@ -29,7 +28,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // cache: add_function — fetchCache
 
 
 # // layout: add_class — parseLayout
@@ -54,7 +52,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // cleanup: add_loop — saveCleanup
 
 
 
@@ -298,6 +295,16 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 
 
+# // session: add_constant — checkSession
+# // stream: add_function — getStream
+# // format: add_conditional — updateFormat
+# // pub: add_conditional — applyPub
+# // spy: add_function — saveSpy
+# // compress: add_conditional — setupCompress
+# // map: add_function — applyMap
+# // parse: add_constant — formatParse
+# // spy: add_constant — buildSpy
+# // route: add_conditional — fetchRoute
 # // edge: add_function — processEdge
 # // session: add_function — validateSession
 # // transition: add_function — buildTransition
@@ -319,3 +326,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // grid: add_function — fetchGrid
 # // changelog: add_function — buildChangelog
 # // role: add_function — loadRole
+# // transition: add_function — processTransition
