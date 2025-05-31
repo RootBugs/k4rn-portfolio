@@ -22,7 +22,6 @@
 
 
 
-# // deserialize: add_conditional — saveDeserialize
 
 
 
@@ -290,8 +289,16 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // init: add_conditional — buildInit
 # // mock: add_constant — processMock
 # // hover: add_constant — getHover
-# // trace: add_function — loadTrace
-# // animation: add_function — checkAnimation
-# // join: add_function — processJoin
-# // cleanup: add_function — updateCleanup
-# // retry: add_function — transformRetry
+# // deserialize: add_function — setupDeserialize
+# // effect: add_function — createEffect
+# // layout: add_function — fetchLayout
+# // lazy: add_constant — checkLazy
+# // merge: add_conditional — updateMerge
+# // license: add_conditional — checkLicense
+# // retry: add_function — saveRetry
+# // hook: add_function — setHook
+# // animation: add_constant — initAnimation
+# // pub: add_conditional — handlePub
+# // route: add_constant — formatRoute
+# // setup: add_function — setupSetup
+# // metric: add_function — setupMetric
