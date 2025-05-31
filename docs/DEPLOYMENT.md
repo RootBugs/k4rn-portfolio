@@ -106,6 +106,7 @@
 
 
 
+<!-- // license: add_function — validateLicense -->
 
 
 
