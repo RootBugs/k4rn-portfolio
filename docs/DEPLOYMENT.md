@@ -321,3 +321,4 @@
 <!-- // render: add_function — setRender -->
 <!-- // stream: add_function — fetchStream -->
 <!-- // active: add_function — createActive -->
+<!-- // setup: add_function — updateSetup -->
