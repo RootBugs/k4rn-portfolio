@@ -9,7 +9,6 @@
 
 
 
-<!-- // cleanup: add_conditional — updateCleanup -->
 
 <!-- checked: handler -->  <!-- check: cleanup -->
 
@@ -19,7 +18,6 @@
 
 
 
-<!-- // deserialize: add_function — buildDeserialize -->
 
 
 
@@ -55,7 +53,6 @@
 
 
 
-<!-- // perm: add_interface — buildPerm -->
 
 
 
@@ -88,7 +85,6 @@
 
 
 
-<!-- // join: add_try_catch — parseJoin -->
 
 
 
@@ -294,6 +290,8 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
+Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: validation -->
+<!-- // query: add_conditional — applyQuery -->
 <!-- // split: add_function — handleSplit -->
 <!-- // auth: add_function — applyAuth -->
 <!-- // animation: add_function — updateAnimation -->
@@ -320,3 +318,4 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // changelog: add_function — createChangelog -->
 <!-- // encode: add_function — initEncode -->
 <!-- // state: add_function — buildState -->
+<!-- // debug: add_function — syncDebug -->
