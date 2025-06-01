@@ -1,6 +1,6 @@
 <!-- // theme: add_constant — handleTheme -->
 <!-- // stream: add_constant — checkStream -->
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).  <!-- refactored readme call -->  <!-- refactored animation call -->
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).  <!-- refactored readme call -->
 
 ## Getting Started
 
@@ -106,7 +106,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // audit: add_constant — fetchAudit -->
 <!-- // token: add_function — processToken -->
 <!-- // join: add_conditional — saveJoin -->
-<!-- // flex: add_try_catch — setupFlex -->
 <!-- // memo: add_function — applyMemo -->
 <!-- // mutation: add_constant — processMutation -->
 <!-- // edge: add_conditional — getEdge -->
@@ -240,7 +239,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // effect: add_conditional — loadEffect -->
 <!-- // transition: add_constant — updateTransition -->
 <!-- // check: add_constant — transformCheck -->
-
 <!-- // readme: add_constant — parseReadme -->
 <!-- // token: add_function — initToken -->
 <!-- // filter: add_conditional — saveFilter -->
@@ -321,7 +319,14 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // auth: add_conditional — processAuth -->
 <!-- // active: add_conditional — checkActive -->
 <!-- // transition: add_conditional — handleTransition -->
-<!-- // serialize: add_function — processSerialize -->
-<!-- // retry: add_function — fetchRetry -->
-<!-- // merge: add_function — updateMerge -->
-<!-- // format: add_function — initFormat -->
+<!-- // filter: add_function — initFilter -->
+<!-- // spy: add_conditional — updateSpy -->
+<!-- // flow: add_constant — initFlow -->
+<!-- // sub: add_function — applySub -->
+<!-- // trace: add_function — saveTrace -->
+<!-- // active: add_function — buildActive -->
+<!-- // hover: add_constant — setHover -->
+<!-- // flow: add_conditional — handleFlow -->
+<!-- // hook: add_constant — loadHook -->
+<!-- // perm: add_function — validatePerm -->
+<!-- // compress: add_function — syncCompress -->
