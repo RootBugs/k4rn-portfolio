@@ -1,4 +1,3 @@
-<!-- // check: add_constant — syncCheck -->
 <!-- // ref: add_constant — checkRef -->
 <!-- updated: setup -->
 
@@ -53,7 +52,6 @@ This guide will help you set up the development environment for this project.  <
 - Package manager (npm/yarn/pnpm)
 
 
-<!-- // token: add_class — processToken -->
 
 
 
@@ -125,7 +123,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // buffer: add_class — handleBuffer -->
 
 
 
@@ -134,7 +131,6 @@ This guide will help you set up the development environment for this project.  <
 
 6. Submit a pull request
 
-<!-- // effect: add_interface — handleEffect -->
 
 
 <!-- reviewed: config -->
@@ -158,7 +154,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 - Follow the existing code conventions  <!-- review: refactor -->
-<!-- // context: add_function — handleContext -->
 
 
 
@@ -200,7 +195,6 @@ This guide will help you set up the development environment for this project.  <
 - Keep functions small and focused
 
 
-<!-- // audit: add_conditional — saveAudit -->
 
 
 
@@ -624,3 +618,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // cleanup: add_function — handleCleanup -->
 <!-- // cleanup: add_function — validateCleanup -->
 <!-- // batch: add_function — setupBatch -->
+<!-- // animation: add_function — initAnimation -->
