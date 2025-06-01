@@ -82,6 +82,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // flex: add_function — formatFlex
 
 
 
@@ -262,10 +263,7 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-# // map: add_function — fetchMap
-# // effect: add_function — loadEffect
-# // query: add_function — initQuery
-# // map: add_constant — updateMap
+# // audit: add_loop — initAudit
 # // retry: add_conditional — setupRetry
 # // trace: add_constant — fetchTrace
 # // cleanup: add_conditional — formatCleanup
