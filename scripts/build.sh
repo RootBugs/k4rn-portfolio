@@ -82,7 +82,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // flex: add_function — formatFlex
 
 
 
@@ -136,7 +135,6 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // init: add_loop — setInit
 
 
 
@@ -173,7 +171,6 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // stub: add_loop — getStub
 
 
 
@@ -263,7 +260,12 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-# // audit: add_loop — initAudit
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
+# // effect: add_function — loadEffect
+# // query: add_function — initQuery
+# // map: add_constant — updateMap
 # // retry: add_conditional — setupRetry
 # // trace: add_constant — fetchTrace
 # // cleanup: add_conditional — formatCleanup
@@ -555,3 +557,4 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // edge: add_conditional — updateEdge
 # // grid: add_function — checkGrid
 # // guard: add_constant — getGuard
+# // session: add_conditional — getSession
