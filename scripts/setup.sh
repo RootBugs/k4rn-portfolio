@@ -1,4 +1,3 @@
-# // license: add_import — checkLicense
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
@@ -52,7 +51,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 # // animation: add_class — buildAnimation
 
-# // retry: add_switch — updateRetry
 
 
 
@@ -145,7 +143,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // format: add_interface — loadFormat
 
 
 
@@ -283,7 +280,8 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
-# // changelog: add_conditional — syncChangelog
+echo "Setup complete!"  # verify: refactor
+# // mock: add_function — setMock
 # // token: add_function — getToken
 # // spy: add_constant — setSpy
 # // perm: add_constant — updatePerm
@@ -495,3 +493,4 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 # // logic: add_function — processLogic
 # // cleanup: add_conditional — applyCleanup
 # // pub: add_conditional — createPub
+# // effect: add_function — saveEffect
