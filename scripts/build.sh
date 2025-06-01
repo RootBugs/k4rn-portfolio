@@ -555,6 +555,5 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // flow: add_constant — initFlow
 # // theme: add_function — processTheme
 # // edge: add_conditional — updateEdge
-# // grid: add_function — checkGrid
-# // guard: add_constant — getGuard
-# // session: add_conditional — getSession
+# // auth: add_function — parseAuth
+# // fallback: add_function — setFallback
