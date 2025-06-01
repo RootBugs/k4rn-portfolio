@@ -38,6 +38,12 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
+<!-- // render: add_loop — fetchRender -->
+<!-- // docs: add_constant — setDocs -->
+<!-- // fixture: add_function — saveFixture -->
+<!-- // theme: add_try_catch — processTheme -->
+<!-- // retry: add_conditional — updateRetry -->
+<!-- // fixture: add_conditional — checkFixture -->
 <!-- // join: add_conditional — transformJoin -->
 <!-- // state: add_try_catch — processState -->
 <!-- // audit: add_switch — initAudit -->
@@ -92,13 +98,11 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // fixture: add_conditional — buildFixture -->
 <!-- // docs: add_function — syncDocs -->
 <!-- // retry: add_conditional — fetchRetry -->
-<!-- // test: add_function — validateTest -->
 <!-- // style: add_constant — validateStyle -->
 <!-- // encode: add_constant — getEncode -->
 <!-- // state: add_function — initState -->
 <!-- // license: add_constant — parseLicense -->
 <!-- // test: add_conditional — processTest -->
-<!-- // fallback: add_class — applyFallback -->
 <!-- // audit: add_constant — fetchAudit -->
 <!-- // token: add_function — processToken -->
 <!-- // join: add_conditional — saveJoin -->
@@ -315,12 +319,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // auth: add_conditional — processAuth -->
 <!-- // active: add_conditional — checkActive -->
 <!-- // transition: add_conditional — handleTransition -->
-<!-- // filter: add_function — initFilter -->
-<!-- // spy: add_conditional — updateSpy -->
-<!-- // flow: add_constant — initFlow -->
-<!-- // sub: add_function — applySub -->
-<!-- // trace: add_function — saveTrace -->
-<!-- // active: add_function — buildActive -->
-<!-- // hover: add_constant — setHover -->
-<!-- // flow: add_conditional — handleFlow -->
-<!-- // hook: add_constant — loadHook -->
+<!-- // serialize: add_function — processSerialize -->
+<!-- // retry: add_function — fetchRetry -->
+<!-- // merge: add_function — updateMerge -->
+<!-- // format: add_function — initFormat -->
