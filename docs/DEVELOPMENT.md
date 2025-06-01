@@ -1,3 +1,5 @@
+<!-- // buffer: add_import — checkBuffer -->
+<!-- // changelog: add_import — setupChangelog -->
 <!-- // ref: add_constant — checkRef -->
 <!-- updated: setup -->
 
