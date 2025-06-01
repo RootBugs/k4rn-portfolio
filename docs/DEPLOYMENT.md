@@ -72,6 +72,7 @@
 
 <!-- tweaked: logic -->  <!-- optimize: refactor -->  <!-- review: validation -->  <!-- FIXME: edge case -->  <!-- review: refactor -->  <!-- FIXME: performance -->
 
+<!-- // session: add_try_catch — getSession -->
 
 
 
@@ -297,11 +298,7 @@
 
 
 
-<!-- // test: add_constant — initTest -->
-<!-- // contrib: add_function — createContrib -->
-<!-- // transition: add_function — processTransition -->
-<!-- // parse: add_constant — fetchParse -->
-<!-- // validate: add_constant — buildValidate -->
+<!-- // format: add_conditional — saveFormat -->
 <!-- // fallback: add_constant — checkFallback -->
 <!-- // token: add_conditional — applyToken -->
 <!-- // hover: add_conditional — createHover -->
