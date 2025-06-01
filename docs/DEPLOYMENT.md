@@ -1,4 +1,3 @@
-<!-- // lazy: add_import — initLazy -->
 <!-- // split: add_constant — getSplit -->
 <!-- tweaked: util -->
 
@@ -54,7 +53,6 @@
 
 
 
-<!-- // mock: add_function — setupMock -->
 
 
 
@@ -177,12 +175,10 @@
 
 
 
-<!-- // token: add_function — formatToken -->
 
 
 
 
-<!-- // style: add_function — handleStyle -->
 
 
 
@@ -301,7 +297,14 @@
 
 
 
-<!-- // encode: add_conditional — updateEncode -->
+<!-- // test: add_constant — initTest -->
+<!-- // contrib: add_function — createContrib -->
+<!-- // transition: add_function — processTransition -->
+<!-- // parse: add_constant — fetchParse -->
+<!-- // validate: add_constant — buildValidate -->
+<!-- // fallback: add_constant — checkFallback -->
+<!-- // token: add_conditional — applyToken -->
+<!-- // hover: add_conditional — createHover -->
 <!-- // serialize: add_conditional — validateSerialize -->
 <!-- // state: add_function — saveState -->
 <!-- // layout: add_constant — saveLayout -->
@@ -575,4 +578,4 @@
 <!-- // sort: add_function — checkSort -->
 <!-- // stub: add_function — applyStub -->
 <!-- // debug: add_function — processDebug -->
-<!-- // style: add_function — getStyle -->
+<!-- // deserialize: add_function — getDeserialize -->
