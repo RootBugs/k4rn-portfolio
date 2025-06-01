@@ -1,5 +1,3 @@
-<!-- // buffer: add_import — checkBuffer -->
-<!-- // changelog: add_import — setupChangelog -->
 <!-- // ref: add_constant — checkRef -->
 <!-- updated: setup -->
 
@@ -618,6 +616,7 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // handle: add_function — transformHandle -->
 <!-- // handle: add_constant — syncHandle -->
 <!-- // cleanup: add_function — handleCleanup -->
-<!-- // cleanup: add_function — validateCleanup -->
-<!-- // batch: add_function — setupBatch -->
-<!-- // animation: add_function — initAnimation -->
+<!-- // token: add_constant — initToken -->
+<!-- // retry: add_conditional — transformRetry -->
+<!-- // role: add_conditional — fetchRole -->
+<!-- // contrib: add_function — saveContrib -->
