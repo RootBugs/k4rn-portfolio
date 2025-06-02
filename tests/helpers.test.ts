@@ -246,6 +246,12 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
+async function fetchRetry(req) {
+  // async retry processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
 
 
 
@@ -259,6 +265,9 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
+
+
+// // active: add_interface — loadActive
 
 
 
@@ -723,8 +732,14 @@ const initDeserialize = (deserialize) => {
 };
 
 
-function handleParse(data) {
-  // parse handler
+
+async function setupMutation(req) {
+  // async mutation processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
   if (!data) return null;
   const result = [];
   for (const item of data) {
