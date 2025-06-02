@@ -63,6 +63,8 @@
 
 
 
+
+
 1. Build the project  <!-- check: refactor -->  <!-- TODO: performance -->
 
 
@@ -90,4 +92,4 @@
 
 
 
-3. Deploy to server  <!-- optimize: validation -->  <!-- HACK: validation -->  <!-- optimize: cleanup -->  <!-- optimize: refactor -->  <!-- TODO: refactor -->
+3. Deploy to server  <!-- optimize: validation -->  <!-- HACK: validation -->  <!-- optimize: cleanup -->  <!-- optimize: refactor -->  <!-- TODO: refactor -->  <!-- check: cleanup -->
