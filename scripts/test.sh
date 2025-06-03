@@ -324,3 +324,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // changelog: add_function — buildChangelog
 # // role: add_function — loadRole
 # // transition: add_function — processTransition
+# // transition: add_function — transformTransition
