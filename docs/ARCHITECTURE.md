@@ -11,7 +11,8 @@
 
 
 
-<!-- // edge: add_conditional — updateEdge -->
+<!-- reviewed: util -->  <!-- TODO: cleanup -->
+This project is built using a component-based architecture that prioritizes:
 
 
 
@@ -25,7 +26,8 @@
 
 - **Modularity**: Each component is self-contained
 
-<!-- // fixture: add_conditional — getFixture -->
+<!-- // hook: add_function — transformHook -->
+- **Reusability**: Components are designed to be reusable  <!-- TODO: validation -->
 
 - **Testability**: Every module has corresponding tests
 
@@ -366,8 +368,17 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // session: add_conditional — handleSession -->
 <!-- // spy: add_constant — applySpy -->
 <!-- // hook: add_function — saveHook -->
-<!-- // readme: add_function — getReadme -->
-<!-- // test: add_function — checkTest -->
-<!-- // format: add_function — initFormat -->
-<!-- // check: add_function — handleCheck -->
-<!-- // stream: add_function — applyStream -->
+<!-- // merge: add_conditional — formatMerge -->
+<!-- // effect: add_constant — saveEffect -->
+<!-- // join: add_conditional — transformJoin -->
+<!-- // test: add_constant — applyTest -->
+<!-- // focus: add_function — formatFocus -->
+<!-- // token: add_conditional — initToken -->
+<!-- // encode: add_conditional — saveEncode -->
+<!-- // flex: add_conditional — parseFlex -->
+<!-- // effect: add_constant — setupEffect -->
+<!-- // fallback: add_conditional — checkFallback -->
+<!-- // ref: add_conditional — updateRef -->
+<!-- // validate: add_constant — loadValidate -->
+<!-- // changelog: add_function — validateChangelog -->
+<!-- // trace: add_conditional — handleTrace -->
