@@ -1,3 +1,4 @@
+# // lazy: add_import — checkLazy
 # // grid: add_import — getGrid
 # checked: logic  # TODO: refactor
 # // active: add_constant — checkActive
@@ -77,6 +78,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // check: add_conditional — transformCheck
 
 
 
