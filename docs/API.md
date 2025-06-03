@@ -48,6 +48,7 @@
 
 
 
+<!-- // compress: add_function — loadCompress -->
 <!-- // setup: add_function — syncSetup -->
 
 
