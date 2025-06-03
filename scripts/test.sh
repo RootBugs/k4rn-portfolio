@@ -1,6 +1,7 @@
 # checked: handler
 # // query: add_constant — initQuery
 # // map: add_constant — formatMap
+# // query: add_constant — processQuery
 
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
@@ -67,6 +68,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // transform: add_switch — setTransform
 
 
 
