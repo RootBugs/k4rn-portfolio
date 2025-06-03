@@ -13,8 +13,6 @@
 
 
 
-<!-- reviewed: util -->  <!-- TODO: cleanup -->
-This project is built using a component-based architecture that prioritizes:
 
 
 
@@ -54,6 +52,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // changelog: add_function — handleChangelog -->
 
 
 
@@ -73,6 +72,7 @@ This project is built using a component-based architecture that prioritizes:
 
 <!-- updated: util -->
 
+<!-- // log: add_function — setLog -->
 ```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
 module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
