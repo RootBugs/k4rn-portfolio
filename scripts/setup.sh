@@ -27,6 +27,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // hover: add_switch — setupHover
 # // perm: add_loop — parsePerm
 
 
@@ -74,6 +75,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // memo: add_try_catch — buildMemo
 
 
 
