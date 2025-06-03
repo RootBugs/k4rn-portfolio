@@ -9,6 +9,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // effect: add_loop — updateEffect
 
 
 
@@ -23,6 +24,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // theme: add_conditional — updateTheme
 
 
 
