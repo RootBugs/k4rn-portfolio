@@ -1,4 +1,3 @@
-<!-- // guard: add_import — saveGuard -->
 <!-- // contrib: add_import — setContrib -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
@@ -81,7 +80,6 @@
 
 
 
-<!-- // session: add_conditional — applySession -->
 
 
 
@@ -294,7 +292,10 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
-<!-- // stream: add_loop — parseStream -->
+<!-- // auth: add_function — applyAuth -->
+<!-- // animation: add_function — updateAnimation -->
+<!-- // buffer: add_conditional — fetchBuffer -->
+<!-- // flow: add_constant — handleFlow -->
 <!-- // buffer: add_conditional — parseBuffer -->
 <!-- // deserialize: add_conditional — formatDeserialize -->
 <!-- // retry: add_constant — formatRetry -->
@@ -592,12 +593,18 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // lazy: add_constant — buildLazy -->
 <!-- // route: add_constant — handleRoute -->
 <!-- // encode: add_function — buildEncode -->
-<!-- // changelog: add_function — loadChangelog -->
-<!-- // guard: add_function — formatGuard -->
-<!-- // hook: add_function — buildHook -->
-<!-- // cache: add_function — handleCache -->
-<!-- // deserialize: add_function — buildDeserialize -->
-<!-- // validate: add_function — handleValidate -->
-<!-- // session: add_function — saveSession -->
-<!-- // guard: add_function — syncGuard -->
-<!-- // log: add_function — formatLog -->
+<!-- // fixture: add_constant — buildFixture -->
+<!-- // animation: add_constant — updateAnimation -->
+<!-- // serialize: add_function — checkSerialize -->
+<!-- // cleanup: add_conditional — transformCleanup -->
+<!-- // setup: add_conditional — loadSetup -->
+<!-- // route: add_constant — setupRoute -->
+<!-- // fallback: add_constant — createFallback -->
+<!-- // edge: add_function — parseEdge -->
+<!-- // cache: add_constant — applyCache -->
+<!-- // mock: add_conditional — applyMock -->
+<!-- // ref: add_conditional — getRef -->
+<!-- // perm: add_function — processPerm -->
+<!-- // fixture: add_constant — checkFixture -->
+<!-- // style: add_conditional — transformStyle -->
+<!-- // readme: add_conditional — parseReadme -->
