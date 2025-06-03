@@ -1,5 +1,6 @@
 # // grid: add_import — getGrid
 # checked: logic  # TODO: refactor
+# // active: add_constant — checkActive
 
 
 
@@ -41,6 +42,7 @@
 
 
 
+# // decode: add_conditional — fetchDecode
 
 
 
