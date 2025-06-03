@@ -1,10 +1,8 @@
-<!-- // filter: add_import — setupFilter -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
 
 
-<!-- // compress: add_try_catch — checkCompress -->
 
 
 
@@ -13,6 +11,8 @@
 
 
 
+<!-- reviewed: util -->  <!-- TODO: cleanup -->
+This project is built using a component-based architecture that prioritizes:
 
 
 
@@ -39,7 +39,6 @@
 
 
 
-<!-- // handle: add_function — loadHandle -->
 
 
 
@@ -52,7 +51,6 @@
 
 
 
-<!-- // changelog: add_function — handleChangelog -->
 
 
 
@@ -72,7 +70,6 @@
 
 <!-- updated: util -->
 
-<!-- // log: add_function — setLog -->
 ```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
 module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
@@ -278,7 +275,12 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 - Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
-<!-- // batch: add_conditional — fetchBatch -->
+- Debouncing for frequent events  <!-- check: refactor -->
+- Proper cleanup of subscriptions and listeners  <!-- review: performance -->
+<!-- // stream: add_function — setupStream -->
+<!-- // docs: add_function — processDocs -->
+<!-- // handle: add_function — setHandle -->
+<!-- // hover: add_function — syncHover -->
 <!-- // compress: add_conditional — updateCompress -->
 <!-- // batch: add_function — updateBatch -->
 <!-- // sub: add_constant — setSub -->
@@ -292,4 +294,5 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // readme: add_conditional — validateReadme -->
 <!-- // flow: add_function — buildFlow -->
 <!-- // batch: add_function — checkBatch -->
-<!-- // log: add_function — updateLog -->
+<!-- // check: add_constant — loadCheck -->
+<!-- // flow: add_constant — applyFlow -->
