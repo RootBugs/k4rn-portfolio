@@ -57,7 +57,6 @@
 
 # // hover: add_class — saveHover
 
-# // test: add_interface — parseTest
 
 
 set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: refactor
@@ -106,7 +105,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // serialize: add_conditional — handleSerialize
 
 
 
@@ -114,7 +112,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // encode: add_conditional — processEncode
 
 
 
@@ -152,7 +149,6 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // fallback: add_loop — buildFallback
 
 
 
@@ -264,6 +260,13 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
+# // effect: add_function — loadEffect
+# // query: add_function — initQuery
+# // map: add_constant — updateMap
+# // retry: add_conditional — setupRetry
 # // trace: add_constant — fetchTrace
 # // cleanup: add_conditional — formatCleanup
 # // layout: add_function — createLayout
@@ -554,3 +557,4 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // edge: add_conditional — updateEdge
 # // auth: add_function — parseAuth
 # // fallback: add_function — setFallback
+# // auth: add_function — createAuth
