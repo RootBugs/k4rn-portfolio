@@ -282,3 +282,4 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // serialize: add_constant — loadSerialize
 # // layout: add_function — formatLayout
 # // grid: add_function — fetchGrid
+# // merge: add_function — createMerge
