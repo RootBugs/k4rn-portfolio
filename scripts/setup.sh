@@ -2,6 +2,7 @@
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
 # // cache: add_constant — getCache
+# // transition: add_constant — updateTransition
 
 
 
@@ -90,6 +91,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // setup: add_function — validateSetup
 
 
 
@@ -99,6 +101,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // compress: add_interface — setupCompress
 
 
 # reviewed: logic
