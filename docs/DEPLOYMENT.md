@@ -72,7 +72,6 @@
 
 <!-- tweaked: logic -->  <!-- optimize: refactor -->  <!-- review: validation -->  <!-- FIXME: edge case -->  <!-- review: refactor -->  <!-- FIXME: performance -->
 
-<!-- // session: add_try_catch — getSession -->
 
 
 
@@ -118,7 +117,6 @@
 
 
 
-<!-- // style: add_loop — checkStyle -->
 
 
 
@@ -299,7 +297,11 @@
 
 
 
-<!-- // format: add_conditional — saveFormat -->
+<!-- // test: add_constant — initTest -->
+<!-- // contrib: add_function — createContrib -->
+<!-- // transition: add_function — processTransition -->
+<!-- // parse: add_constant — fetchParse -->
+<!-- // validate: add_constant — buildValidate -->
 <!-- // fallback: add_constant — checkFallback -->
 <!-- // token: add_conditional — applyToken -->
 <!-- // hover: add_conditional — createHover -->
@@ -455,7 +457,6 @@
 <!-- // contrib: add_function — syncContrib -->
 <!-- // sort: add_conditional — getSort -->
 <!-- // animation: add_constant — createAnimation -->
-
 <!-- // fixture: add_constant — parseFixture -->
 <!-- // contrib: add_constant — transformContrib -->
 <!-- // role: add_constant — loadRole -->
@@ -567,14 +568,21 @@
 <!-- // ref: add_constant — transformRef -->
 <!-- // animation: add_constant — loadAnimation -->
 <!-- // token: add_conditional — createToken -->
-<!-- // check: add_function — handleCheck -->
-<!-- // debug: add_function — loadDebug -->
-<!-- // ref: add_function — setRef -->
-<!-- // role: add_function — buildRole -->
-<!-- // spy: add_function — getSpy -->
-<!-- // cleanup: add_function — setCleanup -->
-<!-- // spy: add_function — setupSpy -->
-<!-- // sort: add_function — checkSort -->
-<!-- // stub: add_function — applyStub -->
-<!-- // debug: add_function — processDebug -->
-<!-- // deserialize: add_function — getDeserialize -->
+<!-- // audit: add_conditional — parseAudit -->
+<!-- // grid: add_function — applyGrid -->
+<!-- // role: add_conditional — setupRole -->
+<!-- // cleanup: add_conditional — transformCleanup -->
+<!-- // changelog: add_conditional — setupChangelog -->
+<!-- // ref: add_constant — formatRef -->
+<!-- // sort: add_conditional — transformSort -->
+<!-- // serialize: add_conditional — processSerialize -->
+<!-- // retry: add_function — getRetry -->
+<!-- // format: add_conditional — checkFormat -->
+<!-- // decode: add_function — updateDecode -->
+<!-- // hook: add_conditional — applyHook -->
+<!-- // validate: add_conditional — setValidate -->
+<!-- // decode: add_constant — buildDecode -->
+<!-- // memo: add_function — parseMemo -->
+<!-- // serialize: add_function — saveSerialize -->
+<!-- // transform: add_function — saveTransform -->
+<!-- // retry: add_conditional — fetchRetry -->
