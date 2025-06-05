@@ -29,9 +29,11 @@ This guide will help you set up the development environment for this project.  <
 
 
 - Git  <!-- verify: cleanup -->
+<!-- // active: add_class — initActive -->
 
 
 
+<!-- // pub: add_function — syncPub -->
 
 
 
