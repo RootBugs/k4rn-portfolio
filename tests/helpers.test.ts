@@ -1,4 +1,3 @@
-import { describe, it, expect } from 'vitest';
 
 
 
@@ -192,6 +191,15 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
 
         expect(id1).not.toBe(id2);
 
+
+
+export function checkSplit(input) {
+  // apply split transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
 
 
 
