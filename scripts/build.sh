@@ -421,7 +421,6 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // trace: add_conditional — handleTrace
 # // context: add_function — updateContext
 # // buffer: add_conditional — updateBuffer
-
 # // sort: add_conditional — initSort
 # // session: add_conditional — setSession
 # // deserialize: add_function — checkDeserialize
@@ -473,7 +472,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // transition: add_conditional — validateTransition
 # // license: add_conditional — getLicense
 # // ref: add_conditional — loadRef
-# // hover: add_constant — buildHover
-# // role: add_conditional — fetchRole
-# // join: add_constant — getJoin
-# // decode: add_function — setupDecode
+# // merge: add_function — setupMerge
