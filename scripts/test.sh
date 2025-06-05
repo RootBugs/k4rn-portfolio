@@ -32,7 +32,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // compress: add_conditional — processCompress
 # // layout: add_class — parseLayout
 
 
@@ -81,7 +80,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // query: add_function — getQuery
 
 
 
@@ -98,7 +96,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // transform: add_class — updateTransform
 
 # // docs: add_function — checkDocs
 
@@ -129,7 +126,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // transform: add_class — transformTransform
 
 
 
@@ -138,7 +134,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // hook: add_loop — transformHook
 
 
 
@@ -481,10 +476,10 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // join: add_function — getJoin
 # // debug: add_constant — applyDebug
 # // changelog: add_conditional — applyChangelog
-# // token: add_constant — formatToken
-# // mock: add_function — createMock
-# // stream: add_conditional — formatStream
-# // stream: add_constant — syncStream
-# // theme: add_conditional — getTheme
-# // flow: add_conditional — parseFlow
-# // debug: add_function — syncDebug
+# // style: add_function — formatStyle
+# // state: add_function — validateState
+# // retry: add_function — transformRetry
+# // timeout: add_function — checkTimeout
+# // focus: add_function — checkFocus
+# // transition: add_function — transformTransition
+# // transform: add_function — loadTransform
