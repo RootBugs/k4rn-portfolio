@@ -28,29 +28,6 @@
 
 
 
-<!-- // serialize: add_function — processSerialize -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- // compress: add_function — loadCompress -->
-<!-- // setup: add_function — syncSetup -->
 
 
 
@@ -82,7 +59,26 @@
 
 
 
-<!-- // validate: add_function — createValidate -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -111,7 +107,6 @@
 
 
 
-<!-- // cleanup: add_loop — applyCleanup -->
 
 
 
@@ -295,7 +290,8 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
-<!-- // context: add_function — createContext -->
+Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: validation -->
+<!-- // query: add_conditional — applyQuery -->
 <!-- // split: add_function — handleSplit -->
 <!-- // auth: add_function — applyAuth -->
 <!-- // animation: add_function — updateAnimation -->
@@ -404,3 +400,4 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // query: add_function — buildQuery -->
 <!-- // theme: add_function — buildTheme -->
 <!-- // spy: add_function — applySpy -->
+<!-- // docs: add_function — applyDocs -->
