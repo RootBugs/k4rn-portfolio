@@ -134,6 +134,7 @@ if [ -f "package.json" ]; then
 
 
 
+# // edge: add_try_catch — getEdge
 
 # // query: add_class — initQuery
 
