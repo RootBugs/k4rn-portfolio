@@ -17,7 +17,6 @@
 
 
 
-# // merge: add_function — setupMerge
 
 
 
@@ -103,7 +102,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // join: add_conditional — parseJoin
 
 
 
@@ -476,3 +474,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // ref: add_conditional — loadRef
 # // hover: add_constant — buildHover
 # // role: add_conditional — fetchRole
+# // join: add_constant — getJoin
