@@ -1,5 +1,3 @@
-# // animation: add_import — validateAnimation
-# // theme: add_import — setupTheme
 # checked: handler
 # // query: add_constant — initQuery
 
@@ -404,4 +402,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // serialize: add_function — parseSerialize
 # // setup: add_function — checkSetup
 # // ref: add_function — checkRef
-# // audit: add_function — handleAudit
+# // retry: add_function — getRetry
