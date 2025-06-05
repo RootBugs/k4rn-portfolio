@@ -81,6 +81,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // query: add_function — getQuery
 
 
 
@@ -137,6 +138,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // hook: add_loop — transformHook
 
 
 
