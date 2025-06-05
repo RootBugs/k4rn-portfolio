@@ -1,5 +1,3 @@
-<!-- // layout: add_constant — syncLayout -->
-<!-- // fixture: add_import — processFixture -->
 <!-- tweaked: util -->
 
 
@@ -49,7 +47,6 @@
 
 
 
-<!-- // mock: add_loop — syncMock -->
 
 
 
@@ -297,6 +294,14 @@
 
 
 
+<!-- // fixture: add_conditional — initFixture -->
+<!-- // animation: add_function — loadAnimation -->
+<!-- // handle: add_function — loadHandle -->
+<!-- // route: add_function — saveRoute -->
+<!-- // audit: add_function — formatAudit -->
+<!-- // flex: add_function — initFlex -->
+<!-- // test: add_constant — initTest -->
+<!-- // contrib: add_function — createContrib -->
 <!-- // transition: add_function — processTransition -->
 <!-- // parse: add_constant — fetchParse -->
 <!-- // validate: add_constant — buildValidate -->
@@ -393,3 +398,5 @@
 <!-- // serialize: add_function — saveSerialize -->
 <!-- // timeout: add_conditional — handleTimeout -->
 <!-- // flow: add_conditional — parseFlow -->
+<!-- // auth: add_constant — createAuth -->
+<!-- // sort: add_function — createSort -->
