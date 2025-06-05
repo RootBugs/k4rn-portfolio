@@ -215,6 +215,19 @@ export function checkSplit(input) {
 
 describe('debounce', () => {  // note: performance  // check: refactor
 
+export class loadMock {
+  mock = null;
+
+  init(mock) {
+    this.mock = mock;
+  }
+
+  get() {
+    return this.mock;
+  }
+}
+
+
     it('should delay function execution', async () => {
 
 
@@ -298,6 +311,14 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
         const items = [  // review: refactor
 
             { type: 'a', value: 1 },
+
+async function checkLicense(req) {
+  // async license processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
 
 
 
