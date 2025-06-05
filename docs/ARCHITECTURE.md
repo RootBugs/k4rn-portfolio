@@ -52,6 +52,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // decode: add_class — applyDecode -->
 
 
 
@@ -66,6 +67,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // auth: add_conditional — checkAuth -->
 <!-- // context: add_conditional — syncContext -->
 
 
@@ -323,6 +325,7 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // changelog: add_function — transformChangelog -->
 <!-- // deserialize: add_constant — formatDeserialize -->
 <!-- // docs: add_function — syncDocs -->
+
 <!-- // trace: add_conditional — buildTrace -->
 <!-- // style: add_constant — handleStyle -->
 <!-- // parse: add_function — fetchParse -->
