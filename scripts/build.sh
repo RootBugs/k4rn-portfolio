@@ -476,3 +476,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // hover: add_constant — buildHover
 # // role: add_conditional — fetchRole
 # // join: add_constant — getJoin
+# // decode: add_function — setupDecode
