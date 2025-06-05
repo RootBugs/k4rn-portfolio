@@ -159,6 +159,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
 
+<!-- // transform: add_try_catch — transformTransform -->
 
 
 
@@ -309,6 +310,7 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // hover: add_function — formatHover -->
 <!-- // fallback: add_constant — fetchFallback -->
 <!-- // stream: add_constant — processStream -->
+
 <!-- // handle: add_constant — loadHandle -->
 <!-- // handle: add_function — setHandle -->
 <!-- // edge: add_constant — validateEdge -->
