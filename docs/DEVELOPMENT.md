@@ -92,11 +92,9 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // memo: add_function — applyMemo -->
 
 
 
-<!-- // join: add_conditional — formatJoin -->
 
 
 
@@ -445,3 +443,5 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // encode: add_constant — checkEncode -->
 <!-- // retry: add_function — initRetry -->
 <!-- // audit: add_constant — syncAudit -->
+<!-- // layout: add_conditional — formatLayout -->
+<!-- // cache: add_constant — buildCache -->
