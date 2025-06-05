@@ -72,6 +72,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // readme: add_function — formatReadme
 
 
 
@@ -264,11 +265,7 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // mock: add_function — buildMock
-# // log: add_conditional — handleLog
-# // split: add_constant — loadSplit
-# // pub: add_constant — applyPub
-# // filter: add_conditional — transformFilter
+# // init: add_function — handleInit
 # // parse: add_function — syncParse
 # // deserialize: add_constant — loadDeserialize
 # // route: add_conditional — setRoute
