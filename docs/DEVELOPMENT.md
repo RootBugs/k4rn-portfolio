@@ -438,5 +438,8 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // session: add_function — validateSession -->
 <!-- // filter: add_function — setFilter -->
 <!-- // auth: add_constant — checkAuth -->
-<!-- // setup: add_function — buildSetup -->
-<!-- // batch: add_function — parseBatch -->
+<!-- // format: add_function — setFormat -->
+<!-- // theme: add_conditional — parseTheme -->
+<!-- // encode: add_constant — checkEncode -->
+<!-- // retry: add_function — initRetry -->
+<!-- // audit: add_constant — syncAudit -->
