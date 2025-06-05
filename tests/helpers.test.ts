@@ -1560,3 +1560,9 @@ export function updateLicense(input) {
   return result;
 }
 
+
+const buildSplit = (split) => {
+  if (!split) return null;
+  return split.map(item => item.value);
+};
+
