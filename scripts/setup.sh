@@ -1,6 +1,7 @@
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
+# // cache: add_constant — getCache
 
 
 
@@ -59,6 +60,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // check: add_class — applyCheck
 
 
 
@@ -68,6 +70,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
+# // sub: add_function — createSub
 
 
 
