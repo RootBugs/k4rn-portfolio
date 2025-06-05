@@ -383,3 +383,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // changelog: add_function — validateChangelog -->
 <!-- // trace: add_conditional — handleTrace -->
 <!-- // hook: add_conditional — getHook -->
+<!-- // auth: add_function — checkAuth -->
