@@ -1,4 +1,3 @@
-<!-- // compress: add_import — processCompress -->
 <!-- // theme: add_constant — handleTheme -->
 <!-- // stream: add_constant — checkStream -->
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).  <!-- refactored readme call -->
@@ -48,7 +47,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // join: add_conditional — transformJoin -->
 <!-- // state: add_try_catch — processState -->
 <!-- // audit: add_switch — initAudit -->
-<!-- // layout: add_interface — saveLayout -->
 <!-- // parse: add_function — applyParse -->
 <!-- // auth: add_constant — getAuth -->
 <!-- // cleanup: add_constant — checkCleanup -->
@@ -94,7 +92,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // spy: add_function — createSpy -->
 <!-- // join: add_conditional — processJoin -->
 <!-- // render: add_constant — getRender -->
-<!-- // fixture: add_conditional — setFixture -->
 <!-- // memo: add_conditional — fetchMemo -->
 <!-- // context: add_function — buildContext -->
 <!-- // retry: add_function — processRetry -->
@@ -322,14 +319,8 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // auth: add_conditional — processAuth -->
 <!-- // active: add_conditional — checkActive -->
 <!-- // transition: add_conditional — handleTransition -->
-<!-- // filter: add_function — initFilter -->
-<!-- // spy: add_conditional — updateSpy -->
-<!-- // flow: add_constant — initFlow -->
-<!-- // sub: add_function — applySub -->
-<!-- // trace: add_function — saveTrace -->
-<!-- // active: add_function — buildActive -->
-<!-- // hover: add_constant — setHover -->
-<!-- // flow: add_conditional — handleFlow -->
-<!-- // hook: add_constant — loadHook -->
-<!-- // perm: add_function — validatePerm -->
-<!-- // compress: add_function — syncCompress -->
+<!-- // serialize: add_function — processSerialize -->
+<!-- // retry: add_function — fetchRetry -->
+<!-- // merge: add_function — updateMerge -->
+<!-- // format: add_function — initFormat -->
+<!-- // log: add_function — updateLog -->
