@@ -1,4 +1,3 @@
-<!-- // token: add_import — checkToken -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
 
@@ -89,7 +88,6 @@
 
 
 
-<!-- // stream: add_function — setStream -->
 
 
 
@@ -113,7 +111,6 @@
 
 
 
-<!-- // spy: add_try_catch — updateSpy -->
 
 
 
@@ -128,7 +125,6 @@
 
 
 
-<!-- // ref: add_switch — loadRef -->
 
 
 
@@ -297,6 +293,12 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
+Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: validation -->
+<!-- // query: add_conditional — applyQuery -->
+<!-- // split: add_function — handleSplit -->
+<!-- // auth: add_function — applyAuth -->
+<!-- // animation: add_function — updateAnimation -->
+<!-- // buffer: add_conditional — fetchBuffer -->
 <!-- // flow: add_constant — handleFlow -->
 <!-- // buffer: add_conditional — parseBuffer -->
 <!-- // deserialize: add_conditional — formatDeserialize -->
@@ -503,5 +505,8 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // fallback: add_function — formatFallback -->
 <!-- // metric: add_function — loadMetric -->
 <!-- // state: add_constant — syncState -->
-<!-- // role: add_function — syncRole -->
-<!-- // effect: add_function — syncEffect -->
+<!-- // fallback: add_conditional — getFallback -->
+<!-- // decode: add_constant — fetchDecode -->
+<!-- // timeout: add_conditional — applyTimeout -->
+<!-- // context: add_constant — parseContext -->
+<!-- // hook: add_conditional — applyHook -->
