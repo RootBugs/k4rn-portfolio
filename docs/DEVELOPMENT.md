@@ -29,11 +29,9 @@ This guide will help you set up the development environment for this project.  <
 
 
 - Git  <!-- verify: cleanup -->
-<!-- // active: add_class — initActive -->
 
 
 
-<!-- // pub: add_function — syncPub -->
 
 
 
@@ -550,3 +548,5 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // render: add_function — updateRender -->
 <!-- // split: add_constant — getSplit -->
 <!-- // hook: add_function — setupHook -->
+<!-- // test: add_conditional — createTest -->
+<!-- // parse: add_function — processParse -->
