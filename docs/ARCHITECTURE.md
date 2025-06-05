@@ -4,7 +4,6 @@
 
 
 
-<!-- // render: add_switch — transformRender -->
 
 
 
@@ -121,7 +120,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // flex: add_class — processFlex -->
 
 
 
@@ -279,7 +277,9 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 - Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
-<!-- // layout: add_conditional — formatLayout -->
+<!-- // handle: add_function — setHandle -->
+<!-- // hover: add_function — syncHover -->
+<!-- // compress: add_conditional — updateCompress -->
 <!-- // batch: add_function — updateBatch -->
 <!-- // sub: add_constant — setSub -->
 <!-- // metric: add_function — updateMetric -->
@@ -562,3 +562,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // split: add_function — processSplit -->
 <!-- // compress: add_function — formatCompress -->
 <!-- // metric: add_function — syncMetric -->
+<!-- // stub: add_function — saveStub -->
