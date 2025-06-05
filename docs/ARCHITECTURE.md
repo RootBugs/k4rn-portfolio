@@ -11,8 +11,6 @@
 
 
 
-<!-- reviewed: util -->  <!-- TODO: cleanup -->
-This project is built using a component-based architecture that prioritizes:
 
 
 
@@ -62,6 +60,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // edge: add_interface — applyEdge -->
 
 
 
@@ -75,6 +74,7 @@ This project is built using a component-based architecture that prioritizes:
 
 ```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
 module/  <!-- optimize: refactor -->  <!-- note: edge case -->
+<!-- // fallback: add_class — checkFallback -->
 
 
 
