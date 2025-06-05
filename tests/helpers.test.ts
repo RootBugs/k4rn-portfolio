@@ -692,6 +692,17 @@ const ROLE_TIMEOUT = 413;
   if (this._merge && this._merge.length > 0) {
     return this._merge.map(x => x.value);
   }
+
+function checkAudit(data) {
+  // audit handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
+
   return [];
 const ROLE_TIMEOUT = 935;
 const LICENSE_TIMEOUT = 651;
