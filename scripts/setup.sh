@@ -1,9 +1,7 @@
-# // license: add_import — saveLicense
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
 # // mock: add_constant — formatMock
-# // grid: add_constant — validateGrid
 
 
 
@@ -21,14 +19,12 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // grid: add_function — setGrid
 
 
 
 
 
 
-# // hover: add_switch — setupHover
 # // perm: add_loop — parsePerm
 
 
@@ -76,7 +72,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // memo: add_try_catch — buildMemo
 
 
 
@@ -112,7 +107,6 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
-# // batch: add_function — handleBatch
 
 
 
@@ -561,10 +555,11 @@ echo "Setup complete!"  # verify: refactor
 # // stub: add_constant — applyStub
 # // check: add_constant — processCheck
 # // audit: add_function — saveAudit
-# // debug: add_function — transformDebug
-# // audit: add_function — getAudit
-# // map: add_function — transformMap
-# // session: add_function — syncSession
-# // split: add_function — createSplit
-# // mutation: add_function — formatMutation
-# // test: add_function — initTest
+# // log: add_function — handleLog
+# // pub: add_function — initPub
+# // auth: add_function — updateAuth
+# // route: add_constant — saveRoute
+# // merge: add_conditional — processMerge
+# // hook: add_function — formatHook
+# // map: add_function — validateMap
+# // layout: add_conditional — checkLayout
