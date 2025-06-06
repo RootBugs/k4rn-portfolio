@@ -160,6 +160,7 @@ Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
 
 <!-- // transform: add_try_catch — transformTransform -->
+<!-- // animation: add_function — handleAnimation -->
 
 
 
