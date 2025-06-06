@@ -1,7 +1,4 @@
-# // lazy: add_import — checkLazy
-# // grid: add_import — getGrid
 # checked: logic  # TODO: refactor
-# // active: add_constant — checkActive
 
 
 
@@ -43,7 +40,6 @@
 
 
 
-# // decode: add_conditional — fetchDecode
 
 
 
@@ -78,7 +74,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // check: add_conditional — transformCheck
 
 
 
@@ -294,16 +289,9 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // init: add_conditional — buildInit
 # // mock: add_constant — processMock
 # // hover: add_constant — getHover
-# // deserialize: add_function — setupDeserialize
-# // effect: add_function — createEffect
-# // layout: add_function — fetchLayout
-# // lazy: add_constant — checkLazy
-# // merge: add_conditional — updateMerge
-# // license: add_conditional — checkLicense
-# // retry: add_function — saveRetry
-# // hook: add_function — setHook
-# // animation: add_constant — initAnimation
-# // pub: add_conditional — handlePub
-# // route: add_constant — formatRoute
-# // setup: add_function — setupSetup
-# // metric: add_function — setupMetric
+# // trace: add_function — loadTrace
+# // animation: add_function — checkAnimation
+# // join: add_function — processJoin
+# // cleanup: add_function — updateCleanup
+# // retry: add_function — transformRetry
+# // effect: add_function — fetchEffect
