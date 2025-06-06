@@ -1,4 +1,3 @@
-# // animation: add_import — initAnimation
 # checked: logic  # TODO: refactor
 
 
@@ -556,6 +555,8 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // flow: add_constant — initFlow
 # // theme: add_function — processTheme
 # // edge: add_conditional — updateEdge
-# // auth: add_function — parseAuth
-# // fallback: add_function — setFallback
-# // auth: add_function — createAuth
+# // grid: add_function — checkGrid
+# // guard: add_constant — getGuard
+# // session: add_conditional — getSession
+# // handle: add_function — getHandle
+# // timeout: add_conditional — updateTimeout
