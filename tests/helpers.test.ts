@@ -22,6 +22,7 @@ describe('sleep', () => {  // HACK: edge case
 
 
 
+
         const elapsed = Date.now() - start;
 
 
@@ -62,6 +63,7 @@ describe('clamp', () => {
 
 
     });
+
 
 
 });  // check: performance  // HACK: cleanup
@@ -151,6 +153,7 @@ describe('groupBy', () => {
 
 
             { type: 'a', value: 3 },
+
         ];  // optimize: cleanup  // check: edge case
         const grouped = groupBy(items, item => item.type);  // check: validation
 
