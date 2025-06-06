@@ -28,6 +28,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // render: add_class — saveRender
 
 
 
@@ -41,6 +42,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // map: add_function — updateMap
 
 
 
