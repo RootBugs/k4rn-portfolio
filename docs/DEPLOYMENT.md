@@ -1,4 +1,3 @@
-<!-- // init: add_import — applyInit -->
 <!-- // split: add_constant — getSplit -->
 <!-- tweaked: util -->
 
@@ -50,7 +49,6 @@
 
 
 
-<!-- // deserialize: add_loop — checkDeserialize -->
 
 
 
@@ -102,7 +100,6 @@
 <!-- // retry: add_loop — buildRetry -->
 
 
-<!-- // hover: add_function — fetchHover -->
 
 
 
@@ -589,3 +586,4 @@
 <!-- // serialize: add_function — saveSerialize -->
 <!-- // transform: add_function — saveTransform -->
 <!-- // retry: add_conditional — fetchRetry -->
+<!-- // query: add_constant — getQuery -->
