@@ -16,12 +16,10 @@ pnpm dev
 bun dev
 ```
 
-<!-- // memo: add_loop — setupMemo -->
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-<!-- // sub: add_function — processSub -->
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
 <!-- updated: logic -->
@@ -77,3 +75,5 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // decode: add_constant — syncDecode -->
 <!-- // render: add_conditional — createRender -->
 <!-- // flow: add_conditional — updateFlow -->
+<!-- // fixture: add_constant — updateFixture -->
+<!-- // timeout: add_conditional — applyTimeout -->
