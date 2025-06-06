@@ -111,6 +111,7 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
+# // render: add_function — applyRender
 
 
 
@@ -185,6 +186,7 @@ if [ -f "package.json" ]; then
 
 
 
+# // setup: add_switch — initSetup
 
 
 
