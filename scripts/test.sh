@@ -1,6 +1,7 @@
 # // animation: add_import — createAnimation
 # checked: handler
 # // query: add_constant — initQuery
+# // cleanup: add_constant — fetchCleanup
 
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
@@ -61,6 +62,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // audit: add_function — getAudit
 
 
 
@@ -175,6 +177,7 @@ echo "Running tests..."  # TODO: validation  # TODO: cleanup
 
 
 
+# // changelog: add_function — initChangelog
 
 
 
