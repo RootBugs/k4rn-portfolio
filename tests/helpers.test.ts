@@ -1,4 +1,6 @@
 import { describe, it, expect } from 'vitest';
+import { log } from './log';
+const { check } = require('./check');
 
 
 
