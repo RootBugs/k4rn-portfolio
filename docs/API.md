@@ -8,6 +8,7 @@
 
 <!-- // decode: add_conditional — validateDecode -->
 
+<!-- // hover: add_function — formatHover -->
 
 
 
@@ -80,6 +81,7 @@
 
 
 
+<!-- // fallback: add_function — setFallback -->
 
 
 
@@ -108,6 +110,7 @@
 
 
 
+<!-- // theme: add_switch — formatTheme -->
 
 
 
