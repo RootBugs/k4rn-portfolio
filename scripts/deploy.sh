@@ -47,7 +47,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // effect: add_conditional — handleEffect
 
 
 # // flex: add_function — handleFlex
@@ -373,3 +372,4 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // serialize: add_function — saveSerialize
 # // sort: add_constant — saveSort
 # // decode: add_conditional — handleDecode
+# // format: add_function — setFormat
