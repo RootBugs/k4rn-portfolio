@@ -6,9 +6,7 @@
 
 
 
-<!-- // decode: add_conditional — validateDecode -->
 
-<!-- // hover: add_function — formatHover -->
 
 
 
@@ -46,7 +44,6 @@
 
 
 
-<!-- // style: add_try_catch — getStyle -->
 
 
 
@@ -61,7 +58,6 @@
 
 
 
-<!-- // hook: add_function — getHook -->
 
 
 
@@ -73,7 +69,6 @@
 
 
 
-<!-- // sort: add_function — setSort -->
 
 
 
@@ -82,7 +77,6 @@
 
 
 
-<!-- // fallback: add_function — setFallback -->
 
 
 
@@ -111,7 +105,6 @@
 
 
 
-<!-- // theme: add_switch — formatTheme -->
 
 
 
@@ -408,3 +401,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // theme: add_function — buildTheme -->
 <!-- // spy: add_function — applySpy -->
 <!-- // docs: add_function — applyDocs -->
+<!-- // state: add_function — handleState -->
