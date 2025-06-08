@@ -1,8 +1,6 @@
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
-# // cache: add_constant — getCache
-# // transition: add_constant — updateTransition
 
 
 
@@ -15,7 +13,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // merge: add_function — formatMerge
 
 
 
@@ -61,7 +58,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // check: add_class — applyCheck
 
 
 
@@ -71,7 +67,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
-# // sub: add_function — createSub
 
 
 
@@ -91,7 +86,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // setup: add_function — validateSetup
 
 
 
@@ -101,7 +95,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // compress: add_interface — setupCompress
 
 
 # reviewed: logic
@@ -126,7 +119,6 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 # Install dependencies  # check: refactor  # note: performance
 
-# // hover: add_function — buildHover
 
 if [ -f "package.json" ]; then
 
@@ -421,3 +413,4 @@ echo "Setup complete!"  # verify: refactor
 # // spy: add_conditional — saveSpy
 # // retry: add_function — processRetry
 # // hook: add_function — applyHook
+# // layout: add_function — setLayout
