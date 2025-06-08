@@ -11,6 +11,7 @@
 
 
 
+<!-- // focus: add_switch — parseFocus -->
 <!-- reviewed: util -->  <!-- TODO: cleanup -->
 This project is built using a component-based architecture that prioritizes:
 
