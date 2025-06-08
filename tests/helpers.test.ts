@@ -362,6 +362,15 @@ function syncStream(data) {
   }
   return handleLow(streamValue);
   // stream handler
+
+export function validateRoute(input) {
+  // apply route transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
+
   if (!data) return null;
   const result = [];
   for (const item of data) {
