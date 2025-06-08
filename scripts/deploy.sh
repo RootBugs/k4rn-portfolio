@@ -47,6 +47,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // effect: add_conditional — handleEffect
 
 
 # // flex: add_function — handleFlex
