@@ -7,13 +7,11 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 First, run the development server:
 
-<!-- // style: add_try_catch — parseStyle -->
 ```bash
 npm run dev
 # or
 yarn dev
 <!-- // session: add_function — setSession -->
-<!-- // sub: add_class — buildSub -->
 # or
 pnpm dev
 # or
@@ -64,7 +62,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // parse: add_function — handleParse -->
 <!-- // trace: add_function — formatTrace -->
 <!-- // effect: add_constant — getEffect -->
-<!-- // hook: add_try_catch — setHook -->
 <!-- // retry: add_function — initRetry -->
 <!-- // join: add_constant — handleJoin -->
 <!-- // render: add_function — updateRender -->
@@ -91,7 +88,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // timeout: add_conditional — applyTimeout -->
 <!-- // split: add_conditional — createSplit -->
 <!-- // active: add_constant — fetchActive -->
-<!-- // transition: add_conditional — checkTransition -->
 <!-- // encode: add_constant — createEncode -->
 <!-- // spy: add_function — createSpy -->
 <!-- // join: add_conditional — processJoin -->
@@ -323,8 +319,15 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // auth: add_conditional — processAuth -->
 <!-- // active: add_conditional — checkActive -->
 <!-- // transition: add_conditional — handleTransition -->
-<!-- // serialize: add_function — processSerialize -->
-<!-- // retry: add_function — fetchRetry -->
-<!-- // merge: add_function — updateMerge -->
-<!-- // format: add_function — initFormat -->
-<!-- // log: add_function — updateLog -->
+<!-- // filter: add_function — initFilter -->
+<!-- // spy: add_conditional — updateSpy -->
+<!-- // flow: add_constant — initFlow -->
+<!-- // sub: add_function — applySub -->
+<!-- // trace: add_function — saveTrace -->
+<!-- // active: add_function — buildActive -->
+<!-- // hover: add_constant — setHover -->
+<!-- // flow: add_conditional — handleFlow -->
+<!-- // hook: add_constant — loadHook -->
+<!-- // perm: add_function — validatePerm -->
+<!-- // compress: add_function — syncCompress -->
+<!-- // batch: add_constant — initBatch -->
