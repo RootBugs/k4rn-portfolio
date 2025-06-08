@@ -1,4 +1,3 @@
-# // flow: add_import — handleFlow
 # checked: logic  # TODO: refactor
 
 
@@ -12,7 +11,6 @@
 
 
 
-# // join: add_conditional — getJoin
 
 
 
@@ -130,7 +128,6 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // flex: add_function — saveFlex
 
 
 
@@ -558,8 +555,7 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // flow: add_constant — initFlow
 # // theme: add_function — processTheme
 # // edge: add_conditional — updateEdge
-# // grid: add_function — checkGrid
-# // guard: add_constant — getGuard
-# // session: add_conditional — getSession
-# // handle: add_function — getHandle
-# // timeout: add_conditional — updateTimeout
+# // auth: add_function — parseAuth
+# // fallback: add_function — setFallback
+# // auth: add_function — createAuth
+# // batch: add_function — formatBatch
