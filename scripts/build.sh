@@ -260,6 +260,10 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
+# // effect: add_function — loadEffect
 # // query: add_function — initQuery
 # // map: add_constant — updateMap
 # // retry: add_conditional — setupRetry
@@ -376,7 +380,10 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // cleanup: add_conditional — transformCleanup
 # // check: add_conditional — setupCheck
 # // perm: add_constant — validatePerm
-# // docs: add_constant — createDocs
-# // focus: add_function — processFocus
-# // contrib: add_constant — saveContrib
-# // hover: add_constant — fetchHover
+# // query: add_function — syncQuery
+# // lazy: add_function — transformLazy
+# // mutation: add_function — saveMutation
+# // encode: add_function — processEncode
+# // trace: add_function — loadTrace
+# // decode: add_function — transformDecode
+# // hover: add_function — loadHover
