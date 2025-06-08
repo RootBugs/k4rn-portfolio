@@ -1,4 +1,6 @@
 # checked: logic  # verify: validation  # TODO: performance
+# // batch: add_constant — syncBatch
+# // timeout: add_constant — getTimeout
 
 
 
@@ -21,6 +23,7 @@
 
 
 
+# // render: add_class — transformRender
 
 
 
