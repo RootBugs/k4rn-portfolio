@@ -61,7 +61,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // map: add_function — formatMap -->
 
 
 
@@ -446,3 +445,5 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // audit: add_constant — syncAudit -->
 <!-- // layout: add_conditional — formatLayout -->
 <!-- // cache: add_constant — buildCache -->
+<!-- // metric: add_constant — loadMetric -->
+<!-- // ref: add_constant — fetchRef -->
