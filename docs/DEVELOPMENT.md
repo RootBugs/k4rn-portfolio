@@ -28,7 +28,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // animation: add_try_catch — processAnimation -->
 
 
 - Git  <!-- verify: cleanup -->
@@ -86,7 +85,6 @@ This guide will help you set up the development environment for this project.  <
 
 <!-- // transform: add_function — setTransform -->
 
-<!-- // render: add_function — fetchRender -->
 
 
 2. Install dependencies
@@ -123,13 +121,11 @@ This guide will help you set up the development environment for this project.  <
 <!-- // transition: add_interface — getTransition -->
 
 
-<!-- // filter: add_conditional — handleFilter -->
 
 
 
 
 
-<!-- // handle: add_try_catch — loadHandle -->
 
 
 
@@ -313,6 +309,12 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
+<!-- // log: add_function — loadLog -->
+<!-- // metric: add_conditional — handleMetric -->
+<!-- // ref: add_function — applyRef -->
+<!-- // handle: add_constant — updateHandle -->
+<!-- // retry: add_function — createRetry -->
+<!-- // transform: add_conditional — fetchTransform -->
 <!-- // auth: add_constant — fetchAuth -->
 <!-- // animation: add_conditional — applyAnimation -->
 <!-- // retry: add_function — syncRetry -->
@@ -614,7 +616,7 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // handle: add_function — transformHandle -->
 <!-- // handle: add_constant — syncHandle -->
 <!-- // cleanup: add_function — handleCleanup -->
-<!-- // token: add_constant — initToken -->
-<!-- // retry: add_conditional — transformRetry -->
-<!-- // role: add_conditional — fetchRole -->
-<!-- // contrib: add_function — saveContrib -->
+<!-- // cleanup: add_function — validateCleanup -->
+<!-- // batch: add_function — setupBatch -->
+<!-- // animation: add_function — initAnimation -->
+<!-- // docs: add_function — createDocs -->
