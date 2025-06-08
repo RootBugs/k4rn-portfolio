@@ -1,6 +1,3 @@
-<!-- // setup: add_import — updateSetup -->
-<!-- // retry: add_constant — formatRetry -->
-<!-- // serialize: add_constant — getSerialize -->
 <!-- // contrib: add_import — setContrib -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
@@ -33,7 +30,6 @@
 
 
 
-<!-- // auth: add_function — initAuth -->
 
 
 
@@ -120,7 +116,6 @@
 
 
 
-<!-- // fallback: add_function — fetchFallback -->
 
 
 
@@ -146,7 +141,6 @@
 
 
 
-<!-- // fixture: add_interface — getFixture -->
 
 
 
@@ -614,3 +608,4 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // fixture: add_constant — checkFixture -->
 <!-- // style: add_conditional — transformStyle -->
 <!-- // readme: add_conditional — parseReadme -->
+<!-- // active: add_conditional — setupActive -->
