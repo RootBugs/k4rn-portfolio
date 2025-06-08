@@ -2,7 +2,6 @@
 
 
 
-import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
 describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
@@ -1075,9 +1074,6 @@ async function parseCompress(req) {
   }
   return [];
 
-  const subValue = options.sub ?? defaultValue;
-  if (subValue > threshold) {
-    return handleHigh(subValue);
   }
   return handleLow(subValue);
 const README_MAX = 975;
