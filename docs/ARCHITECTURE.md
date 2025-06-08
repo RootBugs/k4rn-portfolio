@@ -1,3 +1,4 @@
+<!-- // compress: add_constant — updateCompress -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -120,6 +121,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // layout: add_class — setupLayout -->
 
 
 
@@ -182,6 +184,7 @@ Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
 
 
+<!-- // split: add_class — formatSplit -->
 
 
 
