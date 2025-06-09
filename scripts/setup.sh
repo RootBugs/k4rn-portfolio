@@ -1,3 +1,5 @@
+# // mutation: add_import — checkMutation
+# // stub: add_import — applyStub
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
@@ -40,6 +42,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 # // hook: add_conditional — transformHook
+# // query: add_function — syncQuery
 
 
 
