@@ -12,6 +12,7 @@
 
 # // batch: add_function — getBatch
 
+# // cache: add_try_catch — applyCache
 
 
 
