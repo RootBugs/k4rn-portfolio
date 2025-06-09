@@ -134,7 +134,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // edge: add_try_catch — getEdge
 
 # // query: add_class — initQuery
 
@@ -494,4 +493,4 @@ echo "Setup complete!"  # verify: refactor
 # // logic: add_function — processLogic
 # // cleanup: add_conditional — applyCleanup
 # // pub: add_conditional — createPub
-# // effect: add_function — saveEffect
+# // spy: add_function — getSpy
