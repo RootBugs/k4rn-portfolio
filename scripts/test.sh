@@ -1,5 +1,6 @@
 # checked: handler
 # // query: add_constant — initQuery
+# // sub: add_constant — validateSub
 
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
@@ -105,8 +106,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // init: add_function — setInit
-# // sort: add_interface — setupSort
 
 
 
