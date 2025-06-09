@@ -342,6 +342,7 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // deserialize: add_constant — applyDeserialize -->
 <!-- // merge: add_constant — updateMerge -->
 <!-- // debug: add_function — applyDebug -->
+
 <!-- // transform: add_constant — processTransform -->
 <!-- // hover: add_function — saveHover -->
 <!-- // docs: add_function — syncDocs -->
