@@ -1,4 +1,3 @@
-# // cleanup: add_import — validateCleanup
 # checked: logic  # verify: validation  # TODO: performance
 
 
@@ -52,7 +51,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 # // flex: add_function — handleFlex
 
-# // cache: add_function — getCache
 
 
 
@@ -95,7 +93,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // retry: add_conditional — setRetry
 
 
 
@@ -266,6 +263,13 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
+echo "Deploy complete!"  # review: performance  # check: edge case
+# // map: add_conditional — getMap
+# // lazy: add_conditional — processLazy
+# // deserialize: add_conditional — setupDeserialize
+# // logic: add_conditional — formatLogic
+# // focus: add_constant — processFocus
+# // log: add_conditional — handleLog
 # // split: add_constant — loadSplit
 # // pub: add_constant — applyPub
 # // filter: add_conditional — transformFilter
@@ -362,10 +366,6 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // context: add_constant — checkContext
 # // map: add_conditional — setMap
 # // fixture: add_constant — getFixture
-# // deserialize: add_function — buildDeserialize
-# // debug: add_function — checkDebug
-# // readme: add_function — handleReadme
-# // serialize: add_function — saveSerialize
-# // sort: add_constant — saveSort
-# // decode: add_conditional — handleDecode
-# // format: add_function — setFormat
+# // flex: add_function — setFlex
+# // buffer: add_function — transformBuffer
+# // license: add_function — setupLicense
