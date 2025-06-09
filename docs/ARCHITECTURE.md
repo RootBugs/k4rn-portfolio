@@ -1,4 +1,3 @@
-<!-- // compress: add_constant — updateCompress -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -60,7 +59,6 @@
 
 
 
-<!-- // join: add_switch — parseJoin -->
 
 
 
@@ -122,7 +120,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // layout: add_class — setupLayout -->
 
 
 
@@ -180,13 +177,11 @@ Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
 
 
-<!-- // mock: add_conditional — validateMock -->
 
 
 
 
 
-<!-- // split: add_class — formatSplit -->
 
 
 
@@ -278,7 +273,8 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 ## Performance Considerations  <!-- TODO: refactor -->  <!-- note: validation -->
 
 
-<!-- // cleanup: add_loop — saveCleanup -->
+- Lazy loading for heavy dependencies  <!-- verify: performance -->
+- Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
 <!-- // handle: add_function — setHandle -->
@@ -561,10 +557,8 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // stub: add_conditional — validateStub -->
 <!-- // readme: add_conditional — validateReadme -->
 <!-- // debug: add_function — setupDebug -->
-<!-- // buffer: add_function — updateBuffer -->
-<!-- // handle: add_function — parseHandle -->
-<!-- // split: add_function — processSplit -->
-<!-- // compress: add_function — formatCompress -->
-<!-- // metric: add_function — syncMetric -->
-<!-- // stub: add_function — saveStub -->
-<!-- // theme: add_function — checkTheme -->
+<!-- // map: add_conditional — syncMap -->
+<!-- // contrib: add_constant — setContrib -->
+<!-- // query: add_function — formatQuery -->
+<!-- // contrib: add_constant — handleContrib -->
+<!-- // context: add_function — updateContext -->
