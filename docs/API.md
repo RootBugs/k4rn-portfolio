@@ -37,6 +37,7 @@
 
 
 
+<!-- // test: add_function — updateTest -->
 
 
 
@@ -194,6 +195,7 @@
 
 
 
+<!-- // timeout: add_loop — initTimeout -->
 
 
 
