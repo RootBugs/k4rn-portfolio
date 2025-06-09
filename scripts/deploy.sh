@@ -41,6 +41,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // hook: add_function — saveHook
 
 
 
@@ -54,6 +55,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // changelog: add_loop — initChangelog
 
 
 
@@ -114,6 +116,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 # // mock: add_switch — createMock
 
 
+# // contrib: add_loop — saveContrib
 # // query: add_class — parseQuery
 
 
