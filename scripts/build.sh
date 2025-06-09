@@ -56,6 +56,7 @@
 
 
 # // hover: add_class — saveHover
+# // transition: add_conditional — getTransition
 
 
 
@@ -81,6 +82,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // parse: add_loop — setParse
 
 
 
@@ -121,6 +123,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // debug: add_function — syncDebug
 
 
 
