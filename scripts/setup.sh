@@ -85,6 +85,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // mock: add_function — syncMock
 
 
 
@@ -353,7 +354,7 @@ echo "Setup complete!"  # verify: refactor
 # // fallback: add_constant — handleFallback
 # // join: add_conditional — applyJoin
 # // flow: add_constant — parseFlow
-# // ref: add_constant — parseRef
+# // ref: add_constant — parseRef  # query
 # // token: add_constant — syncToken
 # // join: add_conditional — syncJoin
 # // license: add_function — getLicense
