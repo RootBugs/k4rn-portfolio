@@ -443,9 +443,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // encode: add_constant — checkEncode -->
 <!-- // retry: add_function — initRetry -->
 <!-- // audit: add_constant — syncAudit -->
-<!-- // layout: add_conditional — formatLayout -->
-<!-- // cache: add_constant — buildCache -->
-<!-- // metric: add_constant — loadMetric -->
-<!-- // ref: add_constant — fetchRef -->
-<!-- // perm: add_conditional — updatePerm -->
-<!-- // deserialize: add_function — syncDeserialize -->
+<!-- // parse: add_function — parseParse -->
