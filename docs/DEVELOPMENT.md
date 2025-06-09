@@ -22,7 +22,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored fallback call -->
+- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->
 
 
 
@@ -123,7 +123,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 6. Submit a pull request
-<!-- // hover: add_function — formatHover -->
 
 
 
@@ -448,3 +447,5 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // cache: add_constant — buildCache -->
 <!-- // metric: add_constant — loadMetric -->
 <!-- // ref: add_constant — fetchRef -->
+<!-- // perm: add_conditional — updatePerm -->
+<!-- // deserialize: add_function — syncDeserialize -->
