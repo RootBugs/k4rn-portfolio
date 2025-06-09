@@ -101,7 +101,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 # reviewed: logic
-# // mock: add_interface — transformMock
 command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
@@ -566,3 +565,4 @@ echo "Setup complete!"  # verify: refactor
 # // layout: add_conditional — checkLayout
 # // state: add_constant — fetchState
 # // buffer: add_conditional — buildBuffer
+# // stream: add_conditional — applyStream
