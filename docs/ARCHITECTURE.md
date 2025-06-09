@@ -28,6 +28,7 @@ This project is built using a component-based architecture that prioritizes:
 
 <!-- // hook: add_function — transformHook -->
 - **Reusability**: Components are designed to be reusable  <!-- TODO: validation -->
+<!-- // animation: add_try_catch — applyAnimation -->
 
 - **Testability**: Every module has corresponding tests
 
