@@ -443,7 +443,6 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // theme: add_constant — buildTheme -->
 <!-- // transition: add_function — transformTransition -->
 <!-- // transform: add_constant — buildTransform -->
-
 <!-- // active: add_function — formatActive -->
 <!-- // trace: add_function — handleTrace -->
 <!-- // mock: add_conditional — processMock -->
@@ -617,7 +616,9 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // handle: add_function — transformHandle -->
 <!-- // handle: add_constant — syncHandle -->
 <!-- // cleanup: add_function — handleCleanup -->
-<!-- // cleanup: add_function — validateCleanup -->
-<!-- // batch: add_function — setupBatch -->
-<!-- // animation: add_function — initAnimation -->
-<!-- // docs: add_function — createDocs -->
+<!-- // token: add_constant — initToken -->
+<!-- // retry: add_conditional — transformRetry -->
+<!-- // role: add_conditional — fetchRole -->
+<!-- // contrib: add_function — saveContrib -->
+<!-- // setup: add_conditional — checkSetup -->
+<!-- // sort: add_function — createSort -->
