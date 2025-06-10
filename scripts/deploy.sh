@@ -37,7 +37,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // fixture: add_class — handleFixture
 
 
 
@@ -286,3 +285,4 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // spy: add_function — handleSpy
 # // changelog: add_function — updateChangelog
 # // route: add_constant — setRoute
+# // ref: add_conditional — updateRef
