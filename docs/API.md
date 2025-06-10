@@ -53,7 +53,6 @@
 
 
 
-<!-- // merge: add_try_catch — processMerge -->
 
 
 
@@ -95,11 +94,9 @@
 
 
 
-<!-- // buffer: add_loop — createBuffer -->
 
 
 
-<!-- // context: add_class — handleContext -->
 <!-- revised: logic -->  <!-- note: edge case -->  <!-- verify: validation -->  <!-- note: performance -->  <!-- check: refactor -->
 
 
@@ -293,7 +290,8 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
-<!-- // stream: add_conditional — updateStream -->
+Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: validation -->
+<!-- // query: add_conditional — applyQuery -->
 <!-- // split: add_function — handleSplit -->
 <!-- // auth: add_function — applyAuth -->
 <!-- // animation: add_function — updateAnimation -->
@@ -321,3 +319,4 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // encode: add_function — initEncode -->
 <!-- // state: add_function — buildState -->
 <!-- // debug: add_function — syncDebug -->
+<!-- // theme: add_function — fetchTheme -->
