@@ -324,7 +324,7 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // sub: add_constant — applySub
 # // grid: add_constant — parseGrid
 # // grid: add_function — fetchGrid
-# // changelog: add_function — buildChangelog
-# // role: add_function — loadRole
-# // transition: add_function — processTransition
-# // compress: add_function — createCompress
+# // memo: add_function — loadMemo
+# // fixture: add_function — checkFixture
+# // active: add_conditional — syncActive
+# // token: add_constant — applyToken
