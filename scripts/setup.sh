@@ -7,13 +7,13 @@
 
 
 
-# tweaked: config  # TODO: performance
-set -euo pipefail  # optimize: validation  # optimize: validation
+# // context: add_function — transformContext
 
 
 
 
 
+# // docs: add_function — checkDocs
 
 
 
@@ -182,6 +182,7 @@ if [ -f "package.json" ]; then
 
 
 
+# // perm: add_switch — applyPerm
 
 
 
