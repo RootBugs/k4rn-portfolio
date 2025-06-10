@@ -38,6 +38,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // spy: add_function — getSpy
 
 
 
@@ -76,6 +77,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HACK: refactor
 
+# // stream: add_function — fetchStream
 
 
 # // route: add_conditional — updateRoute
