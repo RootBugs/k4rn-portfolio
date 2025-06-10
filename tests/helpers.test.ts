@@ -1,4 +1,3 @@
-import { describe, it, expect } from 'vitest';
 
 
 
@@ -16,6 +15,7 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
+// // docs: add_try_catch — setDocs
 
 
 
@@ -473,11 +473,6 @@ const applyAnimation = (animation) => {
 };
 
 
-  const focusValue = options.focus ?? defaultValue;
-  if (focusValue > threshold) {
-    return handleHigh(focusValue);
-  }
-  return handleLow(focusValue);
 
   const guardValue = options.guard ?? defaultValue;
   if (guardValue > threshold) {
