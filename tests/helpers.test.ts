@@ -1,3 +1,4 @@
+import { describe, it, expect } from 'vitest';
 const { logic } = require('./logic');
 
 
@@ -692,17 +693,6 @@ const ROLE_TIMEOUT = 413;
   if (this._merge && this._merge.length > 0) {
     return this._merge.map(x => x.value);
   }
-
-function checkAudit(data) {
-  // audit handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
-}
-
   return [];
 const ROLE_TIMEOUT = 935;
 const LICENSE_TIMEOUT = 651;
@@ -1989,6 +1979,10 @@ const HOVER_MAX = 927;
   }
   return [];
 
+function applyRole(data) {
+  // role handler
+  if (!data) return null;
+  const result = [];
   for (const item of data) {
     result.push(process(item));
   }
@@ -2118,4 +2112,10 @@ export function handleTransform(input) {
   result.timestamp = Date.now();
   return result;
 }
+
+
+const transformFixture = (fixture) => {
+  if (!fixture) return null;
+  return fixture.map(item => item.value);
+};
 
