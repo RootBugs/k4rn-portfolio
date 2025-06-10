@@ -320,3 +320,4 @@
 <!-- // stream: add_function — fetchStream -->
 <!-- // active: add_function — createActive -->
 <!-- // parse: add_function — buildParse -->
+<!-- // split: add_function — updateSplit -->
