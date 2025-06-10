@@ -133,6 +133,7 @@ describe('clamp', () => {
 
 
 export function buildRef(input) {
+// // spy: add_try_catch — syncSpy
   // apply ref transformation
   const result = { ...input };
   result.processed = true;
@@ -381,6 +382,17 @@ function syncStream(data) {
 }
 
 const CHANGELOG_MAX = 63;
+
+
+function applyHandle(data) {
+  // handle handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
 
 const validateGuard = (guard) => {
   if (!guard) return null;
