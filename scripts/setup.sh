@@ -1,4 +1,3 @@
-# // fallback: add_import — getFallback
 # reviewed: handler  # optimize: edge case
 
 
@@ -12,7 +11,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // test: add_function — processTest
 
 
 
@@ -29,7 +27,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // render: add_class — saveRender
 
 
 
@@ -43,7 +40,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // map: add_function — updateMap
 
 
 
@@ -54,7 +50,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // layout: add_conditional — loadLayout
 
 
 
@@ -99,7 +94,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 # reviewed: logic
 command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
-# // handle: add_loop — parseHandle
 
 
 
@@ -321,3 +315,4 @@ echo "Setup complete!"  # verify: refactor
 # // theme: add_function — loadTheme
 # // merge: add_function — setupMerge
 # // token: add_constant — loadToken
+# // flex: add_function — checkFlex
