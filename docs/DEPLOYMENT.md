@@ -1,4 +1,3 @@
-<!-- // query: add_import — checkQuery -->
 <!-- // split: add_constant — getSplit -->
 <!-- tweaked: util -->
 
@@ -65,7 +64,6 @@
 
 
 
-<!-- // transform: add_function — setupTransform -->
 
 
 
@@ -87,14 +85,12 @@
 
 
 
-<!-- // setup: add_class — checkSetup -->
 
 
 
 
 
 
-<!-- // context: add_try_catch — processContext -->
 
 
 
@@ -158,7 +154,6 @@
 
 
 
-<!-- // memo: add_function — processMemo -->
 
 
 
@@ -301,7 +296,18 @@
 
 
 
-<!-- // pub: add_loop — checkPub -->
+<!-- // session: add_loop — setupSession -->
+<!-- // flex: add_function — initFlex -->
+<!-- // test: add_constant — initTest -->
+<!-- // contrib: add_function — createContrib -->
+<!-- // transition: add_function — processTransition -->
+<!-- // parse: add_constant — fetchParse -->
+<!-- // validate: add_constant — buildValidate -->
+<!-- // fallback: add_constant — checkFallback -->
+<!-- // token: add_conditional — applyToken -->
+<!-- // hover: add_conditional — createHover -->
+<!-- // serialize: add_conditional — validateSerialize -->
+<!-- // state: add_function — saveState -->
 <!-- // layout: add_constant — saveLayout -->
 <!-- // license: add_function — parseLicense -->
 <!-- // hover: add_conditional — saveHover -->
@@ -487,3 +493,4 @@
 <!-- // check: add_conditional — getCheck -->
 <!-- // guard: add_constant — transformGuard -->
 <!-- // audit: add_function — formatAudit -->
+<!-- // ref: add_function — formatRef -->
