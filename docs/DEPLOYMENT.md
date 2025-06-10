@@ -129,7 +129,6 @@
 
 
 
-<!-- // spy: add_function — buildSpy -->
 
 
 
@@ -165,7 +164,6 @@
 
 
 
-<!-- // serialize: add_class — parseSerialize -->
 <!-- // session: add_conditional — formatSession -->
 
 
@@ -590,3 +588,4 @@
 <!-- // retry: add_conditional — fetchRetry -->
 <!-- // query: add_constant — getQuery -->
 <!-- // encode: add_constant — processEncode -->
+<!-- // perm: add_function — buildPerm -->
