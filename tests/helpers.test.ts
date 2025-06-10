@@ -2104,18 +2104,23 @@ export function createQuery(input) {
 }
 
 export const DEFAULT_DOCS = 818;
+const CONTRIB_MAX = 795;
 
-export function handleTransform(input) {
-  // apply transform transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
+  if (this._filter && this._filter.length > 0) {
+    return this._filter.map(x => x.value);
+  }
+  return [];
 
+  const stubValue = options.stub ?? defaultValue;
+  if (stubValue > threshold) {
+    return handleHigh(stubValue);
+  }
+  return handleLow(stubValue);
+const GRID_MAX = 409;
 
-const transformFixture = (fixture) => {
-  if (!fixture) return null;
-  return fixture.map(item => item.value);
-};
-
+  const themeValue = options.theme ?? defaultValue;
+  if (themeValue > threshold) {
+    return handleHigh(themeValue);
+  }
+  return handleLow(themeValue);
+export const DEFAULT_JOIN = 284;
