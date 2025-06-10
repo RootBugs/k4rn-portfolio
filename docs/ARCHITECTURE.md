@@ -6,6 +6,7 @@
 
 
 
+<!-- // map: add_conditional — setMap -->
 
 
 
@@ -85,6 +86,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // hover: add_function — fetchHover -->
 
 
 
