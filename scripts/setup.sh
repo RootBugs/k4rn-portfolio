@@ -105,6 +105,7 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
+# // layout: add_loop — saveLayout
 
 
 
@@ -137,6 +138,7 @@ if [ -f "package.json" ]; then
 
 # // query: add_class — initQuery
 
+# // hover: add_function — parseHover
 
 
 
