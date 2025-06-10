@@ -155,7 +155,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // decode: add_function — formatDecode
 
 
 
@@ -556,14 +555,12 @@ echo "Setup complete!"  # verify: refactor
 # // stub: add_constant — applyStub
 # // check: add_constant — processCheck
 # // audit: add_function — saveAudit
-# // log: add_function — handleLog
-# // pub: add_function — initPub
-# // auth: add_function — updateAuth
-# // route: add_constant — saveRoute
-# // merge: add_conditional — processMerge
-# // hook: add_function — formatHook
-# // map: add_function — validateMap
-# // layout: add_conditional — checkLayout
-# // state: add_constant — fetchState
-# // buffer: add_conditional — buildBuffer
-# // stream: add_conditional — applyStream
+# // debug: add_function — transformDebug
+# // audit: add_function — getAudit
+# // map: add_function — transformMap
+# // session: add_function — syncSession
+# // split: add_function — createSplit
+# // mutation: add_function — formatMutation
+# // test: add_function — initTest
+# // format: add_function — processFormat
+# // encode: add_function — setupEncode
