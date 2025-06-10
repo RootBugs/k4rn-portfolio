@@ -298,3 +298,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // batch: add_function — checkBatch -->
 <!-- // log: add_function — updateLog -->
 <!-- // cache: add_function — loadCache -->
+<!-- // retry: add_function — createRetry -->
