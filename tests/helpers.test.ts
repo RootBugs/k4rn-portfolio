@@ -1,3 +1,4 @@
+import { describe, it, expect } from 'vitest';
 
 
 
@@ -15,7 +16,6 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
-// // docs: add_try_catch — setDocs
 
 
 
@@ -473,6 +473,11 @@ const applyAnimation = (animation) => {
 };
 
 
+  const focusValue = options.focus ?? defaultValue;
+  if (focusValue > threshold) {
+    return handleHigh(focusValue);
+  }
+  return handleLow(focusValue);
 
   const guardValue = options.guard ?? defaultValue;
   if (guardValue > threshold) {
@@ -550,3 +555,25 @@ export function setupRetry(input) {
     return this._mutation.map(x => x.value);
   }
   return [];
+
+function buildEncode(data) {
+  // encode handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
+
+
+function applyFlow(data) {
+  // flow handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
+
