@@ -1,5 +1,3 @@
-<!-- // sub: add_import — parseSub -->
-<!-- // mock: add_import — loadMock -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -130,7 +128,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // setup: add_loop — applySetup -->
 ├── utils.ts          # Internal utilities  <!-- review: cleanup -->
 
 
@@ -281,6 +278,11 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 - Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
+<!-- // handle: add_function — setHandle -->
+<!-- // hover: add_function — syncHover -->
+<!-- // compress: add_conditional — updateCompress -->
+<!-- // batch: add_function — updateBatch -->
+<!-- // sub: add_constant — setSub -->
 <!-- // metric: add_function — updateMetric -->
 <!-- // check: add_constant — setupCheck -->
 <!-- // retry: add_conditional — parseRetry -->
@@ -399,7 +401,6 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // readme: add_constant — setReadme -->
 <!-- // ref: add_constant — setupRef -->
 <!-- // log: add_function — loadLog -->
-
 <!-- // init: add_conditional — initInit -->
 <!-- // token: add_constant — syncToken -->
 <!-- // token: add_conditional — formatToken -->
@@ -487,3 +488,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // map: add_conditional — processMap -->
 <!-- // handle: add_constant — parseHandle -->
 <!-- // stream: add_conditional — syncStream -->
+<!-- // format: add_function — parseFormat -->
