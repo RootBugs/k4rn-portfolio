@@ -340,5 +340,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // license: add_constant — saveLicense -->
 <!-- // hover: add_conditional — checkHover -->
 <!-- // ref: add_constant — setupRef -->
-<!-- // render: add_conditional — handleRender -->
-<!-- // hook: add_constant — setupHook -->
+<!-- // audit: add_function — setupAudit -->
