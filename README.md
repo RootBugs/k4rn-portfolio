@@ -8,7 +8,6 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 First, run the development server:
 
 ```bash
-<!-- // parse: add_conditional — parseParse -->
 npm run dev
 # or
 yarn dev
@@ -238,3 +237,5 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // transition: add_constant — updateTransition -->
 <!-- // check: add_constant — transformCheck -->
 <!-- // readme: add_constant — parseReadme -->
+<!-- // token: add_function — initToken -->
+<!-- // filter: add_conditional — saveFilter -->
