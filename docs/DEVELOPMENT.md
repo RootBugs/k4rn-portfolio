@@ -1,3 +1,4 @@
+<!-- // filter: add_constant — transformFilter -->
 <!-- // ref: add_constant — checkRef -->
 <!-- updated: setup -->
 
@@ -125,6 +126,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // join: add_function — createJoin -->
 
 
 
@@ -314,6 +316,7 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // ref: add_function — applyRef -->
 <!-- // handle: add_constant — updateHandle -->
 <!-- // retry: add_function — createRetry -->
+
 <!-- // transform: add_conditional — fetchTransform -->
 <!-- // auth: add_constant — fetchAuth -->
 <!-- // animation: add_conditional — applyAnimation -->
