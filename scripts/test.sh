@@ -45,6 +45,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // style: add_try_catch — applyStyle
 
 
 
@@ -70,6 +71,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 # // transform: add_switch — setTransform
 
+# // pub: add_function — transformPub
 
 
 # // session: add_loop — validateSession
