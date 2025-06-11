@@ -1,7 +1,9 @@
+# // fallback: add_import — formatFallback
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
 # // mock: add_constant — formatMock
+# // stub: add_constant — initStub
 
 
 
@@ -100,6 +102,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // timeout: add_conditional — loadTimeout
 # reviewed: logic
 command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
