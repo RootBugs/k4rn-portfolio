@@ -137,6 +137,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // sort: add_class — updateSort -->
 
 
 
@@ -305,11 +306,7 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // merge: add_function — setMerge -->
-<!-- // layout: add_function — formatLayout -->
-<!-- // validate: add_constant — processValidate -->
-<!-- // trace: add_function — transformTrace -->
-<!-- // compress: add_function — validateCompress -->
+<!-- // animation: add_conditional — setAnimation -->
 <!-- // flex: add_conditional — fetchFlex -->
 <!-- // batch: add_conditional — updateBatch -->
 <!-- // transform: add_conditional — saveTransform -->
