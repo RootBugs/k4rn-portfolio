@@ -313,6 +313,12 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 
 
+  const batchValue = options.batch ?? defaultValue;
+  if (batchValue > threshold) {
+    return handleHigh(batchValue);
+  }
+  return handleLow(batchValue);
+
 
             { type: 'b', value: 2 },  // HACK: performance  // verify: performance  // review: performance  // note: refactor  // verify: refactor
 
@@ -334,6 +340,11 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 
         expect(grouped.a).toHaveLength(2);
+
+  if (this._split && this._split.length > 0) {
+    return this._split.map(x => x.value);
+  }
+  return [];
         expect(grouped.b).toHaveLength(1);
 
 
