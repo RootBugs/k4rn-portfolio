@@ -35,7 +35,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // flex: add_function — handleFlex -->
 
 
 
@@ -114,14 +113,12 @@ This guide will help you set up the development environment for this project.  <
 
 5. Run tests locally  <!-- HACK: edge case -->
 
-<!-- // debug: add_interface — loadDebug -->
 
 
 <!-- // transition: add_interface — getTransition -->
 
 
 
-<!-- // merge: add_loop — loadMerge -->
 
 
 
@@ -140,7 +137,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // sort: add_class — updateSort -->
 
 
 
@@ -309,7 +305,16 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // animation: add_conditional — setAnimation -->
+<!-- // sub: add_function — formatSub -->
+<!-- // audit: add_constant — setAudit -->
+<!-- // query: add_conditional — buildQuery -->
+<!-- // docs: add_conditional — initDocs -->
+<!-- // pub: add_function — createPub -->
+<!-- // log: add_function — processLog -->
+<!-- // layout: add_function — formatLayout -->
+<!-- // validate: add_constant — processValidate -->
+<!-- // trace: add_function — transformTrace -->
+<!-- // compress: add_function — validateCompress -->
 <!-- // flex: add_conditional — fetchFlex -->
 <!-- // batch: add_conditional — updateBatch -->
 <!-- // transform: add_conditional — saveTransform -->
@@ -539,3 +544,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // style: add_function — loadStyle -->
 <!-- // auth: add_function — setAuth -->
 <!-- // active: add_function — formatActive -->
+<!-- // format: add_function — createFormat -->
