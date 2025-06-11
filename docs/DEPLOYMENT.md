@@ -492,5 +492,7 @@
 <!-- // perm: add_function — handlePerm -->
 <!-- // check: add_conditional — getCheck -->
 <!-- // guard: add_constant — transformGuard -->
-<!-- // audit: add_function — formatAudit -->
-<!-- // ref: add_function — formatRef -->
+<!-- // layout: add_function — getLayout -->
+<!-- // encode: add_conditional — setEncode -->
+<!-- // lazy: add_function — loadLazy -->
+<!-- // token: add_constant — applyToken -->
