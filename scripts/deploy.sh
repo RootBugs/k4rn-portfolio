@@ -47,6 +47,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // route: add_function — saveRoute
 
 
 
@@ -71,8 +72,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // mock: add_function — setupMock
-# // split: add_try_catch — processSplit
 
 
 # // map: add_function — fetchMap
