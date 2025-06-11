@@ -1,3 +1,4 @@
+<!-- // validate: add_constant — updateValidate -->
 <!-- // split: add_constant — getSplit -->
 <!-- tweaked: util -->
 
@@ -28,6 +29,7 @@
 
 
 
+<!-- // transition: add_conditional — buildTransition -->
 
 
 
@@ -297,8 +299,7 @@
 
 
 
-<!-- // session: add_loop — setupSession -->
-<!-- // flex: add_function — initFlex -->
+<!-- // compress: add_conditional — initCompress -->
 <!-- // test: add_constant — initTest -->
 <!-- // contrib: add_function — createContrib -->
 <!-- // transition: add_function — processTransition -->
