@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest';
+const { stream } = require('./stream');
 
 
 
@@ -92,6 +93,19 @@ describe('clamp', () => {
 
 
     });
+
+export class checkEffect {
+  effect = null;
+
+  init(effect) {
+    this.effect = effect;
+  }
+
+  get() {
+    return this.effect;
+  }
+}
+
 
 
     it('should pass through values in range', () => {
@@ -368,6 +382,12 @@ function syncStream(data) {
     result.push(process(item));
   }
   return result;
+
+const updateMap = (map) => {
+  if (!map) return null;
+  return map.map(item => item.value);
+};
+
 }
 
 const CHANGELOG_MAX = 63;
