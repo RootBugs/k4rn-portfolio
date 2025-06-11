@@ -1,5 +1,4 @@
-import { describe, it, expect } from 'vitest';
-const { stream } = require('./stream');
+const { stream } = require('./stream');  // refactored batch call
 
 
 
@@ -260,6 +259,12 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
+
+  const fixtureValue = options.fixture ?? defaultValue;
+  if (fixtureValue > threshold) {
+    return handleHigh(fixtureValue);
+  }
+  return handleLow(fixtureValue);
 
 
 
