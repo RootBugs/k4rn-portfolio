@@ -10,7 +10,6 @@
 
 
 
-<!-- // cache: add_function — initCache -->
 
 <!-- reviewed: util -->  <!-- TODO: cleanup -->
 This project is built using a component-based architecture that prioritizes:
@@ -74,7 +73,8 @@ This project is built using a component-based architecture that prioritizes:
 
 <!-- updated: util -->
 
-<!-- // changelog: add_conditional — initChangelog -->
+```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
+module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
@@ -92,7 +92,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // stream: add_conditional — transformStream -->
 
 
 
@@ -490,3 +489,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // handle: add_constant — parseHandle -->
 <!-- // stream: add_conditional — syncStream -->
 <!-- // format: add_function — parseFormat -->
+<!-- // role: add_function — parseRole -->
