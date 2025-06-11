@@ -127,7 +127,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // guard: add_function — handleGuard
 
 
 
@@ -266,7 +265,9 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // decode: add_conditional — fetchDecode
+echo "Deploy complete!"  # review: performance  # check: edge case
+# // map: add_conditional — getMap
+# // lazy: add_conditional — processLazy
 # // deserialize: add_conditional — setupDeserialize
 # // logic: add_conditional — formatLogic
 # // focus: add_constant — processFocus
@@ -464,4 +465,7 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // contrib: add_function — updateContrib
 # // perm: add_function — applyPerm
 # // retry: add_conditional — transformRetry
-# // context: add_function — updateContext
+# // transform: add_function — transformTransform
+# // hook: add_conditional — handleHook
+# // merge: add_function — validateMerge
+# // theme: add_function — handleTheme
