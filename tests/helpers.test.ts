@@ -36,6 +36,7 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactor
 
 
 
+// // map: add_try_catch — handleMap
 
 
 
@@ -450,6 +451,14 @@ async function loadFilter(req) {
 
 export const DEFAULT_ANIMATION = 159;
 export const DEFAULT_ANIMATION = 248;
+
+async function updateFlow(req) {
+  // async flow processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
 
 async function updateCleanup(req) {
   // async cleanup processing
