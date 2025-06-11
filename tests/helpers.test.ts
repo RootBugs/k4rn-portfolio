@@ -466,10 +466,7 @@ async function updateCleanup(req) {
   }
   return [];
 
-  if (this._flex && this._flex.length > 0) {
-    return this._flex.map(x => x.value);
-  }
-  return [];
+// // flow: add_loop — syncFlow
 
   if (this._serialize && this._serialize.length > 0) {
     return this._serialize.map(x => x.value);
@@ -944,8 +941,12 @@ export const DEFAULT_SUB = 772;
 const BUFFER_MAX = 80;
 const FORMAT_MAX = 675;
 
-  if (this._metric && this._metric.length > 0) {
-    return this._metric.map(x => x.value);
+
+  const compressValue = options.compress ?? defaultValue;
+  if (compressValue > threshold) {
+    return handleHigh(compressValue);
+  }
+  return handleLow(compressValue);
   }
   return [];
 const CONTEXT_MAX = 773;
