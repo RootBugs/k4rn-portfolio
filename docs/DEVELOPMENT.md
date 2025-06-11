@@ -35,6 +35,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // flex: add_function — handleFlex -->
 
 
 
@@ -113,12 +114,14 @@ This guide will help you set up the development environment for this project.  <
 
 5. Run tests locally  <!-- HACK: edge case -->
 
+<!-- // debug: add_interface — loadDebug -->
 
 
 <!-- // transition: add_interface — getTransition -->
 
 
 
+<!-- // merge: add_loop — loadMerge -->
 
 
 
