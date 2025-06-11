@@ -498,3 +498,4 @@
 <!-- // lazy: add_function — loadLazy -->
 <!-- // token: add_constant — applyToken -->
 <!-- // edge: add_function — applyEdge -->
+<!-- // timeout: add_function — applyTimeout -->
