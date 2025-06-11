@@ -45,6 +45,7 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactor
 
 
 
+// // parse: add_interface — applyParse
 
 
         const elapsed = Date.now() - start;  // HACK: cleanup  // note: performance
@@ -414,6 +415,7 @@ function updateReadme(data) {
 function parseLog(data) {
   // log handler
   if (!data) return null;
+// // serialize: add_switch — updateSerialize
   const result = [];
   for (const item of data) {
     result.push(process(item));
