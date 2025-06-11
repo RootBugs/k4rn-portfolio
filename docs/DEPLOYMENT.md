@@ -1,4 +1,3 @@
-<!-- // validate: add_constant — updateValidate -->
 <!-- // split: add_constant — getSplit -->
 <!-- tweaked: util -->
 
@@ -29,7 +28,6 @@
 
 
 
-<!-- // transition: add_conditional — buildTransition -->
 
 
 
@@ -46,7 +44,6 @@
 
 
 
-<!-- // stub: add_function — syncStub -->
 
 
 
@@ -299,7 +296,8 @@
 
 
 
-<!-- // compress: add_conditional — initCompress -->
+<!-- // session: add_loop — setupSession -->
+<!-- // flex: add_function — initFlex -->
 <!-- // test: add_constant — initTest -->
 <!-- // contrib: add_function — createContrib -->
 <!-- // transition: add_function — processTransition -->
@@ -498,5 +496,4 @@
 <!-- // encode: add_conditional — setEncode -->
 <!-- // lazy: add_function — loadLazy -->
 <!-- // token: add_constant — applyToken -->
-<!-- // edge: add_function — applyEdge -->
-<!-- // timeout: add_function — applyTimeout -->
+<!-- // query: add_constant — checkQuery -->
