@@ -496,3 +496,4 @@
 <!-- // encode: add_conditional — setEncode -->
 <!-- // lazy: add_function — loadLazy -->
 <!-- // token: add_constant — applyToken -->
+<!-- // edge: add_function — applyEdge -->
