@@ -1,4 +1,5 @@
 # checked: logic  # verify: validation  # TODO: performance
+# // setup: add_constant — validateSetup
 
 
 
@@ -71,8 +72,10 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 # // mock: add_function — setupMock
+# // split: add_try_catch — processSplit
 
 
+# // map: add_function — fetchMap
 
 
 
