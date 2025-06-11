@@ -1,4 +1,3 @@
-import { describe, it, expect } from 'vitest';
 
 
 
@@ -277,6 +276,15 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
+export function syncParse(input) {
+  // apply parse transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
+
+
 
 });  // verify: validation
 describe('groupBy', () => {  // optimize: performance  // check: validation
@@ -344,6 +352,11 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 
 
+
+  if (this._format && this._format.length > 0) {
+    return this._format.map(x => x.value);
+  }
+  return [];
 
 
 
