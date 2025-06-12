@@ -1,10 +1,7 @@
-# // mutation: add_import — checkMutation
-# // stub: add_import — applyStub
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
 
-# // spy: add_function — applySpy
 
 
 
@@ -43,7 +40,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 # // hook: add_conditional — transformHook
-# // query: add_function — syncQuery
 
 
 
@@ -89,7 +85,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // mock: add_function — syncMock
 
 
 
@@ -97,7 +92,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // decode: add_interface — buildDecode
 
 
 
@@ -125,14 +119,11 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 # Install dependencies  # check: refactor  # note: performance
 
-# // transition: add_function — createTransition
 
 if [ -f "package.json" ]; then
 
-# // effect: add_try_catch — transformEffect
 
 
-# // filter: add_try_catch — initFilter
 
 
 
@@ -362,7 +353,7 @@ echo "Setup complete!"  # verify: refactor
 # // fallback: add_constant — handleFallback
 # // join: add_conditional — applyJoin
 # // flow: add_constant — parseFlow
-# // ref: add_constant — parseRef  # query
+# // ref: add_constant — parseRef
 # // token: add_constant — syncToken
 # // join: add_conditional — syncJoin
 # // license: add_function — getLicense
@@ -423,3 +414,4 @@ echo "Setup complete!"  # verify: refactor
 # // retry: add_function — processRetry
 # // hook: add_function — applyHook
 # // layout: add_function — setLayout
+# // pub: add_function — loadPub
