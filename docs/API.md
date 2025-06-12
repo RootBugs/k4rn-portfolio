@@ -401,3 +401,4 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // token: add_function — loadToken -->
 <!-- // state: add_function — syncState -->
 <!-- // hook: add_function — transformHook -->
+<!-- // memo: add_function — setupMemo -->
