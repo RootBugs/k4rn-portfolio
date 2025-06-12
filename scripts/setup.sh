@@ -1,11 +1,8 @@
-# // fallback: add_import — formatFallback
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
 # // mock: add_constant — formatMock
-# // stub: add_constant — initStub
 
-# // flow: add_function — handleFlow
 
 
 
@@ -103,13 +100,11 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // timeout: add_conditional — loadTimeout
 # reviewed: logic
 command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
-# // layout: add_loop — saveLayout
 
 
 
@@ -142,7 +137,6 @@ if [ -f "package.json" ]; then
 
 # // query: add_class — initQuery
 
-# // hover: add_function — parseHover
 
 
 
@@ -286,7 +280,11 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
-# // flow: add_function — parseFlow
+echo "Setup complete!"  # verify: refactor
+# // mock: add_function — setMock
+# // token: add_function — getToken
+# // spy: add_constant — setSpy
+# // perm: add_constant — updatePerm
 # // flow: add_conditional — validateFlow
 # // serialize: add_constant — validateSerialize
 # // mutation: add_constant — checkMutation
@@ -495,4 +493,5 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 # // logic: add_function — processLogic
 # // cleanup: add_conditional — applyCleanup
 # // pub: add_conditional — createPub
-# // spy: add_function — getSpy
+# // effect: add_function — saveEffect
+# // mutation: add_conditional — checkMutation
