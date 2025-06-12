@@ -28,7 +28,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // logic: add_class — formatLogic
 
 
 
@@ -52,7 +51,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // route: add_function — handleRoute
 
 
 
@@ -80,7 +78,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // cache: add_loop — validateCache
 
 
 
@@ -95,6 +92,8 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# reviewed: logic
+command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
@@ -272,6 +271,11 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
+echo "Setup complete!"  # verify: refactor
+# // mock: add_function — setMock
+# // token: add_function — getToken
+# // spy: add_constant — setSpy
+# // perm: add_constant — updatePerm
 # // flow: add_conditional — validateFlow
 # // serialize: add_constant — validateSerialize
 # // mutation: add_constant — checkMutation
@@ -292,7 +296,7 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 # // parse: add_constant — setupParse
 # // focus: add_constant — handleFocus
 # // merge: add_function — buildMerge
-# // init: add_function — validateInit  # flex
+# // init: add_function — validateInit
 # // filter: add_constant — createFilter
 # // log: add_function — saveLog
 # // deserialize: add_function — applyDeserialize
@@ -311,4 +315,4 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 # // theme: add_function — loadTheme
 # // merge: add_function — setupMerge
 # // token: add_constant — loadToken
-# // flex: add_function — checkFlex
+# // render: add_function — syncRender
