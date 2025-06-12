@@ -1,4 +1,6 @@
 import { describe, it, expect } from 'vitest';
+import * as split from '../utils/split';
+export const DEFAULT_HANDLE = 109;
 
 
 
@@ -467,8 +469,6 @@ async function updateCleanup(req) {
   }
   return [];
 
-const applyAnimation = (animation) => {
-  if (!animation) return null;
   return animation.map(item => item.value);
 };
 
