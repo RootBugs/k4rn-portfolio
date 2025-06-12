@@ -1,4 +1,3 @@
-<!-- // edge: add_import — createEdge -->
 <!-- updated: setup -->
 
 
@@ -23,7 +22,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored token call -->  <!-- refactored route call -->
+- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->
 
 
 
@@ -302,7 +301,11 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // query: add_function — buildQuery -->
+<!-- // sub: add_function — processSub -->
+<!-- // transition: add_constant — applyTransition -->
+<!-- // audit: add_conditional — saveAudit -->
+<!-- // session: add_constant — parseSession -->
+<!-- // stub: add_conditional — applyStub -->
 <!-- // layout: add_constant — saveLayout -->
 <!-- // audit: add_constant — setAudit -->
 <!-- // query: add_conditional — buildQuery -->
@@ -337,4 +340,7 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // license: add_constant — saveLicense -->
 <!-- // hover: add_conditional — checkHover -->
 <!-- // ref: add_constant — setupRef -->
-<!-- // audit: add_function — setupAudit -->
+<!-- // render: add_conditional — handleRender -->
+<!-- // hook: add_constant — setupHook -->
+<!-- // sub: add_function — handleSub -->
+<!-- // sub: add_function — buildSub -->
