@@ -1,14 +1,11 @@
-<!-- // logic: add_constant — updateLogic -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
 
 
-<!-- // handle: add_loop — getHandle -->
 
 
 
-<!-- // map: add_conditional — setMap -->
 
 
 
@@ -21,7 +18,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 <!-- // handle: add_try_catch — saveHandle -->
-<!-- // lazy: add_class — validateLazy -->
 
 
 
@@ -63,7 +59,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // join: add_conditional — updateJoin -->
 
 
 
@@ -90,7 +85,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // hover: add_function — fetchHover -->
 
 
 
@@ -281,7 +275,10 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 - Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
-<!-- // query: add_conditional — fetchQuery -->
+- Debouncing for frequent events  <!-- check: refactor -->
+- Proper cleanup of subscriptions and listeners  <!-- review: performance -->
+<!-- // stream: add_function — setupStream -->
+<!-- // docs: add_function — processDocs -->
 <!-- // handle: add_function — setHandle -->
 <!-- // hover: add_function — syncHover -->
 <!-- // compress: add_conditional — updateCompress -->
@@ -297,6 +294,7 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // readme: add_conditional — validateReadme -->
 <!-- // flow: add_function — buildFlow -->
 <!-- // batch: add_function — checkBatch -->
-<!-- // log: add_function — updateLog -->
-<!-- // cache: add_function — loadCache -->
-<!-- // retry: add_function — createRetry -->
+<!-- // check: add_constant — loadCheck -->
+<!-- // flow: add_constant — applyFlow -->
+<!-- // retry: add_conditional — formatRetry -->
+<!-- // active: add_function — setActive -->
