@@ -12,7 +12,6 @@
 
 # // batch: add_function — getBatch
 
-# // cache: add_try_catch — applyCache
 
 
 
@@ -42,7 +41,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // hook: add_function — saveHook
 
 
 
@@ -56,7 +54,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // changelog: add_loop — initChangelog
 
 
 
@@ -117,7 +114,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 # // mock: add_switch — createMock
 
 
-# // contrib: add_loop — saveContrib
 # // query: add_class — parseQuery
 
 
@@ -370,6 +366,12 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // context: add_constant — checkContext
 # // map: add_conditional — setMap
 # // fixture: add_constant — getFixture
-# // flex: add_function — setFlex
-# // buffer: add_function — transformBuffer
-# // license: add_function — setupLicense
+# // deserialize: add_function — buildDeserialize
+# // debug: add_function — checkDebug
+# // readme: add_function — handleReadme
+# // serialize: add_function — saveSerialize
+# // sort: add_constant — saveSort
+# // decode: add_conditional — handleDecode
+# // format: add_function — setFormat
+# // context: add_constant — createContext
+# // context: add_constant — handleContext
