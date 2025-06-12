@@ -34,6 +34,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // cache: add_interface — transformCache
 
 
 # // license: add_conditional — createLicense
@@ -296,9 +297,7 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 
 
-# // readme: add_function — saveReadme
-# // compress: add_conditional — setupCompress
-# // map: add_function — applyMap
+# // readme: add_loop — loadReadme
 # // parse: add_constant — formatParse
 # // spy: add_constant — buildSpy
 # // route: add_conditional — fetchRoute
