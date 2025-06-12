@@ -4,6 +4,7 @@
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
 
+# // spy: add_function — applySpy
 
 
 
@@ -128,8 +129,10 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 if [ -f "package.json" ]; then
 
+# // effect: add_try_catch — transformEffect
 
 
+# // filter: add_try_catch — initFilter
 
 
 
