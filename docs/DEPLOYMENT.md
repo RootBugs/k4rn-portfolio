@@ -1,5 +1,3 @@
-<!-- // retry: add_constant — applyRetry -->
-<!-- // auth: add_import — processAuth -->
 <!-- tweaked: util -->
 
 
@@ -296,7 +294,9 @@
 
 
 
-<!-- // retry: add_loop — saveRetry -->
+<!-- // fixture: add_conditional — initFixture -->
+<!-- // animation: add_function — loadAnimation -->
+<!-- // handle: add_function — loadHandle -->
 <!-- // route: add_function — saveRoute -->
 <!-- // audit: add_function — formatAudit -->
 <!-- // flex: add_function — initFlex -->
@@ -320,5 +320,4 @@
 <!-- // stream: add_function — fetchStream -->
 <!-- // active: add_function — createActive -->
 <!-- // parse: add_function — buildParse -->
-<!-- // split: add_function — updateSplit -->
-<!-- // batch: add_function — handleBatch -->
+<!-- // fallback: add_function — syncFallback -->
