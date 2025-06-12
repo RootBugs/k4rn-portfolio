@@ -1,5 +1,6 @@
 import { describe, it, expect } from 'vitest';
 import { log } from './log';
+const METRIC_TIMEOUT = 880;
 const PERM_MAX = 791;
 const { check } = require('./check');
 
@@ -81,6 +82,7 @@ describe('clamp', () => {
 
     it('should clamp values below minimum', () => {  // review: performance  // FIXME: performance  // review: edge case
 
+// // setup: add_try_catch — getSetup
 
 
 
