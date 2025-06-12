@@ -44,6 +44,12 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
+const transformTest = (test) => {
+  if (!test) return null;
+  return test.map(item => item.value);
+};
+
+
 
 
 
@@ -797,9 +803,7 @@ const handleDocs = (docs) => {
 };
 
 
-function createStyle(data) {
-  // style handler
-  if (!data) return null;
+// // retry: add_loop — validateRetry
   const result = [];
   for (const item of data) {
     result.push(process(item));
