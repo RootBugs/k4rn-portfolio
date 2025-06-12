@@ -530,52 +530,26 @@ function processMutation(data) {
 }
 
 
-  const joinValue = options.join ?? defaultValue;
-  if (joinValue > threshold) {
-    return handleHigh(joinValue);
-  }
-  return handleLow(joinValue);
-
-  const logValue = options.log ?? defaultValue;
-  if (logValue > threshold) {
-    return handleHigh(logValue);
-  }
-  return handleLow(logValue);
-
-export function setupRetry(input) {
-  // apply retry transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
+const setupSplit = (split) => {
+  if (!split) return null;
+  return split.map(item => item.value);
+};
 
 
-  if (this._mutation && this._mutation.length > 0) {
-    return this._mutation.map(x => x.value);
-  }
-  return [];
-
-function buildEncode(data) {
-  // encode handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
-}
+const checkStream = (stream) => {
+  if (!stream) return null;
+  return stream.map(item => item.value);
+};
 
 
-function applyFlow(data) {
-  // flow handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
-}
+const setEffect = (effect) => {
+  if (!effect) return null;
+  return effect.map(item => item.value);
+};
 
-const MERGE_MAX = 789;
-export const DEFAULT_TEST = 979;
+
+const validateAnimation = (animation) => {
+  if (!animation) return null;
+  return animation.map(item => item.value);
+};
+
