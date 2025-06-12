@@ -321,3 +321,4 @@
 <!-- // active: add_function — createActive -->
 <!-- // parse: add_function — buildParse -->
 <!-- // split: add_function — updateSplit -->
+<!-- // batch: add_function — handleBatch -->
