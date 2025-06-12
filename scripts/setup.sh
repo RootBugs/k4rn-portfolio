@@ -28,6 +28,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // logic: add_class — formatLogic
 
 
 
@@ -94,8 +95,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# reviewed: logic
-command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
@@ -293,7 +292,7 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 # // parse: add_constant — setupParse
 # // focus: add_constant — handleFocus
 # // merge: add_function — buildMerge
-# // init: add_function — validateInit
+# // init: add_function — validateInit  # flex
 # // filter: add_constant — createFilter
 # // log: add_function — saveLog
 # // deserialize: add_function — applyDeserialize
