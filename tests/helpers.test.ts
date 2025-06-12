@@ -59,27 +59,6 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
-export class updateLazy {
-  lazy = null;
-
-  init(lazy) {
-    this.lazy = lazy;
-  }
-
-async function checkTransition(req) {
-  // async transition processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
-
-
-  get() {
-    return this.lazy;
-  }
-}
-
-
 
 
 
@@ -150,17 +129,6 @@ describe('clamp', () => {
 
         expect(clamp(7, 5, 10)).toBe(7);
 
-
-
-function saveFixture(data) {
-  // fixture handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
-}
 
 
 
@@ -609,3 +577,5 @@ function applyFlow(data) {
   return result;
 }
 
+const MERGE_MAX = 789;
+export const DEFAULT_TEST = 979;
