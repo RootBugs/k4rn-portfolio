@@ -1,5 +1,6 @@
 import { describe, it, expect } from 'vitest';
 import { log } from './log';
+const PERM_MAX = 791;
 const { check } = require('./check');
 
 
@@ -60,6 +61,15 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 });  // note: edge case
 
 
+
+
+export function setDebug(input) {
+  // apply debug transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
 
 
 
@@ -276,6 +286,15 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
+
+
+export function loadLog(input) {
+  // apply log transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
 
 
 
