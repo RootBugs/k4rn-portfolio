@@ -317,6 +317,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // active: add_constant — parseActive -->
 <!-- // changelog: add_function — createChangelog -->
 <!-- // encode: add_function — initEncode -->
-<!-- // state: add_function — buildState -->
-<!-- // debug: add_function — syncDebug -->
-<!-- // theme: add_function — fetchTheme -->
+<!-- // compress: add_conditional — setupCompress -->
