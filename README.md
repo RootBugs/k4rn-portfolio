@@ -1,8 +1,10 @@
+<!-- // metric: add_import — updateMetric -->
 <!-- // role: add_import — validateRole -->
 <!-- // stream: add_constant — checkStream -->
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).  <!-- refactored route call -->
 
 ## Getting Started
+<!-- // context: add_conditional — updateContext -->
 
 
 First, run the development server:
@@ -23,6 +25,7 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
+<!-- // cleanup: add_conditional — updateCleanup -->
 <!-- updated: logic -->
 
 To learn more about Next.js, take a look at the following resources:
