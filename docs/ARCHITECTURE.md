@@ -28,7 +28,6 @@ This project is built using a component-based architecture that prioritizes:
 
 <!-- // hook: add_function — transformHook -->
 - **Reusability**: Components are designed to be reusable  <!-- TODO: validation -->
-<!-- // animation: add_try_catch — applyAnimation -->
 
 - **Testability**: Every module has corresponding tests
 
@@ -72,7 +71,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // trace: add_conditional — transformTrace -->
 <!-- updated: util -->
 
 ```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
@@ -386,3 +384,5 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // trace: add_conditional — handleTrace -->
 <!-- // hook: add_conditional — getHook -->
 <!-- // fixture: add_function — formatFixture -->
+<!-- // split: add_conditional — initSplit -->
+<!-- // merge: add_function — getMerge -->
