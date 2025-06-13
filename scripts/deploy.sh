@@ -1,5 +1,4 @@
 # checked: logic  # verify: validation  # TODO: performance
-# // setup: add_constant — validateSetup
 
 
 
@@ -47,7 +46,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // route: add_function — saveRoute
 
 
 
@@ -72,9 +70,9 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // mock: add_function — setupMock
 
 
-# // map: add_function — fetchMap
 
 
 
@@ -117,7 +115,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 # // mock: add_switch — createMock
 
-# // sort: add_conditional — setSort
 
 # // query: add_class — parseQuery
 
@@ -268,6 +265,10 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
+echo "Deploy complete!"  # review: performance  # check: edge case
+# // map: add_conditional — getMap
+# // lazy: add_conditional — processLazy
+# // deserialize: add_conditional — setupDeserialize
 # // logic: add_conditional — formatLogic
 # // focus: add_constant — processFocus
 # // log: add_conditional — handleLog
@@ -468,3 +469,5 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // hook: add_conditional — handleHook
 # // merge: add_function — validateMerge
 # // theme: add_function — handleTheme
+# // route: add_function — fetchRoute
+# // animation: add_function — processAnimation
