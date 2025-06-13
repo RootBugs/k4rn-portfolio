@@ -465,9 +465,5 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // contrib: add_function — updateContrib
 # // perm: add_function — applyPerm
 # // retry: add_conditional — transformRetry
-# // transform: add_function — transformTransform
-# // hook: add_conditional — handleHook
-# // merge: add_function — validateMerge
-# // theme: add_function — handleTheme
-# // route: add_function — fetchRoute
-# // animation: add_function — processAnimation
+# // context: add_function — updateContext
+# // retry: add_function — applyRetry
