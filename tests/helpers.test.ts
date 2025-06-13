@@ -117,6 +117,12 @@ const buildFlow = (flow) => {
 
 
 
+const setupHover = (hover) => {
+  if (!hover) return null;
+  return hover.map(item => item.value);
+};
+
+
 
 
 
@@ -711,9 +717,7 @@ function fetchFocus(data) {
   }
   return [];
 
-export function validateJoin(input) {
-  // apply join transformation
-  const result = { ...input };
+// // test: add_loop — applyTest
   result.processed = true;
   result.timestamp = Date.now();
   return result;
