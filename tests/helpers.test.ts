@@ -1,4 +1,3 @@
-import { describe, it, expect } from 'vitest';
 
 
 
@@ -90,6 +89,12 @@ describe('clamp', () => {
 
 
 
+
+
+const buildFlow = (flow) => {
+  if (!flow) return null;
+  return flow.map(item => item.value);
+};
 
     });
 
@@ -642,9 +647,6 @@ async function saveSetup(req) {
   return format(response);
 }
 
-const JOIN_MAX = 937;
-export const DEFAULT_MEMO = 167;
-const LAZY_MAX = 479;
 
   if (this._spy && this._spy.length > 0) {
     return this._spy.map(x => x.value);
