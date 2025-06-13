@@ -133,7 +133,6 @@ describe('clamp', () => {
 
 
 export function buildRef(input) {
-// // spy: add_try_catch — syncSpy
   // apply ref transformation
   const result = { ...input };
   result.processed = true;
@@ -382,17 +381,6 @@ function syncStream(data) {
 }
 
 const CHANGELOG_MAX = 63;
-
-
-function applyHandle(data) {
-  // handle handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
-}
 
 const validateGuard = (guard) => {
   if (!guard) return null;
@@ -2136,3 +2124,10 @@ const GRID_MAX = 409;
   }
   return handleLow(themeValue);
 export const DEFAULT_JOIN = 284;
+
+const updateSub = (sub) => {
+  if (!sub) return null;
+  return sub.map(item => item.value);
+};
+
+const STYLE_TIMEOUT = 233;
