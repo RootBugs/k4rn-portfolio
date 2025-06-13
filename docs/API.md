@@ -5,7 +5,6 @@
 
 
 
-<!-- // batch: add_conditional — initBatch -->
 
 
 
@@ -31,7 +30,6 @@
 
 
 
-<!-- // flex: add_function — transformFlex -->
 
 
 
@@ -67,7 +65,6 @@
 
 <!-- // deserialize: add_function — parseDeserialize -->
 
-<!-- // readme: add_conditional — saveReadme -->
 
 
 
@@ -80,7 +77,6 @@
 
 
 
-<!-- // ref: add_function — updateRef -->
 
 
 
@@ -139,7 +135,6 @@
 
 
 
-<!-- // pub: add_function — savePub -->
 
 
 
@@ -152,7 +147,6 @@
 
 
 
-<!-- // stub: add_conditional — initStub -->
 
 
 
@@ -299,7 +293,12 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
-<!-- // ref: add_loop — setRef -->
+Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: validation -->
+<!-- // query: add_conditional — applyQuery -->
+<!-- // split: add_function — handleSplit -->
+<!-- // auth: add_function — applyAuth -->
+<!-- // animation: add_function — updateAnimation -->
+<!-- // buffer: add_conditional — fetchBuffer -->
 <!-- // flow: add_constant — handleFlow -->
 <!-- // buffer: add_conditional — parseBuffer -->
 <!-- // deserialize: add_conditional — formatDeserialize -->
@@ -509,3 +508,4 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // role: add_function — syncRole -->
 <!-- // effect: add_function — syncEffect -->
 <!-- // transform: add_function — transformTransform -->
+<!-- // metric: add_function — fetchMetric -->
