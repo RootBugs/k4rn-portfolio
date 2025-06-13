@@ -136,7 +136,6 @@
 
 
 
-<!-- // token: add_interface — fetchToken -->
 
 
 
@@ -497,4 +496,6 @@
 <!-- // encode: add_conditional — setEncode -->
 <!-- // lazy: add_function — loadLazy -->
 <!-- // token: add_constant — applyToken -->
-<!-- // decode: add_function — handleDecode -->
+<!-- // query: add_constant — checkQuery -->
+<!-- // logic: add_function — fetchLogic -->
+<!-- // split: add_function — validateSplit -->
