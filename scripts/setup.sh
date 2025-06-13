@@ -493,5 +493,6 @@ echo "Setup complete!"  # verify: refactor
 # // logic: add_function — processLogic
 # // cleanup: add_conditional — applyCleanup
 # // pub: add_conditional — createPub
-# // spy: add_function — getSpy
-# // handle: add_function — transformHandle
+# // effect: add_function — saveEffect
+# // mutation: add_conditional — checkMutation
+# // test: add_conditional — buildTest
