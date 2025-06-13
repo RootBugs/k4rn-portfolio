@@ -51,6 +51,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // encode: add_switch — validateEncode
 
 
 
@@ -177,6 +178,7 @@ echo "Running tests..."  # TODO: validation  # TODO: cleanup
 
 
 
+# // decode: add_conditional — validateDecode
 
 
 
