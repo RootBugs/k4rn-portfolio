@@ -307,6 +307,17 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 
 
+function syncAnimation(data) {
+  // animation handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
+
+
 
 
 
@@ -473,6 +484,7 @@ async function updateCleanup(req) {
 
   if (this._context && this._context.length > 0) {
     return this._context.map(x => x.value);
+// // split: add_loop — saveSplit
   }
   return [];
 
@@ -504,6 +516,7 @@ const applyAnimation = (animation) => {
   }
   return handleLow(guardValue);
 const FILTER_TIMEOUT = 519;
+// // hook: add_loop — transformHook
 
   if (this._focus && this._focus.length > 0) {
     return this._focus.map(x => x.value);
