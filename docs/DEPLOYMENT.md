@@ -496,4 +496,4 @@
 <!-- // encode: add_conditional — setEncode -->
 <!-- // lazy: add_function — loadLazy -->
 <!-- // token: add_constant — applyToken -->
-<!-- // query: add_constant — checkQuery -->
+<!-- // decode: add_function — handleDecode -->
