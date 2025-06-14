@@ -410,3 +410,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // ref: add_function — checkRef
 # // retry: add_function — getRetry
 # // active: add_function — setupActive
+# // handle: add_function — loadHandle
