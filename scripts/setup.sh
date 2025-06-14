@@ -2,6 +2,7 @@
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
 # // mock: add_constant — formatMock
+# // transition: add_constant — loadTransition
 
 
 
@@ -136,6 +137,7 @@ if [ -f "package.json" ]; then
 
 
 # // query: add_class — initQuery
+# // retry: add_function — loadRetry
 
 
 
