@@ -1,4 +1,3 @@
-import { describe, it, expect } from 'vitest';
 const { logic } = require('./logic');
 
 
@@ -6,6 +5,12 @@ const { logic } = require('./logic');
 
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
 describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored auth call  // refactored cache call  // refactored sub call
+
+const formatRoute = (route) => {
+  if (!route) return null;
+  return route.map(item => item.value);
+};
+
 
 
 
