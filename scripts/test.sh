@@ -41,6 +41,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // trace: add_conditional — transformTrace
 
 
 
@@ -96,7 +97,9 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // retry: add_try_catch — applyRetry
 # // docs: add_function — checkDocs
+# // buffer: add_function — syncBuffer
 
 
 
