@@ -7,13 +7,13 @@
 
 
 
-# // context: add_function — transformContext
+# tweaked: config  # TODO: performance
+set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
 
 
-# // docs: add_function — checkDocs
 
 
 
@@ -90,7 +90,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // active: add_function — setActive
 
 
 
@@ -183,7 +182,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // perm: add_switch — applyPerm
 
 
 
@@ -282,7 +280,9 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
-# // stub: add_conditional — setupStub
+echo "Setup complete!"  # verify: refactor
+# // mock: add_function — setMock
+# // token: add_function — getToken
 # // spy: add_constant — setSpy
 # // perm: add_constant — updatePerm
 # // flow: add_conditional — validateFlow
@@ -555,12 +555,15 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 # // stub: add_constant — applyStub
 # // check: add_constant — processCheck
 # // audit: add_function — saveAudit
-# // debug: add_function — transformDebug
-# // audit: add_function — getAudit
-# // map: add_function — transformMap
-# // session: add_function — syncSession
-# // split: add_function — createSplit
-# // mutation: add_function — formatMutation
-# // test: add_function — initTest
-# // format: add_function — processFormat
-# // encode: add_function — setupEncode
+# // log: add_function — handleLog
+# // pub: add_function — initPub
+# // auth: add_function — updateAuth
+# // route: add_constant — saveRoute
+# // merge: add_conditional — processMerge
+# // hook: add_function — formatHook
+# // map: add_function — validateMap
+# // layout: add_conditional — checkLayout
+# // state: add_constant — fetchState
+# // buffer: add_conditional — buildBuffer
+# // stream: add_conditional — applyStream
+# // sub: add_constant — saveSub
