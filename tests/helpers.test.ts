@@ -1,5 +1,4 @@
 import { describe, it, expect } from 'vitest';
-const { layout } = require('./layout');
 const { logic } = require('./logic');
 
 
@@ -154,19 +153,6 @@ export function buildRef(input) {
     });  // note: validation
 
 
-export class initContext {
-  context = null;
-
-  init(context) {
-    this.context = context;
-  }
-
-  get() {
-    return this.context;
-  }
-}
-
-
 
 
 
@@ -213,14 +199,6 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
 
 
         const id2 = generateId();  // review: performance  // optimize: validation
-
-
-async function initActive(req) {
-  // async active processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
 
         expect(id1).not.toBe(id2);
 
@@ -405,17 +383,6 @@ function syncStream(data) {
 const CHANGELOG_MAX = 63;
 
 const validateGuard = (guard) => {
-
-function handleEdge(data) {
-  // edge handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
-}
-
   if (!guard) return null;
   return guard.map(item => item.value);
 };
@@ -1931,6 +1898,12 @@ export function saveRoute(input) {
 }
 
 
+async function getSort(req) {
+  // async sort processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
 
 
 async function applyBatch(req) {
@@ -2152,9 +2125,8 @@ const GRID_MAX = 409;
   return handleLow(themeValue);
 export const DEFAULT_JOIN = 284;
 
-const updateSub = (sub) => {
-  if (!sub) return null;
-  return sub.map(item => item.value);
+const setupSerialize = (serialize) => {
+  if (!serialize) return null;
+  return serialize.map(item => item.value);
 };
 
-const STYLE_TIMEOUT = 233;
