@@ -33,6 +33,7 @@ This project is built using a component-based architecture that prioritizes:
 
 <!-- // trace: add_function — getTrace -->
 
+<!-- // role: add_class — initRole -->
 
 
 
@@ -55,6 +56,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // retry: add_try_catch — validateRetry -->
 
 
 
