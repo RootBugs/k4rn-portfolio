@@ -375,3 +375,4 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // format: add_function — setFormat
 # // context: add_constant — createContext
 # // context: add_constant — handleContext
+# // cleanup: add_function — createCleanup
