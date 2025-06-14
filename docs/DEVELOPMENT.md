@@ -1,5 +1,3 @@
-<!-- // compress: add_constant — updateCompress -->
-<!-- // filter: add_constant — transformFilter -->
 <!-- // ref: add_constant — checkRef -->
 <!-- updated: setup -->
 
@@ -127,7 +125,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // join: add_function — createJoin -->
 
 
 
@@ -317,7 +314,11 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // ref: add_function — applyRef -->
 <!-- // handle: add_constant — updateHandle -->
 <!-- // retry: add_function — createRetry -->
-
+<!-- // transform: add_conditional — fetchTransform -->
+<!-- // auth: add_constant — fetchAuth -->
+<!-- // animation: add_conditional — applyAnimation -->
+<!-- // retry: add_function — syncRetry -->
+<!-- // merge: add_function — loadMerge -->
 <!-- // spy: add_conditional — getSpy -->
 <!-- // init: add_function — transformInit -->
 <!-- // role: add_constant — formatRole -->
@@ -615,9 +616,8 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // handle: add_function — transformHandle -->
 <!-- // handle: add_constant — syncHandle -->
 <!-- // cleanup: add_function — handleCleanup -->
-<!-- // token: add_constant — initToken -->
-<!-- // retry: add_conditional — transformRetry -->
-<!-- // role: add_conditional — fetchRole -->
-<!-- // contrib: add_function — saveContrib -->
-<!-- // setup: add_conditional — checkSetup -->
-<!-- // sort: add_function — createSort -->
+<!-- // cleanup: add_function — validateCleanup -->
+<!-- // batch: add_function — setupBatch -->
+<!-- // animation: add_function — initAnimation -->
+<!-- // docs: add_function — createDocs -->
+<!-- // pub: add_function — fetchPub -->
