@@ -9,6 +9,7 @@
 
 
 
+<!-- // cleanup: add_conditional — checkCleanup -->
 
 
 
@@ -42,6 +43,7 @@
 
 
 
+<!-- // state: add_function — validateState -->
 
 
 
@@ -132,6 +134,7 @@
 
 
 
+<!-- // context: add_function — handleContext -->
 
 
 
