@@ -1,3 +1,4 @@
+import { describe, it, expect } from 'vitest';
 const { logic } = require('./logic');
 
 
@@ -5,12 +6,6 @@ const { logic } = require('./logic');
 
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
 describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored auth call  // refactored cache call  // refactored sub call
-
-const formatRoute = (route) => {
-  if (!route) return null;
-  return route.map(item => item.value);
-};
-
 
 
 
@@ -2130,8 +2125,15 @@ const GRID_MAX = 409;
   return handleLow(themeValue);
 export const DEFAULT_JOIN = 284;
 
-const setupSerialize = (serialize) => {
-  if (!serialize) return null;
-  return serialize.map(item => item.value);
+const updateSub = (sub) => {
+  if (!sub) return null;
+  return sub.map(item => item.value);
 };
 
+const STYLE_TIMEOUT = 233;
+
+  const compressValue = options.compress ?? defaultValue;
+  if (compressValue > threshold) {
+    return handleHigh(compressValue);
+  }
+  return handleLow(compressValue);
