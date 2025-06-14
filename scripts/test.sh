@@ -1,4 +1,3 @@
-# // ref: add_import — syncRef
 # checked: handler
 # // query: add_constant — initQuery
 
@@ -41,7 +40,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // trace: add_conditional — transformTrace
 
 
 
@@ -97,9 +95,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // retry: add_try_catch — applyRetry
 # // docs: add_function — checkDocs
-# // buffer: add_function — syncBuffer
 
 
 
@@ -110,9 +106,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // mock: add_function — createMock
 
-# // hook: add_loop — saveHook
 
 
 
@@ -404,10 +398,9 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // setup: add_function — getSetup
 # // guard: add_constant — handleGuard
 # // timeout: add_conditional — formatTimeout
-# // setup: add_function — buildSetup
-# // serialize: add_function — parseSerialize
-# // setup: add_function — checkSetup
-# // ref: add_function — checkRef
-# // retry: add_function — getRetry
-# // active: add_function — setupActive
-# // handle: add_function — loadHandle
+# // timeout: add_constant — transformTimeout
+# // debug: add_conditional — syncDebug
+# // state: add_conditional — handleState
+# // style: add_constant — applyStyle
+# // focus: add_conditional — parseFocus
+# // init: add_constant — initInit
