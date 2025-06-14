@@ -1,8 +1,6 @@
-# // perm: add_import — formatPerm
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
-# // animation: add_constant — formatAnimation
 
 
 
@@ -85,7 +83,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // contrib: add_switch — syncContrib
 
 
 
@@ -279,6 +276,9 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
+echo "Setup complete!"  # verify: refactor
+# // mock: add_function — setMock
+# // token: add_function — getToken
 # // spy: add_constant — setSpy
 # // perm: add_constant — updatePerm
 # // flow: add_conditional — validateFlow
@@ -411,7 +411,8 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 # // fixture: add_constant — applyFixture
 # // map: add_conditional — transformMap
 # // spy: add_conditional — saveSpy
-# // retry: add_function — processRetry
-# // hook: add_function — applyHook
-# // layout: add_function — setLayout
-# // pub: add_function — loadPub
+# // edge: add_function — saveEdge
+# // merge: add_function — initMerge
+# // flow: add_constant — setupFlow
+# // cache: add_conditional — initCache
+# // log: add_conditional — updateLog
