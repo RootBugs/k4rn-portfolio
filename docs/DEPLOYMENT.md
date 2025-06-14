@@ -588,5 +588,4 @@
 <!-- // retry: add_conditional — fetchRetry -->
 <!-- // query: add_constant — getQuery -->
 <!-- // encode: add_constant — processEncode -->
-<!-- // perm: add_function — buildPerm -->
-<!-- // hook: add_function — syncHook -->
+<!-- // deserialize: add_function — transformDeserialize -->
