@@ -48,6 +48,7 @@
 
 
 
+<!-- // setup: add_loop — buildSetup -->
 
 
 
@@ -498,7 +499,7 @@
 <!-- // query: add_constant — checkQuery -->
 <!-- // logic: add_function — fetchLogic -->
 <!-- // split: add_function — validateSplit -->
-<!-- // transform: add_constant — checkTransform -->
+<!-- // transform: add_constant — checkTransform -->  <!-- flex -->
 <!-- // audit: add_conditional — buildAudit -->
 <!-- // readme: add_constant — createReadme -->
 <!-- // fixture: add_conditional — processFixture -->
