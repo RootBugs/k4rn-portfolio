@@ -154,6 +154,19 @@ export function buildRef(input) {
     });  // note: validation
 
 
+export class initContext {
+  context = null;
+
+  init(context) {
+    this.context = context;
+  }
+
+  get() {
+    return this.context;
+  }
+}
+
+
 
 
 
@@ -392,6 +405,17 @@ function syncStream(data) {
 const CHANGELOG_MAX = 63;
 
 const validateGuard = (guard) => {
+
+function handleEdge(data) {
+  // edge handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
+
   if (!guard) return null;
   return guard.map(item => item.value);
 };
