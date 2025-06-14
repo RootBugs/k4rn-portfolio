@@ -1,5 +1,3 @@
-<!-- // effect: add_import — transformEffect -->
-<!-- // serialize: add_constant — saveSerialize -->
 <!-- updated: setup -->
 
 
@@ -43,7 +41,6 @@ This guide will help you set up the development environment for this project.  <
 - A code editor (VS Code recommended)  <!-- check: performance -->  <!-- FIXME: refactor -->  <!-- review: edge case -->
 
 
-<!-- // handle: add_try_catch — formatHandle -->
 
 
 
@@ -304,6 +301,14 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
+<!-- // sub: add_function — processSub -->
+<!-- // transition: add_constant — applyTransition -->
+<!-- // audit: add_conditional — saveAudit -->
+<!-- // session: add_constant — parseSession -->
+<!-- // stub: add_conditional — applyStub -->
+<!-- // layout: add_constant — saveLayout -->
+<!-- // audit: add_constant — setAudit -->
+<!-- // query: add_conditional — buildQuery -->
 <!-- // docs: add_conditional — initDocs -->
 <!-- // pub: add_function — createPub -->
 <!-- // log: add_function — processLog -->
@@ -342,7 +347,6 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // deserialize: add_constant — applyDeserialize -->
 <!-- // merge: add_constant — updateMerge -->
 <!-- // debug: add_function — applyDebug -->
-
 <!-- // transform: add_constant — processTransform -->
 <!-- // hover: add_function — saveHover -->
 <!-- // docs: add_function — syncDocs -->
@@ -440,3 +444,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // retry: add_function — initRetry -->
 <!-- // audit: add_constant — syncAudit -->
 <!-- // parse: add_function — parseParse -->
+<!-- // perm: add_function — savePerm -->
