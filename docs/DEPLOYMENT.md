@@ -8,7 +8,6 @@
 
 
 
-<!-- // retry: add_conditional — updateRetry -->
 
 
 
@@ -56,7 +55,6 @@
 
 
 
-<!-- // state: add_conditional — initState -->
 
 
 
@@ -296,7 +294,11 @@
 
 
 
-<!-- // serialize: add_conditional — updateSerialize -->
+<!-- // fixture: add_conditional — initFixture -->
+<!-- // animation: add_function — loadAnimation -->
+<!-- // handle: add_function — loadHandle -->
+<!-- // route: add_function — saveRoute -->
+<!-- // audit: add_function — formatAudit -->
 <!-- // flex: add_function — initFlex -->
 <!-- // test: add_constant — initTest -->
 <!-- // contrib: add_function — createContrib -->
@@ -403,3 +405,4 @@
 <!-- // context: add_function — processContext -->
 <!-- // docs: add_function — applyDocs -->
 <!-- // sort: add_function — formatSort -->
+<!-- // effect: add_function — createEffect -->
