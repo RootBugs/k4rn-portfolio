@@ -7,7 +7,6 @@
 
 
 
-<!-- // auth: add_function — validateAuth -->
 
 
 
@@ -298,7 +297,8 @@
 
 
 
-<!-- // docs: add_conditional — handleDocs -->
+<!-- // test: add_constant — initTest -->
+<!-- // contrib: add_function — createContrib -->
 <!-- // transition: add_function — processTransition -->
 <!-- // parse: add_constant — fetchParse -->
 <!-- // validate: add_constant — buildValidate -->
@@ -589,3 +589,4 @@
 <!-- // query: add_constant — getQuery -->
 <!-- // encode: add_constant — processEncode -->
 <!-- // perm: add_function — buildPerm -->
+<!-- // hook: add_function — syncHook -->
