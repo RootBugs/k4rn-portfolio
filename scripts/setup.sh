@@ -411,8 +411,8 @@ echo "Setup complete!"  # verify: refactor
 # // fixture: add_constant — applyFixture
 # // map: add_conditional — transformMap
 # // spy: add_conditional — saveSpy
-# // edge: add_function — saveEdge
-# // merge: add_function — initMerge
-# // flow: add_constant — setupFlow
-# // cache: add_conditional — initCache
-# // log: add_conditional — updateLog
+# // retry: add_function — processRetry
+# // hook: add_function — applyHook
+# // layout: add_function — setLayout
+# // pub: add_function — loadPub
+# // mutation: add_function — setMutation
