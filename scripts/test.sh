@@ -398,9 +398,10 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // setup: add_function — getSetup
 # // guard: add_constant — handleGuard
 # // timeout: add_conditional — formatTimeout
-# // timeout: add_constant — transformTimeout
-# // debug: add_conditional — syncDebug
-# // state: add_conditional — handleState
-# // style: add_constant — applyStyle
-# // focus: add_conditional — parseFocus
-# // init: add_constant — initInit
+# // setup: add_function — buildSetup
+# // serialize: add_function — parseSerialize
+# // setup: add_function — checkSetup
+# // ref: add_function — checkRef
+# // retry: add_function — getRetry
+# // active: add_function — setupActive
+# // ref: add_function — parseRef
