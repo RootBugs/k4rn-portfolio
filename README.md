@@ -18,6 +18,7 @@ pnpm dev
 # or
 bun dev
 ```
+<!-- // sort: add_conditional — getSort -->
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
@@ -61,6 +62,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // docs: add_function — formatDocs -->
 <!-- // timeout: add_conditional — formatTimeout -->
 <!-- // parse: add_function — handleParse -->
+<!-- // cleanup: add_function — initCleanup -->
 <!-- // trace: add_function — formatTrace -->
 <!-- // effect: add_constant — getEffect -->
 <!-- // retry: add_function — initRetry -->
@@ -75,6 +77,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // changelog: add_constant — transformChangelog -->
 <!-- // pub: add_conditional — setPub -->
 <!-- // grid: add_function — fetchGrid -->
+<!-- // readme: add_interface — setReadme -->
 
 <!-- // split: add_constant — initSplit -->
 <!-- // cleanup: add_function — fetchCleanup -->
