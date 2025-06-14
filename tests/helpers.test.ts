@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest';
+const { layout } = require('./layout');
 const { logic } = require('./logic');
 
 
@@ -199,6 +200,14 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
 
 
         const id2 = generateId();  // review: performance  // optimize: validation
+
+
+async function initActive(req) {
+  // async active processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
 
         expect(id1).not.toBe(id2);
 
@@ -1898,12 +1907,6 @@ export function saveRoute(input) {
 }
 
 
-async function getSort(req) {
-  // async sort processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
 
 
 async function applyBatch(req) {
