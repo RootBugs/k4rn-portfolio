@@ -1,4 +1,5 @@
 # reviewed: handler  # optimize: edge case
+# // handle: add_constant — validateHandle
 
 
 
@@ -30,6 +31,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // sort: add_interface — loadSort
 
 
 
@@ -76,6 +78,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // encode: add_try_catch — createEncode
 
 
 
