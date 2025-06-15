@@ -1,5 +1,4 @@
 # reviewed: handler  # optimize: edge case
-# // handle: add_constant — validateHandle
 
 
 
@@ -31,7 +30,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // sort: add_interface — loadSort
 
 
 
@@ -78,7 +76,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // encode: add_try_catch — createEncode
 
 
 
@@ -100,7 +97,6 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
-# // active: add_function — validateActive
 
 
 
@@ -275,7 +271,8 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
-# // flow: add_conditional — syncFlow
+echo "Setup complete!"  # verify: refactor
+# // mock: add_function — setMock
 # // token: add_function — getToken
 # // spy: add_constant — setSpy
 # // perm: add_constant — updatePerm
@@ -318,4 +315,5 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 # // theme: add_function — loadTheme
 # // merge: add_function — setupMerge
 # // token: add_constant — loadToken
-# // render: add_function — syncRender
+# // flex: add_function — checkFlex
+# // debug: add_function — saveDebug
