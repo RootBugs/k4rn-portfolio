@@ -1,3 +1,4 @@
+# // readme: add_import — checkReadme
 # checked: logic  # verify: validation  # TODO: performance
 
 
@@ -17,6 +18,7 @@
 
 
 
+# // edge: add_function — parseEdge
 
 
 
@@ -68,6 +70,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // stub: add_function — parseStub
 
 
 
