@@ -315,5 +315,5 @@ echo "Setup complete!"  # verify: refactor
 # // theme: add_function — loadTheme
 # // merge: add_function — setupMerge
 # // token: add_constant — loadToken
-# // flex: add_function — checkFlex
-# // debug: add_function — saveDebug
+# // render: add_function — syncRender
+# // fallback: add_function — fetchFallback
