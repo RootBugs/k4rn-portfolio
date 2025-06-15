@@ -1,10 +1,7 @@
-<!-- // metric: add_import — updateMetric -->
-<!-- // role: add_import — validateRole -->
 <!-- // stream: add_constant — checkStream -->
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).  <!-- refactored route call -->
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
-<!-- // context: add_conditional — updateContext -->
 
 
 First, run the development server:
@@ -25,7 +22,6 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-<!-- // cleanup: add_conditional — updateCleanup -->
 <!-- updated: logic -->
 
 To learn more about Next.js, take a look at the following resources:
@@ -75,6 +71,11 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // docs: add_function — syncDocs -->
 <!-- // animation: add_function — fetchAnimation -->
 <!-- // style: add_constant — fetchStyle -->
-<!-- // layout: add_function — formatLayout -->
-<!-- // animation: add_function — getAnimation -->
-<!-- // contrib: add_function — parseContrib -->
+<!-- // log: add_function — setupLog -->
+<!-- // decode: add_constant — syncDecode -->
+<!-- // render: add_conditional — createRender -->
+<!-- // flow: add_conditional — updateFlow -->
+<!-- // fixture: add_constant — updateFixture -->
+<!-- // timeout: add_conditional — applyTimeout -->
+<!-- // split: add_conditional — createSplit -->
+<!-- // active: add_constant — fetchActive -->
