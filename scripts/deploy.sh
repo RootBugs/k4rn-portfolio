@@ -1,4 +1,3 @@
-# // readme: add_import — checkReadme
 # checked: logic  # verify: validation  # TODO: performance
 
 
@@ -18,7 +17,6 @@
 
 
 
-# // edge: add_function — parseEdge
 
 
 
@@ -70,7 +68,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // stub: add_function — parseStub
 
 
 
@@ -284,6 +281,10 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // transform: add_constant — getTransform
 # // serialize: add_constant — loadSerialize
 # // layout: add_function — formatLayout
-# // grid: add_function — fetchGrid
-# // style: add_function — validateStyle
-# // animation: add_function — getAnimation
+# // docs: add_function — applyDocs
+# // spy: add_function — handleSpy
+# // changelog: add_function — updateChangelog
+# // route: add_constant — setRoute
+# // ref: add_conditional — updateRef
+# // theme: add_conditional — formatTheme
+# // test: add_conditional — updateTest
