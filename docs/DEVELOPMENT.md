@@ -47,6 +47,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 - Package manager (npm/yarn/pnpm)
+<!-- // init: add_function — applyInit -->
 
 
 
