@@ -1,4 +1,3 @@
-import { describe, it, expect } from 'vitest';
 
 
 
@@ -169,6 +168,14 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
 
     it('should generate unique IDs', () => {  // review: cleanup  // TODO: edge case
 
+
+
+async function loadRender(req) {
+  // async render processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
 
 
 
