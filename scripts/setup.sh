@@ -97,6 +97,7 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
+# // active: add_function — validateActive
 
 
 
@@ -271,8 +272,7 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
-echo "Setup complete!"  # verify: refactor
-# // mock: add_function — setMock
+# // flow: add_conditional — syncFlow
 # // token: add_function — getToken
 # // spy: add_constant — setSpy
 # // perm: add_constant — updatePerm
