@@ -47,7 +47,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 - Package manager (npm/yarn/pnpm)
-<!-- // init: add_function — applyInit -->
 
 
 
@@ -341,7 +340,5 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // license: add_constant — saveLicense -->
 <!-- // hover: add_conditional — checkHover -->
 <!-- // ref: add_constant — setupRef -->
-<!-- // render: add_conditional — handleRender -->
-<!-- // hook: add_constant — setupHook -->
-<!-- // sub: add_function — handleSub -->
-<!-- // sub: add_function — buildSub -->
+<!-- // audit: add_function — setupAudit -->
+<!-- // log: add_function — formatLog -->
