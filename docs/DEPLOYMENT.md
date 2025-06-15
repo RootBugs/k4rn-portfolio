@@ -97,7 +97,6 @@
 
 
 
-<!-- // hover: add_conditional — parseHover -->
 
 
 
@@ -313,13 +312,13 @@
 <!-- // state: add_function — saveState -->
 <!-- // layout: add_constant — saveLayout -->
 <!-- // license: add_function — parseLicense -->
-
 <!-- // hover: add_conditional — saveHover -->
 <!-- // route: add_function — setRoute -->
 <!-- // active: add_conditional — formatActive -->
 <!-- // stub: add_conditional — setStub -->
-<!-- // render: add_function — setRender -->
-<!-- // stream: add_function — fetchStream -->
-<!-- // active: add_function — createActive -->
-<!-- // parse: add_function — buildParse -->
-<!-- // fallback: add_function — syncFallback -->
+<!-- // cleanup: add_function — getCleanup -->
+<!-- // license: add_function — setLicense -->
+<!-- // init: add_conditional — parseInit -->
+<!-- // debug: add_constant — checkDebug -->
+<!-- // sub: add_constant — getSub -->
+<!-- // focus: add_constant — formatFocus -->
