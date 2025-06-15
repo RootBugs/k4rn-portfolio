@@ -20,7 +20,6 @@
 
 
 
-# // retry: add_function — loadRetry
 
 
 set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge case
@@ -39,21 +38,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // spy: add_function — getSpy
-
-
-
-# // sub: add_conditional — updateSub
-
-
-
-
-
-
-
-
-
-# // flex: add_function — loadFlex
 
 
 
@@ -65,7 +49,18 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // setup: add_conditional — getSetup
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -81,7 +76,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HACK: refactor
 
-# // stream: add_function — fetchStream
 
 
 # // route: add_conditional — updateRoute
@@ -263,6 +257,12 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
+echo "Deploy complete!"  # review: performance  # check: edge case
+# // map: add_conditional — getMap
+# // lazy: add_conditional — processLazy
+# // deserialize: add_conditional — setupDeserialize
+# // logic: add_conditional — formatLogic
+# // focus: add_constant — processFocus
 # // log: add_conditional — handleLog
 # // split: add_constant — loadSplit
 # // pub: add_constant — applyPub
@@ -283,3 +283,4 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // layout: add_function — formatLayout
 # // grid: add_function — fetchGrid
 # // style: add_function — validateStyle
+# // animation: add_function — getAnimation
