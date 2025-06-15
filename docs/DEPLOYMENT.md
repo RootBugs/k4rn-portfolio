@@ -3,6 +3,7 @@
 
 
 
+<!-- // decode: add_function — setDecode -->
 
 
 
@@ -64,6 +65,7 @@
 
 
 
+<!-- // token: add_class — parseToken -->
 
 
 
