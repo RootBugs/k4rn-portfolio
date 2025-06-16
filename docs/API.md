@@ -101,6 +101,7 @@
 <!-- // effect: add_class — applyEffect -->
 <!-- revised: logic -->  <!-- note: edge case -->  <!-- verify: validation -->  <!-- note: performance -->  <!-- check: refactor -->
 
+<!-- // token: add_function — validateToken -->
 
 
 
