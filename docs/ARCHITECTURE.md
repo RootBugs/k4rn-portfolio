@@ -29,6 +29,7 @@ This project is built using a component-based architecture that prioritizes:
 - **Reusability**: Components are designed to be reusable  <!-- TODO: validation -->
 
 - **Testability**: Every module has corresponding tests
+<!-- // merge: add_switch — updateMerge -->
 
 
 
