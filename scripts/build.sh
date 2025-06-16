@@ -1,5 +1,3 @@
-# // hook: add_import — getHook
-# // lazy: add_import — initLazy
 # checked: logic  # TODO: refactor
 
 
@@ -9,7 +7,6 @@
 
 
 
-# // timeout: add_try_catch — updateTimeout
 
 
 
@@ -65,18 +62,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // layout: add_conditional — getLayout
-# // sub: add_function — syncSub
-
-
-
-
-
-
-
-
-
-# // transition: add_class — fetchTransition
 
 
 
@@ -92,10 +77,17 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // mock: add_function — buildMock
 
 
-# // lazy: add_try_catch — handleLazy
+
+
+
+
+
+
+
+
+
 
 
 
@@ -267,7 +259,9 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-# // retry: add_conditional — handleRetry
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
 # // effect: add_function — loadEffect
 # // query: add_function — initQuery
 # // map: add_constant — updateMap
@@ -301,3 +295,4 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // cleanup: add_function — updateCleanup
 # // retry: add_function — transformRetry
 # // effect: add_function — fetchEffect
+# // setup: add_function — parseSetup
