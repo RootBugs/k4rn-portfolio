@@ -1,11 +1,10 @@
+# // filter: add_import — setFilter
 # reviewed: handler  # optimize: edge case
 
 
 
 
 
-# tweaked: config  # TODO: performance
-set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
