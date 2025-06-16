@@ -93,6 +93,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 # // mock: add_function — buildMock
 
 
+# // lazy: add_try_catch — handleLazy
 
 
 
