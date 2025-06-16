@@ -73,7 +73,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // active: add_loop — createActive
 
 
 
@@ -318,3 +317,4 @@ echo "Setup complete!"  # verify: refactor
 # // token: add_constant — loadToken
 # // render: add_function — syncRender
 # // fallback: add_function — fetchFallback
+# // route: add_conditional — updateRoute
