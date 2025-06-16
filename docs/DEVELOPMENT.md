@@ -342,3 +342,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // ref: add_constant — setupRef -->
 <!-- // audit: add_function — setupAudit -->
 <!-- // log: add_function — formatLog -->
+<!-- // hover: add_function — validateHover -->
