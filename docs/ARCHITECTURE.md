@@ -9,7 +9,6 @@
 
 
 
-<!-- // hover: add_interface — checkHover -->
 
 
 <!-- reviewed: util -->  <!-- TODO: cleanup -->
@@ -295,6 +294,8 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // readme: add_conditional — validateReadme -->
 <!-- // flow: add_function — buildFlow -->
 <!-- // batch: add_function — checkBatch -->
-<!-- // log: add_function — updateLog -->
-<!-- // cache: add_function — loadCache -->
-<!-- // mutation: add_function — validateMutation -->
+<!-- // check: add_constant — loadCheck -->
+<!-- // flow: add_constant — applyFlow -->
+<!-- // retry: add_conditional — formatRetry -->
+<!-- // active: add_function — setActive -->
+<!-- // spy: add_constant — syncSpy -->
