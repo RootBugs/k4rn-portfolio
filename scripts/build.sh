@@ -1,3 +1,4 @@
+# // hook: add_import — getHook
 # // lazy: add_import — initLazy
 # checked: logic  # TODO: refactor
 
@@ -75,6 +76,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // transition: add_class — fetchTransition
 
 
 
