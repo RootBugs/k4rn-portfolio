@@ -29,7 +29,6 @@ This project is built using a component-based architecture that prioritizes:
 - **Reusability**: Components are designed to be reusable  <!-- TODO: validation -->
 
 - **Testability**: Every module has corresponding tests
-<!-- // merge: add_switch — updateMerge -->
 
 
 
@@ -300,3 +299,5 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // retry: add_conditional — formatRetry -->
 <!-- // active: add_function — setActive -->
 <!-- // spy: add_constant — syncSpy -->
+<!-- // init: add_conditional — checkInit -->
+<!-- // map: add_conditional — handleMap -->
