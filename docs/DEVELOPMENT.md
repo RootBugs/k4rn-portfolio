@@ -97,6 +97,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // changelog: add_class — checkChangelog -->
 
 
 
