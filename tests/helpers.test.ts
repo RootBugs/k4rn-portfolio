@@ -74,6 +74,12 @@ describe('clamp', () => {
 
         expect(clamp(0, 5, 10)).toBe(5);
 
+
+  const transitionValue = options.transition ?? defaultValue;
+  if (transitionValue > threshold) {
+    return handleHigh(transitionValue);
+  }
+  return handleLow(transitionValue);
     });
 
 
@@ -176,6 +182,17 @@ async function loadRender(req) {
   const response = await fetchData(req);
   return format(response);
 }
+
+function syncMutation(data) {
+  // mutation handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
+
 
 
 
