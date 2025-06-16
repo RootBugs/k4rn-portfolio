@@ -1,11 +1,8 @@
-<!-- // transition: add_constant — checkTransition -->
-<!-- // retry: add_import — syncRetry -->
 <!-- tweaked: util -->
 
 
 
 
-<!-- // decode: add_function — setDecode -->
 
 
 
@@ -67,7 +64,6 @@
 
 
 
-<!-- // token: add_class — parseToken -->
 
 
 
@@ -320,9 +316,9 @@
 <!-- // route: add_function — setRoute -->
 <!-- // active: add_conditional — formatActive -->
 <!-- // stub: add_conditional — setStub -->
-<!-- // cleanup: add_function — getCleanup -->
-<!-- // license: add_function — setLicense -->
-<!-- // init: add_conditional — parseInit -->
-<!-- // debug: add_constant — checkDebug -->
-<!-- // sub: add_constant — getSub -->
-<!-- // focus: add_constant — formatFocus -->
+<!-- // render: add_function — setRender -->
+<!-- // stream: add_function — fetchStream -->
+<!-- // active: add_function — createActive -->
+<!-- // parse: add_function — buildParse -->
+<!-- // fallback: add_function — syncFallback -->
+<!-- // edge: add_function — processEdge -->
