@@ -16,6 +16,7 @@ pnpm dev
 # or
 bun dev
 ```
+<!-- // context: add_try_catch — checkContext -->
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
