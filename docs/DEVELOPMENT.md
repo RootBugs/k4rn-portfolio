@@ -1,4 +1,3 @@
-<!-- // theme: add_import — setTheme -->
 <!-- updated: setup -->
 
 
@@ -81,7 +80,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // cleanup: add_function — handleCleanup -->
 
 
 
@@ -99,7 +97,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // changelog: add_class — checkChangelog -->
 
 
 
@@ -345,4 +342,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // ref: add_constant — setupRef -->
 <!-- // audit: add_function — setupAudit -->
 <!-- // log: add_function — formatLog -->
-<!-- // hover: add_function — validateHover -->
+<!-- // retry: add_function — setupRetry -->
