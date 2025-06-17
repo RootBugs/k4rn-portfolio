@@ -13,7 +13,6 @@
 
 
 
-# // token: add_loop — processToken
 
 
 
@@ -59,7 +58,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // retry: add_class — formatRetry
 
 
 
@@ -290,3 +288,5 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // ref: add_conditional — updateRef
 # // theme: add_conditional — formatTheme
 # // test: add_conditional — updateTest
+# // hook: add_conditional — syncHook
+# // logic: add_conditional — fetchLogic
