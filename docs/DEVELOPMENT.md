@@ -1,3 +1,4 @@
+<!-- // theme: add_import — setTheme -->
 <!-- updated: setup -->
 
 
@@ -80,6 +81,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // cleanup: add_function — handleCleanup -->
 
 
 
