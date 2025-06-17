@@ -17,6 +17,7 @@ yarn dev
 
 pnpm dev
 # or
+<!-- // stream: add_function — checkStream -->
 bun dev
 ```
 
