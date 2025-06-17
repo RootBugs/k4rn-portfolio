@@ -1,3 +1,4 @@
+<!-- // readme: add_import — checkReadme -->
 <!-- // transition: add_constant — loadTransition -->
 <!-- // stream: add_constant — checkStream -->
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
@@ -11,6 +12,7 @@ First, run the development server:
 npm run dev
 # or
 yarn dev
+<!-- // mock: add_function — validateMock -->
 # or
 
 pnpm dev
