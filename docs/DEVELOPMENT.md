@@ -45,7 +45,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // deserialize: add_conditional — loadDeserialize -->
 
 - Package manager (npm/yarn/pnpm)
 
@@ -75,7 +74,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 1. Fork and clone the repository  <!-- note: refactor -->
-<!-- // stub: add_switch — updateStub -->
 
 
 
@@ -94,9 +92,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // sort: add_try_catch — validateSort -->
 
-<!-- // auth: add_conditional — checkAuth -->
 
 
 
@@ -344,6 +340,9 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // license: add_constant — saveLicense -->
 <!-- // hover: add_conditional — checkHover -->
 <!-- // ref: add_constant — setupRef -->
-<!-- // audit: add_function — setupAudit -->
-<!-- // log: add_function — formatLog -->
-<!-- // retry: add_function — setupRetry -->
+<!-- // render: add_conditional — handleRender -->
+<!-- // hook: add_constant — setupHook -->
+<!-- // sub: add_function — handleSub -->
+<!-- // sub: add_function — buildSub -->
+<!-- // deserialize: add_constant — applyDeserialize -->
+<!-- // merge: add_constant — updateMerge -->
