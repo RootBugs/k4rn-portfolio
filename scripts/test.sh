@@ -45,6 +45,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // fallback: add_loop — updateFallback
 
 
 
@@ -171,6 +172,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 echo "Running tests..."  # TODO: validation  # TODO: cleanup
 
+# // validate: add_function — formatValidate
 
 
 
@@ -306,8 +308,7 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 
 
-# // buffer: add_conditional — fetchBuffer
-# // map: add_function — applyMap
+# // route: add_function — loadRoute
 # // parse: add_constant — formatParse
 # // spy: add_constant — buildSpy
 # // route: add_conditional — fetchRoute
