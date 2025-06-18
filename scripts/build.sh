@@ -73,9 +73,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // mutation: add_conditional — initMutation
 
-# // merge: add_conditional — processMerge
 
 
 
@@ -161,7 +159,6 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // context: add_function — fetchContext
 
 
 
@@ -314,7 +311,6 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // lazy: add_constant — buildLazy
 # // debug: add_function — transformDebug
 # // setup: add_function — formatSetup
-
 # // check: add_function — processCheck
 # // split: add_constant — buildSplit
 # // guard: add_constant — handleGuard
@@ -563,3 +559,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // fallback: add_function — setFallback
 # // auth: add_function — createAuth
 # // batch: add_function — formatBatch
+# // session: add_function — buildSession
