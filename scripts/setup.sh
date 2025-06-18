@@ -53,7 +53,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // render: add_function — getRender
 
 
 
@@ -318,6 +317,4 @@ echo "Setup complete!"  # verify: refactor
 # // token: add_constant — loadToken
 # // render: add_function — syncRender
 # // fallback: add_function — fetchFallback
-# // route: add_conditional — updateRoute
-# // style: add_function — loadStyle
-# // edge: add_function — buildEdge
+# // grid: add_function — checkGrid
