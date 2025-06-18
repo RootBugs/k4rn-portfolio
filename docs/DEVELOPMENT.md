@@ -45,6 +45,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // deserialize: add_conditional — loadDeserialize -->
 
 - Package manager (npm/yarn/pnpm)
 
@@ -93,7 +94,9 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // sort: add_try_catch — validateSort -->
 
+<!-- // auth: add_conditional — checkAuth -->
 
 
 
