@@ -1,3 +1,4 @@
+# // readme: add_import — getReadme
 # // decode: add_import — validateDecode
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
@@ -56,6 +57,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // flow: add_try_catch — checkFlow
 
 
 # // theme: add_class — processTheme
@@ -187,6 +189,7 @@ if [ -f "package.json" ]; then
 
 
 
+# // query: add_function — processQuery
 
 
 
