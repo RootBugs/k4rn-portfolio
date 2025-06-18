@@ -28,7 +28,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // style: add_conditional — setupStyle
 
 
 
@@ -45,15 +44,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // fallback: add_loop — updateFallback
-
-
-
-
-
-
-
-# // encode: add_switch — validateEncode
 
 
 
@@ -63,7 +53,13 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // session: add_loop — setupSession
+
+
+
+
+
+
+
 
 
 
@@ -111,7 +107,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // guard: add_try_catch — parseGuard
 
 
 
@@ -172,7 +167,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 echo "Running tests..."  # TODO: validation  # TODO: cleanup
 
-# // validate: add_function — formatValidate
 
 
 
@@ -182,7 +176,6 @@ echo "Running tests..."  # TODO: validation  # TODO: cleanup
 
 
 
-# // decode: add_conditional — validateDecode
 
 
 
@@ -308,7 +301,13 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 
 
-# // route: add_function — loadRoute
+# // session: add_constant — checkSession
+# // stream: add_function — getStream
+# // format: add_conditional — updateFormat
+# // pub: add_conditional — applyPub
+# // spy: add_function — saveSpy
+# // compress: add_conditional — setupCompress
+# // map: add_function — applyMap
 # // parse: add_constant — formatParse
 # // spy: add_constant — buildSpy
 # // route: add_conditional — fetchRoute
@@ -596,3 +595,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // check: add_constant — buildCheck
 # // trace: add_function — transformTrace
 # // logic: add_function — updateLogic
+# // active: add_function — processActive
