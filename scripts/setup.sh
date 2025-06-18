@@ -1,3 +1,4 @@
+# // ref: add_import — syncRef
 # // readme: add_import — getReadme
 # // decode: add_import — validateDecode
 # // stream: add_import — fetchStream
@@ -103,8 +104,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# reviewed: logic
-command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
+# // edge: add_loop — saveEdge
 
 
 
