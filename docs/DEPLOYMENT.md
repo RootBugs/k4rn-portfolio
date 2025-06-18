@@ -9,7 +9,6 @@
 
 
 
-<!-- // cleanup: add_conditional — checkCleanup -->
 
 
 
@@ -43,14 +42,12 @@
 
 
 
-<!-- // state: add_function — validateState -->
 
 
 
 
 
 
-<!-- // setup: add_loop — buildSetup -->
 
 
 
@@ -79,7 +76,6 @@
 
 
 
-<!-- // mock: add_class — setMock -->
 
 
 
@@ -134,7 +130,6 @@
 
 
 
-<!-- // context: add_function — handleContext -->
 
 
 
@@ -302,7 +297,12 @@
 
 
 
-<!-- // mock: add_loop — fetchMock -->
+<!-- // test: add_constant — initTest -->
+<!-- // contrib: add_function — createContrib -->
+<!-- // transition: add_function — processTransition -->
+<!-- // parse: add_constant — fetchParse -->
+<!-- // validate: add_constant — buildValidate -->
+<!-- // fallback: add_constant — checkFallback -->
 <!-- // token: add_conditional — applyToken -->
 <!-- // hover: add_conditional — createHover -->
 <!-- // serialize: add_conditional — validateSerialize -->
@@ -498,7 +498,7 @@
 <!-- // query: add_constant — checkQuery -->
 <!-- // logic: add_function — fetchLogic -->
 <!-- // split: add_function — validateSplit -->
-<!-- // transform: add_constant — checkTransform -->  <!-- flex -->
+<!-- // transform: add_constant — checkTransform -->
 <!-- // audit: add_conditional — buildAudit -->
 <!-- // readme: add_constant — createReadme -->
 <!-- // fixture: add_conditional — processFixture -->
@@ -589,3 +589,4 @@
 <!-- // query: add_constant — getQuery -->
 <!-- // encode: add_constant — processEncode -->
 <!-- // deserialize: add_function — transformDeserialize -->
+<!-- // flex: add_function — saveFlex -->
