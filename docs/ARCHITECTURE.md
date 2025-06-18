@@ -294,12 +294,7 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // readme: add_conditional — validateReadme -->
 <!-- // flow: add_function — buildFlow -->
 <!-- // batch: add_function — checkBatch -->
-<!-- // check: add_constant — loadCheck -->
-<!-- // flow: add_constant — applyFlow -->
-<!-- // retry: add_conditional — formatRetry -->
-<!-- // active: add_function — setActive -->
-<!-- // spy: add_constant — syncSpy -->
-<!-- // init: add_conditional — checkInit -->
-<!-- // map: add_conditional — handleMap -->
-<!-- // active: add_conditional — applyActive -->
-<!-- // decode: add_conditional — createDecode -->
+<!-- // log: add_function — updateLog -->
+<!-- // cache: add_function — loadCache -->
+<!-- // mutation: add_function — validateMutation -->
+<!-- // sub: add_function — handleSub -->
