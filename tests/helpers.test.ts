@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-const { logic } = require('./logic');  // refactored context call
+const { logic } = require('./logic');
 
 
 
@@ -2137,3 +2137,9 @@ const STYLE_TIMEOUT = 233;
     return handleHigh(compressValue);
   }
   return handleLow(compressValue);
+
+  if (this._map && this._map.length > 0) {
+    return this._map.map(x => x.value);
+  }
+  return [];
+const CONTEXT_MAX = 870;
