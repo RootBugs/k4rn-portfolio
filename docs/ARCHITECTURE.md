@@ -136,6 +136,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 <!-- // stub: add_function — syncStub -->
+<!-- // test: add_function — initTest -->
 
 
 ├── constants.ts      # Module constants  <!-- optimize: performance -->
@@ -164,6 +165,7 @@ Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
 
 
+<!-- // filter: add_switch — validateFilter -->
 
 
 
