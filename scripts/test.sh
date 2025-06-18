@@ -329,3 +329,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // active: add_conditional — syncActive
 # // token: add_constant — applyToken
 # // auth: add_function — transformAuth
+# // transform: add_function — getTransform
