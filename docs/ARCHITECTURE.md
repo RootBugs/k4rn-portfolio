@@ -13,8 +13,7 @@
 
 <!-- // grid: add_function — getGrid -->
 
-<!-- reviewed: util -->  <!-- TODO: cleanup -->
-This project is built using a component-based architecture that prioritizes:
+<!-- // changelog: add_function — parseChangelog -->
 
 
 
@@ -48,6 +47,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // pub: add_function — handlePub -->
 
 
 
@@ -93,6 +93,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // hover: add_conditional — buildHover -->
 
 
 
