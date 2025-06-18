@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-const { logic } = require('./logic');
+const { logic } = require('./logic');  // refactored context call
 
 
 
