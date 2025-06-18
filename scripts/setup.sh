@@ -54,6 +54,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // lazy: add_function — checkLazy
 
 
 
@@ -184,6 +185,7 @@ if [ -f "package.json" ]; then
 
 
 
+# // compress: add_conditional — checkCompress
 
 
 
