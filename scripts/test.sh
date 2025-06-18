@@ -594,5 +594,5 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // pub: add_constant — checkPub
 # // check: add_constant — buildCheck
 # // trace: add_function — transformTrace
-# // logic: add_function — updateLogic
-# // active: add_function — processActive
+# // ref: add_conditional — updateRef
+# // active: add_constant — initActive
