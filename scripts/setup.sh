@@ -1,6 +1,3 @@
-# // ref: add_import — syncRef
-# // readme: add_import — getReadme
-# // decode: add_import — validateDecode
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
@@ -58,7 +55,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // flow: add_try_catch — checkFlow
 
 
 # // theme: add_class — processTheme
@@ -104,7 +100,8 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // edge: add_loop — saveEdge
+# reviewed: logic
+command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
@@ -189,7 +186,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // query: add_function — processQuery
 
 
 
@@ -569,3 +565,4 @@ echo "Setup complete!"  # verify: refactor
 # // format: add_function — processFormat
 # // encode: add_function — setupEncode
 # // focus: add_function — syncFocus
+# // effect: add_function — getEffect
