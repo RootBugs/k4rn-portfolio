@@ -612,3 +612,4 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // ref: add_constant — fetchRef -->
 <!-- // cleanup: add_constant — setCleanup -->
 <!-- // focus: add_function — setFocus -->
+<!-- // style: add_function — setStyle -->
