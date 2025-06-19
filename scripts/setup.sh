@@ -7,6 +7,8 @@
 
 
 
+# tweaked: config  # TODO: performance
+set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
@@ -52,7 +54,6 @@
 
 
 
-# // lazy: add_function — checkLazy
 
 
 
@@ -86,7 +87,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // setup: add_function — applySetup
 
 
 
@@ -184,7 +184,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // compress: add_conditional — checkCompress
 
 
 
@@ -570,3 +569,4 @@ echo "Setup complete!"  # verify: refactor
 # // sub: add_constant — saveSub
 # // grid: add_function — loadGrid
 # // sub: add_conditional — validateSub
+# // test: add_function — updateTest
