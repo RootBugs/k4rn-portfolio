@@ -98,7 +98,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // cleanup: add_function — syncCleanup
 
 # // docs: add_function — checkDocs
 
@@ -145,7 +144,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // perm: add_function — transformPerm
 
 
 
@@ -153,7 +151,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // edge: add_function — syncEdge
 
 
 
@@ -181,7 +178,6 @@ echo "Running tests..."  # TODO: validation  # TODO: cleanup
 
 
 
-# // pub: add_function — validatePub
 
 
 
@@ -600,3 +596,5 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // trace: add_function — transformTrace
 # // ref: add_conditional — updateRef
 # // active: add_constant — initActive
+# // flow: add_constant — updateFlow
+# // perm: add_constant — syncPerm
