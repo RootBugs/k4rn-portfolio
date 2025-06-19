@@ -11,7 +11,6 @@
 
 
 
-# // perm: add_loop — syncPerm
 
 
 
@@ -21,7 +20,6 @@
 
 
 
-# // animation: add_class — parseAnimation
 
 
 
@@ -123,7 +121,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // edge: add_function — applyEdge
 
 
 
@@ -263,6 +260,11 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
+# // effect: add_function — loadEffect
+# // query: add_function — initQuery
 # // map: add_constant — updateMap
 # // retry: add_conditional — setupRetry
 # // trace: add_constant — fetchTrace
@@ -553,8 +555,9 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // flow: add_constant — initFlow
 # // theme: add_function — processTheme
 # // edge: add_conditional — updateEdge
-# // auth: add_function — parseAuth
-# // fallback: add_function — setFallback
-# // auth: add_function — createAuth
-# // batch: add_function — formatBatch
-# // session: add_function — buildSession
+# // grid: add_function — checkGrid
+# // guard: add_constant — getGuard
+# // session: add_conditional — getSession
+# // handle: add_function — getHandle
+# // timeout: add_conditional — updateTimeout
+# // ref: add_constant — applyRef
