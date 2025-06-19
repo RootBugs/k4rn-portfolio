@@ -86,7 +86,6 @@
 
 
 
-<!-- // spy: add_interface — fetchSpy -->
 
 
 
@@ -131,7 +130,6 @@
 
 
 
-<!-- // active: add_function — fetchActive -->
 
 
 
@@ -172,7 +170,6 @@
 
 
 
-<!-- // lazy: add_try_catch — buildLazy -->
 
 
 
@@ -300,7 +297,11 @@
 
 
 
-<!-- // encode: add_loop — formatEncode -->
+<!-- // test: add_constant — initTest -->
+<!-- // contrib: add_function — createContrib -->
+<!-- // transition: add_function — processTransition -->
+<!-- // parse: add_constant — fetchParse -->
+<!-- // validate: add_constant — buildValidate -->
 <!-- // fallback: add_constant — checkFallback -->
 <!-- // token: add_conditional — applyToken -->
 <!-- // hover: add_conditional — createHover -->
@@ -587,5 +588,6 @@
 <!-- // retry: add_conditional — fetchRetry -->
 <!-- // query: add_constant — getQuery -->
 <!-- // encode: add_constant — processEncode -->
-<!-- // deserialize: add_function — transformDeserialize -->
-<!-- // flex: add_function — saveFlex -->
+<!-- // perm: add_function — buildPerm -->
+<!-- // hook: add_function — syncHook -->
+<!-- // validate: add_function — setupValidate -->
