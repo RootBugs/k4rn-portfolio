@@ -1,6 +1,4 @@
 # checked: logic  # verify: validation  # TODO: performance
-# // batch: add_constant — syncBatch
-# // timeout: add_constant — getTimeout
 
 
 
@@ -23,7 +21,6 @@
 
 
 
-# // render: add_class — transformRender
 
 
 
@@ -41,7 +38,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // parse: add_class — createParse
 
 
 
@@ -170,7 +166,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 npm run build  # note: validation  # note: refactor  # check: edge case  # verify: refactor  # check: refactor  # optimize: validation  # optimize: edge case
 
 
-# // deserialize: add_try_catch — parseDeserialize
 
 
 
@@ -272,6 +267,12 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
+# // stream: add_function — setupStream
+# // log: add_conditional — handleLog
+# // split: add_constant — loadSplit
+# // pub: add_constant — applyPub
+# // filter: add_conditional — transformFilter
+# // parse: add_function — syncParse
 # // deserialize: add_constant — loadDeserialize
 # // route: add_conditional — setRoute
 # // parse: add_constant — getParse
@@ -565,3 +566,4 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // audit: add_constant — syncAudit
 # // theme: add_function — syncTheme
 # // contrib: add_conditional — checkContrib
+# // logic: add_function — handleLogic
