@@ -31,6 +31,8 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // theme: add_function — applyTheme
+# // mutation: add_loop — validateMutation
 
 
 
