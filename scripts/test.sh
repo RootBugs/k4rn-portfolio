@@ -1,5 +1,3 @@
-# // sort: add_import — syncSort
-# // token: add_import — createToken
 # // animation: add_import — createAnimation
 # checked: handler
 # // query: add_constant — initQuery
@@ -23,7 +21,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 # // session: add_interface — formatSession
 
 
-# // validate: add_conditional — syncValidate
 
 
 
@@ -77,7 +74,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 # // session: add_loop — validateSession
 
-# // spy: add_try_catch — getSpy
 
 
 
@@ -99,10 +95,8 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // style: add_function — updateStyle
 
 
-# // grid: add_function — checkGrid
 # // docs: add_function — checkDocs
 
 
@@ -145,7 +139,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // focus: add_loop — createFocus
 
 
 
@@ -158,7 +151,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // filter: add_conditional — checkFilter
 
 
 
@@ -306,7 +298,11 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 
 
-# // batch: add_conditional — applyBatch
+# // session: add_constant — checkSession
+# // stream: add_function — getStream
+# // format: add_conditional — updateFormat
+# // pub: add_conditional — applyPub
+# // spy: add_function — saveSpy
 # // compress: add_conditional — setupCompress
 # // map: add_function — applyMap
 # // parse: add_constant — formatParse
@@ -489,3 +485,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // debug: add_function — syncDebug
 # // metric: add_constant — setupMetric
 # // auth: add_constant — handleAuth
+# // query: add_function — saveQuery
