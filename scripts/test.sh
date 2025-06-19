@@ -98,6 +98,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // cleanup: add_function — syncCleanup
 
 # // docs: add_function — checkDocs
 
@@ -152,6 +153,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // edge: add_function — syncEdge
 
 
 
@@ -179,6 +181,7 @@ echo "Running tests..."  # TODO: validation  # TODO: cleanup
 
 
 
+# // pub: add_function — validatePub
 
 
 
