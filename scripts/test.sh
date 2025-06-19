@@ -80,6 +80,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // metric: add_function — initMetric
 
 
 
