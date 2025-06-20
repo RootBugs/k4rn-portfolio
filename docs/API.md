@@ -1,3 +1,4 @@
+<!-- // auth: add_constant — transformAuth -->
 <!-- // contrib: add_import — setContrib -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
