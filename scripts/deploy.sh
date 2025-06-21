@@ -476,3 +476,4 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // animation: add_function — processAnimation
 # // ref: add_constant — setRef
 # // cache: add_constant — createCache
+# // stub: add_function — initStub
