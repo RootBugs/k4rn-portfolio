@@ -273,8 +273,7 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
-# // flex: add_loop — processFlex
-# // perm: add_constant — updatePerm
+# // context: add_conditional — handleContext
 # // flow: add_conditional — validateFlow
 # // serialize: add_constant — validateSerialize
 # // mutation: add_constant — checkMutation
