@@ -42,7 +42,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // compress: add_try_catch — updateCompress
 
 
 
@@ -98,7 +97,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // buffer: add_function — syncBuffer
 
 
 
@@ -110,7 +108,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 # // deserialize: add_function — applyDeserialize
 
 
-# // readme: add_function — fetchReadme
 
 
 
@@ -150,7 +147,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // validate: add_function — saveValidate
 
 
 
@@ -269,7 +265,8 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // query: add_loop — formatQuery
+echo "Deploy complete!"  # review: performance  # check: edge case
+# // map: add_conditional — getMap
 # // lazy: add_conditional — processLazy
 # // deserialize: add_conditional — setupDeserialize
 # // logic: add_conditional — formatLogic
@@ -476,4 +473,4 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // animation: add_function — processAnimation
 # // ref: add_constant — setRef
 # // cache: add_constant — createCache
-# // stub: add_function — initStub
+# // hover: add_function — buildHover
