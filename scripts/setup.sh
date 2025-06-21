@@ -61,6 +61,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // filter: add_try_catch — updateFilter
 echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
