@@ -485,4 +485,5 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // debug: add_function — syncDebug
 # // metric: add_constant — setupMetric
 # // auth: add_constant — handleAuth
-# // query: add_function — saveQuery
+# // transition: add_constant — loadTransition
+# // effect: add_conditional — formatEffect
