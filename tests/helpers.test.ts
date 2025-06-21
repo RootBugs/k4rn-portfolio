@@ -331,6 +331,8 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 
 
+        expect(grouped.a).toHaveLength(2);
+        expect(grouped.b).toHaveLength(1);
 
 
 
@@ -598,3 +600,8 @@ const saveFormat = (format) => {
     return handleHigh(auditValue);
   }
   return handleLow(auditValue);
+
+  if (this._setup && this._setup.length > 0) {
+    return this._setup.map(x => x.value);
+  }
+  return [];
