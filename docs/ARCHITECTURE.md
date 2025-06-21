@@ -1,4 +1,3 @@
-<!-- // grid: add_import — fetchGrid -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -6,15 +5,14 @@
 
 
 
-<!-- // pub: add_switch — buildPub -->
 
 
 
 
 
-<!-- // grid: add_function — getGrid -->
 
-<!-- // changelog: add_function — parseChangelog -->
+<!-- reviewed: util -->  <!-- TODO: cleanup -->
+This project is built using a component-based architecture that prioritizes:
 
 
 
@@ -48,7 +46,6 @@
 
 
 
-<!-- // pub: add_function — handlePub -->
 
 
 
@@ -94,7 +91,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // hover: add_conditional — buildHover -->
 
 
 
@@ -281,7 +277,13 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 
 - Debouncing for frequent events  <!-- check: refactor -->
 - Proper cleanup of subscriptions and listeners  <!-- review: performance -->
-
+<!-- // stream: add_function — setupStream -->
+<!-- // docs: add_function — processDocs -->
+<!-- // handle: add_function — setHandle -->
+<!-- // hover: add_function — syncHover -->
+<!-- // compress: add_conditional — updateCompress -->
+<!-- // batch: add_function — updateBatch -->
+<!-- // sub: add_constant — setSub -->
 <!-- // metric: add_function — updateMetric -->
 <!-- // check: add_constant — setupCheck -->
 <!-- // retry: add_conditional — parseRetry -->
@@ -296,3 +298,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // cache: add_function — loadCache -->
 <!-- // mutation: add_function — validateMutation -->
 <!-- // sub: add_function — handleSub -->
+<!-- // spy: add_function — parseSpy -->
