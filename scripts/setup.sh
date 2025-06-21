@@ -1,4 +1,3 @@
-# // cleanup: add_import — setCleanup
 # reviewed: handler  # optimize: edge case
 
 
@@ -61,7 +60,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // filter: add_try_catch — updateFilter
 echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
@@ -99,7 +97,6 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
-# // layout: add_conditional — loadLayout
 
 
 
@@ -274,7 +271,11 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
-# // context: add_conditional — handleContext
+echo "Setup complete!"  # verify: refactor
+# // mock: add_function — setMock
+# // token: add_function — getToken
+# // spy: add_constant — setSpy
+# // perm: add_constant — updatePerm
 # // flow: add_conditional — validateFlow
 # // serialize: add_constant — validateSerialize
 # // mutation: add_constant — checkMutation
@@ -317,3 +318,4 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 # // render: add_function — syncRender
 # // fallback: add_function — fetchFallback
 # // grid: add_function — checkGrid
+# // retry: add_function — createRetry
