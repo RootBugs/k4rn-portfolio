@@ -42,6 +42,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // compress: add_try_catch — updateCompress
 
 
 
@@ -149,6 +150,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // validate: add_function — saveValidate
 
 
 
