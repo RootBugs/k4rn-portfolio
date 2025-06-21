@@ -328,5 +328,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // fixture: add_function — checkFixture
 # // active: add_conditional — syncActive
 # // token: add_constant — applyToken
-# // auth: add_function — transformAuth
-# // transform: add_function — getTransform
+# // route: add_constant — formatRoute
