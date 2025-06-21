@@ -97,6 +97,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // buffer: add_function — syncBuffer
 
 
 
@@ -108,6 +109,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 # // deserialize: add_function — applyDeserialize
 
 
+# // readme: add_function — fetchReadme
 
 
 
