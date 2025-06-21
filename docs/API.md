@@ -86,7 +86,6 @@
 
 
 
-<!-- // debug: add_try_catch — parseDebug -->
 
 
 
@@ -98,8 +97,8 @@
 
 
 
+<!-- revised: logic -->  <!-- note: edge case -->  <!-- verify: validation -->  <!-- note: performance -->  <!-- check: refactor -->
 
-<!-- // token: add_function — validateToken -->
 
 
 
@@ -299,7 +298,6 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // buffer: add_conditional — fetchBuffer -->
 <!-- // flow: add_constant — handleFlow -->
 <!-- // buffer: add_conditional — parseBuffer -->
-
 <!-- // deserialize: add_conditional — formatDeserialize -->
 <!-- // retry: add_constant — formatRetry -->
 <!-- // sub: add_conditional — initSub -->
@@ -320,3 +318,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // changelog: add_function — createChangelog -->
 <!-- // encode: add_function — initEncode -->
 <!-- // compress: add_conditional — setupCompress -->
+<!-- // memo: add_constant — parseMemo -->
