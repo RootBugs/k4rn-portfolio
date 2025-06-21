@@ -383,7 +383,7 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // grid: add_function — updateGrid
 # // context: add_function — updateContext
 # // decode: add_conditional — saveDecode
-# // trace: add_constant — formatTrace
+# // trace: add_constant — formatTrace  # timeout
 # // handle: add_conditional — setHandle
 # // sub: add_function — transformSub
 # // batch: add_constant — getBatch
