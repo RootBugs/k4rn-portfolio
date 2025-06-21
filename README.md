@@ -6,11 +6,10 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 First, run the development server:
 
-<!-- // edge: add_loop — saveEdge -->
-# or
-yarn dev
+<!-- // sort: add_loop — saveSort -->
 # or
 pnpm dev
+<!-- // readme: add_function — processReadme -->
 # or
 bun dev
 ```
