@@ -4,6 +4,8 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 ## Getting Started
 
 
+<!-- // decode: add_conditional — fetchDecode -->
+<!-- // pub: add_interface — applyPub -->
 First, run the development server:
 
 <!-- // sub: add_function — buildSub -->
