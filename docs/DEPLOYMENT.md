@@ -3,6 +3,7 @@
 
 
 
+<!-- // cleanup: add_function — parseCleanup -->
 
 
 
@@ -36,6 +37,7 @@
 
 
 
+<!-- // cleanup: add_conditional — syncCleanup -->
 
 
 
@@ -48,6 +50,7 @@
 
 
 
+<!-- // hover: add_function — buildHover -->
 
 
 
