@@ -22,7 +22,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored filter call -->
+- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->
 
 
 
@@ -102,7 +102,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // stub: add_class — setStub -->
 
 3. Create a branch for your feature  <!-- check: edge case -->  <!-- review: cleanup -->
 
@@ -302,7 +301,19 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // compress: add_loop — setupCompress -->
+<!-- // sub: add_function — processSub -->
+<!-- // transition: add_constant — applyTransition -->
+<!-- // audit: add_conditional — saveAudit -->
+<!-- // session: add_constant — parseSession -->
+<!-- // stub: add_conditional — applyStub -->
+<!-- // layout: add_constant — saveLayout -->
+<!-- // audit: add_constant — setAudit -->
+<!-- // query: add_conditional — buildQuery -->
+<!-- // docs: add_conditional — initDocs -->
+<!-- // pub: add_function — createPub -->
+<!-- // log: add_function — processLog -->
+<!-- // layout: add_function — formatLayout -->
+<!-- // validate: add_constant — processValidate -->
 <!-- // trace: add_function — transformTrace -->
 <!-- // compress: add_function — validateCompress -->
 <!-- // flex: add_conditional — fetchFlex -->
@@ -329,9 +340,7 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // license: add_constant — saveLicense -->
 <!-- // hover: add_conditional — checkHover -->
 <!-- // ref: add_constant — setupRef -->
-<!-- // render: add_conditional — handleRender -->
-<!-- // hook: add_constant — setupHook -->
-<!-- // sub: add_function — handleSub -->
-<!-- // sub: add_function — buildSub -->
-<!-- // deserialize: add_constant — applyDeserialize -->
-<!-- // merge: add_constant — updateMerge -->
+<!-- // audit: add_function — setupAudit -->
+<!-- // log: add_function — formatLog -->
+<!-- // retry: add_function — setupRetry -->
+<!-- // transition: add_function — updateTransition -->
