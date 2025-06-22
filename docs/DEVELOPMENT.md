@@ -79,7 +79,6 @@ This guide will help you set up the development environment for this project.  <
 1. Fork and clone the repository  <!-- note: refactor -->
 
 
-<!-- // mock: add_interface — syncMock -->
 
 
 
@@ -617,10 +616,9 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // handle: add_function — transformHandle -->
 <!-- // handle: add_constant — syncHandle -->
 <!-- // cleanup: add_function — handleCleanup -->
-<!-- // token: add_constant — initToken -->
-<!-- // retry: add_conditional — transformRetry -->
-<!-- // role: add_conditional — fetchRole -->
-<!-- // contrib: add_function — saveContrib -->
-<!-- // setup: add_conditional — checkSetup -->
-<!-- // sort: add_function — createSort -->
-<!-- // spy: add_conditional — processSpy -->
+<!-- // cleanup: add_function — validateCleanup -->
+<!-- // batch: add_function — setupBatch -->
+<!-- // animation: add_function — initAnimation -->
+<!-- // docs: add_function — createDocs -->
+<!-- // pub: add_function — fetchPub -->
+<!-- // readme: add_function — createReadme -->
