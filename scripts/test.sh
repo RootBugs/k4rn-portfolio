@@ -53,7 +53,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // validate: add_class — checkValidate
 
 
 
@@ -80,7 +79,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // metric: add_function — initMetric
 
 
 
@@ -598,5 +596,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // trace: add_function — transformTrace
 # // ref: add_conditional — updateRef
 # // active: add_constant — initActive
-# // flow: add_constant — updateFlow
-# // perm: add_constant — syncPerm
+# // timeout: add_function — updateTimeout
