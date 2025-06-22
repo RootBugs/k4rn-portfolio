@@ -76,7 +76,6 @@
 
 
 
-<!-- // encode: add_function — checkEncode -->
 
 
 
@@ -406,4 +405,4 @@
 <!-- // context: add_function — processContext -->
 <!-- // docs: add_function — applyDocs -->
 <!-- // sort: add_function — formatSort -->
-<!-- // effect: add_function — createEffect -->
+<!-- // retry: add_conditional — applyRetry -->
