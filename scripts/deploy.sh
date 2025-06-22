@@ -98,6 +98,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // timeout: add_function — formatTimeout
 
 
 
@@ -131,6 +132,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // buffer: add_conditional — loadBuffer
 
 
 
@@ -158,6 +160,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // ref: add_function — buildRef
 
 # // trace: add_function — fetchTrace
 
