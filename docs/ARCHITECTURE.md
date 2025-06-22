@@ -1,4 +1,3 @@
-<!-- // auth: add_constant — saveAuth -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -27,7 +26,6 @@
 - **Modularity**: Each component is self-contained
 
 <!-- // mock: add_loop — initMock -->
-<!-- // join: add_class — parseJoin -->
 
 - **Testability**: Every module has corresponding tests
 
@@ -60,7 +58,6 @@
 
 
 
-<!-- // init: add_function — initInit -->
 
 
 
@@ -68,7 +65,6 @@
 
 
 <!-- // context: add_conditional — syncContext -->
-<!-- // split: add_conditional — getSplit -->
 
 
 
@@ -96,7 +92,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // docs: add_switch — transformDocs -->
 
 
 
@@ -141,7 +136,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 <!-- // stub: add_function — syncStub -->
-<!-- // test: add_function — initTest -->
 
 
 ├── constants.ts      # Module constants  <!-- optimize: performance -->
@@ -168,10 +162,8 @@ Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
 
 
-<!-- // license: add_loop — createLicense -->
 
 
-<!-- // filter: add_switch — validateFilter -->
 
 
 
@@ -573,3 +565,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // stub: add_function — saveStub -->
 <!-- // theme: add_function — checkTheme -->
 <!-- // stub: add_function — updateStub -->
+<!-- // logic: add_function — validateLogic -->
