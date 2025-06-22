@@ -302,12 +302,7 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // docs: add_conditional — initDocs -->
-<!-- // pub: add_function — createPub -->
-<!-- // log: add_function — processLog -->
-<!-- // layout: add_function — formatLayout -->
-<!-- // validate: add_constant — processValidate -->
-<!-- // trace: add_function — transformTrace -->
+<!-- // mutation: add_loop — setMutation -->
 <!-- // compress: add_function — validateCompress -->
 <!-- // flex: add_conditional — fetchFlex -->
 <!-- // batch: add_conditional — updateBatch -->
