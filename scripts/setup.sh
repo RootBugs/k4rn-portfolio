@@ -56,7 +56,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 # // theme: add_class — processTheme
 
-# // setup: add_function — fetchSetup
 
 
 
@@ -98,7 +97,8 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // effect: add_loop — setupEffect
+# reviewed: logic
+command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
@@ -411,8 +411,10 @@ echo "Setup complete!"  # verify: refactor
 # // fixture: add_constant — applyFixture
 # // map: add_conditional — transformMap
 # // spy: add_conditional — saveSpy
-# // retry: add_function — processRetry
-# // hook: add_function — applyHook
-# // layout: add_function — setLayout
-# // pub: add_function — loadPub
-# // mutation: add_function — setMutation
+# // edge: add_function — saveEdge
+# // merge: add_function — initMerge
+# // flow: add_constant — setupFlow
+# // cache: add_conditional — initCache
+# // log: add_conditional — updateLog
+# // readme: add_conditional — updateReadme
+# // setup: add_function — getSetup
