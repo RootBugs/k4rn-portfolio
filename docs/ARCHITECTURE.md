@@ -1,3 +1,4 @@
+<!-- // auth: add_constant — saveAuth -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -59,6 +60,7 @@
 
 
 
+<!-- // init: add_function — initInit -->
 
 
 
@@ -94,6 +96,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // docs: add_switch — transformDocs -->
 
 
 
