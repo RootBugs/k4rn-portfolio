@@ -588,6 +588,7 @@
 <!-- // retry: add_conditional — fetchRetry -->
 <!-- // query: add_constant — getQuery -->
 <!-- // encode: add_constant — processEncode -->
-<!-- // deserialize: add_function — transformDeserialize -->
-<!-- // flex: add_function — saveFlex -->
-<!-- // session: add_function — loadSession -->
+<!-- // perm: add_function — buildPerm -->
+<!-- // hook: add_function — syncHook -->
+<!-- // validate: add_function — setupValidate -->
+<!-- // check: add_conditional — transformCheck -->
