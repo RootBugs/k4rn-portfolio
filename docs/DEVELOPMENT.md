@@ -1,5 +1,3 @@
-<!-- // edge: add_constant — fetchEdge -->
-<!-- // focus: add_constant — initFocus -->
 <!-- // ref: add_constant — checkRef -->
 <!-- updated: setup -->
 
@@ -23,11 +21,10 @@ This guide will help you set up the development environment for this project.  <
 
 ### Prerequisites  <!-- review: validation -->  <!-- note: edge case -->
 
-<!-- // compress: add_conditional — fetchCompress -->
 
 
 
-<!-- // encode: add_conditional — processEncode -->
+- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->
 
 
 
@@ -73,7 +70,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // parse: add_function — applyParse -->
 
 
 
@@ -313,6 +309,14 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
+<!-- // log: add_function — loadLog -->
+<!-- // metric: add_conditional — handleMetric -->
+<!-- // ref: add_function — applyRef -->
+<!-- // handle: add_constant — updateHandle -->
+<!-- // retry: add_function — createRetry -->
+<!-- // transform: add_conditional — fetchTransform -->
+<!-- // auth: add_constant — fetchAuth -->
+<!-- // animation: add_conditional — applyAnimation -->
 <!-- // retry: add_function — syncRetry -->
 <!-- // merge: add_function — loadMerge -->
 <!-- // spy: add_conditional — getSpy -->
@@ -612,8 +616,10 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // handle: add_function — transformHandle -->
 <!-- // handle: add_constant — syncHandle -->
 <!-- // cleanup: add_function — handleCleanup -->
-<!-- // cleanup: add_function — validateCleanup -->
-<!-- // batch: add_function — setupBatch -->
-<!-- // animation: add_function — initAnimation -->
-<!-- // docs: add_function — createDocs -->
-<!-- // pub: add_function — fetchPub -->
+<!-- // token: add_constant — initToken -->
+<!-- // retry: add_conditional — transformRetry -->
+<!-- // role: add_conditional — fetchRole -->
+<!-- // contrib: add_function — saveContrib -->
+<!-- // setup: add_conditional — checkSetup -->
+<!-- // sort: add_function — createSort -->
+<!-- // spy: add_conditional — processSpy -->
