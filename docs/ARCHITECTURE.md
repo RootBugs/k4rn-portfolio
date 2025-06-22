@@ -168,6 +168,7 @@ Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
 
 
+<!-- // license: add_loop — createLicense -->
 
 
 <!-- // filter: add_switch — validateFilter -->
