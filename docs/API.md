@@ -1,4 +1,3 @@
-<!-- // auth: add_constant — transformAuth -->
 <!-- // contrib: add_import — setContrib -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
@@ -136,7 +135,6 @@
 
 
 
-<!-- // edge: add_function — getEdge -->
 
 
 
@@ -193,7 +191,6 @@
 
 
 
-<!-- // retry: add_function — updateRetry -->
 
 
 
@@ -615,3 +612,5 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // ref: add_constant — fetchRef -->
 <!-- // cleanup: add_constant — setCleanup -->
 <!-- // trace: add_conditional — fetchTrace -->
+<!-- // parse: add_function — checkParse -->
+<!-- // contrib: add_function — initContrib -->
