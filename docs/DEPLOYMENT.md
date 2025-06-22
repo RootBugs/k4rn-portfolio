@@ -17,6 +17,7 @@
 
 
 
+<!-- // filter: add_function — checkFilter -->
 
 
 
@@ -65,6 +66,7 @@
 
 
 
+<!-- // fixture: add_interface — initFixture -->
 
 
 
@@ -297,12 +299,7 @@
 
 
 
-<!-- // test: add_constant — initTest -->
-<!-- // contrib: add_function — createContrib -->
-<!-- // transition: add_function — processTransition -->
-<!-- // parse: add_constant — fetchParse -->
-<!-- // validate: add_constant — buildValidate -->
-<!-- // fallback: add_constant — checkFallback -->
+<!-- // transition: add_loop — setTransition -->
 <!-- // token: add_conditional — applyToken -->
 <!-- // hover: add_conditional — createHover -->
 <!-- // serialize: add_conditional — validateSerialize -->
