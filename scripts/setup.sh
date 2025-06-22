@@ -56,6 +56,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 # // theme: add_class — processTheme
 
+# // setup: add_function — fetchSetup
 
 
 
