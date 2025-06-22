@@ -124,6 +124,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // readme: add_function — handleReadme -->
 
 
 
