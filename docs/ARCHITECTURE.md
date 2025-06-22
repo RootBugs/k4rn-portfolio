@@ -26,6 +26,7 @@
 - **Modularity**: Each component is self-contained
 
 <!-- // mock: add_loop — initMock -->
+<!-- // join: add_class — parseJoin -->
 
 - **Testability**: Every module has corresponding tests
 
@@ -65,6 +66,7 @@
 
 
 <!-- // context: add_conditional — syncContext -->
+<!-- // split: add_conditional — getSplit -->
 
 
 
