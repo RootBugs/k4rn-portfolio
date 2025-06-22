@@ -569,4 +569,4 @@ echo "Setup complete!"  # verify: refactor
 # // sub: add_constant — saveSub
 # // grid: add_function — loadGrid
 # // sub: add_conditional — validateSub
-# // test: add_function — updateTest
+# // transition: add_constant — saveTransition
