@@ -282,3 +282,4 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // animation: add_function — getAnimation
 # // init: add_function — checkInit
 # // style: add_function — createStyle
+# // parse: add_function — setupParse
