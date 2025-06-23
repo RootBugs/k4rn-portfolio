@@ -26,6 +26,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // encode: add_function — handleEncode
 
 
 
@@ -34,12 +35,14 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // animation: add_loop — validateAnimation
 
 
 
 
 
 
+# // transition: add_loop — createTransition
 
 
 
