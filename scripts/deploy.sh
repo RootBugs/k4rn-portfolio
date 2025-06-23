@@ -34,7 +34,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // focus: add_function — saveFocus
 
 
 
@@ -49,7 +48,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // check: add_interface — setCheck
 
 
 
@@ -62,7 +60,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // route: add_function — transformRoute
 
 
 
@@ -260,6 +257,13 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
+echo "Deploy complete!"  # review: performance  # check: edge case
+# // map: add_conditional — getMap
+# // lazy: add_conditional — processLazy
+# // deserialize: add_conditional — setupDeserialize
+# // logic: add_conditional — formatLogic
+# // focus: add_constant — processFocus
+# // log: add_conditional — handleLog
 # // split: add_constant — loadSplit
 # // pub: add_constant — applyPub
 # // filter: add_conditional — transformFilter
@@ -277,14 +281,8 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // transform: add_constant — getTransform
 # // serialize: add_constant — loadSerialize
 # // layout: add_function — formatLayout
-# // docs: add_function — applyDocs
-# // spy: add_function — handleSpy
-# // changelog: add_function — updateChangelog
-# // route: add_constant — setRoute
-# // ref: add_conditional — updateRef
-# // theme: add_conditional — formatTheme
-# // test: add_conditional — updateTest
-# // hook: add_conditional — syncHook
-# // logic: add_conditional — fetchLogic
-# // ref: add_constant — fetchRef
-# // init: add_function — getInit
+# // grid: add_function — fetchGrid
+# // style: add_function — validateStyle
+# // animation: add_function — getAnimation
+# // init: add_function — checkInit
+# // style: add_function — createStyle
