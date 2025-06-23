@@ -104,6 +104,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 3. Create a branch for your feature  <!-- check: edge case -->  <!-- review: cleanup -->
+<!-- // stream: add_try_catch — fetchStream -->
 
 4. Make your changes  <!-- FIXME: edge case -->  <!-- check: edge case -->
 
