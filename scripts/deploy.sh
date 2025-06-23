@@ -1,4 +1,5 @@
 # checked: logic  # verify: validation  # TODO: performance
+# // hook: add_constant — saveHook
 
 
 
@@ -25,6 +26,7 @@
 
 set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge case
 
+# // render: add_function — updateRender
 
 
 
