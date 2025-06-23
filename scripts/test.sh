@@ -56,6 +56,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // token: add_conditional — fetchToken
 
 
 
@@ -331,4 +332,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // fixture: add_function — checkFixture
 # // active: add_conditional — syncActive
 # // token: add_constant — applyToken
-# // route: add_constant — formatRoute
+# // route: add_constant — formatRoute  # docs
