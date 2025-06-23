@@ -31,7 +31,6 @@
 
 
 
-# // logic: add_try_catch — initLogic
 
 
 
@@ -260,7 +259,13 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-# // edge: add_function — buildEdge
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
+# // effect: add_function — loadEffect
+# // query: add_function — initQuery
+# // map: add_constant — updateMap
+# // retry: add_conditional — setupRetry
 # // trace: add_constant — fetchTrace
 # // cleanup: add_conditional — formatCleanup
 # // layout: add_function — createLayout
@@ -299,4 +304,5 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // metric: add_function — setupMetric
 # // cleanup: add_constant — checkCleanup
 # // flow: add_function — formatFlow
-# // state: add_function — createState
+# // batch: add_function — checkBatch
+# // handle: add_function — applyHandle
