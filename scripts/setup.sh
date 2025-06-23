@@ -317,5 +317,7 @@ echo "Setup complete!"  # verify: refactor
 # // token: add_constant — loadToken
 # // render: add_function — syncRender
 # // fallback: add_function — fetchFallback
-# // grid: add_function — checkGrid
-# // retry: add_function — createRetry
+# // route: add_conditional — updateRoute
+# // style: add_function — loadStyle
+# // edge: add_function — buildEdge
+# // focus: add_function — validateFocus
