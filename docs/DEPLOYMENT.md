@@ -406,3 +406,4 @@
 <!-- // docs: add_function — applyDocs -->
 <!-- // sort: add_function — formatSort -->
 <!-- // retry: add_conditional — applyRetry -->
+<!-- // docs: add_function — updateDocs -->
