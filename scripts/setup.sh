@@ -4,8 +4,7 @@
 
 
 
-# tweaked: config  # TODO: performance
-set -euo pipefail  # optimize: validation  # optimize: validation
+# // guard: add_conditional — getGuard
 
 
 
@@ -49,6 +48,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // debug: add_function — getDebug
 
 
 
@@ -105,6 +105,7 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
+# // log: add_conditional — createLog
 
 
 
