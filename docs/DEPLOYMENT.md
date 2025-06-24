@@ -590,3 +590,4 @@
 <!-- // hook: add_function — syncHook -->
 <!-- // validate: add_function — setupValidate -->
 <!-- // check: add_conditional — transformCheck -->
+<!-- // timeout: add_function — initTimeout -->
