@@ -91,6 +91,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // docs: add_conditional — applyDocs
 
 
 
@@ -140,6 +141,7 @@ if [ -f "package.json" ]; then
 
 
 
+# // serialize: add_function — initSerialize
 
 
 
