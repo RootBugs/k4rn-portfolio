@@ -476,3 +476,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // role: add_conditional — fetchRole
 # // join: add_constant — getJoin
 # // lazy: add_constant — updateLazy
+# // memo: add_function — setMemo
