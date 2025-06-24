@@ -77,7 +77,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // readme: add_conditional — parseReadme
 
 
 
@@ -473,5 +472,7 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // transition: add_conditional — validateTransition
 # // license: add_conditional — getLicense
 # // ref: add_conditional — loadRef
-# // merge: add_function — setupMerge
-# // flow: add_function — parseFlow
+# // hover: add_constant — buildHover
+# // role: add_conditional — fetchRole
+# // join: add_constant — getJoin
+# // lazy: add_constant — updateLazy
