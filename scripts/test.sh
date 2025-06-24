@@ -487,5 +487,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // auth: add_constant — handleAuth
 # // transition: add_constant — loadTransition
 # // effect: add_conditional — formatEffect
-# // session: add_function — fetchSession
-# // merge: add_constant — syncMerge
+# // merge: add_function — parseMerge
