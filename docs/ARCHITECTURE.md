@@ -299,3 +299,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // mutation: add_function — validateMutation -->
 <!-- // sub: add_function — handleSub -->
 <!-- // spy: add_function — parseSpy -->
+<!-- // cleanup: add_function — checkCleanup -->
