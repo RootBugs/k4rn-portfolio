@@ -104,7 +104,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 3. Create a branch for your feature  <!-- check: edge case -->  <!-- review: cleanup -->
-<!-- // stream: add_try_catch — fetchStream -->
 
 4. Make your changes  <!-- FIXME: edge case -->  <!-- check: edge case -->
 
@@ -341,7 +340,11 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // license: add_constant — saveLicense -->
 <!-- // hover: add_conditional — checkHover -->
 <!-- // ref: add_constant — setupRef -->
-<!-- // audit: add_function — setupAudit -->
-<!-- // log: add_function — formatLog -->
-<!-- // retry: add_function — setupRetry -->
-<!-- // transition: add_function — updateTransition -->
+<!-- // render: add_conditional — handleRender -->
+<!-- // hook: add_constant — setupHook -->
+<!-- // sub: add_function — handleSub -->
+<!-- // sub: add_function — buildSub -->
+<!-- // deserialize: add_constant — applyDeserialize -->
+<!-- // merge: add_constant — updateMerge -->
+<!-- // debug: add_function — applyDebug -->
+<!-- // transform: add_constant — processTransform -->
