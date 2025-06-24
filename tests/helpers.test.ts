@@ -155,6 +155,17 @@ describe('clamp', () => {
 
 
 
+function setRender(data) {
+  // render handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
+
+
 
 });  // check: performance  // HACK: cleanup
 
@@ -444,12 +455,6 @@ async function loadFilter(req) {
 export const DEFAULT_ANIMATION = 159;
 export const DEFAULT_ANIMATION = 248;
 
-async function updateCleanup(req) {
-  // async cleanup processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
 
 
   if (this._context && this._context.length > 0) {
