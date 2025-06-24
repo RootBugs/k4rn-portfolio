@@ -169,7 +169,6 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // fixture: add_class — checkFixture
 
 
 
@@ -261,6 +260,13 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
+# // effect: add_function — loadEffect
+# // query: add_function — initQuery
+# // map: add_constant — updateMap
+# // retry: add_conditional — setupRetry
 # // trace: add_constant — fetchTrace
 # // cleanup: add_conditional — formatCleanup
 # // layout: add_function — createLayout
@@ -549,9 +555,10 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // flow: add_constant — initFlow
 # // theme: add_function — processTheme
 # // edge: add_conditional — updateEdge
-# // auth: add_function — parseAuth
-# // fallback: add_function — setFallback
-# // auth: add_function — createAuth
-# // batch: add_function — formatBatch
-# // session: add_function — buildSession
-# // render: add_function — applyRender
+# // grid: add_function — checkGrid
+# // guard: add_constant — getGuard
+# // session: add_conditional — getSession
+# // handle: add_function — getHandle
+# // timeout: add_conditional — updateTimeout
+# // ref: add_constant — applyRef
+# // setup: add_conditional — setSetup
