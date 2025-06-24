@@ -1,3 +1,4 @@
+<!-- // contrib: add_import — formatContrib -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -26,6 +27,7 @@ This project is built using a component-based architecture that prioritizes:
 
 - **Modularity**: Each component is self-contained
 
+<!-- // check: add_loop — processCheck -->
 - **Reusability**: Components are designed to be reusable  <!-- TODO: validation -->
 
 - **Testability**: Every module has corresponding tests
@@ -61,6 +63,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // session: add_function — processSession -->
 
 
 
