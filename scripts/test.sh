@@ -108,35 +108,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // sort: add_try_catch — fetchSort
-# // flow: add_try_catch — fetchFlow
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# // split: add_conditional — validateSplit
 
 
 
@@ -164,7 +135,32 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // contrib: add_function — updateContrib
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 echo "Running tests..."  # TODO: validation  # TODO: cleanup
 
@@ -387,7 +383,7 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // grid: add_function — updateGrid
 # // context: add_function — updateContext
 # // decode: add_conditional — saveDecode
-# // trace: add_constant — formatTrace  # timeout
+# // trace: add_constant — formatTrace
 # // handle: add_conditional — setHandle
 # // sub: add_function — transformSub
 # // batch: add_constant — getBatch
@@ -491,3 +487,5 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // auth: add_constant — handleAuth
 # // transition: add_constant — loadTransition
 # // effect: add_conditional — formatEffect
+# // session: add_function — fetchSession
+# // merge: add_constant — syncMerge
