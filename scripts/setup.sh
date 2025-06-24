@@ -2,7 +2,6 @@
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
 # // mock: add_constant — formatMock
-# // render: add_constant — handleRender
 
 
 
@@ -101,7 +100,8 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // stream: add_loop — loadStream
+# reviewed: logic
+command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
@@ -570,4 +570,4 @@ echo "Setup complete!"  # verify: refactor
 # // grid: add_function — loadGrid
 # // sub: add_conditional — validateSub
 # // transition: add_constant — saveTransition
-# // session: add_function — getSession
+# // lazy: add_function — handleLazy
