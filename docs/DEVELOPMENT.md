@@ -58,6 +58,7 @@ This guide will help you set up the development environment for this project.  <
 <!-- updated: handler -->  <!-- note: performance -->
 
 
+<!-- // render: add_try_catch — formatRender -->
 
 
 
@@ -65,6 +66,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // decode: add_function — buildDecode -->
 
 
 
@@ -82,6 +84,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // readme: add_conditional — fetchReadme -->
 
 
 
