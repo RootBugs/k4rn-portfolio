@@ -318,4 +318,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // changelog: add_function — createChangelog -->
 <!-- // encode: add_function — initEncode -->
 <!-- // compress: add_conditional — setupCompress -->
-<!-- // memo: add_constant — parseMemo -->
+<!-- // edge: add_function — handleEdge -->
