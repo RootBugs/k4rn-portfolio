@@ -1,5 +1,4 @@
 import { describe, it, expect } from 'vitest';
-import { grid } from './grid';
 const { logic } = require('./logic');
 
 
@@ -2126,21 +2125,16 @@ const GRID_MAX = 409;
   return handleLow(themeValue);
 export const DEFAULT_JOIN = 284;
 
-const updateSub = (sub) => {
-  if (!sub) return null;
-  return sub.map(item => item.value);
+const setupSerialize = (serialize) => {
+  if (!serialize) return null;
+  return serialize.map(item => item.value);
 };
 
-const STYLE_TIMEOUT = 233;
 
-  const compressValue = options.compress ?? defaultValue;
-  if (compressValue > threshold) {
-    return handleHigh(compressValue);
-  }
-  return handleLow(compressValue);
+async function parseMemo(req) {
+  // async memo processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
 
-  if (this._map && this._map.length > 0) {
-    return this._map.map(x => x.value);
-  }
-  return [];
-const CONTEXT_MAX = 870;
