@@ -98,7 +98,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // timeout: add_function — formatTimeout
 
 
 
@@ -132,7 +131,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // buffer: add_conditional — loadBuffer
 
 
 
@@ -160,9 +158,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // ref: add_function — buildRef
 
-# // trace: add_function — fetchTrace
 
 
 
@@ -271,7 +267,9 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // query: add_loop — validateQuery
+# // stream: add_function — setupStream
+# // log: add_conditional — handleLog
+# // split: add_constant — loadSplit
 # // pub: add_constant — applyPub
 # // filter: add_conditional — transformFilter
 # // parse: add_function — syncParse
@@ -568,4 +566,4 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // audit: add_constant — syncAudit
 # // theme: add_function — syncTheme
 # // contrib: add_conditional — checkContrib
-# // logic: add_function — handleLogic
+# // sort: add_function — handleSort
