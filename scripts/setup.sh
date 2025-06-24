@@ -1,4 +1,3 @@
-# // fallback: add_import — updateFallback
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
@@ -78,7 +77,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // init: add_conditional — loadInit
 
 
 
@@ -161,7 +159,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // memo: add_function — saveMemo
 
 
 
@@ -499,3 +496,4 @@ echo "Setup complete!"  # verify: refactor
 # // effect: add_function — saveEffect
 # // mutation: add_conditional — checkMutation
 # // test: add_conditional — buildTest
+# // transform: add_function — updateTransform
