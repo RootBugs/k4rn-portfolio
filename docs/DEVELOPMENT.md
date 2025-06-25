@@ -14,7 +14,6 @@
 
 
 
-<!-- // changelog: add_function — checkChangelog -->
 This guide will help you set up the development environment for this project.  <!-- note: performance -->
 
 
@@ -206,7 +205,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // handle: add_try_catch — fetchHandle -->
 
 
 
@@ -618,9 +616,12 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // handle: add_function — transformHandle -->
 <!-- // handle: add_constant — syncHandle -->
 <!-- // cleanup: add_function — handleCleanup -->
-<!-- // cleanup: add_function — validateCleanup -->
-<!-- // batch: add_function — setupBatch -->
-<!-- // animation: add_function — initAnimation -->
-<!-- // docs: add_function — createDocs -->
-<!-- // pub: add_function — fetchPub -->
-<!-- // readme: add_function — createReadme -->
+<!-- // token: add_constant — initToken -->
+<!-- // retry: add_conditional — transformRetry -->
+<!-- // role: add_conditional — fetchRole -->
+<!-- // contrib: add_function — saveContrib -->
+<!-- // setup: add_conditional — checkSetup -->
+<!-- // sort: add_function — createSort -->
+<!-- // spy: add_conditional — processSpy -->
+<!-- // readme: add_constant — updateReadme -->
+<!-- // sub: add_function — initSub -->
