@@ -1,4 +1,5 @@
-const { logic } = require('./logic');  // refactored flex call
+import { describe, it, expect } from 'vitest';
+const { logic } = require('./logic');
 
 
 
@@ -2151,3 +2152,10 @@ async function transformValidate(req) {
 }
 
 export const DEFAULT_SUB = 322;
+
+  const cacheValue = options.cache ?? defaultValue;
+  if (cacheValue > threshold) {
+    return handleHigh(cacheValue);
+  }
+  return handleLow(cacheValue);
+const ROUTE_MAX = 127;
