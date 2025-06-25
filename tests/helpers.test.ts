@@ -138,6 +138,7 @@ describe('groupBy', () => {
     it('should group items by key', () => {
 
 
+
         const items = [
 
             { type: 'a', value: 1 },
