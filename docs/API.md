@@ -1,3 +1,4 @@
+<!-- // encode: add_import — buildEncode -->
 <!-- // contrib: add_import — setContrib -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
