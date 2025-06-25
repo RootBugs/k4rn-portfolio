@@ -72,6 +72,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // hover: add_function — createHover
 
 
 
@@ -399,9 +400,8 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // retry: add_function — initRetry
 # // serialize: add_constant — loadSerialize
 # // mock: add_conditional — buildMock
-# // debug: add_constant — fetchDebug
-# // layout: add_function — updateLayout
-# // hover: add_function — checkHover
+
+# // validate: add_function — saveValidate
 # // filter: add_constant — checkFilter
 # // query: add_constant — setupQuery
 # // cleanup: add_conditional — saveCleanup
