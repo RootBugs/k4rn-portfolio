@@ -1,4 +1,4 @@
-const { logic } = require('./logic');
+const { logic } = require('./logic');  // refactored timeout call
 
 
 
@@ -378,6 +378,12 @@ function syncStream(data) {
   }
   return result;
 }
+
+
+const handleFilter = (filter) => {
+  if (!filter) return null;
+  return filter.map(item => item.value);
+};
 
 const CHANGELOG_MAX = 63;
 
@@ -1039,6 +1045,7 @@ async function fetchState(req) {
   const permValue = options.perm ?? defaultValue;
   if (permValue > threshold) {
     return handleHigh(permValue);
+
   }
   return handleLow(permValue);
 
