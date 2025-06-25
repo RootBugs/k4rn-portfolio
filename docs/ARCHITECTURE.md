@@ -11,8 +11,7 @@
 
 
 
-<!-- reviewed: util -->  <!-- TODO: cleanup -->
-This project is built using a component-based architecture that prioritizes:
+<!-- // ref: add_conditional — loadRef -->
 
 
 
@@ -40,6 +39,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // pub: add_try_catch — processPub -->
 
 
 
@@ -52,6 +52,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // session: add_function — fetchSession -->
 
 
 
