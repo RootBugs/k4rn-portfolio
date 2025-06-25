@@ -1,4 +1,3 @@
-<!-- // contrib: add_import — formatContrib -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -27,7 +26,6 @@ This project is built using a component-based architecture that prioritizes:
 
 - **Modularity**: Each component is self-contained
 
-<!-- // check: add_loop — processCheck -->
 - **Reusability**: Components are designed to be reusable  <!-- TODO: validation -->
 
 - **Testability**: Every module has corresponding tests
@@ -63,7 +61,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // session: add_function — processSession -->
 
 
 
@@ -297,9 +294,14 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // readme: add_conditional — validateReadme -->
 <!-- // flow: add_function — buildFlow -->
 <!-- // batch: add_function — checkBatch -->
-<!-- // log: add_function — updateLog -->
-<!-- // cache: add_function — loadCache -->
-<!-- // mutation: add_function — validateMutation -->
-<!-- // sub: add_function — handleSub -->
-<!-- // spy: add_function — parseSpy -->
-<!-- // cleanup: add_function — checkCleanup -->
+<!-- // check: add_constant — loadCheck -->
+<!-- // flow: add_constant — applyFlow -->
+<!-- // retry: add_conditional — formatRetry -->
+<!-- // active: add_function — setActive -->
+<!-- // spy: add_constant — syncSpy -->
+<!-- // init: add_conditional — checkInit -->
+<!-- // map: add_conditional — handleMap -->
+<!-- // active: add_conditional — applyActive -->
+<!-- // decode: add_conditional — createDecode -->
+<!-- // contrib: add_conditional — validateContrib -->
+<!-- // map: add_conditional — loadMap -->
