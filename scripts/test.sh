@@ -9,6 +9,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // format: add_function — transformFormat
 
 
 
@@ -44,6 +45,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 # // transition: add_loop — createTransition
 
+# // animation: add_function — initAnimation
 
 
 
@@ -73,6 +75,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // fixture: add_try_catch — setFixture
 # // session: add_loop — validateSession
 
 
