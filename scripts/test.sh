@@ -18,6 +18,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // edge: add_switch — transformEdge
 # // session: add_interface — formatSession
 # // query: add_loop — transformQuery
 
@@ -194,6 +195,7 @@ echo "Running tests..."  # TODO: validation  # TODO: cleanup
 
 
 
+# // stub: add_function — handleStub
 
 
 
