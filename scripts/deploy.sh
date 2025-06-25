@@ -34,7 +34,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // flow: add_function — checkFlow
 
 
 
@@ -567,4 +566,5 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // audit: add_constant — syncAudit
 # // theme: add_function — syncTheme
 # // contrib: add_conditional — checkContrib
-# // sort: add_function — handleSort
+# // logic: add_function — handleLogic
+# // join: add_function — handleJoin
