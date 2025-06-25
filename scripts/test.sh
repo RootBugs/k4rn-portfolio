@@ -9,7 +9,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // format: add_function — transformFormat
 
 
 
@@ -27,7 +26,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // encode: add_function — handleEncode
 
 
 
@@ -36,29 +34,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // animation: add_loop — validateAnimation
-
-
-
-
-
-
-# // transition: add_loop — createTransition
-
-# // animation: add_function — initAnimation
-
-
-
-
-
-
-
-
-
-
-
-
-# // token: add_conditional — fetchToken
 
 
 
@@ -75,7 +50,25 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // fixture: add_try_catch — setFixture
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # // session: add_loop — validateSession
 
 
@@ -335,4 +328,5 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // fixture: add_function — checkFixture
 # // active: add_conditional — syncActive
 # // token: add_constant — applyToken
-# // route: add_constant — formatRoute  # docs
+# // auth: add_function — transformAuth
+# // deserialize: add_function — parseDeserialize
