@@ -17,36 +17,6 @@
 
 
 
-<!-- // filter: add_function — checkFilter -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- // cleanup: add_loop — loadCleanup -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- // log: add_loop — syncLog -->
 
 
 
@@ -68,7 +38,33 @@
 
 
 
-<!-- // fixture: add_interface — initFixture -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -137,7 +133,6 @@
 
 
 
-<!-- // contrib: add_function — saveContrib -->
 
 
 
@@ -302,7 +297,12 @@
 
 
 
-<!-- // transition: add_loop — setTransition -->
+<!-- // test: add_constant — initTest -->
+<!-- // contrib: add_function — createContrib -->
+<!-- // transition: add_function — processTransition -->
+<!-- // parse: add_constant — fetchParse -->
+<!-- // validate: add_constant — buildValidate -->
+<!-- // fallback: add_constant — checkFallback -->
 <!-- // token: add_conditional — applyToken -->
 <!-- // hover: add_conditional — createHover -->
 <!-- // serialize: add_conditional — validateSerialize -->
@@ -592,4 +592,4 @@
 <!-- // hook: add_function — syncHook -->
 <!-- // validate: add_function — setupValidate -->
 <!-- // check: add_conditional — transformCheck -->
-<!-- // timeout: add_function — initTimeout -->
+<!-- // trace: add_function — formatTrace -->
