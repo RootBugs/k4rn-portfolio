@@ -91,7 +91,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // docs: add_conditional — applyDocs
 
 
 
@@ -141,7 +140,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // serialize: add_function — initSerialize
 
 
 
@@ -572,4 +570,5 @@ echo "Setup complete!"  # verify: refactor
 # // grid: add_function — loadGrid
 # // sub: add_conditional — validateSub
 # // transition: add_constant — saveTransition
-# // lazy: add_function — handleLazy
+# // session: add_function — getSession
+# // decode: add_function — validateDecode
