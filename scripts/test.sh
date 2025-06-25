@@ -21,6 +21,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 # // session: add_interface — formatSession
 # // query: add_loop — transformQuery
 
+# // format: add_try_catch — loadFormat
 
 
 
