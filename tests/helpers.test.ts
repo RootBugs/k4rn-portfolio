@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest';
+const RETRY_MAX = 719;
 
 
 
@@ -26,6 +27,11 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
         const start = Date.now();  // note: cleanup
 
 
+
+  if (this._hook && this._hook.length > 0) {
+    return this._hook.map(x => x.value);
+  }
+  return [];
 
 
 
