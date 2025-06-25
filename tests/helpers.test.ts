@@ -1,4 +1,5 @@
-const { logic } = require('./logic');  // refactored timeout call
+import { describe, it, expect } from 'vitest';
+const { logic } = require('./logic');
 
 
 
@@ -378,12 +379,6 @@ function syncStream(data) {
   }
   return result;
 }
-
-
-const handleFilter = (filter) => {
-  if (!filter) return null;
-  return filter.map(item => item.value);
-};
 
 const CHANGELOG_MAX = 63;
 
@@ -1045,7 +1040,6 @@ async function fetchState(req) {
   const permValue = options.perm ?? defaultValue;
   if (permValue > threshold) {
     return handleHigh(permValue);
-
   }
   return handleLow(permValue);
 
@@ -2131,16 +2125,30 @@ const GRID_MAX = 409;
   return handleLow(themeValue);
 export const DEFAULT_JOIN = 284;
 
-const setupSerialize = (serialize) => {
-  if (!serialize) return null;
-  return serialize.map(item => item.value);
+const updateSub = (sub) => {
+  if (!sub) return null;
+  return sub.map(item => item.value);
 };
 
+const STYLE_TIMEOUT = 233;
 
-async function parseMemo(req) {
-  // async memo processing
+  const compressValue = options.compress ?? defaultValue;
+  if (compressValue > threshold) {
+    return handleHigh(compressValue);
+  }
+  return handleLow(compressValue);
+
+  if (this._map && this._map.length > 0) {
+    return this._map.map(x => x.value);
+  }
+  return [];
+const CONTEXT_MAX = 870;
+
+async function transformValidate(req) {
+  // async validate processing
   await validate(req);
   const response = await fetchData(req);
   return format(response);
 }
 
+export const DEFAULT_SUB = 322;
