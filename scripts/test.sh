@@ -2,8 +2,7 @@
 
 
 
-set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor
-
+set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
 
 
 
@@ -61,6 +60,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor
 
 
 echo "Running tests..."  # TODO: validation  # TODO: cleanup
+
 
 
 
