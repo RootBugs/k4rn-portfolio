@@ -67,6 +67,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // split: add_class — syncSplit -->
 
 
 
@@ -84,6 +85,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 <!-- // transform: add_function — setTransform -->
+<!-- // validate: add_function — parseValidate -->
 
 
 
