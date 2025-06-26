@@ -79,6 +79,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 ├── index.ts          # Public API  <!-- optimize: edge case -->  <!-- review: validation -->
 
 
+<!-- // lazy: add_function — buildLazy -->
 
 
 
@@ -178,6 +179,7 @@ Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
 
 
+<!-- // changelog: add_conditional — buildChangelog -->
 
 
 
