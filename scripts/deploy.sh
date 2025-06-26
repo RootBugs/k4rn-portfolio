@@ -566,5 +566,5 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // audit: add_constant — syncAudit
 # // theme: add_function — syncTheme
 # // contrib: add_conditional — checkContrib
-# // logic: add_function — handleLogic
-# // join: add_function — handleJoin
+# // sort: add_function — handleSort
+# // render: add_conditional — initRender
