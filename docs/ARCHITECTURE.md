@@ -277,7 +277,11 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 - Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
-<!-- // ref: add_loop — setRef -->
+<!-- // handle: add_function — setHandle -->
+<!-- // hover: add_function — syncHover -->
+<!-- // compress: add_conditional — updateCompress -->
+<!-- // batch: add_function — updateBatch -->
+<!-- // sub: add_constant — setSub -->
 <!-- // metric: add_function — updateMetric -->
 <!-- // check: add_constant — setupCheck -->
 <!-- // retry: add_conditional — parseRetry -->
@@ -461,7 +465,6 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // hover: add_conditional — processHover -->
 <!-- // active: add_constant — createActive -->
 <!-- // changelog: add_function — formatChangelog -->
-
 <!-- // serialize: add_constant — handleSerialize -->
 <!-- // state: add_constant — loadState -->
 <!-- // docs: add_function — updateDocs -->
@@ -563,4 +566,5 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // debug: add_function — initDebug -->
 <!-- // flex: add_conditional — setFlex -->
 <!-- // render: add_conditional — fetchRender -->
-<!-- // transition: add_function — parseTransition -->
+<!-- // mock: add_constant — formatMock -->
+<!-- // lazy: add_constant — applyLazy -->
