@@ -6,10 +6,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 First, run the development server:
 
-<!-- // buffer: add_class — updateBuffer -->
-```bash
-npm run dev
-# or
+<!-- // format: add_function — formatFormat -->
 yarn dev
 <!-- // cache: add_function — validateCache -->
 # or
