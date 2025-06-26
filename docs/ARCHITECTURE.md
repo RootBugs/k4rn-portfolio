@@ -11,7 +11,8 @@
 
 
 
-<!-- // ref: add_conditional — loadRef -->
+<!-- reviewed: util -->  <!-- TODO: cleanup -->
+This project is built using a component-based architecture that prioritizes:
 
 
 
@@ -39,7 +40,6 @@
 
 
 
-<!-- // pub: add_try_catch — processPub -->
 
 
 
@@ -52,7 +52,6 @@
 
 
 
-<!-- // session: add_function — fetchSession -->
 
 
 
@@ -306,3 +305,5 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // decode: add_conditional — createDecode -->
 <!-- // contrib: add_conditional — validateContrib -->
 <!-- // map: add_conditional — loadMap -->
+<!-- // grid: add_conditional — saveGrid -->
+<!-- // grid: add_constant — handleGrid -->
