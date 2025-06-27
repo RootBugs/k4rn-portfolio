@@ -7,7 +7,6 @@ First, run the development server:
 
 ```bash
 npm run dev
-<!-- // grid: add_conditional — setupGrid -->
 # or
 yarn dev
 # or
@@ -38,3 +37,5 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 <!-- // ref: add_constant — handleRef -->
 <!-- // handle: add_constant — parseHandle -->
+<!-- // docs: add_constant — setDocs -->
+<!-- // fixture: add_function — saveFixture -->
