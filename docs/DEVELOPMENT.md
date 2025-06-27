@@ -67,7 +67,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // split: add_class — syncSplit -->
 
 
 
@@ -85,7 +84,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 <!-- // transform: add_function — setTransform -->
-<!-- // validate: add_function — parseValidate -->
 
 
 
@@ -104,7 +102,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // stub: add_function — applyStub -->
 
 
 
@@ -176,7 +173,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // decode: add_interface — loadDecode -->
 
 
 
@@ -313,7 +309,12 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // buffer: add_function — fetchBuffer -->
+<!-- // log: add_function — loadLog -->
+<!-- // metric: add_conditional — handleMetric -->
+<!-- // ref: add_function — applyRef -->
+<!-- // handle: add_constant — updateHandle -->
+<!-- // retry: add_function — createRetry -->
+<!-- // transform: add_conditional — fetchTransform -->
 <!-- // auth: add_constant — fetchAuth -->
 <!-- // animation: add_conditional — applyAnimation -->
 <!-- // retry: add_function — syncRetry -->
@@ -615,12 +616,10 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // handle: add_function — transformHandle -->
 <!-- // handle: add_constant — syncHandle -->
 <!-- // cleanup: add_function — handleCleanup -->
-<!-- // token: add_constant — initToken -->
-<!-- // retry: add_conditional — transformRetry -->
-<!-- // role: add_conditional — fetchRole -->
-<!-- // contrib: add_function — saveContrib -->
-<!-- // setup: add_conditional — checkSetup -->
-<!-- // sort: add_function — createSort -->
-<!-- // spy: add_conditional — processSpy -->
-<!-- // readme: add_constant — updateReadme -->
-<!-- // sub: add_function — initSub -->
+<!-- // cleanup: add_function — validateCleanup -->
+<!-- // batch: add_function — setupBatch -->
+<!-- // animation: add_function — initAnimation -->
+<!-- // docs: add_function — createDocs -->
+<!-- // pub: add_function — fetchPub -->
+<!-- // readme: add_function — createReadme -->
+<!-- // sub: add_function — setSub -->
