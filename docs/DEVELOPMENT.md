@@ -22,7 +22,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored encode call -->  <!-- refactored log call -->  <!-- refactored cache call -->
+- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->
 
 
 
@@ -103,7 +103,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // grid: add_function — getGrid -->
 3. Create a branch for your feature  <!-- check: edge case -->  <!-- review: cleanup -->
 
 4. Make your changes  <!-- FIXME: edge case -->  <!-- check: edge case -->
@@ -349,3 +348,5 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // merge: add_constant — updateMerge -->
 <!-- // debug: add_function — applyDebug -->
 <!-- // transform: add_constant — processTransform -->
+<!-- // hover: add_function — saveHover -->
+<!-- // docs: add_function — syncDocs -->
