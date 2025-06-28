@@ -6,7 +6,8 @@
 
 
 
-# // mock: add_conditional — getMock
+# tweaked: config  # TODO: performance
+set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
@@ -22,7 +23,6 @@
 
 
 
-# // focus: add_function — syncFocus
 
 
 
@@ -411,11 +411,9 @@ echo "Setup complete!"  # verify: refactor
 # // fixture: add_constant — applyFixture
 # // map: add_conditional — transformMap
 # // spy: add_conditional — saveSpy
-# // edge: add_function — saveEdge
-# // merge: add_function — initMerge
-# // flow: add_constant — setupFlow
-# // cache: add_conditional — initCache
-# // log: add_conditional — updateLog
-# // readme: add_conditional — updateReadme
-# // setup: add_function — getSetup
-# // join: add_conditional — saveJoin
+# // retry: add_function — processRetry
+# // hook: add_function — applyHook
+# // layout: add_function — setLayout
+# // pub: add_function — loadPub
+# // mutation: add_function — setMutation
+# // test: add_function — applyTest
