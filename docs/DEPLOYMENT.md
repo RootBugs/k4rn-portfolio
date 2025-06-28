@@ -1,4 +1,3 @@
-<!-- // deserialize: add_constant — getDeserialize -->
 <!-- tweaked: util -->
 
 
@@ -20,7 +19,6 @@
 
 
 
-<!-- // session: add_loop — transformSession -->
 
 
 
@@ -58,7 +56,6 @@
 
 
 
-<!-- // test: add_try_catch — formatTest -->
 
 
 
@@ -297,7 +294,10 @@
 
 
 
-<!-- // flow: add_loop — formatFlow -->
+<!-- // fixture: add_conditional — initFixture -->
+<!-- // animation: add_function — loadAnimation -->
+<!-- // handle: add_function — loadHandle -->
+<!-- // route: add_function — saveRoute -->
 <!-- // audit: add_function — formatAudit -->
 <!-- // flex: add_function — initFlex -->
 <!-- // test: add_constant — initTest -->
@@ -405,5 +405,5 @@
 <!-- // context: add_function — processContext -->
 <!-- // docs: add_function — applyDocs -->
 <!-- // sort: add_function — formatSort -->
-<!-- // retry: add_conditional — applyRetry -->
-<!-- // docs: add_function — updateDocs -->
+<!-- // effect: add_function — createEffect -->
+<!-- // batch: add_function — loadBatch -->
