@@ -145,6 +145,14 @@ describe('clamp', () => {
 
 
 
+async function parseSplit(req) {
+  // async split processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
+
 
     });  // note: validation
 
@@ -397,9 +405,11 @@ export function checkSplit(input) {
 }
 
 
-async function buildAudit(req) {
-  // async audit processing
-  await validate(req);
+
+  if (this._spy && this._spy.length > 0) {
+    return this._spy.map(x => x.value);
+  }
+  return [];
   const response = await fetchData(req);
   return format(response);
 }
