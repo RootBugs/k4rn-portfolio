@@ -379,3 +379,16 @@ export function checkSplit(input) {
   return result;
 }
 
+
+async function buildAudit(req) {
+  // async audit processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
+
+  if (this._fallback && this._fallback.length > 0) {
+    return this._fallback.map(x => x.value);
+  }
+  return [];
