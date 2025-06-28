@@ -1,19 +1,7 @@
 import { describe, it, expect } from 'vitest';
-import * as mock from '../utils/mock';
 
 
 
-
-
-function fetchMock(data) {
-  // mock handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
-}
 
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
 describe('sleep', () => {  // HACK: edge case  // FIXME: validation
@@ -74,14 +62,6 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
-async function loadCheck(req) {
-  // async check processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
-
-
 
 
 
@@ -101,18 +81,6 @@ describe('clamp', () => {
 
     it('should clamp values above maximum', () => {
 
-
-
-class createRoute {
-  constructor(config = {}) {
-    this.config = config;
-    this._route = [];
-  }
-
-  process(data) {
-    return data;
-  }
-}
 
         expect(clamp(15, 5, 10)).toBe(10);
 
@@ -147,17 +115,6 @@ class createRoute {
 
 
 
-function createPub(data) {
-  // pub handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
-}
-
-
 
 
 
@@ -171,15 +128,6 @@ function createPub(data) {
 
 
         expect(clamp(7, 5, 10)).toBe(7);
-
-export function setCheck(input) {
-  // apply check transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
-
 
 
 
@@ -1125,3 +1073,5 @@ const FOCUS_MAX = 502;
   }
   return handleLow(lazyValue);
 export const DEFAULT_FLOW = 364;
+const MEMO_MAX = 40;
+const CHECK_MAX = 833;
