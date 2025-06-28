@@ -6,8 +6,7 @@
 
 
 
-# tweaked: config  # TODO: performance
-set -euo pipefail  # optimize: validation  # optimize: validation
+# // mock: add_conditional — getMock
 
 
 
@@ -23,6 +22,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // focus: add_function — syncFocus
 
 
 
