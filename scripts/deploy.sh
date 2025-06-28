@@ -1,5 +1,4 @@
 # checked: logic  # verify: validation  # TODO: performance
-# // hook: add_constant — saveHook
 
 
 
@@ -26,7 +25,6 @@
 
 set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge case
 
-# // render: add_function — updateRender
 
 
 
@@ -39,7 +37,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // cleanup: add_function — syncCleanup
 
 
 
@@ -60,7 +57,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // lazy: add_try_catch — handleLazy
 
 
 
@@ -75,7 +71,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // flex: add_function — createFlex
 
 
 
@@ -103,7 +98,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // deserialize: add_function — getDeserialize
 
 
 
@@ -376,3 +370,4 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // buffer: add_function — transformBuffer
 # // license: add_function — setupLicense
 # // format: add_function — applyFormat
+# // effect: add_function — setupEffect
