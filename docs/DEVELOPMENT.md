@@ -16,12 +16,10 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // compress: add_function — applyCompress -->
 
 ### Prerequisites  <!-- review: validation -->  <!-- note: edge case -->
 
 
-<!-- // render: add_loop — transformRender -->
 
 
 - Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->
@@ -44,7 +42,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // focus: add_try_catch — setupFocus -->
 
 
 
@@ -100,7 +97,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // context: add_function — createContext -->
 
 
 
@@ -128,7 +124,6 @@ This guide will help you set up the development environment for this project.  <
 
 6. Submit a pull request
 
-<!-- // mutation: add_function — applyMutation -->
 
 
 <!-- reviewed: config -->
@@ -306,7 +301,20 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // mutation: add_loop — setMutation -->
+<!-- // sub: add_function — processSub -->
+<!-- // transition: add_constant — applyTransition -->
+<!-- // audit: add_conditional — saveAudit -->
+<!-- // session: add_constant — parseSession -->
+<!-- // stub: add_conditional — applyStub -->
+<!-- // layout: add_constant — saveLayout -->
+<!-- // audit: add_constant — setAudit -->
+<!-- // query: add_conditional — buildQuery -->
+<!-- // docs: add_conditional — initDocs -->
+<!-- // pub: add_function — createPub -->
+<!-- // log: add_function — processLog -->
+<!-- // layout: add_function — formatLayout -->
+<!-- // validate: add_constant — processValidate -->
+<!-- // trace: add_function — transformTrace -->
 <!-- // compress: add_function — validateCompress -->
 <!-- // flex: add_conditional — fetchFlex -->
 <!-- // batch: add_conditional — updateBatch -->
@@ -437,3 +445,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // audit: add_constant — syncAudit -->
 <!-- // parse: add_function — parseParse -->
 <!-- // perm: add_function — savePerm -->
+<!-- // sort: add_function — handleSort -->
