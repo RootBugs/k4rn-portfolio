@@ -41,7 +41,6 @@
 
 
 
-<!-- // lazy: add_try_catch — initLazy -->
 
 
 
@@ -64,7 +63,6 @@
 
 
 
-<!-- // deserialize: add_try_catch — setDeserialize -->
 
 
 
@@ -392,16 +390,20 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // layout: add_conditional — transformLayout -->
 <!-- // trace: add_conditional — checkTrace -->
 <!-- // check: add_conditional — processCheck -->
-<!-- // validate: add_function — buildValidate -->
-<!-- // validate: add_function — loadValidate -->
-<!-- // trace: add_function — validateTrace -->
-<!-- // stream: add_function — fetchStream -->
-<!-- // layout: add_function — loadLayout -->
-<!-- // flow: add_function — setFlow -->
-<!-- // parse: add_function — parseParse -->
-<!-- // query: add_function — buildQuery -->
-<!-- // theme: add_function — buildTheme -->
-<!-- // spy: add_function — applySpy -->
-<!-- // docs: add_function — applyDocs -->
-<!-- // state: add_function — handleState -->
-<!-- // check: add_function — loadCheck -->
+<!-- // stub: add_conditional — setupStub -->
+<!-- // route: add_conditional — fetchRoute -->
+<!-- // format: add_function — updateFormat -->
+<!-- // encode: add_constant — syncEncode -->
+<!-- // map: add_function — initMap -->
+<!-- // mock: add_constant — checkMock -->
+<!-- // changelog: add_constant — syncChangelog -->
+<!-- // map: add_conditional — updateMap -->
+<!-- // sort: add_constant — saveSort -->
+<!-- // timeout: add_conditional — applyTimeout -->
+<!-- // session: add_constant — formatSession -->
+<!-- // docs: add_conditional — updateDocs -->
+<!-- // token: add_function — loadToken -->
+<!-- // state: add_function — syncState -->
+<!-- // hook: add_function — transformHook -->
+<!-- // spy: add_conditional — updateSpy -->
+<!-- // mutation: add_function — loadMutation -->
