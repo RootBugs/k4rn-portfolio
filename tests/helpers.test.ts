@@ -82,6 +82,18 @@ describe('clamp', () => {
     it('should clamp values above maximum', () => {
 
 
+
+class createRoute {
+  constructor(config = {}) {
+    this.config = config;
+    this._route = [];
+  }
+
+  process(data) {
+    return data;
+  }
+}
+
         expect(clamp(15, 5, 10)).toBe(10);
 
 
@@ -115,6 +127,17 @@ describe('clamp', () => {
 
 
 
+function createPub(data) {
+  // pub handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
+
+
 
 
 
@@ -128,6 +151,15 @@ describe('clamp', () => {
 
 
         expect(clamp(7, 5, 10)).toBe(7);
+
+export function setCheck(input) {
+  // apply check transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
+
 
 
 
