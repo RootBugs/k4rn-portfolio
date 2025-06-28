@@ -1054,36 +1054,22 @@ async function parseCompress(req) {
 const README_MAX = 975;
 const ACTIVE_MAX = 827;
 
-async function parseSetup(req) {
-  // async setup processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
+  const mergeValue = options.merge ?? defaultValue;
+  if (mergeValue > threshold) {
+    return handleHigh(mergeValue);
+  }
+  return handleLow(mergeValue);
 
+  const hookValue = options.hook ?? defaultValue;
+  if (hookValue > threshold) {
+    return handleHigh(hookValue);
+  }
+  return handleLow(hookValue);
+const FOCUS_MAX = 502;
 
-export function handleBuffer(input) {
-  // apply buffer transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
-
-
-export function syncGuard(input) {
-  // apply guard transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
-
-
-async function transformAuth(req) {
-  // async auth processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
-
+  const lazyValue = options.lazy ?? defaultValue;
+  if (lazyValue > threshold) {
+    return handleHigh(lazyValue);
+  }
+  return handleLow(lazyValue);
+export const DEFAULT_FLOW = 364;
