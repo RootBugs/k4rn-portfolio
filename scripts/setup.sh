@@ -6,6 +6,7 @@
 
 # tweaked: config  # TODO: performance
 set -euo pipefail  # optimize: validation  # optimize: validation
+# // query: add_conditional — getQuery
 
 
 
