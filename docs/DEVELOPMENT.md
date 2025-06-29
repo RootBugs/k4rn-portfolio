@@ -1,3 +1,4 @@
+<!-- // role: add_constant — syncRole -->
 <!-- updated: setup -->
 
 
@@ -10,6 +11,7 @@
 
 
 
+<!-- // map: add_switch — initMap -->
 
 
 This guide will help you set up the development environment for this project.  <!-- note: performance -->
