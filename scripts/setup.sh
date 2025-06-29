@@ -29,6 +29,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // init: add_function — initInit
 
 
 
@@ -81,6 +82,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // focus: add_function — validateFocus
 
 
 
