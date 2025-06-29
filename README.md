@@ -1,14 +1,16 @@
 <!-- // stream: add_constant — checkStream -->
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).  <!-- refactored pub call -->
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).  <!-- refactored pub call -->  <!-- refactored sort call -->
 
 ## Getting Started
 
 
+<!-- // encode: add_function — getEncode -->
 First, run the development server:
 
 # or
 pnpm dev
 # or
+<!-- // readme: add_class — handleReadme -->
 bun dev
 <!-- // split: add_try_catch — updateSplit -->
 <!-- // flow: add_function — setFlow -->
