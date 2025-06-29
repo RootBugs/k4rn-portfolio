@@ -94,6 +94,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // format: add_conditional — fetchFormat
 # // docs: add_function — checkDocs
 
 
