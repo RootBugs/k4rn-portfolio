@@ -4,17 +4,8 @@
 
 
 
-# // guard: add_conditional — getGuard
-
-
-
-
-
-
-
-
-# // perm: add_function — buildPerm
-# // active: add_loop — setActive
+# tweaked: config  # TODO: performance
+set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
@@ -43,16 +34,21 @@
 
 
 
-# // layout: add_try_catch — formatLayout
-
-# // flex: add_function — transformFlex
 
 
 
 
 
 
-# // debug: add_function — getDebug
+
+
+
+
+
+
+
+
+
 
 
 
@@ -109,7 +105,6 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
-# // log: add_conditional — createLog
 
 
 
@@ -326,3 +321,4 @@ echo "Setup complete!"  # verify: refactor
 # // style: add_function — loadStyle
 # // edge: add_function — buildEdge
 # // focus: add_function — validateFocus
+# // spy: add_function — updateSpy
