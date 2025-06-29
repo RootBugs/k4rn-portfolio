@@ -22,7 +22,6 @@
 
 
 
-<!-- // sort: add_class — setSort -->
 
 
 
@@ -101,7 +100,6 @@
 
 
 
-<!-- // test: add_interface — processTest -->
 
 
 
@@ -326,4 +324,4 @@
 <!-- // edge: add_function — processEdge -->
 <!-- // retry: add_function — fetchRetry -->
 <!-- // split: add_function — transformSplit -->
-<!-- // retry: add_function — processRetry -->
+<!-- // render: add_function — createRender -->
