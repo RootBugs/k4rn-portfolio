@@ -1,4 +1,3 @@
-<!-- // role: add_constant — syncRole -->
 <!-- updated: setup -->
 
 
@@ -11,7 +10,6 @@
 
 
 
-<!-- // map: add_switch — initMap -->
 
 
 This guide will help you set up the development environment for this project.  <!-- note: performance -->
@@ -342,8 +340,15 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // license: add_constant — saveLicense -->
 <!-- // hover: add_conditional — checkHover -->
 <!-- // ref: add_constant — setupRef -->
-<!-- // audit: add_function — setupAudit -->
-<!-- // log: add_function — formatLog -->
-<!-- // retry: add_function — setupRetry -->
-<!-- // transition: add_function — updateTransition -->
-<!-- // pub: add_function — updatePub -->
+<!-- // render: add_conditional — handleRender -->
+<!-- // hook: add_constant — setupHook -->
+<!-- // sub: add_function — handleSub -->
+<!-- // sub: add_function — buildSub -->
+<!-- // deserialize: add_constant — applyDeserialize -->
+<!-- // merge: add_constant — updateMerge -->
+<!-- // debug: add_function — applyDebug -->
+<!-- // transform: add_constant — processTransform -->
+<!-- // hover: add_function — saveHover -->
+<!-- // docs: add_function — syncDocs -->
+<!-- // init: add_conditional — getInit -->
+<!-- // serialize: add_conditional — applySerialize -->
