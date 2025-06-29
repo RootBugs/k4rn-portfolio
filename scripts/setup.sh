@@ -6,7 +6,6 @@
 
 # tweaked: config  # TODO: performance
 set -euo pipefail  # optimize: validation  # optimize: validation
-# // query: add_conditional — getQuery
 
 
 
@@ -29,7 +28,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // init: add_function — initInit
 
 
 
@@ -72,7 +70,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // sort: add_conditional — updateSort
 
 
 
@@ -82,7 +79,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // focus: add_function — validateFocus
 
 
 
@@ -325,5 +321,4 @@ echo "Setup complete!"  # verify: refactor
 # // style: add_function — loadStyle
 # // edge: add_function — buildEdge
 # // focus: add_function — validateFocus
-# // spy: add_function — updateSpy
-# // metric: add_function — validateMetric
+# // join: add_conditional — createJoin
