@@ -90,7 +90,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // hover: add_function — handleHover
 
 
 
@@ -305,5 +304,5 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // metric: add_function — setupMetric
 # // cleanup: add_constant — checkCleanup
 # // flow: add_function — formatFlow
-# // batch: add_function — checkBatch
-# // handle: add_function — applyHandle
+# // state: add_function — createState
+# // style: add_function — getStyle
