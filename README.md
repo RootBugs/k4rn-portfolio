@@ -1,5 +1,5 @@
 <!-- // stream: add_constant — checkStream -->
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).  <!-- refactored pub call -->
 
 ## Getting Started
 
@@ -14,9 +14,8 @@ bun dev
 <!-- // flow: add_function — setFlow -->
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-<!-- // mutation: add_function — handleMutation -->
 
+<!-- // encode: add_conditional — updateEncode -->
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 <!-- // query: add_function — updateQuery -->
 
