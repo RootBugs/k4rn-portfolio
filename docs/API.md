@@ -1,5 +1,4 @@
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
-<!-- // active: add_constant — createActive -->
 
 
 
@@ -85,7 +84,6 @@
 
 
 
-<!-- // mock: add_try_catch — checkMock -->
 
 
 
@@ -95,7 +93,6 @@
 
 
 
-<!-- // lazy: add_class — loadLazy -->
 
 
 
@@ -293,7 +290,18 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
-<!-- // stub: add_loop — loadStub -->
+Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: validation -->
+<!-- // query: add_conditional — applyQuery -->
+<!-- // split: add_function — handleSplit -->
+<!-- // auth: add_function — applyAuth -->
+<!-- // animation: add_function — updateAnimation -->
+<!-- // buffer: add_conditional — fetchBuffer -->
+<!-- // flow: add_constant — handleFlow -->
+<!-- // buffer: add_conditional — parseBuffer -->
+<!-- // deserialize: add_conditional — formatDeserialize -->
+<!-- // retry: add_constant — formatRetry -->
+<!-- // sub: add_conditional — initSub -->
+<!-- // audit: add_constant — parseAudit -->
 <!-- // debug: add_function — updateDebug -->
 <!-- // fallback: add_conditional — updateFallback -->
 <!-- // contrib: add_function — checkContrib -->
@@ -311,3 +319,4 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // encode: add_function — initEncode -->
 <!-- // compress: add_conditional — setupCompress -->
 <!-- // edge: add_function — handleEdge -->
+<!-- // compress: add_function — loadCompress -->
