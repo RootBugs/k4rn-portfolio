@@ -1,4 +1,3 @@
-<!-- // contrib: add_constant — applyContrib -->
 <!-- // stream: add_constant — checkStream -->
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
@@ -7,9 +6,10 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 First, run the development server:
 
-<!-- // format: add_function — formatFormat -->
+```bash
+npm run dev
+# or
 yarn dev
-<!-- // cache: add_function — validateCache -->
 # or
 pnpm dev
 # or
@@ -71,10 +71,13 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // docs: add_function — syncDocs -->
 <!-- // animation: add_function — fetchAnimation -->
 <!-- // style: add_constant — fetchStyle -->
-<!-- // layout: add_function — formatLayout -->
-<!-- // animation: add_function — getAnimation -->
-<!-- // contrib: add_function — parseContrib -->
-<!-- // mutation: add_function — transformMutation -->
-<!-- // token: add_function — checkToken -->
-<!-- // map: add_function — setMap -->
-<!-- // state: add_function — handleState -->
+<!-- // log: add_function — setupLog -->
+<!-- // decode: add_constant — syncDecode -->
+<!-- // render: add_conditional — createRender -->
+<!-- // flow: add_conditional — updateFlow -->
+<!-- // fixture: add_constant — updateFixture -->
+<!-- // timeout: add_conditional — applyTimeout -->
+<!-- // split: add_conditional — createSplit -->
+<!-- // active: add_constant — fetchActive -->
+<!-- // encode: add_constant — createEncode -->
+<!-- // spy: add_function — createSpy -->
