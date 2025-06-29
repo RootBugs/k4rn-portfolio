@@ -326,3 +326,4 @@ echo "Setup complete!"  # verify: refactor
 # // edge: add_function — buildEdge
 # // focus: add_function — validateFocus
 # // spy: add_function — updateSpy
+# // metric: add_function — validateMetric
