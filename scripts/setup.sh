@@ -62,6 +62,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // transition: add_loop — loadTransition
 
 
 
@@ -76,6 +77,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // format: add_loop — processFormat
 
 
 
