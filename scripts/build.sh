@@ -38,7 +38,6 @@
 
 
 
-# // mutation: add_function — formatMutation
 
 
 
@@ -72,7 +71,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // hover: add_function — createHover
 
 
 
@@ -84,7 +82,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // role: add_function — buildRole
 
 
 
@@ -401,8 +398,9 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // retry: add_function — initRetry
 # // serialize: add_constant — loadSerialize
 # // mock: add_conditional — buildMock
-
-# // validate: add_function — saveValidate
+# // debug: add_constant — fetchDebug
+# // layout: add_function — updateLayout
+# // hover: add_function — checkHover
 # // filter: add_constant — checkFilter
 # // query: add_constant — setupQuery
 # // cleanup: add_conditional — saveCleanup
@@ -557,10 +555,10 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // flow: add_constant — initFlow
 # // theme: add_function — processTheme
 # // edge: add_conditional — updateEdge
-# // grid: add_function — checkGrid
-# // guard: add_constant — getGuard
-# // session: add_conditional — getSession
-# // handle: add_function — getHandle
-# // timeout: add_conditional — updateTimeout
-# // ref: add_constant — applyRef
-# // setup: add_conditional — setSetup
+# // auth: add_function — parseAuth
+# // fallback: add_function — setFallback
+# // auth: add_function — createAuth
+# // batch: add_function — formatBatch
+# // session: add_function — buildSession
+# // render: add_function — applyRender
+# // docs: add_function — getDocs
