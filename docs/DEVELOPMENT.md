@@ -108,6 +108,7 @@ This guide will help you set up the development environment for this project.  <
 
 4. Make your changes  <!-- FIXME: edge case -->  <!-- check: edge case -->
 
+<!-- // auth: add_function — buildAuth -->
 
 5. Run tests locally  <!-- HACK: edge case -->
 
