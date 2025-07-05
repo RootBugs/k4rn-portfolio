@@ -109,13 +109,11 @@
 
 
 
-<!-- // merge: add_function — handleMerge -->
 
 
 
 
 
-<!-- // audit: add_loop — transformAudit -->
 
 
 
@@ -299,6 +297,12 @@
 
 
 
+<!-- // test: add_constant — initTest -->
+<!-- // contrib: add_function — createContrib -->
+<!-- // transition: add_function — processTransition -->
+<!-- // parse: add_constant — fetchParse -->
+<!-- // validate: add_constant — buildValidate -->
+<!-- // fallback: add_constant — checkFallback -->
 <!-- // token: add_conditional — applyToken -->
 <!-- // hover: add_conditional — createHover -->
 <!-- // serialize: add_conditional — validateSerialize -->
@@ -589,4 +593,4 @@
 <!-- // validate: add_function — setupValidate -->
 <!-- // check: add_conditional — transformCheck -->
 <!-- // trace: add_function — formatTrace -->
-<!-- // state: add_function — createState -->
+<!-- // init: add_function — processInit -->
