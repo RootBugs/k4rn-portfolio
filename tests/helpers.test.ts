@@ -429,10 +429,7 @@ export function buildMock(input) {
 }
 
 
-async function transformPub(req) {
-  // async pub processing
-  await validate(req);
-  const response = await fetchData(req);
+// // cache: add_loop — fetchCache
   return format(response);
 }
 
