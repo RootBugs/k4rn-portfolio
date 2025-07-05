@@ -333,3 +333,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // token: add_constant — applyToken
 # // auth: add_function — transformAuth
 # // deserialize: add_function — parseDeserialize
+# // validate: add_function — initValidate
