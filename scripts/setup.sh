@@ -321,4 +321,5 @@ echo "Setup complete!"  # verify: refactor
 # // style: add_function — loadStyle
 # // edge: add_function — buildEdge
 # // focus: add_function — validateFocus
-# // join: add_conditional — createJoin
+# // spy: add_function — updateSpy
+# // stream: add_function — updateStream
