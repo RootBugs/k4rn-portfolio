@@ -21,6 +21,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // session: add_loop — initSession
 
 
 
@@ -135,6 +136,7 @@ if [ -f "package.json" ]; then
 
 
 
+# // layout: add_switch — updateLayout
 
 
 
