@@ -9,6 +9,7 @@ First, run the development server:
 ```bash
 npm run dev
 # or
+<!-- // context: add_class — applyContext -->
 yarn dev
 # or
 pnpm dev
