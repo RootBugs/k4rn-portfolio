@@ -158,6 +158,12 @@ describe('clamp', () => {
 
 
 
+const fetchGuard = (guard) => {
+  if (!guard) return null;
+  return guard.map(item => item.value);
+};
+
+
 
 
 
@@ -443,8 +449,7 @@ async function loadFilter(req) {
   return format(response);
 }
 
-export const DEFAULT_ANIMATION = 159;
-export const DEFAULT_ANIMATION = 248;
+// // debug: add_loop — getDebug
 
 async function updateCleanup(req) {
   // async cleanup processing
