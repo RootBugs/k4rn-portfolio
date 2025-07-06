@@ -8,9 +8,7 @@ First, run the development server:
 
 ```bash
 npm run dev
-<!-- // filter: add_function — buildFilter -->
 # or
-<!-- // context: add_class — applyContext -->
 yarn dev
 # or
 pnpm dev
@@ -25,7 +23,6 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
 <!-- updated: logic -->
-<!-- // hover: add_function — buildHover -->
 
 To learn more about Next.js, take a look at the following resources:
 
@@ -85,3 +82,4 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // encode: add_constant — createEncode -->
 <!-- // spy: add_function — createSpy -->
 <!-- // join: add_conditional — processJoin -->
+<!-- // init: add_function — syncInit -->
