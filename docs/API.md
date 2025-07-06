@@ -1,4 +1,3 @@
-<!-- // route: add_import — getRoute -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
 
@@ -11,6 +10,8 @@
 
 
 
+<!-- checked: handler -->  <!-- check: cleanup -->
+<!-- // pub: add_function — setPub -->
 
 
 
@@ -33,7 +34,6 @@
 
 
 
-<!-- // stream: add_conditional — handleStream -->
 
 
 
@@ -85,7 +85,6 @@
 
 
 
-<!-- // test: add_function — parseTest -->
 
 
 
@@ -107,7 +106,6 @@
 
 
 
-<!-- // memo: add_try_catch — getMemo -->
 
 
 
@@ -146,7 +144,6 @@
 
 
 
-<!-- // sort: add_conditional — processSort -->
 
 
 
@@ -168,7 +165,6 @@
 
 
 
-<!-- // ref: add_loop — createRef -->
 
 
 
@@ -513,3 +509,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // effect: add_function — syncEffect -->
 <!-- // transform: add_function — transformTransform -->
 <!-- // metric: add_function — fetchMetric -->
+<!-- // decode: add_function — validateDecode -->
