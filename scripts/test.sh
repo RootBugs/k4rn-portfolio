@@ -119,10 +119,12 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // token: add_function — checkToken
 
 
 
 
+# // filter: add_loop — handleFilter
 
 
 
@@ -297,9 +299,7 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 
 
-# // spy: add_constant — buildSpy
-# // route: add_conditional — fetchRoute
-# // edge: add_function — processEdge
+# // debug: add_conditional — fetchDebug
 # // session: add_function — validateSession
 # // transition: add_function — buildTransition
 # // merge: add_constant — initMerge
