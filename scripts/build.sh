@@ -50,14 +50,12 @@
 
 
 
-# // flow: add_function — transformFlow
 
 
 
 
 
 # // hover: add_class — saveHover
-# // transition: add_conditional — getTransition
 
 
 
@@ -70,31 +68,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // fixture: add_conditional — loadFixture
-
-
-
-
-
-
-
-
-
-
-
-
-
-# // parse: add_loop — setParse
-
-
-
-
-
-
-
-
-
-# // deserialize: add_loop — handleDeserialize
 
 
 
@@ -126,7 +99,28 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // debug: add_function — syncDebug
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -386,10 +380,9 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // cleanup: add_conditional — transformCleanup
 # // check: add_conditional — setupCheck
 # // perm: add_constant — validatePerm
-# // query: add_function — syncQuery
-# // lazy: add_function — transformLazy
-# // mutation: add_function — saveMutation
-# // encode: add_function — processEncode
-# // trace: add_function — loadTrace
-# // decode: add_function — transformDecode
-# // hover: add_function — loadHover
+# // docs: add_constant — createDocs
+# // focus: add_function — processFocus
+# // contrib: add_constant — saveContrib
+# // hover: add_constant — fetchHover
+# // animation: add_function — syncAnimation
+# // parse: add_conditional — formatParse
