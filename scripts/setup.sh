@@ -45,6 +45,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 # // hook: add_conditional — transformHook
 
 
+# // mock: add_function — setupMock
 
 
 
