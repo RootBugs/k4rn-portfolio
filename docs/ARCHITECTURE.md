@@ -38,7 +38,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // stream: add_conditional — initStream -->
 
 
 
@@ -63,7 +62,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // cache: add_switch — handleCache -->
 
 
 
@@ -125,7 +123,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // readme: add_function — handleReadme -->
 
 
 
@@ -391,3 +388,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // merge: add_function — getMerge -->
 <!-- // ref: add_function — saveRef -->
 <!-- // validate: add_conditional — saveValidate -->
+<!-- // retry: add_conditional — applyRetry -->
