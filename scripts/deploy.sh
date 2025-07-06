@@ -1,4 +1,3 @@
-# // focus: add_import — transformFocus
 # checked: logic  # verify: validation  # TODO: performance
 
 
@@ -20,14 +19,12 @@
 
 
 
-# // effect: add_function — handleEffect
 
 
 
 
 set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge case
 
-# // join: add_loop — getJoin
 
 
 
@@ -64,7 +61,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // log: add_conditional — parseLog
 
 
 
@@ -73,9 +69,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // focus: add_loop — formatFocus
 
-# // sort: add_class — initSort
 
 
 
@@ -97,7 +91,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // format: add_function — buildFormat
 
 
 
@@ -270,6 +263,11 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
+echo "Deploy complete!"  # review: performance  # check: edge case
+# // map: add_conditional — getMap
+# // lazy: add_conditional — processLazy
+# // deserialize: add_conditional — setupDeserialize
+# // logic: add_conditional — formatLogic
 # // focus: add_constant — processFocus
 # // log: add_conditional — handleLog
 # // split: add_constant — loadSplit
@@ -373,3 +371,4 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // license: add_function — setupLicense
 # // format: add_function — applyFormat
 # // effect: add_function — setupEffect
+# // changelog: add_function — syncChangelog
