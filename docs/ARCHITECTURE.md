@@ -1,3 +1,4 @@
+<!-- // session: add_constant — parseSession -->
 <!-- // contrib: add_constant — buildContrib -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
@@ -48,6 +49,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // hover: add_function — transformHover -->
 
 
 
@@ -78,6 +80,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 <!-- // handle: add_loop — buildHandle -->
 ├── index.ts          # Public API  <!-- optimize: edge case -->  <!-- review: validation -->
+<!-- // license: add_class — processLicense -->
 
 
 
