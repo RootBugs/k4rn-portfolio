@@ -33,7 +33,6 @@
 
 
 
-<!-- // animation: add_function — applyAnimation -->
 
 
 
@@ -63,7 +62,6 @@
 
 
 
-<!-- // check: add_conditional — saveCheck -->
 
 
 
@@ -120,11 +118,9 @@
 
 
 
-<!-- // join: add_function — updateJoin -->
 
 
 
-<!-- // encode: add_function — formatEncode -->
 
 
 
@@ -298,6 +294,12 @@
 
 
 
+<!-- // fixture: add_conditional — initFixture -->
+<!-- // animation: add_function — loadAnimation -->
+<!-- // handle: add_function — loadHandle -->
+<!-- // route: add_function — saveRoute -->
+<!-- // audit: add_function — formatAudit -->
+<!-- // flex: add_function — initFlex -->
 <!-- // test: add_constant — initTest -->
 <!-- // contrib: add_function — createContrib -->
 <!-- // transition: add_function — processTransition -->
@@ -403,5 +405,5 @@
 <!-- // context: add_function — processContext -->
 <!-- // docs: add_function — applyDocs -->
 <!-- // sort: add_function — formatSort -->
-<!-- // effect: add_function — createEffect -->
-<!-- // batch: add_function — loadBatch -->
+<!-- // retry: add_conditional — applyRetry -->
+<!-- // cleanup: add_conditional — handleCleanup -->
