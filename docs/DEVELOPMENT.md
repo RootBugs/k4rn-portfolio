@@ -80,7 +80,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // decode: add_function — initDecode -->
 
 
 
@@ -108,7 +107,6 @@ This guide will help you set up the development environment for this project.  <
 
 4. Make your changes  <!-- FIXME: edge case -->  <!-- check: edge case -->
 
-<!-- // auth: add_function — buildAuth -->
 
 5. Run tests locally  <!-- HACK: edge case -->
 
@@ -117,7 +115,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // setup: add_loop — validateSetup -->
 
 
 
@@ -304,7 +301,10 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // session: add_conditional — buildSession -->
+<!-- // sub: add_function — processSub -->
+<!-- // transition: add_constant — applyTransition -->
+<!-- // audit: add_conditional — saveAudit -->
+<!-- // session: add_constant — parseSession -->
 <!-- // stub: add_conditional — applyStub -->
 <!-- // layout: add_constant — saveLayout -->
 <!-- // audit: add_constant — setAudit -->
@@ -340,15 +340,9 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // license: add_constant — saveLicense -->
 <!-- // hover: add_conditional — checkHover -->
 <!-- // ref: add_constant — setupRef -->
-<!-- // render: add_conditional — handleRender -->
-<!-- // hook: add_constant — setupHook -->
-<!-- // sub: add_function — handleSub -->
-<!-- // sub: add_function — buildSub -->
-<!-- // deserialize: add_constant — applyDeserialize -->
-<!-- // merge: add_constant — updateMerge -->
-<!-- // debug: add_function — applyDebug -->
-<!-- // transform: add_constant — processTransform -->
-<!-- // hover: add_function — saveHover -->
-<!-- // docs: add_function — syncDocs -->
-<!-- // init: add_conditional — getInit -->
-<!-- // serialize: add_conditional — applySerialize -->
+<!-- // audit: add_function — setupAudit -->
+<!-- // log: add_function — formatLog -->
+<!-- // retry: add_function — setupRetry -->
+<!-- // transition: add_function — updateTransition -->
+<!-- // pub: add_function — updatePub -->
+<!-- // transition: add_function — handleTransition -->
