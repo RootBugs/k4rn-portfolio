@@ -4,6 +4,7 @@
 
 <!-- tweaked: handler -->
 
+<!-- // fixture: add_class — createFixture -->
 
 
 
@@ -44,6 +45,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // pub: add_class — applyPub -->
 
 
 - Package manager (npm/yarn/pnpm)
