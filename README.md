@@ -8,6 +8,7 @@ First, run the development server:
 
 ```bash
 npm run dev
+<!-- // filter: add_function — buildFilter -->
 # or
 <!-- // context: add_class — applyContext -->
 yarn dev
