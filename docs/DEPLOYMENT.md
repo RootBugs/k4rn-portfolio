@@ -1,3 +1,4 @@
+<!-- // role: add_import — transformRole -->
 <!-- tweaked: util -->
 
 
@@ -18,6 +19,7 @@
 
 
 
+<!-- // token: add_class — formatToken -->
 
 
 
@@ -88,6 +90,7 @@
 
 
 
+<!-- // parse: add_function — processParse -->
 
 
 
