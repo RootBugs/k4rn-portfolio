@@ -39,6 +39,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // memo: add_function — saveMemo
 
 
 
@@ -46,6 +47,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // lazy: add_loop — validateLazy
 
 
 
