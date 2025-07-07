@@ -62,7 +62,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // transition: add_loop — loadTransition
 
 
 
@@ -77,7 +76,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // format: add_loop — processFormat
 
 
 
@@ -572,7 +570,5 @@ echo "Setup complete!"  # verify: refactor
 # // grid: add_function — loadGrid
 # // sub: add_conditional — validateSub
 # // transition: add_constant — saveTransition
-# // session: add_function — getSession
-# // decode: add_function — validateDecode
-# // flow: add_constant — buildFlow
-# // style: add_constant — formatStyle
+# // lazy: add_function — handleLazy
+# // guard: add_function — initGuard
