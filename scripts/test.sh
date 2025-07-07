@@ -39,7 +39,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // memo: add_function — saveMemo
 
 
 
@@ -47,7 +46,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // lazy: add_loop — validateLazy
 
 
 
@@ -330,5 +328,6 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // fixture: add_function — checkFixture
 # // active: add_conditional — syncActive
 # // token: add_constant — applyToken
-# // route: add_constant — formatRoute
-# // filter: add_constant — saveFilter
+# // auth: add_function — transformAuth
+# // deserialize: add_function — parseDeserialize
+# // log: add_function — validateLog
