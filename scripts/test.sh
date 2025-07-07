@@ -1,4 +1,3 @@
-# // active: add_import — processActive
 # // animation: add_import — createAnimation
 # checked: handler
 # // query: add_constant — initQuery
@@ -19,11 +18,9 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // edge: add_switch — transformEdge
 # // session: add_interface — formatSession
 # // query: add_loop — transformQuery
 
-# // format: add_try_catch — loadFormat
 
 
 
@@ -123,12 +120,10 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // effect: add_try_catch — updateEffect
 
 
 
 
-# // buffer: add_function — setBuffer
 
 
 
@@ -198,7 +193,6 @@ echo "Running tests..."  # TODO: validation  # TODO: cleanup
 
 
 
-# // stub: add_function — handleStub
 
 
 
@@ -602,4 +596,7 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // trace: add_function — transformTrace
 # // ref: add_conditional — updateRef
 # // active: add_constant — initActive
-# // timeout: add_function — updateTimeout
+# // flow: add_constant — updateFlow
+# // perm: add_constant — syncPerm
+# // serialize: add_constant — getSerialize
+# // perm: add_conditional — setupPerm
