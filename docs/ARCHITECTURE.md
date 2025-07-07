@@ -1,5 +1,3 @@
-<!-- // session: add_constant — parseSession -->
-<!-- // contrib: add_constant — buildContrib -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -49,7 +47,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // hover: add_function — transformHover -->
 
 
 
@@ -78,9 +75,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // handle: add_loop — buildHandle -->
 ├── index.ts          # Public API  <!-- optimize: edge case -->  <!-- review: validation -->
-<!-- // license: add_class — processLicense -->
 
 
 
@@ -280,7 +275,9 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 - Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
-<!-- // init: add_function — processInit -->
+- Debouncing for frequent events  <!-- check: refactor -->
+- Proper cleanup of subscriptions and listeners  <!-- review: performance -->
+<!-- // stream: add_function — setupStream -->
 <!-- // docs: add_function — processDocs -->
 <!-- // handle: add_function — setHandle -->
 <!-- // hover: add_function — syncHover -->
@@ -312,3 +309,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // grid: add_constant — handleGrid -->
 <!-- // handle: add_constant — fetchHandle -->
 <!-- // hover: add_function — formatHover -->
+<!-- // state: add_function — processState -->
