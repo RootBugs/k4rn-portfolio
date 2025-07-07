@@ -4,10 +4,8 @@
 
 <!-- tweaked: handler -->
 
-<!-- // fixture: add_class — createFixture -->
 
 
-<!-- // route: add_function — syncRoute -->
 
 
 
@@ -46,7 +44,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // pub: add_class — applyPub -->
 
 
 - Package manager (npm/yarn/pnpm)
@@ -104,12 +101,10 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // lazy: add_try_catch — createLazy -->
 
 
 3. Create a branch for your feature  <!-- check: edge case -->  <!-- review: cleanup -->
 
-<!-- // logic: add_loop — updateLogic -->
 4. Make your changes  <!-- FIXME: edge case -->  <!-- check: edge case -->
 
 
@@ -351,3 +346,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // transition: add_function — updateTransition -->
 <!-- // pub: add_function — updatePub -->
 <!-- // transition: add_function — handleTransition -->
+<!-- // animation: add_function — setupAnimation -->
