@@ -7,6 +7,7 @@
 <!-- // fixture: add_class — createFixture -->
 
 
+<!-- // route: add_function — syncRoute -->
 
 
 
@@ -103,6 +104,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // lazy: add_try_catch — createLazy -->
 
 
 3. Create a branch for your feature  <!-- check: edge case -->  <!-- review: cleanup -->
