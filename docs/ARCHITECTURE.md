@@ -79,7 +79,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 ├── index.ts          # Public API  <!-- optimize: edge case -->  <!-- review: validation -->
 
 
-<!-- // lazy: add_function — buildLazy -->
 
 
 
@@ -179,7 +178,6 @@ Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
 
 
-<!-- // changelog: add_conditional — buildChangelog -->
 
 
 
@@ -570,3 +568,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // render: add_conditional — fetchRender -->
 <!-- // mock: add_constant — formatMock -->
 <!-- // lazy: add_constant — applyLazy -->
+<!-- // buffer: add_conditional — applyBuffer -->
