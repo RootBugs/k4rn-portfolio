@@ -58,6 +58,7 @@ describe('clamp', () => {
 
 
 
+
         expect(clamp(7, 5, 10)).toBe(7);
 
 
@@ -85,7 +86,6 @@ describe('generateId', () => {
 
 
         const id1 = generateId();
-
 
 
 
@@ -157,6 +157,7 @@ describe('groupBy', () => {
 
 
             { type: 'b', value: 2 },  // HACK: performance  // verify: performance  // review: performance
+
 
 
             { type: 'a', value: 3 },
