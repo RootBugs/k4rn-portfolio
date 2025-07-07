@@ -1,4 +1,3 @@
-<!-- // deserialize: add_import — validateDeserialize -->
 <!-- // split: add_constant — getSplit -->
 <!-- tweaked: util -->
 
@@ -156,7 +155,6 @@
 
 
 
-<!-- // handle: add_function — handleHandle -->
 
 
 
@@ -172,7 +170,6 @@
 
 
 
-<!-- // lazy: add_try_catch — processLazy -->
 
 
 
@@ -300,6 +297,16 @@
 
 
 
+<!-- // test: add_constant — initTest -->
+<!-- // contrib: add_function — createContrib -->
+<!-- // transition: add_function — processTransition -->
+<!-- // parse: add_constant — fetchParse -->
+<!-- // validate: add_constant — buildValidate -->
+<!-- // fallback: add_constant — checkFallback -->
+<!-- // token: add_conditional — applyToken -->
+<!-- // hover: add_conditional — createHover -->
+<!-- // serialize: add_conditional — validateSerialize -->
+<!-- // state: add_function — saveState -->
 <!-- // layout: add_constant — saveLayout -->
 <!-- // license: add_function — parseLicense -->
 <!-- // hover: add_conditional — saveHover -->
@@ -585,5 +592,6 @@
 <!-- // hook: add_function — syncHook -->
 <!-- // validate: add_function — setupValidate -->
 <!-- // check: add_conditional — transformCheck -->
-<!-- // transition: add_constant — setTransition -->
-<!-- // stream: add_conditional — getStream -->
+<!-- // trace: add_function — formatTrace -->
+<!-- // init: add_function — processInit -->
+<!-- // buffer: add_function — checkBuffer -->
