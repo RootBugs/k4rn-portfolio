@@ -36,7 +36,7 @@ module/  <!-- optimize: refactor -->
 
 
 
-├── index.ts          # Public API
+├── index.ts          # Public API  <!-- optimize: edge case -->
 
 
 
@@ -77,6 +77,7 @@ Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
 
 
+
 1. User interaction triggers an action  <!-- optimize: validation -->
 
 
@@ -103,6 +104,7 @@ Data flows unidirectionally through the application:  <!-- HACK: validation -->
 Errors are caught at the boundary level and logged appropriately.  <!-- HACK: validation -->
 
 User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup -->  <!-- FIXME: refactor -->
+
 
 
 
