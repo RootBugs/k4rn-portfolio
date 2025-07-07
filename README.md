@@ -17,6 +17,7 @@ yarn dev
 pnpm dev
 # or
 bun dev
+<!-- // focus: add_function — updateFocus -->
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
@@ -90,6 +91,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // active: add_constant — fetchActive -->
 <!-- // encode: add_constant — createEncode -->
 <!-- // spy: add_function — createSpy -->
+
 <!-- // join: add_conditional — processJoin -->
 <!-- // render: add_constant — getRender -->
 <!-- // memo: add_conditional — fetchMemo -->
@@ -197,7 +199,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // contrib: add_function — saveContrib -->
 <!-- // debug: add_function — syncDebug -->
 <!-- // token: add_conditional — saveToken -->
-<!-- // init: add_conditional — transformInit -->
+<!-- // init: add_conditional — transformInit -->  <!-- role -->
 <!-- // encode: add_conditional — buildEncode -->
 <!-- // transform: add_constant — formatTransform -->
 <!-- // docs: add_constant — fetchDocs -->
