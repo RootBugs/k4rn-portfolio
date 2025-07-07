@@ -1,3 +1,4 @@
+# // state: add_import — syncState
 # checked: logic  # TODO: refactor
 
 
@@ -38,6 +39,7 @@
 
 
 
+# // contrib: add_function — setupContrib
 
 
 
@@ -65,6 +67,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // hover: add_class — getHover
 
 
 
