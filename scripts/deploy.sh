@@ -1,4 +1,3 @@
-# // check: add_import — loadCheck
 # checked: logic  # verify: validation  # TODO: performance
 
 
@@ -89,7 +88,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // cache: add_try_catch — saveCache
 
 # // focus: add_switch — applyFocus
 
@@ -146,9 +144,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // stream: add_conditional — checkStream
 
-# // sub: add_class — processSub
 
 
 
@@ -572,3 +568,5 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // contrib: add_conditional — checkContrib
 # // sort: add_function — handleSort
 # // render: add_conditional — initRender
+# // handle: add_constant — checkHandle
+# // cleanup: add_conditional — updateCleanup
