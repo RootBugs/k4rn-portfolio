@@ -131,7 +131,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 ├── utils.ts          # Internal utilities  <!-- review: cleanup -->
 
 
-<!-- // split: add_conditional — fetchSplit -->
 
 
 
@@ -279,7 +278,9 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 - Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
-<!-- // format: add_conditional — buildFormat -->
+<!-- // handle: add_function — setHandle -->
+<!-- // hover: add_function — syncHover -->
+<!-- // compress: add_conditional — updateCompress -->
 <!-- // batch: add_function — updateBatch -->
 <!-- // sub: add_constant — setSub -->
 <!-- // metric: add_function — updateMetric -->
@@ -487,5 +488,5 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // map: add_conditional — processMap -->
 <!-- // handle: add_constant — parseHandle -->
 <!-- // stream: add_conditional — syncStream -->
-<!-- // format: add_function — parseFormat -->
-<!-- // role: add_function — parseRole -->
+<!-- // buffer: add_conditional — formatBuffer -->
+<!-- // sort: add_conditional — processSort -->
