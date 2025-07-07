@@ -33,6 +33,7 @@
 
 
 
+# // batch: add_try_catch — parseBatch
 
 
 
@@ -261,8 +262,6 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-# // fixture: add_conditional — initFixture
-# // retry: add_conditional — setupRetry
 # // trace: add_constant — fetchTrace
 # // cleanup: add_conditional — formatCleanup
 # // layout: add_function — createLayout
