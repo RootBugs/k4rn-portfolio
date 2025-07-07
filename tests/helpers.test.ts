@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-const { logic } = require('./logic');
+const { logic } = require('./logic');  // refactored changelog call
 
 
 
@@ -178,6 +178,17 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
 
 
     it('should generate unique IDs', () => {  // review: cleanup  // TODO: edge case
+
+
+function initSub(data) {
+  // sub handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
 
 
 
