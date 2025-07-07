@@ -51,6 +51,14 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactor
         const elapsed = Date.now() - start;  // HACK: cleanup  // note: performance
 
 
+async function fetchHandle(req) {
+  // async handle processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
+
 
 
 
@@ -197,6 +205,11 @@ function initSub(data) {
 
 
 
+
+  if (this._perm && this._perm.length > 0) {
+    return this._perm.map(x => x.value);
+  }
+  return [];
 
 
         const id1 = generateId();
@@ -379,6 +392,14 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 function syncStream(data) {
 
   const streamValue = options.stream ?? defaultValue;
+
+async function transformCleanup(req) {
+  // async cleanup processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
   if (streamValue > threshold) {
     return handleHigh(streamValue);
   }
