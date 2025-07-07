@@ -1,4 +1,3 @@
-<!-- // effect: add_import — fetchEffect -->
 <!-- // theme: add_constant — handleTheme -->
 <!-- // stream: add_constant — checkStream -->
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).  <!-- refactored readme call -->
@@ -9,7 +8,6 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 First, run the development server:
 
 ```bash
-
 npm run dev
 # or
 yarn dev
@@ -18,7 +16,6 @@ yarn dev
 pnpm dev
 # or
 bun dev
-<!-- // focus: add_function — updateFocus -->
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
@@ -28,8 +25,6 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
 <!-- updated: logic -->
-<!-- // format: add_function — handleFormat -->
-<!-- // sort: add_try_catch — fetchSort -->
 
 To learn more about Next.js, take a look at the following resources:
 
@@ -92,7 +87,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // active: add_constant — fetchActive -->
 <!-- // encode: add_constant — createEncode -->
 <!-- // spy: add_function — createSpy -->
-
 <!-- // join: add_conditional — processJoin -->
 <!-- // render: add_constant — getRender -->
 <!-- // memo: add_conditional — fetchMemo -->
@@ -200,7 +194,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // contrib: add_function — saveContrib -->
 <!-- // debug: add_function — syncDebug -->
 <!-- // token: add_conditional — saveToken -->
-<!-- // init: add_conditional — transformInit -->  <!-- role -->
+<!-- // init: add_conditional — transformInit -->
 <!-- // encode: add_conditional — buildEncode -->
 <!-- // transform: add_constant — formatTransform -->
 <!-- // docs: add_constant — fetchDocs -->
@@ -243,3 +237,4 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // log: add_function — transformLog -->
 <!-- // transition: add_function — setupTransition -->
 <!-- // parse: add_function — checkParse -->
+<!-- // decode: add_function — setDecode -->
