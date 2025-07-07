@@ -1,3 +1,5 @@
+# // merge: add_import — applyMerge
+# // lazy: add_import — saveLazy
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
@@ -8,8 +10,7 @@
 
 
 
-# tweaked: config  # TODO: performance
-set -euo pipefail  # optimize: validation  # optimize: validation
+# // batch: add_loop — loadBatch
 
 
 
