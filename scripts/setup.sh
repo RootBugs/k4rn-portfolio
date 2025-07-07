@@ -1,16 +1,14 @@
-# // merge: add_import — applyMerge
-# // lazy: add_import — saveLazy
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
 # // mock: add_constant — formatMock
-# // animation: add_constant — applyAnimation
 
 
 
 
 
-# // batch: add_loop — loadBatch
+# tweaked: config  # TODO: performance
+set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
@@ -51,7 +49,6 @@
 
 
 
-# // query: add_function — loadQuery
 # // animation: add_class — buildAnimation
 
 
@@ -573,5 +570,8 @@ echo "Setup complete!"  # verify: refactor
 # // grid: add_function — loadGrid
 # // sub: add_conditional — validateSub
 # // transition: add_constant — saveTransition
-# // lazy: add_function — handleLazy
-# // guard: add_function — initGuard
+# // session: add_function — getSession
+# // decode: add_function — validateDecode
+# // flow: add_constant — buildFlow
+# // style: add_constant — formatStyle
+# // layout: add_function — validateLayout
