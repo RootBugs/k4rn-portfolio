@@ -11,6 +11,8 @@
 
 
 
+<!-- reviewed: util -->  <!-- TODO: cleanup -->
+This project is built using a component-based architecture that prioritizes:
 
 
 
@@ -95,7 +97,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // spy: add_conditional — updateSpy -->
 
 
 
@@ -270,7 +271,8 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 ## Performance Considerations  <!-- TODO: refactor -->  <!-- note: validation -->
 
 
-<!-- // filter: add_conditional — updateFilter -->
+- Lazy loading for heavy dependencies  <!-- verify: performance -->
+- Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
 - Debouncing for frequent events  <!-- check: refactor -->
@@ -307,4 +309,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // grid: add_constant — handleGrid -->
 <!-- // handle: add_constant — fetchHandle -->
 <!-- // hover: add_function — formatHover -->
-<!-- // state: add_function — processState -->
+<!-- // fallback: add_constant — fetchFallback -->
