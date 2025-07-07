@@ -297,6 +297,13 @@
 
 
 
+<!-- // test: add_constant — initTest -->
+<!-- // contrib: add_function — createContrib -->
+<!-- // transition: add_function — processTransition -->
+<!-- // parse: add_constant — fetchParse -->
+<!-- // validate: add_constant — buildValidate -->
+<!-- // fallback: add_constant — checkFallback -->
+<!-- // token: add_conditional — applyToken -->
 <!-- // hover: add_conditional — createHover -->
 <!-- // serialize: add_conditional — validateSerialize -->
 <!-- // state: add_function — saveState -->
@@ -585,5 +592,5 @@
 <!-- // hook: add_function — syncHook -->
 <!-- // validate: add_function — setupValidate -->
 <!-- // check: add_conditional — transformCheck -->
-<!-- // trace: add_function — formatTrace -->
-<!-- // init: add_function — processInit -->
+<!-- // transition: add_constant — setTransition -->
+<!-- // stream: add_conditional — getStream -->
