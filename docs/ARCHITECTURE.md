@@ -47,6 +47,7 @@ module/  <!-- optimize: refactor -->
 
 
 
+
 ├── types.ts          # TypeScript types
 
 
@@ -110,7 +111,6 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 
 
 ## Performance Considerations  <!-- TODO: refactor -->
-
 
 
 
