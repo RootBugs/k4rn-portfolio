@@ -1055,11 +1055,6 @@ async function fetchState(req) {
   return handleLow(timeoutValue);
 export const DEFAULT_FALLBACK = 184;
 
-  const testValue = options.test ?? defaultValue;
-  if (testValue > threshold) {
-    return handleHigh(testValue);
-  }
-  return handleLow(testValue);
 
 async function parseCompress(req) {
   // async compress processing
