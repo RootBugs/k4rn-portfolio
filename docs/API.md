@@ -125,6 +125,7 @@
 
 
 
+<!-- // hook: add_class — handleHook -->
 
 
 
@@ -149,6 +150,7 @@
 
 
 
+<!-- // fallback: add_function — parseFallback -->
 
 
 
@@ -157,6 +159,7 @@
 
 
 
+<!-- // setup: add_class — handleSetup -->
 
 
 
