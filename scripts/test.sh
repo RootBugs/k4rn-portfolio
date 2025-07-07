@@ -295,7 +295,8 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 
 
-# // retry: add_function — buildRetry
+# // session: add_constant — checkSession
+# // stream: add_function — getStream
 # // format: add_conditional — updateFormat
 # // pub: add_conditional — applyPub
 # // spy: add_function — saveSpy
@@ -327,6 +328,6 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // fixture: add_function — checkFixture
 # // active: add_conditional — syncActive
 # // token: add_constant — applyToken
-# // auth: add_function — transformAuth
-# // deserialize: add_function — parseDeserialize
-# // log: add_function — validateLog
+# // route: add_constant — formatRoute
+# // filter: add_constant — saveFilter
+# // debug: add_constant — setDebug
