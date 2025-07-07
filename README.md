@@ -38,6 +38,10 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
+<!-- // render: add_loop — fetchRender -->
+<!-- // docs: add_constant — setDocs -->
+<!-- // fixture: add_function — saveFixture -->
+<!-- // theme: add_try_catch — processTheme -->
 <!-- // retry: add_conditional — updateRetry -->
 <!-- // fixture: add_conditional — checkFixture -->
 <!-- // join: add_conditional — transformJoin -->
@@ -69,7 +73,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // query: add_constant — transformQuery -->
 <!-- // changelog: add_constant — transformChangelog -->
 <!-- // pub: add_conditional — setPub -->
-<!-- // merge: add_function — processMerge -->
 <!-- // grid: add_function — fetchGrid -->
 
 <!-- // split: add_constant — initSplit -->
@@ -96,7 +99,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // docs: add_function — syncDocs -->
 <!-- // retry: add_conditional — fetchRetry -->
 <!-- // style: add_constant — validateStyle -->
-<!-- // focus: add_function — buildFocus -->
 <!-- // encode: add_constant — getEncode -->
 <!-- // state: add_function — initState -->
 <!-- // license: add_constant — parseLicense -->
@@ -288,7 +290,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // state: add_constant — setState -->
 <!-- // retry: add_function — loadRetry -->
 <!-- // fallback: add_conditional — loadFallback -->
-
 <!-- // theme: add_constant — loadTheme -->
 <!-- // timeout: add_function — setTimeout -->
 <!-- // sub: add_conditional — buildSub -->
@@ -332,3 +333,5 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // batch: add_constant — initBatch -->
 <!-- // transform: add_function — validateTransform -->
 <!-- // flex: add_conditional — initFlex -->
+<!-- // style: add_constant — processStyle -->
+<!-- // trace: add_constant — parseTrace -->
