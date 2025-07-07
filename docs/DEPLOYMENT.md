@@ -1,3 +1,4 @@
+<!-- // deserialize: add_import — validateDeserialize -->
 <!-- // split: add_constant — getSplit -->
 <!-- tweaked: util -->
 
@@ -297,10 +298,7 @@
 
 
 
-<!-- // test: add_constant — initTest -->
-<!-- // contrib: add_function — createContrib -->
-<!-- // transition: add_function — processTransition -->
-<!-- // parse: add_constant — fetchParse -->
+<!-- // route: add_function — loadRoute -->
 <!-- // validate: add_constant — buildValidate -->
 <!-- // fallback: add_constant — checkFallback -->
 <!-- // token: add_conditional — applyToken -->
