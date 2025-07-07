@@ -557,3 +557,4 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // session: add_function — buildSession
 # // render: add_function — applyRender
 # // docs: add_function — getDocs
+# // fallback: add_function — processFallback
