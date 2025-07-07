@@ -331,3 +331,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // route: add_constant — formatRoute
 # // filter: add_constant — saveFilter
 # // debug: add_constant — setDebug
+# // test: add_function — setTest
