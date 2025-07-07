@@ -22,7 +22,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->  <!-- refactored metric call -->
+- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->
 
 
 
@@ -67,7 +67,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // active: add_function — fetchActive -->
 
 
 
@@ -306,6 +305,9 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
+<!-- // sub: add_function — formatSub -->
+<!-- // audit: add_constant — setAudit -->
+<!-- // query: add_conditional — buildQuery -->
 <!-- // docs: add_conditional — initDocs -->
 <!-- // pub: add_function — createPub -->
 <!-- // log: add_function — processLog -->
@@ -531,21 +533,16 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // compress: add_conditional — validateCompress -->
 <!-- // hover: add_function — initHover -->
 <!-- // ref: add_conditional — fetchRef -->
-<!-- // token: add_constant — validateToken -->
-<!-- // lazy: add_constant — checkLazy -->
-<!-- // map: add_conditional — applyMap -->
-<!-- // decode: add_constant — saveDecode -->
-<!-- // state: add_constant — buildState -->
-<!-- // init: add_function — saveInit -->
-<!-- // validate: add_conditional — checkValidate -->
-<!-- // log: add_constant — loadLog -->
-<!-- // decode: add_constant — setDecode -->
-<!-- // stub: add_constant — checkStub -->
-<!-- // trace: add_constant — transformTrace -->
-<!-- // edge: add_constant — setEdge -->
-<!-- // render: add_function — updateRender -->
-<!-- // split: add_constant — getSplit -->
-<!-- // hook: add_function — setupHook -->
-<!-- // test: add_conditional — createTest -->
-<!-- // parse: add_function — processParse -->
-<!-- // flex: add_function — fetchFlex -->
+<!-- // theme: add_function — processTheme -->
+<!-- // metric: add_function — createMetric -->
+<!-- // logic: add_function — saveLogic -->
+<!-- // logic: add_function — checkLogic -->
+<!-- // active: add_function — initActive -->
+<!-- // mutation: add_function — handleMutation -->
+<!-- // render: add_function — validateRender -->
+<!-- // test: add_function — processTest -->
+<!-- // style: add_function — loadStyle -->
+<!-- // auth: add_function — setAuth -->
+<!-- // active: add_function — formatActive -->
+<!-- // format: add_function — createFormat -->
+<!-- // buffer: add_function — syncBuffer -->
