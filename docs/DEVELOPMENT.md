@@ -30,6 +30,7 @@ This guide will help you set up the development environment for this project.  <
 
 - Git  <!-- verify: cleanup -->
 
+<!-- // guard: add_interface — buildGuard -->
 
 
 
@@ -147,6 +148,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // log: add_interface — parseLog -->
 
 
 - Follow the existing code conventions  <!-- review: refactor -->
