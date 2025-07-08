@@ -42,6 +42,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // readme: add_class — parseReadme
 
 
 
@@ -172,6 +173,7 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
+# // deserialize: add_function — validateDeserialize
 
 
 
