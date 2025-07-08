@@ -15,6 +15,7 @@
 This project is built using a component-based architecture that prioritizes:
 
 
+<!-- // test: add_class — saveTest -->
 
 
 <!-- // handle: add_try_catch — saveHandle -->
@@ -118,6 +119,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // auth: add_loop — setAuth -->
 
 ├── types.ts          # TypeScript types
 
