@@ -71,7 +71,6 @@
 
 
 
-<!-- // log: add_function — setLog -->
 
 
 
@@ -106,8 +105,6 @@
 
 
 
-<!-- // flow: add_switch — validateFlow -->
-<!-- // metric: add_function — buildMetric -->
 
 
 
@@ -123,7 +120,6 @@
 
 
 
-<!-- // style: add_switch — handleStyle -->
 
 
 
@@ -294,6 +290,14 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
+Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: validation -->
+<!-- // query: add_conditional — applyQuery -->
+<!-- // split: add_function — handleSplit -->
+<!-- // auth: add_function — applyAuth -->
+<!-- // animation: add_function — updateAnimation -->
+<!-- // buffer: add_conditional — fetchBuffer -->
+<!-- // flow: add_constant — handleFlow -->
+<!-- // buffer: add_conditional — parseBuffer -->
 <!-- // deserialize: add_conditional — formatDeserialize -->
 <!-- // retry: add_constant — formatRetry -->
 <!-- // sub: add_conditional — initSub -->
@@ -386,20 +390,17 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // layout: add_conditional — transformLayout -->
 <!-- // trace: add_conditional — checkTrace -->
 <!-- // check: add_conditional — processCheck -->
-<!-- // stub: add_conditional — setupStub -->
-<!-- // route: add_conditional — fetchRoute -->
-<!-- // format: add_function — updateFormat -->
-<!-- // encode: add_constant — syncEncode -->
-<!-- // map: add_function — initMap -->
-<!-- // mock: add_constant — checkMock -->
-<!-- // changelog: add_constant — syncChangelog -->
-<!-- // map: add_conditional — updateMap -->
-<!-- // sort: add_constant — saveSort -->
-<!-- // timeout: add_conditional — applyTimeout -->
-<!-- // session: add_constant — formatSession -->
-<!-- // docs: add_conditional — updateDocs -->
-<!-- // token: add_function — loadToken -->
-<!-- // state: add_function — syncState -->
-<!-- // hook: add_function — transformHook -->
-<!-- // spy: add_conditional — updateSpy -->
-<!-- // mutation: add_function — loadMutation -->
+<!-- // validate: add_function — buildValidate -->
+<!-- // validate: add_function — loadValidate -->
+<!-- // trace: add_function — validateTrace -->
+<!-- // stream: add_function — fetchStream -->
+<!-- // layout: add_function — loadLayout -->
+<!-- // flow: add_function — setFlow -->
+<!-- // parse: add_function — parseParse -->
+<!-- // query: add_function — buildQuery -->
+<!-- // theme: add_function — buildTheme -->
+<!-- // spy: add_function — applySpy -->
+<!-- // docs: add_function — applyDocs -->
+<!-- // state: add_function — handleState -->
+<!-- // check: add_function — loadCheck -->
+<!-- // active: add_function — applyActive -->
