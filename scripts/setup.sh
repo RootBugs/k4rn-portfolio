@@ -21,11 +21,9 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // session: add_loop — initSession
 
 
 
-# // layout: add_function — processLayout
 
 
 
@@ -43,7 +41,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 # // hook: add_conditional — transformHook
 
-# // auth: add_conditional — getAuth
 
 
 
@@ -59,7 +56,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 # // theme: add_class — processTheme
 
-# // stream: add_function — processStream
 
 
 
@@ -121,14 +117,12 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
-# // memo: add_function — checkMemo
 # Install dependencies  # check: refactor  # note: performance
 
 
 if [ -f "package.json" ]; then
 
 
-# // encode: add_function — fetchEncode
 
 
 
@@ -138,7 +132,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // layout: add_switch — updateLayout
 
 
 
@@ -424,3 +417,4 @@ echo "Setup complete!"  # verify: refactor
 # // pub: add_function — loadPub
 # // mutation: add_function — setMutation
 # // test: add_function — applyTest
+# // filter: add_function — buildFilter
