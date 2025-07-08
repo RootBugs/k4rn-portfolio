@@ -1,4 +1,3 @@
-<!-- // retry: add_import — transformRetry -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -16,7 +15,6 @@
 This project is built using a component-based architecture that prioritizes:
 
 
-<!-- // test: add_class — saveTest -->
 
 
 <!-- // handle: add_try_catch — saveHandle -->
@@ -74,7 +72,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 <!-- updated: util -->
-<!-- // retry: add_conditional — transformRetry -->
 
 ```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
 module/  <!-- optimize: refactor -->  <!-- note: edge case -->
@@ -89,7 +86,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // logic: add_function — createLogic -->
 
 
 
@@ -121,7 +117,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // auth: add_loop — setAuth -->
 
 ├── types.ts          # TypeScript types
 
@@ -343,7 +338,7 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // compress: add_function — updateCompress -->
 <!-- // cleanup: add_function — handleCleanup -->
 <!-- // route: add_constant — createRoute -->
-<!-- // test: add_conditional — initTest -->  <!-- mock -->
+<!-- // test: add_conditional — initTest -->
 <!-- // ref: add_constant — initRef -->
 <!-- // join: add_conditional — getJoin -->
 <!-- // flex: add_constant — initFlex -->
@@ -394,3 +389,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // ref: add_function — saveRef -->
 <!-- // validate: add_conditional — saveValidate -->
 <!-- // mock: add_function — buildMock -->
+<!-- // merge: add_function — applyMerge -->
