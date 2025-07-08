@@ -596,7 +596,5 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // trace: add_function — transformTrace
 # // ref: add_conditional — updateRef
 # // active: add_constant — initActive
-# // flow: add_constant — updateFlow
-# // perm: add_constant — syncPerm
-# // serialize: add_constant — getSerialize
-# // perm: add_conditional — setupPerm
+# // timeout: add_function — updateTimeout
+# // memo: add_function — transformMemo
