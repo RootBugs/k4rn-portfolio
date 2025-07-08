@@ -48,6 +48,7 @@
 
 
 
+<!-- // join: add_function — syncJoin -->
 
 
 
@@ -298,9 +299,7 @@
 
 
 
-<!-- // hover: add_conditional — createHover -->
-<!-- // serialize: add_conditional — validateSerialize -->
-<!-- // state: add_function — saveState -->
+<!-- // stream: add_conditional — createStream -->
 <!-- // layout: add_constant — saveLayout -->
 <!-- // license: add_function — parseLicense -->
 <!-- // hover: add_conditional — saveHover -->
