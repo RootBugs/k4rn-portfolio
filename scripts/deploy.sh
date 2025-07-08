@@ -1,4 +1,3 @@
-# // license: add_import — initLicense
 # checked: logic  # verify: validation  # TODO: performance
 
 
@@ -43,7 +42,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // readme: add_class — parseReadme
 
 
 
@@ -174,7 +172,6 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // deserialize: add_function — validateDeserialize
 
 
 
@@ -573,3 +570,5 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // render: add_conditional — initRender
 # // handle: add_constant — checkHandle
 # // cleanup: add_conditional — updateCleanup
+# // transition: add_conditional — saveTransition
+# // ref: add_constant — initRef
