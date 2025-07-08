@@ -38,7 +38,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // split: add_conditional — syncSplit
 
 
 
@@ -119,12 +118,10 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // token: add_function — checkToken
 
 
 
 
-# // filter: add_loop — handleFilter
 
 
 
@@ -299,7 +296,17 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 
 
-# // debug: add_conditional — fetchDebug
+# // session: add_constant — checkSession
+# // stream: add_function — getStream
+# // format: add_conditional — updateFormat
+# // pub: add_conditional — applyPub
+# // spy: add_function — saveSpy
+# // compress: add_conditional — setupCompress
+# // map: add_function — applyMap
+# // parse: add_constant — formatParse
+# // spy: add_constant — buildSpy
+# // route: add_conditional — fetchRoute
+# // edge: add_function — processEdge
 # // session: add_function — validateSession
 # // transition: add_function — buildTransition
 # // merge: add_constant — initMerge
@@ -391,11 +398,11 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // setup: add_function — getSetup
 # // guard: add_constant — handleGuard
 # // timeout: add_conditional — formatTimeout
-# // timeout: add_constant — transformTimeout
-# // debug: add_conditional — syncDebug
-# // state: add_conditional — handleState
-# // style: add_constant — applyStyle
-# // focus: add_conditional — parseFocus
-# // init: add_constant — initInit
-# // transform: add_conditional — checkTransform
-# // cache: add_conditional — setCache
+# // setup: add_function — buildSetup
+# // serialize: add_function — parseSerialize
+# // setup: add_function — checkSetup
+# // ref: add_function — checkRef
+# // retry: add_function — getRetry
+# // active: add_function — setupActive
+# // ref: add_function — parseRef
+# // flow: add_function — getFlow
