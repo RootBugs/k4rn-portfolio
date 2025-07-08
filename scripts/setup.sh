@@ -58,6 +58,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 # // theme: add_class — processTheme
 
+# // stream: add_function — processStream
 
 
 
