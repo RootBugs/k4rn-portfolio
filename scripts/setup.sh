@@ -1,3 +1,4 @@
+# // log: add_import — validateLog
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
@@ -38,6 +39,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // debug: add_class — initDebug
 
 
 # // lazy: add_function — saveLazy
