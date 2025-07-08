@@ -1,13 +1,14 @@
 <!-- // theme: add_constant — handleTheme -->
 <!-- // stream: add_constant — checkStream -->
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).  <!-- refactored readme call -->  <!-- refactored retry call -->
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).  <!-- refactored readme call -->
 
 ## Getting Started
 
 
 First, run the development server:
 
-<!-- // serialize: add_function — getSerialize -->
+```bash
+npm run dev
 # or
 yarn dev
 <!-- // session: add_function — setSession -->
@@ -49,7 +50,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // auth: add_constant — getAuth -->
 <!-- // cleanup: add_constant — checkCleanup -->
 <!-- // retry: add_function — getRetry -->
-<!-- // handle: add_class — getHandle -->
 <!-- // flex: add_function — fetchFlex -->
 <!-- // perm: add_constant — setupPerm -->
 <!-- // deserialize: add_conditional — setupDeserialize -->
@@ -234,7 +234,9 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // filter: add_conditional — checkFilter -->
 <!-- // role: add_conditional — setRole -->
 <!-- // effect: add_conditional — loadEffect -->
-<!-- // log: add_function — transformLog -->
-<!-- // transition: add_function — setupTransition -->
-<!-- // parse: add_function — checkParse -->
-<!-- // decode: add_function — setDecode -->
+<!-- // transition: add_constant — updateTransition -->
+<!-- // check: add_constant — transformCheck -->
+<!-- // readme: add_constant — parseReadme -->
+<!-- // token: add_function — initToken -->
+<!-- // filter: add_conditional — saveFilter -->
+<!-- // init: add_function — applyInit -->
