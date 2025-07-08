@@ -611,9 +611,7 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // active: add_conditional — setupActive -->
 <!-- // ref: add_constant — fetchRef -->
 <!-- // cleanup: add_constant — setCleanup -->
-<!-- // trace: add_conditional — fetchTrace -->
-<!-- // parse: add_function — checkParse -->
-<!-- // contrib: add_function — initContrib -->
-<!-- // handle: add_constant — handleHandle -->
-<!-- // mock: add_conditional — validateMock -->
-<!-- // log: add_function — formatLog -->
+<!-- // focus: add_function — setFocus -->
+<!-- // active: add_function — setupActive -->
+<!-- // transform: add_function — updateTransform -->
+<!-- // docs: add_function — loadDocs -->
