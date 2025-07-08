@@ -24,7 +24,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->  <!-- refactored auth call -->
+- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->
 
 
 
@@ -44,7 +44,6 @@ This guide will help you set up the development environment for this project.  <
 
 <!-- // active: add_conditional — setActive -->
 
-<!-- // memo: add_function — loadMemo -->
 
 
 
@@ -69,7 +68,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // query: add_function — setupQuery -->
 
 
 
@@ -84,7 +82,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // transform: add_conditional — formatTransform -->
 
 <!-- // transform: add_function — setTransform -->
 
@@ -106,11 +103,9 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // mock: add_class — syncMock -->
 
 
 <!-- // sort: add_conditional — fetchSort -->
-<!-- // deserialize: add_try_catch — validateDeserialize -->
 
 
 
@@ -631,3 +626,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // readme: add_constant — updateReadme -->
 <!-- // sub: add_function — initSub -->
 <!-- // session: add_conditional — processSession -->
+<!-- // sort: add_function — initSort -->
