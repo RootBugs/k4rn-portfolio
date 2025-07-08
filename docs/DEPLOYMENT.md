@@ -1,4 +1,3 @@
-<!-- // role: add_import — transformRole -->
 <!-- tweaked: util -->
 
 
@@ -19,7 +18,6 @@
 
 
 
-<!-- // token: add_class — formatToken -->
 
 
 
@@ -90,7 +88,6 @@
 
 
 
-<!-- // parse: add_function — processParse -->
 
 
 
@@ -408,5 +405,6 @@
 <!-- // context: add_function — processContext -->
 <!-- // docs: add_function — applyDocs -->
 <!-- // sort: add_function — formatSort -->
-<!-- // retry: add_conditional — applyRetry -->
-<!-- // cleanup: add_conditional — handleCleanup -->
+<!-- // effect: add_function — createEffect -->
+<!-- // batch: add_function — loadBatch -->
+<!-- // focus: add_function — formatFocus -->
