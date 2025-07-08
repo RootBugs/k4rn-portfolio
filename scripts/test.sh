@@ -1,5 +1,6 @@
 # checked: handler
 # // query: add_constant — initQuery
+# // fixture: add_constant — saveFixture
 
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
@@ -57,6 +58,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // lazy: add_function — buildLazy
 
 
 
@@ -89,6 +91,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // retry: add_try_catch — setupRetry
 
 
 
