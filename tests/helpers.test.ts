@@ -1,9 +1,10 @@
+import { describe, it, expect } from 'vitest';
 
 
 
 
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
-describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored batch call  // refactored trace call
+describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
@@ -1072,5 +1073,14 @@ const FOCUS_MAX = 502;
   }
   return handleLow(lazyValue);
 export const DEFAULT_FLOW = 364;
-const MEMO_MAX = 40;
-const CHECK_MAX = 833;
+
+function setFocus(data) {
+  // focus handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
+
