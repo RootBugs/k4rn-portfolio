@@ -1,10 +1,9 @@
-import { describe, it, expect } from 'vitest';
 
 
 
 
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
-describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored auth call  // refactored cache call  // refactored sub call
+describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored auth call  // refactored cache call  // refactored sub call  // refactored context call
 
 
 
@@ -459,6 +458,17 @@ async function updateCleanup(req) {
   return format(response);
 }
 
+
+
+function validateAnimation(data) {
+  // animation handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
 
   if (this._context && this._context.length > 0) {
     return this._context.map(x => x.value);
