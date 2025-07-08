@@ -71,6 +71,7 @@
 
 
 
+<!-- // log: add_function — setLog -->
 
 
 
@@ -105,6 +106,7 @@
 
 
 
+<!-- // flow: add_switch — validateFlow -->
 <!-- // metric: add_function — buildMetric -->
 
 
