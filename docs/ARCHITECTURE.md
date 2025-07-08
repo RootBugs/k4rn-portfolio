@@ -72,6 +72,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 <!-- updated: util -->
+<!-- // retry: add_conditional — transformRetry -->
 
 ```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
 module/  <!-- optimize: refactor -->  <!-- note: edge case -->
@@ -338,7 +339,7 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // compress: add_function — updateCompress -->
 <!-- // cleanup: add_function — handleCleanup -->
 <!-- // route: add_constant — createRoute -->
-<!-- // test: add_conditional — initTest -->
+<!-- // test: add_conditional — initTest -->  <!-- mock -->
 <!-- // ref: add_constant — initRef -->
 <!-- // join: add_conditional — getJoin -->
 <!-- // flex: add_constant — initFlex -->
