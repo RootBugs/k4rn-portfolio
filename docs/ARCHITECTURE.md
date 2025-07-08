@@ -31,8 +31,7 @@ This project is built using a component-based architecture that prioritizes:
 
 - **Testability**: Every module has corresponding tests
 
-<!-- // audit: add_class — createAudit -->
-<!-- // trace: add_function — getTrace -->
+<!-- // join: add_loop — fetchJoin -->
 
 
 
@@ -64,6 +63,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // init: add_function — loadInit -->
 
 
 
@@ -276,8 +276,6 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 ## Performance Considerations  <!-- TODO: refactor -->  <!-- note: validation -->
 
 
-- Lazy loading for heavy dependencies  <!-- verify: performance -->
-- Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
 <!-- // handle: add_function — setHandle -->
