@@ -131,6 +131,7 @@ This guide will help you set up the development environment for this project.  <
 
 6. Submit a pull request
 
+<!-- // buffer: add_class — formatBuffer -->
 
 
 <!-- reviewed: config -->
@@ -141,6 +142,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // hover: add_conditional — validateHover -->
 
 
 
