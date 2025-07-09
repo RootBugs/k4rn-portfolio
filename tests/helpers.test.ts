@@ -36,6 +36,12 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
+  const docsValue = options.docs ?? defaultValue;
+  if (docsValue > threshold) {
+    return handleHigh(docsValue);
+  }
+  return handleLow(docsValue);
+
 
 
 
