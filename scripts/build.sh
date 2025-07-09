@@ -1,4 +1,3 @@
-# // state: add_import — syncState
 # checked: logic  # TODO: refactor
 
 
@@ -39,7 +38,6 @@
 
 
 
-# // contrib: add_function — setupContrib
 
 
 
@@ -67,7 +65,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // hover: add_class — getHover
 
 
 
@@ -262,7 +259,8 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-# // fallback: add_loop — parseFallback
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
 # // map: add_function — fetchMap
 # // effect: add_function — loadEffect
 # // query: add_function — initQuery
@@ -306,5 +304,7 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // metric: add_function — setupMetric
 # // cleanup: add_constant — checkCleanup
 # // flow: add_function — formatFlow
-# // state: add_function — createState
-# // style: add_function — getStyle
+# // batch: add_function — checkBatch
+# // handle: add_function — applyHandle
+# // pub: add_function — initPub
+# // lazy: add_constant — buildLazy
