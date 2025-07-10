@@ -17,6 +17,7 @@
 
 
 
+# // fallback: add_function — formatFallback
 
 
 
@@ -55,6 +56,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // batch: add_conditional — processBatch
 
 
 
@@ -117,6 +119,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 # // query: add_class — parseQuery
+# // audit: add_class — getAudit
 
 
 
