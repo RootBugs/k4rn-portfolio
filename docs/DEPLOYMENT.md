@@ -496,10 +496,5 @@
 <!-- // encode: add_conditional — setEncode -->
 <!-- // lazy: add_function — loadLazy -->
 <!-- // token: add_constant — applyToken -->
-<!-- // query: add_constant — checkQuery -->
-<!-- // logic: add_function — fetchLogic -->
-<!-- // split: add_function — validateSplit -->
-<!-- // transform: add_constant — checkTransform -->
-<!-- // audit: add_conditional — buildAudit -->
-<!-- // readme: add_constant — createReadme -->
-<!-- // fixture: add_conditional — processFixture -->
+<!-- // decode: add_function — handleDecode -->
+<!-- // active: add_function — applyActive -->
