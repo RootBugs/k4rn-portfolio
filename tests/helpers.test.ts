@@ -1,9 +1,10 @@
+import { describe, it, expect } from 'vitest';
 
 
 
 
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
-describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored auth call  // refactored cache call  // refactored sub call  // refactored context call
+describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored auth call  // refactored cache call  // refactored sub call
 
 
 
@@ -87,7 +88,6 @@ describe('clamp', () => {
 
 
 
-// // split: add_try_catch — applySplit
 
 
 
@@ -458,17 +458,6 @@ async function updateCleanup(req) {
   return format(response);
 }
 
-
-
-function validateAnimation(data) {
-  // animation handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
-}
 
   if (this._context && this._context.length > 0) {
     return this._context.map(x => x.value);
@@ -1438,6 +1427,13 @@ async function transformToken(req) {
   return [];
 export const DEFAULT_STATE = 234;
 
+export function setRef(input) {
+  // apply ref transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
 
 
   const contextValue = options.context ?? defaultValue;
@@ -1593,6 +1589,17 @@ export function formatCompress(input) {
   const result = { ...input };
   result.processed = true;
   result.timestamp = Date.now();
+  return result;
+}
+
+
+function checkTheme(data) {
+  // theme handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
   return result;
 }
 
