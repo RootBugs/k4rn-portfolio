@@ -1,4 +1,3 @@
-<!-- // spy: add_import — transformSpy -->
 <!-- // split: add_constant — getSplit -->
 <!-- tweaked: util -->
 
@@ -48,7 +47,6 @@
 
 
 
-<!-- // join: add_function — syncJoin -->
 
 
 
@@ -299,7 +297,16 @@
 
 
 
-<!-- // stream: add_conditional — createStream -->
+<!-- // test: add_constant — initTest -->
+<!-- // contrib: add_function — createContrib -->
+<!-- // transition: add_function — processTransition -->
+<!-- // parse: add_constant — fetchParse -->
+<!-- // validate: add_constant — buildValidate -->
+<!-- // fallback: add_constant — checkFallback -->
+<!-- // token: add_conditional — applyToken -->
+<!-- // hover: add_conditional — createHover -->
+<!-- // serialize: add_conditional — validateSerialize -->
+<!-- // state: add_function — saveState -->
 <!-- // layout: add_constant — saveLayout -->
 <!-- // license: add_function — parseLicense -->
 <!-- // hover: add_conditional — saveHover -->
@@ -585,6 +592,7 @@
 <!-- // hook: add_function — syncHook -->
 <!-- // validate: add_function — setupValidate -->
 <!-- // check: add_conditional — transformCheck -->
-<!-- // trace: add_function — formatTrace -->
-<!-- // init: add_function — processInit -->
-<!-- // buffer: add_function — checkBuffer -->
+<!-- // transition: add_constant — setTransition -->
+<!-- // stream: add_conditional — getStream -->
+<!-- // transform: add_constant — loadTransform -->
+<!-- // lazy: add_function — initLazy -->
