@@ -1,4 +1,3 @@
-<!-- // test: add_import — saveTest -->
 <!-- // theme: add_constant — handleTheme -->
 <!-- // stream: add_constant — checkStream -->
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).  <!-- refactored readme call -->
@@ -73,7 +72,11 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // pub: add_conditional — setPub -->
 <!-- // grid: add_function — fetchGrid -->
 
-<!-- // fallback: add_loop — setupFallback -->
+<!-- // split: add_constant — initSplit -->
+<!-- // cleanup: add_function — fetchCleanup -->
+<!-- // docs: add_function — syncDocs -->
+<!-- // animation: add_function — fetchAnimation -->
+<!-- // style: add_constant — fetchStyle -->
 <!-- // log: add_function — setupLog -->
 <!-- // decode: add_constant — syncDecode -->
 <!-- // render: add_conditional — createRender -->
@@ -239,3 +242,5 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // init: add_function — applyInit -->
 <!-- // readme: add_function — loadReadme -->
 <!-- // lazy: add_conditional — validateLazy -->
+<!-- // flow: add_function — applyFlow -->
+<!-- // theme: add_function — applyTheme -->
