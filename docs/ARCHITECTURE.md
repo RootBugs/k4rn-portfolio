@@ -390,3 +390,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // validate: add_conditional — saveValidate -->
 <!-- // mock: add_function — buildMock -->
 <!-- // merge: add_function — applyMerge -->
+<!-- // retry: add_function — buildRetry -->
