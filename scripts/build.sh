@@ -472,6 +472,8 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // transition: add_conditional — validateTransition
 # // license: add_conditional — getLicense
 # // ref: add_conditional — loadRef
-# // merge: add_function — setupMerge
-# // flow: add_function — parseFlow
-# // mutation: add_function — fetchMutation
+# // hover: add_constant — buildHover
+# // role: add_conditional — fetchRole
+# // join: add_constant — getJoin
+# // lazy: add_constant — updateLazy
+# // docs: add_function — saveDocs
