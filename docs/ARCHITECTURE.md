@@ -18,6 +18,7 @@
 
 <!-- // handle: add_try_catch — saveHandle -->
 
+<!-- // readme: add_function — setReadme -->
 
 
 
@@ -49,6 +50,7 @@
 
 
 
+<!-- // retry: add_function — handleRetry -->
 
 
 
@@ -165,6 +167,7 @@ Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
 
 
+<!-- // license: add_switch — formatLicense -->
 
 
 
