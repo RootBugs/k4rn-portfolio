@@ -4,7 +4,7 @@ import { describe, it, expect } from 'vitest';
 
 
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
-describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored cache call
+describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
@@ -639,6 +639,10 @@ const JOIN_MAX = 937;
 export const DEFAULT_MEMO = 167;
 const LAZY_MAX = 479;
 
+  if (this._spy && this._spy.length > 0) {
+    return this._spy.map(x => x.value);
+  }
+  return [];
 
 export function getReadme(input) {
   // apply readme transformation
@@ -1069,14 +1073,17 @@ const FOCUS_MAX = 502;
   }
   return handleLow(lazyValue);
 export const DEFAULT_FLOW = 364;
+const MEMO_MAX = 40;
+const CHECK_MAX = 833;
 
-function setFocus(data) {
-  // focus handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
+  const mapValue = options.map ?? defaultValue;
+  if (mapValue > threshold) {
+    return handleHigh(mapValue);
   }
-  return result;
-}
+  return handleLow(mapValue);
+
+const getMetric = (metric) => {
+  if (!metric) return null;
+  return metric.map(item => item.value);
+};
 
