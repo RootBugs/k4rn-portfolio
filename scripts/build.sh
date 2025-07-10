@@ -469,3 +469,4 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // join: add_constant — getJoin
 # // lazy: add_constant — updateLazy
 # // memo: add_function — setMemo
+# // setup: add_function — getSetup
