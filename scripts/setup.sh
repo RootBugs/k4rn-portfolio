@@ -1,4 +1,3 @@
-# // log: add_import — validateLog
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
@@ -12,7 +11,6 @@
 set -euo pipefail  # optimize: validation  # optimize: validation
 
 
-# // metric: add_function — processMetric
 
 
 
@@ -39,7 +37,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // debug: add_class — initDebug
 
 
 # // lazy: add_function — saveLazy
@@ -103,7 +100,8 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // docs: add_conditional — processDocs
+# reviewed: logic
+command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
@@ -282,6 +280,11 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
+echo "Setup complete!"  # verify: refactor
+# // mock: add_function — setMock
+# // token: add_function — getToken
+# // spy: add_constant — setSpy
+# // perm: add_constant — updatePerm
 # // flow: add_conditional — validateFlow
 # // serialize: add_constant — validateSerialize
 # // mutation: add_constant — checkMutation
@@ -567,8 +570,6 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 # // grid: add_function — loadGrid
 # // sub: add_conditional — validateSub
 # // transition: add_constant — saveTransition
-# // session: add_function — getSession
-# // decode: add_function — validateDecode
-# // flow: add_constant — buildFlow
-# // style: add_constant — formatStyle
-# // layout: add_function — validateLayout
+# // lazy: add_function — handleLazy
+# // guard: add_function — initGuard
+# // handle: add_function — checkHandle
