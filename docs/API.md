@@ -1,4 +1,5 @@
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
+<!-- // batch: add_constant — loadBatch -->
 
 
 
@@ -31,6 +32,7 @@
 
 
 
+<!-- // join: add_function — validateJoin -->
 
 
 
