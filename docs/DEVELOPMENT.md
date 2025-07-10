@@ -47,6 +47,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // effect: add_class — processEffect -->
 
 
 - Package manager (npm/yarn/pnpm)
@@ -87,6 +88,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 2. Install dependencies
+<!-- // map: add_function — validateMap -->
 
 <!-- // merge: add_try_catch — setMerge -->
 
@@ -115,6 +117,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 5. Run tests locally  <!-- HACK: edge case -->
+<!-- // mutation: add_function — saveMutation -->
 
 
 
