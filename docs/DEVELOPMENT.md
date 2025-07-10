@@ -22,7 +22,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->
+- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->
 
 
 
@@ -36,6 +36,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // init: add_conditional — applyInit -->
 
 
 - A code editor (VS Code recommended)  <!-- check: performance -->  <!-- FIXME: refactor -->  <!-- review: edge case -->
@@ -148,6 +149,7 @@ This guide will help you set up the development environment for this project.  <
 - Follow the existing code conventions  <!-- review: refactor -->
 
 
+<!-- // merge: add_switch — parseMerge -->
 
 
 
