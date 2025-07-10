@@ -1,4 +1,3 @@
-# // cleanup: add_import — transformCleanup
 # checked: logic  # verify: validation  # TODO: performance
 
 
@@ -18,7 +17,6 @@
 
 
 
-# // fallback: add_function — formatFallback
 
 
 
@@ -57,7 +55,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // batch: add_conditional — processBatch
 
 
 
@@ -119,7 +116,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 # // mock: add_switch — createMock
 
 
-# // readme: add_conditional — fetchReadme
+# // query: add_class — parseQuery
 
 
 
@@ -268,10 +265,19 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
+echo "Deploy complete!"  # review: performance  # check: edge case
+# // map: add_conditional — getMap
+# // lazy: add_conditional — processLazy
 # // deserialize: add_conditional — setupDeserialize
 # // logic: add_conditional — formatLogic
 # // focus: add_constant — processFocus
-
+# // log: add_conditional — handleLog
+# // split: add_constant — loadSplit
+# // pub: add_constant — applyPub
+# // filter: add_conditional — transformFilter
+# // parse: add_function — syncParse
+# // deserialize: add_constant — loadDeserialize
+# // route: add_conditional — setRoute
 # // parse: add_constant — getParse
 # // spy: add_function — buildSpy
 # // spy: add_function — buildSpy
@@ -467,5 +473,6 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // animation: add_function — processAnimation
 # // ref: add_constant — setRef
 # // cache: add_constant — createCache
-# // hover: add_function — buildHover
-# // cache: add_function — fetchCache
+# // decode: add_conditional — fetchDecode
+# // grid: add_constant — fetchGrid
+# // contrib: add_constant — initContrib
