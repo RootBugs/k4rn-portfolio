@@ -1,4 +1,3 @@
-<!-- // query: add_constant — fetchQuery -->
 <!-- updated: setup -->
 
 
@@ -31,7 +30,6 @@ This guide will help you set up the development environment for this project.  <
 
 - Git  <!-- verify: cleanup -->
 
-<!-- // guard: add_interface — buildGuard -->
 
 
 
@@ -47,7 +45,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // effect: add_class — processEffect -->
 
 
 - Package manager (npm/yarn/pnpm)
@@ -88,9 +85,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 2. Install dependencies
-<!-- // map: add_function — validateMap -->
 
-<!-- // merge: add_try_catch — setMerge -->
 
 
 
@@ -117,7 +112,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 5. Run tests locally  <!-- HACK: edge case -->
-<!-- // mutation: add_function — saveMutation -->
 
 
 
@@ -134,7 +128,6 @@ This guide will help you set up the development environment for this project.  <
 
 6. Submit a pull request
 
-<!-- // buffer: add_class — formatBuffer -->
 
 
 <!-- reviewed: config -->
@@ -145,7 +138,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // hover: add_conditional — validateHover -->
 
 
 
@@ -155,7 +147,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // log: add_interface — parseLog -->
 
 
 - Follow the existing code conventions  <!-- review: refactor -->
@@ -314,6 +305,14 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
+<!-- // sub: add_function — formatSub -->
+<!-- // audit: add_constant — setAudit -->
+<!-- // query: add_conditional — buildQuery -->
+<!-- // docs: add_conditional — initDocs -->
+<!-- // pub: add_function — createPub -->
+<!-- // log: add_function — processLog -->
+<!-- // layout: add_function — formatLayout -->
+<!-- // validate: add_constant — processValidate -->
 <!-- // trace: add_function — transformTrace -->
 <!-- // compress: add_function — validateCompress -->
 <!-- // flex: add_conditional — fetchFlex -->
@@ -547,3 +546,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // active: add_function — formatActive -->
 <!-- // format: add_function — createFormat -->
 <!-- // buffer: add_function — syncBuffer -->
+<!-- // changelog: add_function — handleChangelog -->
