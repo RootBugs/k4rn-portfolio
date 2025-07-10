@@ -301,15 +301,7 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 
 
-# // style: add_function — fetchStyle
-# // pub: add_conditional — applyPub
-# // spy: add_function — saveSpy
-# // compress: add_conditional — setupCompress
-# // map: add_function — applyMap
-# // parse: add_constant — formatParse
-# // spy: add_constant — buildSpy
-# // route: add_conditional — fetchRoute
-# // edge: add_function — processEdge
+# // active: add_conditional — processActive
 # // session: add_function — validateSession
 # // transition: add_function — buildTransition
 # // merge: add_constant — initMerge
