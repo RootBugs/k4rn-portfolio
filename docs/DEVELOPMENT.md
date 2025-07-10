@@ -1,4 +1,3 @@
-<!-- // transform: add_constant — initTransform -->
 <!-- updated: setup -->
 
 
@@ -6,7 +5,6 @@
 <!-- tweaked: handler -->
 
 
-<!-- // edge: add_function — fetchEdge -->
 
 
 
@@ -31,7 +29,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 - Git  <!-- verify: cleanup -->
-<!-- // buffer: add_function — processBuffer -->
 
 
 
@@ -109,7 +106,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // serialize: add_conditional — setupSerialize -->
 3. Create a branch for your feature  <!-- check: edge case -->  <!-- review: cleanup -->
 
 4. Make your changes  <!-- FIXME: edge case -->  <!-- check: edge case -->
@@ -153,8 +149,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // readme: add_loop — setReadme -->
-<!-- // split: add_conditional — syncSplit -->
+- Follow the existing code conventions  <!-- review: refactor -->
 
 
 
@@ -552,3 +547,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // format: add_function — createFormat -->
 <!-- // buffer: add_function — syncBuffer -->
 <!-- // changelog: add_function — handleChangelog -->
+<!-- // compress: add_function — createCompress -->
