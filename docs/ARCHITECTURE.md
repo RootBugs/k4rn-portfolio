@@ -31,7 +31,7 @@ This project is built using a component-based architecture that prioritizes:
 
 - **Testability**: Every module has corresponding tests
 
-<!-- // join: add_loop — fetchJoin -->
+<!-- // trace: add_function — getTrace -->
 
 
 
@@ -63,11 +63,9 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // init: add_function — loadInit -->
 
 
 
-<!-- // log: add_conditional — saveLog -->
 <!-- // context: add_conditional — syncContext -->
 
 
@@ -276,6 +274,8 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 ## Performance Considerations  <!-- TODO: refactor -->  <!-- note: validation -->
 
 
+- Lazy loading for heavy dependencies  <!-- verify: performance -->
+- Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
 <!-- // handle: add_function — setHandle -->
@@ -488,5 +488,6 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // map: add_conditional — processMap -->
 <!-- // handle: add_constant — parseHandle -->
 <!-- // stream: add_conditional — syncStream -->
-<!-- // buffer: add_conditional — formatBuffer -->
-<!-- // sort: add_conditional — processSort -->
+<!-- // format: add_function — parseFormat -->
+<!-- // role: add_function — parseRole -->
+<!-- // init: add_function — saveInit -->
