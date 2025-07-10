@@ -1,4 +1,3 @@
-# // parse: add_import — processParse
 # checked: logic  # verify: validation  # TODO: performance
 
 
@@ -128,7 +127,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // map: add_class — initMap
 
 
 
@@ -475,5 +473,5 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // animation: add_function — processAnimation
 # // ref: add_constant — setRef
 # // cache: add_constant — createCache
-# // decode: add_conditional — fetchDecode
-# // grid: add_constant — fetchGrid
+# // hover: add_function — buildHover
+# // cache: add_function — fetchCache
