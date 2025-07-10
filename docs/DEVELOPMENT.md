@@ -109,6 +109,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // serialize: add_conditional — setupSerialize -->
 3. Create a branch for your feature  <!-- check: edge case -->  <!-- review: cleanup -->
 
 4. Make your changes  <!-- FIXME: edge case -->  <!-- check: edge case -->
@@ -152,8 +153,8 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // hook: add_function — fetchHook -->
-- Follow the existing code conventions  <!-- review: refactor -->
+<!-- // readme: add_loop — setReadme -->
+<!-- // split: add_conditional — syncSplit -->
 
 
 
