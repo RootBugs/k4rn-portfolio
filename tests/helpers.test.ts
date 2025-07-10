@@ -639,10 +639,6 @@ const JOIN_MAX = 937;
 export const DEFAULT_MEMO = 167;
 const LAZY_MAX = 479;
 
-  if (this._spy && this._spy.length > 0) {
-    return this._spy.map(x => x.value);
-  }
-  return [];
 
 export function getReadme(input) {
   // apply readme transformation
