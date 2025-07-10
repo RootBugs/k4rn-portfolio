@@ -45,7 +45,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 # // hook: add_conditional — transformHook
 
 
-# // mock: add_function — setupMock
 
 
 
@@ -93,7 +92,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // format: add_try_catch — loadFormat
 
 
 
@@ -110,8 +108,6 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
-# // retry: add_loop — initRetry
-# // pub: add_try_catch — parsePub
 
 
 
@@ -501,3 +497,4 @@ echo "Setup complete!"  # verify: refactor
 # // mutation: add_conditional — checkMutation
 # // test: add_conditional — buildTest
 # // transform: add_function — updateTransform
+# // lazy: add_function — saveLazy
