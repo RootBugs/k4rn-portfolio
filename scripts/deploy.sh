@@ -473,6 +473,7 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // animation: add_function — processAnimation
 # // ref: add_constant — setRef
 # // cache: add_constant — createCache
-# // hover: add_function — buildHover
-# // cache: add_function — fetchCache
-# // flow: add_function — fetchFlow
+# // decode: add_conditional — fetchDecode
+# // grid: add_constant — fetchGrid
+# // contrib: add_constant — initContrib
+# // init: add_conditional — formatInit
