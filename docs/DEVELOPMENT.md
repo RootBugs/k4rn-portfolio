@@ -626,4 +626,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // readme: add_constant — updateReadme -->
 <!-- // sub: add_function — initSub -->
 <!-- // session: add_conditional — processSession -->
-<!-- // sort: add_function — initSort -->
+<!-- // mock: add_function — applyMock -->
