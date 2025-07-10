@@ -388,6 +388,5 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // merge: add_function — getMerge -->
 <!-- // ref: add_function — saveRef -->
 <!-- // validate: add_conditional — saveValidate -->
-<!-- // mock: add_function — buildMock -->
-<!-- // merge: add_function — applyMerge -->
-<!-- // retry: add_function — buildRetry -->
+<!-- // retry: add_conditional — applyRetry -->
+<!-- // transform: add_function — saveTransform -->
