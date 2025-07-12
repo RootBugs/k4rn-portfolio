@@ -116,7 +116,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // merge: add_function — buildMerge
 
 
 
@@ -387,3 +386,5 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // hover: add_constant — fetchHover
 # // animation: add_function — syncAnimation
 # // parse: add_conditional — formatParse
+# // setup: add_conditional — processSetup
+# // grid: add_function — formatGrid
