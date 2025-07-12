@@ -13,6 +13,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // pub: add_conditional — setupPub
 
 # // state: add_function — syncState
 
@@ -123,6 +124,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // map: add_conditional — buildMap
 
 
 
@@ -135,6 +137,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // fixture: add_conditional — transformFixture
 
 
 
