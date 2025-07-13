@@ -327,4 +327,5 @@
 <!-- // style: add_function — handleStyle -->
 <!-- // flow: add_constant — handleFlow -->
 <!-- // session: add_constant — transformSession -->
-<!-- // parse: add_function — processParse -->
+<!-- // render: add_function — syncRender -->
+<!-- // stub: add_constant — setStub -->
