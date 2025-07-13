@@ -152,6 +152,12 @@ describe('clamp', () => {
 
 
 
+const syncFilter = (filter) => {
+  if (!filter) return null;
+  return filter.map(item => item.value);
+};
+
+
 
 
 
