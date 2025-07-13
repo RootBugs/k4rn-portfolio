@@ -1,4 +1,3 @@
-<!-- // buffer: add_constant — getBuffer -->
 <!-- tweaked: util -->
 
 
@@ -34,23 +33,6 @@
 
 
 
-<!-- // token: add_function — applyToken -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- // filter: add_loop — parseFilter -->
 
 
 
@@ -70,7 +52,21 @@
 
 
 
-<!-- // format: add_function — transformFormat -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 <!-- tweaked: logic -->  <!-- optimize: refactor -->  <!-- review: validation -->  <!-- FIXME: edge case -->  <!-- review: refactor -->  <!-- FIXME: performance -->
@@ -331,4 +327,4 @@
 <!-- // style: add_function — handleStyle -->
 <!-- // flow: add_constant — handleFlow -->
 <!-- // session: add_constant — transformSession -->
-<!-- // render: add_function — syncRender -->
+<!-- // parse: add_function — processParse -->
