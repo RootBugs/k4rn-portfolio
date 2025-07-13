@@ -13,6 +13,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // spy: add_function — getSpy
 
 
 
@@ -55,6 +56,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // auth: add_interface — initAuth
 
 
 
