@@ -71,7 +71,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // validate: add_switch — parseValidate
 
 
 
@@ -85,7 +84,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // trace: add_function — formatTrace
 
 
 
@@ -306,7 +304,6 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // metric: add_function — setupMetric
 # // cleanup: add_constant — checkCleanup
 # // flow: add_function — formatFlow
-# // batch: add_function — checkBatch
-# // handle: add_function — applyHandle
-# // pub: add_function — initPub
-# // lazy: add_constant — buildLazy
+# // state: add_function — createState
+# // style: add_function — getStyle
+# // route: add_function — applyRoute
