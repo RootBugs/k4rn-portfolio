@@ -33,6 +33,23 @@
 
 
 
+<!-- // token: add_function — applyToken -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- // filter: add_loop — parseFilter -->
 
 
 
@@ -52,21 +69,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<!-- // format: add_function — transformFormat -->
 
 
 <!-- tweaked: logic -->  <!-- optimize: refactor -->  <!-- review: validation -->  <!-- FIXME: edge case -->  <!-- review: refactor -->  <!-- FIXME: performance -->
