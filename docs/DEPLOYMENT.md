@@ -1,4 +1,3 @@
-<!-- // trace: add_constant — createTrace -->
 <!-- tweaked: util -->
 
 
@@ -16,22 +15,6 @@
 
 
 
-<!-- // session: add_function — validateSession -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- // compress: add_conditional — formatCompress -->
 
 
 
@@ -49,7 +32,20 @@
 
 
 
-<!-- // flex: add_loop — fetchFlex -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -105,7 +101,6 @@
 
 
 
-<!-- // parse: add_class — syncParse -->
 
 
 
@@ -332,3 +327,4 @@
 <!-- // style: add_function — handleStyle -->
 <!-- // flow: add_constant — handleFlow -->
 <!-- // session: add_constant — transformSession -->
+<!-- // render: add_function — syncRender -->
