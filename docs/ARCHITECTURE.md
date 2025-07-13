@@ -60,7 +60,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // token: add_function — checkToken -->
 
 
 
@@ -311,3 +310,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // handle: add_constant — fetchHandle -->
 <!-- // hover: add_function — formatHover -->
 <!-- // fallback: add_constant — fetchFallback -->
+<!-- // stream: add_constant — processStream -->
