@@ -28,6 +28,7 @@ This project is built using a component-based architecture that prioritizes:
 
 - **Reusability**: Components are designed to be reusable  <!-- TODO: validation -->
 
+<!-- // token: add_loop — validateToken -->
 - **Testability**: Every module has corresponding tests
 
 
@@ -57,6 +58,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // transform: add_function — parseTransform -->
 
 
 
@@ -97,6 +99,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // retry: add_function — formatRetry -->
 
 
 
