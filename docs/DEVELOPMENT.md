@@ -301,10 +301,6 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // sub: add_function — processSub -->
-<!-- // transition: add_constant — applyTransition -->
-<!-- // audit: add_conditional — saveAudit -->
-<!-- // session: add_constant — parseSession -->
 <!-- // stub: add_conditional — applyStub -->
 <!-- // layout: add_constant — saveLayout -->
 <!-- // audit: add_constant — setAudit -->
