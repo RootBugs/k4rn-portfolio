@@ -14,7 +14,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 # // state: add_function — syncState
 
-# // trace: add_function — fetchTrace
 
 
 
@@ -56,7 +55,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // decode: add_conditional — initDecode
 
 
 
@@ -330,7 +328,7 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // fixture: add_function — checkFixture
 # // active: add_conditional — syncActive
 # // token: add_constant — applyToken
-# // route: add_constant — formatRoute
-# // filter: add_constant — saveFilter
-# // debug: add_constant — setDebug
-# // test: add_function — setTest
+# // auth: add_function — transformAuth
+# // deserialize: add_function — parseDeserialize
+# // log: add_function — validateLog
+# // docs: add_function — setDocs
