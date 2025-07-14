@@ -570,6 +570,10 @@ echo "Setup complete!"  # verify: refactor
 # // grid: add_function — loadGrid
 # // sub: add_conditional — validateSub
 # // transition: add_constant — saveTransition
-# // lazy: add_function — handleLazy
-# // guard: add_function — initGuard
-# // handle: add_function — checkHandle
+# // session: add_function — getSession
+# // decode: add_function — validateDecode
+# // flow: add_constant — buildFlow
+# // style: add_constant — formatStyle
+# // layout: add_function — validateLayout
+# // check: add_conditional — applyCheck
+# // flex: add_function — fetchFlex
