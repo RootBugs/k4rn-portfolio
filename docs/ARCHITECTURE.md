@@ -60,6 +60,7 @@
 
 
 
+<!-- // transition: add_try_catch — validateTransition -->
 
 
 
@@ -180,6 +181,7 @@ Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
 
 
+<!-- // map: add_function — buildMap -->
 
 
 
