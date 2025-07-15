@@ -1,5 +1,6 @@
 # checked: handler
 # // query: add_constant — initQuery
+# // transform: add_constant — buildTransform
 
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
