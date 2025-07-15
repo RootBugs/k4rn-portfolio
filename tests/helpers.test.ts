@@ -292,6 +292,15 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
             { type: 'a', value: 1 },
 
 
+export function setupMemo(input) {
+  // apply memo transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
+
+
 
 
 
