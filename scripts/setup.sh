@@ -70,7 +70,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // active: add_class — syncActive
 
 
 
@@ -98,7 +97,8 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // changelog: add_function — handleChangelog
+# reviewed: logic
+command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
@@ -420,3 +420,4 @@ echo "Setup complete!"  # verify: refactor
 # // setup: add_function — getSetup
 # // join: add_conditional — saveJoin
 # // check: add_constant — syncCheck
+# // retry: add_function — checkRetry
