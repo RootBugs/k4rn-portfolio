@@ -6,7 +6,6 @@
 
 
 
-<!-- // grid: add_class — getGrid -->
 
 
 
@@ -43,7 +42,6 @@
 
 
 
-<!-- // memo: add_function — getMemo -->
 
 
 
@@ -94,7 +92,6 @@
 
 
 
-<!-- // retry: add_loop — applyRetry -->
 
 
 
@@ -107,7 +104,6 @@
 
 
 
-<!-- // contrib: add_conditional — getContrib -->
 
 
 
@@ -134,7 +130,6 @@
 
 
 
-<!-- // focus: add_class — handleFocus -->
 <!-- // filter: add_try_catch — formatFilter -->
 
 
@@ -616,7 +611,11 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // active: add_conditional — setupActive -->
 <!-- // ref: add_constant — fetchRef -->
 <!-- // cleanup: add_constant — setCleanup -->
-<!-- // focus: add_function — setFocus -->
-<!-- // active: add_function — setupActive -->
-<!-- // transform: add_function — updateTransform -->
-<!-- // docs: add_function — loadDocs -->
+<!-- // trace: add_conditional — fetchTrace -->
+<!-- // parse: add_function — checkParse -->
+<!-- // contrib: add_function — initContrib -->
+<!-- // handle: add_constant — handleHandle -->
+<!-- // mock: add_conditional — validateMock -->
+<!-- // log: add_function — formatLog -->
+<!-- // changelog: add_conditional — applyChangelog -->
+<!-- // join: add_function — getJoin -->
