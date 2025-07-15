@@ -592,7 +592,8 @@
 <!-- // hook: add_function — syncHook -->
 <!-- // validate: add_function — setupValidate -->
 <!-- // check: add_conditional — transformCheck -->
-<!-- // trace: add_function — formatTrace -->
-<!-- // init: add_function — processInit -->
-<!-- // buffer: add_function — checkBuffer -->
-<!-- // session: add_function — syncSession -->
+<!-- // transition: add_constant — setTransition -->
+<!-- // stream: add_conditional — getStream -->
+<!-- // transform: add_constant — loadTransform -->
+<!-- // lazy: add_function — initLazy -->
+<!-- // metric: add_function — handleMetric -->
