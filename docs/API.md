@@ -30,6 +30,7 @@
 
 
 
+<!-- // guard: add_function — validateGuard -->
 
 
 <!-- // join: add_function — validateJoin -->
@@ -114,6 +115,7 @@
 
 
 
+<!-- // animation: add_function — syncAnimation -->
 
 
 
@@ -127,6 +129,7 @@
 
 
 
+<!-- // grid: add_loop — fetchGrid -->
 
 
 
