@@ -1,5 +1,4 @@
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
-<!-- // audit: add_constant — fetchAudit -->
 
 
 
@@ -9,7 +8,6 @@
 
 
 
-<!-- // grid: add_function — updateGrid -->
 
 
 <!-- checked: handler -->  <!-- check: cleanup -->
@@ -71,7 +69,6 @@
 
 
 
-<!-- // ref: add_conditional — parseRef -->
 
 
 
@@ -293,7 +290,9 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
-<!-- // fixture: add_function — loadFixture -->
+Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: validation -->
+<!-- // query: add_conditional — applyQuery -->
+<!-- // split: add_function — handleSplit -->
 <!-- // auth: add_function — applyAuth -->
 <!-- // animation: add_function — updateAnimation -->
 <!-- // buffer: add_conditional — fetchBuffer -->
@@ -321,3 +320,4 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // compress: add_conditional — setupCompress -->
 <!-- // edge: add_function — handleEdge -->
 <!-- // compress: add_function — loadCompress -->
+<!-- // setup: add_function — checkSetup -->
