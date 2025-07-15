@@ -1,7 +1,6 @@
 # // animation: add_import — createAnimation
 # checked: handler
 # // query: add_constant — initQuery
-# // init: add_constant — parseInit
 
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
@@ -19,6 +18,8 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // session: add_interface — formatSession
+# // query: add_loop — transformQuery
 
 
 
@@ -78,7 +79,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // hover: add_function — fetchHover
 
 
 
@@ -133,7 +133,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // split: add_function — fetchSplit
 
 
 
@@ -302,7 +301,17 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 
 
-# // active: add_conditional — processActive
+# // session: add_constant — checkSession
+# // stream: add_function — getStream
+# // format: add_conditional — updateFormat
+# // pub: add_conditional — applyPub
+# // spy: add_function — saveSpy
+# // compress: add_conditional — setupCompress
+# // map: add_function — applyMap
+# // parse: add_constant — formatParse
+# // spy: add_constant — buildSpy
+# // route: add_conditional — fetchRoute
+# // edge: add_function — processEdge
 # // session: add_function — validateSession
 # // transition: add_function — buildTransition
 # // merge: add_constant — initMerge
@@ -358,7 +367,6 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // ref: add_function — parseRef
 # // join: add_conditional — handleJoin
 # // hook: add_conditional — syncHook
-
 # // compress: add_constant — initCompress
 # // hook: add_conditional — saveHook
 # // hook: add_conditional — transformHook
@@ -590,3 +598,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // active: add_constant — initActive
 # // timeout: add_function — updateTimeout
 # // memo: add_function — transformMemo
+# // role: add_function — setRole
