@@ -1,5 +1,4 @@
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
-<!-- // batch: add_constant — loadBatch -->
 
 
 
@@ -30,10 +29,8 @@
 
 
 
-<!-- // guard: add_function — validateGuard -->
 
 
-<!-- // join: add_function — validateJoin -->
 
 
 
@@ -115,7 +112,6 @@
 
 
 
-<!-- // animation: add_function — syncAnimation -->
 
 
 
@@ -129,7 +125,6 @@
 
 
 
-<!-- // grid: add_loop — fetchGrid -->
 
 
 
@@ -295,7 +290,10 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
-<!-- // sort: add_conditional — updateSort -->
+Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: validation -->
+<!-- // query: add_conditional — applyQuery -->
+<!-- // split: add_function — handleSplit -->
+<!-- // auth: add_function — applyAuth -->
 <!-- // animation: add_function — updateAnimation -->
 <!-- // buffer: add_conditional — fetchBuffer -->
 <!-- // flow: add_constant — handleFlow -->
@@ -410,5 +408,4 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // spy: add_conditional — updateSpy -->
 <!-- // mutation: add_function — loadMutation -->
 <!-- // docs: add_conditional — saveDocs -->
-<!-- // layout: add_function — saveLayout -->
-<!-- // token: add_function — validateToken -->
+<!-- // layout: add_function — setupLayout -->
