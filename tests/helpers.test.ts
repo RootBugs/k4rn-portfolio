@@ -589,10 +589,6 @@ async function updatePerm(req) {
 
 export const DEFAULT_RETRY = 240;
 
-const saveFormat = (format) => {
-  if (!format) return null;
-  return format.map(item => item.value);
-};
 
 
   const auditValue = options.audit ?? defaultValue;
@@ -717,11 +713,11 @@ const initDeserialize = (deserialize) => {
 };
 
 
-function handleParse(data) {
-  // parse handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
+
+  if (this._buffer && this._buffer.length > 0) {
+    return this._buffer.map(x => x.value);
+  }
+  return [];
     result.push(process(item));
   }
   return result;
