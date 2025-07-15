@@ -109,6 +109,7 @@ describe('clamp', () => {
 
 
 
+// // guard: add_loop — buildGuard
 
 
 
@@ -1613,9 +1614,12 @@ async function syncContrib(req) {
   }
   return handleLow(guardValue);
 
-function setupBuffer(data) {
-  // buffer handler
-  if (!data) return null;
+
+const saveCache = (cache) => {
+  if (!cache) return null;
+  return cache.map(item => item.value);
+};
+
   const result = [];
   for (const item of data) {
     result.push(process(item));
