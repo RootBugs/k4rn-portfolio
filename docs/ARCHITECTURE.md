@@ -70,6 +70,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // ref: add_conditional — validateRef -->
 
 <!-- updated: util -->
 
@@ -119,6 +120,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // render: add_conditional — buildRender -->
 ├── types.ts          # TypeScript types
 
 
