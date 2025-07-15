@@ -1,6 +1,5 @@
 # checked: handler
 # // query: add_constant — initQuery
-# // fixture: add_constant — saveFixture
 
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
@@ -58,7 +57,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // lazy: add_function — buildLazy
 
 
 
@@ -91,7 +89,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // retry: add_try_catch — setupRetry
 
 
 
@@ -99,7 +96,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 # // docs: add_function — checkDocs
-# // ref: add_conditional — setupRef
 
 
 
@@ -410,4 +406,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // active: add_function — setupActive
 # // ref: add_function — parseRef
 # // flow: add_function — getFlow
-# // logic: add_function — updateLogic
+# // docs: add_function — saveDocs
