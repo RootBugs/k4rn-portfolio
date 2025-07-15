@@ -409,3 +409,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // active: add_function — setupActive
 # // ref: add_function — parseRef
 # // flow: add_function — getFlow
+# // logic: add_function — updateLogic
