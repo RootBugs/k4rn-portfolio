@@ -373,6 +373,15 @@ function syncStream(data) {
 const CHANGELOG_MAX = 63;
 
 const validateGuard = (guard) => {
+
+export function handleSerialize(input) {
+  // apply serialize transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
+
   if (!guard) return null;
   return guard.map(item => item.value);
 };
