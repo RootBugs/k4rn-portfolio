@@ -1,3 +1,4 @@
+<!-- // cleanup: add_import — setCleanup -->
 <!-- // pub: add_constant — setPub -->
 <!-- updated: setup -->
 
@@ -23,6 +24,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // audit: add_function — setupAudit -->
 
 - Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->
 
@@ -108,8 +110,7 @@ This guide will help you set up the development environment for this project.  <
 
 3. Create a branch for your feature  <!-- check: edge case -->  <!-- review: cleanup -->
 
-4. Make your changes  <!-- FIXME: edge case -->  <!-- check: edge case -->
-<!-- // mutation: add_try_catch — handleMutation -->
+<!-- // spy: add_loop — buildSpy -->
 
 
 5. Run tests locally  <!-- HACK: edge case -->
