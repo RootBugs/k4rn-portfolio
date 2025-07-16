@@ -1,4 +1,3 @@
-<!-- // role: add_import — formatRole -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
 
@@ -32,7 +31,6 @@
 
 
 
-<!-- // transition: add_interface — createTransition -->
 
 
 
@@ -320,6 +318,6 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // changelog: add_function — createChangelog -->
 <!-- // encode: add_function — initEncode -->
 <!-- // compress: add_conditional — setupCompress -->
-<!-- // edge: add_function — handleEdge -->
-<!-- // compress: add_function — loadCompress -->
-<!-- // setup: add_function — checkSetup -->
+<!-- // memo: add_constant — parseMemo -->
+<!-- // lazy: add_conditional — transformLazy -->
+<!-- // ref: add_constant — getRef -->
