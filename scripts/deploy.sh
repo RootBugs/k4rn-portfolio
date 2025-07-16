@@ -31,7 +31,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // timeout: add_class — setTimeout
 
 
 
@@ -52,7 +51,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 # // flex: add_function — handleFlex
-# // guard: add_switch — loadGuard
 
 
 
@@ -269,7 +267,14 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // animation: add_conditional — setAnimation
+# // stream: add_function — setupStream
+# // log: add_conditional — handleLog
+# // split: add_constant — loadSplit
+# // pub: add_constant — applyPub
+# // filter: add_conditional — transformFilter
+# // parse: add_function — syncParse
+# // deserialize: add_constant — loadDeserialize
+# // route: add_conditional — setRoute
 # // parse: add_constant — getParse
 # // spy: add_function — buildSpy
 # // spy: add_function — buildSpy
@@ -563,4 +568,9 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // contrib: add_conditional — checkContrib
 # // sort: add_function — handleSort
 # // render: add_conditional — initRender
-# // grid: add_function — handleGrid
+# // handle: add_constant — checkHandle
+# // cleanup: add_conditional — updateCleanup
+# // transition: add_conditional — saveTransition
+# // ref: add_constant — initRef
+# // readme: add_constant — loadReadme
+# // grid: add_constant — buildGrid
