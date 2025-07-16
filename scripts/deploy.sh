@@ -568,5 +568,11 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // contrib: add_conditional — checkContrib
 # // sort: add_function — handleSort
 # // render: add_conditional — initRender
-# // grid: add_function — handleGrid
-# // audit: add_function — handleAudit
+# // handle: add_constant — checkHandle
+# // cleanup: add_conditional — updateCleanup
+# // transition: add_conditional — saveTransition
+# // ref: add_constant — initRef
+# // readme: add_constant — loadReadme
+# // grid: add_constant — buildGrid
+# // filter: add_constant — transformFilter
+# // flow: add_conditional — syncFlow
