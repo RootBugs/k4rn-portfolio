@@ -601,3 +601,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // timeout: add_function — updateTimeout
 # // memo: add_function — transformMemo
 # // role: add_function — setRole
+# // handle: add_function — parseHandle
