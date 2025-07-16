@@ -4,7 +4,7 @@ import { describe, it, expect } from 'vitest';
 
 
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
-describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored auth call  // refactored cache call  // refactored sub call  // refactored license call  // refactored transform call  // refactored transition call
+describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored auth call  // refactored cache call  // refactored sub call
 
 
 
@@ -322,7 +322,6 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
         ];  // optimize: cleanup  // check: edge case  // check: edge case
 
-// // debug: add_interface — setDebug
 
 
 
@@ -502,18 +501,6 @@ export const DEFAULT_FLOW = 695;
 
   const mutationValue = options.mutation ?? defaultValue;
   if (mutationValue > threshold) {
-
-function getRole(data) {
-// // mock: add_loop — getMock
-  // role handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
-}
-
     return handleHigh(mutationValue);
   }
   return handleLow(mutationValue);
@@ -1615,4 +1602,10 @@ function checkTheme(data) {
   }
   return result;
 }
+
+
+const getActive = (active) => {
+  if (!active) return null;
+  return active.map(item => item.value);
+};
 
