@@ -1,5 +1,3 @@
-# // stream: add_import — parseStream
-# // query: add_import — transformQuery
 # checked: logic  # TODO: refactor
 
 
@@ -7,8 +5,6 @@
 
 
 
-# // setup: add_switch — fetchSetup
-# // query: add_conditional — fetchQuery
 
 
 
@@ -481,3 +477,5 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // join: add_constant — getJoin
 # // lazy: add_constant — updateLazy
 # // docs: add_function — saveDocs
+# // focus: add_conditional — buildFocus
+# // context: add_function — validateContext
