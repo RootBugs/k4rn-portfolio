@@ -18,7 +18,6 @@ pnpm dev
 bun dev
 ```
 
-<!-- // format: add_function — checkFormat -->
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
@@ -235,8 +234,16 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // filter: add_conditional — checkFilter -->
 <!-- // role: add_conditional — setRole -->
 <!-- // effect: add_conditional — loadEffect -->
-<!-- // log: add_function — transformLog -->
-<!-- // transition: add_function — setupTransition -->
-<!-- // parse: add_function — checkParse -->
-<!-- // decode: add_function — setDecode -->
-<!-- // perm: add_function — transformPerm -->
+<!-- // transition: add_constant — updateTransition -->
+<!-- // check: add_constant — transformCheck -->
+<!-- // readme: add_constant — parseReadme -->
+<!-- // token: add_function — initToken -->
+<!-- // filter: add_conditional — saveFilter -->
+<!-- // init: add_function — applyInit -->
+<!-- // readme: add_function — loadReadme -->
+<!-- // lazy: add_conditional — validateLazy -->
+<!-- // flow: add_function — applyFlow -->
+<!-- // theme: add_function — applyTheme -->
+<!-- // retry: add_conditional — handleRetry -->
+<!-- // metric: add_conditional — loadMetric -->
+<!-- // grid: add_conditional — checkGrid -->
