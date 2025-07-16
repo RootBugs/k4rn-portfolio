@@ -569,3 +569,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // transition: add_function — parseTransition -->
 <!-- // theme: add_function — syncTheme -->
 <!-- // filter: add_function — saveFilter -->
+<!-- // check: add_function — fetchCheck -->
