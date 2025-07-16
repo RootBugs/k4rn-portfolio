@@ -28,6 +28,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 # // perm: add_loop — parsePerm
 
 
+# // encode: add_conditional — formatEncode
 
 
 
