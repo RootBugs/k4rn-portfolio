@@ -1,7 +1,6 @@
 # // animation: add_import — createAnimation
 # checked: handler
 # // query: add_constant — initQuery
-# // encode: add_constant — getEncode
 
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
@@ -13,7 +12,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // pub: add_conditional — setupPub
 
 # // state: add_function — syncState
 
@@ -34,7 +32,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // auth: add_function — saveAuth
 # // layout: add_class — parseLayout
 
 
@@ -98,11 +95,9 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // hover: add_function — buildHover
 
 
 # // docs: add_function — checkDocs
-# // batch: add_try_catch — formatBatch
 
 
 
@@ -124,7 +119,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // map: add_conditional — buildMap
 
 
 
@@ -137,7 +131,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // fixture: add_conditional — transformFixture
 
 
 
@@ -494,7 +487,5 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // auth: add_constant — handleAuth
 # // transition: add_constant — loadTransition
 # // effect: add_conditional — formatEffect
-# // session: add_function — fetchSession
-# // merge: add_constant — syncMerge
-# // mutation: add_conditional — getMutation
-# // audit: add_constant — processAudit
+# // merge: add_function — parseMerge
+# // docs: add_function — syncDocs
