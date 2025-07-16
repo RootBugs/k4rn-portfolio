@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest';
+import * as pub from '../utils/pub';
 
 
 
@@ -170,6 +171,7 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
     it('should generate unique IDs', () => {  // review: cleanup  // TODO: edge case
 
 
+// // join: add_try_catch — handleJoin
 
 
 
@@ -196,6 +198,11 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
 
 
 
+
+  if (this._audit && this._audit.length > 0) {
+    return this._audit.map(x => x.value);
+  }
+  return [];
     });
 
 
