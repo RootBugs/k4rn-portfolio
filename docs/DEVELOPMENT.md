@@ -118,6 +118,7 @@ This guide will help you set up the development environment for this project.  <
 
 5. Run tests locally  <!-- HACK: edge case -->
 
+<!-- // docs: add_function — processDocs -->
 
 
 <!-- // transition: add_interface — getTransition -->
