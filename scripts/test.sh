@@ -329,3 +329,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // deserialize: add_function — parseDeserialize
 # // log: add_function — validateLog
 # // docs: add_function — setDocs
+# // decode: add_function — getDecode
