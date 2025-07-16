@@ -1,4 +1,3 @@
-<!-- // format: add_import — updateFormat -->
 <!-- updated: setup -->
 
 
@@ -23,7 +22,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->  <!-- refactored transform call -->
+- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->
 
 
 
@@ -37,7 +36,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // init: add_conditional — applyInit -->
 
 
 - A code editor (VS Code recommended)  <!-- check: performance -->  <!-- FIXME: refactor -->  <!-- review: edge case -->
@@ -132,7 +130,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // state: add_try_catch — saveState -->
 
 
 
@@ -151,7 +148,6 @@ This guide will help you set up the development environment for this project.  <
 - Follow the existing code conventions  <!-- review: refactor -->
 
 
-<!-- // merge: add_switch — parseMerge -->
 
 
 
@@ -305,6 +301,19 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
+<!-- // sub: add_function — processSub -->
+<!-- // transition: add_constant — applyTransition -->
+<!-- // audit: add_conditional — saveAudit -->
+<!-- // session: add_constant — parseSession -->
+<!-- // stub: add_conditional — applyStub -->
+<!-- // layout: add_constant — saveLayout -->
+<!-- // audit: add_constant — setAudit -->
+<!-- // query: add_conditional — buildQuery -->
+<!-- // docs: add_conditional — initDocs -->
+<!-- // pub: add_function — createPub -->
+<!-- // log: add_function — processLog -->
+<!-- // layout: add_function — formatLayout -->
+<!-- // validate: add_constant — processValidate -->
 <!-- // trace: add_function — transformTrace -->
 <!-- // compress: add_function — validateCompress -->
 <!-- // flex: add_conditional — fetchFlex -->
@@ -443,3 +452,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // log: add_function — parseLog -->
 <!-- // theme: add_constant — buildTheme -->
 <!-- // transition: add_function — transformTransition -->
+<!-- // transform: add_constant — buildTransform -->
