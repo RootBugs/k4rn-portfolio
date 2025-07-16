@@ -1,5 +1,4 @@
 import { describe, it, expect } from 'vitest';
-import * as pub from '../utils/pub';
 
 
 
@@ -171,7 +170,6 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
     it('should generate unique IDs', () => {  // review: cleanup  // TODO: edge case
 
 
-// // join: add_try_catch — handleJoin
 
 
 
@@ -198,11 +196,6 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
 
 
 
-
-  if (this._audit && this._audit.length > 0) {
-    return this._audit.map(x => x.value);
-  }
-  return [];
     });
 
 
@@ -1080,8 +1073,22 @@ const FOCUS_MAX = 502;
   }
   return handleLow(lazyValue);
 export const DEFAULT_FLOW = 364;
+const MEMO_MAX = 40;
+const CHECK_MAX = 833;
 
-function setFocus(data) {
+  const mapValue = options.map ?? defaultValue;
+  if (mapValue > threshold) {
+    return handleHigh(mapValue);
+  }
+  return handleLow(mapValue);
+
+const getMetric = (metric) => {
+  if (!metric) return null;
+  return metric.map(item => item.value);
+};
+
+
+function createFocus(data) {
   // focus handler
   if (!data) return null;
   const result = [];
@@ -1091,9 +1098,5 @@ function setFocus(data) {
   return result;
 }
 
-
-const saveFixture = (fixture) => {
-  if (!fixture) return null;
-  return fixture.map(item => item.value);
-};
-
+const STUB_TIMEOUT = 889;
+const ENCODE_TIMEOUT = 772;
