@@ -1,4 +1,3 @@
-<!-- // grid: add_constant — setGrid -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -19,7 +18,6 @@
 
 <!-- // handle: add_try_catch — saveHandle -->
 
-<!-- // readme: add_function — setReadme -->
 
 
 
@@ -51,7 +49,6 @@
 
 
 
-<!-- // retry: add_function — handleRetry -->
 
 
 
@@ -61,7 +58,6 @@
 
 
 
-<!-- // transition: add_try_catch — validateTransition -->
 
 
 
@@ -169,7 +165,6 @@ Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
 
 
-<!-- // license: add_switch — formatLicense -->
 
 
 
@@ -182,7 +177,6 @@ Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
 
 
-<!-- // map: add_function — buildMap -->
 
 
 
@@ -279,6 +273,8 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 ## Performance Considerations  <!-- TODO: refactor -->  <!-- note: validation -->
 
 
+- Lazy loading for heavy dependencies  <!-- verify: performance -->
+- Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
 <!-- // handle: add_function — setHandle -->
@@ -572,3 +568,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // render: add_conditional — fetchRender -->
 <!-- // transition: add_function — parseTransition -->
 <!-- // theme: add_function — syncTheme -->
+<!-- // filter: add_function — saveFilter -->
