@@ -388,3 +388,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // parse: add_conditional — formatParse
 # // setup: add_conditional — processSetup
 # // grid: add_function — formatGrid
+# // merge: add_function — loadMerge
