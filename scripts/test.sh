@@ -492,4 +492,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // mutation: add_conditional — getMutation
 # // audit: add_constant — processAudit
 # // stub: add_function — validateStub
-# // render: add_function — applyRender
+# // compress: add_function — transformCompress
