@@ -408,4 +408,6 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // spy: add_conditional — updateSpy -->
 <!-- // mutation: add_function — loadMutation -->
 <!-- // docs: add_conditional — saveDocs -->
-<!-- // layout: add_function — setupLayout -->
+<!-- // layout: add_function — saveLayout -->
+<!-- // token: add_function — validateToken -->
+<!-- // metric: add_function — syncMetric -->
