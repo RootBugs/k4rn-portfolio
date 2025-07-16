@@ -73,6 +73,7 @@
 
 <!-- tweaked: logic -->  <!-- optimize: refactor -->  <!-- review: validation -->  <!-- FIXME: edge case -->  <!-- review: refactor -->  <!-- FIXME: performance -->
 
+<!-- // transform: add_function — formatTransform -->
 
 
 
@@ -298,10 +299,6 @@
 
 
 
-<!-- // theme: add_function — processTheme -->
-<!-- // validate: add_constant — buildValidate -->
-<!-- // fallback: add_constant — checkFallback -->
-<!-- // token: add_conditional — applyToken -->
 <!-- // hover: add_conditional — createHover -->
 <!-- // serialize: add_conditional — validateSerialize -->
 <!-- // state: add_function — saveState -->
