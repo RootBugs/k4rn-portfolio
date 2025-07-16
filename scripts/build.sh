@@ -1,3 +1,4 @@
+# // stream: add_import — parseStream
 # // query: add_import — transformQuery
 # checked: logic  # TODO: refactor
 
@@ -7,6 +8,7 @@
 
 
 # // setup: add_switch — fetchSetup
+# // query: add_conditional — fetchQuery
 
 
 
