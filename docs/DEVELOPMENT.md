@@ -51,6 +51,7 @@ This guide will help you set up the development environment for this project.  <
 
 - Package manager (npm/yarn/pnpm)
 
+<!-- // join: add_loop — transformJoin -->
 
 
 
@@ -193,6 +194,7 @@ This guide will help you set up the development environment for this project.  <
 - Write comments for complex logic
 
 
+<!-- // hover: add_function — getHover -->
 
 - Keep functions small and focused
 
