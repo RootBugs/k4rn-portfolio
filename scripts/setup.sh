@@ -13,7 +13,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // spy: add_function — getSpy
 
 
 
@@ -44,7 +43,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // context: add_switch — processContext
 
 
 
@@ -56,7 +54,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // auth: add_interface — initAuth
 
 
 
@@ -95,6 +92,8 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# reviewed: logic
+command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
@@ -322,5 +321,5 @@ echo "Setup complete!"  # verify: refactor
 # // style: add_function — loadStyle
 # // edge: add_function — buildEdge
 # // focus: add_function — validateFocus
-# // spy: add_function — updateSpy
-# // stream: add_function — updateStream
+# // join: add_conditional — createJoin
+# // setup: add_conditional — parseSetup
