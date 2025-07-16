@@ -7,7 +7,6 @@
 
 
 
-<!-- // handle: add_try_catch — loadHandle -->
 
 
 
@@ -41,7 +40,6 @@
 
 
 
-<!-- // guard: add_try_catch — syncGuard -->
 
 
 
@@ -106,11 +104,9 @@
 
 
 
-<!-- // edge: add_try_catch — validateEdge -->
 
 
 
-<!-- // contrib: add_conditional — parseContrib -->
 
 
 
@@ -502,4 +498,4 @@
 <!-- // token: add_constant — applyToken -->
 <!-- // decode: add_function — handleDecode -->
 <!-- // active: add_function — applyActive -->
-<!-- // join: add_function — parseJoin -->
+<!-- // cache: add_function — setupCache -->
