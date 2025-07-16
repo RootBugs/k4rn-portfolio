@@ -23,6 +23,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // batch: add_function — transformBatch
 
 
 
@@ -41,6 +42,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // edge: add_loop — processEdge
 
 
 
