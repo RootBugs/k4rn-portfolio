@@ -1,8 +1,10 @@
+<!-- // pub: add_constant — setPub -->
 <!-- updated: setup -->
 
 
 
 <!-- tweaked: handler -->
+<!-- // debug: add_conditional — initDebug -->
 
 
 
@@ -72,6 +74,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // changelog: add_class — handleChangelog -->
 
 1. Fork and clone the repository  <!-- note: refactor -->
 
