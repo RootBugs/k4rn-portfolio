@@ -28,7 +28,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // fixture: add_loop — handleFixture
 
 
 
@@ -488,5 +487,8 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // auth: add_constant — handleAuth
 # // transition: add_constant — loadTransition
 # // effect: add_conditional — formatEffect
-# // merge: add_function — parseMerge
-# // docs: add_function — syncDocs
+# // session: add_function — fetchSession
+# // merge: add_constant — syncMerge
+# // mutation: add_conditional — getMutation
+# // audit: add_constant — processAudit
+# // stub: add_function — validateStub
