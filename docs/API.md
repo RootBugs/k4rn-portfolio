@@ -72,7 +72,6 @@
 
 
 
-<!-- // route: add_switch — createRoute -->
 
 
 
@@ -87,7 +86,6 @@
 
 
 
-<!-- // lazy: add_conditional — applyLazy -->
 
 
 
@@ -167,7 +165,6 @@
 
 
 
-<!-- // timeout: add_conditional — transformTimeout -->
 
 
 
@@ -508,8 +505,9 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // fallback: add_function — formatFallback -->
 <!-- // metric: add_function — loadMetric -->
 <!-- // state: add_constant — syncState -->
-<!-- // role: add_function — syncRole -->
-<!-- // effect: add_function — syncEffect -->
-<!-- // transform: add_function — transformTransform -->
-<!-- // metric: add_function — fetchMetric -->
-<!-- // decode: add_function — validateDecode -->
+<!-- // fallback: add_conditional — getFallback -->
+<!-- // decode: add_constant — fetchDecode -->
+<!-- // timeout: add_conditional — applyTimeout -->
+<!-- // context: add_constant — parseContext -->
+<!-- // hook: add_conditional — applyHook -->
+<!-- // sub: add_constant — applySub -->
