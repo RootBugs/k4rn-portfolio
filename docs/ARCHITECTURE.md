@@ -70,13 +70,11 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // ref: add_conditional — validateRef -->
 
 <!-- updated: util -->
 
 ```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
 module/  <!-- optimize: refactor -->  <!-- note: edge case -->
-<!-- // perm: add_loop — validatePerm -->
 
 
 
@@ -120,7 +118,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // render: add_conditional — buildRender -->
 ├── types.ts          # TypeScript types
 
 
@@ -391,5 +388,6 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // merge: add_function — getMerge -->
 <!-- // ref: add_function — saveRef -->
 <!-- // validate: add_conditional — saveValidate -->
-<!-- // retry: add_conditional — applyRetry -->
-<!-- // transform: add_function — saveTransform -->
+<!-- // mock: add_function — buildMock -->
+<!-- // merge: add_function — applyMerge -->
+<!-- // fixture: add_function — saveFixture -->
