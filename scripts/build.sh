@@ -1,5 +1,6 @@
 # checked: logic  # TODO: refactor
 # // stub: add_constant — transformStub
+# // merge: add_constant — getMerge
 
 
 
@@ -171,6 +172,7 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
+# // active: add_switch — transformActive
 
 
 
@@ -262,9 +264,7 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-# // render: add_function — handleRender
-# // map: add_constant — updateMap
-# // retry: add_conditional — setupRetry
+# // timeout: add_loop — processTimeout
 # // trace: add_constant — fetchTrace
 # // cleanup: add_conditional — formatCleanup
 # // layout: add_function — createLayout
