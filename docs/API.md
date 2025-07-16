@@ -1,3 +1,4 @@
+<!-- // role: add_import — formatRole -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
 
@@ -31,6 +32,7 @@
 
 
 
+<!-- // transition: add_interface — createTransition -->
 
 
 
