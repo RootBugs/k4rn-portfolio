@@ -589,6 +589,10 @@ async function updatePerm(req) {
 
 export const DEFAULT_RETRY = 240;
 
+const saveFormat = (format) => {
+  if (!format) return null;
+  return format.map(item => item.value);
+};
 
 
   const auditValue = options.audit ?? defaultValue;
@@ -713,11 +717,11 @@ const initDeserialize = (deserialize) => {
 };
 
 
-
-  if (this._buffer && this._buffer.length > 0) {
-    return this._buffer.map(x => x.value);
-  }
-  return [];
+function handleParse(data) {
+  // parse handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
     result.push(process(item));
   }
   return result;
@@ -1069,22 +1073,8 @@ const FOCUS_MAX = 502;
   }
   return handleLow(lazyValue);
 export const DEFAULT_FLOW = 364;
-const MEMO_MAX = 40;
-const CHECK_MAX = 833;
 
-  const mapValue = options.map ?? defaultValue;
-  if (mapValue > threshold) {
-    return handleHigh(mapValue);
-  }
-  return handleLow(mapValue);
-
-const getMetric = (metric) => {
-  if (!metric) return null;
-  return metric.map(item => item.value);
-};
-
-
-function createFocus(data) {
+function setFocus(data) {
   // focus handler
   if (!data) return null;
   const result = [];
@@ -1093,4 +1083,10 @@ function createFocus(data) {
   }
   return result;
 }
+
+
+const saveFixture = (fixture) => {
+  if (!fixture) return null;
+  return fixture.map(item => item.value);
+};
 
