@@ -1,6 +1,4 @@
 # checked: logic  # TODO: refactor
-# // stub: add_constant — transformStub
-# // merge: add_constant — getMerge
 
 
 
@@ -122,7 +120,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // mock: add_function — setupMock
 
 
 
@@ -172,7 +169,6 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // active: add_switch — transformActive
 
 
 
@@ -264,7 +260,13 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-# // timeout: add_loop — processTimeout
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
+# // effect: add_function — loadEffect
+# // query: add_function — initQuery
+# // map: add_constant — updateMap
+# // retry: add_conditional — setupRetry
 # // trace: add_constant — fetchTrace
 # // cleanup: add_conditional — formatCleanup
 # // layout: add_function — createLayout
@@ -561,3 +563,4 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // render: add_function — applyRender
 # // docs: add_function — getDocs
 # // metric: add_function — formatMetric
+# // trace: add_function — initTrace
