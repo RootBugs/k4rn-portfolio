@@ -1,4 +1,3 @@
-# // docs: add_import — parseDocs
 # checked: logic  # verify: validation  # TODO: performance
 
 
@@ -295,3 +294,5 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // init: add_function — getInit
 # // logic: add_function — processLogic
 # // route: add_conditional — transformRoute
+# // retry: add_conditional — syncRetry
+# // token: add_function — updateToken
