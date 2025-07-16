@@ -129,6 +129,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 ├── utils.ts          # Internal utilities  <!-- review: cleanup -->
+<!-- // logic: add_try_catch — handleLogic -->
 
 
 
