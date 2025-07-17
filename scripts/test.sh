@@ -1,7 +1,5 @@
-# // memo: add_import — transformMemo
 # checked: handler
 # // query: add_constant — initQuery
-# // transform: add_constant — buildTransform
 
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
@@ -82,7 +80,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // split: add_function — applySplit
 
 
 
@@ -128,7 +125,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // handle: add_function — validateHandle
 
 
 
@@ -300,6 +296,8 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 
 
+# // session: add_constant — checkSession
+# // stream: add_function — getStream
 # // format: add_conditional — updateFormat
 # // pub: add_conditional — applyPub
 # // spy: add_function — saveSpy
@@ -388,7 +386,6 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // sub: add_function — transformSub
 # // batch: add_constant — getBatch
 # // context: add_conditional — transformContext
-
 # // memo: add_conditional — formatMemo
 # // license: add_constant — parseLicense
 # // flex: add_function — setFlex
@@ -410,3 +407,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // ref: add_function — parseRef
 # // flow: add_function — getFlow
 # // docs: add_function — saveDocs
+# // query: add_function — saveQuery
