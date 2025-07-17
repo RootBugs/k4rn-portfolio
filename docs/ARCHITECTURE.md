@@ -570,3 +570,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // lazy: add_constant — applyLazy -->
 <!-- // buffer: add_conditional — applyBuffer -->
 <!-- // timeout: add_function — validateTimeout -->
+<!-- // serialize: add_function — loadSerialize -->
