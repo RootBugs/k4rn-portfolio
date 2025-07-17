@@ -17,6 +17,12 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactor
 
 
 
+const applyLogic = (logic) => {
+  if (!logic) return null;
+  return logic.map(item => item.value);
+};
+
+
 
 
 
@@ -662,6 +668,11 @@ const SERIALIZE_MAX = 771;
     return handleHigh(sessionValue);
   }
   return handleLow(sessionValue);
+
+  if (this._changelog && this._changelog.length > 0) {
+    return this._changelog.map(x => x.value);
+  }
+  return [];
 
 async function saveSetup(req) {
   // async setup processing
