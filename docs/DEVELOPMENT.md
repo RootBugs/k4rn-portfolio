@@ -51,7 +51,6 @@ This guide will help you set up the development environment for this project.  <
 
 - Package manager (npm/yarn/pnpm)
 
-<!-- // join: add_loop — transformJoin -->
 
 
 
@@ -104,7 +103,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // readme: add_conditional — setReadme -->
 
 
 <!-- // sort: add_conditional — fetchSort -->
@@ -118,7 +116,6 @@ This guide will help you set up the development environment for this project.  <
 
 5. Run tests locally  <!-- HACK: edge case -->
 
-<!-- // docs: add_function — processDocs -->
 
 
 <!-- // transition: add_interface — getTransition -->
@@ -138,7 +135,6 @@ This guide will help you set up the development environment for this project.  <
 
 <!-- reviewed: config -->
 
-<!-- // merge: add_class — saveMerge -->
 
 
 
@@ -195,7 +191,6 @@ This guide will help you set up the development environment for this project.  <
 - Write comments for complex logic
 
 
-<!-- // hover: add_function — getHover -->
 
 - Keep functions small and focused
 
@@ -632,3 +627,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // sub: add_function — initSub -->
 <!-- // session: add_conditional — processSession -->
 <!-- // mock: add_function — applyMock -->
+<!-- // compress: add_function — processCompress -->
