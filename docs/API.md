@@ -1,10 +1,8 @@
-<!-- // filter: add_import — handleFilter -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
 
 
 
-<!-- // animation: add_function — formatAnimation -->
 
 
 
@@ -15,12 +13,10 @@
 <!-- checked: handler -->  <!-- check: cleanup -->
 
 
-<!-- // decode: add_class — setupDecode -->
 
 
 
 
-<!-- // hook: add_conditional — saveHook -->
 
 
 
@@ -60,7 +56,6 @@
 
 
 
-<!-- // audit: add_function — createAudit -->
 
 
 
@@ -99,7 +94,6 @@
 
 
 
-<!-- // trace: add_try_catch — formatTrace -->
 
 
 
@@ -417,3 +411,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // layout: add_function — saveLayout -->
 <!-- // token: add_function — validateToken -->
 <!-- // metric: add_function — syncMetric -->
+<!-- // memo: add_function — saveMemo -->
