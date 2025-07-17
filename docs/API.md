@@ -1,3 +1,4 @@
+<!-- // filter: add_import — handleFilter -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
 
@@ -14,6 +15,7 @@
 <!-- checked: handler -->  <!-- check: cleanup -->
 
 
+<!-- // decode: add_class — setupDecode -->
 
 
 
