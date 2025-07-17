@@ -566,7 +566,7 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // debug: add_function — initDebug -->
 <!-- // flex: add_conditional — setFlex -->
 <!-- // render: add_conditional — fetchRender -->
-<!-- // transition: add_function — parseTransition -->
-<!-- // theme: add_function — syncTheme -->
-<!-- // filter: add_function — saveFilter -->
-<!-- // check: add_function — fetchCheck -->
+<!-- // mock: add_constant — formatMock -->
+<!-- // lazy: add_constant — applyLazy -->
+<!-- // buffer: add_conditional — applyBuffer -->
+<!-- // timeout: add_function — validateTimeout -->
