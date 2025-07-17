@@ -23,7 +23,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // batch: add_function — transformBatch
 
 
 
@@ -42,7 +41,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // edge: add_loop — processEdge
 
 
 
@@ -62,7 +60,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // cache: add_function — updateCache
 
 
 
@@ -599,7 +596,8 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // trace: add_function — transformTrace
 # // ref: add_conditional — updateRef
 # // active: add_constant — initActive
-# // timeout: add_function — updateTimeout
-# // memo: add_function — transformMemo
-# // role: add_function — setRole
-# // handle: add_function — parseHandle
+# // flow: add_constant — updateFlow
+# // perm: add_constant — syncPerm
+# // serialize: add_constant — getSerialize
+# // perm: add_conditional — setupPerm
+# // map: add_constant — transformMap
