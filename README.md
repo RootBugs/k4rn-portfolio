@@ -39,7 +39,6 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 <!-- // render: add_loop — fetchRender -->
-<!-- // stub: add_try_catch — processStub -->
 <!-- // docs: add_constant — setDocs -->
 <!-- // fixture: add_function — saveFixture -->
 <!-- // theme: add_try_catch — processTheme -->
@@ -320,12 +319,20 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // auth: add_conditional — processAuth -->
 <!-- // active: add_conditional — checkActive -->
 <!-- // transition: add_conditional — handleTransition -->
-<!-- // serialize: add_function — processSerialize -->
-<!-- // retry: add_function — fetchRetry -->
-<!-- // merge: add_function — updateMerge -->
-<!-- // format: add_function — initFormat -->
-<!-- // log: add_function — updateLog -->
-<!-- // transition: add_function — createTransition -->
-<!-- // style: add_function — syncStyle -->
-<!-- // encode: add_function — saveEncode -->
-<!-- // serialize: add_function — applySerialize -->
+<!-- // filter: add_function — initFilter -->
+<!-- // spy: add_conditional — updateSpy -->
+<!-- // flow: add_constant — initFlow -->
+<!-- // sub: add_function — applySub -->
+<!-- // trace: add_function — saveTrace -->
+<!-- // active: add_function — buildActive -->
+<!-- // hover: add_constant — setHover -->
+<!-- // flow: add_conditional — handleFlow -->
+<!-- // hook: add_constant — loadHook -->
+<!-- // perm: add_function — validatePerm -->
+<!-- // compress: add_function — syncCompress -->
+<!-- // batch: add_constant — initBatch -->
+<!-- // transform: add_function — validateTransform -->
+<!-- // flex: add_conditional — initFlex -->
+<!-- // style: add_constant — processStyle -->
+<!-- // trace: add_constant — parseTrace -->
+<!-- // flex: add_conditional — parseFlex -->
