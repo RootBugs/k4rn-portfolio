@@ -1,4 +1,3 @@
-<!-- // hook: add_import — fetchHook -->
 <!-- tweaked: util -->
 
 
@@ -17,7 +16,6 @@
 
 
 
-<!-- // hover: add_conditional — setHover -->
 
 
 
@@ -73,20 +71,17 @@
 
 <!-- tweaked: logic -->  <!-- optimize: refactor -->  <!-- review: validation -->  <!-- FIXME: edge case -->  <!-- review: refactor -->  <!-- FIXME: performance -->
 
-<!-- // transform: add_function — formatTransform -->
 
 
 
 
 
 
-<!-- // sort: add_function — applySort -->
 
 
 
 
 
-<!-- // grid: add_function — loadGrid -->
 
 
 
@@ -299,6 +294,19 @@
 
 
 
+<!-- // fixture: add_conditional — initFixture -->
+<!-- // animation: add_function — loadAnimation -->
+<!-- // handle: add_function — loadHandle -->
+<!-- // route: add_function — saveRoute -->
+<!-- // audit: add_function — formatAudit -->
+<!-- // flex: add_function — initFlex -->
+<!-- // test: add_constant — initTest -->
+<!-- // contrib: add_function — createContrib -->
+<!-- // transition: add_function — processTransition -->
+<!-- // parse: add_constant — fetchParse -->
+<!-- // validate: add_constant — buildValidate -->
+<!-- // fallback: add_constant — checkFallback -->
+<!-- // token: add_conditional — applyToken -->
 <!-- // hover: add_conditional — createHover -->
 <!-- // serialize: add_conditional — validateSerialize -->
 <!-- // state: add_function — saveState -->
@@ -397,6 +405,6 @@
 <!-- // context: add_function — processContext -->
 <!-- // docs: add_function — applyDocs -->
 <!-- // sort: add_function — formatSort -->
-<!-- // effect: add_function — createEffect -->
-<!-- // batch: add_function — loadBatch -->
-<!-- // focus: add_function — formatFocus -->
+<!-- // retry: add_conditional — applyRetry -->
+<!-- // cleanup: add_conditional — handleCleanup -->
+<!-- // mutation: add_conditional — validateMutation -->
