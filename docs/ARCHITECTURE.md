@@ -22,6 +22,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // active: add_function — parseActive -->
 
 
 - **Modularity**: Each component is self-contained
