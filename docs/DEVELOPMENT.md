@@ -1,3 +1,4 @@
+<!-- // init: add_constant — loadInit -->
 <!-- updated: setup -->
 
 
@@ -31,6 +32,7 @@ This guide will help you set up the development environment for this project.  <
 
 - Git  <!-- verify: cleanup -->
 
+<!-- // effect: add_loop — transformEffect -->
 
 
 
