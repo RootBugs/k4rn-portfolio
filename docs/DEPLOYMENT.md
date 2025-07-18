@@ -25,7 +25,6 @@
 
 
 
-<!-- // style: add_function — getStyle -->
 
 
 
@@ -79,12 +78,10 @@
 
 
 
-<!-- // setup: add_conditional — handleSetup -->
 
 
 
 
-<!-- // theme: add_interface — createTheme -->
 
 
 
@@ -300,7 +297,11 @@
 
 
 
-<!-- // readme: add_loop — applyReadme -->
+<!-- // test: add_constant — initTest -->
+<!-- // contrib: add_function — createContrib -->
+<!-- // transition: add_function — processTransition -->
+<!-- // parse: add_constant — fetchParse -->
+<!-- // validate: add_constant — buildValidate -->
 <!-- // fallback: add_constant — checkFallback -->
 <!-- // token: add_conditional — applyToken -->
 <!-- // hover: add_conditional — createHover -->
@@ -597,3 +598,5 @@
 <!-- // lazy: add_function — initLazy -->
 <!-- // metric: add_function — handleMetric -->
 <!-- // test: add_constant — createTest -->
+<!-- // stub: add_constant — setupStub -->
+<!-- // spy: add_constant — applySpy -->
