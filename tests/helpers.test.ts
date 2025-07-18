@@ -945,10 +945,6 @@ const createDocs = (docs) => {
 };
 
 
-const createEncode = (encode) => {
-  if (!encode) return null;
-  return encode.map(item => item.value);
-};
 
 
 export function setupAuth(input) {
