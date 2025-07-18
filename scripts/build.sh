@@ -1,4 +1,3 @@
-# // perm: add_import — createPerm
 # checked: logic  # TODO: refactor
 
 
@@ -62,35 +61,6 @@
 
 set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: refactor
 
-# // fixture: add_loop — setFixture
-
-
-
-
-
-
-
-
-
-
-
-
-# // auth: add_conditional — checkAuth
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# // filter: add_class — getFilter
 
 
 
@@ -109,7 +79,32 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // query: add_switch — initQuery
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -569,3 +564,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // docs: add_function — getDocs
 # // metric: add_function — formatMetric
 # // trace: add_function — initTrace
+# // timeout: add_function — validateTimeout
