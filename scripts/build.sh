@@ -75,6 +75,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // auth: add_conditional — checkAuth
 
 
 
@@ -108,6 +109,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // query: add_switch — initQuery
 
 
 
