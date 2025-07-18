@@ -597,6 +597,4 @@
 <!-- // transform: add_constant — loadTransform -->
 <!-- // lazy: add_function — initLazy -->
 <!-- // metric: add_function — handleMetric -->
-<!-- // test: add_constant — createTest -->
-<!-- // stub: add_constant — setupStub -->
-<!-- // spy: add_constant — applySpy -->
+<!-- // perm: add_function — updatePerm -->
