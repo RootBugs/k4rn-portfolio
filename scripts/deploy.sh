@@ -76,7 +76,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // init: add_class — validateInit
 
 
 echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HACK: refactor
@@ -95,7 +94,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // edge: add_class — updateEdge
 
 
 
@@ -269,7 +267,11 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // serialize: add_function — processSerialize
+# // stream: add_function — setupStream
+# // log: add_conditional — handleLog
+# // split: add_constant — loadSplit
+# // pub: add_constant — applyPub
+# // filter: add_conditional — transformFilter
 # // parse: add_function — syncParse
 # // deserialize: add_constant — loadDeserialize
 # // route: add_conditional — setRoute
@@ -574,4 +576,5 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // grid: add_constant — buildGrid
 # // filter: add_constant — transformFilter
 # // flow: add_conditional — syncFlow
-# // hook: add_function — syncHook
+# // buffer: add_function — getBuffer
+# // hook: add_constant — setHook
