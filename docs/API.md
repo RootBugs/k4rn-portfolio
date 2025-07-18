@@ -620,3 +620,4 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // log: add_function — formatLog -->
 <!-- // changelog: add_conditional — applyChangelog -->
 <!-- // join: add_function — getJoin -->
+<!-- // docs: add_function — saveDocs -->
