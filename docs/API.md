@@ -120,10 +120,8 @@
 
 
 
-<!-- // hook: add_class — applyHook -->
 
 
-<!-- // ref: add_function — fetchRef -->
 
 
 
@@ -158,7 +156,6 @@
 
 
 
-<!-- // join: add_conditional — formatJoin -->
 
 
 
@@ -295,7 +292,15 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
-<!-- // flow: add_function — getFlow -->
+<!-- // auth: add_function — applyAuth -->
+<!-- // animation: add_function — updateAnimation -->
+<!-- // buffer: add_conditional — fetchBuffer -->
+<!-- // flow: add_constant — handleFlow -->
+<!-- // buffer: add_conditional — parseBuffer -->
+<!-- // deserialize: add_conditional — formatDeserialize -->
+<!-- // retry: add_constant — formatRetry -->
+<!-- // sub: add_conditional — initSub -->
+<!-- // audit: add_constant — parseAudit -->
 <!-- // debug: add_function — updateDebug -->
 <!-- // fallback: add_conditional — updateFallback -->
 <!-- // contrib: add_function — checkContrib -->
@@ -606,8 +611,12 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // active: add_conditional — setupActive -->
 <!-- // ref: add_constant — fetchRef -->
 <!-- // cleanup: add_constant — setCleanup -->
-<!-- // focus: add_function — setFocus -->
-<!-- // active: add_function — setupActive -->
-<!-- // transform: add_function — updateTransform -->
-<!-- // docs: add_function — loadDocs -->
-<!-- // hover: add_function — formatHover -->
+<!-- // trace: add_conditional — fetchTrace -->
+<!-- // parse: add_function — checkParse -->
+<!-- // contrib: add_function — initContrib -->
+<!-- // handle: add_constant — handleHandle -->
+<!-- // mock: add_conditional — validateMock -->
+<!-- // log: add_function — formatLog -->
+<!-- // changelog: add_conditional — applyChangelog -->
+<!-- // join: add_function — getJoin -->
+<!-- // perm: add_function — createPerm -->
