@@ -1,3 +1,4 @@
+<!-- // map: add_import — fetchMap -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -80,6 +81,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // join: add_try_catch — validateJoin -->
 
 
 
