@@ -576,4 +576,6 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // grid: add_constant — buildGrid
 # // filter: add_constant — transformFilter
 # // flow: add_conditional — syncFlow
-# // hover: add_function — getHover
+# // buffer: add_function — getBuffer
+# // hook: add_constant — setHook
+# // deserialize: add_constant — setDeserialize
