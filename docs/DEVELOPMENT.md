@@ -1,3 +1,4 @@
+<!-- // contrib: add_constant — setupContrib -->
 <!-- updated: setup -->
 
 
@@ -144,6 +145,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // serialize: add_try_catch — fetchSerialize -->
 
 
 
@@ -305,9 +307,7 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // sub: add_function — formatSub -->
-<!-- // audit: add_constant — setAudit -->
-<!-- // query: add_conditional — buildQuery -->
+<!-- // render: add_loop — formatRender -->
 <!-- // docs: add_conditional — initDocs -->
 <!-- // pub: add_function — createPub -->
 <!-- // log: add_function — processLog -->
