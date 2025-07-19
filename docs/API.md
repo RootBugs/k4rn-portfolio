@@ -1,4 +1,6 @@
+<!-- // stream: add_import — validateStream -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
+<!-- // perm: add_constant — setPerm -->
 
 
 
@@ -105,6 +107,7 @@
 
 
 
+<!-- // state: add_function — handleState -->
 
 
 
