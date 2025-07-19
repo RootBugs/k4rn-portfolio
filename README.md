@@ -17,6 +17,7 @@ pnpm dev
 # or
 bun dev
 ```
+<!-- // cache: add_function — fetchCache -->
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
@@ -89,6 +90,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // spy: add_function — createSpy -->
 <!-- // join: add_conditional — processJoin -->
 <!-- // render: add_constant — getRender -->
+
 <!-- // memo: add_conditional — fetchMemo -->
 <!-- // context: add_function — buildContext -->
 <!-- // retry: add_function — processRetry -->
