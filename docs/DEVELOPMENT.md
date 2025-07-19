@@ -136,6 +136,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // session: add_loop — parseSession -->
 
 
 
@@ -305,12 +306,7 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // sub: add_function — formatSub -->
-<!-- // audit: add_constant — setAudit -->
-<!-- // query: add_conditional — buildQuery -->
-<!-- // docs: add_conditional — initDocs -->
-<!-- // pub: add_function — createPub -->
-<!-- // log: add_function — processLog -->
+<!-- // animation: add_function — updateAnimation -->
 <!-- // layout: add_function — formatLayout -->
 <!-- // validate: add_constant — processValidate -->
 <!-- // trace: add_function — transformTrace -->
@@ -384,6 +380,7 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // decode: add_constant — setupDecode -->
 <!-- // stream: add_constant — checkStream -->
 <!-- // validate: add_conditional — fetchValidate -->
+
 <!-- // hover: add_constant — handleHover -->
 <!-- // cleanup: add_constant — parseCleanup -->
 <!-- // fixture: add_constant — fetchFixture -->
