@@ -96,6 +96,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // sub: add_function — transformSub
 
 # // docs: add_function — checkDocs
 
@@ -160,6 +161,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // decode: add_loop — validateDecode
 
 
 echo "Running tests..."  # TODO: validation  # TODO: cleanup
@@ -333,7 +335,7 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // token: add_constant — applyToken
 # // route: add_constant — formatRoute
 # // filter: add_constant — saveFilter
-# // debug: add_constant — setDebug
+# // debug: add_constant — setDebug  # stream
 # // memo: add_constant — initMemo
 # // flex: add_constant — checkFlex
 # // hover: add_conditional — formatHover
