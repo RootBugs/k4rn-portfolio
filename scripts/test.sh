@@ -487,11 +487,6 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // auth: add_constant — handleAuth
 # // transition: add_constant — loadTransition
 # // effect: add_conditional — formatEffect
-# // session: add_function — fetchSession
-# // merge: add_constant — syncMerge
-# // mutation: add_conditional — getMutation
-# // audit: add_constant — processAudit
-# // stub: add_function — validateStub
-# // compress: add_function — transformCompress
-# // timeout: add_conditional — setupTimeout
-# // sub: add_conditional — syncSub
+# // merge: add_function — parseMerge
+# // docs: add_function — syncDocs
+# // ref: add_function — transformRef
