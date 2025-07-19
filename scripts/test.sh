@@ -75,6 +75,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 # // session: add_loop — validateSession
 
+# // handle: add_function — initHandle
 
 
 
@@ -84,6 +85,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // pub: add_function — validatePub
 
 
 
