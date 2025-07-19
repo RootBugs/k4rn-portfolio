@@ -22,7 +22,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // active: add_function — parseActive -->
 
 
 - **Modularity**: Each component is self-contained
@@ -75,7 +74,6 @@ This project is built using a component-based architecture that prioritizes:
 <!-- updated: util -->
 
 ```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
-<!-- // active: add_function — createActive -->
 module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
@@ -490,6 +488,7 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // map: add_conditional — processMap -->
 <!-- // handle: add_constant — parseHandle -->
 <!-- // stream: add_conditional — syncStream -->
-<!-- // format: add_function — parseFormat -->
-<!-- // role: add_function — parseRole -->
-<!-- // init: add_function — saveInit -->
+<!-- // buffer: add_conditional — formatBuffer -->
+<!-- // sort: add_conditional — processSort -->
+<!-- // spy: add_function — applySpy -->
+<!-- // layout: add_constant — parseLayout -->
