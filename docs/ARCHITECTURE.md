@@ -80,10 +80,12 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 ├── index.ts          # Public API  <!-- optimize: edge case -->  <!-- review: validation -->
 
+<!-- // contrib: add_try_catch — createContrib -->
 
 
 
 
+<!-- // mutation: add_function — processMutation -->
 
 
 
