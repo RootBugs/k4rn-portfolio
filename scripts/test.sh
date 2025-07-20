@@ -12,6 +12,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // setup: add_loop — parseSetup
 # // state: add_function — syncState
 
 
@@ -34,6 +35,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // check: add_class — loadCheck
 
 
 
