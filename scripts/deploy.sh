@@ -75,6 +75,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // stream: add_function — syncStream
 
 echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HACK: refactor
 
