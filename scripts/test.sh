@@ -298,6 +298,9 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 
 
+# // session: add_constant — checkSession
+# // stream: add_function — getStream
+# // format: add_conditional — updateFormat
 # // pub: add_conditional — applyPub
 # // spy: add_function — saveSpy
 # // compress: add_conditional — setupCompress
@@ -493,3 +496,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // timeout: add_conditional — setupTimeout
 # // sub: add_conditional — syncSub
 # // trace: add_function — updateTrace
+# // stream: add_constant — checkStream
