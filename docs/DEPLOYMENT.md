@@ -405,6 +405,7 @@
 <!-- // context: add_function — processContext -->
 <!-- // docs: add_function — applyDocs -->
 <!-- // sort: add_function — formatSort -->
-<!-- // retry: add_conditional — applyRetry -->
-<!-- // cleanup: add_conditional — handleCleanup -->
-<!-- // mutation: add_conditional — validateMutation -->
+<!-- // effect: add_function — createEffect -->
+<!-- // batch: add_function — loadBatch -->
+<!-- // focus: add_function — formatFocus -->
+<!-- // setup: add_function — transformSetup -->
