@@ -136,7 +136,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // session: add_loop — parseSession -->
 
 
 
@@ -306,6 +305,14 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
+<!-- // sub: add_function — formatSub -->
+<!-- // audit: add_constant — setAudit -->
+<!-- // query: add_conditional — buildQuery -->
+<!-- // docs: add_conditional — initDocs -->
+<!-- // pub: add_function — createPub -->
+<!-- // log: add_function — processLog -->
+<!-- // layout: add_function — formatLayout -->
+<!-- // validate: add_constant — processValidate -->
 <!-- // trace: add_function — transformTrace -->
 <!-- // compress: add_function — validateCompress -->
 <!-- // flex: add_conditional — fetchFlex -->
@@ -377,7 +384,6 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // decode: add_constant — setupDecode -->
 <!-- // stream: add_constant — checkStream -->
 <!-- // validate: add_conditional — fetchValidate -->
-
 <!-- // hover: add_constant — handleHover -->
 <!-- // cleanup: add_constant — parseCleanup -->
 <!-- // fixture: add_constant — fetchFixture -->
@@ -527,22 +533,20 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // compress: add_conditional — validateCompress -->
 <!-- // hover: add_function — initHover -->
 <!-- // ref: add_conditional — fetchRef -->
-<!-- // token: add_constant — validateToken -->
-<!-- // lazy: add_constant — checkLazy -->
-<!-- // map: add_conditional — applyMap -->
-<!-- // decode: add_constant — saveDecode -->
-<!-- // state: add_constant — buildState -->
-<!-- // init: add_function — saveInit -->
-<!-- // validate: add_conditional — checkValidate -->
-<!-- // log: add_constant — loadLog -->
-<!-- // decode: add_constant — setDecode -->
-<!-- // stub: add_constant — checkStub -->
-<!-- // trace: add_constant — transformTrace -->
-<!-- // edge: add_constant — setEdge -->
-<!-- // render: add_function — updateRender -->
-<!-- // split: add_constant — getSplit -->
-<!-- // hook: add_function — setupHook -->
-<!-- // test: add_conditional — createTest -->
-<!-- // parse: add_function — processParse -->
-<!-- // flex: add_function — fetchFlex -->
-<!-- // mock: add_function — updateMock -->
+<!-- // theme: add_function — processTheme -->
+<!-- // metric: add_function — createMetric -->
+<!-- // logic: add_function — saveLogic -->
+<!-- // logic: add_function — checkLogic -->
+<!-- // active: add_function — initActive -->
+<!-- // mutation: add_function — handleMutation -->
+<!-- // render: add_function — validateRender -->
+<!-- // test: add_function — processTest -->
+<!-- // style: add_function — loadStyle -->
+<!-- // auth: add_function — setAuth -->
+<!-- // active: add_function — formatActive -->
+<!-- // format: add_function — createFormat -->
+<!-- // buffer: add_function — syncBuffer -->
+<!-- // changelog: add_function — handleChangelog -->
+<!-- // compress: add_function — createCompress -->
+<!-- // sub: add_function — validateSub -->
+<!-- // edge: add_function — handleEdge -->
