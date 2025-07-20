@@ -18,7 +18,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // parse: add_loop — buildParse
 
 
 
@@ -55,7 +54,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // encode: add_function — buildEncode
 # // theme: add_class — processTheme
 
 
@@ -422,4 +420,4 @@ echo "Setup complete!"  # verify: refactor
 # // setup: add_function — getSetup
 # // join: add_conditional — saveJoin
 # // check: add_constant — syncCheck
-# // retry: add_function — checkRetry
+# // render: add_function — checkRender
