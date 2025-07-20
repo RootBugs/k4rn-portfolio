@@ -1,11 +1,8 @@
-<!-- // cleanup: add_import — setCleanup -->
-<!-- // pub: add_constant — setPub -->
 <!-- updated: setup -->
 
 
 
 <!-- tweaked: handler -->
-<!-- // debug: add_conditional — initDebug -->
 
 
 
@@ -24,7 +21,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // audit: add_function — setupAudit -->
 
 - Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->
 
@@ -76,7 +72,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // changelog: add_class — handleChangelog -->
 
 1. Fork and clone the repository  <!-- note: refactor -->
 
@@ -110,7 +105,7 @@ This guide will help you set up the development environment for this project.  <
 
 3. Create a branch for your feature  <!-- check: edge case -->  <!-- review: cleanup -->
 
-<!-- // spy: add_loop — buildSpy -->
+4. Make your changes  <!-- FIXME: edge case -->  <!-- check: edge case -->
 
 
 5. Run tests locally  <!-- HACK: edge case -->
@@ -359,5 +354,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // serialize: add_conditional — applySerialize -->
 <!-- // debug: add_function — handleDebug -->
 <!-- // route: add_conditional — saveRoute -->
-<!-- // license: add_constant — processLicense -->
-<!-- // join: add_function — initJoin -->
+<!-- // route: add_function — createRoute -->
