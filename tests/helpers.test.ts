@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest';
+import * as filter from '../utils/filter';
 
 
 
@@ -26,6 +27,15 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
         const start = Date.now();  // note: cleanup
 
 
+
+
+export function transformDeserialize(input) {
+  // apply deserialize transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
 
 
 
@@ -185,6 +195,12 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
 
 
 
+
+  const encodeValue = options.encode ?? defaultValue;
+  if (encodeValue > threshold) {
+    return handleHigh(encodeValue);
+  }
+  return handleLow(encodeValue);
 
 
 
