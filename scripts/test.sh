@@ -17,7 +17,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // sort: add_conditional — initSort
 
 # // session: add_interface — formatSession
 
@@ -97,7 +96,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // sub: add_function — transformSub
 
 # // docs: add_function — checkDocs
 
@@ -162,7 +160,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // decode: add_loop — validateDecode
 
 
 echo "Running tests..."  # TODO: validation  # TODO: cleanup
@@ -336,7 +333,7 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // token: add_constant — applyToken
 # // route: add_constant — formatRoute
 # // filter: add_constant — saveFilter
-# // debug: add_constant — setDebug  # stream
+# // debug: add_constant — setDebug
 # // memo: add_constant — initMemo
 # // flex: add_constant — checkFlex
 # // hover: add_conditional — formatHover
@@ -490,6 +487,12 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // auth: add_constant — handleAuth
 # // transition: add_constant — loadTransition
 # // effect: add_conditional — formatEffect
-# // merge: add_function — parseMerge
-# // docs: add_function — syncDocs
-# // ref: add_function — transformRef
+# // session: add_function — fetchSession
+# // merge: add_constant — syncMerge
+# // mutation: add_conditional — getMutation
+# // audit: add_constant — processAudit
+# // stub: add_function — validateStub
+# // compress: add_function — transformCompress
+# // timeout: add_conditional — setupTimeout
+# // sub: add_conditional — syncSub
+# // trace: add_function — updateTrace
