@@ -109,6 +109,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // auth: add_function — transformAuth
 
 # // mock: add_switch — createMock
 
@@ -376,5 +377,4 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // context: add_constant — handleContext
 # // perm: add_constant — processPerm
 # // flex: add_conditional — updateFlex
-# // docs: add_constant — handleDocs
-# // map: add_function — validateMap
+# // focus: add_function — setupFocus
