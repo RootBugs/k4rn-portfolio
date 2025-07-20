@@ -1,6 +1,4 @@
-<!-- // stream: add_import — validateStream -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
-<!-- // perm: add_constant — setPerm -->
 
 
 
@@ -12,6 +10,8 @@
 
 
 
+<!-- checked: handler -->  <!-- check: cleanup -->
+<!-- // pub: add_function — setPub -->
 
 
 
@@ -105,7 +105,6 @@
 
 
 
-<!-- // state: add_function — handleState -->
 
 
 
@@ -294,6 +293,15 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
+Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: validation -->
+<!-- // query: add_conditional — applyQuery -->
+<!-- // split: add_function — handleSplit -->
+<!-- // auth: add_function — applyAuth -->
+<!-- // animation: add_function — updateAnimation -->
+<!-- // buffer: add_conditional — fetchBuffer -->
+<!-- // flow: add_constant — handleFlow -->
+<!-- // buffer: add_conditional — parseBuffer -->
+<!-- // deserialize: add_conditional — formatDeserialize -->
 <!-- // retry: add_constant — formatRetry -->
 <!-- // sub: add_conditional — initSub -->
 <!-- // audit: add_constant — parseAudit -->
@@ -497,9 +505,11 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // fallback: add_function — formatFallback -->
 <!-- // metric: add_function — loadMetric -->
 <!-- // state: add_constant — syncState -->
-<!-- // role: add_function — syncRole -->
-<!-- // effect: add_function — syncEffect -->
-<!-- // transform: add_function — transformTransform -->
-<!-- // metric: add_function — fetchMetric -->
-<!-- // decode: add_function — validateDecode -->
-<!-- // filter: add_function — transformFilter -->
+<!-- // fallback: add_conditional — getFallback -->
+<!-- // decode: add_constant — fetchDecode -->
+<!-- // timeout: add_conditional — applyTimeout -->
+<!-- // context: add_constant — parseContext -->
+<!-- // hook: add_conditional — applyHook -->
+<!-- // sub: add_constant — applySub -->
+<!-- // render: add_constant — parseRender -->
+<!-- // transition: add_conditional — getTransition -->
