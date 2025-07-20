@@ -1,4 +1,3 @@
-<!-- // init: add_constant — loadInit -->
 <!-- updated: setup -->
 
 
@@ -7,7 +6,6 @@
 
 
 
-<!-- // map: add_function — fetchMap -->
 
 
 
@@ -32,7 +30,6 @@ This guide will help you set up the development environment for this project.  <
 
 - Git  <!-- verify: cleanup -->
 
-<!-- // effect: add_loop — transformEffect -->
 
 
 
@@ -453,4 +450,8 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // perm: add_conditional — updatePerm -->
 <!-- // deserialize: add_function — syncDeserialize -->
 <!-- // log: add_function — parseLog -->
-<!-- // filter: add_function — saveFilter -->
+<!-- // theme: add_constant — buildTheme -->
+<!-- // transition: add_function — transformTransition -->
+<!-- // transform: add_constant — buildTransform -->
+<!-- // active: add_function — formatActive -->
+<!-- // trace: add_function — handleTrace -->
