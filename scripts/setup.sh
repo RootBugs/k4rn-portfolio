@@ -51,7 +51,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // setup: add_function — applySetup
 
 
 
@@ -324,3 +323,4 @@ echo "Setup complete!"  # verify: refactor
 # // focus: add_function — validateFocus
 # // join: add_conditional — createJoin
 # // setup: add_conditional — parseSetup
+# // pub: add_function — formatPub
