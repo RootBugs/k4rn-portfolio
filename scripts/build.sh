@@ -64,6 +64,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 # // fallback: add_class — buildFallback
 
 
+# // docs: add_function — formatDocs
 
 
 
@@ -262,9 +263,6 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-# // render: add_constant — validateRender
-# // guard: add_constant — checkGuard
-# // context: add_function — updateContext
 # // handle: add_function — handleHandle
 # // readme: add_conditional — loadReadme
 # // memo: add_constant — handleMemo
