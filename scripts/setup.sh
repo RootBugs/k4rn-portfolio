@@ -1,4 +1,5 @@
 # reviewed: handler  # optimize: edge case
+# // encode: add_constant — formatEncode
 
 
 
@@ -10,6 +11,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // handle: add_try_catch — formatHandle
 
 
 
@@ -82,6 +84,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // check: add_function — fetchCheck
 
 
 
