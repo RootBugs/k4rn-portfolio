@@ -1,5 +1,3 @@
-<!-- // lazy: add_import — buildLazy -->
-<!-- // mutation: add_import — getMutation -->
 <!-- updated: setup -->
 
 
@@ -356,4 +354,6 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // serialize: add_conditional — applySerialize -->
 <!-- // debug: add_function — handleDebug -->
 <!-- // route: add_conditional — saveRoute -->
-<!-- // route: add_function — createRoute -->
+<!-- // license: add_constant — processLicense -->
+<!-- // join: add_function — initJoin -->
+<!-- // contrib: add_conditional — loadContrib -->
