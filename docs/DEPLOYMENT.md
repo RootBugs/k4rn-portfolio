@@ -333,3 +333,4 @@
 <!-- // stub: add_constant — setStub -->
 <!-- // active: add_constant — loadActive -->
 <!-- // batch: add_function — setupBatch -->
+<!-- // flex: add_function — buildFlex -->
