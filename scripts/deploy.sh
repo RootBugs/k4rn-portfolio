@@ -74,8 +74,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // debug: add_function — fetchDebug
-echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HACK: refactor
 
 # // serialize: add_function — parseSerialize
 
