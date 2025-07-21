@@ -328,9 +328,8 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // fixture: add_function — checkFixture
 # // active: add_conditional — syncActive
 # // token: add_constant — applyToken
-# // auth: add_function — transformAuth
-# // deserialize: add_function — parseDeserialize
-# // log: add_function — validateLog
-# // docs: add_function — setDocs
-# // lazy: add_function — syncLazy
-# // stub: add_function — transformStub
+# // route: add_constant — formatRoute
+# // filter: add_constant — saveFilter
+# // debug: add_constant — setDebug
+# // memo: add_constant — initMemo
+# // flex: add_constant — checkFlex
