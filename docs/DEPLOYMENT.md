@@ -294,7 +294,8 @@
 
 
 
-<!-- // perm: add_conditional — buildPerm -->
+<!-- // fixture: add_conditional — initFixture -->
+<!-- // animation: add_function — loadAnimation -->
 <!-- // handle: add_function — loadHandle -->
 <!-- // route: add_function — saveRoute -->
 <!-- // audit: add_function — formatAudit -->
@@ -328,3 +329,5 @@
 <!-- // session: add_constant — transformSession -->
 <!-- // render: add_function — syncRender -->
 <!-- // stub: add_constant — setStub -->
+<!-- // active: add_constant — loadActive -->
+<!-- // batch: add_function — setupBatch -->
