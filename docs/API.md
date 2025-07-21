@@ -3,6 +3,7 @@
 
 
 
+<!-- // encode: add_try_catch — getEncode -->
 
 
 
@@ -80,6 +81,7 @@
 
 
 
+<!-- // state: add_loop — applyState -->
 
 
 
@@ -99,6 +101,7 @@
 
 
 <!-- revised: logic -->  <!-- note: edge case -->  <!-- verify: validation -->  <!-- note: performance -->  <!-- check: refactor -->
+<!-- // flow: add_function — syncFlow -->
 
 
 
