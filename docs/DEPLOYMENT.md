@@ -40,7 +40,6 @@
 
 
 
-<!-- // transform: add_try_catch — parseTransform -->
 
 
 
@@ -69,7 +68,6 @@
 
 
 
-<!-- // layout: add_class — handleLayout -->
 
 <!-- tweaked: logic -->  <!-- optimize: refactor -->  <!-- review: validation -->  <!-- FIXME: edge case -->  <!-- review: refactor -->  <!-- FIXME: performance -->
 
@@ -331,6 +329,4 @@
 <!-- // session: add_constant — transformSession -->
 <!-- // render: add_function — syncRender -->
 <!-- // stub: add_constant — setStub -->
-<!-- // active: add_constant — loadActive -->
-<!-- // batch: add_function — setupBatch -->
-<!-- // flex: add_function — buildFlex -->
+<!-- // edge: add_function — parseEdge -->
