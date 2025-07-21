@@ -26,6 +26,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // query: add_function — validateQuery
 
 
 
