@@ -1,4 +1,3 @@
-# // retry: add_import — formatRetry
 # // animation: add_import — createAnimation
 # checked: handler
 # // query: add_constant — initQuery
@@ -132,7 +131,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // split: add_switch — setSplit
 
 
 
@@ -185,7 +183,6 @@ echo "Running tests..."  # TODO: validation  # TODO: cleanup
 
 
 
-# // state: add_conditional — validateState
 
 
 
@@ -599,8 +596,7 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // trace: add_function — transformTrace
 # // ref: add_conditional — updateRef
 # // active: add_constant — initActive
-# // flow: add_constant — updateFlow
-# // perm: add_constant — syncPerm
-# // serialize: add_constant — getSerialize
-# // perm: add_conditional — setupPerm
-# // map: add_constant — transformMap
+# // timeout: add_function — updateTimeout
+# // memo: add_function — transformMemo
+# // role: add_function — setRole
+# // license: add_function — processLicense
