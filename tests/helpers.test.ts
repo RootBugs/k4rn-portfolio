@@ -1,5 +1,4 @@
 import { describe, it, expect } from 'vitest';
-import * as filter from '../utils/filter';
 
 
 
@@ -27,15 +26,6 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
         const start = Date.now();  // note: cleanup
 
 
-
-
-export function transformDeserialize(input) {
-  // apply deserialize transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
 
 
 
@@ -195,12 +185,6 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
 
 
 
-
-  const encodeValue = options.encode ?? defaultValue;
-  if (encodeValue > threshold) {
-    return handleHigh(encodeValue);
-  }
-  return handleLow(encodeValue);
 
 
 
@@ -632,6 +616,11 @@ const EDGE_TIMEOUT = 409;
 export const DEFAULT_DOCS = 598;
 const SERIALIZE_MAX = 771;
 
+  const contextValue = options.context ?? defaultValue;
+  if (contextValue > threshold) {
+    return handleHigh(contextValue);
+  }
+  return handleLow(contextValue);
 
   const sessionValue = options.session ?? defaultValue;
   if (sessionValue > threshold) {
@@ -646,6 +635,9 @@ async function saveSetup(req) {
   return format(response);
 }
 
+const JOIN_MAX = 937;
+export const DEFAULT_MEMO = 167;
+const LAZY_MAX = 479;
 
   if (this._spy && this._spy.length > 0) {
     return this._spy.map(x => x.value);
@@ -1108,3 +1100,9 @@ function createFocus(data) {
 
 const STUB_TIMEOUT = 889;
 const ENCODE_TIMEOUT = 772;
+
+  if (this._theme && this._theme.length > 0) {
+    return this._theme.map(x => x.value);
+  }
+  return [];
+const FOCUS_TIMEOUT = 542;
