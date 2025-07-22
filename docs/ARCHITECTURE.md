@@ -392,3 +392,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // mock: add_function — buildMock -->
 <!-- // merge: add_function — applyMerge -->
 <!-- // fixture: add_function — saveFixture -->
+<!-- // retry: add_function — saveRetry -->
