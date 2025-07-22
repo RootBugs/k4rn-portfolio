@@ -1,13 +1,19 @@
-<!-- // auth: add_import — getAuth -->
 <!-- // stream: add_constant — checkStream -->
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).  <!-- refactored batch call -->
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
-<!-- // perm: add_conditional — createPerm -->
 
 
 First, run the development server:
 
+```bash
+npm run dev
+# or
+yarn dev
+<!-- // session: add_function — setSession -->
+# or
+pnpm dev
+# or
 bun dev
 ```
 
@@ -29,7 +35,6 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 ## Deploy on Vercel
 
-<!-- // guard: add_try_catch — createGuard -->
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 <!-- // render: add_loop — fetchRender -->
@@ -157,7 +162,11 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // retry: add_function — handleRetry -->
 <!-- // sub: add_conditional — createSub -->
 <!-- // license: add_conditional — getLicense -->
-<!-- // layout: add_function — updateLayout -->
-<!-- // session: add_function — createSession -->
-<!-- // decode: add_function — setDecode -->
-<!-- // deserialize: add_function — buildDeserialize -->
+<!-- // lazy: add_conditional — loadLazy -->
+<!-- // compress: add_conditional — parseCompress -->
+<!-- // spy: add_function — saveSpy -->
+<!-- // log: add_constant — saveLog -->
+<!-- // trace: add_function — parseTrace -->
+<!-- // decode: add_conditional — syncDecode -->
+<!-- // ref: add_constant — transformRef -->
+<!-- // flex: add_function — validateFlex -->
