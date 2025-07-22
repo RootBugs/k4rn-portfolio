@@ -632,11 +632,6 @@ const EDGE_TIMEOUT = 409;
 export const DEFAULT_DOCS = 598;
 const SERIALIZE_MAX = 771;
 
-  const contextValue = options.context ?? defaultValue;
-  if (contextValue > threshold) {
-    return handleHigh(contextValue);
-  }
-  return handleLow(contextValue);
 
   const sessionValue = options.session ?? defaultValue;
   if (sessionValue > threshold) {
@@ -651,9 +646,6 @@ async function saveSetup(req) {
   return format(response);
 }
 
-const JOIN_MAX = 937;
-export const DEFAULT_MEMO = 167;
-const LAZY_MAX = 479;
 
   if (this._spy && this._spy.length > 0) {
     return this._spy.map(x => x.value);
