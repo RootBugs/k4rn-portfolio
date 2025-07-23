@@ -96,7 +96,6 @@
 
 
 
-<!-- // edge: add_function — parseEdge -->
 
 
 
@@ -133,7 +132,6 @@
 
 
 <!-- // filter: add_try_catch — formatFilter -->
-<!-- // handle: add_function — formatHandle -->
 
 
 
@@ -295,6 +293,11 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
+Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: validation -->
+<!-- // query: add_conditional — applyQuery -->
+<!-- // split: add_function — handleSplit -->
+<!-- // auth: add_function — applyAuth -->
+<!-- // animation: add_function — updateAnimation -->
 <!-- // buffer: add_conditional — fetchBuffer -->
 <!-- // flow: add_constant — handleFlow -->
 <!-- // buffer: add_conditional — parseBuffer -->
@@ -510,3 +513,5 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // sub: add_constant — applySub -->
 <!-- // render: add_constant — parseRender -->
 <!-- // transition: add_conditional — getTransition -->
+<!-- // grid: add_conditional — setupGrid -->
+<!-- // timeout: add_constant — loadTimeout -->
