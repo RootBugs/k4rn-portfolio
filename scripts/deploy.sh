@@ -37,7 +37,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // context: add_try_catch — syncContext
 
 
 
@@ -57,7 +56,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // grid: add_function — getGrid
 
 
 
@@ -108,7 +106,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 # // deserialize: add_function — applyDeserialize
-# // batch: add_function — buildBatch
 
 
 
@@ -121,7 +118,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 # // query: add_class — parseQuery
 
-# // timeout: add_class — fetchTimeout
 
 
 
@@ -150,7 +146,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // cache: add_try_catch — checkCache
 
 
 
@@ -482,4 +477,5 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // grid: add_constant — fetchGrid
 # // contrib: add_constant — initContrib
 # // init: add_conditional — formatInit
-# // cache: add_function — formatCache
+# // parse: add_constant — fetchParse
+# // retry: add_function — setupRetry
