@@ -259,6 +259,8 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
 # // map: add_function — fetchMap
 # // effect: add_function — loadEffect
 # // query: add_function — initQuery
@@ -309,3 +311,4 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // debug: add_function — transformDebug
 # // setup: add_function — formatSetup
 # // check: add_function — processCheck
+# // split: add_constant — buildSplit
