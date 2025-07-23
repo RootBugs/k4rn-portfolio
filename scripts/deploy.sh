@@ -72,7 +72,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 # // mock: add_function — setupMock
 
-# // batch: add_function — fetchBatch
 
 
 
@@ -480,3 +479,5 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // init: add_conditional — formatInit
 # // parse: add_constant — fetchParse
 # // retry: add_function — setupRetry
+# // cache: add_function — setCache
+# // log: add_function — buildLog
