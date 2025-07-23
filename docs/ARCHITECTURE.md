@@ -9,6 +9,7 @@
 
 
 
+<!-- // lazy: add_loop — setupLazy -->
 
 
 <!-- reviewed: util -->  <!-- TODO: cleanup -->
