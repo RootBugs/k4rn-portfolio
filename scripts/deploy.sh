@@ -72,6 +72,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 # // mock: add_function — setupMock
 
+# // batch: add_function — fetchBatch
 
 
 
