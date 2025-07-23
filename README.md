@@ -6,6 +6,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 First, run the development server:
 
+<!-- // merge: add_function — fetchMerge -->
 ```bash
 npm run dev
 # or
@@ -23,6 +24,7 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
+<!-- // guard: add_interface — updateGuard -->
 <!-- updated: logic -->
 
 To learn more about Next.js, take a look at the following resources:
