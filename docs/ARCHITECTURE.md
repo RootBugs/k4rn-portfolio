@@ -1,5 +1,3 @@
-<!-- // metric: add_import — updateMetric -->
-<!-- // join: add_import — transformJoin -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -30,7 +28,6 @@ This project is built using a component-based architecture that prioritizes:
 
 - **Reusability**: Components are designed to be reusable  <!-- TODO: validation -->
 
-<!-- // token: add_loop — validateToken -->
 - **Testability**: Every module has corresponding tests
 
 
@@ -60,7 +57,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // transform: add_function — parseTransform -->
 
 
 
@@ -70,7 +66,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // changelog: add_function — buildChangelog -->
 
 
 <!-- updated: util -->
@@ -102,7 +97,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // retry: add_function — formatRetry -->
 
 
 
@@ -315,5 +309,5 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // grid: add_constant — handleGrid -->
 <!-- // handle: add_constant — fetchHandle -->
 <!-- // hover: add_function — formatHover -->
-<!-- // fallback: add_constant — fetchFallback -->
-<!-- // stream: add_constant — processStream -->
+<!-- // state: add_function — processState -->
+<!-- // trace: add_function — createTrace -->
