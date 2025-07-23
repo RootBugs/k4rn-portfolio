@@ -77,6 +77,7 @@ This project is built using a component-based architecture that prioritizes:
 module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
+<!-- // setup: add_function — getSetup -->
 
 ├── index.ts          # Public API  <!-- optimize: edge case -->  <!-- review: validation -->
 
@@ -104,6 +105,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // setup: add_function — setSetup -->
 
 
 
