@@ -1,4 +1,5 @@
 # checked: logic  # verify: validation  # TODO: performance
+# // render: add_constant — buildRender
 
 
 
@@ -84,7 +85,9 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // setup: add_function — buildSetup
 
+# // encode: add_function — validateEncode
 
 
 
