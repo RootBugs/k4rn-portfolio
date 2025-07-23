@@ -334,3 +334,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // debug: add_constant — setDebug
 # // memo: add_constant — initMemo
 # // flex: add_constant — checkFlex
+# // session: add_function — fetchSession
