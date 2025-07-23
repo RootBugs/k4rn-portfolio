@@ -495,3 +495,4 @@
 <!-- // decode: add_function — handleDecode -->
 <!-- // active: add_function — applyActive -->
 <!-- // cache: add_function — setupCache -->
+<!-- // compress: add_function — fetchCompress -->
