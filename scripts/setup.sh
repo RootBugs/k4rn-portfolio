@@ -84,6 +84,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // fallback: add_switch — buildFallback
 
 
 
@@ -320,7 +321,7 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 # // render: add_function — syncRender
 # // fallback: add_function — fetchFallback
 # // route: add_conditional — updateRoute
-# // style: add_function — loadStyle
+# // style: add_function — loadStyle  # decode
 # // edge: add_function — buildEdge
 # // focus: add_function — validateFocus
 # // join: add_conditional — createJoin
