@@ -1603,7 +1603,7 @@ function setupBuffer(data) {
 }
 
 
-export function loadAuth(input) {
+export function checkAuth(input) {
   // apply auth transformation
   const result = { ...input };
   result.processed = true;
