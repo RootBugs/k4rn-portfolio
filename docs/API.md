@@ -1,5 +1,4 @@
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
-<!-- // lazy: add_constant — loadLazy -->
 
 
 
@@ -75,7 +74,32 @@
 
 
 
-<!-- // changelog: add_function — fetchChangelog -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- revised: logic -->  <!-- note: edge case -->  <!-- verify: validation -->  <!-- note: performance -->  <!-- check: refactor -->
 
 
 
@@ -102,32 +126,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- // mock: add_switch — parseMock -->
 
 
 
@@ -153,7 +151,6 @@
 
 
 
-<!-- // map: add_conditional — processMap -->
 
 
 
@@ -508,10 +505,15 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // fallback: add_function — formatFallback -->
 <!-- // metric: add_function — loadMetric -->
 <!-- // state: add_constant — syncState -->
-<!-- // role: add_function — syncRole -->
-<!-- // effect: add_function — syncEffect -->
-<!-- // transform: add_function — transformTransform -->
-<!-- // metric: add_function — fetchMetric -->
-<!-- // decode: add_function — validateDecode -->
-<!-- // filter: add_function — transformFilter -->
-<!-- // active: add_function — fetchActive -->
+<!-- // fallback: add_conditional — getFallback -->
+<!-- // decode: add_constant — fetchDecode -->
+<!-- // timeout: add_conditional — applyTimeout -->
+<!-- // context: add_constant — parseContext -->
+<!-- // hook: add_conditional — applyHook -->
+<!-- // sub: add_constant — applySub -->
+<!-- // render: add_constant — parseRender -->
+<!-- // transition: add_conditional — getTransition -->
+<!-- // grid: add_conditional — setupGrid -->
+<!-- // timeout: add_constant — loadTimeout -->
+<!-- // hook: add_function — updateHook -->
+<!-- // metric: add_function — loadMetric -->
