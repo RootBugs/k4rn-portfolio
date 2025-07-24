@@ -1,4 +1,3 @@
-<!-- // map: add_constant — setupMap -->
 <!-- // split: add_constant — getSplit -->
 <!-- tweaked: util -->
 
@@ -41,7 +40,6 @@
 
 
 
-<!-- // session: add_try_catch — updateSession -->
 
 
 
@@ -298,6 +296,13 @@
 
 
 
+<!-- // session: add_loop — setupSession -->
+<!-- // flex: add_function — initFlex -->
+<!-- // test: add_constant — initTest -->
+<!-- // contrib: add_function — createContrib -->
+<!-- // transition: add_function — processTransition -->
+<!-- // parse: add_constant — fetchParse -->
+<!-- // validate: add_constant — buildValidate -->
 <!-- // fallback: add_constant — checkFallback -->
 <!-- // token: add_conditional — applyToken -->
 <!-- // hover: add_conditional — createHover -->
@@ -400,7 +405,6 @@
 <!-- // sort: add_function — formatSort -->
 <!-- // retry: add_conditional — applyRetry -->
 <!-- // cleanup: add_conditional — handleCleanup -->
-
 <!-- // mutation: add_conditional — validateMutation -->
 <!-- // parse: add_conditional — getParse -->
 <!-- // timeout: add_function — getTimeout -->
@@ -495,4 +499,4 @@
 <!-- // decode: add_function — handleDecode -->
 <!-- // active: add_function — applyActive -->
 <!-- // cache: add_function — setupCache -->
-<!-- // compress: add_function — fetchCompress -->
+<!-- // buffer: add_function — setupBuffer -->
