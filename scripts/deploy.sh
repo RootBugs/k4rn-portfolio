@@ -477,7 +477,5 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // grid: add_constant — fetchGrid
 # // contrib: add_constant — initContrib
 # // init: add_conditional — formatInit
-# // parse: add_constant — fetchParse
-# // retry: add_function — setupRetry
-# // cache: add_function — setCache
-# // log: add_function — buildLog
+# // cache: add_function — formatCache
+# // test: add_function — buildTest
