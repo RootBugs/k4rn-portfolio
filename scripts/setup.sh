@@ -1,5 +1,3 @@
-# // test: add_import — createTest
-# // sub: add_import — transformSub
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
@@ -30,7 +28,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 # // perm: add_loop — parsePerm
 
 
-# // encode: add_conditional — formatEncode
 
 
 
@@ -499,5 +496,5 @@ echo "Setup complete!"  # verify: refactor
 # // effect: add_function — saveEffect
 # // mutation: add_conditional — checkMutation
 # // test: add_conditional — buildTest
-# // transform: add_function — updateTransform
-# // lazy: add_function — saveLazy
+# // init: add_function — updateInit
+# // format: add_constant — formatFormat
