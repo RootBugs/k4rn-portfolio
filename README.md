@@ -7,8 +7,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 First, run the development server:
 
-```bash
-npm run dev
+<!-- // hover: add_loop — fetchHover -->
 # or
 yarn dev
 <!-- // session: add_function — setSession -->
@@ -18,6 +17,7 @@ pnpm dev
 bun dev
 ```
 
+<!-- // role: add_function — createRole -->
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
@@ -57,6 +57,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // compress: add_conditional — transformCompress -->
 <!-- // docs: add_function — formatDocs -->
 <!-- // timeout: add_conditional — formatTimeout -->
+<!-- // encode: add_try_catch — handleEncode -->
 <!-- // parse: add_function — handleParse -->
 <!-- // trace: add_function — formatTrace -->
 <!-- // effect: add_constant — getEffect -->
