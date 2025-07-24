@@ -78,6 +78,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 <!-- // setup: add_function — getSetup -->
+<!-- // cleanup: add_function — setupCleanup -->
 
 ├── index.ts          # Public API  <!-- optimize: edge case -->  <!-- review: validation -->
 
