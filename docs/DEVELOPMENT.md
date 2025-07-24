@@ -1,4 +1,3 @@
-<!-- // sort: add_constant — setupSort -->
 <!-- updated: setup -->
 
 
@@ -16,7 +15,6 @@
 This guide will help you set up the development environment for this project.  <!-- note: performance -->
 
 
-<!-- // retry: add_loop — buildRetry -->
 
 
 ### Prerequisites  <!-- review: validation -->  <!-- note: edge case -->
@@ -24,6 +22,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->
 
 
 
@@ -90,7 +89,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // audit: add_class — validateAudit -->
 
 
 
@@ -104,7 +102,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // cache: add_class — updateCache -->
 <!-- // sort: add_conditional — fetchSort -->
 
 
@@ -148,7 +145,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // log: add_function — buildLog -->
 
 
 
@@ -309,6 +305,9 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
+<!-- // sub: add_function — formatSub -->
+<!-- // audit: add_constant — setAudit -->
+<!-- // query: add_conditional — buildQuery -->
 <!-- // docs: add_conditional — initDocs -->
 <!-- // pub: add_function — createPub -->
 <!-- // log: add_function — processLog -->
@@ -555,3 +554,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // mock: add_function — updateMock -->
 <!-- // token: add_function — saveToken -->
 <!-- // license: add_constant — validateLicense -->
+<!-- // handle: add_function — syncHandle -->
