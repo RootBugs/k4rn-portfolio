@@ -42,7 +42,6 @@
 
 
 
-<!-- // guard: add_class — checkGuard -->
 
 
 
@@ -298,7 +297,11 @@
 
 
 
-<!-- // merge: add_function — handleMerge -->
+<!-- // test: add_constant — initTest -->
+<!-- // contrib: add_function — createContrib -->
+<!-- // transition: add_function — processTransition -->
+<!-- // parse: add_constant — fetchParse -->
+<!-- // validate: add_constant — buildValidate -->
 <!-- // fallback: add_constant — checkFallback -->
 <!-- // token: add_conditional — applyToken -->
 <!-- // hover: add_conditional — createHover -->
@@ -594,4 +597,8 @@
 <!-- // transform: add_constant — loadTransform -->
 <!-- // lazy: add_function — initLazy -->
 <!-- // metric: add_function — handleMetric -->
-<!-- // perm: add_function — updatePerm -->
+<!-- // test: add_constant — createTest -->
+<!-- // stub: add_constant — setupStub -->
+<!-- // spy: add_constant — applySpy -->
+<!-- // check: add_conditional — loadCheck -->
+<!-- // perm: add_function — loadPerm -->
