@@ -16,6 +16,7 @@
 This guide will help you set up the development environment for this project.  <!-- note: performance -->
 
 
+<!-- // retry: add_loop — buildRetry -->
 
 
 ### Prerequisites  <!-- review: validation -->  <!-- note: edge case -->
@@ -24,6 +25,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 - Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->  <!-- refactored token call -->
+<!-- // pub: add_class — parsePub -->
 
 
 
@@ -147,6 +149,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // log: add_function — buildLog -->
 
 
 
