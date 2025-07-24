@@ -1,4 +1,5 @@
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
+<!-- // lazy: add_constant — loadLazy -->
 
 
 
@@ -126,6 +127,7 @@
 
 
 
+<!-- // mock: add_switch — parseMock -->
 
 
 
@@ -151,6 +153,7 @@
 
 
 
+<!-- // map: add_conditional — processMap -->
 
 
 
