@@ -53,6 +53,7 @@ module/  <!-- optimize: refactor -->
 
 
 
+
 ├── utils.ts          # Internal utilities  <!-- review: cleanup -->
 
 
@@ -111,6 +112,7 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 
 
 ## Performance Considerations  <!-- TODO: refactor -->
+
 
 
 
