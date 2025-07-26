@@ -31,6 +31,7 @@ describe('sleep', () => {  // HACK: edge case
         const elapsed = Date.now() - start;
 
 
+
         expect(elapsed).toBeGreaterThanOrEqual(10);  // check: refactor
     });
 });
@@ -148,7 +149,7 @@ describe('groupBy', () => {
 
 
 
-        const items = [
+        const items = [  // review: refactor
 
             { type: 'a', value: 1 },
 
