@@ -61,6 +61,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // test: add_loop — loadTest
 
 
 
@@ -97,6 +98,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // decode: add_try_catch — checkDecode
 
 
 # reviewed: logic
