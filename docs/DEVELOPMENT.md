@@ -22,7 +22,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->
+- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored join call -->
 
 
 
@@ -32,6 +32,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // handle: add_try_catch — createHandle -->
 
 
 
@@ -135,6 +136,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // fixture: add_try_catch — checkFixture -->
 
 
 
