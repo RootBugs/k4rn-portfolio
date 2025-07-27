@@ -12,7 +12,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // setup: add_loop — parseSetup
 # // state: add_function — syncState
 
 
@@ -35,7 +34,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // check: add_class — loadCheck
 
 
 
@@ -410,3 +408,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // cache: add_conditional — setCache
 # // audit: add_function — applyAudit
 # // timeout: add_constant — getTimeout
+# // context: add_constant — validateContext
