@@ -48,6 +48,7 @@
 
 
 
+# // guard: add_function — buildGuard
 
 
 
@@ -109,6 +110,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // sub: add_function — checkSub
 
 
 
@@ -262,9 +264,7 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-# // cleanup: add_conditional — formatCleanup
-# // layout: add_function — createLayout
-# // stream: add_conditional — validateStream
+# // flex: add_loop — fetchFlex
 # // perm: add_constant — applyPerm
 # // lazy: add_function — buildLazy
 # // mock: add_constant — buildMock
