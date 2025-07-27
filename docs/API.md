@@ -39,6 +39,7 @@
 
 
 
+<!-- // render: add_function — createRender -->
 
 
 
@@ -71,6 +72,7 @@
 
 
 
+<!-- // spy: add_conditional — transformSpy -->
 
 
 
@@ -115,6 +117,7 @@
 
 
 
+<!-- // hover: add_conditional — applyHover -->
 
 
 
