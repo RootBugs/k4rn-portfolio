@@ -1,4 +1,3 @@
-<!-- // serialize: add_import — getSerialize -->
 <!-- updated: setup -->
 
 
@@ -84,7 +83,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // readme: add_loop — syncReadme -->
 2. Install dependencies
 
 
@@ -457,3 +455,5 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // transform: add_constant — buildTransform -->
 <!-- // active: add_function — formatActive -->
 <!-- // trace: add_function — handleTrace -->
+<!-- // mock: add_conditional — processMock -->
+<!-- // compress: add_function — setCompress -->
