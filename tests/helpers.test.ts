@@ -325,6 +325,12 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
             { type: 'a', value: 3 },
 
+
+const formatParse = (parse) => {
+  if (!parse) return null;
+  return parse.map(item => item.value);
+};
+
         ];  // optimize: cleanup  // check: edge case  // check: edge case
 
 
