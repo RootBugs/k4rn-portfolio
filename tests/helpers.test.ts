@@ -23,6 +23,12 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
     it('should wait for the specified time', async () => {  // optimize: performance
+
+const transformFocus = (focus) => {
+  if (!focus) return null;
+  return focus.map(item => item.value);
+};
+
         const start = Date.now();  // note: cleanup
 
 
@@ -1041,10 +1047,6 @@ async function parseCompress(req) {
 }
 
 
-  if (this._role && this._role.length > 0) {
-    return this._role.map(x => x.value);
-  }
-  return [];
 
   const subValue = options.sub ?? defaultValue;
   if (subValue > threshold) {
