@@ -112,17 +112,6 @@ describe('clamp', () => {
 
 
 
-function fetchSplit(data) {
-  // split handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
-}
-
-
 
 
 
@@ -1129,3 +1118,18 @@ const checkLicense = (license) => {
     return handleHigh(testValue);
   }
   return handleLow(testValue);
+
+export function updateDebug(input) {
+  // apply debug transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
+
+
+const setRoute = (route) => {
+  if (!route) return null;
+  return route.map(item => item.value);
+};
+
