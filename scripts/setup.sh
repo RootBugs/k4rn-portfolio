@@ -67,7 +67,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
-# // render: add_function — setRender
 
 
 
@@ -421,5 +420,5 @@ echo "Setup complete!"  # verify: refactor
 # // setup: add_function — getSetup
 # // join: add_conditional — saveJoin
 # // check: add_constant — syncCheck
-# // render: add_function — checkRender
-# // deserialize: add_function — checkDeserialize
+# // retry: add_function — checkRetry
+# // spy: add_constant — parseSpy
