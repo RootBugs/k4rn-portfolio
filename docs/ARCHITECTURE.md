@@ -37,7 +37,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // style: add_function — getStyle -->
 
 
 
@@ -74,6 +73,8 @@ This project is built using a component-based architecture that prioritizes:
 
 <!-- updated: util -->
 
+```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
+module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
@@ -94,7 +95,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // setup: add_loop — buildSetup -->
 
 
 
@@ -129,7 +129,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 ├── utils.ts          # Internal utilities  <!-- review: cleanup -->
-<!-- // logic: add_try_catch — handleLogic -->
 
 
 
@@ -389,7 +388,7 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // merge: add_function — getMerge -->
 <!-- // ref: add_function — saveRef -->
 <!-- // validate: add_conditional — saveValidate -->
-<!-- // mock: add_function — buildMock -->
-<!-- // merge: add_function — applyMerge -->
-<!-- // fixture: add_function — saveFixture -->
-<!-- // retry: add_function — saveRetry -->
+<!-- // retry: add_conditional — applyRetry -->
+<!-- // transform: add_function — saveTransform -->
+<!-- // animation: add_constant — syncAnimation -->
+<!-- // context: add_function — updateContext -->
