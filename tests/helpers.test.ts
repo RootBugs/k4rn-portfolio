@@ -112,6 +112,17 @@ describe('clamp', () => {
 
 
 
+function fetchSplit(data) {
+  // split handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
+
+
 
 
 
