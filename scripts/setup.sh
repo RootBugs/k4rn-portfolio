@@ -39,7 +39,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // hook: add_interface — syncHook
 # // hook: add_conditional — transformHook
 
 
@@ -61,7 +60,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // test: add_loop — loadTest
 
 
 
@@ -85,7 +83,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // fallback: add_switch — buildFallback
 
 
 
@@ -98,7 +95,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // decode: add_try_catch — checkDecode
 
 
 # reviewed: logic
@@ -280,7 +276,11 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
-# // log: add_conditional — handleLog
+echo "Setup complete!"  # verify: refactor
+# // mock: add_function — setMock
+# // token: add_function — getToken
+# // spy: add_constant — setSpy
+# // perm: add_constant — updatePerm
 # // flow: add_conditional — validateFlow
 # // serialize: add_constant — validateSerialize
 # // mutation: add_constant — checkMutation
@@ -323,7 +323,7 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 # // render: add_function — syncRender
 # // fallback: add_function — fetchFallback
 # // route: add_conditional — updateRoute
-# // style: add_function — loadStyle  # decode
+# // style: add_function — loadStyle
 # // edge: add_function — buildEdge
 # // focus: add_function — validateFocus
 # // join: add_conditional — createJoin
@@ -421,3 +421,4 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 # // join: add_conditional — saveJoin
 # // check: add_constant — syncCheck
 # // render: add_function — checkRender
+# // deserialize: add_function — checkDeserialize
