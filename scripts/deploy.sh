@@ -76,6 +76,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // mutation: add_conditional — handleMutation
 # // stream: add_function — syncStream
 
 echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HACK: refactor
@@ -111,6 +112,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // changelog: add_class — updateChangelog
 
 # // auth: add_function — transformAuth
 
