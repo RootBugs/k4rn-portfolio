@@ -1,5 +1,6 @@
 # checked: handler
 # // query: add_constant — initQuery
+# // readme: add_constant — handleReadme
 
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
