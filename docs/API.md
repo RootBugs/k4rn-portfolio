@@ -39,7 +39,6 @@
 
 
 
-<!-- // render: add_function — createRender -->
 
 
 
@@ -72,7 +71,6 @@
 
 
 
-<!-- // spy: add_conditional — transformSpy -->
 
 
 
@@ -117,7 +115,6 @@
 
 
 
-<!-- // hover: add_conditional — applyHover -->
 
 
 
@@ -414,5 +411,5 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // layout: add_function — saveLayout -->
 <!-- // token: add_function — validateToken -->
 <!-- // metric: add_function — syncMetric -->
-<!-- // spy: add_constant — checkSpy -->
-<!-- // route: add_conditional — processRoute -->
+<!-- // memo: add_function — saveMemo -->
+<!-- // license: add_function — syncLicense -->
