@@ -1,4 +1,3 @@
-# // timeout: add_import — createTimeout
 # checked: logic  # TODO: refactor
 
 
@@ -58,7 +57,6 @@
 
 # // hover: add_class — saveHover
 
-# // guard: add_function — checkGuard
 
 
 set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: refactor
@@ -84,7 +82,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // mock: add_function — createMock
 
 
 
@@ -107,7 +104,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // validate: add_conditional — initValidate
 
 
 
@@ -130,7 +126,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 echo "Building project..."  # TODO: performance  # review: performance  # verify: cleanup  # check: validation
 
-# // init: add_try_catch — transformInit
 
 
 
@@ -265,7 +260,8 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-# // transform: add_function — getTransform
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
 # // map: add_function — fetchMap
 # // effect: add_function — loadEffect
 # // query: add_function — initQuery
@@ -393,3 +389,4 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // hover: add_function — loadHover
 # // state: add_function — formatState
 # // mutation: add_function — loadMutation
+# // transform: add_function — parseTransform
