@@ -453,3 +453,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // log: add_function — parseLog -->
 <!-- // filter: add_function — saveFilter -->
 <!-- // edge: add_function — formatEdge -->
+<!-- // sub: add_function — fetchSub -->
