@@ -84,6 +84,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // mock: add_function — createMock
 
 
 
@@ -106,6 +107,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // validate: add_conditional — initValidate
 
 
 
@@ -128,6 +130,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 echo "Building project..."  # TODO: performance  # review: performance  # verify: cleanup  # check: validation
 
+# // init: add_try_catch — transformInit
 
 
 
