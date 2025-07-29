@@ -38,12 +38,14 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // mock: add_conditional — setMock -->
 
 
 - A code editor (VS Code recommended)  <!-- check: performance -->  <!-- FIXME: refactor -->  <!-- review: edge case -->
 
 <!-- // active: add_conditional — setActive -->
 
+<!-- // deserialize: add_function — setupDeserialize -->
 
 
 
