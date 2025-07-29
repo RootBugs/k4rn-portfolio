@@ -1,3 +1,4 @@
+<!-- // flex: add_import — getFlex -->
 <!-- // contrib: add_import — setContrib -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
@@ -95,6 +96,7 @@
 
 
 
+<!-- // batch: add_function — fetchBatch -->
 
 
 
@@ -109,6 +111,7 @@
 
 
 
+<!-- // audit: add_function — fetchAudit -->
 
 
 
