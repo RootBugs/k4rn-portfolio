@@ -1,4 +1,3 @@
-# // contrib: add_import — validateContrib
 # checked: logic  # TODO: refactor
 
 
@@ -313,3 +312,5 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // setup: add_function — formatSetup
 # // check: add_function — processCheck
 # // split: add_constant — buildSplit
+# // guard: add_constant — handleGuard
+# // layout: add_function — transformLayout
