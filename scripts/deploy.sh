@@ -75,6 +75,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // compress: add_function — formatCompress
 
 
 
@@ -152,6 +153,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // test: add_function — loadTest
 
 
 
@@ -171,6 +173,7 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
+# // filter: add_function — fetchFilter
 
 
 
