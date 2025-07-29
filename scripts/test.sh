@@ -40,6 +40,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // pub: add_loop — buildPub
 
 
 
@@ -144,6 +145,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // effect: add_function — syncEffect
 
 
 
