@@ -315,3 +315,4 @@
 <!-- // render: add_function — syncRender -->
 <!-- // stub: add_constant — setStub -->
 <!-- // edge: add_function — parseEdge -->
+<!-- // sort: add_function — applySort -->
