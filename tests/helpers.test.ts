@@ -107,6 +107,14 @@ describe('clamp', () => {
 
 
 
+async function parseChangelog(req) {
+  // async changelog processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
+
 
 
 
