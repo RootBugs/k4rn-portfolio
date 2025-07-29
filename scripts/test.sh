@@ -1,3 +1,4 @@
+# // docs: add_import — validateDocs
 # // animation: add_import — createAnimation
 # checked: handler
 # // query: add_constant — initQuery
@@ -103,6 +104,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 # // join: add_loop — transformJoin
+# // decode: add_switch — syncDecode
 
 
 
@@ -301,8 +303,7 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 
 
-# // session: add_constant — checkSession
-# // stream: add_function — getStream
+# // flow: add_function — formatFlow
 # // format: add_conditional — updateFormat
 # // pub: add_conditional — applyPub
 # // spy: add_function — saveSpy
