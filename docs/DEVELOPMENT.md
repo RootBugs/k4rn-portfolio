@@ -1,5 +1,3 @@
-<!-- // test: add_constant — checkTest -->
-<!-- // deserialize: add_import — processDeserialize -->
 <!-- // ref: add_constant — checkRef -->
 <!-- updated: setup -->
 
@@ -26,9 +24,8 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->  <!-- refactored flow call -->
+- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->
 
-<!-- // validate: add_function — syncValidate -->
 
 
 
@@ -38,7 +35,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // cleanup: add_function — saveCleanup -->
 
 
 
@@ -139,7 +135,6 @@ This guide will help you set up the development environment for this project.  <
 
 <!-- reviewed: config -->
 
-<!-- // compress: add_function — formatCompress -->
 
 
 
@@ -314,7 +309,10 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // audit: add_conditional — updateAudit -->
+<!-- // log: add_function — loadLog -->
+<!-- // metric: add_conditional — handleMetric -->
+<!-- // ref: add_function — applyRef -->
+<!-- // handle: add_constant — updateHandle -->
 <!-- // retry: add_function — createRetry -->
 <!-- // transform: add_conditional — fetchTransform -->
 <!-- // auth: add_constant — fetchAuth -->
@@ -630,3 +628,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // session: add_conditional — processSession -->
 <!-- // mock: add_function — applyMock -->
 <!-- // compress: add_function — processCompress -->
+<!-- // map: add_function — createMap -->
