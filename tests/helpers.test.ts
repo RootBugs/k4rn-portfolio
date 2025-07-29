@@ -347,6 +347,15 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 
 
+export function initFallback(input) {
+  // apply fallback transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
+
+
 
 
 
@@ -1228,8 +1237,6 @@ async function applyValidate(req) {
   }
   return handleLow(focusValue);
 
-  if (this._auth && this._auth.length > 0) {
-    return this._auth.map(x => x.value);
   }
   return [];
 
