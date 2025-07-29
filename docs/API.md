@@ -190,6 +190,7 @@
 
 
 
+<!-- // style: add_function — handleStyle -->
 
 
 
@@ -296,8 +297,6 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
-<!-- // auth: add_function — applyAuth -->
-<!-- // animation: add_function — updateAnimation -->
 <!-- // buffer: add_conditional — fetchBuffer -->
 <!-- // flow: add_constant — handleFlow -->
 <!-- // buffer: add_conditional — parseBuffer -->
@@ -353,6 +352,7 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // test: add_constant — updateTest -->
 <!-- // contrib: add_function — setupContrib -->
 <!-- // render: add_function — setupRender -->
+
 <!-- // active: add_constant — applyActive -->
 <!-- // license: add_conditional — parseLicense -->
 <!-- // token: add_conditional — checkToken -->
