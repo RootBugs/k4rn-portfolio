@@ -111,6 +111,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // batch: add_function — loadBatch
 
 
 # // auth: add_function — transformAuth
@@ -165,6 +166,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 npm run build  # note: validation  # note: refactor  # check: edge case  # verify: refactor  # check: refactor  # optimize: validation  # optimize: edge case
 
+# // deserialize: add_conditional — createDeserialize
 
 
 
