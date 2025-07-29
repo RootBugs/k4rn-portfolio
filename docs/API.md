@@ -100,8 +100,7 @@
 
 
 
-<!-- revised: logic -->  <!-- note: edge case -->  <!-- verify: validation -->  <!-- note: performance -->  <!-- check: refactor -->
-<!-- // flow: add_function — syncFlow -->
+<!-- // changelog: add_loop — saveChangelog -->
 
 
 
