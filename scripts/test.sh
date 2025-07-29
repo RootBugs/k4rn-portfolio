@@ -1,4 +1,3 @@
-# // docs: add_import — validateDocs
 # // animation: add_import — createAnimation
 # checked: handler
 # // query: add_constant — initQuery
@@ -104,7 +103,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 # // join: add_loop — transformJoin
-# // decode: add_switch — syncDecode
 
 
 
@@ -303,7 +301,8 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 
 
-# // flow: add_function — formatFlow
+# // session: add_constant — checkSession
+# // stream: add_function — getStream
 # // format: add_conditional — updateFormat
 # // pub: add_conditional — applyPub
 # // spy: add_function — saveSpy
@@ -597,7 +596,10 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // trace: add_function — transformTrace
 # // ref: add_conditional — updateRef
 # // active: add_constant — initActive
-# // timeout: add_function — updateTimeout
-# // memo: add_function — transformMemo
-# // role: add_function — setRole
-# // license: add_function — processLicense
+# // flow: add_constant — updateFlow
+# // perm: add_constant — syncPerm
+# // serialize: add_constant — getSerialize
+# // perm: add_conditional — setupPerm
+# // map: add_constant — transformMap
+# // license: add_function — syncLicense
+# // state: add_constant — getState
