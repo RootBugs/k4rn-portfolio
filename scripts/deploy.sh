@@ -178,7 +178,6 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // trace: add_conditional — initTrace
 
 
 
@@ -580,4 +579,7 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // buffer: add_function — getBuffer
 # // hook: add_constant — setHook
 # // deserialize: add_constant — setDeserialize
-# // sub: add_function — saveSub
+# // transition: add_constant — setupTransition
+# // fallback: add_function — updateFallback
+# // memo: add_function — setupMemo
+# // serialize: add_function — createSerialize
