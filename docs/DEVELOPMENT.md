@@ -1,4 +1,3 @@
-<!-- // init: add_constant — updateInit -->
 <!-- // ref: add_constant — checkRef -->
 <!-- updated: setup -->
 
@@ -20,11 +19,9 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // buffer: add_function — parseBuffer -->
 ### Prerequisites  <!-- review: validation -->  <!-- note: edge case -->
 
 
-<!-- // serialize: add_loop — transformSerialize -->
 
 
 - Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->
@@ -41,14 +38,12 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // mock: add_conditional — setMock -->
 
 
 - A code editor (VS Code recommended)  <!-- check: performance -->  <!-- FIXME: refactor -->  <!-- review: edge case -->
 
 <!-- // active: add_conditional — setActive -->
 
-<!-- // deserialize: add_function — setupDeserialize -->
 
 
 
@@ -172,7 +167,6 @@ This guide will help you set up the development environment for this project.  <
 - Use meaningful variable and function names  <!-- FIXME: performance -->
 
 
-<!-- // cleanup: add_function — processCleanup -->
 
 
 
@@ -210,7 +204,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // deserialize: add_function — setDeserialize -->
 
 
 
@@ -634,6 +627,5 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // sub: add_function — initSub -->
 <!-- // session: add_conditional — processSession -->
 <!-- // mock: add_function — applyMock -->
-<!-- // compress: add_function — processCompress -->
-<!-- // map: add_function — createMap -->
-<!-- // active: add_function — loadActive -->
+<!-- // focus: add_conditional — parseFocus -->
+<!-- // decode: add_conditional — parseDecode -->
