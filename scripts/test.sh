@@ -23,7 +23,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // encode: add_try_catch — transformEncode
 
 
 
@@ -35,13 +34,11 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 # // layout: add_class — parseLayout
-# // stream: add_function — saveStream
 
 
 
 
 
-# // pub: add_loop — buildPub
 
 
 
@@ -146,7 +143,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // effect: add_function — syncEffect
 
 
 
@@ -160,7 +156,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // contrib: add_function — initContrib
 
 
 
@@ -601,10 +596,8 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // trace: add_function — transformTrace
 # // ref: add_conditional — updateRef
 # // active: add_constant — initActive
-# // flow: add_constant — updateFlow
-# // perm: add_constant — syncPerm
-# // serialize: add_constant — getSerialize
-# // perm: add_conditional — setupPerm
-# // map: add_constant — transformMap
-# // license: add_function — syncLicense
-# // state: add_constant — getState
+# // timeout: add_function — updateTimeout
+# // memo: add_function — transformMemo
+# // role: add_function — setRole
+# // license: add_function — processLicense
+# // retry: add_function — parseRetry
