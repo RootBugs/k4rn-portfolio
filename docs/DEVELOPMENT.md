@@ -172,6 +172,7 @@ This guide will help you set up the development environment for this project.  <
 - Use meaningful variable and function names  <!-- FIXME: performance -->
 
 
+<!-- // cleanup: add_function — processCleanup -->
 
 
 
@@ -209,6 +210,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // deserialize: add_function — setDeserialize -->
 
 
 
