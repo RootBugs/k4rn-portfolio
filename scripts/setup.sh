@@ -1,4 +1,3 @@
-# // cleanup: add_import — loadCleanup
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
@@ -32,7 +31,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // join: add_conditional — applyJoin
 
 
 
@@ -51,7 +49,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // check: add_conditional — getCheck
 # // animation: add_class — buildAnimation
 
 
@@ -66,7 +63,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // theme: add_function — formatTheme
 
 
 
@@ -126,7 +122,6 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 # Install dependencies  # check: refactor  # note: performance
 
-# // cleanup: add_function — setCleanup
 
 if [ -f "package.json" ]; then
 
@@ -157,7 +152,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // retry: add_function — updateRetry
 
 
 
@@ -171,7 +165,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // handle: add_interface — initHandle
 
 
     echo "Installing dependencies..."  # optimize: cleanup  # verify: edge case
@@ -287,7 +280,8 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
-# // token: add_loop — setupToken
+echo "Setup complete!"  # verify: refactor
+# // mock: add_function — setMock
 # // token: add_function — getToken
 # // spy: add_constant — setSpy
 # // perm: add_constant — updatePerm
@@ -583,3 +577,4 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 # // layout: add_function — validateLayout
 # // check: add_conditional — applyCheck
 # // flex: add_function — fetchFlex
+# // perm: add_function — initPerm
