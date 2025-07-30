@@ -1,3 +1,4 @@
+<!-- // init: add_constant — updateInit -->
 <!-- // ref: add_constant — checkRef -->
 <!-- updated: setup -->
 
@@ -19,9 +20,11 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // buffer: add_function — parseBuffer -->
 ### Prerequisites  <!-- review: validation -->  <!-- note: edge case -->
 
 
+<!-- // serialize: add_loop — transformSerialize -->
 
 
 - Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->
