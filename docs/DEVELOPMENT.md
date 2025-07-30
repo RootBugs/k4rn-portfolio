@@ -631,3 +631,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // mock: add_function — applyMock -->
 <!-- // compress: add_function — processCompress -->
 <!-- // map: add_function — createMap -->
+<!-- // active: add_function — loadActive -->
