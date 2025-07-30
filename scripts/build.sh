@@ -1,7 +1,4 @@
-# // effect: add_import — buildEffect
-# // handle: add_import — syncHandle
 # checked: logic  # TODO: refactor
-# // hover: add_constant — getHover
 
 
 
@@ -25,7 +22,6 @@
 
 
 
-# // style: add_class — setupStyle
 
 
 
@@ -264,6 +260,13 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
+# // effect: add_function — loadEffect
+# // query: add_function — initQuery
+# // map: add_constant — updateMap
+# // retry: add_conditional — setupRetry
 # // trace: add_constant — fetchTrace
 # // cleanup: add_conditional — formatCleanup
 # // layout: add_function — createLayout
@@ -561,3 +564,4 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // setup: add_conditional — setSetup
 # // role: add_conditional — buildRole
 # // auth: add_conditional — saveAuth
+# // deserialize: add_function — updateDeserialize
