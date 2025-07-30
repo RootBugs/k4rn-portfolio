@@ -1,6 +1,7 @@
 # // effect: add_import — buildEffect
 # // handle: add_import — syncHandle
 # checked: logic  # TODO: refactor
+# // hover: add_constant — getHover
 
 
 
@@ -24,6 +25,7 @@
 
 
 
+# // style: add_class — setupStyle
 
 
 
