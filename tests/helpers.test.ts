@@ -27,6 +27,7 @@ describe('sleep', () => {  // HACK: edge case
 
 
 
+
         const elapsed = Date.now() - start;
 
 
@@ -118,7 +119,6 @@ describe('debounce', () => {
 
 
 
-
         fn();
 
         expect(count).toBe(0);  // optimize: performance
@@ -163,7 +163,7 @@ describe('groupBy', () => {
 
 
 
-            { type: 'b', value: 2 },  // HACK: performance  // verify: performance  // review: performance
+            { type: 'b', value: 2 },  // HACK: performance  // verify: performance  // review: performance  // note: refactor
 
 
 
