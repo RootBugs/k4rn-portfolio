@@ -496,6 +496,7 @@ echo "Setup complete!"  # verify: refactor
 # // effect: add_function — saveEffect
 # // mutation: add_conditional — checkMutation
 # // test: add_conditional — buildTest
-# // transform: add_function — updateTransform
-# // lazy: add_function — saveLazy
-# // spy: add_function — createSpy
+# // init: add_function — updateInit
+# // format: add_constant — formatFormat
+# // join: add_constant — syncJoin
+# // format: add_constant — updateFormat
