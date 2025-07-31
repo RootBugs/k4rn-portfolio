@@ -37,8 +37,8 @@ module/  <!-- optimize: refactor -->
 
 
 
-
 ├── index.ts          # Public API  <!-- optimize: edge case -->
+
 
 
 
@@ -88,6 +88,7 @@ Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
 
 2. Action is dispatched to the handler
+
 
 
 3. Handler processes and updates state  <!-- optimize: edge case -->
