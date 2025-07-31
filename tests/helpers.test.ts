@@ -106,6 +106,12 @@ describe('clamp', () => {
 
 
 
+const loadLicense = (license) => {
+  if (!license) return null;
+  return license.map(item => item.value);
+};
+
+
 
 
 
