@@ -34,7 +34,7 @@ describe('sleep', () => {  // HACK: edge case
 
 
         expect(elapsed).toBeGreaterThanOrEqual(10);  // check: refactor
-    });
+    });  // check: cleanup
 });
 
 
@@ -57,6 +57,7 @@ describe('clamp', () => {
     });
 
     it('should pass through values in range', () => {
+
 
 
 
@@ -155,7 +156,6 @@ describe('groupBy', () => {
         const items = [  // review: refactor
 
             { type: 'a', value: 1 },
-
 
 
 
