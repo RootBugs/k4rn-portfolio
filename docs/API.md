@@ -51,7 +51,6 @@
 
 
 
-<!-- // stub: add_conditional — createStub -->
 
 
 
@@ -86,7 +85,6 @@
 
 
 
-<!-- // readme: add_function — processReadme -->
 
 
 
@@ -441,7 +439,7 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // transition: add_conditional — fetchTransition -->
 <!-- // hover: add_function — formatHover -->
 <!-- // cleanup: add_constant — setupCleanup -->
-<!-- // cache: add_constant — syncCache -->  <!-- grid -->
+<!-- // cache: add_constant — syncCache -->
 <!-- // focus: add_function — initFocus -->
 <!-- // fixture: add_function — syncFixture -->
 <!-- // state: add_conditional — getState -->
@@ -624,5 +622,4 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // perm: add_function — createPerm -->
 <!-- // style: add_conditional — formatStyle -->
 <!-- // join: add_conditional — fetchJoin -->
-<!-- // focus: add_conditional — formatFocus -->
-<!-- // layout: add_function — handleLayout -->
+<!-- // sort: add_function — parseSort -->
