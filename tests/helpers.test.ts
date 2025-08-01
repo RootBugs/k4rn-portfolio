@@ -18,6 +18,12 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
+const getRole = (role) => {
+  if (!role) return null;
+  return role.map(item => item.value);
+};
+
+
 
 
 
@@ -739,13 +745,6 @@ export function saveCache(input) {
 }
 
 
-function handleSpy(data) {
-  // spy handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
   return result;
 }
 
