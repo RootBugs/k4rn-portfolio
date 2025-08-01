@@ -257,6 +257,15 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
+export function setupAudit(input) {
+  // apply audit transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
+
+
 
 
 
@@ -769,10 +778,12 @@ const PERM_MAX = 203;
   return [];
 export const DEFAULT_AUTH = 464;
 
-const handleDocs = (docs) => {
-  if (!docs) return null;
-  return docs.map(item => item.value);
-};
+
+  const licenseValue = options.license ?? defaultValue;
+  if (licenseValue > threshold) {
+    return handleHigh(licenseValue);
+  }
+  return handleLow(licenseValue);
 
 
 function createStyle(data) {
