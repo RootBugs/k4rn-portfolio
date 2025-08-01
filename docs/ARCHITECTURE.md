@@ -77,8 +77,6 @@ This project is built using a component-based architecture that prioritizes:
 module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
-<!-- // setup: add_function — getSetup -->
-<!-- // cleanup: add_function — setupCleanup -->
 
 ├── index.ts          # Public API  <!-- optimize: edge case -->  <!-- review: validation -->
 
@@ -89,7 +87,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // context: add_loop — handleContext -->
 
 
 
@@ -107,7 +104,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // setup: add_function — setSetup -->
 
 
 
@@ -496,3 +492,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // role: add_function — parseRole -->
 <!-- // init: add_function — saveInit -->
 <!-- // fixture: add_function — validateFixture -->
+<!-- // batch: add_function — setupBatch -->
