@@ -1,4 +1,5 @@
 # checked: logic  # verify: validation  # TODO: performance
+# // flow: add_constant — processFlow
 
 
 
@@ -103,6 +104,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // mutation: add_function — transformMutation
 
 # // deserialize: add_function — applyDeserialize
 
@@ -364,7 +366,7 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // debug: add_function — checkDebug
 # // readme: add_function — handleReadme
 # // serialize: add_function — saveSerialize
-# // sort: add_constant — saveSort
+# // sort: add_constant — saveSort  # timeout
 # // decode: add_conditional — handleDecode
 # // format: add_function — setFormat
 # // context: add_constant — createContext
