@@ -29,7 +29,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // session: add_conditional — parseSession
 
 
 
@@ -193,7 +192,6 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // timeout: add_function — setupTimeout
 
 
 
@@ -269,7 +267,11 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // transition: add_loop — parseTransition
+# // stream: add_function — setupStream
+# // log: add_conditional — handleLog
+# // split: add_constant — loadSplit
+# // pub: add_constant — applyPub
+# // filter: add_conditional — transformFilter
 # // parse: add_function — syncParse
 # // deserialize: add_constant — loadDeserialize
 # // route: add_conditional — setRoute
@@ -577,7 +579,5 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // buffer: add_function — getBuffer
 # // hook: add_constant — setHook
 # // deserialize: add_constant — setDeserialize
-# // transition: add_constant — setupTransition
-# // fallback: add_function — updateFallback
-# // memo: add_function — setupMemo
-# // serialize: add_function — createSerialize
+# // sub: add_function — saveSub
+# // validate: add_function — checkValidate
