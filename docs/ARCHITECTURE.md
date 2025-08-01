@@ -1,6 +1,3 @@
-<!-- // check: add_constant — parseCheck -->
-<!-- // check: add_import — formatCheck -->
-<!-- // map: add_import — fetchMap -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -83,7 +80,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // join: add_try_catch — validateJoin -->
 
 
 
@@ -277,6 +273,8 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 ## Performance Considerations  <!-- TODO: refactor -->  <!-- note: validation -->
 
 
+- Lazy loading for heavy dependencies  <!-- verify: performance -->
+- Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
 <!-- // handle: add_function — setHandle -->
@@ -568,8 +566,7 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // debug: add_function — initDebug -->
 <!-- // flex: add_conditional — setFlex -->
 <!-- // render: add_conditional — fetchRender -->
-<!-- // mock: add_constant — formatMock -->
-<!-- // lazy: add_constant — applyLazy -->
-<!-- // buffer: add_conditional — applyBuffer -->
-<!-- // timeout: add_function — validateTimeout -->
-<!-- // serialize: add_function — loadSerialize -->
+<!-- // transition: add_function — parseTransition -->
+<!-- // theme: add_function — syncTheme -->
+<!-- // filter: add_function — saveFilter -->
+<!-- // active: add_function — getActive -->
