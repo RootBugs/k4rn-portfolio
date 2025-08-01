@@ -3,6 +3,7 @@
 
 
 
+# // transition: add_function — syncTransition
 
 
 
@@ -264,9 +265,7 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // log: add_conditional — handleLog
-# // split: add_constant — loadSplit
-# // pub: add_constant — applyPub
+# // filter: add_function — validateFilter
 # // filter: add_conditional — transformFilter
 # // parse: add_function — syncParse
 # // deserialize: add_constant — loadDeserialize
