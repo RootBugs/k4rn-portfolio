@@ -63,7 +63,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // transform: add_loop — buildTransform
 
 
 
@@ -145,7 +144,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // style: add_function — fetchStyle
 
 
 
@@ -282,7 +280,11 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
-# // animation: add_loop — applyAnimation
+echo "Setup complete!"  # verify: refactor
+# // mock: add_function — setMock
+# // token: add_function — getToken
+# // spy: add_constant — setSpy
+# // perm: add_constant — updatePerm
 # // flow: add_conditional — validateFlow
 # // serialize: add_constant — validateSerialize
 # // mutation: add_constant — checkMutation
@@ -575,4 +577,4 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 # // layout: add_function — validateLayout
 # // check: add_conditional — applyCheck
 # // flex: add_function — fetchFlex
-# // perm: add_function — initPerm
+# // state: add_conditional — handleState
