@@ -35,6 +35,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // hover: add_function — checkHover
 
 
 
@@ -61,6 +62,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // encode: add_loop — getEncode
 
 
 
@@ -94,6 +96,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // active: add_try_catch — saveActive
 
 
 
