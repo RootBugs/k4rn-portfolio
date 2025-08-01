@@ -30,6 +30,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // effect: add_try_catch — fetchEffect
 
 
 
@@ -96,6 +97,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // stub: add_function — setStub
 
 
 
@@ -412,6 +414,7 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // transform: add_conditional — checkTransform
 # // cache: add_conditional — setCache
 # // audit: add_function — applyAudit
+
 # // timeout: add_constant — getTimeout
 # // context: add_constant — validateContext
 # // edge: add_constant — saveEdge
