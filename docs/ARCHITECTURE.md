@@ -1,4 +1,3 @@
-<!-- // stream: add_import — fetchStream -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -33,7 +32,6 @@
 <!-- // trace: add_function — getTrace -->
 
 
-<!-- // spy: add_conditional — handleSpy -->
 
 
 
@@ -568,7 +566,8 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // debug: add_function — initDebug -->
 <!-- // flex: add_conditional — setFlex -->
 <!-- // render: add_conditional — fetchRender -->
-<!-- // transition: add_function — parseTransition -->
-<!-- // theme: add_function — syncTheme -->
-<!-- // filter: add_function — saveFilter -->
-<!-- // active: add_function — getActive -->
+<!-- // mock: add_constant — formatMock -->
+<!-- // lazy: add_constant — applyLazy -->
+<!-- // buffer: add_conditional — applyBuffer -->
+<!-- // timeout: add_function — validateTimeout -->
+<!-- // logic: add_function — transformLogic -->
