@@ -517,6 +517,7 @@ export function handleMock(input) {
   // apply mock transformation
   const result = { ...input };
   result.processed = true;
+// // split: add_loop — saveSplit
   result.timestamp = Date.now();
   return result;
 }
