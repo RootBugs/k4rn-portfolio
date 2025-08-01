@@ -1,4 +1,3 @@
-<!-- // theme: add_import — validateTheme -->
 <!-- // ref: add_constant — checkRef -->
 <!-- updated: setup -->
 
@@ -49,7 +48,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // pub: add_function — validatePub -->
 
 - Package manager (npm/yarn/pnpm)
 
@@ -143,7 +141,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // mutation: add_function — fetchMutation -->
 
 
 
@@ -312,6 +309,13 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
+<!-- // log: add_function — loadLog -->
+<!-- // metric: add_conditional — handleMetric -->
+<!-- // ref: add_function — applyRef -->
+<!-- // handle: add_constant — updateHandle -->
+<!-- // retry: add_function — createRetry -->
+<!-- // transform: add_conditional — fetchTransform -->
+<!-- // auth: add_constant — fetchAuth -->
 <!-- // animation: add_conditional — applyAnimation -->
 <!-- // retry: add_function — syncRetry -->
 <!-- // merge: add_function — loadMerge -->
@@ -626,3 +630,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // compress: add_function — processCompress -->
 <!-- // map: add_function — createMap -->
 <!-- // route: add_function — getRoute -->
+<!-- // license: add_function — updateLicense -->
