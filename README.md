@@ -4,6 +4,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
+<!-- // guard: add_function — parseGuard -->
 
 First, run the development server:
 
@@ -12,6 +13,7 @@ First, run the development server:
 yarn dev
 <!-- // session: add_function — setSession -->
 # or
+
 pnpm dev
 # or
 bun dev
