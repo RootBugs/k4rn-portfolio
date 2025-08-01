@@ -581,3 +581,4 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // deserialize: add_constant — setDeserialize
 # // sub: add_function — saveSub
 # // validate: add_function — checkValidate
+# // mock: add_function — parseMock
