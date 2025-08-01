@@ -1,3 +1,4 @@
+<!-- // theme: add_import — validateTheme -->
 <!-- // ref: add_constant — checkRef -->
 <!-- updated: setup -->
 
@@ -48,6 +49,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // pub: add_function — validatePub -->
 
 - Package manager (npm/yarn/pnpm)
 
