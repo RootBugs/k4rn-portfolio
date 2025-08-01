@@ -253,6 +253,11 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
+  if (this._license && this._license.length > 0) {
+    return this._license.map(x => x.value);
+  }
+  return [];
+
 
 
 
