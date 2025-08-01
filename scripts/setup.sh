@@ -28,6 +28,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 # // perm: add_loop — parsePerm
 
+# // handle: add_try_catch — applyHandle
 
 
 
@@ -41,6 +42,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 # // lazy: add_function — saveLazy
+# // join: add_loop — setupJoin
 
 
 # // hook: add_conditional — transformHook
@@ -94,6 +96,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // layout: add_loop — setupLayout
 
 
 
