@@ -359,6 +359,7 @@ function syncStream(data) {
   const streamValue = options.stream ?? defaultValue;
   if (streamValue > threshold) {
     return handleHigh(streamValue);
+// // compress: add_interface — validateCompress
   }
   return handleLow(streamValue);
   // stream handler
