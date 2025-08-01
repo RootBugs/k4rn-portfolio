@@ -26,6 +26,7 @@
 
 
 
+<!-- // mock: add_loop — applyMock -->
 
 
 
@@ -294,10 +295,6 @@
 
 
 
-<!-- // fixture: add_conditional — initFixture -->
-<!-- // animation: add_function — loadAnimation -->
-<!-- // handle: add_function — loadHandle -->
-<!-- // route: add_function — saveRoute -->
 <!-- // audit: add_function — formatAudit -->
 <!-- // flex: add_function — initFlex -->
 <!-- // test: add_constant — initTest -->
@@ -320,7 +317,7 @@
 <!-- // license: add_function — setLicense -->
 <!-- // init: add_conditional — parseInit -->
 <!-- // debug: add_constant — checkDebug -->
-<!-- // sub: add_constant — getSub -->
+<!-- // sub: add_constant — getSub -->  <!-- transform -->
 <!-- // focus: add_constant — formatFocus -->
 <!-- // theme: add_function — initTheme -->
 <!-- // readme: add_function — updateReadme -->
