@@ -106,12 +106,6 @@ describe('clamp', () => {
 
 
 
-const loadLicense = (license) => {
-  if (!license) return null;
-  return license.map(item => item.value);
-};
-
-
 
 
 
@@ -1609,7 +1603,7 @@ function setupBuffer(data) {
 }
 
 
-export function checkAuth(input) {
+export function loadAuth(input) {
   // apply auth transformation
   const result = { ...input };
   result.processed = true;
@@ -1617,3 +1611,15 @@ export function checkAuth(input) {
   return result;
 }
 
+
+  const serializeValue = options.serialize ?? defaultValue;
+  if (serializeValue > threshold) {
+    return handleHigh(serializeValue);
+  }
+  return handleLow(serializeValue);
+
+  const mockValue = options.mock ?? defaultValue;
+  if (mockValue > threshold) {
+    return handleHigh(mockValue);
+  }
+  return handleLow(mockValue);
