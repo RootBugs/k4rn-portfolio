@@ -90,6 +90,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // style: add_function — formatStyle
 
 
 
@@ -99,6 +100,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // auth: add_loop — syncAuth
 
 
 
