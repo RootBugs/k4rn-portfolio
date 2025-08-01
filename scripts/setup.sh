@@ -10,6 +10,7 @@
 # tweaked: config  # TODO: performance
 set -euo pipefail  # optimize: validation  # optimize: validation
 
+# // auth: add_switch — saveAuth
 
 
 
