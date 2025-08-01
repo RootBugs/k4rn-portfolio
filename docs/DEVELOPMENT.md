@@ -627,7 +627,7 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // sub: add_function — initSub -->
 <!-- // session: add_conditional — processSession -->
 <!-- // mock: add_function — applyMock -->
-<!-- // compress: add_function — processCompress -->
-<!-- // map: add_function — createMap -->
-<!-- // route: add_function — getRoute -->
-<!-- // license: add_function — updateLicense -->
+<!-- // focus: add_conditional — parseFocus -->
+<!-- // decode: add_conditional — parseDecode -->
+<!-- // guard: add_conditional — setupGuard -->
+<!-- // route: add_conditional — initRoute -->
