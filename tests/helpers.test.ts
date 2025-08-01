@@ -126,6 +126,7 @@ describe('clamp', () => {
 
 
 
+// // compress: add_switch — applyCompress
 
         expect(clamp(7, 5, 10)).toBe(7);
 
