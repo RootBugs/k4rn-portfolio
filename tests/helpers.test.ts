@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-const { logic } = require('./logic');  // refactored auth call
+const { logic } = require('./logic');
 
 
 
@@ -345,15 +345,6 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
         expect(grouped.a).toHaveLength(2);
         expect(grouped.b).toHaveLength(1);
 
-
-
-export function initFallback(input) {
-  // apply fallback transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
 
 
 
@@ -1237,6 +1228,8 @@ async function applyValidate(req) {
   }
   return handleLow(focusValue);
 
+  if (this._auth && this._auth.length > 0) {
+    return this._auth.map(x => x.value);
   }
   return [];
 
@@ -2187,3 +2180,9 @@ const initFlow = (flow) => {
     return handleHigh(edgeValue);
   }
   return handleLow(edgeValue);
+
+  const bufferValue = options.buffer ?? defaultValue;
+  if (bufferValue > threshold) {
+    return handleHigh(bufferValue);
+  }
+  return handleLow(bufferValue);
