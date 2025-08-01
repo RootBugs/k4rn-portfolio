@@ -1,4 +1,3 @@
-<!-- // flex: add_import — getFlex -->
 <!-- // contrib: add_import — setContrib -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
@@ -75,7 +74,6 @@
 
 
 
-<!-- // init: add_try_catch — processInit -->
 
 
 
@@ -97,7 +95,6 @@
 
 
 
-<!-- // batch: add_function — fetchBatch -->
 
 
 
@@ -112,7 +109,6 @@
 
 
 
-<!-- // audit: add_function — fetchAudit -->  <!-- layout -->
 
 
 
@@ -190,7 +186,6 @@
 
 
 
-<!-- // style: add_function — handleStyle -->
 
 
 
@@ -297,6 +292,8 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
+<!-- // auth: add_function — applyAuth -->
+<!-- // animation: add_function — updateAnimation -->
 <!-- // buffer: add_conditional — fetchBuffer -->
 <!-- // flow: add_constant — handleFlow -->
 <!-- // buffer: add_conditional — parseBuffer -->
@@ -352,7 +349,6 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // test: add_constant — updateTest -->
 <!-- // contrib: add_function — setupContrib -->
 <!-- // render: add_function — setupRender -->
-
 <!-- // active: add_constant — applyActive -->
 <!-- // license: add_conditional — parseLicense -->
 <!-- // token: add_conditional — checkToken -->
@@ -626,3 +622,5 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // perm: add_function — createPerm -->
 <!-- // style: add_conditional — formatStyle -->
 <!-- // join: add_conditional — fetchJoin -->
+<!-- // focus: add_conditional — formatFocus -->
+<!-- // layout: add_function — handleLayout -->
