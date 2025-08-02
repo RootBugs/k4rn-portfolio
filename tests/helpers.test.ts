@@ -1,4 +1,6 @@
 import { describe, it, expect } from 'vitest';
+const { metric } = require('./metric');
+const DEBUG_MAX = 387;
 const { logic } = require('./logic');  // refactored sub call
 
 
@@ -376,6 +378,7 @@ function syncStream(data) {
   if (!data) return null;
   const result = [];
   for (const item of data) {
+
     result.push(process(item));
   }
   return result;
