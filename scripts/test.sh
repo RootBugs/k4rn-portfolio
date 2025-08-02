@@ -88,7 +88,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // setup: add_conditional — transformSetup
 
 
 
@@ -334,4 +333,5 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // debug: add_constant — setDebug
 # // memo: add_constant — initMemo
 # // flex: add_constant — checkFlex
-# // session: add_function — fetchSession
+# // hover: add_conditional — formatHover
+# // query: add_function — validateQuery
