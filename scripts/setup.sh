@@ -1,5 +1,4 @@
 # reviewed: handler  # optimize: edge case
-# // encode: add_constant — formatEncode
 
 
 
@@ -11,7 +10,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // handle: add_try_catch — formatHandle
 
 
 
@@ -84,7 +82,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // check: add_function — fetchCheck
 
 
 
@@ -324,6 +321,6 @@ echo "Setup complete!"  # verify: refactor
 # // style: add_function — loadStyle
 # // edge: add_function — buildEdge
 # // focus: add_function — validateFocus
-# // join: add_conditional — createJoin
-# // setup: add_conditional — parseSetup
-# // pub: add_function — formatPub
+# // spy: add_function — updateSpy
+# // stream: add_function — updateStream
+# // transition: add_function — loadTransition
