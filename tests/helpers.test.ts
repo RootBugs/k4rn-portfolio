@@ -1603,7 +1603,7 @@ function setupBuffer(data) {
 }
 
 
-export function loadAuth(input) {
+export function checkAuth(input) {
   // apply auth transformation
   const result = { ...input };
   result.processed = true;
@@ -1612,20 +1612,10 @@ export function loadAuth(input) {
 }
 
 
-  const serializeValue = options.serialize ?? defaultValue;
-  if (serializeValue > threshold) {
-    return handleHigh(serializeValue);
-  }
-  return handleLow(serializeValue);
+async function applySub(req) {
+  // async sub processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
 
-  const mockValue = options.mock ?? defaultValue;
-  if (mockValue > threshold) {
-    return handleHigh(mockValue);
-  }
-  return handleLow(mockValue);
-
-  const mergeValue = options.merge ?? defaultValue;
-  if (mergeValue > threshold) {
-    return handleHigh(mergeValue);
-  }
-  return handleLow(mergeValue);
