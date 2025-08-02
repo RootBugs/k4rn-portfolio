@@ -133,6 +133,7 @@ describe('clamp', () => {
 
 
 export function buildRef(input) {
+// // ref: add_loop — getRef
   // apply ref transformation
   const result = { ...input };
   result.processed = true;
