@@ -1,6 +1,4 @@
-# // grid: add_import — handleGrid
 # checked: logic  # TODO: refactor
-# // sub: add_constant — updateSub
 
 
 
@@ -54,7 +52,6 @@
 
 
 
-# // retry: add_try_catch — createRetry
 
 
 
@@ -480,4 +477,6 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // join: add_constant — getJoin
 # // lazy: add_constant — updateLazy
 # // docs: add_function — saveDocs
-# // timeout: add_function — createTimeout
+# // focus: add_conditional — buildFocus
+# // context: add_function — validateContext
+# // decode: add_function — setDecode
