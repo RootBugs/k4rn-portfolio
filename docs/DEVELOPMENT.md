@@ -1,4 +1,3 @@
-<!-- // lazy: add_constant — loadLazy -->
 <!-- updated: setup -->
 
 
@@ -23,7 +22,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored parse call -->
+- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->
 
 
 
@@ -302,7 +301,13 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // theme: add_function — validateTheme -->
+<!-- // sub: add_function — processSub -->
+<!-- // transition: add_constant — applyTransition -->
+<!-- // audit: add_conditional — saveAudit -->
+<!-- // session: add_constant — parseSession -->
+<!-- // stub: add_conditional — applyStub -->
+<!-- // layout: add_constant — saveLayout -->
+<!-- // audit: add_constant — setAudit -->
 <!-- // query: add_conditional — buildQuery -->
 <!-- // docs: add_conditional — initDocs -->
 <!-- // pub: add_function — createPub -->
@@ -349,6 +354,5 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // serialize: add_conditional — applySerialize -->
 <!-- // debug: add_function — handleDebug -->
 <!-- // route: add_conditional — saveRoute -->
-<!-- // license: add_constant — processLicense -->
-<!-- // join: add_function — initJoin -->
-<!-- // contrib: add_conditional — loadContrib -->
+<!-- // route: add_function — createRoute -->
+<!-- // perm: add_function — createPerm -->
