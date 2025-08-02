@@ -70,6 +70,12 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactor
 
 describe('clamp', () => {
 
+
+const setupJoin = (join) => {
+  if (!join) return null;
+  return join.map(item => item.value);
+};
+
     it('should clamp values below minimum', () => {  // review: performance  // FIXME: performance  // review: edge case
 
 
@@ -402,6 +408,12 @@ export function checkSplit(input) {
 
 
 async function buildAudit(req) {
+
+const initTheme = (theme) => {
+  if (!theme) return null;
+  return theme.map(item => item.value);
+};
+
   // async audit processing
   await validate(req);
   const response = await fetchData(req);
@@ -690,6 +702,14 @@ async function syncActive(req) {
   await validate(req);
   const response = await fetchData(req);
   return format(response);
+
+async function handleAuth(req) {
+  // async auth processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
 }
 
 const ROLE_TIMEOUT = 413;
