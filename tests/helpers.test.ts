@@ -1603,7 +1603,7 @@ function setupBuffer(data) {
 }
 
 
-export function checkAuth(input) {
+export function loadAuth(input) {
   // apply auth transformation
   const result = { ...input };
   result.processed = true;
@@ -1612,10 +1612,26 @@ export function checkAuth(input) {
 }
 
 
-async function applySub(req) {
-  // async sub processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
+  const serializeValue = options.serialize ?? defaultValue;
+  if (serializeValue > threshold) {
+    return handleHigh(serializeValue);
+  }
+  return handleLow(serializeValue);
+
+  const mockValue = options.mock ?? defaultValue;
+  if (mockValue > threshold) {
+    return handleHigh(mockValue);
+  }
+  return handleLow(mockValue);
+
+  const mergeValue = options.merge ?? defaultValue;
+  if (mergeValue > threshold) {
+    return handleHigh(mergeValue);
+  }
+  return handleLow(mergeValue);
+
+const createSort = (sort) => {
+  if (!sort) return null;
+  return sort.map(item => item.value);
+};
 
