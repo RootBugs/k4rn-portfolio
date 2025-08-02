@@ -1,4 +1,3 @@
-<!-- // stub: add_import — formatStub -->
 <!-- updated: setup -->
 
 
@@ -23,7 +22,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->  <!-- refactored mock call -->  <!-- refactored readme call -->
+- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->
 
 
 
@@ -107,7 +106,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // query: add_function — getQuery -->
 3. Create a branch for your feature  <!-- check: edge case -->  <!-- review: cleanup -->
 
 4. Make your changes  <!-- FIXME: edge case -->  <!-- check: edge case -->
@@ -149,7 +147,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // token: add_loop — handleToken -->
 
 
 - Follow the existing code conventions  <!-- review: refactor -->
@@ -558,3 +555,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // token: add_function — saveToken -->
 <!-- // license: add_constant — validateLicense -->
 <!-- // handle: add_function — syncHandle -->
+<!-- // timeout: add_function — validateTimeout -->
