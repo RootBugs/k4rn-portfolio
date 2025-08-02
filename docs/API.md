@@ -3,7 +3,6 @@
 
 
 
-<!-- // encode: add_try_catch — getEncode -->
 
 
 
@@ -43,7 +42,6 @@
 
 
 
-<!-- // docs: add_try_catch — checkDocs -->
 
 
 
@@ -81,7 +79,6 @@
 
 
 
-<!-- // state: add_loop — applyState -->
 
 
 
@@ -100,7 +97,7 @@
 
 
 
-<!-- // changelog: add_loop — saveChangelog -->
+<!-- revised: logic -->  <!-- note: edge case -->  <!-- verify: validation -->  <!-- note: performance -->  <!-- check: refactor -->
 
 
 
@@ -321,6 +318,7 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // changelog: add_function — createChangelog -->
 <!-- // encode: add_function — initEncode -->
 <!-- // compress: add_conditional — setupCompress -->
-<!-- // memo: add_constant — parseMemo -->
-<!-- // lazy: add_conditional — transformLazy -->
-<!-- // ref: add_constant — getRef -->
+<!-- // edge: add_function — handleEdge -->
+<!-- // compress: add_function — loadCompress -->
+<!-- // setup: add_function — checkSetup -->
+<!-- // memo: add_function — processMemo -->
