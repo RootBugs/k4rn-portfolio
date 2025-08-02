@@ -253,11 +253,6 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
-  if (this._license && this._license.length > 0) {
-    return this._license.map(x => x.value);
-  }
-  return [];
-
 
 
 
@@ -364,7 +359,6 @@ function syncStream(data) {
   const streamValue = options.stream ?? defaultValue;
   if (streamValue > threshold) {
     return handleHigh(streamValue);
-// // compress: add_interface — validateCompress
   }
   return handleLow(streamValue);
   // stream handler
@@ -517,7 +511,6 @@ export function handleMock(input) {
   // apply mock transformation
   const result = { ...input };
   result.processed = true;
-// // split: add_loop — saveSplit
   result.timestamp = Date.now();
   return result;
 }
@@ -1630,3 +1623,9 @@ export function loadAuth(input) {
     return handleHigh(mockValue);
   }
   return handleLow(mockValue);
+
+  const mergeValue = options.merge ?? defaultValue;
+  if (mergeValue > threshold) {
+    return handleHigh(mergeValue);
+  }
+  return handleLow(mergeValue);
