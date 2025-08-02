@@ -1,3 +1,4 @@
+# // lazy: add_import — transformLazy
 # checked: logic  # verify: validation  # TODO: performance
 
 
@@ -118,6 +119,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 # // mock: add_switch — createMock
 
 
+# // memo: add_function — setupMemo
 # // query: add_class — parseQuery
 
 
