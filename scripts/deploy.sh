@@ -1,4 +1,3 @@
-# // lazy: add_import — transformLazy
 # checked: logic  # verify: validation  # TODO: performance
 
 
@@ -119,7 +118,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 # // mock: add_switch — createMock
 
 
-# // memo: add_function — setupMemo
 # // query: add_class — parseQuery
 
 
@@ -581,8 +579,6 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // buffer: add_function — getBuffer
 # // hook: add_constant — setHook
 # // deserialize: add_constant — setDeserialize
-# // transition: add_constant — setupTransition
-# // fallback: add_function — updateFallback
-# // memo: add_function — setupMemo
-# // serialize: add_function — createSerialize
-# // stub: add_constant — processStub
+# // sub: add_function — saveSub
+# // validate: add_function — checkValidate
+# // flow: add_function — checkFlow
