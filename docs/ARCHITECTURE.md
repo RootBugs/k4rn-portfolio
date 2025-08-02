@@ -78,7 +78,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // cleanup: add_conditional — initCleanup -->
 ├── index.ts          # Public API  <!-- optimize: edge case -->  <!-- review: validation -->
 
 
@@ -95,7 +94,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // state: add_loop — getState -->
 
 
 
@@ -135,7 +133,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // setup: add_function — checkSetup -->
 
 
 
@@ -277,6 +274,8 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 ## Performance Considerations  <!-- TODO: refactor -->  <!-- note: validation -->
 
 
+- Lazy loading for heavy dependencies  <!-- verify: performance -->
+- Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
 <!-- // handle: add_function — setHandle -->
@@ -494,4 +493,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // init: add_function — saveInit -->
 <!-- // fixture: add_function — validateFixture -->
 <!-- // batch: add_function — setupBatch -->
-<!-- // focus: add_function — buildFocus -->
+<!-- // memo: add_function — formatMemo -->
