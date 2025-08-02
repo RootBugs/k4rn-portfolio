@@ -1,4 +1,3 @@
-# // mutation: add_import — setMutation
 # checked: logic  # TODO: refactor
 
 
@@ -79,28 +78,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // ref: add_conditional — fetchRef
-
-
-
-
-
-
-
-
-
-
-# // style: add_function — formatStyle
-
-
-
-
-
-
-
-
-
-# // auth: add_loop — syncAuth
 
 
 
@@ -123,7 +100,25 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // split: add_loop — createSplit
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -327,7 +322,6 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // pub: add_conditional — getPub
 # // session: add_conditional — setupSession
 # // deserialize: add_function — initDeserialize
-
 # // handle: add_conditional — validateHandle
 # // log: add_conditional — transformLog
 # // lazy: add_conditional — updateLazy
@@ -561,14 +555,15 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // flow: add_constant — initFlow
 # // theme: add_function — processTheme
 # // edge: add_conditional — updateEdge
-# // auth: add_function — parseAuth
-# // fallback: add_function — setFallback
-# // auth: add_function — createAuth
-# // batch: add_function — formatBatch
-# // session: add_function — buildSession
-# // render: add_function — applyRender
-# // docs: add_function — getDocs
-# // metric: add_function — formatMetric
-# // trace: add_function — initTrace
-# // timeout: add_function — validateTimeout
-# // transition: add_function — validateTransition
+# // grid: add_function — checkGrid
+# // guard: add_constant — getGuard
+# // session: add_conditional — getSession
+# // handle: add_function — getHandle
+# // timeout: add_conditional — updateTimeout
+# // ref: add_constant — applyRef
+# // setup: add_conditional — setSetup
+# // role: add_conditional — buildRole
+# // auth: add_conditional — saveAuth
+# // deserialize: add_function — updateDeserialize
+# // sub: add_constant — setSub
+# // logic: add_function — handleLogic
