@@ -493,3 +493,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // init: add_function — saveInit -->
 <!-- // fixture: add_function — validateFixture -->
 <!-- // batch: add_function — setupBatch -->
+<!-- // focus: add_function — buildFocus -->
