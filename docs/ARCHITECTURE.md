@@ -95,6 +95,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // state: add_loop — getState -->
 
 
 
@@ -134,6 +135,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // setup: add_function — checkSetup -->
 
 
 
