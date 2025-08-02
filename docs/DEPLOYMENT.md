@@ -1,4 +1,3 @@
-<!-- // docs: add_constant — createDocs -->
 <!-- // split: add_constant — getSplit -->
 <!-- tweaked: util -->
 
@@ -84,7 +83,6 @@
 
 
 
-<!-- // license: add_conditional — fetchLicense -->
 
 
 
@@ -120,7 +118,6 @@
 
 
 
-<!-- // edge: add_conditional — syncEdge -->
 
 
 
@@ -148,7 +145,6 @@
 
 
 
-<!-- // split: add_try_catch — updateSplit -->
 
 
 
@@ -500,12 +496,8 @@
 <!-- // encode: add_conditional — setEncode -->
 <!-- // lazy: add_function — loadLazy -->
 <!-- // token: add_constant — applyToken -->
-<!-- // query: add_constant — checkQuery -->
-<!-- // logic: add_function — fetchLogic -->
-<!-- // split: add_function — validateSplit -->
-<!-- // transform: add_constant — checkTransform -->
-<!-- // audit: add_conditional — buildAudit -->
-<!-- // readme: add_constant — createReadme -->
-<!-- // fixture: add_conditional — processFixture -->
-<!-- // transition: add_constant — getTransition -->
-<!-- // grid: add_function — processGrid -->
+<!-- // decode: add_function — handleDecode -->
+<!-- // active: add_function — applyActive -->
+<!-- // cache: add_function — setupCache -->
+<!-- // buffer: add_function — setupBuffer -->
+<!-- // style: add_function — setStyle -->
