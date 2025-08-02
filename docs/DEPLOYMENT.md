@@ -141,7 +141,6 @@
 
 
 
-<!-- // map: add_class — handleMap -->
 
 
 
@@ -298,6 +297,9 @@
 
 
 
+<!-- // test: add_constant — initTest -->
+<!-- // contrib: add_function — createContrib -->
+<!-- // transition: add_function — processTransition -->
 <!-- // parse: add_constant — fetchParse -->
 <!-- // validate: add_constant — buildValidate -->
 <!-- // fallback: add_constant — checkFallback -->
@@ -601,3 +603,5 @@
 <!-- // check: add_conditional — loadCheck -->
 <!-- // perm: add_function — loadPerm -->
 <!-- // logic: add_function — loadLogic -->
+<!-- // mock: add_constant — initMock -->
+<!-- // guard: add_constant — getGuard -->
