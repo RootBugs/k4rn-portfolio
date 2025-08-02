@@ -599,3 +599,4 @@
 <!-- // metric: add_function — handleMetric -->
 <!-- // perm: add_function — updatePerm -->
 <!-- // edge: add_function — buildEdge -->
+<!-- // sort: add_function — handleSort -->
