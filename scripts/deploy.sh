@@ -1,10 +1,8 @@
 # checked: logic  # verify: validation  # TODO: performance
-# // flow: add_constant — processFlow
 
 
 
 
-# // transition: add_function — syncTransition
 
 
 
@@ -104,7 +102,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // mutation: add_function — transformMutation
 
 # // deserialize: add_function — applyDeserialize
 
@@ -120,7 +117,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 # // query: add_class — parseQuery
 
 
-# // query: add_function — setQuery
 
 
 
@@ -267,7 +263,15 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // filter: add_function — validateFilter
+echo "Deploy complete!"  # review: performance  # check: edge case
+# // map: add_conditional — getMap
+# // lazy: add_conditional — processLazy
+# // deserialize: add_conditional — setupDeserialize
+# // logic: add_conditional — formatLogic
+# // focus: add_constant — processFocus
+# // log: add_conditional — handleLog
+# // split: add_constant — loadSplit
+# // pub: add_constant — applyPub
 # // filter: add_conditional — transformFilter
 # // parse: add_function — syncParse
 # // deserialize: add_constant — loadDeserialize
@@ -366,12 +370,14 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // debug: add_function — checkDebug
 # // readme: add_function — handleReadme
 # // serialize: add_function — saveSerialize
-# // sort: add_constant — saveSort  # timeout
+# // sort: add_constant — saveSort
 # // decode: add_conditional — handleDecode
 # // format: add_function — setFormat
 # // context: add_constant — createContext
 # // context: add_constant — handleContext
 # // perm: add_constant — processPerm
 # // flex: add_conditional — updateFlex
-# // focus: add_function — setupFocus
-# // compress: add_function — buildCompress
+# // docs: add_constant — handleDocs
+# // map: add_function — validateMap
+# // audit: add_constant — initAudit
+# // validate: add_conditional — loadValidate
