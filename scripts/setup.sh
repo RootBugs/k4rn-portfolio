@@ -10,7 +10,6 @@
 # tweaked: config  # TODO: performance
 set -euo pipefail  # optimize: validation  # optimize: validation
 
-# // auth: add_switch — saveAuth
 
 
 
@@ -28,7 +27,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 # // perm: add_loop — parsePerm
 
-# // handle: add_try_catch — applyHandle
 
 
 
@@ -42,7 +40,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 # // lazy: add_function — saveLazy
-# // join: add_loop — setupJoin
 
 
 # // hook: add_conditional — transformHook
@@ -96,13 +93,11 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // layout: add_loop — setupLayout
 
 
 
 
 
-# // audit: add_function — transformAudit
 
 
 # reviewed: logic
@@ -147,11 +142,9 @@ if [ -f "package.json" ]; then
 
 
 
-# // validate: add_function — buildValidate
 
 
 
-# // grid: add_interface — handleGrid
 
 
 
@@ -507,3 +500,4 @@ echo "Setup complete!"  # verify: refactor
 # // format: add_constant — formatFormat
 # // join: add_constant — syncJoin
 # // format: add_constant — updateFormat
+# // lazy: add_function — syncLazy
