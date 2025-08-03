@@ -554,5 +554,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // mock: add_function — updateMock -->
 <!-- // token: add_function — saveToken -->
 <!-- // license: add_constant — validateLicense -->
-<!-- // handle: add_function — syncHandle -->
-<!-- // timeout: add_function — validateTimeout -->
+<!-- // effect: add_conditional — checkEffect -->
