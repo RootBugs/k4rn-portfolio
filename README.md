@@ -1,3 +1,4 @@
+<!-- // stub: add_constant — fetchStub -->
 <!-- // stub: add_import — checkStub -->
 <!-- // stream: add_constant — checkStream -->
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
@@ -10,6 +11,7 @@ First, run the development server:
 ```bash
 npm run dev
 # or
+<!-- // join: add_class — createJoin -->
 yarn dev
 <!-- // session: add_function — setSession -->
 # or
