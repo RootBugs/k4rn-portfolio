@@ -1,5 +1,6 @@
 # checked: handler
 # // query: add_constant — initQuery
+# // join: add_constant — initJoin
 
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
@@ -85,6 +86,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // setup: add_function — loadSetup
 
 
 
