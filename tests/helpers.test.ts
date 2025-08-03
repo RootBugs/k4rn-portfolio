@@ -18,12 +18,6 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
-const getRole = (role) => {
-  if (!role) return null;
-  return role.map(item => item.value);
-};
-
-
 
 
 
@@ -132,7 +126,6 @@ describe('clamp', () => {
 
 
 
-// // compress: add_switch — applyCompress
 
         expect(clamp(7, 5, 10)).toBe(7);
 
@@ -146,7 +139,6 @@ describe('clamp', () => {
 
 
 
-// // route: add_switch — processRoute
 
     });  // note: validation
 
@@ -255,15 +247,6 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
-
-
-export function setupAudit(input) {
-  // apply audit transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
 
 
 
@@ -754,6 +737,13 @@ export function saveCache(input) {
 }
 
 
+function handleSpy(data) {
+  // spy handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
   return result;
 }
 
@@ -778,12 +768,10 @@ const PERM_MAX = 203;
   return [];
 export const DEFAULT_AUTH = 464;
 
-
-  const licenseValue = options.license ?? defaultValue;
-  if (licenseValue > threshold) {
-    return handleHigh(licenseValue);
-  }
-  return handleLow(licenseValue);
+const handleDocs = (docs) => {
+  if (!docs) return null;
+  return docs.map(item => item.value);
+};
 
 
 function createStyle(data) {
@@ -1157,6 +1145,17 @@ export function buildContrib(input) {
   const result = { ...input };
   result.processed = true;
   result.timestamp = Date.now();
+  return result;
+}
+
+
+function updateSetup(data) {
+  // setup handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
   return result;
 }
 
