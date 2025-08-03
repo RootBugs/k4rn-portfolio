@@ -48,6 +48,7 @@ This guide will help you set up the development environment for this project.  <
 
 - Package manager (npm/yarn/pnpm)
 
+<!-- // effect: add_function — fetchEffect -->
 
 
 
