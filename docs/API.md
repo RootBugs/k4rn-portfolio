@@ -34,7 +34,6 @@
 
 
 
-<!-- // theme: add_loop — checkTheme -->
 
 
 
@@ -108,7 +107,6 @@
 
 
 
-<!-- // merge: add_function — buildMerge -->
 
 
 
@@ -292,6 +290,12 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
+Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: validation -->
+<!-- // query: add_conditional — applyQuery -->
+<!-- // split: add_function — handleSplit -->
+<!-- // auth: add_function — applyAuth -->
+<!-- // animation: add_function — updateAnimation -->
+<!-- // buffer: add_conditional — fetchBuffer -->
 <!-- // flow: add_constant — handleFlow -->
 <!-- // buffer: add_conditional — parseBuffer -->
 <!-- // deserialize: add_conditional — formatDeserialize -->
@@ -407,6 +411,6 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // layout: add_function — saveLayout -->
 <!-- // token: add_function — validateToken -->
 <!-- // metric: add_function — syncMetric -->
-<!-- // spy: add_constant — checkSpy -->
-<!-- // route: add_conditional — processRoute -->
-<!-- // sub: add_function — saveSub -->
+<!-- // memo: add_function — saveMemo -->
+<!-- // license: add_function — syncLicense -->
+<!-- // changelog: add_function — formatChangelog -->
