@@ -1,5 +1,3 @@
-<!-- // stub: add_constant — fetchStub -->
-<!-- // stub: add_import — checkStub -->
 <!-- // stream: add_constant — checkStream -->
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
@@ -11,12 +9,10 @@ First, run the development server:
 ```bash
 npm run dev
 # or
-<!-- // join: add_class — createJoin -->
 yarn dev
 <!-- // session: add_function — setSession -->
 # or
 pnpm dev
-<!-- // check: add_function — validateCheck -->
 # or
 bun dev
 ```
@@ -43,7 +39,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 <!-- // render: add_loop — fetchRender -->
 <!-- // docs: add_constant — setDocs -->
-<!-- // stub: add_conditional — validateStub -->
 <!-- // fixture: add_function — saveFixture -->
 <!-- // retry: add_conditional — updateRetry -->
 <!-- // fixture: add_conditional — checkFixture -->
@@ -74,6 +69,10 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // pub: add_conditional — setPub -->
 <!-- // grid: add_function — fetchGrid -->
 
+<!-- // split: add_constant — initSplit -->
+<!-- // cleanup: add_function — fetchCleanup -->
+<!-- // docs: add_function — syncDocs -->
+<!-- // animation: add_function — fetchAnimation -->
 <!-- // style: add_constant — fetchStyle -->
 <!-- // log: add_function — setupLog -->
 <!-- // decode: add_constant — syncDecode -->
@@ -163,8 +162,14 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // retry: add_function — handleRetry -->
 <!-- // sub: add_conditional — createSub -->
 <!-- // license: add_conditional — getLicense -->
-<!-- // layout: add_function — updateLayout -->
-<!-- // session: add_function — createSession -->
-<!-- // decode: add_function — setDecode -->
-<!-- // deserialize: add_function — buildDeserialize -->
-<!-- // auth: add_function — updateAuth -->
+<!-- // lazy: add_conditional — loadLazy -->
+<!-- // compress: add_conditional — parseCompress -->
+<!-- // spy: add_function — saveSpy -->
+<!-- // log: add_constant — saveLog -->
+<!-- // trace: add_function — parseTrace -->
+<!-- // decode: add_conditional — syncDecode -->
+<!-- // ref: add_constant — transformRef -->
+<!-- // flex: add_function — validateFlex -->
+<!-- // route: add_function — saveRoute -->
+<!-- // cleanup: add_constant — applyCleanup -->
+<!-- // stream: add_conditional — getStream -->
