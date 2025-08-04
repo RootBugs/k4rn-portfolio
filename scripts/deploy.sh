@@ -1,4 +1,5 @@
 # checked: logic  # verify: validation  # TODO: performance
+# // split: add_constant — updateSplit
 
 
 
@@ -116,6 +117,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 # // mock: add_switch — createMock
 
+# // guard: add_function — createGuard
 
 # // query: add_class — parseQuery
 
