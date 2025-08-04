@@ -1,6 +1,7 @@
 # checked: handler
 # // query: add_constant — initQuery
 # // join: add_constant — initJoin
+# // sort: add_constant — transformSort
 
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
@@ -102,6 +103,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // init: add_conditional — getInit
 
 
 
