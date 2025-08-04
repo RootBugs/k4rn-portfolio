@@ -415,3 +415,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // memo: add_function — saveMemo -->
 <!-- // license: add_function — syncLicense -->
 <!-- // changelog: add_function — formatChangelog -->
+<!-- // transition: add_function — createTransition -->
