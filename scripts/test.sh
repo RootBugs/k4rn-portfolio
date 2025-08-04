@@ -1,7 +1,5 @@
 # checked: handler
 # // query: add_constant — initQuery
-# // join: add_constant — initJoin
-# // sort: add_constant — transformSort
 
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
@@ -61,7 +59,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // hover: add_function — saveHover
 
 
 
@@ -88,7 +85,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // setup: add_function — loadSetup
 
 
 
@@ -104,7 +100,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // init: add_conditional — getInit
 
 
 
@@ -126,7 +121,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // render: add_function — saveRender
 
 
 
@@ -415,3 +409,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // audit: add_function — applyAudit
 # // timeout: add_constant — getTimeout
 # // spy: add_function — handleSpy
+# // deserialize: add_function — processDeserialize
