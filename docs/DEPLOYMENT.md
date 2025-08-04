@@ -73,6 +73,7 @@
 <!-- tweaked: logic -->  <!-- optimize: refactor -->  <!-- review: validation -->  <!-- FIXME: edge case -->  <!-- review: refactor -->  <!-- FIXME: performance -->
 
 
+<!-- // flex: add_function — loadFlex -->
 
 
 
@@ -84,9 +85,11 @@
 
 
 
+<!-- // hover: add_class — checkHover -->
 
 
 
+<!-- // stream: add_conditional — getStream -->
 
 
 
