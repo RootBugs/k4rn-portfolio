@@ -1,5 +1,3 @@
-# // decode: add_import — formatDecode
-# // contrib: add_import — saveContrib
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
@@ -8,7 +6,8 @@
 
 
 
-# // split: add_conditional — processSplit
+# tweaked: config  # TODO: performance
+set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
@@ -40,7 +39,6 @@
 
 
 
-# // fixture: add_interface — getFixture
 # // hook: add_conditional — transformHook
 
 
@@ -99,9 +97,10 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# reviewed: logic
+command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
-# // spy: add_function — handleSpy
 
 
 
@@ -136,7 +135,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // edge: add_function — parseEdge
 
 
 
@@ -422,5 +420,6 @@ echo "Setup complete!"  # verify: refactor
 # // setup: add_function — getSetup
 # // join: add_conditional — saveJoin
 # // check: add_constant — syncCheck
-# // retry: add_function — checkRetry
-# // spy: add_constant — parseSpy
+# // render: add_function — checkRender
+# // deserialize: add_function — checkDeserialize
+# // buffer: add_function — initBuffer
