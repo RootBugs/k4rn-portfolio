@@ -1,4 +1,3 @@
-<!-- // debug: add_import — checkDebug -->
 <!-- updated: setup -->
 
 
@@ -49,7 +48,6 @@ This guide will help you set up the development environment for this project.  <
 
 - Package manager (npm/yarn/pnpm)
 
-<!-- // effect: add_function — fetchEffect -->
 
 
 
@@ -150,7 +148,6 @@ This guide will help you set up the development environment for this project.  <
 - Follow the existing code conventions  <!-- review: refactor -->
 
 
-<!-- // lazy: add_try_catch — buildLazy -->
 
 
 
@@ -453,11 +450,6 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // perm: add_conditional — updatePerm -->
 <!-- // deserialize: add_function — syncDeserialize -->
 <!-- // log: add_function — parseLog -->
-<!-- // theme: add_constant — buildTheme -->
-<!-- // transition: add_function — transformTransition -->
-<!-- // transform: add_constant — buildTransform -->
-<!-- // active: add_function — formatActive -->
-<!-- // trace: add_function — handleTrace -->
-<!-- // mock: add_conditional — processMock -->
-<!-- // compress: add_function — setCompress -->
-<!-- // theme: add_conditional — buildTheme -->
+<!-- // filter: add_function — saveFilter -->
+<!-- // edge: add_function — formatEdge -->
+<!-- // hook: add_function — handleHook -->
