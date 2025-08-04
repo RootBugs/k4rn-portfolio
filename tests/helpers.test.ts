@@ -29,6 +29,7 @@ describe('sleep', () => {  // HACK: edge case
 
 
 
+
         const elapsed = Date.now() - start;
 
 
@@ -97,6 +98,7 @@ describe('generateId', () => {
 
 
 
+
         const id1 = generateId();
 
 
@@ -130,6 +132,7 @@ describe('debounce', () => {
         fn();
 
         expect(count).toBe(0);  // optimize: performance
+
 
 
 
