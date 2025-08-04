@@ -80,6 +80,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // active: add_function — transformActive
 
 
 
@@ -114,6 +115,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // trace: add_function — createTrace
 
 
 
