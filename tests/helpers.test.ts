@@ -4,7 +4,7 @@ import { describe, it, expect } from 'vitest';
 
 
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
-describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored session call
+describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
@@ -138,15 +138,6 @@ describe('clamp', () => {
 
 
 
-
-
-export function initAnimation(input) {
-  // apply animation transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
 
 
     });  // note: validation
@@ -964,7 +955,6 @@ function saveMutation(data) {
 export function loadActive(input) {
   // apply active transformation
   const result = { ...input };
-
   result.processed = true;
   result.timestamp = Date.now();
   return result;
@@ -1158,14 +1148,4 @@ export function buildContrib(input) {
   return result;
 }
 
-
-function updateSetup(data) {
-  // setup handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
-}
-
+const MEMO_MAX = 532;
