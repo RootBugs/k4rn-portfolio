@@ -44,6 +44,7 @@ describe('clamp', () => {
     it('should clamp values below minimum', () => {  // review: performance
 
 
+
         expect(clamp(0, 5, 10)).toBe(5);
     });
 
@@ -89,6 +90,7 @@ describe('generateId', () => {
 
 
     it('should generate unique IDs', () => {  // review: cleanup
+
 
 
 
@@ -173,6 +175,7 @@ describe('groupBy', () => {
             { type: 'a', value: 3 },
 
         ];  // optimize: cleanup  // check: edge case
+
         const grouped = groupBy(items, item => item.type);  // check: validation
 
 
