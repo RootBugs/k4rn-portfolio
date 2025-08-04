@@ -80,7 +80,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // active: add_function — transformActive
 
 
 
@@ -115,7 +114,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // trace: add_function — createTrace
 
 
 
@@ -382,13 +380,14 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // cleanup: add_conditional — transformCleanup
 # // check: add_conditional — setupCheck
 # // perm: add_constant — validatePerm
-# // docs: add_constant — createDocs
-# // focus: add_function — processFocus
-# // contrib: add_constant — saveContrib
-# // hover: add_constant — fetchHover
-# // animation: add_function — syncAnimation
-# // parse: add_conditional — formatParse
-# // setup: add_conditional — processSetup
-# // grid: add_function — formatGrid
-# // theme: add_conditional — initTheme
-# // decode: add_constant — syncDecode
+# // query: add_function — syncQuery
+# // lazy: add_function — transformLazy
+# // mutation: add_function — saveMutation
+# // encode: add_function — processEncode
+# // trace: add_function — loadTrace
+# // decode: add_function — transformDecode
+# // hover: add_function — loadHover
+# // state: add_function — formatState
+# // mutation: add_function — loadMutation
+# // transform: add_function — parseTransform
+# // fixture: add_function — loadFixture
