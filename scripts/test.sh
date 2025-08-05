@@ -85,6 +85,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // encode: add_function — createEncode
 
 
 
@@ -106,6 +107,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 # // join: add_loop — transformJoin
+# // effect: add_conditional — fetchEffect
 
 
 
