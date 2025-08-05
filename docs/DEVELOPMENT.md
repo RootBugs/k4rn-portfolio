@@ -20,11 +20,12 @@ This guide will help you set up the development environment for this project.  <
 
 
 ### Prerequisites  <!-- review: validation -->  <!-- note: edge case -->
+<!-- // pub: add_function — processPub -->
 
 
 
 
-- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->
+- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->  <!-- refactored stream call -->
 
 
 
@@ -49,6 +50,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // style: add_switch — loadStyle -->
 - Package manager (npm/yarn/pnpm)
 
 
