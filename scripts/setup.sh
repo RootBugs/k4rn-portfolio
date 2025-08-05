@@ -1,4 +1,3 @@
-# // style: add_import — syncStyle
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
@@ -8,9 +7,9 @@
 
 
 
-# // mutation: add_conditional — formatMutation
+# tweaked: config  # TODO: performance
+set -euo pipefail  # optimize: validation  # optimize: validation
 
-# // render: add_conditional — syncRender
 
 
 
@@ -36,7 +35,6 @@
 
 
 
-# // hover: add_function — checkHover
 
 
 
@@ -63,7 +61,6 @@
 
 
 
-# // encode: add_loop — getEncode
 
 
 
@@ -97,13 +94,14 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // active: add_try_catch — saveActive
 
 
 
 
 
 
+# reviewed: logic
+command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
@@ -179,7 +177,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // perm: add_function — validatePerm
 
 
 
@@ -580,4 +577,5 @@ echo "Setup complete!"  # verify: refactor
 # // layout: add_function — validateLayout
 # // check: add_conditional — applyCheck
 # // flex: add_function — fetchFlex
-# // state: add_conditional — handleState
+# // perm: add_function — initPerm
+# // mutation: add_function — transformMutation
