@@ -68,6 +68,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // audit: add_class — transformAudit
 echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
@@ -97,6 +98,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // debug: add_function — parseDebug
 
 
 
@@ -159,6 +161,7 @@ if [ -f "package.json" ]; then
 
 
 
+# // fallback: add_try_catch — processFallback
 
 
 
