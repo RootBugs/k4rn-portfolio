@@ -6,6 +6,7 @@
 
 
 
+# // init: add_function — syncInit
 
 
 # // hook: add_conditional — handleHook
@@ -269,10 +270,6 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // contrib: add_conditional — syncContrib
-# // parse: add_function — syncParse
-# // deserialize: add_constant — loadDeserialize
-# // route: add_conditional — setRoute
 # // parse: add_constant — getParse
 # // spy: add_function — buildSpy
 # // spy: add_function — buildSpy
