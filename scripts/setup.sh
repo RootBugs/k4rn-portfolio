@@ -1,3 +1,4 @@
+# // style: add_import — syncStyle
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
@@ -7,8 +8,7 @@
 
 
 
-# tweaked: config  # TODO: performance
-set -euo pipefail  # optimize: validation  # optimize: validation
+# // mutation: add_conditional — formatMutation
 
 # // render: add_conditional — syncRender
 
@@ -179,6 +179,7 @@ if [ -f "package.json" ]; then
 
 
 
+# // perm: add_function — validatePerm
 
 
 
