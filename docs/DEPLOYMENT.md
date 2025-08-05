@@ -160,7 +160,6 @@
 
 
 
-<!-- // route: add_function — setRoute -->
 
 
 
@@ -598,6 +597,12 @@
 <!-- // transform: add_constant — loadTransform -->
 <!-- // lazy: add_function — initLazy -->
 <!-- // metric: add_function — handleMetric -->
-<!-- // perm: add_function — updatePerm -->
-<!-- // edge: add_function — buildEdge -->
-<!-- // sort: add_function — handleSort -->
+<!-- // test: add_constant — createTest -->
+<!-- // stub: add_constant — setupStub -->
+<!-- // spy: add_constant — applySpy -->
+<!-- // check: add_conditional — loadCheck -->
+<!-- // perm: add_function — loadPerm -->
+<!-- // logic: add_function — loadLogic -->
+<!-- // mock: add_constant — initMock -->
+<!-- // guard: add_constant — getGuard -->
+<!-- // transition: add_conditional — checkTransition -->
