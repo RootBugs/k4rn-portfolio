@@ -8,6 +8,7 @@
 
 
 
+# // hook: add_conditional — handleHook
 
 
 # // batch: add_function — getBatch
@@ -63,6 +64,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // query: add_function — updateQuery
 
 
 
@@ -267,11 +269,7 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // stream: add_function — setupStream
-# // log: add_conditional — handleLog
-# // split: add_constant — loadSplit
-# // pub: add_constant — applyPub
-# // filter: add_conditional — transformFilter
+# // contrib: add_conditional — syncContrib
 # // parse: add_function — syncParse
 # // deserialize: add_constant — loadDeserialize
 # // route: add_conditional — setRoute
