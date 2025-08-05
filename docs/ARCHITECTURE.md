@@ -1,4 +1,3 @@
-<!-- // validate: add_import — updateValidate -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -182,7 +181,6 @@ Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
 
 
-<!-- // effect: add_conditional — formatEffect -->
 
 
 
@@ -573,3 +571,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // buffer: add_conditional — applyBuffer -->
 <!-- // timeout: add_function — validateTimeout -->
 <!-- // logic: add_function — transformLogic -->
+<!-- // memo: add_constant — initMemo -->
