@@ -58,8 +58,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- updated: handler -->  <!-- note: performance -->
-<!-- // encode: add_function — transformEncode -->
+<!-- // memo: add_loop — syncMemo -->
 
 
 
