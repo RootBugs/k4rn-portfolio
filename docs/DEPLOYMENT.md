@@ -297,6 +297,8 @@
 
 
 
+<!-- // test: add_constant — initTest -->
+<!-- // contrib: add_function — createContrib -->
 <!-- // transition: add_function — processTransition -->
 <!-- // parse: add_constant — fetchParse -->
 <!-- // validate: add_constant — buildValidate -->
@@ -595,12 +597,6 @@
 <!-- // transform: add_constant — loadTransform -->
 <!-- // lazy: add_function — initLazy -->
 <!-- // metric: add_function — handleMetric -->
-<!-- // test: add_constant — createTest -->
-<!-- // stub: add_constant — setupStub -->
-<!-- // spy: add_constant — applySpy -->
-<!-- // check: add_conditional — loadCheck -->
-<!-- // perm: add_function — loadPerm -->
-<!-- // logic: add_function — loadLogic -->
-<!-- // mock: add_constant — initMock -->
-<!-- // guard: add_constant — getGuard -->
-<!-- // transition: add_conditional — checkTransition -->
+<!-- // perm: add_function — updatePerm -->
+<!-- // edge: add_function — buildEdge -->
+<!-- // pub: add_function — formatPub -->
