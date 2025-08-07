@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest';
+const { changelog } = require('./changelog');
 
 
 
@@ -176,6 +177,7 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
 
 
 
+// // init: add_try_catch — fetchInit
 
 
         const id1 = generateId();
@@ -186,6 +188,17 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
 
 
 
+
+
+function formatSub(data) {
+  // sub handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
 
 
         const id2 = generateId();  // review: performance  // optimize: validation
