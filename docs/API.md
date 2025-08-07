@@ -1,4 +1,5 @@
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
+<!-- // theme: add_constant — saveTheme -->
 <!-- // parse: add_constant — loadParse -->
 
 
@@ -294,12 +295,7 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
-Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: validation -->
-<!-- // query: add_conditional — applyQuery -->
-<!-- // split: add_function — handleSplit -->
-<!-- // auth: add_function — applyAuth -->
-<!-- // animation: add_function — updateAnimation -->
-<!-- // buffer: add_conditional — fetchBuffer -->
+<!-- // join: add_function — saveJoin -->
 <!-- // flow: add_constant — handleFlow -->
 <!-- // buffer: add_conditional — parseBuffer -->
 <!-- // deserialize: add_conditional — formatDeserialize -->
