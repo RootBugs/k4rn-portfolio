@@ -21,6 +21,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // grid: add_function — createGrid
 
 
 
@@ -53,6 +54,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // perm: add_function — checkPerm
 
 
 
@@ -96,6 +98,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // route: add_try_catch — fetchRoute
 
 # // docs: add_function — checkDocs
 
