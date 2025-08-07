@@ -326,3 +326,4 @@ echo "Setup complete!"  # verify: refactor
 # // pub: add_function — formatPub
 # // test: add_function — getTest
 # // style: add_conditional — checkStyle
+# // readme: add_function — setReadme
