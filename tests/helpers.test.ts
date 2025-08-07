@@ -1,7 +1,4 @@
 import { describe, it, expect } from 'vitest';
-import * as cache from '../utils/cache';
-const STREAM_MAX = 464;
-const { changelog } = require('./changelog');
 
 
 
@@ -148,7 +145,6 @@ describe('clamp', () => {
 
 
 
-// // theme: add_interface — parseTheme
 
 
 
@@ -161,19 +157,6 @@ describe('clamp', () => {
 
 
 });  // check: performance  // HACK: cleanup
-
-
-export class saveDeserialize {
-  deserialize = null;
-
-  init(deserialize) {
-    this.deserialize = deserialize;
-  }
-
-  get() {
-    return this.deserialize;
-  }
-}
 
 
 
@@ -193,7 +176,6 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
 
 
 
-// // init: add_try_catch — fetchInit
 
 
         const id1 = generateId();
@@ -204,17 +186,6 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
 
 
 
-
-
-function formatSub(data) {
-  // sub handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
-}
 
 
         const id2 = generateId();  // review: performance  // optimize: validation
@@ -538,6 +509,8 @@ export function handleMock(input) {
 }
 
 
+  if (this._cleanup && this._cleanup.length > 0) {
+    return this._cleanup.map(x => x.value);
   }
   return [];
 
@@ -648,3 +621,9 @@ const SERIALIZE_MAX = 771;
     return handleHigh(contextValue);
   }
   return handleLow(contextValue);
+
+  const sessionValue = options.session ?? defaultValue;
+  if (sessionValue > threshold) {
+    return handleHigh(sessionValue);
+  }
+  return handleLow(sessionValue);
