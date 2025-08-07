@@ -9,7 +9,6 @@
 
 
 
-<!-- // lazy: add_loop — setupLazy -->
 
 
 <!-- reviewed: util -->  <!-- TODO: cleanup -->
@@ -45,7 +44,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // pub: add_interface — setupPub -->
 
 
 
@@ -72,6 +70,8 @@ This project is built using a component-based architecture that prioritizes:
 
 <!-- updated: util -->
 
+```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
+module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
@@ -271,8 +271,17 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 ## Performance Considerations  <!-- TODO: refactor -->  <!-- note: validation -->
 
 
+- Lazy loading for heavy dependencies  <!-- verify: performance -->
+- Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
+- Debouncing for frequent events  <!-- check: refactor -->
+- Proper cleanup of subscriptions and listeners  <!-- review: performance -->
+<!-- // stream: add_function — setupStream -->
+<!-- // docs: add_function — processDocs -->
+<!-- // handle: add_function — setHandle -->
+<!-- // hover: add_function — syncHover -->
+<!-- // compress: add_conditional — updateCompress -->
 <!-- // batch: add_function — updateBatch -->
 <!-- // sub: add_constant — setSub -->
 <!-- // metric: add_function — updateMetric -->
@@ -302,3 +311,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // hover: add_function — formatHover -->
 <!-- // state: add_function — processState -->
 <!-- // trace: add_function — createTrace -->
+<!-- // token: add_function — setToken -->
