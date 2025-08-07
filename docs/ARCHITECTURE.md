@@ -5,6 +5,7 @@
 
 
 
+<!-- // cache: add_class — loadCache -->
 
 
 
@@ -82,6 +83,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // merge: add_conditional — parseMerge -->
 
 
 
@@ -92,6 +94,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // serialize: add_try_catch — setSerialize -->
 
 
 
