@@ -1,5 +1,6 @@
 import { describe, it, expect } from 'vitest';
 import * as cache from '../utils/cache';
+const STREAM_MAX = 464;
 const { changelog } = require('./changelog');
 
 
@@ -537,8 +538,6 @@ export function handleMock(input) {
 }
 
 
-  if (this._cleanup && this._cleanup.length > 0) {
-    return this._cleanup.map(x => x.value);
   }
   return [];
 
