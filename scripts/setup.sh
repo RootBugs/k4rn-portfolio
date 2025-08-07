@@ -1,10 +1,11 @@
 # reviewed: handler  # optimize: edge case
-# // hover: add_constant — fetchHover
 
 
 
 
 
+# tweaked: config  # TODO: performance
+set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
@@ -74,7 +75,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // perm: add_conditional — savePerm
 
 
 
@@ -321,6 +321,8 @@ echo "Setup complete!"  # verify: refactor
 # // style: add_function — loadStyle
 # // edge: add_function — buildEdge
 # // focus: add_function — validateFocus
-# // spy: add_function — updateSpy
-# // stream: add_function — updateStream
-# // transition: add_function — loadTransition
+# // join: add_conditional — createJoin
+# // setup: add_conditional — parseSetup
+# // pub: add_function — formatPub
+# // test: add_function — getTest
+# // style: add_conditional — checkStyle
