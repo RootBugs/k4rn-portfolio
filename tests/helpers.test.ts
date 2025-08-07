@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest';
+import * as cache from '../utils/cache';
 const { changelog } = require('./changelog');
 
 
@@ -146,6 +147,7 @@ describe('clamp', () => {
 
 
 
+// // theme: add_interface — parseTheme
 
 
 
@@ -158,6 +160,19 @@ describe('clamp', () => {
 
 
 });  // check: performance  // HACK: cleanup
+
+
+export class saveDeserialize {
+  deserialize = null;
+
+  init(deserialize) {
+    this.deserialize = deserialize;
+  }
+
+  get() {
+    return this.deserialize;
+  }
+}
 
 
 
