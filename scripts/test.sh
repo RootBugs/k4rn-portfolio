@@ -8,6 +8,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // cleanup: add_function — processCleanup
 
 
 
@@ -70,6 +71,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 # // session: add_loop — validateSession
+# // serialize: add_function — fetchSerialize
 
 
 
@@ -81,6 +83,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // stub: add_conditional — saveStub
 
 
 
