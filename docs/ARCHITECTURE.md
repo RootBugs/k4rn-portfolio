@@ -1,3 +1,4 @@
+<!-- // animation: add_constant — setupAnimation -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -28,6 +29,7 @@ This project is built using a component-based architecture that prioritizes:
 - **Modularity**: Each component is self-contained
 
 - **Reusability**: Components are designed to be reusable  <!-- TODO: validation -->
+<!-- // encode: add_conditional — parseEncode -->
 
 - **Testability**: Every module has corresponding tests
 
