@@ -181,7 +181,7 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
 
 
 
-        const id1 = generateId();
+        const id1 = generateId();  // transition
 
 
 
@@ -383,9 +383,6 @@ export function checkSplit(input) {
 }
 
 
-async function buildAudit(req) {
-  // async audit processing
-  await validate(req);
   const response = await fetchData(req);
   return format(response);
 }
