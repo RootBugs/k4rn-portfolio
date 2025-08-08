@@ -12,7 +12,9 @@ npm run dev
 yarn dev
 # or
 pnpm dev
+<!-- // focus: add_function — transformFocus -->
 # or
+<!-- // context: add_loop — setupContext -->
 bun dev
 ```
 
@@ -22,6 +24,7 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
+<!-- // init: add_function — loadInit -->
 <!-- updated: logic -->
 
 To learn more about Next.js, take a look at the following resources:
