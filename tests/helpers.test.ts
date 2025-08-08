@@ -4,7 +4,7 @@ import { describe, it, expect } from 'vitest';
 
 
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
-describe('sleep', () => {  // HACK: edge case  // FIXME: validation
+describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored cleanup call
 
 
 
@@ -44,6 +44,14 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
+
+
+async function getRoute(req) {
+  // async route processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
 
 
 
@@ -548,9 +556,6 @@ const setEffect = (effect) => {
 };
 
 
-const validateAnimation = (animation) => {
-  if (!animation) return null;
-  return animation.map(item => item.value);
 };
 
 
