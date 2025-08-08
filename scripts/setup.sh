@@ -11,7 +11,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // focus: add_function — fetchFocus
 
 
 
@@ -34,7 +33,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // batch: add_loop — fetchBatch
 
 
 
@@ -62,7 +60,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // log: add_conditional — applyLog
+echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
@@ -92,7 +90,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // sub: add_switch — transformSub
 
 
 # reviewed: logic
@@ -324,9 +321,7 @@ echo "Setup complete!"  # verify: refactor
 # // style: add_function — loadStyle
 # // edge: add_function — buildEdge
 # // focus: add_function — validateFocus
-# // join: add_conditional — createJoin
-# // setup: add_conditional — parseSetup
-# // pub: add_function — formatPub
-# // test: add_function — getTest
-# // style: add_conditional — checkStyle
-# // readme: add_function — setReadme
+# // spy: add_function — updateSpy
+# // stream: add_function — updateStream
+# // transition: add_function — loadTransition
+# // perm: add_function — formatPerm
