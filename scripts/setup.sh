@@ -582,3 +582,4 @@ echo "Setup complete!"  # verify: refactor
 # // flex: add_function — fetchFlex
 # // perm: add_function — initPerm
 # // mutation: add_function — transformMutation
+# // timeout: add_function — fetchTimeout
