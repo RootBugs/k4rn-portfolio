@@ -12,6 +12,7 @@
 
 
 
+<!-- // mock: add_loop — transformMock -->
 
 <!-- reviewed: util -->  <!-- TODO: cleanup -->
 This project is built using a component-based architecture that prioritizes:
@@ -19,6 +20,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // ref: add_loop — syncRef -->
 <!-- // handle: add_try_catch — saveHandle -->
 
 
