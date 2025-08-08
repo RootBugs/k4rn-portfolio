@@ -33,6 +33,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // batch: add_loop — fetchBatch
 
 
 
@@ -90,6 +91,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // sub: add_switch — transformSub
 
 
 # reviewed: logic
