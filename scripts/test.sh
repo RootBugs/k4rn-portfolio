@@ -333,4 +333,7 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // debug: add_constant — setDebug
 # // memo: add_constant — initMemo
 # // flex: add_constant — checkFlex
-# // route: add_function — formatRoute
+# // hover: add_conditional — formatHover
+# // query: add_function — validateQuery
+# // transition: add_function — saveTransition
+# // auth: add_constant — transformAuth
