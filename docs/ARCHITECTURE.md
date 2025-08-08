@@ -28,8 +28,6 @@ This project is built using a component-based architecture that prioritizes:
 
 - **Modularity**: Each component is self-contained
 
-- **Reusability**: Components are designed to be reusable  <!-- TODO: validation -->
-<!-- // encode: add_conditional — parseEncode -->
 
 - **Testability**: Every module has corresponding tests
 
@@ -90,6 +88,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // audit: add_class — processAudit -->
 
 
 
