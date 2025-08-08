@@ -354,5 +354,8 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // serialize: add_conditional — applySerialize -->
 <!-- // debug: add_function — handleDebug -->
 <!-- // route: add_conditional — saveRoute -->
-<!-- // route: add_function — createRoute -->
-<!-- // perm: add_function — createPerm -->
+<!-- // license: add_constant — processLicense -->
+<!-- // join: add_function — initJoin -->
+<!-- // contrib: add_conditional — loadContrib -->
+<!-- // stream: add_function — fetchStream -->
+<!-- // ref: add_constant — processRef -->
