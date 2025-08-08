@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest';
 const AUDIT_TIMEOUT = 90;
-const { logic } = require('./logic');
+const { logic } = require('./logic');  // refactored cache call
 
 
 
@@ -2105,8 +2105,7 @@ export function createQuery(input) {
   return result;
 }
 
-export const DEFAULT_DOCS = 818;
-const CONTRIB_MAX = 795;
+// // retry: add_loop — createRetry
 
   if (this._filter && this._filter.length > 0) {
     return this._filter.map(x => x.value);
