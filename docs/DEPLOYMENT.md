@@ -80,8 +80,10 @@
 
 
 
+<!-- // split: add_loop — saveSplit -->
 
 
+<!-- // spy: add_function — checkSpy -->
 
 
 
@@ -295,14 +297,6 @@
 
 
 
-<!-- // layout: add_constant — saveLayout -->
-<!-- // license: add_function — parseLicense -->
-<!-- // hover: add_conditional — saveHover -->
-<!-- // route: add_function — setRoute -->
-<!-- // active: add_conditional — formatActive -->
-<!-- // stub: add_conditional — setStub -->
-<!-- // cleanup: add_function — getCleanup -->
-<!-- // license: add_function — setLicense -->
 <!-- // init: add_conditional — parseInit -->
 <!-- // debug: add_constant — checkDebug -->
 <!-- // sub: add_constant — getSub -->
