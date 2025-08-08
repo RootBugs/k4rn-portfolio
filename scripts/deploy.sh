@@ -60,8 +60,10 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // active: add_function — handleActive
 
 
+# // stub: add_class — createStub
 
 
 
