@@ -8,7 +8,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // cleanup: add_function — processCleanup
 
 
 
@@ -21,7 +20,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // grid: add_function — createGrid
 
 
 
@@ -54,7 +52,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // perm: add_function — checkPerm
 
 
 
@@ -73,19 +70,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 # // session: add_loop — validateSession
-# // serialize: add_function — fetchSerialize
-
-
-
-
-
-
-
-
-
-
-
-# // stub: add_conditional — saveStub
 
 
 
@@ -98,7 +82,17 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // route: add_try_catch — fetchRoute
+
+
+
+
+
+
+
+
+
+
+
 
 # // docs: add_function — checkDocs
 
@@ -339,5 +333,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // debug: add_constant — setDebug
 # // memo: add_constant — initMemo
 # // flex: add_constant — checkFlex
-# // hover: add_conditional — formatHover
-# // query: add_function — validateQuery
+# // route: add_function — formatRoute
