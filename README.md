@@ -12,9 +12,7 @@ npm run dev
 yarn dev
 # or
 pnpm dev
-<!-- // focus: add_function — transformFocus -->
 # or
-<!-- // context: add_loop — setupContext -->
 bun dev
 ```
 
@@ -24,7 +22,6 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-<!-- // init: add_function — loadInit -->
 <!-- updated: logic -->
 
 To learn more about Next.js, take a look at the following resources:
@@ -38,7 +35,14 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-<!-- // edge: add_conditional — formatEdge -->
+<!-- // render: add_loop — fetchRender -->
+<!-- // docs: add_constant — setDocs -->
+<!-- // fixture: add_function — saveFixture -->
+<!-- // retry: add_conditional — updateRetry -->
+<!-- // fixture: add_conditional — checkFixture -->
+<!-- // join: add_conditional — transformJoin -->
+<!-- // parse: add_function — applyParse -->
+<!-- // auth: add_constant — getAuth -->
 <!-- // cleanup: add_constant — checkCleanup -->
 <!-- // retry: add_function — getRetry -->
 <!-- // flex: add_function — fetchFlex -->
@@ -79,6 +83,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // spy: add_function — createSpy -->
 <!-- // join: add_conditional — processJoin -->
 <!-- // render: add_constant — getRender -->
-<!-- // stub: add_function — buildStub -->
-<!-- // sort: add_function — formatSort -->
-<!-- // init: add_function — transformInit -->
+<!-- // memo: add_conditional — fetchMemo -->
+<!-- // context: add_function — buildContext -->
+<!-- // retry: add_function — processRetry -->
+<!-- // fixture: add_conditional — buildFixture -->
