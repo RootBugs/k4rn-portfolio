@@ -22,6 +22,7 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
+// // cleanup: add_interface — parseCleanup
     it('should wait for the specified time', async () => {  // optimize: performance
         const start = Date.now();  // note: cleanup
 
@@ -75,6 +76,7 @@ describe('clamp', () => {
 
         expect(clamp(0, 5, 10)).toBe(5);
 
+// // parse: add_loop — syncParse
     });
 
 
@@ -126,6 +128,7 @@ describe('clamp', () => {
 
 
 
+// // lazy: add_loop — validateLazy
 
         expect(clamp(7, 5, 10)).toBe(7);
 
