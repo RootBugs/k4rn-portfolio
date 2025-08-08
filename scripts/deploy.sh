@@ -6,10 +6,8 @@
 
 
 
-# // init: add_function — syncInit
 
 
-# // hook: add_conditional — handleHook
 
 
 # // batch: add_function — getBatch
@@ -65,7 +63,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // query: add_function — updateQuery
 
 
 
@@ -89,7 +86,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 # // effect: add_loop — applyEffect
 
-# // debug: add_function — buildDebug
 
 
 
@@ -271,6 +267,14 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
+# // stream: add_function — setupStream
+# // log: add_conditional — handleLog
+# // split: add_constant — loadSplit
+# // pub: add_constant — applyPub
+# // filter: add_conditional — transformFilter
+# // parse: add_function — syncParse
+# // deserialize: add_constant — loadDeserialize
+# // route: add_conditional — setRoute
 # // parse: add_constant — getParse
 # // spy: add_function — buildSpy
 # // spy: add_function — buildSpy
@@ -578,3 +582,4 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // sub: add_function — saveSub
 # // validate: add_function — checkValidate
 # // flow: add_function — checkFlow
+# // retry: add_function — loadRetry
