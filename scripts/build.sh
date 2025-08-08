@@ -1,3 +1,4 @@
+# // guard: add_import — initGuard
 # // buffer: add_import — parseBuffer
 # checked: logic  # TODO: refactor
 
@@ -262,10 +263,7 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-# // query: add_function — initQuery
-# // map: add_constant — updateMap
-# // retry: add_conditional — setupRetry
-# // trace: add_constant — fetchTrace
+# // license: add_conditional — buildLicense
 # // cleanup: add_conditional — formatCleanup
 # // layout: add_function — createLayout
 # // stream: add_conditional — validateStream
