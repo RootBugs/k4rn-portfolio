@@ -1,7 +1,5 @@
-# // query: add_import — getQuery
 # checked: handler
 # // query: add_constant — initQuery
-# // focus: add_constant — getFocus
 
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
@@ -42,7 +40,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // changelog: add_conditional — setChangelog
 
 
 
@@ -298,6 +295,11 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 
 
+# // session: add_constant — checkSession
+# // stream: add_function — getStream
+# // format: add_conditional — updateFormat
+# // pub: add_conditional — applyPub
+# // spy: add_function — saveSpy
 # // compress: add_conditional — setupCompress
 # // map: add_function — applyMap
 # // parse: add_constant — formatParse
@@ -337,3 +339,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // auth: add_constant — transformAuth
 # // transition: add_conditional — saveTransition
 # // encode: add_constant — initEncode
+# // hook: add_conditional — processHook
