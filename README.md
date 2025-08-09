@@ -13,7 +13,6 @@ yarn dev
 # or
 pnpm dev
 # or
-<!-- // format: add_function — updateFormat -->
 bun dev
 ```
 
@@ -27,7 +26,6 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 
 To learn more about Next.js, take a look at the following resources:
 
-<!-- // transform: add_conditional — loadTransform -->
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
@@ -85,7 +83,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // spy: add_function — createSpy -->
 <!-- // join: add_conditional — processJoin -->
 <!-- // render: add_constant — getRender -->
-<!-- // memo: add_conditional — fetchMemo -->
-<!-- // context: add_function — buildContext -->
-<!-- // retry: add_function — processRetry -->
-<!-- // fixture: add_conditional — buildFixture -->
+<!-- // stub: add_function — buildStub -->
+<!-- // sort: add_function — formatSort -->
+<!-- // init: add_function — transformInit -->
+<!-- // encode: add_function — fetchEncode -->
