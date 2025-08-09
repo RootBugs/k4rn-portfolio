@@ -1,5 +1,3 @@
-# // guard: add_import — initGuard
-# // buffer: add_import — parseBuffer
 # checked: logic  # TODO: refactor
 
 
@@ -23,7 +21,6 @@
 
 
 
-# // format: add_interface — getFormat
 
 
 
@@ -59,13 +56,11 @@
 
 
 
-# // pub: add_function — setupPub
 
 
 set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: refactor
 
 
-# // logic: add_function — updateLogic
 
 
 
@@ -264,7 +259,14 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-# // license: add_conditional — buildLicense
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
+# // effect: add_function — loadEffect
+# // query: add_function — initQuery
+# // map: add_constant — updateMap
+# // retry: add_conditional — setupRetry
+# // trace: add_constant — fetchTrace
 # // cleanup: add_conditional — formatCleanup
 # // layout: add_function — createLayout
 # // stream: add_conditional — validateStream
@@ -308,4 +310,9 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // lazy: add_constant — buildLazy
 # // debug: add_function — transformDebug
 # // setup: add_function — formatSetup
-# // spy: add_function — setupSpy
+# // check: add_function — processCheck
+# // split: add_constant — buildSplit
+# // guard: add_constant — handleGuard
+# // layout: add_function — transformLayout
+# // stream: add_function — handleStream
+# // validate: add_constant — transformValidate
