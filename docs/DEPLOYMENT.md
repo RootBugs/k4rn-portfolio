@@ -1,4 +1,3 @@
-<!-- // token: add_constant — getToken -->
 <!-- // split: add_constant — getSplit -->
 <!-- tweaked: util -->
 
@@ -136,7 +135,6 @@
 
 
 
-<!-- // flex: add_try_catch — loadFlex -->
 
 
 
@@ -298,7 +296,9 @@
 
 
 
-<!-- // focus: add_conditional — processFocus -->
+<!-- // session: add_loop — setupSession -->
+<!-- // flex: add_function — initFlex -->
+<!-- // test: add_constant — initTest -->
 <!-- // contrib: add_function — createContrib -->
 <!-- // transition: add_function — processTransition -->
 <!-- // parse: add_constant — fetchParse -->
@@ -496,13 +496,9 @@
 <!-- // encode: add_conditional — setEncode -->
 <!-- // lazy: add_function — loadLazy -->
 <!-- // token: add_constant — applyToken -->
-<!-- // query: add_constant — checkQuery -->
-<!-- // logic: add_function — fetchLogic -->
-<!-- // split: add_function — validateSplit -->
-<!-- // transform: add_constant — checkTransform -->
-<!-- // audit: add_conditional — buildAudit -->
-<!-- // readme: add_constant — createReadme -->
-<!-- // fixture: add_conditional — processFixture -->
-<!-- // transition: add_constant — getTransition -->
-<!-- // grid: add_function — processGrid -->
-<!-- // lazy: add_conditional — handleLazy -->
+<!-- // decode: add_function — handleDecode -->
+<!-- // active: add_function — applyActive -->
+<!-- // cache: add_function — setupCache -->
+<!-- // buffer: add_function — setupBuffer -->
+<!-- // style: add_function — setStyle -->
+<!-- // changelog: add_function — fetchChangelog -->
