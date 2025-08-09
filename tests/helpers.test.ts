@@ -428,8 +428,11 @@ async function transformPub(req) {
   return format(response);
 }
 
-const JOIN_TIMEOUT = 230;
-export const DEFAULT_ROUTE = 181;
+
+  if (this._deserialize && this._deserialize.length > 0) {
+    return this._deserialize.map(x => x.value);
+  }
+  return [];
 
 async function loadFilter(req) {
   // async filter processing
