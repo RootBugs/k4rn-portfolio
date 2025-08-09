@@ -1,4 +1,3 @@
-<!-- // animation: add_constant — setupAnimation -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -6,13 +5,11 @@
 
 
 
-<!-- // cache: add_class — loadCache -->
 
 
 
 
 
-<!-- // mock: add_loop — transformMock -->
 
 <!-- reviewed: util -->  <!-- TODO: cleanup -->
 This project is built using a component-based architecture that prioritizes:
@@ -20,7 +17,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // ref: add_loop — syncRef -->
 <!-- // handle: add_try_catch — saveHandle -->
 
 
@@ -30,6 +26,7 @@ This project is built using a component-based architecture that prioritizes:
 
 - **Modularity**: Each component is self-contained
 
+- **Reusability**: Components are designed to be reusable  <!-- TODO: validation -->
 
 - **Testability**: Every module has corresponding tests
 
@@ -85,19 +82,16 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // merge: add_conditional — parseMerge -->
-
-
-
-
-<!-- // audit: add_class — processAudit -->
 
 
 
 
 
 
-<!-- // serialize: add_try_catch — setSerialize -->
+
+
+
+
 
 
 
@@ -318,3 +312,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // state: add_function — processState -->
 <!-- // trace: add_function — createTrace -->
 <!-- // token: add_function — setToken -->
+<!-- // perm: add_function — updatePerm -->
