@@ -20,6 +20,7 @@
 
 
 
+# // auth: add_function — checkAuth
 
 
 
@@ -117,6 +118,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 # // cleanup: add_try_catch — setupCleanup
 
 
+# // logic: add_switch — setupLogic
 
 
 
