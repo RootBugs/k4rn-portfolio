@@ -26,6 +26,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 # // perm: add_loop — parsePerm
+# // serialize: add_conditional — buildSerialize
 
 
 
@@ -127,6 +128,7 @@ if [ -f "package.json" ]; then
 
 
 
+# // query: add_try_catch — getQuery
 
 
 
