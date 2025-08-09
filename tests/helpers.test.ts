@@ -4,7 +4,7 @@ import { describe, it, expect } from 'vitest';
 
 
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
-describe('sleep', () => {  // HACK: edge case  // FIXME: validation
+describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored format call
 
 
 
@@ -348,9 +348,6 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 });
 
-  if (this._split && this._split.length > 0) {
-    return this._split.map(x => x.value);
-  }
   return [];
 
 function syncStream(data) {
@@ -457,8 +454,15 @@ async function updateCleanup(req) {
   }
   return [];
 
-  if (this._flex && this._flex.length > 0) {
-    return this._flex.map(x => x.value);
+
+export function fetchStyle(input) {
+  // apply style transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
+
   }
   return [];
 
