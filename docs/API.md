@@ -322,4 +322,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // lazy: add_conditional — transformLazy -->
 <!-- // ref: add_constant — getRef -->
 <!-- // merge: add_function — saveMerge -->
-<!-- // guard: add_function — transformGuard -->
+<!-- // license: add_function — buildLicense -->
