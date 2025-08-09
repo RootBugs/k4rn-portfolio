@@ -32,6 +32,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // batch: add_function — setBatch -->
 
 
 
@@ -450,12 +451,6 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // deserialize: add_function — syncDeserialize -->
 <!-- // log: add_function — parseLog -->
 
-<!-- // theme: add_constant — buildTheme -->
-<!-- // transition: add_function — transformTransition -->
-<!-- // transform: add_constant — buildTransform -->
-<!-- // active: add_function — formatActive -->
-<!-- // trace: add_function — handleTrace -->
-<!-- // mock: add_conditional — processMock -->
 <!-- // compress: add_function — setCompress -->
 <!-- // theme: add_conditional — buildTheme -->
 <!-- // stream: add_conditional — validateStream -->
