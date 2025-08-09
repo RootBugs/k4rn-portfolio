@@ -1,5 +1,6 @@
 # checked: handler
 # // query: add_constant — initQuery
+# // focus: add_constant — getFocus
 
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
@@ -40,6 +41,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // changelog: add_conditional — setChangelog
 
 
 
