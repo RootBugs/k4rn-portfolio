@@ -23,6 +23,7 @@
 
 
 set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge case
+# // metric: add_function — fetchMetric
 
 
 
@@ -62,6 +63,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // retry: add_conditional — setupRetry
 
 
 
