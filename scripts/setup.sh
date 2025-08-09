@@ -327,3 +327,4 @@ echo "Setup complete!"  # verify: refactor
 # // stream: add_function — updateStream
 # // transition: add_function — loadTransition
 # // perm: add_function — formatPerm
+# // sub: add_function — handleSub
