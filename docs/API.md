@@ -411,7 +411,7 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // layout: add_function — saveLayout -->
 <!-- // token: add_function — validateToken -->
 <!-- // metric: add_function — syncMetric -->
-<!-- // memo: add_function — saveMemo -->
-<!-- // license: add_function — syncLicense -->
-<!-- // changelog: add_function — formatChangelog -->
-<!-- // cache: add_function — parseCache -->
+<!-- // spy: add_constant — checkSpy -->
+<!-- // route: add_conditional — processRoute -->
+<!-- // sub: add_function — saveSub -->
+<!-- // sub: add_constant — buildSub -->
