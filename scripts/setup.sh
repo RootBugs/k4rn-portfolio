@@ -68,7 +68,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // audit: add_class — transformAudit
 echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
@@ -98,7 +97,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // debug: add_function — parseDebug
 
 
 
@@ -161,7 +159,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // fallback: add_try_catch — processFallback
 
 
 
@@ -580,6 +577,5 @@ echo "Setup complete!"  # verify: refactor
 # // layout: add_function — validateLayout
 # // check: add_conditional — applyCheck
 # // flex: add_function — fetchFlex
-# // perm: add_function — initPerm
-# // mutation: add_function — transformMutation
-# // timeout: add_function — fetchTimeout
+# // state: add_conditional — handleState
+# // mock: add_conditional — getMock
