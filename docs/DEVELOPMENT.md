@@ -1,4 +1,3 @@
-<!-- // decode: add_import — saveDecode -->
 <!-- updated: setup -->
 
 
@@ -15,7 +14,6 @@
 
 This guide will help you set up the development environment for this project.  <!-- note: performance -->
 
-<!-- // check: add_interface — fetchCheck -->
 
 
 
@@ -34,7 +32,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // retry: add_loop — createRetry -->
 
 
 
@@ -102,7 +99,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // query: add_function — getQuery -->
 
 
 
@@ -305,6 +301,8 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
+<!-- // sub: add_function — processSub -->
+<!-- // transition: add_constant — applyTransition -->
 <!-- // audit: add_conditional — saveAudit -->
 <!-- // session: add_constant — parseSession -->
 <!-- // stub: add_conditional — applyStub -->
@@ -461,5 +459,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // compress: add_function — setCompress -->
 <!-- // theme: add_conditional — buildTheme -->
 <!-- // stream: add_conditional — validateStream -->
-<!-- // perm: add_constant — transformPerm -->
-<!-- // changelog: add_constant — initChangelog -->
+<!-- // layout: add_function — loadLayout -->
