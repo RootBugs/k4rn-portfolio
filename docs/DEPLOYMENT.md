@@ -1,3 +1,4 @@
+<!-- // token: add_constant — getToken -->
 <!-- // split: add_constant — getSplit -->
 <!-- tweaked: util -->
 
@@ -135,6 +136,7 @@
 
 
 
+<!-- // flex: add_try_catch — loadFlex -->
 
 
 
@@ -296,9 +298,7 @@
 
 
 
-<!-- // session: add_loop — setupSession -->
-<!-- // flex: add_function — initFlex -->
-<!-- // test: add_constant — initTest -->
+<!-- // focus: add_conditional — processFocus -->
 <!-- // contrib: add_function — createContrib -->
 <!-- // transition: add_function — processTransition -->
 <!-- // parse: add_constant — fetchParse -->
