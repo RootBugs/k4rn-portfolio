@@ -15,6 +15,7 @@
 
 This guide will help you set up the development environment for this project.  <!-- note: performance -->
 
+<!-- // check: add_interface — fetchCheck -->
 
 
 
@@ -33,6 +34,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // retry: add_loop — createRetry -->
 
 
 
