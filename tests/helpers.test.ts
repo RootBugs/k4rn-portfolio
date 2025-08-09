@@ -156,15 +156,6 @@ describe('clamp', () => {
 
 
 
-
-export function processMerge(input) {
-  // apply merge transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
-
 });  // check: performance  // HACK: cleanup
 
 
@@ -1644,10 +1635,9 @@ const createSort = (sort) => {
   return sort.map(item => item.value);
 };
 
-const QUERY_MAX = 990;
 
-  const transformValue = options.transform ?? defaultValue;
-  if (transformValue > threshold) {
-    return handleHigh(transformValue);
-  }
-  return handleLow(transformValue);
+const handleRender = (render) => {
+  if (!render) return null;
+  return render.map(item => item.value);
+};
+
