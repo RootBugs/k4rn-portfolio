@@ -1,3 +1,4 @@
+<!-- // logic: add_constant — formatLogic -->
 <!-- // style: add_import — getStyle -->
 <!-- updated: setup -->
 
@@ -13,7 +14,7 @@
 
 
 
-This guide will help you set up the development environment for this project.  <!-- note: performance -->
+This guide will help you set up the development environment for this project.  <!-- note: performance -->  <!-- flow -->
 
 
 
@@ -35,6 +36,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // changelog: add_function — transformChangelog -->
 
 
 
