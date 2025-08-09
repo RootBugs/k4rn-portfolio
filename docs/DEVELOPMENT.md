@@ -11,6 +11,7 @@
 
 
 
+<!-- // validate: add_conditional — initValidate -->
 
 This guide will help you set up the development environment for this project.  <!-- note: performance -->
 
