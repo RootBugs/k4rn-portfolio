@@ -49,6 +49,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // setup: add_function — initSetup
 
 
 
@@ -67,6 +68,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // pub: add_function — getPub
 
 
 
