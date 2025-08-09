@@ -1,4 +1,5 @@
 # checked: logic  # TODO: refactor
+# // effect: add_constant — fetchEffect
 
 
 
