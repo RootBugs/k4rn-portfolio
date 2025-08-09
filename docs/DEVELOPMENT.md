@@ -27,7 +27,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // theme: add_function — setTheme -->
 
 - Git  <!-- verify: cleanup -->
 
@@ -150,7 +149,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // merge: add_function — syncMerge -->
 
 
 
@@ -461,3 +459,5 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // compress: add_function — setCompress -->
 <!-- // theme: add_conditional — buildTheme -->
 <!-- // stream: add_conditional — validateStream -->
+<!-- // perm: add_constant — transformPerm -->
+<!-- // changelog: add_constant — initChangelog -->
