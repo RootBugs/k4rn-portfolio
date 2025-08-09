@@ -46,6 +46,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 # // hook: add_conditional — transformHook
 
 
+# // batch: add_conditional — getBatch
 
 
 
