@@ -7,7 +7,6 @@
 
 
 
-<!-- // route: add_function — parseRoute -->
 
 
 
@@ -31,28 +30,6 @@
 
 
 
-<!-- // focus: add_switch — checkFocus -->
-
-
-
-
-
-
-
-<!-- // memo: add_function — validateMemo -->
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- // transform: add_loop — parseTransform -->
 
 
 
@@ -82,11 +59,28 @@
 
 
 
-<!-- // retry: add_function — setRetry -->
 
 
 
-<!-- // memo: add_function — applyMemo -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -296,6 +290,12 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
+Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: validation -->
+<!-- // query: add_conditional — applyQuery -->
+<!-- // split: add_function — handleSplit -->
+<!-- // auth: add_function — applyAuth -->
+<!-- // animation: add_function — updateAnimation -->
+<!-- // buffer: add_conditional — fetchBuffer -->
 <!-- // flow: add_constant — handleFlow -->
 <!-- // buffer: add_conditional — parseBuffer -->
 <!-- // deserialize: add_conditional — formatDeserialize -->
@@ -322,3 +322,4 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // lazy: add_conditional — transformLazy -->
 <!-- // ref: add_constant — getRef -->
 <!-- // merge: add_function — saveMerge -->
+<!-- // guard: add_function — transformGuard -->
