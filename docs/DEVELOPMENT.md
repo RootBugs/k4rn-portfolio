@@ -6,7 +6,6 @@
 <!-- tweaked: handler -->
 
 
-<!-- // role: add_function — applyRole -->
 
 <!-- // encode: add_loop — processEncode -->
 
@@ -79,7 +78,6 @@ This guide will help you set up the development environment for this project.  <
 
 1. Fork and clone the repository  <!-- note: refactor -->
 
-<!-- // ref: add_function — checkRef -->
 
 
 
@@ -201,7 +199,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // sort: add_function — setSort -->
 
 
 
@@ -634,4 +631,5 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // decode: add_conditional — parseDecode -->
 <!-- // guard: add_conditional — setupGuard -->
 <!-- // route: add_conditional — initRoute -->
-<!-- // theme: add_function — formatTheme -->
+<!-- // log: add_constant — validateLog -->
+<!-- // active: add_function — validateActive -->
