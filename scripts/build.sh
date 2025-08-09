@@ -567,3 +567,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // timeout: add_function — validateTimeout
 # // transition: add_function — validateTransition
 # // parse: add_function — setParse
+# // buffer: add_function — updateBuffer
