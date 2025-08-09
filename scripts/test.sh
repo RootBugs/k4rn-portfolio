@@ -43,7 +43,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // compress: add_loop — transformCompress
 
 
 
@@ -124,7 +123,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // ref: add_function — processRef
 
 
 
@@ -141,7 +139,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // audit: add_class — setAudit
 
 
 
@@ -501,3 +498,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // trace: add_function — updateTrace
 # // stream: add_constant — checkStream
 # // auth: add_constant — setupAuth
+# // compress: add_conditional — setupCompress
