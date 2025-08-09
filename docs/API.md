@@ -1,4 +1,3 @@
-<!-- // map: add_import — updateMap -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
 
@@ -92,7 +91,6 @@
 
 
 
-<!-- // parse: add_switch — checkParse -->
 
 
 
@@ -120,7 +118,6 @@
 
 
 
-<!-- // hook: add_try_catch — handleHook -->
 
 
 
@@ -134,7 +131,6 @@
 
 
 
-<!-- // readme: add_function — parseReadme -->
 
 
 
@@ -418,4 +414,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // memo: add_function — saveMemo -->
 <!-- // license: add_function — syncLicense -->
 <!-- // changelog: add_function — formatChangelog -->
-<!-- // transition: add_function — createTransition -->
+<!-- // cache: add_function — parseCache -->
