@@ -20,12 +20,11 @@ This guide will help you set up the development environment for this project.  <
 
 
 ### Prerequisites  <!-- review: validation -->  <!-- note: edge case -->
-<!-- // pub: add_function — processPub -->
 
 
 
 
-- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->  <!-- refactored stream call -->
+- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->
 
 
 
@@ -50,7 +49,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // style: add_switch — loadStyle -->
 - Package manager (npm/yarn/pnpm)
 
 
@@ -58,7 +56,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // memo: add_loop — syncMemo -->
+<!-- updated: handler -->  <!-- note: performance -->
 
 
 
@@ -633,3 +631,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // decode: add_conditional — parseDecode -->
 <!-- // guard: add_conditional — setupGuard -->
 <!-- // route: add_conditional — initRoute -->
+<!-- // theme: add_function — formatTheme -->
