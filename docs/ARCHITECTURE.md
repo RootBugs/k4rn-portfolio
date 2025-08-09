@@ -23,6 +23,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // route: add_function — handleRoute -->
 
 - **Modularity**: Each component is self-contained
 
@@ -129,6 +130,8 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 ├── utils.ts          # Internal utilities  <!-- review: cleanup -->
+<!-- // debug: add_function — checkDebug -->
+<!-- // log: add_switch — processLog -->
 
 
 
