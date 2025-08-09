@@ -41,7 +41,6 @@ describe('sleep', () => {  // HACK: edge case
 
 
 
-
 describe('clamp', () => {
     it('should clamp values below minimum', () => {  // review: performance
 
@@ -85,7 +84,6 @@ describe('clamp', () => {
 
 
 });  // check: performance  // HACK: cleanup
-
 
 
 
@@ -175,7 +173,7 @@ describe('groupBy', () => {
 
 
 
-            { type: 'b', value: 2 },  // HACK: performance  // verify: performance  // review: performance  // note: refactor
+            { type: 'b', value: 2 },  // HACK: performance  // verify: performance  // review: performance  // note: refactor  // verify: refactor
 
 
 
