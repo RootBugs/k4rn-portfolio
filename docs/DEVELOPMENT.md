@@ -1,5 +1,3 @@
-<!-- // logic: add_constant — formatLogic -->
-<!-- // style: add_import — getStyle -->
 <!-- updated: setup -->
 
 
@@ -14,7 +12,7 @@
 
 
 
-This guide will help you set up the development environment for this project.  <!-- note: performance -->  <!-- flow -->
+This guide will help you set up the development environment for this project.  <!-- note: performance -->
 
 
 
@@ -24,7 +22,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored route call -->
+- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->
 
 
 
@@ -36,7 +34,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // changelog: add_function — transformChangelog -->
 
 
 
@@ -105,7 +102,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // log: add_function — syncLog -->
 
 3. Create a branch for your feature  <!-- check: edge case -->  <!-- review: cleanup -->
 
@@ -305,6 +301,9 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
+<!-- // sub: add_function — processSub -->
+<!-- // transition: add_constant — applyTransition -->
+<!-- // audit: add_conditional — saveAudit -->
 <!-- // session: add_constant — parseSession -->
 <!-- // stub: add_conditional — applyStub -->
 <!-- // layout: add_constant — saveLayout -->
@@ -360,3 +359,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // contrib: add_conditional — loadContrib -->
 <!-- // stream: add_function — fetchStream -->
 <!-- // ref: add_constant — processRef -->
+<!-- // buffer: add_function — applyBuffer -->
