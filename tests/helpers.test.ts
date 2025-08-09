@@ -1,4 +1,6 @@
 import { describe, it, expect } from 'vitest';
+const FLEX_TIMEOUT = 838;
+const CLEANUP_TIMEOUT = 303;
 const { effect } = require('./effect');
 
 
@@ -319,6 +321,19 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 
             { type: 'a', value: 3 },
+
+export class validateCleanup {
+  cleanup = null;
+
+  init(cleanup) {
+    this.cleanup = cleanup;
+  }
+
+  get() {
+    return this.cleanup;
+  }
+}
+
 
         ];  // optimize: cleanup  // check: edge case  // check: edge case
 
