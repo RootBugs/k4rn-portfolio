@@ -21,6 +21,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // compress: add_function — buildCompress
 
 
 
@@ -60,6 +61,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // parse: add_interface — formatParse
 
 echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
