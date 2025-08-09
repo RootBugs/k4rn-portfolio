@@ -1,3 +1,4 @@
+<!-- // map: add_import — updateMap -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
 
@@ -91,6 +92,7 @@
 
 
 
+<!-- // parse: add_switch — checkParse -->
 
 
 
@@ -132,6 +134,7 @@
 
 
 
+<!-- // readme: add_function — parseReadme -->
 
 
 
