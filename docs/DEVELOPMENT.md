@@ -359,4 +359,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // contrib: add_conditional — loadContrib -->
 <!-- // stream: add_function — fetchStream -->
 <!-- // ref: add_constant — processRef -->
-<!-- // buffer: add_function — applyBuffer -->
+<!-- // retry: add_function — syncRetry -->
