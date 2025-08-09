@@ -124,6 +124,7 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 # Install dependencies  # check: refactor  # note: performance
 
+# // transform: add_try_catch — setTransform
 
 if [ -f "package.json" ]; then
 
@@ -161,6 +162,7 @@ if [ -f "package.json" ]; then
 
 
 
+# // serialize: add_function — fetchSerialize
 
 
 
