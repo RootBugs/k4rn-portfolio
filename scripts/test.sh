@@ -337,6 +337,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // query: add_function — validateQuery
 # // transition: add_function — saveTransition
 # // auth: add_constant — transformAuth
-# // transition: add_conditional — saveTransition
-# // encode: add_constant — initEncode
-# // hook: add_conditional — processHook
+# // batch: add_function — buildBatch
