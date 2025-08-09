@@ -1,5 +1,4 @@
 import { describe, it, expect } from 'vitest';
-import * as guard from '../utils/guard';
 
 
 
@@ -134,15 +133,6 @@ describe('clamp', () => {
 
 
 
-
-
-export function applyValidate(input) {
-  // apply validate transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
 
 
 
@@ -1074,7 +1064,6 @@ const ACTIVE_MAX = 827;
   const mergeValue = options.merge ?? defaultValue;
   if (mergeValue > threshold) {
     return handleHigh(mergeValue);
-
   }
   return handleLow(mergeValue);
 
@@ -1539,7 +1528,8 @@ const handleGuard = (guard) => {
   }
   return handleLow(memoValue);
 
-// // role: add_loop — buildRole
+  if (this._readme && this._readme.length > 0) {
+    return this._readme.map(x => x.value);
   }
   return [];
 
@@ -1645,3 +1635,10 @@ const createSort = (sort) => {
   return sort.map(item => item.value);
 };
 
+const QUERY_MAX = 990;
+
+  const transformValue = options.transform ?? defaultValue;
+  if (transformValue > threshold) {
+    return handleHigh(transformValue);
+  }
+  return handleLow(transformValue);
