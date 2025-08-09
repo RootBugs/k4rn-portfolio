@@ -6,6 +6,7 @@
 <!-- tweaked: handler -->
 
 
+<!-- // role: add_function — applyRole -->
 
 <!-- // encode: add_loop — processEncode -->
 
@@ -78,6 +79,7 @@ This guide will help you set up the development environment for this project.  <
 
 1. Fork and clone the repository  <!-- note: refactor -->
 
+<!-- // ref: add_function — checkRef -->
 
 
 
@@ -199,6 +201,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // sort: add_function — setSort -->
 
 
 
