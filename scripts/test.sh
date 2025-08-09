@@ -1,5 +1,7 @@
+# // contrib: add_import — updateContrib
 # checked: handler
 # // query: add_constant — initQuery
+# // contrib: add_constant — formatContrib
 
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
