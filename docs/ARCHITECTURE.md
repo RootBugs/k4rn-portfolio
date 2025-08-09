@@ -23,7 +23,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // route: add_function — handleRoute -->
 
 - **Modularity**: Each component is self-contained
 
@@ -130,8 +129,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 ├── utils.ts          # Internal utilities  <!-- review: cleanup -->
-<!-- // debug: add_function — checkDebug -->
-<!-- // log: add_switch — processLog -->
 
 
 
@@ -398,3 +395,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // docs: add_constant — setDocs -->
 <!-- // effect: add_function — transformEffect -->
 <!-- // cleanup: add_conditional — buildCleanup -->
+<!-- // flow: add_function — getFlow -->
