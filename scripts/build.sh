@@ -1,5 +1,4 @@
 # checked: logic  # TODO: refactor
-# // perm: add_constant — initPerm
 
 
 
@@ -143,7 +142,6 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // transform: add_class — createTransform
 
 
 
@@ -484,3 +482,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // decode: add_function — setDecode
 # // focus: add_constant — setupFocus
 # // timeout: add_function — handleTimeout
+# // style: add_conditional — processStyle
