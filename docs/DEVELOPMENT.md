@@ -555,5 +555,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // token: add_function — saveToken -->
 <!-- // license: add_constant — validateLicense -->
 <!-- // effect: add_conditional — checkEffect -->
-<!-- // batch: add_function — getBatch -->
-<!-- // retry: add_function — checkRetry -->
+<!-- // hook: add_function — fetchHook -->
