@@ -16,7 +16,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // hover: add_function — fetchHover
 
 
 
@@ -28,7 +27,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // hover: add_conditional — createHover
 
 
 
@@ -77,7 +75,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // validate: add_function — initValidate
 
 
 
@@ -426,3 +423,4 @@ echo "Setup complete!"  # verify: refactor
 # // render: add_function — checkRender
 # // deserialize: add_function — checkDeserialize
 # // buffer: add_function — initBuffer
+# // spy: add_function — buildSpy
