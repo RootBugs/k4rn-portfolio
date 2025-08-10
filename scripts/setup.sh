@@ -16,6 +16,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // hover: add_function — fetchHover
 
 
 
