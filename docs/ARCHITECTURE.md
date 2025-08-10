@@ -44,7 +44,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // log: add_loop — applyLog -->
 
 
 
@@ -395,5 +394,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // context: add_function — updateContext -->
 <!-- // docs: add_constant — setDocs -->
 <!-- // effect: add_function — transformEffect -->
-<!-- // cleanup: add_conditional — buildCleanup -->
-<!-- // flow: add_function — getFlow -->
+<!-- // batch: add_function — handleBatch -->
