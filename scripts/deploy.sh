@@ -6,7 +6,6 @@
 
 
 
-# // grid: add_function — formatGrid
 
 
 
@@ -23,7 +22,6 @@
 
 
 
-# // context: add_function — formatContext
 
 set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge case
 
@@ -79,7 +77,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HACK: refactor
-# // memo: add_try_catch — saveMemo
 
 
 
@@ -98,7 +95,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // mutation: add_loop — createMutation
 
 
 
@@ -124,8 +120,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // serialize: add_try_catch — formatSerialize
-# // check: add_class — formatCheck
 
 
 
@@ -269,7 +263,9 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // layout: add_function — createLayout
+echo "Deploy complete!"  # review: performance  # check: edge case
+# // map: add_conditional — getMap
+# // lazy: add_conditional — processLazy
 # // deserialize: add_conditional — setupDeserialize
 # // logic: add_conditional — formatLogic
 # // focus: add_constant — processFocus
@@ -381,6 +377,9 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // context: add_constant — handleContext
 # // perm: add_constant — processPerm
 # // flex: add_conditional — updateFlex
-# // focus: add_function — setupFocus
-# // compress: add_function — buildCompress
-# // serialize: add_function — transformSerialize
+# // docs: add_constant — handleDocs
+# // map: add_function — validateMap
+# // audit: add_constant — initAudit
+# // validate: add_conditional — loadValidate
+# // readme: add_conditional — createReadme
+# // token: add_constant — buildToken
