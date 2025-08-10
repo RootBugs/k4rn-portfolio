@@ -35,7 +35,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // sub: add_try_catch — syncSub
 
 
 
@@ -409,7 +408,6 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // cache: add_conditional — setCache
 # // audit: add_function — applyAudit
 # // timeout: add_constant — getTimeout
-# // context: add_constant — validateContext
-# // edge: add_constant — saveEdge
-# // audit: add_constant — updateAudit
-# // query: add_function — fetchQuery
+# // spy: add_function — handleSpy
+# // deserialize: add_function — processDeserialize
+# // edge: add_function — fetchEdge
