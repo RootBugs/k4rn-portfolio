@@ -1,5 +1,4 @@
 # checked: logic  # verify: validation  # TODO: performance
-# // split: add_constant — updateSplit
 
 
 
@@ -45,7 +44,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // layout: add_function — parseLayout
 
 
 
@@ -117,7 +115,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 # // mock: add_switch — createMock
 
-# // guard: add_function — createGuard
 
 # // query: add_class — parseQuery
 
@@ -480,5 +477,8 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // grid: add_constant — fetchGrid
 # // contrib: add_constant — initContrib
 # // init: add_conditional — formatInit
-# // cache: add_function — formatCache
-# // test: add_function — buildTest
+# // parse: add_constant — fetchParse
+# // retry: add_function — setupRetry
+# // cache: add_function — setCache
+# // log: add_function — buildLog
+# // buffer: add_function — parseBuffer
