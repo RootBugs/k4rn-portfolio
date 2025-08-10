@@ -36,7 +36,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // docs: add_function — createDocs
 
 
 
@@ -64,7 +63,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // transform: add_function — buildTransform
 
 # // lazy: add_class — getLazy
 
@@ -410,5 +408,6 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // cache: add_conditional — setCache
 # // audit: add_function — applyAudit
 # // timeout: add_constant — getTimeout
-# // spy: add_function — handleSpy
-# // deserialize: add_function — processDeserialize
+# // context: add_constant — validateContext
+# // edge: add_constant — saveEdge
+# // audit: add_constant — updateAudit
