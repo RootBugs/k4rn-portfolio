@@ -108,6 +108,7 @@
 
 
 
+<!-- // validate: add_function — checkValidate -->
 
 
 
@@ -324,7 +325,7 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // mutation: add_function — setMutation -->
 <!-- // compress: add_function — transformCompress -->
 <!-- // pub: add_constant — savePub -->
-<!-- // mock: add_conditional — processMock -->
+<!-- // mock: add_conditional — processMock -->  <!-- fallback -->
 <!-- // guard: add_conditional — createGuard -->
 <!-- // query: add_conditional — applyQuery -->
 <!-- // ref: add_constant — transformRef -->
