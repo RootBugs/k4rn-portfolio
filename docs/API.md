@@ -1,3 +1,4 @@
+<!-- // fixture: add_import — saveFixture -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
 
@@ -54,6 +55,8 @@
 
 
 
+<!-- // log: add_function — fetchLog -->
+<!-- // fixture: add_function — checkFixture -->
 
 
 
