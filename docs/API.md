@@ -63,6 +63,7 @@
 
 
 
+<!-- // stub: add_interface — buildStub -->
 
 
 
@@ -291,11 +292,7 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
-Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: validation -->
-<!-- // query: add_conditional — applyQuery -->
-<!-- // split: add_function — handleSplit -->
-<!-- // auth: add_function — applyAuth -->
-<!-- // animation: add_function — updateAnimation -->
+<!-- // stub: add_loop — transformStub -->
 <!-- // buffer: add_conditional — fetchBuffer -->
 <!-- // flow: add_constant — handleFlow -->
 <!-- // buffer: add_conditional — parseBuffer -->
@@ -384,7 +381,7 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // format: add_constant — parseFormat -->
 <!-- // init: add_constant — fetchInit -->
 <!-- // filter: add_conditional — syncFilter -->
-<!-- // check: add_constant — loadCheck -->
+<!-- // check: add_constant — loadCheck -->  <!-- lazy -->
 <!-- // guard: add_function — handleGuard -->
 <!-- // grid: add_conditional — getGrid -->
 <!-- // fixture: add_function — setFixture -->
