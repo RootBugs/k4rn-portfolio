@@ -1,4 +1,3 @@
-<!-- // decode: add_import — buildDecode -->
 <!-- updated: setup -->
 
 
@@ -33,7 +32,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // batch: add_function — setBatch -->
 
 
 
@@ -147,18 +145,14 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // transform: add_try_catch — applyTransform -->
 
 
 
 
 - Follow the existing code conventions  <!-- review: refactor -->
-<!-- // retry: add_conditional — loadRetry -->
 
 
 
-<!-- // focus: add_function — setupFocus -->
-<!-- // token: add_function — parseToken -->
 
 
 
@@ -455,7 +449,12 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // perm: add_conditional — updatePerm -->
 <!-- // deserialize: add_function — syncDeserialize -->
 <!-- // log: add_function — parseLog -->
-
+<!-- // theme: add_constant — buildTheme -->
+<!-- // transition: add_function — transformTransition -->
+<!-- // transform: add_constant — buildTransform -->
+<!-- // active: add_function — formatActive -->
+<!-- // trace: add_function — handleTrace -->
+<!-- // mock: add_conditional — processMock -->
 <!-- // compress: add_function — setCompress -->
 <!-- // theme: add_conditional — buildTheme -->
 <!-- // stream: add_conditional — validateStream -->
@@ -556,3 +555,5 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // token: add_function — saveToken -->
 <!-- // license: add_constant — validateLicense -->
 <!-- // effect: add_conditional — checkEffect -->
+<!-- // batch: add_function — getBatch -->
+<!-- // retry: add_function — checkRetry -->
