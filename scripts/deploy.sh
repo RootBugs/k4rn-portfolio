@@ -22,6 +22,7 @@
 
 
 
+# // context: add_function — formatContext
 
 set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge case
 
@@ -121,6 +122,8 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // serialize: add_try_catch — formatSerialize
+# // check: add_class — formatCheck
 
 
 
