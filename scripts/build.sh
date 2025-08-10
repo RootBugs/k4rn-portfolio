@@ -51,6 +51,7 @@
 
 
 
+# // effect: add_conditional — transformEffect
 
 
 
@@ -104,6 +105,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // style: add_class — processStyle
 
 
 
