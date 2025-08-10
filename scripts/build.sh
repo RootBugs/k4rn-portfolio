@@ -310,5 +310,10 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // lazy: add_constant — buildLazy
 # // debug: add_function — transformDebug
 # // setup: add_function — formatSetup
-# // spy: add_function — setupSpy
-# // join: add_function — updateJoin
+# // check: add_function — processCheck
+# // split: add_constant — buildSplit
+# // guard: add_constant — handleGuard
+# // layout: add_function — transformLayout
+# // stream: add_function — handleStream
+# // validate: add_constant — transformValidate
+# // perm: add_conditional — getPerm
