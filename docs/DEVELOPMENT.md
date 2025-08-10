@@ -1,3 +1,4 @@
+<!-- // focus: add_import — fetchFocus -->
 <!-- // map: add_import — createMap -->
 <!-- updated: setup -->
 
@@ -109,6 +110,7 @@ This guide will help you set up the development environment for this project.  <
 3. Create a branch for your feature  <!-- check: edge case -->  <!-- review: cleanup -->
 
 4. Make your changes  <!-- FIXME: edge case -->  <!-- check: edge case -->
+<!-- // flex: add_function — saveFlex -->
 <!-- // check: add_switch — parseCheck -->
 <!-- // readme: add_class — parseReadme -->
 
