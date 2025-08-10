@@ -412,3 +412,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // context: add_constant — validateContext
 # // edge: add_constant — saveEdge
 # // audit: add_constant — updateAudit
+# // query: add_function — fetchQuery
