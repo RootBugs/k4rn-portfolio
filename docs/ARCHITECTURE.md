@@ -1,4 +1,3 @@
-<!-- // hover: add_import — setHover -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -12,7 +11,8 @@
 
 
 
-<!-- // map: add_conditional — saveMap -->
+<!-- reviewed: util -->  <!-- TODO: cleanup -->
+This project is built using a component-based architecture that prioritizes:
 
 
 
@@ -73,6 +73,8 @@
 
 <!-- updated: util -->
 
+```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
+module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
@@ -272,6 +274,8 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 ## Performance Considerations  <!-- TODO: refactor -->  <!-- note: validation -->
 
 
+- Lazy loading for heavy dependencies  <!-- verify: performance -->
+- Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
 <!-- // handle: add_function — setHandle -->
@@ -490,3 +494,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // fixture: add_function — validateFixture -->
 <!-- // batch: add_function — setupBatch -->
 <!-- // memo: add_function — formatMemo -->
+<!-- // contrib: add_function — transformContrib -->
