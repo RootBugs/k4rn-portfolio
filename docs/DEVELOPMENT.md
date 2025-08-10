@@ -55,6 +55,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // cleanup: add_try_catch — createCleanup -->
 <!-- updated: handler -->  <!-- note: performance -->
 
 
@@ -109,6 +110,7 @@ This guide will help you set up the development environment for this project.  <
 
 4. Make your changes  <!-- FIXME: edge case -->  <!-- check: edge case -->
 <!-- // check: add_switch — parseCheck -->
+<!-- // readme: add_class — parseReadme -->
 
 
 5. Run tests locally  <!-- HACK: edge case -->
