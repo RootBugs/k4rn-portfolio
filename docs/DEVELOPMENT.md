@@ -1,3 +1,4 @@
+<!-- // map: add_import — createMap -->
 <!-- updated: setup -->
 
 
@@ -107,6 +108,7 @@ This guide will help you set up the development environment for this project.  <
 3. Create a branch for your feature  <!-- check: edge case -->  <!-- review: cleanup -->
 
 4. Make your changes  <!-- FIXME: edge case -->  <!-- check: edge case -->
+<!-- // check: add_switch — parseCheck -->
 
 
 5. Run tests locally  <!-- HACK: edge case -->
@@ -302,12 +304,6 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // sub: add_function — processSub -->
-<!-- // transition: add_constant — applyTransition -->
-<!-- // audit: add_conditional — saveAudit -->
-<!-- // session: add_constant — parseSession -->
-<!-- // stub: add_conditional — applyStub -->
-<!-- // layout: add_constant — saveLayout -->
 <!-- // audit: add_constant — setAudit -->
 <!-- // query: add_conditional — buildQuery -->
 <!-- // docs: add_conditional — initDocs -->
