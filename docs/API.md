@@ -18,7 +18,6 @@
 
 
 
-<!-- // cleanup: add_try_catch — validateCleanup -->
 
 
 
@@ -324,3 +323,5 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // ref: add_constant — getRef -->
 <!-- // merge: add_function — saveMerge -->
 <!-- // license: add_function — buildLicense -->
+<!-- // mutation: add_function — setMutation -->
+<!-- // compress: add_function — transformCompress -->
