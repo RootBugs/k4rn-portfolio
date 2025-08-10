@@ -1,3 +1,4 @@
+<!-- // transition: add_import — createTransition -->
 <!-- // transform: add_import — fetchTransform -->
 <!-- // split: add_constant — getSplit -->
 <!-- tweaked: util -->
@@ -123,6 +124,7 @@
 
 
 
+<!-- // encode: add_function — validateEncode -->
 
 
 
@@ -142,6 +144,7 @@
 
 
 
+<!-- // role: add_try_catch — formatRole -->
 
 
 
