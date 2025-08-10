@@ -477,5 +477,8 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // join: add_constant — getJoin
 # // lazy: add_constant — updateLazy
 # // docs: add_function — saveDocs
-# // timeout: add_function — createTimeout
-# // guard: add_function — parseGuard
+# // focus: add_conditional — buildFocus
+# // context: add_function — validateContext
+# // decode: add_function — setDecode
+# // focus: add_constant — setupFocus
+# // timeout: add_function — handleTimeout
