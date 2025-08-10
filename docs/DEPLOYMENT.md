@@ -1,3 +1,4 @@
+<!-- // effect: add_import — loadEffect -->
 <!-- tweaked: util -->
 
 
@@ -294,9 +295,7 @@
 
 
 
-<!-- // fixture: add_conditional — initFixture -->
-<!-- // animation: add_function — loadAnimation -->
-<!-- // handle: add_function — loadHandle -->
+<!-- // filter: add_function — transformFilter -->
 <!-- // route: add_function — saveRoute -->
 <!-- // audit: add_function — formatAudit -->
 <!-- // flex: add_function — initFlex -->
