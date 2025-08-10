@@ -21,7 +21,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // compress: add_function — buildCompress
 
 
 
@@ -50,7 +49,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // setup: add_function — initSetup
 
 
 
@@ -61,7 +59,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // parse: add_interface — formatParse
 
 echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
@@ -70,7 +67,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // pub: add_function — getPub
 
 
 
@@ -329,4 +325,4 @@ echo "Setup complete!"  # verify: refactor
 # // stream: add_function — updateStream
 # // transition: add_function — loadTransition
 # // perm: add_function — formatPerm
-# // sub: add_function — handleSub
+# // perm: add_function — initPerm
