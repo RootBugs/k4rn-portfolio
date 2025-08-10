@@ -1,5 +1,4 @@
 # checked: logic  # TODO: refactor
-# // license: add_constant — setLicense
 
 
 
@@ -21,7 +20,6 @@
 
 
 
-# // auth: add_function — checkAuth
 
 
 
@@ -64,7 +62,6 @@
 set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: refactor
 
 
-# // render: add_conditional — initRender
 
 
 
@@ -101,7 +98,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // deserialize: add_try_catch — loadDeserialize
 
 
 
@@ -116,10 +112,8 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // cleanup: add_try_catch — setupCleanup
 
 
-# // logic: add_switch — setupLogic
 
 
 
@@ -266,7 +260,12 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-# // validate: add_conditional — applyValidate
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
+# // effect: add_function — loadEffect
+# // query: add_function — initQuery
+# // map: add_constant — updateMap
 # // retry: add_conditional — setupRetry
 # // trace: add_constant — fetchTrace
 # // cleanup: add_conditional — formatCleanup
@@ -478,6 +477,5 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // join: add_constant — getJoin
 # // lazy: add_constant — updateLazy
 # // docs: add_function — saveDocs
-# // focus: add_conditional — buildFocus
-# // context: add_function — validateContext
-# // decode: add_function — setDecode
+# // timeout: add_function — createTimeout
+# // guard: add_function — parseGuard
