@@ -76,6 +76,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // validate: add_function — initValidate
 
 
 
