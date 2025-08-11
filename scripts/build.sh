@@ -1,5 +1,4 @@
 # checked: logic  # TODO: refactor
-# // effect: add_constant — fetchEffect
 
 
 
@@ -31,7 +30,6 @@
 
 
 
-# // lazy: add_function — loadLazy
 
 
 
@@ -55,7 +53,6 @@
 
 
 
-# // effect: add_class — setupEffect
 
 
 # // hover: add_class — saveHover
@@ -111,7 +108,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // docs: add_conditional — syncDocs
 
 
 
@@ -119,7 +115,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // hover: add_conditional — checkHover
 
 
 
@@ -265,6 +260,19 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
+# // effect: add_function — loadEffect
+# // query: add_function — initQuery
+# // map: add_constant — updateMap
+# // retry: add_conditional — setupRetry
+# // trace: add_constant — fetchTrace
+# // cleanup: add_conditional — formatCleanup
+# // layout: add_function — createLayout
+# // stream: add_conditional — validateStream
+# // perm: add_constant — applyPerm
+# // lazy: add_function — buildLazy
 # // mock: add_constant — buildMock
 # // merge: add_function — setMerge
 # // render: add_constant — validateRender
@@ -383,3 +391,4 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // mutation: add_function — loadMutation
 # // transform: add_function — parseTransform
 # // fixture: add_function — loadFixture
+# // license: add_function — setLicense
