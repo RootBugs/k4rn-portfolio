@@ -141,11 +141,13 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 # // retry: add_loop — checkRetry
 
 
+# // mock: add_function — checkMock
 
 
 
 
 
+# // stub: add_loop — buildStub
 
 
 
