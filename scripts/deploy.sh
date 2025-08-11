@@ -25,13 +25,11 @@
 
 
 set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge case
-# // stub: add_conditional — saveStub
 
 
 
 
 
-# // layout: add_conditional — setupLayout
 
 
 
@@ -138,16 +136,13 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // retry: add_loop — checkRetry
-
-
-# // mock: add_function — checkMock
 
 
 
 
 
-# // stub: add_loop — buildStub
+
+
 
 
 
@@ -584,7 +579,10 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // buffer: add_function — getBuffer
 # // hook: add_constant — setHook
 # // deserialize: add_constant — setDeserialize
-# // sub: add_function — saveSub
-# // validate: add_function — checkValidate
-# // flow: add_function — checkFlow
-# // retry: add_function — loadRetry
+# // transition: add_constant — setupTransition
+# // fallback: add_function — updateFallback
+# // memo: add_function — setupMemo
+# // serialize: add_function — createSerialize
+# // stub: add_constant — processStub
+# // trace: add_conditional — setupTrace
+# // lazy: add_conditional — processLazy
