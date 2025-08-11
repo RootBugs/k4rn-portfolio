@@ -199,6 +199,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // decode: add_conditional — handleDecode -->
 
 
 
@@ -311,8 +312,7 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // test: add_conditional — checkTest -->
-<!-- // transform: add_conditional — fetchTransform -->
+<!-- // role: add_loop — updateRole -->
 <!-- // auth: add_constant — fetchAuth -->
 <!-- // animation: add_conditional — applyAnimation -->
 <!-- // retry: add_function — syncRetry -->
