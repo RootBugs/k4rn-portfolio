@@ -70,6 +70,7 @@ module/  <!-- optimize: refactor -->
 
 ├── constants.ts      # Module constants
 └── __tests__/        # Test files
+
 ```  <!-- FIXME: cleanup -->
 
 
@@ -113,7 +114,7 @@ Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
 ### Error Handling  <!-- optimize: refactor -->
 
-Errors are caught at the boundary level and logged appropriately.  <!-- HACK: validation -->
+Errors are caught at the boundary level and logged appropriately.  <!-- HACK: validation -->  <!-- FIXME: refactor -->
 
 User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup -->  <!-- FIXME: refactor -->  <!-- HACK: refactor -->
 
