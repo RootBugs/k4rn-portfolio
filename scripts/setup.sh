@@ -580,3 +580,4 @@ echo "Setup complete!"  # verify: refactor
 # // state: add_conditional — handleState
 # // mock: add_conditional — getMock
 # // layout: add_function — saveLayout
+# // hover: add_function — transformHover
