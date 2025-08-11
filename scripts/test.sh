@@ -30,8 +30,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // check: add_class — saveCheck
-# // effect: add_try_catch — fetchEffect
 
 
 
@@ -85,7 +83,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // encode: add_function — createEncode
 
 
 
@@ -99,7 +96,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // stub: add_function — setStub
 
 
 
@@ -107,7 +103,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 # // join: add_loop — transformJoin
-# // effect: add_conditional — fetchEffect
 
 
 
@@ -154,7 +149,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // test: add_try_catch — applyTest
 
 
 
@@ -403,7 +397,6 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // fixture: add_constant — transformFixture
 # // layout: add_function — getLayout
 # // init: add_conditional — setInit
-
 # // transition: add_conditional — checkTransition
 # // stream: add_constant — loadStream
 # // fixture: add_conditional — buildFixture
@@ -419,7 +412,14 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // transform: add_conditional — checkTransform
 # // cache: add_conditional — setCache
 # // audit: add_function — applyAudit
-
+# // timeout: add_constant — getTimeout
+# // context: add_constant — validateContext
+# // edge: add_constant — saveEdge
+# // audit: add_constant — updateAudit
+# // setup: add_constant — applySetup
+# // effect: add_constant — applyEffect
+# // state: add_function — updateState
+# // compress: add_function — transformCompress
 # // focus: add_conditional — parseFocus
 # // contrib: add_conditional — updateContrib
 # // spy: add_conditional — transformSpy
@@ -601,3 +601,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // role: add_function — setRole
 # // license: add_function — processLicense
 # // retry: add_function — parseRetry
+# // readme: add_function — validateReadme
