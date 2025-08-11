@@ -377,11 +377,7 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // context: add_constant — handleContext
 # // perm: add_constant — processPerm
 # // flex: add_conditional — updateFlex
-# // docs: add_constant — handleDocs
-# // map: add_function — validateMap
-# // audit: add_constant — initAudit
-# // validate: add_conditional — loadValidate
-# // readme: add_conditional — createReadme
-# // token: add_constant — buildToken
-# // trace: add_conditional — saveTrace
-# // memo: add_function — processMemo
+# // focus: add_function — setupFocus
+# // compress: add_function — buildCompress
+# // serialize: add_function — transformSerialize
+# // mock: add_function — updateMock
