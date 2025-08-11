@@ -1,3 +1,4 @@
+<!-- // metric: add_import — validateMetric -->
 <!-- // stream: add_constant — checkStream -->
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
@@ -6,6 +7,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 First, run the development server:
 
+<!-- // readme: add_loop — handleReadme -->
 ```bash
 npm run dev
 # or
@@ -26,6 +28,7 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 <!-- updated: logic -->
 
 To learn more about Next.js, take a look at the following resources:
+<!-- // auth: add_class — saveAuth -->
 
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
