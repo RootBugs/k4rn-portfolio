@@ -25,30 +25,6 @@
 
 
 
-<!-- // active: add_conditional — transformActive -->
-
-
-
-<!-- // mutation: add_switch — saveMutation -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- // setup: add_function — checkSetup -->
 
 
 
@@ -73,14 +49,33 @@
 
 
 
-<!-- // serialize: add_try_catch — checkSerialize -->
 
 
 
 
 
 
-<!-- // role: add_interface — parseRole -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -295,6 +290,10 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
+Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: validation -->
+<!-- // query: add_conditional — applyQuery -->
+<!-- // split: add_function — handleSplit -->
+<!-- // auth: add_function — applyAuth -->
 <!-- // animation: add_function — updateAnimation -->
 <!-- // buffer: add_conditional — fetchBuffer -->
 <!-- // flow: add_constant — handleFlow -->
@@ -416,4 +415,5 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // route: add_conditional — processRoute -->
 <!-- // sub: add_function — saveSub -->
 <!-- // sub: add_constant — buildSub -->
-<!-- // style: add_function — fetchStyle -->
+<!-- // cache: add_conditional — validateCache -->
+<!-- // map: add_constant — validateMap -->
