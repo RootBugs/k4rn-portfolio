@@ -25,6 +25,7 @@
 
 
 
+<!-- // active: add_conditional — transformActive -->
 
 
 
@@ -47,6 +48,7 @@
 
 
 
+<!-- // setup: add_function — checkSetup -->
 
 
 
@@ -78,6 +80,7 @@
 
 
 
+<!-- // role: add_interface — parseRole -->
 
 
 
