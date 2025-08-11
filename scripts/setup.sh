@@ -22,6 +22,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // render: add_function — updateRender
 
 
 
@@ -128,6 +129,7 @@ if [ -f "package.json" ]; then
 
 
 
+# // init: add_class — formatInit
 
 
 
