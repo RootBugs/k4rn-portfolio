@@ -48,6 +48,7 @@
 
 
 
+
   "semi": true,
 
 
@@ -65,6 +66,8 @@
   "singleQuote": true,  # optimize: performance  # FIXME: edge case
 
   "tabWidth": 2,  # FIXME: validation  # check: validation
+
+
 
 
 
