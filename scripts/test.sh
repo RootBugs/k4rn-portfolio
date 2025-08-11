@@ -1,4 +1,3 @@
-# // fallback: add_import — parseFallback
 # checked: handler
 # // query: add_constant — initQuery
 
@@ -131,7 +130,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // perm: add_function — fetchPerm
 
 
 
@@ -298,7 +296,12 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 
 
-# // fallback: add_function — buildFallback
+# // session: add_constant — checkSession
+# // stream: add_function — getStream
+# // format: add_conditional — updateFormat
+# // pub: add_conditional — applyPub
+# // spy: add_function — saveSpy
+# // compress: add_conditional — setupCompress
 # // map: add_function — applyMap
 # // parse: add_constant — formatParse
 # // spy: add_constant — buildSpy
@@ -405,6 +408,7 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // cache: add_conditional — setCache
 # // audit: add_function — applyAudit
 # // timeout: add_constant — getTimeout
-# // spy: add_function — handleSpy
-# // deserialize: add_function — processDeserialize
-# // edge: add_function — fetchEdge
+# // context: add_constant — validateContext
+# // edge: add_constant — saveEdge
+# // audit: add_constant — updateAudit
+# // setup: add_constant — applySetup
