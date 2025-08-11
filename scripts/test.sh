@@ -1,3 +1,4 @@
+# // fallback: add_import — parseFallback
 # checked: handler
 # // query: add_constant — initQuery
 
@@ -130,6 +131,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // perm: add_function — fetchPerm
 
 
 
@@ -296,12 +298,7 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 
 
-# // session: add_constant — checkSession
-# // stream: add_function — getStream
-# // format: add_conditional — updateFormat
-# // pub: add_conditional — applyPub
-# // spy: add_function — saveSpy
-# // compress: add_conditional — setupCompress
+# // fallback: add_function — buildFallback
 # // map: add_function — applyMap
 # // parse: add_constant — formatParse
 # // spy: add_constant — buildSpy
