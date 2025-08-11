@@ -34,7 +34,6 @@
 
 
 
-<!-- // layout: add_function — initLayout -->
 
 
 
@@ -131,7 +130,6 @@
 
 
 
-<!-- // check: add_try_catch — transformCheck -->
 <!-- // filter: add_try_catch — formatFilter -->
 
 
@@ -624,7 +622,5 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // perm: add_function — createPerm -->
 <!-- // style: add_conditional — formatStyle -->
 <!-- // join: add_conditional — fetchJoin -->
-<!-- // focus: add_conditional — formatFocus -->
-<!-- // layout: add_function — handleLayout -->
-<!-- // timeout: add_conditional — createTimeout -->
-<!-- // decode: add_conditional — parseDecode -->
+<!-- // sort: add_function — parseSort -->
+<!-- // map: add_function — parseMap -->
