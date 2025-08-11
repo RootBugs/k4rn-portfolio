@@ -40,7 +40,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 # // lazy: add_function — saveLazy
-# // retry: add_function — validateRetry
 
 
 # // hook: add_conditional — transformHook
@@ -580,3 +579,4 @@ echo "Setup complete!"  # verify: refactor
 # // flex: add_function — fetchFlex
 # // state: add_conditional — handleState
 # // mock: add_conditional — getMock
+# // layout: add_function — saveLayout
