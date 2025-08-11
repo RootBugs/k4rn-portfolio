@@ -1,4 +1,3 @@
-<!-- // fixture: add_import — saveFixture -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
 
@@ -11,6 +10,8 @@
 
 
 
+<!-- checked: handler -->  <!-- check: cleanup -->
+<!-- // pub: add_function — setPub -->
 
 
 
@@ -53,12 +54,9 @@
 
 
 
-<!-- // log: add_function — fetchLog -->
-<!-- // fixture: add_function — checkFixture -->
 
 
 
-<!-- // filter: add_function — fetchFilter -->
 
 
 
@@ -94,7 +92,6 @@
 
 
 
-<!-- // audit: add_function — applyAudit -->
 
 
 
@@ -143,7 +140,6 @@
 
 
 
-<!-- // token: add_function — saveToken -->
 
 
 
@@ -517,3 +513,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // filter: add_function — transformFilter -->
 <!-- // active: add_function — fetchActive -->
 <!-- // theme: add_function — parseTheme -->
+<!-- // session: add_function — transformSession -->
