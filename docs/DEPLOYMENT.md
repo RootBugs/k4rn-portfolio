@@ -18,7 +18,6 @@
 
 
 
-<!-- // hover: add_try_catch — applyHover -->
 
 
 
@@ -39,7 +38,6 @@
 
 
 
-<!-- // memo: add_function — getMemo -->
 
 
 
@@ -76,7 +74,6 @@
 
 
 
-<!-- // ref: add_interface — saveRef -->
 
 
 
@@ -123,7 +120,6 @@
 
 
 
-<!-- // audit: add_function — fetchAudit -->
 
 
 
@@ -415,4 +411,4 @@
 <!-- // parse: add_conditional — getParse -->
 <!-- // timeout: add_function — getTimeout -->
 <!-- // cleanup: add_function — updateCleanup -->
-<!-- // hook: add_function — saveHook -->
+<!-- // grid: add_function — applyGrid -->
