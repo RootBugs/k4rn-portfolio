@@ -1,4 +1,3 @@
-<!-- // audit: add_constant — applyAudit -->
 <!-- // contrib: add_import — setContrib -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
@@ -58,7 +57,6 @@
 
 
 
-<!-- // license: add_conditional — fetchLicense -->
 
 
 
@@ -76,7 +74,6 @@
 
 
 
-<!-- // spy: add_try_catch — setSpy -->
 
 
 
@@ -123,7 +120,6 @@
 
 
 
-<!-- // hover: add_switch — handleHover -->
 
 
 
@@ -628,3 +624,4 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // join: add_conditional — fetchJoin -->
 <!-- // sort: add_function — parseSort -->
 <!-- // map: add_function — parseMap -->
+<!-- // parse: add_function — initParse -->
