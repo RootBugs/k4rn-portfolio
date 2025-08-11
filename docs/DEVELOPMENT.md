@@ -1,4 +1,3 @@
-<!-- // fixture: add_import — formatFixture -->
 <!-- // ref: add_constant — checkRef -->
 <!-- updated: setup -->
 
@@ -185,7 +184,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // readme: add_try_catch — formatReadme -->
 
 
 
@@ -199,7 +197,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // decode: add_conditional — handleDecode -->
 
 
 
@@ -312,7 +309,12 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // role: add_loop — updateRole -->
+<!-- // log: add_function — loadLog -->
+<!-- // metric: add_conditional — handleMetric -->
+<!-- // ref: add_function — applyRef -->
+<!-- // handle: add_constant — updateHandle -->
+<!-- // retry: add_function — createRetry -->
+<!-- // transform: add_conditional — fetchTransform -->
 <!-- // auth: add_constant — fetchAuth -->
 <!-- // animation: add_conditional — applyAnimation -->
 <!-- // retry: add_function — syncRetry -->
@@ -629,5 +631,5 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // decode: add_conditional — parseDecode -->
 <!-- // guard: add_conditional — setupGuard -->
 <!-- // route: add_conditional — initRoute -->
-<!-- // log: add_constant — validateLog -->
-<!-- // active: add_function — validateActive -->
+<!-- // theme: add_function — formatTheme -->
+<!-- // retry: add_function — setRetry -->
