@@ -90,6 +90,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // pub: add_function — checkPub -->
 
 
 
@@ -148,6 +149,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // map: add_function — fetchMap -->
 
 - Follow the existing code conventions  <!-- review: refactor -->
 
@@ -373,7 +375,7 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // guard: add_function — fetchGuard -->
 <!-- // spy: add_function — syncSpy -->
 <!-- // init: add_constant — getInit -->
-<!-- // focus: add_function — initFocus -->
+<!-- // focus: add_function — initFocus -->  <!-- state -->
 <!-- // mutation: add_constant — setMutation -->
 <!-- // setup: add_constant — setSetup -->
 <!-- // buffer: add_conditional — fetchBuffer -->
