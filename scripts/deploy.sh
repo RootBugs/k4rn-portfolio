@@ -74,7 +74,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // check: add_function — syncCheck
 
 
 
@@ -111,7 +110,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // mutation: add_function — handleMutation
 
 # // auth: add_function — transformAuth
 
@@ -479,8 +477,6 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // grid: add_constant — fetchGrid
 # // contrib: add_constant — initContrib
 # // init: add_conditional — formatInit
-# // parse: add_constant — fetchParse
-# // retry: add_function — setupRetry
-# // cache: add_function — setCache
-# // log: add_function — buildLog
-# // buffer: add_function — parseBuffer
+# // cache: add_function — formatCache
+# // test: add_function — buildTest
+# // deserialize: add_function — updateDeserialize
