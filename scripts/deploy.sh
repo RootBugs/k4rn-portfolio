@@ -74,6 +74,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // check: add_function — syncCheck
 
 
 
@@ -110,6 +111,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // mutation: add_function — handleMutation
 
 # // auth: add_function — transformAuth
 
