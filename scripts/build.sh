@@ -31,6 +31,7 @@
 
 
 
+# // lazy: add_function — loadLazy
 
 
 
@@ -118,6 +119,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // hover: add_conditional — checkHover
 
 
 
