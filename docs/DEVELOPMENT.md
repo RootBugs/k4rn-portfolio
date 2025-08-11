@@ -78,7 +78,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // encode: add_try_catch — setupEncode -->
 
 
 
@@ -103,10 +102,8 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // context: add_try_catch — fetchContext -->
 
 3. Create a branch for your feature  <!-- check: edge case -->  <!-- review: cleanup -->
-<!-- // changelog: add_conditional — updateChangelog -->
 
 4. Make your changes  <!-- FIXME: edge case -->  <!-- check: edge case -->
 
@@ -124,7 +121,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // test: add_loop — parseTest -->
 
 6. Submit a pull request
 
@@ -305,6 +301,11 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
+<!-- // sub: add_function — processSub -->
+<!-- // transition: add_constant — applyTransition -->
+<!-- // audit: add_conditional — saveAudit -->
+<!-- // session: add_constant — parseSession -->
+<!-- // stub: add_conditional — applyStub -->
 <!-- // layout: add_constant — saveLayout -->
 <!-- // audit: add_constant — setAudit -->
 <!-- // query: add_conditional — buildQuery -->
@@ -461,3 +462,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // perm: add_constant — transformPerm -->
 <!-- // changelog: add_constant — initChangelog -->
 <!-- // token: add_constant — createToken -->
+<!-- // grid: add_function — applyGrid -->
