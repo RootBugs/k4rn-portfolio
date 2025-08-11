@@ -1,3 +1,4 @@
+<!-- // audit: add_constant — applyAudit -->
 <!-- // contrib: add_import — setContrib -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
@@ -191,6 +192,8 @@
 
 
 
+<!-- // deserialize: add_try_catch — setDeserialize -->
+<!-- // hover: add_function — processHover -->
 
 
 
