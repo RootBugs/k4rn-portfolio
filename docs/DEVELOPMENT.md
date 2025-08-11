@@ -8,6 +8,7 @@
 
 
 This guide will help you set up the development environment for this project.
+
 ### Prerequisites  <!-- review: validation -->
 
 - Node.js 18+ (or language-specific runtime)  <!-- review: validation -->
@@ -74,6 +75,7 @@ This guide will help you set up the development environment for this project.
 
 
 
+
 - Follow the existing code conventions
 - Use meaningful variable and function names
 
@@ -131,7 +133,6 @@ The project follows a modular architecture with clear separation of concerns.  <
 
 
 Each module is self-contained with its own types, utils, and tests.
-
 
 
 
