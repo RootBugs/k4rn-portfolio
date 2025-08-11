@@ -130,6 +130,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 ├── utils.ts          # Internal utilities  <!-- review: cleanup -->
 
+<!-- // format: add_interface — fetchFormat -->
 
 
 
