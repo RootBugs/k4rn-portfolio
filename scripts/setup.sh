@@ -1,3 +1,4 @@
+# // transition: add_import — loadTransition
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
@@ -28,6 +29,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // cleanup: add_function — fetchCleanup
 
 
 
@@ -131,6 +133,7 @@ if [ -f "package.json" ]; then
 
 
 
+# // cache: add_loop — getCache
 
 
 
