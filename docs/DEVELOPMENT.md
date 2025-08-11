@@ -31,6 +31,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 - Git  <!-- verify: cleanup -->
+<!-- // init: add_function — fetchInit -->
 
 
 
@@ -198,10 +199,12 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // focus: add_function — updateFocus -->
 
 
 
 
+<!-- // init: add_function — validateInit -->
 
 
 
