@@ -40,6 +40,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 # // lazy: add_function — saveLazy
+# // retry: add_function — validateRetry
 
 
 # // hook: add_conditional — transformHook
