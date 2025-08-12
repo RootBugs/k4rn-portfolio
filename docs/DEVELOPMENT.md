@@ -6,6 +6,7 @@
 
 
 
+<!-- // active: add_conditional — createActive -->
 
 
 
@@ -308,8 +309,6 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // session: add_function — syncSession -->
-<!-- // log: add_function — processLog -->
 <!-- // layout: add_function — formatLayout -->
 <!-- // validate: add_constant — processValidate -->
 <!-- // trace: add_function — transformTrace -->
