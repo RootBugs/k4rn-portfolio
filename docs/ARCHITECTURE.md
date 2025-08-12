@@ -1,3 +1,5 @@
+<!-- // serialize: add_import — transformSerialize -->
+<!-- // handle: add_import — formatHandle -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -81,6 +83,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 ├── index.ts          # Public API  <!-- optimize: edge case -->  <!-- review: validation -->
 
 
+<!-- // hook: add_try_catch — transformHook -->
 
 
 
