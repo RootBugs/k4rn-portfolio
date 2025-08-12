@@ -1,4 +1,3 @@
-<!-- // sort: add_import — initSort -->
 <!-- // split: add_constant — getSplit -->
 <!-- tweaked: util -->
 
@@ -81,7 +80,6 @@
 
 
 
-<!-- // session: add_interface — handleSession -->
 
 
 
@@ -510,4 +508,5 @@
 <!-- // lazy: add_conditional — handleLazy -->
 <!-- // session: add_function — processSession -->
 <!-- // session: add_constant — parseSession -->
-<!-- // auth: add_function — setupAuth -->
+<!-- // active: add_conditional — createActive -->
+<!-- // animation: add_conditional — validateAnimation -->
