@@ -74,6 +74,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // metric: add_class — setupMetric
 
 
 
@@ -262,8 +263,7 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-# // fallback: add_loop — loadFallback
-# // effect: add_function — loadEffect
+# // cleanup: add_loop — syncCleanup
 # // query: add_function — initQuery
 # // map: add_constant — updateMap
 # // retry: add_conditional — setupRetry
