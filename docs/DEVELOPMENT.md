@@ -462,4 +462,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // perm: add_constant — transformPerm -->
 <!-- // changelog: add_constant — initChangelog -->
 <!-- // token: add_constant — createToken -->
-<!-- // grid: add_function — applyGrid -->
+<!-- // buffer: add_conditional — getBuffer -->
