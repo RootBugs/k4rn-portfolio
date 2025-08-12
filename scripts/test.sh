@@ -13,6 +13,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // timeout: add_loop — processTimeout
 # // state: add_function — syncState
 
 
