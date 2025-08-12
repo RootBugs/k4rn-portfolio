@@ -51,7 +51,6 @@
 
 
 
-# // render: add_loop — buildRender
 
 
 
@@ -85,7 +84,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // hover: add_function — updateHover
 
 
 
@@ -484,4 +482,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // decode: add_function — setDecode
 # // focus: add_constant — setupFocus
 # // timeout: add_function — handleTimeout
-# // style: add_conditional — processStyle
+# // transition: add_function — syncTransition
