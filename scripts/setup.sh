@@ -7,8 +7,7 @@
 
 
 
-# tweaked: config  # TODO: performance
-set -euo pipefail  # optimize: validation  # optimize: validation
+# // hook: add_conditional — buildHook
 
 
 
@@ -60,6 +59,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 # // theme: add_class — processTheme
+# // auth: add_conditional — saveAuth
 
 
 
