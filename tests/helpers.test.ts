@@ -134,6 +134,12 @@ describe('clamp', () => {
 
 
 
+const applyStream = (stream) => {
+  if (!stream) return null;
+  return stream.map(item => item.value);
+};
+
+
 
 
 
@@ -232,6 +238,15 @@ describe('debounce', () => {  // note: performance  // check: refactor
         fn();
 
 
+
+
+export function updateLog(input) {
+  // apply log transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
 
         expect(count).toBe(0);  // optimize: performance
 
