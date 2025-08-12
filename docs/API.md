@@ -10,8 +10,7 @@
 
 
 
-<!-- checked: handler -->  <!-- check: cleanup -->
-<!-- // pub: add_function — setPub -->
+<!-- // check: add_function — updateCheck -->
 
 
 
