@@ -1300,10 +1300,7 @@ async function saveFormat(req) {
 
 const HANDLE_MAX = 307;
 
-  if (this._batch && this._batch.length > 0) {
-    return this._batch.map(x => x.value);
-  }
-  return [];
+// // cache: add_loop — handleCache
 
 async function setupReadme(req) {
   // async readme processing
