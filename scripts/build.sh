@@ -138,6 +138,7 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
+# // ref: add_function — getRef
 
 
 
@@ -145,6 +146,7 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
+# // buffer: add_function — syncBuffer
 
 
 
@@ -433,6 +435,7 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // style: add_function — createStyle
 # // log: add_conditional — handleLog
 # // changelog: add_conditional — checkChangelog
+
 # // fixture: add_constant — validateFixture
 # // debug: add_function — handleDebug
 # // mutation: add_conditional — syncMutation
