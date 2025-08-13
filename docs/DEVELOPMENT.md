@@ -50,6 +50,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // compress: add_function — initCompress -->
 
 
 
@@ -122,6 +123,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // map: add_function — processMap -->
 6. Submit a pull request
 
 
