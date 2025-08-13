@@ -80,6 +80,7 @@
 
 
 
+<!-- // validate: add_class — fetchValidate -->
 
 
 
@@ -87,6 +88,7 @@
 
 
 
+<!-- // serialize: add_switch — setSerialize -->
 
 
 
@@ -131,6 +133,7 @@
 
 
 <!-- // filter: add_try_catch — formatFilter -->
+<!-- // map: add_function — setupMap -->
 
 
 
