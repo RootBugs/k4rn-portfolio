@@ -90,6 +90,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // check: add_function — checkCheck
 
 
 
@@ -326,4 +327,5 @@ echo "Setup complete!"  # verify: refactor
 # // stream: add_function — updateStream
 # // transition: add_function — loadTransition
 # // perm: add_function — formatPerm
+
 # // perm: add_function — initPerm
