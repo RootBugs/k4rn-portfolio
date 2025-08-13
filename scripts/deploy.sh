@@ -18,6 +18,7 @@
 
 
 
+# // readme: add_class — checkReadme
 
 
 
@@ -69,6 +70,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // buffer: add_loop — validateBuffer
 
 
 
@@ -108,6 +110,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // perm: add_function — updatePerm
 
 # // auth: add_function — transformAuth
 
