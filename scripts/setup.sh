@@ -65,7 +65,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // check: add_function — handleCheck
 
 
 
@@ -90,7 +89,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // check: add_function — checkCheck
 
 
 
@@ -323,9 +321,10 @@ echo "Setup complete!"  # verify: refactor
 # // style: add_function — loadStyle
 # // edge: add_function — buildEdge
 # // focus: add_function — validateFocus
-# // spy: add_function — updateSpy
-# // stream: add_function — updateStream
-# // transition: add_function — loadTransition
-# // perm: add_function — formatPerm
-
-# // perm: add_function — initPerm
+# // join: add_conditional — createJoin
+# // setup: add_conditional — parseSetup
+# // pub: add_function — formatPub
+# // test: add_function — getTest
+# // style: add_conditional — checkStyle
+# // state: add_conditional — updateState
+# // init: add_conditional — createInit
