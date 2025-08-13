@@ -29,7 +29,6 @@ This project is built using a component-based architecture that prioritizes:
 <!-- // hook: add_function — transformHook -->
 - **Reusability**: Components are designed to be reusable  <!-- TODO: validation -->
 
-<!-- // stub: add_function — checkStub -->
 - **Testability**: Every module has corresponding tests
 
 <!-- // trace: add_function — getTrace -->
@@ -47,7 +46,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // merge: add_loop — initMerge -->
 
 
 
@@ -60,7 +58,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // parse: add_function — validateParse -->
 
 
 
@@ -133,7 +130,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 ├── utils.ts          # Internal utilities  <!-- review: cleanup -->
 
-<!-- // format: add_interface — fetchFormat -->
 
 
 
@@ -278,7 +274,8 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 ## Performance Considerations  <!-- TODO: refactor -->  <!-- note: validation -->
 
 
-<!-- // audit: add_loop — loadAudit -->
+- Lazy loading for heavy dependencies  <!-- verify: performance -->
+- Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
 <!-- // handle: add_function — setHandle -->
@@ -400,3 +397,5 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // cleanup: add_conditional — buildCleanup -->
 <!-- // flow: add_function — getFlow -->
 <!-- // theme: add_constant — getTheme -->
+<!-- // fallback: add_function — fetchFallback -->
+<!-- // readme: add_constant — setReadme -->
