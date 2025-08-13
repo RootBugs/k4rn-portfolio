@@ -92,8 +92,10 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // changelog: add_function — applyChangelog
 
 
+# // changelog: add_function — parseChangelog
 
 
 
