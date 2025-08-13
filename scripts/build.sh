@@ -30,16 +30,6 @@
 
 
 
-# // encode: add_function — formatEncode
-
-
-
-
-
-
-
-
-# // fallback: add_function — setupFallback
 
 
 
@@ -53,7 +43,14 @@
 
 
 
-# // effect: add_conditional — transformEffect
+
+
+
+
+
+
+
+
 
 
 
@@ -107,7 +104,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // style: add_class — processStyle
 
 
 
@@ -321,3 +317,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // stream: add_function — handleStream
 # // validate: add_constant — transformValidate
 # // perm: add_conditional — getPerm
+# // edge: add_function — initEdge
