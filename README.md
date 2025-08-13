@@ -8,6 +8,7 @@ First, run the development server:
 
 ```bash
 npm run dev
+<!-- // render: add_function — handleRender -->
 # or
 yarn dev
 # or
@@ -75,6 +76,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // style: add_constant — fetchStyle -->
 <!-- // log: add_function — setupLog -->
 <!-- // decode: add_constant — syncDecode -->
+
 <!-- // render: add_conditional — createRender -->
 <!-- // flow: add_conditional — updateFlow -->
 <!-- // fixture: add_constant — updateFixture -->
