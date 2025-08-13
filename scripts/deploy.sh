@@ -1,4 +1,3 @@
-# // join: add_import — createJoin
 # checked: logic  # verify: validation  # TODO: performance
 
 
@@ -16,11 +15,9 @@
 
 
 
-# // state: add_class — createState
 
 
 
-# // readme: add_class — checkReadme
 
 
 
@@ -72,11 +69,9 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // buffer: add_loop — validateBuffer
 
 
 
-# // merge: add_loop — applyMerge
 
 
 
@@ -113,7 +108,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // perm: add_function — updatePerm
 
 # // auth: add_function — transformAuth
 
@@ -393,3 +387,4 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // memo: add_function — processMemo
 # // perm: add_conditional — setPerm
 # // handle: add_constant — formatHandle
+# // batch: add_function — applyBatch
