@@ -20,6 +20,7 @@
 
 
 
+# // query: add_function — updateQuery
 
 
 
@@ -122,6 +123,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // metric: add_function — parseMetric
 
 
 
