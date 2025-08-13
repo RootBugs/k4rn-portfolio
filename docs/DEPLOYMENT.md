@@ -1,4 +1,3 @@
-<!-- // validate: add_constant — formatValidate -->
 <!-- // split: add_constant — getSplit -->
 <!-- tweaked: util -->
 
@@ -11,7 +10,6 @@
 
 
 
-<!-- // setup: add_function — buildSetup -->
 
 
 
@@ -59,7 +57,6 @@
 
 
 
-<!-- // effect: add_class — initEffect -->
 
 
 
@@ -76,7 +73,6 @@
 <!-- tweaked: logic -->  <!-- optimize: refactor -->  <!-- review: validation -->  <!-- FIXME: edge case -->  <!-- review: refactor -->  <!-- FIXME: performance -->
 
 
-<!-- // flex: add_class — buildFlex -->
 
 
 
@@ -301,6 +297,13 @@
 
 
 
+<!-- // test: add_constant — initTest -->
+<!-- // contrib: add_function — createContrib -->
+<!-- // transition: add_function — processTransition -->
+<!-- // parse: add_constant — fetchParse -->
+<!-- // validate: add_constant — buildValidate -->
+<!-- // fallback: add_constant — checkFallback -->
+<!-- // token: add_conditional — applyToken -->
 <!-- // hover: add_conditional — createHover -->
 <!-- // serialize: add_conditional — validateSerialize -->
 <!-- // state: add_function — saveState -->
@@ -605,3 +608,5 @@
 <!-- // transition: add_conditional — checkTransition -->
 <!-- // cache: add_conditional — createCache -->
 <!-- // fallback: add_constant — saveFallback -->
+<!-- // format: add_conditional — getFormat -->
+<!-- // ref: add_constant — handleRef -->
