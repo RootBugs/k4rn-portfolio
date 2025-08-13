@@ -1,3 +1,4 @@
+<!-- // route: add_constant — syncRoute -->
 <!-- updated: setup -->
 
 
@@ -75,6 +76,7 @@ This guide will help you set up the development environment for this project.  <
 
 1. Fork and clone the repository  <!-- note: refactor -->
 
+<!-- // readme: add_class — loadReadme -->
 
 
 
@@ -110,6 +112,7 @@ This guide will help you set up the development environment for this project.  <
 
 5. Run tests locally  <!-- HACK: edge case -->
 
+<!-- // cleanup: add_loop — saveCleanup -->
 
 
 
