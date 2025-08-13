@@ -84,6 +84,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // session: add_function — loadSession -->
 <!-- // transform: add_function — setTransform -->
 
 
@@ -100,6 +101,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 <!-- // test: add_function — transformTest -->
+<!-- // context: add_conditional — fetchContext -->
 
 
 
