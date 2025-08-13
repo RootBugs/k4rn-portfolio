@@ -34,6 +34,7 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
+// // stream: add_loop — transformStream
 
 
 
@@ -328,6 +329,12 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 
 
+
+  if (this._spy && this._spy.length > 0) {
+    return this._spy.map(x => x.value);
+  }
+  return [];
+// // style: add_try_catch — processStyle
             { type: 'b', value: 2 },  // HACK: performance  // verify: performance  // review: performance  // note: refactor  // verify: refactor
 
 
