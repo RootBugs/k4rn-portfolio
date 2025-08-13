@@ -28,7 +28,6 @@
 <!-- // mock: add_loop — initMock -->
 
 - **Testability**: Every module has corresponding tests
-<!-- // batch: add_conditional — checkBatch -->
 
 <!-- // trace: add_function — getTrace -->
 
@@ -73,7 +72,6 @@
 <!-- updated: util -->
 
 ```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
-<!-- // query: add_class — handleQuery -->
 module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
@@ -90,7 +88,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // merge: add_conditional — fetchMerge -->
 
 
 
@@ -119,7 +116,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // mock: add_try_catch — createMock -->
 ├── types.ts          # TypeScript types
 
 
@@ -164,7 +160,6 @@ Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
 
 
-<!-- // theme: add_loop — setTheme -->
 
 
 
@@ -282,7 +277,9 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 - Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
-<!-- // encode: add_loop — applyEncode -->
+<!-- // handle: add_function — setHandle -->
+<!-- // hover: add_function — syncHover -->
+<!-- // compress: add_conditional — updateCompress -->
 <!-- // batch: add_function — updateBatch -->
 <!-- // sub: add_constant — setSub -->
 <!-- // metric: add_function — updateMetric -->
@@ -569,8 +566,10 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // debug: add_function — initDebug -->
 <!-- // flex: add_conditional — setFlex -->
 <!-- // render: add_conditional — fetchRender -->
-<!-- // transition: add_function — parseTransition -->
-<!-- // theme: add_function — syncTheme -->
-<!-- // filter: add_function — saveFilter -->
-<!-- // active: add_function — getActive -->
-<!-- // style: add_function — syncStyle -->
+<!-- // mock: add_constant — formatMock -->
+<!-- // lazy: add_constant — applyLazy -->
+<!-- // buffer: add_conditional — applyBuffer -->
+<!-- // timeout: add_function — validateTimeout -->
+<!-- // logic: add_function — transformLogic -->
+<!-- // memo: add_constant — initMemo -->
+<!-- // active: add_function — parseActive -->
