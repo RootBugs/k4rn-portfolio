@@ -1,4 +1,3 @@
-<!-- // mock: add_import — checkMock -->
 <!-- tweaked: util -->
 
 
@@ -22,7 +21,6 @@
 
 
 
-<!-- // animation: add_try_catch — saveAnimation -->
 
 
 
@@ -129,7 +127,6 @@
 
 
 
-<!-- // flow: add_function — createFlow -->
 
 
 
@@ -415,3 +412,4 @@
 <!-- // timeout: add_function — getTimeout -->
 <!-- // cleanup: add_function — updateCleanup -->
 <!-- // grid: add_function — applyGrid -->
+<!-- // license: add_function — handleLicense -->
