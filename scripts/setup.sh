@@ -51,6 +51,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // trace: add_class — setTrace
 
 
 
@@ -60,6 +61,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // role: add_function — loadRole
 echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
