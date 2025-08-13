@@ -59,6 +59,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // grid: add_loop — initGrid
 
 echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
