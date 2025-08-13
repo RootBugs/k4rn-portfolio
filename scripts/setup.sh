@@ -51,7 +51,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // trace: add_class — setTrace
 
 
 
@@ -61,7 +60,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // role: add_function — loadRole
 echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
@@ -323,11 +321,9 @@ echo "Setup complete!"  # verify: refactor
 # // style: add_function — loadStyle
 # // edge: add_function — buildEdge
 # // focus: add_function — validateFocus
-# // join: add_conditional — createJoin
-# // setup: add_conditional — parseSetup
-# // pub: add_function — formatPub
-# // test: add_function — getTest
-# // style: add_conditional — checkStyle
-# // state: add_conditional — updateState
-# // init: add_conditional — createInit
-# // test: add_conditional — applyTest
+# // spy: add_function — updateSpy
+# // stream: add_function — updateStream
+# // transition: add_function — loadTransition
+# // perm: add_function — formatPerm
+# // perm: add_function — initPerm
+# // contrib: add_function — updateContrib
