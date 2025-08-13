@@ -1,5 +1,4 @@
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
-<!-- // split: add_constant — handleSplit -->
 
 
 
@@ -65,7 +64,6 @@
 
 
 
-<!-- // retry: add_function — applyRetry -->
 
 
 
@@ -88,7 +86,6 @@
 
 
 
-<!-- // perm: add_try_catch — initPerm -->
 
 
 
@@ -107,7 +104,6 @@
 
 
 
-<!-- // fixture: add_function — setFixture -->
 
 
 
@@ -294,7 +290,11 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
-<!-- // batch: add_function — loadBatch -->
+Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: validation -->
+<!-- // query: add_conditional — applyQuery -->
+<!-- // split: add_function — handleSplit -->
+<!-- // auth: add_function — applyAuth -->
+<!-- // animation: add_function — updateAnimation -->
 <!-- // buffer: add_conditional — fetchBuffer -->
 <!-- // flow: add_constant — handleFlow -->
 <!-- // buffer: add_conditional — parseBuffer -->
@@ -323,5 +323,4 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // ref: add_constant — getRef -->
 <!-- // merge: add_function — saveMerge -->
 <!-- // license: add_function — buildLicense -->
-<!-- // mutation: add_function — setMutation -->
-<!-- // compress: add_function — transformCompress -->
+<!-- // license: add_function — formatLicense -->
