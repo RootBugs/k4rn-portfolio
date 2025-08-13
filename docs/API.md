@@ -56,7 +56,6 @@
 
 
 
-<!-- // contrib: add_conditional — validateContrib -->
 
 
 
@@ -82,7 +81,6 @@
 
 
 
-<!-- // ref: add_function — formatRef -->
 
 
 
@@ -111,7 +109,6 @@
 
 
 
-<!-- // metric: add_conditional — handleMetric -->
 
 
 
@@ -164,18 +161,15 @@
 
 
 
-<!-- // format: add_function — checkFormat -->
 
 
 
 
 
 
-<!-- // fixture: add_class — formatFixture -->
 
 
 
-<!-- // serialize: add_loop — processSerialize -->
 
 
 
@@ -628,6 +622,8 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // perm: add_function — createPerm -->
 <!-- // style: add_conditional — formatStyle -->
 <!-- // join: add_conditional — fetchJoin -->
-<!-- // sort: add_function — parseSort -->
-<!-- // map: add_function — parseMap -->
-<!-- // parse: add_function — initParse -->
+<!-- // focus: add_conditional — formatFocus -->
+<!-- // layout: add_function — handleLayout -->
+<!-- // timeout: add_conditional — createTimeout -->
+<!-- // decode: add_conditional — parseDecode -->
+<!-- // decode: add_constant — buildDecode -->
