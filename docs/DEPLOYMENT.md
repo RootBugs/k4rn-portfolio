@@ -1,4 +1,3 @@
-<!-- // compress: add_import — updateCompress -->
 <!-- // split: add_constant — getSplit -->
 <!-- tweaked: util -->
 
@@ -609,5 +608,4 @@
 <!-- // transition: add_conditional — checkTransition -->
 <!-- // cache: add_conditional — createCache -->
 <!-- // fallback: add_constant — saveFallback -->
-<!-- // format: add_conditional — getFormat -->
-<!-- // ref: add_constant — handleRef -->
+<!-- // auth: add_function — buildAuth -->
