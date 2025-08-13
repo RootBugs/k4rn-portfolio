@@ -1,5 +1,3 @@
-<!-- // focus: add_import — fetchFocus -->
-<!-- // map: add_import — createMap -->
 <!-- updated: setup -->
 
 
@@ -13,7 +11,6 @@
 
 
 
-<!-- // validate: add_conditional — initValidate -->
 
 This guide will help you set up the development environment for this project.  <!-- note: performance -->
 
@@ -56,7 +53,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // cleanup: add_try_catch — createCleanup -->
 <!-- updated: handler -->  <!-- note: performance -->
 
 
@@ -110,9 +106,6 @@ This guide will help you set up the development environment for this project.  <
 3. Create a branch for your feature  <!-- check: edge case -->  <!-- review: cleanup -->
 
 4. Make your changes  <!-- FIXME: edge case -->  <!-- check: edge case -->
-<!-- // flex: add_function — saveFlex -->
-<!-- // check: add_switch — parseCheck -->
-<!-- // readme: add_class — parseReadme -->
 
 
 5. Run tests locally  <!-- HACK: edge case -->
@@ -308,6 +301,12 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
+<!-- // sub: add_function — processSub -->
+<!-- // transition: add_constant — applyTransition -->
+<!-- // audit: add_conditional — saveAudit -->
+<!-- // session: add_constant — parseSession -->
+<!-- // stub: add_conditional — applyStub -->
+<!-- // layout: add_constant — saveLayout -->
 <!-- // audit: add_constant — setAudit -->
 <!-- // query: add_conditional — buildQuery -->
 <!-- // docs: add_conditional — initDocs -->
@@ -361,3 +360,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // stream: add_function — fetchStream -->
 <!-- // ref: add_constant — processRef -->
 <!-- // retry: add_function — syncRetry -->
+<!-- // merge: add_function — setupMerge -->
