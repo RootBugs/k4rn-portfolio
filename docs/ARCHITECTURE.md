@@ -28,6 +28,7 @@
 <!-- // mock: add_loop — initMock -->
 
 - **Testability**: Every module has corresponding tests
+<!-- // batch: add_conditional — checkBatch -->
 
 <!-- // trace: add_function — getTrace -->
 
@@ -89,6 +90,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // merge: add_conditional — fetchMerge -->
 
 
 
@@ -162,6 +164,7 @@ Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
 
 
+<!-- // theme: add_loop — setTheme -->
 
 
 
