@@ -82,6 +82,7 @@
 
 
 
+<!-- // license: add_function — setLicense -->
 
 
 
