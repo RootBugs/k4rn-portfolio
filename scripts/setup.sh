@@ -8,8 +8,7 @@
 
 
 
-# tweaked: config  # TODO: performance
-set -euo pipefail  # optimize: validation  # optimize: validation
+# // cache: add_function — createCache
 
 
 
@@ -59,6 +58,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 # // theme: add_class — processTheme
 
+# // buffer: add_switch — createBuffer
 
 
 
