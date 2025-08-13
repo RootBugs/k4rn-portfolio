@@ -1,4 +1,3 @@
-import { describe, it, expect } from 'vitest';
 
 
 
@@ -22,8 +21,15 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
-    it('should wait for the specified time', async () => {  // optimize: performance
-        const start = Date.now();  // note: cleanup
+
+export function setAnimation(input) {
+  // apply animation transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
+
 
 
 
@@ -353,10 +359,12 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
   }
   return [];
 
-function syncStream(data) {
-  // stream handler
-  if (!data) return null;
-  const result = [];
+
+  const mapValue = options.map ?? defaultValue;
+  if (mapValue > threshold) {
+    return handleHigh(mapValue);
+  }
+  return handleLow(mapValue);
   for (const item of data) {
     result.push(process(item));
   }
