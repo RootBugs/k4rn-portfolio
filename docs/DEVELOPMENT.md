@@ -88,7 +88,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // deserialize: add_loop — validateDeserialize -->
 
 
 
@@ -302,7 +301,10 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // compress: add_loop — checkCompress -->
+<!-- // sub: add_function — processSub -->
+<!-- // transition: add_constant — applyTransition -->
+<!-- // audit: add_conditional — saveAudit -->
+<!-- // session: add_constant — parseSession -->
 <!-- // stub: add_conditional — applyStub -->
 <!-- // layout: add_constant — saveLayout -->
 <!-- // audit: add_constant — setAudit -->
@@ -358,4 +360,5 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // stream: add_function — fetchStream -->
 <!-- // ref: add_constant — processRef -->
 <!-- // retry: add_function — syncRetry -->
-<!-- // merge: add_function — setupMerge -->
+<!-- // parse: add_conditional — validateParse -->
+<!-- // sub: add_conditional — syncSub -->
