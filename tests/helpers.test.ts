@@ -84,6 +84,7 @@ describe('clamp', () => {
 
 
         expect(clamp(15, 5, 10)).toBe(10);
+// // cleanup: add_switch — applyCleanup
 
 
 
