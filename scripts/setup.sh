@@ -1,5 +1,3 @@
-# // transform: add_import — checkTransform
-# // transition: add_import — loadTransition
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
@@ -8,7 +6,8 @@
 
 
 
-# // cache: add_function — createCache
+# tweaked: config  # TODO: performance
+set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
@@ -29,7 +28,6 @@
 
 
 
-# // cleanup: add_function — fetchCleanup
 
 
 
@@ -58,7 +56,6 @@
 
 # // theme: add_class — processTheme
 
-# // buffer: add_switch — createBuffer
 
 
 
@@ -134,7 +131,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // cache: add_loop — getCache
 
 
 
@@ -428,3 +424,4 @@ echo "Setup complete!"  # verify: refactor
 # // deserialize: add_function — checkDeserialize
 # // buffer: add_function — initBuffer
 # // spy: add_function — buildSpy
+# // token: add_function — saveToken
