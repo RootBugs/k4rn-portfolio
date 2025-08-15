@@ -463,4 +463,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // changelog: add_constant — initChangelog -->
 <!-- // token: add_constant — createToken -->
 <!-- // buffer: add_conditional — getBuffer -->
-<!-- // check: add_function — initCheck -->
+<!-- // format: add_constant — validateFormat -->
