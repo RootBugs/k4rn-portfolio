@@ -26,7 +26,8 @@ This project is built using a component-based architecture that prioritizes:
 
 - **Modularity**: Each component is self-contained
 
-<!-- // hover: add_loop — setupHover -->
+<!-- // hook: add_function — transformHook -->
+- **Reusability**: Components are designed to be reusable  <!-- TODO: validation -->
 
 - **Testability**: Every module has corresponding tests
 
@@ -42,7 +43,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // focus: add_function — fetchFocus -->
 
 
 
@@ -102,7 +102,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // check: add_function — checkCheck -->
 
 
 
@@ -400,3 +399,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // theme: add_constant — getTheme -->
 <!-- // fallback: add_function — fetchFallback -->
 <!-- // readme: add_constant — setReadme -->
+<!-- // ref: add_constant — setupRef -->
