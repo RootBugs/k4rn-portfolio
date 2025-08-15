@@ -58,6 +58,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // retry: add_class — setupRetry
 
 
 
@@ -299,10 +300,7 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 
 
-# // flex: add_function — setFlex
-# // parse: add_constant — formatParse
-# // spy: add_constant — buildSpy
-# // route: add_conditional — fetchRoute
+# // focus: add_function — processFocus
 # // edge: add_function — processEdge
 # // session: add_function — validateSession
 # // transition: add_function — buildTransition
