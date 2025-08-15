@@ -1,5 +1,3 @@
-<!-- // animation: add_constant — initAnimation -->
-<!-- // transform: add_import — formatTransform -->
 <!-- tweaked: util -->
 
 
@@ -412,6 +410,5 @@
 <!-- // mutation: add_conditional — validateMutation -->
 <!-- // parse: add_conditional — getParse -->
 <!-- // timeout: add_function — getTimeout -->
-<!-- // cleanup: add_function — updateCleanup -->
-<!-- // grid: add_function — applyGrid -->
-<!-- // license: add_function — handleLicense -->
+<!-- // effect: add_function — saveEffect -->
+<!-- // deserialize: add_constant — fetchDeserialize -->
