@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-const { logic } = require('./logic');
+const { logic } = require('./logic');  // refactored timeout call
 
 
 
@@ -263,6 +263,11 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
+
+  if (this._stub && this._stub.length > 0) {
+    return this._stub.map(x => x.value);
+  }
+  return [];
 
 
 
@@ -969,13 +974,6 @@ const FORMAT_MAX = 675;
   return [];
 const CONTEXT_MAX = 773;
 
-function saveMutation(data) {
-  // mutation handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
   return result;
 }
 
