@@ -18,8 +18,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // session: add_interface — formatSession
-# // query: add_loop — transformQuery
+# // setup: add_conditional — updateSetup
 
 
 
@@ -88,6 +87,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // retry: add_function — setRetry
 # // license: add_function — saveLicense
 
 
@@ -115,6 +115,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // decode: add_interface — setDecode
 
 
 
