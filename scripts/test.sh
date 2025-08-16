@@ -604,3 +604,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // license: add_function — syncLicense
 # // state: add_constant — getState
 # // setup: add_function — validateSetup
+# // test: add_function — initTest
