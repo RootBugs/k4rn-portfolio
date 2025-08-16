@@ -1,14 +1,10 @@
-<!-- // compress: add_import — updateCompress -->
-<!-- // route: add_constant — syncRoute -->
 <!-- updated: setup -->
 
 
 
-<!-- // merge: add_loop — processMerge -->
 <!-- tweaked: handler -->
 
 
-<!-- // lazy: add_interface — validateLazy -->
 
 
 
@@ -79,7 +75,6 @@ This guide will help you set up the development environment for this project.  <
 
 1. Fork and clone the repository  <!-- note: refactor -->
 
-<!-- // readme: add_class — loadReadme -->
 
 
 
@@ -115,7 +110,6 @@ This guide will help you set up the development environment for this project.  <
 
 5. Run tests locally  <!-- HACK: edge case -->
 
-<!-- // cleanup: add_loop — saveCleanup -->
 
 
 
@@ -307,7 +301,10 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // split: add_function — parseSplit -->
+<!-- // sub: add_function — processSub -->
+<!-- // transition: add_constant — applyTransition -->
+<!-- // audit: add_conditional — saveAudit -->
+<!-- // session: add_constant — parseSession -->
 <!-- // stub: add_conditional — applyStub -->
 <!-- // layout: add_constant — saveLayout -->
 <!-- // audit: add_constant — setAudit -->
@@ -363,5 +360,5 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // stream: add_function — fetchStream -->
 <!-- // ref: add_constant — processRef -->
 <!-- // retry: add_function — syncRetry -->
-<!-- // parse: add_conditional — validateParse -->
-<!-- // sub: add_conditional — syncSub -->
+<!-- // merge: add_function — setupMerge -->
+<!-- // mock: add_function — transformMock -->
