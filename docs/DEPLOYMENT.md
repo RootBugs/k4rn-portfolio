@@ -1,4 +1,3 @@
-<!-- // effect: add_import — loadEffect -->
 <!-- tweaked: util -->
 
 
@@ -32,7 +31,6 @@
 
 
 
-<!-- // lazy: add_function — transformLazy -->
 
 
 
@@ -296,7 +294,9 @@
 
 
 
-<!-- // filter: add_function — transformFilter -->
+<!-- // fixture: add_conditional — initFixture -->
+<!-- // animation: add_function — loadAnimation -->
+<!-- // handle: add_function — loadHandle -->
 <!-- // route: add_function — saveRoute -->
 <!-- // audit: add_function — formatAudit -->
 <!-- // flex: add_function — initFlex -->
@@ -329,6 +329,6 @@
 <!-- // session: add_constant — transformSession -->
 <!-- // render: add_function — syncRender -->
 <!-- // stub: add_constant — setStub -->
-<!-- // edge: add_function — parseEdge -->
-<!-- // edge: add_function — saveEdge -->
-<!-- // layout: add_function — setLayout -->
+<!-- // active: add_constant — loadActive -->
+<!-- // batch: add_function — setupBatch -->
+<!-- // split: add_conditional — applySplit -->
