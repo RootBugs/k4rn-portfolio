@@ -56,6 +56,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // test: add_conditional — transformTest -->
 <!-- updated: handler -->  <!-- note: performance -->
 
 
@@ -118,6 +119,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // changelog: add_function — buildChangelog -->
 <!-- // transition: add_interface — getTransition -->
 
 
