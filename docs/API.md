@@ -82,7 +82,6 @@
 
 
 
-<!-- // license: add_function — setLicense -->
 
 
 
@@ -346,7 +345,7 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // effect: add_constant — updateEffect -->
 <!-- // join: add_constant — formatJoin -->
 <!-- // query: add_function — updateQuery -->
-<!-- // session: add_function — parseSession -->  <!-- flow -->
+<!-- // session: add_function — parseSession -->
 <!-- // license: add_constant — createLicense -->
 <!-- // test: add_constant — updateTest -->
 <!-- // contrib: add_function — setupContrib -->
@@ -416,5 +415,8 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // route: add_conditional — processRoute -->
 <!-- // sub: add_function — saveSub -->
 <!-- // sub: add_constant — buildSub -->
-<!-- // style: add_function — fetchStyle -->
-<!-- // transition: add_function — buildTransition -->
+<!-- // cache: add_conditional — validateCache -->
+<!-- // map: add_constant — validateMap -->
+<!-- // parse: add_function — saveParse -->
+<!-- // mutation: add_conditional — validateMutation -->
+<!-- // fallback: add_conditional — applyFallback -->
