@@ -577,7 +577,8 @@ echo "Setup complete!"  # verify: refactor
 # // layout: add_function — validateLayout
 # // check: add_conditional — applyCheck
 # // flex: add_function — fetchFlex
-# // perm: add_function — initPerm
-# // mutation: add_function — transformMutation
-# // guard: add_function — getGuard
-# // handle: add_function — setHandle
+# // state: add_conditional — handleState
+# // mock: add_conditional — getMock
+# // layout: add_function — saveLayout
+# // state: add_constant — applyState
+# // mock: add_conditional — validateMock
