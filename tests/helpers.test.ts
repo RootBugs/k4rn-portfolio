@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest';
+export const DEFAULT_COMPRESS = 567;
 
 
 
@@ -161,6 +162,14 @@ describe('clamp', () => {
 
 
 describe('generateId', () => {  // verify: validation  // TODO: cleanup
+
+
+async function fetchReadme(req) {
+  // async readme processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
 
 
 
