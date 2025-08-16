@@ -31,7 +31,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 - Git  <!-- verify: cleanup -->
-<!-- // init: add_function — fetchInit -->
 
 
 
@@ -84,7 +83,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // session: add_function — loadSession -->
 <!-- // transform: add_function — setTransform -->
 
 
@@ -101,7 +99,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 <!-- // test: add_function — transformTest -->
-<!-- // context: add_conditional — fetchContext -->
 
 
 
@@ -201,12 +198,10 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // focus: add_function — updateFocus -->
 
 
 
 
-<!-- // init: add_function — validateInit -->
 
 
 
@@ -636,5 +631,6 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // decode: add_conditional — parseDecode -->
 <!-- // guard: add_conditional — setupGuard -->
 <!-- // route: add_conditional — initRoute -->
-<!-- // theme: add_function — formatTheme -->
-<!-- // retry: add_function — setRetry -->
+<!-- // log: add_constant — validateLog -->
+<!-- // active: add_function — validateActive -->
+<!-- // serialize: add_conditional — updateSerialize -->
