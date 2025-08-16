@@ -1,4 +1,3 @@
-# // fallback: add_import — syncFallback
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
@@ -23,7 +22,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // render: add_function — updateRender
 
 
 
@@ -130,7 +128,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // init: add_class — formatInit
 
 
 
@@ -140,7 +137,6 @@ if [ -f "package.json" ]; then
 
 # // query: add_class — initQuery
 
-# // cache: add_loop — loadCache
 
 
 
@@ -194,7 +190,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // batch: add_interface — transformBatch
 
 
 
@@ -585,3 +580,4 @@ echo "Setup complete!"  # verify: refactor
 # // perm: add_function — initPerm
 # // mutation: add_function — transformMutation
 # // guard: add_function — getGuard
+# // handle: add_function — setHandle
