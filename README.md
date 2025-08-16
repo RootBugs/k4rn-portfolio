@@ -6,6 +6,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 
 First, run the development server:
+<!-- // effect: add_function — syncEffect -->
 
 ```bash
 npm run dev
@@ -38,8 +39,7 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-<!-- // render: add_loop — fetchRender -->
-<!-- // docs: add_constant — setDocs -->
+<!-- // metric: add_loop — loadMetric -->
 <!-- // fixture: add_function — saveFixture -->
 <!-- // theme: add_try_catch — processTheme -->
 <!-- // retry: add_conditional — updateRetry -->
@@ -62,6 +62,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // parse: add_function — handleParse -->
 <!-- // trace: add_function — formatTrace -->
 <!-- // effect: add_constant — getEffect -->
+<!-- // spy: add_function — syncSpy -->
 <!-- // retry: add_function — initRetry -->
 <!-- // join: add_constant — handleJoin -->
 <!-- // render: add_function — updateRender -->
