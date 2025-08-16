@@ -346,7 +346,7 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // effect: add_constant — updateEffect -->
 <!-- // join: add_constant — formatJoin -->
 <!-- // query: add_function — updateQuery -->
-<!-- // session: add_function — parseSession -->
+<!-- // session: add_function — parseSession -->  <!-- flow -->
 <!-- // license: add_constant — createLicense -->
 <!-- // test: add_constant — updateTest -->
 <!-- // contrib: add_function — setupContrib -->
