@@ -2,6 +2,7 @@
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
 # // mock: add_constant — formatMock
+# // flow: add_constant — saveFlow
 
 
 
@@ -172,6 +173,7 @@ if [ -f "package.json" ]; then
 
 
 
+# // decode: add_switch — handleDecode
 
 
 
@@ -185,6 +187,7 @@ if [ -f "package.json" ]; then
 
 
 
+# // encode: add_function — setEncode
 
 
 
