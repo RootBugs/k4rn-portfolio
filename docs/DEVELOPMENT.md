@@ -80,6 +80,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // metric: add_conditional — checkMetric -->
 
 
 
@@ -301,10 +302,7 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // sub: add_function — processSub -->
-<!-- // transition: add_constant — applyTransition -->
-<!-- // audit: add_conditional — saveAudit -->
-<!-- // session: add_constant — parseSession -->
+<!-- // merge: add_function — applyMerge -->
 <!-- // stub: add_conditional — applyStub -->
 <!-- // layout: add_constant — saveLayout -->
 <!-- // audit: add_constant — setAudit -->
