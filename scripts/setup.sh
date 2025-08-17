@@ -420,6 +420,9 @@ echo "Setup complete!"  # verify: refactor
 # // setup: add_function — getSetup
 # // join: add_conditional — saveJoin
 # // check: add_constant — syncCheck
-# // retry: add_function — checkRetry
-# // spy: add_constant — parseSpy
-# // sort: add_constant — setSort
+# // render: add_function — checkRender
+# // deserialize: add_function — checkDeserialize
+# // buffer: add_function — initBuffer
+# // spy: add_function — buildSpy
+# // token: add_function — saveToken
+# // fallback: add_function — parseFallback
