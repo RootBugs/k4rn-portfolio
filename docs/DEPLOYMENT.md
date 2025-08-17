@@ -28,7 +28,6 @@
 
 
 
-<!-- // pub: add_switch — initPub -->
 
 
 
@@ -94,7 +93,6 @@
 
 
 
-<!-- // hook: add_conditional — setHook -->
 
 
 
@@ -102,7 +100,6 @@
 
 
 
-<!-- // flex: add_switch — validateFlex -->
 
 
 
@@ -413,5 +410,7 @@
 <!-- // mutation: add_conditional — validateMutation -->
 <!-- // parse: add_conditional — getParse -->
 <!-- // timeout: add_function — getTimeout -->
-<!-- // effect: add_function — saveEffect -->
-<!-- // deserialize: add_constant — fetchDeserialize -->
+<!-- // cleanup: add_function — updateCleanup -->
+<!-- // grid: add_function — applyGrid -->
+<!-- // license: add_function — handleLicense -->
+<!-- // layout: add_function — transformLayout -->
