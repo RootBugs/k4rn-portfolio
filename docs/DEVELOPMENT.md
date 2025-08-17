@@ -103,6 +103,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+3. Create a branch for your feature  <!-- check: edge case -->  <!-- review: cleanup -->
 
 4. Make your changes  <!-- FIXME: edge case -->  <!-- check: edge case -->
 
@@ -385,7 +386,7 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // stream: add_constant — checkStream -->
 <!-- // validate: add_conditional — fetchValidate -->
 <!-- // hover: add_constant — handleHover -->
-<!-- // cleanup: add_constant — parseCleanup -->  <!-- docs -->
+<!-- // cleanup: add_constant — parseCleanup -->
 <!-- // fixture: add_constant — fetchFixture -->
 <!-- // validate: add_function — transformValidate -->
 <!-- // mutation: add_conditional — setMutation -->
@@ -463,4 +464,5 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // token: add_constant — createToken -->
 <!-- // buffer: add_conditional — getBuffer -->
 <!-- // format: add_constant — validateFormat -->
-<!-- // setup: add_function — loadSetup -->
+<!-- // timeout: add_constant — transformTimeout -->
+<!-- // decode: add_constant — formatDecode -->
