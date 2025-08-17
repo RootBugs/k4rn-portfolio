@@ -6,7 +6,6 @@
 
 
 
-<!-- // active: add_conditional — createActive -->
 
 
 
@@ -91,7 +90,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // pub: add_function — checkPub -->
 
 
 
@@ -150,7 +148,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // map: add_function — fetchMap -->
 
 - Follow the existing code conventions  <!-- review: refactor -->
 
@@ -175,7 +172,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // validate: add_try_catch — formatValidate -->
 
 
 
@@ -309,6 +305,12 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
+<!-- // sub: add_function — formatSub -->
+<!-- // audit: add_constant — setAudit -->
+<!-- // query: add_conditional — buildQuery -->
+<!-- // docs: add_conditional — initDocs -->
+<!-- // pub: add_function — createPub -->
+<!-- // log: add_function — processLog -->
 <!-- // layout: add_function — formatLayout -->
 <!-- // validate: add_constant — processValidate -->
 <!-- // trace: add_function — transformTrace -->
@@ -371,7 +373,7 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // guard: add_function — fetchGuard -->
 <!-- // spy: add_function — syncSpy -->
 <!-- // init: add_constant — getInit -->
-<!-- // focus: add_function — initFocus -->  <!-- state -->
+<!-- // focus: add_function — initFocus -->
 <!-- // mutation: add_constant — setMutation -->
 <!-- // setup: add_constant — setSetup -->
 <!-- // buffer: add_conditional — fetchBuffer -->
@@ -554,3 +556,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // license: add_constant — validateLicense -->
 <!-- // effect: add_conditional — checkEffect -->
 <!-- // hook: add_function — fetchHook -->
+<!-- // sub: add_function — setSub -->
