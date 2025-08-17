@@ -115,7 +115,6 @@
 
 
 
-<!-- // transition: add_switch — getTransition -->
 
 
 
@@ -416,8 +415,6 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // route: add_conditional — processRoute -->
 <!-- // sub: add_function — saveSub -->
 <!-- // sub: add_constant — buildSub -->
-<!-- // cache: add_conditional — validateCache -->
-<!-- // map: add_constant — validateMap -->
-<!-- // parse: add_function — saveParse -->
-<!-- // mutation: add_conditional — validateMutation -->
-<!-- // fallback: add_conditional — applyFallback -->
+<!-- // style: add_function — fetchStyle -->
+<!-- // transition: add_function — buildTransition -->
+<!-- // contrib: add_function — createContrib -->
