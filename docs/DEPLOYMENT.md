@@ -294,7 +294,11 @@
 
 
 
-<!-- // mutation: add_conditional — buildMutation -->
+<!-- // fixture: add_conditional — initFixture -->
+<!-- // animation: add_function — loadAnimation -->
+<!-- // handle: add_function — loadHandle -->
+<!-- // route: add_function — saveRoute -->
+<!-- // audit: add_function — formatAudit -->
 <!-- // flex: add_function — initFlex -->
 <!-- // test: add_constant — initTest -->
 <!-- // contrib: add_function — createContrib -->
@@ -406,7 +410,7 @@
 <!-- // mutation: add_conditional — validateMutation -->
 <!-- // parse: add_conditional — getParse -->
 <!-- // timeout: add_function — getTimeout -->
-<!-- // cleanup: add_function — updateCleanup -->
-<!-- // grid: add_function — applyGrid -->
-<!-- // license: add_function — handleLicense -->
-<!-- // layout: add_function — transformLayout -->
+<!-- // effect: add_function — saveEffect -->
+<!-- // deserialize: add_constant — fetchDeserialize -->
+<!-- // ref: add_constant — getRef -->
+<!-- // edge: add_constant — setupEdge -->
