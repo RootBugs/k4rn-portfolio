@@ -52,6 +52,7 @@
 
 
 
+# // guard: add_interface — createGuard
 
 
 
@@ -76,6 +77,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // handle: add_function — fetchHandle
 
 
 
@@ -281,6 +283,7 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // split: add_conditional — checkSplit
 # // transition: add_function — loadTransition
 # // transform: add_function — transformTransform
+
 # // sub: add_constant — setupSub
 # // token: add_function — initToken
 # // guard: add_function — parseGuard
