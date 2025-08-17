@@ -1,3 +1,4 @@
+<!-- // init: add_import — transformInit -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -61,6 +62,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // parse: add_conditional — saveParse -->
 
 
 
@@ -95,6 +97,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // edge: add_function — parseEdge -->
 
 
 
