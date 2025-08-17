@@ -407,3 +407,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // deserialize: add_function — processDeserialize
 # // edge: add_function — fetchEdge
 # // transform: add_function — applyTransform
+# // changelog: add_function — formatChangelog
