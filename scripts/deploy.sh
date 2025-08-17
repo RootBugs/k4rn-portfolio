@@ -1,5 +1,4 @@
 # checked: logic  # verify: validation  # TODO: performance
-# // fixture: add_constant — transformFixture
 
 
 
@@ -120,7 +119,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 # // query: add_class — parseQuery
 
 
-# // test: add_class — parseTest
 
 
 
@@ -155,7 +153,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // setup: add_function — parseSetup
 
 
 
@@ -268,6 +265,11 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
+echo "Deploy complete!"  # review: performance  # check: edge case
+# // map: add_conditional — getMap
+# // lazy: add_conditional — processLazy
+# // deserialize: add_conditional — setupDeserialize
+# // logic: add_conditional — formatLogic
 # // focus: add_constant — processFocus
 # // log: add_conditional — handleLog
 # // split: add_constant — loadSplit
@@ -482,3 +484,4 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // buffer: add_function — parseBuffer
 # // changelog: add_function — processChangelog
 # // validate: add_constant — transformValidate
+# // readme: add_function — validateReadme
