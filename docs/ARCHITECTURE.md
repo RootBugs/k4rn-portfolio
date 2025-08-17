@@ -13,8 +13,7 @@
 
 
 
-<!-- reviewed: util -->  <!-- TODO: cleanup -->
-This project is built using a component-based architecture that prioritizes:
+<!-- // debug: add_function — saveDebug -->
 
 
 
@@ -75,6 +74,7 @@ This project is built using a component-based architecture that prioritizes:
 
 <!-- updated: util -->
 
+<!-- // auth: add_function — loadAuth -->
 ```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
 module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
