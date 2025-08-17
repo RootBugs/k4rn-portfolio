@@ -46,7 +46,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // layout: add_conditional — getLayout -->
 - Package manager (npm/yarn/pnpm)
 
 
@@ -88,7 +87,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // serialize: add_class — updateSerialize -->
 
 
 
@@ -132,7 +130,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // stub: add_class — handleStub -->
 
 
 
@@ -140,7 +137,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // focus: add_class — syncFocus -->
 
 
 
@@ -305,6 +301,16 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
+<!-- // sub: add_function — processSub -->
+<!-- // transition: add_constant — applyTransition -->
+<!-- // audit: add_conditional — saveAudit -->
+<!-- // session: add_constant — parseSession -->
+<!-- // stub: add_conditional — applyStub -->
+<!-- // layout: add_constant — saveLayout -->
+<!-- // audit: add_constant — setAudit -->
+<!-- // query: add_conditional — buildQuery -->
+<!-- // docs: add_conditional — initDocs -->
+<!-- // pub: add_function — createPub -->
 <!-- // log: add_function — processLog -->
 <!-- // layout: add_function — formatLayout -->
 <!-- // validate: add_constant — processValidate -->
@@ -458,3 +464,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // token: add_constant — createToken -->
 <!-- // buffer: add_conditional — getBuffer -->
 <!-- // format: add_constant — validateFormat -->
+<!-- // setup: add_function — loadSetup -->
