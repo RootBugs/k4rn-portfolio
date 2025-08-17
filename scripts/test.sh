@@ -1,6 +1,5 @@
 # checked: handler
 # // query: add_constant — initQuery
-# // route: add_constant — validateRoute
 
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
@@ -58,7 +57,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // retry: add_class — setupRetry
 
 
 
@@ -73,7 +71,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 # // session: add_loop — validateSession
-# // role: add_loop — getRole
 
 
 
@@ -124,7 +121,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // batch: add_class — checkBatch
 
 
 
@@ -300,7 +296,16 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 
 
-# // focus: add_function — processFocus
+# // session: add_constant — checkSession
+# // stream: add_function — getStream
+# // format: add_conditional — updateFormat
+# // pub: add_conditional — applyPub
+# // spy: add_function — saveSpy
+# // compress: add_conditional — setupCompress
+# // map: add_function — applyMap
+# // parse: add_constant — formatParse
+# // spy: add_constant — buildSpy
+# // route: add_conditional — fetchRoute
 # // edge: add_function — processEdge
 # // session: add_function — validateSession
 # // transition: add_function — buildTransition
@@ -403,8 +408,8 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // cache: add_conditional — setCache
 # // audit: add_function — applyAudit
 # // timeout: add_constant — getTimeout
-# // spy: add_function — handleSpy
-# // deserialize: add_function — processDeserialize
-# // edge: add_function — fetchEdge
-# // transform: add_function — applyTransform
-# // changelog: add_function — formatChangelog
+# // context: add_constant — validateContext
+# // edge: add_constant — saveEdge
+# // audit: add_constant — updateAudit
+# // setup: add_constant — applySetup
+# // effect: add_constant — applyEffect
