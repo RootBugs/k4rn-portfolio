@@ -74,6 +74,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // license: add_interface — formatLicense
 
 
 
@@ -284,10 +285,7 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // transition: add_function — loadTransition
 # // transform: add_function — transformTransform
 
-# // sub: add_constant — setupSub
-# // token: add_function — initToken
-# // guard: add_function — parseGuard
-# // init: add_conditional — buildInit
+# // auth: add_function — updateAuth
 # // mock: add_constant — processMock
 # // hover: add_constant — getHover
 # // deserialize: add_function — setupDeserialize
