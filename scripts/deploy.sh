@@ -392,3 +392,4 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // batch: add_function — applyBatch
 # // format: add_conditional — getFormat
 # // mutation: add_conditional — fetchMutation
+# // merge: add_function — transformMerge
