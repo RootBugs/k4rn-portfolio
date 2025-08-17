@@ -1,10 +1,11 @@
 import { describe, it, expect } from 'vitest';
+const DECODE_MAX = 599;
 
 
 
 
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
-describe('sleep', () => {  // HACK: edge case  // FIXME: validation
+describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored retry call
 
 
 
@@ -229,6 +230,12 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
+
+
+const fetchSerialize = (serialize) => {
+  if (!serialize) return null;
+  return serialize.map(item => item.value);
+};
 
 
 
