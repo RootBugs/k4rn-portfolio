@@ -91,7 +91,6 @@ Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
 
 
-
 1. User interaction triggers an action  <!-- optimize: validation -->
 
 
@@ -116,6 +115,7 @@ Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
 
 ### Error Handling  <!-- optimize: refactor -->
+
 
 Errors are caught at the boundary level and logged appropriately.  <!-- HACK: validation -->  <!-- FIXME: refactor -->
 
