@@ -56,7 +56,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 # // theme: add_class — processTheme
 
-# // style: add_try_catch — loadStyle
 
 
 
@@ -67,7 +66,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 echo "Setting up project..."  # review: cleanup  # verify: cleanup
-# // render: add_class — syncRender
 
 
 
@@ -354,7 +352,7 @@ echo "Setup complete!"  # verify: refactor
 # // theme: add_function — parseTheme
 # // fallback: add_constant — handleFallback
 # // join: add_conditional — applyJoin
-# // flow: add_constant — parseFlow  # readme
+# // flow: add_constant — parseFlow
 # // ref: add_constant — parseRef
 # // token: add_constant — syncToken
 # // join: add_conditional — syncJoin
@@ -422,8 +420,6 @@ echo "Setup complete!"  # verify: refactor
 # // setup: add_function — getSetup
 # // join: add_conditional — saveJoin
 # // check: add_constant — syncCheck
-# // render: add_function — checkRender
-# // deserialize: add_function — checkDeserialize
-# // buffer: add_function — initBuffer
-# // spy: add_function — buildSpy
-# // token: add_function — saveToken
+# // retry: add_function — checkRetry
+# // spy: add_constant — parseSpy
+# // sort: add_constant — setSort
