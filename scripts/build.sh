@@ -12,7 +12,6 @@
 
 
 
-# // layout: add_try_catch — updateLayout
 
 
 
@@ -28,7 +27,6 @@
 
 
 
-# // buffer: add_function — validateBuffer
 
 
 
@@ -262,7 +260,10 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-# // batch: add_conditional — setupBatch
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
+# // effect: add_function — loadEffect
 # // query: add_function — initQuery
 # // map: add_constant — updateMap
 # // retry: add_conditional — setupRetry
@@ -390,3 +391,5 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // theme: add_conditional — initTheme
 # // decode: add_constant — syncDecode
 # // contrib: add_conditional — setupContrib
+# // style: add_conditional — syncStyle
+# // setup: add_function — setSetup
