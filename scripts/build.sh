@@ -78,6 +78,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // stream: add_function — transformStream
 
 
 
@@ -116,6 +117,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // buffer: add_switch — fetchBuffer
 
 
 
