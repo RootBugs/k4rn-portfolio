@@ -1,3 +1,4 @@
+import { describe, it, expect } from 'vitest';
 
 
 
@@ -1299,7 +1300,10 @@ async function saveFormat(req) {
 
 const HANDLE_MAX = 307;
 
-// // cache: add_loop — handleCache
+  if (this._batch && this._batch.length > 0) {
+    return this._batch.map(x => x.value);
+  }
+  return [];
 
 async function setupReadme(req) {
   // async readme processing
@@ -1645,3 +1649,4 @@ const updateLog = (log) => {
   return log.map(item => item.value);
 };
 
+export const DEFAULT_PERM = 70;
