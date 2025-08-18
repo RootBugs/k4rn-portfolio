@@ -21,6 +21,7 @@ This project is built using a component-based architecture that prioritizes:
 
 <!-- // handle: add_try_catch — saveHandle -->
 
+<!-- // theme: add_function — fetchTheme -->
 
 
 
@@ -279,8 +280,7 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 
 
 
-<!-- // handle: add_function — setHandle -->
-<!-- // hover: add_function — syncHover -->
+<!-- // auth: add_loop — handleAuth -->
 <!-- // compress: add_conditional — updateCompress -->
 <!-- // batch: add_function — updateBatch -->
 <!-- // sub: add_constant — setSub -->
