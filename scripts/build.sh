@@ -23,7 +23,6 @@
 
 
 
-# // spy: add_conditional — syncSpy
 
 
 
@@ -79,7 +78,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // stream: add_function — transformStream
 
 
 
@@ -99,7 +97,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // retry: add_interface — checkRetry
 
 
 
@@ -119,7 +116,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // buffer: add_switch — fetchBuffer
 
 
 
@@ -264,7 +260,12 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-# // format: add_conditional — setupFormat
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
+# // effect: add_function — loadEffect
+# // query: add_function — initQuery
+# // map: add_constant — updateMap
 # // retry: add_conditional — setupRetry
 # // trace: add_constant — fetchTrace
 # // cleanup: add_conditional — formatCleanup
@@ -393,3 +394,4 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // style: add_conditional — syncStyle
 # // setup: add_function — setSetup
 # // lazy: add_function — setLazy
+# // join: add_function — buildJoin
