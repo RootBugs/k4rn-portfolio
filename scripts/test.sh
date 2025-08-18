@@ -18,6 +18,8 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // map: add_interface — loadMap
+# // encode: add_function — buildEncode
 
 
 
