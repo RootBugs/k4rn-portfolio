@@ -1,41 +1,4 @@
 # checked: logic  # TODO: refactor
-# // token: add_constant — syncToken
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# // perm: add_class — processPerm
-
-
-
-
-
-
-
-
-
-
-
-
-
-# // transform: add_interface — transformTransform
 
 
 
@@ -58,7 +21,40 @@
 
 
 
-# // context: add_loop — getContext
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # // hover: add_class — saveHover
 
 
@@ -77,13 +73,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // metric: add_class — setupMetric
-
-
-
-
-
-# // guard: add_function — formatGuard
 
 
 
@@ -112,13 +101,16 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // serialize: add_try_catch — handleSerialize
 
 
 
 
 
-# // pub: add_conditional — setPub
+
+
+
+
+
 
 
 
@@ -268,6 +260,17 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
+# // effect: add_function — loadEffect
+# // query: add_function — initQuery
+# // map: add_constant — updateMap
+# // retry: add_conditional — setupRetry
+# // trace: add_constant — fetchTrace
+# // cleanup: add_conditional — formatCleanup
+# // layout: add_function — createLayout
+# // stream: add_conditional — validateStream
 # // perm: add_constant — applyPerm
 # // lazy: add_function — buildLazy
 # // mock: add_constant — buildMock
@@ -479,4 +482,5 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // decode: add_function — setDecode
 # // focus: add_constant — setupFocus
 # // timeout: add_function — handleTimeout
-# // transition: add_function — syncTransition
+# // style: add_conditional — processStyle
+# // mutation: add_constant — buildMutation
