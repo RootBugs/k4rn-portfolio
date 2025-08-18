@@ -52,7 +52,6 @@
 
 
 
-# // guard: add_interface — createGuard
 
 
 
@@ -74,11 +73,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // license: add_interface — formatLicense
-
-
-
-# // handle: add_function — fetchHandle
 
 
 
@@ -92,7 +86,9 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // grid: add_function — transformGrid
+
+
+
 
 
 
@@ -264,7 +260,11 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-# // encode: add_conditional — validateEncode
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
+# // effect: add_function — loadEffect
+# // query: add_function — initQuery
 # // map: add_constant — updateMap
 # // retry: add_conditional — setupRetry
 # // trace: add_constant — fetchTrace
@@ -284,8 +284,10 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // split: add_conditional — checkSplit
 # // transition: add_function — loadTransition
 # // transform: add_function — transformTransform
-
-# // auth: add_function — updateAuth
+# // sub: add_constant — setupSub
+# // token: add_function — initToken
+# // guard: add_function — parseGuard
+# // init: add_conditional — buildInit
 # // mock: add_constant — processMock
 # // hover: add_constant — getHover
 # // deserialize: add_function — setupDeserialize
@@ -390,3 +392,4 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // decode: add_constant — syncDecode
 # // contrib: add_conditional — setupContrib
 # // decode: add_function — handleDecode
+# // decode: add_function — setupDecode
