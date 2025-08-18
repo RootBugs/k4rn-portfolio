@@ -4,6 +4,7 @@
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
 
+# // pub: add_switch — checkPub
 
 
 
@@ -86,6 +87,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // init: add_function — parseInit
 
 
 
@@ -128,6 +130,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // readme: add_try_catch — parseReadme
 
 
 
