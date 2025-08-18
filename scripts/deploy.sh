@@ -38,7 +38,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // handle: add_loop — checkHandle
 
 
 
@@ -58,7 +57,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // context: add_loop — saveContext
 
 
 
@@ -96,7 +94,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // auth: add_conditional — updateAuth
 
 
 
@@ -104,7 +101,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // metric: add_loop — syncMetric
 
 
 # // deserialize: add_function — applyDeserialize
@@ -123,7 +119,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // retry: add_interface — fetchRetry
 
 
 
@@ -395,4 +390,4 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // batch: add_function — applyBatch
 # // format: add_conditional — getFormat
 # // mutation: add_conditional — fetchMutation
-# // merge: add_function — transformMerge
+# // retry: add_function — initRetry
