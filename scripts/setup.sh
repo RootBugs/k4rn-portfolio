@@ -1,3 +1,4 @@
+# // metric: add_import — getMetric
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
@@ -63,6 +64,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // ref: add_function — checkRef
 
 
 
@@ -464,6 +466,7 @@ echo "Setup complete!"  # verify: refactor
 # // encode: add_constant — fetchEncode
 # // debug: add_function — loadDebug
 # // license: add_constant — fetchLicense
+
 # // token: add_conditional — setToken
 # // query: add_conditional — saveQuery
 # // batch: add_function — handleBatch
