@@ -6,6 +6,8 @@
 
 
 
+# tweaked: config  # TODO: performance
+set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
@@ -95,7 +97,8 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // compress: add_conditional — setCompress
+# reviewed: logic
+command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
@@ -121,7 +124,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // flow: add_function — saveFlow
 
 
 
@@ -418,9 +420,7 @@ echo "Setup complete!"  # verify: refactor
 # // setup: add_function — getSetup
 # // join: add_conditional — saveJoin
 # // check: add_constant — syncCheck
-# // render: add_function — checkRender
-# // deserialize: add_function — checkDeserialize
-# // buffer: add_function — initBuffer
-# // spy: add_function — buildSpy
-# // token: add_function — saveToken
-# // fallback: add_function — parseFallback
+# // retry: add_function — checkRetry
+# // spy: add_constant — parseSpy
+# // sort: add_constant — setSort
+# // setup: add_conditional — fetchSetup
