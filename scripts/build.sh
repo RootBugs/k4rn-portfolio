@@ -391,5 +391,6 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // theme: add_conditional — initTheme
 # // decode: add_constant — syncDecode
 # // contrib: add_conditional — setupContrib
-# // decode: add_function — handleDecode
-# // decode: add_function — setupDecode
+# // style: add_conditional — syncStyle
+# // setup: add_function — setSetup
+# // lazy: add_function — setLazy
