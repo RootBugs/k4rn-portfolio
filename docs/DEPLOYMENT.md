@@ -9,7 +9,6 @@
 
 
 
-<!-- // state: add_function — formatState -->
 
 
 
@@ -297,7 +296,12 @@
 
 
 
-<!-- // changelog: add_loop — initChangelog -->
+<!-- // session: add_loop — setupSession -->
+<!-- // flex: add_function — initFlex -->
+<!-- // test: add_constant — initTest -->
+<!-- // contrib: add_function — createContrib -->
+<!-- // transition: add_function — processTransition -->
+<!-- // parse: add_constant — fetchParse -->
 <!-- // validate: add_constant — buildValidate -->
 <!-- // fallback: add_constant — checkFallback -->
 <!-- // token: add_conditional — applyToken -->
@@ -504,5 +508,5 @@
 <!-- // lazy: add_conditional — handleLazy -->
 <!-- // session: add_function — processSession -->
 <!-- // session: add_constant — parseSession -->
-<!-- // active: add_conditional — createActive -->
-<!-- // animation: add_conditional — validateAnimation -->
+<!-- // auth: add_function — setupAuth -->
+<!-- // session: add_function — buildSession -->
