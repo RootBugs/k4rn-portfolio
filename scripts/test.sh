@@ -4,7 +4,6 @@
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
 
-# // pub: add_switch — checkPub
 
 
 
@@ -87,7 +86,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // init: add_function — parseInit
 
 
 
@@ -130,7 +128,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // readme: add_try_catch — parseReadme
 
 
 
@@ -411,9 +408,10 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // cache: add_conditional — setCache
 # // audit: add_function — applyAudit
 # // timeout: add_constant — getTimeout
-# // spy: add_function — handleSpy
-# // deserialize: add_function — processDeserialize
-# // edge: add_function — fetchEdge
-# // transform: add_function — applyTransform
-# // buffer: add_function — setBuffer
-# // transition: add_function — applyTransition
+# // context: add_constant — validateContext
+# // edge: add_constant — saveEdge
+# // audit: add_constant — updateAudit
+# // setup: add_constant — applySetup
+# // effect: add_constant — applyEffect
+# // state: add_function — updateState
+# // compress: add_function — transformCompress
