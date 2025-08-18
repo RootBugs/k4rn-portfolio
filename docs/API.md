@@ -517,3 +517,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // hook: add_function — updateHook -->
 <!-- // metric: add_function — loadMetric -->
 <!-- // token: add_function — validateToken -->
+<!-- // active: add_function — setActive -->
