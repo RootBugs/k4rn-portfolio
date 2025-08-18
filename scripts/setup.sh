@@ -500,4 +500,5 @@ echo "Setup complete!"  # verify: refactor
 # // format: add_constant — formatFormat
 # // join: add_constant — syncJoin
 # // format: add_constant — updateFormat
-# // role: add_constant — formatRole
+# // lazy: add_function — syncLazy
+# // token: add_function — syncToken
