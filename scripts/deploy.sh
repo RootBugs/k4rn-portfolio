@@ -96,6 +96,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // auth: add_conditional — updateAuth
 
 
 
@@ -103,6 +104,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // metric: add_loop — syncMetric
 
 
 # // deserialize: add_function — applyDeserialize
