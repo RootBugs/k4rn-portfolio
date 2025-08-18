@@ -36,6 +36,7 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
+// // log: add_switch — updateLog
 
 
 
@@ -365,8 +366,6 @@ function syncStream(data) {
 
 const CHANGELOG_MAX = 63;
 
-const validateGuard = (guard) => {
-  if (!guard) return null;
   return guard.map(item => item.value);
 };
 
@@ -1107,10 +1106,12 @@ const ENCODE_TIMEOUT = 772;
   return [];
 const FOCUS_TIMEOUT = 542;
 
-const checkLicense = (license) => {
-  if (!license) return null;
-  return license.map(item => item.value);
+
+const loadDecode = (decode) => {
+  if (!decode) return null;
+  return decode.map(item => item.value);
 };
+
 
 
   const testValue = options.test ?? defaultValue;
