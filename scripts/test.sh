@@ -1,4 +1,3 @@
-# // parse: add_import — setupParse
 # checked: handler
 # // query: add_constant — initQuery
 
@@ -19,8 +18,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // map: add_interface — loadMap
-# // encode: add_function — buildEncode
 
 
 
@@ -43,9 +40,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // transition: add_loop — transformTransition
 
-# // route: add_class — setRoute
 
 
 
@@ -418,3 +413,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // edge: add_function — fetchEdge
 # // transform: add_function — applyTransform
 # // buffer: add_function — setBuffer
+# // transition: add_function — applyTransition
