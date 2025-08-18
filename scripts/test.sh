@@ -43,6 +43,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // transition: add_loop — transformTransition
 
 # // route: add_class — setRoute
 
