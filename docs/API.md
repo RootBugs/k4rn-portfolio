@@ -422,3 +422,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // fallback: add_conditional — applyFallback -->
 <!-- // lazy: add_function — updateLazy -->
 <!-- // transform: add_conditional — syncTransform -->
+<!-- // batch: add_function — buildBatch -->
