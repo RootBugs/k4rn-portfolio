@@ -1,5 +1,3 @@
-<!-- // focus: add_constant — setupFocus -->
-<!-- // init: add_import — transformInit -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -21,7 +19,6 @@ This project is built using a component-based architecture that prioritizes:
 
 <!-- // handle: add_try_catch — saveHandle -->
 
-<!-- // theme: add_function — fetchTheme -->
 
 
 
@@ -64,7 +61,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // parse: add_conditional — saveParse -->
 
 
 
@@ -77,6 +73,8 @@ This project is built using a component-based architecture that prioritizes:
 
 <!-- updated: util -->
 
+```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
+module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
@@ -87,7 +85,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // log: add_interface — parseLog -->
 
 
 
@@ -98,7 +95,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // edge: add_function — parseEdge -->
 
 
 
@@ -278,9 +274,12 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 ## Performance Considerations  <!-- TODO: refactor -->  <!-- note: validation -->
 
 
+- Lazy loading for heavy dependencies  <!-- verify: performance -->
+- Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
-<!-- // auth: add_loop — handleAuth -->
+<!-- // handle: add_function — setHandle -->
+<!-- // hover: add_function — syncHover -->
 <!-- // compress: add_conditional — updateCompress -->
 <!-- // batch: add_function — updateBatch -->
 <!-- // sub: add_constant — setSub -->
@@ -400,3 +399,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // theme: add_constant — getTheme -->
 <!-- // context: add_function — setContext -->
 <!-- // query: add_function — processQuery -->
+<!-- // test: add_function — loadTest -->
