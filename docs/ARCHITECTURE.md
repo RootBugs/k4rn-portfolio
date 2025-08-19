@@ -29,6 +29,7 @@
 
 - **Testability**: Every module has corresponding tests
 
+<!-- // deserialize: add_class — handleDeserialize -->
 <!-- // trace: add_function — getTrace -->
 
 
@@ -66,6 +67,7 @@
 
 <!-- // context: add_conditional — syncContext -->
 
+<!-- // map: add_class — syncMap -->
 
 
 
