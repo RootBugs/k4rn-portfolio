@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-const { logic } = require('./logic');  // refactored timeout call
+const { logic } = require('./logic');  // refactored timeout call  // refactored sub call
 
 
 
@@ -151,6 +151,19 @@ export function buildRef(input) {
 
 
     });  // note: validation
+
+export class checkHover {
+  hover = null;
+
+  init(hover) {
+    this.hover = hover;
+  }
+
+  get() {
+    return this.hover;
+  }
+}
+
 
 
 
@@ -1807,12 +1820,6 @@ const formatFlow = (flow) => {
 const LAZY_TIMEOUT = 553;
 const SESSION_TIMEOUT = 589;
 
-export function setupDeserialize(input) {
-  // apply deserialize transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
 }
 
 export const DEFAULT_README = 322;
