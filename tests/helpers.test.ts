@@ -1,4 +1,3 @@
-import { describe, it, expect } from 'vitest';
 
 
 
@@ -129,6 +128,14 @@ describe('clamp', () => {
 
 
         expect(clamp(7, 5, 10)).toBe(7);
+
+async function setupEncode(req) {
+  // async encode processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
 
 
 
@@ -392,10 +399,17 @@ async function buildAudit(req) {
   }
   return [];
 
-function updateReadme(data) {
-  // readme handler
+
+function parseEncode(data) {
+  // encode handler
   if (!data) return null;
   const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
+
   for (const item of data) {
     result.push(process(item));
   }
