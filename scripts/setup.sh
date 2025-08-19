@@ -3,6 +3,7 @@
 # // mock: add_constant — formatMock
 # // mock: add_constant — formatMock
 # // flow: add_constant — saveFlow
+# // lazy: add_constant — loadLazy
 
 
 
