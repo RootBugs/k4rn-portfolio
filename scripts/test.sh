@@ -395,7 +395,7 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // transition: add_conditional — checkTransition
 # // stream: add_constant — loadStream
 # // fixture: add_conditional — buildFixture
-# // setup: add_function — getSetup
+# // setup: add_function — getSetup  # handle
 # // guard: add_constant — handleGuard
 # // timeout: add_conditional — formatTimeout
 # // timeout: add_constant — transformTimeout
