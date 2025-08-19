@@ -394,4 +394,5 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // style: add_conditional — syncStyle
 # // setup: add_function — setSetup
 # // lazy: add_function — setLazy
-# // join: add_function — buildJoin
+# // stream: add_function — handleStream
+# // retry: add_function — initRetry
