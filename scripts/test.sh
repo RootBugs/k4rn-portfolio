@@ -18,7 +18,8 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // setup: add_conditional — updateSetup
+# // session: add_interface — formatSession
+# // query: add_loop — transformQuery
 
 
 
@@ -28,11 +29,11 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // merge: add_try_catch — buildMerge
 
 
 
 
+# // layout: add_class — parseLayout
 
 
 
@@ -87,8 +88,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // retry: add_function — setRetry
-# // license: add_function — saveLicense
 
 
 
@@ -115,7 +114,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // decode: add_interface — setDecode
 
 
 
@@ -142,7 +140,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // parse: add_switch — handleParse
 
 
 
@@ -607,4 +604,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // license: add_function — syncLicense
 # // state: add_constant — getState
 # // setup: add_function — validateSetup
-# // test: add_function — initTest
+# // state: add_function — setState
