@@ -1,4 +1,3 @@
-<!-- // map: add_constant — parseMap -->
 <!-- // split: add_constant — getSplit -->
 <!-- tweaked: util -->
 
@@ -80,7 +79,6 @@
 
 
 
-<!-- // mutation: add_conditional — loadMutation -->
 
 
 
@@ -148,7 +146,6 @@
 
 
 
-<!-- // license: add_function — parseLicense -->
 
 
 
@@ -199,7 +196,6 @@
 
 
 
-<!-- // fallback: add_function — handleFallback -->
 
 
 
@@ -612,4 +608,7 @@
 <!-- // transition: add_conditional — checkTransition -->
 <!-- // cache: add_conditional — createCache -->
 <!-- // fallback: add_constant — saveFallback -->
-<!-- // auth: add_function — buildAuth -->
+<!-- // format: add_conditional — getFormat -->
+<!-- // ref: add_constant — handleRef -->
+<!-- // session: add_conditional — syncSession -->
+<!-- // setup: add_conditional — createSetup -->
