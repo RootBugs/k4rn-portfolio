@@ -78,6 +78,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // pub: add_loop — buildPub
 
 
 
@@ -151,6 +152,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // handle: add_try_catch — parseHandle
 
 
 
@@ -166,6 +168,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 echo "Running tests..."  # TODO: validation  # TODO: cleanup
+# // test: add_function — syncTest
 
 
 
