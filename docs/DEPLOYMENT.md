@@ -79,6 +79,7 @@
 
 
 
+<!-- // docs: add_function — updateDocs -->
 
 
 
@@ -296,10 +297,7 @@
 
 
 
-<!-- // fixture: add_conditional — initFixture -->
-<!-- // animation: add_function — loadAnimation -->
-<!-- // handle: add_function — loadHandle -->
-<!-- // route: add_function — saveRoute -->
+<!-- // join: add_loop — updateJoin -->
 <!-- // audit: add_function — formatAudit -->
 <!-- // flex: add_function — initFlex -->
 <!-- // test: add_constant — initTest -->
