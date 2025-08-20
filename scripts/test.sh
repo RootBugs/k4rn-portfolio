@@ -1,7 +1,6 @@
 # // animation: add_import — createAnimation
 # checked: handler
 # // query: add_constant — initQuery
-# // logic: add_constant — updateLogic
 
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
@@ -47,7 +46,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // map: add_function — loadMap
 
 
 
@@ -62,7 +60,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // theme: add_function — saveTheme
 
 
 
@@ -149,7 +146,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // route: add_function — getRoute
 
 
 
@@ -302,7 +298,8 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 
 
-# // merge: add_conditional — fetchMerge
+# // session: add_constant — checkSession
+# // stream: add_function — getStream
 # // format: add_conditional — updateFormat
 # // pub: add_conditional — applyPub
 # // spy: add_function — saveSpy
@@ -502,3 +499,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // stream: add_constant — checkStream
 # // auth: add_constant — setupAuth
 # // grid: add_function — applyGrid
+# // batch: add_function — createBatch
