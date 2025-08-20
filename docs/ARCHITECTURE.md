@@ -1,4 +1,3 @@
-<!-- // pub: add_import — applyPub -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -30,7 +29,6 @@
 
 - **Testability**: Every module has corresponding tests
 
-<!-- // deserialize: add_class — handleDeserialize -->
 <!-- // trace: add_function — getTrace -->
 
 
@@ -68,7 +66,6 @@
 
 <!-- // context: add_conditional — syncContext -->
 
-<!-- // map: add_class — syncMap -->
 
 
 
@@ -87,7 +84,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // cleanup: add_function — applyCleanup -->
 
 
 
@@ -576,3 +572,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // active: add_function — getActive -->
 <!-- // style: add_function — syncStyle -->
 <!-- // mutation: add_function — saveMutation -->
+<!-- // session: add_function — checkSession -->
