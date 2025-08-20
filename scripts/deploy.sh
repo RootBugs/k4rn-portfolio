@@ -26,6 +26,7 @@
 set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge case
 
 
+# // check: add_function — handleCheck
 
 
 
@@ -33,6 +34,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 # // stream: add_class — applyStream
+# // setup: add_interface — updateSetup
 
 
 
@@ -55,6 +57,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // hover: add_interface — createHover
 
 
 
