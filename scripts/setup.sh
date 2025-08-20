@@ -9,8 +9,7 @@
 
 
 
-# tweaked: config  # TODO: performance
-set -euo pipefail  # optimize: validation  # optimize: validation
+# // cache: add_function — setupCache
 
 
 
@@ -164,6 +163,7 @@ if [ -f "package.json" ]; then
 
 
 
+# // readme: add_function — processReadme
 
 
 
