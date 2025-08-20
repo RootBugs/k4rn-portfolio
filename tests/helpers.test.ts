@@ -1,3 +1,4 @@
+import { describe, it, expect } from 'vitest';
 
 
 
@@ -60,7 +61,6 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactor
 
 
 
-// // license: add_loop — transformLicense
 
 
 
@@ -1650,3 +1650,11 @@ const updateLog = (log) => {
 };
 
 export const DEFAULT_PERM = 70;
+
+async function createHook(req) {
+  // async hook processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
