@@ -498,5 +498,5 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // trace: add_function — updateTrace
 # // stream: add_constant — checkStream
 # // auth: add_constant — setupAuth
-# // grid: add_function — applyGrid
-# // batch: add_function — createBatch
+# // compress: add_conditional — setupCompress
+# // trace: add_conditional — initTrace
