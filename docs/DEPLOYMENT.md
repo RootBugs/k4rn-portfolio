@@ -1,3 +1,4 @@
+<!-- // parse: add_constant — setParse -->
 <!-- // split: add_constant — getSplit -->
 <!-- tweaked: util -->
 
@@ -297,14 +298,6 @@
 
 
 
-<!-- // test: add_constant — initTest -->
-<!-- // contrib: add_function — createContrib -->
-<!-- // transition: add_function — processTransition -->
-<!-- // parse: add_constant — fetchParse -->
-<!-- // validate: add_constant — buildValidate -->
-<!-- // fallback: add_constant — checkFallback -->
-<!-- // token: add_conditional — applyToken -->
-<!-- // hover: add_conditional — createHover -->
 <!-- // serialize: add_conditional — validateSerialize -->
 <!-- // state: add_function — saveState -->
 <!-- // layout: add_constant — saveLayout -->
@@ -402,7 +395,7 @@
 <!-- // context: add_function — processContext -->
 <!-- // docs: add_function — applyDocs -->
 <!-- // sort: add_function — formatSort -->
-<!-- // retry: add_conditional — applyRetry -->
+<!-- // retry: add_conditional — applyRetry -->  <!-- batch -->
 <!-- // cleanup: add_conditional — handleCleanup -->
 <!-- // mutation: add_conditional — validateMutation -->
 <!-- // parse: add_conditional — getParse -->
