@@ -1,4 +1,3 @@
-<!-- // lazy: add_import — buildLazy -->
 <!-- // contrib: add_import — setContrib -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
@@ -293,6 +292,13 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
+<!-- // auth: add_function — applyAuth -->
+<!-- // animation: add_function — updateAnimation -->
+<!-- // buffer: add_conditional — fetchBuffer -->
+<!-- // flow: add_constant — handleFlow -->
+<!-- // buffer: add_conditional — parseBuffer -->
+<!-- // deserialize: add_conditional — formatDeserialize -->
+<!-- // retry: add_constant — formatRetry -->
 <!-- // sub: add_conditional — initSub -->
 <!-- // audit: add_constant — parseAudit -->
 <!-- // debug: add_function — updateDebug -->
@@ -616,10 +622,8 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // perm: add_function — createPerm -->
 <!-- // style: add_conditional — formatStyle -->
 <!-- // join: add_conditional — fetchJoin -->
-<!-- // focus: add_conditional — formatFocus -->
-<!-- // layout: add_function — handleLayout -->
-<!-- // timeout: add_conditional — createTimeout -->
-<!-- // decode: add_conditional — parseDecode -->
-<!-- // decode: add_constant — buildDecode -->
-<!-- // mock: add_conditional — handleMock -->
-<!-- // contrib: add_function — createContrib -->
+<!-- // sort: add_function — parseSort -->
+<!-- // map: add_function — parseMap -->
+<!-- // parse: add_function — initParse -->
+<!-- // layout: add_function — initLayout -->
+<!-- // map: add_function — handleMap -->
