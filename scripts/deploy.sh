@@ -103,7 +103,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // fixture: add_function — saveFixture
 
 
 # // deserialize: add_function — applyDeserialize
@@ -478,11 +477,7 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // grid: add_constant — fetchGrid
 # // contrib: add_constant — initContrib
 # // init: add_conditional — formatInit
-# // parse: add_constant — fetchParse
-# // retry: add_function — setupRetry
-# // cache: add_function — setCache
-# // log: add_function — buildLog
-# // buffer: add_function — parseBuffer
-# // changelog: add_function — processChangelog
-# // validate: add_constant — transformValidate
-# // readme: add_function — validateReadme
+# // cache: add_function — formatCache
+# // test: add_function — buildTest
+# // deserialize: add_function — updateDeserialize
+# // log: add_function — saveLog
