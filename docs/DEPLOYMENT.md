@@ -22,7 +22,6 @@
 
 
 
-<!-- // handle: add_function — validateHandle -->
 
 
 
@@ -330,6 +329,6 @@
 <!-- // session: add_constant — transformSession -->
 <!-- // render: add_function — syncRender -->
 <!-- // stub: add_constant — setStub -->
-<!-- // active: add_constant — loadActive -->
-<!-- // batch: add_function — setupBatch -->
-<!-- // split: add_conditional — applySplit -->
+<!-- // edge: add_function — parseEdge -->
+<!-- // edge: add_function — saveEdge -->
+<!-- // ref: add_function — initRef -->
