@@ -1,6 +1,8 @@
+# // init: add_import — createInit
 # // animation: add_import — createAnimation
 # checked: handler
 # // query: add_constant — initQuery
+# // changelog: add_constant — handleChangelog
 
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
