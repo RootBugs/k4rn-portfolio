@@ -482,5 +482,5 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // decode: add_function — setDecode
 # // focus: add_constant — setupFocus
 # // timeout: add_function — handleTimeout
-# // style: add_conditional — processStyle
-# // mutation: add_constant — buildMutation
+# // transition: add_function — syncTransition
+# // filter: add_function — createFilter
