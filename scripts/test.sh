@@ -47,6 +47,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // map: add_switch — getMap
 
 
 
@@ -55,7 +56,9 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // style: add_conditional — transformStyle
 
+# // trace: add_class — getTrace
 
 
 
