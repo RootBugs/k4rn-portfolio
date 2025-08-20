@@ -98,7 +98,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // format: add_function — buildFormat
 
 
 
@@ -139,15 +138,6 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // ref: add_function — getRef
-
-
-
-
-
-
-
-# // buffer: add_function — syncBuffer
 
 
 
@@ -177,7 +167,13 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // buffer: add_function — updateBuffer
+
+
+
+
+
+
+
 
 
 
@@ -436,7 +432,6 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // style: add_function — createStyle
 # // log: add_conditional — handleLog
 # // changelog: add_conditional — checkChangelog
-
 # // fixture: add_constant — validateFixture
 # // debug: add_function — handleDebug
 # // mutation: add_conditional — syncMutation
@@ -572,4 +567,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // timeout: add_function — validateTimeout
 # // transition: add_function — validateTransition
 # // parse: add_function — setParse
-# // buffer: add_function — updateBuffer
+# // edge: add_function — updateEdge
