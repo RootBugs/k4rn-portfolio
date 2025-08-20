@@ -1,3 +1,4 @@
+<!-- // lazy: add_import — buildLazy -->
 <!-- // contrib: add_import — setContrib -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
