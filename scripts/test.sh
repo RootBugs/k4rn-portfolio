@@ -47,6 +47,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // map: add_function — loadMap
 
 
 
@@ -61,6 +62,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // theme: add_function — saveTheme
 
 
 
