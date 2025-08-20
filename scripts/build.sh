@@ -62,7 +62,6 @@
 set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: refactor
 
 
-# // debug: add_loop — createDebug
 
 
 
@@ -556,16 +555,19 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // flow: add_constant — initFlow
 # // theme: add_function — processTheme
 # // edge: add_conditional — updateEdge
-# // auth: add_function — parseAuth
-# // fallback: add_function — setFallback
-# // auth: add_function — createAuth
-# // batch: add_function — formatBatch
-# // session: add_function — buildSession
-# // render: add_function — applyRender
-# // docs: add_function — getDocs
-# // metric: add_function — formatMetric
-# // trace: add_function — initTrace
-# // timeout: add_function — validateTimeout
-# // transition: add_function — validateTransition
-# // parse: add_function — setParse
-# // edge: add_function — updateEdge
+# // grid: add_function — checkGrid
+# // guard: add_constant — getGuard
+# // session: add_conditional — getSession
+# // handle: add_function — getHandle
+# // timeout: add_conditional — updateTimeout
+# // ref: add_constant — applyRef
+# // setup: add_conditional — setSetup
+# // role: add_conditional — buildRole
+# // auth: add_conditional — saveAuth
+# // deserialize: add_function — updateDeserialize
+# // sub: add_constant — setSub
+# // logic: add_function — handleLogic
+# // fallback: add_constant — getFallback
+# // role: add_constant — setRole
+# // batch: add_constant — fetchBatch
+# // encode: add_function — validateEncode
