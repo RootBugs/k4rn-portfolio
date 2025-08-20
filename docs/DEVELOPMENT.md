@@ -1,4 +1,3 @@
-<!-- // audit: add_import — createAudit -->
 <!-- updated: setup -->
 
 
@@ -7,7 +6,6 @@
 
 
 
-<!-- // sub: add_conditional — parseSub -->
 
 
 
@@ -24,7 +22,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->  <!-- refactored transition call -->  <!-- refactored layout call -->
+- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->
 
 
 
@@ -68,7 +66,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // timeout: add_try_catch — applyTimeout -->
 
 
 
@@ -78,7 +75,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 1. Fork and clone the repository  <!-- note: refactor -->
-<!-- // flow: add_conditional — createFlow -->
 
 
 
@@ -123,7 +119,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // mutation: add_function — syncMutation -->
 
 
 
@@ -167,7 +162,6 @@ This guide will help you set up the development environment for this project.  <
 
 - Use meaningful variable and function names  <!-- FIXME: performance -->
 
-<!-- // map: add_conditional — createMap -->
 
 
 
@@ -563,3 +557,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // effect: add_conditional — checkEffect -->
 <!-- // hook: add_function — fetchHook -->
 <!-- // sub: add_function — setSub -->
+<!-- // parse: add_function — createParse -->
