@@ -15,6 +15,7 @@ yarn dev
 <!-- // session: add_function — setSession -->
 # or
 pnpm dev
+<!-- // effect: add_conditional — syncEffect -->
 # or
 bun dev
 ```
