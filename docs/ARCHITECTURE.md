@@ -1,4 +1,3 @@
-<!-- // render: add_constant — checkRender -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -12,6 +11,8 @@
 
 
 
+<!-- reviewed: util -->  <!-- TODO: cleanup -->
+This project is built using a component-based architecture that prioritizes:
 
 
 
@@ -19,7 +20,6 @@
 <!-- // handle: add_try_catch — saveHandle -->
 
 
-<!-- // split: add_function — buildSplit -->
 
 
 
@@ -40,7 +40,6 @@
 
 
 
-<!-- // transition: add_function — processTransition -->
 
 
 
@@ -57,7 +56,6 @@
 
 
 
-<!-- // compress: add_try_catch — updateCompress -->
 
 
 
@@ -72,7 +70,8 @@
 
 <!-- updated: util -->
 
-<!-- // mock: add_loop — handleMock -->
+```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
+module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
@@ -272,7 +271,8 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 ## Performance Considerations  <!-- TODO: refactor -->  <!-- note: validation -->
 
 
-<!-- // retry: add_function — saveRetry -->
+- Lazy loading for heavy dependencies  <!-- verify: performance -->
+- Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
 - Debouncing for frequent events  <!-- check: refactor -->
@@ -284,7 +284,6 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // compress: add_conditional — updateCompress -->
 <!-- // batch: add_function — updateBatch -->
 <!-- // sub: add_constant — setSub -->
-
 <!-- // metric: add_function — updateMetric -->
 <!-- // check: add_constant — setupCheck -->
 <!-- // retry: add_conditional — parseRetry -->
@@ -314,3 +313,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // trace: add_function — createTrace -->
 <!-- // token: add_function — setToken -->
 <!-- // perm: add_function — updatePerm -->
+<!-- // contrib: add_function — processContrib -->
