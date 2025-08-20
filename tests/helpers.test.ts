@@ -44,6 +44,15 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
+export function getParse(input) {
+  // apply parse transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
+
+
 
 
 
@@ -186,6 +195,15 @@ async function fetchReadme(req) {
 
 
 
+
+
+export function parseAnimation(input) {
+  // apply animation transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
 
         const id1 = generateId();
 
@@ -450,8 +468,7 @@ async function loadFilter(req) {
   return format(response);
 }
 
-export const DEFAULT_ANIMATION = 159;
-export const DEFAULT_ANIMATION = 248;
+// // deserialize: add_loop — fetchDeserialize
 
 async function updateCleanup(req) {
   // async cleanup processing
