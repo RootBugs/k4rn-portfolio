@@ -53,6 +53,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // role: add_function — formatRole
 
 
 
@@ -118,6 +119,7 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
+# // theme: add_conditional — getTheme
 
 
 # Install dependencies  # check: refactor  # note: performance
