@@ -1,5 +1,3 @@
-<!-- // serialize: add_import — transformSerialize -->
-<!-- // handle: add_import — formatHandle -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -13,7 +11,8 @@
 
 
 
-<!-- // debug: add_function — saveDebug -->
+<!-- reviewed: util -->  <!-- TODO: cleanup -->
+This project is built using a component-based architecture that prioritizes:
 
 
 
@@ -74,7 +73,6 @@
 
 <!-- updated: util -->
 
-<!-- // auth: add_function — loadAuth -->
 ```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
 module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
@@ -83,7 +81,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 ├── index.ts          # Public API  <!-- optimize: edge case -->  <!-- review: validation -->
 
 
-<!-- // hook: add_try_catch — transformHook -->
 
 
 
@@ -121,7 +118,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // split: add_try_catch — syncSplit -->
 ├── types.ts          # TypeScript types
 
 
@@ -129,7 +125,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // transform: add_try_catch — transformTransform -->
 
 
 
@@ -500,3 +495,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // batch: add_function — setupBatch -->
 <!-- // memo: add_function — formatMemo -->
 <!-- // contrib: add_function — transformContrib -->
+<!-- // auth: add_function — buildAuth -->
