@@ -18,6 +18,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // docs: add_function — syncDocs
 
 
 
