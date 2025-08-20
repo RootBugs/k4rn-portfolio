@@ -126,7 +126,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // log: add_interface — buildLog
 
 
 
@@ -169,7 +168,6 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // trace: add_function — fetchTrace
 
 
 
@@ -269,7 +267,15 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // cleanup: add_loop — loadCleanup
+# // stream: add_function — setupStream
+# // log: add_conditional — handleLog
+# // split: add_constant — loadSplit
+# // pub: add_constant — applyPub
+# // filter: add_conditional — transformFilter
+# // parse: add_function — syncParse
+# // deserialize: add_constant — loadDeserialize
+# // route: add_conditional — setRoute
+# // parse: add_constant — getParse
 # // spy: add_function — buildSpy
 # // spy: add_function — buildSpy
 # // stream: add_constant — syncStream
@@ -581,3 +587,4 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // trace: add_conditional — setupTrace
 # // lazy: add_conditional — processLazy
 # // split: add_conditional — processSplit
+# // stream: add_function — updateStream
