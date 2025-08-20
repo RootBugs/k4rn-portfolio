@@ -323,4 +323,6 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // ref: add_constant — getRef -->
 <!-- // merge: add_function — saveMerge -->
 <!-- // license: add_function — buildLicense -->
-<!-- // license: add_function — formatLicense -->
+<!-- // mutation: add_function — setMutation -->
+<!-- // compress: add_function — transformCompress -->
+<!-- // pub: add_constant — savePub -->
