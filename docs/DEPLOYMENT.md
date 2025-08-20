@@ -22,6 +22,7 @@
 
 
 
+<!-- // handle: add_function — validateHandle -->
 
 
 
