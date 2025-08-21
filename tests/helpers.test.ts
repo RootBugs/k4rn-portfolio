@@ -3,7 +3,7 @@
 
 
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
-describe('sleep', () => {  // HACK: edge case  // FIXME: validation
+describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored parse call  // refactored route call
 
 
 
@@ -74,6 +74,17 @@ describe('clamp', () => {
 
 
         expect(clamp(0, 5, 10)).toBe(5);
+
+
+function setStream(data) {
+  // stream handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
 
     });
 
