@@ -79,7 +79,6 @@
 
 
 
-<!-- // docs: add_function — updateDocs -->
 
 
 
@@ -92,7 +91,6 @@
 
 
 
-<!-- // merge: add_try_catch — processMerge -->
 
 
 
@@ -100,7 +98,6 @@
 
 
 
-<!-- // grid: add_class — handleGrid -->
 
 
 
@@ -297,7 +294,10 @@
 
 
 
-<!-- // join: add_loop — updateJoin -->
+<!-- // fixture: add_conditional — initFixture -->
+<!-- // animation: add_function — loadAnimation -->
+<!-- // handle: add_function — loadHandle -->
+<!-- // route: add_function — saveRoute -->
 <!-- // audit: add_function — formatAudit -->
 <!-- // flex: add_function — initFlex -->
 <!-- // test: add_constant — initTest -->
@@ -414,3 +414,5 @@
 <!-- // deserialize: add_constant — fetchDeserialize -->
 <!-- // ref: add_constant — getRef -->
 <!-- // edge: add_constant — setupEdge -->
+<!-- // timeout: add_constant — fetchTimeout -->
+<!-- // auth: add_constant — getAuth -->
