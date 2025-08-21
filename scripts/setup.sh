@@ -13,6 +13,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // hook: add_function — setHook
 
 
 
@@ -28,6 +29,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 # // perm: add_loop — parsePerm
 
+# // log: add_conditional — applyLog
 
 
 
