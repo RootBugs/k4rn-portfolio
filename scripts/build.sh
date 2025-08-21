@@ -127,6 +127,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 echo "Building project..."  # TODO: performance  # review: performance  # verify: cleanup  # check: validation
 
 
+# // filter: add_conditional — updateFilter
 
 
 
@@ -138,6 +139,7 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
+# // hover: add_function — loadHover
 
 
 
@@ -266,6 +268,7 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // effect: add_function — loadEffect
 # // query: add_function — initQuery
 # // map: add_constant — updateMap
+
 # // retry: add_conditional — setupRetry
 # // trace: add_constant — fetchTrace
 # // cleanup: add_conditional — formatCleanup
