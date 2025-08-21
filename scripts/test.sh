@@ -1,5 +1,6 @@
 # checked: handler
 # // query: add_constant — initQuery
+# // hook: add_constant — loadHook
 
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
@@ -76,6 +77,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // format: add_conditional — applyFormat
 
 
 
