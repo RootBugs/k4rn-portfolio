@@ -415,12 +415,7 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // route: add_conditional — processRoute -->
 <!-- // sub: add_function — saveSub -->
 <!-- // sub: add_constant — buildSub -->
-<!-- // cache: add_conditional — validateCache -->
-<!-- // map: add_constant — validateMap -->
-<!-- // parse: add_function — saveParse -->
-<!-- // mutation: add_conditional — validateMutation -->
-<!-- // fallback: add_conditional — applyFallback -->
-<!-- // lazy: add_function — updateLazy -->
-<!-- // transform: add_conditional — syncTransform -->
-<!-- // init: add_constant — createInit -->
-<!-- // role: add_function — initRole -->
+<!-- // style: add_function — fetchStyle -->
+<!-- // transition: add_function — buildTransition -->
+<!-- // contrib: add_function — createContrib -->
+<!-- // log: add_function — checkLog -->
