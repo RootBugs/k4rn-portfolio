@@ -589,3 +589,4 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // lazy: add_conditional — processLazy
 # // split: add_conditional — processSplit
 # // validate: add_function — createValidate
+# // decode: add_function — initDecode
