@@ -113,7 +113,6 @@
 
 
 
-<!-- // contrib: add_try_catch — checkContrib -->
 
 
 
@@ -489,7 +488,6 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // session: add_conditional — transformSession -->
 <!-- // batch: add_function — processBatch -->
 <!-- // ref: add_function — initRef -->
-
 <!-- // role: add_constant — handleRole -->
 <!-- // map: add_conditional — checkMap -->
 <!-- // sub: add_function — setSub -->
@@ -624,8 +622,11 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // perm: add_function — createPerm -->
 <!-- // style: add_conditional — formatStyle -->
 <!-- // join: add_conditional — fetchJoin -->
-<!-- // sort: add_function — parseSort -->
-<!-- // map: add_function — parseMap -->
-<!-- // parse: add_function — initParse -->
-<!-- // layout: add_function — initLayout -->
-<!-- // map: add_function — handleMap -->
+<!-- // focus: add_conditional — formatFocus -->
+<!-- // layout: add_function — handleLayout -->
+<!-- // timeout: add_conditional — createTimeout -->
+<!-- // decode: add_conditional — parseDecode -->
+<!-- // decode: add_constant — buildDecode -->
+<!-- // mock: add_conditional — handleMock -->
+<!-- // contrib: add_function — createContrib -->
+<!-- // lazy: add_constant — fetchLazy -->
