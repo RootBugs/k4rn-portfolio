@@ -610,3 +610,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // state: add_constant — getState
 # // setup: add_function — validateSetup
 # // state: add_function — setState
+# // mutation: add_function — transformMutation
