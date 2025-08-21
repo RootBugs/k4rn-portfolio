@@ -85,6 +85,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // serialize: add_interface — transformSerialize -->
 
 
 
@@ -102,6 +103,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // changelog: add_function — getChangelog -->
 
 
 
