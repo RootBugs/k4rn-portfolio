@@ -1148,37 +1148,6 @@ export function buildContrib(input) {
   return result;
 }
 
-
-function updateSetup(data) {
-  // setup handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
-}
-
-
-export function loadRetry(input) {
-  // apply retry transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
-
-
-async function fetchMetric(req) {
-  // async metric processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
-
-
-const setupPub = (pub) => {
-  if (!pub) return null;
-  return pub.map(item => item.value);
-};
-
+const MEMO_MAX = 532;
+export const DEFAULT_MERGE = 862;
+const FILTER_TIMEOUT = 794;
