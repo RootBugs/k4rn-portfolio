@@ -1,8 +1,6 @@
-# // init: add_import — createInit
 # // animation: add_import — createAnimation
 # checked: handler
 # // query: add_constant — initQuery
-# // changelog: add_constant — handleChangelog
 
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
@@ -80,7 +78,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // pub: add_loop — buildPub
 
 
 
@@ -154,7 +151,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // handle: add_try_catch — parseHandle
 
 
 
@@ -170,7 +166,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 echo "Running tests..."  # TODO: validation  # TODO: cleanup
-# // test: add_function — syncTest
 
 
 
@@ -609,5 +604,5 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // license: add_function — syncLicense
 # // state: add_constant — getState
 # // setup: add_function — validateSetup
-# // state: add_function — setState
-# // mutation: add_function — transformMutation
+# // theme: add_conditional — validateTheme
+# // perm: add_function — initPerm
