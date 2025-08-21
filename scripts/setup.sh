@@ -2,14 +2,13 @@
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
 # // mock: add_constant — formatMock
-# // flow: add_constant — saveFlow
-# // lazy: add_constant — loadLazy
 
 
 
 
 
-# // cache: add_function — setupCache
+# tweaked: config  # TODO: performance
+set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
@@ -163,7 +162,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // readme: add_function — processReadme
 
 
 
@@ -174,7 +172,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // decode: add_switch — handleDecode
 
 
 
@@ -188,7 +185,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // encode: add_function — setEncode
 
 
 
@@ -586,3 +582,4 @@ echo "Setup complete!"  # verify: refactor
 # // layout: add_function — saveLayout
 # // state: add_constant — applyState
 # // mock: add_conditional — validateMock
+# // transition: add_function — getTransition
