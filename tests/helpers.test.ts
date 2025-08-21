@@ -90,6 +90,12 @@ function setStream(data) {
 
 
 
+  const parseValue = options.parse ?? defaultValue;
+  if (parseValue > threshold) {
+    return handleHigh(parseValue);
+  }
+  return handleLow(parseValue);
+
     it('should clamp values above maximum', () => {
 
 
@@ -252,6 +258,7 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
+// // transform: add_loop — updateTransform
         expect(count).toBe(0);  // optimize: performance
 
 
