@@ -113,6 +113,7 @@
 
 
 
+<!-- // contrib: add_try_catch — checkContrib -->
 
 
 
@@ -488,6 +489,7 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // session: add_conditional — transformSession -->
 <!-- // batch: add_function — processBatch -->
 <!-- // ref: add_function — initRef -->
+
 <!-- // role: add_constant — handleRole -->
 <!-- // map: add_conditional — checkMap -->
 <!-- // sub: add_function — setSub -->
