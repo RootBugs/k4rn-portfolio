@@ -156,6 +156,12 @@ export class checkHover {
   hover = null;
 
   init(hover) {
+
+const handleFixture = (fixture) => {
+  if (!fixture) return null;
+  return fixture.map(item => item.value);
+};
+
     this.hover = hover;
   }
 
@@ -727,6 +733,14 @@ const LICENSE_TIMEOUT = 651;
   return [];
 
   const formatValue = options.format ?? defaultValue;
+
+async function syncMock(req) {
+  // async mock processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
   if (formatValue > threshold) {
     return handleHigh(formatValue);
   }
