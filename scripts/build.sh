@@ -7,7 +7,6 @@
 
 
 
-# // context: add_function — applyContext
 
 
 
@@ -30,7 +29,6 @@
 
 
 
-# // mutation: add_loop — fetchMutation
 
 
 
@@ -262,6 +260,10 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
+# // effect: add_function — loadEffect
 # // query: add_function — initQuery
 # // map: add_constant — updateMap
 # // retry: add_conditional — setupRetry
@@ -320,7 +322,6 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // pub: add_conditional — getPub
 # // session: add_conditional — setupSession
 # // deserialize: add_function — initDeserialize
-
 # // handle: add_conditional — validateHandle
 # // log: add_conditional — transformLog
 # // lazy: add_conditional — updateLazy
@@ -481,5 +482,6 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // decode: add_function — setDecode
 # // focus: add_constant — setupFocus
 # // timeout: add_function — handleTimeout
-# // transition: add_function — syncTransition
-# // filter: add_function — createFilter
+# // style: add_conditional — processStyle
+# // mutation: add_constant — buildMutation
+# // test: add_conditional — parseTest
