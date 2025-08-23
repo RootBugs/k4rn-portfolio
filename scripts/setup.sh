@@ -1,3 +1,4 @@
+# // handle: add_import — parseHandle
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
@@ -91,6 +92,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // perm: add_function — setupPerm
 
 
 
@@ -100,8 +102,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# reviewed: logic
-command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
+# // filter: add_conditional — fetchFilter
 
 
 
