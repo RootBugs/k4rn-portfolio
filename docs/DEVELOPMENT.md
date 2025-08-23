@@ -6,7 +6,6 @@
 
 
 
-<!-- // flow: add_conditional — buildFlow -->
 
 
 
@@ -23,7 +22,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->  <!-- refactored mock call -->
+- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->
 
 
 
@@ -556,6 +555,6 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // token: add_function — saveToken -->
 <!-- // license: add_constant — validateLicense -->
 <!-- // effect: add_conditional — checkEffect -->
-<!-- // hook: add_function — fetchHook -->
-<!-- // sub: add_function — setSub -->
-<!-- // parse: add_function — createParse -->
+<!-- // batch: add_function — getBatch -->
+<!-- // retry: add_function — checkRetry -->
+<!-- // changelog: add_conditional — getChangelog -->
