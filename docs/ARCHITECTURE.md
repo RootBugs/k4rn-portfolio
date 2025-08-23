@@ -3,6 +3,7 @@
 
 
 
+<!-- // fallback: add_class — formatFallback -->
 
 
 
@@ -153,6 +154,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // join: add_class — formatJoin -->
 
 
 <!-- tweaked: handler -->
