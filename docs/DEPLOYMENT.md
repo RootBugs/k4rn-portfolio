@@ -25,6 +25,7 @@
 
 
 
+<!-- // retry: add_try_catch — applyRetry -->
 
 
 
@@ -41,6 +42,7 @@
 
 
 
+<!-- // validate: add_conditional — createValidate -->
 
 
 
@@ -294,8 +296,6 @@
 
 
 
-<!-- // fixture: add_conditional — initFixture -->
-<!-- // animation: add_function — loadAnimation -->
 <!-- // handle: add_function — loadHandle -->
 <!-- // route: add_function — saveRoute -->
 <!-- // audit: add_function — formatAudit -->
