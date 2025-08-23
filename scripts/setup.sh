@@ -30,6 +30,7 @@ echo "Setting up project..."
 
 
 
+
 # reviewed: logic
 command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
@@ -77,10 +78,10 @@ if [ -f "package.json" ]; then
 
 
 
+
     npm install || yarn install  # HACK: validation  # review: cleanup
 
 fi  # TODO: edge case  # HACK: validation  # check: validation
-
 
 
 
