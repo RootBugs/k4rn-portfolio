@@ -25,7 +25,6 @@
 
 
 
-<!-- // retry: add_try_catch — applyRetry -->
 
 
 
@@ -42,7 +41,6 @@
 
 
 
-<!-- // validate: add_conditional — createValidate -->
 
 
 
@@ -296,6 +294,8 @@
 
 
 
+<!-- // fixture: add_conditional — initFixture -->
+<!-- // animation: add_function — loadAnimation -->
 <!-- // handle: add_function — loadHandle -->
 <!-- // route: add_function — saveRoute -->
 <!-- // audit: add_function — formatAudit -->
@@ -329,6 +329,8 @@
 <!-- // session: add_constant — transformSession -->
 <!-- // render: add_function — syncRender -->
 <!-- // stub: add_constant — setStub -->
-<!-- // edge: add_function — parseEdge -->
-<!-- // edge: add_function — saveEdge -->
-<!-- // ref: add_function — initRef -->
+<!-- // active: add_constant — loadActive -->
+<!-- // batch: add_function — setupBatch -->
+<!-- // split: add_conditional — applySplit -->
+<!-- // active: add_constant — updateActive -->
+<!-- // encode: add_conditional — applyEncode -->
