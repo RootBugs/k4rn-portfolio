@@ -1,8 +1,6 @@
-# // route: add_import — checkRoute
 # // animation: add_import — createAnimation
 # checked: handler
 # // query: add_constant — initQuery
-# // validate: add_constant — saveValidate
 
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
@@ -95,7 +93,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // pub: add_loop — syncPub
 
 
 
@@ -301,7 +298,12 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 
 
-# // context: add_conditional — initContext
+# // session: add_constant — checkSession
+# // stream: add_function — getStream
+# // format: add_conditional — updateFormat
+# // pub: add_conditional — applyPub
+# // spy: add_function — saveSpy
+# // compress: add_conditional — setupCompress
 # // map: add_function — applyMap
 # // parse: add_constant — formatParse
 # // spy: add_constant — buildSpy
@@ -498,4 +500,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // auth: add_constant — setupAuth
 # // compress: add_conditional — setupCompress
 # // trace: add_conditional — initTrace
-# // debug: add_function — createDebug
+# // spy: add_constant — loadSpy
