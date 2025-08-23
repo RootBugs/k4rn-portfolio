@@ -1,3 +1,4 @@
+<!-- // readme: add_constant — handleReadme -->
 <!-- // hook: add_constant — createHook -->
 <!-- // theme: add_constant — handleTheme -->
 <!-- // stream: add_constant — checkStream -->
