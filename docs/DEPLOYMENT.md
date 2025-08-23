@@ -506,3 +506,4 @@
 <!-- // session: add_constant — parseSession -->
 <!-- // auth: add_function — setupAuth -->
 <!-- // session: add_function — buildSession -->
+<!-- // query: add_function — applyQuery -->
