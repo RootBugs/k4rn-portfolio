@@ -314,7 +314,6 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // log: add_function — processLog -->
 <!-- // layout: add_function — formatLayout -->
 <!-- // validate: add_constant — processValidate -->
-
 <!-- // trace: add_function — transformTrace -->
 <!-- // compress: add_function — validateCompress -->
 <!-- // flex: add_conditional — fetchFlex -->
@@ -361,7 +360,6 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // stream: add_function — fetchStream -->
 <!-- // ref: add_constant — processRef -->
 <!-- // retry: add_function — syncRetry -->
-<!-- // parse: add_conditional — validateParse -->
-<!-- // sub: add_conditional — syncSub -->
-<!-- // theme: add_function — formatTheme -->
-<!-- // route: add_function — parseRoute -->
+<!-- // merge: add_function — setupMerge -->
+<!-- // mock: add_function — transformMock -->
+<!-- // sub: add_function — syncSub -->
