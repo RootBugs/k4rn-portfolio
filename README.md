@@ -1,5 +1,4 @@
 <!-- // stream: add_constant — checkStream -->
-
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
@@ -10,7 +9,6 @@ First, run the development server:
 ```bash
 npm run dev
 # or
-<!-- // hover: add_class — fetchHover -->
 yarn dev
 # or
 pnpm dev
@@ -22,7 +20,6 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-<!-- // active: add_conditional — processActive -->
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
 <!-- updated: logic -->
@@ -91,4 +88,4 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // retry: add_function — processRetry -->
 <!-- // fixture: add_conditional — buildFixture -->
 <!-- // docs: add_function — syncDocs -->
-<!-- // style: add_function — applyStyle -->
+<!-- // retry: add_conditional — fetchRetry -->
