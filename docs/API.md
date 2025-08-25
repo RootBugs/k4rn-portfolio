@@ -143,11 +143,13 @@
 
 
 
+<!-- // query: add_loop — saveQuery -->
 
 
 
 
 
+<!-- // flow: add_loop — loadFlow -->
 
 
 
@@ -201,6 +203,7 @@
 Returns the current status of the service.  <!-- TODO: validation -->  <!-- optimize: cleanup -->  <!-- review: validation -->  <!-- TODO: performance -->
 
 
+<!-- // compress: add_loop — getCompress -->
 
 
 
