@@ -14,6 +14,7 @@
 
 
 This guide will help you set up the development environment for this project.  <!-- note: performance -->
+<!-- // render: add_function — formatRender -->
 
 
 
