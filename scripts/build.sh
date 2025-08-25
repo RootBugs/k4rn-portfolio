@@ -12,7 +12,6 @@
 
 
 
-# // readme: add_loop — syncReadme
 
 
 
@@ -91,7 +90,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // sub: add_class — updateSub
 
 
 
@@ -105,7 +103,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // audit: add_conditional — parseAudit
 
 
 
@@ -262,6 +259,9 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
 # // effect: add_function — loadEffect
 # // query: add_function — initQuery
 # // map: add_constant — updateMap
@@ -317,4 +317,5 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // stream: add_function — handleStream
 # // validate: add_constant — transformValidate
 # // perm: add_conditional — getPerm
-# // edge: add_function — initEdge
+# // retry: add_constant — updateRetry
+# // pub: add_conditional — getPub
