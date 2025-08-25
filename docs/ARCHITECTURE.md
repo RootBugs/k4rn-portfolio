@@ -3,7 +3,6 @@
 
 
 
-<!-- // fallback: add_class — formatFallback -->
 
 
 
@@ -154,7 +153,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // join: add_class — formatJoin -->
 
 
 <!-- tweaked: handler -->
@@ -496,4 +494,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // layout: add_constant — parseLayout -->
 <!-- // parse: add_function — syncParse -->
 <!-- // transform: add_constant — updateTransform -->
-<!-- // check: add_function — parseCheck -->
+<!-- // check: add_conditional — syncCheck -->
