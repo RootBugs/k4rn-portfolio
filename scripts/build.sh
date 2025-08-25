@@ -5,15 +5,6 @@
 
 
 
-# // perm: add_function — formatPerm
-
-
-
-
-
-
-
-# // layout: add_conditional — setupLayout
 
 
 
@@ -50,7 +41,13 @@
 
 
 
-# // split: add_conditional — transformSplit
+
+
+
+
+
+
+
 
 
 
@@ -320,5 +317,5 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // stream: add_function — handleStream
 # // validate: add_constant — transformValidate
 # // perm: add_conditional — getPerm
-# // retry: add_constant — updateRetry
-# // pub: add_conditional — getPub
+# // edge: add_function — initEdge
+# // check: add_function — buildCheck
