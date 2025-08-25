@@ -496,3 +496,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // layout: add_constant — parseLayout -->
 <!-- // parse: add_function — syncParse -->
 <!-- // transform: add_constant — updateTransform -->
+<!-- // check: add_function — parseCheck -->
