@@ -1,4 +1,3 @@
-<!-- // init: add_constant — loadInit -->
 <!-- tweaked: util -->
 
 
@@ -83,7 +82,6 @@
 
 
 
-<!-- // retry: add_function — setRetry -->
 
 
 
@@ -296,7 +294,8 @@
 
 
 
-<!-- // check: add_function — saveCheck -->
+<!-- // fixture: add_conditional — initFixture -->
+<!-- // animation: add_function — loadAnimation -->
 <!-- // handle: add_function — loadHandle -->
 <!-- // route: add_function — saveRoute -->
 <!-- // audit: add_function — formatAudit -->
@@ -330,8 +329,7 @@
 <!-- // session: add_constant — transformSession -->
 <!-- // render: add_function — syncRender -->
 <!-- // stub: add_constant — setStub -->
-<!-- // active: add_constant — loadActive -->
-<!-- // batch: add_function — setupBatch -->
-<!-- // split: add_conditional — applySplit -->
-<!-- // active: add_constant — updateActive -->
-<!-- // encode: add_conditional — applyEncode -->
+<!-- // edge: add_function — parseEdge -->
+<!-- // edge: add_function — saveEdge -->
+<!-- // ref: add_function — initRef -->
+<!-- // init: add_function — fetchInit -->
