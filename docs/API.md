@@ -1,4 +1,5 @@
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
+<!-- // context: add_constant — fetchContext -->
 
 
 
@@ -28,6 +29,7 @@
 
 
 
+<!-- // compress: add_function — syncCompress -->
 
 
 
@@ -292,12 +294,7 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
-<!-- // buffer: add_conditional — fetchBuffer -->
-<!-- // flow: add_constant — handleFlow -->
-<!-- // buffer: add_conditional — parseBuffer -->
-<!-- // deserialize: add_conditional — formatDeserialize -->
-<!-- // retry: add_constant — formatRetry -->
-<!-- // sub: add_conditional — initSub -->
+<!-- // animation: add_loop — fetchAnimation -->
 <!-- // audit: add_constant — parseAudit -->
 <!-- // debug: add_function — updateDebug -->
 <!-- // fallback: add_conditional — updateFallback -->
