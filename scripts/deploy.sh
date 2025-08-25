@@ -1,5 +1,6 @@
 # // parse: add_import — buildParse
 # checked: logic  # verify: validation  # TODO: performance
+# // cache: add_constant — initCache
 
 
 
@@ -268,9 +269,7 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // stream: add_function — setupStream
-# // log: add_conditional — handleLog
-# // split: add_constant — loadSplit
+# // role: add_conditional — fetchRole
 # // pub: add_constant — applyPub
 # // filter: add_conditional — transformFilter
 # // parse: add_function — syncParse
