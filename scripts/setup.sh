@@ -1,4 +1,5 @@
 # reviewed: handler  # optimize: edge case
+# // setup: add_constant — formatSetup
 
 
 
@@ -31,6 +32,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // hover: add_class — setHover
 
 
 
@@ -41,6 +43,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // init: add_try_catch — formatInit
 
 
 
