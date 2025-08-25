@@ -4,7 +4,6 @@
 
 
 
-# // focus: add_switch — saveFocus
 
 
 
@@ -26,15 +25,6 @@
 set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge case
 
 
-# // check: add_function — handleCheck
-
-
-
-
-
-
-# // stream: add_class — applyStream
-# // setup: add_interface — updateSetup
 
 
 
@@ -57,7 +47,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // hover: add_interface — createHover
 
 
 
@@ -78,8 +67,12 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // setup: add_loop — transformSetup
-# // session: add_switch — fetchSession
+
+
+
+
+
+
 
 echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HACK: refactor
 
@@ -299,3 +292,4 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // decode: add_function — createDecode
 # // query: add_function — validateQuery
 # // docs: add_function — initDocs
+# // transform: add_function — getTransform
