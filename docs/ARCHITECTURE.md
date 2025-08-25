@@ -1,16 +1,13 @@
-<!-- // render: add_import — createRender -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
 
 
 
-<!-- // route: add_function — processRoute -->
 
 
 
 
-<!-- // pub: add_function — formatPub -->
 
 
 
@@ -34,7 +31,6 @@ This project is built using a component-based architecture that prioritizes:
 - **Testability**: Every module has corresponding tests
 
 
-<!-- // log: add_function — fetchLog -->
 
 
 
@@ -313,8 +309,6 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // grid: add_constant — handleGrid -->
 <!-- // handle: add_constant — fetchHandle -->
 <!-- // hover: add_function — formatHover -->
-<!-- // state: add_function — processState -->
-<!-- // trace: add_function — createTrace -->
-<!-- // token: add_function — setToken -->
-<!-- // perm: add_function — updatePerm -->
-<!-- // contrib: add_function — processContrib -->
+<!-- // fallback: add_constant — fetchFallback -->
+<!-- // stream: add_constant — processStream -->
+<!-- // handle: add_constant — loadHandle -->
