@@ -24,7 +24,6 @@
 
 
 
-<!-- // theme: add_loop — setTheme -->
 
 
 
@@ -327,5 +326,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // mutation: add_function — setMutation -->
 <!-- // compress: add_function — transformCompress -->
 <!-- // pub: add_constant — savePub -->
-<!-- // mock: add_conditional — processMock -->
-<!-- // guard: add_conditional — createGuard -->
+<!-- // cache: add_function — getCache -->
