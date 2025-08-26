@@ -1,3 +1,4 @@
+<!-- // active: add_import — checkActive -->
 <!-- // contrib: add_import — setContrib -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
