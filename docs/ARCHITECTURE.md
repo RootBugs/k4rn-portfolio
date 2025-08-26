@@ -170,7 +170,6 @@ Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
 
 
-<!-- // mock: add_loop — updateMock -->
 
 
 
@@ -575,3 +574,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // memo: add_constant — initMemo -->
 <!-- // active: add_function — parseActive -->
 <!-- // auth: add_constant — applyAuth -->
+<!-- // join: add_constant — setupJoin -->
