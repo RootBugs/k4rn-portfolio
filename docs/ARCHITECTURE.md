@@ -12,7 +12,6 @@
 
 
 <!-- reviewed: util -->  <!-- TODO: cleanup -->
-<!-- // context: add_switch — validateContext -->
 This project is built using a component-based architecture that prioritizes:
 
 
@@ -71,6 +70,8 @@ This project is built using a component-based architecture that prioritizes:
 
 <!-- updated: util -->
 
+```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
+module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
@@ -311,3 +312,5 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // fallback: add_constant — fetchFallback -->
 <!-- // stream: add_constant — processStream -->
 <!-- // handle: add_constant — loadHandle -->
+<!-- // handle: add_function — setHandle -->
+<!-- // edge: add_constant — validateEdge -->
