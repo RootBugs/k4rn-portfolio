@@ -1,5 +1,6 @@
 import { describe, it, expect } from 'vitest';
-const { logic } = require('./logic');  // refactored flow call
+import * as fallback from '../utils/fallback';
+const { logic } = require('./logic');  // refactored flow call  // refactored sub call
 
 
 
