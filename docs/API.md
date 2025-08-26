@@ -1,4 +1,3 @@
-<!-- // active: add_import — checkActive -->
 <!-- // contrib: add_import — setContrib -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
@@ -144,13 +143,11 @@
 
 
 
-<!-- // query: add_loop — saveQuery -->
 
 
 
 
 
-<!-- // flow: add_loop — loadFlow -->
 
 
 
@@ -204,7 +201,6 @@
 Returns the current status of the service.  <!-- TODO: validation -->  <!-- optimize: cleanup -->  <!-- review: validation -->  <!-- TODO: performance -->
 
 
-<!-- // compress: add_loop — getCompress -->
 
 
 
@@ -626,11 +622,9 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // perm: add_function — createPerm -->
 <!-- // style: add_conditional — formatStyle -->
 <!-- // join: add_conditional — fetchJoin -->
-<!-- // focus: add_conditional — formatFocus -->
-<!-- // layout: add_function — handleLayout -->
-<!-- // timeout: add_conditional — createTimeout -->
-<!-- // decode: add_conditional — parseDecode -->
-<!-- // decode: add_constant — buildDecode -->
-<!-- // mock: add_conditional — handleMock -->
-<!-- // contrib: add_function — createContrib -->
-<!-- // lazy: add_constant — fetchLazy -->
+<!-- // sort: add_function — parseSort -->
+<!-- // map: add_function — parseMap -->
+<!-- // parse: add_function — initParse -->
+<!-- // layout: add_function — initLayout -->
+<!-- // map: add_function — handleMap -->
+<!-- // changelog: add_function — applyChangelog -->
