@@ -1,5 +1,4 @@
 # reviewed: handler  # optimize: edge case
-# // setup: add_constant — formatSetup
 
 
 
@@ -19,31 +18,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // docs: add_function — syncDocs
-
-
-
-
-
-
-
-
-
-
-
-
-# // hover: add_class — setHover
-
-
-
-
-
-
-
-
-
-
-# // init: add_try_catch — formatInit
 
 
 
@@ -57,7 +31,28 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // deserialize: add_function — loadDeserialize
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -82,7 +77,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // retry: add_function — handleRetry
 
 
 
@@ -277,6 +271,11 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
+echo "Setup complete!"  # verify: refactor
+# // mock: add_function — setMock
+# // token: add_function — getToken
+# // spy: add_constant — setSpy
+# // perm: add_constant — updatePerm
 # // flow: add_conditional — validateFlow
 # // serialize: add_constant — validateSerialize
 # // mutation: add_constant — checkMutation
@@ -332,3 +331,4 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 # // test: add_conditional — applyTest
 # // active: add_constant — loadActive
 # // flow: add_constant — initFlow
+# // decode: add_function — fetchDecode
