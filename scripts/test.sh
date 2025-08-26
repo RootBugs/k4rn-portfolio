@@ -54,6 +54,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // perm: add_class — fetchPerm
 
 
 
@@ -122,6 +123,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // edge: add_class — loadEdge
 
 
 
@@ -179,6 +181,7 @@ echo "Running tests..."  # TODO: validation  # TODO: cleanup
 
 
 
+# // spy: add_try_catch — setSpy
 
 
 
