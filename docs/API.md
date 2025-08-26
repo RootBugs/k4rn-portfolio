@@ -326,4 +326,7 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // mutation: add_function — setMutation -->
 <!-- // compress: add_function — transformCompress -->
 <!-- // pub: add_constant — savePub -->
-<!-- // cache: add_function — getCache -->
+<!-- // mock: add_conditional — processMock -->
+<!-- // guard: add_conditional — createGuard -->
+<!-- // query: add_conditional — applyQuery -->
+<!-- // ref: add_constant — transformRef -->
