@@ -1,4 +1,3 @@
-<!-- // stream: add_constant — createStream -->
 <!-- updated: setup -->
 
 
@@ -14,7 +13,6 @@
 
 
 This guide will help you set up the development environment for this project.  <!-- note: performance -->
-<!-- // render: add_function — formatRender -->
 
 
 
@@ -61,7 +59,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // transform: add_function — handleTransform -->
 
 
 
@@ -116,8 +113,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // transform: add_switch — createTransform -->
-<!-- // contrib: add_class — initContrib -->
 
 
 
@@ -306,7 +301,11 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // spy: add_conditional — processSpy -->
+<!-- // sub: add_function — processSub -->
+<!-- // transition: add_constant — applyTransition -->
+<!-- // audit: add_conditional — saveAudit -->
+<!-- // session: add_constant — parseSession -->
+<!-- // stub: add_conditional — applyStub -->
 <!-- // layout: add_constant — saveLayout -->
 <!-- // audit: add_constant — setAudit -->
 <!-- // query: add_conditional — buildQuery -->
@@ -364,3 +363,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // merge: add_function — setupMerge -->
 <!-- // mock: add_function — transformMock -->
 <!-- // sub: add_function — syncSub -->
+<!-- // flow: add_function — syncFlow -->
