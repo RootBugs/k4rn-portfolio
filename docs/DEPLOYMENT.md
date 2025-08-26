@@ -38,7 +38,6 @@
 
 
 
-<!-- // spy: add_function — formatSpy -->
 
 
 
@@ -149,7 +148,6 @@
 
 
 
-<!-- // license: add_function — formatLicense -->
 
 
 
@@ -175,7 +173,6 @@
 
 
 
-<!-- // deserialize: add_switch — setupDeserialize -->
 
 
 
@@ -186,7 +183,6 @@
 
 
 
-<!-- // sub: add_class — fetchSub -->
 
 
 
@@ -301,7 +297,10 @@
 
 
 
-<!-- // render: add_function — parseRender -->
+<!-- // test: add_constant — initTest -->
+<!-- // contrib: add_function — createContrib -->
+<!-- // transition: add_function — processTransition -->
+<!-- // parse: add_constant — fetchParse -->
 <!-- // validate: add_constant — buildValidate -->
 <!-- // fallback: add_constant — checkFallback -->
 <!-- // token: add_conditional — applyToken -->
@@ -611,3 +610,4 @@
 <!-- // fallback: add_constant — saveFallback -->
 <!-- // auth: add_function — buildAuth -->
 <!-- // cleanup: add_function — formatCleanup -->
+<!-- // metric: add_function — saveMetric -->
