@@ -54,7 +54,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // perm: add_class — fetchPerm
 
 
 
@@ -123,7 +122,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // edge: add_class — loadEdge
 
 
 
@@ -181,7 +179,6 @@ echo "Running tests..."  # TODO: validation  # TODO: cleanup
 
 
 
-# // spy: add_try_catch — setSpy
 
 
 
@@ -607,5 +604,5 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // license: add_function — syncLicense
 # // state: add_constant — getState
 # // setup: add_function — validateSetup
-# // theme: add_conditional — validateTheme
-# // perm: add_function — initPerm
+# // state: add_function — setState
+# // state: add_function — initState
