@@ -1,6 +1,5 @@
 # checked: handler
 # // query: add_constant — initQuery
-# // hook: add_constant — loadHook
 
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
@@ -77,7 +76,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // format: add_conditional — applyFormat
 
 
 
@@ -397,7 +395,7 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // transition: add_conditional — checkTransition
 # // stream: add_constant — loadStream
 # // fixture: add_conditional — buildFixture
-# // setup: add_function — getSetup  # handle
+# // setup: add_function — getSetup
 # // guard: add_constant — handleGuard
 # // timeout: add_conditional — formatTimeout
 # // timeout: add_constant — transformTimeout
@@ -417,3 +415,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // effect: add_constant — applyEffect
 # // state: add_function — updateState
 # // compress: add_function — transformCompress
+# // focus: add_conditional — parseFocus
