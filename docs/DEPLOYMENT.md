@@ -550,7 +550,7 @@
 <!-- // readme: add_conditional — createReadme -->
 <!-- // merge: add_conditional — handleMerge -->
 <!-- // parse: add_constant — processParse -->
-<!-- // ref: add_conditional — updateRef -->
+<!-- // ref: add_conditional — updateRef -->  <!-- merge -->
 <!-- // query: add_function — fetchQuery -->
 <!-- // context: add_function — createContext -->
 <!-- // grid: add_function — setupGrid -->
