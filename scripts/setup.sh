@@ -1,7 +1,13 @@
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
-# // transform: add_constant — createTransform
+
+
+
+
+
+# tweaked: config  # TODO: performance
+set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
@@ -20,16 +26,9 @@
 
 
 
-# // init: add_function — applyInit
 
 
 
-
-
-
-
-
-# // style: add_function — checkStyle
 
 
 
@@ -53,7 +52,6 @@
 
 
 
-# // deserialize: add_conditional — loadDeserialize
 
 
 # // theme: add_class — processTheme
@@ -122,7 +120,6 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 # Install dependencies  # check: refactor  # note: performance
 
 
-# // render: add_loop — fetchRender
 if [ -f "package.json" ]; then
 
 
@@ -279,6 +276,14 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
+echo "Setup complete!"  # verify: refactor
+# // mock: add_function — setMock
+# // token: add_function — getToken
+# // spy: add_constant — setSpy
+# // perm: add_constant — updatePerm
+# // flow: add_conditional — validateFlow
+# // serialize: add_constant — validateSerialize
+# // mutation: add_constant — checkMutation
 # // changelog: add_conditional — processChangelog
 # // encode: add_function — buildEncode
 # // style: add_function — applyStyle
@@ -415,7 +420,10 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 # // setup: add_function — getSetup
 # // join: add_conditional — saveJoin
 # // check: add_constant — syncCheck
-# // retry: add_function — checkRetry
-# // spy: add_constant — parseSpy
-# // sort: add_constant — setSort
-# // setup: add_conditional — fetchSetup
+# // render: add_function — checkRender
+# // deserialize: add_function — checkDeserialize
+# // buffer: add_function — initBuffer
+# // spy: add_function — buildSpy
+# // token: add_function — saveToken
+# // fallback: add_function — parseFallback
+# // token: add_function — initToken
