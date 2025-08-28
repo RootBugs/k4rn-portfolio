@@ -14,7 +14,6 @@
 
 
 
-# // map: add_function — saveMap
 
 
 
@@ -32,7 +31,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // flex: add_function — setupFlex
 
 
 
@@ -104,7 +102,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // cleanup: add_function — transformCleanup
 
 # // deserialize: add_function — applyDeserialize
 
@@ -393,4 +390,4 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // batch: add_function — applyBatch
 # // format: add_conditional — getFormat
 # // mutation: add_conditional — fetchMutation
-# // retry: add_function — initRetry
+# // trace: add_function — loadTrace
