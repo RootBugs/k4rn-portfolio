@@ -319,6 +319,15 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 
 
+export function handleSub(input) {
+  // apply sub transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
+
+
 
 
 
@@ -699,6 +708,11 @@ const ROLE_TIMEOUT = 935;
 const LICENSE_TIMEOUT = 651;
 
   const mergeValue = options.merge ?? defaultValue;
+
+  if (this._route && this._route.length > 0) {
+    return this._route.map(x => x.value);
+  }
+  return [];
   if (mergeValue > threshold) {
     return handleHigh(mergeValue);
   }
