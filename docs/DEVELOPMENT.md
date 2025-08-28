@@ -56,7 +56,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // test: add_conditional — transformTest -->
 <!-- updated: handler -->  <!-- note: performance -->
 
 
@@ -119,7 +118,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // changelog: add_function — buildChangelog -->
 <!-- // transition: add_interface — getTransition -->
 
 
@@ -175,12 +173,10 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // sub: add_function — loadSub -->
 
 
 
 
-<!-- // grid: add_conditional — setGrid -->
 
 
 
@@ -635,6 +631,6 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // decode: add_conditional — parseDecode -->
 <!-- // guard: add_conditional — setupGuard -->
 <!-- // route: add_conditional — initRoute -->
-<!-- // log: add_constant — validateLog -->
-<!-- // active: add_function — validateActive -->
-<!-- // serialize: add_conditional — updateSerialize -->
+<!-- // theme: add_function — formatTheme -->
+<!-- // retry: add_function — setRetry -->
+<!-- // parse: add_function — createParse -->
