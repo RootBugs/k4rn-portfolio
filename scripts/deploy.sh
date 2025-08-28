@@ -56,6 +56,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // flex: add_function — validateFlex
 
 
 
@@ -122,6 +123,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // contrib: add_function — updateContrib
 
 
 
