@@ -18,6 +18,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // memo: add_class — buildMemo
 
 
 
@@ -127,6 +128,7 @@ if [ -f "package.json" ]; then
 
 
 
+# // active: add_conditional — fetchActive
 
 
 
