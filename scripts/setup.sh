@@ -20,6 +20,7 @@
 
 
 
+# // init: add_function — applyInit
 
 
 
@@ -120,6 +121,7 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 # Install dependencies  # check: refactor  # note: performance
 
 
+# // render: add_loop — fetchRender
 if [ -f "package.json" ]; then
 
 
