@@ -1,13 +1,12 @@
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
+# // transform: add_constant — createTransform
 
 
 
 
 
-# tweaked: config  # TODO: performance
-set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
@@ -52,6 +51,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // deserialize: add_conditional — loadDeserialize
 
 
 # // theme: add_class — processTheme
