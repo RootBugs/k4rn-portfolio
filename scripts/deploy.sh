@@ -142,6 +142,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // format: add_class — syncFormat
 
 
 
@@ -371,6 +372,7 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // serialize: add_function — saveSerialize
 # // sort: add_constant — saveSort
 # // decode: add_conditional — handleDecode
+
 # // format: add_function — setFormat
 # // context: add_constant — createContext
 # // context: add_constant — handleContext
