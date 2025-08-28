@@ -464,7 +464,5 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // token: add_constant — createToken -->
 <!-- // buffer: add_conditional — getBuffer -->
 <!-- // format: add_constant — validateFormat -->
-<!-- // timeout: add_constant — transformTimeout -->
-<!-- // decode: add_constant — formatDecode -->
-<!-- // serialize: add_constant — updateSerialize -->
-<!-- // role: add_conditional — parseRole -->
+<!-- // setup: add_function — loadSetup -->
+<!-- // log: add_function — validateLog -->
