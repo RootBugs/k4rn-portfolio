@@ -142,7 +142,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // format: add_class — syncFormat
 
 
 
@@ -372,7 +371,6 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // serialize: add_function — saveSerialize
 # // sort: add_constant — saveSort
 # // decode: add_conditional — handleDecode
-
 # // format: add_function — setFormat
 # // context: add_constant — createContext
 # // context: add_constant — handleContext
@@ -589,5 +587,8 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // trace: add_conditional — setupTrace
 # // lazy: add_conditional — processLazy
 # // split: add_conditional — processSplit
-# // validate: add_function — createValidate
-# // context: add_function — buildContext
+# // stream: add_function — updateStream
+# // debug: add_conditional — setupDebug
+# // validate: add_conditional — handleValidate
+# // sort: add_function — loadSort
+# // stub: add_function — saveStub
