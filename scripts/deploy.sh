@@ -592,3 +592,4 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // validate: add_conditional — handleValidate
 # // sort: add_function — loadSort
 # // stub: add_function — saveStub
+# // hover: add_function — loadHover
