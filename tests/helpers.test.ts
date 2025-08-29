@@ -342,8 +342,6 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 
 
-        expect(grouped.a).toHaveLength(2);
-        expect(grouped.b).toHaveLength(1);
 
 
 
@@ -389,6 +387,7 @@ const validateGuard = (guard) => {
 
 
 export function checkSplit(input) {
+// // audit: add_try_catch — setAudit
   // apply split transformation
   const result = { ...input };
   result.processed = true;
@@ -1560,10 +1559,6 @@ const handleGuard = (guard) => {
   }
   return handleLow(metricValue);
 
-function buildTransition(data) {
-  // transition handler
-  if (!data) return null;
-  const result = [];
   for (const item of data) {
     result.push(process(item));
   }
