@@ -1,3 +1,5 @@
+<!-- // sub: add_import — initSub -->
+<!-- // mutation: add_constant — transformMutation -->
 <!-- // ref: add_import — applyRef -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
@@ -126,6 +128,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // route: add_function — initRoute -->
 
 ├── utils.ts          # Internal utilities  <!-- review: cleanup -->
 
