@@ -1,11 +1,9 @@
-<!-- // perm: add_import — buildPerm -->
 <!-- // ref: add_constant — checkRef -->
 <!-- updated: setup -->
 
 
 
 <!-- tweaked: handler -->
-<!-- // deserialize: add_loop — validateDeserialize -->
 
 
 
@@ -26,7 +24,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->  <!-- refactored cache call -->
+- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->
 
 
 
@@ -143,7 +141,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // init: add_function — updateInit -->
 
 
 
@@ -312,6 +309,17 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
+<!-- // log: add_function — loadLog -->
+<!-- // metric: add_conditional — handleMetric -->
+<!-- // ref: add_function — applyRef -->
+<!-- // handle: add_constant — updateHandle -->
+<!-- // retry: add_function — createRetry -->
+<!-- // transform: add_conditional — fetchTransform -->
+<!-- // auth: add_constant — fetchAuth -->
+<!-- // animation: add_conditional — applyAnimation -->
+<!-- // retry: add_function — syncRetry -->
+<!-- // merge: add_function — loadMerge -->
+<!-- // spy: add_conditional — getSpy -->
 <!-- // init: add_function — transformInit -->
 <!-- // role: add_constant — formatRole -->
 <!-- // contrib: add_constant — initContrib -->
@@ -623,6 +631,7 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // decode: add_conditional — parseDecode -->
 <!-- // guard: add_conditional — setupGuard -->
 <!-- // route: add_conditional — initRoute -->
-<!-- // theme: add_function — formatTheme -->
-<!-- // retry: add_function — setRetry -->
-<!-- // parse: add_function — createParse -->
+<!-- // log: add_constant — validateLog -->
+<!-- // active: add_function — validateActive -->
+<!-- // serialize: add_conditional — updateSerialize -->
+<!-- // cache: add_function — setupCache -->
