@@ -1,6 +1,3 @@
-<!-- // sub: add_import — initSub -->
-<!-- // mutation: add_constant — transformMutation -->
-<!-- // ref: add_import — applyRef -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -128,7 +125,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // route: add_function — initRoute -->
 
 ├── utils.ts          # Internal utilities  <!-- review: cleanup -->
 
@@ -578,5 +574,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // memo: add_constant — initMemo -->
 <!-- // active: add_function — parseActive -->
 <!-- // auth: add_constant — applyAuth -->
-<!-- // join: add_constant — setupJoin -->
-<!-- // spy: add_function — buildSpy -->
+<!-- // mutation: add_function — setMutation -->
