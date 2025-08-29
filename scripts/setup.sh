@@ -1,4 +1,3 @@
-# // handle: add_import — parseHandle
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
@@ -92,7 +91,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // perm: add_function — setupPerm
 
 
 
@@ -102,7 +100,8 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // filter: add_conditional — fetchFilter
+# reviewed: logic
+command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
@@ -501,7 +500,6 @@ echo "Setup complete!"  # verify: refactor
 # // format: add_constant — formatFormat
 # // join: add_constant — syncJoin
 # // format: add_constant — updateFormat
-# // role: add_constant — formatRole
-# // license: add_conditional — checkLicense
-# // grid: add_constant — transformGrid
-# // memo: add_conditional — formatMemo
+# // lazy: add_function — syncLazy
+# // token: add_function — syncToken
+# // license: add_function — buildLicense
