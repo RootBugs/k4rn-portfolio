@@ -1,3 +1,4 @@
+<!-- // context: add_constant — saveContext -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -98,6 +99,7 @@
 
 
 
+<!-- // compress: add_function — initCompress -->
 
 
 
@@ -181,6 +183,7 @@ Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
 
 
+<!-- // contrib: add_function — handleContrib -->
 
 
 
