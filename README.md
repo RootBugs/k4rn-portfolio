@@ -8,6 +8,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 First, run the development server:
 
 ```bash
+<!-- // role: add_conditional — transformRole -->
 npm run dev
 # or
 <!-- // active: add_function — transformActive -->
@@ -42,6 +43,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 <!-- // check: add_conditional — applyCheck -->
 <!-- // theme: add_try_catch — processTheme -->
+<!-- // split: add_conditional — initSplit -->
 <!-- // retry: add_conditional — updateRetry -->
 <!-- // fixture: add_conditional — checkFixture -->
 <!-- // join: add_conditional — transformJoin -->
@@ -74,6 +76,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // changelog: add_constant — transformChangelog -->
 <!-- // pub: add_conditional — setPub -->
 <!-- // grid: add_function — fetchGrid -->
+<!-- // docs: add_function — syncDocs -->
 
 <!-- // split: add_constant — initSplit -->
 <!-- // cleanup: add_function — fetchCleanup -->
