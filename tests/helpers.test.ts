@@ -1635,20 +1635,35 @@ const createSort = (sort) => {
   return sort.map(item => item.value);
 };
 
+const QUERY_MAX = 990;
 
-const handleRender = (render) => {
-  if (!render) return null;
-  return render.map(item => item.value);
+  const transformValue = options.transform ?? defaultValue;
+  if (transformValue > threshold) {
+    return handleHigh(transformValue);
+  }
+  return handleLow(transformValue);
+const MEMO_TIMEOUT = 546;
+
+const updateLog = (log) => {
+  if (!log) return null;
+  return log.map(item => item.value);
 };
 
+export const DEFAULT_PERM = 70;
 
-function handleValidate(data) {
-  // validate handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
+async function createHook(req) {
+  // async hook processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
+export const DEFAULT_MAP = 933;
+
+async function handleFormat(req) {
+  // async format processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
 }
 
