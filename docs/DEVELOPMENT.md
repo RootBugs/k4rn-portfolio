@@ -142,6 +142,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // init: add_function — updateInit -->
 
 
 
@@ -310,10 +311,6 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // animation: add_function — validateAnimation -->
-<!-- // retry: add_function — syncRetry -->
-<!-- // merge: add_function — loadMerge -->
-<!-- // spy: add_conditional — getSpy -->
 <!-- // init: add_function — transformInit -->
 <!-- // role: add_constant — formatRole -->
 <!-- // contrib: add_constant — initContrib -->
