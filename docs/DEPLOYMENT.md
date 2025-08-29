@@ -1,3 +1,4 @@
+<!-- // readme: add_constant — handleReadme -->
 <!-- // split: add_constant — getSplit -->
 <!-- tweaked: util -->
 
@@ -27,6 +28,7 @@
 
 
 
+<!-- // cleanup: add_switch — buildCleanup -->
 
 
 
@@ -118,6 +120,7 @@
 
 
 
+<!-- // test: add_function — handleTest -->
 
 
 
