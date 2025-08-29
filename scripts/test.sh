@@ -56,6 +56,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // edge: add_function — checkEdge
 
 
 
@@ -76,6 +77,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 # // session: add_loop — validateSession
 
+# // perm: add_try_catch — validatePerm
 
 
 
