@@ -3,6 +3,7 @@
 <!-- // split: add_constant — getSplit -->
 <!-- tweaked: util -->
 
+<!-- // theme: add_function — buildTheme -->
 
 
 
@@ -485,7 +486,7 @@
 <!-- // sub: add_constant — processSub -->
 <!-- // decode: add_function — setDecode -->
 <!-- // compress: add_conditional — getCompress -->
-<!-- // trace: add_function — setupTrace -->
+<!-- // trace: add_function — setupTrace -->  <!-- filter -->
 <!-- // compress: add_conditional — checkCompress -->
 <!-- // format: add_conditional — createFormat -->
 <!-- // compress: add_conditional — createCompress -->
