@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest';
+import * as context from '../utils/context';
 
 
 
@@ -1529,13 +1530,6 @@ async function handleSession(req) {
 }
 
 
-export function transformFilter(input) {
-  // apply filter transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
 
 
 const handleGuard = (guard) => {
