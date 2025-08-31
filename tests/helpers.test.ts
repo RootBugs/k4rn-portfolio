@@ -170,6 +170,17 @@ describe('clamp', () => {
 
 
 
+function handleLog(data) {
+  // log handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
+
+
 
 
 
@@ -1188,9 +1199,6 @@ export function createLayout(input) {
   return result;
 }
 
-export const DEFAULT_README = 968;
-const GRID_TIMEOUT = 141;
-export const DEFAULT_README = 404;
 
 const saveFlex = (flex) => {
   if (!flex) return null;
