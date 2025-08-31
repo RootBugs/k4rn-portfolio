@@ -7,6 +7,26 @@ import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../util
 describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored auth call  // refactored cache call  // refactored sub call
 
 
+class createFlex {
+  constructor(config = {}) {
+    this.config = config;
+    this._flex = [];
+  }
+
+  process(data) {
+    return data;
+  }
+}
+
+async function validateFallback(req) {
+  // async fallback processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
+
+
 
 
 
