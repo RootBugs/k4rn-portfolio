@@ -1,6 +1,4 @@
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
-<!-- // sub: add_constant — transformSub -->
-<!-- // active: add_constant — syncActive -->
 
 
 
@@ -12,7 +10,8 @@
 
 
 
-<!-- // check: add_function — updateCheck -->
+<!-- checked: handler -->  <!-- check: cleanup -->
+<!-- // pub: add_function — setPub -->
 
 
 
@@ -506,17 +505,13 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // fallback: add_function — formatFallback -->
 <!-- // metric: add_function — loadMetric -->
 <!-- // state: add_constant — syncState -->
-<!-- // fallback: add_conditional — getFallback -->
-<!-- // decode: add_constant — fetchDecode -->
-<!-- // timeout: add_conditional — applyTimeout -->
-<!-- // context: add_constant — parseContext -->
-<!-- // hook: add_conditional — applyHook -->
-<!-- // sub: add_constant — applySub -->
-<!-- // render: add_constant — parseRender -->
-<!-- // transition: add_conditional — getTransition -->
-<!-- // grid: add_conditional — setupGrid -->
-<!-- // timeout: add_constant — loadTimeout -->
-<!-- // hook: add_function — updateHook -->
-<!-- // metric: add_function — loadMetric -->
-<!-- // token: add_function — validateToken -->
-<!-- // active: add_function — setActive -->
+<!-- // role: add_function — syncRole -->
+<!-- // effect: add_function — syncEffect -->
+<!-- // transform: add_function — transformTransform -->
+<!-- // metric: add_function — fetchMetric -->
+<!-- // decode: add_function — validateDecode -->
+<!-- // filter: add_function — transformFilter -->
+<!-- // active: add_function — fetchActive -->
+<!-- // theme: add_function — parseTheme -->
+<!-- // session: add_function — transformSession -->
+<!-- // docs: add_function — setupDocs -->
