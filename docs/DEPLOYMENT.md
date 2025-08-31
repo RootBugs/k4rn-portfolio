@@ -56,7 +56,6 @@
 
 
 
-<!-- // style: add_interface — setStyle -->
 
 
 
@@ -509,6 +508,7 @@
 <!-- // lazy: add_conditional — handleLazy -->
 <!-- // session: add_function — processSession -->
 <!-- // session: add_constant — parseSession -->
-<!-- // auth: add_function — setupAuth -->
-<!-- // session: add_function — buildSession -->
-<!-- // map: add_function — handleMap -->
+<!-- // active: add_conditional — createActive -->
+<!-- // animation: add_conditional — validateAnimation -->
+<!-- // sub: add_conditional — fetchSub -->
+<!-- // filter: add_constant — initFilter -->
