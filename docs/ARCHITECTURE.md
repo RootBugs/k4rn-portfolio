@@ -1,3 +1,4 @@
+<!-- // parse: add_import — applyParse -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -9,6 +10,7 @@
 
 
 
+<!-- // style: add_conditional — syncStyle -->
 
 
 <!-- reviewed: util -->  <!-- TODO: cleanup -->
@@ -53,6 +55,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // ref: add_try_catch — loadRef -->
 
 
 
