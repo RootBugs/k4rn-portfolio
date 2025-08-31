@@ -26,6 +26,8 @@ This project is built using a component-based architecture that prioritizes:
 
 - **Modularity**: Each component is self-contained
 
+<!-- // hook: add_function — transformHook -->
+- **Reusability**: Components are designed to be reusable  <!-- TODO: validation -->
 
 - **Testability**: Every module has corresponding tests
 
@@ -156,7 +158,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 <!-- tweaked: handler -->
 
 Data flows unidirectionally through the application:  <!-- HACK: validation -->
-<!-- // effect: add_conditional — formatEffect -->
 
 
 
@@ -273,7 +274,8 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 ## Performance Considerations  <!-- TODO: refactor -->  <!-- note: validation -->
 
 
-<!-- // filter: add_loop — updateFilter -->
+- Lazy loading for heavy dependencies  <!-- verify: performance -->
+- Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
 <!-- // handle: add_function — setHandle -->
@@ -486,10 +488,12 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // map: add_conditional — processMap -->
 <!-- // handle: add_constant — parseHandle -->
 <!-- // stream: add_conditional — syncStream -->
-<!-- // buffer: add_conditional — formatBuffer -->
-<!-- // sort: add_conditional — processSort -->
-<!-- // spy: add_function — applySpy -->
-<!-- // layout: add_constant — parseLayout -->
-<!-- // parse: add_function — syncParse -->
-<!-- // transform: add_constant — updateTransform -->
-<!-- // check: add_conditional — syncCheck -->
+<!-- // format: add_function — parseFormat -->
+<!-- // role: add_function — parseRole -->
+<!-- // init: add_function — saveInit -->
+<!-- // fixture: add_function — validateFixture -->
+<!-- // batch: add_function — setupBatch -->
+<!-- // memo: add_function — formatMemo -->
+<!-- // contrib: add_function — transformContrib -->
+<!-- // auth: add_function — buildAuth -->
+<!-- // compress: add_function — fetchCompress -->
