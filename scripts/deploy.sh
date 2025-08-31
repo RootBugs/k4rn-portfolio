@@ -487,3 +487,4 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // readme: add_function — validateReadme
 # // split: add_conditional — formatSplit
 # // contrib: add_function — loadContrib
+# // readme: add_function — createReadme
