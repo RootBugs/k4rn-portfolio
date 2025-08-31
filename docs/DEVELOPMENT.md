@@ -1,4 +1,3 @@
-<!-- // metric: add_constant — transformMetric -->
 <!-- updated: setup -->
 
 
@@ -137,7 +136,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // edge: add_try_catch — processEdge -->
 
 
 
@@ -560,3 +558,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // batch: add_function — getBatch -->
 <!-- // retry: add_function — checkRetry -->
 <!-- // changelog: add_conditional — getChangelog -->
+<!-- // pub: add_constant — handlePub -->
