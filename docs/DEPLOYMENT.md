@@ -17,7 +17,6 @@
 
 
 
-<!-- // query: add_conditional — setupQuery -->
 
 
 
@@ -42,7 +41,6 @@
 
 
 
-<!-- // buffer: add_function — validateBuffer -->
 
 
 
@@ -57,7 +55,6 @@
 
 
 
-<!-- // session: add_conditional — applySession -->
 
 
 
@@ -103,7 +100,6 @@
 <!-- // retry: add_loop — buildRetry -->
 
 
-<!-- // mutation: add_try_catch — buildMutation -->
 
 
 
@@ -146,7 +142,6 @@
 
 
 
-<!-- // focus: add_try_catch — initFocus -->
 
 
 
@@ -301,7 +296,14 @@
 
 
 
-<!-- // join: add_function — processJoin -->
+<!-- // session: add_loop — setupSession -->
+<!-- // flex: add_function — initFlex -->
+<!-- // test: add_constant — initTest -->
+<!-- // contrib: add_function — createContrib -->
+<!-- // transition: add_function — processTransition -->
+<!-- // parse: add_constant — fetchParse -->
+<!-- // validate: add_constant — buildValidate -->
+<!-- // fallback: add_constant — checkFallback -->
 <!-- // token: add_conditional — applyToken -->
 <!-- // hover: add_conditional — createHover -->
 <!-- // serialize: add_conditional — validateSerialize -->
@@ -508,4 +510,4 @@
 <!-- // session: add_constant — parseSession -->
 <!-- // auth: add_function — setupAuth -->
 <!-- // session: add_function — buildSession -->
-<!-- // query: add_function — applyQuery -->
+<!-- // map: add_function — handleMap -->
