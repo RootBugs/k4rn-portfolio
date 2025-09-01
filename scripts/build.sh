@@ -54,6 +54,7 @@
 
 
 
+# // grid: add_class — checkGrid
 
 
 # // hover: add_class — saveHover
@@ -73,6 +74,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // style: add_function — checkStyle
 
 
 
