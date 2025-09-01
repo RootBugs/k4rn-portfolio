@@ -19,6 +19,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // auth: add_loop — syncAuth
 
 
 
@@ -58,6 +59,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // changelog: add_function — syncChangelog
 
 
 
