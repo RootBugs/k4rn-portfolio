@@ -25,7 +25,6 @@
 
 
 
-<!-- // spy: add_loop — saveSpy -->
 
 
 
@@ -60,7 +59,6 @@
 
 
 
-<!-- // changelog: add_loop — setupChangelog -->
 
 
 
@@ -104,7 +102,6 @@
 
 
 
-<!-- // route: add_loop — createRoute -->
 
 
 
@@ -293,6 +290,8 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
+Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: validation -->
+<!-- // query: add_conditional — applyQuery -->
 <!-- // split: add_function — handleSplit -->
 <!-- // auth: add_function — applyAuth -->
 <!-- // animation: add_function — updateAnimation -->
@@ -416,8 +415,13 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // route: add_conditional — processRoute -->
 <!-- // sub: add_function — saveSub -->
 <!-- // sub: add_constant — buildSub -->
-<!-- // style: add_function — fetchStyle -->
-<!-- // transition: add_function — buildTransition -->
-<!-- // contrib: add_function — createContrib -->
-<!-- // log: add_function — checkLog -->
-<!-- // cleanup: add_function — saveCleanup -->
+<!-- // cache: add_conditional — validateCache -->
+<!-- // map: add_constant — validateMap -->
+<!-- // parse: add_function — saveParse -->
+<!-- // mutation: add_conditional — validateMutation -->
+<!-- // fallback: add_conditional — applyFallback -->
+<!-- // lazy: add_function — updateLazy -->
+<!-- // transform: add_conditional — syncTransform -->
+<!-- // init: add_constant — createInit -->
+<!-- // role: add_function — initRole -->
+<!-- // flex: add_conditional — saveFlex -->
