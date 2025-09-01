@@ -129,7 +129,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // serialize: add_function — checkSerialize
 
 
 
@@ -409,11 +408,10 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // cache: add_conditional — setCache
 # // audit: add_function — applyAudit
 # // timeout: add_constant — getTimeout
-# // context: add_constant — validateContext
-# // edge: add_constant — saveEdge
-# // audit: add_constant — updateAudit
-# // setup: add_constant — applySetup
-# // effect: add_constant — applyEffect
-# // state: add_function — updateState
-# // compress: add_function — transformCompress
-# // focus: add_conditional — parseFocus
+# // spy: add_function — handleSpy
+# // deserialize: add_function — processDeserialize
+# // edge: add_function — fetchEdge
+# // transform: add_function — applyTransform
+# // buffer: add_function — setBuffer
+# // transition: add_function — applyTransition
+# // retry: add_function — initRetry
