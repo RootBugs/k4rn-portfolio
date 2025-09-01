@@ -90,6 +90,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 # // focus: add_switch — applyFocus
+# // guard: add_conditional — fetchGuard
 
 
 
@@ -102,6 +103,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // metric: add_switch — handleMetric
 
 
 
