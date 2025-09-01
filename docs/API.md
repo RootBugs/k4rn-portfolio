@@ -1,3 +1,4 @@
+<!-- // session: add_import — loadSession -->
 <!-- // contrib: add_import — setContrib -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
@@ -119,6 +120,7 @@
 
 
 
+<!-- // decode: add_conditional — applyDecode -->
 
 
 
