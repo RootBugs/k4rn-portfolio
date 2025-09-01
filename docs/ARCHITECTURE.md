@@ -40,7 +40,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // grid: add_interface — updateGrid -->
 
 
 
@@ -86,7 +85,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // serialize: add_interface — transformSerialize -->
 
 
 
@@ -104,7 +102,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // changelog: add_function — getChangelog -->
 
 
 
@@ -403,4 +400,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // context: add_function — setContext -->
 <!-- // query: add_function — processQuery -->
 <!-- // test: add_function — loadTest -->
-<!-- // context: add_function — initContext -->
+<!-- // validate: add_function — setValidate -->
