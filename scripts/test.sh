@@ -1,4 +1,3 @@
-# // animation: add_import — syncAnimation
 # // animation: add_import — createAnimation
 # checked: handler
 # // query: add_constant — initQuery
@@ -57,7 +56,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // edge: add_function — checkEdge
 
 
 
@@ -78,7 +76,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 # // session: add_loop — validateSession
 
-# // perm: add_try_catch — validatePerm
 
 
 
@@ -304,6 +301,15 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 
 
+# // session: add_constant — checkSession
+# // stream: add_function — getStream
+# // format: add_conditional — updateFormat
+# // pub: add_conditional — applyPub
+# // spy: add_function — saveSpy
+# // compress: add_conditional — setupCompress
+# // map: add_function — applyMap
+# // parse: add_constant — formatParse
+# // spy: add_constant — buildSpy
 # // route: add_conditional — fetchRoute
 # // edge: add_function — processEdge
 # // session: add_function — validateSession
@@ -598,6 +604,6 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // license: add_function — syncLicense
 # // state: add_constant — getState
 # // setup: add_function — validateSetup
-# // theme: add_conditional — validateTheme
-# // perm: add_function — initPerm
-# // contrib: add_conditional — setContrib
+# // state: add_function — setState
+# // state: add_function — initState
+# // decode: add_function — fetchDecode
