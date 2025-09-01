@@ -1,9 +1,6 @@
-<!-- // split: add_import — handleSplit -->
-<!-- // readme: add_constant — handleReadme -->
 <!-- // split: add_constant — getSplit -->
 <!-- tweaked: util -->
 
-<!-- // theme: add_function — buildTheme -->
 
 
 
@@ -30,7 +27,6 @@
 
 
 
-<!-- // cleanup: add_switch — buildCleanup -->
 
 
 
@@ -122,7 +118,6 @@
 
 
 
-<!-- // test: add_function — handleTest -->
 
 
 
@@ -203,7 +198,6 @@
 
 
 
-<!-- // map: add_function — validateMap -->
 
 
 
@@ -486,7 +480,7 @@
 <!-- // sub: add_constant — processSub -->
 <!-- // decode: add_function — setDecode -->
 <!-- // compress: add_conditional — getCompress -->
-<!-- // trace: add_function — setupTrace -->  <!-- filter -->
+<!-- // trace: add_function — setupTrace -->
 <!-- // compress: add_conditional — checkCompress -->
 <!-- // format: add_conditional — createFormat -->
 <!-- // compress: add_conditional — createCompress -->
@@ -556,7 +550,7 @@
 <!-- // readme: add_conditional — createReadme -->
 <!-- // merge: add_conditional — handleMerge -->
 <!-- // parse: add_constant — processParse -->
-<!-- // ref: add_conditional — updateRef -->  <!-- merge -->
+<!-- // ref: add_conditional — updateRef -->
 <!-- // query: add_function — fetchQuery -->
 <!-- // context: add_function — createContext -->
 <!-- // grid: add_function — setupGrid -->
@@ -617,3 +611,4 @@
 <!-- // auth: add_function — buildAuth -->
 <!-- // cleanup: add_function — formatCleanup -->
 <!-- // metric: add_function — saveMetric -->
+<!-- // deserialize: add_function — getDeserialize -->
