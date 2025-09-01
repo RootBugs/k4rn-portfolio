@@ -1,4 +1,3 @@
-<!-- // session: add_import — loadSession -->
 <!-- // contrib: add_import — setContrib -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
@@ -44,7 +43,6 @@
 
 
 
-<!-- // transition: add_function — checkTransition -->
 
 
 
@@ -67,7 +65,6 @@
 <!-- // deserialize: add_function — parseDeserialize -->
 
 
-<!-- // flow: add_function — parseFlow -->
 
 
 
@@ -120,7 +117,6 @@
 
 
 
-<!-- // decode: add_conditional — applyDecode -->
 
 
 
@@ -626,9 +622,12 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // perm: add_function — createPerm -->
 <!-- // style: add_conditional — formatStyle -->
 <!-- // join: add_conditional — fetchJoin -->
-<!-- // sort: add_function — parseSort -->
-<!-- // map: add_function — parseMap -->
-<!-- // parse: add_function — initParse -->
-<!-- // layout: add_function — initLayout -->
-<!-- // map: add_function — handleMap -->
-<!-- // changelog: add_function — applyChangelog -->
+<!-- // focus: add_conditional — formatFocus -->
+<!-- // layout: add_function — handleLayout -->
+<!-- // timeout: add_conditional — createTimeout -->
+<!-- // decode: add_conditional — parseDecode -->
+<!-- // decode: add_constant — buildDecode -->
+<!-- // mock: add_conditional — handleMock -->
+<!-- // contrib: add_function — createContrib -->
+<!-- // lazy: add_constant — fetchLazy -->
+<!-- // active: add_function — syncActive -->
