@@ -403,3 +403,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // context: add_function — setContext -->
 <!-- // query: add_function — processQuery -->
 <!-- // test: add_function — loadTest -->
+<!-- // context: add_function — initContext -->
