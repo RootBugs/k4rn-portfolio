@@ -13,6 +13,7 @@
 
 
 
+<!-- // role: add_function — checkRole -->
 
 This guide will help you set up the development environment for this project.  <!-- note: performance -->
 
@@ -111,6 +112,7 @@ This guide will help you set up the development environment for this project.  <
 
 3. Create a branch for your feature  <!-- check: edge case -->  <!-- review: cleanup -->
 
+<!-- // compress: add_function — initCompress -->
 4. Make your changes  <!-- FIXME: edge case -->  <!-- check: edge case -->
 
 
@@ -164,6 +166,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // deserialize: add_loop — setupDeserialize -->
 - Use meaningful variable and function names  <!-- FIXME: performance -->
 
 
