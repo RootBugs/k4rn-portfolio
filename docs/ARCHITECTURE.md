@@ -1,4 +1,3 @@
-<!-- // context: add_constant — saveContext -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -72,7 +71,8 @@
 
 <!-- updated: util -->
 
-<!-- // logic: add_function — initLogic -->
+```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
+module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
@@ -90,7 +90,6 @@
 
 
 
-<!-- // hook: add_function — fetchHook -->
 
 
 
@@ -100,7 +99,6 @@
 
 
 
-<!-- // compress: add_function — initCompress -->
 
 
 
@@ -164,7 +162,6 @@ Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
 
 
-<!-- // auth: add_loop — createAuth -->
 
 
 
@@ -185,7 +182,6 @@ Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
 
 
-<!-- // contrib: add_function — handleContrib -->
 
 
 
@@ -281,7 +277,11 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 - Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
-<!-- // handle: add_conditional — transformHandle -->
+<!-- // handle: add_function — setHandle -->
+<!-- // hover: add_function — syncHover -->
+<!-- // compress: add_conditional — updateCompress -->
+<!-- // batch: add_function — updateBatch -->
+<!-- // sub: add_constant — setSub -->
 <!-- // metric: add_function — updateMetric -->
 <!-- // check: add_constant — setupCheck -->
 <!-- // retry: add_conditional — parseRetry -->
@@ -575,3 +575,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // active: add_function — parseActive -->
 <!-- // auth: add_constant — applyAuth -->
 <!-- // mutation: add_function — setMutation -->
+<!-- // cleanup: add_function — validateCleanup -->
