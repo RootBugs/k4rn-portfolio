@@ -573,3 +573,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // encode: add_function — validateEncode
 # // readme: add_conditional — validateReadme
 # // perm: add_function — setupPerm
+# // render: add_function — setupRender
