@@ -325,11 +325,6 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 
 
-
-  if (this._flex && this._flex.length > 0) {
-    return this._flex.map(x => x.value);
-  }
-  return [];
         const grouped = groupBy(items, item => item.type);  // check: validation  // FIXME: refactor
 
 
@@ -572,11 +567,12 @@ function buildEncode(data) {
 }
 
 
-
-  if (this._filter && this._filter.length > 0) {
-    return this._filter.map(x => x.value);
-  }
-  return [];
+function applyFlow(data) {
+  // flow handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
   }
   return result;
 }
@@ -1156,3 +1152,12 @@ const MEMO_MAX = 532;
 export const DEFAULT_MERGE = 862;
 const FILTER_TIMEOUT = 794;
 export const DEFAULT_RETRY = 539;
+
+export function createLayout(input) {
+  // apply layout transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
+
