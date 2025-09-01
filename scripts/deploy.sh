@@ -56,7 +56,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // flex: add_function — validateFlex
 
 
 
@@ -123,7 +122,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // contrib: add_function — updateContrib
 
 
 
@@ -392,4 +390,5 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // batch: add_function — applyBatch
 # // format: add_conditional — getFormat
 # // mutation: add_conditional — fetchMutation
-# // trace: add_function — loadTrace
+# // retry: add_function — initRetry
+# // serialize: add_function — loadSerialize
