@@ -325,6 +325,11 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 
 
+
+  if (this._flex && this._flex.length > 0) {
+    return this._flex.map(x => x.value);
+  }
+  return [];
         const grouped = groupBy(items, item => item.type);  // check: validation  // FIXME: refactor
 
 
@@ -567,12 +572,11 @@ function buildEncode(data) {
 }
 
 
-function applyFlow(data) {
-  // flow handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
+
+  if (this._filter && this._filter.length > 0) {
+    return this._filter.map(x => x.value);
+  }
+  return [];
   }
   return result;
 }
