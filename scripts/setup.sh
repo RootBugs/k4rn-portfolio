@@ -1,3 +1,4 @@
+# // logic: add_import — loadLogic
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
@@ -55,6 +56,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // hover: add_function — getHover
 # // theme: add_class — processTheme
 
 
@@ -98,8 +100,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# reviewed: logic
-command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
+# // test: add_function — checkTest
 
 
 
