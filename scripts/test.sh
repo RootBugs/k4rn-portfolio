@@ -1,6 +1,5 @@
 # checked: handler
 # // query: add_constant — initQuery
-# // active: add_constant — fetchActive
 
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
@@ -20,7 +19,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // auth: add_loop — syncAuth
 
 
 
@@ -60,7 +58,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // changelog: add_function — syncChangelog
 
 
 
@@ -411,10 +408,12 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // cache: add_conditional — setCache
 # // audit: add_function — applyAudit
 # // timeout: add_constant — getTimeout
-# // spy: add_function — handleSpy
-# // deserialize: add_function — processDeserialize
-# // edge: add_function — fetchEdge
-# // transform: add_function — applyTransform
-# // buffer: add_function — setBuffer
-# // transition: add_function — applyTransition
-# // retry: add_function — initRetry
+# // context: add_constant — validateContext
+# // edge: add_constant — saveEdge
+# // audit: add_constant — updateAudit
+# // setup: add_constant — applySetup
+# // effect: add_constant — applyEffect
+# // state: add_function — updateState
+# // compress: add_function — transformCompress
+# // focus: add_conditional — parseFocus
+# // contrib: add_conditional — updateContrib
