@@ -402,3 +402,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // test: add_function — loadTest -->
 <!-- // validate: add_function — setValidate -->
 <!-- // lazy: add_function — setLazy -->
+<!-- // cache: add_function — formatCache -->
