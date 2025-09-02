@@ -299,10 +299,6 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 
 
-# // parse: add_constant — formatParse
-# // spy: add_constant — buildSpy
-# // route: add_conditional — fetchRoute
-# // edge: add_function — processEdge
 # // session: add_function — validateSession
 # // transition: add_function — buildTransition
 # // merge: add_constant — initMerge
