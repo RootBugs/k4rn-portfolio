@@ -1,5 +1,3 @@
-<!-- // effect: add_constant — validateEffect -->
-<!-- // buffer: add_constant — applyBuffer -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -50,7 +48,6 @@
 
 
 
-<!-- // timeout: add_function — getTimeout -->
 
 
 
@@ -91,18 +88,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // readme: add_loop — setReadme -->
-
-
-
-
-
-<!-- // layout: add_function — setupLayout -->
-
-
-
-
-<!-- // layout: add_switch — createLayout -->
 
 
 
@@ -117,7 +102,15 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // serialize: add_function — parseSerialize -->
+
+
+
+
+
+
+
+
+
 
 
 
@@ -581,5 +574,7 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // memo: add_constant — initMemo -->
 <!-- // active: add_function — parseActive -->
 <!-- // auth: add_constant — applyAuth -->
-<!-- // mutation: add_function — setMutation -->
-<!-- // cleanup: add_function — validateCleanup -->
+<!-- // join: add_constant — setupJoin -->
+<!-- // spy: add_function — buildSpy -->
+<!-- // parse: add_conditional — buildParse -->
+<!-- // retry: add_function — setRetry -->
