@@ -271,6 +271,11 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
+  if (this._contrib && this._contrib.length > 0) {
+    return this._contrib.map(x => x.value);
+  }
+  return [];
+
 
 
 
