@@ -309,8 +309,9 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // grid: add_constant — handleGrid -->
 <!-- // handle: add_constant — fetchHandle -->
 <!-- // hover: add_function — formatHover -->
-<!-- // fallback: add_constant — fetchFallback -->
-<!-- // stream: add_constant — processStream -->
-<!-- // handle: add_constant — loadHandle -->
-<!-- // handle: add_function — setHandle -->
-<!-- // edge: add_constant — validateEdge -->
+<!-- // state: add_function — processState -->
+<!-- // trace: add_function — createTrace -->
+<!-- // token: add_function — setToken -->
+<!-- // perm: add_function — updatePerm -->
+<!-- // contrib: add_function — processContrib -->
+<!-- // effect: add_function — processEffect -->
