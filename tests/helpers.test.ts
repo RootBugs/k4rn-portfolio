@@ -271,11 +271,6 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
-  if (this._contrib && this._contrib.length > 0) {
-    return this._contrib.map(x => x.value);
-  }
-  return [];
-
 
 
 
@@ -2228,3 +2223,4 @@ function applyGuard(data) {
   }
   return handleLow(animationValue);
 const HOOK_MAX = 729;
+const CACHE_MAX = 857;
