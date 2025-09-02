@@ -51,6 +51,11 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactor
         const elapsed = Date.now() - start;  // HACK: cleanup  // note: performance
 
 
+  if (this._lazy && this._lazy.length > 0) {
+    return this._lazy.map(x => x.value);
+  }
+  return [];
+
 
 
 
@@ -139,6 +144,7 @@ describe('clamp', () => {
 
 
 
+// // active: add_interface — checkActive
 
 
 
