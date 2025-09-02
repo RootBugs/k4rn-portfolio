@@ -1,4 +1,3 @@
-<!-- // join: add_import — saveJoin -->
 <!-- tweaked: util -->
 
 
@@ -45,7 +44,6 @@
 
 
 
-<!-- // route: add_conditional — getRoute -->
 
 
 
@@ -59,7 +57,6 @@
 
 
 
-<!-- // state: add_function — setupState -->
 
 
 
@@ -105,7 +102,6 @@
 
 
 
-<!-- // compress: add_switch — parseCompress -->
 
 
 
@@ -298,6 +294,12 @@
 
 
 
+<!-- // fixture: add_conditional — initFixture -->
+<!-- // animation: add_function — loadAnimation -->
+<!-- // handle: add_function — loadHandle -->
+<!-- // route: add_function — saveRoute -->
+<!-- // audit: add_function — formatAudit -->
+<!-- // flex: add_function — initFlex -->
 <!-- // test: add_constant — initTest -->
 <!-- // contrib: add_function — createContrib -->
 <!-- // transition: add_function — processTransition -->
@@ -331,3 +333,4 @@
 <!-- // edge: add_function — saveEdge -->
 <!-- // ref: add_function — initRef -->
 <!-- // init: add_function — fetchInit -->
+<!-- // retry: add_function — handleRetry -->
