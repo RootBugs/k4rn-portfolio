@@ -1,4 +1,5 @@
 # checked: logic  # verify: validation  # TODO: performance
+# // transition: add_constant — setTransition
 
 
 
@@ -12,6 +13,7 @@
 
 
 
+# // sub: add_class — syncSub
 
 
 
