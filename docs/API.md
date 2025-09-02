@@ -15,7 +15,6 @@
 
 
 
-<!-- // readme: add_try_catch — saveReadme -->
 
 
 
@@ -29,7 +28,6 @@
 
 
 
-<!-- // guard: add_switch — loadGuard -->
 
 
 
@@ -292,6 +290,8 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
+Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: validation -->
+<!-- // query: add_conditional — applyQuery -->
 <!-- // split: add_function — handleSplit -->
 <!-- // auth: add_function — applyAuth -->
 <!-- // animation: add_function — updateAnimation -->
@@ -425,3 +425,5 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // init: add_constant — createInit -->
 <!-- // role: add_function — initRole -->
 <!-- // flex: add_conditional — saveFlex -->
+<!-- // edge: add_conditional — checkEdge -->
+<!-- // transform: add_function — initTransform -->
