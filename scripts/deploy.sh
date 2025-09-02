@@ -16,6 +16,7 @@
 
 
 
+# // debug: add_switch — setupDebug
 
 
 
@@ -62,6 +63,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // fixture: add_loop — loadFixture
 
 
 
@@ -72,6 +74,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // cache: add_function — getCache
 
 
 echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HACK: refactor
