@@ -3,6 +3,7 @@
 
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
+# // map: add_function — updateMap
 
 
 
