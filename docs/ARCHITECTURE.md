@@ -1,3 +1,5 @@
+<!-- // effect: add_constant — validateEffect -->
+<!-- // buffer: add_constant — applyBuffer -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -115,6 +117,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // serialize: add_function — parseSerialize -->
 
 
 
