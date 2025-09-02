@@ -11,6 +11,7 @@
 
 
 
+<!-- // parse: add_function — validateParse -->
 <!-- checked: handler -->  <!-- check: cleanup -->
 
 
