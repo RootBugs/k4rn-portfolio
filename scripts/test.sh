@@ -62,6 +62,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // flex: add_loop — syncFlex
 
 
 
@@ -123,6 +124,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // logic: add_switch — syncLogic
 
 
 
@@ -185,6 +187,7 @@ echo "Running tests..."  # TODO: validation  # TODO: cleanup
 
 
 
+# // metric: add_function — getMetric
 
 
 
