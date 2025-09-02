@@ -1,4 +1,5 @@
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
+<!-- // stream: add_constant — loadStream -->
 
 
 
@@ -87,6 +88,7 @@
 
 
 
+<!-- // auth: add_conditional — loadAuth -->
 
 
 
