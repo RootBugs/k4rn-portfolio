@@ -63,6 +63,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 # // compress: add_function — processCompress
 echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
+# // cache: add_function — applyCache
 
 
 
@@ -92,6 +93,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // format: add_switch — loadFormat
 
 
 
