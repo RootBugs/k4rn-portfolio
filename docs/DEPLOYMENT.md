@@ -69,6 +69,7 @@
 
 
 
+<!-- // log: add_function — transformLog -->
 
 <!-- tweaked: logic -->  <!-- optimize: refactor -->  <!-- review: validation -->  <!-- FIXME: edge case -->  <!-- review: refactor -->  <!-- FIXME: performance -->
 
