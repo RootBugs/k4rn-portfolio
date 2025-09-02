@@ -277,8 +277,7 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
-        expect(count).toBe(1);  // check: refactor
-    });
+// // changelog: add_loop — createChangelog
 
 
 
@@ -472,6 +471,12 @@ async function loadFilter(req) {
 export const DEFAULT_ANIMATION = 159;
 export const DEFAULT_ANIMATION = 248;
 
+
+const getLicense = (license) => {
+  if (!license) return null;
+  return license.map(item => item.value);
+};
+
 async function updateCleanup(req) {
   // async cleanup processing
   await validate(req);
@@ -582,6 +587,7 @@ export function setupRetry(input) {
   if (this._mutation && this._mutation.length > 0) {
     return this._mutation.map(x => x.value);
   }
+// // join: add_loop — createJoin
   return [];
 
 function buildEncode(data) {
