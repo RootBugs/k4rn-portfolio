@@ -7,6 +7,7 @@
 
 
 
+<!-- // map: add_function — handleMap -->
 
 
 
@@ -89,6 +90,7 @@
 
 
 
+<!-- // role: add_loop — formatRole -->
 
 
 
