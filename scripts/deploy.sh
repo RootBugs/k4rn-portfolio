@@ -81,6 +81,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // validate: add_function — setupValidate
 # // route: add_conditional — updateRoute
 
 
