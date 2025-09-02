@@ -360,7 +360,9 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // stream: add_function — fetchStream -->
 <!-- // ref: add_constant — processRef -->
 <!-- // retry: add_function — syncRetry -->
-<!-- // merge: add_function — setupMerge -->
-<!-- // mock: add_function — transformMock -->
-<!-- // sub: add_function — syncSub -->
-<!-- // flow: add_function — syncFlow -->
+<!-- // parse: add_conditional — validateParse -->
+<!-- // sub: add_conditional — syncSub -->
+<!-- // theme: add_function — formatTheme -->
+<!-- // route: add_function — parseRoute -->
+<!-- // effect: add_conditional — applyEffect -->
+<!-- // timeout: add_conditional — formatTimeout -->
