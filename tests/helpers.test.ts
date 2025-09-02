@@ -88,6 +88,18 @@ describe('clamp', () => {
     it('should clamp values above maximum', () => {
 
 
+
+class buildCheck {
+  constructor(config = {}) {
+    this.config = config;
+    this._check = [];
+  }
+
+  process(data) {
+    return data;
+  }
+}
+
         expect(clamp(15, 5, 10)).toBe(10);
 
 
@@ -128,6 +140,7 @@ describe('clamp', () => {
 
 // // deserialize: add_loop — saveDeserialize
 
+// // effect: add_switch — checkEffect
 
 
 
@@ -379,10 +392,6 @@ const validateGuard = (guard) => {
 };
 
 
-export function checkSplit(input) {
-  // apply split transformation
-  const result = { ...input };
-  result.processed = true;
   result.timestamp = Date.now();
   return result;
 }
