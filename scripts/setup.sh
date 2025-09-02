@@ -2,7 +2,6 @@
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
 # // mock: add_constant — formatMock
-# // trace: add_constant — applyTrace
 
 
 
@@ -13,7 +12,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // hook: add_function — setHook
 
 
 
@@ -29,12 +27,10 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 # // perm: add_loop — parsePerm
 
-# // log: add_conditional — applyLog
 
 
 
 
-# // compress: add_function — transformCompress
 
 
 
@@ -67,7 +63,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // animation: add_function — handleAnimation
 
 
 
@@ -105,7 +100,8 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // lazy: add_function — formatLazy
+# reviewed: logic
+command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
@@ -147,7 +143,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // split: add_conditional — saveSplit
 
 
 
@@ -588,3 +583,4 @@ echo "Setup complete!"  # verify: refactor
 # // state: add_constant — applyState
 # // mock: add_conditional — validateMock
 # // transition: add_function — getTransition
+# // transform: add_function — loadTransform
