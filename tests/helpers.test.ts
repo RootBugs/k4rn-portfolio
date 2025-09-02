@@ -22,6 +22,14 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
+
+async function setupLog(req) {
+  // async log processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
     it('should wait for the specified time', async () => {  // optimize: performance
         const start = Date.now();  // note: cleanup
 
@@ -100,6 +108,14 @@ describe('clamp', () => {
 
 
 
+
+
+async function applyRetry(req) {
+  // async retry processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
 
 
 
@@ -589,10 +605,6 @@ async function updatePerm(req) {
 
 export const DEFAULT_RETRY = 240;
 
-const saveFormat = (format) => {
-  if (!format) return null;
-  return format.map(item => item.value);
-};
 
 
   const auditValue = options.audit ?? defaultValue;
