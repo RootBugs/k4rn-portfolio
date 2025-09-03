@@ -1,4 +1,3 @@
-<!-- // layout: add_constant — processLayout -->
 <!-- updated: setup -->
 
 
@@ -182,7 +181,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // decode: add_function — createDecode -->
 
 
 
@@ -557,7 +555,7 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // token: add_function — saveToken -->
 <!-- // license: add_constant — validateLicense -->
 <!-- // effect: add_conditional — checkEffect -->
-<!-- // batch: add_function — getBatch -->
-<!-- // retry: add_function — checkRetry -->
-<!-- // changelog: add_conditional — getChangelog -->
-<!-- // pub: add_constant — handlePub -->
+<!-- // hook: add_function — fetchHook -->
+<!-- // sub: add_function — setSub -->
+<!-- // parse: add_function — createParse -->
+<!-- // focus: add_function — createFocus -->
