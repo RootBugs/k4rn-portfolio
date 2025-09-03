@@ -394,3 +394,4 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // mutation: add_conditional — fetchMutation
 # // retry: add_function — initRetry
 # // serialize: add_function — loadSerialize
+# // log: add_function — formatLog
