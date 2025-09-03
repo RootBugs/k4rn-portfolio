@@ -11,6 +11,7 @@
 
 
 
+# // lazy: add_function — processLazy
 
 
 
@@ -262,11 +263,7 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-echo "Build complete!"  # HACK: refactor  # FIXME: refactor
-# // handle: add_function — validateHandle
-# // map: add_function — fetchMap
-# // effect: add_function — loadEffect
-# // query: add_function — initQuery
+# // filter: add_loop — fetchFilter
 # // map: add_constant — updateMap
 # // retry: add_conditional — setupRetry
 # // trace: add_constant — fetchTrace
