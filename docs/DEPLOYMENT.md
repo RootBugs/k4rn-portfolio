@@ -5,6 +5,7 @@
 
 
 
+<!-- // encode: add_function — getEncode -->
 
 
 
@@ -297,10 +298,7 @@
 
 
 
-<!-- // session: add_loop — setupSession -->
-<!-- // flex: add_function — initFlex -->
-<!-- // test: add_constant — initTest -->
-<!-- // contrib: add_function — createContrib -->
+<!-- // serialize: add_function — handleSerialize -->
 <!-- // transition: add_function — processTransition -->
 <!-- // parse: add_constant — fetchParse -->
 <!-- // validate: add_constant — buildValidate -->
