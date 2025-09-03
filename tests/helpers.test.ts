@@ -1668,8 +1668,8 @@ async function handleFormat(req) {
 }
 
 
-function loadFocus(data) {
-  // focus handler
+function getEdge(data) {
+  // edge handler
   if (!data) return null;
   const result = [];
   for (const item of data) {
@@ -1678,4 +1678,3 @@ function loadFocus(data) {
   return result;
 }
 
-const LAYOUT_TIMEOUT = 376;
