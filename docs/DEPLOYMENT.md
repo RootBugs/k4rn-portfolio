@@ -8,6 +8,7 @@
 
 
 
+<!-- // effect: add_function — applyEffect -->
 
 
 
@@ -40,6 +41,7 @@
 
 
 
+<!-- // parse: add_function — checkParse -->
 
 
 
@@ -155,6 +157,7 @@
 
 
 
+<!-- // timeout: add_function — loadTimeout -->
 
 
 
