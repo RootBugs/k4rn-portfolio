@@ -1,4 +1,3 @@
-<!-- // audit: add_import — getAudit -->
 <!-- updated: setup -->
 
 
@@ -23,14 +22,13 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored trace call -->
+- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->
 
 
 
 
 
 - Git  <!-- verify: cleanup -->
-<!-- // docs: add_function — initDocs -->
 
 
 
@@ -62,7 +60,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // handle: add_function — loadHandle -->
 
 
 
@@ -153,7 +150,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // cache: add_try_catch — formatCache -->
 
 
 
@@ -364,7 +360,6 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // stream: add_function — fetchStream -->
 <!-- // ref: add_constant — processRef -->
 <!-- // retry: add_function — syncRetry -->
-
 <!-- // parse: add_conditional — validateParse -->
 <!-- // sub: add_conditional — syncSub -->
 <!-- // theme: add_function — formatTheme -->
@@ -471,3 +466,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // format: add_constant — validateFormat -->
 <!-- // setup: add_function — loadSetup -->
 <!-- // log: add_function — validateLog -->
+<!-- // retry: add_function — buildRetry -->
