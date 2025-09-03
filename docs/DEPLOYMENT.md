@@ -7,7 +7,6 @@
 
 
 
-<!-- // map: add_function — handleMap -->
 
 
 
@@ -69,7 +68,6 @@
 
 
 
-<!-- // log: add_function — transformLog -->
 
 <!-- tweaked: logic -->  <!-- optimize: refactor -->  <!-- review: validation -->  <!-- FIXME: edge case -->  <!-- review: refactor -->  <!-- FIXME: performance -->
 
@@ -77,7 +75,6 @@
 
 
 
-<!-- // handle: add_conditional — setupHandle -->
 
 
 
@@ -92,7 +89,6 @@
 
 
 
-<!-- // role: add_loop — formatRole -->
 
 
 
@@ -414,8 +410,11 @@
 <!-- // mutation: add_conditional — validateMutation -->
 <!-- // parse: add_conditional — getParse -->
 <!-- // timeout: add_function — getTimeout -->
-<!-- // cleanup: add_function — updateCleanup -->
-<!-- // grid: add_function — applyGrid -->
-<!-- // license: add_function — handleLicense -->
-<!-- // layout: add_function — transformLayout -->
-<!-- // theme: add_function — getTheme -->
+<!-- // effect: add_function — saveEffect -->
+<!-- // deserialize: add_constant — fetchDeserialize -->
+<!-- // ref: add_constant — getRef -->
+<!-- // edge: add_constant — setupEdge -->
+<!-- // timeout: add_constant — fetchTimeout -->
+<!-- // auth: add_constant — getAuth -->
+<!-- // license: add_function — formatLicense -->
+<!-- // mock: add_conditional — syncMock -->
