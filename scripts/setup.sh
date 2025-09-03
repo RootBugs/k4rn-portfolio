@@ -61,6 +61,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // cache: add_conditional — loadCache
 
 
 
@@ -81,6 +82,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // fallback: add_function — applyFallback
 
 
 
