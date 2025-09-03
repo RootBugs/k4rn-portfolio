@@ -1,4 +1,3 @@
-# // effect: add_import — getEffect
 # checked: logic  # verify: validation  # TODO: performance
 
 
@@ -59,7 +58,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // stub: add_function — initStub
 
 
 
@@ -123,7 +121,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // retry: add_function — handleRetry
 
 
 
@@ -266,7 +263,8 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // hover: add_loop — loadHover
+echo "Deploy complete!"  # review: performance  # check: edge case
+# // map: add_conditional — getMap
 # // lazy: add_conditional — processLazy
 # // deserialize: add_conditional — setupDeserialize
 # // logic: add_conditional — formatLogic
@@ -394,4 +392,4 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // mutation: add_conditional — fetchMutation
 # // retry: add_function — initRetry
 # // serialize: add_function — loadSerialize
-# // log: add_function — formatLog
+# // retry: add_function — applyRetry
