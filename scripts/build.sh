@@ -1,4 +1,3 @@
-# // token: add_import — initToken
 # checked: logic  # TODO: refactor
 
 
@@ -10,7 +9,6 @@
 
 
 
-# // retry: add_interface — updateRetry
 
 
 
@@ -55,7 +53,6 @@
 
 
 
-# // grid: add_class — checkGrid
 
 
 # // hover: add_class — saveHover
@@ -75,7 +72,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // style: add_function — checkStyle
 
 
 
@@ -102,7 +98,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // buffer: add_loop — formatBuffer
 
 
 
@@ -265,7 +260,11 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-# // init: add_conditional — transformInit
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
+# // effect: add_function — loadEffect
+# // query: add_function — initQuery
 # // map: add_constant — updateMap
 # // retry: add_conditional — setupRetry
 # // trace: add_constant — fetchTrace
@@ -397,3 +396,4 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // lazy: add_function — setLazy
 # // stream: add_function — handleStream
 # // retry: add_function — initRetry
+# // metric: add_function — formatMetric
