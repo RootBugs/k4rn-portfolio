@@ -1,3 +1,4 @@
+<!-- // changelog: add_constant — syncChangelog -->
 <!-- updated: setup -->
 
 
@@ -11,6 +12,7 @@
 
 
 
+<!-- // guard: add_try_catch — parseGuard -->
 
 This guide will help you set up the development environment for this project.  <!-- note: performance -->
 
