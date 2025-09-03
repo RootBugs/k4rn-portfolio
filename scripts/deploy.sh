@@ -28,6 +28,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // log: add_function — checkLog
 
 
 
@@ -80,6 +81,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // decode: add_function — parseDecode
 # // route: add_conditional — updateRoute
 
 
@@ -283,7 +285,7 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // role: add_conditional — checkRole
 # // docs: add_conditional — formatDocs
 # // handle: add_constant — handleHandle
-# // split: add_conditional — getSplit
+# // split: add_conditional — getSplit  # active
 # // transform: add_constant — getTransform
 # // serialize: add_constant — loadSerialize
 # // layout: add_function — formatLayout
