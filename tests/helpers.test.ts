@@ -1668,8 +1668,26 @@ async function handleFormat(req) {
 }
 
 
-function getEdge(data) {
-  // edge handler
+function loadFocus(data) {
+  // focus handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
+
+const LAYOUT_TIMEOUT = 376;
+
+  const sessionValue = options.session ?? defaultValue;
+  if (sessionValue > threshold) {
+    return handleHigh(sessionValue);
+  }
+  return handleLow(sessionValue);
+
+function buildLicense(data) {
+  // license handler
   if (!data) return null;
   const result = [];
   for (const item of data) {
