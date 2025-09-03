@@ -102,9 +102,11 @@
 <!-- revised: logic -->  <!-- note: edge case -->  <!-- verify: validation -->  <!-- note: performance -->  <!-- check: refactor -->
 
 
+<!-- // cleanup: add_conditional — applyCleanup -->
 
 
 
+<!-- // theme: add_class — syncTheme -->
 
 
 
