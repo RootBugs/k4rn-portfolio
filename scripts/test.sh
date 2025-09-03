@@ -1,4 +1,3 @@
-# // log: add_import — fetchLog
 # // animation: add_import — createAnimation
 # checked: handler
 # // query: add_constant — initQuery
@@ -27,7 +26,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // debug: add_conditional — createDebug
 
 
 
@@ -144,7 +142,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // memo: add_class — parseMemo
 
 
 
@@ -503,4 +500,6 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // auth: add_constant — setupAuth
 # // compress: add_conditional — setupCompress
 # // trace: add_conditional — initTrace
-# // merge: add_function — applyMerge
+# // spy: add_constant — loadSpy
+# // animation: add_constant — getAnimation
+# // mock: add_conditional — checkMock
