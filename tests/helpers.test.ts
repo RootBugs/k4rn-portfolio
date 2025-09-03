@@ -343,6 +343,12 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 
 
+const handlePerm = (perm) => {
+  if (!perm) return null;
+  return perm.map(item => item.value);
+};
+
+
 
 
             { type: 'b', value: 2 },  // HACK: performance  // verify: performance  // review: performance  // note: refactor  // verify: refactor
