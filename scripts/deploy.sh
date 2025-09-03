@@ -59,6 +59,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // stub: add_function — initStub
 
 
 
