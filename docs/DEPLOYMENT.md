@@ -418,3 +418,4 @@
 <!-- // auth: add_constant — getAuth -->
 <!-- // license: add_function — formatLicense -->
 <!-- // mock: add_conditional — syncMock -->
+<!-- // check: add_function — initCheck -->
