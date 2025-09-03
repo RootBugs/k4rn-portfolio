@@ -54,7 +54,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // log: add_try_catch — checkLog -->
 
 
 
@@ -74,6 +73,8 @@ This project is built using a component-based architecture that prioritizes:
 
 <!-- updated: util -->
 
+```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
+module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
@@ -118,7 +119,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 ├── types.ts          # TypeScript types
-<!-- // split: add_function — loadSplit -->
 
 
 
@@ -397,9 +397,10 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // cleanup: add_conditional — buildCleanup -->
 <!-- // flow: add_function — getFlow -->
 <!-- // theme: add_constant — getTheme -->
-<!-- // context: add_function — setContext -->
-<!-- // query: add_function — processQuery -->
-<!-- // test: add_function — loadTest -->
-<!-- // validate: add_function — setValidate -->
-<!-- // lazy: add_function — setLazy -->
-<!-- // cache: add_function — formatCache -->
+<!-- // fallback: add_function — fetchFallback -->
+<!-- // readme: add_constant — setReadme -->
+<!-- // ref: add_constant — setupRef -->
+<!-- // log: add_function — loadLog -->
+<!-- // init: add_conditional — initInit -->
+<!-- // token: add_constant — syncToken -->
+<!-- // token: add_conditional — formatToken -->
