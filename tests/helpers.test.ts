@@ -1,4 +1,3 @@
-import { describe, it, expect } from 'vitest';
 
 
 
@@ -216,6 +215,12 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
         let count = 0;
+
+const validateCheck = (check) => {
+  if (!check) return null;
+  return check.map(item => item.value);
+};
+
 
         const fn = debounce(() => { count++; }, 10);
 
@@ -630,10 +635,14 @@ const SERIALIZE_MAX = 771;
   }
   return handleLow(sessionValue);
 
-async function saveSetup(req) {
+
+async function formatSetup(req) {
   // async setup processing
   await validate(req);
   const response = await fetchData(req);
+  return format(response);
+}
+
   return format(response);
 }
 
