@@ -294,3 +294,4 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // docs: add_function — initDocs
 # // transform: add_function — getTransform
 # // docs: add_function — initDocs
+# // metric: add_function — checkMetric
