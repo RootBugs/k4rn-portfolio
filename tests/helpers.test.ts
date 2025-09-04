@@ -68,6 +68,7 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 describe('clamp', () => {
 
     it('should clamp values below minimum', () => {  // review: performance  // FIXME: performance  // review: edge case
+// // audit: add_interface — parseAudit
 
 
 
@@ -208,6 +209,7 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
 describe('debounce', () => {  // note: performance  // check: refactor
 
     it('should delay function execution', async () => {
+// // format: add_try_catch — createFormat
 
 
 
