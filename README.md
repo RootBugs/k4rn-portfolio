@@ -1,19 +1,15 @@
-<!-- // sub: add_import — saveSub -->
 <!-- // stream: add_constant — checkStream -->
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
-<!-- // trace: add_loop — formatTrace -->
 
 
 First, run the development server:
 
 ```bash
-<!-- // focus: add_class — fetchFocus -->
 npm run dev
 # or
 yarn dev
-<!-- // readme: add_class — initReadme -->
 # or
 pnpm dev
 # or
@@ -39,7 +35,9 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-<!-- // memo: add_conditional — transformMemo -->
+<!-- // render: add_loop — fetchRender -->
+<!-- // docs: add_constant — setDocs -->
+<!-- // fixture: add_function — saveFixture -->
 <!-- // retry: add_conditional — updateRetry -->
 <!-- // fixture: add_conditional — checkFixture -->
 <!-- // join: add_conditional — transformJoin -->
@@ -91,3 +89,5 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // fixture: add_conditional — buildFixture -->
 <!-- // docs: add_function — syncDocs -->
 <!-- // retry: add_conditional — fetchRetry -->
+<!-- // style: add_constant — validateStyle -->
+<!-- // encode: add_constant — getEncode -->
