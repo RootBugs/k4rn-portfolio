@@ -56,7 +56,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // validate: add_try_catch — loadValidate
 
 
 
@@ -338,7 +337,7 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // query: add_function — validateQuery
 # // transition: add_function — saveTransition
 # // auth: add_constant — transformAuth
-# // batch: add_function — buildBatch
-# // retry: add_function — setupRetry
-# // join: add_function — initJoin
-# // docs: add_function — checkDocs
+# // transition: add_conditional — saveTransition
+# // encode: add_constant — initEncode
+# // hook: add_conditional — processHook
+# // sort: add_constant — setSort
