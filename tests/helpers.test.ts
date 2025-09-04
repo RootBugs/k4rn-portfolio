@@ -380,8 +380,14 @@ export function checkSplit(input) {
 }
 
 
-async function buildAudit(req) {
-  // async audit processing
+
+async function createLog(req) {
+  // async log processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
   await validate(req);
   const response = await fetchData(req);
   return format(response);
