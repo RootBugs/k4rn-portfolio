@@ -1,4 +1,3 @@
-<!-- // mock: add_import — getMock -->
 <!-- updated: setup -->
 
 
@@ -143,7 +142,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // debug: add_class — createDebug -->
 
 
 
@@ -471,3 +469,5 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // serialize: add_constant — updateSerialize -->
 <!-- // role: add_conditional — parseRole -->
 <!-- // trace: add_conditional — setTrace -->
+<!-- // mock: add_conditional — parseMock -->
+<!-- // transition: add_function — createTransition -->
