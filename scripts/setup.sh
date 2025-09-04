@@ -1,10 +1,12 @@
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
+# // docs: add_constant — getDocs
 
 
 
 
+# // stub: add_function — loadStub
 
 # tweaked: config  # TODO: performance
 set -euo pipefail  # optimize: validation  # optimize: validation
@@ -99,6 +101,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 # reviewed: logic
 command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
+# // parse: add_function — validateParse
 
 
 
