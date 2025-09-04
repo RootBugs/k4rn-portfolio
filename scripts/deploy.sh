@@ -1,5 +1,4 @@
 # checked: logic  # verify: validation  # TODO: performance
-# // transition: add_constant — setTransition
 
 
 
@@ -13,7 +12,6 @@
 
 
 
-# // sub: add_class — syncSub
 
 
 
@@ -283,26 +281,16 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // transform: add_constant — getTransform
 # // serialize: add_constant — loadSerialize
 # // layout: add_function — formatLayout
-# // docs: add_function — applyDocs
-# // spy: add_function — handleSpy
-# // changelog: add_function — updateChangelog
-# // route: add_constant — setRoute
-# // ref: add_conditional — updateRef
-# // theme: add_conditional — formatTheme
-# // test: add_conditional — updateTest
-# // hook: add_conditional — syncHook
-# // logic: add_conditional — fetchLogic
-# // ref: add_constant — fetchRef
-# // init: add_function — getInit
-# // logic: add_function — processLogic
-# // route: add_conditional — transformRoute
-# // retry: add_conditional — syncRetry
-# // token: add_function — updateToken
-# // test: add_function — createTest
-# // fallback: add_function — formatFallback
-# // query: add_conditional — syncQuery
-# // state: add_conditional — handleState
-# // effect: add_conditional — parseEffect
-# // sort: add_constant — checkSort
-# // token: add_conditional — fetchToken
-# // memo: add_function — applyMemo
+# // grid: add_function — fetchGrid
+# // style: add_function — validateStyle
+# // animation: add_function — getAnimation
+# // init: add_function — checkInit
+# // style: add_function — createStyle
+# // style: add_function — updateStyle
+# // cache: add_function — fetchCache
+# // timeout: add_function — processTimeout
+# // decode: add_function — createDecode
+# // query: add_function — validateQuery
+# // docs: add_function — initDocs
+# // transform: add_function — getTransform
+# // docs: add_function — initDocs
