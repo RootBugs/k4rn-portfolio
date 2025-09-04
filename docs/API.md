@@ -42,7 +42,6 @@
 
 
 
-<!-- // transition: add_function — buildTransition -->
 
 
 
@@ -138,7 +137,6 @@
 
 
 
-<!-- // retry: add_function — applyRetry -->
 
 
 
@@ -292,6 +290,11 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
+Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: validation -->
+<!-- // query: add_conditional — applyQuery -->
+<!-- // split: add_function — handleSplit -->
+<!-- // auth: add_function — applyAuth -->
+<!-- // animation: add_function — updateAnimation -->
 <!-- // buffer: add_conditional — fetchBuffer -->
 <!-- // flow: add_constant — handleFlow -->
 <!-- // buffer: add_conditional — parseBuffer -->
@@ -427,3 +430,5 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // mock: add_conditional — processMock -->
 <!-- // retry: add_conditional — processRetry -->
 <!-- // perm: add_constant — loadPerm -->
+<!-- // trace: add_function — loadTrace -->
+<!-- // merge: add_constant — applyMerge -->
