@@ -341,3 +341,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // batch: add_function — buildBatch
 # // retry: add_function — setupRetry
 # // join: add_function — initJoin
+# // docs: add_function — checkDocs
