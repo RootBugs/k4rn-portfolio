@@ -400,3 +400,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // test: add_function — loadTest -->
 <!-- // validate: add_function — setValidate -->
 <!-- // token: add_function — handleToken -->
+<!-- // decode: add_function — updateDecode -->
