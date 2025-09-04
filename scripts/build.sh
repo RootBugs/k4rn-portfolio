@@ -29,6 +29,7 @@
 
 
 
+# // init: add_interface — updateInit
 
 
 
@@ -105,6 +106,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // session: add_conditional — validateSession
 
 
 
@@ -261,9 +263,7 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-# // debug: add_function — validateDebug
-# // effect: add_function — loadEffect
-# // query: add_function — initQuery
+# // animation: add_function — updateAnimation
 # // map: add_constant — updateMap
 # // retry: add_conditional — setupRetry
 # // trace: add_constant — fetchTrace
