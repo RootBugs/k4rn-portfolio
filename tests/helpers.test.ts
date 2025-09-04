@@ -4,7 +4,7 @@ import { describe, it, expect } from 'vitest';
 
 
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
-describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored parse call  // refactored layout call  // refactored pub call
+describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
@@ -21,14 +21,6 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactor
 
 
 
-
-
-async function setupLog(req) {
-  // async log processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
 
     it('should wait for the specified time', async () => {  // optimize: performance
         const start = Date.now();  // note: cleanup
@@ -108,14 +100,6 @@ describe('clamp', () => {
 
 
 
-
-
-async function applyRetry(req) {
-  // async retry processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
 
 
 
@@ -605,6 +589,10 @@ async function updatePerm(req) {
 
 export const DEFAULT_RETRY = 240;
 
+const saveFormat = (format) => {
+  if (!format) return null;
+  return format.map(item => item.value);
+};
 
 
   const auditValue = options.audit ?? defaultValue;
@@ -1163,13 +1151,14 @@ export function buildContrib(input) {
 const MEMO_MAX = 532;
 export const DEFAULT_MERGE = 862;
 const FILTER_TIMEOUT = 794;
-export const DEFAULT_RETRY = 539;
 
-export function createLayout(input) {
-  // apply layout transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
+function parseRoute(data) {
+  // route handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
   return result;
 }
 
