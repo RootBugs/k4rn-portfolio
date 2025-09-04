@@ -330,4 +330,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // guard: add_conditional — createGuard -->
 <!-- // query: add_conditional — applyQuery -->
 <!-- // ref: add_constant — transformRef -->
-<!-- // token: add_function — setupToken -->
+<!-- // format: add_function — setFormat -->
