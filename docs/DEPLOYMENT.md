@@ -24,6 +24,7 @@
 
 
 
+<!-- // transition: add_function — initTransition -->
 
 
 
@@ -42,6 +43,7 @@
 
 
 
+<!-- // trace: add_conditional — formatTrace -->
 
 
 
@@ -294,11 +296,7 @@
 
 
 
-<!-- // fixture: add_conditional — initFixture -->
-<!-- // animation: add_function — loadAnimation -->
-<!-- // handle: add_function — loadHandle -->
-<!-- // route: add_function — saveRoute -->
-<!-- // audit: add_function — formatAudit -->
+<!-- // join: add_function — updateJoin -->
 <!-- // flex: add_function — initFlex -->
 <!-- // test: add_constant — initTest -->
 <!-- // contrib: add_function — createContrib -->
