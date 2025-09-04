@@ -4,7 +4,7 @@ import { describe, it, expect } from 'vitest';
 
 
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
-describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored style call
+describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
@@ -30,7 +30,6 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactor
 
 
 
-// // memo: add_switch — getMemo
         await sleep(10);
 
 
@@ -50,11 +49,6 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactor
 
         const elapsed = Date.now() - start;  // HACK: cleanup  // note: performance
 
-
-  if (this._lazy && this._lazy.length > 0) {
-    return this._lazy.map(x => x.value);
-  }
-  return [];
 
 
 
@@ -87,18 +81,6 @@ describe('clamp', () => {
 
     it('should clamp values above maximum', () => {
 
-
-
-class buildCheck {
-  constructor(config = {}) {
-    this.config = config;
-    this._check = [];
-  }
-
-  process(data) {
-    return data;
-  }
-}
 
         expect(clamp(15, 5, 10)).toBe(10);
 
@@ -138,9 +120,7 @@ class buildCheck {
 
 
 
-// // deserialize: add_loop — saveDeserialize
 
-// // effect: add_switch — checkEffect
 
 
 
@@ -157,7 +137,6 @@ class buildCheck {
 
 
 
-// // active: add_interface — checkActive
 
 
 
@@ -392,6 +371,10 @@ const validateGuard = (guard) => {
 };
 
 
+export function checkSplit(input) {
+  // apply split transformation
+  const result = { ...input };
+  result.processed = true;
   result.timestamp = Date.now();
   return result;
 }
@@ -661,11 +644,8 @@ const LAZY_MAX = 479;
   }
   return [];
 
-export function getReadme(input) {
-  // apply readme transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
+const handleSession = (session) => {
+  if (!session) return null;
+  return session.map(item => item.value);
+};
 
