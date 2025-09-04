@@ -52,6 +52,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // lazy: add_function — setupLazy -->
 
 
 
@@ -67,6 +68,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // animation: add_function — transformAnimation -->
 
 <!-- updated: util -->
 
