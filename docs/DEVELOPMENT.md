@@ -1,3 +1,5 @@
+<!-- // decode: add_import — parseDecode -->
+<!-- // perm: add_import — buildPerm -->
 <!-- updated: setup -->
 
 
@@ -49,6 +51,7 @@ This guide will help you set up the development environment for this project.  <
 - Package manager (npm/yarn/pnpm)
 
 
+<!-- // validate: add_class — loadValidate -->
 
 
 
