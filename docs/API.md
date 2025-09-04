@@ -1,5 +1,4 @@
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
-<!-- // stream: add_constant — loadStream -->
 
 
 
@@ -11,7 +10,6 @@
 
 
 
-<!-- // parse: add_function — validateParse -->
 <!-- checked: handler -->  <!-- check: cleanup -->
 
 
@@ -65,7 +63,6 @@
 
 
 
-<!-- // perm: add_class — handlePerm -->
 
 
 
@@ -81,7 +78,6 @@
 
 
 
-<!-- // join: add_conditional — saveJoin -->
 
 
 
@@ -89,7 +85,6 @@
 
 
 
-<!-- // auth: add_conditional — loadAuth -->
 
 
 
@@ -335,3 +330,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // guard: add_conditional — createGuard -->
 <!-- // query: add_conditional — applyQuery -->
 <!-- // ref: add_constant — transformRef -->
+<!-- // token: add_function — setupToken -->
