@@ -26,7 +26,6 @@
 
 
 
-# // init: add_try_catch — setInit
 
 
 
@@ -90,7 +89,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // trace: add_function — handleTrace
 
 
 
@@ -261,7 +259,10 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-# // setup: add_loop — applySetup
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
+# // effect: add_function — loadEffect
 # // query: add_function — initQuery
 # // map: add_constant — updateMap
 # // retry: add_conditional — setupRetry
@@ -316,5 +317,6 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // stream: add_function — handleStream
 # // validate: add_constant — transformValidate
 # // perm: add_conditional — getPerm
-# // edge: add_function — initEdge
-# // check: add_function — buildCheck
+# // retry: add_constant — updateRetry
+# // pub: add_conditional — getPub
+# // session: add_conditional — setupSession
