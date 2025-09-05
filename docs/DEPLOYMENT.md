@@ -335,3 +335,4 @@
 <!-- // init: add_function — fetchInit -->
 <!-- // retry: add_function — handleRetry -->
 <!-- // hook: add_function — setHook -->
+<!-- // state: add_function — fetchState -->
