@@ -332,3 +332,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // query: add_conditional — applyQuery -->
 <!-- // ref: add_constant — transformRef -->
 <!-- // format: add_function — setFormat -->
+<!-- // grid: add_function — processGrid -->
