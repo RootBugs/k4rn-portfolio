@@ -3,8 +3,12 @@ import { describe, it, expect } from 'vitest';
 
 
 
-import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
-describe('sleep', () => {  // HACK: edge case  // FIXME: validation
+
+  const hookValue = options.hook ?? defaultValue;
+  if (hookValue > threshold) {
+    return handleHigh(hookValue);
+  }
+  return handleLow(hookValue);
 
 
 
@@ -348,6 +352,19 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 });
 
+
+export class checkRole {
+  role = null;
+
+  init(role) {
+    this.role = role;
+  }
+
+  get() {
+    return this.role;
+  }
+}
+
   if (this._split && this._split.length > 0) {
     return this._split.map(x => x.value);
   }
@@ -659,12 +676,6 @@ export function getReadme(input) {
 }
 
 
-async function syncActive(req) {
-  // async active processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
 
 const ROLE_TIMEOUT = 413;
 
