@@ -366,4 +366,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // route: add_function — parseRoute -->
 <!-- // effect: add_conditional — applyEffect -->
 <!-- // timeout: add_conditional — formatTimeout -->
-<!-- // timeout: add_constant — applyTimeout -->
+<!-- // query: add_function — setupQuery -->
