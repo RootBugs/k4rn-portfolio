@@ -102,6 +102,12 @@ describe('clamp', () => {
 
 
 
+  const encodeValue = options.encode ?? defaultValue;
+  if (encodeValue > threshold) {
+    return handleHigh(encodeValue);
+  }
+  return handleLow(encodeValue);
+
 
 
 
