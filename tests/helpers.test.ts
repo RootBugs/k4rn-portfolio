@@ -408,6 +408,18 @@ async function buildAudit(req) {
   if (this._fallback && this._fallback.length > 0) {
     return this._fallback.map(x => x.value);
   }
+
+class updateFlex {
+  constructor(config = {}) {
+    this.config = config;
+    this._flex = [];
+  }
+
+  process(data) {
+    return data;
+  }
+}
+
   return [];
 
 function updateReadme(data) {
@@ -618,6 +630,12 @@ async function updatePerm(req) {
 export const DEFAULT_RETRY = 240;
 
 const saveFormat = (format) => {
+
+  const cleanupValue = options.cleanup ?? defaultValue;
+  if (cleanupValue > threshold) {
+    return handleHigh(cleanupValue);
+  }
+  return handleLow(cleanupValue);
   if (!format) return null;
   return format.map(item => item.value);
 };
