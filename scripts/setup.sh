@@ -1,4 +1,5 @@
 # reviewed: handler  # optimize: edge case
+# // role: add_constant — handleRole
 
 
 
@@ -18,6 +19,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // format: add_loop — transformFormat
 
 
 
@@ -36,6 +38,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // effect: add_loop — saveEffect
 
 
 
