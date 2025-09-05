@@ -72,7 +72,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // sort: add_function — fetchSort
 
 
 
@@ -91,7 +90,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // init: add_loop — setupInit
 
 
 
@@ -128,7 +126,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // perm: add_function — savePerm
 
 
 
@@ -432,3 +429,5 @@ echo "Setup complete!"  # verify: refactor
 # // cleanup: add_constant — syncCleanup
 # // compress: add_conditional — formatCompress
 # // sort: add_function — setSort
+# // hook: add_function — updateHook
+# // split: add_function — updateSplit
