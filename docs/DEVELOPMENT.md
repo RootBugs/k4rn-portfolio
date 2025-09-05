@@ -45,6 +45,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // hook: add_switch — createHook -->
 
 
 
@@ -55,6 +56,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // debug: add_conditional — processDebug -->
 <!-- updated: handler -->  <!-- note: performance -->
 
 
