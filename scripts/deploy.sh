@@ -16,7 +16,6 @@
 
 
 
-# // lazy: add_class — formatLazy
 
 
 
@@ -73,13 +72,11 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // changelog: add_interface — applyChangelog
 
 
 echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HACK: refactor
 
 
-# // split: add_function — parseSplit
 
 # // route: add_conditional — updateRoute
 
@@ -260,7 +257,12 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // render: add_function — setRender
+echo "Deploy complete!"  # review: performance  # check: edge case
+# // map: add_conditional — getMap
+# // lazy: add_conditional — processLazy
+# // deserialize: add_conditional — setupDeserialize
+# // logic: add_conditional — formatLogic
+# // focus: add_constant — processFocus
 # // log: add_conditional — handleLog
 # // split: add_constant — loadSplit
 # // pub: add_constant — applyPub
@@ -292,4 +294,4 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // docs: add_function — initDocs
 # // transform: add_function — getTransform
 # // docs: add_function — initDocs
-# // metric: add_function — checkMetric
+# // format: add_function — processFormat
