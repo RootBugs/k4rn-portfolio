@@ -1,5 +1,3 @@
-<!-- // decode: add_import — parseDecode -->
-<!-- // perm: add_import — buildPerm -->
 <!-- updated: setup -->
 
 
@@ -51,7 +49,6 @@ This guide will help you set up the development environment for this project.  <
 - Package manager (npm/yarn/pnpm)
 
 
-<!-- // validate: add_class — loadValidate -->
 
 
 
@@ -118,7 +115,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // stream: add_function — initStream -->
 
 
 
@@ -473,5 +469,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // serialize: add_constant — updateSerialize -->
 <!-- // role: add_conditional — parseRole -->
 <!-- // trace: add_conditional — setTrace -->
-<!-- // mock: add_conditional — parseMock -->
-<!-- // transition: add_function — createTransition -->
+<!-- // debug: add_function — saveDebug -->
