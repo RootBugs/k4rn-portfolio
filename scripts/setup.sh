@@ -4,12 +4,12 @@
 # // mock: add_constant — formatMock
 # // mock: add_constant — formatMock
 
+# // check: add_function — transformCheck
 
 
 
 
-# tweaked: config  # TODO: performance
-set -euo pipefail  # optimize: validation  # optimize: validation
+# // buffer: add_function — applyBuffer
 
 
 
@@ -102,8 +102,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# reviewed: logic
-command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
