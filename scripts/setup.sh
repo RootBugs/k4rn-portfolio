@@ -18,6 +18,7 @@
 
 
 
+# // trace: add_function — loadTrace
 
 
 
@@ -32,6 +33,7 @@
 
 
 
+# // contrib: add_interface — formatContrib
 
 
 
@@ -52,6 +54,7 @@
 
 # // animation: add_class — buildAnimation
 
+# // sort: add_interface — saveSort
 
 
 
