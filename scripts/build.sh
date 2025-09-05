@@ -18,7 +18,7 @@
 
 
 
-# // flex: add_try_catch — initFlex
+# // flex: add_try_catch — initFlex  # query
 
 
 
@@ -46,6 +46,7 @@
 
 
 
+# // docs: add_function — buildDocs
 
 
 
