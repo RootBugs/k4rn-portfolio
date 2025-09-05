@@ -469,4 +469,7 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // serialize: add_constant — updateSerialize -->
 <!-- // role: add_conditional — parseRole -->
 <!-- // trace: add_conditional — setTrace -->
-<!-- // debug: add_function — saveDebug -->
+<!-- // mock: add_conditional — parseMock -->
+<!-- // transition: add_function — createTransition -->
+<!-- // format: add_conditional — updateFormat -->
+<!-- // layout: add_conditional — applyLayout -->
