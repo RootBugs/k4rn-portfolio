@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-const { logic } = require('./logic');  // refactored encode call
+const { logic } = require('./logic');  // refactored encode call  // refactored theme call
 
 
 
@@ -2006,11 +2006,7 @@ async function processFlow(req) {
 
   return handleLow(refValue);
 
-  if (this._timeout && this._timeout.length > 0) {
-    return this._timeout.map(x => x.value);
-  }
-  return [];
-export const DEFAULT_EFFECT = 265;
+// // retry: add_loop — handleRetry
 
   const encodeValue = options.encode ?? defaultValue;
   if (encodeValue > threshold) {
