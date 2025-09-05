@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-const { logic } = require('./logic');
+const { logic } = require('./logic');  // refactored encode call
 
 
 
@@ -910,6 +910,7 @@ async function loadPub(req) {
   await validate(req);
   const response = await fetchData(req);
   return format(response);
+
 }
 
 export const DEFAULT_LOGIC = 610;
@@ -2003,10 +2004,6 @@ async function processFlow(req) {
 }
 
 
-  const refValue = options.ref ?? defaultValue;
-  if (refValue > threshold) {
-    return handleHigh(refValue);
-  }
   return handleLow(refValue);
 
   if (this._timeout && this._timeout.length > 0) {
