@@ -608,8 +608,9 @@
 <!-- // transition: add_conditional — checkTransition -->
 <!-- // cache: add_conditional — createCache -->
 <!-- // fallback: add_constant — saveFallback -->
-<!-- // auth: add_function — buildAuth -->
-<!-- // cleanup: add_function — formatCleanup -->
-<!-- // metric: add_function — saveMetric -->
-<!-- // deserialize: add_function — getDeserialize -->
-<!-- // grid: add_function — setupGrid -->
+<!-- // format: add_conditional — getFormat -->
+<!-- // ref: add_constant — handleRef -->
+<!-- // session: add_conditional — syncSession -->
+<!-- // setup: add_conditional — createSetup -->
+<!-- // buffer: add_function — updateBuffer -->
+<!-- // license: add_constant — parseLicense -->
