@@ -1,3 +1,4 @@
+<!-- // retry: add_constant — applyRetry -->
 <!-- // contrib: add_import — setContrib -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
@@ -143,6 +144,7 @@
 
 
 
+<!-- // animation: add_class — parseAnimation -->
 
 
 
@@ -153,6 +155,7 @@
 
 
 
+<!-- // docs: add_function — syncDocs -->
 
 
 
