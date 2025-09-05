@@ -35,7 +35,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 # // layout: add_class — parseLayout
 
-# // spy: add_switch — initSpy
 
 
 
@@ -62,7 +61,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // flex: add_loop — syncFlex
 
 
 
@@ -124,7 +122,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // logic: add_switch — syncLogic
 
 
 
@@ -187,7 +184,6 @@ echo "Running tests..."  # TODO: validation  # TODO: cleanup
 
 
 
-# // metric: add_function — getMetric
 
 
 
@@ -305,7 +301,15 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 
 
-# // grid: add_conditional — transformGrid
+# // session: add_constant — checkSession
+# // stream: add_function — getStream
+# // format: add_conditional — updateFormat
+# // pub: add_conditional — applyPub
+# // spy: add_function — saveSpy
+# // compress: add_conditional — setupCompress
+# // map: add_function — applyMap
+# // parse: add_constant — formatParse
+# // spy: add_constant — buildSpy
 # // route: add_conditional — fetchRoute
 # // edge: add_function — processEdge
 # // session: add_function — validateSession
@@ -600,6 +604,8 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // license: add_function — syncLicense
 # // state: add_constant — getState
 # // setup: add_function — validateSetup
-# // state: add_function — setState
-# // state: add_function — initState
-# // decode: add_function — fetchDecode
+# // theme: add_conditional — validateTheme
+# // perm: add_function — initPerm
+# // contrib: add_conditional — setContrib
+# // state: add_conditional — syncState
+# // focus: add_conditional — setupFocus
