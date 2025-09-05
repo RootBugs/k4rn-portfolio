@@ -1,4 +1,3 @@
-<!-- // setup: add_constant — setupSetup -->
 <!-- updated: setup -->
 
 
@@ -15,7 +14,6 @@
 
 This guide will help you set up the development environment for this project.  <!-- note: performance -->
 
-<!-- // check: add_function — updateCheck -->
 
 
 
@@ -45,7 +43,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // hook: add_switch — createHook -->
 
 
 
@@ -56,12 +53,10 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // debug: add_conditional — processDebug -->
 <!-- updated: handler -->  <!-- note: performance -->
 
 
 
-<!-- // pub: add_interface — validatePub -->
 
 
 
@@ -121,7 +116,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // hook: add_function — setHook -->
 
 
 
@@ -307,7 +301,10 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // readme: add_function — setupReadme -->
+<!-- // sub: add_function — processSub -->
+<!-- // transition: add_constant — applyTransition -->
+<!-- // audit: add_conditional — saveAudit -->
+<!-- // session: add_constant — parseSession -->
 <!-- // stub: add_conditional — applyStub -->
 <!-- // layout: add_constant — saveLayout -->
 <!-- // audit: add_constant — setAudit -->
@@ -369,3 +366,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // route: add_function — parseRoute -->
 <!-- // effect: add_conditional — applyEffect -->
 <!-- // timeout: add_conditional — formatTimeout -->
+<!-- // timeout: add_constant — applyTimeout -->
