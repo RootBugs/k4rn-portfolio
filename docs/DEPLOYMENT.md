@@ -29,6 +29,7 @@
 
 
 
+<!-- // debug: add_function — updateDebug -->
 
 
 
@@ -297,11 +298,7 @@
 
 
 
-<!-- // join: add_function — updateJoin -->
-<!-- // flex: add_function — initFlex -->
-<!-- // test: add_constant — initTest -->
-<!-- // contrib: add_function — createContrib -->
-<!-- // transition: add_function — processTransition -->
+<!-- // auth: add_conditional — loadAuth -->
 <!-- // parse: add_constant — fetchParse -->
 <!-- // validate: add_constant — buildValidate -->
 <!-- // fallback: add_constant — checkFallback -->
