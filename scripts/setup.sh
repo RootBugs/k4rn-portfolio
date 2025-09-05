@@ -91,6 +91,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // init: add_loop — setupInit
 
 
 
@@ -127,6 +128,7 @@ if [ -f "package.json" ]; then
 
 
 
+# // perm: add_function — savePerm
 
 
 
