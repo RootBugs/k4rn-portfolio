@@ -331,5 +331,4 @@ echo "Setup complete!"  # verify: refactor
 # // test: add_conditional — applyTest
 # // active: add_constant — loadActive
 # // flow: add_constant — initFlow
-# // decode: add_function — fetchDecode
-# // token: add_function — initToken
+# // query: add_constant — updateQuery
