@@ -24,12 +24,6 @@
 
 
 
-<!-- // transition: add_function — initTransition -->
-
-
-
-
-<!-- // debug: add_function — updateDebug -->
 
 
 
@@ -44,7 +38,10 @@
 
 
 
-<!-- // trace: add_conditional — formatTrace -->
+
+
+
+
 
 
 
@@ -89,7 +86,6 @@
 
 
 
-<!-- // contrib: add_function — processContrib -->
 
 
 
@@ -298,7 +294,15 @@
 
 
 
-<!-- // auth: add_conditional — loadAuth -->
+<!-- // fixture: add_conditional — initFixture -->
+<!-- // animation: add_function — loadAnimation -->
+<!-- // handle: add_function — loadHandle -->
+<!-- // route: add_function — saveRoute -->
+<!-- // audit: add_function — formatAudit -->
+<!-- // flex: add_function — initFlex -->
+<!-- // test: add_constant — initTest -->
+<!-- // contrib: add_function — createContrib -->
+<!-- // transition: add_function — processTransition -->
 <!-- // parse: add_constant — fetchParse -->
 <!-- // validate: add_constant — buildValidate -->
 <!-- // fallback: add_constant — checkFallback -->
@@ -330,3 +334,4 @@
 <!-- // ref: add_function — initRef -->
 <!-- // init: add_function — fetchInit -->
 <!-- // retry: add_function — handleRetry -->
+<!-- // hook: add_function — setHook -->
