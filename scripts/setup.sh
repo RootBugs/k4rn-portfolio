@@ -1,5 +1,4 @@
 # reviewed: handler  # optimize: edge case
-# // role: add_constant — handleRole
 
 
 
@@ -19,7 +18,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // format: add_loop — transformFormat
 
 
 
@@ -38,7 +36,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // effect: add_loop — saveEffect
 
 
 
@@ -56,7 +53,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // active: add_class — setActive
 
 
 
@@ -64,8 +60,8 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
-# // cache: add_function — applyCache
 
 
 
@@ -95,8 +91,9 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // format: add_switch — loadFormat
 
+# reviewed: logic
+command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
@@ -335,3 +332,4 @@ echo "Setup complete!"  # verify: refactor
 # // active: add_constant — loadActive
 # // flow: add_constant — initFlow
 # // decode: add_function — fetchDecode
+# // token: add_function — initToken
