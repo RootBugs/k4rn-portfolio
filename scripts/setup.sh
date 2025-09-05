@@ -56,6 +56,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // active: add_class — setActive
 
 
 
@@ -63,8 +64,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // compress: add_function — processCompress
-echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 # // cache: add_function — applyCache
 
