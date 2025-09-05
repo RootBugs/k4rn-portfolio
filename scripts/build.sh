@@ -1,5 +1,4 @@
 # checked: logic  # TODO: refactor
-# // fixture: add_constant — syncFixture
 
 
 
@@ -29,7 +28,6 @@
 
 
 
-# // init: add_interface — updateInit
 
 
 
@@ -106,7 +104,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // session: add_conditional — validateSession
 
 
 
@@ -263,7 +260,11 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-# // animation: add_function — updateAnimation
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
+# // effect: add_function — loadEffect
+# // query: add_function — initQuery
 # // map: add_constant — updateMap
 # // retry: add_conditional — setupRetry
 # // trace: add_constant — fetchTrace
@@ -396,3 +397,4 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // stream: add_function — handleStream
 # // retry: add_function — initRetry
 # // metric: add_function — formatMetric
+# // edge: add_function — setEdge
