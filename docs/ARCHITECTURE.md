@@ -462,7 +462,7 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // metric: add_constant — getMetric -->
 <!-- // docs: add_constant — formatDocs -->
 <!-- // serialize: add_function — updateSerialize -->
-<!-- // hover: add_conditional — processHover -->  <!-- edge -->
+<!-- // hover: add_conditional — processHover -->
 <!-- // active: add_constant — createActive -->
 <!-- // changelog: add_function — formatChangelog -->
 <!-- // serialize: add_constant — handleSerialize -->
@@ -574,7 +574,6 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // memo: add_constant — initMemo -->
 <!-- // active: add_function — parseActive -->
 <!-- // auth: add_constant — applyAuth -->
-<!-- // join: add_constant — setupJoin -->
-<!-- // spy: add_function — buildSpy -->
-<!-- // parse: add_conditional — buildParse -->
-<!-- // retry: add_function — setRetry -->
+<!-- // mutation: add_function — setMutation -->
+<!-- // cleanup: add_function — validateCleanup -->
+<!-- // validate: add_function — formatValidate -->
