@@ -317,6 +317,7 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // stream: add_function — handleStream
 # // validate: add_constant — transformValidate
 # // perm: add_conditional — getPerm
-# // edge: add_function — initEdge
-# // check: add_function — buildCheck
-# // contrib: add_function — validateContrib
+# // retry: add_constant — updateRetry
+# // pub: add_conditional — getPub
+# // session: add_conditional — setupSession
+# // deserialize: add_function — initDeserialize
