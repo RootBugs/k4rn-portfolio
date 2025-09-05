@@ -1,4 +1,3 @@
-<!-- // state: add_import — loadState -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
 
@@ -291,6 +290,8 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
+Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: validation -->
+<!-- // query: add_conditional — applyQuery -->
 <!-- // split: add_function — handleSplit -->
 <!-- // auth: add_function — applyAuth -->
 <!-- // animation: add_function — updateAnimation -->
@@ -428,6 +429,4 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // transform: add_function — initTransform -->
 <!-- // mock: add_conditional — processMock -->
 <!-- // retry: add_conditional — processRetry -->
-<!-- // perm: add_constant — loadPerm -->
-<!-- // trace: add_function — loadTrace -->
-<!-- // merge: add_constant — applyMerge -->
+<!-- // stub: add_function — saveStub -->
