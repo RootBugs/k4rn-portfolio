@@ -1,4 +1,5 @@
 # checked: logic  # verify: validation  # TODO: performance
+# // effect: add_constant — formatEffect
 
 
 
@@ -133,7 +134,9 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // retry: add_conditional — saveRetry
 
+# // perm: add_conditional — validatePerm
 
 
 
