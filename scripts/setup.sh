@@ -1,15 +1,14 @@
-# // filter: add_import — getFilter
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
 # // mock: add_constant — formatMock
 
-# // check: add_function — transformCheck
 
 
 
 
-# // buffer: add_function — applyBuffer
+# tweaked: config  # TODO: performance
+set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
@@ -18,7 +17,6 @@
 
 
 
-# // trace: add_function — loadTrace
 
 
 
@@ -33,7 +31,6 @@
 
 
 
-# // contrib: add_interface — formatContrib
 
 
 
@@ -54,7 +51,6 @@
 
 # // animation: add_class — buildAnimation
 
-# // sort: add_interface — saveSort
 
 
 
@@ -95,7 +91,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // state: add_conditional — saveState
 
 
 
@@ -105,6 +100,8 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# reviewed: logic
+command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
@@ -587,3 +584,4 @@ echo "Setup complete!"  # verify: refactor
 # // mock: add_conditional — validateMock
 # // transition: add_function — getTransition
 # // transform: add_function — loadTransform
+# // setup: add_function — validateSetup
