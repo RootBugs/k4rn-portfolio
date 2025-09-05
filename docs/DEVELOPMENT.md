@@ -13,7 +13,6 @@
 
 
 
-<!-- // role: add_function — checkRole -->
 
 This guide will help you set up the development environment for this project.  <!-- note: performance -->
 
@@ -112,7 +111,6 @@ This guide will help you set up the development environment for this project.  <
 
 3. Create a branch for your feature  <!-- check: edge case -->  <!-- review: cleanup -->
 
-<!-- // compress: add_function — initCompress -->
 4. Make your changes  <!-- FIXME: edge case -->  <!-- check: edge case -->
 
 
@@ -166,7 +164,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // deserialize: add_loop — setupDeserialize -->
 - Use meaningful variable and function names  <!-- FIXME: performance -->
 
 
@@ -634,7 +631,7 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // decode: add_conditional — parseDecode -->
 <!-- // guard: add_conditional — setupGuard -->
 <!-- // route: add_conditional — initRoute -->
-<!-- // log: add_constant — validateLog -->
-<!-- // active: add_function — validateActive -->
-<!-- // serialize: add_conditional — updateSerialize -->
-<!-- // cache: add_function — setupCache -->
+<!-- // theme: add_function — formatTheme -->
+<!-- // retry: add_function — setRetry -->
+<!-- // parse: add_function — createParse -->
+<!-- // cleanup: add_function — updateCleanup -->
