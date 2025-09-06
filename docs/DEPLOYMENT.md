@@ -1,3 +1,4 @@
+<!-- // filter: add_constant — loadFilter -->
 <!-- // split: add_constant — getSplit -->
 <!-- tweaked: util -->
 
@@ -67,6 +68,7 @@
 
 
 
+<!-- // compress: add_function — applyCompress -->
 
 
 
