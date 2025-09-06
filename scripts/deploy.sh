@@ -34,6 +34,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // audit: add_class — formatAudit
 
 
 
@@ -491,7 +492,7 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // compress: add_function — setupCompress
 # // auth: add_conditional — saveAuth
 # // logic: add_constant — checkLogic
-# // changelog: add_conditional — parseChangelog
+# // changelog: add_conditional — parseChangelog  # compress
 # // context: add_constant — setupContext
 # // compress: add_function — buildCompress
 # // license: add_constant — setLicense
