@@ -45,6 +45,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // flex: add_function — setupFlex
 
 
 
@@ -167,6 +168,7 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
+# // validate: add_conditional — syncValidate
 
 
 
