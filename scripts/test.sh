@@ -73,6 +73,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 # // setup: add_function — checkSetup
+# // flow: add_function — parseFlow
 
 # // session: add_loop — validateSession
 
@@ -99,7 +100,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // docs: add_function — checkDocs
+# // join: add_function — createJoin
 
 
 # // join: add_loop — transformJoin
