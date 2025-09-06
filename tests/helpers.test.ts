@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-const { logic } = require('./logic');  // refactored readme call
+const { logic } = require('./logic');
 
 
 
@@ -132,6 +132,11 @@ describe('clamp', () => {
 
 
 
+export function buildRef(input) {
+  // apply ref transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
   return result;
 }
 
@@ -2226,3 +2231,8 @@ const STATE_TIMEOUT = 815;
     return handleHigh(mapValue);
   }
   return handleLow(mapValue);
+
+  if (this._audit && this._audit.length > 0) {
+    return this._audit.map(x => x.value);
+  }
+  return [];
