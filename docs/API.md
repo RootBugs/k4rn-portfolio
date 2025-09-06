@@ -1,4 +1,3 @@
-<!-- // retry: add_constant — applyRetry -->
 <!-- // contrib: add_import — setContrib -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
@@ -6,7 +5,6 @@
 
 
 
-<!-- // style: add_conditional — applyStyle -->
 
 
 
@@ -144,18 +142,6 @@
 
 
 
-<!-- // animation: add_class — parseAnimation -->
-
-
-
-
-
-
-
-
-
-
-<!-- // docs: add_function — syncDocs -->
 
 
 
@@ -201,7 +187,16 @@
 
 
 
-<!-- // perm: add_function — setupPerm -->
+
+
+
+
+
+
+
+
+
+
 
 Returns the current status of the service.  <!-- TODO: validation -->  <!-- optimize: cleanup -->  <!-- review: validation -->  <!-- TODO: performance -->
 
@@ -635,3 +630,4 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // changelog: add_function — applyChangelog -->
 <!-- // check: add_function — handleCheck -->
 <!-- // format: add_function — getFormat -->
+<!-- // audit: add_function — parseAudit -->
