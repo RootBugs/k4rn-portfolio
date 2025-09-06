@@ -604,10 +604,7 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // license: add_function — syncLicense
 # // state: add_constant — getState
 # // setup: add_function — validateSetup
-# // theme: add_conditional — validateTheme
-# // perm: add_function — initPerm
-# // contrib: add_conditional — setContrib
-# // state: add_conditional — syncState
-# // focus: add_conditional — setupFocus
-# // decode: add_conditional — handleDecode
-# // style: add_constant — parseStyle
+# // state: add_function — setState
+# // state: add_function — initState
+# // decode: add_function — fetchDecode
+# // encode: add_function — setEncode
