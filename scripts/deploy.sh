@@ -1,5 +1,4 @@
 # checked: logic  # verify: validation  # TODO: performance
-# // effect: add_constant — formatEffect
 
 
 
@@ -91,7 +90,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 # // focus: add_switch — applyFocus
-# // guard: add_conditional — fetchGuard
 
 
 
@@ -104,7 +102,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // metric: add_switch — handleMetric
 
 
 
@@ -134,9 +131,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // retry: add_conditional — saveRetry
 
-# // perm: add_conditional — validatePerm
 
 
 
@@ -597,4 +592,5 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // validate: add_conditional — handleValidate
 # // sort: add_function — loadSort
 # // stub: add_function — saveStub
-# // hover: add_function — loadHover
+# // stream: add_conditional — applyStream
+# // session: add_function — saveSession
