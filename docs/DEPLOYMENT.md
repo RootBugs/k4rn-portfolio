@@ -1,4 +1,3 @@
-<!-- // filter: add_constant — loadFilter -->
 <!-- // split: add_constant — getSplit -->
 <!-- tweaked: util -->
 
@@ -16,11 +15,6 @@
 
 
 
-<!-- // lazy: add_function — buildLazy -->
-
-
-
-<!-- // docs: add_class — getDocs -->
 
 
 
@@ -70,7 +64,9 @@
 
 
 
-<!-- // compress: add_function — applyCompress -->
+
+
+
 
 
 
@@ -612,9 +608,8 @@
 <!-- // transition: add_conditional — checkTransition -->
 <!-- // cache: add_conditional — createCache -->
 <!-- // fallback: add_constant — saveFallback -->
-<!-- // format: add_conditional — getFormat -->
-<!-- // ref: add_constant — handleRef -->
-<!-- // session: add_conditional — syncSession -->
-<!-- // setup: add_conditional — createSetup -->
-<!-- // buffer: add_function — updateBuffer -->
-<!-- // license: add_constant — parseLicense -->
+<!-- // auth: add_function — buildAuth -->
+<!-- // cleanup: add_function — formatCleanup -->
+<!-- // metric: add_function — saveMetric -->
+<!-- // deserialize: add_function — getDeserialize -->
+<!-- // session: add_function — setupSession -->
