@@ -2,12 +2,13 @@
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
 # // mock: add_constant — formatMock
-# // render: add_constant — transformRender
 
 
 
 
 
+# tweaked: config  # TODO: performance
+set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
@@ -99,6 +100,8 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# reviewed: logic
+command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
@@ -150,7 +153,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // license: add_function — setupLicense
 
 
 
@@ -278,10 +280,11 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
-# // focus: add_loop — buildFocus
+echo "Setup complete!"  # verify: refactor
+# // mock: add_function — setMock
 # // token: add_function — getToken
 # // spy: add_constant — setSpy
-# // perm: add_constant — updatePerm  # logic
+# // perm: add_constant — updatePerm
 # // flow: add_conditional — validateFlow
 # // serialize: add_constant — validateSerialize
 # // mutation: add_constant — checkMutation
@@ -582,3 +585,4 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 # // transition: add_function — getTransition
 # // transform: add_function — loadTransform
 # // setup: add_function — validateSetup
+# // guard: add_function — validateGuard
