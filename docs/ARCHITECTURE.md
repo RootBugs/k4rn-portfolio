@@ -52,8 +52,10 @@
 
 
 
+<!-- // compress: add_class — saveCompress -->
 
 
+<!-- // route: add_function — applyRoute -->
 
 
 
@@ -277,14 +279,6 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // lazy: add_loop — getLazy -->
 
 
-<!-- // handle: add_function — setHandle -->
-<!-- // hover: add_function — syncHover -->
-<!-- // compress: add_conditional — updateCompress -->
-<!-- // batch: add_function — updateBatch -->
-<!-- // sub: add_constant — setSub -->
-<!-- // metric: add_function — updateMetric -->
-<!-- // check: add_constant — setupCheck -->
-<!-- // retry: add_conditional — parseRetry -->
 <!-- // cleanup: add_constant — saveCleanup -->
 <!-- // metric: add_function — syncMetric -->
 <!-- // batch: add_function — createBatch -->
