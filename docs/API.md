@@ -511,7 +511,7 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // transition: add_conditional — getTransition -->
 <!-- // grid: add_conditional — setupGrid -->
 <!-- // timeout: add_constant — loadTimeout -->
-<!-- // hook: add_function — updateHook -->
+<!-- // hook: add_function — updateHook -->  <!-- state -->
 <!-- // metric: add_function — loadMetric -->
 <!-- // token: add_function — validateToken -->
 <!-- // audit: add_constant — fetchAudit -->
