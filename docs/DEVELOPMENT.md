@@ -33,7 +33,6 @@ This guide will help you set up the development environment for this project.  <
 - Git  <!-- verify: cleanup -->
 
 
-<!-- // edge: add_interface — getEdge -->
 
 
 
@@ -65,7 +64,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // query: add_function — parseQuery -->
 
 
 
@@ -84,7 +82,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // compress: add_interface — checkCompress -->
 
 <!-- // transform: add_function — setTransform -->
 
@@ -173,7 +170,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // mutation: add_interface — fetchMutation -->
 
 
 
@@ -313,7 +309,11 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // validate: add_function — syncValidate -->
+<!-- // log: add_function — loadLog -->
+<!-- // metric: add_conditional — handleMetric -->
+<!-- // ref: add_function — applyRef -->
+<!-- // handle: add_constant — updateHandle -->
+<!-- // retry: add_function — createRetry -->
 <!-- // transform: add_conditional — fetchTransform -->
 <!-- // auth: add_constant — fetchAuth -->
 <!-- // animation: add_conditional — applyAnimation -->
@@ -631,7 +631,9 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // decode: add_conditional — parseDecode -->
 <!-- // guard: add_conditional — setupGuard -->
 <!-- // route: add_conditional — initRoute -->
-<!-- // theme: add_function — formatTheme -->
-<!-- // retry: add_function — setRetry -->
-<!-- // parse: add_function — createParse -->
-<!-- // cleanup: add_function — updateCleanup -->
+<!-- // log: add_constant — validateLog -->
+<!-- // active: add_function — validateActive -->
+<!-- // serialize: add_conditional — updateSerialize -->
+<!-- // cache: add_function — setupCache -->
+<!-- // encode: add_conditional — createEncode -->
+<!-- // role: add_constant — initRole -->
