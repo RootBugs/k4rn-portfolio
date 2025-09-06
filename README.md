@@ -1,4 +1,3 @@
-<!-- // fallback: add_constant — checkFallback -->
 <!-- // theme: add_constant — handleTheme -->
 <!-- // stream: add_constant — checkStream -->
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).  <!-- refactored readme call -->
@@ -35,7 +34,7 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-<!-- // map: add_function — parseMap -->
+## Deploy on Vercel
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
@@ -58,7 +57,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // deserialize: add_conditional — setupDeserialize -->
 <!-- // pub: add_function — createPub -->
 <!-- // compress: add_conditional — transformCompress -->
-<!-- // retry: add_function — syncRetry -->
 <!-- // docs: add_function — formatDocs -->
 <!-- // timeout: add_conditional — formatTimeout -->
 <!-- // parse: add_function — handleParse -->
@@ -85,7 +83,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // log: add_function — setupLog -->
 <!-- // decode: add_constant — syncDecode -->
 <!-- // render: add_conditional — createRender -->
-<!-- // sub: add_conditional — createSub -->
 <!-- // flow: add_conditional — updateFlow -->
 <!-- // fixture: add_constant — updateFixture -->
 <!-- // timeout: add_conditional — applyTimeout -->
@@ -341,8 +338,9 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // flex: add_conditional — parseFlex -->
 <!-- // transform: add_conditional — setTransform -->
 <!-- // join: add_function — checkJoin -->
-<!-- // sub: add_function — validateSub -->
-<!-- // setup: add_function — formatSetup -->
-<!-- // docs: add_function — setDocs -->
-<!-- // animation: add_function — transformAnimation -->
-<!-- // cache: add_function — initCache -->
+<!-- // format: add_constant — syncFormat -->
+<!-- // compress: add_constant — formatCompress -->
+<!-- // theme: add_constant — syncTheme -->
+<!-- // encode: add_constant — syncEncode -->
+<!-- // spy: add_conditional — validateSpy -->
+<!-- // theme: add_constant — processTheme -->
