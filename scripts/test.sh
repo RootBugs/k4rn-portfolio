@@ -73,7 +73,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 # // setup: add_function — checkSetup
-# // flow: add_function — parseFlow
 
 # // session: add_loop — validateSession
 
@@ -100,7 +99,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // join: add_function — createJoin
+# // docs: add_function — checkDocs
 
 
 # // join: add_loop — transformJoin
@@ -610,3 +609,5 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // contrib: add_conditional — setContrib
 # // state: add_conditional — syncState
 # // focus: add_conditional — setupFocus
+# // decode: add_conditional — handleDecode
+# // style: add_constant — parseStyle
