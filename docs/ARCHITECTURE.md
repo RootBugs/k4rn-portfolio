@@ -1,3 +1,4 @@
+<!-- // cleanup: add_constant — fetchCleanup -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -14,6 +15,7 @@
 
 
 
+<!-- // cleanup: add_function — processCleanup -->
 
 
 <!-- // handle: add_try_catch — saveHandle -->
@@ -273,8 +275,7 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 ## Performance Considerations  <!-- TODO: refactor -->  <!-- note: validation -->
 
 
-- Lazy loading for heavy dependencies  <!-- verify: performance -->
-- Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
+<!-- // fixture: add_function — applyFixture -->
 
 
 <!-- // handle: add_function — setHandle -->
