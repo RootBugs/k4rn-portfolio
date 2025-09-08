@@ -1,4 +1,5 @@
 # checked: logic  # verify: validation  # TODO: performance
+# // retry: add_constant — applyRetry
 
 
 
@@ -156,6 +157,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // pub: add_function — loadPub
 
 
 
