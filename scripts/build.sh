@@ -577,3 +577,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // perm: add_function — setupPerm
 # // logic: add_conditional — setLogic
 # // setup: add_function — handleSetup
+# // license: add_function — validateLicense
