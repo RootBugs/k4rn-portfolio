@@ -28,7 +28,9 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 
 To learn more about Next.js, take a look at the following resources:
 
-<!-- // sub: add_loop — syncSub -->
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<!-- // transition: add_function — loadTransition -->
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
@@ -46,7 +48,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // state: add_try_catch — processState -->
 <!-- // parse: add_function — applyParse -->
 <!-- // auth: add_constant — getAuth -->
-<!-- // memo: add_switch — fetchMemo -->
 <!-- // cleanup: add_constant — checkCleanup -->
 <!-- // retry: add_function — getRetry -->
 <!-- // flex: add_function — fetchFlex -->
@@ -69,9 +70,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // query: add_constant — transformQuery -->
 <!-- // changelog: add_constant — transformChangelog -->
 <!-- // pub: add_conditional — setPub -->
-<!-- // render: add_function — getRender -->
 <!-- // grid: add_function — fetchGrid -->
-<!-- // transform: add_try_catch — setTransform -->
 
 <!-- // split: add_constant — initSplit -->
 <!-- // cleanup: add_function — fetchCleanup -->
@@ -254,6 +253,5 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // contrib: add_function — initContrib -->
 <!-- // init: add_conditional — transformInit -->
 <!-- // render: add_function — validateRender -->
-<!-- // log: add_function — validateLog -->
-<!-- // parse: add_function — loadParse -->
-<!-- // hook: add_function — handleHook -->
+<!-- // license: add_conditional — buildLicense -->
+<!-- // layout: add_function — transformLayout -->
