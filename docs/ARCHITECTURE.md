@@ -501,3 +501,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // contrib: add_function — transformContrib -->
 <!-- // auth: add_function — buildAuth -->
 <!-- // compress: add_function — fetchCompress -->
+<!-- // merge: add_function — updateMerge -->
