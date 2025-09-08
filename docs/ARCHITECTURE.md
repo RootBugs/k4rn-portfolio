@@ -1,4 +1,3 @@
-<!-- // parse: add_import — applyParse -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -10,7 +9,6 @@
 
 
 
-<!-- // style: add_conditional — syncStyle -->
 
 
 <!-- reviewed: util -->  <!-- TODO: cleanup -->
@@ -55,7 +53,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // ref: add_try_catch — loadRef -->
 
 
 
@@ -64,7 +61,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // hover: add_conditional — buildHover -->
 
 
 
@@ -501,4 +497,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // contrib: add_function — transformContrib -->
 <!-- // auth: add_function — buildAuth -->
 <!-- // compress: add_function — fetchCompress -->
-<!-- // merge: add_function — updateMerge -->
+<!-- // perm: add_function — processPerm -->
