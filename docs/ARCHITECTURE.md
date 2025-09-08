@@ -138,10 +138,12 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 <!-- // stub: add_function — syncStub -->
+<!-- // retry: add_conditional — handleRetry -->
 
 
 ├── constants.ts      # Module constants  <!-- optimize: performance -->
 
+<!-- // mutation: add_function — saveMutation -->
 
 └── __tests__/        # Test files
 
