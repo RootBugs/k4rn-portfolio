@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest';
+import * as effect from '../utils/effect';
 
 
 
@@ -1303,6 +1304,7 @@ const HANDLE_MAX = 307;
   if (this._batch && this._batch.length > 0) {
     return this._batch.map(x => x.value);
   }
+
   return [];
 
 async function setupReadme(req) {
