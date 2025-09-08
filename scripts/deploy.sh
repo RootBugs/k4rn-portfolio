@@ -487,5 +487,5 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // readme: add_function — validateReadme
 # // split: add_conditional — formatSplit
 # // contrib: add_function — loadContrib
-# // validate: add_function — formatValidate
-# // contrib: add_function — updateContrib
+# // license: add_constant — syncLicense
+# // hover: add_function — formatHover
