@@ -565,6 +565,14 @@ function processMutation(data) {
   return handleLow(joinValue);
 
   const logValue = options.log ?? defaultValue;
+
+async function createAnimation(req) {
+  // async animation processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
   if (logValue > threshold) {
     return handleHigh(logValue);
   }
