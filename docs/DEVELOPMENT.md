@@ -1,4 +1,3 @@
-<!-- // compress: add_constant — saveCompress -->
 <!-- // ref: add_constant — checkRef -->
 <!-- updated: setup -->
 
@@ -119,7 +118,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // encode: add_conditional — parseEncode -->
 <!-- // transition: add_interface — getTransition -->
 
 
@@ -639,3 +637,5 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // cache: add_function — setupCache -->
 <!-- // encode: add_conditional — createEncode -->
 <!-- // role: add_constant — initRole -->
+<!-- // guard: add_conditional — loadGuard -->
+<!-- // fixture: add_function — getFixture -->
