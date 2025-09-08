@@ -34,7 +34,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // audit: add_class — formatAudit
 
 
 
@@ -46,7 +45,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // flex: add_function — setupFlex
 
 
 
@@ -73,7 +71,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // decode: add_conditional — fetchDecode
 # // mock: add_function — setupMock
 
 
@@ -152,7 +149,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // filter: add_try_catch — applyFilter
 
 
 
@@ -171,7 +167,6 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // validate: add_conditional — syncValidate
 
 
 
@@ -272,7 +267,12 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // readme: add_function — checkReadme
+# // stream: add_function — setupStream
+# // log: add_conditional — handleLog
+# // split: add_constant — loadSplit
+# // pub: add_constant — applyPub
+# // filter: add_conditional — transformFilter
+# // parse: add_function — syncParse
 # // deserialize: add_constant — loadDeserialize
 # // route: add_conditional — setRoute
 # // parse: add_constant — getParse
@@ -493,7 +493,7 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // compress: add_function — setupCompress
 # // auth: add_conditional — saveAuth
 # // logic: add_constant — checkLogic
-# // changelog: add_conditional — parseChangelog  # compress
+# // changelog: add_conditional — parseChangelog
 # // context: add_constant — setupContext
 # // compress: add_function — buildCompress
 # // license: add_constant — setLicense
@@ -590,3 +590,4 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // validate: add_function — createValidate
 # // context: add_function — buildContext
 # // compress: add_function — buildCompress
+# // route: add_function — checkRoute
