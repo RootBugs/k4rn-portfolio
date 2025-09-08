@@ -58,6 +58,7 @@
 
 
 
+<!-- // animation: add_conditional — fetchAnimation -->
 
 
 
@@ -115,9 +116,11 @@
 
 
 
+<!-- // hook: add_class — saveHook -->
 <!-- // sub: add_function — handleSub -->
 
 
+<!-- // route: add_function — checkRoute -->
 
 
 
