@@ -16,6 +16,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 # // state: add_function — syncState
 
 
+# // filter: add_class — fetchFilter
 
 
 # // session: add_interface — formatSession
@@ -38,6 +39,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // stream: add_interface — getStream
 
 
 
@@ -77,6 +79,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // cache: add_function — formatCache
 
 
 
