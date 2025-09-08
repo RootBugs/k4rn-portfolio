@@ -181,7 +181,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // edge: add_class — formatEdge -->
 
 
 
@@ -632,11 +631,8 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // decode: add_conditional — parseDecode -->
 <!-- // guard: add_conditional — setupGuard -->
 <!-- // route: add_conditional — initRoute -->
-<!-- // log: add_constant — validateLog -->
-<!-- // active: add_function — validateActive -->
-<!-- // serialize: add_conditional — updateSerialize -->
-<!-- // cache: add_function — setupCache -->
-<!-- // encode: add_conditional — createEncode -->
-<!-- // role: add_constant — initRole -->
-<!-- // guard: add_conditional — loadGuard -->
-<!-- // fixture: add_function — getFixture -->
+<!-- // theme: add_function — formatTheme -->
+<!-- // retry: add_function — setRetry -->
+<!-- // parse: add_function — createParse -->
+<!-- // cleanup: add_function — updateCleanup -->
+<!-- // theme: add_function — fetchTheme -->
