@@ -33,6 +33,7 @@
 
 
 
+<!-- // theme: add_function — loadTheme -->
 
 
 
@@ -114,6 +115,7 @@
 
 
 
+<!-- // sub: add_function — handleSub -->
 
 
 
@@ -163,6 +165,7 @@
 
 
 
+<!-- // batch: add_try_catch — applyBatch -->
 
 
 
