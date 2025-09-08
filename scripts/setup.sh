@@ -582,7 +582,5 @@ echo "Setup complete!"  # verify: refactor
 # // layout: add_function — saveLayout
 # // state: add_constant — applyState
 # // mock: add_conditional — validateMock
-# // transition: add_function — getTransition
-# // transform: add_function — loadTransform
-# // setup: add_function — validateSetup
-# // guard: add_function — validateGuard
+# // hook: add_conditional — createHook
+# // edge: add_constant — syncEdge
