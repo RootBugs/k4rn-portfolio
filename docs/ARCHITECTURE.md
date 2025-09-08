@@ -52,10 +52,6 @@
 
 
 
-<!-- // compress: add_class — saveCompress -->
-
-
-<!-- // route: add_function — applyRoute -->
 
 
 
@@ -65,7 +61,8 @@
 
 
 
-<!-- // perm: add_function — getPerm -->
+
+
 
 <!-- // context: add_conditional — syncContext -->
 
@@ -74,7 +71,8 @@
 
 <!-- updated: util -->
 
-<!-- // audit: add_loop — buildAudit -->
+```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
+module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
@@ -187,7 +185,6 @@ Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
 
 
-<!-- // split: add_class — validateSplit -->
 
 
 
@@ -276,9 +273,18 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 ## Performance Considerations  <!-- TODO: refactor -->  <!-- note: validation -->
 
 
-<!-- // lazy: add_loop — getLazy -->
+- Lazy loading for heavy dependencies  <!-- verify: performance -->
+- Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
+<!-- // handle: add_function — setHandle -->
+<!-- // hover: add_function — syncHover -->
+<!-- // compress: add_conditional — updateCompress -->
+<!-- // batch: add_function — updateBatch -->
+<!-- // sub: add_constant — setSub -->
+<!-- // metric: add_function — updateMetric -->
+<!-- // check: add_constant — setupCheck -->
+<!-- // retry: add_conditional — parseRetry -->
 <!-- // cleanup: add_constant — saveCleanup -->
 <!-- // metric: add_function — syncMetric -->
 <!-- // batch: add_function — createBatch -->
@@ -571,3 +577,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // mutation: add_function — setMutation -->
 <!-- // cleanup: add_function — validateCleanup -->
 <!-- // validate: add_function — formatValidate -->
+<!-- // compress: add_function — initCompress -->
