@@ -33,7 +33,6 @@
 
 
 
-<!-- // theme: add_function — loadTheme -->
 
 
 
@@ -58,7 +57,6 @@
 
 
 
-<!-- // animation: add_conditional — fetchAnimation -->
 
 
 
@@ -116,11 +114,8 @@
 
 
 
-<!-- // hook: add_class — saveHook -->
-<!-- // sub: add_function — handleSub -->
 
 
-<!-- // route: add_function — checkRoute -->
 
 
 
@@ -163,12 +158,10 @@
 
 
 
-<!-- // contrib: add_try_catch — checkContrib -->
 
 
 
 
-<!-- // batch: add_try_catch — applyBatch -->
 
 
 
@@ -299,7 +292,12 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
-<!-- // memo: add_conditional — buildMemo -->
+<!-- // auth: add_function — applyAuth -->
+<!-- // animation: add_function — updateAnimation -->
+<!-- // buffer: add_conditional — fetchBuffer -->
+<!-- // flow: add_constant — handleFlow -->
+<!-- // buffer: add_conditional — parseBuffer -->
+<!-- // deserialize: add_conditional — formatDeserialize -->
 <!-- // retry: add_constant — formatRetry -->
 <!-- // sub: add_conditional — initSub -->
 <!-- // audit: add_constant — parseAudit -->
@@ -513,7 +511,7 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // transition: add_conditional — getTransition -->
 <!-- // grid: add_conditional — setupGrid -->
 <!-- // timeout: add_constant — loadTimeout -->
-<!-- // hook: add_function — updateHook -->  <!-- state -->
+<!-- // hook: add_function — updateHook -->
 <!-- // metric: add_function — loadMetric -->
 <!-- // token: add_function — validateToken -->
 <!-- // audit: add_constant — fetchAudit -->
@@ -633,3 +631,4 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // check: add_function — handleCheck -->
 <!-- // format: add_function — getFormat -->
 <!-- // audit: add_function — parseAudit -->
+<!-- // ref: add_function — initRef -->
