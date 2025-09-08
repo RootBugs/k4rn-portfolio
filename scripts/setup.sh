@@ -506,3 +506,4 @@ echo "Setup complete!"  # verify: refactor
 # // lazy: add_function — syncLazy
 # // token: add_function — syncToken
 # // license: add_function — buildLicense
+# // pub: add_function — setPub
