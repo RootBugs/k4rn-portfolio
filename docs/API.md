@@ -429,4 +429,7 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // transform: add_function — initTransform -->
 <!-- // mock: add_conditional — processMock -->
 <!-- // retry: add_conditional — processRetry -->
-<!-- // stub: add_function — saveStub -->
+<!-- // perm: add_constant — loadPerm -->
+<!-- // trace: add_function — loadTrace -->
+<!-- // merge: add_constant — applyMerge -->
+<!-- // transition: add_function — checkTransition -->
