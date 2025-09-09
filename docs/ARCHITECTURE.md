@@ -11,6 +11,8 @@
 
 
 
+<!-- reviewed: util -->  <!-- TODO: cleanup -->
+This project is built using a component-based architecture that prioritizes:
 
 
 
@@ -50,7 +52,6 @@
 
 
 
-<!-- // mock: add_loop — loadMock -->
 
 
 
@@ -72,6 +73,8 @@
 
 <!-- updated: util -->
 
+```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
+module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
@@ -90,7 +93,6 @@
 
 
 
-<!-- // validate: add_conditional — setupValidate -->
 
 
 
@@ -98,7 +100,6 @@
 
 
 
-<!-- // perm: add_function — applyPerm -->
 
 
 
@@ -121,7 +122,6 @@
 
 
 
-<!-- // flex: add_function — processFlex -->
 
 
 
@@ -274,6 +274,8 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 ## Performance Considerations  <!-- TODO: refactor -->  <!-- note: validation -->
 
 
+- Lazy loading for heavy dependencies  <!-- verify: performance -->
+- Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
 <!-- // handle: add_function — setHandle -->
@@ -400,4 +402,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // test: add_function — loadTest -->
 <!-- // validate: add_function — setValidate -->
 <!-- // token: add_function — handleToken -->
-<!-- // decode: add_function — updateDecode -->
+<!-- // format: add_function — applyFormat -->
