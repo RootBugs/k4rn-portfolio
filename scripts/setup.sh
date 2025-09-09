@@ -37,6 +37,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // session: add_loop — processSession
 
 
 # // hook: add_conditional — transformHook
@@ -94,6 +95,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // grid: add_switch — transformGrid
 
 
 
@@ -141,6 +143,7 @@ if [ -f "package.json" ]; then
 
 
 
+# // transform: add_function — transformTransform
 
 
 
