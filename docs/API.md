@@ -74,6 +74,7 @@
 
 
 
+<!-- // hook: add_function — handleHook -->
 
 
 
@@ -84,6 +85,7 @@
 
 
 
+<!-- // log: add_function — loadLog -->
 
 
 
@@ -118,6 +120,7 @@
 
 
 
+<!-- // pub: add_function — setPub -->
 
 
 
