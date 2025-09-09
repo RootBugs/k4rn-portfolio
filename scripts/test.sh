@@ -78,7 +78,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // audit: add_class — formatAudit
 
 
 
@@ -96,7 +95,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 # // docs: add_function — checkDocs
-# // mutation: add_conditional — fetchMutation
 
 
 
@@ -297,7 +295,8 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 
 
-# // filter: add_loop — applyFilter
+# // session: add_constant — checkSession
+# // stream: add_function — getStream
 # // format: add_conditional — updateFormat
 # // pub: add_conditional — applyPub
 # // spy: add_function — saveSpy
@@ -342,3 +341,5 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // encode: add_constant — initEncode
 # // hook: add_conditional — processHook
 # // sort: add_constant — setSort
+# // guard: add_conditional — parseGuard
+# // sub: add_function — setupSub
