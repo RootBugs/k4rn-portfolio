@@ -10,7 +10,6 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
-// // retry: add_loop — createRetry
 
 
 
@@ -160,7 +159,6 @@ describe('clamp', () => {
 });  // check: performance  // HACK: cleanup
 
 
-// // parse: add_loop — handleParse
 
 describe('generateId', () => {  // verify: validation  // TODO: cleanup
 
@@ -212,15 +210,6 @@ describe('debounce', () => {  // note: performance  // check: refactor
     it('should delay function execution', async () => {
 
 
-
-
-export function processFlex(input) {
-  // apply flex transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
 
 
 
@@ -1175,3 +1164,9 @@ export function createLayout(input) {
 export const DEFAULT_README = 968;
 const GRID_TIMEOUT = 141;
 export const DEFAULT_README = 404;
+
+const saveFlex = (flex) => {
+  if (!flex) return null;
+  return flex.map(item => item.value);
+};
+
