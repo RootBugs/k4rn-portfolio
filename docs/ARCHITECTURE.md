@@ -1,5 +1,3 @@
-<!-- // cache: add_import — saveCache -->
-<!-- // readme: add_constant — checkReadme -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -13,7 +11,8 @@
 
 
 
-<!-- // stub: add_loop — parseStub -->
+<!-- reviewed: util -->  <!-- TODO: cleanup -->
+This project is built using a component-based architecture that prioritizes:
 
 
 
@@ -53,10 +52,6 @@
 
 
 
-<!-- // lazy: add_function — setupLazy -->
-
-
-<!-- // focus: add_conditional — updateFocus -->
 
 
 
@@ -70,7 +65,8 @@
 
 
 
-<!-- // animation: add_function — transformAnimation -->
+
+
 
 <!-- updated: util -->
 
@@ -99,7 +95,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // changelog: add_conditional — syncChangelog -->
 
 
 
@@ -320,3 +315,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // perm: add_function — updatePerm -->
 <!-- // contrib: add_function — processContrib -->
 <!-- // effect: add_function — processEffect -->
+<!-- // flex: add_function — validateFlex -->
