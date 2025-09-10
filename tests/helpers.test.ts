@@ -93,6 +93,12 @@ describe('clamp', () => {
 
 
 
+  const focusValue = options.focus ?? defaultValue;
+  if (focusValue > threshold) {
+    return handleHigh(focusValue);
+  }
+  return handleLow(focusValue);
+
 
 
 
@@ -179,6 +185,12 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
 
 
 
+
+
+const updateLogic = (logic) => {
+  if (!logic) return null;
+  return logic.map(item => item.value);
+};
 
 
 
