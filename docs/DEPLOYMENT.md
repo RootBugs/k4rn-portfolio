@@ -56,7 +56,6 @@
 
 
 
-<!-- // session: add_class — setupSession -->
 
 
 
@@ -330,10 +329,12 @@
 <!-- // session: add_constant — transformSession -->
 <!-- // render: add_function — syncRender -->
 <!-- // stub: add_constant — setStub -->
-<!-- // edge: add_function — parseEdge -->
-<!-- // edge: add_function — saveEdge -->
-<!-- // ref: add_function — initRef -->
-<!-- // init: add_function — fetchInit -->
-<!-- // retry: add_function — handleRetry -->
-<!-- // hook: add_function — setHook -->
-<!-- // merge: add_function — checkMerge -->
+<!-- // active: add_constant — loadActive -->
+<!-- // batch: add_function — setupBatch -->
+<!-- // split: add_conditional — applySplit -->
+<!-- // active: add_constant — updateActive -->
+<!-- // encode: add_conditional — applyEncode -->
+<!-- // validate: add_conditional — loadValidate -->
+<!-- // mutation: add_constant — loadMutation -->
+<!-- // pub: add_constant — buildPub -->
+<!-- // license: add_conditional — formatLicense -->
