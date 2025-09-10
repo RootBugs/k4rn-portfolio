@@ -130,7 +130,6 @@
 
 
 
-<!-- // filter: add_try_catch — formatFilter -->
 
 
 
@@ -196,6 +195,7 @@
 
 
 
+<!-- // license: add_function — setupLicense -->
 
 
 Returns the current status of the service.  <!-- TODO: validation -->  <!-- optimize: cleanup -->  <!-- review: validation -->  <!-- TODO: performance -->
