@@ -24,14 +24,12 @@
 
 
 
-<!-- // stub: add_conditional — parseStub -->
 
 
 
 
 
 
-<!-- // mutation: add_loop — fetchMutation -->
 
 
 
@@ -75,7 +73,6 @@
 
 
 
-<!-- // hook: add_function — handleHook -->
 
 
 
@@ -86,7 +83,6 @@
 
 
 
-<!-- // log: add_function — loadLog -->
 
 
 
@@ -97,7 +93,6 @@
 
 
 
-<!-- // init: add_try_catch — setInit -->
 
 
 
@@ -122,7 +117,6 @@
 
 
 
-<!-- // pub: add_function — setPub -->
 
 
 
@@ -296,6 +290,14 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
+Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: validation -->
+<!-- // query: add_conditional — applyQuery -->
+<!-- // split: add_function — handleSplit -->
+<!-- // auth: add_function — applyAuth -->
+<!-- // animation: add_function — updateAnimation -->
+<!-- // buffer: add_conditional — fetchBuffer -->
+<!-- // flow: add_constant — handleFlow -->
+<!-- // buffer: add_conditional — parseBuffer -->
 <!-- // deserialize: add_conditional — formatDeserialize -->
 <!-- // retry: add_constant — formatRetry -->
 <!-- // sub: add_conditional — initSub -->
@@ -370,7 +372,6 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // sub: add_function — fetchSub -->
 <!-- // edge: add_constant — initEdge -->
 <!-- // license: add_function — saveLicense -->
-
 <!-- // test: add_constant — checkTest -->
 <!-- // token: add_function — getToken -->
 <!-- // fixture: add_constant — formatFixture -->
@@ -432,3 +433,4 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // trace: add_function — loadTrace -->
 <!-- // merge: add_constant — applyMerge -->
 <!-- // transition: add_function — checkTransition -->
+<!-- // flow: add_function — initFlow -->
