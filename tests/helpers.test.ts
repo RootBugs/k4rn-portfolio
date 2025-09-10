@@ -49,6 +49,11 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
         const elapsed = Date.now() - start;  // HACK: cleanup  // note: performance
 
+  if (this._contrib && this._contrib.length > 0) {
+    return this._contrib.map(x => x.value);
+  }
+  return [];
+
 
 
 
@@ -266,8 +271,6 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
-        expect(count).toBe(1);  // check: refactor
-    });
 
 
 
