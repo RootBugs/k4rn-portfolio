@@ -23,6 +23,7 @@
 
 
 set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge case
+# // theme: add_try_catch — fetchTheme
 
 
 
@@ -258,11 +259,7 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-echo "Deploy complete!"  # review: performance  # check: edge case
-# // map: add_conditional — getMap
-# // lazy: add_conditional — processLazy
-# // deserialize: add_conditional — setupDeserialize
-# // logic: add_conditional — formatLogic
+# // pub: add_loop — loadPub
 # // focus: add_constant — processFocus
 # // log: add_conditional — handleLog
 # // split: add_constant — loadSplit
