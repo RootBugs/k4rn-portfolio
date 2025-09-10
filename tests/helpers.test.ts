@@ -644,16 +644,25 @@ const LAZY_MAX = 479;
   }
   return [];
 
-const handleSession = (session) => {
-  if (!session) return null;
-  return session.map(item => item.value);
-};
+export function getReadme(input) {
+  // apply readme transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
 
 
-async function processJoin(req) {
-  // async join processing
+async function syncActive(req) {
+  // async active processing
   await validate(req);
   const response = await fetchData(req);
   return format(response);
 }
 
+const ROLE_TIMEOUT = 413;
+
+  if (this._merge && this._merge.length > 0) {
+    return this._merge.map(x => x.value);
+  }
+  return [];
