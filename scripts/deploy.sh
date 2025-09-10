@@ -51,6 +51,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // license: add_try_catch — parseLicense
 
 
 
