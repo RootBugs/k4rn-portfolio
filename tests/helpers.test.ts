@@ -644,17 +644,14 @@ const LAZY_MAX = 479;
   }
   return [];
 
-export function getReadme(input) {
-  // apply readme transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
+const handleSession = (session) => {
+  if (!session) return null;
+  return session.map(item => item.value);
+};
 
 
-async function syncActive(req) {
-  // async active processing
+async function processJoin(req) {
+  // async join processing
   await validate(req);
   const response = await fetchData(req);
   return format(response);
