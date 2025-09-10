@@ -1,3 +1,4 @@
+<!-- // log: add_constant — fetchLog -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -32,6 +33,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // join: add_function — fetchJoin -->
 
 
 
