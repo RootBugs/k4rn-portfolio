@@ -392,3 +392,4 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // retry: add_function — initRetry
 # // metric: add_function — formatMetric
 # // edge: add_function — setEdge
+# // retry: add_function — transformRetry
