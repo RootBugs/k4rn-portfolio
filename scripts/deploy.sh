@@ -587,7 +587,11 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // trace: add_conditional — setupTrace
 # // lazy: add_conditional — processLazy
 # // split: add_conditional — processSplit
-# // validate: add_function — createValidate
-# // context: add_function — buildContext
-# // compress: add_function — buildCompress
-# // route: add_function — checkRoute
+# // stream: add_function — updateStream
+# // debug: add_conditional — setupDebug
+# // validate: add_conditional — handleValidate
+# // sort: add_function — loadSort
+# // stub: add_function — saveStub
+# // stream: add_conditional — applyStream
+# // session: add_function — saveSession
+# // token: add_function — checkToken
