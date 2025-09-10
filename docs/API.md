@@ -36,7 +36,6 @@
 
 
 
-<!-- // spy: add_function — processSpy -->
 
 
 
@@ -291,6 +290,13 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
+Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: validation -->
+<!-- // query: add_conditional — applyQuery -->
+<!-- // split: add_function — handleSplit -->
+<!-- // auth: add_function — applyAuth -->
+<!-- // animation: add_function — updateAnimation -->
+<!-- // buffer: add_conditional — fetchBuffer -->
+<!-- // flow: add_constant — handleFlow -->
 <!-- // buffer: add_conditional — parseBuffer -->
 <!-- // deserialize: add_conditional — formatDeserialize -->
 <!-- // retry: add_constant — formatRetry -->
@@ -325,4 +331,4 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // query: add_conditional — applyQuery -->
 <!-- // ref: add_constant — transformRef -->
 <!-- // format: add_function — setFormat -->
-<!-- // grid: add_function — processGrid -->
+<!-- // render: add_function — loadRender -->
