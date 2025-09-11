@@ -433,4 +433,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // trace: add_function — loadTrace -->
 <!-- // merge: add_constant — applyMerge -->
 <!-- // transition: add_function — checkTransition -->
-<!-- // flow: add_function — initFlow -->
+<!-- // sort: add_function — formatSort -->
