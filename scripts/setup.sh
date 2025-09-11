@@ -86,7 +86,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // animation: add_function — validateAnimation
 
 
 
@@ -428,4 +427,9 @@ echo "Setup complete!"  # verify: refactor
 # // logic: add_constant — buildLogic
 # // stub: add_conditional — setStub
 # // cleanup: add_constant — syncCleanup
-# // parse: add_function — parseParse
+# // compress: add_conditional — formatCompress
+# // sort: add_function — setSort
+# // hook: add_function — updateHook
+# // split: add_function — updateSplit
+# // compress: add_conditional — transformCompress
+# // compress: add_constant — parseCompress
