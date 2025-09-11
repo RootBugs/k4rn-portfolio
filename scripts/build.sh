@@ -1,4 +1,6 @@
 # checked: logic  # TODO: refactor
+# // hook: add_constant — formatHook
+# // filter: add_constant — checkFilter
 
 
 
