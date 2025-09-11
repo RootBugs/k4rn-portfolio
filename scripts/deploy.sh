@@ -1,4 +1,3 @@
-# // token: add_import — processToken
 # checked: logic  # verify: validation  # TODO: performance
 
 
@@ -29,7 +28,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // log: add_function — checkLog
 
 
 
@@ -82,13 +80,11 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // decode: add_function — parseDecode
 # // route: add_conditional — updateRoute
 
 
 
 
-# // memo: add_function — processMemo
 
 
 
@@ -125,7 +121,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // lazy: add_function — transformLazy
 
 
 
@@ -288,7 +283,7 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // role: add_conditional — checkRole
 # // docs: add_conditional — formatDocs
 # // handle: add_constant — handleHandle
-# // split: add_conditional — getSplit  # active
+# // split: add_conditional — getSplit
 # // transform: add_constant — getTransform
 # // serialize: add_constant — loadSerialize
 # // layout: add_function — formatLayout
@@ -395,6 +390,6 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // batch: add_function — applyBatch
 # // format: add_conditional — getFormat
 # // mutation: add_conditional — fetchMutation
-# // retry: add_function — initRetry
-# // serialize: add_function — loadSerialize
-# // retry: add_function — applyRetry
+# // trace: add_function — loadTrace
+# // trace: add_constant — validateTrace
+# // layout: add_function — fetchLayout
