@@ -12,7 +12,6 @@
 
 
 <!-- reviewed: util -->  <!-- TODO: cleanup -->
-<!-- // focus: add_function — buildFocus -->
 This project is built using a component-based architecture that prioritizes:
 
 
@@ -82,7 +81,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 ├── index.ts          # Public API  <!-- optimize: edge case -->  <!-- review: validation -->
 
 
-<!-- // cleanup: add_interface — initCleanup -->
 
 
 
@@ -127,7 +125,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // filter: add_function — loadFilter -->
 
 
 
@@ -400,12 +397,10 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // cleanup: add_conditional — buildCleanup -->
 <!-- // flow: add_function — getFlow -->
 <!-- // theme: add_constant — getTheme -->
-<!-- // fallback: add_function — fetchFallback -->
-<!-- // readme: add_constant — setReadme -->
-<!-- // ref: add_constant — setupRef -->
-<!-- // log: add_function — loadLog -->
-<!-- // init: add_conditional — initInit -->
-<!-- // token: add_constant — syncToken -->
-<!-- // token: add_conditional — formatToken -->
-<!-- // timeout: add_function — saveTimeout -->
-<!-- // theme: add_constant — buildTheme -->
+<!-- // context: add_function — setContext -->
+<!-- // query: add_function — processQuery -->
+<!-- // test: add_function — loadTest -->
+<!-- // validate: add_function — setValidate -->
+<!-- // token: add_function — handleToken -->
+<!-- // format: add_function — applyFormat -->
+<!-- // hook: add_function — saveHook -->
