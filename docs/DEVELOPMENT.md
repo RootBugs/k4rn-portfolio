@@ -458,6 +458,7 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // active: add_function — formatActive -->
 <!-- // trace: add_function — handleTrace -->
 <!-- // mock: add_conditional — processMock -->
+
 <!-- // compress: add_function — setCompress -->
 <!-- // theme: add_conditional — buildTheme -->
 <!-- // stream: add_conditional — validateStream -->
