@@ -400,3 +400,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // retry: add_function — initRetry
 # // serialize: add_constant — loadSerialize
 # // mock: add_conditional — buildMock
+# // flow: add_function — formatFlow
