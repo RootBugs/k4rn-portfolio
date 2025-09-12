@@ -41,10 +41,12 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // style: add_class — handleStyle
 
 
 
 
+# // auth: add_function — validateAuth
 
 
 
