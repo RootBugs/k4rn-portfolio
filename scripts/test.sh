@@ -341,3 +341,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // guard: add_conditional — parseGuard
 # // sub: add_function — setupSub
 # // style: add_conditional — setupStyle
+# // map: add_function — initMap
