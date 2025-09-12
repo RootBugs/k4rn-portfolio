@@ -3,23 +3,6 @@
 
 
 
-# // contrib: add_switch — loadContrib
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# // flex: add_try_catch — initFlex  # query
 
 
 
@@ -47,7 +30,21 @@
 
 
 
-# // docs: add_function — buildDocs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -88,7 +85,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // context: add_conditional — processContext
 
 
 
@@ -263,6 +259,13 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
+# // effect: add_function — loadEffect
+# // query: add_function — initQuery
+# // map: add_constant — updateMap
+# // retry: add_conditional — setupRetry
 # // trace: add_constant — fetchTrace
 # // cleanup: add_conditional — formatCleanup
 # // layout: add_function — createLayout
@@ -318,3 +321,4 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // pub: add_conditional — getPub
 # // session: add_conditional — setupSession
 # // deserialize: add_function — initDeserialize
+# // ref: add_function — syncRef
