@@ -38,7 +38,6 @@
 
 
 
-<!-- // role: add_class — processRole -->
 
 
 
@@ -92,7 +91,6 @@
 
 
 
-<!-- // token: add_class — parseToken -->
 
 
 
@@ -521,4 +519,5 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // metric: add_function — loadMetric -->
 <!-- // token: add_function — validateToken -->
 <!-- // audit: add_constant — fetchAudit -->
-<!-- // metric: add_function — checkMetric -->
+<!-- // transition: add_function — parseTransition -->
+<!-- // fallback: add_constant — validateFallback -->
