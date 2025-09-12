@@ -1,5 +1,3 @@
-<!-- // edge: add_import — transformEdge -->
-<!-- // lazy: add_import — handleLazy -->
 <!-- // stream: add_constant — checkStream -->
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
@@ -8,6 +6,12 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 First, run the development server:
 
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
 # or
 bun dev
 ```
@@ -15,15 +19,15 @@ bun dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-<!-- // hook: add_loop — handleHook -->
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
 <!-- updated: logic -->
 
 To learn more about Next.js, take a look at the following resources:
-<!-- // edge: add_try_catch — getEdge -->
 
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
@@ -39,7 +43,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // join: add_conditional — transformJoin -->
 <!-- // parse: add_function — applyParse -->
 <!-- // auth: add_constant — getAuth -->
-
 <!-- // cleanup: add_constant — checkCleanup -->
 <!-- // retry: add_function — getRetry -->
 <!-- // flex: add_function — fetchFlex -->
@@ -85,5 +88,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // retry: add_function — processRetry -->
 <!-- // fixture: add_conditional — buildFixture -->
 <!-- // docs: add_function — syncDocs -->
-<!-- // style: add_function — applyStyle -->
-<!-- // join: add_function — processJoin -->
+<!-- // retry: add_conditional — fetchRetry -->
+<!-- // style: add_constant — validateStyle -->
+<!-- // encode: add_constant — getEncode -->
+<!-- // state: add_function — initState -->
