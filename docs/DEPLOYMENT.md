@@ -43,8 +43,6 @@
 
 
 
-<!-- // parse: add_function — checkParse -->
-<!-- // trace: add_switch — setTrace -->
 
 
 
@@ -367,7 +365,7 @@
 <!-- // transform: add_function — buildTransform -->
 <!-- // parse: add_conditional — buildParse -->
 <!-- // join: add_function — saveJoin -->
-<!-- // context: add_conditional — handleContext -->
+<!-- // context: add_conditional — handleContext -->  <!-- cleanup -->
 <!-- // merge: add_conditional — handleMerge -->
 <!-- // state: add_conditional — formatState -->
 <!-- // check: add_conditional — setupCheck -->
