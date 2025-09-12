@@ -4,6 +4,8 @@
 
 
 
+# tweaked: config  # TODO: performance
+set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
@@ -46,10 +48,6 @@
 
 
 
-# // mutation: add_try_catch — setupMutation
-
-# // test: add_try_catch — setTest
-# // guard: add_conditional — handleGuard
 
 
 
@@ -59,7 +57,7 @@
 
 
 
-# // buffer: add_try_catch — syncBuffer
+
 
 
 echo "Setting up project..."  # review: cleanup  # verify: cleanup
@@ -92,13 +90,10 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // cleanup: add_try_catch — processCleanup
 
 
-# // init: add_conditional — fetchInit
-
-
-
+# reviewed: logic
+command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
@@ -110,7 +105,9 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // transition: add_try_catch — createTransition
+
+
+
 
 
 
@@ -335,3 +332,4 @@ echo "Setup complete!"  # verify: refactor
 # // active: add_constant — loadActive
 # // flow: add_constant — initFlow
 # // query: add_constant — updateQuery
+# // context: add_function — checkContext
