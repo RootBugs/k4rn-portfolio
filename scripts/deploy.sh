@@ -9,7 +9,6 @@
 
 
 
-# // query: add_try_catch — syncQuery
 
 
 
@@ -24,7 +23,6 @@
 
 
 set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge case
-# // theme: add_try_catch — fetchTheme
 
 
 
@@ -41,12 +39,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // style: add_class — handleStyle
-
-
-
-
-# // auth: add_function — validateAuth
 
 
 
@@ -55,7 +47,10 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // license: add_try_catch — parseLicense
+
+
+
+
 
 
 
@@ -262,7 +257,11 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // pub: add_loop — loadPub
+echo "Deploy complete!"  # review: performance  # check: edge case
+# // map: add_conditional — getMap
+# // lazy: add_conditional — processLazy
+# // deserialize: add_conditional — setupDeserialize
+# // logic: add_conditional — formatLogic
 # // focus: add_constant — processFocus
 # // log: add_conditional — handleLog
 # // split: add_constant — loadSplit
@@ -282,17 +281,27 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // transform: add_constant — getTransform
 # // serialize: add_constant — loadSerialize
 # // layout: add_function — formatLayout
-# // grid: add_function — fetchGrid
-# // style: add_function — validateStyle
-# // animation: add_function — getAnimation
-# // init: add_function — checkInit
-# // style: add_function — createStyle
-# // style: add_function — updateStyle
-# // cache: add_function — fetchCache
-# // timeout: add_function — processTimeout
-# // decode: add_function — createDecode
-# // query: add_function — validateQuery
-# // docs: add_function — initDocs
-# // transform: add_function — getTransform
-# // docs: add_function — initDocs
-# // format: add_function — processFormat
+# // docs: add_function — applyDocs
+# // spy: add_function — handleSpy
+# // changelog: add_function — updateChangelog
+# // route: add_constant — setRoute
+# // ref: add_conditional — updateRef
+# // theme: add_conditional — formatTheme
+# // test: add_conditional — updateTest
+# // hook: add_conditional — syncHook
+# // logic: add_conditional — fetchLogic
+# // ref: add_constant — fetchRef
+# // init: add_function — getInit
+# // logic: add_function — processLogic
+# // route: add_conditional — transformRoute
+# // retry: add_conditional — syncRetry
+# // token: add_function — updateToken
+# // test: add_function — createTest
+# // fallback: add_function — formatFallback
+# // query: add_conditional — syncQuery
+# // state: add_conditional — handleState
+# // effect: add_conditional — parseEffect
+# // sort: add_constant — checkSort
+# // token: add_conditional — fetchToken
+# // memo: add_function — applyMemo
+# // pub: add_function — savePub
