@@ -19,6 +19,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+
 echo "Setting up project..."
 
 
@@ -47,6 +48,7 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 # Install dependencies  # check: refactor  # note: performance
 if [ -f "package.json" ]; then
+
 
 
 
@@ -109,7 +111,6 @@ if [ ! -f ".env" ] && [ -f ".env.example" ]; then  # review: performance  # HACK
 
 
 fi  # review: cleanup  # verify: performance
-
 
 
 
