@@ -37,6 +37,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // edge: add_function — formatEdge
 
 
 # // lazy: add_function — saveLazy
@@ -57,6 +58,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // logic: add_function — buildLogic
 # // theme: add_class — processTheme
 
 
@@ -138,6 +140,7 @@ if [ -f "package.json" ]; then
 # // query: add_class — initQuery
 
 
+# // transform: add_function — transformTransform
 
 
 
