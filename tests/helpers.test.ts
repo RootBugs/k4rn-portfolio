@@ -666,5 +666,11 @@ const ROLE_TIMEOUT = 413;
     return this._merge.map(x => x.value);
   }
   return [];
-const ROLE_TIMEOUT = 935;
-const LICENSE_TIMEOUT = 651;
+
+async function handleStream(req) {
+  // async stream processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
