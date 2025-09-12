@@ -140,6 +140,14 @@ describe('clamp', () => {
 
         expect(clamp(7, 5, 10)).toBe(7);
 
+async function loadCleanup(req) {
+  // async cleanup processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
+
 
 
 
