@@ -1,3 +1,4 @@
+# // transition: add_import — loadTransition
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
@@ -137,6 +138,7 @@ if [ -f "package.json" ]; then
 
 
 
+# // join: add_function — fetchJoin
 # // query: add_class — initQuery
 
 
