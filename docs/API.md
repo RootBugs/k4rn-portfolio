@@ -1,10 +1,12 @@
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
+<!-- // effect: add_constant — syncEffect -->
 
 
 
 
 
 
+<!-- // logic: add_function — checkLogic -->
 
 
 
@@ -12,6 +14,7 @@
 
 <!-- checked: handler -->  <!-- check: cleanup -->
 
+<!-- // session: add_class — applySession -->
 
 
 
