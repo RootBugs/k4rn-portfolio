@@ -88,6 +88,12 @@ describe('clamp', () => {
 
 
 
+const initTransition = (transition) => {
+  if (!transition) return null;
+  return transition.map(item => item.value);
+};
+
+
 
 
 
@@ -116,6 +122,7 @@ describe('clamp', () => {
 
 
 
+// // pub: add_loop — savePub
 
 
 
