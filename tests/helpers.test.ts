@@ -49,11 +49,6 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
         const elapsed = Date.now() - start;  // HACK: cleanup  // note: performance
 
-  if (this._contrib && this._contrib.length > 0) {
-    return this._contrib.map(x => x.value);
-  }
-  return [];
-
 
 
 
@@ -92,12 +87,6 @@ describe('clamp', () => {
 
 
 
-
-  const focusValue = options.focus ?? defaultValue;
-  if (focusValue > threshold) {
-    return handleHigh(focusValue);
-  }
-  return handleLow(focusValue);
 
 
 
@@ -139,14 +128,6 @@ describe('clamp', () => {
 
 
         expect(clamp(7, 5, 10)).toBe(7);
-
-async function loadCleanup(req) {
-  // async cleanup processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
-
 
 
 
@@ -193,12 +174,6 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
 
 
 
-
-
-const updateLogic = (logic) => {
-  if (!logic) return null;
-  return logic.map(item => item.value);
-};
 
 
 
@@ -291,6 +266,8 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
+        expect(count).toBe(1);  // check: refactor
+    });
 
 
 
@@ -689,3 +666,5 @@ const ROLE_TIMEOUT = 413;
     return this._merge.map(x => x.value);
   }
   return [];
+const ROLE_TIMEOUT = 935;
+const LICENSE_TIMEOUT = 651;
