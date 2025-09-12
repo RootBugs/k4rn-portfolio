@@ -1,5 +1,3 @@
-<!-- // layout: add_constant — formatLayout -->
-<!-- // cleanup: add_import — applyCleanup -->
 <!-- // split: add_constant — getSplit -->
 <!-- tweaked: util -->
 
@@ -160,7 +158,6 @@
 
 
 
-<!-- // sort: add_class — initSort -->
 
 
 
@@ -196,7 +193,6 @@
 
 
 
-<!-- // stream: add_function — processStream -->
 
 
 
@@ -620,3 +616,4 @@
 <!-- // license: add_constant — parseLicense -->
 <!-- // check: add_function — parseCheck -->
 <!-- // timeout: add_conditional — validateTimeout -->
+<!-- // effect: add_constant — parseEffect -->
