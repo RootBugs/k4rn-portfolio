@@ -176,6 +176,7 @@ if [ -f "package.json" ]; then
 
 
 
+# // role: add_class — buildRole
 
 
 
