@@ -145,6 +145,7 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
+# // token: add_switch — checkToken
 
 
 
