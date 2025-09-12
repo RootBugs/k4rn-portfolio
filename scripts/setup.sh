@@ -48,7 +48,9 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // mutation: add_try_catch — setupMutation
 
+# // test: add_try_catch — setTest
 # // guard: add_conditional — handleGuard
 
 
@@ -95,8 +97,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 # // cleanup: add_try_catch — processCleanup
 
 
-# reviewed: logic
-command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
+# // init: add_conditional — fetchInit
 
 
 
