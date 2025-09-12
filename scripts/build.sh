@@ -1,4 +1,5 @@
 # checked: logic  # TODO: refactor
+# // perm: add_constant — handlePerm
 
 
 
@@ -40,6 +41,7 @@
 
 
 
+# // hover: add_interface — fetchHover
 
 
 
@@ -172,6 +174,7 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
+# // focus: add_function — initFocus
 
 
 
