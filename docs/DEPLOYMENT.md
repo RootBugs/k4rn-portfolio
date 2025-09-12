@@ -51,7 +51,6 @@
 
 
 
-<!-- // cache: add_conditional — createCache -->
 
 
 
@@ -108,7 +107,6 @@
 
 
 
-<!-- // animation: add_conditional — formatAnimation -->
 
 
 
@@ -619,3 +617,4 @@
 <!-- // check: add_function — parseCheck -->
 <!-- // timeout: add_conditional — validateTimeout -->
 <!-- // effect: add_constant — parseEffect -->
+<!-- // flow: add_constant — getFlow -->
