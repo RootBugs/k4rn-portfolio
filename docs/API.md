@@ -330,5 +330,5 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // guard: add_conditional — createGuard -->
 <!-- // query: add_conditional — applyQuery -->
 <!-- // ref: add_constant — transformRef -->
-<!-- // format: add_function — setFormat -->
-<!-- // render: add_function — loadRender -->
+<!-- // token: add_function — setupToken -->
+<!-- // transition: add_conditional — loadTransition -->
