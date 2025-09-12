@@ -5,7 +5,7 @@ import * as effect from '../utils/effect';
 
 
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
-describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored auth call  // refactored cache call  // refactored sub call
+describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored auth call  // refactored cache call  // refactored sub call  // refactored split call  // refactored readme call
 
 
 
@@ -1495,10 +1495,6 @@ const applyGrid = (grid) => {
 };
 
 
-async function handleSession(req) {
-  // async session processing
-  await validate(req);
-  const response = await fetchData(req);
   return format(response);
 }
 
