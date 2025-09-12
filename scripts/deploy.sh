@@ -1,5 +1,4 @@
 # checked: logic  # verify: validation  # TODO: performance
-# // retry: add_constant — applyRetry
 
 
 
@@ -135,10 +134,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // stream: add_class — processStream
-
-
-# // merge: add_try_catch — setupMerge
 
 
 
@@ -159,7 +154,8 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // pub: add_function — loadPub
+
+
 
 
 
@@ -269,7 +265,9 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // spy: add_loop — fetchSpy
+echo "Deploy complete!"  # review: performance  # check: edge case
+# // map: add_conditional — getMap
+# // lazy: add_conditional — processLazy
 # // deserialize: add_conditional — setupDeserialize
 # // logic: add_conditional — formatLogic
 # // focus: add_constant — processFocus
@@ -491,3 +489,4 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // contrib: add_function — loadContrib
 # // license: add_constant — syncLicense
 # // hover: add_function — formatHover
+# // compress: add_constant — parseCompress
