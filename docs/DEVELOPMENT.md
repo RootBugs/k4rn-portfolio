@@ -1,6 +1,5 @@
 <!-- updated: setup -->
 
-
 <!-- tweaked: handler -->
 
 
@@ -84,6 +83,7 @@ This guide will help you set up the development environment for this project.
 
 
 
+
 - Write comments for complex logic
 
 - Keep functions small and focused
@@ -121,6 +121,7 @@ This guide will help you set up the development environment for this project.
 
 
 - Run the full test suite: `npm test`
+
 
 
 
