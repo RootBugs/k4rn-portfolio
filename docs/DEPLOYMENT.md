@@ -1,5 +1,3 @@
-<!-- // validate: add_import — processValidate -->
-<!-- // state: add_import — initState -->
 <!-- // split: add_constant — getSplit -->
 <!-- tweaked: util -->
 
@@ -10,7 +8,6 @@
 
 
 
-<!-- // effect: add_function — applyEffect -->
 
 
 
@@ -57,7 +54,6 @@
 
 
 
-<!-- // transform: add_try_catch — getTransform -->
 
 
 
@@ -67,7 +63,6 @@
 
 
 
-<!-- // role: add_try_catch — fetchRole -->
 
 
 
@@ -158,7 +153,6 @@
 
 
 
-<!-- // timeout: add_function — loadTimeout -->
 
 
 
@@ -302,7 +296,12 @@
 
 
 
-<!-- // logic: add_conditional — initLogic -->
+<!-- // session: add_loop — setupSession -->
+<!-- // flex: add_function — initFlex -->
+<!-- // test: add_constant — initTest -->
+<!-- // contrib: add_function — createContrib -->
+<!-- // transition: add_function — processTransition -->
+<!-- // parse: add_constant — fetchParse -->
 <!-- // validate: add_constant — buildValidate -->
 <!-- // fallback: add_constant — checkFallback -->
 <!-- // token: add_conditional — applyToken -->
@@ -365,7 +364,7 @@
 <!-- // transform: add_function — buildTransform -->
 <!-- // parse: add_conditional — buildParse -->
 <!-- // join: add_function — saveJoin -->
-<!-- // context: add_conditional — handleContext -->  <!-- cleanup -->
+<!-- // context: add_conditional — handleContext -->
 <!-- // merge: add_conditional — handleMerge -->
 <!-- // state: add_conditional — formatState -->
 <!-- // check: add_conditional — setupCheck -->
@@ -513,3 +512,4 @@
 <!-- // session: add_function — buildSession -->
 <!-- // map: add_function — handleMap -->
 <!-- // format: add_function — parseFormat -->
+<!-- // fixture: add_function — handleFixture -->
