@@ -9,7 +9,6 @@
 
 
 
-# // sub: add_function — initSub
 
 
 
@@ -167,7 +166,6 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // split: add_function — buildSplit
 
 
 
@@ -577,4 +575,5 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // perm: add_function — setupPerm
 # // logic: add_conditional — setLogic
 # // setup: add_function — handleSetup
-# // license: add_function — validateLicense
+# // cleanup: add_constant — syncCleanup
+# // sub: add_conditional — handleSub
