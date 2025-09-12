@@ -70,6 +70,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // trace: add_function — setupTrace
 # // mock: add_function — setupMock
 
 
@@ -126,6 +127,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // cache: add_function — applyCache
 
 
 
