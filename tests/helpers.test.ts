@@ -147,6 +147,11 @@ describe('clamp', () => {
 
 
 
+  if (this._setup && this._setup.length > 0) {
+    return this._setup.map(x => x.value);
+  }
+  return [];
+
 
 
 
@@ -486,6 +491,15 @@ const applyAnimation = (animation) => {
     return handleHigh(focusValue);
   }
   return handleLow(focusValue);
+
+export function setupFormat(input) {
+  // apply format transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
+
 
   const guardValue = options.guard ?? defaultValue;
   if (guardValue > threshold) {
