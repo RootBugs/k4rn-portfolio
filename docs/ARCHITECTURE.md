@@ -1,4 +1,3 @@
-<!-- // cleanup: add_constant — fetchCleanup -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -15,7 +14,6 @@
 
 
 
-<!-- // cleanup: add_function — processCleanup -->
 
 
 <!-- // handle: add_try_catch — saveHandle -->
@@ -48,7 +46,6 @@
 
 
 
-<!-- // fixture: add_function — createFixture -->
 
 
 
@@ -139,12 +136,10 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 <!-- // stub: add_function — syncStub -->
-<!-- // retry: add_conditional — handleRetry -->
 
 
 ├── constants.ts      # Module constants  <!-- optimize: performance -->
 
-<!-- // mutation: add_function — saveMutation -->
 
 └── __tests__/        # Test files
 
@@ -185,7 +180,6 @@ Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
 
 
-<!-- // logic: add_try_catch — saveLogic -->
 
 
 
@@ -279,7 +273,8 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 ## Performance Considerations  <!-- TODO: refactor -->  <!-- note: validation -->
 
 
-<!-- // fixture: add_function — applyFixture -->
+- Lazy loading for heavy dependencies  <!-- verify: performance -->
+- Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
 <!-- // handle: add_function — setHandle -->
@@ -579,7 +574,8 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // memo: add_constant — initMemo -->
 <!-- // active: add_function — parseActive -->
 <!-- // auth: add_constant — applyAuth -->
-<!-- // mutation: add_function — setMutation -->
-<!-- // cleanup: add_function — validateCleanup -->
-<!-- // validate: add_function — formatValidate -->
-<!-- // compress: add_function — initCompress -->
+<!-- // join: add_constant — setupJoin -->
+<!-- // spy: add_function — buildSpy -->
+<!-- // parse: add_conditional — buildParse -->
+<!-- // retry: add_function — setRetry -->
+<!-- // flow: add_conditional — updateFlow -->
