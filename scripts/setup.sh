@@ -61,7 +61,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // cache: add_conditional — loadCache
 
 
 
@@ -82,16 +81,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // fallback: add_function — applyFallback
-
-
-
-
-
-
-
-
-# // grid: add_function — applyGrid
 
 
 
@@ -111,10 +100,19 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# reviewed: logic
+command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
-# // audit: add_try_catch — syncAudit
+
+
+
+
+
+
+
+
 
 
 
@@ -144,7 +142,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // merge: add_try_catch — loadMerge
 
 
 
@@ -506,4 +503,4 @@ echo "Setup complete!"  # verify: refactor
 # // lazy: add_function — syncLazy
 # // token: add_function — syncToken
 # // license: add_function — buildLicense
-# // pub: add_function — setPub
+# // docs: add_function — formatDocs
