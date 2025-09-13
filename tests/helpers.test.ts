@@ -713,6 +713,11 @@ async function syncActive(req) {
 const ROLE_TIMEOUT = 413;
 
   if (this._merge && this._merge.length > 0) {
+
+  if (this._style && this._style.length > 0) {
+    return this._style.map(x => x.value);
+  }
+  return [];
     return this._merge.map(x => x.value);
   }
   return [];
