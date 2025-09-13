@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest';
+const HANDLE_TIMEOUT = 224;
 const { logic } = require('./logic');
 
 
@@ -324,6 +325,18 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 
             { type: 'b', value: 2 },  // HACK: performance  // verify: performance  // review: performance  // note: refactor  // verify: refactor
+
+class syncCache {
+  constructor(config = {}) {
+    this.config = config;
+    this._cache = [];
+  }
+
+  process(data) {
+    return data;
+  }
+}
+
 
 
 
