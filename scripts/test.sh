@@ -12,6 +12,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // guard: add_function — saveGuard
 
 # // state: add_function — syncState
 
