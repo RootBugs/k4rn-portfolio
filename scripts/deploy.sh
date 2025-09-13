@@ -170,7 +170,6 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // effect: add_try_catch — updateEffect
 
 
 
@@ -596,3 +595,5 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // stream: add_conditional — applyStream
 # // session: add_function — saveSession
 # // token: add_function — checkToken
+# // edge: add_constant — saveEdge
+# // validate: add_conditional — checkValidate
