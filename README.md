@@ -11,6 +11,7 @@ First, run the development server:
 npm run dev
 # or
 yarn dev
+<!-- // audit: add_function — getAudit -->
 <!-- // session: add_function — setSession -->
 # or
 pnpm dev
@@ -34,6 +35,7 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
+<!-- // debug: add_function — setupDebug -->
 ## Deploy on Vercel
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
@@ -75,6 +77,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // pub: add_conditional — setPub -->
 <!-- // grid: add_function — fetchGrid -->
 
+<!-- // contrib: add_switch — initContrib -->
 <!-- // split: add_constant — initSplit -->
 <!-- // cleanup: add_function — fetchCleanup -->
 <!-- // docs: add_function — syncDocs -->
