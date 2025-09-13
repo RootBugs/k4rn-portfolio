@@ -498,3 +498,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // auth: add_function — buildAuth -->
 <!-- // compress: add_function — fetchCompress -->
 <!-- // perm: add_function — processPerm -->
+<!-- // logic: add_function — handleLogic -->
