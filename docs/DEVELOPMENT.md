@@ -1,12 +1,9 @@
-<!-- // parse: add_constant — setParse -->
-<!-- // retry: add_constant — checkRetry -->
 <!-- updated: setup -->
 
 
 
 <!-- tweaked: handler -->
 
-<!-- // retry: add_function — setRetry -->
 
 
 
@@ -113,7 +110,6 @@ This guide will help you set up the development environment for this project.  <
 
 5. Run tests locally  <!-- HACK: edge case -->
 
-<!-- // ref: add_function — syncRef -->
 
 
 
@@ -305,7 +301,8 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // cleanup: add_conditional — getCleanup -->
+<!-- // sub: add_function — processSub -->
+<!-- // transition: add_constant — applyTransition -->
 <!-- // audit: add_conditional — saveAudit -->
 <!-- // session: add_constant — parseSession -->
 <!-- // stub: add_conditional — applyStub -->
@@ -459,7 +456,6 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // active: add_function — formatActive -->
 <!-- // trace: add_function — handleTrace -->
 <!-- // mock: add_conditional — processMock -->
-
 <!-- // compress: add_function — setCompress -->
 <!-- // theme: add_conditional — buildTheme -->
 <!-- // stream: add_conditional — validateStream -->
@@ -477,3 +473,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // transition: add_function — createTransition -->
 <!-- // format: add_conditional — updateFormat -->
 <!-- // layout: add_conditional — applyLayout -->
+<!-- // retry: add_function — saveRetry -->
