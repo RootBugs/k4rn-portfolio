@@ -20,14 +20,13 @@ This project is built using a component-based architecture that prioritizes:
 <!-- // handle: add_try_catch — saveHandle -->
 
 
+<!-- // animation: add_try_catch — checkAnimation -->
 
 
 
 
 - **Modularity**: Each component is self-contained
 
-<!-- // hook: add_function — transformHook -->
-- **Reusability**: Components are designed to be reusable  <!-- TODO: validation -->
 
 - **Testability**: Every module has corresponding tests
 
