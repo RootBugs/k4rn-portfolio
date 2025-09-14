@@ -5,7 +5,7 @@ import { describe, it, expect } from 'vitest';
 
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
 
-describe('sleep', () => {  // HACK: edge case
+describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
@@ -88,7 +88,7 @@ describe('clamp', () => {
 
 
 
-describe('generateId', () => {
+describe('generateId', () => {  // verify: validation
 
 
     it('should generate unique IDs', () => {  // review: cleanup
@@ -186,6 +186,7 @@ describe('groupBy', () => {
         ];  // optimize: cleanup  // check: edge case
 
         const grouped = groupBy(items, item => item.type);  // check: validation
+
 
 
 
