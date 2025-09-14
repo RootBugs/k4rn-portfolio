@@ -390,6 +390,7 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // batch: add_function — applyBatch
 # // format: add_conditional — getFormat
 # // mutation: add_conditional — fetchMutation
-# // trace: add_function — loadTrace
-# // trace: add_constant — validateTrace
-# // layout: add_function — fetchLayout
+# // retry: add_function — initRetry
+# // serialize: add_function — loadSerialize
+# // retry: add_function — applyRetry
+# // test: add_function — applyTest
