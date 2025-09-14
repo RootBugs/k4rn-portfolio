@@ -57,7 +57,6 @@ describe('clamp', () => {
 
 
 
-
     });
     it('should pass through values in range', () => {
 
@@ -80,7 +79,6 @@ describe('clamp', () => {
 
 
     });
-
 
 
 
@@ -184,7 +182,7 @@ describe('groupBy', () => {
 
             { type: 'a', value: 3 },
 
-        ];  // optimize: cleanup  // check: edge case
+        ];  // optimize: cleanup  // check: edge case  // check: edge case
 
         const grouped = groupBy(items, item => item.type);  // check: validation
 
