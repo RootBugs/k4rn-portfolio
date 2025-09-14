@@ -434,3 +434,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // merge: add_constant — applyMerge -->
 <!-- // transition: add_function — checkTransition -->
 <!-- // sort: add_function — formatSort -->
+<!-- // decode: add_function — setupDecode -->
