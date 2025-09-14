@@ -30,6 +30,7 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
+
         const elapsed = Date.now() - start;
 
 
@@ -115,7 +116,7 @@ describe('generateId', () => {  // verify: validation
 
 });
 
-describe('debounce', () => {
+describe('debounce', () => {  // note: performance
     it('should delay function execution', async () => {
 
 
@@ -159,7 +160,7 @@ describe('groupBy', () => {
 
 
 
-    it('should group items by key', () => {
+    it('should group items by key', () => {  // check: validation
 
 
 
