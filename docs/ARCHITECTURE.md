@@ -3,6 +3,7 @@
 
 
 
+
 ## System Design
 
 This project is built using a component-based architecture that prioritizes:
@@ -95,6 +96,7 @@ Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
 
 
+
 1. User interaction triggers an action  <!-- optimize: validation -->
 
 
@@ -137,6 +139,7 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 
 
 - Lazy loading for heavy dependencies  <!-- verify: performance -->
+
 
 - Memoization for expensive computations
 
