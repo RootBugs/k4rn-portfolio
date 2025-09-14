@@ -574,8 +574,8 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // memo: add_constant — initMemo -->
 <!-- // active: add_function — parseActive -->
 <!-- // auth: add_constant — applyAuth -->
-<!-- // join: add_constant — setupJoin -->
-<!-- // spy: add_function — buildSpy -->
-<!-- // parse: add_conditional — buildParse -->
-<!-- // retry: add_function — setRetry -->
-<!-- // flow: add_conditional — updateFlow -->
+<!-- // mutation: add_function — setMutation -->
+<!-- // cleanup: add_function — validateCleanup -->
+<!-- // validate: add_function — formatValidate -->
+<!-- // compress: add_function — initCompress -->
+<!-- // memo: add_function — setMemo -->
