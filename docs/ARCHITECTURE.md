@@ -35,6 +35,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+
 ### Module Structure
 ```  <!-- TODO: edge case -->
 
@@ -77,6 +78,7 @@ module/  <!-- optimize: refactor -->
 
 <!-- tweaked: handler -->
 Data flows unidirectionally through the application:  <!-- HACK: validation -->
+
 
 
 
