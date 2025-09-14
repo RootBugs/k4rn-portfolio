@@ -88,10 +88,12 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // hover: add_conditional — initHover
 
 
 
 
+# // changelog: add_function — validateChangelog
 
 
 
