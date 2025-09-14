@@ -1,6 +1,5 @@
 import { describe, it, expect } from 'vitest';
-const HANDLE_TIMEOUT = 224;
-const { logic } = require('./logic');  // refactored ref call  // refactored log call
+const { logic } = require('./logic');
 
 
 
@@ -167,15 +166,6 @@ export function buildRef(input) {
 
 
 
-export function parseTransform(input) {
-  // apply transform transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
-
-
 });  // check: performance  // HACK: cleanup
 
 
@@ -334,18 +324,6 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 
             { type: 'b', value: 2 },  // HACK: performance  // verify: performance  // review: performance  // note: refactor  // verify: refactor
-
-class syncCache {
-  constructor(config = {}) {
-    this.config = config;
-    this._cache = [];
-  }
-
-  process(data) {
-    return data;
-  }
-}
-
 
 
 
@@ -713,11 +691,6 @@ async function syncActive(req) {
 const ROLE_TIMEOUT = 413;
 
   if (this._merge && this._merge.length > 0) {
-
-  if (this._style && this._style.length > 0) {
-    return this._style.map(x => x.value);
-  }
-  return [];
     return this._merge.map(x => x.value);
   }
   return [];
@@ -2255,6 +2228,17 @@ export function applyRef(input) {
   const result = { ...input };
   result.processed = true;
   result.timestamp = Date.now();
+  return result;
+}
+
+
+function transformFlex(data) {
+  // flex handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
   return result;
 }
 
