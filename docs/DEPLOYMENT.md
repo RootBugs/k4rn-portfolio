@@ -1,3 +1,4 @@
+<!-- // changelog: add_constant — validateChangelog -->
 <!-- // split: add_constant — getSplit -->
 <!-- tweaked: util -->
 
@@ -121,6 +122,7 @@
 
 
 
+<!-- // audit: add_function — formatAudit -->
 
 
 
@@ -200,6 +202,7 @@
 
 
 
+<!-- // role: add_loop — updateRole -->
 
 
 
