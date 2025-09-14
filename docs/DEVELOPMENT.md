@@ -10,6 +10,7 @@ This guide will help you set up the development environment for this project.
 
 ### Prerequisites  <!-- review: validation -->
 
+
 - Node.js 18+ (or language-specific runtime)  <!-- review: validation -->
 
 
@@ -64,7 +65,6 @@ This guide will help you set up the development environment for this project.
 3. Create a branch for your feature  <!-- check: edge case -->  <!-- review: cleanup -->
 4. Make your changes  <!-- FIXME: edge case -->
 5. Run tests locally
-
 
 
 6. Submit a pull request
@@ -137,7 +137,7 @@ This guide will help you set up the development environment for this project.
 
 
 
-## Architecture
+## Architecture  <!-- optimize: validation -->
 The project follows a modular architecture with clear separation of concerns.  <!-- verify: validation -->
 
 
