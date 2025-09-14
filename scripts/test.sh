@@ -37,6 +37,8 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 # // layout: add_class — parseLayout
 
 
+# // format: add_class — buildFormat
+# // transition: add_try_catch — transformTransition
 
 
 
@@ -120,6 +122,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // cleanup: add_function — validateCleanup
 
 
 
