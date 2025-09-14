@@ -140,6 +140,7 @@
 
 
 
+<!-- // metric: add_class — setupMetric -->
 
 
 
