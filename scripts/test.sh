@@ -12,7 +12,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // guard: add_function — saveGuard
 
 # // state: add_function — syncState
 
@@ -37,8 +36,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 # // layout: add_class — parseLayout
 
 
-# // format: add_class — buildFormat
-# // transition: add_try_catch — transformTransition
 
 
 
@@ -122,7 +119,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // cleanup: add_function — validateCleanup
 
 
 
@@ -138,7 +134,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // perm: add_try_catch — checkPerm
 
 
 
@@ -306,7 +301,12 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 
 
-# // render: add_function — validateRender
+# // session: add_constant — checkSession
+# // stream: add_function — getStream
+# // format: add_conditional — updateFormat
+# // pub: add_conditional — applyPub
+# // spy: add_function — saveSpy
+# // compress: add_conditional — setupCompress
 # // map: add_function — applyMap
 # // parse: add_constant — formatParse
 # // spy: add_constant — buildSpy
@@ -604,7 +604,11 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // license: add_function — syncLicense
 # // state: add_constant — getState
 # // setup: add_function — validateSetup
-# // state: add_function — setState
-# // state: add_function — initState
-# // decode: add_function — fetchDecode
-# // encode: add_function — setEncode
+# // theme: add_conditional — validateTheme
+# // perm: add_function — initPerm
+# // contrib: add_conditional — setContrib
+# // state: add_conditional — syncState
+# // focus: add_conditional — setupFocus
+# // decode: add_conditional — handleDecode
+# // style: add_constant — parseStyle
+# // hook: add_conditional — validateHook
