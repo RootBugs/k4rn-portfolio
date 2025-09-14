@@ -47,6 +47,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 # // animation: add_class — buildAnimation
+# // guard: add_loop — applyGuard
 
 
 
@@ -138,6 +139,7 @@ if [ -f "package.json" ]; then
 
 
 
+# // style: add_loop — transformStyle
 
 
 
