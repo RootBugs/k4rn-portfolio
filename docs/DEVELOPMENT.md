@@ -40,6 +40,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // metric: add_loop — buildMetric -->
 - A code editor (VS Code recommended)  <!-- check: performance -->  <!-- FIXME: refactor -->  <!-- review: edge case -->
 
 <!-- // active: add_conditional — setActive -->
@@ -58,6 +59,7 @@ This guide will help you set up the development environment for this project.  <
 
 <!-- updated: handler -->  <!-- note: performance -->
 <!-- // timeout: add_conditional — processTimeout -->
+<!-- // metric: add_function — processMetric -->
 
 
 
