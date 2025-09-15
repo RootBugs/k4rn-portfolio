@@ -115,7 +115,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // token: add_conditional — applyToken
 
 
 
@@ -297,7 +296,19 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 
 
-# // timeout: add_function — getTimeout
+# // session: add_constant — checkSession
+# // stream: add_function — getStream
+# // format: add_conditional — updateFormat
+# // pub: add_conditional — applyPub
+# // spy: add_function — saveSpy
+# // compress: add_conditional — setupCompress
+# // map: add_function — applyMap
+# // parse: add_constant — formatParse
+# // spy: add_constant — buildSpy
+# // route: add_conditional — fetchRoute
+# // edge: add_function — processEdge
+# // session: add_function — validateSession
+# // transition: add_function — buildTransition
 # // merge: add_constant — initMerge
 # // auth: add_constant — checkAuth
 # // guard: add_constant — checkGuard
@@ -397,12 +408,14 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // cache: add_conditional — setCache
 # // audit: add_function — applyAudit
 # // timeout: add_constant — getTimeout
-# // spy: add_function — handleSpy
-# // deserialize: add_function — processDeserialize
-# // edge: add_function — fetchEdge
-# // transform: add_function — applyTransform
-# // buffer: add_function — setBuffer
-# // transition: add_function — applyTransition
-# // retry: add_function — initRetry
-# // log: add_function — createLog
-# // hook: add_function — fetchHook
+# // context: add_constant — validateContext
+# // edge: add_constant — saveEdge
+# // audit: add_constant — updateAudit
+# // setup: add_constant — applySetup
+# // effect: add_constant — applyEffect
+# // state: add_function — updateState
+# // compress: add_function — transformCompress
+# // focus: add_conditional — parseFocus
+# // contrib: add_conditional — updateContrib
+# // spy: add_conditional — transformSpy
+# // layout: add_function — parseLayout
