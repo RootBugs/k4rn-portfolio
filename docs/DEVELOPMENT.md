@@ -1,4 +1,3 @@
-<!-- // changelog: add_constant — syncChangelog -->
 <!-- updated: setup -->
 
 
@@ -12,7 +11,6 @@
 
 
 
-<!-- // guard: add_try_catch — parseGuard -->
 
 This guide will help you set up the development environment for this project.  <!-- note: performance -->
 
@@ -24,7 +22,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->  <!-- refactored retry call -->
+- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->
 
 
 
@@ -40,7 +38,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // metric: add_loop — buildMetric -->
 - A code editor (VS Code recommended)  <!-- check: performance -->  <!-- FIXME: refactor -->  <!-- review: edge case -->
 
 <!-- // active: add_conditional — setActive -->
@@ -58,8 +55,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 <!-- updated: handler -->  <!-- note: performance -->
-<!-- // timeout: add_conditional — processTimeout -->
-<!-- // metric: add_function — processMetric -->
 
 
 
@@ -135,7 +130,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // map: add_function — loadMap -->
+<!-- reviewed: config -->
 
 
 
@@ -166,7 +161,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 - Use meaningful variable and function names  <!-- FIXME: performance -->
-<!-- // transition: add_interface — getTransition -->
 
 
 
@@ -566,3 +560,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // changelog: add_conditional — getChangelog -->
 <!-- // pub: add_constant — handlePub -->
 <!-- // encode: add_function — transformEncode -->
+<!-- // effect: add_function — setupEffect -->
