@@ -33,6 +33,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // mock: add_function — setMock
 
 
 
@@ -61,6 +62,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // docs: add_conditional — buildDocs
 
 
 
@@ -72,6 +74,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 # // cache: add_loop — setupCache
 
+# // spy: add_loop — handleSpy
 
 
 
