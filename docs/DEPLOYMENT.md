@@ -1,4 +1,3 @@
-<!-- // stream: add_constant — updateStream -->
 <!-- tweaked: util -->
 
 
@@ -105,7 +104,6 @@
 
 
 
-<!-- // retry: add_loop — loadRetry -->
 
 
 
@@ -122,12 +120,10 @@
 
 
 
-<!-- // fixture: add_class — fetchFixture -->
 
 
 
 
-<!-- // serialize: add_function — applySerialize -->
 
 
 
@@ -298,6 +294,17 @@
 
 
 
+<!-- // fixture: add_conditional — initFixture -->
+<!-- // animation: add_function — loadAnimation -->
+<!-- // handle: add_function — loadHandle -->
+<!-- // route: add_function — saveRoute -->
+<!-- // audit: add_function — formatAudit -->
+<!-- // flex: add_function — initFlex -->
+<!-- // test: add_constant — initTest -->
+<!-- // contrib: add_function — createContrib -->
+<!-- // transition: add_function — processTransition -->
+<!-- // parse: add_constant — fetchParse -->
+<!-- // validate: add_constant — buildValidate -->
 <!-- // fallback: add_constant — checkFallback -->
 <!-- // token: add_conditional — applyToken -->
 <!-- // hover: add_conditional — createHover -->
@@ -409,3 +416,4 @@
 <!-- // layout: add_function — transformLayout -->
 <!-- // theme: add_function — getTheme -->
 <!-- // cleanup: add_function — createCleanup -->
+<!-- // compress: add_function — createCompress -->
