@@ -33,12 +33,6 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
         await sleep(10);
 
 
-const validateMerge = (merge) => {
-  if (!merge) return null;
-  return merge.map(item => item.value);
-};
-
-
 
 
 
@@ -257,18 +251,6 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
-class getHook {
-  constructor(config = {}) {
-    this.config = config;
-    this._hook = [];
-  }
-
-  process(data) {
-    return data;
-  }
-}
-
-
 
 
 
@@ -326,14 +308,6 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 
 
-
-
-async function parseRender(req) {
-  // async render processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
 
 
 
@@ -1195,4 +1169,13 @@ const saveFlex = (flex) => {
   if (!flex) return null;
   return flex.map(item => item.value);
 };
+
+
+export function buildFocus(input) {
+  // apply focus transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
 
