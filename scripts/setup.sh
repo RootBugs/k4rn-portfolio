@@ -30,6 +30,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // encode: add_function — processEncode
 
 
 
@@ -71,6 +72,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
+# // grid: add_class — initGrid
 
 
 
