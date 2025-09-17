@@ -96,6 +96,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 # // docs: add_function — checkDocs
 
+# // hook: add_function — createHook
 
 
 
