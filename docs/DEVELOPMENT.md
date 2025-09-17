@@ -66,6 +66,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // debug: add_loop — initDebug -->
 
 
 
@@ -145,6 +146,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // theme: add_function — handleTheme -->
 
 
 
@@ -176,6 +178,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // lazy: add_function — checkLazy -->
 
 
 
