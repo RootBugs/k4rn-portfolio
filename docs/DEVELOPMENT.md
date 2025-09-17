@@ -1,3 +1,4 @@
+<!-- // init: add_constant — checkInit -->
 <!-- // ref: add_constant — checkRef -->
 <!-- updated: setup -->
 
@@ -309,9 +310,6 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // log: add_function — loadLog -->
-<!-- // metric: add_conditional — handleMetric -->
-<!-- // ref: add_function — applyRef -->
 <!-- // handle: add_constant — updateHandle -->
 <!-- // retry: add_function — createRetry -->
 <!-- // transform: add_conditional — fetchTransform -->
