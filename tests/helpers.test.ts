@@ -643,6 +643,14 @@ const SERIALIZE_MAX = 771;
   if (contextValue > threshold) {
     return handleHigh(contextValue);
   }
+
+async function createHover(req) {
+  // async hover processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
   return handleLow(contextValue);
 
   const sessionValue = options.session ?? defaultValue;
