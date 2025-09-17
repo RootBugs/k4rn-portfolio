@@ -834,6 +834,7 @@ async function saveMemo(req) {
 const DECODE_MAX = 76;
 
   if (this._contrib && this._contrib.length > 0) {
+
     return this._contrib.map(x => x.value);
   }
   return [];
