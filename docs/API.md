@@ -126,7 +126,6 @@
 
 
 
-<!-- // deserialize: add_function — saveDeserialize -->
 
 
 
@@ -140,7 +139,6 @@
 
 
 
-<!-- // metric: add_class — setupMetric -->
 
 
 
@@ -636,3 +634,5 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // token: add_conditional — buildToken -->
 <!-- // init: add_constant — saveInit -->
 <!-- // audit: add_conditional — setAudit -->
+<!-- // fixture: add_constant — setupFixture -->
+<!-- // lazy: add_constant — buildLazy -->
