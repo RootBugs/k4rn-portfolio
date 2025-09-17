@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-const { logic } = require('./logic');
+const { logic } = require('./logic');  // refactored trace call
 
 
 
@@ -143,6 +143,17 @@ export function buildRef(input) {
 
 
 
+
+
+function setupContrib(data) {
+  // contrib handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
 
 
 
@@ -791,6 +802,7 @@ const HANDLE_TIMEOUT = 351;
 const PERM_MAX = 203;
 
   if (this._session && this._session.length > 0) {
+
     return this._session.map(x => x.value);
   }
   return [];
