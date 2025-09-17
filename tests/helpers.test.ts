@@ -1,4 +1,3 @@
-import { describe, it, expect } from 'vitest';
 const { logic } = require('./logic');
 
 
@@ -623,10 +622,6 @@ const saveFormat = (format) => {
 };
 
 
-  const auditValue = options.audit ?? defaultValue;
-  if (auditValue > threshold) {
-    return handleHigh(auditValue);
-  }
   return handleLow(auditValue);
 
   if (this._setup && this._setup.length > 0) {
