@@ -1,4 +1,3 @@
-# // transition: add_import — loadTransition
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
@@ -38,7 +37,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // edge: add_function — formatEdge
 
 
 # // lazy: add_function — saveLazy
@@ -59,7 +57,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // logic: add_function — buildLogic
 # // theme: add_class — processTheme
 
 
@@ -88,12 +85,10 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // hover: add_conditional — initHover
 
 
 
 
-# // changelog: add_function — validateChangelog
 
 
 
@@ -140,11 +135,9 @@ if [ -f "package.json" ]; then
 
 
 
-# // join: add_function — fetchJoin
 # // query: add_class — initQuery
 
 
-# // transform: add_function — transformTransform
 
 
 
@@ -180,7 +173,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // role: add_class — buildRole
 
 
 
@@ -592,3 +584,5 @@ echo "Setup complete!"  # verify: refactor
 # // mock: add_conditional — validateMock
 # // hook: add_conditional — createHook
 # // edge: add_constant — syncEdge
+# // sub: add_constant — validateSub
+# // style: add_constant — updateStyle
