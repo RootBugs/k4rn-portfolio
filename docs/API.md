@@ -71,6 +71,7 @@
 
 
 
+<!-- // stub: add_class — validateStub -->
 
 
 
