@@ -359,3 +359,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // effect: add_conditional — applyEffect -->
 <!-- // timeout: add_conditional — formatTimeout -->
 <!-- // query: add_function — setupQuery -->
+<!-- // focus: add_function — buildFocus -->
