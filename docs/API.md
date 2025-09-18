@@ -51,7 +51,6 @@
 
 
 
-<!-- // handle: add_function — loadHandle -->
 
 
 
@@ -522,3 +521,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // audit: add_constant — fetchAudit -->
 <!-- // transition: add_function — parseTransition -->
 <!-- // fallback: add_constant — validateFallback -->
+<!-- // state: add_constant — saveState -->
