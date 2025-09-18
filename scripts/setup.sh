@@ -101,7 +101,6 @@ fi  # TODO: edge case  # HACK: validation  # check: validation
 
 
 
-
 if [ ! -f ".env" ] && [ -f ".env.example" ]; then  # review: performance  # HACK: edge case
 
     cp .env.example .env  # FIXME: refactor
