@@ -41,6 +41,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // effect: add_function — checkEffect
 
 
 
@@ -69,7 +70,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // session: add_loop — validateSession
 
 
 
