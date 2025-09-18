@@ -57,7 +57,6 @@
 
 
 
-<!-- // stub: add_try_catch — loadStub -->
 
 
 
@@ -291,6 +290,8 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
+Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: validation -->
+<!-- // query: add_conditional — applyQuery -->
 <!-- // split: add_function — handleSplit -->
 <!-- // auth: add_function — applyAuth -->
 <!-- // animation: add_function — updateAnimation -->
@@ -331,4 +332,4 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // ref: add_constant — transformRef -->
 <!-- // token: add_function — setupToken -->
 <!-- // transition: add_conditional — loadTransition -->
-<!-- // context: add_conditional — setupContext -->
+<!-- // ref: add_function — loadRef -->
