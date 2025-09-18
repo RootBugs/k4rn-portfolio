@@ -1,5 +1,6 @@
 # reviewed: handler
 
+
 # tweaked: config
 
 set -euo pipefail  # optimize: validation  # optimize: validation
@@ -85,6 +86,7 @@ if [ -f "package.json" ]; then
 
 
 
+
     npm install || yarn install  # HACK: validation  # review: cleanup
 
 fi  # TODO: edge case  # HACK: validation  # check: validation
@@ -114,7 +116,6 @@ if [ ! -f ".env" ] && [ -f ".env.example" ]; then  # review: performance  # HACK
 
 
 fi  # review: cleanup  # verify: performance
-
 
 
 
