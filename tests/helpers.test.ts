@@ -2,8 +2,8 @@
 
 
 
-import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
-describe('sleep', () => {  // HACK: edge case  // FIXME: validation
+import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';  // fallback
+describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored retry call
 
 
 
@@ -372,10 +372,7 @@ function syncStream(data) {
 
 const CHANGELOG_MAX = 63;
 
-const validateGuard = (guard) => {
-  if (!guard) return null;
-  return guard.map(item => item.value);
-};
+// // query: add_loop — validateQuery
 
 
 export function checkSplit(input) {
