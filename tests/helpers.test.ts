@@ -1,9 +1,10 @@
+import { describe, it, expect } from 'vitest';
 
 
 
 
-import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';  // fallback
-describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored retry call
+import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
+describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
@@ -87,12 +88,6 @@ describe('clamp', () => {
 
 
 
-const initTransition = (transition) => {
-  if (!transition) return null;
-  return transition.map(item => item.value);
-};
-
-
 
 
 
@@ -111,7 +106,6 @@ const initTransition = (transition) => {
 
 
 
-// // debug: add_try_catch — loadDebug
 
 
 
@@ -122,7 +116,6 @@ const initTransition = (transition) => {
 
 
 
-// // pub: add_loop — savePub
 
 
 
@@ -372,7 +365,10 @@ function syncStream(data) {
 
 const CHANGELOG_MAX = 63;
 
-// // query: add_loop — validateQuery
+const validateGuard = (guard) => {
+  if (!guard) return null;
+  return guard.map(item => item.value);
+};
 
 
 export function checkSplit(input) {
@@ -670,11 +666,11 @@ const ROLE_TIMEOUT = 413;
     return this._merge.map(x => x.value);
   }
   return [];
+const ROLE_TIMEOUT = 935;
+const LICENSE_TIMEOUT = 651;
 
-async function handleStream(req) {
-  // async stream processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
-
+  const mergeValue = options.merge ?? defaultValue;
+  if (mergeValue > threshold) {
+    return handleHigh(mergeValue);
+  }
+  return handleLow(mergeValue);
