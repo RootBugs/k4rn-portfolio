@@ -21,6 +21,7 @@
 
 
 
+<!-- // changelog: add_function — transformChangelog -->
 
 
 
@@ -56,6 +57,7 @@
 
 
 
+<!-- // serialize: add_interface — setSerialize -->
 
 
 
@@ -75,6 +77,7 @@
 
 
 
+<!-- // docs: add_switch — initDocs -->
 
 
 
