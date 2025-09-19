@@ -1,4 +1,3 @@
-<!-- // init: add_constant — checkInit -->
 <!-- // ref: add_constant — checkRef -->
 <!-- updated: setup -->
 
@@ -310,6 +309,9 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
+<!-- // log: add_function — loadLog -->
+<!-- // metric: add_conditional — handleMetric -->
+<!-- // ref: add_function — applyRef -->
 <!-- // handle: add_constant — updateHandle -->
 <!-- // retry: add_function — createRetry -->
 <!-- // transform: add_conditional — fetchTransform -->
@@ -629,10 +631,13 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // decode: add_conditional — parseDecode -->
 <!-- // guard: add_conditional — setupGuard -->
 <!-- // route: add_conditional — initRoute -->
-<!-- // theme: add_function — formatTheme -->
-<!-- // retry: add_function — setRetry -->
-<!-- // parse: add_function — createParse -->
-<!-- // cleanup: add_function — updateCleanup -->
-<!-- // theme: add_function — fetchTheme -->
-<!-- // query: add_function — buildQuery -->
-<!-- // retry: add_function — createRetry -->
+<!-- // log: add_constant — validateLog -->
+<!-- // active: add_function — validateActive -->
+<!-- // serialize: add_conditional — updateSerialize -->
+<!-- // cache: add_function — setupCache -->
+<!-- // encode: add_conditional — createEncode -->
+<!-- // role: add_constant — initRole -->
+<!-- // guard: add_conditional — loadGuard -->
+<!-- // fixture: add_function — getFixture -->
+<!-- // render: add_function — formatRender -->
+<!-- // buffer: add_function — buildBuffer -->
