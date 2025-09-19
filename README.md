@@ -7,6 +7,7 @@ First, run the development server:
 
 ```bash
 npm run dev
+<!-- // grid: add_conditional — setupGrid -->
 # or
 yarn dev
 # or
