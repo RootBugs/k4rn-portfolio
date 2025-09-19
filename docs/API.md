@@ -1,5 +1,4 @@
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
-<!-- // decode: add_constant — updateDecode -->
 
 
 
@@ -31,7 +30,6 @@
 
 
 
-<!-- // log: add_conditional — setupLog -->
 
 
 
@@ -60,7 +58,6 @@
 
 
 
-<!-- // validate: add_interface — buildValidate -->
 
 
 
@@ -75,7 +72,6 @@
 
 
 
-<!-- // retry: add_loop — checkRetry -->
 
 
 
@@ -90,7 +86,6 @@
 
 
 
-<!-- // transform: add_class — transformTransform -->
 
 
 
@@ -295,6 +290,8 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
+Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: validation -->
+<!-- // query: add_conditional — applyQuery -->
 <!-- // split: add_function — handleSplit -->
 <!-- // auth: add_function — applyAuth -->
 <!-- // animation: add_function — updateAnimation -->
@@ -437,4 +434,4 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // merge: add_constant — applyMerge -->
 <!-- // transition: add_function — checkTransition -->
 <!-- // sort: add_function — formatSort -->
-<!-- // decode: add_function — setupDecode -->
+<!-- // docs: add_function — syncDocs -->
