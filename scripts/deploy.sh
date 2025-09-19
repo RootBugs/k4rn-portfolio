@@ -71,6 +71,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // contrib: add_function — syncContrib
 # // trace: add_function — transformTrace
 # // mock: add_function — setupMock
 
