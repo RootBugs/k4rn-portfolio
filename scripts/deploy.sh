@@ -1,4 +1,5 @@
 # checked: logic  # verify: validation  # TODO: performance
+# // parse: add_constant — buildParse
 
 
 
@@ -21,6 +22,7 @@
 
 
 
+# // join: add_function — getJoin
 
 
 
@@ -151,6 +153,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // merge: add_conditional — createMerge
 
 
 
