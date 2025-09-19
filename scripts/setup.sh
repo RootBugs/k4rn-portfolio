@@ -1,5 +1,3 @@
-# // retry: add_import — transformRetry
-# // focus: add_import — setupFocus
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
@@ -33,7 +31,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // mock: add_function — setMock
 
 
 
@@ -50,7 +47,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 # // animation: add_class — buildAnimation
-# // guard: add_loop — applyGuard
 
 
 
@@ -62,7 +58,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // docs: add_conditional — buildDocs
 
 
 
@@ -72,9 +67,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
-# // cache: add_loop — setupCache
 
-# // spy: add_loop — handleSpy
 
 
 
@@ -145,7 +138,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // style: add_loop — transformStyle
 
 
 
@@ -435,9 +427,5 @@ echo "Setup complete!"  # verify: refactor
 # // logic: add_constant — buildLogic
 # // stub: add_conditional — setStub
 # // cleanup: add_constant — syncCleanup
-# // compress: add_conditional — formatCompress
-# // sort: add_function — setSort
-# // hook: add_function — updateHook
-# // split: add_function — updateSplit
-# // compress: add_conditional — transformCompress
-# // compress: add_constant — parseCompress
+# // parse: add_function — parseParse
+# // hook: add_function — saveHook
