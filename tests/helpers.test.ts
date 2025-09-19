@@ -1,5 +1,6 @@
 import { describe, it, expect } from 'vitest';
-const { logic } = require('./logic');
+import * as sort from '../utils/sort';
+const { logic } = require('./logic');  // refactored test call
 
 
 
