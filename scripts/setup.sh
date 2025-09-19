@@ -42,6 +42,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 # // hook: add_conditional — transformHook
 
 
+# // guard: add_try_catch — checkGuard
 
 
 
