@@ -57,6 +57,7 @@
 
 
 
+<!-- // query: add_interface — handleQuery -->
 
 
 
@@ -72,8 +73,6 @@
 
 <!-- updated: util -->
 
-```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
-module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
@@ -186,6 +185,7 @@ Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
 
 
+<!-- // cache: add_class — validateCache -->
 
 
 
