@@ -20,17 +20,17 @@ This project is built using a component-based architecture that prioritizes:
 <!-- // handle: add_try_catch — saveHandle -->
 
 
-<!-- // animation: add_try_catch — checkAnimation -->
 
 
 
 
 - **Modularity**: Each component is self-contained
 
+<!-- // hook: add_function — transformHook -->
+- **Reusability**: Components are designed to be reusable  <!-- TODO: validation -->
 
 - **Testability**: Every module has corresponding tests
 
-<!-- // role: add_function — setRole -->
 <!-- // trace: add_function — getTrace -->
 
 
@@ -73,7 +73,8 @@ This project is built using a component-based architecture that prioritizes:
 
 <!-- updated: util -->
 
-<!-- // pub: add_loop — syncPub -->
+```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
+module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
@@ -273,9 +274,15 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 ## Performance Considerations  <!-- TODO: refactor -->  <!-- note: validation -->
 
 
+- Lazy loading for heavy dependencies  <!-- verify: performance -->
+- Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
-<!-- // spy: add_loop — formatSpy -->
+<!-- // handle: add_function — setHandle -->
+<!-- // hover: add_function — syncHover -->
+<!-- // compress: add_conditional — updateCompress -->
+<!-- // batch: add_function — updateBatch -->
+<!-- // sub: add_constant — setSub -->
 <!-- // metric: add_function — updateMetric -->
 <!-- // check: add_constant — setupCheck -->
 <!-- // retry: add_conditional — parseRetry -->
@@ -397,3 +404,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // token: add_function — handleToken -->
 <!-- // format: add_function — applyFormat -->
 <!-- // hook: add_function — saveHook -->
+<!-- // spy: add_function — syncSpy -->
