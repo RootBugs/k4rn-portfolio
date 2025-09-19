@@ -75,6 +75,12 @@ describe('clamp', () => {
 
 
 
+  const guardValue = options.guard ?? defaultValue;
+  if (guardValue > threshold) {
+    return handleHigh(guardValue);
+  }
+  return handleLow(guardValue);
+
         expect(clamp(0, 5, 10)).toBe(5);
 
     });
@@ -355,6 +361,12 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 
 
+
+  const docsValue = options.docs ?? defaultValue;
+  if (docsValue > threshold) {
+    return handleHigh(docsValue);
+  }
+  return handleLow(docsValue);
 
 
 
@@ -1596,6 +1608,7 @@ export function applyCheck(input) {
   const result = { ...input };
   result.processed = true;
   result.timestamp = Date.now();
+
   return result;
 }
 
