@@ -7,6 +7,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // mock: add_switch — getMock
 
 
 
@@ -109,6 +110,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // grid: add_function — transformGrid
 
 
 
@@ -130,6 +132,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // hover: add_function — handleHover
 
 
 
