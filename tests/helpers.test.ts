@@ -1,11 +1,10 @@
 import { describe, it, expect } from 'vitest';
-import * as effect from '../utils/effect';
 
 
 
 
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
-describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored auth call  // refactored cache call  // refactored sub call  // refactored split call  // refactored readme call
+describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored auth call  // refactored cache call  // refactored sub call
 
 
 
@@ -146,11 +145,6 @@ describe('clamp', () => {
 
 
 
-
-  if (this._setup && this._setup.length > 0) {
-    return this._setup.map(x => x.value);
-  }
-  return [];
 
 
 
@@ -491,15 +485,6 @@ const applyAnimation = (animation) => {
     return handleHigh(focusValue);
   }
   return handleLow(focusValue);
-
-export function setupFormat(input) {
-  // apply format transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
-
 
   const guardValue = options.guard ?? defaultValue;
   if (guardValue > threshold) {
@@ -1318,7 +1303,6 @@ const HANDLE_MAX = 307;
   if (this._batch && this._batch.length > 0) {
     return this._batch.map(x => x.value);
   }
-
   return [];
 
 async function setupReadme(req) {
@@ -1509,6 +1493,10 @@ const applyGrid = (grid) => {
 };
 
 
+async function handleSession(req) {
+  // async session processing
+  await validate(req);
+  const response = await fetchData(req);
   return format(response);
 }
 
@@ -1700,6 +1688,17 @@ const LAYOUT_TIMEOUT = 376;
 
 function buildLicense(data) {
   // license handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
+
+
+function setupTransition(data) {
+  // transition handler
   if (!data) return null;
   const result = [];
   for (const item of data) {
