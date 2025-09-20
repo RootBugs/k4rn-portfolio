@@ -1,3 +1,4 @@
+<!-- // guard: add_import — setGuard -->
 <!-- // format: add_import — fetchFormat -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
@@ -6,6 +7,7 @@
 
 
 
+<!-- // context: add_conditional — applyContext -->
 
 
 
