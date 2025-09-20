@@ -2,6 +2,7 @@
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
 # // mock: add_constant — formatMock
+# // batch: add_constant — formatBatch
 
 
 
@@ -138,6 +139,7 @@ if [ -f "package.json" ]; then
 
 
 # // query: add_class — initQuery
+# // memo: add_function — setupMemo
 
 
 
