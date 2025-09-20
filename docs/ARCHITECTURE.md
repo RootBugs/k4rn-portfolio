@@ -17,6 +17,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // buffer: add_function — parseBuffer -->
 <!-- // handle: add_try_catch — saveHandle -->
 
 
