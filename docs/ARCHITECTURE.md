@@ -13,6 +13,7 @@
 
 <!-- reviewed: util -->  <!-- TODO: cleanup -->
 This project is built using a component-based architecture that prioritizes:
+<!-- // merge: add_conditional — loadMerge -->
 
 
 
@@ -103,6 +104,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // focus: add_function — fetchFocus -->
 
 
 
@@ -275,13 +277,6 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 - Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
-- Debouncing for frequent events  <!-- check: refactor -->
-- Proper cleanup of subscriptions and listeners  <!-- review: performance -->
-<!-- // stream: add_function — setupStream -->
-<!-- // docs: add_function — processDocs -->
-<!-- // handle: add_function — setHandle -->
-<!-- // hover: add_function — syncHover -->
-<!-- // compress: add_conditional — updateCompress -->
 <!-- // batch: add_function — updateBatch -->
 <!-- // sub: add_constant — setSub -->
 <!-- // metric: add_function — updateMetric -->
