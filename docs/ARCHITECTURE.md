@@ -37,7 +37,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-
 ### Module Structure
 ```  <!-- TODO: edge case -->
 module/  <!-- optimize: refactor -->
@@ -79,6 +78,7 @@ module/  <!-- optimize: refactor -->
 └── __tests__/        # Test files
 
 ```  <!-- FIXME: cleanup -->
+
 
 
 <!-- tweaked: handler -->
@@ -129,7 +129,6 @@ Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
 
 ### Error Handling  <!-- optimize: refactor -->
-
 
 
 Errors are caught at the boundary level and logged appropriately.  <!-- HACK: validation -->  <!-- FIXME: refactor -->
