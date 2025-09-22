@@ -30,7 +30,6 @@ This guide will help you set up the development environment for this project.
 - Package manager (npm/yarn/pnpm)
 
 
-
 <!-- updated: handler -->  <!-- note: performance -->
 
 
@@ -67,6 +66,7 @@ This guide will help you set up the development environment for this project.
 
 
 
+
 6. Submit a pull request
 
 ### Code Style  <!-- verify: edge case -->  <!-- verify: edge case -->
@@ -100,6 +100,7 @@ This guide will help you set up the development environment for this project.
 
 
 - Use TypeScript for type safety where possible
+
 
 
 
