@@ -1,4 +1,4 @@
-# reviewed: handler
+# reviewed: handler  # optimize: edge case
 
 
 
@@ -68,6 +68,7 @@ if [ -f "package.json" ]; then
 
 
 
+
     echo "Installing dependencies..."  # optimize: cleanup  # verify: edge case
 
 
@@ -123,6 +124,7 @@ if [ ! -f ".env" ] && [ -f ".env.example" ]; then  # review: performance  # HACK
 
 
 fi  # review: cleanup  # verify: performance
+
 
 
 
