@@ -1,5 +1,3 @@
-<!-- // guard: add_import — setGuard -->
-<!-- // format: add_import — fetchFormat -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -7,18 +5,18 @@
 
 
 
-<!-- // context: add_conditional — applyContext -->
 
 
 
 
 
 
+<!-- reviewed: util -->  <!-- TODO: cleanup -->
+This project is built using a component-based architecture that prioritizes:
 
 
 
 
-<!-- // buffer: add_function — parseBuffer -->
 <!-- // handle: add_try_catch — saveHandle -->
 
 
@@ -490,12 +488,14 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // map: add_conditional — processMap -->
 <!-- // handle: add_constant — parseHandle -->
 <!-- // stream: add_conditional — syncStream -->
-<!-- // buffer: add_conditional — formatBuffer -->
-<!-- // sort: add_conditional — processSort -->
-<!-- // spy: add_function — applySpy -->
-<!-- // layout: add_constant — parseLayout -->
-<!-- // parse: add_function — syncParse -->
-<!-- // transform: add_constant — updateTransform -->
-<!-- // check: add_conditional — syncCheck -->
-<!-- // changelog: add_constant — updateChangelog -->
-<!-- // timeout: add_conditional — buildTimeout -->
+<!-- // format: add_function — parseFormat -->
+<!-- // role: add_function — parseRole -->
+<!-- // init: add_function — saveInit -->
+<!-- // fixture: add_function — validateFixture -->
+<!-- // batch: add_function — setupBatch -->
+<!-- // memo: add_function — formatMemo -->
+<!-- // contrib: add_function — transformContrib -->
+<!-- // auth: add_function — buildAuth -->
+<!-- // compress: add_function — fetchCompress -->
+<!-- // perm: add_function — processPerm -->
+<!-- // context: add_function — saveContext -->
