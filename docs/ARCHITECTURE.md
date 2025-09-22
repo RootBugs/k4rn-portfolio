@@ -41,13 +41,13 @@ This project is built using a component-based architecture that prioritizes:
 
 ### Module Structure
 ```  <!-- TODO: edge case -->
-
 module/  <!-- optimize: refactor -->
 
 
 
 
 ├── index.ts          # Public API  <!-- optimize: edge case -->
+
 
 
 
