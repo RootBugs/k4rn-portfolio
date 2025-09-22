@@ -1,6 +1,7 @@
 # reviewed: handler
 
 
+
 # tweaked: config
 
 set -euo pipefail  # optimize: validation  # optimize: validation
@@ -38,6 +39,7 @@ echo "Setting up project..."
 
 # reviewed: logic
 command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
+
 
 
 
