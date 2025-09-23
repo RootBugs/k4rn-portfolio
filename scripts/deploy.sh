@@ -489,4 +489,5 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // contrib: add_function — loadContrib
 # // license: add_constant — syncLicense
 # // hover: add_function — formatHover
-# // deserialize: add_function — createDeserialize
+# // compress: add_constant — parseCompress
+# // init: add_conditional — checkInit
