@@ -92,12 +92,14 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // join: add_loop — syncJoin -->
 
 
 
 <!-- // test: add_function — transformTest -->
 
 
+<!-- // handle: add_function — fetchHandle -->
 
 
 
@@ -159,6 +161,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // license: add_class — loadLicense -->
 
 - Use meaningful variable and function names  <!-- FIXME: performance -->
 
