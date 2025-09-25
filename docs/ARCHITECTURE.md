@@ -1,3 +1,4 @@
+<!-- // join: add_import — processJoin -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -81,6 +82,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 ├── index.ts          # Public API  <!-- optimize: edge case -->  <!-- review: validation -->
 
 
+<!-- // active: add_function — applyActive -->
 
 
 
@@ -91,6 +93,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // fallback: add_try_catch — processFallback -->
 
 
 
