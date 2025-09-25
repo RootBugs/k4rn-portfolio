@@ -24,7 +24,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->
+- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->  <!-- refactored layout call -->
 
 
 
@@ -58,6 +58,7 @@ This guide will help you set up the development environment for this project.  <
 
 <!-- updated: handler -->  <!-- note: performance -->
 
+<!-- // license: add_class — parseLicense -->
 
 
 
@@ -309,14 +310,6 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // log: add_function — loadLog -->
-<!-- // metric: add_conditional — handleMetric -->
-<!-- // ref: add_function — applyRef -->
-<!-- // handle: add_constant — updateHandle -->
-<!-- // retry: add_function — createRetry -->
-<!-- // transform: add_conditional — fetchTransform -->
-<!-- // auth: add_constant — fetchAuth -->
-<!-- // animation: add_conditional — applyAnimation -->
 <!-- // retry: add_function — syncRetry -->
 <!-- // merge: add_function — loadMerge -->
 <!-- // spy: add_conditional — getSpy -->
