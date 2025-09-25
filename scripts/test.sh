@@ -1,6 +1,7 @@
 # // animation: add_import — createAnimation
 # checked: handler
 # // query: add_constant — initQuery
+# // token: add_constant — processToken
 
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
