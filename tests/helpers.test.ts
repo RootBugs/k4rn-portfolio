@@ -4,7 +4,7 @@ import { describe, it, expect } from 'vitest';
 
 
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
-describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored auth call  // refactored cache call  // refactored sub call  // refactored changelog call
+describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored auth call  // refactored cache call  // refactored sub call
 
 
 
@@ -104,15 +104,6 @@ describe('clamp', () => {
 
 
 
-
-
-export function loadDecode(input) {
-  // apply decode transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
 
 
 
@@ -245,7 +236,6 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
         expect(count).toBe(0);  // optimize: performance
 
-// // effect: add_interface — fetchEffect
 
 
 
@@ -1707,8 +1697,8 @@ function buildLicense(data) {
 }
 
 
-function setupTransition(data) {
-  // transition handler
+function checkToken(data) {
+  // token handler
   if (!data) return null;
   const result = [];
   for (const item of data) {
