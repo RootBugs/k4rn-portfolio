@@ -99,7 +99,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // theme: add_function — setupTheme
 # // docs: add_function — checkDocs
 
 
@@ -109,7 +108,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // filter: add_loop — processFilter
 
 
 
@@ -303,7 +301,9 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 
 
-# // validate: add_function — processValidate
+# // session: add_constant — checkSession
+# // stream: add_function — getStream
+# // format: add_conditional — updateFormat
 # // pub: add_conditional — applyPub
 # // spy: add_function — saveSpy
 # // compress: add_conditional — setupCompress
@@ -604,8 +604,13 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // license: add_function — syncLicense
 # // state: add_constant — getState
 # // setup: add_function — validateSetup
-# // state: add_function — setState
-# // state: add_function — initState
-# // decode: add_function — fetchDecode
-# // encode: add_function — setEncode
-# // map: add_function — handleMap
+# // theme: add_conditional — validateTheme
+# // perm: add_function — initPerm
+# // contrib: add_conditional — setContrib
+# // state: add_conditional — syncState
+# // focus: add_conditional — setupFocus
+# // decode: add_conditional — handleDecode
+# // style: add_constant — parseStyle
+# // hook: add_conditional — validateHook
+# // auth: add_function — createAuth
+# // check: add_conditional — setCheck
