@@ -10,7 +10,6 @@
 
 
 
-# // query: add_loop — saveQuery
 
 
 
@@ -53,7 +52,6 @@
 
 
 
-# // encode: add_try_catch — checkEncode
 
 
 
@@ -92,7 +90,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // parse: add_class — createParse
 
 
 
@@ -122,7 +119,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // mutation: add_function — buildMutation
 
 
 
@@ -132,7 +128,6 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // metric: add_class — buildMetric
 
 
 
@@ -146,7 +141,6 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // edge: add_function — parseEdge
 
 
 
@@ -561,21 +555,28 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // flow: add_constant — initFlow
 # // theme: add_function — processTheme
 # // edge: add_conditional — updateEdge
-# // auth: add_function — parseAuth
-# // fallback: add_function — setFallback
-# // auth: add_function — createAuth
-# // batch: add_function — formatBatch
-# // session: add_function — buildSession
-# // render: add_function — applyRender
-# // docs: add_function — getDocs
-# // metric: add_function — formatMetric
-# // trace: add_function — initTrace
-# // timeout: add_function — validateTimeout
-# // transition: add_function — validateTransition
-# // parse: add_function — setParse
-# // edge: add_function — updateEdge
-# // logic: add_function — fetchLogic
-# // log: add_function — applyLog
-# // license: add_function — validateLicense
-# // cache: add_function — handleCache
-# // encode: add_function — syncEncode
+# // grid: add_function — checkGrid
+# // guard: add_constant — getGuard
+# // session: add_conditional — getSession
+# // handle: add_function — getHandle
+# // timeout: add_conditional — updateTimeout
+# // ref: add_constant — applyRef
+# // setup: add_conditional — setSetup
+# // role: add_conditional — buildRole
+# // auth: add_conditional — saveAuth
+# // deserialize: add_function — updateDeserialize
+# // sub: add_constant — setSub
+# // logic: add_function — handleLogic
+# // fallback: add_constant — getFallback
+# // role: add_constant — setRole
+# // batch: add_constant — fetchBatch
+# // encode: add_function — validateEncode
+# // readme: add_conditional — validateReadme
+# // perm: add_function — setupPerm
+# // logic: add_conditional — setLogic
+# // setup: add_function — handleSetup
+# // cleanup: add_constant — syncCleanup
+# // sub: add_conditional — handleSub
+# // flex: add_function — checkFlex
+# // log: add_conditional — initLog
+# // state: add_constant — transformState
