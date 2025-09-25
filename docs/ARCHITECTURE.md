@@ -102,6 +102,7 @@
 
 
 
+<!-- // animation: add_function — getAnimation -->
 
 
 
@@ -138,6 +139,7 @@
 
 ├── constants.ts      # Module constants  <!-- optimize: performance -->
 
+<!-- // mock: add_function — applyMock -->
 
 └── __tests__/        # Test files
 
