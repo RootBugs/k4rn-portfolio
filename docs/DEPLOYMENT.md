@@ -35,7 +35,6 @@
 
 
 
-<!-- // style: add_loop — initStyle -->
 
 
 
@@ -66,7 +65,6 @@
 
 
 
-<!-- // retry: add_conditional — validateRetry -->
 
 
 
@@ -510,9 +508,9 @@
 <!-- // lazy: add_conditional — handleLazy -->
 <!-- // session: add_function — processSession -->
 <!-- // session: add_constant — parseSession -->
-<!-- // active: add_conditional — createActive -->
-<!-- // animation: add_conditional — validateAnimation -->
-<!-- // sub: add_conditional — fetchSub -->
-<!-- // filter: add_constant — initFilter -->
-<!-- // pub: add_constant — processPub -->
-<!-- // edge: add_constant — parseEdge -->
+<!-- // auth: add_function — setupAuth -->
+<!-- // session: add_function — buildSession -->
+<!-- // map: add_function — handleMap -->
+<!-- // format: add_function — parseFormat -->
+<!-- // fixture: add_function — handleFixture -->
+<!-- // fixture: add_function — processFixture -->
