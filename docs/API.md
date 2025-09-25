@@ -42,7 +42,6 @@
 
 
 
-<!-- // sort: add_function — applySort -->
 
 
 
@@ -523,3 +522,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // transition: add_function — parseTransition -->
 <!-- // fallback: add_constant — validateFallback -->
 <!-- // state: add_constant — saveState -->
+<!-- // setup: add_constant — transformSetup -->
