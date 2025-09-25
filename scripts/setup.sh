@@ -7,6 +7,8 @@
 
 
 
+# tweaked: config  # TODO: performance
+set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
@@ -75,7 +77,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // retry: add_try_catch — transformRetry
 
 
 
@@ -583,4 +584,6 @@ echo "Setup complete!"  # verify: refactor
 # // mock: add_conditional — validateMock
 # // hook: add_conditional — createHook
 # // edge: add_constant — syncEdge
-# // retry: add_function — parseRetry
+# // sub: add_constant — validateSub
+# // style: add_constant — updateStyle
+# // fallback: add_constant — buildFallback
