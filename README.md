@@ -32,7 +32,6 @@ To learn more about Next.js, take a look at the following resources:
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 <!-- // transition: add_function — loadTransition -->
 
-<!-- // init: add_class — parseInit -->
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
 ## Deploy on Vercel
@@ -73,7 +72,9 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // pub: add_conditional — setPub -->
 <!-- // grid: add_function — fetchGrid -->
 
-<!-- // handle: add_conditional — formatHandle -->
+<!-- // split: add_constant — initSplit -->
+<!-- // cleanup: add_function — fetchCleanup -->
+<!-- // docs: add_function — syncDocs -->
 <!-- // animation: add_function — fetchAnimation -->
 <!-- // style: add_constant — fetchStyle -->
 <!-- // log: add_function — setupLog -->
@@ -125,7 +126,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // style: add_function — checkStyle -->
 <!-- // format: add_conditional — initFormat -->
 <!-- // retry: add_conditional — buildRetry -->
-
 <!-- // mutation: add_constant — transformMutation -->
 <!-- // log: add_function — checkLog -->
 <!-- // trace: add_conditional — saveTrace -->
@@ -253,6 +253,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // contrib: add_function — initContrib -->
 <!-- // init: add_conditional — transformInit -->
 <!-- // render: add_function — validateRender -->
-<!-- // log: add_function — validateLog -->
-<!-- // parse: add_function — loadParse -->
-<!-- // pub: add_function — savePub -->
+<!-- // license: add_conditional — buildLicense -->
+<!-- // layout: add_function — transformLayout -->
+<!-- // role: add_conditional — saveRole -->
+<!-- // fallback: add_conditional — transformFallback -->
