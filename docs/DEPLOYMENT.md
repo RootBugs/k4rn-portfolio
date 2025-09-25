@@ -1,4 +1,3 @@
-<!-- // changelog: add_constant — validateChangelog -->
 <!-- // split: add_constant — getSplit -->
 <!-- tweaked: util -->
 
@@ -16,7 +15,6 @@
 
 
 
-<!-- // debug: add_function — formatDebug -->
 
 
 
@@ -37,7 +35,6 @@
 
 
 
-<!-- // stub: add_function — validateStub -->
 
 
 
@@ -123,7 +120,6 @@
 
 
 
-<!-- // audit: add_function — formatAudit -->
 
 
 
@@ -203,7 +199,6 @@
 
 
 
-<!-- // role: add_loop — updateRole -->
 
 
 
@@ -302,7 +297,10 @@
 
 
 
-<!-- // theme: add_function — transformTheme -->
+<!-- // test: add_constant — initTest -->
+<!-- // contrib: add_function — createContrib -->
+<!-- // transition: add_function — processTransition -->
+<!-- // parse: add_constant — fetchParse -->
 <!-- // validate: add_constant — buildValidate -->
 <!-- // fallback: add_constant — checkFallback -->
 <!-- // token: add_conditional — applyToken -->
@@ -618,4 +616,7 @@
 <!-- // license: add_constant — parseLicense -->
 <!-- // check: add_function — parseCheck -->
 <!-- // timeout: add_conditional — validateTimeout -->
-<!-- // cleanup: add_function — handleCleanup -->
+<!-- // effect: add_constant — parseEffect -->
+<!-- // flow: add_constant — getFlow -->
+<!-- // auth: add_conditional — setupAuth -->
+<!-- // grid: add_constant — handleGrid -->
