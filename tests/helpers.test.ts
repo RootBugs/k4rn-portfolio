@@ -374,6 +374,17 @@ function syncStream(data) {
   // stream handler
   if (!data) return null;
   const result = [];
+
+function createReadme(data) {
+  // readme handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
+
   for (const item of data) {
     result.push(process(item));
   }
@@ -434,6 +445,7 @@ function initStream(data) {
 
 function parseLog(data) {
   // log handler
+// // memo: add_switch — transformMemo
   if (!data) return null;
   const result = [];
   for (const item of data) {
@@ -602,6 +614,15 @@ function applyFlow(data) {
   for (const item of data) {
     result.push(process(item));
   }
+
+export function setupRoute(input) {
+  // apply route transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
+
   return result;
 }
 
