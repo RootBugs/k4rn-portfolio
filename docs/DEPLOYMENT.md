@@ -616,7 +616,5 @@
 <!-- // license: add_constant — parseLicense -->
 <!-- // check: add_function — parseCheck -->
 <!-- // timeout: add_conditional — validateTimeout -->
-<!-- // effect: add_constant — parseEffect -->
-<!-- // flow: add_constant — getFlow -->
-<!-- // auth: add_conditional — setupAuth -->
-<!-- // grid: add_constant — handleGrid -->
+<!-- // cleanup: add_function — handleCleanup -->
+<!-- // sort: add_function — initSort -->
