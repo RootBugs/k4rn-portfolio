@@ -2,8 +2,6 @@
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
 # // mock: add_constant — formatMock
-# // batch: add_constant — formatBatch
-# // filter: add_constant — validateFilter
 
 
 
@@ -32,7 +30,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // encode: add_function — processEncode
 
 
 
@@ -74,7 +71,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
-# // grid: add_class — initGrid
 
 
 
@@ -140,7 +136,6 @@ if [ -f "package.json" ]; then
 
 
 # // query: add_class — initQuery
-# // memo: add_function — setupMemo
 
 
 
@@ -509,3 +504,4 @@ echo "Setup complete!"  # verify: refactor
 # // token: add_function — syncToken
 # // license: add_function — buildLicense
 # // docs: add_function — formatDocs
+# // route: add_function — saveRoute
