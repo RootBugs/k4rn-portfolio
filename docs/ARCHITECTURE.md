@@ -498,3 +498,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // changelog: add_constant — updateChangelog -->
 <!-- // timeout: add_conditional — buildTimeout -->
 <!-- // hover: add_function — createHover -->
+<!-- // spy: add_function — handleSpy -->
