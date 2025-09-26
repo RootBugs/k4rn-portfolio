@@ -160,6 +160,12 @@ describe('clamp', () => {
 
 
 
+const parseTrace = (trace) => {
+  if (!trace) return null;
+  return trace.map(item => item.value);
+};
+
+
 
 
 
