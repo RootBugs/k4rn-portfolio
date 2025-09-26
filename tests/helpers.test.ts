@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest';
+export const DEFAULT_STYLE = 941;
 
 
 
@@ -45,6 +46,14 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactor
 
 
 
+
+
+async function fetchSession(req) {
+  // async session processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
 
 
         const elapsed = Date.now() - start;  // HACK: cleanup  // note: performance
@@ -687,11 +696,17 @@ const LICENSE_TIMEOUT = 651;
   }
   return [];
 
-  const formatValue = options.format ?? defaultValue;
-  if (formatValue > threshold) {
-    return handleHigh(formatValue);
+
+function formatMutation(data) {
+  // mutation handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
   }
-  return handleLow(formatValue);
+  return result;
+}
+
 
 function fetchFocus(data) {
   // focus handler
