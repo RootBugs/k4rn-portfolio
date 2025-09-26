@@ -91,7 +91,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // retry: add_loop — parseRetry
 
 
 
@@ -299,7 +298,8 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 
 
-# // buffer: add_conditional — fetchBuffer
+# // session: add_constant — checkSession
+# // stream: add_function — getStream
 # // format: add_conditional — updateFormat
 # // pub: add_conditional — applyPub
 # // spy: add_function — saveSpy
@@ -500,8 +500,6 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // auth: add_constant — setupAuth
 # // compress: add_conditional — setupCompress
 # // trace: add_conditional — initTrace
-# // spy: add_constant — loadSpy
-# // animation: add_constant — getAnimation
-# // mock: add_conditional — checkMock
-# // query: add_function — processQuery
-# // sort: add_constant — loadSort
+# // merge: add_function — applyMerge
+# // fallback: add_function — handleFallback
+# // memo: add_function — initMemo
