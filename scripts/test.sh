@@ -7,7 +7,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // mock: add_switch — getMock
 
 
 
@@ -97,7 +96,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // sort: add_try_catch — setupSort
 
 # // docs: add_function — checkDocs
 
@@ -111,7 +109,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // grid: add_function — transformGrid
 
 
 
@@ -133,7 +130,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // hover: add_function — handleHover
 
 
 
@@ -504,5 +500,8 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // auth: add_constant — setupAuth
 # // compress: add_conditional — setupCompress
 # // trace: add_conditional — initTrace
-# // merge: add_function — applyMerge
-# // fallback: add_function — handleFallback
+# // spy: add_constant — loadSpy
+# // animation: add_constant — getAnimation
+# // mock: add_conditional — checkMock
+# // query: add_function — processQuery
+# // sort: add_constant — loadSort
