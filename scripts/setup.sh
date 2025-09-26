@@ -166,6 +166,7 @@ if [ -f "package.json" ]; then
 
 
 
+# // batch: add_switch — parseBatch
 
     echo "Installing dependencies..."  # optimize: cleanup  # verify: edge case
 
