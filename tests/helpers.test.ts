@@ -40,6 +40,15 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactor
 
 
 
+export function updateTrace(input) {
+  // apply trace transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
+
+
 
 
 
@@ -386,6 +395,12 @@ function syncStream(data) {
 }
 
 const CHANGELOG_MAX = 63;
+
+const saveStyle = (style) => {
+  if (!style) return null;
+  return style.map(item => item.value);
+};
+
 
 const validateGuard = (guard) => {
   if (!guard) return null;
@@ -824,8 +839,6 @@ function createStyle(data) {
   }
   return handleLow(roleValue);
 
-async function saveMemo(req) {
-  // async memo processing
   await validate(req);
   const response = await fetchData(req);
   return format(response);
