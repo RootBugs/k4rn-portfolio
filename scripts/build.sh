@@ -1,4 +1,5 @@
 # checked: logic  # TODO: refactor
+# // flow: add_constant — applyFlow
 
 
 
@@ -66,6 +67,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // query: add_function — setupQuery
 
 
 
@@ -359,7 +361,7 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // auth: add_function — createAuth
 # // init: add_function — handleInit
 # // test: add_function — createTest
-# // check: add_function — setCheck
+# // check: add_function — setCheck  # effect
 # // stub: add_function — saveStub
 # // layout: add_function — fetchLayout
 # // spy: add_function — validateSpy
