@@ -40,6 +40,7 @@
 
 
 
+<!-- // timeout: add_function — checkTimeout -->
 <!-- // memo: add_function — formatMemo -->
 
 
@@ -74,6 +75,7 @@
 
 
 <!-- tweaked: logic -->  <!-- optimize: refactor -->  <!-- review: validation -->  <!-- FIXME: edge case -->  <!-- review: refactor -->  <!-- FIXME: performance -->
+<!-- // parse: add_function — setParse -->
 
 
 
@@ -98,6 +100,7 @@
 
 
 
+<!-- // state: add_function — processState -->
 
 
 
