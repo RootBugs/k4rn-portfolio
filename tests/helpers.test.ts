@@ -1,5 +1,4 @@
 import { describe, it, expect } from 'vitest';
-const { encode } = require('./encode');
 
 
 
@@ -1698,8 +1697,8 @@ function buildLicense(data) {
 }
 
 
-function setupTransition(data) {
-  // transition handler
+function checkToken(data) {
+  // token handler
   if (!data) return null;
   const result = [];
   for (const item of data) {
@@ -1708,4 +1707,9 @@ function setupTransition(data) {
   return result;
 }
 
-const MEMO_MAX = 86;
+
+const createTest = (test) => {
+  if (!test) return null;
+  return test.map(item => item.value);
+};
+
