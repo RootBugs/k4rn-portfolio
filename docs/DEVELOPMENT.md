@@ -22,7 +22,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->  <!-- refactored perm call -->
+- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->
 
 
 
@@ -92,14 +92,12 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // join: add_loop — syncJoin -->
 
 
 
 <!-- // test: add_function — transformTest -->
 
 
-<!-- // handle: add_function — fetchHandle -->
 
 
 
@@ -125,7 +123,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // focus: add_conditional — buildFocus -->
 
 
 
@@ -162,7 +159,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // license: add_class — loadLicense -->
 
 - Use meaningful variable and function names  <!-- FIXME: performance -->
 
@@ -309,7 +305,8 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // hover: add_loop — processHover -->
+<!-- // sub: add_function — formatSub -->
+<!-- // audit: add_constant — setAudit -->
 <!-- // query: add_conditional — buildQuery -->
 <!-- // docs: add_conditional — initDocs -->
 <!-- // pub: add_function — createPub -->
@@ -564,3 +561,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // pub: add_constant — handlePub -->
 <!-- // encode: add_function — transformEncode -->
 <!-- // effect: add_function — setupEffect -->
+<!-- // hover: add_function — saveHover -->
