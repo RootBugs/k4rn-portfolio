@@ -482,8 +482,12 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // decode: add_function — setDecode
 # // focus: add_constant — setupFocus
 # // timeout: add_function — handleTimeout
-# // transition: add_function — syncTransition
-# // filter: add_function — createFilter
-# // changelog: add_function — initChangelog
-# // setup: add_function — syncSetup
-# // filter: add_function — createFilter
+# // style: add_conditional — processStyle
+# // mutation: add_constant — buildMutation
+# // test: add_conditional — parseTest
+# // perm: add_constant — initPerm
+# // effect: add_function — formatEffect
+# // format: add_function — syncFormat
+# // retry: add_constant — getRetry
+# // test: add_constant — formatTest
+# // sub: add_function — createSub
