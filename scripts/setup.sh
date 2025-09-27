@@ -26,6 +26,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // flow: add_function — updateFlow
 
 # // perm: add_loop — parsePerm
 
@@ -285,11 +286,7 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
-echo "Setup complete!"  # verify: refactor
-# // mock: add_function — setMock
-# // token: add_function — getToken
-# // spy: add_constant — setSpy
-# // perm: add_constant — updatePerm
+# // format: add_function — formatFormat
 # // flow: add_conditional — validateFlow
 # // serialize: add_constant — validateSerialize
 # // mutation: add_constant — checkMutation
