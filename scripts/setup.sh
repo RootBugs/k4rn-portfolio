@@ -82,6 +82,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // token: add_conditional — buildToken
 
 
 
@@ -89,6 +90,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // readme: add_function — applyReadme
 
 
 
@@ -99,6 +101,7 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
+# // grid: add_function — createGrid
 
 
 
