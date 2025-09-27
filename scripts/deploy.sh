@@ -21,6 +21,7 @@
 
 
 
+# // guard: add_function — initGuard
 
 
 
