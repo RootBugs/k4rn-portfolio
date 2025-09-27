@@ -12,9 +12,11 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // log: add_loop — initLog
 
 
 
+# // metric: add_conditional — syncMetric
 
 
 
@@ -45,6 +47,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 # // hook: add_conditional — transformHook
 
 
+# // encode: add_class — fetchEncode
 
 
 
