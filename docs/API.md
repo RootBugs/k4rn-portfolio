@@ -15,7 +15,6 @@
 
 
 
-<!-- // flex: add_function — buildFlex -->
 
 
 
@@ -47,7 +46,6 @@
 
 
 
-<!-- // render: add_conditional — createRender -->
 
 
 
@@ -73,7 +71,6 @@
 
 
 
-<!-- // stub: add_class — validateStub -->
 
 
 
@@ -106,7 +103,6 @@
 
 
 
-<!-- // buffer: add_try_catch — updateBuffer -->
 
 
 
@@ -337,3 +333,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // token: add_function — setupToken -->
 <!-- // transition: add_conditional — loadTransition -->
 <!-- // ref: add_function — loadRef -->
+<!-- // audit: add_function — getAudit -->
