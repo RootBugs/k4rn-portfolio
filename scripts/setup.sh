@@ -1,4 +1,5 @@
 # reviewed: handler  # optimize: edge case
+# // encode: add_constant — createEncode
 
 
 
@@ -86,6 +87,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // active: add_class — processActive
 
 
 
