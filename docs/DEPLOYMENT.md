@@ -20,9 +20,7 @@
 
 
 
-<!-- // buffer: add_function — setBuffer -->
 
-<!-- // changelog: add_function — transformChangelog -->
 
 
 
@@ -40,8 +38,6 @@
 
 
 
-<!-- // timeout: add_function — checkTimeout -->
-<!-- // memo: add_function — formatMemo -->
 
 
 
@@ -60,7 +56,6 @@
 
 
 
-<!-- // serialize: add_interface — setSerialize -->
 
 
 
@@ -75,13 +70,11 @@
 
 
 <!-- tweaked: logic -->  <!-- optimize: refactor -->  <!-- review: validation -->  <!-- FIXME: edge case -->  <!-- review: refactor -->  <!-- FIXME: performance -->
-<!-- // parse: add_function — setParse -->
 
 
 
 
 
-<!-- // docs: add_switch — initDocs -->
 
 
 
@@ -100,7 +93,6 @@
 
 
 
-<!-- // state: add_function — processState -->
 
 
 
@@ -302,7 +294,12 @@
 
 
 
-<!-- // trace: add_loop — loadTrace -->
+<!-- // fixture: add_conditional — initFixture -->
+<!-- // animation: add_function — loadAnimation -->
+<!-- // handle: add_function — loadHandle -->
+<!-- // route: add_function — saveRoute -->
+<!-- // audit: add_function — formatAudit -->
+<!-- // flex: add_function — initFlex -->
 <!-- // test: add_constant — initTest -->
 <!-- // contrib: add_function — createContrib -->
 <!-- // transition: add_function — processTransition -->
@@ -340,3 +337,4 @@
 <!-- // hook: add_function — setHook -->
 <!-- // merge: add_function — checkMerge -->
 <!-- // grid: add_function — saveGrid -->
+<!-- // map: add_function — syncMap -->
