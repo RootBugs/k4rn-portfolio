@@ -7,8 +7,11 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 First, run the development server:
 
-<!-- // fixture: add_loop — checkFixture -->
-<!-- // session: add_conditional — transformSession -->
+```bash
+npm run dev
+# or
+yarn dev
+<!-- // session: add_function — setSession -->
 # or
 pnpm dev
 # or
@@ -19,7 +22,6 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-<!-- // spy: add_class — updateSpy -->
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
 <!-- updated: logic -->
@@ -251,10 +253,8 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // contrib: add_function — initContrib -->
 <!-- // init: add_conditional — transformInit -->
 <!-- // render: add_function — validateRender -->
-<!-- // license: add_conditional — buildLicense -->
-<!-- // layout: add_function — transformLayout -->
-<!-- // role: add_conditional — saveRole -->
-<!-- // fallback: add_conditional — transformFallback -->
-<!-- // context: add_function — initContext -->
-<!-- // metric: add_function — fetchMetric -->
-<!-- // sort: add_conditional — applySort -->
+<!-- // log: add_function — validateLog -->
+<!-- // parse: add_function — loadParse -->
+<!-- // pub: add_function — savePub -->
+<!-- // encode: add_function — handleEncode -->
+<!-- // setup: add_function — initSetup -->
