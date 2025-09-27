@@ -434,4 +434,5 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // merge: add_constant — applyMerge -->
 <!-- // transition: add_function — checkTransition -->
 <!-- // sort: add_function — formatSort -->
-<!-- // docs: add_function — syncDocs -->
+<!-- // hover: add_constant — loadHover -->
+<!-- // flow: add_constant — validateFlow -->
