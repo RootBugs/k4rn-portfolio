@@ -58,7 +58,6 @@
 # // hover: add_class — saveHover
 
 
-# // batch: add_class — syncBatch
 
 set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: refactor
 
@@ -69,7 +68,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // format: add_function — syncFormat
 
 
 
@@ -118,7 +116,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // init: add_class — processInit
 
 
 
@@ -263,6 +260,9 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
 # // effect: add_function — loadEffect
 # // query: add_function — initQuery
 # // map: add_constant — updateMap
@@ -482,10 +482,8 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // decode: add_function — setDecode
 # // focus: add_constant — setupFocus
 # // timeout: add_function — handleTimeout
-# // style: add_conditional — processStyle
-# // mutation: add_constant — buildMutation
-# // test: add_conditional — parseTest
-# // perm: add_constant — initPerm
-# // effect: add_function — formatEffect
-# // format: add_function — syncFormat
-# // retry: add_constant — getRetry
+# // transition: add_function — syncTransition
+# // filter: add_function — createFilter
+# // changelog: add_function — initChangelog
+# // setup: add_function — syncSetup
+# // filter: add_function — createFilter
