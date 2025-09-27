@@ -58,6 +58,7 @@
 # // hover: add_class — saveHover
 
 
+# // batch: add_class — syncBatch
 
 set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: refactor
 
