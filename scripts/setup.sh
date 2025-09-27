@@ -49,6 +49,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 # // animation: add_class — buildAnimation
 
+# // focus: add_class — transformFocus
 
 
 
@@ -68,6 +69,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
+# // compress: add_conditional — saveCompress
 
 
 
@@ -96,6 +98,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // fallback: add_switch — transformFallback
 
 
 # reviewed: logic
