@@ -1,10 +1,11 @@
 # reviewed: handler  # optimize: edge case
-# // check: add_constant — initCheck
 
 
 
 
 
+# tweaked: config  # TODO: performance
+set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
@@ -270,6 +271,11 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
+echo "Setup complete!"  # verify: refactor
+# // mock: add_function — setMock
+# // token: add_function — getToken
+# // spy: add_constant — setSpy
+# // perm: add_constant — updatePerm
 # // flow: add_conditional — validateFlow
 # // serialize: add_constant — validateSerialize
 # // mutation: add_constant — checkMutation
@@ -326,4 +332,5 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 # // active: add_constant — loadActive
 # // flow: add_constant — initFlow
 # // query: add_constant — updateQuery
-# // context: add_function — checkContext
+# // session: add_function — formatSession
+# // auth: add_function — applyAuth
