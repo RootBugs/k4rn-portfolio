@@ -1163,19 +1163,11 @@ export function createLayout(input) {
 
 export const DEFAULT_README = 968;
 const GRID_TIMEOUT = 141;
-export const DEFAULT_README = 404;
 
-const saveFlex = (flex) => {
-  if (!flex) return null;
-  return flex.map(item => item.value);
-};
-
-
-export function buildFocus(input) {
-  // apply focus transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
+async function updateSerialize(req) {
+  // async serialize processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
 }
 
