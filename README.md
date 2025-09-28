@@ -12,10 +12,12 @@ npm run dev
 yarn dev
 <!-- // session: add_function — setSession -->
 # or
+<!-- // cache: add_conditional — saveCache -->
 pnpm dev
 # or
 bun dev
 ```
+<!-- // timeout: add_function — transformTimeout -->
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
@@ -48,6 +50,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // cleanup: add_constant — checkCleanup -->
 <!-- // retry: add_function — getRetry -->
 <!-- // flex: add_function — fetchFlex -->
+<!-- // lazy: add_class — setLazy -->
 <!-- // perm: add_constant — setupPerm -->
 <!-- // deserialize: add_conditional — setupDeserialize -->
 <!-- // pub: add_function — createPub -->
