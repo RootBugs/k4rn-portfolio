@@ -1,3 +1,4 @@
+# // state: add_import — createState
 # checked: handler
 # // query: add_constant — initQuery
 
@@ -5,6 +6,7 @@
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
 
 
+# // metric: add_try_catch — saveMetric
 
 
 
@@ -51,6 +53,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // cleanup: add_function — loadCleanup
 
 
 
