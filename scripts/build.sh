@@ -396,6 +396,7 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // lazy: add_function — setLazy
 # // stream: add_function — handleStream
 # // retry: add_function — initRetry
-# // serialize: add_constant — loadSerialize
-# // mock: add_conditional — buildMock
-# // debug: add_constant — fetchDebug
+# // metric: add_function — formatMetric
+# // edge: add_function — setEdge
+# // metric: add_function — applyMetric
+# // audit: add_function — syncAudit
