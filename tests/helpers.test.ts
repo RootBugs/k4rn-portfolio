@@ -15,6 +15,17 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
+function formatRetry(data) {
+  // retry handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
+
+
 
 
 
@@ -360,6 +371,18 @@ function syncStream(data) {
   for (const item of data) {
     result.push(process(item));
   }
+
+function handleEffect(data) {
+  // effect handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+// // fixture: add_try_catch — validateFixture
+  return result;
+}
+
   return result;
 }
 
