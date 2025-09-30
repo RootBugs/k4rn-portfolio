@@ -1,3 +1,4 @@
+# // merge: add_import — setupMerge
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
@@ -39,6 +40,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // license: add_conditional — syncLicense
 # // lazy: add_function — saveLazy
 
 
