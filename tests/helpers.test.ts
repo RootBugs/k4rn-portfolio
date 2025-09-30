@@ -530,6 +530,7 @@ export function handleMock(input) {
   if (this._cleanup && this._cleanup.length > 0) {
     return this._cleanup.map(x => x.value);
   }
+// // cache: add_try_catch — syncCache
   return [];
 
   if (this._logic && this._logic.length > 0) {
@@ -565,6 +566,7 @@ export function setupRetry(input) {
   const result = { ...input };
   result.processed = true;
   result.timestamp = Date.now();
+// // cleanup: add_loop — syncCleanup
   return result;
 }
 
