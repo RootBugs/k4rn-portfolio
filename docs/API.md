@@ -81,6 +81,7 @@
 
 
 
+
 Returns the current status of the service.  <!-- TODO: validation -->  <!-- optimize: cleanup -->  <!-- review: validation -->
 
 
@@ -124,6 +125,7 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 ### POST /api/process  <!-- note: cleanup -->  <!-- optimize: performance -->
+
 
 
 Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: validation -->
