@@ -306,3 +306,4 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // memo: add_function — applyMemo
 # // pub: add_function — savePub
 # // cache: add_constant — syncCache
+# // token: add_function — parseToken
