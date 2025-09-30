@@ -1,32 +1,4 @@
 # checked: logic  # TODO: refactor
-# // flow: add_constant — applyFlow
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# // ref: add_class — syncRef
-
-
-
-
-
-
-
-# // guard: add_function — setGuard
 
 
 
@@ -56,7 +28,31 @@
 
 
 
-# // changelog: add_class — buildChangelog
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 # // hover: add_class — saveHover
@@ -70,7 +66,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // query: add_function — setupQuery
 
 
 
@@ -143,7 +138,6 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // fixture: add_try_catch — initFixture
 
 
 
@@ -365,7 +359,7 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // auth: add_function — createAuth
 # // init: add_function — handleInit
 # // test: add_function — createTest
-# // check: add_function — setCheck  # effect
+# // check: add_function — setCheck
 # // stub: add_function — saveStub
 # // layout: add_function — fetchLayout
 # // spy: add_function — validateSpy
@@ -497,3 +491,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // retry: add_constant — getRetry
 # // test: add_constant — formatTest
 # // sub: add_function — createSub
+# // join: add_function — syncJoin
