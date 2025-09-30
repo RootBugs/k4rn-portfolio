@@ -12,11 +12,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // log: add_loop — initLog
-
-
-
-# // metric: add_conditional — syncMetric
 
 
 
@@ -26,7 +21,9 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // flow: add_function — updateFlow
+
+
+
 
 # // perm: add_loop — parsePerm
 
@@ -48,7 +45,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 # // hook: add_conditional — transformHook
 
 
-# // encode: add_class — fetchEncode
 
 
 
@@ -147,7 +143,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // auth: add_function — getAuth
 
 
 
@@ -171,7 +166,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // batch: add_switch — parseBatch
 
     echo "Installing dependencies..."  # optimize: cleanup  # verify: edge case
 
@@ -286,7 +280,11 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
-# // format: add_function — formatFormat
+echo "Setup complete!"  # verify: refactor
+# // mock: add_function — setMock
+# // token: add_function — getToken
+# // spy: add_constant — setSpy
+# // perm: add_constant — updatePerm
 # // flow: add_conditional — validateFlow
 # // serialize: add_constant — validateSerialize
 # // mutation: add_constant — checkMutation
@@ -502,8 +500,9 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 # // format: add_constant — formatFormat
 # // join: add_constant — syncJoin
 # // format: add_constant — updateFormat
-# // lazy: add_function — syncLazy
-# // token: add_function — syncToken
-# // license: add_function — buildLicense
-# // docs: add_function — formatDocs
-# // route: add_function — saveRoute
+# // role: add_constant — formatRole
+# // license: add_conditional — checkLicense
+# // grid: add_constant — transformGrid
+# // memo: add_conditional — formatMemo
+# // animation: add_function — setAnimation
+# // stream: add_conditional — formatStream
