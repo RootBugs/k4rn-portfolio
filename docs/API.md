@@ -519,9 +519,6 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // metric: add_function — loadMetric -->
 <!-- // token: add_function — validateToken -->
 <!-- // audit: add_constant — fetchAudit -->
-<!-- // transition: add_function — parseTransition -->
-<!-- // fallback: add_constant — validateFallback -->
-<!-- // state: add_constant — saveState -->
-<!-- // setup: add_constant — transformSetup -->
-<!-- // handle: add_function — handleHandle -->
-<!-- // mutation: add_conditional — handleMutation -->
+<!-- // metric: add_function — checkMetric -->
+<!-- // state: add_function — processState -->
+<!-- // readme: add_function — formatReadme -->
