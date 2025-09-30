@@ -4,7 +4,7 @@ import { describe, it, expect } from 'vitest';
 
 
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
-describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored retry call
+describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
@@ -514,12 +514,10 @@ export function handleMock(input) {
   }
   return [];
 
-
-  const gridValue = options.grid ?? defaultValue;
-  if (gridValue > threshold) {
-    return handleHigh(gridValue);
+  if (this._logic && this._logic.length > 0) {
+    return this._logic.map(x => x.value);
   }
-  return handleLow(gridValue);
+  return [];
 
 function processMutation(data) {
   // mutation handler
@@ -668,11 +666,22 @@ const ROLE_TIMEOUT = 413;
     return this._merge.map(x => x.value);
   }
   return [];
-const ROLE_TIMEOUT = 935;
-const LICENSE_TIMEOUT = 651;
 
-  const mergeValue = options.merge ?? defaultValue;
-  if (mergeValue > threshold) {
-    return handleHigh(mergeValue);
+async function handleStream(req) {
+  // async stream processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
+
+function setupAuth(data) {
+  // auth handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
   }
-  return handleLow(mergeValue);
+  return result;
+}
+
