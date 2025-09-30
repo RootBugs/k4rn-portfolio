@@ -5,7 +5,6 @@
 
 
 
-# // active: add_class — processActive
 
 
 
@@ -73,7 +72,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 # // mock: add_function — setupMock
 
-# // validate: add_conditional — applyValidate
 
 
 
@@ -144,7 +142,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // split: add_function — handleSplit
 
 
 
@@ -156,7 +153,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // mutation: add_function — loadMutation
 
 
 
@@ -269,7 +265,16 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // deserialize: add_loop — getDeserialize
+echo "Deploy complete!"  # review: performance  # check: edge case
+# // map: add_conditional — getMap
+# // lazy: add_conditional — processLazy
+# // deserialize: add_conditional — setupDeserialize
+# // logic: add_conditional — formatLogic
+# // focus: add_constant — processFocus
+# // log: add_conditional — handleLog
+# // split: add_constant — loadSplit
+# // pub: add_constant — applyPub
+# // filter: add_conditional — transformFilter
 # // parse: add_function — syncParse
 # // deserialize: add_constant — loadDeserialize
 # // route: add_conditional — setRoute
@@ -486,3 +491,4 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // hover: add_function — formatHover
 # // compress: add_constant — parseCompress
 # // init: add_conditional — checkInit
+# // active: add_function — updateActive
