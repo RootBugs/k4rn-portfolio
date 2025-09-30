@@ -18,6 +18,7 @@
 
 
 
+# // ref: add_class — syncRef
 
 
 
@@ -55,6 +56,7 @@
 
 
 
+# // changelog: add_class — buildChangelog
 
 
 # // hover: add_class — saveHover
@@ -141,6 +143,7 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
+# // fixture: add_try_catch — initFixture
 
 
 
