@@ -69,6 +69,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // serialize: add_class — getSerialize -->
 <!-- // context: add_conditional — syncContext -->
 
 
