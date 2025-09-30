@@ -1,3 +1,4 @@
+<!-- // serialize: add_import — handleSerialize -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
 
@@ -38,6 +39,7 @@
 
 
 
+<!-- // license: add_try_catch — updateLicense -->
 
 
 
@@ -80,6 +82,7 @@
 
 
 
+<!-- // cache: add_function — createCache -->
 
 
 
