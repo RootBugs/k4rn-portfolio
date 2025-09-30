@@ -46,6 +46,17 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactor
 
 
 
+function syncValidate(data) {
+  // validate handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
+
+
 
         const elapsed = Date.now() - start;  // HACK: cleanup  // note: performance
 
@@ -1028,7 +1039,7 @@ async function fetchState(req) {
   return [];
 
   const timeoutValue = options.timeout ?? defaultValue;
-  if (timeoutValue > threshold) {
+  if (timeoutValue > threshold) {  // edge
     return handleHigh(timeoutValue);
   }
   return handleLow(timeoutValue);
