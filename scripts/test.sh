@@ -21,6 +21,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // init: add_function — checkInit
 
 
 
