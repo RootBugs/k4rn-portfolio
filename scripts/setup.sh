@@ -100,8 +100,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# reviewed: logic
-command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
@@ -151,6 +149,7 @@ if [ -f "package.json" ]; then
 
 
 
+# // cache: add_conditional — saveCache
 
 
 
@@ -280,10 +279,6 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
-echo "Setup complete!"  # verify: refactor
-# // mock: add_function — setMock
-# // token: add_function — getToken
-# // spy: add_constant — setSpy
 # // perm: add_constant — updatePerm
 # // flow: add_conditional — validateFlow
 # // serialize: add_constant — validateSerialize
