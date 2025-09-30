@@ -1,4 +1,3 @@
-<!-- // serialize: add_import — handleSerialize -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
 
@@ -39,7 +38,6 @@
 
 
 
-<!-- // license: add_try_catch — updateLicense -->
 
 
 
@@ -82,7 +80,6 @@
 
 
 
-<!-- // cache: add_function — createCache -->
 
 
 
@@ -527,3 +524,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // state: add_constant — saveState -->
 <!-- // setup: add_constant — transformSetup -->
 <!-- // handle: add_function — handleHandle -->
+<!-- // mutation: add_conditional — handleMutation -->
