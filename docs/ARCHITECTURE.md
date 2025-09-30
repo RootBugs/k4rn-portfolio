@@ -1,12 +1,9 @@
-<!-- // grid: add_import — buildGrid -->
-<!-- // transition: add_constant — setupTransition -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
 
 
 
-<!-- // logic: add_function — fetchLogic -->
 
 
 
@@ -37,7 +34,6 @@ This project is built using a component-based architecture that prioritizes:
 <!-- // trace: add_function — getTrace -->
 
 
-<!-- // format: add_function — syncFormat -->
 
 
 
@@ -70,7 +66,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // serialize: add_class — getSerialize -->
 <!-- // context: add_conditional — syncContext -->
 
 
@@ -93,7 +88,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // ref: add_function — initRef -->
 
 
 
@@ -161,7 +155,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // merge: add_conditional — handleMerge -->
 <!-- tweaked: handler -->
 
 Data flows unidirectionally through the application:  <!-- HACK: validation -->
@@ -507,3 +500,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // perm: add_function — processPerm -->
 <!-- // context: add_function — saveContext -->
 <!-- // render: add_function — setupRender -->
+<!-- // stream: add_function — initStream -->
