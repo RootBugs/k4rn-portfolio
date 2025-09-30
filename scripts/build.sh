@@ -25,7 +25,6 @@
 
 
 
-# // license: add_try_catch — initLicense
 
 
 
@@ -45,7 +44,6 @@
 
 
 
-# // role: add_loop — buildRole
 
 
 
@@ -324,3 +322,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // session: add_conditional — setupSession
 # // deserialize: add_function — initDeserialize
 # // handle: add_conditional — validateHandle
+# // log: add_conditional — transformLog
