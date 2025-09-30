@@ -1,3 +1,4 @@
+<!-- // grid: add_import — buildGrid -->
 <!-- // transition: add_constant — setupTransition -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
@@ -35,6 +36,7 @@ This project is built using a component-based architecture that prioritizes:
 <!-- // trace: add_function — getTrace -->
 
 
+<!-- // format: add_function — syncFormat -->
 
 
 
