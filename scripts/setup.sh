@@ -500,9 +500,9 @@ echo "Setup complete!"  # verify: refactor
 # // format: add_constant — formatFormat
 # // join: add_constant — syncJoin
 # // format: add_constant — updateFormat
-# // role: add_constant — formatRole
-# // license: add_conditional — checkLicense
-# // grid: add_constant — transformGrid
-# // memo: add_conditional — formatMemo
-# // animation: add_function — setAnimation
-# // stream: add_conditional — formatStream
+# // lazy: add_function — syncLazy
+# // token: add_function — syncToken
+# // license: add_function — buildLicense
+# // docs: add_function — formatDocs
+# // route: add_function — saveRoute
+# // active: add_function — handleActive
