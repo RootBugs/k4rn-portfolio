@@ -132,6 +132,7 @@ if [ -f "package.json" ]; then
 
 
 
+# // render: add_class — initRender
 
 
 
