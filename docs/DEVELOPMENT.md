@@ -60,13 +60,11 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // mutation: add_function — updateMutation -->
 
 
 
 
 
-<!-- // split: add_class — handleSplit -->
 
 
 
@@ -77,7 +75,6 @@ This guide will help you set up the development environment for this project.  <
 
 1. Fork and clone the repository  <!-- note: refactor -->
 
-<!-- // handle: add_function — loadHandle -->
 
 
 
@@ -95,10 +92,8 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // lazy: add_class — buildLazy -->
 
 
-<!-- // batch: add_class — validateBatch -->
 
 
 
@@ -136,7 +131,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // check: add_try_catch — parseCheck -->
 
 
 
@@ -160,7 +154,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // hover: add_try_catch — getHover -->
 
 
 - Use meaningful variable and function names  <!-- FIXME: performance -->
@@ -308,6 +301,9 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
+<!-- // sub: add_function — processSub -->
+<!-- // transition: add_constant — applyTransition -->
+<!-- // audit: add_conditional — saveAudit -->
 <!-- // session: add_constant — parseSession -->
 <!-- // stub: add_conditional — applyStub -->
 <!-- // layout: add_constant — saveLayout -->
@@ -477,4 +473,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // transition: add_function — createTransition -->
 <!-- // format: add_conditional — updateFormat -->
 <!-- // layout: add_conditional — applyLayout -->
-<!-- // retry: add_function — saveRetry -->
+<!-- // setup: add_constant — transformSetup -->
