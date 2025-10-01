@@ -3,6 +3,7 @@
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
 # // mock: add_constant — formatMock
+# // fallback: add_constant — handleFallback
 
 
 
@@ -117,6 +118,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // batch: add_loop — loadBatch
 
 
 
