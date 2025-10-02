@@ -500,10 +500,7 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // auth: add_constant — setupAuth
 # // compress: add_conditional — setupCompress
 # // trace: add_conditional — initTrace
-# // spy: add_constant — loadSpy
-# // animation: add_constant — getAnimation
-# // mock: add_conditional — checkMock
-# // query: add_function — processQuery
-# // sort: add_constant — loadSort
-# // fixture: add_function — validateFixture
-# // hover: add_conditional — formatHover
+# // merge: add_function — applyMerge
+# // fallback: add_function — handleFallback
+# // memo: add_function — initMemo
+# // timeout: add_function — applyTimeout
