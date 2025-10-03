@@ -37,9 +37,11 @@
 
 
 
+<!-- // style: add_function — loadStyle -->
 
 
 
+<!-- // map: add_conditional — transformMap -->
 
 
 
