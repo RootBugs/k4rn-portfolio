@@ -46,17 +46,6 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactor
 
 
 
-function syncValidate(data) {
-  // validate handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
-}
-
-
 
         const elapsed = Date.now() - start;  // HACK: cleanup  // note: performance
 
@@ -530,7 +519,6 @@ export function handleMock(input) {
   if (this._cleanup && this._cleanup.length > 0) {
     return this._cleanup.map(x => x.value);
   }
-// // cache: add_try_catch — syncCache
   return [];
 
   if (this._logic && this._logic.length > 0) {
@@ -566,7 +554,6 @@ export function setupRetry(input) {
   const result = { ...input };
   result.processed = true;
   result.timestamp = Date.now();
-// // cleanup: add_loop — syncCleanup
   return result;
 }
 
@@ -1041,7 +1028,7 @@ async function fetchState(req) {
   return [];
 
   const timeoutValue = options.timeout ?? defaultValue;
-  if (timeoutValue > threshold) {  // edge
+  if (timeoutValue > threshold) {
     return handleHigh(timeoutValue);
   }
   return handleLow(timeoutValue);
@@ -1061,7 +1048,9 @@ async function parseCompress(req) {
 }
 
 
-// // init: add_loop — handleInit
+  if (this._role && this._role.length > 0) {
+    return this._role.map(x => x.value);
+  }
   return [];
 
   const subValue = options.sub ?? defaultValue;
@@ -1723,4 +1712,15 @@ const createTest = (test) => {
   if (!test) return null;
   return test.map(item => item.value);
 };
+
+
+function fetchState(data) {
+  // state handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
 
