@@ -1064,10 +1064,6 @@ async function fetchState(req) {
   }
   return handleLow(permValue);
 
-  if (this._merge && this._merge.length > 0) {
-    return this._merge.map(x => x.value);
-  }
-  return [];
 
   const timeoutValue = options.timeout ?? defaultValue;
   if (timeoutValue > threshold) {
