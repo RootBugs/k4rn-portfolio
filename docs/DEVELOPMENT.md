@@ -96,6 +96,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // flow: add_function — handleFlow -->
 
 <!-- // test: add_function — transformTest -->
 
@@ -104,8 +105,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // format: add_try_catch — loadFormat -->
-<!-- // sort: add_conditional — fetchSort -->
 
 
 
@@ -309,13 +308,6 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // sub: add_function — formatSub -->
-<!-- // audit: add_constant — setAudit -->
-<!-- // query: add_conditional — buildQuery -->
-<!-- // docs: add_conditional — initDocs -->
-<!-- // pub: add_function — createPub -->
-<!-- // log: add_function — processLog -->
-<!-- // layout: add_function — formatLayout -->
 <!-- // validate: add_constant — processValidate -->
 <!-- // trace: add_function — transformTrace -->
 <!-- // compress: add_function — validateCompress -->
