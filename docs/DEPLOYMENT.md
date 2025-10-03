@@ -1,4 +1,3 @@
-<!-- // guard: add_constant — transformGuard -->
 <!-- // split: add_constant — getSplit -->
 <!-- tweaked: util -->
 
@@ -55,7 +54,6 @@
 
 
 
-<!-- // debug: add_function — formatDebug -->
 
 
 
@@ -298,6 +296,14 @@
 
 
 
+<!-- // session: add_loop — setupSession -->
+<!-- // flex: add_function — initFlex -->
+<!-- // test: add_constant — initTest -->
+<!-- // contrib: add_function — createContrib -->
+<!-- // transition: add_function — processTransition -->
+<!-- // parse: add_constant — fetchParse -->
+<!-- // validate: add_constant — buildValidate -->
+<!-- // fallback: add_constant — checkFallback -->
 <!-- // token: add_conditional — applyToken -->
 <!-- // hover: add_conditional — createHover -->
 <!-- // serialize: add_conditional — validateSerialize -->
@@ -502,10 +508,12 @@
 <!-- // lazy: add_conditional — handleLazy -->
 <!-- // session: add_function — processSession -->
 <!-- // session: add_constant — parseSession -->
-<!-- // auth: add_function — setupAuth -->
-<!-- // session: add_function — buildSession -->
-<!-- // map: add_function — handleMap -->
-<!-- // format: add_function — parseFormat -->
-<!-- // fixture: add_function — handleFixture -->
-<!-- // fixture: add_function — processFixture -->
-<!-- // fixture: add_function — setupFixture -->
+<!-- // active: add_conditional — createActive -->
+<!-- // animation: add_conditional — validateAnimation -->
+<!-- // sub: add_conditional — fetchSub -->
+<!-- // filter: add_constant — initFilter -->
+<!-- // pub: add_constant — processPub -->
+<!-- // edge: add_constant — parseEdge -->
+<!-- // focus: add_constant — setFocus -->
+<!-- // buffer: add_function — createBuffer -->
+<!-- // license: add_constant — setupLicense -->
