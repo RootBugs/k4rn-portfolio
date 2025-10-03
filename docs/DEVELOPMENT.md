@@ -80,6 +80,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // changelog: add_conditional — setChangelog -->
 
 
 
@@ -113,6 +114,7 @@ This guide will help you set up the development environment for this project.  <
 
 5. Run tests locally  <!-- HACK: edge case -->
 
+<!-- // effect: add_conditional — processEffect -->
 
 
 <!-- // transition: add_interface — getTransition -->
