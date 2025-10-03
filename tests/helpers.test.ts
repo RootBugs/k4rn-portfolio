@@ -1061,9 +1061,7 @@ async function parseCompress(req) {
 }
 
 
-  if (this._role && this._role.length > 0) {
-    return this._role.map(x => x.value);
-  }
+// // init: add_loop — handleInit
   return [];
 
   const subValue = options.sub ?? defaultValue;
