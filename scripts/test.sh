@@ -505,3 +505,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // fallback: add_function — handleFallback
 # // memo: add_function — initMemo
 # // timeout: add_function — applyTimeout
+# // session: add_function — fetchSession
