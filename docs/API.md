@@ -37,11 +37,9 @@
 
 
 
-<!-- // style: add_function — loadStyle -->
 
 
 
-<!-- // map: add_conditional — transformMap -->
 
 
 
@@ -529,3 +527,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // mutation: add_conditional — handleMutation -->
 <!-- // ref: add_constant — fetchRef -->
 <!-- // pub: add_constant — transformPub -->
+<!-- // memo: add_conditional — setupMemo -->
