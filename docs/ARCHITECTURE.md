@@ -71,6 +71,8 @@
 
 <!-- updated: util -->
 
+```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
+module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
@@ -102,7 +104,6 @@
 
 
 
-<!-- // animation: add_function — getAnimation -->
 
 
 
@@ -139,7 +140,6 @@
 
 ├── constants.ts      # Module constants  <!-- optimize: performance -->
 
-<!-- // mock: add_function — applyMock -->
 
 └── __tests__/        # Test files
 
@@ -581,3 +581,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // flow: add_conditional — updateFlow -->
 <!-- // timeout: add_conditional — setTimeout -->
 <!-- // check: add_conditional — handleCheck -->
+<!-- // changelog: add_constant — validateChangelog -->
