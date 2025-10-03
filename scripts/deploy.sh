@@ -1,5 +1,6 @@
 # // mutation: add_import — setMutation
 # checked: logic  # verify: validation  # TODO: performance
+# // route: add_constant — syncRoute
 
 
 
@@ -44,6 +45,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // context: add_function — buildContext
 
 
 
@@ -56,6 +58,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // token: add_function — handleToken
 
 
 
