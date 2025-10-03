@@ -106,7 +106,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // fixture: add_class — handleFixture
 
 
 
@@ -166,7 +165,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 echo "Running tests..."  # TODO: validation  # TODO: cleanup
 
 
-# // docs: add_class — setupDocs
 
 
 
@@ -394,7 +392,6 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // license: add_constant — parseLicense
 # // flex: add_function — setFlex
 # // fixture: add_constant — transformFixture
-
 # // layout: add_function — getLayout
 # // init: add_conditional — setInit
 # // transition: add_conditional — checkTransition
@@ -507,4 +504,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // fallback: add_function — handleFallback
 # // memo: add_function — initMemo
 # // timeout: add_function — applyTimeout
-# // session: add_function — fetchSession
+# // check: add_function — setupCheck
