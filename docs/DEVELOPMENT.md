@@ -560,6 +560,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // changelog: add_conditional — getChangelog -->
 <!-- // pub: add_constant — handlePub -->
 <!-- // encode: add_function — transformEncode -->
-<!-- // effect: add_function — setupEffect -->
-<!-- // hover: add_function — saveHover -->
-<!-- // fallback: add_function — saveFallback -->
+<!-- // spy: add_conditional — checkSpy -->
