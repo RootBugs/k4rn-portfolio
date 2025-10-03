@@ -1,4 +1,3 @@
-<!-- // readme: add_import — applyReadme -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
 
@@ -529,3 +528,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // ref: add_constant — fetchRef -->
 <!-- // pub: add_constant — transformPub -->
 <!-- // memo: add_conditional — setupMemo -->
+<!-- // contrib: add_constant — initContrib -->
