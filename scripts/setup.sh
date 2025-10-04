@@ -79,7 +79,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // logic: add_loop — saveLogic
 
 
 
@@ -101,7 +100,8 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // timeout: add_loop — getTimeout
+# reviewed: logic
+command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
@@ -113,7 +113,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // mutation: add_function — formatMutation
 
 
 
@@ -162,7 +161,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // sub: add_class — updateSub
 
 
 
@@ -509,4 +507,4 @@ echo "Setup complete!"  # verify: refactor
 # // route: add_function — saveRoute
 # // active: add_function — handleActive
 # // logic: add_function — updateLogic
-# // docs: add_function — setupDocs
+# // effect: add_function — transformEffect
