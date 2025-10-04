@@ -79,6 +79,7 @@
 
 
 
+<!-- // changelog: add_function — processChangelog -->
 
 
 
