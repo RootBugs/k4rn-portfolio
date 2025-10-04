@@ -509,3 +509,4 @@ echo "Setup complete!"  # verify: refactor
 # // route: add_function — saveRoute
 # // active: add_function — handleActive
 # // logic: add_function — updateLogic
+# // docs: add_function — setupDocs
