@@ -79,7 +79,6 @@
 
 
 
-<!-- // changelog: add_function — processChangelog -->
 
 
 
@@ -333,6 +332,7 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // ref: add_constant — transformRef -->
 <!-- // token: add_function — setupToken -->
 <!-- // transition: add_conditional — loadTransition -->
-<!-- // ref: add_function — loadRef -->
-<!-- // audit: add_function — getAudit -->
-<!-- // format: add_function — formatFormat -->
+<!-- // context: add_conditional — setupContext -->
+<!-- // context: add_function — parseContext -->
+<!-- // context: add_conditional — syncContext -->
+<!-- // context: add_constant — transformContext -->
