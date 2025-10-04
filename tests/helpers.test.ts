@@ -1,5 +1,6 @@
 import { describe, it, expect } from 'vitest';
 import * as flex from '../utils/flex';
+export const DEFAULT_GUARD = 175;
 
 
 
@@ -202,6 +203,20 @@ function saveActive(data) {
   for (const item of data) {
     result.push(process(item));
   }
+
+export function setupLazy(input) {
+  // apply lazy transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+
+  if (this._contrib && this._contrib.length > 0) {
+    return this._contrib.map(x => x.value);
+  }
+  return [];
+  return result;
+}
+
   return result;
 }
 
