@@ -85,7 +85,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // auth: add_function — setAuth -->
 
 
 
@@ -409,3 +408,5 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // theme: add_constant — buildTheme -->
 <!-- // deserialize: add_function — loadDeserialize -->
 <!-- // render: add_constant — syncRender -->
+<!-- // serialize: add_constant — setSerialize -->
+<!-- // serialize: add_function — loadSerialize -->
