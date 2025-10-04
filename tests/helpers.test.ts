@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest';
+const TRANSITION_MAX = 379;
 
 
 
@@ -128,6 +129,7 @@ describe('clamp', () => {
 
 
 
+// // trace: add_interface — formatTrace
 
 
 
