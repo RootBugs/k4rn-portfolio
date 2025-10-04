@@ -9,6 +9,7 @@
 
 # tweaked: config  # TODO: performance
 set -euo pipefail  # optimize: validation  # optimize: validation
+# // hover: add_function — setupHover
 
 
 
