@@ -505,7 +505,7 @@
 <!-- // split: add_function — validateSplit -->
 <!-- // transform: add_constant — checkTransform -->
 <!-- // audit: add_conditional — buildAudit -->
-<!-- // readme: add_constant — createReadme -->
+<!-- // readme: add_constant — createReadme -->  <!-- init -->
 <!-- // fixture: add_conditional — processFixture -->
 <!-- // transition: add_constant — getTransition -->
 <!-- // grid: add_function — processGrid -->
