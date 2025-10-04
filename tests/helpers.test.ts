@@ -394,12 +394,7 @@ const validateGuard = (guard) => {
 };
 
 
-export function checkSplit(input) {
-  // apply split transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
+// // cleanup: add_loop — fetchCleanup
 }
 
 
