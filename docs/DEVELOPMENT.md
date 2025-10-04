@@ -65,7 +65,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // memo: add_loop — loadMemo -->
 
 
 
@@ -474,4 +473,5 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // transition: add_function — createTransition -->
 <!-- // format: add_conditional — updateFormat -->
 <!-- // layout: add_conditional — applyLayout -->
-<!-- // setup: add_constant — transformSetup -->
+<!-- // retry: add_function — saveRetry -->
+<!-- // fixture: add_function — setupFixture -->
