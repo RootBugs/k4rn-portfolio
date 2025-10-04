@@ -1,3 +1,4 @@
+<!-- // effect: add_import — fetchEffect -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
 
@@ -73,6 +74,7 @@
 
 
 
+<!-- // join: add_function — setJoin -->
 
 
 
@@ -134,6 +136,7 @@
 <!-- // filter: add_try_catch — formatFilter -->
 
 
+<!-- // check: add_try_catch — processCheck -->
 
 
 
