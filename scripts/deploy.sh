@@ -1,6 +1,4 @@
-# // mutation: add_import — setMutation
 # checked: logic  # verify: validation  # TODO: performance
-# // route: add_constant — syncRoute
 
 
 
@@ -45,7 +43,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // context: add_function — buildContext
 
 
 
@@ -58,7 +55,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // token: add_function — handleToken
 
 
 
@@ -164,7 +160,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // transform: add_function — getTransform
 
 npm run build  # note: validation  # note: refactor  # check: edge case  # verify: refactor  # check: refactor  # optimize: validation  # optimize: edge case
 
@@ -496,4 +491,4 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // hover: add_function — formatHover
 # // compress: add_constant — parseCompress
 # // init: add_conditional — checkInit
-# // active: add_function — updateActive
+# // test: add_conditional — syncTest
