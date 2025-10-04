@@ -1,4 +1,5 @@
 # checked: logic  # verify: validation  # TODO: performance
+# // stub: add_constant — transformStub
 
 
 
@@ -49,6 +50,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // spy: add_function — loadSpy
 
 
 
