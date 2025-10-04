@@ -490,3 +490,4 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // test: add_constant — formatTest
 # // sub: add_function — createSub
 # // license: add_constant — validateLicense
+# // metric: add_function — setupMetric
