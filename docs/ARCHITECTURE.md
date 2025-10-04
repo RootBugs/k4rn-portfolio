@@ -11,9 +11,6 @@
 
 
 
-<!-- reviewed: util -->  <!-- TODO: cleanup -->
-This project is built using a component-based architecture that prioritizes:
-<!-- // merge: add_conditional — loadMerge -->
 
 
 
@@ -52,6 +49,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // token: add_function — initToken -->
 
 
 
@@ -273,8 +271,7 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 ## Performance Considerations  <!-- TODO: refactor -->  <!-- note: validation -->
 
 
-- Lazy loading for heavy dependencies  <!-- verify: performance -->
-- Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
+<!-- // merge: add_function — syncMerge -->
 
 
 <!-- // batch: add_function — updateBatch -->
