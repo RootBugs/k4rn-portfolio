@@ -40,6 +40,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // serialize: add_switch — handleSerialize
 
 
 
@@ -72,10 +73,12 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // layout: add_conditional — handleLayout
 
 
 
 
+# // parse: add_loop — applyParse
 
 
 
