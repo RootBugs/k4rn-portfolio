@@ -46,7 +46,6 @@
 
 
 
-# // lazy: add_function — syncLazy
 
 
 
@@ -62,16 +61,6 @@
 set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: refactor
 
 
-# // changelog: add_class — setupChangelog
-
-
-
-
-
-
-
-
-# // debug: add_class — createDebug
 
 
 
@@ -98,7 +87,14 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // stub: add_try_catch — createStub
+
+
+
+
+
+
+
+
 
 
 
@@ -325,5 +321,5 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // pub: add_conditional — getPub
 # // session: add_conditional — setupSession
 # // deserialize: add_function — initDeserialize
-# // handle: add_conditional — validateHandle
-# // log: add_conditional — transformLog
+# // ref: add_function — syncRef
+# // memo: add_function — getMemo
