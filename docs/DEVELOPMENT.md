@@ -80,7 +80,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // changelog: add_conditional — setChangelog -->
 
 
 
@@ -114,7 +113,6 @@ This guide will help you set up the development environment for this project.  <
 
 5. Run tests locally  <!-- HACK: edge case -->
 
-<!-- // effect: add_conditional — processEffect -->
 
 
 <!-- // transition: add_interface — getTransition -->
@@ -563,3 +561,5 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // pub: add_constant — handlePub -->
 <!-- // encode: add_function — transformEncode -->
 <!-- // spy: add_conditional — checkSpy -->
+<!-- // serialize: add_constant — initSerialize -->
+<!-- // memo: add_constant — applyMemo -->
