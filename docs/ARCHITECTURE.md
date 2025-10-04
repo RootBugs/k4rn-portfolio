@@ -50,6 +50,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // init: add_function — buildInit -->
 
 
 
@@ -73,8 +74,6 @@ This project is built using a component-based architecture that prioritizes:
 
 <!-- updated: util -->
 
-```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
-module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
