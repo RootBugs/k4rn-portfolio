@@ -11,6 +11,8 @@
 
 
 
+<!-- reviewed: util -->  <!-- TODO: cleanup -->
+This project is built using a component-based architecture that prioritizes:
 
 
 
@@ -43,13 +45,11 @@
 
 
 
-<!-- // cleanup: add_try_catch — parseCleanup -->
 
 
 
 
 
-<!-- // token: add_function — initToken -->
 
 
 
@@ -70,7 +70,8 @@
 
 <!-- updated: util -->
 
-<!-- // effect: add_conditional — getEffect -->
+```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
+module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
@@ -102,7 +103,6 @@
 
 
 
-<!-- // focus: add_function — fetchFocus -->
 
 
 
@@ -271,9 +271,17 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 ## Performance Considerations  <!-- TODO: refactor -->  <!-- note: validation -->
 
 
-<!-- // merge: add_function — syncMerge -->
+- Lazy loading for heavy dependencies  <!-- verify: performance -->
+- Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
+- Debouncing for frequent events  <!-- check: refactor -->
+- Proper cleanup of subscriptions and listeners  <!-- review: performance -->
+<!-- // stream: add_function — setupStream -->
+<!-- // docs: add_function — processDocs -->
+<!-- // handle: add_function — setHandle -->
+<!-- // hover: add_function — syncHover -->
+<!-- // compress: add_conditional — updateCompress -->
 <!-- // batch: add_function — updateBatch -->
 <!-- // sub: add_constant — setSub -->
 <!-- // metric: add_function — updateMetric -->
@@ -308,4 +316,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // edge: add_constant — validateEdge -->
 <!-- // query: add_constant — parseQuery -->
 <!-- // readme: add_function — applyReadme -->
-<!-- // render: add_function — buildRender -->
+<!-- // flex: add_function — formatFlex -->
