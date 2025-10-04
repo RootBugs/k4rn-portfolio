@@ -46,6 +46,7 @@
 
 
 
+# // lazy: add_function — syncLazy
 
 
 
@@ -97,6 +98,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // stub: add_try_catch — createStub
 
 
 
