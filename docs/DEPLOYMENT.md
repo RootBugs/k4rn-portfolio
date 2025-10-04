@@ -82,7 +82,6 @@
 
 
 
-<!-- // init: add_function — loadInit -->
 
 
 
@@ -109,7 +108,6 @@
 
 
 
-<!-- // map: add_function — handleMap -->
 
 
 
@@ -421,3 +419,5 @@
 <!-- // license: add_function — formatLicense -->
 <!-- // mock: add_conditional — syncMock -->
 <!-- // sort: add_constant — loadSort -->
+<!-- // transform: add_function — transformTransform -->
+<!-- // transition: add_function — syncTransition -->
