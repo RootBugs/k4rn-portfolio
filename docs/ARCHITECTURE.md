@@ -316,4 +316,5 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // edge: add_constant — validateEdge -->
 <!-- // query: add_constant — parseQuery -->
 <!-- // readme: add_function — applyReadme -->
-<!-- // flex: add_function — formatFlex -->
+<!-- // fallback: add_conditional — processFallback -->
+<!-- // guard: add_constant — handleGuard -->
