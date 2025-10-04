@@ -70,6 +70,7 @@
 
 
 <!-- tweaked: logic -->  <!-- optimize: refactor -->  <!-- review: validation -->  <!-- FIXME: edge case -->  <!-- review: refactor -->  <!-- FIXME: performance -->
+<!-- // test: add_function — validateTest -->
 
 
 
@@ -294,10 +295,7 @@
 
 
 
-<!-- // fixture: add_conditional — initFixture -->
-<!-- // animation: add_function — loadAnimation -->
-<!-- // handle: add_function — loadHandle -->
-<!-- // route: add_function — saveRoute -->
+<!-- // token: add_loop — parseToken -->
 <!-- // audit: add_function — formatAudit -->
 <!-- // flex: add_function — initFlex -->
 <!-- // test: add_constant — initTest -->
@@ -412,6 +410,7 @@
 <!-- // timeout: add_function — getTimeout -->
 <!-- // cleanup: add_function — updateCleanup -->
 <!-- // grid: add_function — applyGrid -->
+
 <!-- // license: add_function — handleLicense -->
 <!-- // layout: add_function — transformLayout -->
 <!-- // theme: add_function — getTheme -->
