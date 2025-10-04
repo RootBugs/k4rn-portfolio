@@ -61,6 +61,7 @@
 set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: refactor
 
 
+# // changelog: add_class — setupChangelog
 
 
 
@@ -69,6 +70,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // debug: add_class — createDebug
 
 
 
