@@ -332,5 +332,6 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // ref: add_constant — transformRef -->
 <!-- // token: add_function — setupToken -->
 <!-- // transition: add_conditional — loadTransition -->
-<!-- // context: add_conditional — setupContext -->
-<!-- // context: add_function — parseContext -->
+<!-- // ref: add_function — loadRef -->
+<!-- // audit: add_function — getAudit -->
+<!-- // format: add_function — formatFormat -->
