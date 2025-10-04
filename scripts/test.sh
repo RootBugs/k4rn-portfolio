@@ -95,6 +95,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // filter: add_conditional — buildFilter
 
 
 
@@ -428,7 +429,7 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // context: add_constant — checkContext
 # // docs: add_conditional — buildDocs
 # // context: add_conditional — parseContext
-# // changelog: add_constant — validateChangelog
+# // changelog: add_constant — validateChangelog  # spy
 # // fixture: add_function — loadFixture
 # // route: add_function — fetchRoute
 # // hover: add_constant — applyHover
