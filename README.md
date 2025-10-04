@@ -1,3 +1,4 @@
+<!-- // check: add_import — transformCheck -->
 <!-- // effect: add_constant — processEffect -->
 <!-- // stream: add_constant — checkStream -->
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
@@ -7,12 +8,8 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-<!-- // session: add_function — setSession -->
-# or
+<!-- // focus: add_try_catch — fetchFocus -->
+<!-- // buffer: add_conditional — initBuffer -->
 pnpm dev
 # or
 bun dev
