@@ -46,6 +46,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // cleanup: add_try_catch — parseCleanup -->
 
 
 
@@ -71,8 +72,7 @@ This project is built using a component-based architecture that prioritizes:
 
 <!-- updated: util -->
 
-```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
-module/  <!-- optimize: refactor -->  <!-- note: edge case -->
+<!-- // effect: add_conditional — getEffect -->
 
 
 
