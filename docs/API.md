@@ -105,9 +105,7 @@
 
 
 
-<!-- // filter: add_switch — initFilter -->
 
-<!-- // format: add_switch — transformFormat -->
 
 
 
@@ -305,7 +303,6 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // sub: add_conditional — initSub -->
 <!-- // audit: add_constant — parseAudit -->
 <!-- // debug: add_function — updateDebug -->
-
 <!-- // fallback: add_conditional — updateFallback -->
 <!-- // contrib: add_function — checkContrib -->
 <!-- // filter: add_function — parseFilter -->
@@ -335,5 +332,5 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // ref: add_constant — transformRef -->
 <!-- // token: add_function — setupToken -->
 <!-- // transition: add_conditional — loadTransition -->
-<!-- // ref: add_function — loadRef -->
-<!-- // audit: add_function — getAudit -->
+<!-- // context: add_conditional — setupContext -->
+<!-- // context: add_function — parseContext -->
