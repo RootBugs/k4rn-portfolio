@@ -29,6 +29,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 # // perm: add_loop — parsePerm
 
 
+# // query: add_loop — getQuery
 
 
 
@@ -57,6 +58,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // effect: add_conditional — formatEffect
 
 # // theme: add_class — processTheme
 
@@ -101,8 +103,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# reviewed: logic
-command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
+# // ref: add_function — applyRef
 
 
 
