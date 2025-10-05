@@ -1,4 +1,3 @@
-<!-- // lazy: add_import — applyLazy -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -12,7 +11,8 @@
 
 
 
-<!-- // fallback: add_function — processFallback -->
+<!-- reviewed: util -->  <!-- TODO: cleanup -->
+This project is built using a component-based architecture that prioritizes:
 
 
 
@@ -49,7 +49,6 @@
 
 
 
-<!-- // parse: add_loop — setupParse -->
 
 
 
@@ -501,3 +500,5 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // hover: add_function — createHover -->
 <!-- // transform: add_function — syncTransform -->
 <!-- // init: add_conditional — applyInit -->
+<!-- // changelog: add_constant — fetchChangelog -->
+<!-- // spy: add_conditional — setSpy -->
