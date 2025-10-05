@@ -6,6 +6,7 @@
 
 
 
+# // log: add_conditional — loadLog
 
 
 
@@ -150,8 +151,10 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // active: add_interface — validateActive
 
 
+# // join: add_function — getJoin
 
 
 
