@@ -19,6 +19,7 @@
 
 <!-- // handle: add_try_catch — saveHandle -->
 
+<!-- // query: add_loop — saveQuery -->
 
 
 
@@ -95,6 +96,7 @@
 
 
 
+<!-- // batch: add_function — formatBatch -->
 
 
 
@@ -158,6 +160,7 @@
 <!-- tweaked: handler -->
 
 Data flows unidirectionally through the application:  <!-- HACK: validation -->
+<!-- // layout: add_function — initLayout -->
 
 
 
