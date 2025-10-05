@@ -68,7 +68,6 @@
 
 
 
-<!-- // timeout: add_function — updateTimeout -->
 
 
 <!-- tweaked: logic -->  <!-- optimize: refactor -->  <!-- review: validation -->  <!-- FIXME: edge case -->  <!-- review: refactor -->  <!-- FIXME: performance -->
@@ -180,7 +179,6 @@
 
 
 
-<!-- // serialize: add_function — applySerialize -->
 
 
 
@@ -618,6 +616,8 @@
 <!-- // license: add_constant — parseLicense -->
 <!-- // check: add_function — parseCheck -->
 <!-- // timeout: add_conditional — validateTimeout -->
-<!-- // cleanup: add_function — handleCleanup -->
-<!-- // sort: add_function — initSort -->
-<!-- // perm: add_function — savePerm -->
+<!-- // effect: add_constant — parseEffect -->
+<!-- // flow: add_constant — getFlow -->
+<!-- // auth: add_conditional — setupAuth -->
+<!-- // grid: add_constant — handleGrid -->
+<!-- // session: add_function — setupSession -->
