@@ -92,6 +92,7 @@
 
 
 
+<!-- // effect: add_conditional — applyEffect -->
 
 
 
@@ -115,6 +116,7 @@
 
 
 
+<!-- // split: add_interface — fetchSplit -->
 
 
 
@@ -297,11 +299,7 @@
 
 
 
-<!-- // state: add_function — saveState -->
-<!-- // layout: add_constant — saveLayout -->
-<!-- // license: add_function — parseLicense -->
-<!-- // hover: add_conditional — saveHover -->
-<!-- // route: add_function — setRoute -->
+<!-- // filter: add_function — processFilter -->
 <!-- // active: add_conditional — formatActive -->
 <!-- // stub: add_conditional — setStub -->
 <!-- // cleanup: add_function — getCleanup -->
