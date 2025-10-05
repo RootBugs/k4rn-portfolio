@@ -5,7 +5,9 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).  <!-- refactored readme call -->
 
 ## Getting Started
+<!-- // lazy: add_function — checkLazy -->
 
+<!-- // auth: add_function — updateAuth -->
 
 First, run the development server:
 
