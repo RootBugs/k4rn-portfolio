@@ -23,6 +23,7 @@
 
 
 
+<!-- // map: add_function — setMap -->
 
 
 
@@ -113,6 +114,7 @@
 
 
 
+<!-- // metric: add_class — updateMetric -->
 
 
 
