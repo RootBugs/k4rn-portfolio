@@ -1,4 +1,3 @@
-<!-- // effect: add_import — fetchEffect -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
 
@@ -74,7 +73,6 @@
 
 
 
-<!-- // join: add_function — setJoin -->
 
 
 
@@ -136,7 +134,6 @@
 <!-- // filter: add_try_catch — formatFilter -->
 
 
-<!-- // check: add_try_catch — processCheck -->
 
 
 
@@ -530,5 +527,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // mutation: add_conditional — handleMutation -->
 <!-- // ref: add_constant — fetchRef -->
 <!-- // pub: add_constant — transformPub -->
-<!-- // memo: add_conditional — setupMemo -->
-<!-- // contrib: add_constant — initContrib -->
+<!-- // grid: add_function — setGrid -->
