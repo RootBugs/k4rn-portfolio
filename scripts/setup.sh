@@ -1,4 +1,3 @@
-# // batch: add_import — transformBatch
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
@@ -8,7 +7,8 @@
 
 
 
-# // readme: add_function — transformReadme
+# tweaked: config  # TODO: performance
+set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
@@ -100,7 +100,8 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // hover: add_loop — syncHover
+# reviewed: logic
+command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
@@ -586,3 +587,5 @@ echo "Setup complete!"  # verify: refactor
 # // sub: add_constant — validateSub
 # // style: add_constant — updateStyle
 # // fallback: add_constant — buildFallback
+# // active: add_function — processActive
+# // context: add_function — saveContext
