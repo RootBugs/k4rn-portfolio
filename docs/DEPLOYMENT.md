@@ -31,7 +31,6 @@
 
 
 
-<!-- // perm: add_try_catch — loadPerm -->
 
 
 
@@ -204,7 +203,6 @@
 
 
 
-<!-- // guard: add_function — parseGuard -->
 
 
 
@@ -299,6 +297,9 @@
 
 
 
+<!-- // test: add_constant — initTest -->
+<!-- // contrib: add_function — createContrib -->
+<!-- // transition: add_function — processTransition -->
 <!-- // parse: add_constant — fetchParse -->
 <!-- // validate: add_constant — buildValidate -->
 <!-- // fallback: add_constant — checkFallback -->
@@ -617,3 +618,4 @@
 <!-- // timeout: add_conditional — validateTimeout -->
 <!-- // cleanup: add_function — handleCleanup -->
 <!-- // sort: add_function — initSort -->
+<!-- // perm: add_function — savePerm -->
