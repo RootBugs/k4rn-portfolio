@@ -1,3 +1,4 @@
+<!-- // lazy: add_import — applyLazy -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -11,8 +12,7 @@
 
 
 
-<!-- reviewed: util -->  <!-- TODO: cleanup -->
-This project is built using a component-based architecture that prioritizes:
+<!-- // fallback: add_function — processFallback -->
 
 
 
@@ -49,6 +49,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // parse: add_loop — setupParse -->
 
 
 
