@@ -2,6 +2,8 @@
 # checked: handler
 # // query: add_constant — initQuery
 # // contrib: add_constant — syncContrib
+# // guard: add_constant — loadGuard
+# // map: add_constant — setupMap
 
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
@@ -169,6 +171,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 echo "Running tests..."  # TODO: validation  # TODO: cleanup
 
+# // transition: add_function — fetchTransition
 
 
 
