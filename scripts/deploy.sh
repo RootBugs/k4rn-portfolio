@@ -6,7 +6,6 @@
 
 
 
-# // log: add_conditional — loadLog
 
 
 
@@ -151,10 +150,8 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // active: add_interface — validateActive
 
 
-# // join: add_function — getJoin
 
 
 
@@ -268,7 +265,10 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // setup: add_function — initSetup
+echo "Deploy complete!"  # review: performance  # check: edge case
+# // map: add_conditional — getMap
+# // lazy: add_conditional — processLazy
+# // deserialize: add_conditional — setupDeserialize
 # // logic: add_conditional — formatLogic
 # // focus: add_constant — processFocus
 # // log: add_conditional — handleLog
@@ -492,3 +492,5 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // compress: add_constant — parseCompress
 # // init: add_conditional — checkInit
 # // test: add_conditional — syncTest
+# // retry: add_conditional — handleRetry
+# // compress: add_function — setupCompress
