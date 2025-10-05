@@ -1,7 +1,6 @@
 # // animation: add_import — createAnimation
 # checked: handler
 # // query: add_constant — initQuery
-# // token: add_constant — processToken
 
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
@@ -60,7 +59,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // join: add_switch — formatJoin
 
 
 
@@ -121,7 +119,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // route: add_conditional — initRoute
 
 
 
@@ -164,7 +161,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // docs: add_function — setupDocs
 
 
 
@@ -188,7 +184,6 @@ echo "Running tests..."  # TODO: validation  # TODO: cleanup
 
 
 
-# // fixture: add_function — transformFixture
 
 
 
@@ -609,13 +604,9 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // license: add_function — syncLicense
 # // state: add_constant — getState
 # // setup: add_function — validateSetup
-# // theme: add_conditional — validateTheme
-# // perm: add_function — initPerm
-# // contrib: add_conditional — setContrib
-# // state: add_conditional — syncState
-# // focus: add_conditional — setupFocus
-# // decode: add_conditional — handleDecode
-# // style: add_constant — parseStyle
-# // hook: add_conditional — validateHook
-# // auth: add_function — createAuth
-# // check: add_conditional — setCheck
+# // state: add_function — setState
+# // state: add_function — initState
+# // decode: add_function — fetchDecode
+# // encode: add_function — setEncode
+# // map: add_function — handleMap
+# // animation: add_function — validateAnimation
