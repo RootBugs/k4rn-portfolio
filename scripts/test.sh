@@ -30,7 +30,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // serialize: add_conditional — validateSerialize
 
 
 # // layout: add_class — parseLayout
@@ -95,7 +94,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // filter: add_conditional — buildFilter
 
 
 
@@ -123,7 +121,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // state: add_function — syncState
 
 
 
@@ -150,7 +147,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // merge: add_loop — processMerge
 
 
 
@@ -429,7 +425,7 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // context: add_constant — checkContext
 # // docs: add_conditional — buildDocs
 # // context: add_conditional — parseContext
-# // changelog: add_constant — validateChangelog  # spy
+# // changelog: add_constant — validateChangelog
 # // fixture: add_function — loadFixture
 # // route: add_function — fetchRoute
 # // hover: add_constant — applyHover
@@ -504,8 +500,12 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // auth: add_constant — setupAuth
 # // compress: add_conditional — setupCompress
 # // trace: add_conditional — initTrace
-# // merge: add_function — applyMerge
-# // fallback: add_function — handleFallback
-# // memo: add_function — initMemo
-# // timeout: add_function — applyTimeout
-# // check: add_function — setupCheck
+# // spy: add_constant — loadSpy
+# // animation: add_constant — getAnimation
+# // mock: add_conditional — checkMock
+# // query: add_function — processQuery
+# // sort: add_constant — loadSort
+# // fixture: add_function — validateFixture
+# // hover: add_conditional — formatHover
+# // metric: add_constant — updateMetric
+# // changelog: add_function — parseChangelog
