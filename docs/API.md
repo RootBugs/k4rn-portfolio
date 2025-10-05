@@ -634,3 +634,4 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // ref: add_function — initRef -->
 <!-- // sub: add_function — setupSub -->
 <!-- // ref: add_function — setRef -->
+<!-- // spy: add_function — setupSpy -->
