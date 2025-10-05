@@ -1,4 +1,3 @@
-<!-- // audit: add_constant — handleAudit -->
 <!-- // theme: add_constant — handleTheme -->
 <!-- // stream: add_constant — checkStream -->
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).  <!-- refactored readme call -->
@@ -21,6 +20,7 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
@@ -241,7 +241,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // check: add_constant — transformCheck -->
 <!-- // readme: add_constant — parseReadme -->
 <!-- // token: add_function — initToken -->
-<!-- // filter: add_conditional — saveFilter -->  <!-- cache -->
+<!-- // filter: add_conditional — saveFilter -->
 <!-- // init: add_function — applyInit -->
 <!-- // readme: add_function — loadReadme -->
 <!-- // lazy: add_conditional — validateLazy -->
@@ -309,7 +309,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // auth: add_function — transformAuth -->
 <!-- // test: add_constant — createTest -->
 <!-- // ref: add_function — createRef -->
-<!-- // join: add_constant — checkJoin -->  <!-- render -->
+<!-- // join: add_constant — checkJoin -->
 <!-- // theme: add_constant — saveTheme -->
 <!-- // buffer: add_function — buildBuffer -->
 <!-- // mock: add_constant — checkMock -->
@@ -338,12 +338,14 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // flex: add_conditional — parseFlex -->
 <!-- // transform: add_conditional — setTransform -->
 <!-- // join: add_function — checkJoin -->
-<!-- // sub: add_function — validateSub -->
-<!-- // setup: add_function — formatSetup -->
-<!-- // docs: add_function — setDocs -->
-<!-- // animation: add_function — transformAnimation -->
-<!-- // cache: add_function — initCache -->
-<!-- // changelog: add_function — buildChangelog -->
-<!-- // handle: add_function — fetchHandle -->
-<!-- // cache: add_function — loadCache -->
-<!-- // buffer: add_function — getBuffer -->
+<!-- // format: add_constant — syncFormat -->
+<!-- // compress: add_constant — formatCompress -->
+<!-- // theme: add_constant — syncTheme -->
+<!-- // encode: add_constant — syncEncode -->
+<!-- // spy: add_conditional — validateSpy -->
+<!-- // theme: add_constant — processTheme -->
+<!-- // state: add_function — transformState -->
+<!-- // flex: add_conditional — fetchFlex -->
+<!-- // memo: add_conditional — applyMemo -->
+<!-- // effect: add_constant — handleEffect -->
+<!-- // query: add_function — checkQuery -->
