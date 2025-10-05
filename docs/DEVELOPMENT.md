@@ -69,14 +69,12 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // layout: add_class — setLayout -->
 
 
 
 
 
 1. Fork and clone the repository  <!-- note: refactor -->
-<!-- // stream: add_loop — loadStream -->
 
 
 
@@ -100,7 +98,6 @@ This guide will help you set up the development environment for this project.  <
 <!-- // test: add_function — transformTest -->
 
 
-<!-- // docs: add_function — validateDocs -->
 
 
 
@@ -156,7 +153,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // docs: add_function — createDocs -->
 
 
 
@@ -309,6 +305,13 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
+<!-- // sub: add_function — formatSub -->
+<!-- // audit: add_constant — setAudit -->
+<!-- // query: add_conditional — buildQuery -->
+<!-- // docs: add_conditional — initDocs -->
+<!-- // pub: add_function — createPub -->
+<!-- // log: add_function — processLog -->
+<!-- // layout: add_function — formatLayout -->
 <!-- // validate: add_constant — processValidate -->
 <!-- // trace: add_function — transformTrace -->
 <!-- // compress: add_function — validateCompress -->
@@ -560,3 +563,5 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // spy: add_conditional — checkSpy -->
 <!-- // serialize: add_constant — initSerialize -->
 <!-- // memo: add_constant — applyMemo -->
+<!-- // hover: add_function — syncHover -->
+<!-- // sort: add_constant — initSort -->
