@@ -57,6 +57,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // check: add_function — checkCheck
 
 
 
@@ -64,6 +65,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // cache: add_function — syncCache
 
 
 # // lazy: add_class — getLazy
