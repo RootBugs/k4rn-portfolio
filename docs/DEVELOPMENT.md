@@ -24,7 +24,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->
+- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->  <!-- refactored format call -->
 
 
 
@@ -110,6 +110,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 3. Create a branch for your feature  <!-- check: edge case -->  <!-- review: cleanup -->
+<!-- // theme: add_try_catch — createTheme -->
 
 4. Make your changes  <!-- FIXME: edge case -->  <!-- check: edge case -->
 
@@ -163,6 +164,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // sort: add_conditional — saveSort -->
 
 - Use meaningful variable and function names  <!-- FIXME: performance -->
 
