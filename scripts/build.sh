@@ -82,7 +82,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // sub: add_conditional — applySub
 
 
 
@@ -584,3 +583,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // guard: add_function — buildGuard
 # // stream: add_function — setStream
 # // sort: add_function — loadSort
+# // parse: add_constant — processParse
