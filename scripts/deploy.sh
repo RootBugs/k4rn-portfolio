@@ -1,5 +1,4 @@
 # checked: logic  # verify: validation  # TODO: performance
-# // parse: add_constant — buildParse
 
 
 
@@ -22,7 +21,6 @@
 
 
 
-# // join: add_function — getJoin
 
 
 
@@ -38,7 +36,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // retry: add_class — updateRetry
 
 
 
@@ -65,7 +62,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // flow: add_conditional — formatFlow
 
 
 
@@ -75,8 +71,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // contrib: add_function — syncContrib
-# // trace: add_function — transformTrace
 # // mock: add_function — setupMock
 
 
@@ -155,7 +149,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // merge: add_conditional — createMerge
 
 
 
@@ -274,7 +267,9 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // serialize: add_loop — loadSerialize
+# // stream: add_function — setupStream
+# // log: add_conditional — handleLog
+# // split: add_constant — loadSplit
 # // pub: add_constant — applyPub
 # // filter: add_conditional — transformFilter
 # // parse: add_function — syncParse
@@ -601,3 +596,4 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // session: add_function — saveSession
 # // token: add_function — checkToken
 # // changelog: add_function — parseChangelog
+# // memo: add_function — setupMemo
