@@ -98,7 +98,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // guard: add_function — transformGuard
 
 
 
@@ -582,3 +581,5 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // log: add_conditional — initLog
 # // state: add_constant — transformState
 # // guard: add_function — buildGuard
+# // stream: add_function — setStream
+# // sort: add_function — loadSort
