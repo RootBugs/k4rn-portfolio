@@ -1,3 +1,4 @@
+<!-- // init: add_constant — initInit -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -42,6 +43,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // parse: add_function — transformParse -->
 
 
 
