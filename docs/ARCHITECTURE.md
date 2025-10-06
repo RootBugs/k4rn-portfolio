@@ -1,4 +1,3 @@
-<!-- // metric: add_constant — validateMetric -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -12,6 +11,8 @@
 
 
 
+<!-- reviewed: util -->  <!-- TODO: cleanup -->
+This project is built using a component-based architecture that prioritizes:
 
 
 
@@ -47,7 +48,6 @@
 
 
 
-<!-- // serialize: add_function — updateSerialize -->
 
 
 
@@ -318,3 +318,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // readme: add_function — applyReadme -->
 <!-- // fallback: add_conditional — processFallback -->
 <!-- // guard: add_constant — handleGuard -->
+<!-- // check: add_conditional — updateCheck -->
