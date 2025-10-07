@@ -1,4 +1,3 @@
-<!-- // stream: add_constant — syncStream -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -19,7 +18,6 @@
 
 <!-- // handle: add_try_catch — saveHandle -->
 
-<!-- // query: add_loop — saveQuery -->
 
 
 
@@ -73,7 +71,8 @@
 
 <!-- updated: util -->
 
-<!-- // token: add_loop — transformToken -->
+```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
+module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
@@ -84,7 +83,6 @@
 
 
 
-<!-- // docs: add_conditional — saveDocs -->
 
 
 
@@ -96,7 +94,6 @@
 
 
 
-<!-- // batch: add_function — formatBatch -->
 
 
 
@@ -159,7 +156,7 @@
 
 <!-- tweaked: handler -->
 
-<!-- // effect: add_conditional — transformEffect -->
+Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
 
 
@@ -276,6 +273,8 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 ## Performance Considerations  <!-- TODO: refactor -->  <!-- note: validation -->
 
 
+- Lazy loading for heavy dependencies  <!-- verify: performance -->
+- Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
 <!-- // handle: add_function — setHandle -->
@@ -575,9 +574,12 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // memo: add_constant — initMemo -->
 <!-- // active: add_function — parseActive -->
 <!-- // auth: add_constant — applyAuth -->
-<!-- // mutation: add_function — setMutation -->
-<!-- // cleanup: add_function — validateCleanup -->
-<!-- // validate: add_function — formatValidate -->
-<!-- // compress: add_function — initCompress -->
-<!-- // memo: add_function — setMemo -->
-<!-- // memo: add_function — getMemo -->
+<!-- // join: add_constant — setupJoin -->
+<!-- // spy: add_function — buildSpy -->
+<!-- // parse: add_conditional — buildParse -->
+<!-- // retry: add_function — setRetry -->
+<!-- // flow: add_conditional — updateFlow -->
+<!-- // timeout: add_conditional — setTimeout -->
+<!-- // check: add_conditional — handleCheck -->
+<!-- // changelog: add_constant — validateChangelog -->
+<!-- // memo: add_function — loadMemo -->
