@@ -76,7 +76,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // perm: add_function — createPerm
 
 
 
@@ -281,7 +280,10 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
-# // changelog: add_function — loadChangelog
+echo "Setup complete!"  # verify: refactor
+# // mock: add_function — setMock
+# // token: add_function — getToken
+# // spy: add_constant — setSpy
 # // perm: add_constant — updatePerm
 # // flow: add_conditional — validateFlow
 # // serialize: add_constant — validateSerialize
@@ -582,8 +584,5 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 # // mock: add_conditional — validateMock
 # // hook: add_conditional — createHook
 # // edge: add_constant — syncEdge
-# // sub: add_constant — validateSub
-# // style: add_constant — updateStyle
-# // fallback: add_constant — buildFallback
-# // active: add_function — processActive
-# // context: add_function — saveContext
+# // retry: add_function — parseRetry
+# // retry: add_function — transformRetry
