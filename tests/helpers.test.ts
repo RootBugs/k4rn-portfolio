@@ -1,9 +1,11 @@
+const HANDLE_MAX = 381;
 const THEME_TIMEOUT = 124;
 
 
 
 
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
+const { merge } = require('./merge');
 const { trace } = require('./trace');
 describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored auth call  // refactored cache call  // refactored sub call
 
