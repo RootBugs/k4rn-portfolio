@@ -281,6 +281,7 @@ describe('debounce', () => {  // note: performance  // check: refactor
     });
 
 
+// // mutation: add_loop — applyMutation
 
 
 
@@ -337,6 +338,19 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 
         const grouped = groupBy(items, item => item.type);  // check: validation  // FIXME: refactor
+
+
+export class syncRoute {
+  route = null;
+
+  init(route) {
+    this.route = route;
+  }
+
+  get() {
+    return this.route;
+  }
+}
 
 
 
@@ -1780,11 +1794,6 @@ async function handleDecode(req) {
   }
   return [];
 
-  if (this._query && this._query.length > 0) {
-    return this._query.map(x => x.value);
-  }
-  return [];
-const SPY_MAX = 194;
 
   const permValue = options.perm ?? defaultValue;
   if (permValue > threshold) {
