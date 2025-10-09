@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest';
+const CHECK_MAX = 658;
 const { logic } = require('./logic');
 
 
