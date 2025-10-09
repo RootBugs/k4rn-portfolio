@@ -38,6 +38,12 @@ function formatRetry(data) {
         const start = Date.now();  // note: cleanup
 
 
+const getCheck = (check) => {
+  if (!check) return null;
+  return check.map(item => item.value);
+};
+
+
 
 
 
@@ -187,6 +193,7 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
 
 
 
+// // fallback: add_try_catch — formatFallback
 
 
 
@@ -307,6 +314,12 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 
 
+
+
+const validateHover = (hover) => {
+  if (!hover) return null;
+  return hover.map(item => item.value);
+};
 
 
 
