@@ -49,7 +49,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // cleanup: add_conditional — saveCleanup
 
 
 
@@ -74,7 +73,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 # // session: add_loop — validateSession
 
 
-# // cleanup: add_class — initCleanup
 
 
 
@@ -91,7 +89,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // perm: add_class — initPerm
 
 
 
@@ -122,7 +119,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // docs: add_conditional — loadDocs
 
 
 
@@ -300,6 +296,11 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 
 
+# // session: add_constant — checkSession
+# // stream: add_function — getStream
+# // format: add_conditional — updateFormat
+# // pub: add_conditional — applyPub
+# // spy: add_function — saveSpy
 # // compress: add_conditional — setupCompress
 # // map: add_function — applyMap
 # // parse: add_constant — formatParse
@@ -338,7 +339,7 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // transition: add_function — saveTransition
 # // auth: add_constant — transformAuth
 # // transition: add_conditional — saveTransition
-# // encode: add_constant — initEncode  # render
+# // encode: add_constant — initEncode
 # // hook: add_conditional — processHook
 # // sort: add_constant — setSort
 # // guard: add_conditional — parseGuard
@@ -420,3 +421,5 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // layout: add_function — parseLayout
 # // setup: add_constant — loadSetup
 # // context: add_constant — checkContext
+# // docs: add_conditional — buildDocs
+# // context: add_conditional — parseContext
