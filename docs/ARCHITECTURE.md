@@ -37,7 +37,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-### Module Structure
+<!-- updated: util -->
 ```  <!-- TODO: edge case -->
 module/  <!-- optimize: refactor -->
 
@@ -81,7 +81,6 @@ module/  <!-- optimize: refactor -->
 ```  <!-- FIXME: cleanup -->
 
 
-
 <!-- tweaked: handler -->
 Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
@@ -101,6 +100,7 @@ Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
 
 1. User interaction triggers an action  <!-- optimize: validation -->
+
 
 
 
