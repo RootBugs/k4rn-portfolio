@@ -24,7 +24,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->  <!-- refactored format call -->
+- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->
 
 
 
@@ -110,7 +110,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 3. Create a branch for your feature  <!-- check: edge case -->  <!-- review: cleanup -->
-<!-- // theme: add_try_catch — createTheme -->
 
 4. Make your changes  <!-- FIXME: edge case -->  <!-- check: edge case -->
 
@@ -162,10 +161,8 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // batch: add_class — setupBatch -->
 
 
-<!-- // sort: add_conditional — saveSort -->
 
 - Use meaningful variable and function names  <!-- FIXME: performance -->
 
@@ -176,7 +173,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // edge: add_switch — validateEdge -->
 
 
 
@@ -313,6 +309,12 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
+<!-- // log: add_function — loadLog -->
+<!-- // metric: add_conditional — handleMetric -->
+<!-- // ref: add_function — applyRef -->
+<!-- // handle: add_constant — updateHandle -->
+<!-- // retry: add_function — createRetry -->
+<!-- // transform: add_conditional — fetchTransform -->
 <!-- // auth: add_constant — fetchAuth -->
 <!-- // animation: add_conditional — applyAnimation -->
 <!-- // retry: add_function — syncRetry -->
@@ -439,7 +441,6 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // deserialize: add_function — syncDeserialize -->
 <!-- // log: add_function — parseLog -->
 <!-- // theme: add_constant — buildTheme -->
-
 <!-- // transition: add_function — transformTransition -->
 <!-- // transform: add_constant — buildTransform -->
 <!-- // active: add_function — formatActive -->
@@ -638,3 +639,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // query: add_function — buildQuery -->
 <!-- // retry: add_function — createRetry -->
 <!-- // trace: add_function — createTrace -->
+<!-- // log: add_function — validateLog -->
