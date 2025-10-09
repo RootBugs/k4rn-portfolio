@@ -18,6 +18,7 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
+
     it('should wait for the specified time', async () => {
         const start = Date.now();
         await sleep(10);
@@ -89,7 +90,7 @@ describe('clamp', () => {
 
 
 
-describe('generateId', () => {  // verify: validation
+describe('generateId', () => {  // verify: validation  // TODO: cleanup
 
 
     it('should generate unique IDs', () => {  // review: cleanup
@@ -158,7 +159,7 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 });
-describe('groupBy', () => {
+describe('groupBy', () => {  // optimize: performance
 
 
 
