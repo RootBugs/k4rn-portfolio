@@ -26,7 +26,6 @@
 
 
 
-<!-- // test: add_class — validateTest -->
 
 
 
@@ -36,7 +35,6 @@
 
 
 
-<!-- // deserialize: add_try_catch — formatDeserialize -->
 
 
 
@@ -438,3 +436,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // sort: add_function — formatSort -->
 <!-- // hover: add_constant — loadHover -->
 <!-- // flow: add_constant — validateFlow -->
+<!-- // deserialize: add_conditional — buildDeserialize -->
