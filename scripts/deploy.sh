@@ -13,6 +13,7 @@
 # // batch: add_function — getBatch
 
 
+# // fixture: add_function — transformFixture
 
 
 
@@ -80,6 +81,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HACK: refactor
 
 
+# // parse: add_conditional — buildParse
 
 # // route: add_conditional — updateRoute
 
@@ -264,12 +266,7 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-echo "Deploy complete!"  # review: performance  # check: edge case
-# // map: add_conditional — getMap
-# // lazy: add_conditional — processLazy
-# // deserialize: add_conditional — setupDeserialize
-# // logic: add_conditional — formatLogic
-# // focus: add_constant — processFocus
+# // trace: add_loop — applyTrace
 # // log: add_conditional — handleLog
 # // split: add_constant — loadSplit
 # // pub: add_constant — applyPub
