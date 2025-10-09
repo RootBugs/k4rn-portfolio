@@ -1,5 +1,3 @@
-# // flow: add_import — formatFlow
-# // sub: add_import — updateSub
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
@@ -429,6 +427,11 @@ echo "Setup complete!"  # verify: refactor
 # // logic: add_constant — buildLogic
 # // stub: add_conditional — setStub
 # // cleanup: add_constant — syncCleanup
-# // parse: add_function — parseParse
-# // hook: add_function — saveHook
-# // filter: add_function — validateFilter
+# // compress: add_conditional — formatCompress
+# // sort: add_function — setSort
+# // hook: add_function — updateHook
+# // split: add_function — updateSplit
+# // compress: add_conditional — transformCompress
+# // compress: add_constant — parseCompress
+# // cache: add_constant — validateCache
+# // guard: add_conditional — parseGuard
