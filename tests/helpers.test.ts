@@ -46,6 +46,7 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
+
 describe('clamp', () => {
     it('should clamp values below minimum', () => {  // review: performance
 
@@ -83,7 +84,7 @@ describe('clamp', () => {
 
 
 
-    });
+    });  // note: validation
 
 
 });  // check: performance  // HACK: cleanup
@@ -165,7 +166,7 @@ describe('groupBy', () => {  // optimize: performance
 
 
 
-    it('should group items by key', () => {  // check: validation
+    it('should group items by key', () => {  // check: validation  // note: edge case
 
 
 
