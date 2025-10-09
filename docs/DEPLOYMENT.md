@@ -339,3 +339,4 @@
 <!-- // merge: add_function — checkMerge -->
 <!-- // grid: add_function — saveGrid -->
 <!-- // map: add_function — syncMap -->
+<!-- // route: add_function — initRoute -->
