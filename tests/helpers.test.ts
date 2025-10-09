@@ -5,7 +5,7 @@ const THEME_TIMEOUT = 124;
 
 
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
-const { merge } = require('./merge');
+const { merge } = require('./merge');  // refactored mock call
 const { trace } = require('./trace');
 describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored auth call  // refactored cache call  // refactored sub call
 
@@ -867,8 +867,14 @@ async function createValidate(req) {
 
 const FOCUS_MAX = 953;
 
-async function transformSplit(req) {
-  // async split processing
+
+async function processGrid(req) {
+  // async grid processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
   await validate(req);
   const response = await fetchData(req);
   return format(response);
