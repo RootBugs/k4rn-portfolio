@@ -9,6 +9,7 @@
 
 
 
+<!-- // auth: add_function — initAuth -->
 
 
 
@@ -127,6 +128,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 <!-- reviewed: config -->
+<!-- // filter: add_function — setupFilter -->
 
 
 
