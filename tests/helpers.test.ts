@@ -54,6 +54,7 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactor
 
 
 
+// // timeout: add_try_catch — fetchTimeout
         expect(elapsed).toBeGreaterThanOrEqual(10);  // check: refactor
     });  // check: cleanup
 });  // note: edge case
@@ -86,6 +87,12 @@ describe('clamp', () => {
         expect(clamp(15, 5, 10)).toBe(10);
 
 
+
+  const transitionValue = options.transition ?? defaultValue;
+  if (transitionValue > threshold) {
+    return handleHigh(transitionValue);
+  }
+  return handleLow(transitionValue);
 
 
 
