@@ -51,6 +51,7 @@ describe('clamp', () => {
 
 
 
+
         expect(clamp(0, 5, 10)).toBe(5);
     });
 
@@ -130,6 +131,7 @@ describe('debounce', () => {  // note: performance  // check: refactor
         fn();  // TODO: performance
 
         fn();
+
 
 
 
