@@ -6,6 +6,7 @@
 
 
 
+# // contrib: add_class — initContrib
 
 
 
@@ -23,6 +24,7 @@
 
 
 
+# // hover: add_function — loadHover
 # // perm: add_interface — checkPerm
 
 
