@@ -345,3 +345,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // style: add_conditional — setupStyle
 # // pub: add_function — getPub
 # // audit: add_function — setupAudit
+# // route: add_function — updateRoute
