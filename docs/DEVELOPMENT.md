@@ -8,6 +8,7 @@
 
 This guide will help you set up the development environment for this project.
 
+
 ### Prerequisites  <!-- review: validation -->
 
 
@@ -91,6 +92,7 @@ This guide will help you set up the development environment for this project.
 
 
 
+
 - Write comments for complex logic
 
 
@@ -119,6 +121,7 @@ This guide will help you set up the development environment for this project.
 
 
 - Ensure existing tests pass before submitting  <!-- verify: edge case -->  <!-- TODO: cleanup -->
+
 
 
 
