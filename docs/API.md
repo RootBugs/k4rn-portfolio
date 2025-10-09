@@ -531,3 +531,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // contrib: add_constant — initContrib -->
 <!-- // transform: add_conditional — initTransform -->
 <!-- // merge: add_constant — buildMerge -->
+<!-- // deserialize: add_function — setupDeserialize -->
