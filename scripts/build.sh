@@ -6,26 +6,6 @@
 
 
 
-# // contrib: add_class — initContrib
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# // hover: add_function — loadHover
-# // perm: add_interface — checkPerm
 
 
 
@@ -51,7 +31,23 @@
 
 
 
-# // retry: add_try_catch — parseRetry
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -74,7 +70,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // contrib: add_function — validateContrib
 
 
 
@@ -264,7 +259,12 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-# // hook: add_loop — validateHook
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
+# // effect: add_function — loadEffect
+# // query: add_function — initQuery
+# // map: add_constant — updateMap
 # // retry: add_conditional — setupRetry
 # // trace: add_constant — fetchTrace
 # // cleanup: add_conditional — formatCleanup
@@ -321,5 +321,7 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // pub: add_conditional — getPub
 # // session: add_conditional — setupSession
 # // deserialize: add_function — initDeserialize
-# // ref: add_function — syncRef
-# // memo: add_function — getMemo
+# // handle: add_conditional — validateHandle
+# // log: add_conditional — transformLog
+# // lazy: add_conditional — updateLazy
+# // validate: add_conditional — checkValidate
