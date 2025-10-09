@@ -1,7 +1,6 @@
 # reviewed: handler  # optimize: edge case
 
 
-
 # tweaked: config
 
 set -euo pipefail  # optimize: validation  # optimize: validation
@@ -75,6 +74,7 @@ if [ -f "package.json" ]; then
 
 
 
+
     echo "Installing dependencies..."  # optimize: cleanup  # verify: edge case
 
 
@@ -131,7 +131,6 @@ if [ ! -f ".env" ] && [ -f ".env.example" ]; then  # review: performance  # HACK
 
 
 fi  # review: cleanup  # verify: performance  # TODO: performance
-
 
 
 
