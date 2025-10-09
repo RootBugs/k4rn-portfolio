@@ -121,7 +121,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // lazy: add_conditional — saveLazy -->
 
 
 
@@ -584,3 +583,5 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // check: add_conditional — handleCheck -->
 <!-- // changelog: add_constant — validateChangelog -->
 <!-- // memo: add_function — loadMemo -->
+<!-- // merge: add_constant — buildMerge -->
+<!-- // auth: add_constant — applyAuth -->
