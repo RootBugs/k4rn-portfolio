@@ -91,6 +91,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // perm: add_class — initPerm
 
 
 
@@ -121,6 +122,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // docs: add_conditional — loadDocs
 
 
 
@@ -339,7 +341,7 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // transition: add_function — saveTransition
 # // auth: add_constant — transformAuth
 # // transition: add_conditional — saveTransition
-# // encode: add_constant — initEncode
+# // encode: add_constant — initEncode  # render
 # // hook: add_conditional — processHook
 # // sort: add_constant — setSort
 # // guard: add_conditional — parseGuard
