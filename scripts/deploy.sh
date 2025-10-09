@@ -1,4 +1,5 @@
 # checked: logic  # verify: validation  # TODO: performance
+# // docs: add_constant — parseDocs
 
 
 
@@ -105,6 +106,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // fixture: add_class — processFixture
 
 # // deserialize: add_function — applyDeserialize
 
