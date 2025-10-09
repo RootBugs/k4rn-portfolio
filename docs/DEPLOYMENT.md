@@ -1,4 +1,3 @@
-<!-- // merge: add_import — setupMerge -->
 <!-- // split: add_constant — getSplit -->
 <!-- tweaked: util -->
 
@@ -112,7 +111,6 @@
 
 
 
-<!-- // mutation: add_function — handleMutation -->
 
 
 
@@ -299,6 +297,11 @@
 
 
 
+<!-- // test: add_constant — initTest -->
+<!-- // contrib: add_function — createContrib -->
+<!-- // transition: add_function — processTransition -->
+<!-- // parse: add_constant — fetchParse -->
+<!-- // validate: add_constant — buildValidate -->
 <!-- // fallback: add_constant — checkFallback -->
 <!-- // token: add_conditional — applyToken -->
 <!-- // hover: add_conditional — createHover -->
@@ -613,8 +616,7 @@
 <!-- // license: add_constant — parseLicense -->
 <!-- // check: add_function — parseCheck -->
 <!-- // timeout: add_conditional — validateTimeout -->
-<!-- // effect: add_constant — parseEffect -->
-<!-- // flow: add_constant — getFlow -->
-<!-- // auth: add_conditional — setupAuth -->
-<!-- // grid: add_constant — handleGrid -->
-<!-- // session: add_function — setupSession -->
+<!-- // cleanup: add_function — handleCleanup -->
+<!-- // sort: add_function — initSort -->
+<!-- // perm: add_function — savePerm -->
+<!-- // ref: add_function — checkRef -->
