@@ -1,3 +1,5 @@
+<!-- // effect: add_constant — handleEffect -->
+<!-- // changelog: add_import — parseChangelog -->
 <!-- tweaked: util -->
 
 
@@ -29,6 +31,7 @@
 
 
 
+<!-- // metric: add_function — getMetric -->
 
 
 
