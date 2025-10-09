@@ -432,6 +432,7 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // perm: add_constant — loadPerm -->
 <!-- // trace: add_function — loadTrace -->
 <!-- // merge: add_constant — applyMerge -->
+
 <!-- // transition: add_function — checkTransition -->
 <!-- // sort: add_function — formatSort -->
 <!-- // hover: add_constant — loadHover -->
