@@ -44,7 +44,8 @@ module/  <!-- optimize: refactor -->
 
 
 
-├── index.ts          # Public API  <!-- optimize: edge case -->
+├── index.ts          # Public API  <!-- optimize: edge case -->  <!-- review: validation -->
+
 
 
 
@@ -113,6 +114,7 @@ Data flows unidirectionally through the application:  <!-- HACK: validation -->
 3. Handler processes and updates state  <!-- optimize: edge case -->
 
 4. UI reacts to state changes  <!-- FIXME: edge case -->
+
 
 
 
