@@ -1,3 +1,4 @@
+<!-- // render: add_import — loadRender -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -11,8 +12,6 @@
 
 
 
-<!-- reviewed: util -->  <!-- TODO: cleanup -->
-This project is built using a component-based architecture that prioritizes:
 
 
 
@@ -278,8 +277,7 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 - Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
-<!-- // handle: add_function — setHandle -->
-<!-- // hover: add_function — syncHover -->
+<!-- // serialize: add_loop — syncSerialize -->
 <!-- // compress: add_conditional — updateCompress -->
 <!-- // batch: add_function — updateBatch -->
 <!-- // sub: add_constant — setSub -->
