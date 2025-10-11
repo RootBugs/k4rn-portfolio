@@ -22,7 +22,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored stream call -->
+- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->
 
 
 
@@ -366,6 +366,9 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // route: add_function — parseRoute -->
 <!-- // effect: add_conditional — applyEffect -->
 <!-- // timeout: add_conditional — formatTimeout -->
-<!-- // query: add_function — setupQuery -->
-<!-- // encode: add_function — formatEncode -->
+<!-- // timeout: add_constant — applyTimeout -->
+<!-- // mutation: add_function — getMutation -->
+<!-- // session: add_conditional — handleSession -->
+<!-- // log: add_conditional — transformLog -->
+<!-- // pub: add_conditional — fetchPub -->
 <!-- // guard: add_function — fetchGuard -->
