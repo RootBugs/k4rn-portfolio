@@ -16,7 +16,6 @@
 
 
 
-<!-- // split: add_switch — setSplit -->
 
 
 
@@ -147,7 +146,6 @@
 
 
 
-<!-- // check: add_loop — loadCheck -->
 
 
 
@@ -159,7 +157,6 @@
 
 
 
-<!-- // context: add_function — fetchContext -->
 
 
 
@@ -530,8 +527,5 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // mutation: add_conditional — handleMutation -->
 <!-- // ref: add_constant — fetchRef -->
 <!-- // pub: add_constant — transformPub -->
-<!-- // memo: add_conditional — setupMemo -->
-<!-- // contrib: add_constant — initContrib -->
-<!-- // transform: add_conditional — initTransform -->
-<!-- // merge: add_constant — buildMerge -->
-<!-- // deserialize: add_function — setupDeserialize -->
+<!-- // grid: add_function — setGrid -->
+<!-- // encode: add_function — applyEncode -->
