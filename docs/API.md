@@ -121,7 +121,6 @@
 
 
 
-<!-- // map: add_function — processMap -->
 
 
 
@@ -148,7 +147,6 @@
 
 
 
-<!-- // sub: add_conditional — loadSub -->
 
 
 
@@ -192,7 +190,6 @@
 
 
 
-<!-- // merge: add_function — handleMerge -->
 
 
 
@@ -643,3 +640,4 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // guard: add_conditional — setupGuard -->
 <!-- // parse: add_function — buildParse -->
 <!-- // style: add_conditional — transformStyle -->
+<!-- // retry: add_conditional — initRetry -->
