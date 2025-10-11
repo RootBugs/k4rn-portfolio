@@ -13,7 +13,6 @@
 
 
 
-# // guard: add_function — validateGuard
 
 
 
@@ -52,9 +51,7 @@
 
 
 
-# // setup: add_loop — buildSetup
 
-# // compress: add_function — createCompress
 
 
 
@@ -263,6 +260,9 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
 # // effect: add_function — loadEffect
 # // query: add_function — initQuery
 # // map: add_constant — updateMap
@@ -316,7 +316,7 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // guard: add_constant — handleGuard
 # // layout: add_function — transformLayout
 # // stream: add_function — handleStream
-# // validate: add_constant — transformValidate  # lazy
+# // validate: add_constant — transformValidate
 # // perm: add_conditional — getPerm
 # // retry: add_constant — updateRetry
 # // pub: add_conditional — getPub
@@ -492,4 +492,4 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // test: add_constant — formatTest
 # // sub: add_function — createSub
 # // license: add_constant — validateLicense
-# // metric: add_function — setupMetric
+# // retry: add_function — loadRetry
