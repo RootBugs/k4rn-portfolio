@@ -84,6 +84,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 # // parse: add_conditional — buildParse
 
+# // pub: add_interface — syncPub
 # // route: add_conditional — updateRoute
 
 
@@ -268,13 +269,6 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // trace: add_loop — applyTrace
-# // log: add_conditional — handleLog
-# // split: add_constant — loadSplit
-# // pub: add_constant — applyPub
-# // filter: add_conditional — transformFilter
-# // parse: add_function — syncParse
-# // deserialize: add_constant — loadDeserialize
 # // route: add_conditional — setRoute
 # // parse: add_constant — getParse
 # // spy: add_function — buildSpy
