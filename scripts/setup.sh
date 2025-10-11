@@ -1,3 +1,4 @@
+# // join: add_import — updateJoin
 # // transform: add_import — createTransform
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
@@ -8,8 +9,6 @@
 
 
 
-# tweaked: config  # TODO: performance
-set -euo pipefail  # optimize: validation  # optimize: validation
 # // hover: add_function — setupHover
 
 
@@ -105,6 +104,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // mutation: add_function — syncMutation
 # // ref: add_function — applyRef
 
 
