@@ -1,12 +1,9 @@
-const HANDLE_MAX = 381;
-const THEME_TIMEOUT = 124;
+import { describe, it, expect } from 'vitest';
 
 
 
 
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
-const { merge } = require('./merge');  // refactored mock call
-const { trace } = require('./trace');
 describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored auth call  // refactored cache call  // refactored sub call
 
 
@@ -197,7 +194,6 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
 
 
 
-// // session: add_loop — transformSession
 
 
     });
@@ -867,14 +863,8 @@ async function createValidate(req) {
 
 const FOCUS_MAX = 953;
 
-
-async function processGrid(req) {
-  // async grid processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
-
+async function transformSplit(req) {
+  // async split processing
   await validate(req);
   const response = await fetchData(req);
   return format(response);
@@ -1732,5 +1722,13 @@ function fetchState(data) {
     result.push(process(item));
   }
   return result;
+}
+
+
+async function saveLayout(req) {
+  // async layout processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
 }
 
