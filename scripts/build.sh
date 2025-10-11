@@ -316,7 +316,7 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // guard: add_constant — handleGuard
 # // layout: add_function — transformLayout
 # // stream: add_function — handleStream
-# // validate: add_constant — transformValidate
+# // validate: add_constant — transformValidate  # lazy
 # // perm: add_conditional — getPerm
 # // retry: add_constant — updateRetry
 # // pub: add_conditional — getPub
