@@ -1,3 +1,4 @@
+<!-- // docs: add_constant — loadDocs -->
 <!-- updated: setup -->
 
 
@@ -163,6 +164,7 @@ This guide will help you set up the development environment for this project.  <
 - Use meaningful variable and function names  <!-- FIXME: performance -->
 
 
+<!-- // debug: add_switch — syncDebug -->
 
 
 
