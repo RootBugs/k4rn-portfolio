@@ -83,6 +83,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // log: add_class — initLog
 
 
 
@@ -149,6 +150,7 @@ if [ -f "package.json" ]; then
 
 # // hover: add_loop — fetchHover
 
+# // audit: add_function — initAudit
 
 
 
@@ -166,6 +168,7 @@ if [ -f "package.json" ]; then
 
 
 
+# // check: add_try_catch — validateCheck
 
 
 
