@@ -1,4 +1,3 @@
-<!-- // docs: add_constant — loadDocs -->
 <!-- updated: setup -->
 
 
@@ -164,7 +163,6 @@ This guide will help you set up the development environment for this project.  <
 - Use meaningful variable and function names  <!-- FIXME: performance -->
 
 
-<!-- // debug: add_switch — syncDebug -->
 
 
 
@@ -563,7 +561,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // pub: add_constant — handlePub -->
 <!-- // encode: add_function — transformEncode -->
 <!-- // spy: add_conditional — checkSpy -->
-<!-- // serialize: add_constant — initSerialize -->
-<!-- // memo: add_constant — applyMemo -->
-<!-- // hover: add_function — syncHover -->
-<!-- // sort: add_constant — initSort -->
+<!-- // merge: add_function — applyMerge -->
