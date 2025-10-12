@@ -527,5 +527,9 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // mutation: add_conditional — handleMutation -->
 <!-- // ref: add_constant — fetchRef -->
 <!-- // pub: add_constant — transformPub -->
-<!-- // grid: add_function — setGrid -->
-<!-- // encode: add_function — applyEncode -->
+<!-- // memo: add_conditional — setupMemo -->
+<!-- // contrib: add_constant — initContrib -->
+<!-- // transform: add_conditional — initTransform -->
+<!-- // merge: add_constant — buildMerge -->
+<!-- // deserialize: add_conditional — updateDeserialize -->
+<!-- // retry: add_constant — applyRetry -->
