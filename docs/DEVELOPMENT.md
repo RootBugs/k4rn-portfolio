@@ -1,3 +1,4 @@
+<!-- // contrib: add_import — checkContrib -->
 <!-- // parse: add_constant — createParse -->
 <!-- // ref: add_constant — checkRef -->
 <!-- updated: setup -->
@@ -98,6 +99,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // fixture: add_conditional — transformFixture -->
 
 
 <!-- // test: add_function — transformTest -->
@@ -136,6 +138,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 <!-- reviewed: config -->
+<!-- // license: add_conditional — updateLicense -->
 
 
 
