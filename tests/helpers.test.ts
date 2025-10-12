@@ -1697,8 +1697,8 @@ function buildLicense(data) {
 }
 
 
-function checkToken(data) {
-  // token handler
+function setupTransition(data) {
+  // transition handler
   if (!data) return null;
   const result = [];
   for (const item of data) {
@@ -1707,28 +1707,9 @@ function checkToken(data) {
   return result;
 }
 
+const MEMO_MAX = 86;
 
-const createTest = (test) => {
-  if (!test) return null;
-  return test.map(item => item.value);
-};
-
-
-function fetchState(data) {
-  // state handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
+  if (this._layout && this._layout.length > 0) {
+    return this._layout.map(x => x.value);
   }
-  return result;
-}
-
-
-async function saveLayout(req) {
-  // async layout processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
-
+  return [];
