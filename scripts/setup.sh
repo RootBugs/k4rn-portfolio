@@ -1,5 +1,3 @@
-# // join: add_import — updateJoin
-# // transform: add_import — createTransform
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
@@ -9,7 +7,8 @@
 
 
 
-# // hover: add_function — setupHover
+# tweaked: config  # TODO: performance
+set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
@@ -29,7 +28,6 @@
 # // perm: add_loop — parsePerm
 
 
-# // query: add_loop — getQuery
 
 
 
@@ -58,7 +56,6 @@
 
 
 
-# // effect: add_conditional — formatEffect
 
 # // theme: add_class — processTheme
 
@@ -88,7 +85,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // fixture: add_function — setupFixture
 
 
 
@@ -104,8 +100,8 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // mutation: add_function — syncMutation
-# // ref: add_function — applyRef
+# reviewed: logic
+command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
@@ -512,3 +508,4 @@ echo "Setup complete!"  # verify: refactor
 # // active: add_function — handleActive
 # // logic: add_function — updateLogic
 # // effect: add_function — transformEffect
+# // check: add_function — checkCheck
