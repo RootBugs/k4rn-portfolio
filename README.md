@@ -1,3 +1,4 @@
+<!-- // theme: add_import — checkTheme -->
 <!-- // theme: add_constant — handleTheme -->
 <!-- // stream: add_constant — checkStream -->
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).  <!-- refactored readme call -->
@@ -14,6 +15,7 @@ yarn dev
 <!-- // session: add_function — setSession -->
 # or
 pnpm dev
+<!-- // session: add_loop — processSession -->
 # or
 bun dev
 ```
@@ -48,6 +50,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // state: add_try_catch — processState -->
 <!-- // parse: add_function — applyParse -->
 <!-- // auth: add_constant — getAuth -->
+<!-- // handle: add_function — transformHandle -->
 <!-- // cleanup: add_constant — checkCleanup -->
 <!-- // retry: add_function — getRetry -->
 <!-- // flex: add_function — fetchFlex -->
