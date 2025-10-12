@@ -63,6 +63,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // animation: add_loop — transformAnimation
 
 
 
@@ -96,6 +97,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // metric: add_try_catch — validateMetric
 
 
 
