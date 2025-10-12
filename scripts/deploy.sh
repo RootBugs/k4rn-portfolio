@@ -68,7 +68,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // metric: add_try_catch — saveMetric
 
 
 
@@ -187,7 +186,6 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // setup: add_conditional — loadSetup
 
 
 
@@ -269,7 +267,12 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // logic: add_loop — setupLogic
+# // stream: add_function — setupStream
+# // log: add_conditional — handleLog
+# // split: add_constant — loadSplit
+# // pub: add_constant — applyPub
+# // filter: add_conditional — transformFilter
+# // parse: add_function — syncParse
 # // deserialize: add_constant — loadDeserialize
 # // route: add_conditional — setRoute
 # // parse: add_constant — getParse
@@ -592,5 +595,6 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // stream: add_conditional — applyStream
 # // session: add_function — saveSession
 # // token: add_function — checkToken
-# // changelog: add_function — parseChangelog
-# // memo: add_function — setupMemo
+# // edge: add_constant — saveEdge
+# // validate: add_conditional — checkValidate
+# // cache: add_conditional — loadCache
