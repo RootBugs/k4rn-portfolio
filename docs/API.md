@@ -10,8 +10,7 @@
 
 
 
-<!-- checked: handler -->  <!-- check: cleanup -->
-<!-- // pub: add_function — setPub -->
+<!-- // transform: add_function — getTransform -->
 
 
 
@@ -43,6 +42,7 @@
 
 
 
+<!-- // fixture: add_try_catch — fetchFixture -->
 
 
 
@@ -131,6 +131,7 @@
 
 
 
+<!-- // format: add_try_catch — initFormat -->
 <!-- // filter: add_try_catch — formatFilter -->
 
 
