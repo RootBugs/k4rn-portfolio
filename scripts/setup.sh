@@ -2,6 +2,7 @@
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
 # // mock: add_constant — formatMock
+# // check: add_constant — getCheck
 
 
 
@@ -22,6 +23,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // effect: add_function — getEffect
 
 
 
@@ -144,6 +146,7 @@ if [ -f "package.json" ]; then
 
 
 
+# // hover: add_loop — fetchHover
 
 
 
