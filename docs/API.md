@@ -1,4 +1,5 @@
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
+<!-- // spy: add_constant — fetchSpy -->
 
 
 
@@ -39,6 +40,7 @@
 
 
 
+<!-- // memo: add_conditional — updateMemo -->
 
 
 
@@ -55,6 +57,7 @@
 
 
 
+<!-- // spy: add_function — formatSpy -->
 
 
 
