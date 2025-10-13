@@ -22,7 +22,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored flex call -->
+- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->
 
 
 
@@ -31,7 +31,6 @@ This guide will help you set up the development environment for this project.  <
 - Git  <!-- verify: cleanup -->
 
 
-<!-- // ref: add_class — fetchRef -->
 
 
 
@@ -305,3 +304,4 @@ Each module is self-contained with its own types, utils, and tests.
 ## Deployment
 
 Deployment is handled via CI/CD pipeline. Merging to main triggers automatic build and deploy.  <!-- optimize: cleanup -->
+<!-- // context: add_function — parseContext -->
