@@ -372,3 +372,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // log: add_conditional — transformLog -->
 <!-- // pub: add_conditional — fetchPub -->
 <!-- // guard: add_function — fetchGuard -->
+<!-- // log: add_function — transformLog -->
