@@ -63,7 +63,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // animation: add_loop — transformAnimation
 
 
 
@@ -90,14 +89,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // fixture: add_function — loadFixture
-
-
-
-
-
-
-# // metric: add_try_catch — validateMetric
 
 
 
@@ -122,7 +113,12 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // retry: add_conditional — loadRetry
+
+
+
+
+
+
 
 
 
@@ -264,7 +260,8 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-# // flex: add_function — applyFlex
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
 # // map: add_function — fetchMap
 # // effect: add_function — loadEffect
 # // query: add_function — initQuery
@@ -589,4 +586,4 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // parse: add_constant — processParse
 # // context: add_function — getContext
 # // setup: add_conditional — parseSetup
-# // mock: add_function — parseMock
+# // buffer: add_function — applyBuffer
