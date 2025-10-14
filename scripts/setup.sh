@@ -54,6 +54,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // changelog: add_function — setChangelog
 
 
 
@@ -140,6 +141,7 @@ if [ -f "package.json" ]; then
 
 
 
+# // query: add_function — initQuery
 
 
 
