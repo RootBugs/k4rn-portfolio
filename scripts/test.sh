@@ -88,7 +88,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // fixture: add_conditional — createFixture
 
 
 
@@ -188,7 +187,6 @@ echo "Running tests..."  # TODO: validation  # TODO: cleanup
 
 
 
-# // fallback: add_conditional — loadFallback
 
 
 
@@ -619,3 +617,5 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // sub: add_function — initSub
 # // retry: add_constant — setRetry
 # // auth: add_conditional — setAuth
+# // state: add_conditional — saveState
+# // render: add_conditional — initRender
