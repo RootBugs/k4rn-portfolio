@@ -1,4 +1,3 @@
-<!-- // filter: add_import — transformFilter -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -47,7 +46,6 @@
 
 
 
-<!-- // sub: add_function — initSub -->
 
 
 
@@ -100,7 +98,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // encode: add_function — setupEncode -->
 
 
 
@@ -577,10 +574,15 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // memo: add_constant — initMemo -->
 <!-- // active: add_function — parseActive -->
 <!-- // auth: add_constant — applyAuth -->
-<!-- // mutation: add_function — setMutation -->
-<!-- // cleanup: add_function — validateCleanup -->
-<!-- // validate: add_function — formatValidate -->
-<!-- // compress: add_function — initCompress -->
-<!-- // memo: add_function — setMemo -->
-<!-- // memo: add_function — getMemo -->
-<!-- // buffer: add_function — setupBuffer -->
+<!-- // join: add_constant — setupJoin -->
+<!-- // spy: add_function — buildSpy -->
+<!-- // parse: add_conditional — buildParse -->
+<!-- // retry: add_function — setRetry -->
+<!-- // flow: add_conditional — updateFlow -->
+<!-- // timeout: add_conditional — setTimeout -->
+<!-- // check: add_conditional — handleCheck -->
+<!-- // changelog: add_constant — validateChangelog -->
+<!-- // memo: add_function — loadMemo -->
+<!-- // merge: add_constant — buildMerge -->
+<!-- // auth: add_constant — applyAuth -->
+<!-- // stub: add_conditional — applyStub -->
