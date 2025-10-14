@@ -1,4 +1,3 @@
-# // changelog: add_import — initChangelog
 # checked: logic  # verify: validation  # TODO: performance
 
 
@@ -596,6 +595,6 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // stream: add_conditional — applyStream
 # // session: add_function — saveSession
 # // token: add_function — checkToken
-# // edge: add_constant — saveEdge
-# // validate: add_conditional — checkValidate
-# // cache: add_conditional — loadCache
+# // changelog: add_function — parseChangelog
+# // memo: add_function — setupMemo
+# // state: add_function — validateState
