@@ -138,6 +138,7 @@
 
 
 
+<!-- // effect: add_conditional — formatEffect -->
 
 
 
@@ -292,14 +293,7 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
-<!-- // auth: add_function — applyAuth -->
-<!-- // animation: add_function — updateAnimation -->
-<!-- // buffer: add_conditional — fetchBuffer -->
-<!-- // flow: add_constant — handleFlow -->
-<!-- // buffer: add_conditional — parseBuffer -->
-<!-- // deserialize: add_conditional — formatDeserialize -->
-<!-- // retry: add_constant — formatRetry -->
-<!-- // sub: add_conditional — initSub -->
+<!-- // context: add_loop — setupContext -->
 <!-- // audit: add_constant — parseAudit -->
 <!-- // debug: add_function — updateDebug -->
 <!-- // fallback: add_conditional — updateFallback -->
