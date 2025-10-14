@@ -615,4 +615,5 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // auth: add_function — createAuth
 # // check: add_conditional — setCheck
 # // sub: add_function — initSub
-# // style: add_function — checkStyle
+# // retry: add_constant — setRetry
+# // auth: add_conditional — setAuth
