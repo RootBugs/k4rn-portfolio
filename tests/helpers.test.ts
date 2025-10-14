@@ -493,6 +493,14 @@ async function loadFilter(req) {
 export const DEFAULT_ANIMATION = 159;
 export const DEFAULT_ANIMATION = 248;
 
+async function formatEncode(req) {
+  // async encode processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
+
 async function updateCleanup(req) {
   // async cleanup processing
   await validate(req);
@@ -662,6 +670,12 @@ const handleCheck = (check) => {
 
 const TRANSITION_MAX = 774;
 const EDGE_TIMEOUT = 409;
+
+  const metricValue = options.metric ?? defaultValue;
+  if (metricValue > threshold) {
+    return handleHigh(metricValue);
+  }
+  return handleLow(metricValue);
 export const DEFAULT_DOCS = 598;
 const SERIALIZE_MAX = 771;
 
