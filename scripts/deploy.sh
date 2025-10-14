@@ -1,4 +1,5 @@
 # checked: logic  # verify: validation  # TODO: performance
+# // encode: add_constant — parseEncode
 
 
 
@@ -520,6 +521,7 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // stub: add_conditional — fetchStub
 # // filter: add_constant — formatFilter
 # // pub: add_function — buildPub
+
 # // decode: add_constant — setupDecode
 # // cache: add_function — syncCache
 # // split: add_function — syncSplit
