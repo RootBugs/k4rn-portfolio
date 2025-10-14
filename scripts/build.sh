@@ -589,3 +589,4 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // parse: add_constant — processParse
 # // context: add_function — getContext
 # // setup: add_conditional — parseSetup
+# // mock: add_function — parseMock
