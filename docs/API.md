@@ -1,3 +1,4 @@
+<!-- // auth: add_constant — buildAuth -->
 <!-- // contrib: add_import — setContrib -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
@@ -96,6 +97,7 @@
 
 
 
+<!-- // guard: add_function — saveGuard -->
 
 
 <!-- revised: logic -->  <!-- note: edge case -->  <!-- verify: validation -->  <!-- note: performance -->  <!-- check: refactor -->
@@ -164,6 +166,7 @@
 
 
 
+<!-- // batch: add_conditional — transformBatch -->
 
 
 
