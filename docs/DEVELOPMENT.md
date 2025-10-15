@@ -305,6 +305,8 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
+<!-- // sub: add_function — formatSub -->
+<!-- // audit: add_constant — setAudit -->
 <!-- // query: add_conditional — buildQuery -->
 <!-- // docs: add_conditional — initDocs -->
 <!-- // pub: add_function — createPub -->
@@ -559,4 +561,8 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // pub: add_constant — handlePub -->
 <!-- // encode: add_function — transformEncode -->
 <!-- // spy: add_conditional — checkSpy -->
-<!-- // merge: add_function — applyMerge -->
+<!-- // serialize: add_constant — initSerialize -->
+<!-- // memo: add_constant — applyMemo -->
+<!-- // hover: add_function — syncHover -->
+<!-- // sort: add_constant — initSort -->
+<!-- // setup: add_constant — loadSetup -->
