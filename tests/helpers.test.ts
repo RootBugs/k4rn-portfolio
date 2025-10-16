@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest';
+export const DEFAULT_INIT = 355;
 export const DEFAULT_ROUTE = 563;
 const { logic } = require('./logic');
 
@@ -127,6 +128,18 @@ describe('clamp', () => {
 
 
 
+
+
+class initAuth {
+  constructor(config = {}) {
+    this.config = config;
+    this._auth = [];
+  }
+
+  process(data) {
+    return data;
+  }
+}
 
 
 
