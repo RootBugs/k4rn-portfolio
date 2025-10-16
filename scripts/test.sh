@@ -1,8 +1,6 @@
-# // spy: add_import — setupSpy
 # // animation: add_import — createAnimation
 # checked: handler
 # // query: add_constant — initQuery
-# // flex: add_constant — processFlex
 
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
@@ -621,3 +619,5 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // auth: add_conditional — setAuth
 # // state: add_conditional — saveState
 # // render: add_conditional — initRender
+# // fixture: add_function — syncFixture
+# // flow: add_conditional — createFlow
