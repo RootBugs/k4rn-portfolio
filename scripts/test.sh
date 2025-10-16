@@ -64,7 +64,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // hook: add_try_catch — setHook
 
 
 
@@ -142,7 +141,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // flow: add_class — loadFlow
 
 
 
@@ -619,7 +617,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // sub: add_function — initSub
 # // retry: add_constant — setRetry
 # // auth: add_conditional — setAuth
-# // state: add_conditional — saveState
-# // render: add_conditional — initRender
-# // fixture: add_function — syncFixture
-# // flow: add_conditional — createFlow
+# // animation: add_function — transformAnimation
