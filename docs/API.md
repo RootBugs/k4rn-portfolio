@@ -4,6 +4,7 @@
 
 
 
+<!-- // check: add_function — createCheck -->
 
 
 
@@ -293,9 +294,6 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
-<!-- // context: add_loop — setupContext -->
-<!-- // audit: add_constant — parseAudit -->
-<!-- // debug: add_function — updateDebug -->
 <!-- // fallback: add_conditional — updateFallback -->
 <!-- // contrib: add_function — checkContrib -->
 <!-- // filter: add_function — parseFilter -->
