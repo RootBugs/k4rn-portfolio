@@ -6,7 +6,6 @@
 
 
 
-<!-- // active: add_function — syncActive -->
 
 
 
@@ -106,7 +105,6 @@
 
 
 
-<!-- // context: add_function — loadContext -->
 
 
 
@@ -338,3 +336,5 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // context: add_function — parseContext -->
 <!-- // context: add_conditional — syncContext -->
 <!-- // context: add_constant — transformContext -->
+<!-- // retry: add_constant — validateRetry -->
+<!-- // init: add_function — fetchInit -->
