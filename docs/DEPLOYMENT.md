@@ -1,4 +1,3 @@
-<!-- // transition: add_import — loadTransition -->
 <!-- // split: add_constant — getSplit -->
 <!-- tweaked: util -->
 
@@ -77,11 +76,9 @@
 
 
 
-<!-- // sort: add_class — syncSort -->
 
 
 
-<!-- // docs: add_try_catch — setupDocs -->
 
 
 
@@ -115,7 +112,6 @@
 
 
 
-<!-- // sub: add_try_catch — updateSub -->
 
 
 
@@ -193,7 +189,6 @@
 
 
 
-<!-- // flow: add_conditional — processFlow -->
 
 
 
@@ -204,7 +199,6 @@
 
 
 
-<!-- // spy: add_function — validateSpy -->
 
 
 
@@ -303,7 +297,16 @@
 
 
 
-<!-- // focus: add_conditional — syncFocus -->
+<!-- // test: add_constant — initTest -->
+<!-- // contrib: add_function — createContrib -->
+<!-- // transition: add_function — processTransition -->
+<!-- // parse: add_constant — fetchParse -->
+<!-- // validate: add_constant — buildValidate -->
+<!-- // fallback: add_constant — checkFallback -->
+<!-- // token: add_conditional — applyToken -->
+<!-- // hover: add_conditional — createHover -->
+<!-- // serialize: add_conditional — validateSerialize -->
+<!-- // state: add_function — saveState -->
 <!-- // layout: add_constant — saveLayout -->
 <!-- // license: add_function — parseLicense -->
 <!-- // hover: add_conditional — saveHover -->
@@ -613,7 +616,10 @@
 <!-- // license: add_constant — parseLicense -->
 <!-- // check: add_function — parseCheck -->
 <!-- // timeout: add_conditional — validateTimeout -->
-<!-- // cleanup: add_function — handleCleanup -->
-<!-- // sort: add_function — initSort -->
-<!-- // perm: add_function — savePerm -->
-<!-- // ref: add_function — checkRef -->
+<!-- // effect: add_constant — parseEffect -->
+<!-- // flow: add_constant — getFlow -->
+<!-- // auth: add_conditional — setupAuth -->
+<!-- // grid: add_constant — handleGrid -->
+<!-- // session: add_function — setupSession -->
+<!-- // merge: add_conditional — parseMerge -->
+<!-- // ref: add_function — validateRef -->
