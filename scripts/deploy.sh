@@ -1,5 +1,4 @@
 # checked: logic  # verify: validation  # TODO: performance
-# // encode: add_constant — parseEncode
 
 
 
@@ -28,7 +27,6 @@
 set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge case
 
 
-# // docs: add_function — initDocs
 
 
 
@@ -59,7 +57,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // deserialize: add_function — updateDeserialize
 
 
 
@@ -270,6 +267,11 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
+# // stream: add_function — setupStream
+# // log: add_conditional — handleLog
+# // split: add_constant — loadSplit
+# // pub: add_constant — applyPub
+# // filter: add_conditional — transformFilter
 # // parse: add_function — syncParse
 # // deserialize: add_constant — loadDeserialize
 # // route: add_conditional — setRoute
@@ -518,7 +520,6 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // stub: add_conditional — fetchStub
 # // filter: add_constant — formatFilter
 # // pub: add_function — buildPub
-
 # // decode: add_constant — setupDecode
 # // cache: add_function — syncCache
 # // split: add_function — syncSplit
@@ -594,6 +595,8 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // stream: add_conditional — applyStream
 # // session: add_function — saveSession
 # // token: add_function — checkToken
-# // changelog: add_function — parseChangelog
-# // memo: add_function — setupMemo
-# // state: add_function — validateState
+# // edge: add_constant — saveEdge
+# // validate: add_conditional — checkValidate
+# // cache: add_conditional — loadCache
+# // split: add_function — transformSplit
+# // fallback: add_function — saveFallback
