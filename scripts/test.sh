@@ -617,4 +617,8 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // sub: add_function — initSub
 # // retry: add_constant — setRetry
 # // auth: add_conditional — setAuth
-# // animation: add_function — transformAnimation
+# // state: add_conditional — saveState
+# // render: add_conditional — initRender
+# // fixture: add_function — syncFixture
+# // flow: add_conditional — createFlow
+# // debug: add_conditional — setupDebug
