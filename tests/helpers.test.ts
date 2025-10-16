@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest';
+export const DEFAULT_ROUTE = 563;
 const { logic } = require('./logic');
 
 
@@ -57,6 +58,18 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactor
         expect(elapsed).toBeGreaterThanOrEqual(10);  // check: refactor
     });  // check: cleanup
 });  // note: edge case
+
+class loadMemo {
+  constructor(config = {}) {
+    this.config = config;
+    this._memo = [];
+  }
+
+  process(data) {
+    return data;
+  }
+}
+
 
 
 
