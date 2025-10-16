@@ -586,3 +586,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // merge: add_constant — buildMerge -->
 <!-- // auth: add_constant — applyAuth -->
 <!-- // stub: add_conditional — applyStub -->
+<!-- // serialize: add_function — processSerialize -->
