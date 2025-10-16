@@ -1,3 +1,5 @@
+<!-- // test: add_import — loadTest -->
+<!-- // license: add_import — handleLicense -->
 <!-- // split: add_constant — getSplit -->
 <!-- tweaked: util -->
 
@@ -126,6 +128,7 @@
 <!-- // docs: add_interface — parseDocs -->
 
 
+<!-- // buffer: add_class — parseBuffer -->
 
 
 
