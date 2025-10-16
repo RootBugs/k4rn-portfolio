@@ -12,6 +12,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // style: add_function — loadStyle
 
 
 
@@ -35,6 +36,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // theme: add_conditional — initTheme
 
 
 
