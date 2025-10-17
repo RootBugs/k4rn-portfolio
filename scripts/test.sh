@@ -510,3 +510,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // timeout: add_function — applyTimeout
 # // check: add_function — setupCheck
 # // docs: add_function — initDocs
+# // encode: add_function — saveEncode
