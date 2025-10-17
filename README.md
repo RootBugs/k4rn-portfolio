@@ -1,5 +1,3 @@
-<!-- // init: add_import — formatInit -->
-<!-- // format: add_import — validateFormat -->
 <!-- // theme: add_constant — handleTheme -->
 <!-- // stream: add_constant — checkStream -->
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).  <!-- refactored readme call -->
@@ -94,7 +92,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // spy: add_function — createSpy -->
 <!-- // join: add_conditional — processJoin -->
 <!-- // render: add_constant — getRender -->
-<!-- // grid: add_try_catch — processGrid -->
 <!-- // memo: add_conditional — fetchMemo -->
 <!-- // context: add_function — buildContext -->
 <!-- // retry: add_function — processRetry -->
@@ -103,7 +100,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // retry: add_conditional — fetchRetry -->
 <!-- // style: add_constant — validateStyle -->
 <!-- // encode: add_constant — getEncode -->
-<!-- // stream: add_loop — processStream -->
 <!-- // state: add_function — initState -->
 <!-- // license: add_constant — parseLicense -->
 <!-- // test: add_conditional — processTest -->
@@ -342,15 +338,18 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // flex: add_conditional — parseFlex -->
 <!-- // transform: add_conditional — setTransform -->
 <!-- // join: add_function — checkJoin -->
-<!-- // sub: add_function — validateSub -->
-<!-- // setup: add_function — formatSetup -->
-<!-- // docs: add_function — setDocs -->
-<!-- // animation: add_function — transformAnimation -->
-<!-- // cache: add_function — initCache -->
-<!-- // changelog: add_function — buildChangelog -->
-<!-- // handle: add_function — fetchHandle -->
-<!-- // cache: add_function — loadCache -->
-<!-- // buffer: add_function — getBuffer -->
-<!-- // license: add_function — formatLicense -->
-<!-- // grid: add_function — transformGrid -->
-<!-- // merge: add_function — checkMerge -->
+<!-- // format: add_constant — syncFormat -->
+<!-- // compress: add_constant — formatCompress -->
+<!-- // theme: add_constant — syncTheme -->
+<!-- // encode: add_constant — syncEncode -->
+<!-- // spy: add_conditional — validateSpy -->
+<!-- // theme: add_constant — processTheme -->
+<!-- // state: add_function — transformState -->
+<!-- // flex: add_conditional — fetchFlex -->
+<!-- // memo: add_conditional — applyMemo -->
+<!-- // effect: add_constant — handleEffect -->
+<!-- // query: add_function — checkQuery -->
+<!-- // cache: add_constant — initCache -->
+<!-- // readme: add_constant — validateReadme -->
+<!-- // query: add_conditional — handleQuery -->
+<!-- // grid: add_constant — updateGrid -->
