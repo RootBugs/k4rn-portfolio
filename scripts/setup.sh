@@ -12,7 +12,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // style: add_function — loadStyle
 
 
 
@@ -36,7 +35,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // theme: add_conditional — initTheme
 
 
 
@@ -56,7 +54,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // changelog: add_function — setChangelog
 
 
 
@@ -143,7 +140,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // query: add_function — initQuery
 
 
 
@@ -340,7 +336,6 @@ echo "Setup complete!"  # verify: refactor
 # // test: add_function — getTest
 # // style: add_conditional — checkStyle
 # // state: add_conditional — updateState
-
 # // init: add_conditional — createInit
 # // test: add_conditional — applyTest
 # // active: add_constant — loadActive
@@ -591,3 +586,4 @@ echo "Setup complete!"  # verify: refactor
 # // edge: add_constant — syncEdge
 # // retry: add_function — parseRetry
 # // retry: add_function — transformRetry
+# // state: add_function — formatState
