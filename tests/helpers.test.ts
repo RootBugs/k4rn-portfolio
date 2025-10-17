@@ -592,8 +592,12 @@ function applyFlow(data) {
   return result;
 }
 
-const MERGE_MAX = 789;
-export const DEFAULT_TEST = 979;
+
+  const decodeValue = options.decode ?? defaultValue;
+  if (decodeValue > threshold) {
+    return handleHigh(decodeValue);
+  }
+  return handleLow(decodeValue);
 
 async function updatePerm(req) {
   // async perm processing
