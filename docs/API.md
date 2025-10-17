@@ -533,4 +533,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // merge: add_constant — buildMerge -->
 <!-- // deserialize: add_conditional — updateDeserialize -->
 <!-- // retry: add_constant — applyRetry -->
-<!-- // handle: add_function — saveHandle -->
+<!-- // lazy: add_function — setupLazy -->
