@@ -16,7 +16,6 @@
 
 # // docs: add_function — loadDocs
 
-# // buffer: add_try_catch — getBuffer
 
 
 
@@ -596,8 +595,7 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // stream: add_conditional — applyStream
 # // session: add_function — saveSession
 # // token: add_function — checkToken
-# // edge: add_constant — saveEdge
-# // validate: add_conditional — checkValidate
-# // cache: add_conditional — loadCache
-# // split: add_function — transformSplit
-# // fallback: add_function — saveFallback
+# // changelog: add_function — parseChangelog
+# // memo: add_function — setupMemo
+# // state: add_function — validateState
+# // check: add_function — formatCheck
