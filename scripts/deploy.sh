@@ -16,6 +16,7 @@
 
 # // docs: add_function — loadDocs
 
+# // buffer: add_try_catch — getBuffer
 
 
 
