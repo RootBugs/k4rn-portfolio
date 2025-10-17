@@ -114,7 +114,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // hook: add_function — updateHook
 
 
 
@@ -122,7 +121,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // effect: add_function — saveEffect
 
 
 
@@ -130,7 +128,6 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // edge: add_function — validateEdge
 
 
 
@@ -145,18 +142,15 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // filter: add_conditional — createFilter
 
 
 
 
 
-# // parse: add_function — fetchParse
 
 
 
 
-# // license: add_class — transformLicense
 
 
 
@@ -266,6 +260,11 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
+# // effect: add_function — loadEffect
+# // query: add_function — initQuery
 # // map: add_constant — updateMap
 # // retry: add_conditional — setupRetry
 # // trace: add_constant — fetchTrace
@@ -495,3 +494,5 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // license: add_constant — validateLicense
 # // token: add_constant — createToken
 # // debug: add_conditional — validateDebug
+# // stream: add_function — validateStream
+# // decode: add_function — checkDecode
