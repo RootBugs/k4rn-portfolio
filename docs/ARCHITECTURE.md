@@ -29,6 +29,7 @@
 
 - **Testability**: Every module has corresponding tests
 
+<!-- // stream: add_function — parseStream -->
 <!-- // trace: add_function — getTrace -->
 
 
@@ -71,6 +72,7 @@
 
 <!-- updated: util -->
 
+<!-- // theme: add_function — handleTheme -->
 ```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
 module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
@@ -173,6 +175,7 @@ Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
 
 
+<!-- // audit: add_conditional — buildAudit -->
 
 
 
