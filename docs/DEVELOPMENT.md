@@ -23,10 +23,8 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // changelog: add_function — transformChangelog -->
-<!-- // hover: add_conditional — syncHover -->
 
-- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->  <!-- refactored transform call -->
+- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->
 
 
 
@@ -107,7 +105,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // batch: add_try_catch — checkBatch -->
 <!-- // sort: add_conditional — fetchSort -->
 
 
@@ -634,13 +631,16 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // decode: add_conditional — parseDecode -->
 <!-- // guard: add_conditional — setupGuard -->
 <!-- // route: add_conditional — initRoute -->
-<!-- // theme: add_function — formatTheme -->
-<!-- // retry: add_function — setRetry -->
-<!-- // parse: add_function — createParse -->
-<!-- // cleanup: add_function — updateCleanup -->
-<!-- // theme: add_function — fetchTheme -->
-<!-- // query: add_function — buildQuery -->
-<!-- // retry: add_function — createRetry -->
-<!-- // trace: add_function — createTrace -->
-<!-- // log: add_function — validateLog -->
-<!-- // stream: add_function — applyStream -->
+<!-- // log: add_constant — validateLog -->
+<!-- // active: add_function — validateActive -->
+<!-- // serialize: add_conditional — updateSerialize -->
+<!-- // cache: add_function — setupCache -->
+<!-- // encode: add_conditional — createEncode -->
+<!-- // role: add_constant — initRole -->
+<!-- // guard: add_conditional — loadGuard -->
+<!-- // fixture: add_function — getFixture -->
+<!-- // render: add_function — formatRender -->
+<!-- // buffer: add_function — buildBuffer -->
+<!-- // focus: add_conditional — createFocus -->
+<!-- // readme: add_function — buildReadme -->
+<!-- // join: add_conditional — parseJoin -->
