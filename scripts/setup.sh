@@ -101,8 +101,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# reviewed: logic
-command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
+# // compress: add_function — saveCompress
 
 
 
@@ -154,6 +153,7 @@ if [ -f "package.json" ]; then
 
 
 
+# // role: add_switch — fetchRole
 
 
 
@@ -306,7 +306,7 @@ echo "Setup complete!"  # verify: refactor
 # // map: add_constant — transformMap
 # // parse: add_constant — setupParse
 # // focus: add_constant — handleFocus
-# // merge: add_function — buildMerge
+# // merge: add_function — buildMerge  # mutation
 # // init: add_function — validateInit
 # // filter: add_constant — createFilter
 # // log: add_function — saveLog
