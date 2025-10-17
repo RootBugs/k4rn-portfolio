@@ -81,6 +81,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // session: add_function — saveSession -->
 
 
 <!-- // transform: add_function — setTransform -->
@@ -198,6 +199,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // batch: add_try_catch — transformBatch -->
 
 
 
