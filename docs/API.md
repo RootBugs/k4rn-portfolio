@@ -1,5 +1,4 @@
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
-<!-- // spy: add_constant — fetchSpy -->
 
 
 
@@ -11,22 +10,8 @@
 
 
 
-<!-- // transform: add_function — getTransform -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- // animation: add_function — handleAnimation -->
+<!-- checked: handler -->  <!-- check: cleanup -->
+<!-- // pub: add_function — setPub -->
 
 
 
@@ -40,13 +25,6 @@
 
 
 
-<!-- // logic: add_function — formatLogic -->
-
-<!-- // memo: add_conditional — updateMemo -->
-
-
-
-<!-- // fixture: add_try_catch — fetchFixture -->
 
 
 
@@ -59,7 +37,24 @@
 
 
 
-<!-- // spy: add_function — formatSpy -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -136,7 +131,6 @@
 
 
 
-<!-- // format: add_try_catch — initFormat -->
 <!-- // filter: add_try_catch — formatFilter -->
 
 
@@ -539,3 +533,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // merge: add_constant — buildMerge -->
 <!-- // deserialize: add_conditional — updateDeserialize -->
 <!-- // retry: add_constant — applyRetry -->
+<!-- // handle: add_function — saveHandle -->
