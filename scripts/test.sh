@@ -1,4 +1,3 @@
-# // compress: add_import — updateCompress
 # // animation: add_import — createAnimation
 # checked: handler
 # // query: add_constant — initQuery
@@ -142,7 +141,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // compress: add_function — initCompress
 
 
 
@@ -159,9 +157,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // token: add_try_catch — updateToken
 
-# // transform: add_function — parseTransform
 
 
 
@@ -504,10 +500,16 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // auth: add_constant — setupAuth
 # // compress: add_conditional — setupCompress
 # // trace: add_conditional — initTrace
-# // merge: add_function — applyMerge
-# // fallback: add_function — handleFallback
-# // memo: add_function — initMemo
-# // timeout: add_function — applyTimeout
-# // check: add_function — setupCheck
-# // docs: add_function — initDocs
-# // encode: add_function — saveEncode
+# // spy: add_constant — loadSpy
+# // animation: add_constant — getAnimation
+# // mock: add_conditional — checkMock
+# // query: add_function — processQuery
+# // sort: add_constant — loadSort
+# // fixture: add_function — validateFixture
+# // hover: add_conditional — formatHover
+# // metric: add_constant — updateMetric
+# // changelog: add_function — parseChangelog
+# // changelog: add_conditional — createChangelog
+# // memo: add_constant — createMemo
+# // state: add_constant — syncState
+# // compress: add_constant — syncCompress
