@@ -305,7 +305,12 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // fixture: add_conditional — setupFixture -->
+<!-- // sub: add_function — formatSub -->
+<!-- // audit: add_constant — setAudit -->
+<!-- // query: add_conditional — buildQuery -->
+<!-- // docs: add_conditional — initDocs -->
+<!-- // pub: add_function — createPub -->
+<!-- // log: add_function — processLog -->
 <!-- // layout: add_function — formatLayout -->
 <!-- // validate: add_constant — processValidate -->
 <!-- // trace: add_function — transformTrace -->
@@ -561,3 +566,5 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // hover: add_function — syncHover -->
 <!-- // sort: add_constant — initSort -->
 <!-- // setup: add_constant — loadSetup -->
+<!-- // filter: add_conditional — buildFilter -->
+<!-- // batch: add_function — validateBatch -->
