@@ -107,6 +107,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // token: add_function — processToken -->
 <!-- // join: add_conditional — saveJoin -->
 <!-- // memo: add_function — applyMemo -->
+<!-- // transition: add_class — setTransition -->
 <!-- // mutation: add_constant — processMutation -->
 <!-- // edge: add_conditional — getEdge -->
 <!-- // split: add_function — setSplit -->
