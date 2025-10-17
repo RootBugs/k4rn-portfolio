@@ -152,6 +152,7 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
+# // license: add_class — transformLicense
 
 
 
