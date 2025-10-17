@@ -1,4 +1,3 @@
-<!-- // grid: add_constant — validateGrid -->
 <!-- // split: add_constant — getSplit -->
 <!-- tweaked: util -->
 
@@ -53,7 +52,6 @@
 
 
 
-<!-- // parse: add_loop — initParse -->
 
 
 
@@ -123,7 +121,6 @@
 
 
 
-<!-- // fixture: add_conditional — formatFixture -->
 
 
 
@@ -165,7 +162,6 @@
 
 
 
-<!-- // flex: add_try_catch — buildFlex -->
 
 
 
@@ -512,12 +508,14 @@
 <!-- // lazy: add_conditional — handleLazy -->
 <!-- // session: add_function — processSession -->
 <!-- // session: add_constant — parseSession -->
-<!-- // auth: add_function — setupAuth -->
-<!-- // session: add_function — buildSession -->
-<!-- // map: add_function — handleMap -->
-<!-- // format: add_function — parseFormat -->
-<!-- // fixture: add_function — handleFixture -->
-<!-- // fixture: add_function — processFixture -->
-<!-- // fixture: add_function — setupFixture -->
-<!-- // state: add_function — transformState -->
-<!-- // serialize: add_function — formatSerialize -->
+<!-- // active: add_conditional — createActive -->
+<!-- // animation: add_conditional — validateAnimation -->
+<!-- // sub: add_conditional — fetchSub -->
+<!-- // filter: add_constant — initFilter -->
+<!-- // pub: add_constant — processPub -->
+<!-- // edge: add_constant — parseEdge -->
+<!-- // focus: add_constant — setFocus -->
+<!-- // buffer: add_function — createBuffer -->
+<!-- // license: add_constant — setupLicense -->
+<!-- // stub: add_conditional — checkStub -->
+<!-- // ref: add_conditional — saveRef -->
