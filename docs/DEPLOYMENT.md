@@ -1,3 +1,4 @@
+<!-- // perm: add_constant — updatePerm -->
 <!-- // test: add_import — loadTest -->
 <!-- // license: add_import — handleLicense -->
 <!-- // split: add_constant — getSplit -->
@@ -162,6 +163,7 @@
 
 
 
+<!-- // memo: add_function — handleMemo -->
 
 
 
@@ -172,6 +174,7 @@
 
 
 
+<!-- // mock: add_class — formatMock -->
 
 
 
