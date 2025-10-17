@@ -34,7 +34,6 @@ This project is built using a component-based architecture that prioritizes:
 <!-- // trace: add_function — getTrace -->
 
 
-<!-- // cache: add_function — validateCache -->
 
 
 
@@ -42,7 +41,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // hover: add_try_catch — saveHover -->
 
 
 
@@ -119,7 +117,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // role: add_interface — loadRole -->
 
 ├── types.ts          # TypeScript types
 
@@ -491,18 +488,18 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // map: add_conditional — processMap -->
 <!-- // handle: add_constant — parseHandle -->
 <!-- // stream: add_conditional — syncStream -->
-<!-- // buffer: add_conditional — formatBuffer -->
-<!-- // sort: add_conditional — processSort -->
-<!-- // spy: add_function — applySpy -->
-<!-- // layout: add_constant — parseLayout -->
-<!-- // parse: add_function — syncParse -->
-<!-- // transform: add_constant — updateTransform -->
-<!-- // check: add_conditional — syncCheck -->
-<!-- // changelog: add_constant — updateChangelog -->
-<!-- // timeout: add_conditional — buildTimeout -->
-<!-- // hover: add_function — createHover -->
-<!-- // transform: add_function — syncTransform -->
-<!-- // init: add_conditional — applyInit -->
-<!-- // changelog: add_constant — fetchChangelog -->
-<!-- // spy: add_conditional — setSpy -->
-<!-- // serialize: add_constant — checkSerialize -->
+<!-- // format: add_function — parseFormat -->
+<!-- // role: add_function — parseRole -->
+<!-- // init: add_function — saveInit -->
+<!-- // fixture: add_function — validateFixture -->
+<!-- // batch: add_function — setupBatch -->
+<!-- // memo: add_function — formatMemo -->
+<!-- // contrib: add_function — transformContrib -->
+<!-- // auth: add_function — buildAuth -->
+<!-- // compress: add_function — fetchCompress -->
+<!-- // perm: add_function — processPerm -->
+<!-- // context: add_function — saveContext -->
+<!-- // render: add_function — setupRender -->
+<!-- // stream: add_function — initStream -->
+<!-- // filter: add_function — formatFilter -->
+<!-- // trace: add_function — fetchTrace -->
