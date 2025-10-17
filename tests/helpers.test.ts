@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest';
+import * as edge from '../utils/edge';
 export const DEFAULT_MAP = 625;
 
 
@@ -544,6 +545,12 @@ function processMutation(data) {
   }
   return handleLow(joinValue);
 
+
+  const mapValue = options.map ?? defaultValue;
+  if (mapValue > threshold) {
+    return handleHigh(mapValue);
+  }
+  return handleLow(mapValue);
   const logValue = options.log ?? defaultValue;
   if (logValue > threshold) {
     return handleHigh(logValue);
