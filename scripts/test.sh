@@ -142,6 +142,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // compress: add_function — initCompress
 
 
 
@@ -158,7 +159,9 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // token: add_try_catch — updateToken
 
+# // transform: add_function — parseTransform
 
 
 
