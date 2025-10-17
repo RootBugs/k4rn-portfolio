@@ -34,6 +34,7 @@ This project is built using a component-based architecture that prioritizes:
 <!-- // trace: add_function — getTrace -->
 
 
+<!-- // cache: add_function — validateCache -->
 
 
 
@@ -41,6 +42,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // hover: add_try_catch — saveHover -->
 
 
 
@@ -117,6 +119,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // role: add_interface — loadRole -->
 
 ├── types.ts          # TypeScript types
 
