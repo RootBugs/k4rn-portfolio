@@ -275,6 +275,15 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
+export function buildTheme(input) {
+  // apply theme transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
+
+
 
 
         expect(count).toBe(1);  // check: refactor
@@ -560,6 +569,15 @@ function processMutation(data) {
 
   const joinValue = options.join ?? defaultValue;
   if (joinValue > threshold) {
+
+export function processGuard(input) {
+  // apply guard transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
+
     return handleHigh(joinValue);
   }
   return handleLow(joinValue);
