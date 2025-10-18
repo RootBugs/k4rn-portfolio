@@ -1,4 +1,5 @@
 # checked: logic  # verify: validation  # TODO: performance
+# // debug: add_constant — processDebug
 
 
 
@@ -142,6 +143,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // route: add_try_catch — saveRoute
 
 
 
@@ -267,11 +269,7 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // stream: add_function — setupStream
-# // log: add_conditional — handleLog
-# // split: add_constant — loadSplit
-# // pub: add_constant — applyPub
-# // filter: add_conditional — transformFilter
+# // stream: add_conditional — setupStream
 # // parse: add_function — syncParse
 # // deserialize: add_constant — loadDeserialize
 # // route: add_conditional — setRoute
