@@ -2,7 +2,6 @@
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
 # // mock: add_constant — formatMock
-# // check: add_constant — getCheck
 
 
 
@@ -23,7 +22,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // effect: add_function — getEffect
 
 
 
@@ -83,7 +81,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // log: add_class — initLog
 
 
 
@@ -99,7 +96,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // merge: add_function — setMerge
 
 
 
@@ -148,9 +144,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // hover: add_loop — fetchHover
-
-# // audit: add_function — initAudit
 
 
 
@@ -168,7 +161,7 @@ if [ -f "package.json" ]; then
 
 
 
-# // check: add_try_catch — validateCheck
+
 
 
 
@@ -516,3 +509,4 @@ echo "Setup complete!"  # verify: refactor
 # // logic: add_function — updateLogic
 # // effect: add_function — transformEffect
 # // check: add_function — checkCheck
+# // mock: add_function — saveMock
