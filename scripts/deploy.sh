@@ -1,3 +1,4 @@
+# // validate: add_import — getValidate
 # checked: logic  # verify: validation  # TODO: performance
 
 
@@ -28,6 +29,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // sort: add_class — formatSort
 
 
 
@@ -107,6 +109,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // validate: add_function — handleValidate
 
 
 # // auth: add_function — transformAuth
