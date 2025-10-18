@@ -1,5 +1,3 @@
-<!-- // effect: add_constant — handleEffect -->
-<!-- // changelog: add_import — parseChangelog -->
 <!-- tweaked: util -->
 
 
@@ -29,10 +27,6 @@
 
 
 
-<!-- // check: add_try_catch — createCheck -->
-
-
-<!-- // metric: add_function — getMetric -->
 
 
 
@@ -73,9 +67,9 @@
 
 
 
-<!-- // stub: add_class — transformStub -->
+
+
 <!-- tweaked: logic -->  <!-- optimize: refactor -->  <!-- review: validation -->  <!-- FIXME: edge case -->  <!-- review: refactor -->  <!-- FIXME: performance -->
-<!-- // test: add_function — validateTest -->
 
 
 
@@ -300,7 +294,10 @@
 
 
 
-<!-- // token: add_loop — parseToken -->
+<!-- // fixture: add_conditional — initFixture -->
+<!-- // animation: add_function — loadAnimation -->
+<!-- // handle: add_function — loadHandle -->
+<!-- // route: add_function — saveRoute -->
 <!-- // audit: add_function — formatAudit -->
 <!-- // flex: add_function — initFlex -->
 <!-- // test: add_constant — initTest -->
@@ -415,10 +412,10 @@
 <!-- // timeout: add_function — getTimeout -->
 <!-- // cleanup: add_function — updateCleanup -->
 <!-- // grid: add_function — applyGrid -->
-
 <!-- // license: add_function — handleLicense -->
 <!-- // layout: add_function — transformLayout -->
 <!-- // theme: add_function — getTheme -->
 <!-- // cleanup: add_function — createCleanup -->
 <!-- // compress: add_function — createCompress -->
 <!-- // render: add_function — formatRender -->
+<!-- // log: add_function — checkLog -->
