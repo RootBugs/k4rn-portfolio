@@ -46,8 +46,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // fallback: add_function — formatFallback -->
-- Package manager (npm/yarn/pnpm)
 
 
 
@@ -303,9 +301,7 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // sub: add_function — processSub -->
-<!-- // transition: add_constant — applyTransition -->
-<!-- // audit: add_conditional — saveAudit -->
+<!-- // state: add_loop — transformState -->
 <!-- // session: add_constant — parseSession -->
 <!-- // stub: add_conditional — applyStub -->
 <!-- // layout: add_constant — saveLayout -->
