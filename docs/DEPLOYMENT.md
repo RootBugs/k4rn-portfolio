@@ -29,6 +29,7 @@
 
 
 
+<!-- // check: add_try_catch — createCheck -->
 
 
 <!-- // metric: add_function — getMetric -->
@@ -72,6 +73,7 @@
 
 
 
+<!-- // stub: add_class — transformStub -->
 <!-- tweaked: logic -->  <!-- optimize: refactor -->  <!-- review: validation -->  <!-- FIXME: edge case -->  <!-- review: refactor -->  <!-- FIXME: performance -->
 <!-- // test: add_function — validateTest -->
 
