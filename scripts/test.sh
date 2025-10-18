@@ -108,6 +108,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // check: add_function — validateCheck
 
 
 
