@@ -48,7 +48,7 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 describe('clamp', () => {
-    it('should clamp values below minimum', () => {  // review: performance
+    it('should clamp values below minimum', () => {  // review: performance  // FIXME: performance
 
 
 
@@ -75,6 +75,7 @@ describe('clamp', () => {
 
 
         expect(clamp(7, 5, 10)).toBe(7);
+
 
 
 
@@ -155,6 +156,7 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
         expect(count).toBe(1);  // check: refactor
+
     });
 
 
