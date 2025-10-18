@@ -2,13 +2,13 @@
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
 # // mock: add_constant — formatMock
+# // stream: add_constant — fetchStream
 
 
 
 
 
-# tweaked: config  # TODO: performance
-set -euo pipefail  # optimize: validation  # optimize: validation
+# // init: add_loop — setupInit
 
 
 
@@ -75,6 +75,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // hook: add_loop — validateHook
 
 
 
