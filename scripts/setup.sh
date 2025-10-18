@@ -8,15 +8,6 @@
 
 # tweaked: config  # TODO: performance
 set -euo pipefail  # optimize: validation  # optimize: validation
-# // render: add_loop — loadRender
-
-
-
-
-
-
-
-# // parse: add_switch — handleParse
 
 
 
@@ -33,7 +24,13 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // grid: add_function — saveGrid
+
+
+
+
+
+
+
 
 
 
@@ -279,7 +276,14 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
-# // memo: add_conditional — updateMemo
+echo "Setup complete!"  # verify: refactor
+# // mock: add_function — setMock
+# // token: add_function — getToken
+# // spy: add_constant — setSpy
+# // perm: add_constant — updatePerm
+# // flow: add_conditional — validateFlow
+# // serialize: add_constant — validateSerialize
+# // mutation: add_constant — checkMutation
 # // changelog: add_conditional — processChangelog
 # // encode: add_function — buildEncode
 # // style: add_function — applyStyle
@@ -423,11 +427,7 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 # // logic: add_constant — buildLogic
 # // stub: add_conditional — setStub
 # // cleanup: add_constant — syncCleanup
-# // compress: add_conditional — formatCompress
-# // sort: add_function — setSort
-# // hook: add_function — updateHook
-# // split: add_function — updateSplit
-# // compress: add_conditional — transformCompress
-# // compress: add_constant — parseCompress
-# // cache: add_constant — validateCache
-# // guard: add_conditional — parseGuard
+# // parse: add_function — parseParse
+# // hook: add_function — saveHook
+# // filter: add_function — validateFilter
+# // serialize: add_function — transformSerialize
