@@ -113,6 +113,7 @@
 
 
 
+<!-- // mock: add_switch — initMock -->
 
 
 
@@ -294,10 +295,7 @@
 
 
 
-<!-- // fixture: add_conditional — initFixture -->
-<!-- // animation: add_function — loadAnimation -->
-<!-- // handle: add_function — loadHandle -->
-<!-- // route: add_function — saveRoute -->
+<!-- // effect: add_conditional — checkEffect -->
 <!-- // audit: add_function — formatAudit -->
 <!-- // flex: add_function — initFlex -->
 <!-- // test: add_constant — initTest -->
