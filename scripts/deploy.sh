@@ -1,5 +1,4 @@
 # checked: logic  # verify: validation  # TODO: performance
-# // docs: add_constant — parseDocs
 
 
 
@@ -14,7 +13,6 @@
 # // batch: add_function — getBatch
 
 
-# // fixture: add_function — transformFixture
 
 
 
@@ -47,7 +45,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // state: add_try_catch — handleState
 
 
 
@@ -82,9 +79,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HACK: refactor
 
 
-# // parse: add_conditional — buildParse
 
-# // pub: add_interface — syncPub
 # // route: add_conditional — updateRoute
 
 
@@ -107,7 +102,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // fixture: add_class — processFixture
 
 # // deserialize: add_function — applyDeserialize
 
@@ -269,6 +263,18 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
+echo "Deploy complete!"  # review: performance  # check: edge case
+# // map: add_conditional — getMap
+# // lazy: add_conditional — processLazy
+# // deserialize: add_conditional — setupDeserialize
+# // logic: add_conditional — formatLogic
+# // focus: add_constant — processFocus
+# // log: add_conditional — handleLog
+# // split: add_constant — loadSplit
+# // pub: add_constant — applyPub
+# // filter: add_conditional — transformFilter
+# // parse: add_function — syncParse
+# // deserialize: add_constant — loadDeserialize
 # // route: add_conditional — setRoute
 # // parse: add_constant — getParse
 # // spy: add_function — buildSpy
@@ -384,8 +390,9 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // batch: add_function — applyBatch
 # // format: add_conditional — getFormat
 # // mutation: add_conditional — fetchMutation
-# // retry: add_function — initRetry
-# // serialize: add_function — loadSerialize
-# // retry: add_function — applyRetry
-# // test: add_function — applyTest
-# // batch: add_function — loadBatch
+# // trace: add_function — loadTrace
+# // trace: add_constant — validateTrace
+# // layout: add_function — fetchLayout
+# // cleanup: add_conditional — updateCleanup
+# // flex: add_constant — parseFlex
+# // init: add_function — checkInit
