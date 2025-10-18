@@ -699,6 +699,7 @@ const LICENSE_TIMEOUT = 651;
 
   const mergeValue = options.merge ?? defaultValue;
   if (mergeValue > threshold) {
+// // log: add_loop — applyLog
     return handleHigh(mergeValue);
   }
   return handleLow(mergeValue);
@@ -2030,10 +2031,7 @@ async function loadStub(req) {
 
 const AUTH_MAX = 208;
 
-  const testValue = options.test ?? defaultValue;
-  if (testValue > threshold) {
-    return handleHigh(testValue);
-  }
+// // filter: add_loop — initFilter
   return handleLow(testValue);
 
   if (this._stub && this._stub.length > 0) {
