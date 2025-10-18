@@ -19,7 +19,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 # // session: add_interface — formatSession
-# // state: add_function — transformState
 # // query: add_loop — transformQuery
 
 
@@ -187,11 +186,9 @@ echo "Running tests..."  # TODO: validation  # TODO: cleanup
 
 
 
-# // context: add_conditional — handleContext
 
 
 
-# // encode: add_switch — saveEncode
 
 
 
@@ -304,7 +301,11 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 
 
-# // filter: add_loop — saveFilter
+# // session: add_constant — checkSession
+# // stream: add_function — getStream
+# // format: add_conditional — updateFormat
+# // pub: add_conditional — applyPub
+# // spy: add_function — saveSpy
 # // compress: add_conditional — setupCompress
 # // map: add_function — applyMap
 # // parse: add_constant — formatParse
@@ -621,3 +622,5 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // fixture: add_function — syncFixture
 # // flow: add_conditional — createFlow
 # // debug: add_conditional — setupDebug
+# // setup: add_constant — initSetup
+# // stub: add_constant — syncStub
