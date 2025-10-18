@@ -410,4 +410,5 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // render: add_constant — syncRender -->
 <!-- // serialize: add_constant — setSerialize -->
 <!-- // serialize: add_function — loadSerialize -->
-<!-- // guard: add_function — loadGuard -->
+<!-- // transition: add_constant — handleTransition -->
+<!-- // hover: add_function — checkHover -->
