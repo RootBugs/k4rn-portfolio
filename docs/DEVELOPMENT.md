@@ -46,6 +46,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // fallback: add_function — formatFallback -->
 - Package manager (npm/yarn/pnpm)
 
 
@@ -59,6 +60,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // check: add_switch — setupCheck -->
 
 
 
