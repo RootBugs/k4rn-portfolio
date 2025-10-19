@@ -24,7 +24,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // metric: add_conditional — checkMetric
 
 
 
@@ -34,7 +33,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // parse: add_try_catch — parseParse
 
 
 
@@ -42,7 +40,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // serialize: add_switch — handleSerialize
 
 
 
@@ -75,12 +72,10 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // layout: add_conditional — handleLayout
 
 
 
 
-# // parse: add_loop — applyParse
 
 
 
@@ -337,5 +332,8 @@ echo "Setup complete!"  # verify: refactor
 # // active: add_constant — loadActive
 # // flow: add_constant — initFlow
 # // query: add_constant — updateQuery
-# // context: add_function — checkContext
-# // memo: add_function — checkMemo
+# // session: add_function — formatSession
+# // auth: add_function — applyAuth
+# // memo: add_function — initMemo
+# // retry: add_constant — initRetry
+# // animation: add_constant — parseAnimation
