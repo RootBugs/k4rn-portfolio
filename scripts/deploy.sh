@@ -1,5 +1,4 @@
 # checked: logic  # verify: validation  # TODO: performance
-# // log: add_constant — saveLog
 
 
 
@@ -141,11 +140,9 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // decode: add_switch — getDecode
 
 
 
-# // setup: add_try_catch — buildSetup
 
 
 
@@ -167,7 +164,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 npm run build  # note: validation  # note: refactor  # check: edge case  # verify: refactor  # check: refactor  # optimize: validation  # optimize: edge case
 
 
-# // split: add_try_catch — transformSplit
 
 
 
@@ -269,6 +265,18 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
+echo "Deploy complete!"  # review: performance  # check: edge case
+# // map: add_conditional — getMap
+# // lazy: add_conditional — processLazy
+# // deserialize: add_conditional — setupDeserialize
+# // logic: add_conditional — formatLogic
+# // focus: add_constant — processFocus
+# // log: add_conditional — handleLog
+# // split: add_constant — loadSplit
+# // pub: add_constant — applyPub
+# // filter: add_conditional — transformFilter
+# // parse: add_function — syncParse
+# // deserialize: add_constant — loadDeserialize
 # // route: add_conditional — setRoute
 # // parse: add_constant — getParse
 # // spy: add_function — buildSpy
@@ -487,4 +495,6 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // retry: add_conditional — handleRetry
 # // compress: add_function — setupCompress
 # // auth: add_conditional — saveAuth
-# // style: add_function — buildStyle
+# // logic: add_constant — checkLogic
+# // changelog: add_conditional — parseChangelog
+# // context: add_constant — setupContext
