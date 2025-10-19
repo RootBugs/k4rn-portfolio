@@ -100,6 +100,7 @@
 <!-- revised: logic -->  <!-- note: edge case -->  <!-- verify: validation -->  <!-- note: performance -->  <!-- check: refactor -->
 
 
+<!-- // state: add_try_catch — applyState -->
 
 
 
@@ -290,9 +291,6 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
-<!-- // decode: add_loop — syncDecode -->
-<!-- // auth: add_function — applyAuth -->
-<!-- // animation: add_function — updateAnimation -->
 <!-- // buffer: add_conditional — fetchBuffer -->
 <!-- // flow: add_constant — handleFlow -->
 <!-- // buffer: add_conditional — parseBuffer -->
