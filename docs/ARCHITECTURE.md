@@ -73,8 +73,6 @@ This project is built using a component-based architecture that prioritizes:
 
 <!-- updated: util -->
 
-```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
-module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
@@ -127,6 +125,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // spy: add_try_catch — updateSpy -->
 
 ├── utils.ts          # Internal utilities  <!-- review: cleanup -->
 
