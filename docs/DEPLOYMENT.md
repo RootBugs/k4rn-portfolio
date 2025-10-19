@@ -16,6 +16,7 @@
 
 
 
+<!-- // merge: add_function — syncMerge -->
 
 
 
@@ -67,6 +68,7 @@
 
 
 
+<!-- // query: add_switch — loadQuery -->
 
 
 
