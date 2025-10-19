@@ -11,8 +11,7 @@
 
 
 
-<!-- reviewed: util -->  <!-- TODO: cleanup -->
-This project is built using a component-based architecture that prioritizes:
+<!-- // test: add_function — validateTest -->
 
 
 
@@ -39,6 +38,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // decode: add_class — buildDecode -->
 
 
 
