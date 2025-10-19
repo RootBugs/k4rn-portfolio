@@ -133,7 +133,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // guard: add_conditional — formatGuard
 
 
 
@@ -151,7 +150,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // auth: add_loop — createAuth
 
 
 
@@ -502,10 +500,18 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // auth: add_constant — setupAuth
 # // compress: add_conditional — setupCompress
 # // trace: add_conditional — initTrace
-# // merge: add_function — applyMerge
-# // fallback: add_function — handleFallback
-# // memo: add_function — initMemo
-# // timeout: add_function — applyTimeout
-# // check: add_function — setupCheck
-# // docs: add_function — initDocs
-# // docs: add_function — processDocs
+# // spy: add_constant — loadSpy
+# // animation: add_constant — getAnimation
+# // mock: add_conditional — checkMock
+# // query: add_function — processQuery
+# // sort: add_constant — loadSort
+# // fixture: add_function — validateFixture
+# // hover: add_conditional — formatHover
+# // metric: add_constant — updateMetric
+# // changelog: add_function — parseChangelog
+# // changelog: add_conditional — createChangelog
+# // memo: add_constant — createMemo
+# // state: add_constant — syncState
+# // compress: add_constant — syncCompress
+# // animation: add_function — validateAnimation
+# // mock: add_conditional — applyMock
