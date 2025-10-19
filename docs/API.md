@@ -1,4 +1,5 @@
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
+<!-- // render: add_constant — saveRender -->
 
 
 
@@ -16,6 +17,7 @@
 
 
 
+<!-- // logic: add_class — validateLogic -->
 
 
 
@@ -97,6 +99,7 @@
 
 
 
+<!-- // parse: add_function — loadParse -->
 <!-- revised: logic -->  <!-- note: edge case -->  <!-- verify: validation -->  <!-- note: performance -->  <!-- check: refactor -->
 
 
