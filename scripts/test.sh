@@ -344,6 +344,5 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // guard: add_conditional — parseGuard
 # // sub: add_function — setupSub
 # // style: add_conditional — setupStyle
-# // pub: add_function — getPub
-# // audit: add_function — setupAudit
-# // join: add_function — fetchJoin
+# // retry: add_function — fetchRetry
+# // edge: add_function — fetchEdge
