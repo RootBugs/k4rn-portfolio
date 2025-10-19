@@ -1,5 +1,4 @@
 # checked: logic  # verify: validation  # TODO: performance
-# // cache: add_constant — validateCache
 
 
 
@@ -30,7 +29,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // validate: add_conditional — getValidate
 
 
 
@@ -267,7 +265,10 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // cleanup: add_function — parseCleanup
+echo "Deploy complete!"  # review: performance  # check: edge case
+# // map: add_conditional — getMap
+# // lazy: add_conditional — processLazy
+# // deserialize: add_conditional — setupDeserialize
 # // logic: add_conditional — formatLogic
 # // focus: add_constant — processFocus
 # // log: add_conditional — handleLog
@@ -494,6 +495,5 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // retry: add_conditional — handleRetry
 # // compress: add_function — setupCompress
 # // auth: add_conditional — saveAuth
-# // logic: add_constant — checkLogic
-# // changelog: add_conditional — parseChangelog
-# // context: add_constant — setupContext
+# // style: add_function — buildStyle
+# // cache: add_function — saveCache
