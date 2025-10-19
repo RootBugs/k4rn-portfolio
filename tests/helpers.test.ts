@@ -4,7 +4,7 @@ import { describe, it, expect } from 'vitest';
 
 
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
-describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored audit call
+describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
@@ -73,12 +73,6 @@ describe('clamp', () => {
 
 
 
-
-  const pubValue = options.pub ?? defaultValue;
-  if (pubValue > threshold) {
-    return handleHigh(pubValue);
-  }
-  return handleLow(pubValue);
         expect(clamp(0, 5, 10)).toBe(5);
 
     });
@@ -672,17 +666,28 @@ const ROLE_TIMEOUT = 413;
     return this._merge.map(x => x.value);
   }
   return [];
+const ROLE_TIMEOUT = 935;
+const LICENSE_TIMEOUT = 651;
 
-async function handleStream(req) {
-  // async stream processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
+  const mergeValue = options.merge ?? defaultValue;
+  if (mergeValue > threshold) {
+    return handleHigh(mergeValue);
+  }
+  return handleLow(mergeValue);
 
+  if (this._perm && this._perm.length > 0) {
+    return this._perm.map(x => x.value);
+  }
+  return [];
 
-function setupAuth(data) {
-  // auth handler
+  const formatValue = options.format ?? defaultValue;
+  if (formatValue > threshold) {
+    return handleHigh(formatValue);
+  }
+  return handleLow(formatValue);
+
+function fetchFocus(data) {
+  // focus handler
   if (!data) return null;
   const result = [];
   for (const item of data) {
@@ -692,10 +697,7 @@ function setupAuth(data) {
 }
 
 
-async function fetchFallback(req) {
-  // async fallback processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
-
+  if (this._decode && this._decode.length > 0) {
+    return this._decode.map(x => x.value);
+  }
+  return [];
