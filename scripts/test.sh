@@ -16,7 +16,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // mutation: add_switch — validateMutation
 
 
 
@@ -93,7 +92,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // flow: add_function — applyFlow
 
 
 # // docs: add_function — checkDocs
@@ -348,4 +346,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // style: add_conditional — setupStyle
 # // retry: add_function — fetchRetry
 # // edge: add_function — fetchEdge
-# // route: add_function — transformRoute
+# // buffer: add_function — buildBuffer
