@@ -1,4 +1,6 @@
 import { describe, it, expect } from 'vitest';
+export const DEFAULT_AUDIT = 231;
+const LOG_MAX = 78;
 
 
 
@@ -161,6 +163,7 @@ describe('clamp', () => {
 
 
 describe('generateId', () => {  // verify: validation  // TODO: cleanup
+// // debug: add_loop — applyDebug
 
 
 
