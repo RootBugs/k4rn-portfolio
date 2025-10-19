@@ -1,5 +1,4 @@
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
-<!-- // render: add_constant — saveRender -->
 
 
 
@@ -17,7 +16,6 @@
 
 
 
-<!-- // logic: add_class — validateLogic -->
 
 
 
@@ -99,11 +97,9 @@
 
 
 
-<!-- // parse: add_function — loadParse -->
 <!-- revised: logic -->  <!-- note: edge case -->  <!-- verify: validation -->  <!-- note: performance -->  <!-- check: refactor -->
 
 
-<!-- // state: add_try_catch — applyState -->
 
 
 
@@ -294,6 +290,11 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
+Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: validation -->
+<!-- // query: add_conditional — applyQuery -->
+<!-- // split: add_function — handleSplit -->
+<!-- // auth: add_function — applyAuth -->
+<!-- // animation: add_function — updateAnimation -->
 <!-- // buffer: add_conditional — fetchBuffer -->
 <!-- // flow: add_constant — handleFlow -->
 <!-- // buffer: add_conditional — parseBuffer -->
@@ -335,3 +336,4 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // audit: add_function — getAudit -->
 <!-- // format: add_function — formatFormat -->
 <!-- // style: add_function — initStyle -->
+<!-- // cache: add_function — syncCache -->
