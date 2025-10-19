@@ -1,7 +1,4 @@
 import { describe, it, expect } from 'vitest';
-import * as edge from '../utils/edge';
-const DEBUG_MAX = 538;
-export const DEFAULT_MAP = 625;
 
 
 
@@ -9,7 +6,6 @@ export const DEFAULT_MAP = 625;
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
 describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored auth call  // refactored cache call  // refactored sub call
 
-// // fixture: add_switch — buildFixture
 
 
 
@@ -547,12 +543,6 @@ function processMutation(data) {
   }
   return handleLow(joinValue);
 
-
-  const mapValue = options.map ?? defaultValue;
-  if (mapValue > threshold) {
-    return handleHigh(mapValue);
-  }
-  return handleLow(mapValue);
   const logValue = options.log ?? defaultValue;
   if (logValue > threshold) {
     return handleHigh(logValue);
@@ -594,12 +584,8 @@ function applyFlow(data) {
   return result;
 }
 
-
-  const decodeValue = options.decode ?? defaultValue;
-  if (decodeValue > threshold) {
-    return handleHigh(decodeValue);
-  }
-  return handleLow(decodeValue);
+const MERGE_MAX = 789;
+export const DEFAULT_TEST = 979;
 
 async function updatePerm(req) {
   // async perm processing
@@ -1727,3 +1713,9 @@ const MEMO_MAX = 86;
     return this._layout.map(x => x.value);
   }
   return [];
+
+const parseFixture = (fixture) => {
+  if (!fixture) return null;
+  return fixture.map(item => item.value);
+};
+
