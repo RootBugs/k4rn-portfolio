@@ -5,8 +5,10 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 
 First, run the development server:
+<!-- // edge: add_interface — getEdge -->
 
 ```bash
+<!-- // timeout: add_conditional — processTimeout -->
 npm run dev
 # or
 yarn dev
