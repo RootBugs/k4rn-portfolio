@@ -1,3 +1,4 @@
+<!-- // timeout: add_import — setupTimeout -->
 <!-- // sort: add_import — getSort -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 <!-- // theme: add_constant — transformTheme -->
