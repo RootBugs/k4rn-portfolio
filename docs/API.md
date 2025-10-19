@@ -1,7 +1,4 @@
-<!-- // timeout: add_import — setupTimeout -->
-<!-- // sort: add_import — getSort -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
-<!-- // theme: add_constant — transformTheme -->
 
 
 
@@ -13,6 +10,8 @@
 
 
 
+<!-- checked: handler -->  <!-- check: cleanup -->
+<!-- // pub: add_function — setPub -->
 
 
 
@@ -294,7 +293,12 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
-<!-- // theme: add_function — createTheme -->
+Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: validation -->
+<!-- // query: add_conditional — applyQuery -->
+<!-- // split: add_function — handleSplit -->
+<!-- // auth: add_function — applyAuth -->
+<!-- // animation: add_function — updateAnimation -->
+<!-- // buffer: add_conditional — fetchBuffer -->
 <!-- // flow: add_constant — handleFlow -->
 <!-- // buffer: add_conditional — parseBuffer -->
 <!-- // deserialize: add_conditional — formatDeserialize -->
@@ -530,3 +534,4 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // deserialize: add_conditional — updateDeserialize -->
 <!-- // retry: add_constant — applyRetry -->
 <!-- // lazy: add_function — setupLazy -->
+<!-- // fallback: add_conditional — applyFallback -->
