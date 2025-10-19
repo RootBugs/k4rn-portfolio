@@ -11,8 +11,6 @@
 
 
 
-<!-- reviewed: util -->  <!-- TODO: cleanup -->
-This project is built using a component-based architecture that prioritizes:
 
 
 
@@ -59,6 +57,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // license: add_class — checkLicense -->
 
 
 
@@ -125,6 +124,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // animation: add_function — getAnimation -->
 <!-- // spy: add_try_catch — updateSpy -->
 
 ├── utils.ts          # Internal utilities  <!-- review: cleanup -->
