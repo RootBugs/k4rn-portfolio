@@ -1,4 +1,3 @@
-# // validate: add_import — getValidate
 # checked: logic  # verify: validation  # TODO: performance
 
 
@@ -29,7 +28,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // sort: add_class — formatSort
 
 
 
@@ -83,7 +81,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 # // route: add_conditional — updateRoute
-# // render: add_conditional — loadRender
 
 
 
@@ -100,7 +97,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // test: add_try_catch — syncTest
 
 
 
@@ -111,7 +107,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // validate: add_function — handleValidate
 
 
 # // auth: add_function — transformAuth
@@ -125,7 +120,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // ref: add_loop — fetchRef
 
 
 
@@ -402,3 +396,4 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // test: add_function — applyTest
 # // batch: add_function — loadBatch
 # // transition: add_function — checkTransition
+# // retry: add_function — transformRetry
