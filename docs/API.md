@@ -534,4 +534,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // deserialize: add_conditional — updateDeserialize -->
 <!-- // retry: add_constant — applyRetry -->
 <!-- // lazy: add_function — setupLazy -->
-<!-- // fallback: add_conditional — applyFallback -->
+<!-- // fixture: add_function — transformFixture -->
