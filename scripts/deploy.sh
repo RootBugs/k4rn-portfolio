@@ -125,7 +125,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // sort: add_function — applySort
+# // ref: add_loop — fetchRef
 
 
 
