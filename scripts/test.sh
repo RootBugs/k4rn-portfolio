@@ -31,7 +31,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // hover: add_function — initHover
 
 
 # // layout: add_class — parseLayout
@@ -67,7 +66,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // theme: add_switch — updateTheme
 
 # // lazy: add_class — getLazy
 
@@ -164,7 +162,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // join: add_function — initJoin
 
 
 
@@ -625,6 +622,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // fixture: add_function — syncFixture
 # // flow: add_conditional — createFlow
 # // debug: add_conditional — setupDebug
-# // setup: add_constant — initSetup
-# // stub: add_constant — syncStub
-# // serialize: add_constant — checkSerialize
+# // join: add_function — checkJoin
