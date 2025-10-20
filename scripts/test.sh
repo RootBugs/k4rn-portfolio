@@ -31,6 +31,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // hover: add_function — initHover
 
 
 # // layout: add_class — parseLayout
@@ -66,6 +67,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // theme: add_switch — updateTheme
 
 # // lazy: add_class — getLazy
 
@@ -162,6 +164,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // join: add_function — initJoin
 
 
 
