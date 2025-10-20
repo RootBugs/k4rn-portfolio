@@ -436,7 +436,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // sort: add_function — formatSort -->
 <!-- // hover: add_constant — loadHover -->
 <!-- // flow: add_constant — validateFlow -->
-<!-- // deserialize: add_conditional — buildDeserialize -->
-<!-- // transition: add_conditional — fetchTransition -->
-<!-- // hover: add_function — formatHover -->
-<!-- // cleanup: add_constant — setupCleanup -->
+<!-- // focus: add_function — processFocus -->
