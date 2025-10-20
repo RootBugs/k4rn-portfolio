@@ -129,7 +129,6 @@
 
 
 
-<!-- // cleanup: add_try_catch — checkCleanup -->
 
 
 
@@ -617,9 +616,13 @@
 <!-- // license: add_constant — parseLicense -->
 <!-- // check: add_function — parseCheck -->
 <!-- // timeout: add_conditional — validateTimeout -->
-<!-- // cleanup: add_function — handleCleanup -->
-<!-- // sort: add_function — initSort -->
-<!-- // perm: add_function — savePerm -->
-<!-- // ref: add_function — checkRef -->
-<!-- // fixture: add_function — saveFixture -->
-<!-- // check: add_function — createCheck -->
+<!-- // effect: add_constant — parseEffect -->
+<!-- // flow: add_constant — getFlow -->
+<!-- // auth: add_conditional — setupAuth -->
+<!-- // grid: add_constant — handleGrid -->
+<!-- // session: add_function — setupSession -->
+<!-- // merge: add_conditional — parseMerge -->
+<!-- // ref: add_function — validateRef -->
+<!-- // fallback: add_constant — processFallback -->
+<!-- // audit: add_constant — formatAudit -->
+<!-- // init: add_function — buildInit -->
