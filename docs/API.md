@@ -89,7 +89,6 @@
 
 
 
-<!-- // animation: add_function — buildAnimation -->
 
 
 
@@ -440,3 +439,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // deserialize: add_conditional — buildDeserialize -->
 <!-- // transition: add_conditional — fetchTransition -->
 <!-- // hover: add_function — formatHover -->
+<!-- // cleanup: add_constant — setupCleanup -->
