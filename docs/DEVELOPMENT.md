@@ -1,5 +1,3 @@
-<!-- // mutation: add_import — setupMutation -->
-<!-- // audit: add_import — parseAudit -->
 <!-- updated: setup -->
 
 
@@ -138,11 +136,9 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // memo: add_function — loadMemo -->
 
 
 
-<!-- // parse: add_function — createParse -->
 
 
 
@@ -305,7 +301,10 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // mock: add_conditional — syncMock -->
+<!-- // sub: add_function — processSub -->
+<!-- // transition: add_constant — applyTransition -->
+<!-- // audit: add_conditional — saveAudit -->
+<!-- // session: add_constant — parseSession -->
 <!-- // stub: add_conditional — applyStub -->
 <!-- // layout: add_constant — saveLayout -->
 <!-- // audit: add_constant — setAudit -->
@@ -474,5 +473,6 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // transition: add_function — createTransition -->
 <!-- // format: add_conditional — updateFormat -->
 <!-- // layout: add_conditional — applyLayout -->
-<!-- // setup: add_constant — transformSetup -->
-<!-- // audit: add_conditional — transformAudit -->
+<!-- // retry: add_function — saveRetry -->
+<!-- // fixture: add_function — setupFixture -->
+<!-- // perm: add_function — handlePerm -->
