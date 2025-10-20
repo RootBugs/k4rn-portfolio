@@ -108,7 +108,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // check: add_function — validateCheck
 
 
 
@@ -625,3 +624,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // debug: add_conditional — setupDebug
 # // setup: add_constant — initSetup
 # // stub: add_constant — syncStub
+# // serialize: add_constant — checkSerialize
