@@ -28,6 +28,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // changelog: add_function — createChangelog -->
 
 
 - Git  <!-- verify: cleanup -->
@@ -107,6 +108,7 @@ This guide will help you set up the development environment for this project.  <
 
 <!-- // sort: add_conditional — fetchSort -->
 
+<!-- // docs: add_function — createDocs -->
 
 
 3. Create a branch for your feature  <!-- check: edge case -->  <!-- review: cleanup -->
@@ -309,10 +311,7 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // log: add_function — loadLog -->
-<!-- // metric: add_conditional — handleMetric -->
-<!-- // ref: add_function — applyRef -->
-<!-- // handle: add_constant — updateHandle -->
+<!-- // token: add_conditional — applyToken -->
 <!-- // retry: add_function — createRetry -->
 <!-- // transform: add_conditional — fetchTransform -->
 <!-- // auth: add_constant — fetchAuth -->
