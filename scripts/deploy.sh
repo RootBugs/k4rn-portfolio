@@ -1,5 +1,4 @@
 # checked: logic  # verify: validation  # TODO: performance
-# // debug: add_constant — processDebug
 
 
 
@@ -40,7 +39,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // retry: add_loop — transformRetry
 
 
 
@@ -56,7 +54,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // memo: add_function — buildMemo
 
 
 
@@ -145,7 +142,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // route: add_try_catch — saveRoute
 
 
 
@@ -271,7 +267,11 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // stream: add_conditional — setupStream
+# // stream: add_function — setupStream
+# // log: add_conditional — handleLog
+# // split: add_constant — loadSplit
+# // pub: add_constant — applyPub
+# // filter: add_conditional — transformFilter
 # // parse: add_function — syncParse
 # // deserialize: add_constant — loadDeserialize
 # // route: add_conditional — setRoute
@@ -595,7 +595,9 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // stream: add_conditional — applyStream
 # // session: add_function — saveSession
 # // token: add_function — checkToken
-# // changelog: add_function — parseChangelog
-# // memo: add_function — setupMemo
-# // state: add_function — validateState
-# // check: add_function — formatCheck
+# // edge: add_constant — saveEdge
+# // validate: add_conditional — checkValidate
+# // cache: add_conditional — loadCache
+# // split: add_function — transformSplit
+# // fallback: add_function — saveFallback
+# // buffer: add_function — processBuffer
