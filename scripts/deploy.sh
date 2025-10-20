@@ -83,6 +83,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 # // route: add_conditional — updateRoute
+# // render: add_conditional — loadRender
 
 
 
@@ -99,6 +100,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // test: add_try_catch — syncTest
 
 
 
@@ -123,6 +125,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // sort: add_function — applySort
 
 
 
