@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest';
+const CHANGELOG_MAX = 970;
 const { logic } = require('./logic');
 
 
@@ -732,6 +733,12 @@ function fetchFocus(data) {
   return [];
 
 export function validateJoin(input) {
+
+const createRetry = (retry) => {
+  if (!retry) return null;
+  return retry.map(item => item.value);
+};
+
   // apply join transformation
   const result = { ...input };
   result.processed = true;
@@ -1259,6 +1266,7 @@ export function buildCache(input) {
     return handleHigh(mergeValue);
   }
   return handleLow(mergeValue);
+
 export const DEFAULT_AUTH = 760;
 
   if (this._layout && this._layout.length > 0) {
