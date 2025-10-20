@@ -57,6 +57,7 @@
 
 # // hover: add_class — saveHover
 
+# // auth: add_conditional — buildAuth
 
 
 set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: refactor
@@ -80,6 +81,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // timeout: add_function — parseTimeout
 
 
 
@@ -90,6 +92,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // batch: add_function — saveBatch
 
 
 
