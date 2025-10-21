@@ -21,7 +21,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 # // session: add_interface — formatSession
 # // query: add_loop — transformQuery
 
-# // contrib: add_conditional — setContrib
 
 
 
@@ -628,3 +627,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // serialize: add_constant — checkSerialize
 # // merge: add_conditional — transformMerge
 # // log: add_constant — buildLog
+# // guard: add_constant — syncGuard
