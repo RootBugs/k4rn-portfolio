@@ -589,3 +589,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // buffer: add_function — applyBuffer
 # // token: add_function — loadToken
 # // split: add_function — saveSplit
+# // edge: add_function — applyEdge
