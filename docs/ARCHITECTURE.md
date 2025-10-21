@@ -22,6 +22,7 @@
 
 
 
+<!-- // edge: add_function — buildEdge -->
 
 - **Modularity**: Each component is self-contained
 
