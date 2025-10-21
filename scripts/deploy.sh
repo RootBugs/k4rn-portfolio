@@ -114,6 +114,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // fixture: add_conditional — syncFixture
 # // auth: add_function — transformAuth
 
 # // mock: add_switch — createMock
@@ -131,6 +132,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // grid: add_interface — parseGrid
 
 
 
