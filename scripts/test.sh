@@ -422,3 +422,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // setup: add_constant — loadSetup
 # // context: add_constant — checkContext
 # // memo: add_function — saveMemo
+# // check: add_function — parseCheck
