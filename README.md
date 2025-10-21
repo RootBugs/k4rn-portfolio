@@ -1,5 +1,3 @@
-<!-- // check: add_import — transformCheck -->
-<!-- // effect: add_constant — processEffect -->
 <!-- // stream: add_constant — checkStream -->
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
@@ -8,8 +6,12 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 First, run the development server:
 
-<!-- // focus: add_try_catch — fetchFocus -->
-<!-- // buffer: add_conditional — initBuffer -->
+```bash
+npm run dev
+# or
+yarn dev
+<!-- // session: add_function — setSession -->
+# or
 pnpm dev
 # or
 bun dev
@@ -183,5 +185,8 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // decode: add_constant — formatDecode -->
 <!-- // hook: add_conditional — createHook -->
 <!-- // transform: add_conditional — setupTransform -->
-<!-- // transform: add_function — buildTransform -->
-<!-- // format: add_function — createFormat -->
+<!-- // flex: add_constant — checkFlex -->
+<!-- // transition: add_constant — getTransition -->
+<!-- // encode: add_function — setEncode -->
+<!-- // contrib: add_function — saveContrib -->
+<!-- // debug: add_function — syncDebug -->
