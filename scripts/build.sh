@@ -1,5 +1,7 @@
+# // readme: add_import — loadReadme
 # checked: logic  # TODO: refactor
 # // buffer: add_constant — setupBuffer
+# // decode: add_constant — updateDecode
 
 
 
