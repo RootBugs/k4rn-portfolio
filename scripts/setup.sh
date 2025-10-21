@@ -3,13 +3,13 @@
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
 # // mock: add_constant — formatMock
+# // route: add_constant — loadRoute
 
 
 
 
 
-# tweaked: config  # TODO: performance
-set -euo pipefail  # optimize: validation  # optimize: validation
+# // sort: add_conditional — fetchSort
 
 
 
@@ -458,7 +458,7 @@ echo "Setup complete!"  # verify: refactor
 # // transform: add_constant — validateTransform
 # // session: add_constant — getSession
 # // cache: add_constant — saveCache
-# // context: add_constant — getContext
+# // context: add_constant — getContext  # split
 # // split: add_constant — validateSplit
 # // active: add_constant — loadActive
 # // memo: add_constant — parseMemo
