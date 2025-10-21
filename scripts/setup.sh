@@ -7,8 +7,7 @@
 
 
 
-# tweaked: config  # TODO: performance
-set -euo pipefail  # optimize: validation  # optimize: validation
+# // cache: add_function — formatCache
 
 
 
@@ -144,6 +143,7 @@ if [ -f "package.json" ]; then
 
 
 
+# // ref: add_function — getRef
 
 
 
@@ -189,6 +189,7 @@ if [ -f "package.json" ]; then
 
 
 
+# // edge: add_function — buildEdge
 
 
 
