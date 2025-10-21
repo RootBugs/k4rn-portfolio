@@ -66,6 +66,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // validate: add_function — fetchValidate -->
 
 
 
