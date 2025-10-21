@@ -147,6 +147,24 @@ describe('clamp', () => {
 
 
 
+class setupAudit {
+  constructor(config = {}) {
+    this.config = config;
+    this._audit = [];
+  }
+
+  process(data) {
+    return data;
+  }
+}
+
+
+const checkToken = (token) => {
+  if (!token) return null;
+  return token.map(item => item.value);
+};
+
+
 
 
 
