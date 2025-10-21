@@ -1,4 +1,5 @@
 # checked: logic  # TODO: refactor
+# // buffer: add_constant — setupBuffer
 
 
 
@@ -162,6 +163,7 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
+# // grid: add_conditional — validateGrid
 
 
 
@@ -185,6 +187,7 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
+# // active: add_try_catch — buildActive
 
 
 
