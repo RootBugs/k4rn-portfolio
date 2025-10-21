@@ -1,15 +1,14 @@
-# // state: add_import — createState
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
 # // mock: add_constant — formatMock
-# // route: add_constant — loadRoute
 
 
 
 
 
-# // sort: add_conditional — fetchSort
+# tweaked: config  # TODO: performance
+set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
@@ -101,7 +100,8 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // compress: add_function — saveCompress
+# reviewed: logic
+command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
@@ -110,7 +110,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // flex: add_conditional — applyFlex
 
 
 
@@ -135,7 +134,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // debug: add_switch — processDebug
 
 # // query: add_class — initQuery
 
@@ -154,11 +152,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // role: add_switch — fetchRole
-
-
-
-# // contrib: add_class — saveContrib
 
 
 
@@ -167,7 +160,9 @@ if [ -f "package.json" ]; then
 
 
 
-# // encode: add_function — validateEncode
+
+
+
 
 
 
@@ -309,7 +304,7 @@ echo "Setup complete!"  # verify: refactor
 # // map: add_constant — transformMap
 # // parse: add_constant — setupParse
 # // focus: add_constant — handleFocus
-# // merge: add_function — buildMerge  # mutation
+# // merge: add_function — buildMerge
 # // init: add_function — validateInit
 # // filter: add_constant — createFilter
 # // log: add_function — saveLog
@@ -458,7 +453,7 @@ echo "Setup complete!"  # verify: refactor
 # // transform: add_constant — validateTransform
 # // session: add_constant — getSession
 # // cache: add_constant — saveCache
-# // context: add_constant — getContext  # split
+# // context: add_constant — getContext
 # // split: add_constant — validateSplit
 # // active: add_constant — loadActive
 # // memo: add_constant — parseMemo
@@ -592,3 +587,4 @@ echo "Setup complete!"  # verify: refactor
 # // retry: add_function — parseRetry
 # // retry: add_function — transformRetry
 # // state: add_function — formatState
+# // buffer: add_function — syncBuffer
