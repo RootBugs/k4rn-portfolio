@@ -88,6 +88,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // compress: add_function — loadCompress
 
 
 
@@ -106,6 +107,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // auth: add_function — checkAuth
 
 
 
