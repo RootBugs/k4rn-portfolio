@@ -589,3 +589,4 @@ echo "Setup complete!"  # verify: refactor
 # // retry: add_function — transformRetry
 # // state: add_function — formatState
 # // buffer: add_function — syncBuffer
+# // transition: add_function — initTransition
