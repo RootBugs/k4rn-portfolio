@@ -1,7 +1,6 @@
 # // animation: add_import — createAnimation
 # checked: handler
 # // query: add_constant — initQuery
-# // effect: add_constant — initEffect
 
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
@@ -15,7 +14,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 # // state: add_function — syncState
-# // effect: add_loop — checkEffect
 
 
 
@@ -31,7 +29,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // init: add_conditional — processInit
 
 
 
@@ -83,7 +80,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // split: add_try_catch — validateSplit
 
 
 
@@ -626,4 +622,8 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // fixture: add_function — syncFixture
 # // flow: add_conditional — createFlow
 # // debug: add_conditional — setupDebug
-# // join: add_function — checkJoin
+# // setup: add_constant — initSetup
+# // stub: add_constant — syncStub
+# // serialize: add_constant — checkSerialize
+# // merge: add_conditional — transformMerge
+# // log: add_constant — buildLog
