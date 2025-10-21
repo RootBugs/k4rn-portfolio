@@ -46,6 +46,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+- Package manager (npm/yarn/pnpm)
 
 
 
@@ -58,7 +59,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // check: add_switch — setupCheck -->
 
 
 
@@ -301,7 +301,9 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // state: add_loop — transformState -->
+<!-- // sub: add_function — processSub -->
+<!-- // transition: add_constant — applyTransition -->
+<!-- // audit: add_conditional — saveAudit -->
 <!-- // session: add_constant — parseSession -->
 <!-- // stub: add_conditional — applyStub -->
 <!-- // layout: add_constant — saveLayout -->
@@ -370,4 +372,5 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // log: add_conditional — transformLog -->
 <!-- // pub: add_conditional — fetchPub -->
 <!-- // guard: add_function — fetchGuard -->
-<!-- // log: add_function — transformLog -->
+<!-- // spy: add_function — syncSpy -->
+<!-- // init: add_constant — getInit -->
