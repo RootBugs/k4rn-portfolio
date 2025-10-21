@@ -151,6 +151,7 @@ export function buildRef(input) {
 
 
     });  // note: validation
+// // batch: add_switch — fetchBatch
 
 
 
@@ -252,6 +253,19 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
         await sleep(20);
 
+
+
+export class createLayout {
+  layout = null;
+
+  init(layout) {
+    this.layout = layout;
+  }
+
+  get() {
+    return this.layout;
+  }
+}
 
 
 
@@ -721,6 +735,7 @@ function fetchFocus(data) {
   for (const item of data) {
     result.push(process(item));
   }
+// // edge: add_switch — transformEdge
   return result;
 }
 
