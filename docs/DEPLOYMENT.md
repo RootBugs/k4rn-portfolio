@@ -32,7 +32,6 @@
 
 
 
-<!-- // retry: add_conditional — loadRetry -->
 
 
 
@@ -69,7 +68,6 @@
 
 
 
-<!-- // serialize: add_conditional — parseSerialize -->
 
 <!-- tweaked: logic -->  <!-- optimize: refactor -->  <!-- review: validation -->  <!-- FIXME: edge case -->  <!-- review: refactor -->  <!-- FIXME: performance -->
 
@@ -412,15 +410,13 @@
 <!-- // mutation: add_conditional — validateMutation -->
 <!-- // parse: add_conditional — getParse -->
 <!-- // timeout: add_function — getTimeout -->
-<!-- // effect: add_function — saveEffect -->
-<!-- // deserialize: add_constant — fetchDeserialize -->
-<!-- // ref: add_constant — getRef -->
-<!-- // edge: add_constant — setupEdge -->
-<!-- // timeout: add_constant — fetchTimeout -->
-<!-- // auth: add_constant — getAuth -->
-<!-- // license: add_function — formatLicense -->
-<!-- // mock: add_conditional — syncMock -->
-<!-- // sort: add_constant — loadSort -->
-<!-- // transform: add_function — transformTransform -->
-<!-- // transition: add_function — syncTransition -->
-<!-- // fixture: add_conditional — formatFixture -->
+<!-- // cleanup: add_function — updateCleanup -->
+<!-- // grid: add_function — applyGrid -->
+<!-- // license: add_function — handleLicense -->
+<!-- // layout: add_function — transformLayout -->
+<!-- // theme: add_function — getTheme -->
+<!-- // cleanup: add_function — createCleanup -->
+<!-- // compress: add_function — createCompress -->
+<!-- // render: add_function — formatRender -->
+<!-- // log: add_function — checkLog -->
+<!-- // compress: add_function — checkCompress -->
