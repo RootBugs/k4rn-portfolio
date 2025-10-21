@@ -473,6 +473,7 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // transition: add_function — createTransition -->
 <!-- // format: add_conditional — updateFormat -->
 <!-- // layout: add_conditional — applyLayout -->
-<!-- // retry: add_function — saveRetry -->
-<!-- // fixture: add_function — setupFixture -->
-<!-- // perm: add_function — handlePerm -->
+<!-- // setup: add_constant — transformSetup -->
+<!-- // audit: add_conditional — transformAudit -->
+<!-- // theme: add_function — applyTheme -->
+<!-- // retry: add_constant — processRetry -->
