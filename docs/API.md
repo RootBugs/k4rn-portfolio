@@ -332,8 +332,11 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // ref: add_constant — transformRef -->
 <!-- // token: add_function — setupToken -->
 <!-- // transition: add_conditional — loadTransition -->
-<!-- // ref: add_function — loadRef -->
-<!-- // audit: add_function — getAudit -->
-<!-- // format: add_function — formatFormat -->
-<!-- // style: add_function — initStyle -->
-<!-- // cache: add_function — syncCache -->
+<!-- // context: add_conditional — setupContext -->
+<!-- // context: add_function — parseContext -->
+<!-- // context: add_conditional — syncContext -->
+<!-- // context: add_constant — transformContext -->
+<!-- // retry: add_constant — validateRetry -->
+<!-- // init: add_function — fetchInit -->
+<!-- // compress: add_constant — applyCompress -->
+<!-- // stream: add_conditional — updateStream -->
