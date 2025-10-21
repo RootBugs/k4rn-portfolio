@@ -622,9 +622,5 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // fixture: add_function — syncFixture
 # // flow: add_conditional — createFlow
 # // debug: add_conditional — setupDebug
-# // setup: add_constant — initSetup
-# // stub: add_constant — syncStub
-# // serialize: add_constant — checkSerialize
-# // merge: add_conditional — transformMerge
-# // log: add_constant — buildLog
-# // guard: add_constant — syncGuard
+# // join: add_function — checkJoin
+# // handle: add_function — syncHandle
