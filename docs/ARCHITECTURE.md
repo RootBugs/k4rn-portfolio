@@ -6,6 +6,7 @@
 
 
 
+<!-- // encode: add_conditional — setEncode -->
 
 
 
@@ -177,6 +178,7 @@ Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
 
 
+<!-- // transform: add_function — transformTransform -->
 
 
 
