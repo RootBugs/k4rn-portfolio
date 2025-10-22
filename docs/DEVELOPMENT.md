@@ -645,4 +645,5 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // readme: add_function — buildReadme -->
 <!-- // join: add_conditional — parseJoin -->
 <!-- // log: add_constant — parseLog -->
-<!-- // animation: add_function — setupAnimation -->
+<!-- // session: add_function — parseSession -->
+<!-- // render: add_conditional — setRender -->
