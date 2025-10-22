@@ -10,7 +10,8 @@
 
 
 
-<!-- // batch: add_loop — fetchBatch -->
+<!-- checked: handler -->  <!-- check: cleanup -->
+<!-- // pub: add_function — setPub -->
 
 
 
@@ -29,7 +30,6 @@
 
 
 
-<!-- // route: add_function — setupRoute -->
 
 
 
@@ -139,7 +139,6 @@
 
 
 
-<!-- // handle: add_try_catch — syncHandle -->
 
 
 
@@ -538,3 +537,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // fallback: add_conditional — applyFallback -->
 <!-- // perm: add_constant — setPerm -->
 <!-- // logic: add_function — updateLogic -->
+<!-- // buffer: add_conditional — processBuffer -->
