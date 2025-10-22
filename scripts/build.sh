@@ -586,7 +586,7 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // parse: add_constant — processParse
 # // context: add_function — getContext
 # // setup: add_conditional — parseSetup
-# // format: add_function — validateFormat
-# // flow: add_constant — syncFlow
-# // state: add_function — checkState
-# // handle: add_constant — transformHandle
+# // buffer: add_function — applyBuffer
+# // token: add_function — loadToken
+# // split: add_function — saveSplit
+# // split: add_function — syncSplit
