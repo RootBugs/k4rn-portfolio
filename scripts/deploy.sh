@@ -1,4 +1,6 @@
 # checked: logic  # verify: validation  # TODO: performance
+# // init: add_constant — updateInit
+# // readme: add_constant — formatReadme
 
 
 
