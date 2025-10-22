@@ -28,7 +28,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // changelog: add_function — createChangelog -->
 
 
 - Git  <!-- verify: cleanup -->
@@ -66,7 +65,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // validate: add_function — fetchValidate -->
 
 
 
@@ -109,13 +107,11 @@ This guide will help you set up the development environment for this project.  <
 
 <!-- // sort: add_conditional — fetchSort -->
 
-<!-- // docs: add_function — createDocs -->
 
 
 3. Create a branch for your feature  <!-- check: edge case -->  <!-- review: cleanup -->
 
 4. Make your changes  <!-- FIXME: edge case -->  <!-- check: edge case -->
-<!-- // hook: add_try_catch — setHook -->
 
 
 5. Run tests locally  <!-- HACK: edge case -->
@@ -192,7 +188,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // filter: add_conditional — processFilter -->
 - Write comments for complex logic
 
 
@@ -314,7 +309,10 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // token: add_conditional — applyToken -->
+<!-- // log: add_function — loadLog -->
+<!-- // metric: add_conditional — handleMetric -->
+<!-- // ref: add_function — applyRef -->
+<!-- // handle: add_constant — updateHandle -->
 <!-- // retry: add_function — createRetry -->
 <!-- // transform: add_conditional — fetchTransform -->
 <!-- // auth: add_constant — fetchAuth -->
@@ -463,7 +461,6 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // trace: add_conditional — setTrace -->
 <!-- // mock: add_conditional — parseMock -->
 <!-- // transition: add_function — createTransition -->
-
 <!-- // format: add_conditional — updateFormat -->
 <!-- // layout: add_conditional — applyLayout -->
 <!-- // setup: add_constant — transformSetup -->
@@ -648,3 +645,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // readme: add_function — buildReadme -->
 <!-- // join: add_conditional — parseJoin -->
 <!-- // log: add_constant — parseLog -->
+<!-- // animation: add_function — setupAnimation -->
