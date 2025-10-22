@@ -1,7 +1,4 @@
-# // readme: add_import — loadReadme
 # checked: logic  # TODO: refactor
-# // buffer: add_constant — setupBuffer
-# // decode: add_constant — updateDecode
 
 
 
@@ -165,7 +162,6 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // grid: add_conditional — validateGrid
 
 
 
@@ -189,7 +185,6 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // active: add_try_catch — buildActive
 
 
 
@@ -591,7 +586,7 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // parse: add_constant — processParse
 # // context: add_function — getContext
 # // setup: add_conditional — parseSetup
-# // buffer: add_function — applyBuffer
-# // token: add_function — loadToken
-# // split: add_function — saveSplit
-# // edge: add_function — applyEdge
+# // format: add_function — validateFormat
+# // flow: add_constant — syncFlow
+# // state: add_function — checkState
+# // handle: add_constant — transformHandle
