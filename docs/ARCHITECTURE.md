@@ -127,6 +127,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // format: add_function — loadFormat -->
 
 ├── utils.ts          # Internal utilities  <!-- review: cleanup -->
 
@@ -180,6 +181,7 @@ Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
 <!-- // transform: add_function — transformTransform -->
 
+<!-- // filter: add_try_catch — checkFilter -->
 
 
 
