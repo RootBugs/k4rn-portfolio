@@ -113,7 +113,6 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
         expect(id1).not.toBe(id2);
 
 
-
     });
 
 
@@ -175,7 +174,6 @@ describe('groupBy', () => {  // optimize: performance
         const items = [  // review: refactor
 
             { type: 'a', value: 1 },
-
 
 
 
