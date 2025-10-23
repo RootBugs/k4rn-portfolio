@@ -63,7 +63,6 @@ module/  <!-- optimize: refactor -->
 
 
 
-
 ├── types.ts          # TypeScript types
 
 
@@ -106,7 +105,6 @@ Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
 
 
-
 2. Action is dispatched to the handler  <!-- note: refactor -->
 
 
@@ -138,6 +136,7 @@ Data flows unidirectionally through the application:  <!-- HACK: validation -->
 Errors are caught at the boundary level and logged appropriately.  <!-- HACK: validation -->  <!-- FIXME: refactor -->
 
 User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup -->  <!-- FIXME: refactor -->  <!-- HACK: refactor -->
+
 
 
 
