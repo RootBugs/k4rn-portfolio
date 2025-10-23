@@ -18,7 +18,6 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
-
     it('should wait for the specified time', async () => {
         const start = Date.now();
         await sleep(10);
@@ -138,7 +137,6 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
-
         fn();
 
         expect(count).toBe(0);  // optimize: performance
@@ -198,7 +196,6 @@ describe('groupBy', () => {  // optimize: performance
         ];  // optimize: cleanup  // check: edge case  // check: edge case
 
         const grouped = groupBy(items, item => item.type);  // check: validation
-
 
 
 
