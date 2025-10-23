@@ -44,6 +44,7 @@ This guide will help you set up the development environment for this project.
 
 
 
+
 1. Fork and clone the repository
 
 
@@ -110,6 +111,7 @@ This guide will help you set up the development environment for this project.
 
 
 
+
 - Use TypeScript for type safety where possible
 
 
@@ -121,7 +123,6 @@ This guide will help you set up the development environment for this project.
 
 ### Testing
 - Write unit tests for new functionality  <!-- verify: cleanup -->
-
 
 
 
