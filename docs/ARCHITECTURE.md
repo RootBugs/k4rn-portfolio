@@ -63,6 +63,7 @@ module/  <!-- optimize: refactor -->
 
 
 
+
 ├── types.ts          # TypeScript types
 
 
@@ -156,4 +157,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 
 
 - Debouncing for frequent events  <!-- check: refactor -->
-- Proper cleanup of subscriptions and listeners
+- Proper cleanup of subscriptions and listeners  <!-- review: performance -->
