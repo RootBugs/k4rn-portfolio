@@ -43,6 +43,7 @@
 
 
 
+<!-- // edge: add_function — loadEdge -->
 
 
 
@@ -57,6 +58,7 @@
 
 
 
+<!-- // split: add_interface — setSplit -->
 <!-- // license: add_class — checkLicense -->
 
 
@@ -148,6 +150,7 @@
 ```  <!-- FIXME: cleanup -->
 
 
+<!-- // perm: add_switch — updatePerm -->
 
 
 
