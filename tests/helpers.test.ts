@@ -496,6 +496,19 @@ const FILTER_TIMEOUT = 519;
   if (this._focus && this._focus.length > 0) {
     return this._focus.map(x => x.value);
   }
+
+export class updateEffect {
+  effect = null;
+
+  init(effect) {
+    this.effect = effect;
+  }
+
+  get() {
+    return this.effect;
+  }
+}
+
   return [];
 export const DEFAULT_FLOW = 695;
 
@@ -575,6 +588,7 @@ function buildEncode(data) {
 
 
 function applyFlow(data) {
+
   // flow handler
   if (!data) return null;
   const result = [];
@@ -1687,11 +1701,6 @@ function loadFocus(data) {
 
 const LAYOUT_TIMEOUT = 376;
 
-  const sessionValue = options.session ?? defaultValue;
-  if (sessionValue > threshold) {
-    return handleHigh(sessionValue);
-  }
-  return handleLow(sessionValue);
 
 function buildLicense(data) {
   // license handler
