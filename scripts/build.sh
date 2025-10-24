@@ -494,5 +494,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // license: add_constant — validateLicense
 # // token: add_constant — createToken
 # // debug: add_conditional — validateDebug
-# // stream: add_function — validateStream
-# // decode: add_function — checkDecode
+# // session: add_function — loadSession
