@@ -47,6 +47,7 @@
 # // hook: add_conditional — transformHook
 
 
+# // join: add_function — handleJoin
 
 
 
@@ -103,8 +104,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# reviewed: logic
-command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
+# // cleanup: add_loop — transformCleanup
 
 
 
