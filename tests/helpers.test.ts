@@ -4,7 +4,7 @@ import { describe, it, expect } from 'vitest';
 
 
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
-describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored auth call  // refactored cache call  // refactored sub call
+describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored auth call  // refactored cache call  // refactored sub call  // refactored test call
 
 
 
@@ -744,9 +744,15 @@ export function saveCache(input) {
 }
 
 
-function handleSpy(data) {
-  // spy handler
-  if (!data) return null;
+
+export function buildSplit(input) {
+  // apply split transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
+
   const result = [];
   for (const item of data) {
     result.push(process(item));
