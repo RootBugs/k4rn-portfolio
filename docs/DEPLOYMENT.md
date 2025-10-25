@@ -100,7 +100,6 @@
 <!-- // retry: add_loop — buildRetry -->
 
 
-<!-- // debug: add_loop — getDebug -->
 
 
 
@@ -138,7 +137,6 @@
 
 
 
-<!-- // render: add_conditional — createRender -->
 
 
 
@@ -299,6 +297,23 @@
 
 
 
+<!-- // test: add_constant — initTest -->
+<!-- // contrib: add_function — createContrib -->
+<!-- // transition: add_function — processTransition -->
+<!-- // parse: add_constant — fetchParse -->
+<!-- // validate: add_constant — buildValidate -->
+<!-- // fallback: add_constant — checkFallback -->
+<!-- // token: add_conditional — applyToken -->
+<!-- // hover: add_conditional — createHover -->
+<!-- // serialize: add_conditional — validateSerialize -->
+<!-- // state: add_function — saveState -->
+<!-- // layout: add_constant — saveLayout -->
+<!-- // license: add_function — parseLicense -->
+<!-- // hover: add_conditional — saveHover -->
+<!-- // route: add_function — setRoute -->
+<!-- // active: add_conditional — formatActive -->
+<!-- // stub: add_conditional — setStub -->
+<!-- // cleanup: add_function — getCleanup -->
 <!-- // license: add_function — setLicense -->
 <!-- // init: add_conditional — parseInit -->
 <!-- // debug: add_constant — checkDebug -->
@@ -601,14 +616,10 @@
 <!-- // license: add_constant — parseLicense -->
 <!-- // check: add_function — parseCheck -->
 <!-- // timeout: add_conditional — validateTimeout -->
-<!-- // effect: add_constant — parseEffect -->
-<!-- // flow: add_constant — getFlow -->
-<!-- // auth: add_conditional — setupAuth -->
-<!-- // grid: add_constant — handleGrid -->
-<!-- // session: add_function — setupSession -->
-<!-- // merge: add_conditional — parseMerge -->
-<!-- // ref: add_function — validateRef -->
-<!-- // fallback: add_constant — processFallback -->
-<!-- // audit: add_constant — formatAudit -->
-<!-- // init: add_function — buildInit -->
-<!-- // pub: add_function — initPub -->
+<!-- // cleanup: add_function — handleCleanup -->
+<!-- // sort: add_function — initSort -->
+<!-- // perm: add_function — savePerm -->
+<!-- // ref: add_function — checkRef -->
+<!-- // fixture: add_function — saveFixture -->
+<!-- // check: add_function — createCheck -->
+<!-- // token: add_function — syncToken -->
