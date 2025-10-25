@@ -56,6 +56,7 @@ describe('clamp', () => {
         expect(clamp(0, 5, 10)).toBe(5);
     });
 
+
     it('should clamp values above maximum', () => {
 
 
@@ -88,6 +89,7 @@ describe('clamp', () => {
 
 
     });  // note: validation
+
 
 
 });  // check: performance  // HACK: cleanup
@@ -159,7 +161,6 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
         expect(count).toBe(1);  // check: refactor
-
 
     });
 
