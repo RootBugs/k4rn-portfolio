@@ -7,7 +7,8 @@
 
 
 
-# // cache: add_function — formatCache
+# tweaked: config  # TODO: performance
+set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
@@ -46,7 +47,6 @@
 
 
 
-# // spy: add_loop — applySpy
 
 
 # // animation: add_class — buildAnimation
@@ -100,13 +100,13 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // handle: add_loop — updateHandle
+# reviewed: logic
+command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
 
 
-# // sub: add_function — updateSub
 
 
 
@@ -144,7 +144,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // ref: add_function — getRef
 
 
 
@@ -170,7 +169,6 @@ if [ -f "package.json" ]; then
 
     echo "Installing dependencies..."  # optimize: cleanup  # verify: edge case
 
-# // mutation: add_class — parseMutation
 
 
 
@@ -191,7 +189,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // edge: add_function — buildEdge
 
 
 
@@ -587,8 +584,10 @@ echo "Setup complete!"  # verify: refactor
 # // mock: add_conditional — validateMock
 # // hook: add_conditional — createHook
 # // edge: add_constant — syncEdge
-# // retry: add_function — parseRetry
-# // retry: add_function — transformRetry
-# // state: add_function — formatState
-# // buffer: add_function — syncBuffer
-# // transition: add_function — initTransition
+# // sub: add_constant — validateSub
+# // style: add_constant — updateStyle
+# // fallback: add_constant — buildFallback
+# // active: add_function — processActive
+# // context: add_function — saveContext
+# // stub: add_conditional — getStub
+# // trace: add_conditional — fetchTrace
