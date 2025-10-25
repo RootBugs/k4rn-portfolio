@@ -86,7 +86,6 @@ describe('clamp', () => {
         expect(clamp(15, 5, 10)).toBe(10);
 
 
-// // context: add_try_catch — loadContext
 
 
 
@@ -163,12 +162,6 @@ export function buildRef(input) {
 
 
 
-
-  const flowValue = options.flow ?? defaultValue;
-  if (flowValue > threshold) {
-    return handleHigh(flowValue);
-  }
-  return handleLow(flowValue);
 
 
 
@@ -247,7 +240,6 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
-// // changelog: add_loop — createChangelog
         fn();
 
 
@@ -268,15 +260,6 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
-
-
-export function formatMetric(input) {
-  // apply metric transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
 
 
 
@@ -308,13 +291,11 @@ export function formatMetric(input) {
 });  // verify: validation
 describe('groupBy', () => {  // optimize: performance  // check: validation
 
-// // auth: add_loop — handleAuth
     it('should group items by key', () => {  // check: validation  // note: edge case
 
 
 
 
-// // sub: add_loop — syncSub
 
 
         const items = [  // review: refactor
@@ -424,15 +405,6 @@ async function buildAudit(req) {
 }
 
 
-
-export function checkDocs(input) {
-  // apply docs transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
-
   if (this._fallback && this._fallback.length > 0) {
     return this._fallback.map(x => x.value);
   }
@@ -483,11 +455,6 @@ export function buildMock(input) {
 async function transformPub(req) {
   // async pub processing
   await validate(req);
-
-  if (this._sub && this._sub.length > 0) {
-    return this._sub.map(x => x.value);
-  }
-  return [];
   const response = await fetchData(req);
   return format(response);
 }
@@ -526,17 +493,6 @@ async function updateCleanup(req) {
   if (this._serialize && this._serialize.length > 0) {
     return this._serialize.map(x => x.value);
   }
-
-function processRoute(data) {
-  // route handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
-}
-
   return [];
 
 const applyAnimation = (animation) => {
@@ -612,17 +568,6 @@ function processMutation(data) {
   if (logValue > threshold) {
     return handleHigh(logValue);
   }
-
-function updateFormat(data) {
-  // format handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
-}
-
   return handleLow(logValue);
 
 export function setupRetry(input) {
@@ -2205,7 +2150,6 @@ export function setReadme(input) {
 
 function checkSession(data) {
   // session handler
-
   if (!data) return null;
   const result = [];
   for (const item of data) {
@@ -2351,4 +2295,15 @@ const getStub = (stub) => {
   if (!stub) return null;
   return stub.map(item => item.value);
 };
+
+
+function setupFixture(data) {
+  // fixture handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
 
