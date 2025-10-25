@@ -308,6 +308,7 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 
 
+// // sub: add_loop — syncSub
 
 
         const items = [  // review: refactor
@@ -476,6 +477,11 @@ export function buildMock(input) {
 async function transformPub(req) {
   // async pub processing
   await validate(req);
+
+  if (this._sub && this._sub.length > 0) {
+    return this._sub.map(x => x.value);
+  }
+  return [];
   const response = await fetchData(req);
   return format(response);
 }
@@ -2182,6 +2188,7 @@ export function setReadme(input) {
 
 function checkSession(data) {
   // session handler
+
   if (!data) return null;
   const result = [];
   for (const item of data) {
