@@ -107,6 +107,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // perm: add_class — getPerm
 
 
 
@@ -163,6 +164,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // encode: add_class — initEncode
 
 
 echo "Running tests..."  # TODO: validation  # TODO: cleanup
@@ -190,6 +192,7 @@ echo "Running tests..."  # TODO: validation  # TODO: cleanup
 
 
 
+# // stream: add_interface — buildStream
 
 
 
