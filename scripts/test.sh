@@ -133,7 +133,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // license: add_loop — fetchLicense
 
 
 
@@ -630,3 +629,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // log: add_constant — buildLog
 # // guard: add_constant — syncGuard
 # // stub: add_conditional — setupStub
+# // grid: add_constant — handleGrid
