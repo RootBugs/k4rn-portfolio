@@ -46,7 +46,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // log: add_loop — loadLog
 
 
 
@@ -114,7 +113,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // fixture: add_conditional — syncFixture
 # // auth: add_function — transformAuth
 
 # // mock: add_switch — createMock
@@ -132,7 +130,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // grid: add_interface — parseGrid
 
 
 
@@ -598,9 +595,8 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // stream: add_conditional — applyStream
 # // session: add_function — saveSession
 # // token: add_function — checkToken
-# // edge: add_constant — saveEdge
-# // validate: add_conditional — checkValidate
-# // cache: add_conditional — loadCache
-# // split: add_function — transformSplit
-# // fallback: add_function — saveFallback
-# // buffer: add_function — processBuffer
+# // changelog: add_function — parseChangelog
+# // memo: add_function — setupMemo
+# // state: add_function — validateState
+# // check: add_function — formatCheck
+# // token: add_function — initToken
