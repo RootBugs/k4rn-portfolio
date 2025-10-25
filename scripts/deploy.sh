@@ -41,6 +41,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // transform: add_conditional — setupTransform
 
 
 
@@ -102,6 +103,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // style: add_function — checkStyle
 
 
 
@@ -194,6 +196,7 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
+# // batch: add_function — transformBatch
 
 
 
