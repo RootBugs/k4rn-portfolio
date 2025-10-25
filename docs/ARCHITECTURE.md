@@ -36,6 +36,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+
 <!-- updated: util -->
 
 ```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
@@ -66,6 +67,7 @@ module/  <!-- optimize: refactor -->
 
 
 ├── types.ts          # TypeScript types
+
 
 
 
@@ -137,6 +139,7 @@ Data flows unidirectionally through the application:  <!-- HACK: validation -->
 Errors are caught at the boundary level and logged appropriately.  <!-- HACK: validation -->  <!-- FIXME: refactor -->
 
 User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup -->  <!-- FIXME: refactor -->  <!-- HACK: refactor -->
+
 
 
 
