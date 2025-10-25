@@ -164,6 +164,12 @@ export function buildRef(input) {
 
 
 
+  const flowValue = options.flow ?? defaultValue;
+  if (flowValue > threshold) {
+    return handleHigh(flowValue);
+  }
+  return handleLow(flowValue);
+
 
 
 
@@ -606,6 +612,17 @@ function processMutation(data) {
   if (logValue > threshold) {
     return handleHigh(logValue);
   }
+
+function updateFormat(data) {
+  // format handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
+
   return handleLow(logValue);
 
 export function setupRetry(input) {
