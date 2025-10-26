@@ -498,3 +498,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // token: add_constant — createToken
 # // debug: add_conditional — validateDebug
 # // session: add_function — loadSession
+# // transform: add_function — applyTransform
