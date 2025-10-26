@@ -79,6 +79,15 @@ describe('clamp', () => {
 
 
 
+export function fetchSerialize(input) {
+  // apply serialize transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
+
+
     it('should clamp values above maximum', () => {
 
 
@@ -526,6 +535,18 @@ export function handleMock(input) {
   result.processed = true;
   result.timestamp = Date.now();
   return result;
+
+class loadRole {
+  constructor(config = {}) {
+    this.config = config;
+    this._role = [];
+  }
+
+  process(data) {
+    return data;
+  }
+}
+
 }
 
 
@@ -568,6 +589,19 @@ export function setupRetry(input) {
   result.processed = true;
   result.timestamp = Date.now();
   return result;
+
+export class transformMetric {
+  metric = null;
+
+  init(metric) {
+    this.metric = metric;
+  }
+
+  get() {
+    return this.metric;
+  }
+}
+
 }
 
 
