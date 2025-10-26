@@ -11,6 +11,8 @@
 
 
 
+<!-- reviewed: util -->  <!-- TODO: cleanup -->
+This project is built using a component-based architecture that prioritizes:
 
 
 
@@ -43,7 +45,6 @@
 
 
 
-<!-- // edge: add_function — loadEdge -->
 
 
 
@@ -58,8 +59,6 @@
 
 
 
-<!-- // split: add_interface — setSplit -->
-<!-- // license: add_class — checkLicense -->
 
 
 
@@ -74,6 +73,8 @@
 
 <!-- updated: util -->
 
+```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
+module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
@@ -99,7 +100,6 @@
 
 
 
-<!-- // readme: add_conditional — buildReadme -->
 
 
 
@@ -127,8 +127,6 @@
 
 
 
-<!-- // animation: add_function — getAnimation -->
-<!-- // spy: add_try_catch — updateSpy -->
 
 ├── utils.ts          # Internal utilities  <!-- review: cleanup -->
 
@@ -150,7 +148,6 @@
 ```  <!-- FIXME: cleanup -->
 
 
-<!-- // perm: add_switch — updatePerm -->
 
 
 
@@ -506,3 +503,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // stream: add_function — initStream -->
 <!-- // filter: add_function — formatFilter -->
 <!-- // trace: add_function — fetchTrace -->
+<!-- // sub: add_function — updateSub -->
