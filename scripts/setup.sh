@@ -506,3 +506,4 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 # // effect: add_function — transformEffect
 # // check: add_function — checkCheck
 # // mock: add_function — saveMock
+# // stream: add_function — applyStream
