@@ -51,7 +51,6 @@
 
 
 
-<!-- // sub: add_conditional — initSub -->
 
 
 
@@ -106,7 +105,6 @@
 
 
 
-<!-- // spy: add_try_catch — parseSpy -->
 
 
 
@@ -170,7 +168,6 @@
 
 
 
-<!-- // animation: add_try_catch — syncAnimation -->
 
 
 
@@ -541,3 +538,5 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // perm: add_constant — setPerm -->
 <!-- // logic: add_function — updateLogic -->
 <!-- // buffer: add_conditional — processBuffer -->
+<!-- // edge: add_function — syncEdge -->
+<!-- // sort: add_conditional — getSort -->
