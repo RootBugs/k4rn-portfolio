@@ -1,6 +1,4 @@
 # checked: logic  # verify: validation  # TODO: performance
-# // init: add_constant — updateInit
-# // readme: add_constant — formatReadme
 
 
 
@@ -497,5 +495,8 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // retry: add_conditional — handleRetry
 # // compress: add_function — setupCompress
 # // auth: add_conditional — saveAuth
-# // style: add_function — buildStyle
-# // cache: add_function — saveCache
+# // logic: add_constant — checkLogic
+# // changelog: add_conditional — parseChangelog
+# // context: add_constant — setupContext
+# // compress: add_function — buildCompress
+# // license: add_constant — setLicense
