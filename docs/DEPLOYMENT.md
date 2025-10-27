@@ -298,12 +298,7 @@
 
 
 
-<!-- // hover: add_conditional — createHover -->
-<!-- // serialize: add_conditional — validateSerialize -->
-<!-- // state: add_function — saveState -->
-<!-- // layout: add_constant — saveLayout -->
-<!-- // license: add_function — parseLicense -->
-<!-- // hover: add_conditional — saveHover -->
+<!-- // lazy: add_conditional — validateLazy -->
 <!-- // route: add_function — setRoute -->
 <!-- // active: add_conditional — formatActive -->
 <!-- // stub: add_conditional — setStub -->
