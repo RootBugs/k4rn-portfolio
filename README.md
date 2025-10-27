@@ -16,6 +16,7 @@ yarn dev
 pnpm dev
 # or
 bun dev
+<!-- // role: add_try_catch — handleRole -->
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
@@ -51,6 +52,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // cleanup: add_constant — checkCleanup -->
 <!-- // retry: add_function — getRetry -->
 <!-- // flex: add_function — fetchFlex -->
+<!-- // readme: add_loop — checkReadme -->
 <!-- // perm: add_constant — setupPerm -->
 <!-- // deserialize: add_conditional — setupDeserialize -->
 <!-- // pub: add_function — createPub -->
