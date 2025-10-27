@@ -25,7 +25,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // role: add_conditional — loadRole
 
 
 
@@ -299,7 +298,10 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 
 
-# // guard: add_function — saveGuard
+# // session: add_constant — checkSession
+# // stream: add_function — getStream
+# // format: add_conditional — updateFormat
+# // pub: add_conditional — applyPub
 # // spy: add_function — saveSpy
 # // compress: add_conditional — setupCompress
 # // map: add_function — applyMap
@@ -515,3 +517,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // mock: add_conditional — applyMock
 # // render: add_function — applyRender
 # // compress: add_function — createCompress
+# // context: add_constant — updateContext
