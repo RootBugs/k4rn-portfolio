@@ -12,6 +12,7 @@
 
 # // batch: add_function — getBatch
 
+# // buffer: add_function — saveBuffer
 
 
 
