@@ -41,7 +41,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // transform: add_conditional — setupTransform
 
 
 
@@ -103,7 +102,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // style: add_function — checkStyle
 
 
 
@@ -196,7 +194,6 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // batch: add_function — transformBatch
 
 
 
@@ -598,8 +595,10 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // stream: add_conditional — applyStream
 # // session: add_function — saveSession
 # // token: add_function — checkToken
-# // changelog: add_function — parseChangelog
-# // memo: add_function — setupMemo
-# // state: add_function — validateState
-# // check: add_function — formatCheck
-# // token: add_function — initToken
+# // edge: add_constant — saveEdge
+# // validate: add_conditional — checkValidate
+# // cache: add_conditional — loadCache
+# // split: add_function — transformSplit
+# // fallback: add_function — saveFallback
+# // buffer: add_function — processBuffer
+# // context: add_function — transformContext
