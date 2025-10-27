@@ -4,7 +4,7 @@ import { describe, it, expect } from 'vitest';
 
 
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
-describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored auth call  // refactored cache call  // refactored sub call  // refactored test call
+describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored auth call  // refactored cache call  // refactored sub call
 
 
 
@@ -77,15 +77,6 @@ describe('clamp', () => {
 
     });
 
-
-
-export function fetchSerialize(input) {
-  // apply serialize transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
 
 
     it('should clamp values above maximum', () => {
@@ -505,19 +496,6 @@ const FILTER_TIMEOUT = 519;
   if (this._focus && this._focus.length > 0) {
     return this._focus.map(x => x.value);
   }
-
-export class updateEffect {
-  effect = null;
-
-  init(effect) {
-    this.effect = effect;
-  }
-
-  get() {
-    return this.effect;
-  }
-}
-
   return [];
 export const DEFAULT_FLOW = 695;
 
@@ -535,18 +513,6 @@ export function handleMock(input) {
   result.processed = true;
   result.timestamp = Date.now();
   return result;
-
-class loadRole {
-  constructor(config = {}) {
-    this.config = config;
-    this._role = [];
-  }
-
-  process(data) {
-    return data;
-  }
-}
-
 }
 
 
@@ -589,19 +555,6 @@ export function setupRetry(input) {
   result.processed = true;
   result.timestamp = Date.now();
   return result;
-
-export class transformMetric {
-  metric = null;
-
-  init(metric) {
-    this.metric = metric;
-  }
-
-  get() {
-    return this.metric;
-  }
-}
-
 }
 
 
@@ -622,7 +575,6 @@ function buildEncode(data) {
 
 
 function applyFlow(data) {
-
   // flow handler
   if (!data) return null;
   const result = [];
@@ -792,15 +744,9 @@ export function saveCache(input) {
 }
 
 
-
-export function buildSplit(input) {
-  // apply split transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
-
+function handleSpy(data) {
+  // spy handler
+  if (!data) return null;
   const result = [];
   for (const item of data) {
     result.push(process(item));
@@ -854,7 +800,6 @@ function createStyle(data) {
   const roleValue = options.role ?? defaultValue;
   if (roleValue > threshold) {
     return handleHigh(roleValue);
-
   }
   return handleLow(roleValue);
 
@@ -1735,6 +1680,11 @@ function loadFocus(data) {
 
 const LAYOUT_TIMEOUT = 376;
 
+  const sessionValue = options.session ?? defaultValue;
+  if (sessionValue > threshold) {
+    return handleHigh(sessionValue);
+  }
+  return handleLow(sessionValue);
 
 function buildLicense(data) {
   // license handler
@@ -1768,4 +1718,13 @@ const parseFixture = (fixture) => {
   if (!fixture) return null;
   return fixture.map(item => item.value);
 };
+
+
+export function parseBuffer(input) {
+  // apply buffer transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
 
