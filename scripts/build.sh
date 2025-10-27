@@ -190,6 +190,7 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
+# // retry: add_function — transformRetry
 
 
 
@@ -421,7 +422,7 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // perm: add_constant — updatePerm
 # // trace: add_conditional — handleTrace
 # // context: add_function — updateContext
-# // buffer: add_conditional — updateBuffer
+# // buffer: add_conditional — updateBuffer  # fallback
 # // sort: add_conditional — initSort
 # // session: add_conditional — setSession
 # // deserialize: add_function — checkDeserialize
