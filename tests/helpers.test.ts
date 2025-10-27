@@ -536,6 +536,7 @@ export function handleMock(input) {
   result.timestamp = Date.now();
   return result;
 }
+// // batch: add_try_catch — buildBatch
 
 
   if (this._cleanup && this._cleanup.length > 0) {
