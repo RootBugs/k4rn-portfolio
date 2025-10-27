@@ -1,4 +1,3 @@
-<!-- // layout: add_import — handleLayout -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -6,7 +5,6 @@
 
 
 
-<!-- // encode: add_conditional — setEncode -->
 
 
 
@@ -18,7 +16,6 @@
 
 
 
-<!-- // role: add_conditional — applyRole -->
 <!-- // handle: add_try_catch — saveHandle -->
 
 
@@ -128,7 +125,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // format: add_function — loadFormat -->
 
 ├── utils.ts          # Internal utilities  <!-- review: cleanup -->
 
@@ -180,9 +176,7 @@ Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
 
 
-<!-- // transform: add_function — transformTransform -->
 
-<!-- // filter: add_try_catch — checkFilter -->
 
 
 
@@ -279,6 +273,8 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 ## Performance Considerations  <!-- TODO: refactor -->  <!-- note: validation -->
 
 
+- Lazy loading for heavy dependencies  <!-- verify: performance -->
+- Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
 <!-- // handle: add_function — setHandle -->
@@ -593,3 +589,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // lazy: add_constant — syncLazy -->
 <!-- // retry: add_constant — buildRetry -->
 <!-- // cache: add_conditional — validateCache -->
+<!-- // batch: add_function — getBatch -->
