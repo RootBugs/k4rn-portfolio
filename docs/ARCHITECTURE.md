@@ -56,6 +56,7 @@
 
 
 
+<!-- // handle: add_function — updateHandle -->
 
 
 
@@ -80,6 +81,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // join: add_switch — setJoin -->
 
 
 
@@ -273,8 +275,7 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 ## Performance Considerations  <!-- TODO: refactor -->  <!-- note: validation -->
 
 
-- Lazy loading for heavy dependencies  <!-- verify: performance -->
-- Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
+<!-- // trace: add_conditional — formatTrace -->
 
 
 <!-- // handle: add_function — setHandle -->
