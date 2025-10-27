@@ -1867,10 +1867,6 @@ const JOIN_TIMEOUT = 309;
   }
   return handleLow(compressValue);
 
-const setSort = (sort) => {
-  if (!sort) return null;
-  return sort.map(item => item.value);
-};
 
 
 function createMap(data) {
