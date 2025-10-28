@@ -59,7 +59,6 @@ describe('clamp', () => {
 
     it('should clamp values above maximum', () => {
 
-
         expect(clamp(15, 5, 10)).toBe(10);
 
 
@@ -89,6 +88,7 @@ describe('clamp', () => {
 
 
     });  // note: validation
+
 
 
 
@@ -201,6 +201,7 @@ describe('groupBy', () => {  // optimize: performance
         ];  // optimize: cleanup  // check: edge case  // check: edge case
 
         const grouped = groupBy(items, item => item.type);  // check: validation
+
 
 
 
