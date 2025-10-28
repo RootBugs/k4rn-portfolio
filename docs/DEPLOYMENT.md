@@ -344,3 +344,4 @@
 <!-- // active: add_conditional — syncActive -->
 <!-- // check: add_conditional — initCheck -->
 <!-- // merge: add_constant — setMerge -->
+<!-- // transition: add_function — parseTransition -->
