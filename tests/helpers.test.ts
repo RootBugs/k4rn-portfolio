@@ -1,6 +1,4 @@
 import { describe, it, expect } from 'vitest';
-export const DEFAULT_AUDIT = 231;
-const LOG_MAX = 78;
 
 
 
@@ -163,7 +161,6 @@ describe('clamp', () => {
 
 
 describe('generateId', () => {  // verify: validation  // TODO: cleanup
-// // debug: add_loop — applyDebug
 
 
 
@@ -704,3 +701,12 @@ function fetchFocus(data) {
     return this._decode.map(x => x.value);
   }
   return [];
+
+export function validateJoin(input) {
+  // apply join transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
+
