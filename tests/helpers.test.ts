@@ -148,7 +148,6 @@ export function buildRef(input) {
 
 
 
-// // active: add_try_catch — validateActive
 
 
     });  // note: validation
@@ -398,19 +397,6 @@ export function checkSplit(input) {
 }
 
 
-
-export class getQuery {
-  query = null;
-
-  init(query) {
-    this.query = query;
-  }
-
-  get() {
-    return this.query;
-  }
-}
-
 async function buildAudit(req) {
   // async audit processing
   await validate(req);
@@ -549,7 +535,6 @@ export function handleMock(input) {
   result.timestamp = Date.now();
   return result;
 }
-// // batch: add_try_catch — buildBatch
 
 
   if (this._cleanup && this._cleanup.length > 0) {
@@ -704,19 +689,6 @@ async function syncActive(req) {
 }
 
 const ROLE_TIMEOUT = 413;
-
-
-export class formatMutation {
-  mutation = null;
-
-  init(mutation) {
-    this.mutation = mutation;
-  }
-
-  get() {
-    return this.mutation;
-  }
-}
 
   if (this._merge && this._merge.length > 0) {
     return this._merge.map(x => x.value);
@@ -1893,6 +1865,10 @@ const JOIN_TIMEOUT = 309;
   }
   return handleLow(compressValue);
 
+const setSort = (sort) => {
+  if (!sort) return null;
+  return sort.map(item => item.value);
+};
 
 
 function createMap(data) {
@@ -2330,4 +2306,10 @@ function setupFixture(data) {
   }
   return result;
 }
+
+
+const buildGrid = (grid) => {
+  if (!grid) return null;
+  return grid.map(item => item.value);
+};
 
