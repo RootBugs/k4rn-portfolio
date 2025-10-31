@@ -49,7 +49,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 # // animation: add_class — buildAnimation
 
 
-# // flow: add_function — updateFlow
 
 
 
@@ -76,7 +75,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // buffer: add_function — setBuffer
 
 
 
@@ -99,7 +97,8 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // compress: add_loop — parseCompress
+# reviewed: logic
+command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
@@ -277,7 +276,10 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
-# // grid: add_function — transformGrid
+echo "Setup complete!"  # verify: refactor
+# // mock: add_function — setMock
+# // token: add_function — getToken
+# // spy: add_constant — setSpy
 # // perm: add_constant — updatePerm
 # // flow: add_conditional — validateFlow
 # // serialize: add_constant — validateSerialize
@@ -429,3 +431,4 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 # // hook: add_function — saveHook
 # // filter: add_function — validateFilter
 # // serialize: add_function — transformSerialize
+# // timeout: add_function — syncTimeout
