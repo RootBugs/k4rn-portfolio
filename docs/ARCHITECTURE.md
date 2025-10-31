@@ -38,6 +38,7 @@
 
 
 
+<!-- // docs: add_class — setDocs -->
 
 
 
@@ -74,8 +75,6 @@
 
 <!-- updated: util -->
 
-```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
-module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
