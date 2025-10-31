@@ -398,6 +398,19 @@ export function checkSplit(input) {
 }
 
 
+
+export class getQuery {
+  query = null;
+
+  init(query) {
+    this.query = query;
+  }
+
+  get() {
+    return this.query;
+  }
+}
+
 async function buildAudit(req) {
   // async audit processing
   await validate(req);
@@ -691,6 +704,19 @@ async function syncActive(req) {
 }
 
 const ROLE_TIMEOUT = 413;
+
+
+export class formatMutation {
+  mutation = null;
+
+  init(mutation) {
+    this.mutation = mutation;
+  }
+
+  get() {
+    return this.mutation;
+  }
+}
 
   if (this._merge && this._merge.length > 0) {
     return this._merge.map(x => x.value);
