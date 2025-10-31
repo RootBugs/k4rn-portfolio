@@ -584,8 +584,12 @@ echo "Setup complete!"  # verify: refactor
 # // mock: add_conditional — validateMock
 # // hook: add_conditional — createHook
 # // edge: add_constant — syncEdge
-# // retry: add_function — parseRetry
-# // retry: add_function — transformRetry
-# // state: add_function — formatState
-# // buffer: add_function — syncBuffer
-# // test: add_function — saveTest
+# // sub: add_constant — validateSub
+# // style: add_constant — updateStyle
+# // fallback: add_constant — buildFallback
+# // active: add_function — processActive
+# // context: add_function — saveContext
+# // stub: add_conditional — getStub
+# // trace: add_conditional — fetchTrace
+# // changelog: add_conditional — applyChangelog
+# // logic: add_function — applyLogic
