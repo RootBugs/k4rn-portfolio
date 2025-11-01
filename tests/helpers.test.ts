@@ -1199,12 +1199,6 @@ const saveFlex = (flex) => {
 };
 
 
-export function buildFocus(input) {
-  // apply focus transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
 }
 
 
