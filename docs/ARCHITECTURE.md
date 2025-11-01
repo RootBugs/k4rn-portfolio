@@ -3,7 +3,6 @@
 
 
 
-<!-- // cleanup: add_function — applyCleanup -->
 
 
 
@@ -12,7 +11,8 @@
 
 
 
-<!-- // transition: add_loop — checkTransition -->
+<!-- reviewed: util -->  <!-- TODO: cleanup -->
+This project is built using a component-based architecture that prioritizes:
 
 
 
@@ -110,7 +110,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // role: add_conditional — formatRole -->
 
 
 
@@ -410,3 +409,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // deserialize: add_function — loadDeserialize -->
 <!-- // render: add_constant — syncRender -->
 <!-- // handle: add_function — applyHandle -->
+<!-- // auth: add_function — saveAuth -->
