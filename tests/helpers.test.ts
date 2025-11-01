@@ -715,10 +715,6 @@ function fetchFocus(data) {
 }
 
 
-  if (this._decode && this._decode.length > 0) {
-    return this._decode.map(x => x.value);
-  }
-  return [];
 
 export function validateJoin(input) {
   // apply join transformation
