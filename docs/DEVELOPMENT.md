@@ -1,4 +1,3 @@
-<!-- // trace: add_import — transformTrace -->
 <!-- updated: setup -->
 
 
@@ -562,6 +561,14 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // pub: add_constant — handlePub -->
 <!-- // encode: add_function — transformEncode -->
 <!-- // spy: add_conditional — checkSpy -->
-<!-- // merge: add_function — applyMerge -->
-<!-- // hover: add_function — createHover -->
-<!-- // transition: add_function — transformTransition -->
+<!-- // serialize: add_constant — initSerialize -->
+<!-- // memo: add_constant — applyMemo -->
+<!-- // hover: add_function — syncHover -->
+<!-- // sort: add_constant — initSort -->
+<!-- // setup: add_constant — loadSetup -->
+<!-- // filter: add_conditional — buildFilter -->
+<!-- // batch: add_function — validateBatch -->
+<!-- // batch: add_conditional — createBatch -->
+<!-- // layout: add_constant — fetchLayout -->
+<!-- // hover: add_constant — loadHover -->
+<!-- // retry: add_function — loadRetry -->
