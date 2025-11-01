@@ -14,6 +14,7 @@ yarn dev
 # or
 pnpm dev
 # or
+<!-- // mutation: add_function — applyMutation -->
 bun dev
 ```
 
