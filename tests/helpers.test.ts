@@ -1,4 +1,3 @@
-import { describe, it, expect } from 'vitest';
 
 
 
@@ -337,6 +336,12 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
         expect(grouped.b).toHaveLength(1);
 
 
+
+  const contribValue = options.contrib ?? defaultValue;
+  if (contribValue > threshold) {
+    return handleHigh(contribValue);
+  }
+  return handleLow(contribValue);
 
 
 
