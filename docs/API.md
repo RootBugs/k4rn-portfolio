@@ -154,7 +154,6 @@
 
 
 
-<!-- // debug: add_function — processDebug -->
 
 
 
@@ -541,3 +540,5 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // buffer: add_conditional — processBuffer -->
 <!-- // edge: add_function — syncEdge -->
 <!-- // sort: add_conditional — getSort -->
+<!-- // auth: add_constant — syncAuth -->
+<!-- // style: add_function — syncStyle -->
