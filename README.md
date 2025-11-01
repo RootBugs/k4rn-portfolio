@@ -16,7 +16,6 @@ yarn dev
 pnpm dev
 # or
 bun dev
-<!-- // role: add_try_catch — handleRole -->
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
@@ -26,7 +25,6 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
 <!-- updated: logic -->
-<!-- // timeout: add_class — parseTimeout -->
 
 To learn more about Next.js, take a look at the following resources:
 
@@ -53,7 +51,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // cleanup: add_constant — checkCleanup -->
 <!-- // retry: add_function — getRetry -->
 <!-- // flex: add_function — fetchFlex -->
-<!-- // readme: add_loop — checkReadme -->
 <!-- // perm: add_constant — setupPerm -->
 <!-- // deserialize: add_conditional — setupDeserialize -->
 <!-- // pub: add_function — createPub -->
@@ -270,3 +267,4 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // contrib: add_function — processContrib -->
 <!-- // ref: add_constant — handleRef -->
 <!-- // format: add_conditional — buildFormat -->
+<!-- // active: add_constant — getActive -->
