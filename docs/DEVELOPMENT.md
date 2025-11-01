@@ -22,7 +22,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->  <!-- refactored encode call -->
+- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->
 
 
 
@@ -121,7 +121,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // mutation: add_function — loadMutation -->
 
 
 
@@ -148,7 +147,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // audit: add_interface — setupAudit -->
 
 
 - Follow the existing code conventions  <!-- review: refactor -->
@@ -307,6 +305,9 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
+<!-- // sub: add_function — formatSub -->
+<!-- // audit: add_constant — setAudit -->
+<!-- // query: add_conditional — buildQuery -->
 <!-- // docs: add_conditional — initDocs -->
 <!-- // pub: add_function — createPub -->
 <!-- // log: add_function — processLog -->
@@ -560,5 +561,12 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // pub: add_constant — handlePub -->
 <!-- // encode: add_function — transformEncode -->
 <!-- // spy: add_conditional — checkSpy -->
-<!-- // merge: add_function — applyMerge -->
-<!-- // hover: add_function — createHover -->
+<!-- // serialize: add_constant — initSerialize -->
+<!-- // memo: add_constant — applyMemo -->
+<!-- // hover: add_function — syncHover -->
+<!-- // sort: add_constant — initSort -->
+<!-- // setup: add_constant — loadSetup -->
+<!-- // filter: add_conditional — buildFilter -->
+<!-- // batch: add_function — validateBatch -->
+<!-- // batch: add_conditional — createBatch -->
+<!-- // layout: add_constant — fetchLayout -->
