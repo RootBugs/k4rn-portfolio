@@ -426,3 +426,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // context: add_conditional — parseContext
 # // changelog: add_constant — validateChangelog
 # // fixture: add_function — loadFixture
+# // deserialize: add_function — buildDeserialize
