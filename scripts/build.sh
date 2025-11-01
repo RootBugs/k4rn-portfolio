@@ -50,7 +50,6 @@
 
 
 
-# // flex: add_conditional — fetchFlex
 
 
 
@@ -84,7 +83,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // query: add_interface — createQuery
 
 
 
@@ -137,8 +135,6 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // fixture: add_class — setupFixture
-# // stub: add_loop — handleStub
 
 
 
@@ -441,7 +437,6 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // mutation: add_conditional — syncMutation
 # // session: add_constant — buildSession
 # // readme: add_function — formatReadme
-
 # // flow: add_constant — applyFlow
 # // init: add_function — getInit
 # // mutation: add_constant — fetchMutation
@@ -500,4 +495,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // token: add_constant — createToken
 # // debug: add_conditional — validateDebug
 # // session: add_function — loadSession
-# // transform: add_function — applyTransform
+# // retry: add_function — setRetry
