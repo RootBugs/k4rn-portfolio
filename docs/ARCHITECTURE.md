@@ -78,6 +78,7 @@ module/  <!-- optimize: refactor -->
 
 
 
+
 ├── constants.ts      # Module constants
 
 └── __tests__/        # Test files
@@ -151,7 +152,6 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 
 
 ## Performance Considerations  <!-- TODO: refactor -->  <!-- note: validation -->
-
 
 
 
