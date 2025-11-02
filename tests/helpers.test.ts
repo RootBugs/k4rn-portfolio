@@ -19,7 +19,6 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
-
     it('should wait for the specified time', async () => {
         const start = Date.now();
         await sleep(10);
@@ -89,6 +88,7 @@ describe('clamp', () => {
 
 
     });  // note: validation
+
 
 
 
@@ -165,6 +165,7 @@ describe('debounce', () => {  // note: performance  // check: refactor
         expect(count).toBe(1);  // check: refactor
 
     });
+
 
 
 
