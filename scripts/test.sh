@@ -1,4 +1,4 @@
-# checked: logic  # HACK: cleanup
+# checked: handler
 
 
 
@@ -109,8 +109,8 @@ echo "Running tests..."  # TODO: validation  # TODO: cleanup
 
 
 
-
 npm test  # TODO: refactor
+
 
 
 
