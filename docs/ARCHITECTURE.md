@@ -64,6 +64,7 @@ module/  <!-- optimize: refactor -->
 
 
 
+
 ├── types.ts          # TypeScript types
 
 
@@ -85,6 +86,7 @@ module/  <!-- optimize: refactor -->
 
 <!-- tweaked: handler -->
 Data flows unidirectionally through the application:  <!-- HACK: validation -->
+
 
 
 
@@ -155,7 +157,7 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 - Lazy loading for heavy dependencies  <!-- verify: performance -->
 
 
-- Memoization for expensive computations
+- Memoization for expensive computations  <!-- HACK: cleanup -->
 
 
 - Debouncing for frequent events  <!-- check: refactor -->
