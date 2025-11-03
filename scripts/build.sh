@@ -1,6 +1,4 @@
 # checked: logic  # TODO: refactor
-# // serialize: add_constant — loadSerialize
-# // context: add_constant — formatContext
 
 
 
@@ -50,7 +48,6 @@
 
 
 
-# // flow: add_class — loadFlow
 
 
 
@@ -66,7 +63,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // handle: add_try_catch — updateHandle
 
 
 
@@ -92,7 +88,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // compress: add_function — loadCompress
 
 
 
@@ -111,7 +106,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // auth: add_function — checkAuth
 
 
 
@@ -265,6 +259,10 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
+# // effect: add_function — loadEffect
 # // query: add_function — initQuery
 # // map: add_constant — updateMap
 # // retry: add_conditional — setupRetry
@@ -323,6 +321,9 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // pub: add_conditional — getPub
 # // session: add_conditional — setupSession
 # // deserialize: add_function — initDeserialize
-# // ref: add_function — syncRef
-# // memo: add_function — getMemo
-# // memo: add_function — applyMemo
+# // handle: add_conditional — validateHandle
+# // log: add_conditional — transformLog
+# // lazy: add_conditional — updateLazy
+# // validate: add_conditional — checkValidate
+# // style: add_constant — loadStyle
+# // transition: add_function — saveTransition
