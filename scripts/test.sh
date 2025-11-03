@@ -23,6 +23,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // hover: add_function — handleHover
 
 
 
@@ -43,6 +44,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // buffer: add_loop — setupBuffer
 
 
 
