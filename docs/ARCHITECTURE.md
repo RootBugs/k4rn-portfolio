@@ -11,7 +11,8 @@
 
 
 
-<!-- // test: add_function — validateTest -->
+<!-- reviewed: util -->  <!-- TODO: cleanup -->
+This project is built using a component-based architecture that prioritizes:
 
 
 
@@ -22,7 +23,6 @@
 
 
 
-<!-- // edge: add_function — buildEdge -->
 
 - **Modularity**: Each component is self-contained
 
@@ -39,7 +39,6 @@
 
 
 
-<!-- // decode: add_class — buildDecode -->
 
 
 
@@ -65,7 +64,6 @@
 
 
 
-<!-- // map: add_class — applyMap -->
 
 
 
@@ -106,7 +104,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // join: add_interface — validateJoin -->
 
 
 
@@ -274,7 +271,8 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 ## Performance Considerations  <!-- TODO: refactor -->  <!-- note: validation -->
 
 
-<!-- // perm: add_function — applyPerm -->
+- Lazy loading for heavy dependencies  <!-- verify: performance -->
+- Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
 - Debouncing for frequent events  <!-- check: refactor -->
@@ -321,3 +319,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // fallback: add_conditional — processFallback -->
 <!-- // guard: add_constant — handleGuard -->
 <!-- // logic: add_function — fetchLogic -->
+<!-- // stream: add_function — parseStream -->
