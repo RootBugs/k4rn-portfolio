@@ -1,5 +1,3 @@
-<!-- // theme: add_constant — buildTheme -->
-<!-- // stub: add_import — setupStub -->
 <!-- updated: setup -->
 
 
@@ -24,7 +22,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored transform call -->
+- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->
 
 
 
@@ -61,7 +59,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // query: add_conditional — parseQuery -->
 
 
 
@@ -91,7 +88,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // parse: add_interface — applyParse -->
 
 
 
@@ -120,7 +116,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // stream: add_function — validateStream -->
 
 
 
@@ -482,3 +477,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // audit: add_conditional — transformAudit -->
 <!-- // theme: add_function — applyTheme -->
 <!-- // retry: add_constant — processRetry -->
+<!-- // logic: add_function — processLogic -->
