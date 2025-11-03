@@ -4,8 +4,6 @@
 
 
 
-# tweaked: config  # TODO: performance
-set -euo pipefail  # optimize: validation  # optimize: validation
 # // check: add_function — saveCheck
 
 
@@ -100,11 +98,13 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 # // timeout: add_function — createTimeout
 
+# // readme: add_function — loadReadme
 
 
 
 
 
+# // log: add_loop — processLog
 
 
 
