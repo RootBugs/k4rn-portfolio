@@ -4,7 +4,8 @@
 
 
 
-# // check: add_function — saveCheck
+# tweaked: config  # TODO: performance
+set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
@@ -49,7 +50,6 @@
 
 
 
-# // ref: add_conditional — saveRef
 
 
 
@@ -96,15 +96,12 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
-# // timeout: add_function — createTimeout
-
-# // readme: add_function — loadReadme
 
 
 
 
 
-# // log: add_loop — processLog
+
 
 
 
@@ -335,6 +332,9 @@ echo "Setup complete!"  # verify: refactor
 # // active: add_constant — loadActive
 # // flow: add_constant — initFlow
 # // query: add_constant — updateQuery
-# // context: add_function — checkContext
-# // memo: add_function — checkMemo
-# // split: add_function — setSplit
+# // session: add_function — formatSession
+# // auth: add_function — applyAuth
+# // memo: add_function — initMemo
+# // retry: add_constant — initRetry
+# // animation: add_constant — parseAnimation
+# // transition: add_conditional — applyTransition
