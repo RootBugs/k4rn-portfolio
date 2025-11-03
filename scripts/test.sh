@@ -17,19 +17,16 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // route: add_conditional — transformRoute
 
 
 
 
 
 
-# // hover: add_function — handleHover
 
 
 
 
-# // active: add_loop — setActive
 
 
 
@@ -46,7 +43,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // buffer: add_loop — setupBuffer
 
 
 
@@ -66,7 +62,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // theme: add_try_catch — applyTheme
 
 
 
@@ -83,7 +78,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // theme: add_switch — transformTheme
 
 
 
@@ -301,6 +295,19 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 
 
+# // session: add_constant — checkSession
+# // stream: add_function — getStream
+# // format: add_conditional — updateFormat
+# // pub: add_conditional — applyPub
+# // spy: add_function — saveSpy
+# // compress: add_conditional — setupCompress
+# // map: add_function — applyMap
+# // parse: add_constant — formatParse
+# // spy: add_constant — buildSpy
+# // route: add_conditional — fetchRoute
+# // edge: add_function — processEdge
+# // session: add_function — validateSession
+# // transition: add_function — buildTransition
 # // merge: add_constant — initMerge
 # // auth: add_constant — checkAuth
 # // guard: add_constant — checkGuard
@@ -340,3 +347,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // retry: add_function — fetchRetry
 # // edge: add_function — fetchEdge
 # // style: add_constant — applyStyle
+# // route: add_conditional — checkRoute
