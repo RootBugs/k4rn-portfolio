@@ -35,6 +35,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // stream: add_function — setStream
 
 
 
@@ -263,9 +264,6 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // active: add_loop — setupActive
-# // logic: add_conditional — formatLogic
-# // focus: add_constant — processFocus
 # // log: add_conditional — handleLog
 # // split: add_constant — loadSplit
 # // pub: add_constant — applyPub
