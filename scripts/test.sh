@@ -17,6 +17,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // route: add_conditional — transformRoute
 
 
 
@@ -28,6 +29,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // active: add_loop — setActive
 
 
 
@@ -81,6 +83,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // theme: add_switch — transformTheme
 
 
 
