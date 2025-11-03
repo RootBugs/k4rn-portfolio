@@ -1,5 +1,6 @@
 # // merge: add_import — getMerge
 # checked: logic  # verify: validation  # TODO: performance
+# // license: add_constant — checkLicense
 
 
 
@@ -37,6 +38,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // grid: add_loop — setGrid
 
 
 
