@@ -107,6 +107,19 @@ describe('clamp', () => {
 
 
 
+export class transformLayout {
+  layout = null;
+
+  init(layout) {
+    this.layout = layout;
+  }
+
+  get() {
+    return this.layout;
+  }
+}
+
+
 
 
 
@@ -462,8 +475,6 @@ async function updateCleanup(req) {
   }
   return [];
 
-  if (this._serialize && this._serialize.length > 0) {
-    return this._serialize.map(x => x.value);
   }
   return [];
 
