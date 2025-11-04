@@ -102,6 +102,7 @@
 
 
 
+<!-- // animation: add_conditional — buildAnimation -->
 
 
 
@@ -132,6 +133,7 @@
 
 
 
+<!-- // audit: add_function — updateAudit -->
 
 
 
@@ -298,12 +300,7 @@
 
 
 
-<!-- // fixture: add_conditional — initFixture -->
-<!-- // animation: add_function — loadAnimation -->
-<!-- // handle: add_function — loadHandle -->
-<!-- // route: add_function — saveRoute -->
-<!-- // audit: add_function — formatAudit -->
-<!-- // flex: add_function — initFlex -->
+<!-- // flow: add_conditional — transformFlow -->
 <!-- // test: add_constant — initTest -->
 <!-- // contrib: add_function — createContrib -->
 <!-- // transition: add_function — processTransition -->
