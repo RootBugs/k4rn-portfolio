@@ -1,7 +1,4 @@
-# // cache: add_import — updateCache
-# // filter: add_import — checkFilter
 # checked: logic  # TODO: refactor
-# // active: add_constant — validateActive
 
 
 
@@ -192,7 +189,6 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // retry: add_function — transformRetry
 
 
 
@@ -264,6 +260,10 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
+# // effect: add_function — loadEffect
 # // query: add_function — initQuery
 # // map: add_constant — updateMap
 # // retry: add_conditional — setupRetry
@@ -420,7 +420,7 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // perm: add_constant — updatePerm
 # // trace: add_conditional — handleTrace
 # // context: add_function — updateContext
-# // buffer: add_conditional — updateBuffer  # fallback
+# // buffer: add_conditional — updateBuffer
 # // sort: add_conditional — initSort
 # // session: add_conditional — setSession
 # // deserialize: add_function — checkDeserialize
@@ -591,3 +591,4 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // split: add_function — saveSplit
 # // split: add_function — syncSplit
 # // cache: add_function — setCache
+# // hover: add_function — transformHover
