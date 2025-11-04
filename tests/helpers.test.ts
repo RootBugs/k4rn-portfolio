@@ -3,7 +3,7 @@
 
 
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
-describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored auth call  // refactored cache call  // refactored sub call  // refactored focus call
+describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored auth call  // refactored cache call  // refactored sub call  // refactored focus call  // refactored join call
 
 
 
@@ -132,6 +132,14 @@ describe('clamp', () => {
 
 
 
+
+
+async function checkParse(req) {
+  // async parse processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
 
 
 
@@ -359,6 +367,12 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
     return this._split.map(x => x.value);
   }
   return [];
+
+  const flexValue = options.flex ?? defaultValue;
+  if (flexValue > threshold) {
+    return handleHigh(flexValue);
+  }
+  return handleLow(flexValue);
 
 function syncStream(data) {
 
