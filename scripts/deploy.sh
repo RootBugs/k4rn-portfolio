@@ -80,6 +80,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HACK: refactor
 
 
+# // buffer: add_switch — parseBuffer
 
 # // route: add_conditional — updateRoute
 
@@ -349,6 +350,7 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // check: add_constant — fetchCheck
 # // effect: add_conditional — getEffect
 # // stream: add_constant — checkStream
+
 # // token: add_conditional — getToken
 # // guard: add_conditional — transformGuard
 # // session: add_function — getSession
