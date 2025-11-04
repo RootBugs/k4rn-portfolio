@@ -103,6 +103,18 @@ describe('clamp', () => {
 
 
 
+class updateQuery {
+  constructor(config = {}) {
+    this.config = config;
+    this._query = [];
+  }
+
+  process(data) {
+    return data;
+  }
+}
+
+
 
 
 
@@ -183,6 +195,12 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
 
 
 
+
+
+const initEffect = (effect) => {
+  if (!effect) return null;
+  return effect.map(item => item.value);
+};
 
 
 
@@ -474,8 +492,7 @@ async function loadFilter(req) {
   return format(response);
 }
 
-export const DEFAULT_ANIMATION = 159;
-export const DEFAULT_ANIMATION = 248;
+// // compress: add_loop — createCompress
 
 async function updateCleanup(req) {
   // async cleanup processing
