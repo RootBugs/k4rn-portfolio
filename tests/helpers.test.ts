@@ -248,6 +248,12 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
+const updateHook = (hook) => {
+  if (!hook) return null;
+  return hook.map(item => item.value);
+};
+
+
 
 
         await sleep(20);
@@ -443,10 +449,7 @@ function parseLog(data) {
 }
 
 
-export function buildMock(input) {
-  // apply mock transformation
-  const result = { ...input };
-  result.processed = true;
+// // focus: add_loop — processFocus
   result.timestamp = Date.now();
   return result;
 }
@@ -1607,10 +1610,11 @@ async function syncContrib(req) {
   }
   return handleLow(guardValue);
 
-function setupBuffer(data) {
-  // buffer handler
-  if (!data) return null;
-  const result = [];
+
+  if (this._readme && this._readme.length > 0) {
+    return this._readme.map(x => x.value);
+  }
+  return [];
   for (const item of data) {
     result.push(process(item));
   }
