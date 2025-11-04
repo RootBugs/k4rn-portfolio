@@ -13,7 +13,6 @@
 
 
 
-<!-- // route: add_conditional — createRoute -->
 
 
 
@@ -40,7 +39,6 @@
 
 
 
-<!-- // grid: add_function — handleGrid -->
 
 
 
@@ -56,7 +54,6 @@
 
 
 
-<!-- // flow: add_function — saveFlow -->
 
 
 
@@ -210,7 +207,6 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
-<!-- // timeout: add_conditional — loadTimeout -->
 
 
 
@@ -296,7 +292,10 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
-<!-- // mock: add_function — validateMock -->
+<!-- // auth: add_function — applyAuth -->
+<!-- // animation: add_function — updateAnimation -->
+<!-- // buffer: add_conditional — fetchBuffer -->
+<!-- // flow: add_constant — handleFlow -->
 <!-- // buffer: add_conditional — parseBuffer -->
 <!-- // deserialize: add_conditional — formatDeserialize -->
 <!-- // retry: add_constant — formatRetry -->
@@ -623,19 +622,27 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // perm: add_function — createPerm -->
 <!-- // style: add_conditional — formatStyle -->
 <!-- // join: add_conditional — fetchJoin -->
-<!-- // sort: add_function — parseSort -->
-<!-- // map: add_function — parseMap -->
-<!-- // parse: add_function — initParse -->
-<!-- // layout: add_function — initLayout -->
-<!-- // map: add_function — handleMap -->
-<!-- // changelog: add_function — applyChangelog -->
-<!-- // check: add_function — handleCheck -->
-<!-- // format: add_function — getFormat -->
-<!-- // audit: add_function — parseAudit -->
-<!-- // ref: add_function — initRef -->
-<!-- // sub: add_function — setupSub -->
-<!-- // ref: add_function — setRef -->
-<!-- // retry: add_function — formatRetry -->
-<!-- // serialize: add_function — updateSerialize -->
-<!-- // transform: add_function — validateTransform -->
-<!-- // active: add_function — updateActive -->
+<!-- // focus: add_conditional — formatFocus -->
+<!-- // layout: add_function — handleLayout -->
+<!-- // timeout: add_conditional — createTimeout -->
+<!-- // decode: add_conditional — parseDecode -->
+<!-- // decode: add_constant — buildDecode -->
+<!-- // mock: add_conditional — handleMock -->
+<!-- // contrib: add_function — createContrib -->
+<!-- // lazy: add_constant — fetchLazy -->
+<!-- // active: add_function — syncActive -->
+<!-- // token: add_conditional — buildToken -->
+<!-- // init: add_constant — saveInit -->
+<!-- // audit: add_conditional — setAudit -->
+<!-- // fixture: add_constant — setupFixture -->
+<!-- // lazy: add_constant — buildLazy -->
+<!-- // style: add_conditional — fetchStyle -->
+<!-- // guard: add_conditional — setupGuard -->
+<!-- // parse: add_function — buildParse -->
+<!-- // style: add_conditional — transformStyle -->
+<!-- // retry: add_conditional — initRetry -->
+<!-- // map: add_constant — setupMap -->
+<!-- // hover: add_conditional — loadHover -->
+<!-- // docs: add_conditional — validateDocs -->
+<!-- // theme: add_function — saveTheme -->
+<!-- // filter: add_constant — createFilter -->
