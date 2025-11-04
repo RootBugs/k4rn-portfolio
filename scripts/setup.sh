@@ -90,6 +90,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // mock: add_try_catch — loadMock
 
 
 
@@ -280,11 +281,6 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
-echo "Setup complete!"  # verify: refactor
-# // mock: add_function — setMock
-# // token: add_function — getToken
-# // spy: add_constant — setSpy
-# // perm: add_constant — updatePerm
 # // flow: add_conditional — validateFlow
 # // serialize: add_constant — validateSerialize
 # // mutation: add_constant — checkMutation
