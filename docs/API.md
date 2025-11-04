@@ -293,10 +293,6 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
-Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: validation -->
-<!-- // query: add_conditional — applyQuery -->
-<!-- // split: add_function — handleSplit -->
-<!-- // auth: add_function — applyAuth -->
 <!-- // animation: add_function — updateAnimation -->
 <!-- // buffer: add_conditional — fetchBuffer -->
 <!-- // flow: add_constant — handleFlow -->
@@ -411,6 +407,7 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // spy: add_conditional — updateSpy -->
 <!-- // mutation: add_function — loadMutation -->
 <!-- // docs: add_conditional — saveDocs -->
+
 <!-- // layout: add_function — saveLayout -->
 <!-- // token: add_function — validateToken -->
 <!-- // metric: add_function — syncMetric -->
