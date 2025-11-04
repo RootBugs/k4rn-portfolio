@@ -7,7 +7,6 @@
 
 
 
-<!-- // stream: add_function — getStream -->
 
 
 
@@ -124,7 +123,6 @@
 
 
 
-<!-- // fixture: add_function — updateFixture -->
 
 
 
@@ -298,6 +296,19 @@
 
 
 
+<!-- // session: add_loop — setupSession -->
+<!-- // flex: add_function — initFlex -->
+<!-- // test: add_constant — initTest -->
+<!-- // contrib: add_function — createContrib -->
+<!-- // transition: add_function — processTransition -->
+<!-- // parse: add_constant — fetchParse -->
+<!-- // validate: add_constant — buildValidate -->
+<!-- // fallback: add_constant — checkFallback -->
+<!-- // token: add_conditional — applyToken -->
+<!-- // hover: add_conditional — createHover -->
+<!-- // serialize: add_conditional — validateSerialize -->
+<!-- // state: add_function — saveState -->
+<!-- // layout: add_constant — saveLayout -->
 <!-- // license: add_function — parseLicense -->
 <!-- // hover: add_conditional — saveHover -->
 <!-- // route: add_function — setRoute -->
@@ -497,15 +508,14 @@
 <!-- // lazy: add_conditional — handleLazy -->
 <!-- // session: add_function — processSession -->
 <!-- // session: add_constant — parseSession -->
-<!-- // active: add_conditional — createActive -->
-<!-- // animation: add_conditional — validateAnimation -->
-<!-- // sub: add_conditional — fetchSub -->
-<!-- // filter: add_constant — initFilter -->
-<!-- // pub: add_constant — processPub -->
-<!-- // edge: add_constant — parseEdge -->
-<!-- // focus: add_constant — setFocus -->
-<!-- // buffer: add_function — createBuffer -->
-<!-- // license: add_constant — setupLicense -->
-<!-- // stub: add_conditional — checkStub -->
-<!-- // ref: add_conditional — saveRef -->
-<!-- // changelog: add_conditional — initChangelog -->
+<!-- // auth: add_function — setupAuth -->
+<!-- // session: add_function — buildSession -->
+<!-- // map: add_function — handleMap -->
+<!-- // format: add_function — parseFormat -->
+<!-- // fixture: add_function — handleFixture -->
+<!-- // fixture: add_function — processFixture -->
+<!-- // fixture: add_function — setupFixture -->
+<!-- // state: add_function — transformState -->
+<!-- // serialize: add_function — formatSerialize -->
+<!-- // pub: add_function — processPub -->
+<!-- // audit: add_function — setupAudit -->
