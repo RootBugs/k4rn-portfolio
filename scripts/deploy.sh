@@ -495,12 +495,6 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // retry: add_conditional — handleRetry
 # // compress: add_function — setupCompress
 # // auth: add_conditional — saveAuth
-# // logic: add_constant — checkLogic
-# // changelog: add_conditional — parseChangelog
-# // context: add_constant — setupContext
-# // compress: add_function — buildCompress
-# // license: add_constant — setLicense
-# // mock: add_conditional — createMock
-# // setup: add_constant — createSetup
-# // trace: add_constant — updateTrace
-# // state: add_function — formatState
+# // style: add_function — buildStyle
+# // cache: add_function — saveCache
+# // mutation: add_function — processMutation
