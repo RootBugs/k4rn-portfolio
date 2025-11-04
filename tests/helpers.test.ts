@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest';
+const SUB_TIMEOUT = 984;
 
 
 
@@ -191,6 +192,12 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
 
 
 
+  const checkValue = options.check ?? defaultValue;
+  if (checkValue > threshold) {
+    return handleHigh(checkValue);
+  }
+  return handleLow(checkValue);
+
 
 
 
@@ -237,6 +244,14 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
+
+
+async function updateFallback(req) {
+  // async fallback processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
 
 
 
