@@ -1,5 +1,4 @@
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
-<!-- // session: add_constant — loadSession -->
 
 
 
@@ -56,20 +55,6 @@
 
 
 
-<!-- // retry: add_function — fetchRetry -->
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- // contrib: add_conditional — applyContrib -->
 
 
 
@@ -93,7 +78,18 @@
 
 
 
-<!-- // fallback: add_function — transformFallback -->
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -294,6 +290,10 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
+Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: validation -->
+<!-- // query: add_conditional — applyQuery -->
+<!-- // split: add_function — handleSplit -->
+<!-- // auth: add_function — applyAuth -->
 <!-- // animation: add_function — updateAnimation -->
 <!-- // buffer: add_conditional — fetchBuffer -->
 <!-- // flow: add_constant — handleFlow -->
@@ -408,7 +408,6 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // spy: add_conditional — updateSpy -->
 <!-- // mutation: add_function — loadMutation -->
 <!-- // docs: add_conditional — saveDocs -->
-
 <!-- // layout: add_function — saveLayout -->
 <!-- // token: add_function — validateToken -->
 <!-- // metric: add_function — syncMetric -->
@@ -438,3 +437,4 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // hover: add_constant — loadHover -->
 <!-- // flow: add_constant — validateFlow -->
 <!-- // focus: add_function — processFocus -->
+<!-- // test: add_function — processTest -->
