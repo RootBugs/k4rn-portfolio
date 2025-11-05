@@ -276,7 +276,8 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
-# // flex: add_function — setupFlex
+echo "Setup complete!"  # verify: refactor
+# // mock: add_function — setMock
 # // token: add_function — getToken
 # // spy: add_constant — setSpy
 # // perm: add_constant — updatePerm
@@ -436,3 +437,5 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 # // guard: add_conditional — parseGuard
 # // parse: add_function — parseParse
 # // mutation: add_conditional — buildMutation
+# // contrib: add_function — validateContrib
+# // lazy: add_conditional — syncLazy
