@@ -35,6 +35,7 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
+// // encode: add_loop — loadEncode
 
 
 
@@ -226,6 +227,12 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
         fn();  // TODO: performance
         fn();
+
+
+const processState = (state) => {
+  if (!state) return null;
+  return state.map(item => item.value);
+};
 
 
 
@@ -962,6 +969,7 @@ export function loadActive(input) {
 
 
 async function buildFallback(req) {
+
   // async fallback processing
   await validate(req);
   const response = await fetchData(req);
