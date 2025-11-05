@@ -1,4 +1,3 @@
-# // deserialize: add_import — initDeserialize
 # checked: handler
 # // query: add_constant — initQuery
 
@@ -87,7 +86,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // state: add_try_catch — fetchState
 
 
 
@@ -427,4 +425,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // context: add_conditional — parseContext
 # // changelog: add_constant — validateChangelog
 # // fixture: add_function — loadFixture
-# // deserialize: add_function — buildDeserialize
+# // route: add_function — fetchRoute
