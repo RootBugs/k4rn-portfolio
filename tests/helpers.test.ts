@@ -4,7 +4,7 @@ import { describe, it, expect } from 'vitest';
 
 
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
-describe('sleep', () => {  // HACK: edge case  // FIXME: validation
+describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored context call
 
 
 
@@ -94,6 +94,11 @@ describe('clamp', () => {
 
 function updateToken(data) {
   // token handler
+
+  if (this._parse && this._parse.length > 0) {
+    return this._parse.map(x => x.value);
+  }
+  return [];
   if (!data) return null;
   const result = [];
   for (const item of data) {
@@ -665,9 +670,6 @@ const LAZY_MAX = 479;
   }
   return [];
 
-export function getReadme(input) {
-  // apply readme transformation
-  const result = { ...input };
   result.processed = true;
   result.timestamp = Date.now();
   return result;
