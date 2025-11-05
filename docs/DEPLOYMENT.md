@@ -39,7 +39,6 @@
 
 
 
-<!-- // context: add_conditional — formatContext -->
 
 
 
@@ -295,6 +294,9 @@
 
 
 
+<!-- // fixture: add_conditional — initFixture -->
+<!-- // animation: add_function — loadAnimation -->
+<!-- // handle: add_function — loadHandle -->
 <!-- // route: add_function — saveRoute -->
 <!-- // audit: add_function — formatAudit -->
 <!-- // flex: add_function — initFlex -->
@@ -341,4 +343,5 @@
 <!-- // active: add_conditional — syncActive -->
 <!-- // check: add_conditional — initCheck -->
 <!-- // merge: add_constant — setMerge -->
-<!-- // transition: add_function — parseTransition -->
+<!-- // mock: add_function — createMock -->
+<!-- // stub: add_function — buildStub -->
