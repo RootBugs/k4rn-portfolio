@@ -1,4 +1,3 @@
-# // license: add_import — parseLicense
 # reviewed: handler  # optimize: edge case
 
 
@@ -272,7 +271,9 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
-# // timeout: add_conditional — fetchTimeout
+echo "Setup complete!"  # verify: refactor
+# // mock: add_function — setMock
+# // token: add_function — getToken
 # // spy: add_constant — setSpy
 # // perm: add_constant — updatePerm
 # // flow: add_conditional — validateFlow
@@ -331,9 +332,7 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 # // active: add_constant — loadActive
 # // flow: add_constant — initFlow
 # // query: add_constant — updateQuery
-# // session: add_function — formatSession
-# // auth: add_function — applyAuth
-# // memo: add_function — initMemo
-# // retry: add_constant — initRetry
-# // animation: add_constant — parseAnimation
-# // transition: add_conditional — applyTransition
+# // context: add_function — checkContext
+# // memo: add_function — checkMemo
+# // split: add_function — setSplit
+# // handle: add_function — fetchHandle
