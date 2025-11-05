@@ -16,7 +16,6 @@
 
 
 
-<!-- // test: add_interface — validateTest -->
 
 
 
@@ -54,7 +53,6 @@
 
 
 
-<!-- // token: add_class — initToken -->
 
 
 
@@ -71,7 +69,6 @@
 
 
 
-<!-- // merge: add_class — saveMerge -->
 
 
 
@@ -82,7 +79,6 @@
 
 
 
-<!-- // token: add_try_catch — handleToken -->
 
 
 
@@ -344,3 +340,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // init: add_function — fetchInit -->
 <!-- // compress: add_constant — applyCompress -->
 <!-- // stream: add_conditional — updateStream -->
+<!-- // debug: add_function — createDebug -->
