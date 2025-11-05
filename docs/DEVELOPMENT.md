@@ -477,4 +477,5 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // audit: add_conditional — transformAudit -->
 <!-- // theme: add_function — applyTheme -->
 <!-- // retry: add_constant — processRetry -->
-<!-- // logic: add_function — processLogic -->
+<!-- // auth: add_function — saveAuth -->
+<!-- // log: add_constant — applyLog -->
