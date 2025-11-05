@@ -1,3 +1,4 @@
+<!-- // memo: add_constant — handleMemo -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -65,6 +66,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // retry: add_function — handleRetry -->
 
 <!-- // context: add_conditional — syncContext -->
 
@@ -88,6 +90,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // log: add_class — formatLog -->
 
 
 
