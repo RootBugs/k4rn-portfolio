@@ -62,6 +62,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // theme: add_function — parseTheme
 
 
 
@@ -79,6 +80,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // stub: add_function — loadStub
 
 
 
