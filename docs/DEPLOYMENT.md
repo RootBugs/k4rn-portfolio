@@ -30,7 +30,6 @@
 
 
 
-<!-- // mutation: add_try_catch — formatMutation -->
 
 
 
@@ -93,7 +92,6 @@
 
 
 
-<!-- // license: add_try_catch — formatLicense -->
 
 
 
@@ -347,3 +345,5 @@
 <!-- // merge: add_constant — setMerge -->
 <!-- // mock: add_function — createMock -->
 <!-- // stub: add_function — buildStub -->
+<!-- // logic: add_function — checkLogic -->
+<!-- // logic: add_conditional — applyLogic -->
