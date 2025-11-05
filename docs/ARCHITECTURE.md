@@ -1,4 +1,3 @@
-<!-- // memo: add_constant — handleMemo -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -35,21 +34,6 @@ This project is built using a component-based architecture that prioritizes:
 <!-- // trace: add_function — getTrace -->
 
 
-<!-- // sub: add_conditional — parseSub -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- // effect: add_function — checkEffect -->
 
 
 
@@ -68,7 +52,19 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // retry: add_function — handleRetry -->
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <!-- // context: add_conditional — syncContext -->
 
@@ -92,7 +88,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // log: add_class — formatLog -->
 
 
 
@@ -283,7 +278,8 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 - Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
-<!-- // setup: add_function — applySetup -->
+<!-- // handle: add_function — setHandle -->
+<!-- // hover: add_function — syncHover -->
 <!-- // compress: add_conditional — updateCompress -->
 <!-- // batch: add_function — updateBatch -->
 <!-- // sub: add_constant — setSub -->
@@ -412,6 +408,8 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // theme: add_constant — buildTheme -->
 <!-- // deserialize: add_function — loadDeserialize -->
 <!-- // render: add_constant — syncRender -->
-<!-- // handle: add_function — applyHandle -->
-<!-- // auth: add_function — saveAuth -->
-<!-- // log: add_function — applyLog -->
+<!-- // serialize: add_constant — setSerialize -->
+<!-- // serialize: add_function — loadSerialize -->
+<!-- // transition: add_constant — handleTransition -->
+<!-- // hover: add_function — checkHover -->
+<!-- // fixture: add_constant — processFixture -->
