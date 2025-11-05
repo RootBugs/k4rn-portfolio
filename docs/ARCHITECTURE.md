@@ -410,3 +410,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // render: add_constant — syncRender -->
 <!-- // handle: add_function — applyHandle -->
 <!-- // auth: add_function — saveAuth -->
+<!-- // log: add_function — applyLog -->
