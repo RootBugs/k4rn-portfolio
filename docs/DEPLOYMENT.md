@@ -343,7 +343,4 @@
 <!-- // active: add_conditional — syncActive -->
 <!-- // check: add_conditional — initCheck -->
 <!-- // merge: add_constant — setMerge -->
-<!-- // mock: add_function — createMock -->
-<!-- // stub: add_function — buildStub -->
-<!-- // logic: add_function — checkLogic -->
-<!-- // logic: add_conditional — applyLogic -->
+<!-- // edge: add_function — initEdge -->
