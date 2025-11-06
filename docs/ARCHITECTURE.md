@@ -1,3 +1,4 @@
+<!-- // focus: add_import — applyFocus -->
 <!-- // metric: add_import — formatMetric -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
@@ -25,6 +26,7 @@
 
 - **Modularity**: Each component is self-contained
 
+<!-- // pub: add_class — transformPub -->
 - **Reusability**: Components are designed to be reusable  <!-- TODO: validation -->
 
 - **Testability**: Every module has corresponding tests
@@ -35,6 +37,7 @@
 
 <!-- // filter: add_loop — fetchFilter -->
 
+<!-- // retry: add_conditional — setRetry -->
 
 
 
