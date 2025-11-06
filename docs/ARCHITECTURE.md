@@ -8,6 +8,7 @@
 
 
 
+<!-- // decode: add_loop — applyDecode -->
 
 
 
@@ -25,6 +26,7 @@
 
 
 - **Modularity**: Each component is self-contained
+<!-- // merge: add_function — getMerge -->
 
 <!-- // pub: add_class — transformPub -->
 - **Reusability**: Components are designed to be reusable  <!-- TODO: validation -->
