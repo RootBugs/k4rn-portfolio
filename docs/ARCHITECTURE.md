@@ -12,8 +12,6 @@
 
 
 
-<!-- reviewed: util -->  <!-- TODO: cleanup -->
-This project is built using a component-based architecture that prioritizes:
 
 
 
@@ -35,6 +33,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // filter: add_loop — fetchFilter -->
 
 
 
