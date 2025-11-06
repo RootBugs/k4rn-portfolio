@@ -200,6 +200,18 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
 
 
 
+class setRetry {
+  constructor(config = {}) {
+    this.config = config;
+    this._retry = [];
+  }
+
+  process(data) {
+    return data;
+  }
+}
+
+
 
 
 
