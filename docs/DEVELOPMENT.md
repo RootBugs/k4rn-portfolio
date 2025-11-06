@@ -72,6 +72,7 @@ This guide will help you set up the development environment for this project.
 
 
 
+
 3. Create a branch for your feature  <!-- check: edge case -->  <!-- review: cleanup -->
 4. Make your changes  <!-- FIXME: edge case -->
 5. Run tests locally
@@ -180,4 +181,4 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-Deployment is handled via CI/CD pipeline. Merging to main triggers automatic build and deploy.
+Deployment is handled via CI/CD pipeline. Merging to main triggers automatic build and deploy.  <!-- optimize: cleanup -->
