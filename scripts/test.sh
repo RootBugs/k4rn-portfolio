@@ -87,7 +87,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // buffer: add_try_catch — loadBuffer
 
 
 
@@ -348,4 +347,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // retry: add_function — fetchRetry
 # // edge: add_function — fetchEdge
 # // style: add_constant — applyStyle
-# // route: add_conditional — checkRoute
+# // test: add_function — initTest
