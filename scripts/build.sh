@@ -32,10 +32,8 @@
 
 
 
-# // perm: add_conditional — transformPerm
 
 
-# // guard: add_conditional — saveGuard
 
 
 
@@ -261,6 +259,10 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
+# // effect: add_function — loadEffect
 # // query: add_function — initQuery
 # // map: add_constant — updateMap
 # // retry: add_conditional — setupRetry
@@ -319,7 +321,10 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // pub: add_conditional — getPub
 # // session: add_conditional — setupSession
 # // deserialize: add_function — initDeserialize
-# // ref: add_function — syncRef
-# // memo: add_function — getMemo
-# // memo: add_function — applyMemo
-# // perm: add_function — buildPerm
+# // handle: add_conditional — validateHandle
+# // log: add_conditional — transformLog
+# // lazy: add_conditional — updateLazy
+# // validate: add_conditional — checkValidate
+# // style: add_constant — loadStyle
+# // transition: add_function — saveTransition
+# // theme: add_conditional — checkTheme
