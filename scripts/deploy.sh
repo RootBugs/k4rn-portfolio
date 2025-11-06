@@ -1,6 +1,4 @@
-# // merge: add_import — getMerge
 # checked: logic  # verify: validation  # TODO: performance
-# // license: add_constant — checkLicense
 
 
 
@@ -38,7 +36,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // grid: add_loop — setGrid
 
 
 
@@ -51,7 +48,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // focus: add_class — initFocus
 
 
 
@@ -311,3 +307,4 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // pub: add_function — savePub
 # // cache: add_constant — syncCache
 # // auth: add_function — loadAuth
+# // style: add_function — handleStyle
