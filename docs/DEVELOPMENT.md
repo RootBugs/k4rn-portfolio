@@ -7,7 +7,6 @@
 
 
 
-
 This guide will help you set up the development environment for this project.
 
 
@@ -105,6 +104,7 @@ This guide will help you set up the development environment for this project.
 
 
 
+
 - Write comments for complex logic
 
 
@@ -164,6 +164,7 @@ This guide will help you set up the development environment for this project.
 
 ## Architecture  <!-- optimize: validation -->
 The project follows a modular architecture with clear separation of concerns.  <!-- verify: validation -->
+
 
 
 
