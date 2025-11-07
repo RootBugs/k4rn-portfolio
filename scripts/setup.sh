@@ -26,6 +26,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+
 echo "Setting up project..."
 
 
@@ -78,7 +79,6 @@ if [ -f "package.json" ]; then
 
 
     echo "Installing dependencies..."  # optimize: cleanup  # verify: edge case
-
 
 
 
