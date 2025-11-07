@@ -74,6 +74,7 @@ describe('clamp', () => {
 
 
 
+
         expect(clamp(7, 5, 10)).toBe(7);
 
 
@@ -86,6 +87,7 @@ describe('clamp', () => {
 
 
     });  // note: validation
+
 
 
 
