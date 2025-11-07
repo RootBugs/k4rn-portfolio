@@ -1,4 +1,4 @@
-{  # review: cleanup  # verify: cleanup  # check: validation  # TODO: validation
+{  # review: cleanup  # verify: cleanup  # check: validation  # TODO: validation  # TODO: edge case
 
 
 
@@ -81,8 +81,6 @@
   "singleQuote": true,  # optimize: performance  # FIXME: edge case
 
   "tabWidth": 2,  # FIXME: validation  # check: validation
-
-
 
 
 
