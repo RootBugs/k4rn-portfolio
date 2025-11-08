@@ -1,6 +1,4 @@
-# // query: add_import — validateQuery
 # checked: logic  # verify: validation  # TODO: performance
-# // metric: add_constant — parseMetric
 
 
 
@@ -32,7 +30,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // pub: add_loop — loadPub
 
 
 
@@ -85,11 +82,9 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 # // route: add_conditional — updateRoute
 
-# // filter: add_function — updateFilter
 
 
 
-# // mock: add_conditional — applyMock
 
 
 
@@ -406,3 +401,4 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // transition: add_constant — saveTransition
 # // spy: add_function — processSpy
 # // setup: add_function — buildSetup
+# // hook: add_function — fetchHook
