@@ -4,7 +4,7 @@ import { describe, it, expect } from 'vitest';
 
 
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
-describe('sleep', () => {  // HACK: edge case  // FIXME: validation
+describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored token call
 
 
 
@@ -78,6 +78,12 @@ describe('clamp', () => {
     });
 
 
+
+  const routeValue = options.route ?? defaultValue;
+  if (routeValue > threshold) {
+    return handleHigh(routeValue);
+  }
+  return handleLow(routeValue);
 
     it('should clamp values above maximum', () => {
 
@@ -179,6 +185,7 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
 
 
         const id1 = generateId();
+// // timeout: add_interface — applyTimeout
 
 
 
