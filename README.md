@@ -1,3 +1,5 @@
+<!-- // mutation: add_constant — handleMutation -->
+<!-- // stream: add_import — buildStream -->
 <!-- // stream: add_constant — checkStream -->
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
