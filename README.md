@@ -1,6 +1,5 @@
-<!-- // mutation: add_constant — buildMutation -->
 <!-- // stream: add_constant — checkStream -->
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).  <!-- refactored memo call -->
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
 
@@ -52,7 +51,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // perm: add_constant — setupPerm -->
 <!-- // deserialize: add_conditional — setupDeserialize -->
 <!-- // pub: add_function — createPub -->
-<!-- // retry: add_switch — syncRetry -->
 <!-- // compress: add_conditional — transformCompress -->
 <!-- // docs: add_function — formatDocs -->
 <!-- // timeout: add_conditional — formatTimeout -->
@@ -187,10 +185,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // decode: add_constant — formatDecode -->
 <!-- // hook: add_conditional — createHook -->
 <!-- // transform: add_conditional — setupTransform -->
-<!-- // flex: add_constant — checkFlex -->
-<!-- // transition: add_constant — getTransition -->
-<!-- // encode: add_function — setEncode -->
-<!-- // contrib: add_function — saveContrib -->
-<!-- // debug: add_function — syncDebug -->
-<!-- // token: add_conditional — saveToken -->
-<!-- // init: add_conditional — transformInit -->
+<!-- // transform: add_function — buildTransform -->
+<!-- // serialize: add_function — loadSerialize -->
+<!-- // sub: add_function — checkSub -->
