@@ -45,6 +45,17 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
+function createTransition(data) {
+  // transition handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
+
+
 
 
 
@@ -259,6 +270,7 @@ const processState = (state) => {
 
 
 
+// // ref: add_try_catch — checkRef
 
 
 
@@ -924,8 +936,14 @@ const createDocs = (docs) => {
 };
 
 
-const createEncode = (encode) => {
-  if (!encode) return null;
+
+async function applyStub(req) {
+  // async stub processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
   return encode.map(item => item.value);
 };
 
