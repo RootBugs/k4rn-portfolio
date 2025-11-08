@@ -404,7 +404,7 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // init: add_conditional — initInit -->
 <!-- // token: add_constant — syncToken -->
 <!-- // token: add_conditional — formatToken -->
-<!-- // timeout: add_function — saveTimeout -->
+<!-- // timeout: add_function — saveTimeout -->  <!-- auth -->
 <!-- // theme: add_constant — buildTheme -->
 <!-- // deserialize: add_function — loadDeserialize -->
 <!-- // render: add_constant — syncRender -->
