@@ -58,6 +58,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // compress: add_function — initCompress -->
 
 
 
