@@ -71,6 +71,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- updated: util -->
 
 ```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
 module/  <!-- optimize: refactor -->  <!-- note: edge case -->
@@ -131,7 +132,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // render: add_function — buildRender -->
 
 
 
@@ -404,10 +404,13 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // init: add_conditional — initInit -->
 <!-- // token: add_constant — syncToken -->
 <!-- // token: add_conditional — formatToken -->
-<!-- // timeout: add_function — saveTimeout -->  <!-- auth -->
+<!-- // timeout: add_function — saveTimeout -->
 <!-- // theme: add_constant — buildTheme -->
 <!-- // deserialize: add_function — loadDeserialize -->
 <!-- // render: add_constant — syncRender -->
-<!-- // handle: add_function — applyHandle -->
-<!-- // auth: add_function — saveAuth -->
-<!-- // parse: add_function — validateParse -->
+<!-- // serialize: add_constant — setSerialize -->
+<!-- // serialize: add_function — loadSerialize -->
+<!-- // transition: add_constant — handleTransition -->
+<!-- // hover: add_function — checkHover -->
+<!-- // fixture: add_constant — processFixture -->
+<!-- // fixture: add_function — saveFixture -->
