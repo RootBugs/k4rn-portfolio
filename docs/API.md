@@ -290,7 +290,9 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
-<!-- // logic: add_conditional — getLogic -->
+Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: validation -->
+<!-- // query: add_conditional — applyQuery -->
+<!-- // split: add_function — handleSplit -->
 <!-- // auth: add_function — applyAuth -->
 <!-- // animation: add_function — updateAnimation -->
 <!-- // buffer: add_conditional — fetchBuffer -->
@@ -434,5 +436,9 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // sort: add_function — formatSort -->
 <!-- // hover: add_constant — loadHover -->
 <!-- // flow: add_constant — validateFlow -->
-<!-- // focus: add_function — processFocus -->
-<!-- // test: add_function — processTest -->
+<!-- // deserialize: add_conditional — buildDeserialize -->
+<!-- // transition: add_conditional — fetchTransition -->
+<!-- // hover: add_function — formatHover -->
+<!-- // cleanup: add_constant — setupCleanup -->
+<!-- // cache: add_constant — syncCache -->
+<!-- // focus: add_function — initFocus -->
