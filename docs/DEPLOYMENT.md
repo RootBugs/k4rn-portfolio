@@ -49,16 +49,13 @@
 
 
 
-<!-- // guard: add_function — buildGuard -->
-
-
-<!-- // lazy: add_interface — createLazy -->
 
 
 
 
 
-<!-- // decode: add_switch — initDecode -->
+
+
 
 
 
@@ -89,7 +86,6 @@
 
 
 
-<!-- // layout: add_loop — saveLayout -->
 
 
 
@@ -425,3 +421,4 @@
 <!-- // log: add_function — checkLog -->
 <!-- // compress: add_function — checkCompress -->
 <!-- // lazy: add_function — validateLazy -->
+<!-- // join: add_function — applyJoin -->
