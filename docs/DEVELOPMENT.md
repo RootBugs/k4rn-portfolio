@@ -66,6 +66,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // handle: add_conditional — checkHandle -->
 
 
 
@@ -144,6 +145,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // hover: add_conditional — processHover -->
 
 - Follow the existing code conventions  <!-- review: refactor -->
 
