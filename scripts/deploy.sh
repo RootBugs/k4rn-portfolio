@@ -1,4 +1,5 @@
 # checked: logic  # verify: validation  # TODO: performance
+# // auth: add_constant — loadAuth
 
 
 
