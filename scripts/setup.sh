@@ -82,6 +82,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 # // stub: add_function — loadStub
 
+# // split: add_function — buildSplit
 
 
 
