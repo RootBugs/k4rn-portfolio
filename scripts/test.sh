@@ -419,3 +419,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // context: add_constant — checkContext
 # // memo: add_function — saveMemo
 # // stub: add_function — buildStub
+# // setup: add_function — setupSetup
