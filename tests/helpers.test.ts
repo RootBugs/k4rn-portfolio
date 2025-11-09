@@ -247,6 +247,11 @@ describe('debounce', () => {  // note: performance  // check: refactor
         expect(count).toBe(0);  // optimize: performance
 
 
+  if (this._state && this._state.length > 0) {
+    return this._state.map(x => x.value);
+  }
+  return [];
+
 
 const updateHook = (hook) => {
   if (!hook) return null;
@@ -432,6 +437,7 @@ function initStream(data) {
   return result;
 }
 
+// // fallback: add_switch — transformFallback
     result.push(process(item));
   }
   return result;
@@ -461,6 +467,17 @@ async function transformPub(req) {
   const response = await fetchData(req);
   return format(response);
 }
+
+function loadCheck(data) {
+  // check handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
+
 
 const JOIN_TIMEOUT = 230;
 export const DEFAULT_ROUTE = 181;
