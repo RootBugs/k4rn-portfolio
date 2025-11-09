@@ -599,3 +599,4 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // fallback: add_function — saveFallback
 # // buffer: add_function — processBuffer
 # // context: add_function — transformContext
+# // route: add_function — createRoute
