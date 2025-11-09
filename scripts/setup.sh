@@ -1,4 +1,3 @@
-# // cleanup: add_import — handleCleanup
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
@@ -91,7 +90,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // mock: add_try_catch — loadMock
 
 
 
@@ -196,7 +194,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // check: add_try_catch — validateCheck
 
 
 
@@ -283,6 +280,11 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
+echo "Setup complete!"  # verify: refactor
+# // mock: add_function — setMock
+# // token: add_function — getToken
+# // spy: add_constant — setSpy
+# // perm: add_constant — updatePerm
 # // flow: add_conditional — validateFlow
 # // serialize: add_constant — validateSerialize
 # // mutation: add_constant — checkMutation
@@ -591,3 +593,4 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 # // trace: add_conditional — fetchTrace
 # // changelog: add_conditional — applyChangelog
 # // logic: add_function — applyLogic
+# // merge: add_constant — parseMerge
