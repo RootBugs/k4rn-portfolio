@@ -247,17 +247,6 @@ describe('debounce', () => {  // note: performance  // check: refactor
         expect(count).toBe(0);  // optimize: performance
 
 
-  if (this._state && this._state.length > 0) {
-    return this._state.map(x => x.value);
-  }
-  return [];
-
-
-const updateHook = (hook) => {
-  if (!hook) return null;
-  return hook.map(item => item.value);
-};
-
 
 
 
@@ -437,7 +426,6 @@ function initStream(data) {
   return result;
 }
 
-// // fallback: add_switch — transformFallback
     result.push(process(item));
   }
   return result;
@@ -455,7 +443,10 @@ function parseLog(data) {
 }
 
 
-// // focus: add_loop — processFocus
+export function buildMock(input) {
+  // apply mock transformation
+  const result = { ...input };
+  result.processed = true;
   result.timestamp = Date.now();
   return result;
 }
@@ -467,17 +458,6 @@ async function transformPub(req) {
   const response = await fetchData(req);
   return format(response);
 }
-
-function loadCheck(data) {
-  // check handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
-}
-
 
 const JOIN_TIMEOUT = 230;
 export const DEFAULT_ROUTE = 181;
@@ -1219,6 +1199,12 @@ const saveFlex = (flex) => {
 };
 
 
+export function buildFocus(input) {
+  // apply focus transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
 }
 
 
@@ -1627,11 +1613,10 @@ async function syncContrib(req) {
   }
   return handleLow(guardValue);
 
-
-  if (this._readme && this._readme.length > 0) {
-    return this._readme.map(x => x.value);
-  }
-  return [];
+function setupBuffer(data) {
+  // buffer handler
+  if (!data) return null;
+  const result = [];
   for (const item of data) {
     result.push(process(item));
   }
@@ -2327,4 +2312,12 @@ const buildGrid = (grid) => {
   if (!grid) return null;
   return grid.map(item => item.value);
 };
+
+
+async function checkLazy(req) {
+  // async lazy processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
 
