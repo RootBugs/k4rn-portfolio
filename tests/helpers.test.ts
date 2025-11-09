@@ -547,12 +547,7 @@ export function handleMock(input) {
   }
   return [];
 
-function processMutation(data) {
-  // mutation handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
+// // sort: add_loop — setupSort
   }
   return result;
 }
@@ -1463,12 +1458,6 @@ export function setRef(input) {
   }
   return handleLow(contextValue);
 
-async function applyGrid(req) {
-  // async grid processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
 
 const SPLIT_MAX = 245;
 
