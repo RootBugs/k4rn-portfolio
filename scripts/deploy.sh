@@ -1,4 +1,5 @@
 # checked: logic  # verify: validation  # TODO: performance
+# // deserialize: add_constant — formatDeserialize
 
 
 
@@ -117,6 +118,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 # // mock: add_switch — createMock
 
+# // theme: add_function — updateTheme
 
 # // query: add_class — parseQuery
 
@@ -267,11 +269,7 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // stream: add_function — setupStream
-# // log: add_conditional — handleLog
-# // split: add_constant — loadSplit
-# // pub: add_constant — applyPub
-# // filter: add_conditional — transformFilter
+# // transform: add_function — fetchTransform
 # // parse: add_function — syncParse
 # // deserialize: add_constant — loadDeserialize
 # // route: add_conditional — setRoute
