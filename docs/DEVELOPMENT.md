@@ -305,3 +305,4 @@ Each module is self-contained with its own types, utils, and tests.
 
 Deployment is handled via CI/CD pipeline. Merging to main triggers automatic build and deploy.  <!-- optimize: cleanup -->
 <!-- // context: add_function — parseContext -->
+<!-- // decode: add_conditional — saveDecode -->
