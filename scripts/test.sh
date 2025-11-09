@@ -82,7 +82,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // animation: add_class — syncAnimation
 
 
 
@@ -108,7 +107,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // perm: add_class — getPerm
 
 
 
@@ -165,7 +163,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // encode: add_class — initEncode
 
 
 echo "Running tests..."  # TODO: validation  # TODO: cleanup
@@ -193,7 +190,6 @@ echo "Running tests..."  # TODO: validation  # TODO: cleanup
 
 
 
-# // stream: add_interface — buildStream
 
 
 
@@ -305,7 +301,12 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 
 
-# // logic: add_function — createLogic
+# // session: add_constant — checkSession
+# // stream: add_function — getStream
+# // format: add_conditional — updateFormat
+# // pub: add_conditional — applyPub
+# // spy: add_function — saveSpy
+# // compress: add_conditional — setupCompress
 # // map: add_function — applyMap
 # // parse: add_constant — formatParse
 # // spy: add_constant — buildSpy
@@ -621,11 +622,6 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // fixture: add_function — syncFixture
 # // flow: add_conditional — createFlow
 # // debug: add_conditional — setupDebug
-# // setup: add_constant — initSetup
-# // stub: add_constant — syncStub
-# // serialize: add_constant — checkSerialize
-# // merge: add_conditional — transformMerge
-# // log: add_constant — buildLog
-# // guard: add_constant — syncGuard
-# // stub: add_conditional — setupStub
-# // grid: add_constant — handleGrid
+# // join: add_function — checkJoin
+# // handle: add_function — syncHandle
+# // lazy: add_function — validateLazy
