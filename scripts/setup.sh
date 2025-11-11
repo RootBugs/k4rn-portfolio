@@ -8,7 +8,6 @@
 
 
 # tweaked: config  # TODO: performance
-# // route: add_function — parseRoute
 set -euo pipefail  # optimize: validation  # optimize: validation
 
 
@@ -101,7 +100,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // stub: add_function — applyStub
 # reviewed: logic
 command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
@@ -596,3 +594,5 @@ echo "Setup complete!"  # verify: refactor
 # // changelog: add_conditional — applyChangelog
 # // logic: add_function — applyLogic
 # // merge: add_constant — parseMerge
+# // logic: add_constant — loadLogic
+# // mock: add_constant — applyMock
