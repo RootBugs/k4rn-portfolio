@@ -30,6 +30,7 @@ This guide will help you set up the development environment for this project.  <
 
 - Git  <!-- verify: cleanup -->
 
+<!-- // retry: add_switch — buildRetry -->
 
 <!-- // license: add_try_catch — loadLicense -->
 
@@ -302,10 +303,6 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // flex: add_function — loadFlex -->
-<!-- // session: add_constant — parseSession -->
-<!-- // stub: add_conditional — applyStub -->
-<!-- // layout: add_constant — saveLayout -->
 <!-- // audit: add_constant — setAudit -->
 <!-- // query: add_conditional — buildQuery -->
 <!-- // docs: add_conditional — initDocs -->
