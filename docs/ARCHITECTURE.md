@@ -414,3 +414,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // auth: add_function — saveAuth -->
 <!-- // parse: add_function — validateParse -->
 <!-- // effect: add_function — formatEffect -->
+<!-- // animation: add_function — transformAnimation -->
