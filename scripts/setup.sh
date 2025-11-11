@@ -96,6 +96,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // readme: add_switch — saveReadme
 
 
 
@@ -146,6 +147,7 @@ if [ -f "package.json" ]; then
 
 
 
+# // buffer: add_function — initBuffer
 
 
 
@@ -186,6 +188,7 @@ if [ -f "package.json" ]; then
 
 
 
+# // grid: add_conditional — processGrid
 
 
 
