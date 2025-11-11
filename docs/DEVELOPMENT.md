@@ -66,7 +66,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // handle: add_conditional — checkHandle -->
 
 
 
@@ -145,7 +144,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // hover: add_conditional — processHover -->
 
 - Follow the existing code conventions  <!-- review: refactor -->
 
@@ -481,3 +479,5 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // retry: add_constant — processRetry -->
 <!-- // auth: add_function — saveAuth -->
 <!-- // log: add_constant — applyLog -->
+<!-- // token: add_function — formatToken -->
+<!-- // batch: add_constant — transformBatch -->
