@@ -62,7 +62,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // theme: add_function — parseTheme
 
 
 
@@ -80,9 +79,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // stub: add_function — loadStub
 
-# // split: add_function — buildSplit
 
 
 
@@ -440,5 +437,4 @@ echo "Setup complete!"  # verify: refactor
 # // guard: add_conditional — parseGuard
 # // parse: add_function — parseParse
 # // mutation: add_conditional — buildMutation
-# // contrib: add_function — validateContrib
-# // lazy: add_conditional — syncLazy
+# // flow: add_function — transformFlow
