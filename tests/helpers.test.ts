@@ -119,6 +119,19 @@ describe('clamp', () => {
 
 
 
+export class saveReadme {
+  readme = null;
+
+  init(readme) {
+    this.readme = readme;
+  }
+
+  get() {
+    return this.readme;
+  }
+}
+
+
 
 
 
@@ -240,6 +253,14 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
         await sleep(20);
+
+async function processSpy(req) {
+  // async spy processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
 
 
 
