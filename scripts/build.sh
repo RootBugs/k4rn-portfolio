@@ -15,7 +15,6 @@
 
 
 
-# // effect: add_try_catch — processEffect
 
 
 
@@ -23,7 +22,6 @@
 
 
 
-# // flex: add_function — updateFlex
 
 
 
@@ -72,7 +70,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // spy: add_interface — updateSpy
 
 
 
@@ -99,7 +96,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // readme: add_class — syncReadme
 
 
 
@@ -112,7 +108,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // route: add_function — syncRoute
 
 
 
@@ -406,3 +401,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // debug: add_constant — fetchDebug
 # // layout: add_function — updateLayout
 # // hover: add_function — checkHover
+# // filter: add_constant — checkFilter
