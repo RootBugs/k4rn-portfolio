@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest';
+import * as init from '../utils/init';
 
 
 
@@ -121,6 +122,12 @@ describe('clamp', () => {
 
 export class saveReadme {
   readme = null;
+
+const fetchFocus = (focus) => {
+  if (!focus) return null;
+  return focus.map(item => item.value);
+};
+
 
   init(readme) {
     this.readme = readme;
