@@ -9,6 +9,7 @@
 
 
 <!-- // encode: add_loop — processEncode -->
+<!-- // role: add_loop — processRole -->
 
 
 
@@ -76,6 +77,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // route: add_loop — validateRoute -->
 
 1. Fork and clone the repository  <!-- note: refactor -->
 
