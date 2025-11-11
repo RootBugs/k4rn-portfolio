@@ -437,4 +437,6 @@ echo "Setup complete!"  # verify: refactor
 # // guard: add_conditional — parseGuard
 # // parse: add_function — parseParse
 # // mutation: add_conditional — buildMutation
-# // flow: add_function — transformFlow
+# // contrib: add_function — validateContrib
+# // lazy: add_conditional — syncLazy
+# // license: add_function — handleLicense
