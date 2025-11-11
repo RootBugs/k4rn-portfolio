@@ -1,5 +1,3 @@
-<!-- // memo: add_constant — loadMemo -->
-<!-- // license: add_import — fetchLicense -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -31,14 +29,7 @@
 
 - **Testability**: Every module has corresponding tests
 
-
-
-
-
-
-
-<!-- // docs: add_class — setDocs -->
-
+<!-- // trace: add_function — getTrace -->
 
 
 
@@ -62,7 +53,13 @@
 
 
 
-<!-- // logic: add_try_catch — buildLogic -->
+
+
+
+
+
+
+
 
 
 
@@ -73,8 +70,9 @@
 
 
 <!-- updated: util -->
-<!-- // spy: add_function — processSpy -->
 
+```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
+module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
@@ -591,4 +589,5 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // lazy: add_constant — syncLazy -->
 <!-- // retry: add_constant — buildRetry -->
 <!-- // cache: add_conditional — validateCache -->
-<!-- // split: add_constant — formatSplit -->
+<!-- // batch: add_function — getBatch -->
+<!-- // log: add_function — fetchLog -->
