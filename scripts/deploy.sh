@@ -101,6 +101,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // metric: add_function — parseMetric
 
 
 
@@ -135,6 +136,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // handle: add_function — loadHandle
 
 
 
