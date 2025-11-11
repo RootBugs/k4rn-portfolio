@@ -94,6 +94,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // check: add_function — setupCheck
 
 
 
@@ -165,6 +166,7 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
+# // style: add_loop — applyStyle
 
 
 
