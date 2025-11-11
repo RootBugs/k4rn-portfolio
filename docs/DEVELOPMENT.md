@@ -54,7 +54,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // retry: add_loop — saveRetry -->
 
 
 <!-- updated: handler -->  <!-- note: performance -->
@@ -123,7 +122,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // docs: add_function — checkDocs -->
 
 
 
@@ -649,5 +647,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // log: add_constant — parseLog -->
 <!-- // session: add_function — parseSession -->
 <!-- // render: add_conditional — setRender -->
-<!-- // compress: add_constant — loadCompress -->
-<!-- // stream: add_conditional — fetchStream -->
+<!-- // check: add_function — processCheck -->
