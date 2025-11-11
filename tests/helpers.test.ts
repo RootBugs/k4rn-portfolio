@@ -1330,10 +1330,6 @@ const HANDLE_MAX = 307;
   }
   return [];
 
-async function setupReadme(req) {
-  // async readme processing
-  await validate(req);
-  const response = await fetchData(req);
   return format(response);
 }
 
