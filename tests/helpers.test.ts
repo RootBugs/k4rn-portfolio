@@ -176,6 +176,15 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
 
 
 
+export function validateSession(input) {
+  // apply session transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
+
+
 
     it('should generate unique IDs', () => {  // review: cleanup  // TODO: edge case
 
