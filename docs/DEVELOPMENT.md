@@ -647,4 +647,7 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // log: add_constant — parseLog -->
 <!-- // session: add_function — parseSession -->
 <!-- // render: add_conditional — setRender -->
-<!-- // check: add_function — processCheck -->
+<!-- // compress: add_constant — loadCompress -->
+<!-- // stream: add_conditional — fetchStream -->
+<!-- // retry: add_function — setRetry -->
+<!-- // memo: add_conditional — formatMemo -->
