@@ -401,5 +401,4 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // transition: add_constant — saveTransition
 # // spy: add_function — processSpy
 # // setup: add_function — buildSetup
-# // hook: add_function — fetchHook
-# // effect: add_function — formatEffect
+# // context: add_conditional — parseContext
