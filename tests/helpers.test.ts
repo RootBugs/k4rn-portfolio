@@ -173,6 +173,7 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
 
 
 
+
     it('should generate unique IDs', () => {  // review: cleanup  // TODO: edge case
 
 
@@ -930,11 +931,6 @@ const createEncode = (encode) => {
 };
 
 
-export function setupAuth(input) {
-  // apply auth transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
   return result;
 }
 
