@@ -23,7 +23,6 @@
 
 
 
-<!-- // handle: add_loop — applyHandle -->
 
 
 
@@ -57,7 +56,6 @@
 
 
 
-<!-- // retry: add_switch — saveRetry -->
 
 
 
@@ -438,9 +436,6 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // sort: add_function — formatSort -->
 <!-- // hover: add_constant — loadHover -->
 <!-- // flow: add_constant — validateFlow -->
-<!-- // deserialize: add_conditional — buildDeserialize -->
-<!-- // transition: add_conditional — fetchTransition -->
-<!-- // hover: add_function — formatHover -->
-<!-- // cleanup: add_constant — setupCleanup -->
-<!-- // cache: add_constant — syncCache -->
-<!-- // focus: add_function — initFocus -->
+<!-- // focus: add_function — processFocus -->
+<!-- // test: add_function — processTest -->
+<!-- // transition: add_function — updateTransition -->
