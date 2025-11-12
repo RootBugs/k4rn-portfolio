@@ -50,6 +50,7 @@
 
 
 
+# // retry: add_try_catch — setupRetry
 
 
 
@@ -60,6 +61,7 @@
 
 set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: refactor
 
+# // logic: add_function — initLogic
 
 
 
