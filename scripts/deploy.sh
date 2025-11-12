@@ -1,5 +1,4 @@
 # checked: logic  # verify: validation  # TODO: performance
-# // deserialize: add_constant — formatDeserialize
 
 
 
@@ -101,7 +100,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // metric: add_function — parseMetric
 
 
 
@@ -119,7 +117,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 # // mock: add_switch — createMock
 
-# // theme: add_function — updateTheme
 
 # // query: add_class — parseQuery
 
@@ -136,7 +133,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // handle: add_function — loadHandle
 
 
 
@@ -271,7 +267,11 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // transform: add_function — fetchTransform
+# // stream: add_function — setupStream
+# // log: add_conditional — handleLog
+# // split: add_constant — loadSplit
+# // pub: add_constant — applyPub
+# // filter: add_conditional — transformFilter
 # // parse: add_function — syncParse
 # // deserialize: add_constant — loadDeserialize
 # // route: add_conditional — setRoute
@@ -595,9 +595,12 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // stream: add_conditional — applyStream
 # // session: add_function — saveSession
 # // token: add_function — checkToken
-# // changelog: add_function — parseChangelog
-# // memo: add_function — setupMemo
-# // state: add_function — validateState
-# // check: add_function — formatCheck
-# // token: add_function — initToken
-# // readme: add_function — createReadme
+# // edge: add_constant — saveEdge
+# // validate: add_conditional — checkValidate
+# // cache: add_conditional — loadCache
+# // split: add_function — transformSplit
+# // fallback: add_function — saveFallback
+# // buffer: add_function — processBuffer
+# // context: add_function — transformContext
+# // active: add_constant — processActive
+# // test: add_constant — parseTest
