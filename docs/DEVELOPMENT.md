@@ -38,11 +38,9 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // cleanup: add_function — saveCleanup -->
 - A code editor (VS Code recommended)  <!-- check: performance -->  <!-- FIXME: refactor -->  <!-- review: edge case -->
 
 
-<!-- // mock: add_conditional — loadMock -->
 
 
 
@@ -120,7 +118,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // flex: add_conditional — createFlex -->
 
 
 
@@ -378,3 +375,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // spy: add_function — syncSpy -->
 <!-- // init: add_constant — getInit -->
 <!-- // focus: add_function — initFocus -->
+<!-- // mutation: add_constant — setMutation -->
