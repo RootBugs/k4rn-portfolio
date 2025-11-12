@@ -1,3 +1,4 @@
+<!-- // effect: add_import — updateEffect -->
 <!-- updated: setup -->
 
 
@@ -27,6 +28,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // split: add_function — fetchSplit -->
 
 <!-- // compress: add_function — createCompress -->
 - Git  <!-- verify: cleanup -->
@@ -78,6 +80,7 @@ This guide will help you set up the development environment for this project.  <
 1. Fork and clone the repository  <!-- note: refactor -->
 
 
+<!-- // cache: add_conditional — createCache -->
 
 
 
