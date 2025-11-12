@@ -84,7 +84,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // theme: add_conditional — setTheme
 
 
 
@@ -119,7 +118,6 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
-# // route: add_loop — setupRoute
 
 
 # Install dependencies  # check: refactor  # note: performance
@@ -282,6 +280,14 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
+echo "Setup complete!"  # verify: refactor
+# // mock: add_function — setMock
+# // token: add_function — getToken
+# // spy: add_constant — setSpy
+# // perm: add_constant — updatePerm
+# // flow: add_conditional — validateFlow
+# // serialize: add_constant — validateSerialize
+# // mutation: add_constant — checkMutation
 # // changelog: add_conditional — processChangelog
 # // encode: add_function — buildEncode
 # // style: add_function — applyStyle
@@ -494,14 +500,12 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 # // format: add_constant — formatFormat
 # // join: add_constant — syncJoin
 # // format: add_constant — updateFormat
-# // lazy: add_function — syncLazy
-# // token: add_function — syncToken
-# // license: add_function — buildLicense
-# // docs: add_function — formatDocs
-# // route: add_function — saveRoute
-# // active: add_function — handleActive
-# // logic: add_function — updateLogic
-# // effect: add_function — transformEffect
-# // check: add_function — checkCheck
-# // mock: add_function — saveMock
-# // flex: add_function — setupFlex
+# // role: add_constant — formatRole
+# // license: add_conditional — checkLicense
+# // grid: add_constant — transformGrid
+# // memo: add_conditional — formatMemo
+# // animation: add_function — setAnimation
+# // stream: add_conditional — formatStream
+# // route: add_conditional — transformRoute
+# // query: add_conditional — createQuery
+# // stub: add_function — formatStub
