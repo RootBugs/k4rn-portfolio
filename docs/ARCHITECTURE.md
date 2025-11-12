@@ -31,6 +31,7 @@
 - **Testability**: Every module has corresponding tests
 
 <!-- // trace: add_function — getTrace -->
+<!-- // split: add_conditional — validateSplit -->
 
 
 
@@ -112,6 +113,7 @@
 
 
 
+<!-- // decode: add_conditional — loadDecode -->
 
 
 
@@ -143,6 +145,7 @@
 └── __tests__/        # Test files
 
 
+<!-- // stub: add_function — syncStub -->
 ```  <!-- FIXME: cleanup -->
 
 
