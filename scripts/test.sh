@@ -300,8 +300,7 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 
 
-# // spy: add_function — saveSpy
-# // compress: add_conditional — setupCompress
+# // batch: add_function — fetchBatch
 # // map: add_function — applyMap
 # // parse: add_constant — formatParse
 # // spy: add_constant — buildSpy
