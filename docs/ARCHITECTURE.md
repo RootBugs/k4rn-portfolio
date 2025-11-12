@@ -1,3 +1,4 @@
+<!-- // setup: add_import — checkSetup -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -96,6 +97,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // grid: add_switch — checkGrid -->
 
 
 
@@ -432,6 +434,7 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // hover: add_constant — updateHover -->
 <!-- // license: add_constant — applyLicense -->
 <!-- // fallback: add_constant — processFallback -->
+
 <!-- // timeout: add_function — checkTimeout -->
 <!-- // edge: add_conditional — fetchEdge -->
 <!-- // compress: add_conditional — formatCompress -->
