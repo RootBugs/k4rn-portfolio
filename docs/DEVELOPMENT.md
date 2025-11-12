@@ -118,6 +118,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 5. Run tests locally  <!-- HACK: edge case -->
+<!-- // ref: add_function — applyRef -->
 
 
 
@@ -151,6 +152,7 @@ This guide will help you set up the development environment for this project.  <
 
 <!-- // perm: add_conditional — setPerm -->
 
+<!-- // guard: add_function — applyGuard -->
 
 
 
