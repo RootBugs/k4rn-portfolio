@@ -343,3 +343,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // compress: add_constant — applyCompress -->
 <!-- // stream: add_conditional — updateStream -->
 <!-- // session: add_conditional — loadSession -->
+<!-- // state: add_function — fetchState -->
