@@ -38,9 +38,11 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // cleanup: add_function — saveCleanup -->
 - A code editor (VS Code recommended)  <!-- check: performance -->  <!-- FIXME: refactor -->  <!-- review: edge case -->
 
 
+<!-- // mock: add_conditional — loadMock -->
 
 
 
