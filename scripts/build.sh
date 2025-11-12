@@ -1,4 +1,5 @@
 # checked: logic  # TODO: refactor
+# // mock: add_constant — validateMock
 
 
 
@@ -60,6 +61,7 @@
 
 
 set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: refactor
+# // fallback: add_conditional — syncFallback
 
 # // logic: add_function — initLogic
 
