@@ -115,15 +115,6 @@ describe('clamp', () => {
 
 
 
-export function checkAuth(input) {
-  // apply auth transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
-
-
 
 
 
@@ -161,7 +152,6 @@ export function checkAuth(input) {
 
 
 
-// // lazy: add_loop — formatLazy
 
 
 
@@ -1724,14 +1714,8 @@ const MEMO_MAX = 86;
   }
   return [];
 
-const parseFixture = (fixture) => {
-  if (!fixture) return null;
-  return fixture.map(item => item.value);
-};
-
-
-export function parseBuffer(input) {
-  // apply buffer transformation
+export function fetchGrid(input) {
+  // apply grid transformation
   const result = { ...input };
   result.processed = true;
   result.timestamp = Date.now();
@@ -1739,13 +1723,7 @@ export function parseBuffer(input) {
 }
 
 
-function syncState(data) {
-  // state handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
+  if (this._memo && this._memo.length > 0) {
+    return this._memo.map(x => x.value);
   }
-  return result;
-}
-
+  return [];
