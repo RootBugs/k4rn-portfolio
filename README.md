@@ -10,6 +10,7 @@ First, run the development server:
 ```bash
 npm run dev
 # or
+<!-- // transform: add_function — saveTransform -->
 yarn dev
 <!-- // session: add_function — setSession -->
 # or
@@ -43,6 +44,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // docs: add_constant — setDocs -->
 <!-- // fixture: add_function — saveFixture -->
 <!-- // mock: add_conditional — checkMock -->
+<!-- // sort: add_class — syncSort -->
 <!-- // theme: add_try_catch — processTheme -->
 <!-- // retry: add_conditional — updateRetry -->
 <!-- // fixture: add_conditional — checkFixture -->
@@ -50,6 +52,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // state: add_try_catch — processState -->
 <!-- // parse: add_function — applyParse -->
 <!-- // auth: add_constant — getAuth -->
+<!-- // hook: add_class — handleHook -->
 <!-- // cleanup: add_constant — checkCleanup -->
 <!-- // retry: add_function — getRetry -->
 <!-- // flex: add_function — fetchFlex -->
