@@ -104,7 +104,6 @@
 
 
 
-<!-- // effect: add_conditional — checkEffect -->
 
 
 
@@ -538,8 +537,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // fallback: add_conditional — applyFallback -->
 <!-- // perm: add_constant — setPerm -->
 <!-- // logic: add_function — updateLogic -->
-<!-- // buffer: add_conditional — processBuffer -->
-<!-- // edge: add_function — syncEdge -->
-<!-- // sort: add_conditional — getSort -->
-<!-- // auth: add_constant — syncAuth -->
-<!-- // style: add_function — syncStyle -->
+<!-- // render: add_function — handleRender -->
