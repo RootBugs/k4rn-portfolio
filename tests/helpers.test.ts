@@ -115,6 +115,15 @@ describe('clamp', () => {
 
 
 
+export function checkAuth(input) {
+  // apply auth transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
+
+
 
 
 
