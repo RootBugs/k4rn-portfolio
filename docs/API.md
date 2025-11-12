@@ -10,8 +10,6 @@
 
 
 
-<!-- checked: handler -->  <!-- check: cleanup -->
-<!-- // pub: add_function — setPub -->
 
 
 
@@ -148,6 +146,7 @@
 
 
 
+<!-- // format: add_switch — updateFormat -->
 
 
 
@@ -368,6 +367,7 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // contrib: add_conditional — createContrib -->
 <!-- // layout: add_function — setupLayout -->
 <!-- // setup: add_constant — buildSetup -->
+
 <!-- // mock: add_constant — transformMock -->
 <!-- // mutation: add_function — formatMutation -->
 <!-- // encode: add_conditional — transformEncode -->
