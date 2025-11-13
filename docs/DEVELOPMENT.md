@@ -1,3 +1,4 @@
+<!-- // cache: add_import — handleCache -->
 <!-- // ref: add_constant — checkRef -->
 <!-- updated: setup -->
 
@@ -18,6 +19,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // grid: add_function — parseGrid -->
 
 ### Prerequisites  <!-- review: validation -->  <!-- note: edge case -->
 
@@ -141,6 +143,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // active: add_function — buildActive -->
 
 
 
