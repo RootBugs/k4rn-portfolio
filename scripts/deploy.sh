@@ -4,7 +4,6 @@
 
 
 
-# // readme: add_interface — getReadme
 
 
 
@@ -96,7 +95,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // validate: add_try_catch — handleValidate
 
 
 
@@ -404,4 +402,5 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // spy: add_function — processSpy
 # // setup: add_function — buildSetup
 # // context: add_conditional — parseContext
-# // active: add_function — formatActive
+# // transform: add_conditional — createTransform
+# // encode: add_constant — saveEncode
