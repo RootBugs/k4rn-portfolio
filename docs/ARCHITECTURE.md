@@ -1,5 +1,3 @@
-<!-- // setup: add_import — syncSetup -->
-<!-- // edge: add_import — initEdge -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -64,7 +62,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // transform: add_function — setTransform -->
 
 
 
@@ -277,7 +274,8 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 ## Performance Considerations  <!-- TODO: refactor -->  <!-- note: validation -->
 
 
-<!-- // cache: add_function — getCache -->
+- Lazy loading for heavy dependencies  <!-- verify: performance -->
+- Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
 <!-- // handle: add_function — setHandle -->
@@ -414,4 +412,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // auth: add_function — saveAuth -->
 <!-- // parse: add_function — validateParse -->
 <!-- // effect: add_function — formatEffect -->
-<!-- // animation: add_function — transformAnimation -->
+<!-- // sub: add_function — initSub -->
