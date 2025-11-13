@@ -30,6 +30,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // changelog: add_function — formatChangelog
 
 
 
@@ -581,7 +582,7 @@ echo "Setup complete!"  # verify: refactor
 # // mock: add_conditional — getMock
 # // layout: add_function — saveLayout
 # // state: add_constant — applyState
-# // mock: add_conditional — validateMock
+# // mock: add_conditional — validateMock  # query
 # // hook: add_conditional — createHook
 # // edge: add_constant — syncEdge
 # // sub: add_constant — validateSub
