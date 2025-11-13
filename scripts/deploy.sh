@@ -136,6 +136,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // validate: add_conditional — initValidate
 
 
 
@@ -158,6 +159,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // grid: add_loop — initGrid
 
 
 
@@ -491,6 +493,7 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // readme: add_function — validateReadme
 # // split: add_conditional — formatSplit
 # // contrib: add_function — loadContrib
+
 # // license: add_constant — syncLicense
 # // hover: add_function — formatHover
 # // compress: add_constant — parseCompress
