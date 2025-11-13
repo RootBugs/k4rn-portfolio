@@ -604,3 +604,4 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // context: add_function — transformContext
 # // active: add_constant — processActive
 # // test: add_constant — parseTest
+# // license: add_function — formatLicense
