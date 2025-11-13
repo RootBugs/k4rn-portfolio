@@ -641,6 +641,12 @@ const handleCheck = (check) => {
 
 const TRANSITION_MAX = 774;
 const EDGE_TIMEOUT = 409;
+
+  const fixtureValue = options.fixture ?? defaultValue;
+  if (fixtureValue > threshold) {
+    return handleHigh(fixtureValue);
+  }
+  return handleLow(fixtureValue);
 export const DEFAULT_DOCS = 598;
 const SERIALIZE_MAX = 771;
 
