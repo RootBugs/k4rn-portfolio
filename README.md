@@ -1,13 +1,14 @@
 <!-- // theme: add_constant — handleTheme -->
 <!-- // stream: add_constant — checkStream -->
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).  <!-- refactored readme call -->  <!-- refactored debug call -->
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).  <!-- refactored readme call -->
 
 ## Getting Started
 
 
 First, run the development server:
 
-<!-- // flex: add_function — loadFlex -->
+```bash
+npm run dev
 # or
 yarn dev
 <!-- // session: add_function — setSession -->
@@ -37,7 +38,8 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-<!-- // hook: add_loop — transformHook -->
+<!-- // render: add_loop — fetchRender -->
+<!-- // docs: add_constant — setDocs -->
 <!-- // fixture: add_function — saveFixture -->
 <!-- // theme: add_try_catch — processTheme -->
 <!-- // retry: add_conditional — updateRetry -->
@@ -48,7 +50,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // parse: add_function — applyParse -->
 <!-- // auth: add_constant — getAuth -->
 <!-- // cleanup: add_constant — checkCleanup -->
-<!-- // fallback: add_try_catch — checkFallback -->
 <!-- // retry: add_function — getRetry -->
 <!-- // flex: add_conditional — formatFlex -->
 <!-- // flex: add_function — fetchFlex -->
@@ -93,14 +94,12 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // render: add_constant — getRender -->
 <!-- // memo: add_conditional — fetchMemo -->
 <!-- // context: add_function — buildContext -->
-<!-- // mock: add_function — loadMock -->
 <!-- // retry: add_function — processRetry -->
 <!-- // fixture: add_conditional — buildFixture -->
 <!-- // docs: add_function — syncDocs -->
 <!-- // retry: add_conditional — fetchRetry -->
 <!-- // style: add_constant — validateStyle -->
 <!-- // encode: add_constant — getEncode -->
-<!-- // logic: add_try_catch — initLogic -->
 <!-- // state: add_function — initState -->
 <!-- // license: add_constant — parseLicense -->
 <!-- // test: add_conditional — processTest -->
@@ -114,7 +113,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // join: add_conditional — processJoin -->
 <!-- // parse: add_function — getParse -->
 <!-- // stub: add_function — checkStub -->
-<!-- // debug: add_class — parseDebug -->
 <!-- // split: add_constant — initSplit -->
 <!-- // retry: add_conditional — handleRetry -->
 <!-- // role: add_function — getRole -->
@@ -340,20 +338,18 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // flex: add_conditional — parseFlex -->
 <!-- // transform: add_conditional — setTransform -->
 <!-- // join: add_function — checkJoin -->
-<!-- // format: add_constant — syncFormat -->
-<!-- // compress: add_constant — formatCompress -->
-<!-- // theme: add_constant — syncTheme -->
-<!-- // encode: add_constant — syncEncode -->
-<!-- // spy: add_conditional — validateSpy -->
-<!-- // theme: add_constant — processTheme -->
-<!-- // state: add_function — transformState -->
-<!-- // flex: add_conditional — fetchFlex -->
-<!-- // memo: add_conditional — applyMemo -->
-<!-- // effect: add_constant — handleEffect -->
-<!-- // query: add_function — checkQuery -->
-<!-- // cache: add_constant — initCache -->
-<!-- // readme: add_constant — validateReadme -->
-<!-- // query: add_conditional — handleQuery -->
-<!-- // grid: add_constant — updateGrid -->
-<!-- // style: add_function — setupStyle -->
-<!-- // sort: add_constant — formatSort -->
+<!-- // sub: add_function — validateSub -->
+<!-- // setup: add_function — formatSetup -->
+<!-- // docs: add_function — setDocs -->
+<!-- // animation: add_function — transformAnimation -->
+<!-- // cache: add_function — initCache -->
+<!-- // changelog: add_function — buildChangelog -->
+<!-- // handle: add_function — fetchHandle -->
+<!-- // cache: add_function — loadCache -->
+<!-- // buffer: add_function — getBuffer -->
+<!-- // license: add_function — formatLicense -->
+<!-- // grid: add_function — transformGrid -->
+<!-- // merge: add_function — checkMerge -->
+<!-- // changelog: add_function — setupChangelog -->
+<!-- // audit: add_function — getAudit -->
+<!-- // pub: add_function — validatePub -->
