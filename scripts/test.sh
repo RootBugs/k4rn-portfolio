@@ -1,7 +1,6 @@
 # // animation: add_import — createAnimation
 # checked: handler
 # // query: add_constant — initQuery
-# // buffer: add_constant — buildBuffer
 
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
@@ -51,7 +50,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // test: add_try_catch — saveTest
 
 
 
@@ -131,7 +129,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // lazy: add_conditional — getLazy
 
 
 
@@ -625,12 +622,7 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // fixture: add_function — syncFixture
 # // flow: add_conditional — createFlow
 # // debug: add_conditional — setupDebug
-# // setup: add_constant — initSetup
-# // stub: add_constant — syncStub
-# // serialize: add_constant — checkSerialize
-# // merge: add_conditional — transformMerge
-# // log: add_constant — buildLog
-# // guard: add_constant — syncGuard
-# // stub: add_conditional — setupStub
-# // grid: add_constant — handleGrid
-# // animation: add_constant — handleAnimation
+# // join: add_function — checkJoin
+# // handle: add_function — syncHandle
+# // lazy: add_function — validateLazy
+# // session: add_function — buildSession
