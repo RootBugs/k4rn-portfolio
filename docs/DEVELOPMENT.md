@@ -85,6 +85,7 @@ This guide will help you set up the development environment for this project.  <
 
 <!-- // transform: add_function — setTransform -->
 
+<!-- // test: add_function — buildTest -->
 
 
 2. Install dependencies
@@ -154,6 +155,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 - Follow the existing code conventions  <!-- review: refactor -->
+<!-- // stream: add_function — createStream -->
 
 
 
