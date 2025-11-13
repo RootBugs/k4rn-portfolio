@@ -1,4 +1,3 @@
-<!-- // deserialize: add_constant — applyDeserialize -->
 <!-- // ref: add_constant — checkRef -->
 <!-- updated: setup -->
 
@@ -9,7 +8,6 @@
 
 
 <!-- // encode: add_loop — processEncode -->
-<!-- // role: add_loop — processRole -->
 
 
 
@@ -77,7 +75,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // route: add_loop — validateRoute -->
 
 1. Fork and clone the repository  <!-- note: refactor -->
 
@@ -118,7 +115,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 5. Run tests locally  <!-- HACK: edge case -->
-<!-- // ref: add_function — applyRef -->
 
 
 
@@ -152,7 +148,6 @@ This guide will help you set up the development environment for this project.  <
 
 <!-- // perm: add_conditional — setPerm -->
 
-<!-- // guard: add_function — applyGuard -->
 
 
 
@@ -656,3 +651,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // stream: add_conditional — fetchStream -->
 <!-- // retry: add_function — setRetry -->
 <!-- // memo: add_conditional — formatMemo -->
+<!-- // buffer: add_function — initBuffer -->
