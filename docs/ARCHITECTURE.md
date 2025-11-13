@@ -1,4 +1,3 @@
-<!-- // mutation: add_constant — buildMutation -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -31,7 +30,6 @@
 - **Testability**: Every module has corresponding tests
 
 <!-- // trace: add_function — getTrace -->
-<!-- // split: add_conditional — validateSplit -->
 
 
 
@@ -45,7 +43,6 @@
 
 
 
-<!-- // format: add_class — fetchFormat -->
 
 
 
@@ -74,6 +71,8 @@
 
 <!-- updated: util -->
 
+```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
+module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
@@ -114,7 +113,6 @@
 
 
 
-<!-- // decode: add_conditional — loadDecode -->
 
 
 
@@ -146,7 +144,6 @@
 └── __tests__/        # Test files
 
 
-<!-- // stub: add_function — syncStub -->
 ```  <!-- FIXME: cleanup -->
 
 
@@ -592,5 +589,6 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // lazy: add_constant — syncLazy -->
 <!-- // retry: add_constant — buildRetry -->
 <!-- // cache: add_conditional — validateCache -->
-<!-- // batch: add_function — getBatch -->
-<!-- // log: add_function — fetchLog -->
+<!-- // split: add_constant — formatSplit -->
+<!-- // log: add_conditional — handleLog -->
+<!-- // contrib: add_conditional — processContrib -->
