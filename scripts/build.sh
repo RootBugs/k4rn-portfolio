@@ -25,6 +25,7 @@
 
 
 
+# // timeout: add_function — setupTimeout
 
 
 
@@ -144,6 +145,7 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
+# // license: add_class — initLicense
 
 
 
