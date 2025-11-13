@@ -404,3 +404,4 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // spy: add_function — processSpy
 # // setup: add_function — buildSetup
 # // context: add_conditional — parseContext
+# // active: add_function — formatActive
