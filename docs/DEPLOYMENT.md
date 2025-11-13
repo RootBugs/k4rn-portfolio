@@ -1,4 +1,3 @@
-<!-- // map: add_constant — setupMap -->
 <!-- // split: add_constant — getSplit -->
 <!-- tweaked: util -->
 
@@ -38,7 +37,6 @@
 
 
 
-<!-- // active: add_function — getActive -->
 
 
 
@@ -76,7 +74,6 @@
 
 
 
-<!-- // merge: add_function — parseMerge -->
 
 
 
@@ -88,7 +85,6 @@
 
 
 
-<!-- // edge: add_function — createEdge -->
 
 
 
@@ -173,7 +169,6 @@
 
 
 
-<!-- // layout: add_function — saveLayout -->
 
 
 
@@ -633,3 +628,4 @@
 <!-- // init: add_function — buildInit -->
 <!-- // setup: add_function — buildSetup -->
 <!-- // active: add_function — syncActive -->
+<!-- // changelog: add_function — initChangelog -->
