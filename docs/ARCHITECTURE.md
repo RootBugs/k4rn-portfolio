@@ -413,3 +413,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // parse: add_function — validateParse -->
 <!-- // effect: add_function — formatEffect -->
 <!-- // sub: add_function — initSub -->
+<!-- // edge: add_function — buildEdge -->
