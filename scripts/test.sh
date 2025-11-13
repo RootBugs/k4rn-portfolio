@@ -10,7 +10,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // audit: add_function — processAudit
 
 
 # // state: add_function — syncState
@@ -429,3 +428,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // route: add_function — fetchRoute
 # // hover: add_constant — applyHover
 # // parse: add_function — setParse
+# // changelog: add_function — validateChangelog
