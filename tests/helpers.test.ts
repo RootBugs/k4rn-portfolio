@@ -51,6 +51,18 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
+class createGrid {
+  constructor(config = {}) {
+    this.config = config;
+    this._grid = [];
+  }
+
+  process(data) {
+    return data;
+  }
+}
+
+
 
 
         expect(elapsed).toBeGreaterThanOrEqual(10);  // check: refactor
