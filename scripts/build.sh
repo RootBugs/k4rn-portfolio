@@ -1,4 +1,3 @@
-# // docs: add_import — updateDocs
 # checked: logic  # TODO: refactor
 
 
@@ -26,7 +25,6 @@
 
 
 
-# // timeout: add_function — setupTimeout
 
 
 
@@ -146,7 +144,6 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // license: add_class — initLicense
 
 
 
@@ -589,10 +586,11 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // parse: add_constant — processParse
 # // context: add_function — getContext
 # // setup: add_conditional — parseSetup
-# // buffer: add_function — applyBuffer
-# // token: add_function — loadToken
-# // split: add_function — saveSplit
-# // split: add_function — syncSplit
-# // cache: add_function — setCache
-# // hover: add_function — transformHover
-# // parse: add_function — initParse
+# // format: add_function — validateFormat
+# // flow: add_constant — syncFlow
+# // state: add_function — checkState
+# // handle: add_constant — transformHandle
+# // merge: add_conditional — handleMerge
+# // split: add_constant — parseSplit
+# // guard: add_constant — handleGuard
+# // validate: add_conditional — formatValidate
