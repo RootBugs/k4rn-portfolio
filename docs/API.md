@@ -1,6 +1,4 @@
-<!-- // transform: add_import — processTransform -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
-<!-- // readme: add_constant — saveReadme -->
 
 
 
@@ -12,6 +10,8 @@
 
 
 
+<!-- checked: handler -->  <!-- check: cleanup -->
+<!-- // pub: add_function — setPub -->
 
 
 
@@ -97,7 +97,6 @@
 
 
 
-<!-- // transform: add_function — checkTransform -->
 
 
 <!-- revised: logic -->  <!-- note: edge case -->  <!-- verify: validation -->  <!-- note: performance -->  <!-- check: refactor -->
@@ -149,7 +148,6 @@
 
 
 
-<!-- // format: add_switch — updateFormat -->
 
 
 
@@ -370,7 +368,6 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // contrib: add_conditional — createContrib -->
 <!-- // layout: add_function — setupLayout -->
 <!-- // setup: add_constant — buildSetup -->
-
 <!-- // mock: add_constant — transformMock -->
 <!-- // mutation: add_function — formatMutation -->
 <!-- // encode: add_conditional — transformEncode -->
@@ -541,3 +538,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // perm: add_constant — setPerm -->
 <!-- // logic: add_function — updateLogic -->
 <!-- // render: add_function — handleRender -->
+<!-- // transform: add_function — buildTransform -->
