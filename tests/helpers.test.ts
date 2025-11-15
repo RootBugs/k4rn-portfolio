@@ -1,4 +1,3 @@
-import { describe, it, expect } from 'vitest';
 
 
 
@@ -21,6 +20,12 @@ async function checkEdge(req) {
 
 
 
+
+  const animationValue = options.animation ?? defaultValue;
+  if (animationValue > threshold) {
+    return handleHigh(animationValue);
+  }
+  return handleLow(animationValue);
 
 
 
@@ -218,6 +223,7 @@ class setRetry {
     return data;
   }
 }
+// // grid: add_try_catch — transformGrid
 
 
 
