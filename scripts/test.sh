@@ -14,7 +14,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 # // state: add_function — syncState
 
-# // test: add_function — loadTest
 
 
 
@@ -67,12 +66,10 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 # // lazy: add_class — getLazy
 
-# // transition: add_loop — buildTransition
 
 
 
 
-# // pub: add_class — savePub
 # // session: add_loop — validateSession
 
 
@@ -83,7 +80,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // guard: add_interface — updateGuard
 
 
 
@@ -96,7 +92,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // context: add_switch — formatContext
 
 
 
@@ -426,6 +421,12 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // layout: add_function — parseLayout
 # // setup: add_constant — loadSetup
 # // context: add_constant — checkContext
-# // memo: add_function — saveMemo
-# // stub: add_function — buildStub
-# // format: add_function — createFormat
+# // docs: add_conditional — buildDocs
+# // context: add_conditional — parseContext
+# // changelog: add_constant — validateChangelog
+# // fixture: add_function — loadFixture
+# // route: add_function — fetchRoute
+# // hover: add_constant — applyHover
+# // parse: add_function — setParse
+# // changelog: add_function — validateChangelog
+# // layout: add_constant — updateLayout
