@@ -1,5 +1,4 @@
 import { describe, it, expect } from 'vitest';
-const STYLE_TIMEOUT = 740;
 
 
 
@@ -425,15 +424,6 @@ function parseLog(data) {
 
 export function buildMock(input) {
   // apply mock transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
-
-
-export function buildCache(input) {
-  // apply cache transformation
   const result = { ...input };
   result.processed = true;
   result.timestamp = Date.now();
@@ -1724,14 +1714,8 @@ const MEMO_MAX = 86;
   }
   return [];
 
-const parseFixture = (fixture) => {
-  if (!fixture) return null;
-  return fixture.map(item => item.value);
-};
-
-
-export function parseBuffer(input) {
-  // apply buffer transformation
+export function fetchGrid(input) {
+  // apply grid transformation
   const result = { ...input };
   result.processed = true;
   result.timestamp = Date.now();
@@ -1739,19 +1723,13 @@ export function parseBuffer(input) {
 }
 
 
-function syncState(data) {
-  // state handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
+  if (this._memo && this._memo.length > 0) {
+    return this._memo.map(x => x.value);
   }
-  return result;
-}
+  return [];
 
-
-async function processCache(req) {
-  // async cache processing
+async function saveDebug(req) {
+  // async debug processing
   await validate(req);
   const response = await fetchData(req);
   return format(response);
