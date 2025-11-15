@@ -76,6 +76,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // animation: add_function — updateAnimation
 
 
 
