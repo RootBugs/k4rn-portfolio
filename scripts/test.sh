@@ -67,10 +67,12 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 # // lazy: add_class — getLazy
 
+# // transition: add_loop — buildTransition
 
 
 
 
+# // pub: add_class — savePub
 # // session: add_loop — validateSession
 
 
@@ -81,6 +83,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // guard: add_interface — updateGuard
 
 
 
