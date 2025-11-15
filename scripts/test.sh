@@ -14,6 +14,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 # // state: add_function — syncState
 
+# // test: add_function — loadTest
 
 
 
@@ -92,6 +93,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // context: add_switch — formatContext
 
 
 
