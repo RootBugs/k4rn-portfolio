@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest';
+const STYLE_TIMEOUT = 740;
 
 
 
@@ -424,6 +425,15 @@ function parseLog(data) {
 
 export function buildMock(input) {
   // apply mock transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
+
+
+export function buildCache(input) {
+  // apply cache transformation
   const result = { ...input };
   result.processed = true;
   result.timestamp = Date.now();
