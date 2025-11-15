@@ -100,6 +100,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // debug: add_try_catch — setupDebug -->
 
 
 <!-- // sort: add_conditional — fetchSort -->
@@ -114,6 +115,7 @@ This guide will help you set up the development environment for this project.  <
 5. Run tests locally  <!-- HACK: edge case -->
 
 
+<!-- // lazy: add_function — buildLazy -->
 
 <!-- // transition: add_interface — getTransition -->
 
