@@ -63,6 +63,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // readme: add_class — checkReadme
 
 
 
