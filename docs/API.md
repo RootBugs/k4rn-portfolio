@@ -1,6 +1,4 @@
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
-<!-- // pub: add_constant — createPub -->
-<!-- // memo: add_constant — applyMemo -->
 
 
 
@@ -61,7 +59,6 @@
 
 
 
-<!-- // split: add_conditional — updateSplit -->
 
 
 
@@ -439,6 +436,10 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // sort: add_function — formatSort -->
 <!-- // hover: add_constant — loadHover -->
 <!-- // flow: add_constant — validateFlow -->
-<!-- // focus: add_function — processFocus -->
-<!-- // test: add_function — processTest -->
-<!-- // transition: add_function — updateTransition -->
+<!-- // deserialize: add_conditional — buildDeserialize -->
+<!-- // transition: add_conditional — fetchTransition -->
+<!-- // hover: add_function — formatHover -->
+<!-- // cleanup: add_constant — setupCleanup -->
+<!-- // cache: add_constant — syncCache -->
+<!-- // focus: add_function — initFocus -->
+<!-- // fixture: add_function — syncFixture -->
