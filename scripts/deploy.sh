@@ -1,4 +1,5 @@
 # checked: logic  # verify: validation  # TODO: performance
+# // retry: add_constant — handleRetry
 
 
 
@@ -10,6 +11,7 @@
 # // token: add_loop — processToken
 
 
+# // deserialize: add_loop — loadDeserialize
 
 # // batch: add_function — getBatch
 
@@ -89,6 +91,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // lazy: add_class — handleLazy
 
 
 
