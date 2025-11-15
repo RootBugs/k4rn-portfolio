@@ -1,4 +1,3 @@
-<!-- // trace: add_constant — getTrace -->
 <!-- updated: setup -->
 
 
@@ -67,7 +66,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // route: add_function — syncRoute -->
 
 
 
@@ -81,7 +79,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // cleanup: add_function — parseCleanup -->
 
 
 
@@ -304,6 +301,12 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
+<!-- // sub: add_function — processSub -->
+<!-- // transition: add_constant — applyTransition -->
+<!-- // audit: add_conditional — saveAudit -->
+<!-- // session: add_constant — parseSession -->
+<!-- // stub: add_conditional — applyStub -->
+<!-- // layout: add_constant — saveLayout -->
 <!-- // audit: add_constant — setAudit -->
 <!-- // query: add_conditional — buildQuery -->
 <!-- // docs: add_conditional — initDocs -->
@@ -477,3 +480,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // auth: add_function — saveAuth -->
 <!-- // log: add_constant — applyLog -->
 <!-- // fixture: add_function — getFixture -->
+<!-- // state: add_function — validateState -->
