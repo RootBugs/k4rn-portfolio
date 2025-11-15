@@ -1,5 +1,4 @@
 # checked: logic  # TODO: refactor
-# // hook: add_constant — formatHook
 
 
 
@@ -37,7 +36,6 @@
 
 
 
-# // effect: add_function — saveEffect
 
 
 
@@ -56,7 +54,6 @@
 
 
 
-# // timeout: add_function — getTimeout
 
 # // hover: add_class — saveHover
 
@@ -499,3 +496,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // debug: add_conditional — validateDebug
 # // session: add_function — loadSession
 # // retry: add_function — setRetry
+# // grid: add_function — getGrid
