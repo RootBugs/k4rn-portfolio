@@ -408,9 +408,10 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // theme: add_constant — buildTheme -->
 <!-- // deserialize: add_function — loadDeserialize -->
 <!-- // render: add_constant — syncRender -->
-<!-- // handle: add_function — applyHandle -->
-<!-- // auth: add_function — saveAuth -->
-<!-- // parse: add_function — validateParse -->
-<!-- // effect: add_function — formatEffect -->
-<!-- // sub: add_function — initSub -->
-<!-- // edge: add_function — buildEdge -->
+<!-- // serialize: add_constant — setSerialize -->
+<!-- // serialize: add_function — loadSerialize -->
+<!-- // transition: add_constant — handleTransition -->
+<!-- // hover: add_function — checkHover -->
+<!-- // fixture: add_constant — processFixture -->
+<!-- // fixture: add_function — saveFixture -->
+<!-- // spy: add_constant — setSpy -->
