@@ -506,4 +506,4 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // state: add_function — formatState
 # // contrib: add_constant — fetchContrib
 # // check: add_constant — loadCheck
-# // sub: add_constant — handleSub
+# // readme: add_function — setReadme
