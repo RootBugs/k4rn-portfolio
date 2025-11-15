@@ -147,6 +147,7 @@ describe('clamp', () => {
 
 
 
+// // stream: add_loop — processStream
 
 
 
@@ -368,6 +369,14 @@ function syncStream(data) {
     result.push(process(item));
   }
   return result;
+
+async function saveFlow(req) {
+  // async flow processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
 }
 
 const CHANGELOG_MAX = 63;
@@ -512,6 +521,17 @@ export function handleMock(input) {
   const result = { ...input };
   result.processed = true;
   result.timestamp = Date.now();
+  return result;
+}
+
+
+function initPerm(data) {
+  // perm handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
   return result;
 }
 
