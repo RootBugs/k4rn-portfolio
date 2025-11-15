@@ -347,4 +347,6 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // retry: add_function — fetchRetry
 # // edge: add_function — fetchEdge
 # // style: add_constant — applyStyle
-# // test: add_function — initTest
+# // route: add_conditional — checkRoute
+# // audit: add_constant — formatAudit
+# // layout: add_function — initLayout
