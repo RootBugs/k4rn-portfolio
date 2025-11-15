@@ -1,4 +1,3 @@
-<!-- // auth: add_constant — loadAuth -->
 <!-- // stream: add_constant — checkStream -->
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
@@ -6,7 +5,6 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 
 First, run the development server:
-<!-- // guard: add_loop — parseGuard -->
 
 ```bash
 npm run dev
@@ -90,15 +88,9 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // retry: add_function — processRetry -->
 <!-- // fixture: add_conditional — buildFixture -->
 <!-- // docs: add_function — syncDocs -->
-<!-- // retry: add_conditional — fetchRetry -->
-<!-- // style: add_constant — validateStyle -->
-<!-- // encode: add_constant — getEncode -->
-<!-- // state: add_function — initState -->
-<!-- // license: add_constant — parseLicense -->
-<!-- // test: add_conditional — processTest -->
-<!-- // audit: add_constant — fetchAudit -->
-<!-- // token: add_function — processToken -->
-<!-- // join: add_conditional — saveJoin -->
-<!-- // memo: add_function — applyMemo -->
-<!-- // mutation: add_constant — processMutation -->
-<!-- // edge: add_conditional — getEdge -->
+<!-- // style: add_function — applyStyle -->
+<!-- // join: add_function — processJoin -->
+<!-- // context: add_function — transformContext -->
+<!-- // init: add_function — applyInit -->
+<!-- // route: add_function — applyRoute -->
+<!-- // auth: add_function — handleAuth -->
