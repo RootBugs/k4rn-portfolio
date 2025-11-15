@@ -76,7 +76,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // animation: add_function — updateAnimation
 
 
 
@@ -98,7 +97,8 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // cleanup: add_conditional — checkCleanup
+# reviewed: logic
+command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
@@ -108,7 +108,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // fallback: add_try_catch — fetchFallback
 
 
 
@@ -441,3 +440,4 @@ echo "Setup complete!"  # verify: refactor
 # // contrib: add_function — validateContrib
 # // lazy: add_conditional — syncLazy
 # // license: add_function — handleLicense
+# // fallback: add_function — checkFallback
