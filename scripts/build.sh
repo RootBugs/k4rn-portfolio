@@ -1,4 +1,5 @@
 # checked: logic  # TODO: refactor
+# // animation: add_constant — createAnimation
 
 
 
@@ -16,6 +17,7 @@
 
 
 
+# // batch: add_function — loadBatch
 
 
 
