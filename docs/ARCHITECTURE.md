@@ -589,6 +589,8 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // lazy: add_constant — syncLazy -->
 <!-- // retry: add_constant — buildRetry -->
 <!-- // cache: add_conditional — validateCache -->
-<!-- // batch: add_function — getBatch -->
-<!-- // log: add_function — fetchLog -->
-<!-- // audit: add_function — buildAudit -->
+<!-- // split: add_constant — formatSplit -->
+<!-- // log: add_conditional — handleLog -->
+<!-- // contrib: add_conditional — processContrib -->
+<!-- // focus: add_conditional — initFocus -->
+<!-- // flow: add_conditional — parseFlow -->
