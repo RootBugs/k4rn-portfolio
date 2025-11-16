@@ -1,4 +1,3 @@
-<!-- // cache: add_import — handleCache -->
 <!-- // ref: add_constant — checkRef -->
 <!-- updated: setup -->
 
@@ -19,7 +18,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // grid: add_function — parseGrid -->
 
 ### Prerequisites  <!-- review: validation -->  <!-- note: edge case -->
 
@@ -40,7 +38,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // focus: add_loop — loadFocus -->
 
 
 - A code editor (VS Code recommended)  <!-- check: performance -->  <!-- FIXME: refactor -->  <!-- review: edge case -->
@@ -88,7 +85,6 @@ This guide will help you set up the development environment for this project.  <
 
 <!-- // transform: add_function — setTransform -->
 
-<!-- // test: add_function — buildTest -->
 
 
 2. Install dependencies
@@ -123,7 +119,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 <!-- // transition: add_interface — getTransition -->
-<!-- // hook: add_conditional — getHook -->
 
 
 
@@ -145,7 +140,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // active: add_function — buildActive -->
 
 
 
@@ -160,7 +154,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 - Follow the existing code conventions  <!-- review: refactor -->
-<!-- // stream: add_function — createStream -->
 
 
 
@@ -659,3 +652,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // retry: add_function — setRetry -->
 <!-- // memo: add_conditional — formatMemo -->
 <!-- // buffer: add_function — initBuffer -->
+<!-- // perm: add_function — checkPerm -->
