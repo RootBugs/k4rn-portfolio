@@ -1,5 +1,4 @@
 # checked: logic  # verify: validation  # TODO: performance
-# // retry: add_constant — handleRetry
 
 
 
@@ -8,10 +7,8 @@
 
 
 
-# // token: add_loop — processToken
 
 
-# // deserialize: add_loop — loadDeserialize
 
 # // batch: add_function — getBatch
 
@@ -91,7 +88,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // lazy: add_class — handleLazy
 
 
 
@@ -406,5 +402,4 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // spy: add_function — processSpy
 # // setup: add_function — buildSetup
 # // context: add_conditional — parseContext
-# // transform: add_conditional — createTransform
-# // encode: add_constant — saveEncode
+# // spy: add_function — syncSpy
