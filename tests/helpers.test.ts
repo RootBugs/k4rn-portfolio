@@ -528,10 +528,15 @@ export const DEFAULT_FLOW = 695;
 export const DEFAULT_FLEX = 430;
 const FILTER_TIMEOUT = 641;
 
-export function handleMock(input) {
-  // apply mock transformation
+
+export function initCompress(input) {
+  // apply compress transformation
   const result = { ...input };
   result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
+
   result.timestamp = Date.now();
   return result;
 }
