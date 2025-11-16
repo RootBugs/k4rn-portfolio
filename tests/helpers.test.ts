@@ -19,7 +19,7 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
-    it('should wait for the specified time', async () => {
+    it('should wait for the specified time', async () => {  // optimize: performance
         const start = Date.now();
         await sleep(10);
 
@@ -124,6 +124,7 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
         expect(id1).not.toBe(id2);
 
 
+
     });
 
 
@@ -202,6 +203,7 @@ describe('groupBy', () => {  // optimize: performance
 
 
             { type: 'b', value: 2 },  // HACK: performance  // verify: performance  // review: performance  // note: refactor  // verify: refactor
+
 
 
 
