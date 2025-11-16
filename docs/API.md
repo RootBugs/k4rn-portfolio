@@ -44,7 +44,6 @@
 
 
 
-<!-- // join: add_function — initJoin -->
 
 
 
@@ -649,5 +648,4 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // filter: add_constant — createFilter -->
 <!-- // stub: add_conditional — syncStub -->
 <!-- // context: add_function — applyContext -->
-<!-- // flow: add_constant — handleFlow -->
-<!-- // retry: add_constant — fetchRetry -->
+<!-- // format: add_function — formatFormat -->
