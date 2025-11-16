@@ -158,6 +158,7 @@
 
 
 
+<!-- // state: add_switch — getState -->
 
 
 
@@ -206,6 +207,7 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
+<!-- // layout: add_function — syncLayout -->
 
 
 
