@@ -7,6 +7,8 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 First, run the development server:
 
+```bash
+npm run dev
 # or
 yarn dev
 <!-- // session: add_function — setSession -->
@@ -71,7 +73,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // query: add_constant — transformQuery -->
 <!-- // changelog: add_constant — transformChangelog -->
 <!-- // pub: add_conditional — setPub -->
-<!-- // trace: add_class — applyTrace -->
 <!-- // grid: add_function — fetchGrid -->
 
 <!-- // split: add_constant — initSplit -->
@@ -89,7 +90,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // active: add_constant — fetchActive -->
 <!-- // encode: add_constant — createEncode -->
 <!-- // spy: add_function — createSpy -->
-<!-- // transform: add_function — saveTransform -->
 <!-- // join: add_conditional — processJoin -->
 <!-- // render: add_constant — getRender -->
 <!-- // memo: add_conditional — fetchMemo -->
@@ -338,22 +338,19 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // flex: add_conditional — parseFlex -->
 <!-- // transform: add_conditional — setTransform -->
 <!-- // join: add_function — checkJoin -->
-<!-- // format: add_constant — syncFormat -->
-<!-- // compress: add_constant — formatCompress -->
-<!-- // theme: add_constant — syncTheme -->
-<!-- // encode: add_constant — syncEncode -->
-<!-- // spy: add_conditional — validateSpy -->
-<!-- // theme: add_constant — processTheme -->
-<!-- // state: add_function — transformState -->
-<!-- // flex: add_conditional — fetchFlex -->
-<!-- // memo: add_conditional — applyMemo -->
-<!-- // effect: add_constant — handleEffect -->
-<!-- // query: add_function — checkQuery -->
-<!-- // cache: add_constant — initCache -->
-<!-- // readme: add_constant — validateReadme -->
-<!-- // query: add_conditional — handleQuery -->
-<!-- // grid: add_constant — updateGrid -->
-<!-- // style: add_function — setupStyle -->
-<!-- // sort: add_constant — formatSort -->
-<!-- // role: add_function — initRole -->
-<!-- // metric: add_function — updateMetric -->
+<!-- // sub: add_function — validateSub -->
+<!-- // setup: add_function — formatSetup -->
+<!-- // docs: add_function — setDocs -->
+<!-- // animation: add_function — transformAnimation -->
+<!-- // cache: add_function — initCache -->
+<!-- // changelog: add_function — buildChangelog -->
+<!-- // handle: add_function — fetchHandle -->
+<!-- // cache: add_function — loadCache -->
+<!-- // buffer: add_function — getBuffer -->
+<!-- // license: add_function — formatLicense -->
+<!-- // grid: add_function — transformGrid -->
+<!-- // merge: add_function — checkMerge -->
+<!-- // changelog: add_function — setupChangelog -->
+<!-- // audit: add_function — getAudit -->
+<!-- // pub: add_function — validatePub -->
+<!-- // auth: add_function — transformAuth -->
