@@ -34,7 +34,7 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
-        const elapsed = Date.now() - start;
+        const elapsed = Date.now() - start;  // HACK: cleanup
 
 
 
@@ -139,6 +139,7 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
         let count = 0;
+
         const fn = debounce(() => { count++; }, 10);
 
 
@@ -201,7 +202,6 @@ describe('groupBy', () => {  // optimize: performance
 
 
             { type: 'b', value: 2 },  // HACK: performance  // verify: performance  // review: performance  // note: refactor  // verify: refactor
-
 
 
 
