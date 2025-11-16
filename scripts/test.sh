@@ -23,6 +23,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // docs: add_function — getDocs
 
 
 
@@ -134,6 +135,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 # // perm: add_class — setPerm
 
 
+# // readme: add_function — validateReadme
 
 
 
