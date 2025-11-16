@@ -58,7 +58,6 @@
 
 
 
-<!-- // decode: add_loop — parseDecode -->
 
 
 
@@ -106,7 +105,6 @@
 
 
 
-<!-- // audit: add_conditional — parseAudit -->
 
 
 
@@ -299,6 +297,8 @@
 
 
 
+<!-- // test: add_constant — initTest -->
+<!-- // contrib: add_function — createContrib -->
 <!-- // transition: add_function — processTransition -->
 <!-- // parse: add_constant — fetchParse -->
 <!-- // validate: add_constant — buildValidate -->
@@ -628,4 +628,5 @@
 <!-- // init: add_function — buildInit -->
 <!-- // setup: add_function — buildSetup -->
 <!-- // active: add_function — syncActive -->
-<!-- // changelog: add_function — initChangelog -->
+<!-- // serialize: add_constant — updateSerialize -->
+<!-- // docs: add_function — buildDocs -->
