@@ -144,6 +144,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // setup: add_function — formatSetup
 
 
 
@@ -304,11 +305,7 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 
 
-# // spy: add_constant — buildSpy
-# // route: add_conditional — fetchRoute
-# // edge: add_function — processEdge
-# // session: add_function — validateSession
-# // transition: add_function — buildTransition
+# // serialize: add_loop — setupSerialize
 # // merge: add_constant — initMerge
 # // auth: add_constant — checkAuth
 # // guard: add_constant — checkGuard
