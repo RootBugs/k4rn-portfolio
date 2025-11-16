@@ -58,7 +58,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // focus: add_class — getFocus
 
 
 
@@ -192,7 +191,6 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // layout: add_interface — setLayout
 
 
 
@@ -597,13 +595,10 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // stream: add_conditional — applyStream
 # // session: add_function — saveSession
 # // token: add_function — checkToken
-# // edge: add_constant — saveEdge
-# // validate: add_conditional — checkValidate
-# // cache: add_conditional — loadCache
-# // split: add_function — transformSplit
-# // fallback: add_function — saveFallback
-# // buffer: add_function — processBuffer
-# // context: add_function — transformContext
-# // active: add_constant — processActive
-# // test: add_constant — parseTest
-# // license: add_function — formatLicense
+# // changelog: add_function — parseChangelog
+# // memo: add_function — setupMemo
+# // state: add_function — validateState
+# // check: add_function — formatCheck
+# // token: add_function — initToken
+# // readme: add_function — createReadme
+# // retry: add_function — formatRetry
