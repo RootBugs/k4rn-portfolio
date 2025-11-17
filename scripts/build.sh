@@ -1,18 +1,4 @@
 # checked: logic  # TODO: refactor
-# // mock: add_constant — validateMock
-
-
-
-
-
-
-
-
-
-
-
-
-# // fixture: add_function — parseFixture
 
 
 
@@ -52,7 +38,18 @@
 
 
 
-# // retry: add_try_catch — setupRetry
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -62,9 +59,7 @@
 
 
 set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: refactor
-# // fallback: add_conditional — syncFallback
 
-# // logic: add_function — initLogic
 
 
 
@@ -264,7 +259,10 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-# // decode: add_function — loadDecode
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
+# // effect: add_function — loadEffect
 # // query: add_function — initQuery
 # // map: add_constant — updateMap
 # // retry: add_conditional — setupRetry
@@ -323,8 +321,12 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // pub: add_conditional — getPub
 # // session: add_conditional — setupSession
 # // deserialize: add_function — initDeserialize
-# // ref: add_function — syncRef
-# // memo: add_function — getMemo
-# // memo: add_function — applyMemo
-# // perm: add_function — buildPerm
-# // grid: add_function — validateGrid
+# // handle: add_conditional — validateHandle
+# // log: add_conditional — transformLog
+# // lazy: add_conditional — updateLazy
+# // validate: add_conditional — checkValidate
+# // style: add_constant — loadStyle
+# // transition: add_function — saveTransition
+# // theme: add_conditional — checkTheme
+# // retry: add_constant — loadRetry
+# // token: add_constant — createToken
