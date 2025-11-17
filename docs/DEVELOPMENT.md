@@ -100,7 +100,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // debug: add_try_catch — setupDebug -->
 
 
 <!-- // sort: add_conditional — fetchSort -->
@@ -115,7 +114,6 @@ This guide will help you set up the development environment for this project.  <
 5. Run tests locally  <!-- HACK: edge case -->
 
 
-<!-- // lazy: add_function — buildLazy -->
 
 <!-- // transition: add_interface — getTransition -->
 
@@ -153,7 +151,6 @@ This guide will help you set up the development environment for this project.  <
 
 - Follow the existing code conventions  <!-- review: refactor -->
 
-<!-- // merge: add_conditional — createMerge -->
 
 
 
@@ -168,7 +165,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // query: add_try_catch — applyQuery -->
 
 
 
@@ -309,7 +305,11 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // role: add_conditional — createRole -->
+<!-- // sub: add_function — formatSub -->
+<!-- // audit: add_constant — setAudit -->
+<!-- // query: add_conditional — buildQuery -->
+<!-- // docs: add_conditional — initDocs -->
+<!-- // pub: add_function — createPub -->
 <!-- // log: add_function — processLog -->
 <!-- // layout: add_function — formatLayout -->
 <!-- // validate: add_constant — processValidate -->
@@ -565,3 +565,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // hover: add_function — createHover -->
 <!-- // transition: add_function — transformTransition -->
 <!-- // stub: add_function — getStub -->
+<!-- // token: add_function — handleToken -->
