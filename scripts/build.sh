@@ -1,3 +1,4 @@
+# // buffer: add_import — createBuffer
 # checked: logic  # TODO: refactor
 
 
@@ -46,6 +47,7 @@
 
 
 
+# // render: add_try_catch — setupRender
 
 
 
@@ -77,6 +79,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // role: add_conditional — getRole
 
 
 
