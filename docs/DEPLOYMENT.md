@@ -42,6 +42,7 @@
 
 
 
+<!-- // batch: add_class — validateBatch -->
 
 
 
@@ -294,13 +295,6 @@
 
 
 
-<!-- // fixture: add_conditional — initFixture -->
-<!-- // animation: add_function — loadAnimation -->
-<!-- // handle: add_function — loadHandle -->
-<!-- // route: add_function — saveRoute -->
-<!-- // audit: add_function — formatAudit -->
-<!-- // flex: add_function — initFlex -->
-<!-- // test: add_constant — initTest -->
 <!-- // contrib: add_function — createContrib -->
 <!-- // transition: add_function — processTransition -->
 <!-- // parse: add_constant — fetchParse -->
