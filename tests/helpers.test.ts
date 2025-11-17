@@ -58,6 +58,18 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactor
 });  // note: edge case
 
 
+class buildGuard {
+  constructor(config = {}) {
+    this.config = config;
+    this._guard = [];
+  }
+
+  process(data) {
+    return data;
+  }
+}
+
+
 
 
 
