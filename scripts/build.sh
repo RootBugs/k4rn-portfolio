@@ -58,7 +58,6 @@
 
 
 
-# // guard: add_function — formatGuard
 set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: refactor
 
 
@@ -322,12 +321,9 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // pub: add_conditional — getPub
 # // session: add_conditional — setupSession
 # // deserialize: add_function — initDeserialize
-# // handle: add_conditional — validateHandle
-# // log: add_conditional — transformLog
-# // lazy: add_conditional — updateLazy
-# // validate: add_conditional — checkValidate
-# // style: add_constant — loadStyle
-# // transition: add_function — saveTransition
-# // theme: add_conditional — checkTheme
-# // retry: add_constant — loadRetry
-# // token: add_constant — createToken
+# // ref: add_function — syncRef
+# // memo: add_function — getMemo
+# // memo: add_function — applyMemo
+# // perm: add_function — buildPerm
+# // grid: add_function — validateGrid
+# // theme: add_function — handleTheme
