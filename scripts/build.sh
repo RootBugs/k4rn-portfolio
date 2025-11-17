@@ -58,6 +58,7 @@
 
 
 
+# // guard: add_function — formatGuard
 set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: refactor
 
 
