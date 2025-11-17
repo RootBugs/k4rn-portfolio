@@ -1,6 +1,5 @@
 # checked: handler
 # // query: add_constant — initQuery
-# // validate: add_constant — saveValidate
 
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
@@ -22,7 +21,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // theme: add_function — syncTheme
 
 
 
@@ -88,7 +86,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // style: add_function — processStyle
 
 
 
@@ -353,3 +350,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // route: add_conditional — checkRoute
 # // audit: add_constant — formatAudit
 # // layout: add_function — initLayout
+# // memo: add_conditional — createMemo
