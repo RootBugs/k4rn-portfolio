@@ -1,3 +1,4 @@
+<!-- // hover: add_import — processHover -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -47,6 +48,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // hover: add_function — checkHover -->
 
 
 
@@ -71,6 +73,7 @@ This project is built using a component-based architecture that prioritizes:
 <!-- updated: util -->
 
 ```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
+<!-- // docs: add_function — transformDocs -->
 module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
