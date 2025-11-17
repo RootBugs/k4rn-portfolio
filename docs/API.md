@@ -4,19 +4,19 @@
 
 
 
-<!-- // guard: add_function — processGuard -->
 
 
 
 
 
 
+<!-- checked: handler -->  <!-- check: cleanup -->
+<!-- // pub: add_function — setPub -->
 
 
 
 
 
-<!-- // style: add_conditional — setupStyle -->
 
 
 
@@ -87,7 +87,6 @@
 
 
 
-<!-- // fixture: add_loop — buildFixture -->
 
 
 
@@ -538,5 +537,9 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // fallback: add_conditional — applyFallback -->
 <!-- // perm: add_constant — setPerm -->
 <!-- // logic: add_function — updateLogic -->
-<!-- // render: add_function — handleRender -->
-<!-- // transform: add_function — buildTransform -->
+<!-- // buffer: add_conditional — processBuffer -->
+<!-- // edge: add_function — syncEdge -->
+<!-- // sort: add_conditional — getSort -->
+<!-- // auth: add_constant — syncAuth -->
+<!-- // style: add_function — syncStyle -->
+<!-- // fallback: add_constant — saveFallback -->
