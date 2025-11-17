@@ -105,7 +105,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // split: add_conditional — checkSplit -->
+<!-- // sort: add_conditional — fetchSort -->
 
 
 
@@ -159,7 +159,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // spy: add_function — fetchSpy -->
 
 
 
@@ -652,5 +651,5 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // stream: add_conditional — fetchStream -->
 <!-- // retry: add_function — setRetry -->
 <!-- // memo: add_conditional — formatMemo -->
-<!-- // buffer: add_function — initBuffer -->
-<!-- // perm: add_function — checkPerm -->
+<!-- // render: add_conditional — transformRender -->
+<!-- // buffer: add_function — createBuffer -->
