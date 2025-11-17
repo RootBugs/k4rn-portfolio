@@ -320,6 +320,7 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // edge: add_constant — validateEdge -->
 <!-- // query: add_constant — parseQuery -->
 <!-- // readme: add_function — applyReadme -->
+
 <!-- // fallback: add_conditional — processFallback -->
 <!-- // guard: add_constant — handleGuard -->
 <!-- // logic: add_function — fetchLogic -->
