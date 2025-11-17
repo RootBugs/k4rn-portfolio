@@ -517,6 +517,7 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // mock: add_conditional — applyMock
 # // render: add_function — applyRender
 # // compress: add_function — createCompress
-# // handle: add_function — updateHandle
-# // fixture: add_function — applyFixture
-# // memo: add_function — getMemo
+# // context: add_constant — updateContext
+# // spy: add_conditional — initSpy
+# // stub: add_constant — setupStub
+# // debug: add_conditional — checkDebug
