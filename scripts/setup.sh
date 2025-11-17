@@ -5,8 +5,7 @@
 
 
 
-# tweaked: config  # TODO: performance
-set -euo pipefail  # optimize: validation  # optimize: validation
+# // encode: add_conditional — formatEncode
 
 
 
@@ -67,6 +66,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // mock: add_class — buildMock
 
 
 
@@ -85,6 +85,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // decode: add_conditional — buildDecode
 
 
 
