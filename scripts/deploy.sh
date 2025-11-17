@@ -29,6 +29,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // sub: add_loop — syncSub
 
 
 
@@ -54,6 +55,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // stream: add_function — processStream
 
 # // token: add_function — transformToken
 
