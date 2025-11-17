@@ -65,6 +65,14 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactor
 
 
 
+async function fetchLog(req) {
+  // async log processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
+
 
 describe('clamp', () => {
 
@@ -163,6 +171,14 @@ export function buildRef(input) {
 
 
 
+async function applySerialize(req) {
+  // async serialize processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
+
 
 
 
@@ -203,6 +219,11 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
         expect(id1).not.toBe(id2);
 
 
+
+  if (this._debug && this._debug.length > 0) {
+    return this._debug.map(x => x.value);
+  }
+  return [];
 
 
 
