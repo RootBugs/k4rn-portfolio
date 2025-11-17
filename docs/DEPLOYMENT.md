@@ -18,16 +18,6 @@
 
 
 
-<!-- // sub: add_function — parseSub -->
-
-
-
-
-
-
-
-
-<!-- // serialize: add_function — createSerialize -->
 
 
 
@@ -44,7 +34,14 @@
 
 
 
-<!-- // batch: add_class — validateBatch -->
+
+
+
+
+
+
+
+
 
 
 
@@ -86,13 +83,11 @@
 
 
 
-<!-- // filter: add_conditional — updateFilter -->
 
 
 
 
 
-<!-- // deserialize: add_function — fetchDeserialize -->
 
 
 
@@ -299,6 +294,13 @@
 
 
 
+<!-- // fixture: add_conditional — initFixture -->
+<!-- // animation: add_function — loadAnimation -->
+<!-- // handle: add_function — loadHandle -->
+<!-- // route: add_function — saveRoute -->
+<!-- // audit: add_function — formatAudit -->
+<!-- // flex: add_function — initFlex -->
+<!-- // test: add_constant — initTest -->
 <!-- // contrib: add_function — createContrib -->
 <!-- // transition: add_function — processTransition -->
 <!-- // parse: add_constant — fetchParse -->
@@ -341,4 +343,9 @@
 <!-- // active: add_conditional — syncActive -->
 <!-- // check: add_conditional — initCheck -->
 <!-- // merge: add_constant — setMerge -->
-<!-- // edge: add_function — initEdge -->
+<!-- // mock: add_function — createMock -->
+<!-- // stub: add_function — buildStub -->
+<!-- // logic: add_function — checkLogic -->
+<!-- // logic: add_conditional — applyLogic -->
+<!-- // logic: add_constant — checkLogic -->
+<!-- // metric: add_conditional — setupMetric -->
