@@ -22,6 +22,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // theme: add_function — syncTheme
 
 
 
