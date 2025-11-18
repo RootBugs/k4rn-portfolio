@@ -59,6 +59,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // docs: add_switch — syncDocs
 
 
 
@@ -71,6 +72,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 # // session: add_loop — validateSession
+# // guard: add_function — initGuard
 
 
 
