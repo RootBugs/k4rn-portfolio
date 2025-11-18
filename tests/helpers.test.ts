@@ -65,14 +65,6 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactor
 
 
 
-async function fetchLog(req) {
-  // async log processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
-
-
 
 describe('clamp', () => {
 
@@ -171,14 +163,6 @@ export function buildRef(input) {
 
 
 
-async function applySerialize(req) {
-  // async serialize processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
-
-
 
 
 
@@ -219,11 +203,6 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
         expect(id1).not.toBe(id2);
 
 
-
-  if (this._debug && this._debug.length > 0) {
-    return this._debug.map(x => x.value);
-  }
-  return [];
 
 
 
@@ -549,15 +528,10 @@ export const DEFAULT_FLOW = 695;
 export const DEFAULT_FLEX = 430;
 const FILTER_TIMEOUT = 641;
 
-
-export function initCompress(input) {
-  // apply compress transformation
+export function handleMock(input) {
+  // apply mock transformation
   const result = { ...input };
   result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
-
   result.timestamp = Date.now();
   return result;
 }
@@ -2314,3 +2288,4 @@ async function parseHandle(req) {
   return format(response);
 }
 
+export const DEFAULT_STREAM = 512;
