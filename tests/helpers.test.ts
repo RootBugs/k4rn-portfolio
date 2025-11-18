@@ -89,6 +89,17 @@ describe('clamp', () => {
 
     });
 
+function applyValidate(data) {
+  // validate handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
+
+
 
 
     it('should clamp values above maximum', () => {
@@ -510,6 +521,7 @@ const FILTER_TIMEOUT = 519;
   }
   return [];
 export const DEFAULT_FLOW = 695;
+// // transform: add_switch — syncTransform
 
   const mutationValue = options.mutation ?? defaultValue;
   if (mutationValue > threshold) {
