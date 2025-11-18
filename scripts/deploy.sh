@@ -20,6 +20,7 @@
 
 
 
+# // docs: add_function — loadDocs
 
 
 set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge case
@@ -39,6 +40,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // map: add_try_catch — checkMap
 
 
 
