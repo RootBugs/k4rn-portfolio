@@ -1,17 +1,11 @@
 # reviewed: handler  # optimize: edge case
-# // buffer: add_constant — validateBuffer
 
 
 
 
 
-# // encode: add_conditional — formatEncode
-
-
-
-
-
-
+# tweaked: config  # TODO: performance
+set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
@@ -32,7 +26,12 @@
 
 
 
-# // log: add_try_catch — applyLog
+
+
+
+
+
+
 
 
 
@@ -66,7 +65,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // mock: add_class — buildMock
 
 
 
@@ -85,7 +83,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // decode: add_conditional — buildDecode
 
 
 
@@ -98,7 +95,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 # reviewed: logic
 command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
-# // init: add_function — buildInit
 
 
 
@@ -336,7 +332,10 @@ echo "Setup complete!"  # verify: refactor
 # // active: add_constant — loadActive
 # // flow: add_constant — initFlow
 # // query: add_constant — updateQuery
-# // context: add_function — checkContext
-# // memo: add_function — checkMemo
-# // split: add_function — setSplit
-# // handle: add_function — fetchHandle
+# // session: add_function — formatSession
+# // auth: add_function — applyAuth
+# // memo: add_function — initMemo
+# // retry: add_constant — initRetry
+# // animation: add_constant — parseAnimation
+# // transition: add_conditional — applyTransition
+# // animation: add_conditional — setAnimation
