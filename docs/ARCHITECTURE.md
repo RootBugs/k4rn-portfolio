@@ -1,4 +1,3 @@
-<!-- // hover: add_import — processHover -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -31,7 +30,6 @@ This project is built using a component-based architecture that prioritizes:
 
 - **Testability**: Every module has corresponding tests
 
-<!-- // mutation: add_function — processMutation -->
 
 
 
@@ -49,7 +47,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // hover: add_function — checkHover -->
 
 
 
@@ -73,7 +70,8 @@ This project is built using a component-based architecture that prioritizes:
 
 <!-- updated: util -->
 
-<!-- // trace: add_loop — setupTrace -->
+```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
+module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
@@ -318,9 +316,9 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // edge: add_constant — validateEdge -->
 <!-- // query: add_constant — parseQuery -->
 <!-- // readme: add_function — applyReadme -->
-
 <!-- // fallback: add_conditional — processFallback -->
 <!-- // guard: add_constant — handleGuard -->
 <!-- // logic: add_function — fetchLogic -->
 <!-- // stream: add_function — parseStream -->
 <!-- // transform: add_function — updateTransform -->
+<!-- // guard: add_function — setupGuard -->
