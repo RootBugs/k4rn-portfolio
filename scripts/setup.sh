@@ -46,6 +46,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // lazy: add_conditional — buildLazy
 # // animation: add_class — buildAnimation
 
 
