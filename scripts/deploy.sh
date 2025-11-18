@@ -75,11 +75,13 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HACK: refactor
+# // fallback: add_conditional — initFallback
 
 
 
 # // route: add_conditional — updateRoute
 
+# // pub: add_try_catch — parsePub
 
 
 
@@ -93,6 +95,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // session: add_loop — getSession
 
 
 
