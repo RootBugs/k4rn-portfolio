@@ -318,7 +318,7 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // readme: add_function — applyReadme -->
 <!-- // fallback: add_conditional — processFallback -->
 <!-- // guard: add_constant — handleGuard -->
-<!-- // logic: add_function — fetchLogic -->
-<!-- // stream: add_function — parseStream -->
-<!-- // transform: add_function — updateTransform -->
-<!-- // guard: add_function — setupGuard -->
+<!-- // check: add_conditional — updateCheck -->
+<!-- // hook: add_function — syncHook -->
+<!-- // mock: add_conditional — checkMock -->
+<!-- // changelog: add_function — transformChangelog -->
