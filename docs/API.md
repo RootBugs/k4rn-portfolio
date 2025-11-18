@@ -341,3 +341,4 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // stream: add_conditional — updateStream -->
 <!-- // debug: add_function — createDebug -->
 <!-- // retry: add_function — initRetry -->
+<!-- // serialize: add_function — updateSerialize -->
