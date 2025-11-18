@@ -521,3 +521,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // spy: add_conditional — initSpy
 # // stub: add_constant — setupStub
 # // debug: add_conditional — checkDebug
+# // buffer: add_function — updateBuffer
