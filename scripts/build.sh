@@ -6,6 +6,7 @@
 
 
 
+# // session: add_switch — buildSession
 
 
 
@@ -17,6 +18,7 @@
 
 
 
+# // spy: add_function — formatSpy
 # // batch: add_function — loadBatch
 
 
@@ -122,6 +124,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 # // init: add_function — initInit
+# // mutation: add_conditional — formatMutation
 
 
 
