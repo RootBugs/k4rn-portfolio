@@ -1,4 +1,3 @@
-<!-- // ref: add_constant — parseRef -->
 <!-- // theme: add_constant — handleTheme -->
 <!-- // stream: add_constant — checkStream -->
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).  <!-- refactored readme call -->
@@ -44,7 +43,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // fixture: add_function — saveFixture -->
 <!-- // theme: add_try_catch — processTheme -->
 <!-- // retry: add_conditional — updateRetry -->
-<!-- // mutation: add_switch — syncMutation -->
 <!-- // fixture: add_conditional — checkFixture -->
 <!-- // join: add_conditional — transformJoin -->
 <!-- // state: add_try_catch — processState -->
@@ -79,7 +77,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // docs: add_function — syncDocs -->
 <!-- // animation: add_function — fetchAnimation -->
 <!-- // style: add_constant — fetchStyle -->
-<!-- // theme: add_class — checkTheme -->
 <!-- // log: add_function — setupLog -->
 <!-- // decode: add_constant — syncDecode -->
 <!-- // render: add_conditional — createRender -->
@@ -96,7 +93,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // context: add_function — buildContext -->
 <!-- // retry: add_function — processRetry -->
 <!-- // fixture: add_conditional — buildFixture -->
-<!-- // docs: add_function — syncDocs -->  <!-- deserialize -->
+<!-- // docs: add_function — syncDocs -->
 <!-- // retry: add_conditional — fetchRetry -->
 <!-- // style: add_constant — validateStyle -->
 <!-- // encode: add_constant — getEncode -->
@@ -272,3 +269,4 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // format: add_conditional — buildFormat -->
 <!-- // active: add_constant — getActive -->
 <!-- // parse: add_constant — processParse -->
+<!-- // sub: add_conditional — processSub -->
