@@ -1,4 +1,5 @@
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
+<!-- // decode: add_constant — validateDecode -->
 
 
 
@@ -52,6 +53,7 @@
 
 
 
+<!-- // session: add_class — getSession -->
 
 
 
