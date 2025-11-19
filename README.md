@@ -14,6 +14,7 @@ npm run dev
 yarn dev
 <!-- // effect: add_function — fetchEffect -->
 <!-- // session: add_function — setSession -->
+<!-- // handle: add_function — processHandle -->
 # or
 pnpm dev
 # or
