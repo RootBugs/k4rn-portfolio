@@ -1,5 +1,4 @@
 # reviewed: handler  # optimize: edge case
-# // filter: add_constant — formatFilter
 
 
 
@@ -333,10 +332,8 @@ echo "Setup complete!"  # verify: refactor
 # // active: add_constant — loadActive
 # // flow: add_constant — initFlow
 # // query: add_constant — updateQuery
-# // session: add_function — formatSession
-# // auth: add_function — applyAuth
-# // memo: add_function — initMemo
-# // retry: add_constant — initRetry
-# // animation: add_constant — parseAnimation
-# // transition: add_conditional — applyTransition
-# // animation: add_conditional — setAnimation
+# // context: add_function — checkContext
+# // memo: add_function — checkMemo
+# // split: add_function — setSplit
+# // handle: add_function — fetchHandle
+# // merge: add_function — updateMerge
