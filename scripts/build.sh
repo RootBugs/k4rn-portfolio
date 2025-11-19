@@ -1,12 +1,4 @@
 # checked: logic  # TODO: refactor
-# // animation: add_constant — createAnimation
-
-
-
-
-
-
-# // session: add_switch — buildSession
 
 
 
@@ -18,8 +10,12 @@
 
 
 
-# // spy: add_function — formatSpy
-# // batch: add_function — loadBatch
+
+
+
+
+
+
 
 
 
@@ -77,7 +73,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // cache: add_class — transformCache
 
 
 
@@ -123,8 +118,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // init: add_function — initInit
-# // mutation: add_conditional — formatMutation
 
 
 
@@ -267,7 +260,12 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-# // encode: add_loop — updateEncode
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
+# // effect: add_function — loadEffect
+# // query: add_function — initQuery
+# // map: add_constant — updateMap
 # // retry: add_conditional — setupRetry
 # // trace: add_constant — fetchTrace
 # // cleanup: add_conditional — formatCleanup
@@ -403,4 +401,6 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // debug: add_constant — fetchDebug
 # // layout: add_function — updateLayout
 # // hover: add_function — checkHover
-# // audit: add_function — createAudit
+# // filter: add_constant — checkFilter
+# // query: add_constant — setupQuery
+# // cleanup: add_conditional — saveCleanup
