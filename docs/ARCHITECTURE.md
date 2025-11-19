@@ -57,6 +57,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // setup: add_conditional — buildSetup -->
 
 
 
@@ -122,6 +123,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // sub: add_interface — validateSub -->
 
 
 
