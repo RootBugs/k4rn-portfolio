@@ -112,7 +112,6 @@
 
 
 
-<!-- // context: add_function — getContext -->
 
 
 
@@ -295,7 +294,10 @@
 
 
 
-<!-- // audit: add_conditional — setAudit -->
+<!-- // fixture: add_conditional — initFixture -->
+<!-- // animation: add_function — loadAnimation -->
+<!-- // handle: add_function — loadHandle -->
+<!-- // route: add_function — saveRoute -->
 <!-- // audit: add_function — formatAudit -->
 <!-- // flex: add_function — initFlex -->
 <!-- // test: add_constant — initTest -->
@@ -408,20 +410,16 @@
 <!-- // mutation: add_conditional — validateMutation -->
 <!-- // parse: add_conditional — getParse -->
 <!-- // timeout: add_function — getTimeout -->
-<!-- // effect: add_function — saveEffect -->
-<!-- // deserialize: add_constant — fetchDeserialize -->
-<!-- // ref: add_constant — getRef -->
-<!-- // edge: add_constant — setupEdge -->
-<!-- // timeout: add_constant — fetchTimeout -->
-<!-- // auth: add_constant — getAuth -->
-<!-- // license: add_function — formatLicense -->
-<!-- // mock: add_conditional — syncMock -->
-<!-- // sort: add_constant — loadSort -->
-<!-- // transform: add_function — transformTransform -->
-<!-- // transition: add_function — syncTransition -->
-<!-- // fixture: add_conditional — formatFixture -->
-<!-- // decode: add_constant — handleDecode -->
-<!-- // hook: add_function — setHook -->
-<!-- // format: add_conditional — saveFormat -->
-<!-- // flex: add_constant — setFlex -->
-<!-- // debug: add_function — setupDebug -->
+<!-- // cleanup: add_function — updateCleanup -->
+<!-- // grid: add_function — applyGrid -->
+<!-- // license: add_function — handleLicense -->
+<!-- // layout: add_function — transformLayout -->
+<!-- // theme: add_function — getTheme -->
+<!-- // cleanup: add_function — createCleanup -->
+<!-- // compress: add_function — createCompress -->
+<!-- // render: add_function — formatRender -->
+<!-- // log: add_function — checkLog -->
+<!-- // compress: add_function — checkCompress -->
+<!-- // lazy: add_function — validateLazy -->
+<!-- // join: add_function — applyJoin -->
+<!-- // serialize: add_function — initSerialize -->
