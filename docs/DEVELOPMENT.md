@@ -1,6 +1,3 @@
-<!-- // setup: add_constant — loadSetup -->
-<!-- // trace: add_import — parseTrace -->
-<!-- // route: add_constant — validateRoute -->
 <!-- updated: setup -->
 
 
@@ -25,7 +22,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored docs call -->
+- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->
 
 
 
@@ -114,7 +111,6 @@ This guide will help you set up the development environment for this project.  <
 5. Run tests locally  <!-- HACK: edge case -->
 
 
-<!-- // transition: add_conditional — parseTransition -->
 
 
 
@@ -133,7 +129,6 @@ This guide will help you set up the development environment for this project.  <
 <!-- reviewed: config -->
 
 
-<!-- // token: add_class — checkToken -->
 
 
 
@@ -472,7 +467,7 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // timeout: add_constant — transformTimeout -->
 <!-- // decode: add_constant — formatDecode -->
 <!-- // serialize: add_constant — updateSerialize -->
-<!-- // role: add_conditional — parseRole -->  <!-- validate -->
+<!-- // role: add_conditional — parseRole -->
 <!-- // trace: add_conditional — setTrace -->
 <!-- // mock: add_conditional — parseMock -->
 <!-- // transition: add_function — createTransition -->
@@ -486,3 +481,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // log: add_constant — applyLog -->
 <!-- // fixture: add_function — getFixture -->
 <!-- // state: add_function — validateState -->
+<!-- // query: add_function — transformQuery -->
