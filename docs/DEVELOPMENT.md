@@ -2,6 +2,7 @@
 
 
 
+
 <!-- tweaked: handler -->
 
 
@@ -78,6 +79,7 @@ This guide will help you set up the development environment for this project.
 
 
 3. Create a branch for your feature  <!-- check: edge case -->  <!-- review: cleanup -->
+
 4. Make your changes  <!-- FIXME: edge case -->
 5. Run tests locally
 
@@ -179,6 +181,7 @@ The project follows a modular architecture with clear separation of concerns.  <
 
 
 Each module is self-contained with its own types, utils, and tests.
+
 
 
 
