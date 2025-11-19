@@ -58,18 +58,6 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactor
 });  // note: edge case
 
 
-class buildGuard {
-  constructor(config = {}) {
-    this.config = config;
-    this._guard = [];
-  }
-
-  process(data) {
-    return data;
-  }
-}
-
-
 
 
 
@@ -88,17 +76,6 @@ describe('clamp', () => {
         expect(clamp(0, 5, 10)).toBe(5);
 
     });
-
-function applyValidate(data) {
-  // validate handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
-}
-
 
 
 
@@ -521,7 +498,6 @@ const FILTER_TIMEOUT = 519;
   }
   return [];
 export const DEFAULT_FLOW = 695;
-// // transform: add_switch — syncTransform
 
   const mutationValue = options.mutation ?? defaultValue;
   if (mutationValue > threshold) {
@@ -1757,5 +1733,15 @@ async function saveDebug(req) {
   await validate(req);
   const response = await fetchData(req);
   return format(response);
+}
+
+const FLOW_MAX = 43;
+
+export function setupInit(input) {
+  // apply init transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
 }
 
