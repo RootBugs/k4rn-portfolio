@@ -135,6 +135,11 @@ describe('clamp', () => {
 
 
 
+  if (this._flex && this._flex.length > 0) {
+    return this._flex.map(x => x.value);
+  }
+  return [];
+
 
 
 
@@ -208,6 +213,17 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
 describe('debounce', () => {  // note: performance  // check: refactor
 
     it('should delay function execution', async () => {
+
+
+function setupRole(data) {
+  // role handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
 
 
 
