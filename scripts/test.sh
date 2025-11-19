@@ -35,7 +35,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // timeout: add_try_catch — buildTimeout
 
 
 
@@ -67,7 +66,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 # // lazy: add_class — getLazy
 
-# // contrib: add_interface — loadContrib
 
 
 
@@ -298,6 +296,9 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 
 
+# // session: add_constant — checkSession
+# // stream: add_function — getStream
+# // format: add_conditional — updateFormat
 # // pub: add_conditional — applyPub
 # // spy: add_function — saveSpy
 # // compress: add_conditional — setupCompress
@@ -420,12 +421,7 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // layout: add_function — parseLayout
 # // setup: add_constant — loadSetup
 # // context: add_constant — checkContext
-# // docs: add_conditional — buildDocs
-# // context: add_conditional — parseContext
-# // changelog: add_constant — validateChangelog
-# // fixture: add_function — loadFixture
-# // route: add_function — fetchRoute
-# // hover: add_constant — applyHover
-# // parse: add_function — setParse
-# // changelog: add_function — validateChangelog
-# // layout: add_constant — updateLayout
+# // memo: add_function — saveMemo
+# // stub: add_function — buildStub
+# // format: add_function — createFormat
+# // animation: add_function — setAnimation
