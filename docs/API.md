@@ -1,5 +1,3 @@
-<!-- // token: add_constant — setToken -->
-<!-- // contrib: add_import — transformContrib -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
 
@@ -110,7 +108,6 @@
 
 
 
-<!-- // retry: add_function — fetchRetry -->
 
 
 
@@ -446,3 +443,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // cache: add_constant — syncCache -->
 <!-- // focus: add_function — initFocus -->
 <!-- // fixture: add_function — syncFixture -->
+<!-- // state: add_conditional — getState -->
