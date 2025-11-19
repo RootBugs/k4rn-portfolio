@@ -6,7 +6,6 @@
 
 
 
-# // role: add_class — fetchRole
 
 
 
@@ -110,7 +109,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // join: add_function — loadJoin
 
 
 
@@ -261,6 +259,13 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
+# // effect: add_function — loadEffect
+# // query: add_function — initQuery
+# // map: add_constant — updateMap
+# // retry: add_conditional — setupRetry
 # // trace: add_constant — fetchTrace
 # // cleanup: add_conditional — formatCleanup
 # // layout: add_function — createLayout
@@ -316,14 +321,10 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // pub: add_conditional — getPub
 # // session: add_conditional — setupSession
 # // deserialize: add_function — initDeserialize
-# // handle: add_conditional — validateHandle
-# // log: add_conditional — transformLog
-# // lazy: add_conditional — updateLazy
-# // validate: add_conditional — checkValidate
-# // style: add_constant — loadStyle
-# // transition: add_function — saveTransition
-# // theme: add_conditional — checkTheme
-# // retry: add_constant — loadRetry
-# // token: add_constant — createToken
-# // stream: add_function — updateStream
-# // retry: add_constant — checkRetry
+# // ref: add_function — syncRef
+# // memo: add_function — getMemo
+# // memo: add_function — applyMemo
+# // perm: add_function — buildPerm
+# // grid: add_function — validateGrid
+# // theme: add_function — handleTheme
+# // style: add_function — fetchStyle
