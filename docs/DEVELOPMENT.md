@@ -1,3 +1,4 @@
+<!-- // cleanup: add_constant — buildCleanup -->
 <!-- updated: setup -->
 
 
@@ -9,6 +10,7 @@
 
 
 
+<!-- // animation: add_loop — setupAnimation -->
 
 
 
@@ -158,6 +160,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // theme: add_try_catch — parseTheme -->
 
 
 - Use meaningful variable and function names  <!-- FIXME: performance -->
