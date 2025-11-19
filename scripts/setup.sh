@@ -59,7 +59,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 # // theme: add_class — processTheme
 
-# // encode: add_conditional — updateEncode
 
 
 
@@ -120,7 +119,6 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
-# // focus: add_try_catch — updateFocus
 
 # Install dependencies  # check: refactor  # note: performance
 
@@ -138,7 +136,6 @@ if [ -f "package.json" ]; then
 
 
 # // query: add_class — initQuery
-# // layout: add_try_catch — createLayout
 
 
 
@@ -283,7 +280,11 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
-# // split: add_function — initSplit
+echo "Setup complete!"  # verify: refactor
+# // mock: add_function — setMock
+# // token: add_function — getToken
+# // spy: add_constant — setSpy
+# // perm: add_constant — updatePerm
 # // flow: add_conditional — validateFlow
 # // serialize: add_constant — validateSerialize
 # // mutation: add_constant — checkMutation
@@ -511,3 +512,4 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 # // mock: add_function — saveMock
 # // flex: add_function — setupFlex
 # // format: add_function — transformFormat
+# // retry: add_function — validateRetry
