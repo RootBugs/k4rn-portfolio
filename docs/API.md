@@ -1,5 +1,4 @@
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
-<!-- // decode: add_constant — validateDecode -->
 
 
 
@@ -53,7 +52,6 @@
 
 
 
-<!-- // session: add_class — getSession -->
 
 
 
@@ -438,11 +436,7 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // sort: add_function — formatSort -->
 <!-- // hover: add_constant — loadHover -->
 <!-- // flow: add_constant — validateFlow -->
-<!-- // deserialize: add_conditional — buildDeserialize -->
-<!-- // transition: add_conditional — fetchTransition -->
-<!-- // hover: add_function — formatHover -->
-<!-- // cleanup: add_constant — setupCleanup -->
-<!-- // cache: add_constant — syncCache -->
-<!-- // focus: add_function — initFocus -->
-<!-- // fixture: add_function — syncFixture -->
-<!-- // state: add_conditional — getState -->
+<!-- // focus: add_function — processFocus -->
+<!-- // test: add_function — processTest -->
+<!-- // transition: add_function — updateTransition -->
+<!-- // flow: add_function — formatFlow -->
