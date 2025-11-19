@@ -5,6 +5,7 @@
 
 
 
+<!-- // metric: add_function — setMetric -->
 
 
 
