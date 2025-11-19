@@ -74,7 +74,6 @@
 
 
 
-<!-- // contrib: add_switch — handleContrib -->
 
 
 
@@ -292,3 +291,4 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: validation -->
+<!-- // query: add_conditional — applyQuery -->
