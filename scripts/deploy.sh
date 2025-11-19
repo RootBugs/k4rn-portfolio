@@ -403,3 +403,4 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // setup: add_function — buildSetup
 # // context: add_conditional — parseContext
 # // spy: add_function — syncSpy
+# // log: add_function — getLog
