@@ -12,6 +12,7 @@
 
 
 
+<!-- // format: add_function — loadFormat -->
 
 
 
@@ -127,6 +128,7 @@
 
 
 
+<!-- // log: add_function — createLog -->
 
 
 
