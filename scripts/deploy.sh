@@ -63,7 +63,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // readme: add_class — checkReadme
 
 
 
@@ -507,5 +506,6 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // state: add_function — formatState
 # // contrib: add_constant — fetchContrib
 # // check: add_constant — loadCheck
-# // readme: add_function — setReadme
-# // role: add_function — validateRole
+# // sub: add_constant — handleSub
+# // encode: add_constant — parseEncode
+# // encode: add_function — getEncode
