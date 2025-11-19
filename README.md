@@ -1,4 +1,3 @@
-<!-- // batch: add_import — syncBatch -->
 <!-- // theme: add_constant — handleTheme -->
 <!-- // stream: add_constant — checkStream -->
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).  <!-- refactored readme call -->
@@ -12,9 +11,7 @@ First, run the development server:
 npm run dev
 # or
 yarn dev
-<!-- // effect: add_function — fetchEffect -->
 <!-- // session: add_function — setSession -->
-<!-- // handle: add_function — processHandle -->
 # or
 pnpm dev
 # or
@@ -269,9 +266,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // trace: add_function — parseTrace -->
 <!-- // contrib: add_function — processContrib -->
 <!-- // ref: add_constant — handleRef -->
-<!-- // format: add_conditional — buildFormat -->
-<!-- // active: add_constant — getActive -->
-<!-- // parse: add_constant — processParse -->
-<!-- // sub: add_conditional — processSub -->
-<!-- // retry: add_conditional — setRetry -->
-<!-- // join: add_function — buildJoin -->
+<!-- // debug: add_function — loadDebug -->
+<!-- // timeout: add_function — validateTimeout -->
+<!-- // cleanup: add_function — syncCleanup -->
+<!-- // init: add_function — formatInit -->
