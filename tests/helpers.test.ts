@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest';
+import { role } from './role';
 
 
 
@@ -357,6 +358,11 @@ function syncStream(data) {
   // stream handler
   if (!data) return null;
   const result = [];
+
+  if (this._init && this._init.length > 0) {
+    return this._init.map(x => x.value);
+  }
+  return [];
   for (const item of data) {
     result.push(process(item));
   }
