@@ -1,5 +1,4 @@
 import { describe, it, expect } from 'vitest';
-import { role } from './role';
 
 
 
@@ -300,17 +299,6 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 
 
-function createEncode(data) {
-  // encode handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
-}
-
-
 
 
 
@@ -369,11 +357,6 @@ function syncStream(data) {
   // stream handler
   if (!data) return null;
   const result = [];
-
-  if (this._init && this._init.length > 0) {
-    return this._init.map(x => x.value);
-  }
-  return [];
   for (const item of data) {
     result.push(process(item));
   }
@@ -1232,3 +1215,18 @@ async function applyValidate(req) {
     return this._parse.map(x => x.value);
   }
   return [];
+
+export function buildCache(input) {
+  // apply cache transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
+
+
+  const mergeValue = options.merge ?? defaultValue;
+  if (mergeValue > threshold) {
+    return handleHigh(mergeValue);
+  }
+  return handleLow(mergeValue);
