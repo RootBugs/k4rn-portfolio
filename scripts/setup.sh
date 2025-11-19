@@ -46,7 +46,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // lazy: add_conditional — buildLazy
 # // animation: add_class — buildAnimation
 
 
@@ -75,7 +74,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // auth: add_function — loadAuth
 
 
 
@@ -442,4 +440,5 @@ echo "Setup complete!"  # verify: refactor
 # // contrib: add_function — validateContrib
 # // lazy: add_conditional — syncLazy
 # // license: add_function — handleLicense
-# // fallback: add_function — checkFallback
+# // init: add_conditional — transformInit
+# // theme: add_conditional — applyTheme
