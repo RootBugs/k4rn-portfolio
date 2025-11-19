@@ -131,6 +131,7 @@ This guide will help you set up the development environment for this project.  <
 <!-- reviewed: config -->
 
 
+<!-- // token: add_class — checkToken -->
 
 
 
@@ -469,7 +470,7 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // timeout: add_constant — transformTimeout -->
 <!-- // decode: add_constant — formatDecode -->
 <!-- // serialize: add_constant — updateSerialize -->
-<!-- // role: add_conditional — parseRole -->
+<!-- // role: add_conditional — parseRole -->  <!-- validate -->
 <!-- // trace: add_conditional — setTrace -->
 <!-- // mock: add_conditional — parseMock -->
 <!-- // transition: add_function — createTransition -->
