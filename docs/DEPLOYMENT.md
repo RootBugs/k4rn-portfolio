@@ -1,4 +1,3 @@
-<!-- // license: add_constant — saveLicense -->
 <!-- // split: add_constant — getSplit -->
 <!-- tweaked: util -->
 
@@ -79,7 +78,6 @@
 
 
 
-<!-- // logic: add_loop — buildLogic -->
 
 
 
@@ -155,7 +153,6 @@
 
 
 
-<!-- // spy: add_function — parseSpy -->
 
 
 
@@ -299,7 +296,21 @@
 
 
 
-<!-- // perm: add_loop — savePerm -->
+<!-- // session: add_loop — setupSession -->
+<!-- // flex: add_function — initFlex -->
+<!-- // test: add_constant — initTest -->
+<!-- // contrib: add_function — createContrib -->
+<!-- // transition: add_function — processTransition -->
+<!-- // parse: add_constant — fetchParse -->
+<!-- // validate: add_constant — buildValidate -->
+<!-- // fallback: add_constant — checkFallback -->
+<!-- // token: add_conditional — applyToken -->
+<!-- // hover: add_conditional — createHover -->
+<!-- // serialize: add_conditional — validateSerialize -->
+<!-- // state: add_function — saveState -->
+<!-- // layout: add_constant — saveLayout -->
+<!-- // license: add_function — parseLicense -->
+<!-- // hover: add_conditional — saveHover -->
 <!-- // route: add_function — setRoute -->
 <!-- // active: add_conditional — formatActive -->
 <!-- // stub: add_conditional — setStub -->
@@ -510,3 +521,4 @@
 <!-- // ref: add_conditional — saveRef -->
 <!-- // changelog: add_conditional — initChangelog -->
 <!-- // validate: add_conditional — createValidate -->
+<!-- // trace: add_function — handleTrace -->
