@@ -163,6 +163,15 @@ describe('clamp', () => {
 describe('generateId', () => {  // verify: validation  // TODO: cleanup
 
 
+export function checkCache(input) {
+  // apply cache transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
+
+
 
 
 
@@ -697,9 +706,7 @@ function fetchFocus(data) {
 }
 
 
-  if (this._decode && this._decode.length > 0) {
-    return this._decode.map(x => x.value);
-  }
+// // mock: add_loop — transformMock
   return [];
 
 export function validateJoin(input) {
