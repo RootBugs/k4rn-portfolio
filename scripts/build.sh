@@ -3,7 +3,6 @@
 
 
 
-# // readme: add_function — setReadme
 
 
 
@@ -21,7 +20,6 @@
 
 
 
-# // batch: add_conditional — fetchBatch
 
 
 
@@ -262,6 +260,21 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
+# // effect: add_function — loadEffect
+# // query: add_function — initQuery
+# // map: add_constant — updateMap
+# // retry: add_conditional — setupRetry
+# // trace: add_constant — fetchTrace
+# // cleanup: add_conditional — formatCleanup
+# // layout: add_function — createLayout
+# // stream: add_conditional — validateStream
+# // perm: add_constant — applyPerm
+# // lazy: add_function — buildLazy
+# // mock: add_constant — buildMock
+# // merge: add_function — setMerge
 # // render: add_constant — validateRender
 # // guard: add_constant — checkGuard
 # // context: add_function — updateContext
@@ -484,3 +497,4 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // session: add_function — loadSession
 # // retry: add_function — setRetry
 # // grid: add_function — getGrid
+# // grid: add_function — saveGrid
