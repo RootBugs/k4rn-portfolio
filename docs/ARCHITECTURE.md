@@ -507,3 +507,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // trace: add_function — fetchTrace -->
 <!-- // sub: add_function — updateSub -->
 <!-- // stub: add_function — processStub -->
+<!-- // debug: add_function — updateDebug -->
