@@ -403,3 +403,4 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // hover: add_function — checkHover
 # // audit: add_function — createAudit
 # // auth: add_function — applyAuth
+# // join: add_function — handleJoin
