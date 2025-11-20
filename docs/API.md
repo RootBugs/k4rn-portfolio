@@ -436,3 +436,4 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // test: add_function — processTest -->
 <!-- // transition: add_function — updateTransition -->
 <!-- // flow: add_function — formatFlow -->
+<!-- // layout: add_function — checkLayout -->
