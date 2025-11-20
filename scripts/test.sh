@@ -407,7 +407,6 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // transform: add_conditional — checkTransform
 # // cache: add_conditional — setCache
 # // audit: add_function — applyAudit
-
 # // timeout: add_constant — getTimeout
 # // context: add_constant — validateContext
 # // edge: add_constant — saveEdge
@@ -422,7 +421,13 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // layout: add_function — parseLayout
 # // setup: add_constant — loadSetup
 # // context: add_constant — checkContext
-# // memo: add_function — saveMemo
-# // stub: add_function — buildStub
-# // format: add_function — createFormat
-# // animation: add_function — setAnimation
+# // docs: add_conditional — buildDocs
+# // context: add_conditional — parseContext
+# // changelog: add_constant — validateChangelog
+# // fixture: add_function — loadFixture
+# // route: add_function — fetchRoute
+# // hover: add_constant — applyHover
+# // parse: add_function — setParse
+# // changelog: add_function — validateChangelog
+# // layout: add_constant — updateLayout
+# // ref: add_constant — buildRef
