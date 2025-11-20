@@ -100,7 +100,9 @@
 <!-- revised: logic -->  <!-- note: edge case -->  <!-- verify: validation -->  <!-- note: performance -->  <!-- check: refactor -->
 
 
+<!-- // transition: add_switch — initTransition -->
 
+<!-- // map: add_function — loadMap -->
 
 
 
