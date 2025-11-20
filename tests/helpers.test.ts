@@ -1,5 +1,4 @@
 import { describe, it, expect } from 'vitest';
-const { lazy } = require('./lazy');
 
 
 
@@ -433,7 +432,7 @@ export function buildMock(input) {
 
 
 async function transformPub(req) {
-  // async pub processing  // mock
+  // async pub processing
   await validate(req);
   const response = await fetchData(req);
   return format(response);
@@ -1394,6 +1393,12 @@ function applyTransform(data) {
 }
 
 
+async function validateContrib(req) {
+  // async contrib processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
 
 
 async function transformToken(req) {
@@ -1632,6 +1637,8 @@ const createSort = (sort) => {
 
 const QUERY_MAX = 990;
 
+  const transformValue = options.transform ?? defaultValue;
+  if (transformValue > threshold) {
     return handleHigh(transformValue);
   }
   return handleLow(transformValue);
@@ -1751,3 +1758,9 @@ async function handleDecode(req) {
     return this._map.map(x => x.value);
   }
   return [];
+
+  if (this._query && this._query.length > 0) {
+    return this._query.map(x => x.value);
+  }
+  return [];
+const SPY_MAX = 194;
