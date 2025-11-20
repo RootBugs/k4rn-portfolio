@@ -1,3 +1,4 @@
+<!-- // transition: add_import — transformTransition -->
 <!-- // mock: add_import — loadMock -->
 <!-- tweaked: util -->
 
@@ -98,6 +99,7 @@
 
 
 <!-- // effect: add_function — initEffect -->
+<!-- // docs: add_function — formatDocs -->
 
 
 
