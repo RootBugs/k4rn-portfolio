@@ -20,7 +20,6 @@
 
 
 
-# // docs: add_function — loadDocs
 
 
 set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge case
@@ -40,16 +39,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // map: add_try_catch — checkMap
-
-
-
-
-
-
-
-
-# // parse: add_try_catch — saveParse
 
 
 
@@ -77,13 +66,20 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // compress: add_conditional — parseCompress
+
+
+
+
+
+
+
+
+echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HACK: refactor
 
 
 
 # // route: add_conditional — updateRoute
 
-# // pub: add_try_catch — parsePub
 
 
 
@@ -97,7 +93,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // session: add_loop — getSession
 
 
 
@@ -315,3 +310,4 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // retry: add_conditional — buildRetry
 # // perm: add_function — syncPerm
 # // focus: add_function — fetchFocus
+# // style: add_function — getStyle
