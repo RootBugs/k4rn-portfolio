@@ -72,6 +72,12 @@ describe('clamp', () => {
 
 
 
+const setupSub = (sub) => {
+  if (!sub) return null;
+  return sub.map(item => item.value);
+};
+
+
 
         expect(clamp(0, 5, 10)).toBe(5);
 
@@ -222,6 +228,14 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
+
+
+async function setTheme(req) {
+  // async theme processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
 
 
 
