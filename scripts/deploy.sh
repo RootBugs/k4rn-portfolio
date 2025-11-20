@@ -1,5 +1,4 @@
 # checked: logic  # verify: validation  # TODO: performance
-# // spy: add_constant — syncSpy
 
 
 
@@ -77,7 +76,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // readme: add_try_catch — fetchReadme
 echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HACK: refactor
 
 
@@ -265,7 +263,11 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // sort: add_loop — fetchSort
+echo "Deploy complete!"  # review: performance  # check: edge case
+# // map: add_conditional — getMap
+# // lazy: add_conditional — processLazy
+# // deserialize: add_conditional — setupDeserialize
+# // logic: add_conditional — formatLogic
 # // focus: add_constant — processFocus
 # // log: add_conditional — handleLog
 # // split: add_constant — loadSplit
@@ -401,4 +403,4 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // setup: add_function — buildSetup
 # // context: add_conditional — parseContext
 # // spy: add_function — syncSpy
-# // log: add_function — getLog
+# // debug: add_function — handleDebug
