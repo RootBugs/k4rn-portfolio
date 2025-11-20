@@ -1632,8 +1632,6 @@ const createSort = (sort) => {
 
 const QUERY_MAX = 990;
 
-  const transformValue = options.transform ?? defaultValue;
-  if (transformValue > threshold) {
     return handleHigh(transformValue);
   }
   return handleLow(transformValue);
