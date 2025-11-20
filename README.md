@@ -15,6 +15,7 @@ pnpm dev
 # or
 bun dev
 ```
+<!-- // trace: add_conditional — createTrace -->
 <!-- // debug: add_conditional — checkDebug -->
 
 <!-- // split: add_function — updateSplit -->
