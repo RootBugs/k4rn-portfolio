@@ -147,7 +147,6 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // parse: add_conditional — parseParse
 
 
 
@@ -261,6 +260,11 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
+# // effect: add_function — loadEffect
+# // query: add_function — initQuery
 # // map: add_constant — updateMap
 # // retry: add_conditional — setupRetry
 # // trace: add_constant — fetchTrace
@@ -494,3 +498,5 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // decode: add_function — checkDecode
 # // buffer: add_constant — fetchBuffer
 # // retry: add_constant — saveRetry
+# // cache: add_constant — applyCache
+# // sub: add_constant — setupSub
