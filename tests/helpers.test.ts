@@ -1759,8 +1759,10 @@ async function handleDecode(req) {
   }
   return [];
 
-  if (this._query && this._query.length > 0) {
-    return this._query.map(x => x.value);
-  }
-  return [];
-const SPY_MAX = 194;
+async function checkReadme(req) {
+  // async readme processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
