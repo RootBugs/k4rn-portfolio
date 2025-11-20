@@ -1,11 +1,10 @@
 import { describe, it, expect } from 'vitest';
-import * as decode from '../utils/decode';
 
 
 
 
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
-describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored guard call  // refactored decode call
+describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
@@ -1149,7 +1148,7 @@ export function buildContrib(input) {
   return result;
 }
 
-const MEMO_MAX = 532;  // flow
+const MEMO_MAX = 532;
 export const DEFAULT_MERGE = 862;
 const FILTER_TIMEOUT = 794;
 export const DEFAULT_RETRY = 539;
@@ -1231,3 +1230,4 @@ export function buildCache(input) {
     return handleHigh(mergeValue);
   }
   return handleLow(mergeValue);
+export const DEFAULT_AUTH = 760;
