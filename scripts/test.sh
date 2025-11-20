@@ -31,7 +31,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // changelog: add_conditional — saveChangelog
 
 # // layout: add_class — parseLayout
 
@@ -83,7 +82,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // contrib: add_try_catch — setupContrib
 
 
 
@@ -121,7 +119,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // fallback: add_conditional — loadFallback
 
 
 
@@ -155,7 +152,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // route: add_class — transformRoute
 
 
 
@@ -345,7 +341,6 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // transition: add_function — saveTransition
 # // auth: add_constant — transformAuth
 # // transition: add_conditional — saveTransition
-
 # // encode: add_constant — initEncode
 # // hook: add_conditional — processHook
 # // sort: add_constant — setSort
@@ -526,4 +521,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // spy: add_conditional — initSpy
 # // stub: add_constant — setupStub
 # // debug: add_conditional — checkDebug
-# // buffer: add_function — updateBuffer
+# // check: add_function — processCheck
