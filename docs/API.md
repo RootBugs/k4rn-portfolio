@@ -23,7 +23,6 @@
 
 
 
-<!-- // theme: add_function — updateTheme -->
 
 
 
@@ -51,7 +50,6 @@
 
 
 
-<!-- // state: add_function — createState -->
 
 
 
@@ -64,7 +62,6 @@
 
 
 
-<!-- // deserialize: add_function — checkDeserialize -->
 
 
 
@@ -76,7 +73,6 @@
 
 
 
-<!-- // transition: add_function — saveTransition -->
 
 
 
@@ -97,7 +93,6 @@
 
 
 
-<!-- // edge: add_loop — createEdge -->
 
 
 
@@ -108,11 +103,9 @@
 
 
 
-<!-- // active: add_try_catch — syncActive -->
 
 
 
-<!-- // cleanup: add_try_catch — handleCleanup -->
 
 
 
@@ -297,7 +290,10 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
-<!-- // mutation: add_loop — buildMutation -->
+Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: validation -->
+<!-- // query: add_conditional — applyQuery -->
+<!-- // split: add_function — handleSplit -->
+<!-- // auth: add_function — applyAuth -->
 <!-- // animation: add_function — updateAnimation -->
 <!-- // buffer: add_conditional — fetchBuffer -->
 <!-- // flow: add_constant — handleFlow -->
@@ -346,4 +342,4 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // stream: add_conditional — updateStream -->
 <!-- // debug: add_function — createDebug -->
 <!-- // retry: add_function — initRetry -->
-<!-- // serialize: add_function — updateSerialize -->
+<!-- // deserialize: add_function — checkDeserialize -->
