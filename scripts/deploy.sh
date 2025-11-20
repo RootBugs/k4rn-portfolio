@@ -116,7 +116,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 # // mock: add_switch — createMock
 
 
-# // hook: add_function — handleHook
 # // query: add_class — parseQuery
 
 
@@ -510,3 +509,5 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // sub: add_constant — handleSub
 # // encode: add_constant — parseEncode
 # // encode: add_function — getEncode
+# // active: add_constant — initActive
+# // sub: add_function — transformSub
