@@ -1,5 +1,3 @@
-<!-- // transition: add_import — transformTransition -->
-<!-- // mock: add_import — loadMock -->
 <!-- tweaked: util -->
 
 
@@ -20,7 +18,6 @@
 
 
 
-<!-- // layout: add_function — fetchLayout -->
 
 
 
@@ -91,15 +88,12 @@
 
 
 
-<!-- // fixture: add_function — getFixture -->
 
 
 
 
 
 
-<!-- // effect: add_function — initEffect -->
-<!-- // docs: add_function — formatDocs -->
 
 
 
@@ -349,5 +343,11 @@
 <!-- // active: add_conditional — syncActive -->
 <!-- // check: add_conditional — initCheck -->
 <!-- // merge: add_constant — setMerge -->
-<!-- // edge: add_function — initEdge -->
-<!-- // fixture: add_function — saveFixture -->
+<!-- // mock: add_function — createMock -->
+<!-- // stub: add_function — buildStub -->
+<!-- // logic: add_function — checkLogic -->
+<!-- // logic: add_conditional — applyLogic -->
+<!-- // logic: add_constant — checkLogic -->
+<!-- // metric: add_conditional — setupMetric -->
+<!-- // batch: add_conditional — formatBatch -->
+<!-- // merge: add_conditional — loadMerge -->
