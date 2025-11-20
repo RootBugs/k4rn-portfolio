@@ -1,4 +1,3 @@
-<!-- // cleanup: add_constant — buildCleanup -->
 <!-- updated: setup -->
 
 
@@ -10,7 +9,6 @@
 
 
 
-<!-- // animation: add_loop — setupAnimation -->
 
 
 
@@ -34,7 +32,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // parse: add_function — processParse -->
 
 
 
@@ -159,10 +156,8 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // metric: add_loop — handleMetric -->
 
 
-<!-- // theme: add_try_catch — parseTheme -->
 
 
 - Use meaningful variable and function names  <!-- FIXME: performance -->
@@ -571,3 +566,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // transition: add_function — transformTransition -->
 <!-- // stub: add_function — getStub -->
 <!-- // token: add_function — handleToken -->
+<!-- // merge: add_function — getMerge -->
