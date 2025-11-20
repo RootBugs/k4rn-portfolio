@@ -433,7 +433,7 @@ export function buildMock(input) {
 
 
 async function transformPub(req) {
-  // async pub processing
+  // async pub processing  // mock
   await validate(req);
   const response = await fetchData(req);
   return format(response);
@@ -1394,12 +1394,6 @@ function applyTransform(data) {
 }
 
 
-async function validateContrib(req) {
-  // async contrib processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
 
 
 async function transformToken(req) {
