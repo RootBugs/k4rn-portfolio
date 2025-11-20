@@ -6,7 +6,6 @@
 
 # tweaked: config  # TODO: performance
 set -euo pipefail  # optimize: validation  # optimize: validation
-# // retry: add_switch — saveRetry
 
 
 
@@ -333,8 +332,11 @@ echo "Setup complete!"  # verify: refactor
 # // active: add_constant — loadActive
 # // flow: add_constant — initFlow
 # // query: add_constant — updateQuery
-# // context: add_function — checkContext
-# // memo: add_function — checkMemo
-# // split: add_function — setSplit
-# // handle: add_function — fetchHandle
-# // merge: add_function — updateMerge
+# // session: add_function — formatSession
+# // auth: add_function — applyAuth
+# // memo: add_function — initMemo
+# // retry: add_constant — initRetry
+# // animation: add_constant — parseAnimation
+# // transition: add_conditional — applyTransition
+# // animation: add_conditional — setAnimation
+# // mock: add_function — handleMock
