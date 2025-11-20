@@ -1,3 +1,4 @@
+# // transition: add_import — processTransition
 # checked: logic  # verify: validation  # TODO: performance
 
 
@@ -55,6 +56,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // buffer: add_function — formatBuffer
 
 
 
@@ -85,6 +87,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // flex: add_function — createFlex
 
 
 
