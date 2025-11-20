@@ -59,9 +59,25 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
+async function setCompress(req) {
+  // async compress processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
 
 
 
+
+
+
+
+async function parseDeserialize(req) {
+  // async deserialize processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
 
 
 
