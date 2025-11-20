@@ -343,11 +343,6 @@
 <!-- // active: add_conditional — syncActive -->
 <!-- // check: add_conditional — initCheck -->
 <!-- // merge: add_constant — setMerge -->
-<!-- // mock: add_function — createMock -->
-<!-- // stub: add_function — buildStub -->
-<!-- // logic: add_function — checkLogic -->
-<!-- // logic: add_conditional — applyLogic -->
-<!-- // logic: add_constant — checkLogic -->
-<!-- // metric: add_conditional — setupMetric -->
-<!-- // batch: add_conditional — formatBatch -->
-<!-- // merge: add_conditional — loadMerge -->
+<!-- // edge: add_function — initEdge -->
+<!-- // fixture: add_function — saveFixture -->
+<!-- // buffer: add_function — handleBuffer -->
