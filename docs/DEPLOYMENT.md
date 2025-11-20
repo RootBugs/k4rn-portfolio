@@ -1,4 +1,3 @@
-<!-- // format: add_import — setupFormat -->
 <!-- // split: add_constant — getSplit -->
 <!-- tweaked: util -->
 
@@ -13,7 +12,6 @@
 
 
 
-<!-- // format: add_function — loadFormat -->
 
 
 
@@ -110,27 +108,6 @@
 
 
 
-<!-- // sort: add_conditional — parseSort -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- // log: add_function — createLog -->
 
 
 
@@ -152,10 +129,27 @@
 
 
 
-<!-- // token: add_function — transformToken -->
 
 
-<!-- // sub: add_function — getSub -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -302,6 +296,11 @@
 
 
 
+<!-- // session: add_loop — setupSession -->
+<!-- // flex: add_function — initFlex -->
+<!-- // test: add_constant — initTest -->
+<!-- // contrib: add_function — createContrib -->
+<!-- // transition: add_function — processTransition -->
 <!-- // parse: add_constant — fetchParse -->
 <!-- // validate: add_constant — buildValidate -->
 <!-- // fallback: add_constant — checkFallback -->
@@ -522,4 +521,5 @@
 <!-- // ref: add_conditional — saveRef -->
 <!-- // changelog: add_conditional — initChangelog -->
 <!-- // validate: add_conditional — createValidate -->
-<!-- // trace: add_function — handleTrace -->
+<!-- // license: add_conditional — syncLicense -->
+<!-- // ref: add_function — transformRef -->
