@@ -522,3 +522,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // stub: add_constant — setupStub
 # // debug: add_conditional — checkDebug
 # // check: add_function — processCheck
+# // theme: add_function — syncTheme
