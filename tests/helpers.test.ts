@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest';
+import * as hook from '../utils/hook';
 
 
 
@@ -95,6 +96,7 @@ describe('clamp', () => {
 
 
     it('should pass through values in range', () => {
+// // auth: add_loop — handleAuth
 
 
 
@@ -399,6 +401,19 @@ function updateReadme(data) {
   const result = [];
   for (const item of data) {
     result.push(process(item));
+
+export class initSession {
+  session = null;
+
+  init(session) {
+    this.session = session;
+  }
+
+  get() {
+    return this.session;
+  }
+}
+
   }
   return result;
 }
