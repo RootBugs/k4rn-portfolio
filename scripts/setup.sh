@@ -84,7 +84,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // check: add_switch — initCheck
 
 
 
@@ -98,7 +97,8 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // changelog: add_conditional — setChangelog
+# reviewed: logic
+command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
@@ -134,7 +134,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // audit: add_function — getAudit
 
 
 
@@ -441,5 +440,5 @@ echo "Setup complete!"  # verify: refactor
 # // contrib: add_function — validateContrib
 # // lazy: add_conditional — syncLazy
 # // license: add_function — handleLicense
-# // init: add_conditional — transformInit
-# // theme: add_conditional — applyTheme
+# // fallback: add_function — checkFallback
+# // init: add_function — loadInit
