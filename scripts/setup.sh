@@ -84,6 +84,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // check: add_switch — initCheck
 
 
 
@@ -133,6 +134,7 @@ if [ -f "package.json" ]; then
 
 
 
+# // audit: add_function — getAudit
 
 
 
