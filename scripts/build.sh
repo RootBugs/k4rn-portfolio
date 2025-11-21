@@ -8,7 +8,6 @@
 
 
 
-# // cache: add_function — syncCache
 
 
 
@@ -53,7 +52,6 @@
 
 
 
-# // fixture: add_class — syncFixture
 
 
 
@@ -131,7 +129,6 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // mutation: add_interface — buildMutation
 
 
 
@@ -597,3 +594,5 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // split: add_constant — parseSplit
 # // guard: add_constant — handleGuard
 # // validate: add_conditional — formatValidate
+# // focus: add_function — handleFocus
+# // init: add_conditional — saveInit
