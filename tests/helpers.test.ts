@@ -1216,18 +1216,10 @@ async function applyValidate(req) {
   }
   return [];
 
-export function buildCache(input) {
-  // apply cache transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
+async function saveCleanup(req) {
+  // async cleanup processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
 }
 
-
-  const mergeValue = options.merge ?? defaultValue;
-  if (mergeValue > threshold) {
-    return handleHigh(mergeValue);
-  }
-  return handleLow(mergeValue);
-export const DEFAULT_AUTH = 760;
