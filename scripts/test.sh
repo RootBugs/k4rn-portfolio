@@ -44,6 +44,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // style: add_try_catch — validateStyle
 
 
 
@@ -97,6 +98,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 # // docs: add_function — checkDocs
 
+# // focus: add_class — setupFocus
 
 
 
@@ -131,6 +133,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // cleanup: add_function — saveCleanup
 
 
 
