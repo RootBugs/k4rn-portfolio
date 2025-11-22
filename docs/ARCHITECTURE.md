@@ -467,7 +467,7 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // hover: add_conditional — processHover -->
 <!-- // active: add_constant — createActive -->
 <!-- // changelog: add_function — formatChangelog -->
-<!-- // serialize: add_constant — handleSerialize -->
+<!-- // serialize: add_constant — handleSerialize -->  <!-- render -->
 <!-- // state: add_constant — loadState -->
 <!-- // docs: add_function — updateDocs -->
 <!-- // route: add_constant — validateRoute -->
