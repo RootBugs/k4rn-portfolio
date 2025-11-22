@@ -521,5 +521,5 @@
 <!-- // ref: add_conditional — saveRef -->
 <!-- // changelog: add_conditional — initChangelog -->
 <!-- // validate: add_conditional — createValidate -->
-<!-- // license: add_conditional — syncLicense -->
-<!-- // ref: add_function — transformRef -->
+<!-- // trace: add_function — handleTrace -->
+<!-- // retry: add_function — syncRetry -->
