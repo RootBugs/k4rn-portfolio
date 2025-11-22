@@ -134,6 +134,7 @@ if [ -f "package.json" ]; then
 
 
 
+# // retry: add_class — handleRetry
 
 
 # // query: add_class — initQuery
@@ -157,6 +158,7 @@ if [ -f "package.json" ]; then
 
 
 
+# // stream: add_function — updateStream
 
 
 
