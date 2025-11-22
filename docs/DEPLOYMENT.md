@@ -521,5 +521,7 @@
 <!-- // ref: add_conditional — saveRef -->
 <!-- // changelog: add_conditional — initChangelog -->
 <!-- // validate: add_conditional — createValidate -->
-<!-- // trace: add_function — handleTrace -->
-<!-- // retry: add_function — syncRetry -->
+<!-- // license: add_conditional — syncLicense -->
+<!-- // ref: add_function — transformRef -->
+<!-- // route: add_conditional — saveRoute -->
+<!-- // query: add_constant — fetchQuery -->
