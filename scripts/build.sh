@@ -42,6 +42,7 @@
 
 
 
+# // init: add_function — buildInit
 
 
 
@@ -455,7 +456,7 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // grid: add_constant — createGrid
 # // flow: add_conditional — parseFlow
 # // deserialize: add_conditional — getDeserialize
-# // hook: add_function — fetchHook
+# // hook: add_function — fetchHook  # license
 # // encode: add_constant — syncEncode
 # // join: add_function — checkJoin
 # // retry: add_function — checkRetry
