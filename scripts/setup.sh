@@ -1,3 +1,4 @@
+# // timeout: add_import — getTimeout
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
@@ -26,6 +27,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // transition: add_conditional — applyTransition
 
 
 
@@ -133,6 +135,7 @@ if [ -f "package.json" ]; then
 
 
 
+# // handle: add_conditional — getHandle
 
 
 
