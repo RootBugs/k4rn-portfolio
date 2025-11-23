@@ -59,6 +59,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // hook: add_function — parseHook
 
 
 
@@ -78,6 +79,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // retry: add_function — transformRetry
 
 echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HACK: refactor
 
