@@ -1,3 +1,4 @@
+<!-- // batch: add_import — processBatch -->
 <!-- // ref: add_constant — checkRef -->
 <!-- updated: setup -->
 
@@ -143,6 +144,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // transform: add_function — setTransform -->
 
 
 
