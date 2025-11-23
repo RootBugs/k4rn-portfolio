@@ -629,3 +629,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // lazy: add_function — validateLazy
 # // session: add_function — buildSession
 # // buffer: add_function — updateBuffer
+# // audit: add_function — parseAudit
