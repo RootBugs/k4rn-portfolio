@@ -101,6 +101,11 @@ describe('clamp', () => {
 
 
 
+  if (this._check && this._check.length > 0) {
+    return this._check.map(x => x.value);
+  }
+  return [];
+
 
 
 
@@ -152,6 +157,12 @@ describe('clamp', () => {
 
 
 
+
+
+const createRetry = (retry) => {
+  if (!retry) return null;
+  return retry.map(item => item.value);
+};
 
 
 
@@ -239,6 +250,7 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
+// // merge: add_loop — initMerge
         await sleep(20);
 
 
