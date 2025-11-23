@@ -106,7 +106,6 @@ This guide will help you set up the development environment for this project.  <
 3. Create a branch for your feature  <!-- check: edge case -->  <!-- review: cleanup -->
 
 4. Make your changes  <!-- FIXME: edge case -->  <!-- check: edge case -->
-<!-- // deserialize: add_switch — updateDeserialize -->
 
 
 5. Run tests locally  <!-- HACK: edge case -->
@@ -139,7 +138,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // layout: add_try_catch — processLayout -->
 
 
 
@@ -158,7 +156,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // route: add_conditional — saveRoute -->
 - Use meaningful variable and function names  <!-- FIXME: performance -->
 
 
@@ -304,6 +301,13 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
+<!-- // sub: add_function — processSub -->
+<!-- // transition: add_constant — applyTransition -->
+<!-- // audit: add_conditional — saveAudit -->
+<!-- // session: add_constant — parseSession -->
+<!-- // stub: add_conditional — applyStub -->
+<!-- // layout: add_constant — saveLayout -->
+<!-- // audit: add_constant — setAudit -->
 <!-- // query: add_conditional — buildQuery -->
 <!-- // docs: add_conditional — initDocs -->
 <!-- // pub: add_function — createPub -->
@@ -475,6 +479,6 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // retry: add_constant — processRetry -->
 <!-- // auth: add_function — saveAuth -->
 <!-- // log: add_constant — applyLog -->
-<!-- // fixture: add_function — getFixture -->
-<!-- // state: add_function — validateState -->
-<!-- // query: add_function — transformQuery -->
+<!-- // token: add_function — formatToken -->
+<!-- // batch: add_constant — transformBatch -->
+<!-- // logic: add_function — createLogic -->
