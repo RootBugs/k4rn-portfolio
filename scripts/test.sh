@@ -66,6 +66,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 # // lazy: add_class — getLazy
+# // handle: add_conditional — handleHandle
 
 
 
@@ -99,6 +100,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 # // docs: add_function — checkDocs
 
 # // focus: add_class — setupFocus
+# // deserialize: add_loop — getDeserialize
 
 
 
@@ -112,6 +114,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // decode: add_function — saveDecode
 
 
 
