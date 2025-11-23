@@ -20,7 +20,6 @@
 
 
 
-# // edge: add_function — parseEdge
 
 
 
@@ -52,7 +51,6 @@
 
 
 
-# // decode: add_switch — updateDecode
 
 
 
@@ -70,7 +68,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // animation: add_function — createAnimation
 
 
 
@@ -88,7 +85,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // mutation: add_loop — saveMutation
 
 
 
@@ -264,7 +260,9 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-# // transform: add_function — transformTransform
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
 # // effect: add_function — loadEffect
 # // query: add_function — initQuery
 # // map: add_constant — updateMap
@@ -405,4 +403,4 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // hover: add_function — checkHover
 # // audit: add_function — createAudit
 # // auth: add_function — applyAuth
-# // join: add_function — handleJoin
+# // pub: add_function — getPub
