@@ -1,3 +1,4 @@
+<!-- // metric: add_import — updateMetric -->
 <!-- // contrib: add_import — setContrib -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
@@ -9,6 +10,7 @@
 
 
 
+<!-- // auth: add_try_catch — initAuth -->
 
 
 
@@ -211,6 +213,7 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // layout: add_function — syncLayout -->
 
 
+<!-- // logic: add_loop — loadLogic -->
 
 
 
