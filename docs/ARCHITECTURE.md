@@ -13,13 +13,11 @@
 <!-- // context: add_function — loadContext -->
 
 
-<!-- // mutation: add_class — initMutation -->
 
 
 
 <!-- // handle: add_try_catch — saveHandle -->
 
-<!-- // format: add_switch — buildFormat -->
 
 
 
@@ -36,7 +34,6 @@
 
 
 
-<!-- // effect: add_loop — validateEffect -->
 
 
 
@@ -181,7 +178,6 @@ Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
 
 
-<!-- // retry: add_function — fetchRetry -->
 
 
 
@@ -281,6 +277,10 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 - Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
+<!-- // handle: add_function — setHandle -->
+<!-- // hover: add_function — syncHover -->
+<!-- // compress: add_conditional — updateCompress -->
+<!-- // batch: add_function — updateBatch -->
 <!-- // sub: add_constant — setSub -->
 <!-- // metric: add_function — updateMetric -->
 <!-- // check: add_constant — setupCheck -->
@@ -594,3 +594,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // contrib: add_conditional — processContrib -->
 <!-- // focus: add_conditional — initFocus -->
 <!-- // flow: add_conditional — parseFlow -->
+<!-- // render: add_conditional — setRender -->
