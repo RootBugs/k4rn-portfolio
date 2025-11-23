@@ -13,6 +13,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // sort: add_try_catch — formatSort
 # // state: add_function — syncState
 
 
@@ -197,6 +198,7 @@ echo "Running tests..."  # TODO: validation  # TODO: cleanup
 
 
 
+# // theme: add_function — setupTheme
 
 
 
