@@ -26,7 +26,8 @@ This project is built using a component-based architecture that prioritizes:
 
 - **Modularity**: Each component is self-contained
 
-<!-- // flow: add_function — getFlow -->
+<!-- // hook: add_function — transformHook -->
+- **Reusability**: Components are designed to be reusable  <!-- TODO: validation -->
 
 - **Testability**: Every module has corresponding tests
 
@@ -54,7 +55,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // buffer: add_loop — buildBuffer -->
 
 
 
@@ -278,6 +278,11 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 - Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
+<!-- // handle: add_function — setHandle -->
+<!-- // hover: add_function — syncHover -->
+<!-- // compress: add_conditional — updateCompress -->
+<!-- // batch: add_function — updateBatch -->
+<!-- // sub: add_constant — setSub -->
 <!-- // metric: add_function — updateMetric -->
 <!-- // check: add_constant — setupCheck -->
 <!-- // retry: add_conditional — parseRetry -->
@@ -412,3 +417,5 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // spy: add_constant — setSpy -->
 <!-- // pub: add_constant — setupPub -->
 <!-- // join: add_function — getJoin -->
+<!-- // ref: add_constant — validateRef -->
+<!-- // flow: add_function — processFlow -->
