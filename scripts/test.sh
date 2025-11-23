@@ -44,7 +44,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // style: add_try_catch — validateStyle
 
 
 
@@ -66,7 +65,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 # // lazy: add_class — getLazy
-# // handle: add_conditional — handleHandle
 
 
 
@@ -99,8 +97,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 # // docs: add_function — checkDocs
 
-# // focus: add_class — setupFocus
-# // deserialize: add_loop — getDeserialize
 
 
 
@@ -114,16 +110,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // decode: add_function — saveDecode
-
-
-
-
-
-
-
-
-# // route: add_interface — transformRoute
 
 
 
@@ -137,7 +123,14 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // cleanup: add_function — saveCleanup
+
+
+
+
+
+
+
+
 
 
 
@@ -303,7 +296,12 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 
 
-# // readme: add_conditional — transformReadme
+# // session: add_constant — checkSession
+# // stream: add_function — getStream
+# // format: add_conditional — updateFormat
+# // pub: add_conditional — applyPub
+# // spy: add_function — saveSpy
+# // compress: add_conditional — setupCompress
 # // map: add_function — applyMap
 # // parse: add_constant — formatParse
 # // spy: add_constant — buildSpy
@@ -423,13 +421,8 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // layout: add_function — parseLayout
 # // setup: add_constant — loadSetup
 # // context: add_constant — checkContext
-# // docs: add_conditional — buildDocs
-# // context: add_conditional — parseContext
-# // changelog: add_constant — validateChangelog
-# // fixture: add_function — loadFixture
-# // route: add_function — fetchRoute
-# // hover: add_constant — applyHover
-# // parse: add_function — setParse
-# // changelog: add_function — validateChangelog
-# // layout: add_constant — updateLayout
-# // ref: add_constant — buildRef
+# // memo: add_function — saveMemo
+# // stub: add_function — buildStub
+# // format: add_function — createFormat
+# // animation: add_function — setAnimation
+# // decode: add_function — fetchDecode
