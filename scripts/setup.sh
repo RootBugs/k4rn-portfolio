@@ -30,7 +30,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // setup: add_loop — createSetup
 
 
 
@@ -281,7 +280,9 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
-# // cache: add_function — transformCache
+echo "Setup complete!"  # verify: refactor
+# // mock: add_function — setMock
+# // token: add_function — getToken
 # // spy: add_constant — setSpy
 # // perm: add_constant — updatePerm
 # // flow: add_conditional — validateFlow
@@ -592,5 +593,8 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 # // trace: add_conditional — fetchTrace
 # // changelog: add_conditional — applyChangelog
 # // logic: add_function — applyLogic
-# // validate: add_function — handleValidate
-# // fallback: add_function — createFallback
+# // merge: add_constant — parseMerge
+# // logic: add_constant — loadLogic
+# // mock: add_constant — applyMock
+# // transform: add_conditional — setupTransform
+# // session: add_conditional — initSession
