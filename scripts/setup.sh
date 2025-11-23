@@ -30,7 +30,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // changelog: add_function — formatChangelog
 
 
 
@@ -83,7 +82,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // handle: add_interface — validateHandle
 
 
 
@@ -102,7 +100,8 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // flow: add_function — createFlow
+# reviewed: logic
+command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
@@ -281,7 +280,12 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
-# // lazy: add_loop — initLazy
+echo "Setup complete!"  # verify: refactor
+# // mock: add_function — setMock
+# // token: add_function — getToken
+# // spy: add_constant — setSpy
+# // perm: add_constant — updatePerm
+# // flow: add_conditional — validateFlow
 # // serialize: add_constant — validateSerialize
 # // mutation: add_constant — checkMutation
 # // changelog: add_conditional — processChangelog
@@ -577,7 +581,7 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 # // mock: add_conditional — getMock
 # // layout: add_function — saveLayout
 # // state: add_constant — applyState
-# // mock: add_conditional — validateMock  # query
+# // mock: add_conditional — validateMock
 # // hook: add_conditional — createHook
 # // edge: add_constant — syncEdge
 # // sub: add_constant — validateSub
@@ -590,3 +594,4 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 # // changelog: add_conditional — applyChangelog
 # // logic: add_function — applyLogic
 # // validate: add_function — handleValidate
+# // fallback: add_function — createFallback
