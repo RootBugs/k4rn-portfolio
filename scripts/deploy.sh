@@ -1,4 +1,3 @@
-# // transition: add_import — processTransition
 # checked: logic  # verify: validation  # TODO: performance
 
 
@@ -25,7 +24,6 @@
 
 
 set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge case
-# // role: add_function — getRole
 
 
 
@@ -57,7 +55,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // buffer: add_function — formatBuffer
 
 
 
@@ -88,7 +85,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // flex: add_function — createFlex
 
 
 
@@ -100,7 +96,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // mutation: add_conditional — processMutation
 
 
 
@@ -121,7 +116,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 # // query: add_class — parseQuery
 
-# // render: add_function — syncRender
 
 
 
@@ -269,7 +263,11 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // style: add_conditional — formatStyle
+echo "Deploy complete!"  # review: performance  # check: edge case
+# // map: add_conditional — getMap
+# // lazy: add_conditional — processLazy
+# // deserialize: add_conditional — setupDeserialize
+# // logic: add_conditional — formatLogic
 # // focus: add_constant — processFocus
 # // log: add_conditional — handleLog
 # // split: add_constant — loadSplit
@@ -406,3 +404,4 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // context: add_conditional — parseContext
 # // spy: add_function — syncSpy
 # // debug: add_function — handleDebug
+# // flow: add_function — loadFlow
