@@ -92,16 +92,15 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // auth: add_function — validateAuth
+# reviewed: logic
+command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
-# // filter: add_try_catch — updateFilter
 
 
 
 
-# // handle: add_function — applyHandle
 
 
 
@@ -341,3 +340,4 @@ echo "Setup complete!"  # verify: refactor
 # // transition: add_conditional — applyTransition
 # // animation: add_conditional — setAnimation
 # // mock: add_function — handleMock
+# // fixture: add_function — transformFixture
