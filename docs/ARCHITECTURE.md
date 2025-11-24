@@ -1,3 +1,4 @@
+<!-- // join: add_constant — saveJoin -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -11,8 +12,6 @@
 
 
 
-<!-- reviewed: util -->  <!-- TODO: cleanup -->
-This project is built using a component-based architecture that prioritizes:
 
 
 
@@ -32,6 +31,7 @@ This project is built using a component-based architecture that prioritizes:
 - **Testability**: Every module has corresponding tests
 
 <!-- // trace: add_function — getTrace -->
+<!-- // guard: add_function — syncGuard -->
 
 
 
