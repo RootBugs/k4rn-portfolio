@@ -100,15 +100,6 @@
 <!-- revised: logic -->  <!-- note: edge case -->  <!-- verify: validation -->  <!-- note: performance -->  <!-- check: refactor -->
 
 
-<!-- // transition: add_switch — initTransition -->
-
-<!-- // map: add_function — loadMap -->
-
-
-
-
-
-<!-- // init: add_class — transformInit -->
 
 
 
@@ -141,7 +132,12 @@
 
 
 
-<!-- // encode: add_function — loadEncode -->
+
+
+
+
+
+
 
 
 
@@ -294,7 +290,12 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
-<!-- // mock: add_conditional — createMock -->
+Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: validation -->
+<!-- // query: add_conditional — applyQuery -->
+<!-- // split: add_function — handleSplit -->
+<!-- // auth: add_function — applyAuth -->
+<!-- // animation: add_function — updateAnimation -->
+<!-- // buffer: add_conditional — fetchBuffer -->
 <!-- // flow: add_constant — handleFlow -->
 <!-- // buffer: add_conditional — parseBuffer -->
 <!-- // deserialize: add_conditional — formatDeserialize -->
@@ -435,8 +436,13 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // sort: add_function — formatSort -->
 <!-- // hover: add_constant — loadHover -->
 <!-- // flow: add_constant — validateFlow -->
-<!-- // focus: add_function — processFocus -->
-<!-- // test: add_function — processTest -->
-<!-- // transition: add_function — updateTransition -->
-<!-- // flow: add_function — formatFlow -->
-<!-- // layout: add_function — checkLayout -->
+<!-- // deserialize: add_conditional — buildDeserialize -->
+<!-- // transition: add_conditional — fetchTransition -->
+<!-- // hover: add_function — formatHover -->
+<!-- // cleanup: add_constant — setupCleanup -->
+<!-- // cache: add_constant — syncCache -->
+<!-- // focus: add_function — initFocus -->
+<!-- // fixture: add_function — syncFixture -->
+<!-- // state: add_conditional — getState -->
+<!-- // join: add_conditional — applyJoin -->
+<!-- // query: add_conditional — loadQuery -->
