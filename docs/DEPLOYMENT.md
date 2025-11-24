@@ -94,7 +94,6 @@
 
 
 
-<!-- // style: add_switch — updateStyle -->
 
 
 
@@ -295,7 +294,9 @@
 
 
 
-<!-- // batch: add_loop — checkBatch -->
+<!-- // fixture: add_conditional — initFixture -->
+<!-- // animation: add_function — loadAnimation -->
+<!-- // handle: add_function — loadHandle -->
 <!-- // route: add_function — saveRoute -->
 <!-- // audit: add_function — formatAudit -->
 <!-- // flex: add_function — initFlex -->
@@ -428,3 +429,5 @@
 <!-- // debug: add_function — setupDebug -->
 <!-- // sort: add_function — setSort -->
 <!-- // format: add_constant — initFormat -->
+<!-- // readme: add_conditional — buildReadme -->
+<!-- // retry: add_constant — createRetry -->
