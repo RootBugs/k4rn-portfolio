@@ -1,4 +1,3 @@
-<!-- // pub: add_constant — savePub -->
 <!-- updated: setup -->
 
 
@@ -367,16 +366,9 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // route: add_function — parseRoute -->
 <!-- // effect: add_conditional — applyEffect -->
 <!-- // timeout: add_conditional — formatTimeout -->
-<!-- // timeout: add_constant — applyTimeout -->
-<!-- // mutation: add_function — getMutation -->
-<!-- // session: add_conditional — handleSession -->
-<!-- // log: add_conditional — transformLog -->
-<!-- // pub: add_conditional — fetchPub -->
+<!-- // query: add_function — setupQuery -->
+<!-- // encode: add_function — formatEncode -->
 <!-- // guard: add_function — fetchGuard -->
-<!-- // spy: add_function — syncSpy -->
-<!-- // init: add_constant — getInit -->
-<!-- // focus: add_function — initFocus -->
-<!-- // mutation: add_constant — setMutation -->
-<!-- // setup: add_constant — setSetup -->
-<!-- // buffer: add_conditional — fetchBuffer -->
-<!-- // trace: add_conditional — createTrace -->
+<!-- // auth: add_function — createAuth -->
+<!-- // cleanup: add_function — buildCleanup -->
+<!-- // memo: add_function — setMemo -->
