@@ -150,7 +150,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // log: add_function — setLog -->
 
 
 
@@ -480,6 +479,7 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // retry: add_constant — processRetry -->
 <!-- // auth: add_function — saveAuth -->
 <!-- // log: add_constant — applyLog -->
-<!-- // token: add_function — formatToken -->
-<!-- // batch: add_constant — transformBatch -->
-<!-- // logic: add_function — createLogic -->
+<!-- // fixture: add_function — getFixture -->
+<!-- // state: add_function — validateState -->
+<!-- // query: add_function — transformQuery -->
+<!-- // docs: add_function — setupDocs -->
