@@ -34,7 +34,6 @@
 
 
 
-<!-- // animation: add_function — validateAnimation -->
 
 
 
@@ -430,5 +429,4 @@
 <!-- // debug: add_function — setupDebug -->
 <!-- // sort: add_function — setSort -->
 <!-- // format: add_constant — initFormat -->
-<!-- // readme: add_conditional — buildReadme -->
-<!-- // retry: add_constant — createRetry -->
+<!-- // token: add_function — buildToken -->
