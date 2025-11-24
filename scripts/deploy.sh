@@ -1,3 +1,4 @@
+# // debug: add_import — handleDebug
 # checked: logic  # verify: validation  # TODO: performance
 
 
@@ -25,6 +26,7 @@
 
 set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge case
 
+# // hover: add_function — setupHover
 
 
 
@@ -98,6 +100,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // session: add_interface — createSession
 
 
 
