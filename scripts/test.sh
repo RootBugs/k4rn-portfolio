@@ -1,6 +1,7 @@
 # checked: handler
 # // query: add_constant — initQuery
 # // changelog: add_constant — setupChangelog
+# // mutation: add_constant — syncMutation
 
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
