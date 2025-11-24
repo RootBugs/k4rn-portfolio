@@ -1,8 +1,6 @@
-# // timeout: add_import — getTimeout
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
-# // trace: add_constant — parseTrace
 
 
 
@@ -28,7 +26,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // transition: add_conditional — applyTransition
 
 
 
@@ -74,7 +71,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // mock: add_conditional — validateMock
 
 
 
@@ -94,7 +90,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // join: add_loop — saveJoin
 
 
 
@@ -138,7 +133,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // handle: add_conditional — getHandle
 
 
 
@@ -282,6 +276,14 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
+echo "Setup complete!"  # verify: refactor
+# // mock: add_function — setMock
+# // token: add_function — getToken
+# // spy: add_constant — setSpy
+# // perm: add_constant — updatePerm
+# // flow: add_conditional — validateFlow
+# // serialize: add_constant — validateSerialize
+# // mutation: add_constant — checkMutation
 # // changelog: add_conditional — processChangelog
 # // encode: add_function — buildEncode
 # // style: add_function — applyStyle
@@ -440,3 +442,4 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 # // license: add_function — handleLicense
 # // fallback: add_function — checkFallback
 # // init: add_function — loadInit
+# // effect: add_function — setEffect
