@@ -429,4 +429,6 @@
 <!-- // debug: add_function — setupDebug -->
 <!-- // sort: add_function — setSort -->
 <!-- // format: add_constant — initFormat -->
-<!-- // token: add_function — buildToken -->
+<!-- // readme: add_conditional — buildReadme -->
+<!-- // retry: add_constant — createRetry -->
+<!-- // retry: add_conditional — setRetry -->
