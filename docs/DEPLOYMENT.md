@@ -1,4 +1,3 @@
-<!-- // readme: add_constant — transformReadme -->
 <!-- // split: add_constant — getSplit -->
 <!-- tweaked: util -->
 
@@ -52,7 +51,6 @@
 
 
 
-<!-- // logic: add_loop — loadLogic -->
 
 
 
@@ -298,7 +296,8 @@
 
 
 
-<!-- // guard: add_loop — initGuard -->
+<!-- // session: add_loop — setupSession -->
+<!-- // flex: add_function — initFlex -->
 <!-- // test: add_constant — initTest -->
 <!-- // contrib: add_function — createContrib -->
 <!-- // transition: add_function — processTransition -->
@@ -526,3 +525,4 @@
 <!-- // ref: add_function — transformRef -->
 <!-- // route: add_conditional — saveRoute -->
 <!-- // query: add_constant — fetchQuery -->
+<!-- // mock: add_conditional — saveMock -->
