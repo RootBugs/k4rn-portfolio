@@ -22,6 +22,7 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
+
     it('should wait for the specified time', async () => {  // optimize: performance
         const start = Date.now();
         await sleep(10);
@@ -113,7 +114,6 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
 
 
     it('should generate unique IDs', () => {  // review: cleanup
-
 
 
 
@@ -221,7 +221,7 @@ describe('groupBy', () => {  // optimize: performance
 
         ];  // optimize: cleanup  // check: edge case  // check: edge case
 
-        const grouped = groupBy(items, item => item.type);  // check: validation
+        const grouped = groupBy(items, item => item.type);  // check: validation  // FIXME: refactor
 
 
 
