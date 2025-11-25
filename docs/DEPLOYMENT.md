@@ -1,3 +1,4 @@
+<!-- // readme: add_constant — transformReadme -->
 <!-- // split: add_constant — getSplit -->
 <!-- tweaked: util -->
 
