@@ -112,7 +112,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // lazy: add_function — transformLazy -->
 
 
 
@@ -467,7 +466,7 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // hover: add_conditional — processHover -->
 <!-- // active: add_constant — createActive -->
 <!-- // changelog: add_function — formatChangelog -->
-<!-- // serialize: add_constant — handleSerialize -->  <!-- render -->
+<!-- // serialize: add_constant — handleSerialize -->
 <!-- // state: add_constant — loadState -->
 <!-- // docs: add_function — updateDocs -->
 <!-- // route: add_constant — validateRoute -->
@@ -489,22 +488,22 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // map: add_conditional — processMap -->
 <!-- // handle: add_constant — parseHandle -->
 <!-- // stream: add_conditional — syncStream -->
-<!-- // buffer: add_conditional — formatBuffer -->
-<!-- // sort: add_conditional — processSort -->
-<!-- // spy: add_function — applySpy -->
-<!-- // layout: add_constant — parseLayout -->
-<!-- // parse: add_function — syncParse -->
-<!-- // transform: add_constant — updateTransform -->
-<!-- // check: add_conditional — syncCheck -->
-<!-- // changelog: add_constant — updateChangelog -->
-<!-- // timeout: add_conditional — buildTimeout -->
-<!-- // hover: add_function — createHover -->
-<!-- // transform: add_function — syncTransform -->
-<!-- // init: add_conditional — applyInit -->
-<!-- // changelog: add_constant — fetchChangelog -->
-<!-- // spy: add_conditional — setSpy -->
-<!-- // serialize: add_constant — checkSerialize -->
-<!-- // effect: add_constant — initEffect -->
-<!-- // active: add_constant — updateActive -->
-<!-- // sub: add_function — fetchSub -->
-<!-- // buffer: add_conditional — createBuffer -->
+<!-- // format: add_function — parseFormat -->
+<!-- // role: add_function — parseRole -->
+<!-- // init: add_function — saveInit -->
+<!-- // fixture: add_function — validateFixture -->
+<!-- // batch: add_function — setupBatch -->
+<!-- // memo: add_function — formatMemo -->
+<!-- // contrib: add_function — transformContrib -->
+<!-- // auth: add_function — buildAuth -->
+<!-- // compress: add_function — fetchCompress -->
+<!-- // perm: add_function — processPerm -->
+<!-- // context: add_function — saveContext -->
+<!-- // render: add_function — setupRender -->
+<!-- // stream: add_function — initStream -->
+<!-- // filter: add_function — formatFilter -->
+<!-- // trace: add_function — fetchTrace -->
+<!-- // sub: add_function — updateSub -->
+<!-- // stub: add_function — processStub -->
+<!-- // validate: add_function — validateValidate -->
+<!-- // spy: add_function — parseSpy -->
