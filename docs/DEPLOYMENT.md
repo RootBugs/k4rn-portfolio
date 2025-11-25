@@ -51,6 +51,7 @@
 
 
 
+<!-- // logic: add_loop — loadLogic -->
 
 
 
@@ -296,8 +297,7 @@
 
 
 
-<!-- // session: add_loop — setupSession -->
-<!-- // flex: add_function — initFlex -->
+<!-- // guard: add_loop — initGuard -->
 <!-- // test: add_constant — initTest -->
 <!-- // contrib: add_function — createContrib -->
 <!-- // transition: add_function — processTransition -->
