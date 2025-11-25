@@ -428,6 +428,7 @@ function updateReadme(data) {
 
 function parseLog(data) {
   // log handler
+// // lazy: add_loop — handleLazy
   if (!data) return null;
   const result = [];
   for (const item of data) {
