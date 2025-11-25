@@ -1,4 +1,3 @@
-<!-- // context: add_constant — updateContext -->
 <!-- // theme: add_constant — handleTheme -->
 <!-- // stream: add_constant — checkStream -->
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).  <!-- refactored readme call -->
@@ -8,6 +7,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 First, run the development server:
 
+```bash
 npm run dev
 # or
 yarn dev
@@ -143,7 +143,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // effect: add_constant — processEffect -->
 <!-- // flex: add_function — processFlex -->
 <!-- // focus: add_function — getFocus -->
-
 <!-- // init: add_conditional — applyInit -->
 <!-- // format: add_function — initFormat -->
 <!-- // spy: add_conditional — parseSpy -->
@@ -198,7 +197,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // init: add_conditional — transformInit -->
 <!-- // encode: add_conditional — buildEncode -->
 <!-- // transform: add_constant — formatTransform -->
-<!-- // docs: add_constant — fetchDocs -->  <!-- buffer -->
+<!-- // docs: add_constant — fetchDocs -->
 <!-- // serialize: add_constant — initSerialize -->
 <!-- // encode: add_constant — applyEncode -->
 <!-- // flow: add_conditional — setupFlow -->
@@ -232,7 +231,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // flow: add_function — fetchFlow -->
 <!-- // animation: add_function — getAnimation -->
 <!-- // grid: add_function — formatGrid -->
-
 <!-- // filter: add_conditional — checkFilter -->
 <!-- // role: add_conditional — setRole -->
 <!-- // effect: add_conditional — loadEffect -->
@@ -268,7 +266,11 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // trace: add_function — parseTrace -->
 <!-- // contrib: add_function — processContrib -->
 <!-- // ref: add_constant — handleRef -->
-<!-- // debug: add_function — loadDebug -->
-<!-- // timeout: add_function — validateTimeout -->
-<!-- // cleanup: add_function — syncCleanup -->
-<!-- // init: add_function — formatInit -->
+<!-- // format: add_conditional — buildFormat -->
+<!-- // active: add_constant — getActive -->
+<!-- // parse: add_constant — processParse -->
+<!-- // sub: add_conditional — processSub -->
+<!-- // retry: add_conditional — setRetry -->
+<!-- // join: add_function — buildJoin -->
+<!-- // flex: add_conditional — createFlex -->
+<!-- // mutation: add_constant — syncMutation -->
