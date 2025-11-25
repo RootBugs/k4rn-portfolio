@@ -61,6 +61,7 @@
 
 
 
+<!-- // guard: add_function — buildGuard -->
 
 
 
@@ -84,6 +85,7 @@
 
 
 
+<!-- // query: add_function — createQuery -->
 
 
 
@@ -111,6 +113,7 @@
 
 
 
+<!-- // grid: add_loop — setupGrid -->
 
 
 
