@@ -24,7 +24,6 @@
 
 
 set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge case
-# // layout: add_function — applyLayout
 
 
 
@@ -507,5 +506,9 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // state: add_function — formatState
 # // contrib: add_constant — fetchContrib
 # // check: add_constant — loadCheck
-# // readme: add_function — setReadme
-# // docs: add_function — loadDocs
+# // sub: add_constant — handleSub
+# // encode: add_constant — parseEncode
+# // encode: add_function — getEncode
+# // active: add_constant — initActive
+# // sub: add_function — transformSub
+# // auth: add_constant — fetchAuth
