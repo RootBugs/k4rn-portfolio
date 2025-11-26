@@ -8,6 +8,7 @@
 
 
 
+<!-- // init: add_loop — handleInit -->
 
 
 
@@ -85,6 +86,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // context: add_function — fetchContext -->
 
 
 
