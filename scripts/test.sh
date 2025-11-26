@@ -521,3 +521,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // debug: add_conditional — checkDebug
 # // check: add_function — processCheck
 # // theme: add_function — loadTheme
+# // audit: add_function — handleAudit
