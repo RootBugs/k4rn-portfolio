@@ -6,6 +6,14 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 First, run the development server:
 
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
@@ -20,8 +28,6 @@ To learn more about Next.js, take a look at the following resources:
 
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-<!-- // focus: add_conditional — formatFocus -->
-<!-- // audit: add_function — saveAudit -->
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
@@ -29,6 +35,10 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
+<!-- // render: add_loop — fetchRender -->
+<!-- // docs: add_constant — setDocs -->
+<!-- // fixture: add_function — saveFixture -->
+<!-- // retry: add_conditional — updateRetry -->
 <!-- // fixture: add_conditional — checkFixture -->
 <!-- // join: add_conditional — transformJoin -->
 <!-- // parse: add_function — applyParse -->
@@ -78,10 +88,16 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // retry: add_function — processRetry -->
 <!-- // fixture: add_conditional — buildFixture -->
 <!-- // docs: add_function — syncDocs -->
-<!-- // style: add_function — applyStyle -->
-<!-- // join: add_function — processJoin -->
-<!-- // context: add_function — transformContext -->
-<!-- // init: add_function — applyInit -->
-<!-- // route: add_function — applyRoute -->
-<!-- // auth: add_function — handleAuth -->
-<!-- // spy: add_function — getSpy -->
+<!-- // retry: add_conditional — fetchRetry -->
+<!-- // style: add_constant — validateStyle -->
+<!-- // encode: add_constant — getEncode -->
+<!-- // state: add_function — initState -->
+<!-- // license: add_constant — parseLicense -->
+<!-- // test: add_conditional — processTest -->
+<!-- // audit: add_constant — fetchAudit -->
+<!-- // token: add_function — processToken -->
+<!-- // join: add_conditional — saveJoin -->
+<!-- // memo: add_function — applyMemo -->
+<!-- // mutation: add_constant — processMutation -->
+<!-- // edge: add_conditional — getEdge -->
+<!-- // split: add_function — setSplit -->
