@@ -1,10 +1,8 @@
-# // validate: add_import — initValidate
 # checked: logic  # verify: validation  # TODO: performance
 
 
 
 
-# // parse: add_class — getParse
 
 
 
@@ -28,7 +26,6 @@
 
 set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge case
 
-# // mutation: add_class — formatMutation
 
 
 
@@ -61,7 +58,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // hook: add_function — parseHook
 
 
 
@@ -81,7 +77,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // retry: add_function — transformRetry
 
 echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HACK: refactor
 
@@ -152,7 +147,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // debug: add_function — setupDebug
 
 
 
@@ -608,3 +602,4 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // token: add_function — initToken
 # // readme: add_function — createReadme
 # // retry: add_function — formatRetry
+# // guard: add_function — checkGuard
