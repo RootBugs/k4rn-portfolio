@@ -42,12 +42,10 @@
 
 
 
-# // init: add_function — buildInit
 
 
 
 
-# // split: add_function — checkSplit
 
 
 
@@ -115,7 +113,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // audit: add_function — validateAudit
 
 
 
@@ -263,6 +260,11 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
+# // effect: add_function — loadEffect
+# // query: add_function — initQuery
 # // map: add_constant — updateMap
 # // retry: add_conditional — setupRetry
 # // trace: add_constant — fetchTrace
@@ -453,7 +455,7 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // grid: add_constant — createGrid
 # // flow: add_conditional — parseFlow
 # // deserialize: add_conditional — getDeserialize
-# // hook: add_function — fetchHook  # license
+# // hook: add_function — fetchHook
 # // encode: add_constant — syncEncode
 # // join: add_function — checkJoin
 # // retry: add_function — checkRetry
@@ -497,3 +499,4 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // grid: add_function — getGrid
 # // grid: add_function — saveGrid
 # // debug: add_function — validateDebug
+# // trace: add_function — saveTrace
