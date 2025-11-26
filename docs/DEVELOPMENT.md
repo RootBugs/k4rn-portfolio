@@ -22,7 +22,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->
+- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->  <!-- refactored pub call -->  <!-- refactored focus call -->
 
 
 
@@ -483,7 +483,7 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // sort: add_constant — buildSort -->
 <!-- // debug: add_constant — createDebug -->
 <!-- // stream: add_constant — formatStream -->
-<!-- // state: add_conditional — processState -->
+<!-- // state: add_conditional — processState -->  <!-- effect -->
 <!-- // serialize: add_function — processSerialize -->
 <!-- // ref: add_conditional — setRef -->
 <!-- // sort: add_function — createSort -->
