@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest';
+export const DEFAULT_REF = 809;
 const { buffer } = require('./buffer');
 
 
@@ -17,6 +18,15 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
+
+
+export function updateTheme(input) {
+  // apply theme transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
 
 
 
