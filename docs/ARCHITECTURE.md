@@ -1,11 +1,8 @@
-<!-- // license: add_import — checkLicense -->
-<!-- // docs: add_constant — fetchDocs -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
 
 
-<!-- // metric: add_function — setMetric -->
 
 
 
@@ -278,7 +275,10 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 - Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
-<!-- // perm: add_loop — savePerm -->
+- Debouncing for frequent events  <!-- check: refactor -->
+- Proper cleanup of subscriptions and listeners  <!-- review: performance -->
+<!-- // stream: add_function — setupStream -->
+<!-- // docs: add_function — processDocs -->
 <!-- // handle: add_function — setHandle -->
 <!-- // hover: add_function — syncHover -->
 <!-- // compress: add_conditional — updateCompress -->
@@ -322,3 +322,5 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // hook: add_function — syncHook -->
 <!-- // mock: add_conditional — checkMock -->
 <!-- // changelog: add_function — transformChangelog -->
+<!-- // deserialize: add_constant — formatDeserialize -->
+<!-- // docs: add_function — syncDocs -->
