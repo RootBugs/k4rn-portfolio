@@ -1,3 +1,4 @@
+<!-- // context: add_import — parseContext -->
 <!-- tweaked: util -->
 
 
@@ -16,6 +17,7 @@
 
 
 
+<!-- // active: add_interface — createActive -->
 
 
 
@@ -297,11 +299,7 @@
 
 
 
-<!-- // pub: add_conditional — parsePub -->
-<!-- // flex: add_function — initFlex -->
-<!-- // test: add_constant — initTest -->
-<!-- // contrib: add_function — createContrib -->
-<!-- // transition: add_function — processTransition -->
+<!-- // filter: add_loop — applyFilter -->
 <!-- // parse: add_constant — fetchParse -->
 <!-- // validate: add_constant — buildValidate -->
 <!-- // fallback: add_constant — checkFallback -->
