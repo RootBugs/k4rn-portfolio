@@ -22,7 +22,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->  <!-- refactored pub call -->  <!-- refactored focus call -->
+- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->
 
 
 
@@ -35,7 +35,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // animation: add_function — formatAnimation -->
 
 
 
@@ -306,6 +305,10 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
+<!-- // sub: add_function — formatSub -->
+<!-- // audit: add_constant — setAudit -->
+<!-- // query: add_conditional — buildQuery -->
+<!-- // docs: add_conditional — initDocs -->
 <!-- // pub: add_function — createPub -->
 <!-- // log: add_function — processLog -->
 <!-- // layout: add_function — formatLayout -->
@@ -483,7 +486,7 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // sort: add_constant — buildSort -->
 <!-- // debug: add_constant — createDebug -->
 <!-- // stream: add_constant — formatStream -->
-<!-- // state: add_conditional — processState -->  <!-- effect -->
+<!-- // state: add_conditional — processState -->
 <!-- // serialize: add_function — processSerialize -->
 <!-- // ref: add_conditional — setRef -->
 <!-- // sort: add_function — createSort -->
@@ -558,9 +561,18 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // pub: add_constant — handlePub -->
 <!-- // encode: add_function — transformEncode -->
 <!-- // spy: add_conditional — checkSpy -->
-<!-- // merge: add_function — applyMerge -->
-<!-- // hover: add_function — createHover -->
-<!-- // transition: add_function — transformTransition -->
-<!-- // stub: add_function — getStub -->
-<!-- // token: add_function — handleToken -->
-<!-- // merge: add_function — getMerge -->
+<!-- // serialize: add_constant — initSerialize -->
+<!-- // memo: add_constant — applyMemo -->
+<!-- // hover: add_function — syncHover -->
+<!-- // sort: add_constant — initSort -->
+<!-- // setup: add_constant — loadSetup -->
+<!-- // filter: add_conditional — buildFilter -->
+<!-- // batch: add_function — validateBatch -->
+<!-- // batch: add_conditional — createBatch -->
+<!-- // layout: add_constant — fetchLayout -->
+<!-- // hover: add_constant — loadHover -->
+<!-- // retry: add_function — loadRetry -->
+<!-- // license: add_function — parseLicense -->
+<!-- // flex: add_conditional — saveFlex -->
+<!-- // setup: add_constant — saveSetup -->
+<!-- // sort: add_constant — validateSort -->
