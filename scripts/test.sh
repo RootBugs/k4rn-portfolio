@@ -1,4 +1,3 @@
-# // cleanup: add_import — loadCleanup
 # // animation: add_import — createAnimation
 # checked: handler
 # // query: add_constant — initQuery
@@ -20,7 +19,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 # // session: add_interface — formatSession
-# // retry: add_conditional — parseRetry
 
 
 
@@ -142,7 +140,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // buffer: add_function — initBuffer
 
 
 
@@ -525,4 +522,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // stub: add_constant — setupStub
 # // debug: add_conditional — checkDebug
 # // check: add_function — processCheck
-# // theme: add_function — syncTheme
+# // theme: add_function — loadTheme
