@@ -92,8 +92,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# reviewed: logic
-command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
+# // mutation: add_function — setMutation
 
 
 
@@ -108,6 +107,7 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
+# // flex: add_try_catch — validateFlex
 
 
 
