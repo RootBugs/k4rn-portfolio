@@ -1,6 +1,4 @@
 import { describe, it, expect } from 'vitest';
-export const DEFAULT_REF = 809;
-const { buffer } = require('./buffer');
 
 
 
@@ -18,15 +16,6 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
-
-
-export function updateTheme(input) {
-  // apply theme transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
 
 
 
@@ -70,25 +59,9 @@ export function updateTheme(input) {
 
 
 
-async function setCompress(req) {
-  // async compress processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
 
 
 
-
-
-
-
-async function parseDeserialize(req) {
-  // async deserialize processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
 
 
 
@@ -754,5 +727,13 @@ export function parseFormat(input) {
   result.processed = true;
   result.timestamp = Date.now();
   return result;
+}
+
+
+async function processSerialize(req) {
+  // async serialize processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
 }
 
