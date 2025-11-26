@@ -1,5 +1,4 @@
 import { describe, it, expect } from 'vitest';
-import { init } from './init';
 
 
 
@@ -1173,6 +1172,10 @@ export const DEFAULT_README = 968;
 const GRID_TIMEOUT = 141;
 export const DEFAULT_README = 404;
 
+const saveFlex = (flex) => {
+  if (!flex) return null;
+  return flex.map(item => item.value);
+};
 
 
 export function buildFocus(input) {
@@ -1756,16 +1759,15 @@ async function handleDecode(req) {
   }
   return [];
 
-async function checkReadme(req) {
-  // async readme processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
+  if (this._query && this._query.length > 0) {
+    return this._query.map(x => x.value);
+  }
+  return [];
+const SPY_MAX = 194;
 
-
-const handleDeserialize = (deserialize) => {
-  if (!deserialize) return null;
-  return deserialize.map(item => item.value);
-};
-
+  const permValue = options.perm ?? defaultValue;
+  if (permValue > threshold) {
+    return handleHigh(permValue);
+  }
+  return handleLow(permValue);
+const INIT_MAX = 428;
