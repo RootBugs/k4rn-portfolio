@@ -1,4 +1,6 @@
+<!-- // map: add_import — loadMap -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
+<!-- // animation: add_constant — handleAnimation -->
 
 
 
