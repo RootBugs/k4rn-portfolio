@@ -1,5 +1,4 @@
 import { describe, it, expect } from 'vitest';
-export const DEFAULT_STATE = 184;
 
 
 
@@ -71,12 +70,6 @@ describe('clamp', () => {
     it('should clamp values below minimum', () => {  // review: performance  // FIXME: performance  // review: edge case
 
 
-
-
-const setupSub = (sub) => {
-  if (!sub) return null;
-  return sub.map(item => item.value);
-};
 
 
 
@@ -229,14 +222,6 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
-
-
-async function setTheme(req) {
-  // async theme processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
 
 
 
@@ -428,7 +413,6 @@ function updateReadme(data) {
 
 function parseLog(data) {
   // log handler
-// // lazy: add_loop — handleLazy
   if (!data) return null;
   const result = [];
   for (const item of data) {
@@ -1781,4 +1765,10 @@ async function checkReadme(req) {
   const response = await fetchData(req);
   return format(response);
 }
+
+
+const handleDeserialize = (deserialize) => {
+  if (!deserialize) return null;
+  return deserialize.map(item => item.value);
+};
 
