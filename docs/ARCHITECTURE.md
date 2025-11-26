@@ -139,6 +139,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // buffer: add_function — fetchBuffer -->
 
 
 ├── constants.ts      # Module constants  <!-- optimize: performance -->
