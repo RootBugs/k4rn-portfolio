@@ -1,4 +1,3 @@
-<!-- // context: add_import — parseContext -->
 <!-- tweaked: util -->
 
 
@@ -17,7 +16,6 @@
 
 
 
-<!-- // active: add_interface — createActive -->
 
 
 
@@ -63,7 +61,6 @@
 
 
 
-<!-- // guard: add_function — buildGuard -->
 
 
 
@@ -87,7 +84,6 @@
 
 
 
-<!-- // query: add_function — createQuery -->
 
 
 
@@ -115,7 +111,6 @@
 
 
 
-<!-- // grid: add_loop — setupGrid -->
 
 
 
@@ -299,7 +294,15 @@
 
 
 
-<!-- // filter: add_loop — applyFilter -->
+<!-- // fixture: add_conditional — initFixture -->
+<!-- // animation: add_function — loadAnimation -->
+<!-- // handle: add_function — loadHandle -->
+<!-- // route: add_function — saveRoute -->
+<!-- // audit: add_function — formatAudit -->
+<!-- // flex: add_function — initFlex -->
+<!-- // test: add_constant — initTest -->
+<!-- // contrib: add_function — createContrib -->
+<!-- // transition: add_function — processTransition -->
 <!-- // parse: add_constant — fetchParse -->
 <!-- // validate: add_constant — buildValidate -->
 <!-- // fallback: add_constant — checkFallback -->
@@ -343,3 +346,4 @@
 <!-- // edge: add_function — initEdge -->
 <!-- // fixture: add_function — saveFixture -->
 <!-- // buffer: add_function — handleBuffer -->
+<!-- // fallback: add_function — saveFallback -->
