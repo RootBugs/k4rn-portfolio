@@ -1,6 +1,5 @@
-<!-- // ref: add_import — checkRef -->
 <!-- // stream: add_constant — checkStream -->
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).  <!-- refactored buffer call -->
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
 
@@ -22,7 +21,6 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-<!-- // stream: add_function — parseStream -->
 
 <!-- updated: logic -->
 
@@ -90,16 +88,11 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // retry: add_function — processRetry -->
 <!-- // fixture: add_conditional — buildFixture -->
 <!-- // docs: add_function — syncDocs -->
-<!-- // retry: add_conditional — fetchRetry -->
-<!-- // style: add_constant — validateStyle -->
-<!-- // encode: add_constant — getEncode -->
-<!-- // state: add_function — initState -->
-<!-- // license: add_constant — parseLicense -->
-<!-- // test: add_conditional — processTest -->
-<!-- // audit: add_constant — fetchAudit -->
-<!-- // token: add_function — processToken -->
-<!-- // join: add_conditional — saveJoin -->
-<!-- // memo: add_function — applyMemo -->
-<!-- // mutation: add_constant — processMutation -->
-<!-- // edge: add_conditional — getEdge -->
-<!-- // split: add_function — setSplit -->
+<!-- // style: add_function — applyStyle -->
+<!-- // join: add_function — processJoin -->
+<!-- // context: add_function — transformContext -->
+<!-- // init: add_function — applyInit -->
+<!-- // route: add_function — applyRoute -->
+<!-- // auth: add_function — handleAuth -->
+<!-- // spy: add_function — getSpy -->
+<!-- // test: add_function — buildTest -->
