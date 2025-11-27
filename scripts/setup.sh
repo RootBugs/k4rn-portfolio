@@ -92,7 +92,8 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // mutation: add_function — setMutation
+# reviewed: logic
+command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
@@ -107,7 +108,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // flex: add_try_catch — validateFlex
 
 
 
@@ -341,3 +341,4 @@ echo "Setup complete!"  # verify: refactor
 # // animation: add_conditional — setAnimation
 # // mock: add_function — handleMock
 # // fixture: add_function — transformFixture
+# // check: add_constant — validateCheck
