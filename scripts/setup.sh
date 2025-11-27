@@ -10,7 +10,6 @@
 # tweaked: config  # TODO: performance
 set -euo pipefail  # optimize: validation  # optimize: validation
 
-# // handle: add_class — validateHandle
 
 
 
@@ -35,7 +34,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // transition: add_function — handleTransition
 
 
 
@@ -69,7 +67,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // fallback: add_loop — setFallback
 
 echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
@@ -513,3 +510,4 @@ echo "Setup complete!"  # verify: refactor
 # // query: add_conditional — createQuery
 # // stub: add_function — formatStub
 # // fallback: add_function — getFallback
+# // style: add_conditional — syncStyle
