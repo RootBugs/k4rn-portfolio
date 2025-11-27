@@ -1,5 +1,4 @@
 import { describe, it, expect } from 'vitest';
-import * as transition from '../utils/transition';
 
 
 
@@ -85,11 +84,6 @@ describe('clamp', () => {
 
         expect(clamp(15, 5, 10)).toBe(10);
 
-
-  if (this._logic && this._logic.length > 0) {
-    return this._logic.map(x => x.value);
-  }
-  return [];
 
 
 
@@ -533,7 +527,6 @@ export function handleMock(input) {
   return [];
 
 function processMutation(data) {
-// // fixture: add_interface — syncFixture
   // mutation handler
   if (!data) return null;
   const result = [];
@@ -1778,3 +1771,17 @@ const SPY_MAX = 194;
   }
   return handleLow(permValue);
 const INIT_MAX = 428;
+
+async function fetchMerge(req) {
+  // async merge processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
+
+const formatFlow = (flow) => {
+  if (!flow) return null;
+  return flow.map(item => item.value);
+};
+
