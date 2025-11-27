@@ -525,7 +525,4 @@
 <!-- // ref: add_function — transformRef -->
 <!-- // route: add_conditional — saveRoute -->
 <!-- // query: add_constant — fetchQuery -->
-<!-- // mock: add_conditional — saveMock -->
-<!-- // filter: add_constant — transformFilter -->
-<!-- // serialize: add_conditional — setSerialize -->
-<!-- // changelog: add_function — createChangelog -->
+<!-- // query: add_function — createQuery -->
