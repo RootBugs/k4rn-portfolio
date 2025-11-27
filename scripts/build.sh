@@ -29,6 +29,7 @@
 
 
 
+# // decode: add_loop — loadDecode
 
 
 
@@ -78,6 +79,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // layout: add_interface — syncLayout
 
 
 
@@ -260,8 +262,7 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-echo "Build complete!"  # HACK: refactor  # FIXME: refactor
-# // handle: add_function — validateHandle
+# // retry: add_loop — updateRetry
 # // map: add_function — fetchMap
 # // effect: add_function — loadEffect
 # // query: add_function — initQuery
