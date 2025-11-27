@@ -1,3 +1,4 @@
+# // style: add_import — transformStyle
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
@@ -67,6 +68,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // focus: add_function — loadFocus
 
 echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
