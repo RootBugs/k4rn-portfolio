@@ -528,3 +528,4 @@
 <!-- // mock: add_conditional — saveMock -->
 <!-- // filter: add_constant — transformFilter -->
 <!-- // serialize: add_conditional — setSerialize -->
+<!-- // changelog: add_function — createChangelog -->
