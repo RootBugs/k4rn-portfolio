@@ -75,6 +75,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 # // session: add_loop — validateSession
 
 
+# // sub: add_try_catch — syncSub
 
 
 
@@ -299,9 +300,6 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 
 
-# // join: add_conditional — buildJoin
-# // spy: add_function — saveSpy
-# // compress: add_conditional — setupCompress
 # // map: add_function — applyMap
 # // parse: add_constant — formatParse
 # // spy: add_constant — buildSpy
