@@ -8,10 +8,11 @@
 
 
 
-<!-- // init: add_loop — handleInit -->
 
 
 
+<!-- reviewed: util -->  <!-- TODO: cleanup -->
+This project is built using a component-based architecture that prioritizes:
 
 
 
@@ -45,7 +46,6 @@
 
 
 
-<!-- // route: add_function — formatRoute -->
 
 
 
@@ -84,9 +84,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // stub: add_function — buildStub -->
 
-<!-- // context: add_function — fetchContext -->
 
 
 
@@ -139,7 +137,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // buffer: add_function — fetchBuffer -->
 
 
 ├── constants.ts      # Module constants  <!-- optimize: performance -->
@@ -491,22 +488,24 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // map: add_conditional — processMap -->
 <!-- // handle: add_constant — parseHandle -->
 <!-- // stream: add_conditional — syncStream -->
-<!-- // format: add_function — parseFormat -->
-<!-- // role: add_function — parseRole -->
-<!-- // init: add_function — saveInit -->
-<!-- // fixture: add_function — validateFixture -->
-<!-- // batch: add_function — setupBatch -->
-<!-- // memo: add_function — formatMemo -->
-<!-- // contrib: add_function — transformContrib -->
-<!-- // auth: add_function — buildAuth -->
-<!-- // compress: add_function — fetchCompress -->
-<!-- // perm: add_function — processPerm -->
-<!-- // context: add_function — saveContext -->
-<!-- // render: add_function — setupRender -->
-<!-- // stream: add_function — initStream -->
-<!-- // filter: add_function — formatFilter -->
-<!-- // trace: add_function — fetchTrace -->
-<!-- // sub: add_function — updateSub -->
-<!-- // stub: add_function — processStub -->
-<!-- // validate: add_function — validateValidate -->
-<!-- // spy: add_function — parseSpy -->
+<!-- // buffer: add_conditional — formatBuffer -->
+<!-- // sort: add_conditional — processSort -->
+<!-- // spy: add_function — applySpy -->
+<!-- // layout: add_constant — parseLayout -->
+<!-- // parse: add_function — syncParse -->
+<!-- // transform: add_constant — updateTransform -->
+<!-- // check: add_conditional — syncCheck -->
+<!-- // changelog: add_constant — updateChangelog -->
+<!-- // timeout: add_conditional — buildTimeout -->
+<!-- // hover: add_function — createHover -->
+<!-- // transform: add_function — syncTransform -->
+<!-- // init: add_conditional — applyInit -->
+<!-- // changelog: add_constant — fetchChangelog -->
+<!-- // spy: add_conditional — setSpy -->
+<!-- // serialize: add_constant — checkSerialize -->
+<!-- // effect: add_constant — initEffect -->
+<!-- // active: add_constant — updateActive -->
+<!-- // sub: add_function — fetchSub -->
+<!-- // buffer: add_conditional — createBuffer -->
+<!-- // readme: add_function — initReadme -->
+<!-- // cleanup: add_function — transformCleanup -->
