@@ -29,11 +29,9 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // hover: add_conditional — parseHover
 
 
 
-# // cache: add_loop — checkCache
 
 
 
@@ -267,7 +265,10 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // check: add_conditional — setupCheck
+echo "Deploy complete!"  # review: performance  # check: edge case
+# // map: add_conditional — getMap
+# // lazy: add_conditional — processLazy
+# // deserialize: add_conditional — setupDeserialize
 # // logic: add_conditional — formatLogic
 # // focus: add_constant — processFocus
 # // log: add_conditional — handleLog
@@ -511,3 +512,4 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // active: add_constant — initActive
 # // sub: add_function — transformSub
 # // auth: add_constant — fetchAuth
+# // debug: add_function — parseDebug
