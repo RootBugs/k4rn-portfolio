@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest';
+const { map } = require('./map');
 
 
 
@@ -98,6 +99,19 @@ describe('clamp', () => {
 
 
 
+
+
+export class parseFocus {
+  focus = null;
+
+  init(focus) {
+    this.focus = focus;
+  }
+
+  get() {
+    return this.focus;
+  }
+}
 
 
 
