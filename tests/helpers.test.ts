@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-const { map } = require('./map');
+const { map } = require('./map');  // refactored render call
 
 
 
