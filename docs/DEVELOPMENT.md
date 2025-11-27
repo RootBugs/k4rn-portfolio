@@ -6,7 +6,6 @@
 
 
 
-<!-- // decode: add_function — fetchDecode -->
 
 
 
@@ -44,7 +43,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // debug: add_try_catch — buildDebug -->
 
 
 
@@ -77,7 +75,6 @@ This guide will help you set up the development environment for this project.  <
 
 1. Fork and clone the repository  <!-- note: refactor -->
 
-<!-- // lazy: add_loop — buildLazy -->
 
 
 
@@ -369,18 +366,10 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // route: add_function — parseRoute -->
 <!-- // effect: add_conditional — applyEffect -->
 <!-- // timeout: add_conditional — formatTimeout -->
-<!-- // timeout: add_constant — applyTimeout -->
-<!-- // mutation: add_function — getMutation -->
-<!-- // session: add_conditional — handleSession -->
-<!-- // log: add_conditional — transformLog -->
-<!-- // pub: add_conditional — fetchPub -->
+<!-- // query: add_function — setupQuery -->
+<!-- // encode: add_function — formatEncode -->
 <!-- // guard: add_function — fetchGuard -->
-<!-- // spy: add_function — syncSpy -->
-<!-- // init: add_constant — getInit -->
-<!-- // focus: add_function — initFocus -->
-<!-- // mutation: add_constant — setMutation -->
-<!-- // setup: add_constant — setSetup -->
-<!-- // buffer: add_conditional — fetchBuffer -->
-<!-- // trace: add_conditional — createTrace -->
-<!-- // mutation: add_function — handleMutation -->
-<!-- // stub: add_conditional — saveStub -->
+<!-- // auth: add_function — createAuth -->
+<!-- // cleanup: add_function — buildCleanup -->
+<!-- // memo: add_function — setMemo -->
+<!-- // trace: add_function — setupTrace -->
