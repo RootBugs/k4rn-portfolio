@@ -594,4 +594,6 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // contrib: add_conditional — processContrib -->
 <!-- // focus: add_conditional — initFocus -->
 <!-- // flow: add_conditional — parseFlow -->
-<!-- // stub: add_function — formatStub -->
+<!-- // render: add_conditional — setRender -->
+<!-- // check: add_function — buildCheck -->
+<!-- // parse: add_conditional — initParse -->
