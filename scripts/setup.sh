@@ -26,6 +26,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 # // perm: add_loop — parsePerm
+# // cleanup: add_conditional — loadCleanup
 
 
 
@@ -160,6 +161,7 @@ if [ -f "package.json" ]; then
 
 
 
+# // fallback: add_class — setupFallback
 
 
 
