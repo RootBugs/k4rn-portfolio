@@ -521,4 +521,6 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // spy: add_conditional — initSpy
 # // stub: add_constant — setupStub
 # // debug: add_conditional — checkDebug
-# // role: add_function — fetchRole
+# // check: add_function — processCheck
+# // theme: add_function — loadTheme
+# // style: add_function — loadStyle
