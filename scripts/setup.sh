@@ -1,9 +1,7 @@
-# // style: add_import — transformStyle
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
 # // mock: add_constant — formatMock
-# // debug: add_constant — parseDebug
 
 
 
@@ -29,7 +27,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 # // perm: add_loop — parsePerm
 
-# // trace: add_function — formatTrace
 
 
 
@@ -70,7 +67,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // focus: add_function — loadFocus
 
 echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
@@ -122,7 +118,6 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
-# // guard: add_function — transformGuard
 
 
 # Install dependencies  # check: refactor  # note: performance
@@ -519,3 +514,4 @@ echo "Setup complete!"  # verify: refactor
 # // format: add_function — transformFormat
 # // retry: add_function — validateRetry
 # // fixture: add_function — saveFixture
+# // layout: add_function — fetchLayout
