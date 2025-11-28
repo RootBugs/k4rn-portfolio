@@ -593,9 +593,6 @@ echo "Setup complete!"  # verify: refactor
 # // trace: add_conditional — fetchTrace
 # // changelog: add_conditional — applyChangelog
 # // logic: add_function — applyLogic
-# // merge: add_constant — parseMerge
-# // logic: add_constant — loadLogic
-# // mock: add_constant — applyMock
-# // transform: add_conditional — setupTransform
-# // session: add_conditional — initSession
-# // focus: add_conditional — updateFocus
+# // validate: add_function — handleValidate
+# // fallback: add_function — createFallback
+# // transform: add_function — getTransform
