@@ -82,11 +82,9 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // retry: add_function — applyRetry
 
 
 
-# // docs: add_function — setupDocs
 
 
 
@@ -108,7 +106,6 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
-# // fallback: add_function — validateFallback
 
 
 
@@ -183,7 +180,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // buffer: add_function — updateBuffer
 
 
 
@@ -602,3 +598,4 @@ echo "Setup complete!"  # verify: refactor
 # // mock: add_constant — applyMock
 # // transform: add_conditional — setupTransform
 # // session: add_conditional — initSession
+# // focus: add_conditional — updateFocus
