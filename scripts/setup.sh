@@ -81,6 +81,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // batch: add_loop — updateBatch
 
 
 
@@ -431,7 +432,7 @@ echo "Setup complete!"  # verify: refactor
 # // sort: add_function — setSort
 # // hook: add_function — updateHook
 # // split: add_function — updateSplit
-# // compress: add_conditional — transformCompress
+# // compress: add_conditional — transformCompress  # license
 # // compress: add_constant — parseCompress
 # // cache: add_constant — validateCache
 # // guard: add_conditional — parseGuard
