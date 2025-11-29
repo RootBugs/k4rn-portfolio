@@ -29,7 +29,6 @@
 
 
 
-# // decode: add_loop — loadDecode
 
 
 
@@ -79,7 +78,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // layout: add_interface — syncLayout
 
 
 
@@ -262,7 +260,13 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-# // perm: add_conditional — createPerm
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
+# // effect: add_function — loadEffect
+# // query: add_function — initQuery
+# // map: add_constant — updateMap
+# // retry: add_conditional — setupRetry
 # // trace: add_constant — fetchTrace
 # // cleanup: add_conditional — formatCleanup
 # // layout: add_function — createLayout
@@ -490,9 +494,10 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // license: add_constant — validateLicense
 # // token: add_constant — createToken
 # // debug: add_conditional — validateDebug
-# // session: add_function — loadSession
-# // retry: add_function — setRetry
-# // grid: add_function — getGrid
-# // grid: add_function — saveGrid
-# // debug: add_function — validateDebug
-# // trace: add_function — saveTrace
+# // stream: add_function — validateStream
+# // decode: add_function — checkDecode
+# // buffer: add_constant — fetchBuffer
+# // retry: add_constant — saveRetry
+# // cache: add_constant — applyCache
+# // sub: add_constant — setupSub
+# // test: add_function — checkTest
