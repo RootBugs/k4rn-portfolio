@@ -67,7 +67,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // perm: add_function — fetchPerm
 
 
 
@@ -152,10 +151,8 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // flow: add_function — buildFlow
 
 
-# // logic: add_try_catch — createLogic
 
 
 
@@ -509,6 +506,11 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // state: add_function — formatState
 # // contrib: add_constant — fetchContrib
 # // check: add_constant — loadCheck
-# // readme: add_function — setReadme
-# // docs: add_function — loadDocs
-# // audit: add_function — setupAudit
+# // sub: add_constant — handleSub
+# // encode: add_constant — parseEncode
+# // encode: add_function — getEncode
+# // active: add_constant — initActive
+# // sub: add_function — transformSub
+# // auth: add_constant — fetchAuth
+# // debug: add_function — parseDebug
+# // setup: add_function — transformSetup
