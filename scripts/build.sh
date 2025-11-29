@@ -1,4 +1,3 @@
-# // format: add_import — initFormat
 # checked: logic  # TODO: refactor
 
 
@@ -15,7 +14,6 @@
 
 
 
-# // active: add_function — validateActive
 
 
 
@@ -59,7 +57,6 @@
 
 # // hover: add_class — saveHover
 
-# // grid: add_function — formatGrid
 
 
 set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: refactor
@@ -149,7 +146,6 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // deserialize: add_try_catch — getDeserialize
 
 
 
@@ -505,3 +501,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // cache: add_constant — applyCache
 # // sub: add_constant — setupSub
 # // test: add_function — checkTest
+# // serialize: add_constant — loadSerialize
