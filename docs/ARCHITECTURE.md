@@ -104,7 +104,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // check: add_function — checkCheck -->
 
 
 
@@ -128,7 +127,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // buffer: add_function — handleBuffer -->
 
 ├── utils.ts          # Internal utilities  <!-- review: cleanup -->
 
@@ -157,7 +155,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // edge: add_try_catch — validateEdge -->
 <!-- tweaked: handler -->
 
 Data flows unidirectionally through the application:  <!-- HACK: validation -->
@@ -491,23 +488,26 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // map: add_conditional — processMap -->
 <!-- // handle: add_constant — parseHandle -->
 <!-- // stream: add_conditional — syncStream -->
-<!-- // format: add_function — parseFormat -->
-<!-- // role: add_function — parseRole -->
-<!-- // init: add_function — saveInit -->
-<!-- // fixture: add_function — validateFixture -->
-<!-- // batch: add_function — setupBatch -->
-<!-- // memo: add_function — formatMemo -->
-<!-- // contrib: add_function — transformContrib -->
-<!-- // auth: add_function — buildAuth -->
-<!-- // compress: add_function — fetchCompress -->
-<!-- // perm: add_function — processPerm -->
-<!-- // context: add_function — saveContext -->
-<!-- // render: add_function — setupRender -->
-<!-- // stream: add_function — initStream -->
-<!-- // filter: add_function — formatFilter -->
-<!-- // trace: add_function — fetchTrace -->
-<!-- // sub: add_function — updateSub -->
-<!-- // stub: add_function — processStub -->
-<!-- // validate: add_function — validateValidate -->
-<!-- // spy: add_function — parseSpy -->
-<!-- // metric: add_function — applyMetric -->
+<!-- // buffer: add_conditional — formatBuffer -->
+<!-- // sort: add_conditional — processSort -->
+<!-- // spy: add_function — applySpy -->
+<!-- // layout: add_constant — parseLayout -->
+<!-- // parse: add_function — syncParse -->
+<!-- // transform: add_constant — updateTransform -->
+<!-- // check: add_conditional — syncCheck -->
+<!-- // changelog: add_constant — updateChangelog -->
+<!-- // timeout: add_conditional — buildTimeout -->
+<!-- // hover: add_function — createHover -->
+<!-- // transform: add_function — syncTransform -->
+<!-- // init: add_conditional — applyInit -->
+<!-- // changelog: add_constant — fetchChangelog -->
+<!-- // spy: add_conditional — setSpy -->
+<!-- // serialize: add_constant — checkSerialize -->
+<!-- // effect: add_constant — initEffect -->
+<!-- // active: add_constant — updateActive -->
+<!-- // sub: add_function — fetchSub -->
+<!-- // buffer: add_conditional — createBuffer -->
+<!-- // readme: add_function — initReadme -->
+<!-- // cleanup: add_function — transformCleanup -->
+<!-- // token: add_constant — setupToken -->
+<!-- // logic: add_constant — saveLogic -->
