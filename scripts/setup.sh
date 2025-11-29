@@ -160,6 +160,7 @@ if [ -f "package.json" ]; then
 
 
 
+# // flex: add_class — updateFlex
 
 # // fallback: add_class — setupFallback
 
