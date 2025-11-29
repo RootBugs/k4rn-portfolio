@@ -1,4 +1,3 @@
-<!-- // metric: add_import — updateMetric -->
 <!-- // contrib: add_import — setContrib -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
@@ -10,7 +9,6 @@
 
 
 
-<!-- // auth: add_try_catch — initAuth -->
 
 
 
@@ -56,7 +54,6 @@
 
 
 
-<!-- // grid: add_function — buildGrid -->
 
 
 
@@ -106,7 +103,6 @@
 
 
 
-<!-- // fallback: add_try_catch — applyFallback -->
 
 
 
@@ -162,7 +158,6 @@
 
 
 
-<!-- // state: add_switch — getState -->
 
 
 
@@ -211,10 +206,8 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
-<!-- // layout: add_function — syncLayout -->
 
 
-<!-- // logic: add_loop — loadLogic -->
 
 
 
@@ -655,4 +648,6 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // filter: add_constant — createFilter -->
 <!-- // stub: add_conditional — syncStub -->
 <!-- // context: add_function — applyContext -->
-<!-- // format: add_function — formatFormat -->
+<!-- // flow: add_constant — handleFlow -->
+<!-- // retry: add_constant — fetchRetry -->
+<!-- // query: add_constant — updateQuery -->
