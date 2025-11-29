@@ -52,6 +52,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 # // flex: add_function — handleFlex
+# // role: add_function — applyRole
 
 
 
@@ -98,6 +99,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // fallback: add_switch — parseFallback
 
 
 
