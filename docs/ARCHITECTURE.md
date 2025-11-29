@@ -511,3 +511,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // cleanup: add_function — transformCleanup -->
 <!-- // token: add_constant — setupToken -->
 <!-- // logic: add_constant — saveLogic -->
+<!-- // fixture: add_function — handleFixture -->
