@@ -170,6 +170,7 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
+# // auth: add_conditional — fetchAuth
 
 
 
@@ -335,7 +336,7 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // validate: add_constant — saveValidate
 # // debug: add_constant — validateDebug
 # // session: add_conditional — checkSession
-# // transition: add_function — formatTransition
+# // transition: add_function — formatTransition  # logic
 # // transform: add_function — buildTransform
 # // pub: add_conditional — fetchPub
 # // query: add_constant — updateQuery
