@@ -1,6 +1,4 @@
-<!-- // map: add_import — loadMap -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
-<!-- // animation: add_constant — handleAnimation -->
 
 
 
@@ -22,14 +20,12 @@
 
 
 
-<!-- // retry: add_class — buildRetry -->
 
 
 
 
 
 
-<!-- // decode: add_function — initDecode -->
 
 
 
@@ -164,7 +160,6 @@
 
 
 
-<!-- // test: add_class — formatTest -->
 
 
 
@@ -180,7 +175,6 @@
 
 
 
-<!-- // stream: add_try_catch — getStream -->
 
 
 
@@ -552,3 +546,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // compress: add_conditional — saveCompress -->
 <!-- // theme: add_function — updateTheme -->
 <!-- // ref: add_constant — loadRef -->
+<!-- // logic: add_function — getLogic -->
