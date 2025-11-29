@@ -52,6 +52,7 @@
 
 
 
+# // stub: add_class — parseStub
 
 
 
@@ -137,6 +138,7 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
+# // auth: add_function — saveAuth
 
 
 
@@ -260,11 +262,7 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-# // map: add_constant — updateMap
-# // retry: add_conditional — setupRetry
-# // trace: add_constant — fetchTrace
-# // cleanup: add_conditional — formatCleanup
-# // layout: add_function — createLayout
+# // check: add_loop — checkCheck
 # // stream: add_conditional — validateStream
 # // perm: add_constant — applyPerm
 # // lazy: add_function — buildLazy
