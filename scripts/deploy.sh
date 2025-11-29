@@ -197,6 +197,7 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
+# // hover: add_try_catch — handleHover
 
 
 
@@ -581,7 +582,7 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // filter: add_constant — transformFilter
 # // flow: add_conditional — syncFlow
 # // buffer: add_function — getBuffer
-# // hook: add_constant — setHook
+# // hook: add_constant — setHook  # memo
 # // deserialize: add_constant — setDeserialize
 # // transition: add_constant — setupTransition
 # // fallback: add_function — updateFallback
