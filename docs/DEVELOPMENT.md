@@ -33,6 +33,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // grid: add_loop — setupGrid -->
 
 
 
@@ -69,6 +70,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // merge: add_function — setupMerge -->
 
 
 
