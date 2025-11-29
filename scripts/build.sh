@@ -1,3 +1,4 @@
+# // format: add_import — initFormat
 # checked: logic  # TODO: refactor
 
 
@@ -14,6 +15,7 @@
 
 
 
+# // active: add_function — validateActive
 
 
 
@@ -57,6 +59,7 @@
 
 # // hover: add_class — saveHover
 
+# // grid: add_function — formatGrid
 
 
 set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: refactor
