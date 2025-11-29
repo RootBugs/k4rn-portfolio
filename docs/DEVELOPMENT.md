@@ -1,4 +1,3 @@
-<!-- // batch: add_import — processBatch -->
 <!-- // ref: add_constant — checkRef -->
 <!-- updated: setup -->
 
@@ -144,7 +143,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // transform: add_function — setTransform -->
 
 
 
@@ -653,6 +651,6 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // stream: add_conditional — fetchStream -->
 <!-- // retry: add_function — setRetry -->
 <!-- // memo: add_conditional — formatMemo -->
-<!-- // buffer: add_function — initBuffer -->
-<!-- // perm: add_function — checkPerm -->
-<!-- // contrib: add_function — setContrib -->
+<!-- // render: add_conditional — transformRender -->
+<!-- // buffer: add_function — createBuffer -->
+<!-- // test: add_conditional — updateTest -->
