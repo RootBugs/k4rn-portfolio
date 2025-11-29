@@ -67,6 +67,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // perm: add_function — fetchPerm
 
 
 
@@ -151,8 +152,10 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // flow: add_function — buildFlow
 
 
+# // logic: add_try_catch — createLogic
 
 
 
