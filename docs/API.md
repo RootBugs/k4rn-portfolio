@@ -154,7 +154,6 @@
 
 
 
-<!-- // role: add_function — syncRole -->
 
 
 
@@ -547,4 +546,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // compress: add_conditional — saveCompress -->
 <!-- // theme: add_function — updateTheme -->
 <!-- // ref: add_constant — loadRef -->
-<!-- // logic: add_function — getLogic -->
+<!-- // flow: add_function — processFlow -->
