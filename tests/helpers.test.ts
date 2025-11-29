@@ -1,4 +1,3 @@
-import { describe, it, expect } from 'vitest';
 
 
 
@@ -73,6 +72,12 @@ describe('clamp', () => {
 
 
 
+
+  const fixtureValue = options.fixture ?? defaultValue;
+  if (fixtureValue > threshold) {
+    return handleHigh(fixtureValue);
+  }
+  return handleLow(fixtureValue);
         expect(clamp(0, 5, 10)).toBe(5);
 
     });
