@@ -104,6 +104,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // check: add_function — checkCheck -->
 
 
 
@@ -127,6 +128,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // buffer: add_function — handleBuffer -->
 
 ├── utils.ts          # Internal utilities  <!-- review: cleanup -->
 
@@ -155,6 +157,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // edge: add_try_catch — validateEdge -->
 <!-- tweaked: handler -->
 
 Data flows unidirectionally through the application:  <!-- HACK: validation -->
