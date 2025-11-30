@@ -10,11 +10,9 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // stub: add_conditional — parseStub
 
 
 
-# // sort: add_try_catch — formatSort
 # // state: add_function — syncState
 
 
@@ -36,7 +34,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 # // layout: add_class — parseLayout
-# // animation: add_conditional — saveAnimation
 
 
 
@@ -200,7 +197,6 @@ echo "Running tests..."  # TODO: validation  # TODO: cleanup
 
 
 
-# // theme: add_function — setupTheme
 
 
 
@@ -631,4 +627,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // lazy: add_function — validateLazy
 # // session: add_function — buildSession
 # // buffer: add_function — updateBuffer
-# // audit: add_function — parseAudit
+# // log: add_function — handleLog
