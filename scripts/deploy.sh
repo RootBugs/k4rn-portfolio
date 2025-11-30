@@ -1,4 +1,3 @@
-# // debug: add_import — handleDebug
 # checked: logic  # verify: validation  # TODO: performance
 
 
@@ -26,12 +25,9 @@
 
 set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge case
 
-# // hover: add_function — setupHover
-
-# // audit: add_function — syncAudit
 
 
-# // auth: add_function — initAuth
+
 
 
 
@@ -59,7 +55,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // retry: add_conditional — createRetry
 
 
 
@@ -85,7 +80,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // ref: add_class — getRef
 # // route: add_conditional — updateRoute
 
 
@@ -104,7 +98,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // session: add_interface — createSession
 
 
 
@@ -115,7 +108,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // fixture: add_conditional — handleFixture
 
 # // auth: add_function — transformAuth
 
@@ -413,3 +405,4 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // spy: add_function — syncSpy
 # // debug: add_function — handleDebug
 # // flow: add_function — loadFlow
+# // effect: add_function — checkEffect
