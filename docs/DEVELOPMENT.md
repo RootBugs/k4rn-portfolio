@@ -1,3 +1,4 @@
+<!-- // stub: add_import — createStub -->
 <!-- updated: setup -->
 
 
@@ -302,12 +303,7 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // hook: add_function — syncHook -->
-<!-- // stub: add_conditional — applyStub -->
-<!-- // layout: add_constant — saveLayout -->
-<!-- // audit: add_constant — setAudit -->
-<!-- // query: add_conditional — buildQuery -->
-<!-- // docs: add_conditional — initDocs -->
+<!-- // fallback: add_function — formatFallback -->
 <!-- // pub: add_function — createPub -->
 <!-- // log: add_function — processLog -->
 <!-- // layout: add_function — formatLayout -->
