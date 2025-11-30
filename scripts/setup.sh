@@ -33,6 +33,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // transition: add_conditional — checkTransition
 
 
 
@@ -171,6 +172,7 @@ if [ -f "package.json" ]; then
 
 
 
+# // serialize: add_function — fetchSerialize
 
 
 
@@ -185,6 +187,7 @@ if [ -f "package.json" ]; then
 
 
 
+# // role: add_try_catch — loadRole
 
 
 
