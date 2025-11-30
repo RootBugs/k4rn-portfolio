@@ -8,6 +8,7 @@
 
 
 
+# // parse: add_function — syncParse
 
 
 # // batch: add_function — getBatch
@@ -170,6 +171,7 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
+# // serialize: add_conditional — applySerialize
 
 
 
