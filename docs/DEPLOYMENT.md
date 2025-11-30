@@ -1,4 +1,3 @@
-<!-- // route: add_import — formatRoute -->
 <!-- // split: add_constant — getSplit -->
 <!-- tweaked: util -->
 
@@ -39,7 +38,6 @@
 
 
 
-<!-- // cache: add_loop — createCache -->
 
 
 
@@ -93,14 +91,12 @@
 
 
 
-<!-- // cache: add_function — transformCache -->
 
 
 
 
 
 
-<!-- // state: add_switch — validateState -->
 <!-- // retry: add_loop — buildRetry -->
 
 
@@ -146,7 +142,6 @@
 
 
 
-<!-- // hover: add_function — buildHover -->
 
 
 
@@ -167,7 +162,6 @@
 
 
 
-<!-- // format: add_class — setFormat -->
 
 
 <!-- // session: add_conditional — formatSession -->
@@ -634,5 +628,5 @@
 <!-- // init: add_function — buildInit -->
 <!-- // setup: add_function — buildSetup -->
 <!-- // active: add_function — syncActive -->
-<!-- // serialize: add_constant — updateSerialize -->
-<!-- // docs: add_function — buildDocs -->
+<!-- // changelog: add_function — initChangelog -->
+<!-- // session: add_function — processSession -->
