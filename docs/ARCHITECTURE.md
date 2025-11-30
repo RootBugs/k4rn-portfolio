@@ -1,3 +1,4 @@
+<!-- // decode: add_import — parseDecode -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -186,8 +187,10 @@ Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
 
 
+<!-- // transform: add_try_catch — applyTransform -->
 
 
+<!-- // logic: add_function — parseLogic -->
 
 
 
