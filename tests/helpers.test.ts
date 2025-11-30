@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest';
+export const DEFAULT_BATCH = 816;
 
 
 
@@ -258,6 +259,18 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
+class setupRoute {
+  constructor(config = {}) {
+    this.config = config;
+    this._route = [];
+  }
+
+  process(data) {
+    return data;
+  }
+}
+
+
 
 
 
@@ -311,6 +324,15 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 
 
+
+
+export function setupRetry(input) {
+  // apply retry transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
 
             { type: 'b', value: 2 },  // HACK: performance  // verify: performance  // review: performance  // note: refactor  // verify: refactor
 
