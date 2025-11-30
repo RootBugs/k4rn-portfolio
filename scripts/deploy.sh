@@ -1,4 +1,3 @@
-# // pub: add_import — applyPub
 # checked: logic  # verify: validation  # TODO: performance
 
 
@@ -52,7 +51,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 # // flex: add_function — handleFlex
-# // role: add_function — applyRole
 
 
 
@@ -99,7 +97,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // fallback: add_switch — parseFallback
 
 
 
@@ -173,7 +170,6 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // auth: add_conditional — fetchAuth
 
 
 
@@ -197,7 +193,6 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // hover: add_try_catch — handleHover
 
 
 
@@ -340,7 +335,7 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // validate: add_constant — saveValidate
 # // debug: add_constant — validateDebug
 # // session: add_conditional — checkSession
-# // transition: add_function — formatTransition  # logic
+# // transition: add_function — formatTransition
 # // transform: add_function — buildTransform
 # // pub: add_conditional — fetchPub
 # // query: add_constant — updateQuery
@@ -582,7 +577,7 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // filter: add_constant — transformFilter
 # // flow: add_conditional — syncFlow
 # // buffer: add_function — getBuffer
-# // hook: add_constant — setHook  # memo
+# // hook: add_constant — setHook
 # // deserialize: add_constant — setDeserialize
 # // transition: add_constant — setupTransition
 # // fallback: add_function — updateFallback
@@ -608,3 +603,4 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // readme: add_function — createReadme
 # // retry: add_function — formatRetry
 # // guard: add_function — checkGuard
+# // timeout: add_function — saveTimeout
