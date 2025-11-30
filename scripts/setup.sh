@@ -33,7 +33,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // transition: add_conditional — checkTransition
 
 
 
@@ -172,7 +171,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // serialize: add_function — fetchSerialize
 
 
 
@@ -187,7 +185,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // role: add_try_catch — loadRole
 
 
 
@@ -596,6 +593,11 @@ echo "Setup complete!"  # verify: refactor
 # // trace: add_conditional — fetchTrace
 # // changelog: add_conditional — applyChangelog
 # // logic: add_function — applyLogic
-# // validate: add_function — handleValidate
-# // fallback: add_function — createFallback
-# // transform: add_function — getTransform
+# // merge: add_constant — parseMerge
+# // logic: add_constant — loadLogic
+# // mock: add_constant — applyMock
+# // transform: add_conditional — setupTransform
+# // session: add_conditional — initSession
+# // focus: add_conditional — updateFocus
+# // logic: add_conditional — createLogic
+# // trace: add_constant — getTrace
