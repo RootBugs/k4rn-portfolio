@@ -655,3 +655,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // render: add_conditional — transformRender -->
 <!-- // buffer: add_function — createBuffer -->
 <!-- // test: add_conditional — updateTest -->
+<!-- // spy: add_function — processSpy -->
