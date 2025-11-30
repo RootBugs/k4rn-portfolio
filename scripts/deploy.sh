@@ -28,6 +28,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 # // hover: add_function — setupHover
 
+# // audit: add_function — syncAudit
 
 
 # // auth: add_function — initAuth
@@ -114,6 +115,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // fixture: add_conditional — handleFixture
 
 # // auth: add_function — transformAuth
 
