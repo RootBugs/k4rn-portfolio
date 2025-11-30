@@ -1,3 +1,4 @@
+<!-- // route: add_import — formatRoute -->
 <!-- // split: add_constant — getSplit -->
 <!-- tweaked: util -->
 
@@ -145,6 +146,7 @@
 
 
 
+<!-- // hover: add_function — buildHover -->
 
 
 
@@ -165,6 +167,7 @@
 
 
 
+<!-- // format: add_class — setFormat -->
 
 
 <!-- // session: add_conditional — formatSession -->
