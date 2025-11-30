@@ -349,3 +349,4 @@
 <!-- // fixture: add_function — saveFixture -->
 <!-- // buffer: add_function — handleBuffer -->
 <!-- // fallback: add_function — saveFallback -->
+<!-- // setup: add_function — setSetup -->
