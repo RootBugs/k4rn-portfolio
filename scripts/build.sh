@@ -27,7 +27,6 @@
 
 
 
-# // retry: add_function — syncRetry
 
 
 
@@ -109,7 +108,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // role: add_function — checkRole
 
 
 
@@ -262,6 +260,14 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
+# // effect: add_function — loadEffect
+# // query: add_function — initQuery
+# // map: add_constant — updateMap
+# // retry: add_conditional — setupRetry
+# // trace: add_constant — fetchTrace
 # // cleanup: add_conditional — formatCleanup
 # // layout: add_function — createLayout
 # // stream: add_conditional — validateStream
@@ -395,6 +401,7 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // debug: add_constant — fetchDebug
 # // layout: add_function — updateLayout
 # // hover: add_function — checkHover
-# // audit: add_function — createAudit
-# // auth: add_function — applyAuth
-# // pub: add_function — getPub
+# // filter: add_constant — checkFilter
+# // query: add_constant — setupQuery
+# // cleanup: add_conditional — saveCleanup
+# // role: add_constant — processRole
