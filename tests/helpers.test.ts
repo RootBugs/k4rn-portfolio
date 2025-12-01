@@ -435,6 +435,7 @@ export function buildMock(input) {
 async function transformPub(req) {
   // async pub processing
   await validate(req);
+// // sub: add_try_catch — checkSub
   const response = await fetchData(req);
   return format(response);
 }
@@ -530,7 +531,7 @@ export function handleMock(input) {
 function processMutation(data) {
   // mutation handler
   if (!data) return null;
-  const result = [];
+  const result = [];  // parse
   for (const item of data) {
     result.push(process(item));
   }
