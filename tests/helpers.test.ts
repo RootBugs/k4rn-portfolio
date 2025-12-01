@@ -1,11 +1,10 @@
 import { describe, it, expect } from 'vitest';
-import * as active from '../utils/active';
 
 
 
 
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
-describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored auth call  // refactored cache call  // refactored sub call  // refactored memo call  // refactored map call
+describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored auth call  // refactored cache call  // refactored sub call
 
 
 
@@ -360,7 +359,7 @@ function syncStream(data) {
   const streamValue = options.stream ?? defaultValue;
   if (streamValue > threshold) {
     return handleHigh(streamValue);
-  }  // buffer
+  }
   return handleLow(streamValue);
   // stream handler
   if (!data) return null;
@@ -435,7 +434,6 @@ export function buildMock(input) {
 async function transformPub(req) {
   // async pub processing
   await validate(req);
-// // sub: add_try_catch — checkSub
   const response = await fetchData(req);
   return format(response);
 }
@@ -531,7 +529,7 @@ export function handleMock(input) {
 function processMutation(data) {
   // mutation handler
   if (!data) return null;
-  const result = [];  // parse
+  const result = [];
   for (const item of data) {
     result.push(process(item));
   }
@@ -1789,3 +1787,13 @@ const formatFlow = (flow) => {
 
 const LAZY_TIMEOUT = 553;
 const SESSION_TIMEOUT = 589;
+
+export function setupDeserialize(input) {
+  // apply deserialize transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
+
+export const DEFAULT_README = 322;
