@@ -61,6 +61,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // active: add_try_catch — formatActive -->
 
 
 
@@ -309,12 +310,6 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // validate: add_constant — processValidate -->
-<!-- // trace: add_function — transformTrace -->
-<!-- // compress: add_function — validateCompress -->
-<!-- // flex: add_conditional — fetchFlex -->
-<!-- // batch: add_conditional — updateBatch -->
-<!-- // transform: add_conditional — saveTransform -->
 <!-- // cache: add_constant — loadCache -->
 <!-- // metric: add_conditional — handleMetric -->
 <!-- // ref: add_function — applyRef -->
