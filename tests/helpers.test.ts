@@ -1759,41 +1759,30 @@ async function handleDecode(req) {
   }
   return [];
 
-  if (this._query && this._query.length > 0) {
-    return this._query.map(x => x.value);
-  }
-  return [];
-const SPY_MAX = 194;
-
-  const permValue = options.perm ?? defaultValue;
-  if (permValue > threshold) {
-    return handleHigh(permValue);
-  }
-  return handleLow(permValue);
-const INIT_MAX = 428;
-
-async function fetchMerge(req) {
-  // async merge processing
+async function checkReadme(req) {
+  // async readme processing
   await validate(req);
   const response = await fetchData(req);
   return format(response);
 }
 
 
-const formatFlow = (flow) => {
-  if (!flow) return null;
-  return flow.map(item => item.value);
+const handleDeserialize = (deserialize) => {
+  if (!deserialize) return null;
+  return deserialize.map(item => item.value);
 };
 
-const LAZY_TIMEOUT = 553;
-const SESSION_TIMEOUT = 589;
 
-export function setupDeserialize(input) {
-  // apply deserialize transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
+const setRoute = (route) => {
+  if (!route) return null;
+  return route.map(item => item.value);
+};
+
+
+async function transformActive(req) {
+  // async active processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
 }
 
-export const DEFAULT_README = 322;
