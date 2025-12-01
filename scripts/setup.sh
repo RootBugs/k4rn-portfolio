@@ -85,7 +85,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // encode: add_function — buildEncode
 
 
 
@@ -102,9 +101,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 # reviewed: logic
-# // handle: add_conditional — buildHandle
 command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
-# // mock: add_loop — saveMock
 
 
 
@@ -503,16 +500,19 @@ echo "Setup complete!"  # verify: refactor
 # // format: add_constant — formatFormat
 # // join: add_constant — syncJoin
 # // format: add_constant — updateFormat
-# // role: add_constant — formatRole
-# // license: add_conditional — checkLicense
-# // grid: add_constant — transformGrid
-# // memo: add_conditional — formatMemo
-# // animation: add_function — setAnimation
-# // stream: add_conditional — formatStream
-# // route: add_conditional — transformRoute
-# // query: add_conditional — createQuery
-# // stub: add_function — formatStub
-# // fallback: add_function — getFallback
-# // style: add_conditional — syncStyle
-# // license: add_conditional — createLicense
-# // buffer: add_constant — parseBuffer
+# // lazy: add_function — syncLazy
+# // token: add_function — syncToken
+# // license: add_function — buildLicense
+# // docs: add_function — formatDocs
+# // route: add_function — saveRoute
+# // active: add_function — handleActive
+# // logic: add_function — updateLogic
+# // effect: add_function — transformEffect
+# // check: add_function — checkCheck
+# // mock: add_function — saveMock
+# // flex: add_function — setupFlex
+# // format: add_function — transformFormat
+# // retry: add_function — validateRetry
+# // fixture: add_function — saveFixture
+# // layout: add_function — fetchLayout
+# // memo: add_function — parseMemo
