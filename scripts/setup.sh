@@ -85,6 +85,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // encode: add_function — buildEncode
 
 
 
@@ -101,6 +102,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 # reviewed: logic
+# // handle: add_conditional — buildHandle
 command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 # // mock: add_loop — saveMock
 
