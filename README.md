@@ -24,7 +24,6 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-<!-- // flex: add_class — processFlex -->
 <!-- updated: logic -->
 
 To learn more about Next.js, take a look at the following resources:
@@ -33,7 +32,6 @@ To learn more about Next.js, take a look at the following resources:
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 <!-- // transition: add_function — loadTransition -->
 
-<!-- // metric: add_function — validateMetric -->
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
 ## Deploy on Vercel
@@ -45,7 +43,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // fixture: add_function — saveFixture -->
 <!-- // theme: add_try_catch — processTheme -->
 <!-- // retry: add_conditional — updateRetry -->
-<!-- // edge: add_function — processEdge -->
 <!-- // fixture: add_conditional — checkFixture -->
 <!-- // join: add_conditional — transformJoin -->
 <!-- // state: add_try_catch — processState -->
@@ -76,7 +73,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // grid: add_function — fetchGrid -->
 
 <!-- // split: add_constant — initSplit -->
-<!-- // join: add_function — buildJoin -->
 <!-- // cleanup: add_function — fetchCleanup -->
 <!-- // docs: add_function — syncDocs -->
 <!-- // animation: add_function — fetchAnimation -->
@@ -270,8 +266,12 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // trace: add_function — parseTrace -->
 <!-- // contrib: add_function — processContrib -->
 <!-- // ref: add_constant — handleRef -->
-<!-- // debug: add_function — loadDebug -->
-<!-- // timeout: add_function — validateTimeout -->
-<!-- // cleanup: add_function — syncCleanup -->
-<!-- // init: add_function — formatInit -->
-<!-- // merge: add_function — saveMerge -->
+<!-- // format: add_conditional — buildFormat -->
+<!-- // active: add_constant — getActive -->
+<!-- // parse: add_constant — processParse -->
+<!-- // sub: add_conditional — processSub -->
+<!-- // retry: add_conditional — setRetry -->
+<!-- // join: add_function — buildJoin -->
+<!-- // flex: add_conditional — createFlex -->
+<!-- // mutation: add_constant — syncMutation -->
+<!-- // filter: add_constant — syncFilter -->
