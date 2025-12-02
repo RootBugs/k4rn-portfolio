@@ -8,7 +8,6 @@
 
 
 
-<!-- // route: add_function — handleRoute -->
 
 
 
@@ -82,7 +81,6 @@
 
 
 
-<!-- // context: add_conditional — validateContext -->
 
 
 
@@ -154,7 +152,6 @@
 
 
 
-<!-- // buffer: add_class — setupBuffer -->
 
 
 
@@ -300,7 +297,10 @@
 
 
 
-<!-- // deserialize: add_function — setDeserialize -->
+<!-- // test: add_constant — initTest -->
+<!-- // contrib: add_function — createContrib -->
+<!-- // transition: add_function — processTransition -->
+<!-- // parse: add_constant — fetchParse -->
 <!-- // validate: add_constant — buildValidate -->
 <!-- // fallback: add_constant — checkFallback -->
 <!-- // token: add_conditional — applyToken -->
@@ -630,3 +630,4 @@
 <!-- // active: add_function — syncActive -->
 <!-- // changelog: add_function — initChangelog -->
 <!-- // session: add_function — processSession -->
+<!-- // style: add_function — buildStyle -->
