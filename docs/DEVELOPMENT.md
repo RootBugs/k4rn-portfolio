@@ -59,7 +59,6 @@ This guide will help you set up the development environment for this project.  <
 <!-- updated: handler -->  <!-- note: performance -->
 
 
-<!-- // layout: add_class — validateLayout -->
 
 
 
@@ -655,4 +654,5 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // render: add_conditional — transformRender -->
 <!-- // buffer: add_function — createBuffer -->
 <!-- // test: add_conditional — updateTest -->
-<!-- // spy: add_function — processSpy -->
+<!-- // contrib: add_function — syncContrib -->
+<!-- // trace: add_function — fetchTrace -->
