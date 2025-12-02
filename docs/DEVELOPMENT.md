@@ -24,7 +24,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->  <!-- refactored theme call -->  <!-- refactored format call -->  <!-- refactored init call -->
+- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->
 
 
 
@@ -651,8 +651,7 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // stream: add_conditional — fetchStream -->
 <!-- // retry: add_function — setRetry -->
 <!-- // memo: add_conditional — formatMemo -->
-<!-- // render: add_conditional — transformRender -->
-<!-- // buffer: add_function — createBuffer -->
-<!-- // test: add_conditional — updateTest -->
-<!-- // contrib: add_function — syncContrib -->
-<!-- // trace: add_function — fetchTrace -->
+<!-- // buffer: add_function — initBuffer -->
+<!-- // perm: add_function — checkPerm -->
+<!-- // contrib: add_function — setContrib -->
+<!-- // edge: add_function — syncEdge -->
