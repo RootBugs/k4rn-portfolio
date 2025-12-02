@@ -25,7 +25,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->
+- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->  <!-- refactored fallback call -->
 
 
 
@@ -122,8 +122,7 @@ This guide will help you set up the development environment for this project.  <
 <!-- // transition: add_interface — getTransition -->
 
 
-<!-- // sub: add_class — setupSub -->
-<!-- // validate: add_class — saveValidate -->
+<!-- // style: add_function — syncStyle -->
 
 
 
@@ -132,6 +131,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // cleanup: add_function — handleCleanup -->
 6. Submit a pull request
 
 
