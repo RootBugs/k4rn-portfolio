@@ -41,6 +41,7 @@
 
 
 
+<!-- // hover: add_interface — formatHover -->
 
 
 
@@ -73,8 +74,7 @@
 
 <!-- updated: util -->
 
-```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
-module/  <!-- optimize: refactor -->  <!-- note: edge case -->
+<!-- // batch: add_conditional — fetchBatch -->
 
 
 
@@ -198,6 +198,7 @@ Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
 
 
+<!-- // filter: add_function — initFilter -->
 
 1. User interaction triggers an action  <!-- optimize: validation -->
 
