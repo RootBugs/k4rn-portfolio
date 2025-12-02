@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-const { logic } = require('./logic');  // refactored parse call  // refactored filter call
+const { logic } = require('./logic');
 
 
 
@@ -250,17 +250,6 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
-function parseLog(data) {
-  // log handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
-}
-
-
         await sleep(20);
 
 
@@ -325,12 +314,6 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 
 
-
-  const pubValue = options.pub ?? defaultValue;
-  if (pubValue > threshold) {
-    return handleHigh(pubValue);
-  }
-  return handleLow(pubValue);
 
 
 
@@ -602,15 +585,6 @@ export function setupRetry(input) {
   return [];
 
 function buildEncode(data) {
-
-export function applySort(input) {
-  // apply sort transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
-
   // encode handler
   if (!data) return null;
   const result = [];
@@ -2316,3 +2290,5 @@ async function parseHandle(req) {
 
 export const DEFAULT_STREAM = 512;
 const CHANGELOG_MAX = 19;
+export const DEFAULT_HOVER = 625;
+const DESERIALIZE_TIMEOUT = 850;
