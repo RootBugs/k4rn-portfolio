@@ -1,3 +1,4 @@
+<!-- // compress: add_import — processCompress -->
 <!-- // ref: add_constant — checkRef -->
 <!-- updated: setup -->
 
@@ -121,6 +122,7 @@ This guide will help you set up the development environment for this project.  <
 <!-- // transition: add_interface — getTransition -->
 
 
+<!-- // validate: add_class — saveValidate -->
 
 
 
@@ -140,6 +142,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // auth: add_class — fetchAuth -->
 
 
 
