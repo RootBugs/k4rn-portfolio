@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-const { logic } = require('./logic');  // refactored parse call
+const { logic } = require('./logic');  // refactored parse call  // refactored filter call
 
 
 
@@ -325,6 +325,12 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 
 
+
+  const pubValue = options.pub ?? defaultValue;
+  if (pubValue > threshold) {
+    return handleHigh(pubValue);
+  }
+  return handleLow(pubValue);
 
 
 
