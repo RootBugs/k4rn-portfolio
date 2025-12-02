@@ -298,8 +298,7 @@
 
 
 
-<!-- // test: add_constant — initTest -->
-<!-- // contrib: add_function — createContrib -->
+<!-- // deserialize: add_loop — transformDeserialize -->
 <!-- // transition: add_function — processTransition -->
 <!-- // parse: add_constant — fetchParse -->
 <!-- // validate: add_constant — buildValidate -->
