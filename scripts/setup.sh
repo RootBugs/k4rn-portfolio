@@ -280,7 +280,10 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
-# // style: add_conditional — checkStyle
+echo "Setup complete!"  # verify: refactor
+# // mock: add_function — setMock
+# // token: add_function — getToken
+# // spy: add_constant — setSpy
 # // perm: add_constant — updatePerm
 # // flow: add_conditional — validateFlow
 # // serialize: add_constant — validateSerialize
@@ -598,3 +601,5 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 # // focus: add_conditional — updateFocus
 # // logic: add_conditional — createLogic
 # // trace: add_constant — getTrace
+# // readme: add_function — formatReadme
+# // transform: add_conditional — setupTransform
