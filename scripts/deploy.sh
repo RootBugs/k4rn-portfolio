@@ -1,3 +1,4 @@
+# // auth: add_import — setupAuth
 # checked: logic  # verify: validation  # TODO: performance
 
 
@@ -117,6 +118,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 # // mock: add_switch — createMock
 
+# // lazy: add_function — formatLazy
 
 # // query: add_class — parseQuery
 
