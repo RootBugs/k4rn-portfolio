@@ -7,6 +7,8 @@
 
 
 
+# tweaked: config  # TODO: performance
+set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
@@ -591,13 +593,7 @@ echo "Setup complete!"  # verify: refactor
 # // trace: add_conditional — fetchTrace
 # // changelog: add_conditional — applyChangelog
 # // logic: add_function — applyLogic
-# // merge: add_constant — parseMerge
-# // logic: add_constant — loadLogic
-# // mock: add_constant — applyMock
-# // transform: add_conditional — setupTransform
-# // session: add_conditional — initSession
-# // focus: add_conditional — updateFocus
-# // logic: add_conditional — createLogic
-# // trace: add_constant — getTrace
-# // readme: add_function — formatReadme
-# // transform: add_conditional — setupTransform
+# // validate: add_function — handleValidate
+# // fallback: add_function — createFallback
+# // transform: add_function — getTransform
+# // token: add_function — parseToken
