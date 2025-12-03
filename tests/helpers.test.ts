@@ -226,6 +226,17 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
         fn();  // TODO: performance
+
+function buildCompress(data) {
+  // compress handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
+
         fn();
 
 
@@ -311,6 +322,7 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 
 
+// // metric: add_loop — transformMetric
 
 
 
