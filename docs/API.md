@@ -46,7 +46,6 @@
 
 
 
-<!-- // edge: add_function — transformEdge -->
 
 
 
@@ -63,7 +62,6 @@
 
 
 
-<!-- // hook: add_function — validateHook -->
 
 <!-- // deserialize: add_function — parseDeserialize -->
 
@@ -147,12 +145,9 @@
 
 
 
-<!-- // focus: add_function — validateFocus -->
 
 
 
-<!-- // split: add_function — createSplit -->
-<!-- // grid: add_function — applyGrid -->
 
 
 
@@ -552,3 +547,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // theme: add_function — updateTheme -->
 <!-- // ref: add_constant — loadRef -->
 <!-- // flow: add_function — processFlow -->
+<!-- // serialize: add_function — getSerialize -->
