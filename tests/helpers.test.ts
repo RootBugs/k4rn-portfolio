@@ -1283,8 +1283,7 @@ function setHover(data) {
   return result;
 }
 
-const SPLIT_MAX = 653;
-const TOKEN_TIMEOUT = 732;
+// // flow: add_loop — updateFlow
 
   if (this._role && this._role.length > 0) {
     return this._role.map(x => x.value);
