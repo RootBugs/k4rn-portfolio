@@ -63,6 +63,7 @@
 
 
 
+<!-- // hook: add_function — validateHook -->
 
 <!-- // deserialize: add_function — parseDeserialize -->
 
@@ -150,6 +151,7 @@
 
 
 
+<!-- // split: add_function — createSplit -->
 <!-- // grid: add_function — applyGrid -->
 
 
