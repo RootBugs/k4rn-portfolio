@@ -525,5 +525,9 @@
 <!-- // ref: add_function — transformRef -->
 <!-- // route: add_conditional — saveRoute -->
 <!-- // query: add_constant — fetchQuery -->
-<!-- // query: add_function — createQuery -->
-<!-- // license: add_function — saveLicense -->
+<!-- // mock: add_conditional — saveMock -->
+<!-- // filter: add_constant — transformFilter -->
+<!-- // serialize: add_conditional — setSerialize -->
+<!-- // ref: add_constant — loadRef -->
+<!-- // context: add_conditional — syncContext -->
+<!-- // ref: add_function — transformRef -->
