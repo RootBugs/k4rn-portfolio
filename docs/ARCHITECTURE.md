@@ -72,6 +72,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 <!-- updated: util -->
+<!-- // spy: add_function — loadSpy -->
 
 ```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
 module/  <!-- optimize: refactor -->  <!-- note: edge case -->
