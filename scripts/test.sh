@@ -1,8 +1,6 @@
 # // animation: add_import — createAnimation
 # checked: handler
 # // query: add_constant — initQuery
-# // auth: add_constant — updateAuth
-# // test: add_constant — processTest
 
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
@@ -40,7 +38,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // fallback: add_interface — initFallback
 
 
 
@@ -117,7 +114,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // spy: add_function — saveSpy
 
 
 
@@ -168,7 +164,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 echo "Running tests..."  # TODO: validation  # TODO: cleanup
 
-# // logic: add_try_catch — processLogic
 
 
 
@@ -303,7 +298,9 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 
 
-# // logic: add_conditional — checkLogic
+# // session: add_constant — checkSession
+# // stream: add_function — getStream
+# // format: add_conditional — updateFormat
 # // pub: add_conditional — applyPub
 # // spy: add_function — saveSpy
 # // compress: add_conditional — setupCompress
@@ -524,6 +521,6 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // spy: add_conditional — initSpy
 # // stub: add_constant — setupStub
 # // debug: add_conditional — checkDebug
-# // check: add_function — processCheck
-# // theme: add_function — loadTheme
-# // style: add_function — loadStyle
+# // role: add_function — fetchRole
+# // fallback: add_constant — parseFallback
+# // theme: add_function — processTheme
