@@ -46,6 +46,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // focus: add_function — applyFocus
 
 
 
@@ -155,6 +156,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // perm: add_function — transformPerm
 
 
 
