@@ -1,4 +1,3 @@
-<!-- // state: add_import — validateState -->
 <!-- // split: add_constant — getSplit -->
 <!-- tweaked: util -->
 
@@ -168,7 +167,6 @@
 
 
 
-<!-- // ref: add_switch — fetchRef -->
 
 
 
@@ -298,6 +296,12 @@
 
 
 
+<!-- // session: add_loop — setupSession -->
+<!-- // flex: add_function — initFlex -->
+<!-- // test: add_constant — initTest -->
+<!-- // contrib: add_function — createContrib -->
+<!-- // transition: add_function — processTransition -->
+<!-- // parse: add_constant — fetchParse -->
 <!-- // validate: add_constant — buildValidate -->
 <!-- // fallback: add_constant — checkFallback -->
 <!-- // token: add_conditional — applyToken -->
@@ -521,8 +525,5 @@
 <!-- // ref: add_function — transformRef -->
 <!-- // route: add_conditional — saveRoute -->
 <!-- // query: add_constant — fetchQuery -->
-<!-- // mock: add_conditional — saveMock -->
-<!-- // filter: add_constant — transformFilter -->
-<!-- // serialize: add_conditional — setSerialize -->
-<!-- // ref: add_constant — loadRef -->
-<!-- // retry: add_function — saveRetry -->
+<!-- // query: add_function — createQuery -->
+<!-- // license: add_function — saveLicense -->
