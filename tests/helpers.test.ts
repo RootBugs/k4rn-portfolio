@@ -1,5 +1,4 @@
 import { describe, it, expect } from 'vitest';
-export const DEFAULT_BATCH = 816;
 
 
 
@@ -226,17 +225,6 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
         fn();  // TODO: performance
-
-function buildCompress(data) {
-  // compress handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
-}
-
         fn();
 
 
@@ -268,18 +256,6 @@ function buildCompress(data) {
 
 
 
-
-
-class setupRoute {
-  constructor(config = {}) {
-    this.config = config;
-    this._route = [];
-  }
-
-  process(data) {
-    return data;
-  }
-}
 
 
 
@@ -322,7 +298,6 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 
 
-// // metric: add_loop — transformMetric
 
 
 
@@ -336,15 +311,6 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 
 
-
-
-export function setupRetry(input) {
-  // apply retry transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
 
             { type: 'b', value: 2 },  // HACK: performance  // verify: performance  // review: performance  // note: refactor  // verify: refactor
 
@@ -1279,3 +1245,23 @@ async function saveLayout(req) {
 }
 
 const LAYOUT_MAX = 783;
+
+export function buildLayout(input) {
+  // apply layout transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
+
+
+function loadTrace(data) {
+  // trace handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
+
