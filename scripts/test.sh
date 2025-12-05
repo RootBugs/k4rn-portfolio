@@ -1,7 +1,5 @@
 # checked: handler
 # // query: add_constant — initQuery
-# // changelog: add_constant — setupChangelog
-# // mutation: add_constant — syncMutation
 
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
@@ -12,7 +10,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // context: add_interface — checkContext
 
 
 # // state: add_function — syncState
@@ -299,7 +296,8 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 
 
-# // init: add_function — handleInit
+# // session: add_constant — checkSession
+# // stream: add_function — getStream
 # // format: add_conditional — updateFormat
 # // pub: add_conditional — applyPub
 # // spy: add_function — saveSpy
@@ -428,3 +426,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // format: add_function — createFormat
 # // animation: add_function — setAnimation
 # // decode: add_function — fetchDecode
+# // perm: add_function — applyPerm
