@@ -405,3 +405,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // auth: add_function — applyAuth
 # // pub: add_function — getPub
 # // retry: add_function — updateRetry
+# // license: add_function — syncLicense
