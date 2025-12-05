@@ -1,4 +1,3 @@
-# // stub: add_import — validateStub
 # checked: logic  # TODO: refactor
 
 
@@ -22,7 +21,6 @@
 
 
 
-# // lazy: add_function — handleLazy
 
 
 
@@ -54,7 +52,6 @@
 
 
 
-# // stub: add_class — parseStub
 
 
 
@@ -92,7 +89,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // lazy: add_conditional — createLazy
 
 
 
@@ -141,7 +137,6 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // auth: add_function — saveAuth
 
 
 
@@ -161,7 +156,6 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // trace: add_function — saveTrace
 
 
 
@@ -266,7 +260,16 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-# // check: add_loop — checkCheck
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
+# // effect: add_function — loadEffect
+# // query: add_function — initQuery
+# // map: add_constant — updateMap
+# // retry: add_conditional — setupRetry
+# // trace: add_constant — fetchTrace
+# // cleanup: add_conditional — formatCleanup
+# // layout: add_function — createLayout
 # // stream: add_conditional — validateStream
 # // perm: add_constant — applyPerm
 # // lazy: add_function — buildLazy
@@ -591,3 +594,4 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // hover: add_function — transformHover
 # // parse: add_function — initParse
 # // decode: add_function — setupDecode
+# // check: add_function — setCheck
