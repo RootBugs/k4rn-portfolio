@@ -401,8 +401,8 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // debug: add_constant — fetchDebug
 # // layout: add_function — updateLayout
 # // hover: add_function — checkHover
-# // audit: add_function — createAudit
-# // auth: add_function — applyAuth
-# // pub: add_function — getPub
-# // retry: add_function — updateRetry
-# // license: add_function — syncLicense
+# // filter: add_constant — checkFilter
+# // query: add_constant — setupQuery
+# // cleanup: add_conditional — saveCleanup
+# // role: add_constant — processRole
+# // flow: add_constant — checkFlow
