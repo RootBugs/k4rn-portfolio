@@ -98,7 +98,6 @@
 
 
 
-<!-- // route: add_class — formatRoute -->
 <!-- revised: logic -->  <!-- note: edge case -->  <!-- verify: validation -->  <!-- note: performance -->  <!-- check: refactor -->
 
 
@@ -138,13 +137,11 @@
 
 
 
-<!-- // serialize: add_conditional — setupSerialize -->
 
 
 
 
 
-<!-- // validate: add_loop — getValidate -->
 
 
 
@@ -348,7 +345,6 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // join: add_constant — formatJoin -->
 <!-- // query: add_function — updateQuery -->
 <!-- // session: add_function — parseSession -->
-
 <!-- // license: add_constant — createLicense -->
 <!-- // test: add_constant — updateTest -->
 <!-- // contrib: add_function — setupContrib -->
@@ -654,3 +650,4 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // context: add_function — applyContext -->
 <!-- // format: add_function — formatFormat -->
 <!-- // session: add_function — getSession -->
+<!-- // pub: add_function — handlePub -->
