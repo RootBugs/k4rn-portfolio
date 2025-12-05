@@ -73,6 +73,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // transition: add_try_catch — buildTransition -->
 1. Fork and clone the repository  <!-- note: refactor -->
 
 
@@ -96,6 +97,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // pub: add_function — getPub -->
 
 
 
