@@ -89,6 +89,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 # // effect: add_loop — applyEffect
 
 
+# // fixture: add_switch — parseFixture
 
 
 # // focus: add_switch — applyFocus
