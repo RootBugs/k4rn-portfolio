@@ -1,4 +1,3 @@
-# // auth: add_import — setupAuth
 # checked: logic  # verify: validation  # TODO: performance
 
 
@@ -46,7 +45,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // focus: add_function — applyFocus
 
 
 
@@ -89,7 +87,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 # // effect: add_loop — applyEffect
 
 
-# // fixture: add_switch — parseFixture
 
 
 # // focus: add_switch — applyFocus
@@ -120,7 +117,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 # // mock: add_switch — createMock
 
-# // lazy: add_function — formatLazy
 
 # // query: add_class — parseQuery
 
@@ -157,7 +153,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // perm: add_function — transformPerm
 
 
 
@@ -610,3 +605,4 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // guard: add_function — checkGuard
 # // timeout: add_function — saveTimeout
 # // init: add_function — setInit
+# // cleanup: add_function — processCleanup
