@@ -426,6 +426,14 @@ function initStream(data) {
   return result;
 }
 
+
+async function syncSplit(req) {
+  // async split processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
     result.push(process(item));
   }
   return result;
