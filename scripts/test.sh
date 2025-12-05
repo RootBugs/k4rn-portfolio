@@ -18,8 +18,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // session: add_interface — formatSession
-# // query: add_loop — transformQuery
+# // buffer: add_function — checkBuffer
 
 
 
@@ -148,10 +147,12 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // context: add_try_catch — applyContext
 
 
 
 
+# // context: add_function — formatContext
 
 
 
