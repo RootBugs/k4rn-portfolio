@@ -76,6 +76,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 # // session: add_loop — validateSession
 
+# // query: add_loop — setupQuery
 
 
 
