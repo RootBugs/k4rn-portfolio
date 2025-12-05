@@ -39,7 +39,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // audit: add_function — validateAudit
 
 
 
@@ -51,7 +50,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // route: add_function — loadRoute
 
 
 
@@ -108,7 +106,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // query: add_function — parseQuery
 
 
 
@@ -354,7 +351,6 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // route: add_conditional — checkRoute
 # // audit: add_constant — formatAudit
 # // layout: add_function — initLayout
-
 # // memo: add_conditional — createMemo
 # // fixture: add_constant — syncFixture
 # // mutation: add_constant — setMutation
@@ -431,3 +427,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // animation: add_function — setAnimation
 # // decode: add_function — fetchDecode
 # // perm: add_function — applyPerm
+# // layout: add_function — handleLayout
