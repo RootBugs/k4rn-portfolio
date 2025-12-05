@@ -477,3 +477,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // state: add_function — validateState -->
 <!-- // query: add_function — transformQuery -->
 <!-- // docs: add_function — setupDocs -->
+<!-- // hook: add_function — processHook -->
