@@ -1,4 +1,3 @@
-<!-- // stub: add_import — createStub -->
 <!-- updated: setup -->
 
 
@@ -23,7 +22,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored effect call -->
+- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->
 
 
 
@@ -139,7 +138,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // edge: add_interface — setupEdge -->
 
 
 
@@ -303,7 +301,15 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // fallback: add_function — formatFallback -->
+<!-- // sub: add_function — processSub -->
+<!-- // transition: add_constant — applyTransition -->
+<!-- // audit: add_conditional — saveAudit -->
+<!-- // session: add_constant — parseSession -->
+<!-- // stub: add_conditional — applyStub -->
+<!-- // layout: add_constant — saveLayout -->
+<!-- // audit: add_constant — setAudit -->
+<!-- // query: add_conditional — buildQuery -->
+<!-- // docs: add_conditional — initDocs -->
 <!-- // pub: add_function — createPub -->
 <!-- // log: add_function — processLog -->
 <!-- // layout: add_function — formatLayout -->
@@ -473,8 +479,7 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // retry: add_constant — processRetry -->
 <!-- // auth: add_function — saveAuth -->
 <!-- // log: add_constant — applyLog -->
-<!-- // fixture: add_function — getFixture -->
-<!-- // state: add_function — validateState -->
-<!-- // query: add_function — transformQuery -->
-<!-- // docs: add_function — setupDocs -->
-<!-- // hook: add_function — processHook -->
+<!-- // token: add_function — formatToken -->
+<!-- // batch: add_constant — transformBatch -->
+<!-- // logic: add_function — createLogic -->
+<!-- // buffer: add_conditional — getBuffer -->
