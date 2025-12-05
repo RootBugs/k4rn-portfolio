@@ -106,6 +106,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // query: add_function — parseQuery
 
 
 
@@ -351,6 +352,7 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // route: add_conditional — checkRoute
 # // audit: add_constant — formatAudit
 # // layout: add_function — initLayout
+
 # // memo: add_conditional — createMemo
 # // fixture: add_constant — syncFixture
 # // mutation: add_constant — setMutation
