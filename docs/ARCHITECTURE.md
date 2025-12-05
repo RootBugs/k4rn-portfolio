@@ -3,6 +3,7 @@
 
 
 
+<!-- // flex: add_try_catch — buildFlex -->
 
 
 
@@ -139,6 +140,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 <!-- // stub: add_function — syncStub -->
 
 
+<!-- // mutation: add_loop — setupMutation -->
 ├── constants.ts      # Module constants  <!-- optimize: performance -->
 
 
@@ -185,6 +187,7 @@ Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
 
 
+<!-- // map: add_conditional — initMap -->
 
 
 
