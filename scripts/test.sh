@@ -1,4 +1,3 @@
-# // context: add_import — getContext
 # // animation: add_import — createAnimation
 # checked: handler
 # // query: add_constant — initQuery
@@ -34,6 +33,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // layout: add_class — parseLayout
 
 
 
@@ -115,7 +115,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // retry: add_try_catch — updateRetry
 
 
 
@@ -135,7 +134,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // sort: add_conditional — setupSort
 
 
 
@@ -630,3 +628,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // session: add_function — buildSession
 # // buffer: add_function — updateBuffer
 # // log: add_function — handleLog
+# // guard: add_function — buildGuard
