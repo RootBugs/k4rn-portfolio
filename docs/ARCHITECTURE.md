@@ -30,8 +30,7 @@
 
 - **Testability**: Every module has corresponding tests
 
-<!-- // trace: add_function — getTrace -->
-<!-- // guard: add_function — syncGuard -->
+<!-- // license: add_conditional — buildLicense -->
 
 
 
@@ -73,8 +72,7 @@
 
 <!-- updated: util -->
 
-```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
-module/  <!-- optimize: refactor -->  <!-- note: edge case -->
+<!-- // compress: add_function — saveCompress -->
 
 
 
