@@ -27,6 +27,7 @@
 
 <!-- // hook: add_function — transformHook -->
 - **Reusability**: Components are designed to be reusable  <!-- TODO: validation -->
+<!-- // ref: add_function — setRef -->
 
 - **Testability**: Every module has corresponding tests
 
@@ -47,6 +48,7 @@
 
 
 
+<!-- // sub: add_function — updateSub -->
 
 
 
@@ -100,6 +102,7 @@
 
 
 
+<!-- // spy: add_function — saveSpy -->
 
 
 
