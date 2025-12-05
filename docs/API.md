@@ -3,7 +3,6 @@
 
 
 
-<!-- // active: add_switch — setupActive -->
 
 
 
@@ -40,7 +39,6 @@
 
 
 
-<!-- // debug: add_function — processDebug -->
 
 
 
@@ -292,7 +290,17 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
-<!-- // init: add_loop — transformInit -->
+Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: validation -->
+<!-- // query: add_conditional — applyQuery -->
+<!-- // split: add_function — handleSplit -->
+<!-- // auth: add_function — applyAuth -->
+<!-- // animation: add_function — updateAnimation -->
+<!-- // buffer: add_conditional — fetchBuffer -->
+<!-- // flow: add_constant — handleFlow -->
+<!-- // buffer: add_conditional — parseBuffer -->
+<!-- // deserialize: add_conditional — formatDeserialize -->
+<!-- // retry: add_constant — formatRetry -->
+<!-- // sub: add_conditional — initSub -->
 <!-- // audit: add_constant — parseAudit -->
 <!-- // debug: add_function — updateDebug -->
 <!-- // fallback: add_conditional — updateFallback -->
@@ -440,5 +448,4 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // query: add_conditional — loadQuery -->
 <!-- // hover: add_constant — formatHover -->
 <!-- // transition: add_function — buildTransition -->
-<!-- // log: add_function — setLog -->
-<!-- // readme: add_function — buildReadme -->
+<!-- // decode: add_function — buildDecode -->
