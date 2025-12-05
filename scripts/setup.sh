@@ -90,6 +90,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // transform: add_interface — setupTransform
 
 
 
@@ -179,6 +180,7 @@ if [ -f "package.json" ]; then
 
 
 
+# // auth: add_function — updateAuth
 
 
 
@@ -280,12 +282,7 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
-echo "Setup complete!"  # verify: refactor
-# // mock: add_function — setMock
-# // token: add_function — getToken
-# // spy: add_constant — setSpy
-# // perm: add_constant — updatePerm
-# // flow: add_conditional — validateFlow
+# // role: add_loop — setRole
 # // serialize: add_constant — validateSerialize
 # // mutation: add_constant — checkMutation
 # // changelog: add_conditional — processChangelog
