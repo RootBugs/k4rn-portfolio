@@ -378,6 +378,7 @@ function syncStream(data) {
     result.push(process(item));
   }
   return result;
+// // mock: add_loop — parseMock
 }
 
 const CHANGELOG_MAX = 63;
@@ -1758,12 +1759,11 @@ async function saveDebug(req) {
 
 const FLOW_MAX = 43;
 
-export function setupInit(input) {
-  // apply init transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
+
+  if (this._query && this._query.length > 0) {
+    return this._query.map(x => x.value);
+  }
+  return [];
 }
 
 
