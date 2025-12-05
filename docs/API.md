@@ -441,3 +441,4 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // hover: add_constant — formatHover -->
 <!-- // transition: add_function — buildTransition -->
 <!-- // log: add_function — setLog -->
+<!-- // readme: add_function — buildReadme -->
