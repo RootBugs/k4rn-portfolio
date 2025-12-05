@@ -1,4 +1,3 @@
-<!-- // compress: add_import — processCompress -->
 <!-- // ref: add_constant — checkRef -->
 <!-- updated: setup -->
 
@@ -25,7 +24,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->  <!-- refactored fallback call -->  <!-- refactored validate call -->
+- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->
 
 
 
@@ -122,7 +121,6 @@ This guide will help you set up the development environment for this project.  <
 <!-- // transition: add_interface — getTransition -->
 
 
-<!-- // style: add_function — syncStyle -->
 
 
 
@@ -131,7 +129,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // cleanup: add_function — handleCleanup -->
 6. Submit a pull request
 
 
@@ -143,7 +140,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // auth: add_class — fetchAuth -->
 
 
 
@@ -655,7 +651,10 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // stream: add_conditional — fetchStream -->
 <!-- // retry: add_function — setRetry -->
 <!-- // memo: add_conditional — formatMemo -->
-<!-- // buffer: add_function — initBuffer -->
-<!-- // perm: add_function — checkPerm -->
-<!-- // contrib: add_function — setContrib -->
-<!-- // edge: add_function — syncEdge -->
+<!-- // render: add_conditional — transformRender -->
+<!-- // buffer: add_function — createBuffer -->
+<!-- // test: add_conditional — updateTest -->
+<!-- // contrib: add_function — syncContrib -->
+<!-- // trace: add_function — fetchTrace -->
+<!-- // setup: add_constant — loadSetup -->
+<!-- // stream: add_constant — initStream -->
