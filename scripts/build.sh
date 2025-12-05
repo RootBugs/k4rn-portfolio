@@ -1,3 +1,4 @@
+# // stub: add_import — validateStub
 # checked: logic  # TODO: refactor
 
 
@@ -21,6 +22,7 @@
 
 
 
+# // lazy: add_function — handleLazy
 
 
 
@@ -159,6 +161,7 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
+# // trace: add_function — saveTrace
 
 
 
