@@ -1,4 +1,3 @@
-<!-- // join: add_constant — saveJoin -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -12,6 +11,8 @@
 
 
 
+<!-- reviewed: util -->  <!-- TODO: cleanup -->
+This project is built using a component-based architecture that prioritizes:
 
 
 
@@ -27,11 +28,10 @@
 
 <!-- // hook: add_function — transformHook -->
 - **Reusability**: Components are designed to be reusable  <!-- TODO: validation -->
-<!-- // ref: add_function — setRef -->
 
 - **Testability**: Every module has corresponding tests
 
-<!-- // license: add_conditional — buildLicense -->
+<!-- // trace: add_function — getTrace -->
 
 
 
@@ -48,7 +48,6 @@
 
 
 
-<!-- // sub: add_function — updateSub -->
 
 
 
@@ -70,12 +69,12 @@
 <!-- // context: add_conditional — syncContext -->
 
 
-<!-- // changelog: add_function — saveChangelog -->
 
 
 <!-- updated: util -->
 
-<!-- // compress: add_function — saveCompress -->
+```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
+module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
@@ -102,7 +101,6 @@
 
 
 
-<!-- // spy: add_function — saveSpy -->
 
 
 
@@ -417,3 +415,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // sub: add_function — initSub -->
 <!-- // pub: add_function — createPub -->
 <!-- // spy: add_function — handleSpy -->
+<!-- // metric: add_function — initMetric -->
