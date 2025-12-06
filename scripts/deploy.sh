@@ -94,6 +94,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // mock: add_conditional — getMock
 
 
 
@@ -132,6 +133,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // hook: add_class — parseHook
 
 
 
@@ -266,9 +268,6 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // audit: add_loop — createAudit
-# // log: add_conditional — handleLog
-# // split: add_constant — loadSplit
 # // pub: add_constant — applyPub
 # // filter: add_conditional — transformFilter
 # // parse: add_function — syncParse
