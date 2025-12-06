@@ -459,6 +459,12 @@ async function loadFilter(req) {
   return format(response);
 }
 
+const processChangelog = (changelog) => {
+  if (!changelog) return null;
+  return changelog.map(item => item.value);
+};
+
+
 export const DEFAULT_ANIMATION = 159;
 export const DEFAULT_ANIMATION = 248;
 
