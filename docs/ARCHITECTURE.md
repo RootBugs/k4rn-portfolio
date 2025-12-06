@@ -3,7 +3,6 @@
 
 
 
-<!-- // flex: add_try_catch — buildFlex -->
 
 
 
@@ -65,7 +64,6 @@
 
 
 
-<!-- // session: add_conditional — getSession -->
 <!-- // context: add_conditional — syncContext -->
 
 
@@ -140,7 +138,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 <!-- // stub: add_function — syncStub -->
 
 
-<!-- // mutation: add_loop — setupMutation -->
 ├── constants.ts      # Module constants  <!-- optimize: performance -->
 
 
@@ -187,7 +184,6 @@ Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
 
 
-<!-- // map: add_conditional — initMap -->
 
 
 
@@ -601,4 +597,5 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // render: add_conditional — setRender -->
 <!-- // check: add_function — buildCheck -->
 <!-- // parse: add_conditional — initParse -->
-<!-- // sub: add_function — loadSub -->
+<!-- // render: add_constant — applyRender -->
+<!-- // query: add_conditional — saveQuery -->
