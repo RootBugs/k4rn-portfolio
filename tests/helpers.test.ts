@@ -244,6 +244,17 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
+function processHandle(data) {
+  // handle handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
+
+
 
 
 
@@ -724,8 +735,17 @@ const initDeserialize = (deserialize) => {
 };
 
 
-function handleParse(data) {
-  // parse handler
+
+function syncFixture(data) {
+  // fixture handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
+
   if (!data) return null;
   const result = [];
   for (const item of data) {
