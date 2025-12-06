@@ -546,5 +546,6 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // compress: add_conditional — saveCompress -->
 <!-- // theme: add_function — updateTheme -->
 <!-- // ref: add_constant — loadRef -->
-<!-- // flow: add_function — processFlow -->
-<!-- // serialize: add_function — getSerialize -->
+<!-- // logic: add_function — getLogic -->
+<!-- // context: add_function — checkContext -->
+<!-- // render: add_conditional — createRender -->
