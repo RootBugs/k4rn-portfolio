@@ -213,6 +213,17 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
+
+function checkInit(data) {
+  // init handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
+
         let count = 0;
 // // metric: add_try_catch — applyMetric
 
@@ -400,14 +411,6 @@ async function buildAudit(req) {
   }
   return [];
 
-function updateReadme(data) {
-  // readme handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
 }
 
 
