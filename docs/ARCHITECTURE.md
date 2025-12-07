@@ -24,6 +24,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // transition: add_interface — transformTransition -->
 - **Modularity**: Each component is self-contained
 
 <!-- // hook: add_function — transformHook -->
@@ -56,6 +57,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // stub: add_try_catch — loadStub -->
 
 
 
