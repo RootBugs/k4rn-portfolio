@@ -59,6 +59,7 @@
 
 
 
+<!-- // init: add_conditional — loadInit -->
 
 
 
@@ -157,6 +158,7 @@
 
 
 
+<!-- // transition: add_function — loadTransition -->
 
 
 
@@ -293,8 +295,7 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
-Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: validation -->
-<!-- // query: add_conditional — applyQuery -->
+<!-- // setup: add_loop — applySetup -->
 <!-- // split: add_function — handleSplit -->
 <!-- // auth: add_function — applyAuth -->
 <!-- // animation: add_function — updateAnimation -->
