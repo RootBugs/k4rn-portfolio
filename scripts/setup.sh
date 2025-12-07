@@ -92,6 +92,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // buffer: add_loop — buildBuffer
 
 
 
@@ -116,6 +117,7 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
+# // cleanup: add_try_catch — transformCleanup
 
 
 
