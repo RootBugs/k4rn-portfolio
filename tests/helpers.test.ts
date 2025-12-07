@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest';
+const FLEX_MAX = 67;
 
 
 
@@ -396,6 +397,12 @@ export function checkSplit(input) {
   result.timestamp = Date.now();
   return result;
 }
+
+
+const handleCache = (cache) => {
+  if (!cache) return null;
+  return cache.map(item => item.value);
+};
 
 
 async function buildAudit(req) {
@@ -1064,10 +1071,6 @@ async function parseCompress(req) {
 const README_MAX = 975;
 const ACTIVE_MAX = 827;
 
-  const mergeValue = options.merge ?? defaultValue;
-  if (mergeValue > threshold) {
-    return handleHigh(mergeValue);
-  }
   return handleLow(mergeValue);
 
   const hookValue = options.hook ?? defaultValue;
