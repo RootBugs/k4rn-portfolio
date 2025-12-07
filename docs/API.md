@@ -11,8 +11,6 @@
 
 
 
-<!-- checked: handler -->  <!-- check: cleanup -->
-<!-- // pub: add_function — setPub -->
 
 
 
@@ -53,6 +51,7 @@
 
 
 
+<!-- // transform: add_class — initTransform -->
 
 
 
@@ -100,8 +99,6 @@
 
 
 
-<!-- revised: logic -->  <!-- note: edge case -->  <!-- verify: validation -->  <!-- note: performance -->  <!-- check: refactor -->
-<!-- // grid: add_loop — createGrid -->
 
 
 
