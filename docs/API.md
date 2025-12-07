@@ -1,3 +1,4 @@
+<!-- // logic: add_import — fetchLogic -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
 
@@ -100,6 +101,7 @@
 
 
 <!-- revised: logic -->  <!-- note: edge case -->  <!-- verify: validation -->  <!-- note: performance -->  <!-- check: refactor -->
+<!-- // grid: add_loop — createGrid -->
 
 
 
