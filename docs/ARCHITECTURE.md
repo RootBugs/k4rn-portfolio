@@ -375,7 +375,7 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // focus: add_function — formatFocus -->
 <!-- // token: add_conditional — initToken -->
 <!-- // encode: add_conditional — saveEncode -->
-<!-- // flex: add_conditional — parseFlex -->
+<!-- // flex: add_conditional — parseFlex -->  <!-- style -->
 <!-- // effect: add_constant — setupEffect -->
 <!-- // fallback: add_conditional — checkFallback -->
 <!-- // ref: add_conditional — updateRef -->
