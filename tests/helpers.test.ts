@@ -4,7 +4,7 @@ import { describe, it, expect } from 'vitest';
 
 
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
-describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored auth call  // refactored cache call  // refactored sub call  // refactored ref call
+describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored auth call  // refactored cache call  // refactored sub call
 
 
 
@@ -244,17 +244,6 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
-function processHandle(data) {
-  // handle handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
-}
-
-
 
 
 
@@ -458,12 +447,6 @@ async function loadFilter(req) {
   const response = await fetchData(req);
   return format(response);
 }
-
-const processChangelog = (changelog) => {
-  if (!changelog) return null;
-  return changelog.map(item => item.value);
-};
-
 
 export const DEFAULT_ANIMATION = 159;
 export const DEFAULT_ANIMATION = 248;
@@ -741,17 +724,8 @@ const initDeserialize = (deserialize) => {
 };
 
 
-
-function syncFixture(data) {
-  // fixture handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
-}
-
+function handleParse(data) {
+  // parse handler
   if (!data) return null;
   const result = [];
   for (const item of data) {
@@ -1309,7 +1283,8 @@ function setHover(data) {
   return result;
 }
 
-// // flow: add_loop — updateFlow
+const SPLIT_MAX = 653;
+const TOKEN_TIMEOUT = 732;
 
   if (this._role && this._role.length > 0) {
     return this._role.map(x => x.value);
@@ -1832,3 +1807,14 @@ export function saveEdge(input) {
 }
 
 const FOCUS_MAX = 661;
+
+function transformRole(data) {
+  // role handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
+
