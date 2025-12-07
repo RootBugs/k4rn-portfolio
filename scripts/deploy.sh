@@ -149,6 +149,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // log: add_function — createLog
 
 
 
@@ -265,10 +266,7 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-echo "Deploy complete!"  # review: performance  # check: edge case
-# // map: add_conditional — getMap
-# // lazy: add_conditional — processLazy
-# // deserialize: add_conditional — setupDeserialize
+# // encode: add_function — setEncode
 # // logic: add_conditional — formatLogic
 # // focus: add_constant — processFocus
 # // log: add_conditional — handleLog
