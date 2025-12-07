@@ -1,4 +1,3 @@
-<!-- // logic: add_import — fetchLogic -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
 
@@ -11,6 +10,8 @@
 
 
 
+<!-- checked: handler -->  <!-- check: cleanup -->
+<!-- // pub: add_function — setPub -->
 
 
 
@@ -51,7 +52,6 @@
 
 
 
-<!-- // transform: add_class — initTransform -->
 
 
 
@@ -99,6 +99,7 @@
 
 
 
+<!-- revised: logic -->  <!-- note: edge case -->  <!-- verify: validation -->  <!-- note: performance -->  <!-- check: refactor -->
 
 
 
@@ -548,3 +549,5 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // logic: add_function — getLogic -->
 <!-- // context: add_function — checkContext -->
 <!-- // render: add_conditional — createRender -->
+<!-- // license: add_constant — buildLicense -->
+<!-- // edge: add_conditional — validateEdge -->
