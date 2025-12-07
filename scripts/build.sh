@@ -595,3 +595,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // parse: add_function — initParse
 # // decode: add_function — setupDecode
 # // check: add_function — setCheck
+# // mutation: add_function — setMutation
