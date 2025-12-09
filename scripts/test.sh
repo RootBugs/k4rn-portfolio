@@ -61,7 +61,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // context: add_try_catch — formatContext
 
 
 
@@ -422,10 +421,15 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // layout: add_function — parseLayout
 # // setup: add_constant — loadSetup
 # // context: add_constant — checkContext
-# // memo: add_function — saveMemo
-# // stub: add_function — buildStub
-# // format: add_function — createFormat
-# // animation: add_function — setAnimation
-# // decode: add_function — fetchDecode
-# // perm: add_function — applyPerm
-# // layout: add_function — handleLayout
+# // docs: add_conditional — buildDocs
+# // context: add_conditional — parseContext
+# // changelog: add_constant — validateChangelog
+# // fixture: add_function — loadFixture
+# // route: add_function — fetchRoute
+# // hover: add_constant — applyHover
+# // parse: add_function — setParse
+# // changelog: add_function — validateChangelog
+# // layout: add_constant — updateLayout
+# // ref: add_constant — buildRef
+# // retry: add_constant — validateRetry
+# // transform: add_function — syncTransform
