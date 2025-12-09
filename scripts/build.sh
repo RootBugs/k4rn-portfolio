@@ -1,3 +1,4 @@
+# // readme: add_import — handleReadme
 # checked: logic  # TODO: refactor
 
 
@@ -132,6 +133,7 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
+# // log: add_function — setupLog
 
 
 
