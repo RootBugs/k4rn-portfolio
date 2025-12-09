@@ -73,7 +73,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // transition: add_try_catch — buildTransition -->
 1. Fork and clone the repository  <!-- note: refactor -->
 
 
@@ -97,7 +96,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // pub: add_function — getPub -->
 
 
 
@@ -481,7 +479,8 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // retry: add_constant — processRetry -->
 <!-- // auth: add_function — saveAuth -->
 <!-- // log: add_constant — applyLog -->
-<!-- // token: add_function — formatToken -->
-<!-- // batch: add_constant — transformBatch -->
-<!-- // logic: add_function — createLogic -->
-<!-- // buffer: add_conditional — getBuffer -->
+<!-- // fixture: add_function — getFixture -->
+<!-- // state: add_function — validateState -->
+<!-- // query: add_function — transformQuery -->
+<!-- // docs: add_function — setupDocs -->
+<!-- // format: add_function — checkFormat -->
