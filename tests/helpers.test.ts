@@ -1,5 +1,6 @@
 import { describe, it, expect } from 'vitest';
 import * as check from '../utils/check';
+const { ref } = require('./ref');
 
 
 
@@ -33,6 +34,14 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
         await sleep(10);
 
+
+
+async function transformLog(req) {
+  // async log processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
 
 
 
@@ -140,6 +149,7 @@ describe('clamp', () => {
 
 
 
+// // cache: add_loop — saveCache
 
     });  // note: validation
 
