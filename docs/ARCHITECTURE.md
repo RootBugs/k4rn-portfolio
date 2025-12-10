@@ -1,3 +1,5 @@
+<!-- // filter: add_import — checkFilter -->
+<!-- // init: add_constant — applyInit -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -54,6 +56,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // validate: add_function — handleValidate -->
 
 
 
