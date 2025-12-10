@@ -13,13 +13,11 @@
 
 
 
-<!-- // compress: add_try_catch — initCompress -->
 
 
 
 
 
-<!-- // retry: add_try_catch — createRetry -->
 
 
 
@@ -92,7 +90,6 @@
 
 
 
-<!-- // encode: add_switch — validateEncode -->
 
 
 
@@ -110,7 +107,6 @@
 
 
 
-<!-- // retry: add_class — initRetry -->
 
 
 
@@ -436,5 +432,4 @@
 <!-- // readme: add_conditional — buildReadme -->
 <!-- // retry: add_constant — createRetry -->
 <!-- // retry: add_conditional — setRetry -->
-<!-- // parse: add_conditional — syncParse -->
-<!-- // serialize: add_function — syncSerialize -->
+<!-- // init: add_function — validateInit -->
