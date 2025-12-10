@@ -5,7 +5,6 @@
 <!-- tweaked: handler -->
 
 
-<!-- // transform: add_function — checkTransform -->
 
 
 
@@ -302,7 +301,12 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // init: add_loop — parseInit -->
+<!-- // sub: add_function — processSub -->
+<!-- // transition: add_constant — applyTransition -->
+<!-- // audit: add_conditional — saveAudit -->
+<!-- // session: add_constant — parseSession -->
+<!-- // stub: add_conditional — applyStub -->
+<!-- // layout: add_constant — saveLayout -->
 <!-- // audit: add_constant — setAudit -->
 <!-- // query: add_conditional — buildQuery -->
 <!-- // docs: add_conditional — initDocs -->
@@ -362,10 +366,20 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // route: add_function — parseRoute -->
 <!-- // effect: add_conditional — applyEffect -->
 <!-- // timeout: add_conditional — formatTimeout -->
-<!-- // query: add_function — setupQuery -->
-<!-- // encode: add_function — formatEncode -->
+<!-- // timeout: add_constant — applyTimeout -->
+<!-- // mutation: add_function — getMutation -->
+<!-- // session: add_conditional — handleSession -->
+<!-- // log: add_conditional — transformLog -->
+<!-- // pub: add_conditional — fetchPub -->
 <!-- // guard: add_function — fetchGuard -->
-<!-- // auth: add_function — createAuth -->
-<!-- // cleanup: add_function — buildCleanup -->
-<!-- // memo: add_function — setMemo -->
-<!-- // trace: add_function — setupTrace -->
+<!-- // spy: add_function — syncSpy -->
+<!-- // init: add_constant — getInit -->
+<!-- // focus: add_function — initFocus -->
+<!-- // mutation: add_constant — setMutation -->
+<!-- // setup: add_constant — setSetup -->
+<!-- // buffer: add_conditional — fetchBuffer -->
+<!-- // trace: add_conditional — createTrace -->
+<!-- // mutation: add_function — handleMutation -->
+<!-- // stub: add_conditional — saveStub -->
+<!-- // changelog: add_function — getChangelog -->
+<!-- // decode: add_constant — setupDecode -->
