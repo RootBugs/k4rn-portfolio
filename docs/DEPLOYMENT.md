@@ -1,3 +1,4 @@
+<!-- // sub: add_import — applySub -->
 <!-- // sub: add_constant — handleSub -->
 <!-- // split: add_constant — getSplit -->
 <!-- tweaked: util -->
@@ -47,6 +48,7 @@
 
 
 
+<!-- // changelog: add_function — applyChangelog -->
 
 
 
@@ -149,6 +151,7 @@
 
 
 
+<!-- // auth: add_function — buildAuth -->
 
 
 
