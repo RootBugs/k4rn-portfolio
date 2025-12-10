@@ -19,6 +19,7 @@
 
 
 
+# // sub: add_try_catch — validateSub
 
 
 
@@ -89,6 +90,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // validate: add_function — validateValidate
 
 
 
