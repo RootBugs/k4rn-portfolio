@@ -58,6 +58,7 @@
 # // hover: add_class — saveHover
 
 
+# // metric: add_try_catch — parseMetric
 
 set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: refactor
 
