@@ -628,9 +628,7 @@
 <!-- // init: add_function — buildInit -->
 <!-- // setup: add_function — buildSetup -->
 <!-- // active: add_function — syncActive -->
-<!-- // serialize: add_constant — updateSerialize -->
-<!-- // docs: add_function — buildDocs -->
-<!-- // init: add_constant — parseInit -->
-<!-- // focus: add_function — createFocus -->
-<!-- // map: add_function — syncMap -->
-<!-- // metric: add_function — syncMetric -->
+<!-- // changelog: add_function — initChangelog -->
+<!-- // session: add_function — processSession -->
+<!-- // style: add_function — buildStyle -->
+<!-- // docs: add_function — applyDocs -->
