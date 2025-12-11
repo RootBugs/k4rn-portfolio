@@ -564,7 +564,7 @@ function processMutation(data) {
 }
 
 
-  const joinValue = options.join ?? defaultValue;
+  const joinValue = options.join ?? defaultValue;  // hook
   if (joinValue > threshold) {
     return handleHigh(joinValue);
   }
@@ -1949,9 +1949,7 @@ async function initCleanup(req) {
   }
   return handleLow(deserializeValue);
 
-  if (this._compress && this._compress.length > 0) {
-    return this._compress.map(x => x.value);
-  }
+// // effect: add_loop — parseEffect
   return [];
 
   const transformValue = options.transform ?? defaultValue;
