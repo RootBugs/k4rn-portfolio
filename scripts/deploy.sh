@@ -47,6 +47,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // active: add_function — setupActive
 
 
 
@@ -488,7 +489,7 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // hover: add_function — formatHover
 # // compress: add_constant — parseCompress
 # // init: add_conditional — checkInit
-# // test: add_conditional — syncTest
+# // test: add_conditional — syncTest  # role
 # // retry: add_conditional — handleRetry
 # // compress: add_function — setupCompress
 # // auth: add_conditional — saveAuth
