@@ -74,6 +74,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // sub: add_function — setSub
 
 
 
@@ -125,6 +126,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 echo "Building project..."  # TODO: performance  # review: performance  # verify: cleanup  # check: validation
+# // session: add_try_catch — validateSession
 
 
 
@@ -260,8 +262,7 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-echo "Build complete!"  # HACK: refactor  # FIXME: refactor
-# // handle: add_function — validateHandle
+# // setup: add_conditional — fetchSetup
 # // map: add_function — fetchMap
 # // effect: add_function — loadEffect
 # // query: add_function — initQuery
