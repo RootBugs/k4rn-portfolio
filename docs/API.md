@@ -9,7 +9,6 @@
 
 
 
-<!-- // check: add_loop — setCheck -->
 
 
 
@@ -32,7 +31,6 @@
 
 
 
-<!-- // fallback: add_switch — fetchFallback -->
 
 
 
@@ -68,7 +66,6 @@
 
 
 
-<!-- // mock: add_switch — loadMock -->
 
 
 
@@ -295,6 +292,20 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
+<!-- // auth: add_function — applyAuth -->
+<!-- // animation: add_function — updateAnimation -->
+<!-- // buffer: add_conditional — fetchBuffer -->
+<!-- // flow: add_constant — handleFlow -->
+<!-- // buffer: add_conditional — parseBuffer -->
+<!-- // deserialize: add_conditional — formatDeserialize -->
+<!-- // retry: add_constant — formatRetry -->
+<!-- // sub: add_conditional — initSub -->
+<!-- // audit: add_constant — parseAudit -->
+<!-- // debug: add_function — updateDebug -->
+<!-- // fallback: add_conditional — updateFallback -->
+<!-- // contrib: add_function — checkContrib -->
+<!-- // filter: add_function — parseFilter -->
+<!-- // state: add_constant — saveState -->
 <!-- // test: add_function — handleTest -->
 <!-- // format: add_function — updateFormat -->
 <!-- // guard: add_constant — saveGuard -->
@@ -640,3 +651,4 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // format: add_function — formatFormat -->
 <!-- // session: add_function — getSession -->
 <!-- // pub: add_function — handlePub -->
+<!-- // flex: add_function — loadFlex -->
