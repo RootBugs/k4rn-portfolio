@@ -5,6 +5,7 @@
 
 
 
+
 ## System Design
 
 This project is built using a component-based architecture that prioritizes:
@@ -76,6 +77,7 @@ module/  <!-- optimize: refactor -->
 
 
 
+
 ├── types.ts          # TypeScript types
 
 
@@ -101,6 +103,7 @@ module/  <!-- optimize: refactor -->
 
 <!-- tweaked: handler -->
 Data flows unidirectionally through the application:  <!-- HACK: validation -->
+
 
 
 
