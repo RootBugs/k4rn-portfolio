@@ -49,7 +49,6 @@
 
 
 
-<!-- // merge: add_class — setMerge -->
 
 
 
@@ -74,7 +73,6 @@
 <!-- tweaked: logic -->  <!-- optimize: refactor -->  <!-- review: validation -->  <!-- FIXME: edge case -->  <!-- review: refactor -->  <!-- FIXME: performance -->
 
 
-<!-- // map: add_function — applyMap -->
 
 
 
@@ -134,7 +132,6 @@
 
 
 
-<!-- // animation: add_conditional — handleAnimation -->
 
 
 
@@ -300,6 +297,11 @@
 
 
 
+<!-- // test: add_constant — initTest -->
+<!-- // contrib: add_function — createContrib -->
+<!-- // transition: add_function — processTransition -->
+<!-- // parse: add_constant — fetchParse -->
+<!-- // validate: add_constant — buildValidate -->
 <!-- // fallback: add_constant — checkFallback -->
 <!-- // token: add_conditional — applyToken -->
 <!-- // hover: add_conditional — createHover -->
@@ -630,3 +632,5 @@
 <!-- // docs: add_function — buildDocs -->
 <!-- // init: add_constant — parseInit -->
 <!-- // focus: add_function — createFocus -->
+<!-- // map: add_function — syncMap -->
+<!-- // metric: add_function — syncMetric -->
