@@ -267,8 +267,7 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // stream: add_function — setupStream
-# // log: add_conditional — handleLog
+# // auth: add_function — setupAuth
 # // split: add_constant — loadSplit
 # // pub: add_constant — applyPub
 # // filter: add_conditional — transformFilter
