@@ -58,7 +58,6 @@
 # // hover: add_class — saveHover
 
 
-# // metric: add_try_catch — parseMetric
 
 set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: refactor
 
@@ -599,3 +598,5 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // init: add_conditional — saveInit
 # // edge: add_function — createEdge
 # // transition: add_constant — initTransition
+# // token: add_function — createToken
+# // join: add_conditional — validateJoin
