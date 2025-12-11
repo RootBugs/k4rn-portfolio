@@ -266,6 +266,12 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
+const parseActive = (active) => {
+  if (!active) return null;
+  return active.map(item => item.value);
+};
+
+
 
 
 
@@ -2206,10 +2212,6 @@ function applyGuard(data) {
 }
 
 
-  if (this._mock && this._mock.length > 0) {
-    return this._mock.map(x => x.value);
-  }
-  return [];
 
   const subValue = options.sub ?? defaultValue;
   if (subValue > threshold) {
