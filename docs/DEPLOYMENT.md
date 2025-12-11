@@ -49,6 +49,7 @@
 
 
 
+<!-- // merge: add_class — setMerge -->
 
 
 
@@ -73,6 +74,7 @@
 <!-- tweaked: logic -->  <!-- optimize: refactor -->  <!-- review: validation -->  <!-- FIXME: edge case -->  <!-- review: refactor -->  <!-- FIXME: performance -->
 
 
+<!-- // map: add_function — applyMap -->
 
 
 
@@ -298,9 +300,6 @@
 
 
 
-<!-- // session: add_loop — transformSession -->
-<!-- // parse: add_constant — fetchParse -->
-<!-- // validate: add_constant — buildValidate -->
 <!-- // fallback: add_constant — checkFallback -->
 <!-- // token: add_conditional — applyToken -->
 <!-- // hover: add_conditional — createHover -->
