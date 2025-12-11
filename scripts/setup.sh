@@ -7,8 +7,7 @@
 
 
 
-# tweaked: config  # TODO: performance
-set -euo pipefail  # optimize: validation  # optimize: validation
+# // hover: add_conditional — processHover
 
 
 
@@ -58,6 +57,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 # // theme: add_class — processTheme
+# // docs: add_function — loadDocs
 
 
 
@@ -70,6 +70,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
+# // query: add_loop — processQuery
 
 
 
