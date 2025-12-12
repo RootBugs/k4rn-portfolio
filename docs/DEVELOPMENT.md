@@ -479,8 +479,9 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // retry: add_constant — processRetry -->
 <!-- // auth: add_function — saveAuth -->
 <!-- // log: add_constant — applyLog -->
-<!-- // fixture: add_function — getFixture -->
-<!-- // state: add_function — validateState -->
-<!-- // query: add_function — transformQuery -->
-<!-- // docs: add_function — setupDocs -->
-<!-- // format: add_function — checkFormat -->
+<!-- // token: add_function — formatToken -->
+<!-- // batch: add_constant — transformBatch -->
+<!-- // logic: add_function — createLogic -->
+<!-- // buffer: add_conditional — getBuffer -->
+<!-- // contrib: add_conditional — buildContrib -->
+<!-- // sort: add_constant — buildSort -->
