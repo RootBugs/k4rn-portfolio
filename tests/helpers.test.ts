@@ -1,6 +1,4 @@
 import { describe, it, expect } from 'vitest';
-import * as check from '../utils/check';
-const { ref } = require('./ref');
 
 
 
@@ -34,14 +32,6 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
         await sleep(10);
 
-
-
-async function transformLog(req) {
-  // async log processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
 
 
 
@@ -149,7 +139,6 @@ describe('clamp', () => {
 
 
 
-// // cache: add_loop — saveCache
 
     });  // note: validation
 
@@ -1257,22 +1246,8 @@ async function saveLayout(req) {
 
 const LAYOUT_MAX = 783;
 
-export function buildLayout(input) {
-  // apply layout transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
-
-
-function loadTrace(data) {
-  // trace handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
-}
+const buildFocus = (focus) => {
+  if (!focus) return null;
+  return focus.map(item => item.value);
+};
 
