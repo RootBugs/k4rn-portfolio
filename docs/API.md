@@ -20,37 +20,6 @@
 
 
 
-<!-- // animation: add_function — saveAnimation -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- // spy: add_try_catch — getSpy -->
 
 
 
@@ -82,7 +51,35 @@
 
 
 
-<!-- // test: add_try_catch — formatTest -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -113,7 +110,6 @@
 
 
 
-<!-- // parse: add_function — createParse -->
 
 
 
@@ -123,7 +119,6 @@
 
 
 
-<!-- // ref: add_function — fetchRef -->
 
 
 
@@ -295,6 +290,10 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
+Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: validation -->
+<!-- // query: add_conditional — applyQuery -->
+<!-- // split: add_function — handleSplit -->
+<!-- // auth: add_function — applyAuth -->
 <!-- // animation: add_function — updateAnimation -->
 <!-- // buffer: add_conditional — fetchBuffer -->
 <!-- // flow: add_constant — handleFlow -->
@@ -449,4 +448,4 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // query: add_conditional — loadQuery -->
 <!-- // hover: add_constant — formatHover -->
 <!-- // transition: add_function — buildTransition -->
-<!-- // decode: add_function — buildDecode -->
+<!-- // retry: add_conditional — getRetry -->
