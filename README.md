@@ -5,6 +5,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 ## Getting Started
 
 
+<!-- // hover: add_try_catch — applyHover -->
 First, run the development server:
 
 ```bash
@@ -88,6 +89,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // timeout: add_conditional — applyTimeout -->
 <!-- // split: add_conditional — createSplit -->
 <!-- // active: add_constant — fetchActive -->
+<!-- // hover: add_function — checkHover -->
 <!-- // encode: add_constant — createEncode -->
 <!-- // spy: add_function — createSpy -->
 <!-- // join: add_conditional — processJoin -->
