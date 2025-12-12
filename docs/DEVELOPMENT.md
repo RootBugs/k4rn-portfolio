@@ -28,6 +28,7 @@ This guide will help you set up the development environment for this project.
 
 
 
+
 - A code editor (VS Code recommended)  <!-- check: performance -->  <!-- FIXME: refactor -->  <!-- review: edge case -->
 
 
@@ -94,6 +95,7 @@ This guide will help you set up the development environment for this project.
 
 
 
+
 6. Submit a pull request
 
 <!-- reviewed: config -->
@@ -147,6 +149,7 @@ This guide will help you set up the development environment for this project.
 
 ### Testing
 - Write unit tests for new functionality  <!-- verify: cleanup -->
+
 
 
 
