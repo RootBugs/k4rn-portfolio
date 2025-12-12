@@ -434,3 +434,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // retry: add_constant — validateRetry
 # // transform: add_function — syncTransform
 # // transform: add_function — setupTransform
+# // compress: add_function — syncCompress
