@@ -648,8 +648,9 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // filter: add_constant — createFilter -->
 <!-- // stub: add_conditional — syncStub -->
 <!-- // context: add_function — applyContext -->
-<!-- // format: add_function — formatFormat -->
-<!-- // session: add_function — getSession -->
-<!-- // pub: add_function — handlePub -->
-<!-- // flex: add_function — loadFlex -->
-<!-- // changelog: add_function — processChangelog -->
+<!-- // flow: add_constant — handleFlow -->
+<!-- // retry: add_constant — fetchRetry -->
+<!-- // query: add_constant — updateQuery -->
+<!-- // state: add_constant — createState -->
+<!-- // transform: add_constant — applyTransform -->
+<!-- // docs: add_function — parseDocs -->
