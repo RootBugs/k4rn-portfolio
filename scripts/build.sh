@@ -44,6 +44,7 @@
 
 
 
+# // retry: add_try_catch — handleRetry
 
 
 
@@ -66,6 +67,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // timeout: add_class — handleTimeout
 
 
 
@@ -90,6 +92,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // animation: add_conditional — fetchAnimation
 
 
 
