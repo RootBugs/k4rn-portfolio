@@ -45,6 +45,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+
 <!-- updated: util -->
 
 ```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
@@ -93,7 +94,6 @@ module/  <!-- optimize: refactor -->
 
 
 
-
 ├── constants.ts      # Module constants  <!-- optimize: performance -->
 
 └── __tests__/        # Test files
@@ -133,6 +133,7 @@ Data flows unidirectionally through the application:  <!-- HACK: validation -->
 3. Handler processes and updates state  <!-- optimize: edge case -->
 
 4. UI reacts to state changes  <!-- FIXME: edge case -->
+
 
 
 
