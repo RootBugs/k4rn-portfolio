@@ -7,7 +7,8 @@
 
 
 
-# // hover: add_conditional — processHover
+# tweaked: config  # TODO: performance
+set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
@@ -18,7 +19,6 @@
 
 
 
-# // hover: add_function — applyHover
 
 
 
@@ -58,7 +58,6 @@
 
 
 # // theme: add_class — processTheme
-# // docs: add_function — loadDocs
 
 
 
@@ -71,7 +70,6 @@
 
 echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
-# // query: add_loop — processQuery
 
 
 
@@ -92,7 +90,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // transform: add_interface — setupTransform
 
 
 
@@ -182,7 +179,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // auth: add_function — updateAuth
 
 
 
@@ -284,7 +280,12 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
-# // role: add_loop — setRole
+echo "Setup complete!"  # verify: refactor
+# // mock: add_function — setMock
+# // token: add_function — getToken
+# // spy: add_constant — setSpy
+# // perm: add_constant — updatePerm
+# // flow: add_conditional — validateFlow
 # // serialize: add_constant — validateSerialize
 # // mutation: add_constant — checkMutation
 # // changelog: add_conditional — processChangelog
@@ -604,3 +605,4 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 # // transform: add_conditional — setupTransform
 # // metric: add_constant — validateMetric
 # // filter: add_function — initFilter
+# // validate: add_constant — handleValidate
