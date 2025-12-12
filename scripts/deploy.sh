@@ -605,4 +605,4 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // active: add_constant — processActive
 # // test: add_constant — parseTest
 # // buffer: add_conditional — fetchBuffer
-# // filter: add_conditional — initFilter
+# // transition: add_function — getTransition
