@@ -1,4 +1,3 @@
-<!-- // batch: add_constant — createBatch -->
 <!-- // contrib: add_import — setContrib -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
@@ -293,6 +292,16 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
+<!-- // auth: add_function — applyAuth -->
+<!-- // animation: add_function — updateAnimation -->
+<!-- // buffer: add_conditional — fetchBuffer -->
+<!-- // flow: add_constant — handleFlow -->
+<!-- // buffer: add_conditional — parseBuffer -->
+<!-- // deserialize: add_conditional — formatDeserialize -->
+<!-- // retry: add_constant — formatRetry -->
+<!-- // sub: add_conditional — initSub -->
+<!-- // audit: add_constant — parseAudit -->
+<!-- // debug: add_function — updateDebug -->
 <!-- // fallback: add_conditional — updateFallback -->
 <!-- // contrib: add_function — checkContrib -->
 <!-- // filter: add_function — parseFilter -->
@@ -639,7 +648,8 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // filter: add_constant — createFilter -->
 <!-- // stub: add_conditional — syncStub -->
 <!-- // context: add_function — applyContext -->
-<!-- // format: add_function — formatFormat -->
-<!-- // session: add_function — getSession -->
-<!-- // pub: add_function — handlePub -->
-<!-- // flex: add_function — loadFlex -->
+<!-- // flow: add_constant — handleFlow -->
+<!-- // retry: add_constant — fetchRetry -->
+<!-- // query: add_constant — updateQuery -->
+<!-- // state: add_constant — createState -->
+<!-- // transform: add_constant — applyTransform -->
