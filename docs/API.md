@@ -113,6 +113,7 @@
 
 
 
+<!-- // parse: add_function — createParse -->
 
 
 
@@ -294,8 +295,6 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
-<!-- // query: add_loop — formatQuery -->
-<!-- // auth: add_function — applyAuth -->
 <!-- // animation: add_function — updateAnimation -->
 <!-- // buffer: add_conditional — fetchBuffer -->
 <!-- // flow: add_constant — handleFlow -->
