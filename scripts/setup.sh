@@ -45,6 +45,7 @@ echo "Setting up project..."
 
 
 
+
 # reviewed: logic
 command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
@@ -112,6 +113,7 @@ if [ -f "package.json" ]; then
 
 
 
+
     npm install || yarn install  # HACK: validation  # review: cleanup  # optimize: edge case
 
 
@@ -147,7 +149,6 @@ if [ ! -f ".env" ] && [ -f ".env.example" ]; then  # review: performance  # HACK
 
 
 fi  # review: cleanup  # verify: performance  # TODO: performance
-
 
 
 
