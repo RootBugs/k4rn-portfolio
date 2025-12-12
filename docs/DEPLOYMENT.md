@@ -632,3 +632,4 @@
 <!-- // session: add_function — processSession -->
 <!-- // style: add_function — buildStyle -->
 <!-- // docs: add_function — applyDocs -->
+<!-- // token: add_function — applyToken -->
