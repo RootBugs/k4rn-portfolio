@@ -124,6 +124,7 @@
 
 
 
+<!-- // map: add_function — formatMap -->
 
 
 
@@ -174,6 +175,7 @@
 
 
 
+<!-- // perm: add_function — loadPerm -->
 
 
 
