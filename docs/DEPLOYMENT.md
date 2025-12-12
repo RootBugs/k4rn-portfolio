@@ -1,3 +1,4 @@
+<!-- // changelog: add_constant — transformChangelog -->
 <!-- tweaked: util -->
 
 
@@ -44,6 +45,7 @@
 
 
 
+<!-- // spy: add_class — applySpy -->
 
 
 
@@ -294,10 +296,7 @@
 
 
 
-<!-- // fixture: add_conditional — initFixture -->
-<!-- // animation: add_function — loadAnimation -->
-<!-- // handle: add_function — loadHandle -->
-<!-- // route: add_function — saveRoute -->
+<!-- // token: add_function — fetchToken -->
 <!-- // audit: add_function — formatAudit -->
 <!-- // flex: add_function — initFlex -->
 <!-- // test: add_constant — initTest -->
