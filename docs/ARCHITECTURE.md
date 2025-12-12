@@ -1,5 +1,3 @@
-<!-- // filter: add_import — checkFilter -->
-<!-- // init: add_constant — applyInit -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -56,7 +54,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // validate: add_function — handleValidate -->
 
 
 
@@ -85,7 +82,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // perm: add_function — fetchPerm -->
 
 
 
@@ -425,3 +421,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // flow: add_function — processFlow -->
 <!-- // focus: add_conditional — handleFocus -->
 <!-- // contrib: add_constant — buildContrib -->
+<!-- // stream: add_conditional — checkStream -->
