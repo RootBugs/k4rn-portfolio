@@ -168,6 +168,7 @@
 
 
 
+<!-- // license: add_function — initLicense -->
 
 
 
