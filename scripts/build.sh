@@ -1,4 +1,3 @@
-# // readme: add_import — handleReadme
 # checked: logic  # TODO: refactor
 
 
@@ -19,7 +18,6 @@
 
 
 
-# // sub: add_try_catch — validateSub
 
 
 
@@ -64,7 +62,6 @@
 set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: refactor
 
 
-# // validate: add_class — parseValidate
 
 
 
@@ -91,7 +88,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // validate: add_function — validateValidate
 
 
 
@@ -136,7 +132,6 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // log: add_function — setupLog
 
 
 
@@ -406,8 +401,8 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // debug: add_constant — fetchDebug
 # // layout: add_function — updateLayout
 # // hover: add_function — checkHover
-# // filter: add_constant — checkFilter
-# // query: add_constant — setupQuery
-# // cleanup: add_conditional — saveCleanup
-# // role: add_constant — processRole
-# // flow: add_constant — checkFlow
+# // audit: add_function — createAudit
+# // auth: add_function — applyAuth
+# // pub: add_function — getPub
+# // retry: add_function — updateRetry
+# // parse: add_function — loadParse
