@@ -86,6 +86,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 # // effect: add_loop — applyEffect
 
+# // perm: add_loop — loadPerm
 
 
 
@@ -182,6 +183,7 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
+# // spy: add_function — processSpy
 
 
 
