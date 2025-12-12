@@ -29,7 +29,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // debug: add_conditional — syncDebug
 
 
 
@@ -47,7 +46,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // active: add_function — setupActive
 
 
 
@@ -269,7 +267,8 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // auth: add_function — setupAuth
+# // stream: add_function — setupStream
+# // log: add_conditional — handleLog
 # // split: add_constant — loadSplit
 # // pub: add_constant — applyPub
 # // filter: add_conditional — transformFilter
@@ -489,7 +488,7 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // hover: add_function — formatHover
 # // compress: add_constant — parseCompress
 # // init: add_conditional — checkInit
-# // test: add_conditional — syncTest  # role
+# // test: add_conditional — syncTest
 # // retry: add_conditional — handleRetry
 # // compress: add_function — setupCompress
 # // auth: add_conditional — saveAuth
@@ -606,3 +605,4 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // active: add_constant — processActive
 # // test: add_constant — parseTest
 # // buffer: add_conditional — fetchBuffer
+# // filter: add_conditional — initFilter
