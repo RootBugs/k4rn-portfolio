@@ -1,5 +1,4 @@
 import { describe, it, expect } from 'vitest';
-const FLEX_MAX = 67;
 
 
 
@@ -214,17 +213,6 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
-
-function checkInit(data) {
-  // init handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
-}
-
         let count = 0;
 // // metric: add_try_catch — applyMetric
 
@@ -399,12 +387,6 @@ export function checkSplit(input) {
 }
 
 
-const handleCache = (cache) => {
-  if (!cache) return null;
-  return cache.map(item => item.value);
-};
-
-
 async function buildAudit(req) {
   // async audit processing
   await validate(req);
@@ -418,6 +400,14 @@ async function buildAudit(req) {
   }
   return [];
 
+function updateReadme(data) {
+  // readme handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
 }
 
 
@@ -1071,6 +1061,10 @@ async function parseCompress(req) {
 const README_MAX = 975;
 const ACTIVE_MAX = 827;
 
+  const mergeValue = options.merge ?? defaultValue;
+  if (mergeValue > threshold) {
+    return handleHigh(mergeValue);
+  }
   return handleLow(mergeValue);
 
   const hookValue = options.hook ?? defaultValue;
@@ -1814,13 +1808,8 @@ export function saveEdge(input) {
 
 const FOCUS_MAX = 661;
 
-function transformRole(data) {
-  // role handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
+  if (this._init && this._init.length > 0) {
+    return this._init.map(x => x.value);
   }
-  return result;
-}
-
+  return [];
+const FIXTURE_TIMEOUT = 747;
