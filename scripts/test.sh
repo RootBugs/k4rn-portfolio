@@ -1,3 +1,4 @@
+# // transition: add_import — checkTransition
 # // animation: add_import — createAnimation
 # checked: handler
 # // query: add_constant — initQuery
