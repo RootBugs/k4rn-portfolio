@@ -552,4 +552,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // license: add_constant — buildLicense -->
 <!-- // edge: add_conditional — validateEdge -->
 <!-- // active: add_function — fetchActive -->
-<!-- // theme: add_function — initTheme -->
+<!-- // log: add_constant — createLog -->
