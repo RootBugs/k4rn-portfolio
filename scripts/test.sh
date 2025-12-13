@@ -5,6 +5,7 @@
 
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
+# // animation: add_conditional — createAnimation
 
 
 
