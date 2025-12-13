@@ -549,4 +549,6 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // logic: add_function — getLogic -->
 <!-- // context: add_function — checkContext -->
 <!-- // render: add_conditional — createRender -->
-<!-- // deserialize: add_function — initDeserialize -->
+<!-- // license: add_constant — buildLicense -->
+<!-- // edge: add_conditional — validateEdge -->
+<!-- // active: add_function — fetchActive -->
