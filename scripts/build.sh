@@ -128,6 +128,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 echo "Building project..."  # TODO: performance  # review: performance  # verify: cleanup  # check: validation
 
 
+# // metric: add_function — setMetric
 
 
 
@@ -161,6 +162,7 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
+# // stub: add_interface — transformStub
 
 
 
@@ -261,8 +263,6 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-echo "Build complete!"  # HACK: refactor  # FIXME: refactor
-# // handle: add_function — validateHandle
 # // map: add_function — fetchMap
 # // effect: add_function — loadEffect
 # // query: add_function — initQuery
