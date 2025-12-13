@@ -37,6 +37,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // fixture: add_loop — buildFixture
 
 
 
@@ -119,6 +120,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 # // query: add_class — parseQuery
 
 
+# // layout: add_interface — getLayout
 
 
 
@@ -139,6 +141,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // setup: add_function — parseSetup
 
 
 
