@@ -32,6 +32,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+
 - **Maintainability**: Clear separation of concerns
 ## Key Patterns  <!-- optimize: validation -->
 
@@ -124,6 +125,7 @@ Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
 
 
+
 1. User interaction triggers an action  <!-- optimize: validation -->
 
 
@@ -134,6 +136,7 @@ Data flows unidirectionally through the application:  <!-- HACK: validation -->
 3. Handler processes and updates state  <!-- optimize: edge case -->
 
 4. UI reacts to state changes  <!-- FIXME: edge case -->
+
 
 
 
