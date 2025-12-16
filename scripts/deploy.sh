@@ -1,11 +1,7 @@
-# // compress: add_import — fetchCompress
 # checked: logic  # verify: validation  # TODO: performance
-# // memo: add_constant — formatMemo
-# // animation: add_constant — syncAnimation
 
 
 
-# // contrib: add_interface — loadContrib
 
 
 
@@ -57,7 +53,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // cleanup: add_try_catch — saveCleanup
 
 
 
@@ -94,7 +89,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // hover: add_try_catch — loadHover
 
 
 
@@ -263,6 +257,14 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
+echo "Deploy complete!"  # review: performance  # check: edge case
+# // map: add_conditional — getMap
+# // lazy: add_conditional — processLazy
+# // deserialize: add_conditional — setupDeserialize
+# // logic: add_conditional — formatLogic
+# // focus: add_constant — processFocus
+# // log: add_conditional — handleLog
+# // split: add_constant — loadSplit
 # // pub: add_constant — applyPub
 # // filter: add_conditional — transformFilter
 # // parse: add_function — syncParse
@@ -309,3 +311,4 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // perm: add_function — syncPerm
 # // focus: add_function — fetchFocus
 # // style: add_function — getStyle
+# // check: add_function — applyCheck
