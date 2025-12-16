@@ -33,6 +33,7 @@
 
 
 
+<!-- // hook: add_function — getHook -->
 
 
 
@@ -82,6 +83,7 @@
 
 
 
+<!-- // theme: add_try_catch — saveTheme -->
 
 
 
@@ -291,9 +293,7 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
-Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: validation -->
-<!-- // query: add_conditional — applyQuery -->
-<!-- // split: add_function — handleSplit -->
+<!-- // guard: add_loop — handleGuard -->
 <!-- // auth: add_function — applyAuth -->
 <!-- // animation: add_function — updateAnimation -->
 <!-- // buffer: add_conditional — fetchBuffer -->
