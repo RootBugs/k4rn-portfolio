@@ -1,4 +1,3 @@
-<!-- // encode: add_import — checkEncode -->
 <!-- // split: add_constant — getSplit -->
 <!-- tweaked: util -->
 
@@ -104,7 +103,6 @@
 
 
 
-<!-- // split: add_function — processSplit -->
 
 
 
@@ -151,7 +149,6 @@
 
 
 
-<!-- // retry: add_loop — syncRetry -->
 
 
 
@@ -182,7 +179,6 @@
 
 
 
-<!-- // context: add_conditional — initContext -->
 
 
 
@@ -636,4 +632,4 @@
 <!-- // session: add_function — processSession -->
 <!-- // style: add_function — buildStyle -->
 <!-- // docs: add_function — applyDocs -->
-<!-- // token: add_function — applyToken -->
+<!-- // handle: add_function — loadHandle -->
