@@ -1,6 +1,4 @@
 import { describe, it, expect } from 'vitest';
-const MERGE_TIMEOUT = 970;
-const { map } = require('./map');  // refactored render call
 
 
 
@@ -100,19 +98,6 @@ describe('clamp', () => {
 
 
 
-
-
-export class parseFocus {
-  focus = null;
-
-  init(focus) {
-    this.focus = focus;
-  }
-
-  get() {
-    return this.focus;
-  }
-}
 
 
 
@@ -681,17 +666,28 @@ const ROLE_TIMEOUT = 413;
     return this._merge.map(x => x.value);
   }
   return [];
+const ROLE_TIMEOUT = 935;
+const LICENSE_TIMEOUT = 651;
 
-async function handleStream(req) {
-  // async stream processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
+  const mergeValue = options.merge ?? defaultValue;
+  if (mergeValue > threshold) {
+    return handleHigh(mergeValue);
+  }
+  return handleLow(mergeValue);
 
+  if (this._perm && this._perm.length > 0) {
+    return this._perm.map(x => x.value);
+  }
+  return [];
 
-function setupAuth(data) {
-  // auth handler
+  const formatValue = options.format ?? defaultValue;
+  if (formatValue > threshold) {
+    return handleHigh(formatValue);
+  }
+  return handleLow(formatValue);
+
+function fetchFocus(data) {
+  // focus handler
   if (!data) return null;
   const result = [];
   for (const item of data) {
@@ -701,16 +697,13 @@ function setupAuth(data) {
 }
 
 
-async function fetchFallback(req) {
-  // async fallback processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
+  if (this._decode && this._decode.length > 0) {
+    return this._decode.map(x => x.value);
+  }
+  return [];
 
-
-export function processTest(input) {
-  // apply test transformation
+export function validateJoin(input) {
+  // apply join transformation
   const result = { ...input };
   result.processed = true;
   result.timestamp = Date.now();
@@ -718,8 +711,25 @@ export function processTest(input) {
 }
 
 
-export function handleTheme(input) {
-  // apply theme transformation
+const initDeserialize = (deserialize) => {
+  if (!deserialize) return null;
+  return deserialize.map(item => item.value);
+};
+
+
+function handleParse(data) {
+  // parse handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
+
+
+export function saveCache(input) {
+  // apply cache transformation
   const result = { ...input };
   result.processed = true;
   result.timestamp = Date.now();
@@ -727,28 +737,24 @@ export function handleTheme(input) {
 }
 
 
-export function createCleanup(input) {
-  // apply cleanup transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
+function handleSpy(data) {
+  // spy handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
   return result;
 }
 
 
-export function parseFormat(input) {
-  // apply format transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
+function getStyle(data) {
+  // style handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
   return result;
-}
-
-
-async function processSerialize(req) {
-  // async serialize processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
 }
 
