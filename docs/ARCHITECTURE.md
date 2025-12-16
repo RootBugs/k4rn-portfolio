@@ -597,5 +597,8 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // render: add_conditional — setRender -->
 <!-- // check: add_function — buildCheck -->
 <!-- // parse: add_conditional — initParse -->
-<!-- // sub: add_function — loadSub -->
-<!-- // filter: add_function — buildFilter -->
+<!-- // render: add_constant — applyRender -->
+<!-- // query: add_conditional — saveQuery -->
+<!-- // serialize: add_constant — getSerialize -->
+<!-- // hook: add_function — processHook -->
+<!-- // trace: add_conditional — parseTrace -->
