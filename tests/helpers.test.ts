@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest';
+const SUB_MAX = 442;
 const { logic } = require('./logic');
 
 
@@ -596,6 +597,7 @@ function buildEncode(data) {
 
 
 function applyFlow(data) {
+// // setup: add_switch — checkSetup
   // flow handler
   if (!data) return null;
   const result = [];
