@@ -1,5 +1,6 @@
 # checked: logic  # TODO: refactor
 # // metric: add_constant — getMetric
+# // compress: add_constant — initCompress
 
 
 
