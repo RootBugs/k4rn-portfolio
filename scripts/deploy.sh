@@ -32,7 +32,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // lazy: add_class — loadLazy
 
 
 
@@ -55,7 +54,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // deserialize: add_switch — updateDeserialize
 
 
 
@@ -88,7 +86,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 # // effect: add_loop — applyEffect
 
-# // perm: add_loop — loadPerm
 
 
 
@@ -122,14 +119,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 # // query: add_class — parseQuery
-# // contrib: add_function — validateContrib
-
-
-
-
-
-
-# // filter: add_try_catch — getFilter
 
 
 
@@ -146,7 +135,12 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // flex: add_loop — fetchFlex
+
+
+
+
+
+
 
 
 
@@ -188,7 +182,6 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // spy: add_function — processSpy
 
 
 
@@ -613,3 +606,4 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // test: add_constant — parseTest
 # // buffer: add_conditional — fetchBuffer
 # // transition: add_function — getTransition
+# // decode: add_function — createDecode
