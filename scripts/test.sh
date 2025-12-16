@@ -630,3 +630,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // grid: add_constant — handleGrid
 # // animation: add_constant — handleAnimation
 # // audit: add_function — initAudit
+# // hover: add_function — formatHover
