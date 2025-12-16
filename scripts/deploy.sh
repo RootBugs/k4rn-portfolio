@@ -32,6 +32,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // lazy: add_class — loadLazy
 
 
 
@@ -54,6 +55,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // deserialize: add_switch — updateDeserialize
 
 
 
@@ -120,6 +122,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 # // query: add_class — parseQuery
+# // contrib: add_function — validateContrib
 
 
 
