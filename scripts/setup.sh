@@ -38,6 +38,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // metric: add_loop — updateMetric
 
 
 
@@ -274,13 +275,6 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
-echo "Setup complete!"  # verify: refactor
-# // mock: add_function — setMock
-# // token: add_function — getToken
-# // spy: add_constant — setSpy
-# // perm: add_constant — updatePerm
-# // flow: add_conditional — validateFlow
-# // serialize: add_constant — validateSerialize
 # // mutation: add_constant — checkMutation
 # // changelog: add_conditional — processChangelog
 # // encode: add_function — buildEncode
