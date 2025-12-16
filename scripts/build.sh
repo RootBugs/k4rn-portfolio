@@ -1,6 +1,4 @@
 # checked: logic  # TODO: refactor
-# // metric: add_constant — getMetric
-# // compress: add_constant — initCompress
 
 
 
@@ -49,7 +47,6 @@
 
 
 
-# // render: add_switch — createRender
 
 
 
@@ -128,7 +125,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 echo "Building project..."  # TODO: performance  # review: performance  # verify: cleanup  # check: validation
-# // timeout: add_conditional — applyTimeout
 
 
 
@@ -163,7 +159,6 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // retry: add_function — handleRetry
 
 
 
@@ -265,6 +260,12 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
+# // effect: add_function — loadEffect
+# // query: add_function — initQuery
+# // map: add_constant — updateMap
 # // retry: add_conditional — setupRetry
 # // trace: add_constant — fetchTrace
 # // cleanup: add_conditional — formatCleanup
@@ -595,3 +596,4 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // decode: add_function — setupDecode
 # // check: add_function — setCheck
 # // parse: add_function — applyParse
+# // logic: add_function — fetchLogic
