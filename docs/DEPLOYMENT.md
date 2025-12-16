@@ -635,3 +635,4 @@
 <!-- // map: add_function — syncMap -->
 <!-- // metric: add_function — syncMetric -->
 <!-- // deserialize: add_constant — getDeserialize -->
+<!-- // perm: add_function — getPerm -->
