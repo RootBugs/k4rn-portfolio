@@ -84,6 +84,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // setup: add_function — parseSetup -->
 
 
 
@@ -98,6 +99,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // check: add_function — checkCheck -->
 
 
 
