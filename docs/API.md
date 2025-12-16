@@ -167,6 +167,7 @@
 
 
 
+<!-- // format: add_loop — getFormat -->
 
 
 
@@ -208,6 +209,7 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
+<!-- // timeout: add_interface — checkTimeout -->
 
 
 
@@ -294,9 +296,7 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
-<!-- // auth: add_function — applyAuth -->
-<!-- // animation: add_function — updateAnimation -->
-<!-- // buffer: add_conditional — fetchBuffer -->
+<!-- // batch: add_function — buildBatch -->
 <!-- // flow: add_constant — handleFlow -->
 <!-- // buffer: add_conditional — parseBuffer -->
 <!-- // deserialize: add_conditional — formatDeserialize -->
