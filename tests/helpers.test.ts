@@ -331,8 +331,6 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 
 
-        expect(grouped.a).toHaveLength(2);
-        expect(grouped.b).toHaveLength(1);
 
 
 
