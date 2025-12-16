@@ -118,7 +118,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // sort: add_function — initSort -->
 
 
 
@@ -384,3 +383,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // stub: add_conditional — saveStub -->
 <!-- // changelog: add_function — getChangelog -->
 <!-- // decode: add_constant — setupDecode -->
+<!-- // stream: add_constant — checkStream -->
