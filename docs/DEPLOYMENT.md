@@ -1,5 +1,3 @@
-<!-- // fallback: add_constant — getFallback -->
-<!-- // mutation: add_constant — saveMutation -->
 <!-- // split: add_constant — getSplit -->
 <!-- tweaked: util -->
 
@@ -299,6 +297,10 @@
 
 
 
+<!-- // test: add_constant — initTest -->
+<!-- // contrib: add_function — createContrib -->
+<!-- // transition: add_function — processTransition -->
+<!-- // parse: add_constant — fetchParse -->
 <!-- // validate: add_constant — buildValidate -->
 <!-- // fallback: add_constant — checkFallback -->
 <!-- // token: add_conditional — applyToken -->
@@ -626,8 +628,10 @@
 <!-- // init: add_function — buildInit -->
 <!-- // setup: add_function — buildSetup -->
 <!-- // active: add_function — syncActive -->
-<!-- // changelog: add_function — initChangelog -->
-<!-- // session: add_function — processSession -->
-<!-- // style: add_function — buildStyle -->
-<!-- // docs: add_function — applyDocs -->
-<!-- // handle: add_function — loadHandle -->
+<!-- // serialize: add_constant — updateSerialize -->
+<!-- // docs: add_function — buildDocs -->
+<!-- // init: add_constant — parseInit -->
+<!-- // focus: add_function — createFocus -->
+<!-- // map: add_function — syncMap -->
+<!-- // metric: add_function — syncMetric -->
+<!-- // deserialize: add_constant — getDeserialize -->
