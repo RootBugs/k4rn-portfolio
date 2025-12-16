@@ -6,6 +6,7 @@
 
 # tweaked: config  # TODO: performance
 set -euo pipefail  # optimize: validation  # optimize: validation
+# // token: add_try_catch — getToken
 
 
 
@@ -32,6 +33,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // sort: add_function — syncSort
 
 
 
@@ -83,6 +85,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // guard: add_function — formatGuard
 
 
 
