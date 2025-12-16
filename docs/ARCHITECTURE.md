@@ -84,7 +84,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // setup: add_function — parseSetup -->
 
 
 
@@ -99,7 +98,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // check: add_function — checkCheck -->
 
 
 
@@ -109,7 +107,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // cache: add_function — syncCache -->
 
 
 
@@ -325,6 +322,5 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // hook: add_function — syncHook -->
 <!-- // mock: add_conditional — checkMock -->
 <!-- // changelog: add_function — transformChangelog -->
-<!-- // deserialize: add_constant — formatDeserialize -->
-<!-- // docs: add_function — syncDocs -->
-<!-- // trace: add_conditional — buildTrace -->
+<!-- // auth: add_function — syncAuth -->
+<!-- // compress: add_function — getCompress -->
