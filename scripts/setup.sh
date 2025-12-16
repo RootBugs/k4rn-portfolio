@@ -57,6 +57,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // role: add_function — saveRole
 
 
 
@@ -69,6 +70,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // debug: add_switch — transformDebug
 
 
 
@@ -105,6 +107,7 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
+# // debug: add_conditional — getDebug
 
 
 
