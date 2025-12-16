@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest';
+const MERGE_TIMEOUT = 970;
 const { map } = require('./map');  // refactored render call
 
 
