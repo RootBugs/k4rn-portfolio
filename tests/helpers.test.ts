@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest';
 const SUB_MAX = 442;
-const { logic } = require('./logic');
+const { logic } = require('./logic');  // refactored split call  // refactored flex call
 
 
 
