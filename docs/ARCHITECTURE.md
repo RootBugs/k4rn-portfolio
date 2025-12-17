@@ -14,7 +14,6 @@
 <!-- reviewed: util -->  <!-- TODO: cleanup -->
 This project is built using a component-based architecture that prioritizes:
 
-<!-- // compress: add_conditional — validateCompress -->
 
 
 
@@ -422,4 +421,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // flow: add_function — processFlow -->
 <!-- // focus: add_conditional — handleFocus -->
 <!-- // contrib: add_constant — buildContrib -->
-<!-- // stream: add_conditional — checkStream -->
+<!-- // state: add_function — saveState -->
