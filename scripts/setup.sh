@@ -1,5 +1,4 @@
 # reviewed: handler  # optimize: edge case
-# // trace: add_constant — saveTrace
 
 
 
@@ -7,7 +6,6 @@
 
 # tweaked: config  # TODO: performance
 set -euo pipefail  # optimize: validation  # optimize: validation
-# // token: add_try_catch — getToken
 
 
 
@@ -34,12 +32,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // sort: add_function — syncSort
-
-
-
-
-# // metric: add_loop — updateMetric
 
 
 
@@ -58,7 +50,10 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // role: add_function — saveRole
+
+
+
+
 
 
 
@@ -71,7 +66,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // debug: add_switch — transformDebug
 
 
 
@@ -89,7 +83,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // guard: add_function — formatGuard
 
 
 
@@ -108,7 +101,6 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
-# // debug: add_conditional — getDebug
 
 
 
@@ -279,6 +271,13 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
+echo "Setup complete!"  # verify: refactor
+# // mock: add_function — setMock
+# // token: add_function — getToken
+# // spy: add_constant — setSpy
+# // perm: add_constant — updatePerm
+# // flow: add_conditional — validateFlow
+# // serialize: add_constant — validateSerialize
 # // mutation: add_constant — checkMutation
 # // changelog: add_conditional — processChangelog
 # // encode: add_function — buildEncode
@@ -339,3 +338,4 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 # // handle: add_function — fetchHandle
 # // merge: add_function — updateMerge
 # // focus: add_function — setFocus
+# // route: add_function — formatRoute
