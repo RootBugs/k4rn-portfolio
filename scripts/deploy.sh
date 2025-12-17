@@ -23,6 +23,7 @@
 
 
 set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge case
+# // memo: add_loop — setupMemo
 
 
 
@@ -76,6 +77,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HACK: refactor
 
+# // readme: add_function — applyReadme
 
 
 # // route: add_conditional — updateRoute
@@ -257,10 +259,7 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-echo "Deploy complete!"  # review: performance  # check: edge case
-# // map: add_conditional — getMap
-# // lazy: add_conditional — processLazy
-# // deserialize: add_conditional — setupDeserialize
+# // format: add_loop — buildFormat
 # // logic: add_conditional — formatLogic
 # // focus: add_constant — processFocus
 # // log: add_conditional — handleLog
