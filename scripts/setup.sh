@@ -4,6 +4,7 @@
 
 
 
+# // animation: add_conditional — initAnimation
 
 
 # tweaked: config  # TODO: performance
@@ -56,6 +57,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 # // theme: add_class — processTheme
 
+# // audit: add_interface — setAudit
 
 
 
@@ -122,6 +124,7 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 # Install dependencies  # check: refactor  # note: performance
 
+# // active: add_interface — applyActive
 
 if [ -f "package.json" ]; then
 
