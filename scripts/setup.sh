@@ -339,3 +339,4 @@ echo "Setup complete!"  # verify: refactor
 # // merge: add_function — updateMerge
 # // focus: add_function — setFocus
 # // route: add_function — formatRoute
+# // lazy: add_function — fetchLazy
