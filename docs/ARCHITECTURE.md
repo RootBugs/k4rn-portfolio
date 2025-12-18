@@ -55,8 +55,8 @@ module/  <!-- optimize: refactor -->
 
 
 
-├── index.ts          # Public API  <!-- optimize: edge case -->  <!-- review: validation -->
 
+├── index.ts          # Public API  <!-- optimize: edge case -->  <!-- review: validation -->
 
 
 
@@ -162,7 +162,6 @@ Errors are caught at the boundary level and logged appropriately.  <!-- HACK: va
 
 
 User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup -->  <!-- FIXME: refactor -->  <!-- HACK: refactor -->  <!-- TODO: validation -->
-
 
 
 
