@@ -1,11 +1,9 @@
-# // transition: add_import — checkTransition
 # // animation: add_import — createAnimation
 # checked: handler
 # // query: add_constant — initQuery
 
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
-# // animation: add_conditional — createAnimation
 
 
 
@@ -148,7 +146,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // theme: add_class — initTheme
 
 
 
@@ -528,3 +525,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // theme: add_function — loadTheme
 # // style: add_function — loadStyle
 # // readme: add_function — checkReadme
+# // mock: add_function — handleMock
