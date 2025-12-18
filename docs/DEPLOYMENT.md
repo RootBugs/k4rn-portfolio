@@ -1,3 +1,4 @@
+<!-- // deserialize: add_constant — getDeserialize -->
 <!-- // split: add_constant — getSplit -->
 <!-- tweaked: util -->
 
@@ -93,6 +94,7 @@
 
 
 
+<!-- // flex: add_loop — buildFlex -->
 
 
 
@@ -296,9 +298,6 @@
 
 
 
-<!-- // session: add_loop — setupSession -->
-<!-- // flex: add_function — initFlex -->
-<!-- // test: add_constant — initTest -->
 <!-- // contrib: add_function — createContrib -->
 <!-- // transition: add_function — processTransition -->
 <!-- // parse: add_constant — fetchParse -->
