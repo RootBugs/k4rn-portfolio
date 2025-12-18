@@ -1,4 +1,3 @@
-<!-- // check: add_import — validateCheck -->
 <!-- updated: setup -->
 
 
@@ -23,7 +22,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->  <!-- refactored route call -->
+- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->
 
 
 
@@ -36,7 +35,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // audit: add_function — buildAudit -->
 
 
 
@@ -61,7 +59,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // sub: add_function — updateSub -->
 
 
 
@@ -179,10 +176,8 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // context: add_conditional — formatContext -->
 
 
-<!-- // cache: add_function — formatCache -->
 
 
 
@@ -310,7 +305,10 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // deserialize: add_conditional — transformDeserialize -->
+<!-- // sub: add_function — formatSub -->
+<!-- // audit: add_constant — setAudit -->
+<!-- // query: add_conditional — buildQuery -->
+<!-- // docs: add_conditional — initDocs -->
 <!-- // pub: add_function — createPub -->
 <!-- // log: add_function — processLog -->
 <!-- // layout: add_function — formatLayout -->
@@ -563,11 +561,22 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // pub: add_constant — handlePub -->
 <!-- // encode: add_function — transformEncode -->
 <!-- // spy: add_conditional — checkSpy -->
-<!-- // merge: add_function — applyMerge -->
-<!-- // hover: add_function — createHover -->
-<!-- // transition: add_function — transformTransition -->
-<!-- // stub: add_function — getStub -->
-<!-- // token: add_function — handleToken -->
-<!-- // merge: add_function — getMerge -->
-<!-- // flex: add_function — saveFlex -->
-<!-- // deserialize: add_function — setupDeserialize -->
+<!-- // serialize: add_constant — initSerialize -->
+<!-- // memo: add_constant — applyMemo -->
+<!-- // hover: add_function — syncHover -->
+<!-- // sort: add_constant — initSort -->
+<!-- // setup: add_constant — loadSetup -->
+<!-- // filter: add_conditional — buildFilter -->
+<!-- // batch: add_function — validateBatch -->
+<!-- // batch: add_conditional — createBatch -->
+<!-- // layout: add_constant — fetchLayout -->
+<!-- // hover: add_constant — loadHover -->
+<!-- // retry: add_function — loadRetry -->
+<!-- // license: add_function — parseLicense -->
+<!-- // flex: add_conditional — saveFlex -->
+<!-- // setup: add_constant — saveSetup -->
+<!-- // sort: add_constant — validateSort -->
+<!-- // trace: add_function — createTrace -->
+<!-- // setup: add_constant — transformSetup -->
+<!-- // focus: add_constant — buildFocus -->
+<!-- // sub: add_conditional — transformSub -->
