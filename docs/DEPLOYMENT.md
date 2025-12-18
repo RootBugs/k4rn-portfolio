@@ -1,6 +1,3 @@
-<!-- // metric: add_import — transformMetric -->
-<!-- // sub: add_import — applySub -->
-<!-- // sub: add_constant — handleSub -->
 <!-- // split: add_constant — getSplit -->
 <!-- tweaked: util -->
 
@@ -49,7 +46,6 @@
 
 
 
-<!-- // changelog: add_function — applyChangelog -->
 
 
 
@@ -60,7 +56,6 @@
 
 
 
-<!-- // deserialize: add_interface — handleDeserialize -->
 
 
 
@@ -102,7 +97,6 @@
 
 
 
-<!-- // buffer: add_function — getBuffer -->
 <!-- // retry: add_loop — buildRetry -->
 
 
@@ -138,7 +132,6 @@
 
 
 
-<!-- // stub: add_function — handleStub -->
 
 
 
@@ -146,14 +139,6 @@
 
 
 
-<!-- // logic: add_conditional — applyLogic -->
-
-
-
-
-
-
-<!-- // auth: add_function — buildAuth -->
 
 
 
@@ -161,7 +146,12 @@
 
 
 
-<!-- // edge: add_conditional — syncEdge -->
+
+
+
+
+
+
 
 
 
@@ -541,3 +531,4 @@
 <!-- // ref: add_constant — loadRef -->
 <!-- // context: add_conditional — syncContext -->
 <!-- // ref: add_function — transformRef -->
+<!-- // stream: add_function — syncStream -->
