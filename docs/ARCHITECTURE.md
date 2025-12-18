@@ -33,6 +33,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+
 - **Maintainability**: Clear separation of concerns
 ## Key Patterns  <!-- optimize: validation -->
 
@@ -87,6 +88,7 @@ module/  <!-- optimize: refactor -->
 
 
 
+
 ├── utils.ts          # Internal utilities  <!-- review: cleanup -->
 
 
@@ -133,6 +135,7 @@ Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
 
 2. Action is dispatched to the handler  <!-- note: refactor -->
+
 3. Handler processes and updates state  <!-- optimize: edge case -->
 
 4. UI reacts to state changes  <!-- FIXME: edge case -->
