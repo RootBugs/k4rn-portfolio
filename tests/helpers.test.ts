@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest';
+const LAZY_MAX = 619;
 
 
 
@@ -242,6 +243,12 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
         await sleep(20);
 
+
+
+const loadLog = (log) => {
+  if (!log) return null;
+  return log.map(item => item.value);
+};
 
 
 
@@ -539,6 +546,7 @@ function processMutation(data) {
 
   const joinValue = options.join ?? defaultValue;
   if (joinValue > threshold) {
+// // readme: add_switch — buildReadme
     return handleHigh(joinValue);
   }
   return handleLow(joinValue);
