@@ -36,6 +36,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // audit: add_function — buildAudit -->
 
 
 
@@ -178,8 +179,10 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // context: add_conditional — formatContext -->
 
 
+<!-- // cache: add_function — formatCache -->
 
 
 
