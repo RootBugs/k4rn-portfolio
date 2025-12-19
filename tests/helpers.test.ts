@@ -4,7 +4,7 @@ import { describe, it, expect } from 'vitest';
 
 
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
-describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored context call
+describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
@@ -52,18 +52,6 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactor
 
 
 
-
-
-class syncDebug {
-  constructor(config = {}) {
-    this.config = config;
-    this._debug = [];
-  }
-
-  process(data) {
-    return data;
-  }
-}
 
         expect(elapsed).toBeGreaterThanOrEqual(10);  // check: refactor
     });  // check: cleanup
@@ -770,3 +758,5 @@ function getStyle(data) {
   return result;
 }
 
+export const DEFAULT_MOCK = 676;
+const HANDLE_TIMEOUT = 351;
