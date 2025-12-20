@@ -1,3 +1,4 @@
+# // changelog: add_import — checkChangelog
 # // animation: add_import — createAnimation
 # checked: handler
 # // query: add_constant — initQuery
@@ -25,6 +26,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // animation: add_function — fetchAnimation
 
 
 
@@ -131,6 +133,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // state: add_function — setupState
 
 
 
