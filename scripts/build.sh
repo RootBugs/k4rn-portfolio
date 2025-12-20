@@ -1,4 +1,5 @@
 # checked: logic  # TODO: refactor
+# // check: add_constant — applyCheck
 
 
 
@@ -9,6 +10,7 @@
 
 
 
+# // encode: add_conditional — parseEncode
 
 
 
