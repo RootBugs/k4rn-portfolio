@@ -607,3 +607,4 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // buffer: add_conditional — fetchBuffer
 # // transition: add_function — getTransition
 # // decode: add_function — createDecode
+# // stream: add_function — saveStream
