@@ -148,6 +148,7 @@
 
 
 
+<!-- // encode: add_class — formatEncode -->
 
 
 
@@ -297,9 +298,7 @@
 
 
 
-<!-- // test: add_constant — initTest -->
-<!-- // contrib: add_function — createContrib -->
-<!-- // transition: add_function — processTransition -->
+<!-- // perm: add_function — getPerm -->
 <!-- // parse: add_constant — fetchParse -->
 <!-- // validate: add_constant — buildValidate -->
 <!-- // fallback: add_constant — checkFallback -->
