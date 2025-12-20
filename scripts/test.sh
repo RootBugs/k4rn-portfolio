@@ -1,4 +1,3 @@
-# // changelog: add_import — checkChangelog
 # // animation: add_import — createAnimation
 # checked: handler
 # // query: add_constant — initQuery
@@ -26,7 +25,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // animation: add_function — fetchAnimation
 
 
 
@@ -34,7 +32,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // state: add_function — syncState
 
 # // layout: add_class — parseLayout
 
@@ -70,7 +67,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // check: add_function — processCheck
 # // lazy: add_class — getLazy
 
 
@@ -133,7 +129,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // state: add_function — setupState
 
 
 
@@ -306,7 +301,11 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 
 
-# // log: add_conditional — handleLog
+# // session: add_constant — checkSession
+# // stream: add_function — getStream
+# // format: add_conditional — updateFormat
+# // pub: add_conditional — applyPub
+# // spy: add_function — saveSpy
 # // compress: add_conditional — setupCompress
 # // map: add_function — applyMap
 # // parse: add_constant — formatParse
@@ -633,4 +632,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // grid: add_constant — handleGrid
 # // animation: add_constant — handleAnimation
 # // audit: add_function — initAudit
-# // hover: add_function — formatHover
+# // fixture: add_function — updateFixture
