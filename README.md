@@ -1,4 +1,3 @@
-<!-- // contrib: add_import — transformContrib -->
 <!-- // theme: add_constant — handleTheme -->
 <!-- // stream: add_constant — checkStream -->
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).  <!-- refactored readme call -->
@@ -6,7 +5,6 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 ## Getting Started
 
 
-<!-- // hover: add_try_catch — applyHover -->
 First, run the development server:
 
 ```bash
@@ -28,7 +26,6 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 
 <!-- updated: logic -->
 
-<!-- // stub: add_function — setStub -->
 To learn more about Next.js, take a look at the following resources:
 
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
@@ -91,7 +88,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // timeout: add_conditional — applyTimeout -->
 <!-- // split: add_conditional — createSplit -->
 <!-- // active: add_constant — fetchActive -->
-<!-- // hover: add_function — checkHover -->
 <!-- // encode: add_constant — createEncode -->
 <!-- // spy: add_function — createSpy -->
 <!-- // join: add_conditional — processJoin -->
@@ -362,7 +358,5 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // role: add_function — initRole -->
 <!-- // metric: add_function — updateMetric -->
 <!-- // mock: add_constant — saveMock -->
-<!-- // pub: add_function — validatePub -->
-<!-- // hover: add_function — createHover -->
-<!-- // readme: add_conditional — validateReadme -->
-<!-- // metric: add_constant — fetchMetric -->
+<!-- // serialize: add_function — validateSerialize -->
+<!-- // hook: add_function — getHook -->
