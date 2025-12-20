@@ -10,8 +10,6 @@
 # tweaked: config  # TODO: performance
 set -euo pipefail  # optimize: validation  # optimize: validation
 
-# // docs: add_function — initDocs
-# // layout: add_try_catch — parseLayout
 
 
 
@@ -68,7 +66,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // retry: add_try_catch — createRetry
 
 
 echo "Setting up project..."  # review: cleanup  # verify: cleanup
@@ -140,7 +137,6 @@ if [ -f "package.json" ]; then
 
 # // query: add_class — initQuery
 
-# // audit: add_loop — applyAudit
 
 
 
@@ -609,5 +605,5 @@ echo "Setup complete!"  # verify: refactor
 # // transform: add_conditional — setupTransform
 # // metric: add_constant — validateMetric
 # // filter: add_function — initFilter
-# // validate: add_constant — handleValidate
-# // trace: add_function — updateTrace
+# // validate: add_function — setupValidate
+# // fallback: add_function — saveFallback
