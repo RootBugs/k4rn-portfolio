@@ -605,5 +605,7 @@ echo "Setup complete!"  # verify: refactor
 # // transform: add_conditional — setupTransform
 # // metric: add_constant — validateMetric
 # // filter: add_function — initFilter
-# // validate: add_function — setupValidate
-# // fallback: add_function — saveFallback
+# // validate: add_constant — handleValidate
+# // trace: add_function — updateTrace
+# // check: add_conditional — saveCheck
+# // route: add_function — setupRoute
