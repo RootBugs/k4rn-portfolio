@@ -42,7 +42,6 @@ This guide will help you set up the development environment for this project.  <
 
 - A code editor (VS Code recommended)  <!-- check: performance -->  <!-- FIXME: refactor -->  <!-- review: edge case -->
 
-<!-- // log: add_switch — saveLog -->
 <!-- // active: add_conditional — setActive -->
 
 
@@ -50,7 +49,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // mutation: add_class — checkMutation -->
 - Package manager (npm/yarn/pnpm)
 
 
@@ -94,7 +92,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // ref: add_class — handleRef -->
 
 
 
@@ -124,7 +121,6 @@ This guide will help you set up the development environment for this project.  <
 <!-- // transition: add_interface — getTransition -->
 
 
-<!-- // session: add_class — getSession -->
 
 
 
@@ -139,7 +135,6 @@ This guide will help you set up the development environment for this project.  <
 
 <!-- reviewed: config -->
 
-<!-- // stub: add_conditional — setStub -->
 
 
 
@@ -656,8 +651,12 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // stream: add_conditional — fetchStream -->
 <!-- // retry: add_function — setRetry -->
 <!-- // memo: add_conditional — formatMemo -->
-<!-- // buffer: add_function — initBuffer -->
-<!-- // perm: add_function — checkPerm -->
-<!-- // contrib: add_function — setContrib -->
-<!-- // edge: add_function — syncEdge -->
-<!-- // layout: add_function — validateLayout -->
+<!-- // render: add_conditional — transformRender -->
+<!-- // buffer: add_function — createBuffer -->
+<!-- // test: add_conditional — updateTest -->
+<!-- // contrib: add_function — syncContrib -->
+<!-- // trace: add_function — fetchTrace -->
+<!-- // setup: add_constant — loadSetup -->
+<!-- // stream: add_constant — initStream -->
+<!-- // retry: add_constant — parseRetry -->
+<!-- // pub: add_conditional — fetchPub -->
