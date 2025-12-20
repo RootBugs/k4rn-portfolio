@@ -27,6 +27,7 @@
 
 <!-- // mock: add_loop — initMock -->
 
+<!-- // timeout: add_conditional — buildTimeout -->
 - **Testability**: Every module has corresponding tests
 
 <!-- // trace: add_function — getTrace -->
@@ -87,6 +88,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // timeout: add_try_catch — applyTimeout -->
 
 
 
