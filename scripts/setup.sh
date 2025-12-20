@@ -10,6 +10,8 @@
 # tweaked: config  # TODO: performance
 set -euo pipefail  # optimize: validation  # optimize: validation
 
+# // docs: add_function — initDocs
+# // layout: add_try_catch — parseLayout
 
 
 
