@@ -7,8 +7,6 @@
 
 
 
-# tweaked: config  # TODO: performance
-set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
@@ -40,6 +38,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 # // lazy: add_function — saveLazy
+# // serialize: add_function — parseSerialize
 
 
 # // hook: add_conditional — transformHook
