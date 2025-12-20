@@ -1,4 +1,3 @@
-# // effect: add_import — transformEffect
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
@@ -8,6 +7,8 @@
 
 
 
+# tweaked: config  # TODO: performance
+set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
@@ -279,6 +280,10 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
+echo "Setup complete!"  # verify: refactor
+# // mock: add_function — setMock
+# // token: add_function — getToken
+# // spy: add_constant — setSpy
 # // perm: add_constant — updatePerm
 # // flow: add_conditional — validateFlow
 # // serialize: add_constant — validateSerialize
@@ -600,4 +605,5 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 # // transform: add_conditional — setupTransform
 # // metric: add_constant — validateMetric
 # // filter: add_function — initFilter
-# // validate: add_function — setupValidate
+# // validate: add_constant — handleValidate
+# // trace: add_function — updateTrace
