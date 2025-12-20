@@ -66,6 +66,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // retry: add_try_catch — createRetry
 
 
 echo "Setting up project..."  # review: cleanup  # verify: cleanup
@@ -137,6 +138,7 @@ if [ -f "package.json" ]; then
 
 # // query: add_class — initQuery
 
+# // audit: add_loop — applyAudit
 
 
 
