@@ -1,5 +1,4 @@
 # checked: logic  # TODO: refactor
-# // check: add_constant — applyCheck
 
 
 
@@ -10,7 +9,6 @@
 
 
 
-# // encode: add_conditional — parseEncode
 
 
 
@@ -262,7 +260,13 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-# // cache: add_function — applyCache
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
+# // effect: add_function — loadEffect
+# // query: add_function — initQuery
+# // map: add_constant — updateMap
+# // retry: add_conditional — setupRetry
 # // trace: add_constant — fetchTrace
 # // cleanup: add_conditional — formatCleanup
 # // layout: add_function — createLayout
@@ -593,3 +597,4 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // check: add_function — setCheck
 # // parse: add_function — applyParse
 # // logic: add_function — fetchLogic
+# // sub: add_function — setupSub
