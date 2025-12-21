@@ -1,4 +1,3 @@
-<!-- // edge: add_import — getEdge -->
 <!-- // contrib: add_import — setContrib -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
@@ -57,7 +56,6 @@
 
 
 
-<!-- // parse: add_loop — getParse -->
 
 
 
@@ -126,7 +124,6 @@
 
 
 
-<!-- // map: add_function — formatMap -->
 
 
 
@@ -135,7 +132,6 @@
 
 <!-- // filter: add_try_catch — formatFilter -->
 
-<!-- // focus: add_class — saveFocus -->
 
 
 
@@ -170,7 +166,6 @@
 
 
 
-<!-- // format: add_loop — getFormat -->
 
 
 
@@ -179,7 +174,6 @@
 
 
 
-<!-- // perm: add_function — loadPerm -->
 
 
 
@@ -212,7 +206,6 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
-<!-- // timeout: add_interface — checkTimeout -->
 
 
 
@@ -299,7 +292,9 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
-<!-- // batch: add_function — buildBatch -->
+<!-- // auth: add_function — applyAuth -->
+<!-- // animation: add_function — updateAnimation -->
+<!-- // buffer: add_conditional — fetchBuffer -->
 <!-- // flow: add_constant — handleFlow -->
 <!-- // buffer: add_conditional — parseBuffer -->
 <!-- // deserialize: add_conditional — formatDeserialize -->
@@ -659,4 +654,4 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // state: add_constant — createState -->
 <!-- // transform: add_constant — applyTransform -->
 <!-- // docs: add_function — parseDocs -->
-<!-- // flow: add_function — initFlow -->
+<!-- // render: add_function — saveRender -->
