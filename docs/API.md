@@ -659,3 +659,4 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // state: add_constant — createState -->
 <!-- // transform: add_constant — applyTransform -->
 <!-- // docs: add_function — parseDocs -->
+<!-- // flow: add_function — initFlow -->
