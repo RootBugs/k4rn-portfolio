@@ -73,6 +73,7 @@
 <!-- updated: util -->
 
 ```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
+<!-- // mock: add_function — transformMock -->
 module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
@@ -169,6 +170,7 @@ Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
 
 
+<!-- // logic: add_function — updateLogic -->
 
 
 
