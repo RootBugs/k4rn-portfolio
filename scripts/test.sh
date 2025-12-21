@@ -75,6 +75,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 # // setup: add_function — checkSetup
 
 # // session: add_loop — validateSession
+# // cleanup: add_interface — saveCleanup
 
 
 # // focus: add_function — checkFocus
