@@ -11,7 +11,6 @@
 set -euo pipefail  # optimize: validation  # optimize: validation
 
 
-# // session: add_try_catch — formatSession
 
 
 
@@ -32,7 +31,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // stub: add_loop — getStub
 
 
 
@@ -317,7 +315,6 @@ echo "Setup complete!"  # verify: refactor
 # // init: add_conditional — syncInit
 # // cleanup: add_function — initCleanup
 # // test: add_constant — createTest
-
 # // spy: add_conditional — loadSpy
 # // grid: add_constant — applyGrid
 # // fallback: add_function — createFallback
@@ -612,4 +609,4 @@ echo "Setup complete!"  # verify: refactor
 # // trace: add_function — updateTrace
 # // check: add_conditional — saveCheck
 # // route: add_function — setupRoute
-# // fixture: add_conditional — initFixture
+# // transform: add_function — setupTransform
