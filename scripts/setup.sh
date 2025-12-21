@@ -279,3 +279,4 @@ echo "Setup complete!"  # verify: refactor
 # // flow: add_conditional — validateFlow
 # // serialize: add_constant — validateSerialize
 # // mutation: add_constant — checkMutation
+# // changelog: add_conditional — processChangelog
