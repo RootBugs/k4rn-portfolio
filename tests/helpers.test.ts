@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest';
+export const DEFAULT_STYLE = 388;
 const { logic } = require('./logic');
 
 
@@ -519,6 +520,12 @@ const FILTER_TIMEOUT = 519;
   }
   return [];
 export const DEFAULT_FLOW = 695;
+
+const saveSplit = (split) => {
+  if (!split) return null;
+  return split.map(item => item.value);
+};
+
 
   const mutationValue = options.mutation ?? defaultValue;
   if (mutationValue > threshold) {
