@@ -44,7 +44,6 @@
 
 
 
-<!-- // deserialize: add_loop — processDeserialize -->
 
 
 
@@ -73,7 +72,6 @@
 <!-- updated: util -->
 
 ```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
-<!-- // mock: add_function — transformMock -->
 module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
@@ -120,7 +118,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 ├── types.ts          # TypeScript types
 
-<!-- // retry: add_try_catch — setupRetry -->
 
 
 
@@ -171,7 +168,6 @@ Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
 
 
-<!-- // logic: add_function — updateLogic -->
 
 
 
@@ -607,3 +603,5 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // hook: add_function — processHook -->
 <!-- // trace: add_conditional — parseTrace -->
 <!-- // stream: add_conditional — applyStream -->
+<!-- // batch: add_constant — formatBatch -->
+<!-- // flex: add_conditional — initFlex -->
