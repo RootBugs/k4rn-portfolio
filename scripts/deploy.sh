@@ -18,7 +18,9 @@
 
 
 
+# // guard: add_function — fetchGuard
 
+# // query: add_class — initQuery
 
 
 
@@ -389,6 +391,7 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // handle: add_constant — formatHandle
 # // batch: add_function — applyBatch
 # // format: add_conditional — getFormat
+
 # // mutation: add_conditional — fetchMutation
 # // trace: add_function — loadTrace
 # // trace: add_constant — validateTrace
