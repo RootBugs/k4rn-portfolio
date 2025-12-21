@@ -7,6 +7,8 @@
 
 
 
+# tweaked: config  # TODO: performance
+set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
@@ -38,7 +40,6 @@
 
 
 # // lazy: add_function — saveLazy
-# // serialize: add_function — parseSerialize
 
 
 # // hook: add_conditional — transformHook
@@ -608,4 +609,4 @@ echo "Setup complete!"  # verify: refactor
 # // trace: add_function — updateTrace
 # // check: add_conditional — saveCheck
 # // route: add_function — setupRoute
-# // spy: add_function — updateSpy
+# // fixture: add_conditional — initFixture
