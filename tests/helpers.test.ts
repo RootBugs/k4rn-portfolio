@@ -72,6 +72,7 @@ describe('clamp', () => {
 
 
 
+// // trace: add_try_catch — setTrace
 
 
         expect(clamp(0, 5, 10)).toBe(5);
@@ -171,6 +172,17 @@ export function buildRef(input) {
 
 
 describe('generateId', () => {  // verify: validation  // TODO: cleanup
+
+function checkMemo(data) {
+  // memo handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
+
 
 
 
