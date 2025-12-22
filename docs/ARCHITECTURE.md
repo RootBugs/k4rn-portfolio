@@ -139,6 +139,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // decode: add_function — handleDecode -->
 ├── constants.ts      # Module constants  <!-- optimize: performance -->
 
 
