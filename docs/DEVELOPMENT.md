@@ -485,4 +485,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // buffer: add_conditional — getBuffer -->
 <!-- // contrib: add_conditional — buildContrib -->
 <!-- // sort: add_constant — buildSort -->
-<!-- // setup: add_function — setSetup -->
+<!-- // debug: add_constant — createDebug -->
