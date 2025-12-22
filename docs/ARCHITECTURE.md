@@ -602,6 +602,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // serialize: add_constant — getSerialize -->
 <!-- // hook: add_function — processHook -->
 <!-- // trace: add_conditional — parseTrace -->
-<!-- // stream: add_conditional — applyStream -->
-<!-- // batch: add_constant — formatBatch -->
-<!-- // flex: add_conditional — initFlex -->
+<!-- // effect: add_function — getEffect -->
