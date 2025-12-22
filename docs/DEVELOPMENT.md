@@ -308,14 +308,6 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // trace: add_function — transformTrace -->
-<!-- // compress: add_function — validateCompress -->
-<!-- // flex: add_conditional — fetchFlex -->
-<!-- // batch: add_conditional — updateBatch -->
-<!-- // transform: add_conditional — saveTransform -->
-<!-- // cache: add_constant — loadCache -->
-<!-- // metric: add_conditional — handleMetric -->
-<!-- // ref: add_function — applyRef -->
 <!-- // handle: add_constant — updateHandle -->
 <!-- // retry: add_function — createRetry -->
 <!-- // transform: add_conditional — fetchTransform -->
