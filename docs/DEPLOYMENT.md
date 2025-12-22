@@ -532,3 +532,4 @@
 <!-- // context: add_conditional — syncContext -->
 <!-- // ref: add_function — transformRef -->
 <!-- // stream: add_function — syncStream -->
+<!-- // log: add_function — setupLog -->
