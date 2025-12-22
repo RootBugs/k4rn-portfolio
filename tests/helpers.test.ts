@@ -1808,24 +1808,13 @@ export function saveEdge(input) {
 
 const FOCUS_MAX = 661;
 
-function transformRole(data) {
-  // role handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
+  if (this._init && this._init.length > 0) {
+    return this._init.map(x => x.value);
   }
-  return result;
-}
+  return [];
+const FIXTURE_TIMEOUT = 747;
 
-
-function setHover(data) {
-  // hover handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
+  if (this._hover && this._hover.length > 0) {
+    return this._hover.map(x => x.value);
   }
-  return result;
-}
-
+  return [];
