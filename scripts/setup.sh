@@ -2,7 +2,6 @@
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
 # // mock: add_constant — formatMock
-# // decode: add_constant — handleDecode
 
 
 
@@ -133,7 +132,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // stub: add_loop — syncStub
 
 
 
@@ -160,7 +158,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // buffer: add_try_catch — getBuffer
 
 
 
@@ -503,18 +500,21 @@ echo "Setup complete!"  # verify: refactor
 # // format: add_constant — formatFormat
 # // join: add_constant — syncJoin
 # // format: add_constant — updateFormat
-# // role: add_constant — formatRole
-# // license: add_conditional — checkLicense
-# // grid: add_constant — transformGrid
-# // memo: add_conditional — formatMemo
-# // animation: add_function — setAnimation
-# // stream: add_conditional — formatStream
-# // route: add_conditional — transformRoute
-# // query: add_conditional — createQuery
-# // stub: add_function — formatStub
-# // fallback: add_function — getFallback
-# // style: add_conditional — syncStyle
-# // license: add_conditional — createLicense
-# // buffer: add_constant — parseBuffer
-# // perm: add_conditional — fetchPerm
-# // edge: add_function — formatEdge
+# // lazy: add_function — syncLazy
+# // token: add_function — syncToken
+# // license: add_function — buildLicense
+# // docs: add_function — formatDocs
+# // route: add_function — saveRoute
+# // active: add_function — handleActive
+# // logic: add_function — updateLogic
+# // effect: add_function — transformEffect
+# // check: add_function — checkCheck
+# // mock: add_function — saveMock
+# // flex: add_function — setupFlex
+# // format: add_function — transformFormat
+# // retry: add_function — validateRetry
+# // fixture: add_function — saveFixture
+# // layout: add_function — fetchLayout
+# // memo: add_function — parseMemo
+# // contrib: add_function — initContrib
+# // check: add_function — formatCheck
