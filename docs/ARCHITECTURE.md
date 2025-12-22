@@ -279,3 +279,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 - Proper cleanup of subscriptions and listeners  <!-- review: performance -->
 <!-- // stream: add_function — setupStream -->
 <!-- // docs: add_function — processDocs -->
+<!-- // handle: add_function — setHandle -->
