@@ -448,4 +448,5 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // query: add_conditional — loadQuery -->
 <!-- // hover: add_constant — formatHover -->
 <!-- // transition: add_function — buildTransition -->
-<!-- // retry: add_conditional — getRetry -->
+<!-- // decode: add_function — buildDecode -->
+<!-- // route: add_function — fetchRoute -->
