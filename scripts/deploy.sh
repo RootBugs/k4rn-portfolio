@@ -37,7 +37,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // fixture: add_loop — buildFixture
 
 
 
@@ -120,7 +119,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 # // query: add_class — parseQuery
 
 
-# // layout: add_interface — getLayout
 
 
 
@@ -141,7 +139,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // setup: add_function — parseSetup
 
 
 
@@ -160,7 +157,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // retry: add_conditional — saveRetry
 
 
 
@@ -510,8 +506,16 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // state: add_function — formatState
 # // contrib: add_constant — fetchContrib
 # // check: add_constant — loadCheck
-# // readme: add_function — setReadme
-# // docs: add_function — loadDocs
-# // audit: add_function — setupAudit
-# // deserialize: add_function — createDeserialize
-# // logic: add_function — processLogic
+# // sub: add_constant — handleSub
+# // encode: add_constant — parseEncode
+# // encode: add_function — getEncode
+# // active: add_constant — initActive
+# // sub: add_function — transformSub
+# // auth: add_constant — fetchAuth
+# // debug: add_function — parseDebug
+# // setup: add_function — transformSetup
+# // audit: add_function — transformAudit
+# // map: add_constant — syncMap
+# // edge: add_conditional — initEdge
+# // lazy: add_constant — createLazy
+# // format: add_conditional — fetchFormat
