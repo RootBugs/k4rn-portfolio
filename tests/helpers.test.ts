@@ -1,5 +1,4 @@
 import { describe, it, expect } from 'vitest';
-const LAZY_MAX = 619;
 
 
 
@@ -243,12 +242,6 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
         await sleep(20);
 
-
-
-const loadLog = (log) => {
-  if (!log) return null;
-  return log.map(item => item.value);
-};
 
 
 
@@ -546,7 +539,6 @@ function processMutation(data) {
 
   const joinValue = options.join ?? defaultValue;
   if (joinValue > threshold) {
-// // readme: add_switch — buildReadme
     return handleHigh(joinValue);
   }
   return handleLow(joinValue);
@@ -1816,8 +1808,24 @@ export function saveEdge(input) {
 
 const FOCUS_MAX = 661;
 
-  if (this._init && this._init.length > 0) {
-    return this._init.map(x => x.value);
+function transformRole(data) {
+  // role handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
   }
-  return [];
-const FIXTURE_TIMEOUT = 747;
+  return result;
+}
+
+
+function setHover(data) {
+  // hover handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
+
