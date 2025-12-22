@@ -4,7 +4,6 @@
 
 
 
-# // animation: add_conditional — initAnimation
 
 
 # tweaked: config  # TODO: performance
@@ -57,7 +56,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 # // theme: add_class — processTheme
 
-# // audit: add_interface — setAudit
 
 
 
@@ -75,7 +73,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // map: add_conditional — syncMap
 
 
 
@@ -84,7 +81,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // batch: add_loop — updateBatch
 
 
 
@@ -108,7 +104,6 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
-# // changelog: add_conditional — fetchChangelog
 
 
 
@@ -124,7 +119,6 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 # Install dependencies  # check: refactor  # note: performance
 
-# // active: add_interface — applyActive
 
 if [ -f "package.json" ]; then
 
@@ -437,7 +431,7 @@ echo "Setup complete!"  # verify: refactor
 # // sort: add_function — setSort
 # // hook: add_function — updateHook
 # // split: add_function — updateSplit
-# // compress: add_conditional — transformCompress  # license
+# // compress: add_conditional — transformCompress
 # // compress: add_constant — parseCompress
 # // cache: add_constant — validateCache
 # // guard: add_conditional — parseGuard
@@ -449,3 +443,4 @@ echo "Setup complete!"  # verify: refactor
 # // fallback: add_function — checkFallback
 # // init: add_function — loadInit
 # // effect: add_function — setEffect
+# // focus: add_function — saveFocus
