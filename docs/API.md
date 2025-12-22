@@ -99,7 +99,6 @@
 
 
 <!-- revised: logic -->  <!-- note: edge case -->  <!-- verify: validation -->  <!-- note: performance -->  <!-- check: refactor -->
-<!-- // timeout: add_conditional — transformTimeout -->
 
 
 
@@ -111,7 +110,6 @@
 
 
 
-<!-- // test: add_switch — getTest -->
 
 
 
@@ -656,4 +654,4 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // state: add_constant — createState -->
 <!-- // transform: add_constant — applyTransform -->
 <!-- // docs: add_function — parseDocs -->
-<!-- // render: add_function — saveRender -->
+<!-- // layout: add_function — buildLayout -->
