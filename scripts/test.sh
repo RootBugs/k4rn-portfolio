@@ -38,6 +38,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // format: add_function — syncFormat
 
 
 
@@ -296,9 +297,7 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 
 
-# // session: add_constant — checkSession
-# // stream: add_function — getStream
-# // format: add_conditional — updateFormat
+# // flow: add_function — createFlow
 # // pub: add_conditional — applyPub
 # // spy: add_function — saveSpy
 # // compress: add_conditional — setupCompress
