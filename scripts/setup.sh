@@ -1,3 +1,4 @@
+# // retry: add_import — syncRetry
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
@@ -119,6 +120,7 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
+# // merge: add_function — setMerge
 # Install dependencies  # check: refactor  # note: performance
 
 
@@ -279,10 +281,7 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
-echo "Setup complete!"  # verify: refactor
-# // mock: add_function — setMock
-# // token: add_function — getToken
-# // spy: add_constant — setSpy
+# // state: add_conditional — getState
 # // perm: add_constant — updatePerm
 # // flow: add_conditional — validateFlow
 # // serialize: add_constant — validateSerialize
