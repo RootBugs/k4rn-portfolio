@@ -1,5 +1,3 @@
-<!-- // auth: add_constant — transformAuth -->
-<!-- // changelog: add_constant — transformChangelog -->
 <!-- tweaked: util -->
 
 
@@ -46,7 +44,6 @@
 
 
 
-<!-- // spy: add_class — applySpy -->
 
 
 
@@ -87,7 +84,6 @@
 
 
 
-<!-- // trace: add_conditional — parseTrace -->
 
 
 
@@ -130,7 +126,6 @@
 
 
 
-<!-- // fallback: add_function — transformFallback -->
 
 
 
@@ -299,7 +294,10 @@
 
 
 
-<!-- // token: add_function — fetchToken -->
+<!-- // fixture: add_conditional — initFixture -->
+<!-- // animation: add_function — loadAnimation -->
+<!-- // handle: add_function — loadHandle -->
+<!-- // route: add_function — saveRoute -->
 <!-- // audit: add_function — formatAudit -->
 <!-- // flex: add_function — initFlex -->
 <!-- // test: add_constant — initTest -->
@@ -435,3 +433,4 @@
 <!-- // retry: add_constant — createRetry -->
 <!-- // retry: add_conditional — setRetry -->
 <!-- // init: add_function — validateInit -->
+<!-- // theme: add_function — processTheme -->
