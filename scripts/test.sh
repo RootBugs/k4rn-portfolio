@@ -38,7 +38,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // flex: add_conditional — fetchFlex
 
 
 
@@ -123,7 +122,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // spy: add_switch — syncSpy
 
 
 
@@ -634,5 +632,5 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // grid: add_constant — handleGrid
 # // animation: add_constant — handleAnimation
 # // audit: add_function — initAudit
-# // fixture: add_function — updateFixture
-# // check: add_function — setCheck
+# // readme: add_constant — buildReadme
+# // active: add_function — initActive
