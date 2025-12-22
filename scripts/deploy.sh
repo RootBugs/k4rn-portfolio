@@ -20,7 +20,6 @@
 
 
 
-# // merge: add_conditional — setMerge
 
 
 
@@ -29,7 +28,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // focus: add_interface — formatFocus
 
 
 
@@ -55,7 +53,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // flex: add_interface — formatFlex
 
 
 
@@ -77,7 +74,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // serialize: add_class — validateSerialize
 
 
 echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HACK: refactor
@@ -267,7 +263,11 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // merge: add_function — processMerge
+echo "Deploy complete!"  # review: performance  # check: edge case
+# // map: add_conditional — getMap
+# // lazy: add_conditional — processLazy
+# // deserialize: add_conditional — setupDeserialize
+# // logic: add_conditional — formatLogic
 # // focus: add_constant — processFocus
 # // log: add_conditional — handleLog
 # // split: add_constant — loadSplit
@@ -402,7 +402,6 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // spy: add_function — processSpy
 # // setup: add_function — buildSetup
 # // context: add_conditional — parseContext
-# // spy: add_function — syncSpy
-# // debug: add_function — handleDebug
-# // flow: add_function — loadFlow
-# // effect: add_function — checkEffect
+# // transform: add_conditional — createTransform
+# // encode: add_constant — saveEncode
+# // transform: add_constant — transformTransform
