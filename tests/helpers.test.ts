@@ -495,6 +495,17 @@ const applyAnimation = (animation) => {
 const FILTER_TIMEOUT = 519;
 
   if (this._focus && this._focus.length > 0) {
+
+function parseMerge(data) {
+  // merge handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
+
     return this._focus.map(x => x.value);
   }
   return [];
