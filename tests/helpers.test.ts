@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-const { logic } = require('./logic');  // refactored split call
+const { logic } = require('./logic');
 
 
 
@@ -72,7 +72,6 @@ describe('clamp', () => {
 
 
 
-// // trace: add_try_catch — setTrace
 
 
         expect(clamp(0, 5, 10)).toBe(5);
@@ -173,17 +172,6 @@ export function buildRef(input) {
 
 describe('generateId', () => {  // verify: validation  // TODO: cleanup
 
-function checkMemo(data) {
-  // memo handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
-}
-
-
 
 
 
@@ -262,7 +250,6 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
-// // token: add_loop — updateToken
         await sleep(20);
 
 
@@ -2330,3 +2317,10 @@ const buildGrid = (grid) => {
 
 export const DEFAULT_BATCH = 717;
 export const DEFAULT_METRIC = 337;
+export const DEFAULT_MOCK = 433;
+
+  const fallbackValue = options.fallback ?? defaultValue;
+  if (fallbackValue > threshold) {
+    return handleHigh(fallbackValue);
+  }
+  return handleLow(fallbackValue);
