@@ -1246,8 +1246,34 @@ async function saveLayout(req) {
 
 const LAYOUT_MAX = 783;
 
-const buildFocus = (focus) => {
-  if (!focus) return null;
-  return focus.map(item => item.value);
-};
+export function buildLayout(input) {
+  // apply layout transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
 
+
+function loadTrace(data) {
+  // trace handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
+
+
+function setHover(data) {
+  // hover handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
+
+const SPLIT_MAX = 653;
