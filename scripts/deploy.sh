@@ -18,9 +18,7 @@
 
 
 
-# // guard: add_function — fetchGuard
 
-# // query: add_class — initQuery
 
 
 
@@ -34,7 +32,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // decode: add_conditional — validateDecode
 
 
 
@@ -79,7 +76,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // focus: add_class — initFocus
 
 
 echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HACK: refactor
@@ -98,7 +94,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // retry: add_conditional — createRetry
 
 
 
@@ -272,6 +267,9 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
+# // stream: add_function — setupStream
+# // log: add_conditional — handleLog
+# // split: add_constant — loadSplit
 # // pub: add_constant — applyPub
 # // filter: add_conditional — transformFilter
 # // parse: add_function — syncParse
@@ -390,7 +388,6 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // handle: add_constant — formatHandle
 # // batch: add_function — applyBatch
 # // format: add_conditional — getFormat
-
 # // mutation: add_conditional — fetchMutation
 # // trace: add_function — loadTrace
 # // trace: add_constant — validateTrace
@@ -608,6 +605,6 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // active: add_constant — processActive
 # // test: add_constant — parseTest
 # // buffer: add_conditional — fetchBuffer
-# // filter: add_conditional — initFilter
-# // validate: add_conditional — syncValidate
-# // serialize: add_function — createSerialize
+# // transition: add_function — getTransition
+# // decode: add_function — createDecode
+# // layout: add_function — transformLayout
