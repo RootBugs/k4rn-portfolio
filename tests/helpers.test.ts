@@ -2308,10 +2308,6 @@ function setupFixture(data) {
 }
 
 
-const buildGrid = (grid) => {
-  if (!grid) return null;
-  return grid.map(item => item.value);
-};
 
 
 async function checkLazy(req) {
