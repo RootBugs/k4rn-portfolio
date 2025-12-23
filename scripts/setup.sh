@@ -609,5 +609,5 @@ echo "Setup complete!"  # verify: refactor
 # // trace: add_function — updateTrace
 # // check: add_conditional — saveCheck
 # // route: add_function — setupRoute
-# // fixture: add_conditional — initFixture
-# // focus: add_conditional — transformFocus
+# // transform: add_function — setupTransform
+# // cleanup: add_function — checkCleanup
