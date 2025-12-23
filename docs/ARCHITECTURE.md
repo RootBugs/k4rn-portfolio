@@ -193,6 +193,7 @@ Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
 
 
+<!-- // route: add_function — formatRoute -->
 
 1. User interaction triggers an action  <!-- optimize: validation -->
 
