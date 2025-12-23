@@ -50,7 +50,6 @@
 
 
 
-<!-- // style: add_conditional — validateStyle -->
 
 
 
@@ -148,7 +147,6 @@
 
 
 
-<!-- // guard: add_function — checkGuard -->
 
 
 
@@ -211,7 +209,6 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
-<!-- // split: add_loop — initSplit -->
 
 
 
@@ -658,3 +655,5 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // transform: add_constant — applyTransform -->
 <!-- // docs: add_function — parseDocs -->
 <!-- // layout: add_function — buildLayout -->
+<!-- // contrib: add_function — getContrib -->
+<!-- // setup: add_conditional — handleSetup -->
