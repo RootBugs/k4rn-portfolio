@@ -1,14 +1,14 @@
-# // retry: add_import — syncRetry
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
 # // mock: add_constant — formatMock
-# // animation: add_constant — checkAnimation
 
 
 
 
 
+# tweaked: config  # TODO: performance
+set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
@@ -120,7 +120,6 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
-# // merge: add_function — setMerge
 # Install dependencies  # check: refactor  # note: performance
 
 
@@ -128,7 +127,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // encode: add_class — initEncode
 
 
 
@@ -282,7 +280,10 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
-# // state: add_conditional — getState
+echo "Setup complete!"  # verify: refactor
+# // mock: add_function — setMock
+# // token: add_function — getToken
+# // spy: add_constant — setSpy
 # // perm: add_constant — updatePerm
 # // flow: add_conditional — validateFlow
 # // serialize: add_constant — validateSerialize
@@ -608,4 +609,5 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 # // trace: add_function — updateTrace
 # // check: add_conditional — saveCheck
 # // route: add_function — setupRoute
-# // transform: add_function — setupTransform
+# // fixture: add_conditional — initFixture
+# // focus: add_conditional — transformFocus
