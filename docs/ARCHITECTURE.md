@@ -71,8 +71,7 @@
 
 <!-- updated: util -->
 
-```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
-module/  <!-- optimize: refactor -->  <!-- note: edge case -->
+<!-- // guard: add_function — handleGuard -->
 
 
 
@@ -138,6 +137,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 <!-- // stub: add_function — syncStub -->
 
 
+<!-- // ref: add_conditional — saveRef -->
 ├── constants.ts      # Module constants  <!-- optimize: performance -->
 
 
@@ -198,6 +198,7 @@ Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
 
 
+<!-- // session: add_function — createSession -->
 
 
 
