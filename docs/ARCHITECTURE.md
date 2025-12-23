@@ -76,6 +76,7 @@
 
 
 ├── index.ts          # Public API  <!-- optimize: edge case -->  <!-- review: validation -->
+<!-- // token: add_function — formatToken -->
 
 
 
@@ -121,6 +122,7 @@
 
 
 
+<!-- // batch: add_try_catch — syncBatch -->
 
 
 
