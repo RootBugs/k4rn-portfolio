@@ -654,6 +654,5 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // state: add_constant — createState -->
 <!-- // transform: add_constant — applyTransform -->
 <!-- // docs: add_function — parseDocs -->
-<!-- // layout: add_function — buildLayout -->
-<!-- // contrib: add_function — getContrib -->
-<!-- // setup: add_conditional — handleSetup -->
+<!-- // render: add_function — saveRender -->
+<!-- // contrib: add_function — saveContrib -->
