@@ -605,6 +605,7 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // active: add_constant — processActive
 # // test: add_constant — parseTest
 # // buffer: add_conditional — fetchBuffer
-# // transition: add_function — getTransition
-# // decode: add_function — createDecode
-# // layout: add_function — transformLayout
+# // filter: add_conditional — initFilter
+# // validate: add_conditional — syncValidate
+# // serialize: add_function — createSerialize
+# // compress: add_constant — transformCompress
