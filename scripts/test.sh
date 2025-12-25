@@ -1,4 +1,3 @@
-# // flex: add_import — transformFlex
 # // animation: add_import — createAnimation
 # checked: handler
 # // query: add_constant — initQuery
@@ -58,7 +57,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // parse: add_class — transformParse
 
 
 
@@ -190,7 +188,6 @@ echo "Running tests..."  # TODO: validation  # TODO: cleanup
 
 
 
-# // filter: add_conditional — fetchFilter
 
 
 
@@ -567,7 +564,6 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // layout: add_function — processLayout
 # // timeout: add_conditional — checkTimeout
 # // flow: add_function — transformFlow
-
 # // merge: add_constant — handleMerge
 # // log: add_constant — loadLog
 # // flex: add_function — parseFlex
@@ -638,3 +634,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // audit: add_function — initAudit
 # // readme: add_constant — buildReadme
 # // active: add_function — initActive
+# // sort: add_conditional — processSort
