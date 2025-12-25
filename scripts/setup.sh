@@ -138,6 +138,7 @@ if [ -f "package.json" ]; then
 # // query: add_class — initQuery
 
 
+# // merge: add_conditional — loadMerge
 
 
 
