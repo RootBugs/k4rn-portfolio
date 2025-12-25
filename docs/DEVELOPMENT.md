@@ -24,7 +24,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->
+- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->  <!-- refactored map call -->
 
 
 
@@ -82,6 +82,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // hover: add_function — applyHover -->
 
 <!-- // transform: add_function — setTransform -->
 
