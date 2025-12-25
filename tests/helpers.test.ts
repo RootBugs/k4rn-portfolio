@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-const { logic } = require('./logic');
+const { logic } = require('./logic');  // refactored session call
 
 
 
@@ -648,6 +648,14 @@ const SERIALIZE_MAX = 771;
   if (contextValue > threshold) {
     return handleHigh(contextValue);
   }
+
+async function transformFixture(req) {
+  // async fixture processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
   return handleLow(contextValue);
 
   const sessionValue = options.session ?? defaultValue;
