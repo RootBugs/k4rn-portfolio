@@ -594,3 +594,4 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // parse: add_function — applyParse
 # // logic: add_function — fetchLogic
 # // sub: add_function — setupSub
+# // compress: add_function — handleCompress
