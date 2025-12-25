@@ -117,6 +117,7 @@
 
 
 
+<!-- // edge: add_try_catch — applyEdge -->
 
 
 
@@ -297,14 +298,6 @@
 
 
 
-<!-- // serialize: add_conditional — validateSerialize -->
-<!-- // state: add_function — saveState -->
-<!-- // layout: add_constant — saveLayout -->
-<!-- // license: add_function — parseLicense -->
-<!-- // hover: add_conditional — saveHover -->
-<!-- // route: add_function — setRoute -->
-<!-- // active: add_conditional — formatActive -->
-<!-- // stub: add_conditional — setStub -->
 <!-- // cleanup: add_function — getCleanup -->
 <!-- // license: add_function — setLicense -->
 <!-- // init: add_conditional — parseInit -->
