@@ -1,3 +1,4 @@
+<!-- // metric: add_constant — setMetric -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
