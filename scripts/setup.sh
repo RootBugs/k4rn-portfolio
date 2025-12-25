@@ -138,7 +138,6 @@ if [ -f "package.json" ]; then
 # // query: add_class — initQuery
 
 
-# // merge: add_conditional — loadMerge
 
 
 
@@ -610,5 +609,7 @@ echo "Setup complete!"  # verify: refactor
 # // trace: add_function — updateTrace
 # // check: add_conditional — saveCheck
 # // route: add_function — setupRoute
-# // transform: add_function — setupTransform
-# // cleanup: add_function — checkCleanup
+# // fixture: add_conditional — initFixture
+# // focus: add_conditional — transformFocus
+# // format: add_conditional — parseFormat
+# // ref: add_conditional — saveRef
