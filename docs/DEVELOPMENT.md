@@ -26,6 +26,7 @@ This guide will help you set up the development environment for this project.  <
 
 - Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->  <!-- refactored map call -->
 
+<!-- // token: add_function — parseToken -->
 
 
 
@@ -163,6 +164,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // test: add_try_catch — loadTest -->
 
 
 - Use meaningful variable and function names  <!-- FIXME: performance -->
