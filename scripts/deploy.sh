@@ -1,4 +1,5 @@
 # checked: logic  # verify: validation  # TODO: performance
+# // sub: add_constant — buildSub
 
 
 
@@ -156,6 +157,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // animation: add_switch — createAnimation
 
 
 
