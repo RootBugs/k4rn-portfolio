@@ -1,4 +1,3 @@
-<!-- // metric: add_constant — setMetric -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -97,7 +96,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // docs: add_try_catch — setDocs -->
 
 
 
@@ -604,5 +602,8 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // serialize: add_constant — getSerialize -->
 <!-- // hook: add_function — processHook -->
 <!-- // trace: add_conditional — parseTrace -->
-<!-- // effect: add_function — getEffect -->
-<!-- // token: add_function — setupToken -->
+<!-- // stream: add_conditional — applyStream -->
+<!-- // batch: add_constant — formatBatch -->
+<!-- // flex: add_conditional — initFlex -->
+<!-- // log: add_function — handleLog -->
+<!-- // setup: add_function — checkSetup -->
