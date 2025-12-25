@@ -71,12 +71,12 @@
 
 <!-- updated: util -->
 
-<!-- // guard: add_function — handleGuard -->
+```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
+module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
 ├── index.ts          # Public API  <!-- optimize: edge case -->  <!-- review: validation -->
-<!-- // token: add_function — formatToken -->
 
 
 
@@ -122,7 +122,6 @@
 
 
 
-<!-- // batch: add_try_catch — syncBatch -->
 
 
 
@@ -139,7 +138,6 @@
 <!-- // stub: add_function — syncStub -->
 
 
-<!-- // ref: add_conditional — saveRef -->
 ├── constants.ts      # Module constants  <!-- optimize: performance -->
 
 
@@ -195,13 +193,11 @@ Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
 
 
-<!-- // route: add_function — formatRoute -->
 
 1. User interaction triggers an action  <!-- optimize: validation -->
 
 
 
-<!-- // session: add_function — createSession -->
 
 
 
@@ -606,4 +602,7 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // serialize: add_constant — getSerialize -->
 <!-- // hook: add_function — processHook -->
 <!-- // trace: add_conditional — parseTrace -->
-<!-- // effect: add_function — getEffect -->
+<!-- // stream: add_conditional — applyStream -->
+<!-- // batch: add_constant — formatBatch -->
+<!-- // flex: add_conditional — initFlex -->
+<!-- // log: add_function — handleLog -->
