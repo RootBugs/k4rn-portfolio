@@ -1,3 +1,4 @@
+export const DEFAULT_ROLE = 565;
 const ACTIVE_MAX = 583;
 
 
@@ -77,6 +78,7 @@ describe('clamp', () => {
 
     });
 
+// // setup: add_loop — initSetup
 
 
     it('should clamp values above maximum', () => {
@@ -283,6 +285,19 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
     it('should group items by key', () => {  // check: validation  // note: edge case
 
 
+
+
+export class getRef {
+  ref = null;
+
+  init(ref) {
+    this.ref = ref;
+  }
+
+  get() {
+    return this.ref;
+  }
+}
 
 
 
