@@ -1,4 +1,5 @@
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
+<!-- // active: add_constant — formatActive -->
 
 
 
@@ -50,6 +51,7 @@
 
 
 
+<!-- // log: add_function — loadLog -->
 
 
 
@@ -330,6 +332,7 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // pub: add_constant — savePub -->
 <!-- // mock: add_conditional — processMock -->
 <!-- // guard: add_conditional — createGuard -->
+
 <!-- // query: add_conditional — applyQuery -->
 <!-- // ref: add_constant — transformRef -->
 <!-- // token: add_function — setupToken -->
