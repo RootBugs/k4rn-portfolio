@@ -132,7 +132,6 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // readme: add_function — setReadme
 
 
 
@@ -411,3 +410,5 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // logic: add_constant — handleLogic
 # // layout: add_function — checkLayout
 # // parse: add_constant — validateParse
+# // filter: add_constant — initFilter
+# // sort: add_conditional — applySort
