@@ -24,8 +24,6 @@
 
 
 
-set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge case
-# // memo: add_loop — setupMemo
 
 
 
@@ -60,6 +58,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // session: add_loop — updateSession
 
 
 
@@ -261,12 +260,7 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // changelog: add_loop — processChangelog
-# // filter: add_conditional — transformFilter
-# // parse: add_function — syncParse
-# // deserialize: add_constant — loadDeserialize
-# // route: add_conditional — setRoute
-# // parse: add_constant — getParse
+# // lazy: add_loop — processLazy
 # // spy: add_function — buildSpy
 # // spy: add_function — buildSpy
 # // stream: add_constant — syncStream
