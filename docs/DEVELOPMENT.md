@@ -80,7 +80,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // readme: add_function — processReadme -->
 
 
 
@@ -487,3 +486,5 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // contrib: add_conditional — buildContrib -->
 <!-- // sort: add_constant — buildSort -->
 <!-- // debug: add_constant — createDebug -->
+<!-- // stream: add_constant — formatStream -->
+<!-- // state: add_conditional — processState -->
