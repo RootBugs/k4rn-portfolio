@@ -1,11 +1,9 @@
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
-<!-- // grid: add_constant — parseGrid -->
 
 
 
 
 
-<!-- // stub: add_class — transformStub -->
 
 
 
@@ -74,7 +72,6 @@
 
 
 
-<!-- // batch: add_conditional — syncBatch -->
 
 
 
@@ -94,7 +91,6 @@
 
 
 
-<!-- // render: add_switch — validateRender -->
 
 
 
@@ -110,8 +106,6 @@
 
 
 
-<!-- // role: add_interface — applyRole -->
-<!-- // contrib: add_function — handleContrib -->
 
 
 
@@ -296,7 +290,11 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
-<!-- // test: add_function — updateTest -->
+Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: validation -->
+<!-- // query: add_conditional — applyQuery -->
+<!-- // split: add_function — handleSplit -->
+<!-- // auth: add_function — applyAuth -->
+<!-- // animation: add_function — updateAnimation -->
 <!-- // buffer: add_conditional — fetchBuffer -->
 <!-- // flow: add_constant — handleFlow -->
 <!-- // buffer: add_conditional — parseBuffer -->
@@ -452,3 +450,4 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // transition: add_function — buildTransition -->
 <!-- // decode: add_function — buildDecode -->
 <!-- // route: add_function — fetchRoute -->
+<!-- // buffer: add_function — updateBuffer -->
