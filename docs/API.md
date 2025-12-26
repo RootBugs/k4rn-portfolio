@@ -1,4 +1,5 @@
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
+<!-- // grid: add_constant — parseGrid -->
 
 
 
@@ -109,6 +110,8 @@
 
 
 
+<!-- // role: add_interface — applyRole -->
+<!-- // contrib: add_function — handleContrib -->
 
 
 
