@@ -5,6 +5,7 @@ const ACTIVE_MAX = 583;
 
 
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
+const { effect } = require('./effect');
 describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
@@ -208,6 +209,12 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
 });  // note: cleanup
 
 describe('debounce', () => {  // note: performance  // check: refactor
+
+const applyMemo = (memo) => {
+  if (!memo) return null;
+  return memo.map(item => item.value);
+};
+
 
     it('should delay function execution', async () => {
 
@@ -1155,9 +1162,6 @@ const setRoute = (route) => {
   }
   return handleLow(bufferValue);
 
-export function buildContrib(input) {
-  // apply contrib transformation
-  const result = { ...input };
   result.processed = true;
   result.timestamp = Date.now();
   return result;
