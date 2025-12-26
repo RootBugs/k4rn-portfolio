@@ -66,6 +66,7 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 # Install dependencies  # check: refactor  # note: performance
+
 if [ -f "package.json" ]; then
 
 
@@ -134,6 +135,7 @@ fi  # TODO: edge case  # HACK: validation  # check: validation
 
 
 # Set up environment  # FIXME: performance
+
 
 
 
