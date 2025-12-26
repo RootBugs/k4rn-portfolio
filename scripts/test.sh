@@ -55,6 +55,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // init: add_function — initInit
 
 
 
@@ -119,6 +120,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // join: add_try_catch — createJoin
 
 
 
@@ -299,12 +301,7 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 
 
-# // spy: add_constant — fetchSpy
-# // trace: add_conditional — createTrace
-# // lazy: add_function — transformLazy
-# // active: add_constant — loadActive
-# // flow: add_function — fetchFlow
-# // effect: add_conditional — setupEffect
+# // retry: add_function — checkRetry
 # // sub: add_constant — processSub
 # // sub: add_constant — applySub
 # // grid: add_constant — parseGrid
