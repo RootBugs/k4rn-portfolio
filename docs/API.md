@@ -1,5 +1,4 @@
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
-<!-- // active: add_constant — formatActive -->
 
 
 
@@ -7,7 +6,6 @@
 
 
 
-<!-- // hook: add_interface — updateHook -->
 
 
 
@@ -27,7 +25,6 @@
 
 
 
-<!-- // auth: add_function — parseAuth -->
 
 
 
@@ -51,7 +48,6 @@
 
 
 
-<!-- // log: add_function — loadLog -->
 
 
 
@@ -332,7 +328,6 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // pub: add_constant — savePub -->
 <!-- // mock: add_conditional — processMock -->
 <!-- // guard: add_conditional — createGuard -->
-
 <!-- // query: add_conditional — applyQuery -->
 <!-- // ref: add_constant — transformRef -->
 <!-- // token: add_function — setupToken -->
@@ -345,7 +340,8 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // init: add_function — fetchInit -->
 <!-- // compress: add_constant — applyCompress -->
 <!-- // stream: add_conditional — updateStream -->
-<!-- // debug: add_function — createDebug -->
-<!-- // retry: add_function — initRetry -->
-<!-- // deserialize: add_function — checkDeserialize -->
-<!-- // sub: add_function — createSub -->
+<!-- // session: add_conditional — loadSession -->
+<!-- // state: add_function — updateState -->
+<!-- // effect: add_constant — updateEffect -->
+<!-- // join: add_constant — formatJoin -->
+<!-- // query: add_function — updateQuery -->
