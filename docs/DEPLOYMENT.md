@@ -8,7 +8,6 @@
 
 
 
-<!-- // hover: add_function — buildHover -->
 
 
 
@@ -105,7 +104,6 @@
 
 
 
-<!-- // test: add_class — loadTest -->
 
 
 
@@ -296,6 +294,8 @@
 
 
 
+<!-- // fixture: add_conditional — initFixture -->
+<!-- // animation: add_function — loadAnimation -->
 <!-- // handle: add_function — loadHandle -->
 <!-- // route: add_function — saveRoute -->
 <!-- // audit: add_function — formatAudit -->
@@ -347,4 +347,4 @@
 <!-- // fixture: add_function — saveFixture -->
 <!-- // buffer: add_function — handleBuffer -->
 <!-- // fallback: add_function — saveFallback -->
-<!-- // setup: add_function — setSetup -->
+<!-- // cache: add_function — validateCache -->
