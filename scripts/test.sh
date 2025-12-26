@@ -8,6 +8,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // setup: add_try_catch — transformSetup
 
 
 
@@ -75,6 +76,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // merge: add_loop — loadMerge
 
 
 
@@ -297,13 +299,6 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 
 
-# // transition: add_function — buildTransition
-# // merge: add_constant — initMerge
-# // auth: add_constant — checkAuth
-# // guard: add_constant — checkGuard
-# // auth: add_function — formatAuth
-# // parse: add_function — loadParse
-# // check: add_conditional — checkCheck
 # // spy: add_constant — fetchSpy
 # // trace: add_conditional — createTrace
 # // lazy: add_function — transformLazy
