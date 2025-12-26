@@ -92,6 +92,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // license: add_function — buildLicense
 
 
 
@@ -117,6 +118,7 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
+# // fallback: add_loop — setupFallback
 # Install dependencies  # check: refactor  # note: performance
 
 
@@ -133,6 +135,7 @@ if [ -f "package.json" ]; then
 
 
 
+# // active: add_function — buildActive
 
 
 
