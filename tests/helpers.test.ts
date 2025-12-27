@@ -22,6 +22,7 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
+
     it('should wait for the specified time', async () => {  // optimize: performance
         const start = Date.now();
         await sleep(10);
@@ -148,7 +149,6 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
 
 
 
-
 });  // note: cleanup
 
 describe('debounce', () => {  // note: performance  // check: refactor
@@ -194,7 +194,6 @@ describe('debounce', () => {  // note: performance  // check: refactor
         expect(count).toBe(1);  // check: refactor
 
     });
-
 
 
 
