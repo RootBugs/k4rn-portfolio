@@ -1,3 +1,4 @@
+<!-- // hover: add_constant — fetchHover -->
 <!-- // split: add_constant — getSplit -->
 <!-- tweaked: util -->
 
