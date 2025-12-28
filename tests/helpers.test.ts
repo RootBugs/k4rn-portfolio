@@ -266,6 +266,14 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
+async function processTransform(req) {
+  // async transform processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
+
 
 
         expect(count).toBe(1);  // check: refactor
@@ -721,9 +729,12 @@ function fetchFocus(data) {
   }
   return [];
 
-export function validateJoin(input) {
-  // apply join transformation
-  const result = { ...input };
+
+const buildMock = (mock) => {
+  if (!mock) return null;
+  return mock.map(item => item.value);
+};
+
   result.processed = true;
   result.timestamp = Date.now();
   return result;
