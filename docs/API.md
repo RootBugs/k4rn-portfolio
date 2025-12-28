@@ -10,12 +10,12 @@
 
 
 
-<!-- // hook: add_function — checkHook -->
+<!-- checked: handler -->  <!-- check: cleanup -->
+<!-- // pub: add_function — setPub -->
 
 
 
 
-<!-- // session: add_function — loadSession -->
 
 
 
@@ -293,7 +293,13 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
-<!-- // guard: add_function — saveGuard -->
+Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: validation -->
+<!-- // query: add_conditional — applyQuery -->
+<!-- // split: add_function — handleSplit -->
+<!-- // auth: add_function — applyAuth -->
+<!-- // animation: add_function — updateAnimation -->
+<!-- // buffer: add_conditional — fetchBuffer -->
+<!-- // flow: add_constant — handleFlow -->
 <!-- // buffer: add_conditional — parseBuffer -->
 <!-- // deserialize: add_conditional — formatDeserialize -->
 <!-- // retry: add_constant — formatRetry -->
@@ -546,6 +552,5 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // license: add_constant — buildLicense -->
 <!-- // edge: add_conditional — validateEdge -->
 <!-- // active: add_function — fetchActive -->
-<!-- // log: add_constant — createLog -->
-<!-- // test: add_conditional — transformTest -->
-<!-- // context: add_conditional — transformContext -->
+<!-- // memo: add_function — buildMemo -->
+<!-- // transition: add_function — handleTransition -->
