@@ -139,7 +139,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // decode: add_function — handleDecode -->
 ├── constants.ts      # Module constants  <!-- optimize: performance -->
 
 
@@ -422,4 +421,6 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // flow: add_function — processFlow -->
 <!-- // focus: add_conditional — handleFocus -->
 <!-- // contrib: add_constant — buildContrib -->
-<!-- // state: add_function — saveState -->
+<!-- // stream: add_conditional — checkStream -->
+<!-- // auth: add_function — setAuth -->
+<!-- // state: add_function — getState -->
