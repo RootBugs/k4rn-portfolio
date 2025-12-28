@@ -29,6 +29,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // state: add_function — fetchState
 
 
 
@@ -112,6 +113,7 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
+# // hover: add_switch — syncHover
 
 
 
