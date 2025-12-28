@@ -42,7 +42,6 @@
 
 
 
-# // timeout: add_conditional — fetchTimeout
 
 
 
@@ -80,7 +79,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // hook: add_conditional — fetchHook
 
 
 
@@ -505,5 +503,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // test: add_function — checkTest
 # // serialize: add_constant — loadSerialize
 # // fallback: add_constant — processFallback
-# // debug: add_constant — setupDebug
-# // hover: add_conditional — loadHover
+# // role: add_function — applyRole
