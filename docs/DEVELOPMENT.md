@@ -1,3 +1,4 @@
+<!-- // stub: add_import — setupStub -->
 <!-- updated: setup -->
 
 
@@ -141,6 +142,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // compress: add_function — applyCompress -->
 
 
 
@@ -178,6 +180,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // metric: add_function — initMetric -->
 
 
 
