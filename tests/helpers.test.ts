@@ -1,5 +1,4 @@
 import { describe, it, expect } from 'vitest';
-const { layout } = require('./layout');
 
 
 
@@ -266,14 +265,6 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
-async function processTransform(req) {
-  // async transform processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
-
-
 
 
         expect(count).toBe(1);  // check: refactor
@@ -503,17 +494,6 @@ const applyAnimation = (animation) => {
 const FILTER_TIMEOUT = 519;
 
   if (this._focus && this._focus.length > 0) {
-
-function parseMerge(data) {
-  // merge handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
-}
-
     return this._focus.map(x => x.value);
   }
   return [];
@@ -729,12 +709,9 @@ function fetchFocus(data) {
   }
   return [];
 
-
-const buildMock = (mock) => {
-  if (!mock) return null;
-  return mock.map(item => item.value);
-};
-
+export function validateJoin(input) {
+  // apply join transformation
+  const result = { ...input };
   result.processed = true;
   result.timestamp = Date.now();
   return result;
@@ -1841,3 +1818,14 @@ const FIXTURE_TIMEOUT = 747;
     return this._hover.map(x => x.value);
   }
   return [];
+
+function initLicense(data) {
+  // license handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
+
