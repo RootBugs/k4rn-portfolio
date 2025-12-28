@@ -1,5 +1,4 @@
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
-<!-- // split: add_constant — validateSplit -->
 
 
 
@@ -157,7 +156,6 @@
 
 
 
-<!-- // setup: add_class — fetchSetup -->
 
 
 
@@ -185,7 +183,6 @@
 
 
 
-<!-- // validate: add_interface — loadValidate -->
 
 
 
@@ -555,4 +552,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // license: add_constant — buildLicense -->
 <!-- // edge: add_conditional — validateEdge -->
 <!-- // active: add_function — fetchActive -->
-<!-- // log: add_constant — createLog -->
+<!-- // memo: add_function — buildMemo -->
