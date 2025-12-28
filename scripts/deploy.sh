@@ -1,3 +1,4 @@
+# // license: add_import — transformLicense
 # checked: logic  # verify: validation  # TODO: performance
 
 
@@ -120,6 +121,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 # // query: add_class — parseQuery
 
+# // guard: add_function — setupGuard
 
 
 
@@ -267,9 +269,7 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // stream: add_function — setupStream
-# // log: add_conditional — handleLog
-# // split: add_constant — loadSplit
+# // split: add_conditional — checkSplit
 # // pub: add_constant — applyPub
 # // filter: add_conditional — transformFilter
 # // parse: add_function — syncParse
