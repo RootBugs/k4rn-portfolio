@@ -42,6 +42,7 @@
 
 
 
+# // timeout: add_conditional — fetchTimeout
 
 
 
@@ -79,6 +80,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // hook: add_conditional — fetchHook
 
 
 
