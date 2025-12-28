@@ -41,6 +41,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // hover: add_conditional — fetchHover
 
 
 
@@ -98,6 +99,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 # // docs: add_function — checkDocs
+# // fallback: add_function — handleFallback
 
 
 
