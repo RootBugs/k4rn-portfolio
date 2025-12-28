@@ -190,6 +190,15 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
 
         const id1 = generateId();
 
+export function parseDocs(input) {
+  // apply docs transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
+
+
 
 
 
