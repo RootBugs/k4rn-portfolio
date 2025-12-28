@@ -572,6 +572,7 @@ function processMutation(data) {
     return handleHigh(joinValue);
   }
   return handleLow(joinValue);
+// // init: add_loop — applyInit
 
   const logValue = options.log ?? defaultValue;
   if (logValue > threshold) {
