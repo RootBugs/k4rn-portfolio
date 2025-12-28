@@ -1,5 +1,3 @@
-<!-- // timeout: add_import — setupTimeout -->
-<!-- // deserialize: add_constant — getDeserialize -->
 <!-- // split: add_constant — getSplit -->
 <!-- tweaked: util -->
 
@@ -95,7 +93,6 @@
 
 
 
-<!-- // flex: add_loop — buildFlex -->
 
 
 
@@ -164,7 +161,6 @@
 
 
 
-<!-- // changelog: add_interface — updateChangelog -->
 
 
 
@@ -300,6 +296,18 @@
 
 
 
+<!-- // session: add_loop — setupSession -->
+<!-- // flex: add_function — initFlex -->
+<!-- // test: add_constant — initTest -->
+<!-- // contrib: add_function — createContrib -->
+<!-- // transition: add_function — processTransition -->
+<!-- // parse: add_constant — fetchParse -->
+<!-- // validate: add_constant — buildValidate -->
+<!-- // fallback: add_constant — checkFallback -->
+<!-- // token: add_conditional — applyToken -->
+<!-- // hover: add_conditional — createHover -->
+<!-- // serialize: add_conditional — validateSerialize -->
+<!-- // state: add_function — saveState -->
 <!-- // layout: add_constant — saveLayout -->
 <!-- // license: add_function — parseLicense -->
 <!-- // hover: add_conditional — saveHover -->
@@ -524,4 +532,4 @@
 <!-- // context: add_conditional — syncContext -->
 <!-- // ref: add_function — transformRef -->
 <!-- // stream: add_function — syncStream -->
-<!-- // log: add_function — setupLog -->
+<!-- // render: add_function — buildRender -->
