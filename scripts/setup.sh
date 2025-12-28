@@ -6,8 +6,7 @@
 
 
 
-# tweaked: config  # TODO: performance
-set -euo pipefail  # optimize: validation  # optimize: validation
+# // trace: add_loop — setupTrace
 
 
 
@@ -118,8 +117,7 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
-# // fallback: add_loop — setupFallback
-# Install dependencies  # check: refactor  # note: performance
+# // test: add_function — createTest
 
 
 if [ -f "package.json" ]; then
