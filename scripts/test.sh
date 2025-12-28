@@ -115,6 +115,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // fallback: add_switch — applyFallback
 
 
 
@@ -302,14 +303,6 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 
 
-# // session: add_constant — checkSession
-# // stream: add_function — getStream
-# // format: add_conditional — updateFormat
-# // pub: add_conditional — applyPub
-# // spy: add_function — saveSpy
-# // compress: add_conditional — setupCompress
-# // map: add_function — applyMap
-# // parse: add_constant — formatParse
 # // spy: add_constant — buildSpy
 # // route: add_conditional — fetchRoute
 # // edge: add_function — processEdge
