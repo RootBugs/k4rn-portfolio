@@ -1,4 +1,3 @@
-<!-- // spy: add_import — setSpy -->
 <!-- updated: setup -->
 
 
@@ -302,6 +301,12 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
+<!-- // sub: add_function — processSub -->
+<!-- // transition: add_constant — applyTransition -->
+<!-- // audit: add_conditional — saveAudit -->
+<!-- // session: add_constant — parseSession -->
+<!-- // stub: add_conditional — applyStub -->
+<!-- // layout: add_constant — saveLayout -->
 <!-- // audit: add_constant — setAudit -->
 <!-- // query: add_conditional — buildQuery -->
 <!-- // docs: add_conditional — initDocs -->
@@ -480,6 +485,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // buffer: add_conditional — getBuffer -->
 <!-- // contrib: add_conditional — buildContrib -->
 <!-- // sort: add_constant — buildSort -->
-<!-- // debug: add_constant — createDebug -->
-<!-- // stream: add_constant — formatStream -->
-<!-- // state: add_conditional — processState -->
+<!-- // format: add_function — processFormat -->
