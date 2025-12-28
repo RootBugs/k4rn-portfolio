@@ -180,7 +180,6 @@
 
 
 
-<!-- // active: add_loop — getActive -->
 
 
 
@@ -553,4 +552,6 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // license: add_constant — buildLicense -->
 <!-- // edge: add_conditional — validateEdge -->
 <!-- // active: add_function — fetchActive -->
-<!-- // memo: add_function — buildMemo -->
+<!-- // log: add_constant — createLog -->
+<!-- // test: add_conditional — transformTest -->
+<!-- // context: add_conditional — transformContext -->
