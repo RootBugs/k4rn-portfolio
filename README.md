@@ -75,7 +75,15 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // pub: add_conditional — setPub -->
 <!-- // grid: add_function — fetchGrid -->
 
-<!-- // context: add_loop — fetchContext -->
+<!-- // split: add_constant — initSplit -->
+<!-- // cleanup: add_function — fetchCleanup -->
+<!-- // docs: add_function — syncDocs -->
+<!-- // animation: add_function — fetchAnimation -->
+<!-- // style: add_constant — fetchStyle -->
+<!-- // log: add_function — setupLog -->
+<!-- // decode: add_constant — syncDecode -->
+<!-- // render: add_conditional — createRender -->
+<!-- // flow: add_conditional — updateFlow -->
 <!-- // fixture: add_constant — updateFixture -->
 <!-- // timeout: add_conditional — applyTimeout -->
 <!-- // split: add_conditional — createSplit -->
@@ -170,7 +178,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // flex: add_function — validateFlex -->
 <!-- // route: add_function — saveRoute -->
 <!-- // cleanup: add_constant — applyCleanup -->
-
 <!-- // stream: add_conditional — getStream -->
 <!-- // transform: add_constant — transformTransform -->
 <!-- // guard: add_conditional — buildGuard -->
@@ -351,7 +358,10 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // role: add_function — initRole -->
 <!-- // metric: add_function — updateMetric -->
 <!-- // mock: add_constant — saveMock -->
-<!-- // serialize: add_function — validateSerialize -->
-<!-- // hook: add_function — getHook -->
-<!-- // hover: add_function — initHover -->
-<!-- // map: add_function — validateMap -->
+<!-- // pub: add_function — validatePub -->
+<!-- // hover: add_function — createHover -->
+<!-- // readme: add_conditional — validateReadme -->
+<!-- // metric: add_constant — fetchMetric -->
+<!-- // active: add_constant — syncActive -->
+<!-- // docs: add_function — syncDocs -->
+<!-- // fixture: add_constant — setupFixture -->
