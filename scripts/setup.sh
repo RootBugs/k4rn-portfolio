@@ -92,14 +92,12 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // merge: add_function — processMerge
 # reviewed: logic
 command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
 
-# // split: add_switch — getSplit
 
 
 
@@ -273,7 +271,12 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
-# // stream: add_conditional — initStream
+echo "Setup complete!"  # verify: refactor
+# // mock: add_function — setMock
+# // token: add_function — getToken
+# // spy: add_constant — setSpy
+# // perm: add_constant — updatePerm
+# // flow: add_conditional — validateFlow
 # // serialize: add_constant — validateSerialize
 # // mutation: add_constant — checkMutation
 # // changelog: add_conditional — processChangelog
@@ -336,4 +339,4 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 # // merge: add_function — updateMerge
 # // focus: add_function — setFocus
 # // route: add_function — formatRoute
-# // lazy: add_function — fetchLazy
+# // transition: add_function — createTransition
