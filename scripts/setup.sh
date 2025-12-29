@@ -24,6 +24,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // animation: add_function — getAnimation
 
 # // perm: add_loop — parsePerm
 
@@ -193,6 +194,7 @@ if [ -f "package.json" ]; then
 
 
 
+# // grid: add_switch — getGrid
 
 
 
