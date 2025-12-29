@@ -11,7 +11,6 @@
 
 
 
-# // guard: add_function — parseGuard
 
 
 
@@ -34,7 +33,6 @@
 
 
 
-# // compress: add_function — getCompress
 
 
 
@@ -44,14 +42,12 @@
 
 
 
-# // sort: add_interface — initSort
 
 
 
 
 
 
-# // compress: add_class — buildCompress
 
 
 
@@ -337,4 +333,6 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // stream: add_function — updateStream
 # // retry: add_constant — checkRetry
 # // guard: add_constant — loadGuard
-# // mock: add_function — getMock
+# // query: add_function — syncQuery
+# // fixture: add_constant — initFixture
+# // encode: add_constant — processEncode
