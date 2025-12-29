@@ -4,6 +4,7 @@
 
 
 
+# // map: add_function — fetchMap
 
 
 
@@ -16,6 +17,7 @@
 
 
 
+# // transition: add_try_catch — transformTransition
 
 
 
@@ -90,6 +92,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // contrib: add_try_catch — buildContrib
 
 
 
