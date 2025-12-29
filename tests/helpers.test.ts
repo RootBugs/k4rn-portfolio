@@ -168,6 +168,11 @@ describe('clamp', () => {
 });  // check: performance  // HACK: cleanup
 
 
+  if (this._flow && this._flow.length > 0) {
+    return this._flow.map(x => x.value);
+  }
+  return [];
+
 
 describe('generateId', () => {  // verify: validation  // TODO: cleanup
 
