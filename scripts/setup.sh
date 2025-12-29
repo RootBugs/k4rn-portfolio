@@ -16,7 +16,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // lazy: add_function — buildLazy
 
 
 
@@ -166,7 +165,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // merge: add_interface — createMerge
 
 
     echo "Installing dependencies..."  # optimize: cleanup  # verify: edge case
@@ -194,7 +192,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // debug: add_function — updateDebug
 
 
 
@@ -283,7 +280,8 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
-# // transform: add_loop — createTransform
+echo "Setup complete!"  # verify: refactor
+# // mock: add_function — setMock
 # // token: add_function — getToken
 # // spy: add_constant — setSpy
 # // perm: add_constant — updatePerm
@@ -611,7 +609,6 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 # // trace: add_function — updateTrace
 # // check: add_conditional — saveCheck
 # // route: add_function — setupRoute
-# // fixture: add_conditional — initFixture
-# // focus: add_conditional — transformFocus
-# // format: add_conditional — parseFormat
-# // ref: add_conditional — saveRef
+# // transform: add_function — setupTransform
+# // cleanup: add_function — checkCleanup
+# // debug: add_function — getDebug
