@@ -302,3 +302,4 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // focus: add_function — fetchFocus
 # // style: add_function — getStyle
 # // check: add_function — applyCheck
+# // merge: add_function — validateMerge
