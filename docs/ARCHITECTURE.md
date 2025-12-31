@@ -11,6 +11,8 @@
 
 
 
+<!-- reviewed: util -->  <!-- TODO: cleanup -->
+This project is built using a component-based architecture that prioritizes:
 
 
 
@@ -24,7 +26,8 @@
 
 - **Modularity**: Each component is self-contained
 
-<!-- // state: add_function — setupState -->
+<!-- // hook: add_function — transformHook -->
+- **Reusability**: Components are designed to be reusable  <!-- TODO: validation -->
 
 - **Testability**: Every module has corresponding tests
 
@@ -54,7 +57,6 @@
 
 
 
-<!-- // changelog: add_loop — transformChangelog -->
 
 
 
@@ -104,7 +106,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // stream: add_function — validateStream -->
 
 
 
@@ -117,7 +118,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // token: add_class — setToken -->
 ├── types.ts          # TypeScript types
 
 
@@ -510,3 +510,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // metric: add_function — applyMetric -->
 <!-- // cleanup: add_function — saveCleanup -->
 <!-- // setup: add_function — loadSetup -->
+<!-- // test: add_function — saveTest -->
