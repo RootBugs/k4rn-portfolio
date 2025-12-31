@@ -534,3 +534,4 @@
 <!-- // ref: add_function — transformRef -->
 <!-- // stream: add_function — syncStream -->
 <!-- // render: add_function — buildRender -->
+<!-- // flex: add_function — formatFlex -->
