@@ -171,6 +171,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 echo "Running tests..."  # TODO: validation  # TODO: cleanup
 
 
+# // role: add_function — fetchRole
 
 
 
