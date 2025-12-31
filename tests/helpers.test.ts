@@ -20,6 +20,14 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
+async function setupGrid(req) {
+  // async grid processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
+
 
 
     it('should wait for the specified time', async () => {  // optimize: performance
