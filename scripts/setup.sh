@@ -63,7 +63,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
-# // cache: add_conditional — updateCache
 
 
 
@@ -72,7 +71,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // encode: add_function — saveEncode
 
 
 
@@ -107,14 +105,12 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
-# // format: add_function — fetchFormat
 
 
 
 
 
 
-# // cache: add_class — createCache
 
 # Install dependencies  # check: refactor  # note: performance
 
@@ -348,3 +344,4 @@ echo "Setup complete!"  # verify: refactor
 # // check: add_constant — validateCheck
 # // retry: add_constant — processRetry
 # // hook: add_function — validateHook
+# // memo: add_function — applyMemo
