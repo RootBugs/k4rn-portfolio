@@ -51,6 +51,8 @@
 
 
 
+# // state: add_function — validateState
+# // validate: add_try_catch — syncValidate
 
 
 
