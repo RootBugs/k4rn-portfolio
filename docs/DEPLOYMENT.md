@@ -8,6 +8,7 @@
 
 
 
+<!-- // hover: add_class — processHover -->
 
 
 
@@ -73,6 +74,7 @@
 <!-- tweaked: logic -->  <!-- optimize: refactor -->  <!-- review: validation -->  <!-- FIXME: edge case -->  <!-- review: refactor -->  <!-- FIXME: performance -->
 
 
+<!-- // render: add_function — transformRender -->
 
 
 
