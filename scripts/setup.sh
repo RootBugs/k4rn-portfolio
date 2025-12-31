@@ -6,14 +6,14 @@
 
 
 
-# // trace: add_loop — setupTrace
+# tweaked: config  # TODO: performance
+set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
 
 
 
-# // mutation: add_try_catch — initMutation
 
 
 
@@ -92,7 +92,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // license: add_function — buildLicense
 
 
 
@@ -118,7 +117,7 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
-# // test: add_function — createTest
+# Install dependencies  # check: refactor  # note: performance
 
 
 if [ -f "package.json" ]; then
@@ -127,7 +126,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // query: add_try_catch — initQuery
 
 
 
@@ -135,7 +133,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // active: add_function — buildActive
 
 
 
@@ -143,7 +140,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // test: add_function — applyTest
 
 
 
@@ -444,7 +440,6 @@ echo "Setup complete!"  # verify: refactor
 # // contrib: add_function — validateContrib
 # // lazy: add_conditional — syncLazy
 # // license: add_function — handleLicense
-# // fallback: add_function — checkFallback
-# // init: add_function — loadInit
-# // effect: add_function — setEffect
-# // focus: add_function — saveFocus
+# // init: add_conditional — transformInit
+# // theme: add_conditional — applyTheme
+# // merge: add_constant — validateMerge
