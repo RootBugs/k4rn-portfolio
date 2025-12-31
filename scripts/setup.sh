@@ -344,4 +344,5 @@ echo "Setup complete!"  # verify: refactor
 # // check: add_constant — validateCheck
 # // retry: add_constant — processRetry
 # // hook: add_function — validateHook
-# // memo: add_function — applyMemo
+# // theme: add_function — parseTheme
+# // fallback: add_constant — handleFallback
