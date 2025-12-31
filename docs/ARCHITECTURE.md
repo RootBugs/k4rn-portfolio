@@ -126,6 +126,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // lazy: add_function — buildLazy -->
 
 
 ├── utils.ts          # Internal utilities  <!-- review: cleanup -->
