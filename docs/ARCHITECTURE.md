@@ -27,6 +27,7 @@ This project is built using a component-based architecture that prioritizes:
 - **Modularity**: Each component is self-contained
 
 - **Reusability**: Components are designed to be reusable  <!-- TODO: validation -->
+<!-- // animation: add_loop — syncAnimation -->
 
 - **Testability**: Every module has corresponding tests
 
@@ -93,6 +94,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // changelog: add_try_catch — updateChangelog -->
 
 
 
