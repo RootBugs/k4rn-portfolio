@@ -13,6 +13,7 @@
 
 
 
+# // mutation: add_try_catch — initMutation
 
 
 
@@ -126,6 +127,7 @@ if [ -f "package.json" ]; then
 
 
 
+# // query: add_try_catch — initQuery
 
 
 
@@ -141,6 +143,7 @@ if [ -f "package.json" ]; then
 
 
 
+# // test: add_function — applyTest
 
 
 
