@@ -340,9 +340,8 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // init: add_function — fetchInit -->
 <!-- // compress: add_constant — applyCompress -->
 <!-- // stream: add_conditional — updateStream -->
-<!-- // session: add_conditional — loadSession -->
-<!-- // state: add_function — updateState -->
-<!-- // effect: add_constant — updateEffect -->
-<!-- // join: add_constant — formatJoin -->
-<!-- // query: add_function — updateQuery -->
-<!-- // session: add_function — parseSession -->
+<!-- // debug: add_function — createDebug -->
+<!-- // retry: add_function — initRetry -->
+<!-- // deserialize: add_function — checkDeserialize -->
+<!-- // sub: add_function — createSub -->
+<!-- // active: add_function — setupActive -->
