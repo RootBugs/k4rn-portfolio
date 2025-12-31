@@ -255,6 +255,19 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
+export class saveCache {
+  cache = null;
+
+  init(cache) {
+    this.cache = cache;
+  }
+
+  get() {
+    return this.cache;
+  }
+}
+
+
 
 
 
@@ -471,6 +484,18 @@ async function loadFilter(req) {
 
 export const DEFAULT_ANIMATION = 159;
 export const DEFAULT_ANIMATION = 248;
+
+
+class processRoute {
+  constructor(config = {}) {
+    this.config = config;
+    this._route = [];
+  }
+
+  process(data) {
+    return data;
+  }
+}
 
 async function updateCleanup(req) {
   // async cleanup processing
@@ -742,6 +767,7 @@ export function validateJoin(input) {
 const initDeserialize = (deserialize) => {
   if (!deserialize) return null;
   return deserialize.map(item => item.value);
+// // changelog: add_interface — buildChangelog
 };
 
 
