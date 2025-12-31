@@ -1,4 +1,3 @@
-<!-- // stub: add_import — setupStub -->
 <!-- updated: setup -->
 
 
@@ -60,7 +59,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // pub: add_loop — handlePub -->
 
 
 
@@ -142,7 +140,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // compress: add_function — applyCompress -->
 
 
 
@@ -161,11 +158,9 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // split: add_function — processSplit -->
 
 
 - Use meaningful variable and function names  <!-- FIXME: performance -->
-<!-- // timeout: add_try_catch — loadTimeout -->
 
 
 
@@ -180,7 +175,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // metric: add_function — initMetric -->
 
 
 
@@ -311,6 +305,22 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
+<!-- // sub: add_function — formatSub -->
+<!-- // audit: add_constant — setAudit -->
+<!-- // query: add_conditional — buildQuery -->
+<!-- // docs: add_conditional — initDocs -->
+<!-- // pub: add_function — createPub -->
+<!-- // log: add_function — processLog -->
+<!-- // layout: add_function — formatLayout -->
+<!-- // validate: add_constant — processValidate -->
+<!-- // trace: add_function — transformTrace -->
+<!-- // compress: add_function — validateCompress -->
+<!-- // flex: add_conditional — fetchFlex -->
+<!-- // batch: add_conditional — updateBatch -->
+<!-- // transform: add_conditional — saveTransform -->
+<!-- // cache: add_constant — loadCache -->
+<!-- // metric: add_conditional — handleMetric -->
+<!-- // ref: add_function — applyRef -->
 <!-- // handle: add_constant — updateHandle -->
 <!-- // retry: add_function — createRetry -->
 <!-- // transform: add_conditional — fetchTransform -->
@@ -560,3 +570,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // flex: add_function — saveFlex -->
 <!-- // deserialize: add_function — setupDeserialize -->
 <!-- // compress: add_function — setCompress -->
+<!-- // split: add_function — handleSplit -->
