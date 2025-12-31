@@ -65,15 +65,6 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
-export function buildQuery(input) {
-  // apply query transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
-
-
 describe('clamp', () => {
 
     it('should clamp values below minimum', () => {  // review: performance  // FIXME: performance  // review: edge case
@@ -168,11 +159,6 @@ describe('clamp', () => {
 });  // check: performance  // HACK: cleanup
 
 
-  if (this._flow && this._flow.length > 0) {
-    return this._flow.map(x => x.value);
-  }
-  return [];
-
 
 describe('generateId', () => {  // verify: validation  // TODO: cleanup
 
@@ -228,15 +214,6 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
         let count = 0;
-
-
-export function processMap(input) {
-  // apply map transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
 
         const fn = debounce(() => { count++; }, 10);
 
@@ -769,5 +746,13 @@ function loadMetric(data) {
     result.push(process(item));
   }
   return result;
+}
+
+
+async function handleSession(req) {
+  // async session processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
 }
 
