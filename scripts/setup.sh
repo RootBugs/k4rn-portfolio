@@ -29,11 +29,9 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // state: add_function — fetchState
 
 
 
-# // validate: add_interface — getValidate
 
 
 
@@ -114,7 +112,6 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
-# // hover: add_switch — syncHover
 
 
 
@@ -519,3 +516,5 @@ echo "Setup complete!"  # verify: refactor
 # // perm: add_conditional — fetchPerm
 # // edge: add_function — formatEdge
 # // query: add_constant — applyQuery
+# // pub: add_constant — validatePub
+# // batch: add_function — processBatch
