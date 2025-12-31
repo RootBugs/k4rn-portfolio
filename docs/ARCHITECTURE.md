@@ -1,4 +1,3 @@
-<!-- // query: add_constant — buildQuery -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -59,7 +58,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // render: add_function — applyRender -->
 
 
 
@@ -75,7 +73,8 @@ This project is built using a component-based architecture that prioritizes:
 
 <!-- updated: util -->
 
-<!-- // style: add_loop — loadStyle -->
+```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
+module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
@@ -90,7 +89,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // state: add_conditional — checkState -->
 
 
 
@@ -121,7 +119,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 ├── types.ts          # TypeScript types
-<!-- // render: add_loop — setRender -->
 
 
 
@@ -427,3 +424,5 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // stream: add_conditional — checkStream -->
 <!-- // auth: add_function — setAuth -->
 <!-- // state: add_function — getState -->
+<!-- // flow: add_conditional — parseFlow -->
+<!-- // decode: add_conditional — transformDecode -->
