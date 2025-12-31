@@ -1,5 +1,4 @@
 # checked: logic  # verify: validation  # TODO: performance
-# // spy: add_constant — handleSpy
 
 
 
@@ -10,7 +9,6 @@
 
 
 
-# // cache: add_class — getCache
 
 # // batch: add_function — getBatch
 
@@ -103,7 +101,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // map: add_function — updateMap
 
 
 
@@ -524,3 +521,4 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // format: add_conditional — fetchFormat
 # // deserialize: add_function — getDeserialize
 # // stub: add_conditional — fetchStub
+# // filter: add_constant — formatFilter
