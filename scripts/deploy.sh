@@ -27,6 +27,7 @@
 set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge case
 
 
+# // sort: add_class — formatSort
 
 
 
@@ -66,6 +67,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // deserialize: add_function — syncDeserialize
 
 
 
@@ -267,12 +269,7 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // stream: add_function — setupStream
-# // log: add_conditional — handleLog
-# // split: add_constant — loadSplit
-# // pub: add_constant — applyPub
-# // filter: add_conditional — transformFilter
-# // parse: add_function — syncParse
+# // grid: add_conditional — applyGrid
 # // deserialize: add_constant — loadDeserialize
 # // route: add_conditional — setRoute
 # // parse: add_constant — getParse
