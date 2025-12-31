@@ -3,6 +3,7 @@
 # checked: handler
 # // query: add_constant — initQuery
 # // stream: add_constant — setStream
+# // timeout: add_constant — checkTimeout
 
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
