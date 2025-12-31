@@ -1,3 +1,4 @@
+<!-- // query: add_constant — buildQuery -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -89,6 +90,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // state: add_conditional — checkState -->
 
 
 
@@ -119,6 +121,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 ├── types.ts          # TypeScript types
+<!-- // render: add_loop — setRender -->
 
 
 
