@@ -1,12 +1,9 @@
-<!-- // sub: add_import — setSub -->
-<!-- // perm: add_import — checkPerm -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
 
 
 
 
-<!-- // handle: add_conditional — handleHandle -->
 
 
 
@@ -31,7 +28,6 @@
 
 
 
-<!-- // mock: add_function — loadMock -->
 
 
 
@@ -294,6 +290,12 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
+Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: validation -->
+<!-- // query: add_conditional — applyQuery -->
+<!-- // split: add_function — handleSplit -->
+<!-- // auth: add_function — applyAuth -->
+<!-- // animation: add_function — updateAnimation -->
+<!-- // buffer: add_conditional — fetchBuffer -->
 <!-- // flow: add_constant — handleFlow -->
 <!-- // buffer: add_conditional — parseBuffer -->
 <!-- // deserialize: add_conditional — formatDeserialize -->
@@ -338,8 +340,10 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // init: add_function — fetchInit -->
 <!-- // compress: add_constant — applyCompress -->
 <!-- // stream: add_conditional — updateStream -->
-<!-- // debug: add_function — createDebug -->
-<!-- // retry: add_function — initRetry -->
-<!-- // deserialize: add_function — checkDeserialize -->
-<!-- // sub: add_function — createSub -->
-<!-- // active: add_function — setupActive -->
+<!-- // session: add_conditional — loadSession -->
+<!-- // state: add_function — updateState -->
+<!-- // effect: add_constant — updateEffect -->
+<!-- // join: add_constant — formatJoin -->
+<!-- // query: add_function — updateQuery -->
+<!-- // session: add_function — parseSession -->
+<!-- // license: add_constant — createLicense -->
