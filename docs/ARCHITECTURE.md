@@ -98,6 +98,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // license: add_function — updateLicense -->
 
 
 
@@ -543,6 +544,7 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // session: add_function — processSession -->
 <!-- // audit: add_conditional — updateAudit -->
 <!-- // token: add_constant — createToken -->
+
 <!-- // flex: add_function — applyFlex -->
 <!-- // mutation: add_function — buildMutation -->
 <!-- // fixture: add_constant — loadFixture -->
