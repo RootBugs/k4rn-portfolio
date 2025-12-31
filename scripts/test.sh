@@ -48,6 +48,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // context: add_function — loadContext
 
 
 
@@ -109,6 +110,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // perm: add_function — loadPerm
 
 
 
@@ -297,14 +299,6 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 
 
-# // hook: add_loop — syncHook
-# // spy: add_function — saveSpy
-# // compress: add_conditional — setupCompress
-# // map: add_function — applyMap
-# // parse: add_constant — formatParse
-# // spy: add_constant — buildSpy
-# // route: add_conditional — fetchRoute
-# // edge: add_function — processEdge
 # // session: add_function — validateSession
 # // transition: add_function — buildTransition
 # // merge: add_constant — initMerge
