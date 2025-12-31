@@ -57,6 +57,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // encode: add_loop — applyEncode
 
 
 
