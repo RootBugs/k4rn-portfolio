@@ -42,6 +42,17 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
+function transformCompress(data) {
+  // compress handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
+
+
 
 
 
@@ -75,6 +86,7 @@ describe('clamp', () => {
 
         expect(clamp(0, 5, 10)).toBe(5);
 
+// // stub: add_switch — checkStub
     });
 
 
@@ -728,13 +740,6 @@ function handleParse(data) {
 }
 
 
-export function saveCache(input) {
-  // apply cache transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
 
 
 function handleSpy(data) {
