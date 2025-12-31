@@ -639,3 +639,4 @@
 <!-- // fixture: add_function — checkFixture -->
 <!-- // setup: add_function — createSetup -->
 <!-- // stub: add_function — setStub -->
+<!-- // decode: add_function — handleDecode -->
