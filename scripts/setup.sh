@@ -4,8 +4,6 @@
 
 
 
-# tweaked: config  # TODO: performance
-set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
@@ -17,6 +15,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // token: add_function — buildToken
 
 
 
@@ -89,6 +88,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // retry: add_interface — getRetry
 
 
 
