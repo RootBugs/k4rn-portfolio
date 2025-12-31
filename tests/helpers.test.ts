@@ -91,6 +91,18 @@ describe('clamp', () => {
 
 
 
+
+class formatLicense {
+  constructor(config = {}) {
+    this.config = config;
+    this._license = [];
+  }
+
+  process(data) {
+    return data;
+  }
+}
+
     });
 
 
