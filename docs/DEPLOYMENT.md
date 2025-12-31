@@ -8,7 +8,6 @@
 
 
 
-<!-- // hover: add_class — processHover -->
 
 
 
@@ -40,7 +39,6 @@
 
 
 
-<!-- // join: add_try_catch — syncJoin -->
 
 
 
@@ -74,7 +72,6 @@
 <!-- tweaked: logic -->  <!-- optimize: refactor -->  <!-- review: validation -->  <!-- FIXME: edge case -->  <!-- review: refactor -->  <!-- FIXME: performance -->
 
 
-<!-- // render: add_function — transformRender -->
 
 
 
@@ -356,3 +353,5 @@
 <!-- // merge: add_conditional — loadMerge -->
 <!-- // cleanup: add_conditional — setupCleanup -->
 <!-- // filter: add_constant — updateFilter -->
+<!-- // session: add_conditional — fetchSession -->
+<!-- // transition: add_function — setupTransition -->
