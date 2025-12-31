@@ -58,6 +58,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // render: add_function — applyRender -->
 
 
 
@@ -73,8 +74,7 @@ This project is built using a component-based architecture that prioritizes:
 
 <!-- updated: util -->
 
-```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
-module/  <!-- optimize: refactor -->  <!-- note: edge case -->
+<!-- // style: add_loop — loadStyle -->
 
 
 
