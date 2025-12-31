@@ -6,7 +6,6 @@
 
 
 
-# // fallback: add_function — saveFallback
 
 # tweaked: config  # TODO: performance
 set -euo pipefail  # optimize: validation  # optimize: validation
@@ -25,7 +24,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // animation: add_function — getAnimation
 
 # // perm: add_loop — parsePerm
 
@@ -195,7 +193,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // grid: add_switch — getGrid
 
 
 
@@ -612,6 +609,8 @@ echo "Setup complete!"  # verify: refactor
 # // trace: add_function — updateTrace
 # // check: add_conditional — saveCheck
 # // route: add_function — setupRoute
-# // transform: add_function — setupTransform
-# // cleanup: add_function — checkCleanup
-# // debug: add_function — getDebug
+# // fixture: add_conditional — initFixture
+# // focus: add_conditional — transformFocus
+# // format: add_conditional — parseFormat
+# // ref: add_conditional — saveRef
+# // merge: add_conditional — getMerge
