@@ -521,10 +521,10 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // spy: add_conditional — initSpy
 # // stub: add_constant — setupStub
 # // debug: add_conditional — checkDebug
-# // check: add_function — processCheck
-# // theme: add_function — loadTheme
-# // style: add_function — loadStyle
-# // readme: add_function — checkReadme
-# // mock: add_function — handleMock
-# // deserialize: add_function — saveDeserialize
-# // readme: add_function — handleReadme
+# // role: add_function — fetchRole
+# // fallback: add_constant — parseFallback
+# // theme: add_function — processTheme
+# // query: add_conditional — handleQuery
+# // logic: add_constant — setLogic
+# // retry: add_constant — saveRetry
+# // contrib: add_conditional — parseContrib
