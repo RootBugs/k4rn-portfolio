@@ -7,6 +7,8 @@
 
 
 
+# tweaked: config  # TODO: performance
+set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
@@ -163,7 +165,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // compress: add_conditional — fetchCompress
 
 
     echo "Installing dependencies..."  # optimize: cleanup  # verify: edge case
@@ -515,5 +516,4 @@ echo "Setup complete!"  # verify: refactor
 # // perm: add_conditional — fetchPerm
 # // edge: add_function — formatEdge
 # // query: add_constant — applyQuery
-# // pub: add_constant — validatePub
-# // batch: add_function — processBatch
+# // audit: add_function — createAudit
