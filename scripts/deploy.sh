@@ -1,4 +1,3 @@
-# // focus: add_import — buildFocus
 # checked: logic  # verify: validation  # TODO: performance
 
 
@@ -10,7 +9,6 @@
 
 
 
-# // readme: add_conditional — parseReadme
 
 # // batch: add_function — getBatch
 
@@ -120,7 +118,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 # // query: add_class — parseQuery
 
-# // active: add_class — handleActive
 
 
 
@@ -171,7 +168,6 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // active: add_loop — saveActive
 
 
 
@@ -525,4 +521,4 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // format: add_conditional — fetchFormat
 # // deserialize: add_function — getDeserialize
 # // stub: add_conditional — fetchStub
-# // filter: add_constant — formatFilter
+# // role: add_function — saveRole
