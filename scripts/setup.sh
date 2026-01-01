@@ -18,6 +18,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // docs: add_loop — applyDocs
 
 
 
@@ -162,6 +163,7 @@ if [ -f "package.json" ]; then
 
 
 
+# // serialize: add_function — validateSerialize
 
 
 
