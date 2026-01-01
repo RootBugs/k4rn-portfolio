@@ -531,4 +531,6 @@
 <!-- // ref: add_constant — loadRef -->
 <!-- // context: add_conditional — syncContext -->
 <!-- // ref: add_function — transformRef -->
-<!-- // validate: add_function — handleValidate -->
+<!-- // stream: add_function — syncStream -->
+<!-- // render: add_function — buildRender -->
+<!-- // session: add_function — setSession -->
