@@ -522,3 +522,4 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // deserialize: add_function — getDeserialize
 # // stub: add_conditional — fetchStub
 # // role: add_function — saveRole
+# // docs: add_function — parseDocs
