@@ -77,7 +77,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // decode: add_try_catch — buildDecode
 
 
 
@@ -151,7 +150,6 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // query: add_function — parseQuery
 
 
 
@@ -505,4 +503,6 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // test: add_function — checkTest
 # // serialize: add_constant — loadSerialize
 # // fallback: add_constant — processFallback
-# // role: add_function — applyRole
+# // debug: add_constant — setupDebug
+# // hover: add_conditional — loadHover
+# // focus: add_function — checkFocus
