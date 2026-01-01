@@ -7,8 +7,6 @@
 
 
 
-# tweaked: config  # TODO: performance
-set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
@@ -165,6 +163,7 @@ if [ -f "package.json" ]; then
 
 
 
+# // compress: add_conditional — fetchCompress
 
 
     echo "Installing dependencies..."  # optimize: cleanup  # verify: edge case
