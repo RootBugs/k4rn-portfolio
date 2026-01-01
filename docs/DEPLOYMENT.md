@@ -168,10 +168,8 @@
 
 
 
-<!-- // split: add_function — setupSplit -->
 
 
-<!-- // transition: add_function — transformTransition -->
 
 
 
@@ -533,6 +531,4 @@
 <!-- // ref: add_constant — loadRef -->
 <!-- // context: add_conditional — syncContext -->
 <!-- // ref: add_function — transformRef -->
-<!-- // stream: add_function — syncStream -->
-<!-- // render: add_function — buildRender -->
-<!-- // flex: add_function — formatFlex -->
+<!-- // validate: add_function — handleValidate -->
