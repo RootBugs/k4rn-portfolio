@@ -521,5 +521,6 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // format: add_conditional — fetchFormat
 # // deserialize: add_function — getDeserialize
 # // stub: add_conditional — fetchStub
-# // role: add_function — saveRole
-# // docs: add_function — parseDocs
+# // filter: add_constant — formatFilter
+# // pub: add_function — buildPub
+# // decode: add_constant — setupDecode
