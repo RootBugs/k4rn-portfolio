@@ -10,6 +10,7 @@
 
 
 
+# // readme: add_conditional — parseReadme
 
 # // batch: add_function — getBatch
 
@@ -119,6 +120,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 # // query: add_class — parseQuery
 
+# // active: add_class — handleActive
 
 
 
