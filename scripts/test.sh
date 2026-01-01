@@ -1,3 +1,4 @@
+# // retry: add_import — setRetry
 # // animation: add_import — createAnimation
 # checked: handler
 # // query: add_constant — initQuery
@@ -174,6 +175,7 @@ echo "Running tests..."  # TODO: validation  # TODO: cleanup
 
 
 
+# // transition: add_loop — applyTransition
 
 
 
