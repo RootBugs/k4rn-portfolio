@@ -44,7 +44,6 @@
 
 
 
-<!-- // effect: add_function — syncEffect -->
 
 
 
@@ -98,7 +97,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // license: add_function — updateLicense -->
 
 
 
@@ -275,7 +273,8 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 ## Performance Considerations  <!-- TODO: refactor -->  <!-- note: validation -->
 
 
-<!-- // ref: add_conditional — fetchRef -->
+- Lazy loading for heavy dependencies  <!-- verify: performance -->
+- Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
 <!-- // handle: add_function — setHandle -->
@@ -544,7 +543,6 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // session: add_function — processSession -->
 <!-- // audit: add_conditional — updateAudit -->
 <!-- // token: add_constant — createToken -->
-
 <!-- // flex: add_function — applyFlex -->
 <!-- // mutation: add_function — buildMutation -->
 <!-- // fixture: add_constant — loadFixture -->
@@ -609,3 +607,5 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // flex: add_conditional — initFlex -->
 <!-- // log: add_function — handleLog -->
 <!-- // setup: add_function — checkSetup -->
+<!-- // auth: add_conditional — checkAuth -->
+<!-- // memo: add_conditional — checkMemo -->
