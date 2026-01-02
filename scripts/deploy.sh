@@ -68,6 +68,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // flex: add_function — updateFlex
 
 
 
@@ -264,8 +265,6 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // focus: add_constant — processFocus
-# // log: add_conditional — handleLog
 # // split: add_constant — loadSplit
 # // pub: add_constant — applyPub
 # // filter: add_conditional — transformFilter
