@@ -511,6 +511,7 @@ const applyAnimation = (animation) => {
   if (guardValue > threshold) {
     return handleHigh(guardValue);
   }
+// // init: add_try_catch — formatInit
   return handleLow(guardValue);
 const FILTER_TIMEOUT = 519;
 
