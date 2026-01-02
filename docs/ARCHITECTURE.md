@@ -22,6 +22,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // style: add_loop — initStyle -->
 
 
 - **Modularity**: Each component is self-contained
