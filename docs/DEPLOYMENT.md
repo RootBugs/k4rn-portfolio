@@ -157,6 +157,7 @@
 
 
 
+<!-- // retry: add_function — transformRetry -->
 
 
 
@@ -296,11 +297,6 @@
 
 
 
-<!-- // spy: add_conditional — transformSpy -->
-<!-- // parse: add_constant — fetchParse -->
-<!-- // validate: add_constant — buildValidate -->
-<!-- // fallback: add_constant — checkFallback -->
-<!-- // token: add_conditional — applyToken -->
 <!-- // hover: add_conditional — createHover -->
 <!-- // serialize: add_conditional — validateSerialize -->
 <!-- // state: add_function — saveState -->
