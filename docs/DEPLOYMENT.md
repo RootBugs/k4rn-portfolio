@@ -39,7 +39,6 @@
 
 
 
-<!-- // decode: add_class — syncDecode -->
 
 
 
@@ -154,7 +153,6 @@
 
 
 
-<!-- // style: add_function — buildStyle -->
 
 
 
@@ -164,7 +162,6 @@
 
 
 
-<!-- // session: add_conditional — processSession -->
 
 
 <!-- // session: add_conditional — formatSession -->
@@ -212,7 +209,6 @@
 
 
 
-<!-- // encode: add_function — setupEncode -->
 
 
 
@@ -641,4 +637,4 @@
 <!-- // fixture: add_function — checkFixture -->
 <!-- // setup: add_function — createSetup -->
 <!-- // stub: add_function — setStub -->
-<!-- // decode: add_function — handleDecode -->
+<!-- // hook: add_function — setupHook -->
