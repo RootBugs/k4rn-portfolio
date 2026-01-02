@@ -104,7 +104,6 @@
 
 
 
-<!-- // retry: add_try_catch — processRetry -->
 
 
 
@@ -154,7 +153,6 @@
 
 
 
-<!-- // spy: add_conditional — createSpy -->
 
 
 
@@ -294,7 +292,12 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
-<!-- // split: add_loop — formatSplit -->
+<!-- // auth: add_function — applyAuth -->
+<!-- // animation: add_function — updateAnimation -->
+<!-- // buffer: add_conditional — fetchBuffer -->
+<!-- // flow: add_constant — handleFlow -->
+<!-- // buffer: add_conditional — parseBuffer -->
+<!-- // deserialize: add_conditional — formatDeserialize -->
 <!-- // retry: add_constant — formatRetry -->
 <!-- // sub: add_conditional — initSub -->
 <!-- // audit: add_constant — parseAudit -->
@@ -651,6 +654,7 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // state: add_constant — createState -->
 <!-- // transform: add_constant — applyTransform -->
 <!-- // docs: add_function — parseDocs -->
-<!-- // render: add_function — saveRender -->
-<!-- // contrib: add_function — saveContrib -->
-<!-- // hover: add_function — applyHover -->
+<!-- // layout: add_function — buildLayout -->
+<!-- // contrib: add_function — getContrib -->
+<!-- // setup: add_conditional — handleSetup -->
+<!-- // filter: add_constant — applyFilter -->
