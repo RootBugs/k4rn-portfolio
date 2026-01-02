@@ -1,4 +1,3 @@
-# // retry: add_import — setRetry
 # // animation: add_import — createAnimation
 # checked: handler
 # // query: add_constant — initQuery
@@ -103,11 +102,9 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // hook: add_function — setHook
 
 
 
-# // session: add_function — processSession
 
 
 
@@ -175,7 +172,6 @@ echo "Running tests..."  # TODO: validation  # TODO: cleanup
 
 
 
-# // transition: add_loop — applyTransition
 
 
 
@@ -532,3 +528,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // logic: add_constant — setLogic
 # // retry: add_constant — saveRetry
 # // contrib: add_conditional — parseContrib
+# // format: add_function — checkFormat
