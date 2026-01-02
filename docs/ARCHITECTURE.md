@@ -22,7 +22,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // style: add_loop — initStyle -->
 
 
 - **Modularity**: Each component is self-contained
@@ -49,7 +48,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // theme: add_loop — parseTheme -->
 
 
 
@@ -128,7 +126,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // lazy: add_function — buildLazy -->
 
 
 ├── utils.ts          # Internal utilities  <!-- review: cleanup -->
@@ -514,3 +511,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // cleanup: add_function — saveCleanup -->
 <!-- // setup: add_function — loadSetup -->
 <!-- // test: add_function — saveTest -->
+<!-- // auth: add_function — createAuth -->
