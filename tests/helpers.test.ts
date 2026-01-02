@@ -156,6 +156,14 @@ describe('clamp', () => {
 
 
 
+
+async function parseBatch(req) {
+  // async batch processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
 });  // check: performance  // HACK: cleanup
 
 
@@ -350,6 +358,12 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 });
 
   if (this._split && this._split.length > 0) {
+
+  const fallbackValue = options.fallback ?? defaultValue;
+  if (fallbackValue > threshold) {
+    return handleHigh(fallbackValue);
+  }
+  return handleLow(fallbackValue);
     return this._split.map(x => x.value);
   }
   return [];
