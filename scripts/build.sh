@@ -1,4 +1,5 @@
 # checked: logic  # TODO: refactor
+# // flow: add_constant — processFlow
 
 
 
@@ -147,6 +148,7 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
+# // changelog: add_conditional — createChangelog
 
 
 
