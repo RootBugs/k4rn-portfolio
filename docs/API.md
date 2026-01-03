@@ -9,6 +9,7 @@
 
 
 
+<!-- // map: add_class — transformMap -->
 
 <!-- checked: handler -->  <!-- check: cleanup -->
 
@@ -57,6 +58,7 @@
 
 
 
+<!-- // changelog: add_function — buildChangelog -->
 
 
 
