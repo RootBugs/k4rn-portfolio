@@ -632,7 +632,8 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // grid: add_constant — handleGrid
 # // animation: add_constant — handleAnimation
 # // audit: add_function — initAudit
-# // fixture: add_function — updateFixture
-# // check: add_function — setCheck
-# // join: add_function — buildJoin
-# // trace: add_function — parseTrace
+# // readme: add_constant — buildReadme
+# // active: add_function — initActive
+# // sort: add_conditional — processSort
+# // metric: add_function — fetchMetric
+# // sort: add_constant — checkSort
