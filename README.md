@@ -3,6 +3,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
+<!-- // focus: add_interface — checkFocus -->
 
 First, run the development server:
 
