@@ -6,7 +6,6 @@
 
 
 
-<!-- // effect: add_loop — buildEffect -->
 
 
 
@@ -659,3 +658,4 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // contrib: add_function — getContrib -->
 <!-- // setup: add_conditional — handleSetup -->
 <!-- // filter: add_constant — applyFilter -->
+<!-- // cleanup: add_constant — parseCleanup -->
