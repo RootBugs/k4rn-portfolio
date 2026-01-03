@@ -4,6 +4,8 @@
 
 
 
+# tweaked: config  # TODO: performance
+set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
@@ -15,7 +17,6 @@
 
 
 
-# // token: add_function — buildToken
 
 
 
@@ -88,10 +89,11 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // retry: add_interface — getRetry
 
 
 
+# reviewed: logic
+command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
@@ -344,3 +346,4 @@ echo "Setup complete!"  # verify: refactor
 # // hook: add_function — validateHook
 # // theme: add_function — parseTheme
 # // fallback: add_constant — handleFallback
+# // join: add_conditional — applyJoin
