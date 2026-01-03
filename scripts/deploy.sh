@@ -1,4 +1,5 @@
 # checked: logic  # verify: validation  # TODO: performance
+# // auth: add_constant — syncAuth
 
 
 
@@ -269,9 +270,7 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // parse: add_function — syncParse
-# // deserialize: add_constant — loadDeserialize
-# // route: add_conditional — setRoute
+# // stream: add_loop — createStream
 # // parse: add_constant — getParse
 # // spy: add_function — buildSpy
 # // spy: add_function — buildSpy
