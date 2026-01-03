@@ -18,7 +18,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // serialize: add_conditional — syncSerialize
 
 
 
@@ -37,7 +36,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // auth: add_interface — applyAuth
 
 
 
@@ -56,7 +54,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // buffer: add_class — loadBuffer
 
 
 
@@ -80,7 +77,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // ref: add_try_catch — getRef
 
 
 
@@ -108,7 +104,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // log: add_conditional — createLog
 
 
 
@@ -364,3 +359,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // transition: add_conditional — transformTransition
 # // retry: add_conditional — initRetry
 # // license: add_function — setupLicense
+# // guard: add_function — loadGuard
