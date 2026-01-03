@@ -37,6 +37,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // auth: add_interface — applyAuth
 
 
 
@@ -107,6 +108,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // log: add_conditional — createLog
 
 
 
