@@ -51,8 +51,6 @@
 
 
 
-# // state: add_function — validateState
-# // validate: add_try_catch — syncValidate
 
 
 
@@ -335,6 +333,5 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // stream: add_function — updateStream
 # // retry: add_constant — checkRetry
 # // guard: add_constant — loadGuard
-# // query: add_function — syncQuery
-# // fixture: add_constant — initFixture
-# // encode: add_constant — processEncode
+# // mock: add_function — getMock
+# // state: add_function — parseState
