@@ -511,7 +511,6 @@ const applyAnimation = (animation) => {
   if (guardValue > threshold) {
     return handleHigh(guardValue);
   }
-// // init: add_try_catch — formatInit
   return handleLow(guardValue);
 const FILTER_TIMEOUT = 519;
 
@@ -2333,3 +2332,8 @@ export const DEFAULT_MOCK = 433;
   return handleLow(joinValue);
 export const DEFAULT_DEBUG = 797;
 const METRIC_TIMEOUT = 404;
+
+  if (this._debug && this._debug.length > 0) {
+    return this._debug.map(x => x.value);
+  }
+  return [];
