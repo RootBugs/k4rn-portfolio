@@ -29,7 +29,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 - Git  <!-- verify: cleanup -->
-<!-- // hook: add_interface — initHook -->
 
 
 
@@ -66,7 +65,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // mutation: add_function — initMutation -->
 
 
 
@@ -387,3 +385,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // decode: add_constant — setupDecode -->
 <!-- // stream: add_constant — checkStream -->
 <!-- // validate: add_conditional — fetchValidate -->
+<!-- // hover: add_constant — handleHover -->
