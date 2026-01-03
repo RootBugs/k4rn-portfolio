@@ -1,4 +1,3 @@
-<!-- // docs: add_import — validateDocs -->
 <!-- tweaked: util -->
 
 
@@ -295,7 +294,10 @@
 
 
 
-<!-- // serialize: add_loop — transformSerialize -->
+<!-- // fixture: add_conditional — initFixture -->
+<!-- // animation: add_function — loadAnimation -->
+<!-- // handle: add_function — loadHandle -->
+<!-- // route: add_function — saveRoute -->
 <!-- // audit: add_function — formatAudit -->
 <!-- // flex: add_function — initFlex -->
 <!-- // test: add_constant — initTest -->
@@ -353,3 +355,4 @@
 <!-- // filter: add_constant — updateFilter -->
 <!-- // session: add_conditional — fetchSession -->
 <!-- // transition: add_function — setupTransition -->
+<!-- // format: add_constant — getFormat -->
