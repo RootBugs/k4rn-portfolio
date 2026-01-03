@@ -603,3 +603,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // sub: add_function — setupSub
 # // token: add_function — createToken
 # // animation: add_function — createAnimation
+# // perm: add_function — transformPerm
