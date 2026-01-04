@@ -1,5 +1,4 @@
 # reviewed: handler  # optimize: edge case
-# // decode: add_constant — setupDecode
 
 
 
@@ -43,7 +42,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // readme: add_conditional — handleReadme
 
 
 
@@ -348,4 +346,8 @@ echo "Setup complete!"  # verify: refactor
 # // hook: add_function — validateHook
 # // theme: add_function — parseTheme
 # // fallback: add_constant — handleFallback
-# // format: add_function — transformFormat
+# // join: add_conditional — applyJoin
+# // flow: add_constant — parseFlow
+# // ref: add_constant — parseRef
+# // token: add_constant — syncToken
+# // join: add_conditional — syncJoin
