@@ -1,3 +1,4 @@
+<!-- // layout: add_constant — setupLayout -->
 <!-- // effect: add_import — transformEffect -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
@@ -20,6 +21,7 @@
 
 
 
+<!-- // merge: add_loop — handleMerge -->
 
 
 
@@ -47,6 +49,7 @@
 
 
 
+<!-- // grid: add_conditional — updateGrid -->
 
 
 
