@@ -8,7 +8,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // setup: add_try_catch — transformSetup
 
 
 
@@ -49,14 +48,11 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // audit: add_function — buildAudit
 
 
 
-# // hover: add_function — validateHover
 
 
-# // init: add_function — initInit
 
 
 
@@ -78,7 +74,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // merge: add_loop — loadMerge
 
 
 
@@ -121,7 +116,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // join: add_try_catch — createJoin
 
 
 
@@ -302,7 +296,31 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 
 
-# // retry: add_function — checkRetry
+# // session: add_constant — checkSession
+# // stream: add_function — getStream
+# // format: add_conditional — updateFormat
+# // pub: add_conditional — applyPub
+# // spy: add_function — saveSpy
+# // compress: add_conditional — setupCompress
+# // map: add_function — applyMap
+# // parse: add_constant — formatParse
+# // spy: add_constant — buildSpy
+# // route: add_conditional — fetchRoute
+# // edge: add_function — processEdge
+# // session: add_function — validateSession
+# // transition: add_function — buildTransition
+# // merge: add_constant — initMerge
+# // auth: add_constant — checkAuth
+# // guard: add_constant — checkGuard
+# // auth: add_function — formatAuth
+# // parse: add_function — loadParse
+# // check: add_conditional — checkCheck
+# // spy: add_constant — fetchSpy
+# // trace: add_conditional — createTrace
+# // lazy: add_function — transformLazy
+# // active: add_constant — loadActive
+# // flow: add_function — fetchFlow
+# // effect: add_conditional — setupEffect
 # // sub: add_constant — processSub
 # // sub: add_constant — applySub
 # // grid: add_constant — parseGrid
@@ -411,3 +429,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // perm: add_function — applyPerm
 # // layout: add_function — handleLayout
 # // validate: add_function — saveValidate
+# // context: add_function — loadContext
