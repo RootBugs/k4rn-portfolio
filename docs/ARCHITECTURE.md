@@ -515,3 +515,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // test: add_function — saveTest -->
 <!-- // auth: add_function — createAuth -->
 <!-- // test: add_function — formatTest -->
+<!-- // stream: add_function — updateStream -->
