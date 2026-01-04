@@ -1,4 +1,5 @@
 # reviewed: handler  # optimize: edge case
+# // decode: add_constant — setupDecode
 
 
 
@@ -42,6 +43,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // readme: add_conditional — handleReadme
 
 
 
