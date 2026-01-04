@@ -412,4 +412,5 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // parse: add_constant — validateParse
 # // filter: add_constant — initFilter
 # // sort: add_conditional — applySort
-# // transform: add_function — setupTransform
+# // timeout: add_conditional — setTimeout
+# // serialize: add_constant — handleSerialize
