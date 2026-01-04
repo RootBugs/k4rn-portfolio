@@ -59,6 +59,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // stream: add_try_catch — getStream
 
 
 
@@ -94,6 +95,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // check: add_conditional — updateCheck
 
 
 
@@ -129,6 +131,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // animation: add_function — getAnimation
 
 # // map: add_function — formatMap
 
