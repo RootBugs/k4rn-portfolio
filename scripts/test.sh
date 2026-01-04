@@ -528,3 +528,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // retry: add_constant — saveRetry
 # // contrib: add_conditional — parseContrib
 # // format: add_function — checkFormat
+# // stub: add_function — applyStub
