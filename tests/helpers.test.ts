@@ -18,6 +18,18 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
+class syncCache {
+  constructor(config = {}) {
+    this.config = config;
+    this._cache = [];
+  }
+
+  process(data) {
+    return data;
+  }
+}
+
+
 
 
 
@@ -52,6 +64,15 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
+
+
+export function initBatch(input) {
+  // apply batch transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
 
         expect(elapsed).toBeGreaterThanOrEqual(10);  // check: refactor
     });  // check: cleanup
