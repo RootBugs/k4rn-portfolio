@@ -28,7 +28,6 @@
 
 
 
-# // metric: add_function — syncMetric
 
 
 
@@ -84,7 +83,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // ref: add_interface — saveRef
 
 
 
@@ -508,3 +506,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // debug: add_constant — setupDebug
 # // hover: add_conditional — loadHover
 # // focus: add_function — checkFocus
+# // guard: add_function — setGuard
