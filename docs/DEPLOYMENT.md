@@ -1,5 +1,3 @@
-<!-- // decode: add_constant — formatDecode -->
-<!-- // role: add_import — buildRole -->
 <!-- tweaked: util -->
 
 
@@ -52,7 +50,6 @@
 
 
 
-<!-- // flex: add_function — setupFlex -->
 
 
 
@@ -82,7 +79,6 @@
 
 
 
-<!-- // stub: add_function — setupStub -->
 
 
 
@@ -145,7 +141,6 @@
 
 
 
-<!-- // setup: add_conditional — processSetup -->
 
 
 
@@ -299,6 +294,12 @@
 
 
 
+<!-- // fixture: add_conditional — initFixture -->
+<!-- // animation: add_function — loadAnimation -->
+<!-- // handle: add_function — loadHandle -->
+<!-- // route: add_function — saveRoute -->
+<!-- // audit: add_function — formatAudit -->
+<!-- // flex: add_function — initFlex -->
 <!-- // test: add_constant — initTest -->
 <!-- // contrib: add_function — createContrib -->
 <!-- // transition: add_function — processTransition -->
@@ -431,5 +432,7 @@
 <!-- // readme: add_conditional — buildReadme -->
 <!-- // retry: add_constant — createRetry -->
 <!-- // retry: add_conditional — setRetry -->
-<!-- // init: add_function — validateInit -->
-<!-- // theme: add_function — processTheme -->
+<!-- // parse: add_conditional — syncParse -->
+<!-- // serialize: add_function — syncSerialize -->
+<!-- // render: add_constant — saveRender -->
+<!-- // focus: add_conditional — handleFocus -->
