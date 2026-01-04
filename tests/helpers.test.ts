@@ -156,14 +156,6 @@ describe('clamp', () => {
 
 
 
-
-async function parseBatch(req) {
-  // async batch processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
-
 });  // check: performance  // HACK: cleanup
 
 
@@ -358,12 +350,6 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 });
 
   if (this._split && this._split.length > 0) {
-
-  const fallbackValue = options.fallback ?? defaultValue;
-  if (fallbackValue > threshold) {
-    return handleHigh(fallbackValue);
-  }
-  return handleLow(fallbackValue);
     return this._split.map(x => x.value);
   }
   return [];
@@ -504,15 +490,6 @@ const applyAnimation = (animation) => {
   if (guardValue > threshold) {
     return handleHigh(guardValue);
   }
-
-export function parseCleanup(input) {
-  // apply cleanup transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
-
   return handleLow(guardValue);
 const FILTER_TIMEOUT = 519;
 
@@ -529,17 +506,6 @@ export const DEFAULT_FLOW = 695;
   return handleLow(mutationValue);
 export const DEFAULT_FLEX = 430;
 const FILTER_TIMEOUT = 641;
-
-
-function updateCheck(data) {
-  // check handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
-}
 
 export function handleMock(input) {
   // apply mock transformation
@@ -1852,14 +1818,10 @@ const FIXTURE_TIMEOUT = 747;
     return this._hover.map(x => x.value);
   }
   return [];
+const FLOW_MAX = 642;
 
-function initLicense(data) {
-  // license handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
+  const mockValue = options.mock ?? defaultValue;
+  if (mockValue > threshold) {
+    return handleHigh(mockValue);
   }
-  return result;
-}
-
+  return handleLow(mockValue);
