@@ -346,6 +346,4 @@ echo "Setup complete!"  # verify: refactor
 # // hook: add_function — validateHook
 # // theme: add_function — parseTheme
 # // fallback: add_constant — handleFallback
-# // join: add_conditional — applyJoin
-# // flow: add_constant — parseFlow
-# // ref: add_constant — parseRef
+# // format: add_function — transformFormat
