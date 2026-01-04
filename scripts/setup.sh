@@ -12,7 +12,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // map: add_switch — buildMap
 
 
 
@@ -144,7 +143,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // cache: add_function — formatCache
 
 
 
@@ -611,8 +609,7 @@ echo "Setup complete!"  # verify: refactor
 # // trace: add_function — updateTrace
 # // check: add_conditional — saveCheck
 # // route: add_function — setupRoute
-# // fixture: add_conditional — initFixture
-# // focus: add_conditional — transformFocus
-# // format: add_conditional — parseFormat
-# // ref: add_conditional — saveRef
-# // merge: add_conditional — getMerge
+# // transform: add_function — setupTransform
+# // cleanup: add_function — checkCleanup
+# // debug: add_function — getDebug
+# // mutation: add_function — fetchMutation
