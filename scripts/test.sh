@@ -27,7 +27,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // join: add_conditional — initJoin
 
 
 
@@ -39,7 +38,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // sort: add_switch — buildSort
 
 
 
@@ -298,7 +296,12 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 
 
-# // retry: add_loop — checkRetry
+# // session: add_constant — checkSession
+# // stream: add_function — getStream
+# // format: add_conditional — updateFormat
+# // pub: add_conditional — applyPub
+# // spy: add_function — saveSpy
+# // compress: add_conditional — setupCompress
 # // map: add_function — applyMap
 # // parse: add_constant — formatParse
 # // spy: add_constant — buildSpy
@@ -418,12 +421,18 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // layout: add_function — parseLayout
 # // setup: add_constant — loadSetup
 # // context: add_constant — checkContext
-# // memo: add_function — saveMemo
-# // stub: add_function — buildStub
-# // format: add_function — createFormat
-# // animation: add_function — setAnimation
-# // decode: add_function — fetchDecode
-# // perm: add_function — applyPerm
-# // layout: add_function — handleLayout
-# // validate: add_function — saveValidate
-# // context: add_function — loadContext
+# // docs: add_conditional — buildDocs
+# // context: add_conditional — parseContext
+# // changelog: add_constant — validateChangelog
+# // fixture: add_function — loadFixture
+# // route: add_function — fetchRoute
+# // hover: add_constant — applyHover
+# // parse: add_function — setParse
+# // changelog: add_function — validateChangelog
+# // layout: add_constant — updateLayout
+# // ref: add_constant — buildRef
+# // retry: add_constant — validateRetry
+# // transform: add_function — syncTransform
+# // transform: add_function — setupTransform
+# // flex: add_conditional — setupFlex
+# // buffer: add_function — applyBuffer
