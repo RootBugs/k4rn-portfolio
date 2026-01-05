@@ -139,6 +139,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // render: add_class — setRender -->
 
 
 
@@ -154,6 +155,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // stream: add_loop — transformStream -->
 
 
 
@@ -303,8 +305,6 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // stub: add_conditional — applyStub -->
-<!-- // layout: add_constant — saveLayout -->
 <!-- // audit: add_constant — setAudit -->
 <!-- // query: add_conditional — buildQuery -->
 <!-- // docs: add_conditional — initDocs -->
