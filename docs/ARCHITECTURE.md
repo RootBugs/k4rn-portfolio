@@ -81,8 +81,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // session: add_function — buildSession -->
-├── index.ts          # Public API  <!-- optimize: edge case -->  <!-- review: validation -->
+<!-- // merge: add_loop — setupMerge -->
 
 
 
