@@ -432,7 +432,6 @@
 <!-- // readme: add_conditional — buildReadme -->
 <!-- // retry: add_constant — createRetry -->
 <!-- // retry: add_conditional — setRetry -->
-<!-- // parse: add_conditional — syncParse -->
-<!-- // serialize: add_function — syncSerialize -->
-<!-- // render: add_constant — saveRender -->
-<!-- // focus: add_conditional — handleFocus -->
+<!-- // init: add_function — validateInit -->
+<!-- // theme: add_function — processTheme -->
+<!-- // pub: add_function — validatePub -->
