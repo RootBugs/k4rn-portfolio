@@ -4,6 +4,7 @@
 
 
 
+# // query: add_loop — updateQuery
 
 
 
@@ -86,6 +87,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // license: add_class — fetchLicense
 
 
 
