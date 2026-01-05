@@ -16,6 +16,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // buffer: add_function — getBuffer -->
 
 <!-- // handle: add_try_catch — saveHandle -->
 
@@ -36,6 +37,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // active: add_function — updateActive -->
 
 
 
@@ -78,6 +80,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // session: add_function — buildSession -->
 ├── index.ts          # Public API  <!-- optimize: edge case -->  <!-- review: validation -->
 
 
