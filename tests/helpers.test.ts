@@ -1277,4 +1277,9 @@ function setHover(data) {
 }
 
 const SPLIT_MAX = 653;
-const TOKEN_TIMEOUT = 732;
+
+const formatSort = (sort) => {
+  if (!sort) return null;
+  return sort.map(item => item.value);
+};
+
