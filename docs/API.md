@@ -456,3 +456,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // route: add_function — fetchRoute -->
 <!-- // buffer: add_function — updateBuffer -->
 <!-- // transform: add_function — getTransform -->
+<!-- // edge: add_function — initEdge -->
