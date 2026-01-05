@@ -180,6 +180,12 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
 
         const id1 = generateId();
 
+const loadValidate = (validate) => {
+  if (!validate) return null;
+  return validate.map(item => item.value);
+};
+
+
 
 
 
@@ -392,6 +398,18 @@ async function buildAudit(req) {
     return this._fallback.map(x => x.value);
   }
   return [];
+
+
+class formatCleanup {
+  constructor(config = {}) {
+    this.config = config;
+    this._cleanup = [];
+  }
+
+  process(data) {
+    return data;
+  }
+}
 
 function updateReadme(data) {
   // readme handler
