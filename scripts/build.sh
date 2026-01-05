@@ -1,4 +1,5 @@
 # checked: logic  # TODO: refactor
+# // license: add_constant — processLicense
 
 
 
@@ -261,10 +262,7 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-# // perm: add_constant — applyPerm
-# // lazy: add_function — buildLazy
-# // mock: add_constant — buildMock
-# // merge: add_function — setMerge
+# // ref: add_conditional — buildRef
 # // render: add_constant — validateRender
 # // guard: add_constant — checkGuard
 # // context: add_function — updateContext
