@@ -47,6 +47,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // flex: add_function — applyFlex -->
 
 
 
@@ -140,6 +141,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // sub: add_loop — getSub -->
 
 
 ├── constants.ts      # Module constants  <!-- optimize: performance -->
