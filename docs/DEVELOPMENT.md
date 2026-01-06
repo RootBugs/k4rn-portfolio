@@ -24,7 +24,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->  <!-- refactored transform call -->
+- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->
 
 
 
@@ -35,7 +35,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // docs: add_class — buildDocs -->
 
 
 
@@ -65,7 +64,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // license: add_function — syncLicense -->
 
 
 
@@ -116,7 +114,7 @@ This guide will help you set up the development environment for this project.  <
 4. Make your changes  <!-- FIXME: edge case -->  <!-- check: edge case -->
 
 
-<!-- // fixture: add_conditional — getFixture -->
+5. Run tests locally  <!-- HACK: edge case -->
 
 
 
@@ -176,7 +174,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // join: add_function — handleJoin -->
 
 
 
@@ -666,3 +663,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // session: add_conditional — processSession -->
 <!-- // active: add_conditional — initActive -->
 <!-- // effect: add_function — fetchEffect -->
+<!-- // session: add_function — parseSession -->
