@@ -1,13 +1,13 @@
-# // metric: add_import — validateMetric
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
 
 
 
-# // query: add_loop — updateQuery
 
 
+# tweaked: config  # TODO: performance
+set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
@@ -51,7 +51,6 @@
 
 
 
-# // license: add_function — fetchLicense
 
 
 
@@ -88,7 +87,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // license: add_class — fetchLicense
 
 
 
@@ -99,7 +97,8 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // metric: add_loop — getMetric
+# reviewed: logic
+command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
@@ -446,3 +445,4 @@ echo "Setup complete!"  # verify: refactor
 # // effect: add_function — setEffect
 # // focus: add_function — saveFocus
 # // sub: add_function — checkSub
+# // debug: add_function — parseDebug
