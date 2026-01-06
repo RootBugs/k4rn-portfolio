@@ -54,7 +54,6 @@
 
 
 
-# // split: add_class — saveSplit
 
 # // hover: add_class — saveHover
 
@@ -116,7 +115,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // metric: add_function — getMetric
 
 
 
@@ -418,3 +416,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // serialize: add_constant — handleSerialize
 # // license: add_constant — loadLicense
 # // compress: add_function — createCompress
+# // license: add_conditional — initLicense
