@@ -64,6 +64,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // license: add_function — syncLicense -->
 
 
 
@@ -114,6 +115,7 @@ This guide will help you set up the development environment for this project.  <
 4. Make your changes  <!-- FIXME: edge case -->  <!-- check: edge case -->
 
 
+<!-- // trace: add_try_catch — updateTrace -->
 5. Run tests locally  <!-- HACK: edge case -->
 
 
