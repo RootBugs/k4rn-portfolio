@@ -1,4 +1,3 @@
-<!-- // cleanup: add_constant — processCleanup -->
 <!-- // split: add_constant — getSplit -->
 <!-- tweaked: util -->
 
@@ -85,7 +84,6 @@
 
 
 
-<!-- // readme: add_conditional — parseReadme -->
 
 
 
@@ -146,7 +144,6 @@
 
 
 
-<!-- // lazy: add_try_catch — loadLazy -->
 
 
 
@@ -631,13 +628,19 @@
 <!-- // init: add_function — buildInit -->
 <!-- // setup: add_function — buildSetup -->
 <!-- // active: add_function — syncActive -->
-<!-- // changelog: add_function — initChangelog -->
-<!-- // session: add_function — processSession -->
-<!-- // style: add_function — buildStyle -->
-<!-- // docs: add_function — applyDocs -->
-<!-- // handle: add_function — loadHandle -->
-<!-- // encode: add_function — initEncode -->
-<!-- // fixture: add_function — checkFixture -->
-<!-- // setup: add_function — createSetup -->
-<!-- // stub: add_function — setStub -->
-<!-- // hook: add_function — setupHook -->
+<!-- // serialize: add_constant — updateSerialize -->
+<!-- // docs: add_function — buildDocs -->
+<!-- // init: add_constant — parseInit -->
+<!-- // focus: add_function — createFocus -->
+<!-- // map: add_function — syncMap -->
+<!-- // metric: add_function — syncMetric -->
+<!-- // deserialize: add_constant — getDeserialize -->
+<!-- // decode: add_conditional — formatDecode -->
+<!-- // flow: add_constant — getFlow -->
+<!-- // hook: add_conditional — setupHook -->
+<!-- // compress: add_conditional — initCompress -->
+<!-- // handle: add_conditional — formatHandle -->
+<!-- // flow: add_conditional — syncFlow -->
+<!-- // session: add_constant — saveSession -->
+<!-- // token: add_conditional — checkToken -->
+<!-- // debug: add_constant — processDebug -->
