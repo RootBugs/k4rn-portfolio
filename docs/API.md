@@ -350,3 +350,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // sub: add_function — createSub -->
 <!-- // active: add_function — setupActive -->
 <!-- // batch: add_function — processBatch -->
+<!-- // active: add_function — fetchActive -->
