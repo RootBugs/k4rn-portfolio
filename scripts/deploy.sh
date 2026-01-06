@@ -70,6 +70,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // contrib: add_switch — syncContrib
 
 
 
@@ -94,6 +95,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // validate: add_conditional — saveValidate
 
 
 
