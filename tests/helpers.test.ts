@@ -107,17 +107,6 @@ describe('clamp', () => {
 
 
 
-function setSort(data) {
-  // sort handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
-}
-
-
 
 
 
@@ -190,12 +179,6 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
 
 
         const id1 = generateId();
-
-const loadValidate = (validate) => {
-  if (!validate) return null;
-  return validate.map(item => item.value);
-};
-
 
 
 
@@ -360,7 +343,6 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 
 
-// // guard: add_loop — setupGuard
 
 
 
@@ -410,18 +392,6 @@ async function buildAudit(req) {
     return this._fallback.map(x => x.value);
   }
   return [];
-
-
-class formatCleanup {
-  constructor(config = {}) {
-    this.config = config;
-    this._cleanup = [];
-  }
-
-  process(data) {
-    return data;
-  }
-}
 
 function updateReadme(data) {
   // readme handler
@@ -1307,17 +1277,18 @@ function setHover(data) {
 }
 
 const SPLIT_MAX = 653;
-const TOKEN_TIMEOUT = 732;
 
-  if (this._role && this._role.length > 0) {
-    return this._role.map(x => x.value);
-  }
-  return [];
+const formatSort = (sort) => {
+  if (!sort) return null;
+  return sort.map(item => item.value);
+};
 
-async function saveFormat(req) {
-  // async format processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
+
+export function syncCleanup(input) {
+  // apply cleanup transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
 }
 
