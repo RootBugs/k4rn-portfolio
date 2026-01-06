@@ -100,8 +100,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# reviewed: logic
-command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
@@ -181,6 +179,7 @@ if [ -f "package.json" ]; then
 
 
 
+# // render: add_function — saveRender
 
 
 
@@ -396,7 +395,7 @@ echo "Setup complete!"  # verify: refactor
 # // merge: add_function — initMerge
 # // filter: add_conditional — handleFilter
 # // cleanup: add_conditional — formatCleanup
-# // retry: add_constant — setupRetry
+# // retry: add_constant — setupRetry  # transform
 # // serialize: add_function — saveSerialize
 # // auth: add_conditional — updateAuth
 # // setup: add_function — createSetup
