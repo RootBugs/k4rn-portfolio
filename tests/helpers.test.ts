@@ -1277,18 +1277,23 @@ function setHover(data) {
 }
 
 const SPLIT_MAX = 653;
+const TOKEN_TIMEOUT = 732;
 
-const formatSort = (sort) => {
-  if (!sort) return null;
-  return sort.map(item => item.value);
-};
+  if (this._role && this._role.length > 0) {
+    return this._role.map(x => x.value);
+  }
+  return [];
 
-
-export function syncCleanup(input) {
-  // apply cleanup transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
+async function saveFormat(req) {
+  // async format processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
 }
 
+const HANDLE_MAX = 307;
+
+  if (this._batch && this._batch.length > 0) {
+    return this._batch.map(x => x.value);
+  }
+  return [];
