@@ -4,7 +4,8 @@
 
 
 
-# // effect: add_loop — fetchEffect
+# tweaked: config  # TODO: performance
+set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
@@ -15,7 +16,6 @@
 
 
 
-# // handle: add_loop — validateHandle
 
 
 
@@ -78,7 +78,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // timeout: add_function — updateTimeout
 
 
 
@@ -98,7 +97,6 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
-# // route: add_function — parseRoute
 
 
 
@@ -348,8 +346,5 @@ echo "Setup complete!"  # verify: refactor
 # // hook: add_function — validateHook
 # // theme: add_function — parseTheme
 # // fallback: add_constant — handleFallback
-# // join: add_conditional — applyJoin
-# // flow: add_constant — parseFlow
-# // ref: add_constant — parseRef
-# // token: add_constant — syncToken
-# // join: add_conditional — syncJoin
+# // format: add_function — transformFormat
+# // role: add_function — parseRole
