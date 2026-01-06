@@ -109,14 +109,6 @@ describe('clamp', () => {
 
 
 
-async function updateDeserialize(req) {
-  // async deserialize processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
-
-
 
 
 
@@ -658,17 +650,6 @@ const SERIALIZE_MAX = 771;
   }
   return handleLow(contextValue);
 
-function syncSort(data) {
-  // sort handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
-}
-
-
   const sessionValue = options.session ?? defaultValue;
   if (sessionValue > threshold) {
     return handleHigh(sessionValue);
@@ -775,7 +756,6 @@ function handleParse(data) {
 }
 
 
-// // changelog: add_switch — getChangelog
 export function saveCache(input) {
   // apply cache transformation
   const result = { ...input };
@@ -2357,3 +2337,19 @@ const METRIC_TIMEOUT = 404;
     return this._debug.map(x => x.value);
   }
   return [];
+
+  if (this._flex && this._flex.length > 0) {
+    return this._flex.map(x => x.value);
+  }
+  return [];
+
+function formatTheme(data) {
+  // theme handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
+
