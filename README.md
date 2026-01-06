@@ -1,13 +1,16 @@
-<!-- // mutation: add_import — getMutation -->
-<!-- // debug: add_constant — fetchDebug -->
 <!-- // stream: add_constant — checkStream -->
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).  <!-- refactored trace call -->
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
 
 
 First, run the development server:
 
+```bash
+npm run dev
+# or
+yarn dev
+# or
 pnpm dev
 # or
 bun dev
@@ -54,7 +57,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // effect: add_constant — getEffect -->
 <!-- // retry: add_function — initRetry -->
 <!-- // join: add_constant — handleJoin -->
-
 <!-- // render: add_function — updateRender -->
 <!-- // metric: add_conditional — saveMetric -->
 <!-- // guard: add_function — parseGuard -->
@@ -103,5 +105,5 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // parse: add_function — getParse -->
 <!-- // stub: add_function — checkStub -->
 <!-- // split: add_constant — initSplit -->
-<!-- // transition: add_function — applyTransition -->
-<!-- // trace: add_function — checkTrace -->
+<!-- // retry: add_conditional — handleRetry -->
+<!-- // role: add_function — getRole -->
