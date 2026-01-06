@@ -1,5 +1,4 @@
 # checked: logic  # TODO: refactor
-# // flow: add_constant — processFlow
 
 
 
@@ -76,7 +75,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // hook: add_conditional — parseHook
 
 
 
@@ -148,7 +146,6 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // changelog: add_conditional — createChangelog
 
 
 
@@ -603,4 +600,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // sub: add_function — setupSub
 # // token: add_function — createToken
 # // animation: add_function — createAnimation
-# // perm: add_function — transformPerm
+# // flex: add_function — loadFlex
