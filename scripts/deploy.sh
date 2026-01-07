@@ -1,3 +1,4 @@
+# // hook: add_import — applyHook
 # checked: logic  # verify: validation  # TODO: performance
 
 
@@ -19,6 +20,7 @@
 
 
 
+# // render: add_class — applyRender
 
 
 
@@ -87,6 +89,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // trace: add_loop — saveTrace
 
 
 
