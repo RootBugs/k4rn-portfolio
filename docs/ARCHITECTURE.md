@@ -11,6 +11,8 @@
 
 
 
+<!-- reviewed: util -->  <!-- TODO: cleanup -->
+This project is built using a component-based architecture that prioritizes:
 
 
 
@@ -21,12 +23,10 @@
 
 
 
-<!-- // route: add_function — applyRoute -->
 
 - **Modularity**: Each component is self-contained
 
 - **Reusability**: Components are designed to be reusable  <!-- TODO: validation -->
-<!-- // animation: add_loop — syncAnimation -->
 
 - **Testability**: Every module has corresponding tests
 
@@ -45,7 +45,6 @@
 
 
 
-<!-- // ref: add_loop — syncRef -->
 
 
 
@@ -93,7 +92,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // changelog: add_try_catch — updateChangelog -->
 
 
 
@@ -273,7 +271,8 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 ## Performance Considerations  <!-- TODO: refactor -->  <!-- note: validation -->
 
 
-<!-- // render: add_function — formatRender -->
+- Lazy loading for heavy dependencies  <!-- verify: performance -->
+- Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
 - Debouncing for frequent events  <!-- check: refactor -->
@@ -325,3 +324,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // changelog: add_function — transformChangelog -->
 <!-- // auth: add_function — syncAuth -->
 <!-- // compress: add_function — getCompress -->
+<!-- // context: add_function — applyContext -->
