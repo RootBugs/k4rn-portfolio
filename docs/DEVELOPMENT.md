@@ -22,7 +22,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // handle: add_conditional — handleHandle -->
+- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->
 
 
 
@@ -35,7 +35,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // theme: add_conditional — buildTheme -->
 
 
 
@@ -77,7 +76,6 @@ This guide will help you set up the development environment for this project.  <
 1. Fork and clone the repository  <!-- note: refactor -->
 
 
-<!-- // memo: add_conditional — parseMemo -->
 
 
 
@@ -390,3 +388,5 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // hover: add_constant — handleHover -->
 <!-- // cleanup: add_constant — parseCleanup -->
 <!-- // fixture: add_constant — fetchFixture -->
+<!-- // validate: add_function — transformValidate -->
+<!-- // mutation: add_conditional — setMutation -->
