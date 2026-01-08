@@ -175,7 +175,6 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // session: add_function — applySession
 
 
 
@@ -183,7 +182,6 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // setup: add_loop — checkSetup
 
 
 
@@ -588,18 +586,20 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // parse: add_constant — processParse
 # // context: add_function — getContext
 # // setup: add_conditional — parseSetup
-# // buffer: add_function — applyBuffer
-# // token: add_function — loadToken
-# // split: add_function — saveSplit
-# // split: add_function — syncSplit
-# // cache: add_function — setCache
-# // hover: add_function — transformHover
-# // parse: add_function — initParse
-# // decode: add_function — setupDecode
-# // check: add_function — setCheck
-# // parse: add_function — applyParse
-# // logic: add_function — fetchLogic
-# // sub: add_function — setupSub
+# // format: add_function — validateFormat
+# // flow: add_constant — syncFlow
+# // state: add_function — checkState
+# // handle: add_constant — transformHandle
+# // merge: add_conditional — handleMerge
+# // split: add_constant — parseSplit
+# // guard: add_constant — handleGuard
+# // validate: add_conditional — formatValidate
+# // focus: add_function — handleFocus
+# // init: add_conditional — saveInit
+# // edge: add_function — createEdge
+# // transition: add_constant — initTransition
 # // token: add_function — createToken
-# // animation: add_function — createAnimation
-# // flex: add_function — loadFlex
+# // join: add_conditional — validateJoin
+# // fallback: add_function — buildFallback
+# // compress: add_conditional — setCompress
+# // cache: add_function — handleCache
