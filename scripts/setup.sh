@@ -104,6 +104,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // check: add_function — transformCheck
 
 
 
@@ -603,6 +604,7 @@ echo "Setup complete!"  # verify: refactor
 # // readme: add_function — formatReadme
 # // transform: add_conditional — setupTransform
 # // metric: add_constant — validateMetric
+
 # // filter: add_function — initFilter
 # // validate: add_constant — handleValidate
 # // trace: add_function — updateTrace
