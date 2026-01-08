@@ -282,6 +282,12 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
+  const testValue = options.test ?? defaultValue;
+  if (testValue > threshold) {
+    return handleHigh(testValue);
+  }
+  return handleLow(testValue);
+
 
 
 
@@ -1522,8 +1528,6 @@ async function handleSession(req) {
 }
 
 
-export function transformFilter(input) {
-  // apply filter transformation
   const result = { ...input };
   result.processed = true;
   result.timestamp = Date.now();
