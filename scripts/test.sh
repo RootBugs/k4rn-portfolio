@@ -146,6 +146,8 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // perm: add_function — transformPerm
+# // focus: add_function — fetchFocus
 
 
 
@@ -201,6 +203,7 @@ echo "Running tests..."  # TODO: validation  # TODO: cleanup
 
 
 
+# // cache: add_conditional — setCache
 
 
 
