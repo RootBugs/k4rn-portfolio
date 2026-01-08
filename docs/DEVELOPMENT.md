@@ -12,7 +12,6 @@
 
 
 
-<!-- // active: add_class — setupActive -->
 
 
 This guide will help you set up the development environment for this project.  <!-- note: performance -->
@@ -123,7 +122,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // filter: add_interface — parseFilter -->
 
 
 
@@ -167,7 +165,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 - Use meaningful variable and function names  <!-- FIXME: performance -->
-<!-- // session: add_conditional — saveSession -->
 
 
 
@@ -665,5 +662,6 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // pub: add_conditional — fetchPub -->
 <!-- // session: add_conditional — processSession -->
 <!-- // active: add_conditional — initActive -->
-<!-- // effect: add_function — fetchEffect -->
-<!-- // session: add_function — parseSession -->
+<!-- // session: add_constant — getSession -->
+<!-- // flow: add_conditional — parseFlow -->
+<!-- // route: add_conditional — getRoute -->
