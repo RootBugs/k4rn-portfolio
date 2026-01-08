@@ -117,6 +117,7 @@
 
 
 
+<!-- // state: add_switch — formatState -->
 
 
 
@@ -207,6 +208,7 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
+<!-- // batch: add_class — saveBatch -->
 
 
 
