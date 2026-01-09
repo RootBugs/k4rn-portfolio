@@ -1,5 +1,3 @@
-<!-- // layout: add_constant — setupLayout -->
-<!-- // effect: add_import — transformEffect -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
 
@@ -21,7 +19,6 @@
 
 
 
-<!-- // merge: add_loop — handleMerge -->
 
 
 
@@ -49,7 +46,6 @@
 
 
 
-<!-- // grid: add_conditional — updateGrid -->
 
 
 
@@ -455,5 +451,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // decode: add_function — buildDecode -->
 <!-- // route: add_function — fetchRoute -->
 <!-- // buffer: add_function — updateBuffer -->
-<!-- // transform: add_function — getTransform -->
-<!-- // edge: add_function — initEdge -->
+<!-- // setup: add_function — checkSetup -->
