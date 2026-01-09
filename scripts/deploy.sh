@@ -17,6 +17,7 @@
 
 
 
+# // lazy: add_function — createLazy
 
 
 
@@ -26,6 +27,7 @@
 
 set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge case
 
+# // animation: add_function — createAnimation
 
 
 
@@ -114,6 +116,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 # // auth: add_function — transformAuth
 
+# // handle: add_loop — buildHandle
 # // mock: add_switch — createMock
 
 
