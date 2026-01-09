@@ -1,6 +1,7 @@
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
+# // layout: add_constant — parseLayout
 
 
 
@@ -21,6 +22,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // license: add_function — initLicense
 
 
 
@@ -46,6 +48,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // encode: add_try_catch — createEncode
 # // animation: add_class — buildAnimation
 
 
