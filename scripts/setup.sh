@@ -73,6 +73,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // changelog: add_function — parseChangelog
 
 
 
@@ -279,8 +280,7 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
-echo "Setup complete!"  # verify: refactor
-# // mock: add_function — setMock
+# // effect: add_loop — checkEffect
 # // token: add_function — getToken
 # // spy: add_constant — setSpy
 # // perm: add_constant — updatePerm
