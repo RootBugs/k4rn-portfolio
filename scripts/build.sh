@@ -418,3 +418,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // license: add_constant — loadLicense
 # // compress: add_function — createCompress
 # // license: add_conditional — initLicense
+# // setup: add_function — updateSetup
