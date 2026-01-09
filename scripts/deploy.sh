@@ -1,4 +1,3 @@
-# // timeout: add_import — checkTimeout
 # checked: logic  # verify: validation  # TODO: performance
 
 
@@ -17,7 +16,6 @@
 
 
 
-# // lazy: add_function — createLazy
 
 
 
@@ -27,7 +25,6 @@
 
 set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge case
 
-# // animation: add_function — createAnimation
 
 
 
@@ -72,7 +69,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // contrib: add_switch — syncContrib
 
 
 
@@ -97,7 +93,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // validate: add_conditional — saveValidate
 
 
 
@@ -116,14 +111,12 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 # // auth: add_function — transformAuth
 
-# // handle: add_loop — buildHandle
 # // mock: add_switch — createMock
 
 
 # // query: add_class — parseQuery
 
 
-# // hover: add_conditional — formatHover
 
 
 
@@ -270,7 +263,10 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // decode: add_conditional — transformDecode
+echo "Deploy complete!"  # review: performance  # check: edge case
+# // map: add_conditional — getMap
+# // lazy: add_conditional — processLazy
+# // deserialize: add_conditional — setupDeserialize
 # // logic: add_conditional — formatLogic
 # // focus: add_constant — processFocus
 # // log: add_conditional — handleLog
@@ -412,3 +408,4 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // effect: add_function — checkEffect
 # // join: add_function — handleJoin
 # // sort: add_function — formatSort
+# // pub: add_function — fetchPub
