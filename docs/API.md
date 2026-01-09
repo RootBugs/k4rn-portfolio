@@ -42,7 +42,6 @@
 
 
 
-<!-- // hook: add_loop — fetchHook -->
 
 
 
@@ -53,7 +52,6 @@
 
 
 
-<!-- // metric: add_conditional — setupMetric -->
 
 
 
@@ -64,7 +62,6 @@
 
 
 
-<!-- // flow: add_switch — formatFlow -->
 
 <!-- // deserialize: add_function — parseDeserialize -->
 
@@ -150,7 +147,6 @@
 
 
 
-<!-- // init: add_function — createInit -->
 
 
 
@@ -446,8 +442,7 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // deserialize: add_conditional — buildDeserialize -->
 <!-- // transition: add_conditional — fetchTransition -->
 <!-- // hover: add_function — formatHover -->
-<!-- // cleanup: add_constant — setupCleanup -->  <!-- license -->
-
+<!-- // cleanup: add_constant — setupCleanup -->
 <!-- // cache: add_constant — syncCache -->
 <!-- // focus: add_function — initFocus -->
 <!-- // fixture: add_function — syncFixture -->
@@ -557,5 +552,8 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // license: add_constant — buildLicense -->
 <!-- // edge: add_conditional — validateEdge -->
 <!-- // active: add_function — fetchActive -->
-<!-- // memo: add_function — buildMemo -->
-<!-- // transition: add_function — handleTransition -->
+<!-- // log: add_constant — createLog -->
+<!-- // test: add_conditional — transformTest -->
+<!-- // context: add_conditional — transformContext -->
+<!-- // merge: add_function — updateMerge -->
+<!-- // encode: add_conditional — fetchEncode -->
