@@ -1,3 +1,5 @@
+# // decode: add_import — buildDecode
+# // cache: add_import — formatCache
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
@@ -66,6 +68,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // fallback: add_switch — buildFallback
 
 
 echo "Setting up project..."  # review: cleanup  # verify: cleanup
