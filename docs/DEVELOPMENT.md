@@ -1,5 +1,3 @@
-<!-- // parse: add_import — checkParse -->
-<!-- // auth: add_import — initAuth -->
 <!-- updated: setup -->
 
 
@@ -14,7 +12,6 @@
 
 
 
-<!-- // merge: add_try_catch — transformMerge -->
 This guide will help you set up the development environment for this project.  <!-- note: performance -->
 
 
@@ -36,7 +33,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // serialize: add_function — checkSerialize -->
 
 
 
@@ -493,3 +489,5 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // stream: add_constant — formatStream -->
 <!-- // state: add_conditional — processState -->
 <!-- // serialize: add_function — processSerialize -->
+<!-- // ref: add_conditional — setRef -->
+<!-- // sort: add_function — createSort -->
