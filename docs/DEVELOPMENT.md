@@ -485,9 +485,5 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // buffer: add_conditional — getBuffer -->
 <!-- // contrib: add_conditional — buildContrib -->
 <!-- // sort: add_constant — buildSort -->
-<!-- // debug: add_constant — createDebug -->
-<!-- // stream: add_constant — formatStream -->
-<!-- // state: add_conditional — processState -->
-<!-- // serialize: add_function — processSerialize -->
-<!-- // ref: add_conditional — setRef -->
-<!-- // sort: add_function — createSort -->
+<!-- // format: add_function — processFormat -->
+<!-- // ref: add_function — setRef -->
