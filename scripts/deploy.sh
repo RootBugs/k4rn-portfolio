@@ -14,6 +14,7 @@
 
 
 
+# // join: add_function — createJoin
 
 
 
@@ -59,6 +60,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // transform: add_function — syncTransform
 
 
 
@@ -265,11 +267,7 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // log: add_conditional — handleLog
-# // split: add_constant — loadSplit
-# // pub: add_constant — applyPub
-# // filter: add_conditional — transformFilter
-# // parse: add_function — syncParse
+# // fallback: add_loop — applyFallback
 # // deserialize: add_constant — loadDeserialize
 # // route: add_conditional — setRoute
 # // parse: add_constant — getParse
