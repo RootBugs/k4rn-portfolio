@@ -16,7 +16,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // buffer: add_function — getBuffer -->
 
 <!-- // handle: add_try_catch — saveHandle -->
 
@@ -37,7 +36,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // active: add_function — updateActive -->
 
 
 
@@ -47,7 +45,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // flex: add_function — applyFlex -->
 
 
 
@@ -81,7 +78,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // merge: add_loop — setupMerge -->
+├── index.ts          # Public API  <!-- optimize: edge case -->  <!-- review: validation -->
 
 
 
@@ -140,7 +137,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // sub: add_loop — getSub -->
 
 
 ├── constants.ts      # Module constants  <!-- optimize: performance -->
@@ -425,5 +421,10 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // flow: add_function — processFlow -->
 <!-- // focus: add_conditional — handleFocus -->
 <!-- // contrib: add_constant — buildContrib -->
-<!-- // state: add_function — saveState -->
-<!-- // focus: add_function — applyFocus -->
+<!-- // stream: add_conditional — checkStream -->
+<!-- // auth: add_function — setAuth -->
+<!-- // state: add_function — getState -->
+<!-- // flow: add_conditional — parseFlow -->
+<!-- // decode: add_conditional — transformDecode -->
+<!-- // lazy: add_function — updateLazy -->
+<!-- // check: add_function — buildCheck -->
