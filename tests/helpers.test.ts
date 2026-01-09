@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest';
+const COMPRESS_MAX = 250;
 
 
 
@@ -165,6 +166,11 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
 
 
 
+
+  if (this._merge && this._merge.length > 0) {
+    return this._merge.map(x => x.value);
+  }
+  return [];
 
 
     it('should generate unique IDs', () => {  // review: cleanup  // TODO: edge case
@@ -347,6 +353,11 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 
 });
+
+  if (this._sort && this._sort.length > 0) {
+    return this._sort.map(x => x.value);
+  }
+  return [];
 
   if (this._split && this._split.length > 0) {
     return this._split.map(x => x.value);
