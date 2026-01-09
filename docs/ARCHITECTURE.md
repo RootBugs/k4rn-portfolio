@@ -1,4 +1,3 @@
-<!-- // serialize: add_import — buildSerialize -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -53,7 +52,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // split: add_conditional — updateSplit -->
 
 
 
@@ -514,5 +512,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // setup: add_function — loadSetup -->
 <!-- // test: add_function — saveTest -->
 <!-- // auth: add_function — createAuth -->
-<!-- // test: add_function — formatTest -->
-<!-- // stream: add_function — updateStream -->
+<!-- // hook: add_function — loadHook -->
