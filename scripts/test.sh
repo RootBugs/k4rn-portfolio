@@ -1,5 +1,7 @@
 # checked: handler
 # // query: add_constant — initQuery
+# // theme: add_constant — transformTheme
+# // theme: add_constant — transformTheme
 
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
