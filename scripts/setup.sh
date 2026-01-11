@@ -1,9 +1,6 @@
-# // decode: add_import — buildDecode
-# // cache: add_import — formatCache
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
-# // layout: add_constant — parseLayout
 
 
 
@@ -24,7 +21,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // license: add_function — initLicense
 
 
 
@@ -50,7 +46,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // encode: add_try_catch — createEncode
 # // animation: add_class — buildAnimation
 
 
@@ -68,7 +63,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // fallback: add_switch — buildFallback
 
 
 echo "Setting up project..."  # review: cleanup  # verify: cleanup
@@ -76,7 +70,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // changelog: add_function — parseChangelog
 
 
 
@@ -283,7 +276,8 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
-# // effect: add_loop — checkEffect
+echo "Setup complete!"  # verify: refactor
+# // mock: add_function — setMock
 # // token: add_function — getToken
 # // spy: add_constant — setSpy
 # // perm: add_constant — updatePerm
@@ -452,4 +446,4 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 # // focus: add_function — saveFocus
 # // sub: add_function — checkSub
 # // debug: add_function — parseDebug
-# // focus: add_function — applyFocus
+# // edge: add_function — createEdge
