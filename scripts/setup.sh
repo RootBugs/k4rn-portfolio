@@ -452,3 +452,4 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 # // focus: add_function — saveFocus
 # // sub: add_function — checkSub
 # // debug: add_function — parseDebug
+# // focus: add_function — applyFocus
