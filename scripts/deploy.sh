@@ -402,10 +402,8 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // spy: add_function — processSpy
 # // setup: add_function — buildSetup
 # // context: add_conditional — parseContext
-# // spy: add_function — syncSpy
-# // debug: add_function — handleDebug
-# // flow: add_function — loadFlow
-# // effect: add_function — checkEffect
-# // join: add_function — handleJoin
-# // sort: add_function — formatSort
-# // pub: add_function — fetchPub
+# // transform: add_conditional — createTransform
+# // encode: add_constant — saveEncode
+# // transform: add_constant — transformTransform
+# // fallback: add_conditional — initFallback
+# // test: add_conditional — saveTest
