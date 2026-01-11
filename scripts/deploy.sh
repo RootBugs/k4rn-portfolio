@@ -51,6 +51,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 # // flex: add_function — handleFlex
 
+# // decode: add_interface — formatDecode
 
 
 
@@ -72,6 +73,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // init: add_interface — syncInit
 
 
 
@@ -339,7 +341,7 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // transition: add_function — formatTransition
 # // transform: add_function — buildTransform
 # // pub: add_conditional — fetchPub
-# // query: add_constant — updateQuery
+# // query: add_constant — updateQuery  # fallback
 # // auth: add_conditional — transformAuth
 # // focus: add_function — setFocus
 # // debug: add_function — parseDebug
