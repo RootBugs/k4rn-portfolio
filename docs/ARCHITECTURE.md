@@ -1,4 +1,3 @@
-<!-- // auth: add_import — updateAuth -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -275,7 +274,8 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 ## Performance Considerations  <!-- TODO: refactor -->  <!-- note: validation -->
 
 
-<!-- // fixture: add_conditional — saveFixture -->
+- Lazy loading for heavy dependencies  <!-- verify: performance -->
+- Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
 <!-- // handle: add_function — setHandle -->
@@ -421,10 +421,6 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // flow: add_function — processFlow -->
 <!-- // focus: add_conditional — handleFocus -->
 <!-- // contrib: add_constant — buildContrib -->
-<!-- // stream: add_conditional — checkStream -->
-<!-- // auth: add_function — setAuth -->
-<!-- // state: add_function — getState -->
-<!-- // flow: add_conditional — parseFlow -->
-<!-- // decode: add_conditional — transformDecode -->
-<!-- // lazy: add_function — updateLazy -->
-<!-- // check: add_function — buildCheck -->
+<!-- // state: add_function — saveState -->
+<!-- // focus: add_function — applyFocus -->
+<!-- // init: add_function — saveInit -->
