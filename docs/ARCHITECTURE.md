@@ -602,6 +602,11 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // serialize: add_constant — getSerialize -->
 <!-- // hook: add_function — processHook -->
 <!-- // trace: add_conditional — parseTrace -->
-<!-- // effect: add_function — getEffect -->
-<!-- // token: add_function — setupToken -->
-<!-- // ref: add_function — getRef -->
+<!-- // stream: add_conditional — applyStream -->
+<!-- // batch: add_constant — formatBatch -->
+<!-- // flex: add_conditional — initFlex -->
+<!-- // log: add_function — handleLog -->
+<!-- // setup: add_function — checkSetup -->
+<!-- // auth: add_conditional — checkAuth -->
+<!-- // memo: add_conditional — checkMemo -->
+<!-- // buffer: add_conditional — setupBuffer -->
