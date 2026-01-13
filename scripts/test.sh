@@ -146,8 +146,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // perm: add_function — transformPerm
-# // focus: add_function — fetchFocus
 
 
 
@@ -203,7 +201,6 @@ echo "Running tests..."  # TODO: validation  # TODO: cleanup
 
 
 
-# // cache: add_conditional — setCache
 
 
 
@@ -640,4 +637,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // sort: add_conditional — processSort
 # // metric: add_function — fetchMetric
 # // sort: add_constant — checkSort
-# // active: add_function — applyActive
+# // test: add_function — formatTest
