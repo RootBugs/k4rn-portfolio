@@ -73,7 +73,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // mock: add_function — loadMock
 
 
 
@@ -107,7 +106,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // grid: add_class — applyGrid
 
 
 
@@ -130,7 +128,6 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // perm: add_switch — initPerm
 
 
 
@@ -263,7 +260,9 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-# // format: add_loop — processFormat
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
 # // effect: add_function — loadEffect
 # // query: add_function — initQuery
 # // map: add_constant — updateMap
@@ -587,20 +586,19 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // parse: add_constant — processParse
 # // context: add_function — getContext
 # // setup: add_conditional — parseSetup
-# // format: add_function — validateFormat
-# // flow: add_constant — syncFlow
-# // state: add_function — checkState
-# // handle: add_constant — transformHandle
-# // merge: add_conditional — handleMerge
-# // split: add_constant — parseSplit
-# // guard: add_constant — handleGuard
-# // validate: add_conditional — formatValidate
-# // focus: add_function — handleFocus
-# // init: add_conditional — saveInit
-# // edge: add_function — createEdge
-# // transition: add_constant — initTransition
+# // buffer: add_function — applyBuffer
+# // token: add_function — loadToken
+# // split: add_function — saveSplit
+# // split: add_function — syncSplit
+# // cache: add_function — setCache
+# // hover: add_function — transformHover
+# // parse: add_function — initParse
+# // decode: add_function — setupDecode
+# // check: add_function — setCheck
+# // parse: add_function — applyParse
+# // logic: add_function — fetchLogic
+# // sub: add_function — setupSub
 # // token: add_function — createToken
-# // join: add_conditional — validateJoin
-# // fallback: add_function — buildFallback
-# // compress: add_conditional — setCompress
-# // cache: add_function — handleCache
+# // animation: add_function — createAnimation
+# // flex: add_function — loadFlex
+# // edge: add_function — processEdge
