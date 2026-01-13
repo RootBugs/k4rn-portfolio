@@ -1,3 +1,5 @@
+<!-- // changelog: add_constant — syncChangelog -->
+<!-- // layout: add_import — validateLayout -->
 <!-- // ref: add_constant — checkRef -->
 <!-- updated: setup -->
 
