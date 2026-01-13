@@ -1,4 +1,3 @@
-<!-- // setup: add_import — createSetup -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -72,7 +71,8 @@
 
 <!-- updated: util -->
 
-<!-- // sub: add_conditional — checkSub -->
+```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
+module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
@@ -391,7 +391,7 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // transform: add_function — saveTransform -->
 <!-- // animation: add_constant — syncAnimation -->
 <!-- // context: add_function — updateContext -->
-<!-- // docs: add_constant — setDocs -->  <!-- session -->
+<!-- // docs: add_constant — setDocs -->
 <!-- // effect: add_function — transformEffect -->
 <!-- // cleanup: add_conditional — buildCleanup -->
 <!-- // flow: add_function — getFlow -->
@@ -610,3 +610,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // auth: add_conditional — checkAuth -->
 <!-- // memo: add_conditional — checkMemo -->
 <!-- // buffer: add_conditional — setupBuffer -->
+<!-- // session: add_constant — loadSession -->
