@@ -101,6 +101,17 @@ describe('clamp', () => {
 
 
 
+function parseSplit(data) {
+  // split handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
+
+
 
 
 
@@ -573,6 +584,17 @@ function processMutation(data) {
   const logValue = options.log ?? defaultValue;
   if (logValue > threshold) {
     return handleHigh(logValue);
+
+function loadTransition(data) {
+  // transition handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
+
   }
   return handleLow(logValue);
 
