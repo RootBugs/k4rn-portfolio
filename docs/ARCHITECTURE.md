@@ -1,3 +1,4 @@
+<!-- // setup: add_import — createSetup -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -71,8 +72,7 @@
 
 <!-- updated: util -->
 
-```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
-module/  <!-- optimize: refactor -->  <!-- note: edge case -->
+<!-- // sub: add_conditional — checkSub -->
 
 
 
@@ -391,7 +391,7 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // transform: add_function — saveTransform -->
 <!-- // animation: add_constant — syncAnimation -->
 <!-- // context: add_function — updateContext -->
-<!-- // docs: add_constant — setDocs -->
+<!-- // docs: add_constant — setDocs -->  <!-- session -->
 <!-- // effect: add_function — transformEffect -->
 <!-- // cleanup: add_conditional — buildCleanup -->
 <!-- // flow: add_function — getFlow -->
