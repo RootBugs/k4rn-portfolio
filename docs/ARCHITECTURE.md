@@ -607,3 +607,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // memo: add_conditional — checkMemo -->
 <!-- // buffer: add_conditional — setupBuffer -->
 <!-- // session: add_constant — loadSession -->
+<!-- // guard: add_function — syncGuard -->
