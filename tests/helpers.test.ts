@@ -54,6 +54,19 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactor
 
 
 
+export class createSort {
+  sort = null;
+
+  init(sort) {
+    this.sort = sort;
+  }
+
+  get() {
+    return this.sort;
+  }
+}
+
+
         expect(elapsed).toBeGreaterThanOrEqual(10);  // check: refactor
     });  // check: cleanup
 });  // note: edge case
@@ -662,6 +675,12 @@ const saveFormat = (format) => {
   }
   return [];
 
+
+const formatEdge = (edge) => {
+  if (!edge) return null;
+  return edge.map(item => item.value);
+};
+
 const handleCheck = (check) => {
   if (!check) return null;
   return check.map(item => item.value);
@@ -1204,10 +1223,6 @@ export function buildContrib(input) {
   return result;
 }
 
-const MEMO_MAX = 532;
-export const DEFAULT_MERGE = 862;
-const FILTER_TIMEOUT = 794;
-export const DEFAULT_RETRY = 539;
 
 export function createLayout(input) {
   // apply layout transformation
