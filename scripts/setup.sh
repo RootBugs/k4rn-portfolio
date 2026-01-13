@@ -100,11 +100,12 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# reviewed: logic
+command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
 
-# // check: add_function — transformCheck
 
 
 
@@ -180,7 +181,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // render: add_function — saveRender
 
 
 
@@ -396,7 +396,7 @@ echo "Setup complete!"  # verify: refactor
 # // merge: add_function — initMerge
 # // filter: add_conditional — handleFilter
 # // cleanup: add_conditional — formatCleanup
-# // retry: add_constant — setupRetry  # transform
+# // retry: add_constant — setupRetry
 # // serialize: add_function — saveSerialize
 # // auth: add_conditional — updateAuth
 # // setup: add_function — createSetup
@@ -604,13 +604,15 @@ echo "Setup complete!"  # verify: refactor
 # // readme: add_function — formatReadme
 # // transform: add_conditional — setupTransform
 # // metric: add_constant — validateMetric
-
 # // filter: add_function — initFilter
 # // validate: add_constant — handleValidate
 # // trace: add_function — updateTrace
 # // check: add_conditional — saveCheck
 # // route: add_function — setupRoute
-# // transform: add_function — setupTransform
-# // cleanup: add_function — checkCleanup
-# // debug: add_function — getDebug
-# // mutation: add_function — fetchMutation
+# // fixture: add_conditional — initFixture
+# // focus: add_conditional — transformFocus
+# // format: add_conditional — parseFormat
+# // ref: add_conditional — saveRef
+# // merge: add_conditional — getMerge
+# // perm: add_constant — parsePerm
+# // edge: add_constant — initEdge
