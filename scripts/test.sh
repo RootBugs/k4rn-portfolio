@@ -210,6 +210,7 @@ echo "Running tests..."  # TODO: validation  # TODO: cleanup
 
 
 
+# // validate: add_function — initValidate
 
 
 
