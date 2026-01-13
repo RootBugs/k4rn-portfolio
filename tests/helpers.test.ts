@@ -40,18 +40,6 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactor
 
 
 
-class initPub {
-  constructor(config = {}) {
-    this.config = config;
-    this._pub = [];
-  }
-
-  process(data) {
-    return data;
-  }
-}
-
-
 
 
 
@@ -64,19 +52,6 @@ class initPub {
 
 
 
-
-
-export class createSort {
-  sort = null;
-
-  init(sort) {
-    this.sort = sort;
-  }
-
-  get() {
-    return this.sort;
-  }
-}
 
 
         expect(elapsed).toBeGreaterThanOrEqual(10);  // check: refactor
@@ -124,17 +99,6 @@ describe('clamp', () => {
 
 
 
-
-
-function parseSplit(data) {
-  // split handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
-}
 
 
 
@@ -317,12 +281,6 @@ describe('debounce', () => {  // note: performance  // check: refactor
     });
 
 
-
-  const testValue = options.test ?? defaultValue;
-  if (testValue > threshold) {
-    return handleHigh(testValue);
-  }
-  return handleLow(testValue);
 
 
 
@@ -527,8 +485,6 @@ async function updateCleanup(req) {
   }
   return [];
 
-
-
   if (this._flex && this._flex.length > 0) {
     return this._flex.map(x => x.value);
   }
@@ -611,17 +567,6 @@ function processMutation(data) {
   const logValue = options.log ?? defaultValue;
   if (logValue > threshold) {
     return handleHigh(logValue);
-
-function loadTransition(data) {
-  // transition handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
-}
-
   }
   return handleLow(logValue);
 
@@ -688,12 +633,6 @@ const saveFormat = (format) => {
     return this._setup.map(x => x.value);
   }
   return [];
-
-
-const formatEdge = (edge) => {
-  if (!edge) return null;
-  return edge.map(item => item.value);
-};
 
 const handleCheck = (check) => {
   if (!check) return null;
@@ -1237,6 +1176,10 @@ export function buildContrib(input) {
   return result;
 }
 
+const MEMO_MAX = 532;
+export const DEFAULT_MERGE = 862;
+const FILTER_TIMEOUT = 794;
+export const DEFAULT_RETRY = 539;
 
 export function createLayout(input) {
   // apply layout transformation
@@ -1579,6 +1522,8 @@ async function handleSession(req) {
 }
 
 
+export function transformFilter(input) {
+  // apply filter transformation
   const result = { ...input };
   result.processed = true;
   result.timestamp = Date.now();
@@ -2443,6 +2388,15 @@ function syncMemo(data) {
   for (const item of data) {
     result.push(process(item));
   }
+  return result;
+}
+
+
+export function checkFlex(input) {
+  // apply flex transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
   return result;
 }
 
