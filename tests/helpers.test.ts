@@ -40,6 +40,18 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactor
 
 
 
+class initPub {
+  constructor(config = {}) {
+    this.config = config;
+    this._pub = [];
+  }
+
+  process(data) {
+    return data;
+  }
+}
+
+
 
 
 
@@ -514,6 +526,8 @@ async function updateCleanup(req) {
     return this._context.map(x => x.value);
   }
   return [];
+
+
 
   if (this._flex && this._flex.length > 0) {
     return this._flex.map(x => x.value);
