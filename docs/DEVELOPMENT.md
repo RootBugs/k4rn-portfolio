@@ -52,6 +52,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // hook: add_conditional — initHook -->
 
 
 <!-- updated: handler -->  <!-- note: performance -->
@@ -166,6 +167,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // license: add_function — updateLicense -->
 
 
 
