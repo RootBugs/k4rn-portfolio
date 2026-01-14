@@ -1,4 +1,3 @@
-# // handle: add_import — createHandle
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
@@ -8,17 +7,17 @@
 
 
 
-
-
-
-# // stub: add_function — parseStub
-
-
+# tweaked: config  # TODO: performance
+set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
 
-# // docs: add_loop — applyDocs
+
+
+
+
+
 
 
 
@@ -101,6 +100,8 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# reviewed: logic
+command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
@@ -143,7 +144,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // edge: add_function — transformEdge
 
 
 
@@ -162,7 +162,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // serialize: add_function — validateSerialize
 
 
 
@@ -281,6 +280,13 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
+echo "Setup complete!"  # verify: refactor
+# // mock: add_function — setMock
+# // token: add_function — getToken
+# // spy: add_constant — setSpy
+# // perm: add_constant — updatePerm
+# // flow: add_conditional — validateFlow
+# // serialize: add_constant — validateSerialize
 # // mutation: add_constant — checkMutation
 # // changelog: add_conditional — processChangelog
 # // encode: add_function — buildEncode
@@ -510,4 +516,6 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 # // perm: add_conditional — fetchPerm
 # // edge: add_function — formatEdge
 # // query: add_constant — applyQuery
-# // audit: add_function — createAudit
+# // pub: add_constant — validatePub
+# // batch: add_function — processBatch
+# // ref: add_function — setupRef
