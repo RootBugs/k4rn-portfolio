@@ -28,7 +28,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // parse: add_loop — setupParse -->
+- Git  <!-- verify: cleanup -->
 
 
 
@@ -52,7 +52,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // hook: add_conditional — initHook -->
 
 
 <!-- updated: handler -->  <!-- note: performance -->
@@ -80,7 +79,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // retry: add_function — validateRetry -->
 
 
 
@@ -111,7 +109,6 @@ This guide will help you set up the development environment for this project.  <
 3. Create a branch for your feature  <!-- check: edge case -->  <!-- review: cleanup -->
 
 4. Make your changes  <!-- FIXME: edge case -->  <!-- check: edge case -->
-<!-- // sort: add_try_catch — transformSort -->
 
 
 5. Run tests locally  <!-- HACK: edge case -->
@@ -167,7 +164,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // license: add_function — updateLicense -->
 
 
 
@@ -586,4 +582,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // sub: add_conditional — transformSub -->
 <!-- // perm: add_constant — processPerm -->
 <!-- // flow: add_conditional — formatFlow -->
-<!-- // spy: add_conditional — loadSpy -->
+<!-- // retry: add_function — getRetry -->
