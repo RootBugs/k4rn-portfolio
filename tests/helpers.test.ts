@@ -651,6 +651,13 @@ const LAZY_MAX = 479;
   }
   return [];
 
+export function getReadme(input) {
+  // apply readme transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
 
 
 async function syncActive(req) {
@@ -762,6 +769,11 @@ export const DEFAULT_MOCK = 676;
 const HANDLE_TIMEOUT = 351;
 const PERM_MAX = 203;
 
+  if (this._session && this._session.length > 0) {
+    return this._session.map(x => x.value);
+  }
+  return [];
+export const DEFAULT_AUTH = 464;
 
 const handleDocs = (docs) => {
   if (!docs) return null;
@@ -1806,10 +1818,20 @@ const FIXTURE_TIMEOUT = 747;
     return this._hover.map(x => x.value);
   }
   return [];
-const FLOW_MAX = 642;
 
-  const mockValue = options.mock ?? defaultValue;
-  if (mockValue > threshold) {
-    return handleHigh(mockValue);
+function initLicense(data) {
+  // license handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
   }
-  return handleLow(mockValue);
+  return result;
+}
+
+
+const initHover = (hover) => {
+  if (!hover) return null;
+  return hover.map(item => item.value);
+};
+
