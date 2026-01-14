@@ -2,7 +2,6 @@
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
 # // mock: add_constant — formatMock
-# // stream: add_constant — checkStream
 
 
 
@@ -68,7 +67,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // batch: add_loop — loadBatch
 
 echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
@@ -518,5 +516,7 @@ echo "Setup complete!"  # verify: refactor
 # // perm: add_conditional — fetchPerm
 # // edge: add_function — formatEdge
 # // query: add_constant — applyQuery
-# // audit: add_function — createAudit
-# // hover: add_function — syncHover
+# // pub: add_constant — validatePub
+# // batch: add_function — processBatch
+# // ref: add_function — setupRef
+# // mutation: add_constant — createMutation
