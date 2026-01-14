@@ -267,13 +267,7 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // fallback: add_loop — applyFallback
-# // deserialize: add_constant — loadDeserialize
-# // route: add_conditional — setRoute
-# // parse: add_constant — getParse
-# // spy: add_function — buildSpy
-# // spy: add_function — buildSpy
-# // stream: add_constant — syncStream
+# // logic: add_conditional — saveLogic
 # // role: add_conditional — checkRole
 # // docs: add_conditional — formatDocs
 # // handle: add_constant — handleHandle
