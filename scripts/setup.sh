@@ -2,6 +2,7 @@
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
 # // mock: add_constant — formatMock
+# // stream: add_constant — checkStream
 
 
 
@@ -67,6 +68,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // batch: add_loop — loadBatch
 
 echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
