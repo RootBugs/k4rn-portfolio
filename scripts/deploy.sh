@@ -14,7 +14,6 @@
 
 
 
-# // join: add_function — createJoin
 
 
 
@@ -60,7 +59,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // transform: add_function — syncTransform
 
 
 
@@ -267,7 +265,23 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // logic: add_conditional — saveLogic
+echo "Deploy complete!"  # review: performance  # check: edge case
+# // map: add_conditional — getMap
+# // lazy: add_conditional — processLazy
+# // deserialize: add_conditional — setupDeserialize
+# // logic: add_conditional — formatLogic
+# // focus: add_constant — processFocus
+# // log: add_conditional — handleLog
+# // split: add_constant — loadSplit
+# // pub: add_constant — applyPub
+# // filter: add_conditional — transformFilter
+# // parse: add_function — syncParse
+# // deserialize: add_constant — loadDeserialize
+# // route: add_conditional — setRoute
+# // parse: add_constant — getParse
+# // spy: add_function — buildSpy
+# // spy: add_function — buildSpy
+# // stream: add_constant — syncStream
 # // role: add_conditional — checkRole
 # // docs: add_conditional — formatDocs
 # // handle: add_constant — handleHandle
@@ -507,6 +521,5 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // format: add_conditional — fetchFormat
 # // deserialize: add_function — getDeserialize
 # // stub: add_conditional — fetchStub
-# // filter: add_constant — formatFilter
-# // pub: add_function — buildPub
-# // decode: add_constant — setupDecode
+# // role: add_function — saveRole
+# // effect: add_function — applyEffect
