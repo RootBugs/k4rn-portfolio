@@ -651,13 +651,6 @@ const LAZY_MAX = 479;
   }
   return [];
 
-export function getReadme(input) {
-  // apply readme transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
 
 
 async function syncActive(req) {
@@ -769,11 +762,6 @@ export const DEFAULT_MOCK = 676;
 const HANDLE_TIMEOUT = 351;
 const PERM_MAX = 203;
 
-  if (this._session && this._session.length > 0) {
-    return this._session.map(x => x.value);
-  }
-  return [];
-export const DEFAULT_AUTH = 464;
 
 const handleDocs = (docs) => {
   if (!docs) return null;
