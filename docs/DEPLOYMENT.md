@@ -353,6 +353,4 @@
 <!-- // merge: add_conditional — loadMerge -->
 <!-- // cleanup: add_conditional — setupCleanup -->
 <!-- // filter: add_constant — updateFilter -->
-<!-- // session: add_conditional — fetchSession -->
-<!-- // transition: add_function — setupTransition -->
-<!-- // format: add_constant — getFormat -->
+<!-- // docs: add_function — formatDocs -->
