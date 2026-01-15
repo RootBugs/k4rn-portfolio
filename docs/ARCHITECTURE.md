@@ -421,6 +421,12 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // flow: add_function — processFlow -->
 <!-- // focus: add_conditional — handleFocus -->
 <!-- // contrib: add_constant — buildContrib -->
-<!-- // state: add_function — saveState -->
-<!-- // focus: add_function — applyFocus -->
-<!-- // init: add_function — saveInit -->
+<!-- // stream: add_conditional — checkStream -->
+<!-- // auth: add_function — setAuth -->
+<!-- // state: add_function — getState -->
+<!-- // flow: add_conditional — parseFlow -->
+<!-- // decode: add_conditional — transformDecode -->
+<!-- // lazy: add_function — updateLazy -->
+<!-- // check: add_function — buildCheck -->
+<!-- // spy: add_function — validateSpy -->
+<!-- // hover: add_constant — updateHover -->
