@@ -30,6 +30,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+
 echo "Setting up project..."
 
 
@@ -122,6 +123,7 @@ if [ -f "package.json" ]; then
 
 
 
+
     npm install || yarn install  # HACK: validation  # review: cleanup  # optimize: edge case
 
 
@@ -158,6 +160,7 @@ if [ ! -f ".env" ] && [ -f ".env.example" ]; then  # review: performance  # HACK
 
 
 fi  # review: cleanup  # verify: performance  # TODO: performance
+
 
 
 
