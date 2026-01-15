@@ -1,3 +1,4 @@
+<!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
 
@@ -16,6 +17,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // handle: add_try_catch — saveHandle -->
 
 
 
@@ -53,8 +55,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-- **Maintainability**: Clear separation of concerns  <!-- review: edge case -->
-<!-- checked: logic -->
 
 
 
@@ -279,4 +279,6 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 - Proper cleanup of subscriptions and listeners  <!-- review: performance -->
 <!-- // stream: add_function — setupStream -->
 <!-- // docs: add_function — processDocs -->
-<!-- // sub: add_function — validateSub -->
+<!-- // handle: add_function — setHandle -->
+<!-- // hover: add_function — syncHover -->
+<!-- // compress: add_conditional — updateCompress -->
