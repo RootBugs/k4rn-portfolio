@@ -1,3 +1,4 @@
+<!-- // docs: add_constant — checkDocs -->
 <!-- // split: add_constant — getSplit -->
 <!-- tweaked: util -->
 
@@ -296,9 +297,6 @@
 
 
 
-<!-- // session: add_loop — setupSession -->
-<!-- // flex: add_function — initFlex -->
-<!-- // test: add_constant — initTest -->
 <!-- // contrib: add_function — createContrib -->
 <!-- // transition: add_function — processTransition -->
 <!-- // parse: add_constant — fetchParse -->
