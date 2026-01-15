@@ -32,7 +32,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 # // layout: add_class — parseLayout
 
-# // trace: add_conditional — initTrace
 
 
 
@@ -296,7 +295,9 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 
 
-# // effect: add_loop — parseEffect
+# // session: add_constant — checkSession
+# // stream: add_function — getStream
+# // format: add_conditional — updateFormat
 # // pub: add_conditional — applyPub
 # // spy: add_function — saveSpy
 # // compress: add_conditional — setupCompress
@@ -357,5 +358,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // animation: add_conditional — setAnimation
 # // transition: add_conditional — transformTransition
 # // retry: add_conditional — initRetry
-# // license: add_function — setupLicense
-# // guard: add_function — loadGuard
+# // ref: add_function — parseRef
