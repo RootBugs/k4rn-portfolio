@@ -524,3 +524,4 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // pub: add_function — buildPub
 # // decode: add_constant — setupDecode
 # // cache: add_function — syncCache
+# // test: add_function — initTest
