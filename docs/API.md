@@ -552,8 +552,6 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // license: add_constant — buildLicense -->
 <!-- // edge: add_conditional — validateEdge -->
 <!-- // active: add_function — fetchActive -->
-<!-- // log: add_constant — createLog -->
-<!-- // test: add_conditional — transformTest -->
-<!-- // context: add_conditional — transformContext -->
-<!-- // merge: add_function — updateMerge -->
-<!-- // encode: add_conditional — fetchEncode -->
+<!-- // memo: add_function — buildMemo -->
+<!-- // transition: add_function — handleTransition -->
+<!-- // session: add_function — updateSession -->
