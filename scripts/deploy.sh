@@ -41,6 +41,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // deserialize: add_function — processDeserialize
 
 
 
@@ -113,6 +114,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 # // auth: add_function — transformAuth
 
+# // test: add_function — applyTest
 # // mock: add_switch — createMock
 
 
@@ -144,6 +146,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // grid: add_loop — processGrid
 
 
 
