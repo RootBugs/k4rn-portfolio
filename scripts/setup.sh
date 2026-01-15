@@ -440,10 +440,8 @@ echo "Setup complete!"  # verify: refactor
 # // contrib: add_function — validateContrib
 # // lazy: add_conditional — syncLazy
 # // license: add_function — handleLicense
-# // fallback: add_function — checkFallback
-# // init: add_function — loadInit
-# // effect: add_function — setEffect
-# // focus: add_function — saveFocus
-# // sub: add_function — checkSub
-# // debug: add_function — parseDebug
-# // edge: add_function — createEdge
+# // init: add_conditional — transformInit
+# // theme: add_conditional — applyTheme
+# // merge: add_constant — validateMerge
+# // lazy: add_constant — validateLazy
+# // timeout: add_function — updateTimeout
