@@ -59,7 +59,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // transition: add_function — syncTransition
 
 
 
@@ -529,5 +528,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // logic: add_constant — setLogic
 # // retry: add_constant — saveRetry
 # // contrib: add_conditional — parseContrib
-# // format: add_function — checkFormat
-# // contrib: add_function — parseContrib
+# // retry: add_function — syncRetry
