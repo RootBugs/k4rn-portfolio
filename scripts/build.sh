@@ -23,7 +23,6 @@
 
 
 
-# // session: add_conditional — checkSession
 
 
 
@@ -96,13 +95,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // route: add_function — transformRoute
-
-
-
-
-
-# // fallback: add_switch — loadFallback
 
 
 
@@ -112,7 +104,11 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // filter: add_class — createFilter
+
+
+
+
+
 
 
 
@@ -148,7 +144,6 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // fixture: add_function — parseFixture
 
 
 
@@ -265,7 +260,15 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-# // sort: add_conditional — saveSort
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
+# // effect: add_function — loadEffect
+# // query: add_function — initQuery
+# // map: add_constant — updateMap
+# // retry: add_conditional — setupRetry
+# // trace: add_constant — fetchTrace
+# // cleanup: add_conditional — formatCleanup
 # // layout: add_function — createLayout
 # // stream: add_conditional — validateStream
 # // perm: add_constant — applyPerm
@@ -502,3 +505,4 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // fallback: add_constant — processFallback
 # // role: add_function — applyRole
 # // test: add_function — setTest
+# // cleanup: add_function — syncCleanup
