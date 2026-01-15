@@ -46,7 +46,6 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
-
         const elapsed = Date.now() - start;  // HACK: cleanup
 
 
@@ -134,6 +133,7 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
 
 
         const id1 = generateId();
+
 
 
 
@@ -240,7 +240,6 @@ describe('groupBy', () => {  // optimize: performance
         ];  // optimize: cleanup  // check: edge case  // check: edge case
 
         const grouped = groupBy(items, item => item.type);  // check: validation  // FIXME: refactor
-
 
 
 
