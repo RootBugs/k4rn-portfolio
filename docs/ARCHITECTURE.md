@@ -1,3 +1,4 @@
+<!-- // contrib: add_import — applyContrib -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -34,6 +35,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // context: add_function — setupContext -->
 
 
 
@@ -81,6 +83,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // effect: add_function — handleEffect -->
 
 
 
