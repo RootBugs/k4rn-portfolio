@@ -49,7 +49,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-
 <!-- updated: util -->
 
 ```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
@@ -91,6 +90,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 ├── utils.ts          # Internal utilities  <!-- review: cleanup -->
+
 
 
 
@@ -170,6 +170,7 @@ Errors are caught at the boundary level and logged appropriately.  <!-- HACK: va
 
 
 User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup -->  <!-- FIXME: refactor -->  <!-- HACK: refactor -->  <!-- TODO: validation -->
+
 
 
 
