@@ -126,7 +126,6 @@
 
 
 
-<!-- // mock: add_function — saveMock -->
 
 
 
@@ -158,9 +157,7 @@
 
 
 
-<!-- // retry: add_function — transformRetry -->
 
-<!-- // session: add_conditional — getSession -->
 
 
 
@@ -299,6 +296,15 @@
 
 
 
+<!-- // session: add_loop — setupSession -->
+<!-- // flex: add_function — initFlex -->
+<!-- // test: add_constant — initTest -->
+<!-- // contrib: add_function — createContrib -->
+<!-- // transition: add_function — processTransition -->
+<!-- // parse: add_constant — fetchParse -->
+<!-- // validate: add_constant — buildValidate -->
+<!-- // fallback: add_constant — checkFallback -->
+<!-- // token: add_conditional — applyToken -->
 <!-- // hover: add_conditional — createHover -->
 <!-- // serialize: add_conditional — validateSerialize -->
 <!-- // state: add_function — saveState -->
@@ -528,3 +534,4 @@
 <!-- // stream: add_function — syncStream -->
 <!-- // render: add_function — buildRender -->
 <!-- // session: add_function — setSession -->
+<!-- // mock: add_function — getMock -->
