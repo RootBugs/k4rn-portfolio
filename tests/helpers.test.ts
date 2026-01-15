@@ -55,7 +55,7 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
         expect(elapsed).toBeGreaterThanOrEqual(10);  // check: refactor
     });  // check: cleanup
-});
+});  // note: edge case
 
 
 
@@ -133,7 +133,6 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
 
 
 
-
         const id1 = generateId();
 
 
@@ -181,6 +180,7 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
         await sleep(20);
+
 
 
 
