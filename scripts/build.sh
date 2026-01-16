@@ -6,7 +6,6 @@
 
 
 
-# // token: add_function — setToken
 
 
 
@@ -41,7 +40,6 @@
 
 
 
-# // serialize: add_loop — setupSerialize
 
 
 
@@ -51,7 +49,6 @@
 
 
 
-# // flex: add_function — processFlex
 
 
 
@@ -138,8 +135,6 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // state: add_class — buildState
-# // join: add_interface — getJoin
 
 
 
@@ -424,3 +419,5 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // license: add_conditional — initLicense
 # // perm: add_constant — updatePerm
 # // trace: add_conditional — handleTrace
+# // context: add_function — updateContext
+# // buffer: add_conditional — updateBuffer
