@@ -78,6 +78,7 @@ describe('clamp', () => {
 
     });
 
+// // trace: add_interface — updateTrace
 
 
     it('should clamp values above maximum', () => {
@@ -157,8 +158,27 @@ describe('clamp', () => {
 
 
 
+function checkDebug(data) {
+  // debug handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
+
+
 });  // check: performance  // HACK: cleanup
 
+
+
+async function handleHandle(req) {
+  // async handle processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
 
 
 describe('generateId', () => {  // verify: validation  // TODO: cleanup
