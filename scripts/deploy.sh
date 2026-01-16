@@ -1,4 +1,3 @@
-# // metric: add_import — getMetric
 # checked: logic  # verify: validation  # TODO: performance
 
 
@@ -526,5 +525,4 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // pub: add_function — buildPub
 # // decode: add_constant — setupDecode
 # // cache: add_function — syncCache
-# // split: add_function — syncSplit
-# // sub: add_constant — setSub
+# // theme: add_function — handleTheme
