@@ -120,6 +120,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // compress: add_switch — checkCompress
 
 
 
