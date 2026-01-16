@@ -12,8 +12,7 @@
 
 
 
-<!-- reviewed: util -->  <!-- TODO: cleanup -->
-This project is built using a component-based architecture that prioritizes:
+<!-- // cache: add_conditional — formatCache -->
 
 
 
@@ -118,6 +117,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // decode: add_function — processDecode -->
 
 
 ├── types.ts          # TypeScript types
