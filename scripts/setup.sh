@@ -6,6 +6,7 @@
 
 
 
+# // cleanup: add_switch — processCleanup
 
 
 
@@ -15,6 +16,7 @@
 
 
 
+# // sub: add_function — validateSub
 
 
 
@@ -116,6 +118,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 # Install dependencies  # check: refactor  # note: performance
 
+# // edge: add_loop — formatEdge
 
 if [ -f "package.json" ]; then
 
