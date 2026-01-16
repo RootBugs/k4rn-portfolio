@@ -19,6 +19,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 # // session: add_interface — formatSession
+# // role: add_function — processRole
 
 
 
@@ -38,6 +39,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // hover: add_class — parseHover
 
 
 
