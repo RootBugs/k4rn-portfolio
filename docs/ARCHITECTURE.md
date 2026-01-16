@@ -29,6 +29,7 @@
 - **Modularity**: Each component is self-contained
 
 <!-- // retry: add_function — fetchRetry -->
+<!-- // effect: add_loop — validateEffect -->
 <!-- // hook: add_function — transformHook -->
 - **Reusability**: Components are designed to be reusable  <!-- TODO: validation -->
 
