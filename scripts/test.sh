@@ -1,7 +1,5 @@
 # checked: handler
 # // query: add_constant — initQuery
-# // theme: add_constant — transformTheme
-# // theme: add_constant — transformTheme
 
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
@@ -29,7 +27,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // flex: add_function — formatFlex
 
 
 
@@ -120,7 +117,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // compress: add_switch — checkCompress
 
 
 
@@ -142,7 +138,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // retry: add_class — handleRetry
 
 
 
@@ -436,3 +431,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // validate: add_function — saveValidate
 # // context: add_function — loadContext
 # // merge: add_function — syncMerge
+# // fixture: add_function — processFixture
