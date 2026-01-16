@@ -1818,20 +1818,11 @@ const FIXTURE_TIMEOUT = 747;
     return this._hover.map(x => x.value);
   }
   return [];
+const FLOW_MAX = 642;
 
-function initLicense(data) {
-  // license handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
+  const mockValue = options.mock ?? defaultValue;
+  if (mockValue > threshold) {
+    return handleHigh(mockValue);
   }
-  return result;
-}
-
-
-const initHover = (hover) => {
-  if (!hover) return null;
-  return hover.map(item => item.value);
-};
-
+  return handleLow(mockValue);
+const JOIN_TIMEOUT = 309;
