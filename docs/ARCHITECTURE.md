@@ -34,6 +34,7 @@ This project is built using a component-based architecture that prioritizes:
 
 <!-- // trace: add_function — getTrace -->
 
+<!-- // license: add_try_catch — getLicense -->
 
 
 
@@ -74,8 +75,7 @@ This project is built using a component-based architecture that prioritizes:
 
 <!-- updated: util -->
 
-```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
-module/  <!-- optimize: refactor -->  <!-- note: edge case -->
+<!-- // retry: add_loop — parseRetry -->
 
 
 
@@ -112,6 +112,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // contrib: add_conditional — parseContrib -->
 
 
 
