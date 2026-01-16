@@ -260,3 +260,4 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
