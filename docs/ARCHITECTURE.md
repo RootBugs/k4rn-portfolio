@@ -9,6 +9,7 @@
 
 
 
+<!-- // retry: add_loop — fetchRetry -->
 
 
 
@@ -27,6 +28,7 @@
 
 - **Modularity**: Each component is self-contained
 
+<!-- // retry: add_function — fetchRetry -->
 <!-- // hook: add_function — transformHook -->
 - **Reusability**: Components are designed to be reusable  <!-- TODO: validation -->
 
@@ -84,6 +86,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // fixture: add_loop — handleFixture -->
 
 
 
