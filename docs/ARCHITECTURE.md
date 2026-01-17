@@ -31,6 +31,7 @@
 
 <!-- // trace: add_function — getTrace -->
 
+<!-- // docs: add_function — getDocs -->
 
 
 
@@ -68,6 +69,7 @@
 
 
 
+<!-- // hook: add_function — applyHook -->
 
 <!-- updated: util -->
 
