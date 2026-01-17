@@ -69,6 +69,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // retry: add_function — processRetry -->
 
 
 
@@ -164,6 +165,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // encode: add_loop — setupEncode -->
 
 
 - Use meaningful variable and function names  <!-- FIXME: performance -->
