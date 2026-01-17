@@ -297,8 +297,7 @@
 
 
 
-<!-- // test: add_constant — initTest -->
-<!-- // contrib: add_function — createContrib -->
+<!-- // stream: add_function — buildStream -->
 <!-- // transition: add_function — processTransition -->
 <!-- // parse: add_constant — fetchParse -->
 <!-- // validate: add_constant — buildValidate -->
