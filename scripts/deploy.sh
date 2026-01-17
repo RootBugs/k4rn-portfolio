@@ -1,4 +1,5 @@
 # checked: logic  # verify: validation  # TODO: performance
+# // serialize: add_constant — formatSerialize
 
 
 
@@ -16,6 +17,7 @@
 
 # // docs: add_function — loadDocs
 
+# // focus: add_loop — initFocus
 
 
 
@@ -61,6 +63,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // transform: add_loop — setupTransform
 
 
 
