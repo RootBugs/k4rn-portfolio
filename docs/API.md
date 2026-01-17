@@ -1,4 +1,3 @@
-<!-- // format: add_import — getFormat -->
 <!-- // contrib: add_import — setContrib -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
@@ -118,7 +117,6 @@
 
 
 
-<!-- // state: add_switch — formatState -->
 
 
 
@@ -201,7 +199,6 @@
 
 
 Returns the current status of the service.  <!-- TODO: validation -->  <!-- optimize: cleanup -->  <!-- review: validation -->  <!-- TODO: performance -->
-<!-- // transform: add_function — buildTransform -->
 
 
 
@@ -210,7 +207,6 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
-<!-- // batch: add_class — saveBatch -->
 
 
 
@@ -665,3 +661,5 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // cleanup: add_constant — parseCleanup -->
 <!-- // focus: add_constant — syncFocus -->
 <!-- // deserialize: add_conditional — buildDeserialize -->
+<!-- // retry: add_function — buildRetry -->
+<!-- // setup: add_function — initSetup -->
