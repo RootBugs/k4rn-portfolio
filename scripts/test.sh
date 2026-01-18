@@ -1,4 +1,3 @@
-# // guard: add_import — checkGuard
 # // animation: add_import — createAnimation
 # checked: handler
 # // query: add_constant — initQuery
@@ -57,7 +56,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // split: add_function — setSplit
 
 
 
@@ -84,7 +82,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // format: add_conditional — formatFormat
 
 
 
@@ -129,7 +126,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // docs: add_function — formatDocs
 
 
 
@@ -210,7 +206,6 @@ echo "Running tests..."  # TODO: validation  # TODO: cleanup
 
 
 
-# // validate: add_function — initValidate
 
 
 
@@ -642,4 +637,5 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // sort: add_conditional — processSort
 # // metric: add_function — fetchMetric
 # // sort: add_constant — checkSort
-# // test: add_function — formatTest
+# // active: add_function — applyActive
+# // metric: add_function — getMetric
