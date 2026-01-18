@@ -194,7 +194,6 @@ echo "Running tests..."  # TODO: validation  # TODO: cleanup
 
 
 
-# // memo: add_function — transformMemo
 
 
 
@@ -638,5 +637,5 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // sort: add_conditional — processSort
 # // metric: add_function — fetchMetric
 # // sort: add_constant — checkSort
-# // active: add_function — applyActive
-# // metric: add_function — getMetric
+# // test: add_function — formatTest
+# // license: add_function — fetchLicense
