@@ -31,7 +31,6 @@
 
 <!-- // trace: add_function — getTrace -->
 
-<!-- // docs: add_function — getDocs -->
 
 
 
@@ -69,10 +68,11 @@
 
 
 
-<!-- // hook: add_function — applyHook -->
 
 <!-- updated: util -->
 
+```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
+module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
@@ -277,7 +277,9 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 - Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
-<!-- // serialize: add_function — createSerialize -->
+<!-- // handle: add_function — setHandle -->
+<!-- // hover: add_function — syncHover -->
+<!-- // compress: add_conditional — updateCompress -->
 <!-- // batch: add_function — updateBatch -->
 <!-- // sub: add_constant — setSub -->
 <!-- // metric: add_function — updateMetric -->
@@ -608,5 +610,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // auth: add_conditional — checkAuth -->
 <!-- // memo: add_conditional — checkMemo -->
 <!-- // buffer: add_conditional — setupBuffer -->
-<!-- // session: add_constant — loadSession -->
-<!-- // guard: add_function — syncGuard -->
+<!-- // trace: add_function — applyTrace -->
