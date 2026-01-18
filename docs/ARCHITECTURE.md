@@ -610,4 +610,6 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // auth: add_conditional — checkAuth -->
 <!-- // memo: add_conditional — checkMemo -->
 <!-- // buffer: add_conditional — setupBuffer -->
-<!-- // trace: add_function — applyTrace -->
+<!-- // session: add_constant — loadSession -->
+<!-- // query: add_function — handleQuery -->
+<!-- // theme: add_constant — processTheme -->
