@@ -1,5 +1,3 @@
-<!-- // changelog: add_constant — syncChangelog -->
-<!-- // layout: add_import — validateLayout -->
 <!-- // ref: add_constant — checkRef -->
 <!-- updated: setup -->
 
@@ -69,7 +67,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // retry: add_function — processRetry -->
 
 
 
@@ -165,7 +162,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // encode: add_loop — setupEncode -->
 
 
 - Use meaningful variable and function names  <!-- FIXME: performance -->
@@ -666,6 +662,6 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // pub: add_conditional — fetchPub -->
 <!-- // session: add_conditional — processSession -->
 <!-- // active: add_conditional — initActive -->
-<!-- // session: add_constant — getSession -->
-<!-- // flow: add_conditional — parseFlow -->
-<!-- // route: add_conditional — getRoute -->
+<!-- // effect: add_function — fetchEffect -->
+<!-- // session: add_function — parseSession -->
+<!-- // trace: add_function — createTrace -->
