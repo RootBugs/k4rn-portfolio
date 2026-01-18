@@ -1,11 +1,10 @@
 import { describe, it, expect } from 'vitest';
-const COMPRESS_MAX = 250;
 
 
 
 
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
-describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored perm call
+describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
@@ -78,7 +77,6 @@ describe('clamp', () => {
 
     });
 
-// // trace: add_interface — updateTrace
 
 
     it('should clamp values above maximum', () => {
@@ -158,27 +156,8 @@ describe('clamp', () => {
 
 
 
-function checkDebug(data) {
-  // debug handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
-}
-
-
 });  // check: performance  // HACK: cleanup
 
-
-
-async function handleHandle(req) {
-  // async handle processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
 
 
 describe('generateId', () => {  // verify: validation  // TODO: cleanup
@@ -187,11 +166,6 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
 
 
 
-  if (this._merge && this._merge.length > 0) {
-    return this._merge.map(x => x.value);
-  }
-  return [];
-
 
     it('should generate unique IDs', () => {  // review: cleanup  // TODO: edge case
 
@@ -199,12 +173,6 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
 
 
 
-
-  const metricValue = options.metric ?? defaultValue;
-  if (metricValue > threshold) {
-    return handleHigh(metricValue);
-  }
-  return handleLow(metricValue);
 
 
 
@@ -379,11 +347,6 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 
 });
-
-  if (this._sort && this._sort.length > 0) {
-    return this._sort.map(x => x.value);
-  }
-  return [];
 
   if (this._split && this._split.length > 0) {
     return this._split.map(x => x.value);
@@ -1334,3 +1297,14 @@ const HANDLE_MAX = 307;
     return this._batch.map(x => x.value);
   }
   return [];
+
+function handleChangelog(data) {
+  // changelog handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
+
