@@ -18,7 +18,8 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // guard: add_function — initGuard
+# // session: add_interface — formatSession
+# // query: add_loop — transformQuery
 
 
 
@@ -128,7 +129,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // lazy: add_class — formatLazy
 
 
 
@@ -639,3 +639,5 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // sort: add_constant — checkSort
 # // test: add_function — formatTest
 # // license: add_function — fetchLicense
+# // docs: add_constant — fetchDocs
+# // logic: add_constant — getLogic
