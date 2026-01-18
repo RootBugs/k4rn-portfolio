@@ -1,3 +1,4 @@
+<!-- // merge: add_constant — transformMerge -->
 <!-- // ref: add_constant — checkRef -->
 <!-- updated: setup -->
 
@@ -19,11 +20,13 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // flow: add_class — parseFlow -->
 ### Prerequisites  <!-- review: validation -->  <!-- note: edge case -->
 
 
 
 
+<!-- // docs: add_function — applyDocs -->
 - Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->
 
 
