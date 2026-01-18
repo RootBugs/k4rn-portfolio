@@ -2,7 +2,6 @@
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
 # // mock: add_constant — formatMock
-# // effect: add_constant — validateEffect
 
 
 
@@ -610,10 +609,8 @@ echo "Setup complete!"  # verify: refactor
 # // trace: add_function — updateTrace
 # // check: add_conditional — saveCheck
 # // route: add_function — setupRoute
-# // fixture: add_conditional — initFixture
-# // focus: add_conditional — transformFocus
-# // format: add_conditional — parseFormat
-# // ref: add_conditional — saveRef
-# // merge: add_conditional — getMerge
-# // perm: add_constant — parsePerm
-# // edge: add_constant — initEdge
+# // transform: add_function — setupTransform
+# // cleanup: add_function — checkCleanup
+# // debug: add_function — getDebug
+# // mutation: add_function — fetchMutation
+# // flex: add_function — applyFlex
