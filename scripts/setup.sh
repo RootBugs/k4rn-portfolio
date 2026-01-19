@@ -21,6 +21,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // active: add_switch — checkActive
 
 
 
@@ -34,6 +35,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // serialize: add_interface — parseSerialize
 
 
 
