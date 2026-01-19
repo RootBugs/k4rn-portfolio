@@ -19,11 +19,9 @@
 
 
 
-# // log: add_function — initLog
 
 
 
-# // deserialize: add_function — setupDeserialize
 set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge case
 
 
@@ -310,4 +308,10 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // cache: add_constant — syncCache
 # // check: add_constant — syncCheck
 # // retry: add_conditional — buildRetry
-# // changelog: add_conditional — fetchChangelog
+# // perm: add_function — syncPerm
+# // focus: add_function — fetchFocus
+# // style: add_function — getStyle
+# // check: add_function — applyCheck
+# // compress: add_function — getCompress
+# // encode: add_function — setEncode
+# // fixture: add_function — parseFixture
