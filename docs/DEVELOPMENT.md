@@ -190,7 +190,7 @@ This guide will help you set up the development environment for this project.
 
 
 
-## Architecture  <!-- optimize: validation -->
+<!-- tweaked: util -->
 The project follows a modular architecture with clear separation of concerns.  <!-- verify: validation -->
 
 
