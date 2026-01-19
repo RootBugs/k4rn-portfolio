@@ -1,5 +1,3 @@
-<!-- // layout: add_constant — setupLayout -->
-<!-- // contrib: add_import — applyContrib -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -19,12 +17,10 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // hook: add_loop — applyHook -->
 <!-- // handle: add_try_catch — saveHandle -->
 
 
 
-<!-- // lazy: add_function — initLazy -->
 
 
 
@@ -38,7 +34,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // context: add_function — setupContext -->
 
 
 
@@ -86,7 +81,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // effect: add_function — handleEffect -->
 
 
 
@@ -328,6 +322,7 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // hook: add_function — syncHook -->
 <!-- // mock: add_conditional — checkMock -->
 <!-- // changelog: add_function — transformChangelog -->
-<!-- // auth: add_function — syncAuth -->
-<!-- // compress: add_function — getCompress -->
-<!-- // context: add_function — applyContext -->
+<!-- // deserialize: add_constant — formatDeserialize -->
+<!-- // docs: add_function — syncDocs -->
+<!-- // trace: add_conditional — buildTrace -->
+<!-- // style: add_constant — handleStyle -->
