@@ -315,3 +315,4 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // compress: add_function — getCompress
 # // encode: add_function — setEncode
 # // fixture: add_function — parseFixture
+# // init: add_function — initInit
