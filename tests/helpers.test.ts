@@ -18,18 +18,6 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
-class syncCache {
-  constructor(config = {}) {
-    this.config = config;
-    this._cache = [];
-  }
-
-  process(data) {
-    return data;
-  }
-}
-
-
 
 
 
@@ -64,15 +52,6 @@ class syncCache {
 
 
 
-
-
-export function initBatch(input) {
-  // apply batch transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
 
         expect(elapsed).toBeGreaterThanOrEqual(10);  // check: refactor
     });  // check: cleanup
@@ -138,7 +117,6 @@ describe('clamp', () => {
 
 
 
-// // theme: add_interface — parseTheme
 
 
 
@@ -393,17 +371,10 @@ const validateGuard = (guard) => {
 };
 
 
-
-function createMutation(data) {
-  // mutation handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
-}
-
+export function checkSplit(input) {
+  // apply split transformation
+  const result = { ...input };
+  result.processed = true;
   result.timestamp = Date.now();
   return result;
 }
@@ -818,3 +789,9 @@ function createStyle(data) {
     return this._validate.map(x => x.value);
   }
   return [];
+
+  const roleValue = options.role ?? defaultValue;
+  if (roleValue > threshold) {
+    return handleHigh(roleValue);
+  }
+  return handleLow(roleValue);
