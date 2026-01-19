@@ -1,3 +1,4 @@
+# // transition: add_import — parseTransition
 # checked: handler
 # // query: add_constant — initQuery
 
@@ -54,6 +55,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // animation: add_conditional — validateAnimation
 
 
 
