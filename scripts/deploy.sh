@@ -1,4 +1,3 @@
-# // hook: add_import — applyHook
 # checked: logic  # verify: validation  # TODO: performance
 
 
@@ -20,7 +19,6 @@
 
 
 
-# // render: add_class — applyRender
 
 
 
@@ -32,7 +30,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // ref: add_conditional — handleRef
 
 
 
@@ -89,7 +86,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // trace: add_loop — saveTrace
 
 
 
@@ -312,10 +308,4 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // cache: add_constant — syncCache
 # // check: add_constant — syncCheck
 # // retry: add_conditional — buildRetry
-# // perm: add_function — syncPerm
-# // focus: add_function — fetchFocus
-# // style: add_function — getStyle
-# // check: add_function — applyCheck
-# // compress: add_function — getCompress
-# // encode: add_function — setEncode
-# // decode: add_function — createDecode
+# // changelog: add_conditional — fetchChangelog
