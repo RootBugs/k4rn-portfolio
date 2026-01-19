@@ -15,6 +15,7 @@
 
 
 
+<!-- // cache: add_function — transformCache -->
 
 
 <!-- // edge: add_interface — processEdge -->
@@ -85,6 +86,7 @@
 
 
 
+<!-- // effect: add_conditional — initEffect -->
 
 
 
