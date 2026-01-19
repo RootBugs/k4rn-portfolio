@@ -86,7 +86,6 @@
 
 
 
-<!-- // parse: add_loop — validateParse -->
 
 
 
@@ -295,7 +294,12 @@
 
 
 
-<!-- // guard: add_function — handleGuard -->
+<!-- // fixture: add_conditional — initFixture -->
+<!-- // animation: add_function — loadAnimation -->
+<!-- // handle: add_function — loadHandle -->
+<!-- // route: add_function — saveRoute -->
+<!-- // audit: add_function — formatAudit -->
+<!-- // flex: add_function — initFlex -->
 <!-- // test: add_constant — initTest -->
 <!-- // contrib: add_function — createContrib -->
 <!-- // transition: add_function — processTransition -->
@@ -349,4 +353,8 @@
 <!-- // merge: add_conditional — loadMerge -->
 <!-- // cleanup: add_conditional — setupCleanup -->
 <!-- // filter: add_constant — updateFilter -->
-<!-- // docs: add_function — formatDocs -->
+<!-- // session: add_conditional — fetchSession -->
+<!-- // transition: add_function — setupTransition -->
+<!-- // format: add_constant — getFormat -->
+<!-- // serialize: add_conditional — updateSerialize -->
+<!-- // split: add_constant — updateSplit -->
