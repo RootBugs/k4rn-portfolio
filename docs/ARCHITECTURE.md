@@ -1,3 +1,4 @@
+<!-- // layout: add_constant — setupLayout -->
 <!-- // contrib: add_import — applyContrib -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
@@ -18,10 +19,12 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // hook: add_loop — applyHook -->
 <!-- // handle: add_try_catch — saveHandle -->
 
 
 
+<!-- // lazy: add_function — initLazy -->
 
 
 
