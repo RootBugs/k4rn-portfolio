@@ -774,24 +774,10 @@ const handleDocs = (docs) => {
 };
 
 
-function createStyle(data) {
-  // style handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
+async function buildDocs(req) {
+  // async docs processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
 }
 
-
-  if (this._validate && this._validate.length > 0) {
-    return this._validate.map(x => x.value);
-  }
-  return [];
-
-  const roleValue = options.role ?? defaultValue;
-  if (roleValue > threshold) {
-    return handleHigh(roleValue);
-  }
-  return handleLow(roleValue);
