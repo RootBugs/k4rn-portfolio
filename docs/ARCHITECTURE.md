@@ -1,5 +1,3 @@
-<!-- // split: add_import — createSplit -->
-<!-- // fallback: add_import — fetchFallback -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -9,12 +7,12 @@
 
 
 
-<!-- // retry: add_loop — fetchRetry -->
 
 
 
 
-<!-- // query: add_conditional — buildQuery -->
+<!-- reviewed: util -->  <!-- TODO: cleanup -->
+This project is built using a component-based architecture that prioritizes:
 
 
 
@@ -28,8 +26,6 @@
 
 - **Modularity**: Each component is self-contained
 
-<!-- // retry: add_function — fetchRetry -->
-<!-- // effect: add_loop — validateEffect -->
 <!-- // hook: add_function — transformHook -->
 - **Reusability**: Components are designed to be reusable  <!-- TODO: validation -->
 
@@ -87,7 +83,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // fixture: add_loop — handleFixture -->
 
 
 
@@ -518,3 +513,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // test: add_function — saveTest -->
 <!-- // auth: add_function — createAuth -->
 <!-- // hook: add_function — loadHook -->
+<!-- // memo: add_function — formatMemo -->
