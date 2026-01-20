@@ -33,6 +33,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+
 echo "Setting up project..."
 
 
@@ -55,6 +56,7 @@ echo "Setting up project..."
 
 # reviewed: logic
 command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
+
 
 
 
@@ -162,6 +164,7 @@ if [ ! -f ".env" ] && [ -f ".env.example" ]; then  # review: performance  # HACK
 
 
 fi  # review: cleanup  # verify: performance  # TODO: performance
+
 
 
 
