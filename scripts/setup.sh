@@ -6,6 +6,7 @@
 
 
 
+# // contrib: add_conditional — applyContrib
 
 
 # tweaked: config  # TODO: performance
@@ -73,6 +74,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
+# // transform: add_switch — buildTransform
 
 
 
@@ -117,6 +119,7 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
+# // parse: add_conditional — handleParse
 
 
 
