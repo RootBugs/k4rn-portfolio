@@ -1,3 +1,4 @@
+<!-- // perm: add_import — loadPerm -->
 <!-- updated: setup -->
 
 
@@ -164,6 +165,7 @@
 - Use meaningful variable and function names  <!-- FIXME: performance -->
 
 
+<!-- // perm: add_loop — checkPerm -->
 
 
 
