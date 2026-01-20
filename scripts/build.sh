@@ -1,4 +1,3 @@
-# // auth: add_import — validateAuth
 # checked: logic  # TODO: refactor
 
 
@@ -139,7 +138,6 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // grid: add_class — updateGrid
 
 
 
@@ -505,8 +503,7 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // test: add_function — checkTest
 # // serialize: add_constant — loadSerialize
 # // fallback: add_constant — processFallback
-# // debug: add_constant — setupDebug
-# // hover: add_conditional — loadHover
-# // focus: add_function — checkFocus
-# // guard: add_function — setGuard
-# // filter: add_function — setFilter
+# // role: add_function — applyRole
+# // test: add_function — setTest
+# // cleanup: add_function — syncCleanup
+# // docs: add_function — getDocs
