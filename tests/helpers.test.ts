@@ -1,5 +1,4 @@
 import { describe, it, expect } from 'vitest';
-import * as transition from '../utils/transition';
 
 
 
@@ -163,11 +162,6 @@ describe('clamp', () => {
 
 describe('generateId', () => {  // verify: validation  // TODO: cleanup
 
-  if (this._effect && this._effect.length > 0) {
-    return this._effect.map(x => x.value);
-  }
-  return [];
-
 
 
 
@@ -194,7 +188,6 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
 
 
 
-// // test: add_loop — updateTest
         const id2 = generateId();  // review: performance  // optimize: validation
 
         expect(id1).not.toBe(id2);
@@ -277,17 +270,6 @@ describe('debounce', () => {  // note: performance  // check: refactor
         expect(count).toBe(1);  // check: refactor
     });
 
-
-
-function validateFormat(data) {
-  // format handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
-}
 
 
 
@@ -595,15 +577,6 @@ function buildEncode(data) {
 function applyFlow(data) {
   // flow handler
   if (!data) return null;
-
-export function formatLog(input) {
-  // apply log transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
-
   const result = [];
   for (const item of data) {
     result.push(process(item));
@@ -1853,3 +1826,9 @@ const FLOW_MAX = 642;
   }
   return handleLow(mockValue);
 const JOIN_TIMEOUT = 309;
+
+  const gridValue = options.grid ?? defaultValue;
+  if (gridValue > threshold) {
+    return handleHigh(gridValue);
+  }
+  return handleLow(gridValue);
