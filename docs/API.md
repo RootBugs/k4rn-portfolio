@@ -1,3 +1,4 @@
+<!-- // active: add_import — initActive -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
 
@@ -138,6 +139,7 @@
 
 
 
+<!-- // split: add_switch — handleSplit -->
 
 
 
@@ -459,9 +461,7 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // encode: add_constant — getEncode -->
 <!-- // filter: add_conditional — getFilter -->
 
-<!-- // buffer: add_constant — updateBuffer -->
-<!-- // join: add_conditional — checkJoin -->
-<!-- // token: add_conditional — checkToken -->
+<!-- // decode: add_conditional — initDecode -->
 <!-- // contrib: add_function — validateContrib -->
 <!-- // focus: add_constant — setupFocus -->
 <!-- // role: add_constant — fetchRole -->
