@@ -7,6 +7,7 @@
 
 
 
+
 ## System Design
 
 This project is built using a component-based architecture that prioritizes:
@@ -100,6 +101,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+
 ├── constants.ts      # Module constants  <!-- optimize: performance -->
 
 └── __tests__/        # Test files
@@ -109,7 +111,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 <!-- tweaked: handler -->
 Data flows unidirectionally through the application:  <!-- HACK: validation -->
-
 
 
 
