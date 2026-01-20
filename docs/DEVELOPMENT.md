@@ -93,7 +93,9 @@
 
 
 
+<!-- // ref: add_function — setupRef -->
 
+<!-- // spy: add_function — createSpy -->
 <!-- // test: add_function — transformTest -->
 
 
