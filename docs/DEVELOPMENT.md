@@ -1,3 +1,4 @@
+<!-- // context: add_constant — parseContext -->
 <!-- updated: setup -->
 
 
@@ -307,12 +308,7 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // sub: add_function — formatSub -->
-<!-- // audit: add_constant — setAudit -->
-<!-- // query: add_conditional — buildQuery -->
-<!-- // docs: add_conditional — initDocs -->
-<!-- // pub: add_function — createPub -->
-<!-- // log: add_function — processLog -->
+<!-- // license: add_loop — setLicense -->
 <!-- // layout: add_function — formatLayout -->
 <!-- // validate: add_constant — processValidate -->
 <!-- // trace: add_function — transformTrace -->
