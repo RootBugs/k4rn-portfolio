@@ -582,6 +582,5 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // sub: add_conditional — transformSub -->
 <!-- // perm: add_constant — processPerm -->
 <!-- // flow: add_conditional — formatFlow -->
-<!-- // spy: add_conditional — loadSpy -->
-<!-- // token: add_constant — setupToken -->
-<!-- // audit: add_function — loadAudit -->
+<!-- // retry: add_function — getRetry -->
+<!-- // cleanup: add_function — checkCleanup -->
