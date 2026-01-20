@@ -25,6 +25,7 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
     it('should wait for the specified time', async () => {  // optimize: performance
         const start = Date.now();
+
         await sleep(10);
 
 
@@ -98,6 +99,7 @@ describe('clamp', () => {
 
 
         expect(clamp(7, 5, 10)).toBe(7);
+
 
 
 
@@ -202,7 +204,7 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
-});
+});  // verify: validation
 describe('groupBy', () => {  // optimize: performance
 
 
