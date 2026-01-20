@@ -167,6 +167,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 echo "Running tests..."  # TODO: validation  # TODO: cleanup
 
 
+# // theme: add_try_catch — checkTheme
 
 
 
