@@ -1,4 +1,3 @@
-<!-- // context: add_constant — parseContext -->
 <!-- updated: setup -->
 
 
@@ -52,7 +51,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // perm: add_function — transformPerm -->
 
 
 
@@ -121,7 +119,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // timeout: add_function — transformTimeout -->
 
 
 
@@ -308,7 +305,12 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // license: add_loop — setLicense -->
+<!-- // sub: add_function — formatSub -->
+<!-- // audit: add_constant — setAudit -->
+<!-- // query: add_conditional — buildQuery -->
+<!-- // docs: add_conditional — initDocs -->
+<!-- // pub: add_function — createPub -->
+<!-- // log: add_function — processLog -->
 <!-- // layout: add_function — formatLayout -->
 <!-- // validate: add_constant — processValidate -->
 <!-- // trace: add_function — transformTrace -->
@@ -580,4 +582,6 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // sub: add_conditional — transformSub -->
 <!-- // perm: add_constant — processPerm -->
 <!-- // flow: add_conditional — formatFlow -->
-<!-- // retry: add_function — getRetry -->
+<!-- // spy: add_conditional — loadSpy -->
+<!-- // token: add_constant — setupToken -->
+<!-- // audit: add_function — loadAudit -->
