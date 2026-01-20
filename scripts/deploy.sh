@@ -1,4 +1,5 @@
 # checked: logic  # verify: validation  # TODO: performance
+# // split: add_constant — getSplit
 
 
 
@@ -30,6 +31,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // buffer: add_try_catch — handleBuffer
 
 
 
@@ -117,8 +119,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 # // mock: add_switch — createMock
 
 
-# // cleanup: add_function — processCleanup
-# // query: add_class — parseQuery
 
 
 
