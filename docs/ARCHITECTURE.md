@@ -17,6 +17,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+
 - **Modularity**: Each component is self-contained
 
 - **Reusability**: Components are designed to be reusable  <!-- TODO: validation -->
@@ -85,6 +86,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 ├── types.ts          # TypeScript types
+
 
 
 
@@ -189,6 +191,7 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 - Lazy loading for heavy dependencies  <!-- verify: performance -->
 
 - Memoization for expensive computations  <!-- HACK: cleanup -->
+
 
 
 - Debouncing for frequent events  <!-- check: refactor -->
