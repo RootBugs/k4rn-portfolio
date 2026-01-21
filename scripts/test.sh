@@ -13,6 +13,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // decode: add_function — handleDecode
 # // state: add_function — syncState
 
 
@@ -46,6 +47,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // route: add_function — syncRoute
 
 
 
