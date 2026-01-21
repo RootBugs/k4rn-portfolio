@@ -74,6 +74,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 # // session: add_loop — validateSession
 
+# // context: add_function — transformContext
 
 
 
@@ -138,6 +139,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // handle: add_function — getHandle
 
 
 
