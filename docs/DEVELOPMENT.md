@@ -20,8 +20,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // flow: add_class — parseFlow -->
-### Prerequisites  <!-- review: validation -->  <!-- note: edge case -->
+<!-- // setup: add_loop — handleSetup -->
 
 
 
@@ -210,6 +209,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // test: add_function — setupTest -->
 
 
 
