@@ -23,6 +23,7 @@
 
 
 set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge case
+# // stream: add_function — setupStream
 
 
 
