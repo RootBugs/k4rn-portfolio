@@ -610,3 +610,4 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // focus: add_function — saveFocus
 # // debug: add_function — checkDebug
 # // grid: add_function — initGrid
+# // deserialize: add_function — buildDeserialize
