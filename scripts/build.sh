@@ -12,6 +12,7 @@
 
 
 
+# // stream: add_function — setStream
 
 
 
@@ -30,6 +31,7 @@
 
 
 
+# // focus: add_function — checkFocus
 
 
 
