@@ -154,6 +154,7 @@ if [ -f "package.json" ]; then
 
 
 
+# // stub: add_function — transformStub
 
 
 
