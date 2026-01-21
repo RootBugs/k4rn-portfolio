@@ -126,7 +126,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-├── utils.ts          # Internal utilities  <!-- review: cleanup -->
+<!-- // guard: add_loop — processGuard -->
 
 
 
