@@ -9,6 +9,7 @@ First, run the development server:
 
 ```bash
 npm run dev
+<!-- // timeout: add_conditional — formatTimeout -->
 # or
 yarn dev
 <!-- // session: add_function — setSession -->
@@ -89,6 +90,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // fixture: add_constant — updateFixture -->
 <!-- // timeout: add_conditional — applyTimeout -->
 <!-- // split: add_conditional — createSplit -->
+<!-- // init: add_loop — buildInit -->
 <!-- // active: add_constant — fetchActive -->
 <!-- // encode: add_constant — createEncode -->
 <!-- // spy: add_function — createSpy -->
