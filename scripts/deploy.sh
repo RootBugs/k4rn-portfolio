@@ -1,5 +1,4 @@
 # checked: logic  # verify: validation  # TODO: performance
-# // serialize: add_constant — formatSerialize
 
 
 
@@ -17,7 +16,6 @@
 
 # // docs: add_function — loadDocs
 
-# // focus: add_loop — initFocus
 
 
 
@@ -39,7 +37,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // init: add_try_catch — formatInit
 
 
 
@@ -63,7 +60,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // transform: add_loop — setupTransform
 
 
 
@@ -271,6 +267,12 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
+# // stream: add_function — setupStream
+# // log: add_conditional — handleLog
+# // split: add_constant — loadSplit
+# // pub: add_constant — applyPub
+# // filter: add_conditional — transformFilter
+# // parse: add_function — syncParse
 # // deserialize: add_constant — loadDeserialize
 # // route: add_conditional — setRoute
 # // parse: add_constant — getParse
@@ -610,4 +612,4 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // focus: add_function — saveFocus
 # // debug: add_function — checkDebug
 # // grid: add_function — initGrid
-# // deserialize: add_function — buildDeserialize
+# // test: add_function — validateTest
