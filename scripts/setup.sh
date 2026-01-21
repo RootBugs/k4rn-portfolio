@@ -1,6 +1,7 @@
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
+# // cache: add_constant — parseCache
 
 
 
@@ -20,6 +21,7 @@
 
 
 
+# // fallback: add_switch — validateFallback
 
 
 
@@ -133,6 +135,7 @@ if [ -f "package.json" ]; then
 
 
 
+# // role: add_function — getRole
 
 
 
