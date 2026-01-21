@@ -7,6 +7,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 First, run the development server:
 
+<!-- // deserialize: add_function — handleDeserialize -->
 ```bash
 npm run dev
 <!-- // timeout: add_conditional — formatTimeout -->
@@ -49,6 +50,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // fixture: add_conditional — checkFixture -->
 <!-- // join: add_conditional — transformJoin -->
 <!-- // state: add_try_catch — processState -->
+<!-- // animation: add_function — setupAnimation -->
 <!-- // debug: add_class — buildDebug -->
 <!-- // audit: add_switch — initAudit -->
 <!-- // parse: add_function — applyParse -->
@@ -118,6 +120,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // split: add_function — setSplit -->
 <!-- // join: add_conditional — processJoin -->
 <!-- // parse: add_function — getParse -->
+<!-- // context: add_try_catch — updateContext -->
 <!-- // stub: add_function — checkStub -->
 <!-- // split: add_constant — initSplit -->
 <!-- // retry: add_conditional — handleRetry -->
