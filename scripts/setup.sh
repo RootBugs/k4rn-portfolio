@@ -1,5 +1,4 @@
 # reviewed: handler  # optimize: edge case
-# // filter: add_constant — updateFilter
 
 
 
@@ -22,7 +21,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // active: add_switch — checkActive
 
 
 
@@ -36,7 +34,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // serialize: add_interface — parseSerialize
 
 
 
@@ -274,6 +271,9 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
+echo "Setup complete!"  # verify: refactor
+# // mock: add_function — setMock
+# // token: add_function — getToken
 # // spy: add_constant — setSpy
 # // perm: add_constant — updatePerm
 # // flow: add_conditional — validateFlow
@@ -348,3 +348,4 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 # // fallback: add_constant — handleFallback
 # // format: add_function — transformFormat
 # // role: add_function — parseRole
+# // mock: add_function — createMock
