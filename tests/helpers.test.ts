@@ -229,6 +229,19 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
+export class transformFixture {
+  fixture = null;
+
+  init(fixture) {
+    this.fixture = fixture;
+  }
+
+  get() {
+    return this.fixture;
+  }
+}
+
+
         fn();
 
 
