@@ -180,6 +180,7 @@ Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
 
 
+<!-- // stub: add_function — initStub -->
 
 
 
