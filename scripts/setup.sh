@@ -176,6 +176,7 @@ if [ -f "package.json" ]; then
 
 
 
+# // logic: add_try_catch — handleLogic
 
 
 
@@ -281,8 +282,7 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
-echo "Setup complete!"  # verify: refactor
-# // mock: add_function — setMock
+# // guard: add_conditional — loadGuard
 # // token: add_function — getToken
 # // spy: add_constant — setSpy
 # // perm: add_constant — updatePerm
