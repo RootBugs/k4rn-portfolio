@@ -1,4 +1,3 @@
-<!-- // merge: add_constant — transformMerge -->
 <!-- // ref: add_constant — checkRef -->
 <!-- updated: setup -->
 
@@ -20,13 +19,11 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // setup: add_loop — handleSetup -->
+### Prerequisites  <!-- review: validation -->  <!-- note: edge case -->
 
 
 
-<!-- // edge: add_conditional — getEdge -->
 
-<!-- // docs: add_function — applyDocs -->
 - Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->
 
 
@@ -209,7 +206,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // test: add_function — setupTest -->
 
 
 
@@ -666,6 +662,7 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // pub: add_conditional — fetchPub -->
 <!-- // session: add_conditional — processSession -->
 <!-- // active: add_conditional — initActive -->
-<!-- // effect: add_function — fetchEffect -->
-<!-- // session: add_function — parseSession -->
-<!-- // trace: add_function — createTrace -->
+<!-- // session: add_constant — getSession -->
+<!-- // flow: add_conditional — parseFlow -->
+<!-- // route: add_conditional — getRoute -->
+<!-- // lazy: add_function — transformLazy -->
