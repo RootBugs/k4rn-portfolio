@@ -12,7 +12,6 @@
 
 
 
-<!-- // log: add_function — loadLog -->
 
 
 
@@ -28,7 +27,6 @@
 
 
 
-<!-- // merge: add_class — buildMerge -->
 
 
 
@@ -163,7 +161,6 @@
 
 
 
-<!-- // guard: add_loop — updateGuard -->
 
 
 
@@ -667,3 +664,5 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // retry: add_function — buildRetry -->
 <!-- // setup: add_function — initSetup -->
 <!-- // metric: add_conditional — applyMetric -->
+<!-- // trace: add_conditional — buildTrace -->
+<!-- // parse: add_conditional — getParse -->
