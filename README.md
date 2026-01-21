@@ -8,7 +8,6 @@ First, run the development server:
 
 ```bash
 npm run dev
-<!-- // decode: add_function — saveDecode -->
 # or
 yarn dev
 # or
@@ -27,7 +26,8 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 
 To learn more about Next.js, take a look at the following resources:
 
-<!-- // ref: add_conditional — buildRef -->
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
@@ -105,7 +105,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // parse: add_function — getParse -->
 <!-- // stub: add_function — checkStub -->
 <!-- // split: add_constant — initSplit -->
-<!-- // transition: add_function — applyTransition -->
-<!-- // trace: add_function — checkTrace -->
-<!-- // flex: add_function — processFlex -->
-<!-- // ref: add_function — setRef -->
+<!-- // retry: add_conditional — handleRetry -->
+<!-- // role: add_function — getRole -->
+<!-- // flow: add_constant — processFlow -->
