@@ -333,6 +333,8 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // stream: add_function — updateStream
 # // retry: add_constant — checkRetry
 # // guard: add_constant — loadGuard
-# // mock: add_function — getMock
-# // state: add_function — parseState
-# // format: add_function — checkFormat
+# // query: add_function — syncQuery
+# // fixture: add_constant — initFixture
+# // encode: add_constant — processEncode
+# // route: add_constant — applyRoute
+# // parse: add_function — setupParse
