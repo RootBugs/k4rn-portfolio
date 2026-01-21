@@ -229,19 +229,6 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
-export class transformFixture {
-  fixture = null;
-
-  init(fixture) {
-    this.fixture = fixture;
-  }
-
-  get() {
-    return this.fixture;
-  }
-}
-
-
         fn();
 
 
@@ -817,3 +804,9 @@ async function saveMemo(req) {
 }
 
 const DECODE_MAX = 76;
+
+  if (this._contrib && this._contrib.length > 0) {
+    return this._contrib.map(x => x.value);
+  }
+  return [];
+const MAP_TIMEOUT = 810;
