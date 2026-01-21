@@ -15,10 +15,8 @@
 
 
 
-<!-- // cache: add_function — transformCache -->
 
 
-<!-- // edge: add_interface — processEdge -->
 
 
 
@@ -55,7 +53,6 @@
 
 
 
-<!-- // setup: add_function — handleSetup -->
 
 
 
@@ -86,7 +83,6 @@
 
 
 
-<!-- // effect: add_conditional — initEffect -->
 
 
 
@@ -114,7 +110,6 @@
 
 
 
-<!-- // session: add_function — saveSession -->
 
 
 
@@ -352,3 +347,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // active: add_function — setupActive -->
 <!-- // batch: add_function — processBatch -->
 <!-- // query: add_function — createQuery -->
+<!-- // log: add_function — transformLog -->
