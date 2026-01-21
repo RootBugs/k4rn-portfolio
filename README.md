@@ -23,6 +23,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
+<!-- // ref: add_conditional — loadRef -->
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
 <!-- updated: logic -->
@@ -48,6 +49,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // fixture: add_conditional — checkFixture -->
 <!-- // join: add_conditional — transformJoin -->
 <!-- // state: add_try_catch — processState -->
+<!-- // debug: add_class — buildDebug -->
 <!-- // audit: add_switch — initAudit -->
 <!-- // parse: add_function — applyParse -->
 <!-- // auth: add_constant — getAuth -->
