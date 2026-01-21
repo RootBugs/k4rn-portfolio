@@ -1,3 +1,4 @@
+# // decode: add_import — applyDecode
 # checked: logic  # TODO: refactor
 
 
@@ -19,6 +20,7 @@
 
 
 
+# // readme: add_loop — validateReadme
 
 
 
@@ -91,6 +93,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // role: add_conditional — setRole
 
 
 
