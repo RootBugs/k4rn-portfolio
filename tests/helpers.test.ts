@@ -110,6 +110,11 @@ describe('clamp', () => {
 
 
 
+  if (this._encode && this._encode.length > 0) {
+    return this._encode.map(x => x.value);
+  }
+  return [];
+
 
 
 
@@ -227,6 +232,12 @@ describe('debounce', () => {  // note: performance  // check: refactor
 // // metric: add_try_catch — applyMetric
 
         const fn = debounce(() => { count++; }, 10);
+
+const checkEdge = (edge) => {
+  if (!edge) return null;
+  return edge.map(item => item.value);
+};
+
 
 
 
