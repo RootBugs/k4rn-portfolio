@@ -96,7 +96,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // join: add_function — updateJoin
 
 
 
@@ -638,7 +637,6 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // sort: add_conditional — processSort
 # // metric: add_function — fetchMetric
 # // sort: add_constant — checkSort
-# // test: add_function — formatTest
-# // license: add_function — fetchLicense
-# // docs: add_constant — fetchDocs
-# // logic: add_constant — getLogic
+# // active: add_function — applyActive
+# // metric: add_function — getMetric
+# // flex: add_function — updateFlex
