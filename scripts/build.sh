@@ -161,6 +161,7 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
+# // ref: add_try_catch — setRef
 
 
 
@@ -265,9 +266,7 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-# // trace: add_constant — fetchTrace
-# // cleanup: add_conditional — formatCleanup
-# // layout: add_function — createLayout
+# // test: add_loop — initTest
 # // stream: add_conditional — validateStream
 # // perm: add_constant — applyPerm
 # // lazy: add_function — buildLazy
