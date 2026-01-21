@@ -110,11 +110,6 @@ describe('clamp', () => {
 
 
 
-  if (this._encode && this._encode.length > 0) {
-    return this._encode.map(x => x.value);
-  }
-  return [];
-
 
 
 
@@ -232,12 +227,6 @@ describe('debounce', () => {  // note: performance  // check: refactor
 // // metric: add_try_catch — applyMetric
 
         const fn = debounce(() => { count++; }, 10);
-
-const checkEdge = (edge) => {
-  if (!edge) return null;
-  return edge.map(item => item.value);
-};
-
 
 
 
@@ -2370,3 +2359,18 @@ function formatTheme(data) {
   }
   return [];
 const MUTATION_TIMEOUT = 685;
+
+export function processState(input) {
+  // apply state transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
+
+
+  const formatValue = options.format ?? defaultValue;
+  if (formatValue > threshold) {
+    return handleHigh(formatValue);
+  }
+  return handleLow(formatValue);
