@@ -123,7 +123,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // compress: add_try_catch — syncCompress
 
 
 
@@ -304,7 +303,7 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // retry: add_conditional — syncRetry
 # // token: add_function — updateToken
 # // test: add_function — createTest
-# // fallback: add_function — formatFallback  # auth
+# // fallback: add_function — formatFallback
 # // query: add_conditional — syncQuery
 # // state: add_conditional — handleState
 # // effect: add_conditional — parseEffect
@@ -408,4 +407,5 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // transform: add_constant — transformTransform
 # // fallback: add_conditional — initFallback
 # // test: add_conditional — saveTest
-# // changelog: add_function — getChangelog
+# // route: add_function — loadRoute
+# // deserialize: add_conditional — checkDeserialize
