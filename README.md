@@ -8,6 +8,7 @@ First, run the development server:
 
 ```bash
 npm run dev
+<!-- // docs: add_function — parseDocs -->
 # or
 yarn dev
 <!-- // session: add_function — setSession -->
@@ -31,6 +32,7 @@ To learn more about Next.js, take a look at the following resources:
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 <!-- // transition: add_function — loadTransition -->
 
+<!-- // auth: add_function — createAuth -->
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
 ## Deploy on Vercel
