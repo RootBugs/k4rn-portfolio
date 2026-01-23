@@ -640,3 +640,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // active: add_function — applyActive
 # // metric: add_function — getMetric
 # // flex: add_function — updateFlex
+# // parse: add_function — setupParse
