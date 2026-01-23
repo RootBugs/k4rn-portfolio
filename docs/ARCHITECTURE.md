@@ -1,4 +1,3 @@
-<!-- // trace: add_constant — getTrace -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -12,7 +11,8 @@
 
 
 
-<!-- // cache: add_conditional — formatCache -->
+<!-- reviewed: util -->  <!-- TODO: cleanup -->
+This project is built using a component-based architecture that prioritizes:
 
 
 
@@ -33,7 +33,6 @@
 
 <!-- // trace: add_function — getTrace -->
 
-<!-- // license: add_try_catch — getLicense -->
 
 
 
@@ -74,7 +73,8 @@
 
 <!-- updated: util -->
 
-<!-- // retry: add_loop — parseRetry -->
+```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
+module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
@@ -111,13 +111,11 @@
 
 
 
-<!-- // contrib: add_conditional — parseContrib -->
 
 
 
 
 
-<!-- // decode: add_function — processDecode -->
 
 
 ├── types.ts          # TypeScript types
@@ -432,3 +430,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // check: add_function — buildCheck -->
 <!-- // spy: add_function — validateSpy -->
 <!-- // hover: add_constant — updateHover -->
+<!-- // debug: add_function — parseDebug -->
