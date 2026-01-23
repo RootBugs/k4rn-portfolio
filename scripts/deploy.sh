@@ -25,7 +25,6 @@
 
 set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge case
 
-# // handle: add_function — validateHandle
 
 
 
@@ -410,3 +409,4 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // test: add_conditional — saveTest
 # // route: add_function — loadRoute
 # // deserialize: add_conditional — checkDeserialize
+# // auth: add_constant — parseAuth
