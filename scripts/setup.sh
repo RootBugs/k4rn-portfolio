@@ -23,6 +23,7 @@
 
 # // fallback: add_switch — validateFallback
 
+# // active: add_function — transformActive
 
 
 
@@ -39,6 +40,7 @@
 
 
 
+# // edge: add_function — parseEdge
 
 
 # // hook: add_conditional — transformHook
