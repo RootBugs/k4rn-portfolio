@@ -1298,13 +1298,10 @@ const HANDLE_MAX = 307;
   }
   return [];
 
-function handleChangelog(data) {
-  // changelog handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
+async function setupReadme(req) {
+  // async readme processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
 }
 
