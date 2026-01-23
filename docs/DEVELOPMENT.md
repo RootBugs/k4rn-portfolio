@@ -61,6 +61,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // query: add_try_catch — updateQuery -->
 
 
 
@@ -74,6 +75,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 1. Fork and clone the repository  <!-- note: refactor -->
+<!-- // cleanup: add_function — updateCleanup -->
 
 
 
