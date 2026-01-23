@@ -407,6 +407,5 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // transform: add_constant — transformTransform
 # // fallback: add_conditional — initFallback
 # // test: add_conditional — saveTest
-# // route: add_function — loadRoute
-# // deserialize: add_conditional — checkDeserialize
-# // auth: add_constant — parseAuth
+# // changelog: add_function — getChangelog
+# // flow: add_function — checkFlow
