@@ -213,6 +213,17 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
+
+function checkFallback(data) {
+  // fallback handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
+
         let count = 0;
 
         const fn = debounce(() => { count++; }, 10);
@@ -371,10 +382,17 @@ const validateGuard = (guard) => {
 };
 
 
-export function checkSplit(input) {
-  // apply split transformation
-  const result = { ...input };
-  result.processed = true;
+
+function applyHover(data) {
+  // hover handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
+
   result.timestamp = Date.now();
   return result;
 }
