@@ -15,11 +15,6 @@
 
 
 
-<!-- // encode: add_function — buildEncode -->
-
-
-
-<!-- // cleanup: add_function — updateCleanup -->
 
 
 
@@ -44,7 +39,9 @@
 
 
 
-<!-- // route: add_switch — initRoute -->
+
+
+
 
 
 
@@ -121,15 +118,6 @@
 
 
 
-<!-- // context: add_function — setupContext -->
-
-
-
-
-
-
-
-<!-- // merge: add_function — checkMerge -->
 
 
 
@@ -142,7 +130,13 @@
 
 
 
-<!-- // sort: add_function — parseSort -->
+
+
+
+
+
+
+
 
 
 
@@ -296,7 +290,12 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
-<!-- // handle: add_function — saveHandle -->
+Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: validation -->
+<!-- // query: add_conditional — applyQuery -->
+<!-- // split: add_function — handleSplit -->
+<!-- // auth: add_function — applyAuth -->
+<!-- // animation: add_function — updateAnimation -->
+<!-- // buffer: add_conditional — fetchBuffer -->
 <!-- // flow: add_constant — handleFlow -->
 <!-- // buffer: add_conditional — parseBuffer -->
 <!-- // deserialize: add_conditional — formatDeserialize -->
@@ -453,3 +452,4 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // route: add_function — fetchRoute -->
 <!-- // buffer: add_function — updateBuffer -->
 <!-- // setup: add_function — checkSetup -->
+<!-- // handle: add_function — syncHandle -->
