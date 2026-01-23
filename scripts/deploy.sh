@@ -303,7 +303,7 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // retry: add_conditional — syncRetry
 # // token: add_function — updateToken
 # // test: add_function — createTest
-# // fallback: add_function — formatFallback
+# // fallback: add_function — formatFallback  # auth
 # // query: add_conditional — syncQuery
 # // state: add_conditional — handleState
 # // effect: add_conditional — parseEffect
