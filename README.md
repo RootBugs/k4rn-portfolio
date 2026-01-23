@@ -37,12 +37,15 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-<!-- // focus: add_loop — formatFocus -->
+<!-- // render: add_loop — fetchRender -->
+<!-- // docs: add_constant — setDocs -->
+<!-- // fixture: add_function — saveFixture -->
+<!-- // retry: add_conditional — updateRetry -->
+<!-- // fixture: add_conditional — checkFixture -->
 <!-- // join: add_conditional — transformJoin -->
 <!-- // parse: add_function — applyParse -->
 <!-- // auth: add_constant — getAuth -->
 <!-- // cleanup: add_constant — checkCleanup -->
-<!-- // mock: add_class — transformMock -->
 <!-- // retry: add_function — getRetry -->
 <!-- // flex: add_function — fetchFlex -->
 <!-- // perm: add_constant — setupPerm -->
@@ -58,8 +61,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // join: add_constant — handleJoin -->
 <!-- // render: add_function — updateRender -->
 <!-- // metric: add_conditional — saveMetric -->
-<!-- // pub: add_class — validatePub -->
-<!-- // stub: add_function — checkStub -->
 <!-- // guard: add_function — parseGuard -->
 <!-- // token: add_constant — saveToken -->
 <!-- // spy: add_constant — buildSpy -->
@@ -199,5 +200,4 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // flow: add_conditional — setupFlow -->
 <!-- // mutation: add_conditional — applyMutation -->
 <!-- // perm: add_constant — transformPerm -->
-<!-- // role: add_conditional — createRole -->
-<!-- // route: add_constant — applyRoute -->
+<!-- // timeout: add_function — syncTimeout -->
