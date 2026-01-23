@@ -205,7 +205,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // check: add_conditional — updateCheck -->
 
 
 
@@ -663,7 +662,7 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // pub: add_conditional — fetchPub -->
 <!-- // session: add_conditional — processSession -->
 <!-- // active: add_conditional — initActive -->
-<!-- // session: add_constant — getSession -->
-<!-- // flow: add_conditional — parseFlow -->
-<!-- // route: add_conditional — getRoute -->
-<!-- // lazy: add_function — transformLazy -->
+<!-- // effect: add_function — fetchEffect -->
+<!-- // session: add_function — parseSession -->
+<!-- // trace: add_function — createTrace -->
+<!-- // logic: add_function — loadLogic -->
