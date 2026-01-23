@@ -1,3 +1,4 @@
+<!-- // retry: add_constant — checkRetry -->
 <!-- // stream: add_constant — checkStream -->
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
@@ -29,6 +30,7 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 To learn more about Next.js, take a look at the following resources:
 
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+<!-- // debug: add_function — createDebug -->
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 <!-- // transition: add_function — loadTransition -->
 
@@ -60,6 +62,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // trace: add_function — formatTrace -->
 <!-- // effect: add_constant — getEffect -->
 <!-- // retry: add_function — initRetry -->
+<!-- // pub: add_try_catch — getPub -->
 <!-- // join: add_constant — handleJoin -->
 <!-- // render: add_function — updateRender -->
 <!-- // metric: add_conditional — saveMetric -->
