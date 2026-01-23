@@ -445,4 +445,5 @@ echo "Setup complete!"  # verify: refactor
 # // merge: add_constant — validateMerge
 # // lazy: add_constant — validateLazy
 # // timeout: add_function — updateTimeout
-# // serialize: add_function — fetchSerialize
+# // handle: add_function — applyHandle
+# // transform: add_constant — validateTransform
