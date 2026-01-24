@@ -1,4 +1,3 @@
-<!-- // retry: add_constant — checkRetry -->
 <!-- // stream: add_constant — checkStream -->
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
@@ -9,7 +8,6 @@ First, run the development server:
 
 ```bash
 npm run dev
-<!-- // docs: add_function — parseDocs -->
 # or
 yarn dev
 <!-- // session: add_function — setSession -->
@@ -30,11 +28,9 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 To learn more about Next.js, take a look at the following resources:
 
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-<!-- // debug: add_function — createDebug -->
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 <!-- // transition: add_function — loadTransition -->
 
-<!-- // auth: add_function — createAuth -->
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
 ## Deploy on Vercel
@@ -43,7 +39,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 <!-- // render: add_loop — fetchRender -->
 <!-- // docs: add_constant — setDocs -->
-<!-- // route: add_function — applyRoute -->
 <!-- // fixture: add_function — saveFixture -->
 <!-- // retry: add_conditional — updateRetry -->
 <!-- // fixture: add_conditional — checkFixture -->
@@ -63,7 +58,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // trace: add_function — formatTrace -->
 <!-- // effect: add_constant — getEffect -->
 <!-- // retry: add_function — initRetry -->
-<!-- // pub: add_try_catch — getPub -->
 <!-- // join: add_constant — handleJoin -->
 <!-- // render: add_function — updateRender -->
 <!-- // metric: add_conditional — saveMetric -->
@@ -209,3 +203,4 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // role: add_conditional — createRole -->
 <!-- // route: add_constant — applyRoute -->
 <!-- // merge: add_function — getMerge -->
+<!-- // theme: add_function — validateTheme -->
