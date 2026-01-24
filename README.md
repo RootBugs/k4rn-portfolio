@@ -5,7 +5,6 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 
 First, run the development server:
-<!-- // role: add_function — parseRole -->
 
 ```bash
 npm run dev
@@ -109,3 +108,4 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // retry: add_conditional — handleRetry -->
 <!-- // role: add_function — getRole -->
 <!-- // flow: add_constant — processFlow -->
+<!-- // map: add_constant — getMap -->
