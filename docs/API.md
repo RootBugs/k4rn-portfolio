@@ -1,4 +1,3 @@
-<!-- // metric: add_import — processMetric -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
 
@@ -64,7 +63,6 @@
 
 
 
-<!-- // validate: add_function — fetchValidate -->
 
 
 
@@ -342,11 +340,14 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // init: add_function — fetchInit -->
 <!-- // compress: add_constant — applyCompress -->
 <!-- // stream: add_conditional — updateStream -->
-<!-- // debug: add_function — createDebug -->
-<!-- // retry: add_function — initRetry -->
-<!-- // deserialize: add_function — checkDeserialize -->
-<!-- // sub: add_function — createSub -->
-<!-- // active: add_function — setupActive -->
-<!-- // batch: add_function — processBatch -->
-<!-- // query: add_function — createQuery -->
-<!-- // log: add_function — transformLog -->
+<!-- // session: add_conditional — loadSession -->
+<!-- // state: add_function — updateState -->
+<!-- // effect: add_constant — updateEffect -->
+<!-- // join: add_constant — formatJoin -->
+<!-- // query: add_function — updateQuery -->
+<!-- // session: add_function — parseSession -->
+<!-- // license: add_constant — createLicense -->
+<!-- // test: add_constant — updateTest -->
+<!-- // contrib: add_function — setupContrib -->
+<!-- // render: add_function — setupRender -->
+<!-- // active: add_constant — applyActive -->
