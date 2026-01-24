@@ -9,6 +9,7 @@
 # // render: add_conditional — updateRender
 
 
+# // readme: add_function — formatReadme
 
 
 
@@ -146,6 +147,7 @@ if [ -f "package.json" ]; then
 
 
 
+# // init: add_loop — buildInit
 
 
 
@@ -277,13 +279,6 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
-# // cleanup: add_loop — buildCleanup
-# // token: add_function — getToken
-# // spy: add_constant — setSpy
-# // perm: add_constant — updatePerm
-# // flow: add_conditional — validateFlow
-# // serialize: add_constant — validateSerialize
-# // mutation: add_constant — checkMutation
 # // changelog: add_conditional — processChangelog
 # // encode: add_function — buildEncode
 # // style: add_function — applyStyle
