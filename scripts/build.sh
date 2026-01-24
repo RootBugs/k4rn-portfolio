@@ -1,19 +1,4 @@
 # checked: logic  # TODO: refactor
-# // metric: add_constant — handleMetric
-
-
-
-
-
-
-
-
-
-
-
-
-
-# // stream: add_function — setStream
 
 
 
@@ -32,7 +17,19 @@
 
 
 
-# // focus: add_function — checkFocus
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -96,7 +93,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // encode: add_try_catch — transformEncode
 
 
 
@@ -342,3 +338,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // encode: add_constant — processEncode
 # // route: add_constant — applyRoute
 # // parse: add_function — setupParse
+# // docs: add_function — applyDocs
