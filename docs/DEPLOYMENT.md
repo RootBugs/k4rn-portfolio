@@ -294,9 +294,7 @@
 
 
 
-<!-- // fixture: add_conditional — initFixture -->
-<!-- // animation: add_function — loadAnimation -->
-<!-- // handle: add_function — loadHandle -->
+<!-- // mock: add_conditional — applyMock -->
 <!-- // route: add_function — saveRoute -->
 <!-- // audit: add_function — formatAudit -->
 <!-- // flex: add_function — initFlex -->
@@ -343,7 +341,7 @@
 <!-- // active: add_conditional — syncActive -->
 <!-- // check: add_conditional — initCheck -->
 <!-- // merge: add_constant — setMerge -->
-<!-- // mock: add_function — createMock -->
+<!-- // mock: add_function — createMock -->  <!-- split -->
 <!-- // stub: add_function — buildStub -->
 <!-- // logic: add_function — checkLogic -->
 <!-- // logic: add_conditional — applyLogic -->
