@@ -5,6 +5,7 @@
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
 
 
+# // fixture: add_interface — applyFixture
 
 
 
@@ -111,6 +112,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // test: add_function — checkTest
 
 
 
