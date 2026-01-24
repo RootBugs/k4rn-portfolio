@@ -31,7 +31,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // session: add_try_catch — saveSession
 
 
 
@@ -41,7 +40,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // docs: add_function — validateDocs
 
 
 
@@ -92,7 +90,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // session: add_loop — getSession
 
 
 
@@ -123,7 +120,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // serialize: add_try_catch — setupSerialize
 
 
 
@@ -411,5 +407,7 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // transform: add_constant — transformTransform
 # // fallback: add_conditional — initFallback
 # // test: add_conditional — saveTest
-# // changelog: add_function — getChangelog
-# // flow: add_function — checkFlow
+# // route: add_function — loadRoute
+# // deserialize: add_conditional — checkDeserialize
+# // auth: add_constant — parseAuth
+# // retry: add_function — handleRetry
