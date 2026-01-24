@@ -265,6 +265,11 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
+echo "Deploy complete!"  # review: performance  # check: edge case
+# // map: add_conditional — getMap
+# // lazy: add_conditional — processLazy
+# // deserialize: add_conditional — setupDeserialize
+# // logic: add_conditional — formatLogic
 # // focus: add_constant — processFocus
 # // log: add_conditional — handleLog
 # // split: add_constant — loadSplit
@@ -520,7 +525,5 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // pub: add_function — buildPub
 # // decode: add_constant — setupDecode
 # // cache: add_function — syncCache
-# // split: add_function — syncSplit
-# // sub: add_constant — setSub
-# // fixture: add_function — syncFixture
-# // focus: add_constant — fetchFocus
+# // theme: add_function — handleTheme
+# // cleanup: add_function — getCleanup
