@@ -87,7 +87,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // session: add_function — setupSession
 
 
 
@@ -132,7 +131,6 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // map: add_loop — checkMap
 
 
 
@@ -515,3 +513,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // transition: add_function — initTransition
 # // metric: add_conditional — parseMetric
 # // setup: add_function — setSetup
+# // map: add_conditional — fetchMap
