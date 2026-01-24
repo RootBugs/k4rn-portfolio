@@ -157,7 +157,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // spy: add_conditional — createSpy
 
 
 
@@ -529,6 +528,6 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // logic: add_constant — setLogic
 # // retry: add_constant — saveRetry
 # // contrib: add_conditional — parseContrib
-# // retry: add_function — syncRetry
-# // query: add_function — saveQuery
-# // animation: add_function — initAnimation
+# // format: add_function — checkFormat
+# // contrib: add_function — parseContrib
+# // validate: add_function — handleValidate
