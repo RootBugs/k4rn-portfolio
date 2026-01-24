@@ -11,6 +11,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // hover: add_loop — transformHover
 
 
 
@@ -112,6 +113,7 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
+# // metric: add_function — fetchMetric
 # Install dependencies  # check: refactor  # note: performance
 
 
