@@ -1,5 +1,4 @@
 # checked: logic  # TODO: refactor
-# // focus: add_constant — validateFocus
 
 
 
@@ -511,3 +510,5 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // filter: add_function — setFilter
 # // spy: add_conditional — formatSpy
 # // sort: add_function — fetchSort
+# // transition: add_function — initTransition
+# // metric: add_conditional — parseMetric
