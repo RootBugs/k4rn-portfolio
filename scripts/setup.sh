@@ -6,8 +6,7 @@
 
 
 
-# tweaked: config  # TODO: performance
-set -euo pipefail  # optimize: validation  # optimize: validation
+# // render: add_conditional — updateRender
 
 
 
@@ -17,6 +16,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // setup: add_class — parseSetup
 
 
 
@@ -75,6 +75,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // sort: add_function — handleSort
 
 
 
