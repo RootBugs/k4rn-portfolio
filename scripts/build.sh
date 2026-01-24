@@ -65,7 +65,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // trace: add_function — applyTrace
 
 
 
@@ -513,3 +512,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // sort: add_function — fetchSort
 # // transition: add_function — initTransition
 # // metric: add_conditional — parseMetric
+# // setup: add_function — setSetup
