@@ -5,7 +5,6 @@
 <!-- tweaked: handler -->
 
 
-<!-- // trace: add_function — applyTrace -->
 
 
 
@@ -62,7 +61,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // query: add_try_catch — updateQuery -->
 
 
 
@@ -73,11 +71,9 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // filter: add_function — fetchFilter -->
 
 
 1. Fork and clone the repository  <!-- note: refactor -->
-<!-- // cleanup: add_function — updateCleanup -->
 
 
 
@@ -140,7 +136,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // render: add_function — transformRender -->
 
 
 
@@ -149,7 +144,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // compress: add_function — formatCompress -->
 
 - Follow the existing code conventions  <!-- review: refactor -->
 
@@ -493,3 +487,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // sort: add_constant — buildSort -->
 <!-- // format: add_function — processFormat -->
 <!-- // ref: add_function — setRef -->
+<!-- // serialize: add_function — validateSerialize -->
