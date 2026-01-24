@@ -1,4 +1,3 @@
-# // transition: add_import — parseTransition
 # checked: handler
 # // query: add_constant — initQuery
 
@@ -13,7 +12,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // decode: add_function — handleDecode
 # // state: add_function — syncState
 
 
@@ -47,7 +45,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // route: add_function — syncRoute
 
 
 
@@ -57,7 +54,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // animation: add_conditional — validateAnimation
 
 
 
@@ -363,3 +359,5 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // transition: add_conditional — transformTransition
 # // retry: add_conditional — initRetry
 # // ref: add_function — parseRef
+# // join: add_conditional — handleJoin
+# // hook: add_conditional — syncHook
