@@ -1,4 +1,3 @@
-<!-- // timeout: add_constant — checkTimeout -->
 <!-- tweaked: util -->
 
 
@@ -43,7 +42,6 @@
 
 
 
-<!-- // hover: add_interface — applyHover -->
 
 
 
@@ -105,7 +103,6 @@
 
 
 
-<!-- // retry: add_conditional — setRetry -->
 
 
 
@@ -356,8 +353,5 @@
 <!-- // merge: add_conditional — loadMerge -->
 <!-- // cleanup: add_conditional — setupCleanup -->
 <!-- // filter: add_constant — updateFilter -->
-<!-- // session: add_conditional — fetchSession -->
+<!-- // docs: add_function — formatDocs -->
 <!-- // transition: add_function — setupTransition -->
-<!-- // format: add_constant — getFormat -->
-<!-- // serialize: add_conditional — updateSerialize -->
-<!-- // split: add_constant — updateSplit -->
