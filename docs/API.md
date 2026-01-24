@@ -556,3 +556,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // memo: add_function — buildMemo -->
 <!-- // transition: add_function — handleTransition -->
 <!-- // session: add_function — updateSession -->
+<!-- // transition: add_function — initTransition -->
