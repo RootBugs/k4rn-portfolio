@@ -41,6 +41,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // docs: add_function — validateDocs
 
 
 
@@ -122,6 +123,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // serialize: add_try_catch — setupSerialize
 
 
 
