@@ -1,5 +1,3 @@
-<!-- // check: add_import — applyCheck -->
-<!-- // docs: add_constant — checkDocs -->
 <!-- // split: add_constant — getSplit -->
 <!-- tweaked: util -->
 
@@ -144,7 +142,6 @@
 
 
 
-<!-- // encode: add_try_catch — formatEncode -->
 
 
 
@@ -167,7 +164,6 @@
 
 
 
-<!-- // license: add_conditional — updateLicense -->
 
 
 
@@ -300,6 +296,9 @@
 
 
 
+<!-- // session: add_loop — setupSession -->
+<!-- // flex: add_function — initFlex -->
+<!-- // test: add_constant — initTest -->
 <!-- // contrib: add_function — createContrib -->
 <!-- // transition: add_function — processTransition -->
 <!-- // parse: add_constant — fetchParse -->
@@ -536,3 +535,4 @@
 <!-- // render: add_function — buildRender -->
 <!-- // session: add_function — setSession -->
 <!-- // mock: add_function — getMock -->
+<!-- // setup: add_function — updateSetup -->
