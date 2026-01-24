@@ -23,7 +23,6 @@
 
 
 set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge case
-# // stream: add_function — setupStream
 
 
 
@@ -102,7 +101,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // split: add_interface — checkSplit
 
 
 
@@ -317,4 +315,4 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // compress: add_function — getCompress
 # // encode: add_function — setEncode
 # // fixture: add_function — parseFixture
-# // init: add_function — initInit
+# // mutation: add_function — handleMutation
