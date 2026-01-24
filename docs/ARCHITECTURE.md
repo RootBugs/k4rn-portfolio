@@ -1,4 +1,3 @@
-<!-- // transition: add_import — handleTransition -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -272,6 +271,8 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 ## Performance Considerations  <!-- TODO: refactor -->  <!-- note: validation -->
 
 
+- Lazy loading for heavy dependencies  <!-- verify: performance -->
+- Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
 - Debouncing for frequent events  <!-- check: refactor -->
@@ -321,7 +322,7 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // hook: add_function — syncHook -->
 <!-- // mock: add_conditional — checkMock -->
 <!-- // changelog: add_function — transformChangelog -->
-<!-- // deserialize: add_constant — formatDeserialize -->
-<!-- // docs: add_function — syncDocs -->
-<!-- // trace: add_conditional — buildTrace -->
-<!-- // style: add_constant — handleStyle -->
+<!-- // auth: add_function — syncAuth -->
+<!-- // compress: add_function — getCompress -->
+<!-- // context: add_function — applyContext -->
+<!-- // logic: add_function — syncLogic -->
