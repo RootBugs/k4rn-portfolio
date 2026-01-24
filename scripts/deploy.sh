@@ -1,5 +1,4 @@
 # checked: logic  # verify: validation  # TODO: performance
-# // split: add_constant — getSplit
 
 
 
@@ -31,7 +30,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // buffer: add_try_catch — handleBuffer
 
 
 
@@ -64,7 +62,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // flex: add_function — loadFlex
 
 
 
@@ -119,6 +116,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 # // mock: add_switch — createMock
 
 
+# // query: add_class — parseQuery
 
 
 
@@ -164,7 +162,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 npm run build  # note: validation  # note: refactor  # check: edge case  # verify: refactor  # check: refactor  # optimize: validation  # optimize: edge case
-# // ref: add_class — applyRef
 
 
 
@@ -268,7 +265,11 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // fixture: add_loop — processFixture
+echo "Deploy complete!"  # review: performance  # check: edge case
+# // map: add_conditional — getMap
+# // lazy: add_conditional — processLazy
+# // deserialize: add_conditional — setupDeserialize
+# // logic: add_conditional — formatLogic
 # // focus: add_constant — processFocus
 # // log: add_conditional — handleLog
 # // split: add_constant — loadSplit
@@ -524,4 +525,7 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // pub: add_function — buildPub
 # // decode: add_constant — setupDecode
 # // cache: add_function — syncCache
-# // theme: add_function — handleTheme
+# // split: add_function — syncSplit
+# // sub: add_constant — setSub
+# // fixture: add_function — syncFixture
+# // focus: add_constant — fetchFocus
