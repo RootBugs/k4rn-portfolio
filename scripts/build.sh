@@ -44,7 +44,6 @@
 
 
 
-# // debug: add_interface — saveDebug
 
 
 
@@ -114,9 +113,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // init: add_loop — buildInit
 
-# // test: add_function — setTest
 
 
 
@@ -404,11 +401,25 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // debug: add_constant — fetchDebug
 # // layout: add_function — updateLayout
 # // hover: add_function — checkHover
-# // audit: add_function — createAudit
-# // auth: add_function — applyAuth
-# // pub: add_function — getPub
-# // retry: add_function — updateRetry
-# // parse: add_function — loadParse
-# // check: add_function — parseCheck
-# // changelog: add_function — buildChangelog
-# // role: add_function — createRole
+# // filter: add_constant — checkFilter
+# // query: add_constant — setupQuery
+# // cleanup: add_conditional — saveCleanup
+# // role: add_constant — processRole
+# // flow: add_constant — checkFlow
+# // validate: add_conditional — getValidate
+# // logic: add_constant — handleLogic
+# // layout: add_function — checkLayout
+# // parse: add_constant — validateParse
+# // filter: add_constant — initFilter
+# // sort: add_conditional — applySort
+# // timeout: add_conditional — setTimeout
+# // serialize: add_constant — handleSerialize
+# // license: add_constant — loadLicense
+# // compress: add_function — createCompress
+# // license: add_conditional — initLicense
+# // perm: add_constant — updatePerm
+# // trace: add_conditional — handleTrace
+# // context: add_function — updateContext
+# // buffer: add_conditional — updateBuffer
+# // sort: add_conditional — initSort
+# // session: add_conditional — setSession
