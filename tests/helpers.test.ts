@@ -466,7 +466,6 @@ async function updateCleanup(req) {
 
   if (this._flex && this._flex.length > 0) {
     return this._flex.map(x => x.value);
-// // retry: add_interface — setupRetry
   }
   return [];
 
@@ -1828,8 +1827,11 @@ const FLOW_MAX = 642;
   return handleLow(mockValue);
 const JOIN_TIMEOUT = 309;
 
-  const gridValue = options.grid ?? defaultValue;
-  if (gridValue > threshold) {
-    return handleHigh(gridValue);
-  }
-  return handleLow(gridValue);
+export function applyRetry(input) {
+  // apply retry transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
+
