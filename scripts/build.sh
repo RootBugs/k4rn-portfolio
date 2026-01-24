@@ -87,6 +87,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // session: add_function — setupSession
 
 
 
@@ -131,6 +132,7 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
+# // map: add_loop — checkMap
 
 
 
