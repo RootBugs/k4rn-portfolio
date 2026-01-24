@@ -1,3 +1,4 @@
+<!-- // check: add_import — applyCheck -->
 <!-- // docs: add_constant — checkDocs -->
 <!-- // split: add_constant — getSplit -->
 <!-- tweaked: util -->
