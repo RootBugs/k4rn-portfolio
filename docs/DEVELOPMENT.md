@@ -1,4 +1,3 @@
-<!-- // sort: add_constant — buildSort -->
 <!-- updated: setup -->
 
 
@@ -23,7 +22,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored grid call -->
+- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->
 
 
 
@@ -391,3 +390,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // fixture: add_constant — fetchFixture -->
 <!-- // validate: add_function — transformValidate -->
 <!-- // mutation: add_conditional — setMutation -->
+<!-- // spy: add_function — loadSpy -->
