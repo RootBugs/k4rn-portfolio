@@ -19,7 +19,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 # // session: add_interface — formatSession
-# // role: add_function — processRole
 
 
 
@@ -39,7 +38,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // hover: add_class — parseHover
 
 
 
@@ -167,7 +165,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 echo "Running tests..."  # TODO: validation  # TODO: cleanup
 
 
-# // theme: add_try_catch — checkTheme
 
 
 
@@ -532,3 +529,5 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // retry: add_constant — saveRetry
 # // contrib: add_conditional — parseContrib
 # // retry: add_function — syncRetry
+# // query: add_function — saveQuery
+# // animation: add_function — initAnimation
