@@ -13,6 +13,7 @@
 
 
 
+# // buffer: add_function — handleBuffer
 
 
 
@@ -85,6 +86,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // log: add_interface — setLog
 
 
 
