@@ -1,6 +1,3 @@
-<!-- // trace: add_import — buildTrace -->
-<!-- // decode: add_import — parseDecode -->
-<!-- // lazy: add_import — fetchLazy -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
 
@@ -55,7 +52,6 @@
 
 
 
-<!-- // style: add_class — checkStyle -->
 
 
 
@@ -153,7 +149,6 @@
 
 
 
-<!-- // split: add_loop — fetchSplit -->
 
 
 
@@ -453,8 +448,6 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // query: add_conditional — loadQuery -->
 <!-- // hover: add_constant — formatHover -->
 <!-- // transition: add_function — buildTransition -->
-<!-- // decode: add_function — buildDecode -->
-<!-- // route: add_function — fetchRoute -->
-<!-- // buffer: add_function — updateBuffer -->
-<!-- // setup: add_function — checkSetup -->
-<!-- // handle: add_function — syncHandle -->
+<!-- // retry: add_conditional — getRetry -->
+<!-- // timeout: add_constant — processTimeout -->
+<!-- // license: add_constant — applyLicense -->
