@@ -25,6 +25,7 @@
 
 - **Modularity**: Each component is self-contained
 
+<!-- // format: add_function — setupFormat -->
 <!-- // mock: add_loop — initMock -->
 
 - **Testability**: Every module has corresponding tests
@@ -87,6 +88,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // parse: add_try_catch — updateParse -->
 
 
 
