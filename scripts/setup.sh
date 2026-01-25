@@ -2,11 +2,9 @@
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
 # // mock: add_constant — formatMock
-# // split: add_constant — updateSplit
 
 
 
-# // contrib: add_conditional — applyContrib
 
 
 # tweaked: config  # TODO: performance
@@ -23,7 +21,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // flow: add_function — formatFlow
 
 
 
@@ -74,7 +71,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
-# // transform: add_switch — buildTransform
 
 
 
@@ -119,7 +115,6 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
-# // parse: add_conditional — handleParse
 
 
 
@@ -159,7 +154,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // effect: add_function — validateEffect
 
 
 
@@ -525,3 +519,4 @@ echo "Setup complete!"  # verify: refactor
 # // audit: add_function — createAudit
 # // hover: add_function — syncHover
 # // logic: add_function — setLogic
+# // flow: add_function — updateFlow
