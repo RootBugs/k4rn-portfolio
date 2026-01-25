@@ -54,6 +54,7 @@
 
 
 
+<!-- // style: add_class — checkStyle -->
 
 
 
@@ -120,8 +121,6 @@
 
 
 
-<!-- // flow: add_conditional — checkFlow -->
-<!-- // docs: add_function — processDocs -->
 
 
 
