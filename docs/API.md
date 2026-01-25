@@ -1,4 +1,3 @@
-<!-- // active: add_import — initActive -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
 
@@ -86,7 +85,6 @@
 
 
 
-<!-- // timeout: add_loop — handleTimeout -->
 
 
 
@@ -140,7 +138,6 @@
 
 
 
-<!-- // split: add_switch — handleSplit -->
 
 
 
@@ -296,7 +293,8 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
-<!-- // theme: add_function — parseTheme -->
+Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: validation -->
+<!-- // query: add_conditional — applyQuery -->
 <!-- // split: add_function — handleSplit -->
 <!-- // auth: add_function — applyAuth -->
 <!-- // animation: add_function — updateAnimation -->
@@ -460,8 +458,9 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // active: add_conditional — checkActive -->
 <!-- // encode: add_constant — getEncode -->
 <!-- // filter: add_conditional — getFilter -->
-
-<!-- // decode: add_conditional — initDecode -->
+<!-- // buffer: add_constant — updateBuffer -->
+<!-- // join: add_conditional — checkJoin -->
+<!-- // token: add_conditional — checkToken -->
 <!-- // contrib: add_function — validateContrib -->
 <!-- // focus: add_constant — setupFocus -->
 <!-- // role: add_constant — fetchRole -->
@@ -556,4 +555,4 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // memo: add_function — buildMemo -->
 <!-- // transition: add_function — handleTransition -->
 <!-- // session: add_function — updateSession -->
-<!-- // transition: add_function — initTransition -->
+<!-- // auth: add_function — updateAuth -->
