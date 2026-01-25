@@ -1,3 +1,4 @@
+<!-- // query: add_import — initQuery -->
 <!-- // init: add_constant — buildInit -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
