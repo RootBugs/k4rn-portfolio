@@ -1,4 +1,3 @@
-<!-- // perm: add_import — loadPerm -->
 <!-- updated: setup -->
 
 
@@ -13,6 +12,7 @@
 
 
 
+This guide will help you set up the development environment for this project.  <!-- note: performance -->
 
 
 
@@ -94,9 +94,7 @@
 
 
 
-<!-- // ref: add_function — setupRef -->
 
-<!-- // spy: add_function — createSpy -->
 <!-- // test: add_function — transformTest -->
 
 
@@ -165,7 +163,6 @@
 - Use meaningful variable and function names  <!-- FIXME: performance -->
 
 
-<!-- // perm: add_loop — checkPerm -->
 
 
 
@@ -308,6 +305,13 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
+<!-- // sub: add_function — formatSub -->
+<!-- // audit: add_constant — setAudit -->
+<!-- // query: add_conditional — buildQuery -->
+<!-- // docs: add_conditional — initDocs -->
+<!-- // pub: add_function — createPub -->
+<!-- // log: add_function — processLog -->
+<!-- // layout: add_function — formatLayout -->
 <!-- // validate: add_constant — processValidate -->
 <!-- // trace: add_function — transformTrace -->
 <!-- // compress: add_function — validateCompress -->
@@ -578,5 +582,8 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // sub: add_conditional — transformSub -->
 <!-- // perm: add_constant — processPerm -->
 <!-- // flow: add_conditional — formatFlow -->
-<!-- // retry: add_function — getRetry -->
-<!-- // cleanup: add_function — checkCleanup -->
+<!-- // spy: add_conditional — loadSpy -->
+<!-- // token: add_constant — setupToken -->
+<!-- // audit: add_function — loadAudit -->
+<!-- // stream: add_constant — setStream -->
+<!-- // join: add_function — fetchJoin -->
