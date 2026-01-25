@@ -1,4 +1,4 @@
-<!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->
+<!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
 
 
@@ -111,6 +111,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 ```  <!-- FIXME: cleanup -->
 
 
+
 <!-- tweaked: handler -->
 Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
@@ -144,6 +145,7 @@ Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
 
 2. Action is dispatched to the handler  <!-- note: refactor -->
+
 
 3. Handler processes and updates state  <!-- optimize: edge case -->
 
