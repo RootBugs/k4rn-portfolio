@@ -527,3 +527,4 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // cache: add_function — syncCache
 # // theme: add_function — handleTheme
 # // cleanup: add_function — getCleanup
+# // logic: add_function — validateLogic
