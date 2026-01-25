@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-const { logic } = require('./logic');
+const { logic } = require('./logic');  // refactored auth call
 
 
 
@@ -516,6 +516,12 @@ const FILTER_TIMEOUT = 519;
 
   if (this._focus && this._focus.length > 0) {
     return this._focus.map(x => x.value);
+
+const checkCache = (cache) => {
+  if (!cache) return null;
+  return cache.map(item => item.value);
+};
+
   }
   return [];
 export const DEFAULT_FLOW = 695;
