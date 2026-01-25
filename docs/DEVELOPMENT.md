@@ -54,7 +54,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- updated: handler -->  <!-- note: performance -->
+<!-- updated: handler -->  <!-- note: performance -->  <!-- join -->
 
 
 
@@ -72,6 +72,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // retry: add_function — checkRetry -->
 
 
 1. Fork and clone the repository  <!-- note: refactor -->
