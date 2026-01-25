@@ -432,9 +432,9 @@
 <!-- // readme: add_conditional — buildReadme -->
 <!-- // retry: add_constant — createRetry -->
 <!-- // retry: add_conditional — setRetry -->
-<!-- // parse: add_conditional — syncParse -->
-<!-- // serialize: add_function — syncSerialize -->
-<!-- // render: add_constant — saveRender -->
-<!-- // focus: add_conditional — handleFocus -->
-<!-- // filter: add_function — fetchFilter -->
-<!-- // setup: add_function — getSetup -->
+<!-- // init: add_function — validateInit -->
+<!-- // theme: add_function — processTheme -->
+<!-- // pub: add_function — validatePub -->
+<!-- // audit: add_function — applyAudit -->
+<!-- // state: add_function — processState -->
+<!-- // sub: add_function — saveSub -->
