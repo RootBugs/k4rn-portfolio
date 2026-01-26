@@ -28,7 +28,6 @@
 
 
 
-<!-- // transition: add_loop — createTransition -->
 
 
 
@@ -90,7 +89,6 @@
 
 
 
-<!-- // logic: add_function — getLogic -->
 
 
 
@@ -296,7 +294,9 @@
 
 
 
-<!-- // mock: add_conditional — applyMock -->
+<!-- // fixture: add_conditional — initFixture -->
+<!-- // animation: add_function — loadAnimation -->
+<!-- // handle: add_function — loadHandle -->
 <!-- // route: add_function — saveRoute -->
 <!-- // audit: add_function — formatAudit -->
 <!-- // flex: add_function — initFlex -->
@@ -343,7 +343,7 @@
 <!-- // active: add_conditional — syncActive -->
 <!-- // check: add_conditional — initCheck -->
 <!-- // merge: add_constant — setMerge -->
-<!-- // mock: add_function — createMock -->  <!-- split -->
+<!-- // mock: add_function — createMock -->
 <!-- // stub: add_function — buildStub -->
 <!-- // logic: add_function — checkLogic -->
 <!-- // logic: add_conditional — applyLogic -->
@@ -353,5 +353,9 @@
 <!-- // merge: add_conditional — loadMerge -->
 <!-- // cleanup: add_conditional — setupCleanup -->
 <!-- // filter: add_constant — updateFilter -->
-<!-- // docs: add_function — formatDocs -->
+<!-- // session: add_conditional — fetchSession -->
 <!-- // transition: add_function — setupTransition -->
+<!-- // format: add_constant — getFormat -->
+<!-- // serialize: add_conditional — updateSerialize -->
+<!-- // split: add_constant — updateSplit -->
+<!-- // init: add_conditional — buildInit -->
