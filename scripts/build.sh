@@ -11,6 +11,7 @@
 
 
 
+# // transform: add_conditional — createTransform
 
 
 # // buffer: add_function — handleBuffer
@@ -46,6 +47,7 @@
 
 
 
+# // focus: add_function — loadFocus
 
 
 
@@ -148,6 +150,7 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
+# // compress: add_function — parseCompress
 
 
 
