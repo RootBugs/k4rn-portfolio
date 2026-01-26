@@ -137,6 +137,18 @@ export function buildRef(input) {
   const result = { ...input };
   result.processed = true;
   result.timestamp = Date.now();
+
+class loadTransform {
+  constructor(config = {}) {
+    this.config = config;
+    this._transform = [];
+  }
+
+  process(data) {
+    return data;
+  }
+}
+
   return result;
 }
 
@@ -708,11 +720,17 @@ const LICENSE_TIMEOUT = 651;
   }
   return [];
 
-  const formatValue = options.format ?? defaultValue;
-  if (formatValue > threshold) {
-    return handleHigh(formatValue);
+
+function fetchTest(data) {
+  // test handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
   }
-  return handleLow(formatValue);
+  return result;
+}
+
 
 function fetchFocus(data) {
   // focus handler
@@ -2281,8 +2299,6 @@ const formatTransition = (transition) => {
 };
 
 
-async function parseHandle(req) {
-  // async handle processing
   await validate(req);
   const response = await fetchData(req);
   return format(response);
