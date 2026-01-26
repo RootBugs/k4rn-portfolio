@@ -53,7 +53,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // focus: add_function — syncFocus
 
 
 
@@ -155,7 +154,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // stub: add_function — transformStub
 
 
 
@@ -177,7 +175,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // logic: add_try_catch — handleLogic
 
 
 
@@ -283,7 +280,8 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
-# // guard: add_conditional — loadGuard
+echo "Setup complete!"  # verify: refactor
+# // mock: add_function — setMock
 # // token: add_function — getToken
 # // spy: add_constant — setSpy
 # // perm: add_constant — updatePerm
@@ -611,8 +609,12 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 # // trace: add_function — updateTrace
 # // check: add_conditional — saveCheck
 # // route: add_function — setupRoute
-# // transform: add_function — setupTransform
-# // cleanup: add_function — checkCleanup
-# // debug: add_function — getDebug
-# // mutation: add_function — fetchMutation
-# // flex: add_function — applyFlex
+# // fixture: add_conditional — initFixture
+# // focus: add_conditional — transformFocus
+# // format: add_conditional — parseFormat
+# // ref: add_conditional — saveRef
+# // merge: add_conditional — getMerge
+# // perm: add_constant — parsePerm
+# // edge: add_constant — initEdge
+# // batch: add_function — checkBatch
+# // role: add_function — buildRole
