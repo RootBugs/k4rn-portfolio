@@ -1,8 +1,5 @@
-# // route: add_import — validateRoute
 # checked: handler
 # // query: add_constant — initQuery
-# // transition: add_constant — createTransition
-# // merge: add_constant — saveMerge
 
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
@@ -364,3 +361,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // ref: add_function — parseRef
 # // join: add_conditional — handleJoin
 # // hook: add_conditional — syncHook
+# // compress: add_constant — initCompress
