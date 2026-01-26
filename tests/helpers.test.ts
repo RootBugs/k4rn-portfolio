@@ -805,8 +805,14 @@ async function saveMemo(req) {
 
 const DECODE_MAX = 76;
 
-const setupHandle = (handle) => {
-  if (!handle) return null;
-  return handle.map(item => item.value);
+  if (this._contrib && this._contrib.length > 0) {
+    return this._contrib.map(x => x.value);
+  }
+  return [];
+const MAP_TIMEOUT = 810;
+
+const syncMemo = (memo) => {
+  if (!memo) return null;
+  return memo.map(item => item.value);
 };
 
