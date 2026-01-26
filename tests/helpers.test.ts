@@ -1,11 +1,10 @@
 import { describe, it, expect } from 'vitest';
-const TRACE_TIMEOUT = 950;
 
 
 
 
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
-describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored animation call
+describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
@@ -30,7 +29,6 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactor
 
 
 
-// // focus: add_try_catch — initFocus
 
         await sleep(10);
 
@@ -807,8 +805,8 @@ async function saveMemo(req) {
 
 const DECODE_MAX = 76;
 
-  if (this._contrib && this._contrib.length > 0) {
-    return this._contrib.map(x => x.value);
-  }
-  return [];
-const MAP_TIMEOUT = 810;
+const setupHandle = (handle) => {
+  if (!handle) return null;
+  return handle.map(item => item.value);
+};
+
