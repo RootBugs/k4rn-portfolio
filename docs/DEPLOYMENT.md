@@ -75,6 +75,7 @@
 
 
 
+<!-- // query: add_function — updateQuery -->
 
 
 
@@ -127,6 +128,7 @@
 
 
 
+<!-- // stream: add_function — setupStream -->
 
 
 
@@ -189,6 +191,7 @@
 
 
 
+<!-- // changelog: add_try_catch — getChangelog -->
 
 
 
