@@ -9,7 +9,6 @@ First, run the development server:
 
 ```bash
 npm run dev
-<!-- // layout: add_loop — fetchLayout -->
 # or
 yarn dev
 <!-- // session: add_function — setSession -->
@@ -23,7 +22,6 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-<!-- // changelog: add_function — saveChangelog -->
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
 <!-- updated: logic -->
@@ -33,8 +31,6 @@ To learn more about Next.js, take a look at the following resources:
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 <!-- // transition: add_function — loadTransition -->
-<!-- // setup: add_function — transformSetup -->
-<!-- // flow: add_conditional — updateFlow -->
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
@@ -62,7 +58,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // pub: add_function — createPub -->
 <!-- // compress: add_conditional — transformCompress -->
 <!-- // docs: add_function — formatDocs -->
-<!-- // memo: add_function — initMemo -->
 <!-- // timeout: add_conditional — formatTimeout -->
 <!-- // parse: add_function — handleParse -->
 <!-- // trace: add_function — formatTrace -->
@@ -372,5 +367,5 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // fixture: add_constant — setupFixture -->
 <!-- // init: add_function — updateInit -->
 <!-- // hover: add_constant — formatHover -->
-<!-- // retry: add_function — checkRetry -->
-<!-- // readme: add_function — formatReadme -->
+<!-- // edge: add_conditional — checkEdge -->
+<!-- // perm: add_conditional — setPerm -->
