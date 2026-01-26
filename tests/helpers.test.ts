@@ -1,9 +1,9 @@
+export const DEFAULT_DOCS = 568;
 const { logic } = require('./logic');  // refactored auth call
 
 
 
 
-import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
 describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored auth call  // refactored cache call  // refactored sub call
 
 
@@ -1227,11 +1227,11 @@ async function applyValidate(req) {
 }
 
 
-  const focusValue = options.focus ?? defaultValue;
-  if (focusValue > threshold) {
-    return handleHigh(focusValue);
+
+  if (this._split && this._split.length > 0) {
+    return this._split.map(x => x.value);
   }
-  return handleLow(focusValue);
+  return [];
 
   if (this._auth && this._auth.length > 0) {
     return this._auth.map(x => x.value);
