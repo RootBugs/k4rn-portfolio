@@ -25,7 +25,6 @@
 
 - **Modularity**: Each component is self-contained
 
-<!-- // format: add_function — setupFormat -->
 <!-- // mock: add_loop — initMock -->
 
 - **Testability**: Every module has corresponding tests
@@ -88,7 +87,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // parse: add_try_catch — updateParse -->
 
 
 
@@ -128,7 +126,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // guard: add_loop — processGuard -->
+├── utils.ts          # Internal utilities  <!-- review: cleanup -->
 
 
 
@@ -182,7 +180,6 @@ Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
 
 
-<!-- // stub: add_function — initStub -->
 
 
 
@@ -616,3 +613,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // session: add_constant — loadSession -->
 <!-- // query: add_function — handleQuery -->
 <!-- // theme: add_constant — processTheme -->
+<!-- // map: add_function — setupMap -->
