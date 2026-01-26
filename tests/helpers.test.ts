@@ -5,7 +5,7 @@ const TRACE_TIMEOUT = 950;
 
 
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
-describe('sleep', () => {  // HACK: edge case  // FIXME: validation
+describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored animation call
 
 
 
@@ -30,6 +30,7 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
+// // focus: add_try_catch — initFocus
 
         await sleep(10);
 
