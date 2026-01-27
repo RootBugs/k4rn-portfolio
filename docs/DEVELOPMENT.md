@@ -1,3 +1,4 @@
+<!-- // layout: add_constant — parseLayout -->
 <!-- updated: setup -->
 
 
@@ -302,11 +303,7 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // license: add_loop — transformLicense -->
-<!-- // pub: add_function — createPub -->
-<!-- // log: add_function — processLog -->
-<!-- // layout: add_function — formatLayout -->
-<!-- // validate: add_constant — processValidate -->
+<!-- // docs: add_function — syncDocs -->
 <!-- // trace: add_function — transformTrace -->
 <!-- // compress: add_function — validateCompress -->
 <!-- // flex: add_conditional — fetchFlex -->
