@@ -9,6 +9,7 @@
 
 
 
+<!-- // active: add_function — applyActive -->
 
 <!-- checked: handler -->  <!-- check: cleanup -->
 
