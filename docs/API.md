@@ -9,7 +9,6 @@
 
 
 
-<!-- // active: add_function — applyActive -->
 
 <!-- checked: handler -->  <!-- check: cleanup -->
 
@@ -453,3 +452,5 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // timeout: add_constant — processTimeout -->
 <!-- // license: add_constant — applyLicense -->
 <!-- // contrib: add_conditional — applyContrib -->
+<!-- // active: add_conditional — checkActive -->
+<!-- // encode: add_constant — getEncode -->
