@@ -410,3 +410,4 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // changelog: add_function — getChangelog
 # // flow: add_function — checkFlow
 # // mutation: add_function — checkMutation
+# // effect: add_function — setupEffect
