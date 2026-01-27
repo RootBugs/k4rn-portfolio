@@ -50,7 +50,6 @@
 
 
 
-<!-- // sub: add_loop — initSub -->
 
 
 
@@ -100,7 +99,6 @@
 
 
 
-<!-- // context: add_class — fetchContext -->
 
 
 
@@ -355,6 +353,11 @@
 <!-- // merge: add_conditional — loadMerge -->
 <!-- // cleanup: add_conditional — setupCleanup -->
 <!-- // filter: add_constant — updateFilter -->
-<!-- // docs: add_function — formatDocs -->
+<!-- // session: add_conditional — fetchSession -->
 <!-- // transition: add_function — setupTransition -->
-<!-- // stream: add_function — setupStream -->
+<!-- // format: add_constant — getFormat -->
+<!-- // serialize: add_conditional — updateSerialize -->
+<!-- // split: add_constant — updateSplit -->
+<!-- // init: add_conditional — buildInit -->
+<!-- // cache: add_conditional — loadCache -->
+<!-- // buffer: add_constant — getBuffer -->
