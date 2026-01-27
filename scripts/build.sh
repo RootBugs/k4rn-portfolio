@@ -406,3 +406,4 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // changelog: add_function — buildChangelog
 # // role: add_function — createRole
 # // pub: add_function — applyPub
+# // stream: add_function — transformStream
