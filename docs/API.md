@@ -21,7 +21,6 @@
 
 
 
-<!-- // transform: add_function — updateTransform -->
 
 
 
@@ -70,7 +69,6 @@
 
 
 
-<!-- // check: add_conditional — buildCheck -->
 
 
 
@@ -450,9 +448,7 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // query: add_conditional — loadQuery -->
 <!-- // hover: add_constant — formatHover -->
 <!-- // transition: add_function — buildTransition -->
-<!-- // decode: add_function — buildDecode -->
-<!-- // route: add_function — fetchRoute -->
-<!-- // buffer: add_function — updateBuffer -->
-<!-- // setup: add_function — checkSetup -->
-<!-- // handle: add_function — syncHandle -->
-<!-- // hover: add_function — checkHover -->
+<!-- // retry: add_conditional — getRetry -->
+<!-- // timeout: add_constant — processTimeout -->
+<!-- // license: add_constant — applyLicense -->
+<!-- // contrib: add_conditional — applyContrib -->
