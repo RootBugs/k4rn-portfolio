@@ -97,6 +97,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // debug: add_function — setDebug
 
 
 # // docs: add_function — checkDocs
@@ -112,6 +113,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // lazy: add_function — syncLazy
 
 
 
