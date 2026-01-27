@@ -12,7 +12,6 @@
 
 # // batch: add_function — getBatch
 
-# // encode: add_interface — createEncode
 
 
 
@@ -30,7 +29,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // guard: add_class — initGuard
 
 
 
@@ -124,7 +122,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // retry: add_switch — buildRetry
 
 
 
@@ -414,3 +411,5 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // deserialize: add_conditional — checkDeserialize
 # // auth: add_constant — parseAuth
 # // retry: add_function — handleRetry
+# // auth: add_constant — fetchAuth
+# // focus: add_function — createFocus
