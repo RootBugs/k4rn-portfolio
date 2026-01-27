@@ -322,8 +322,8 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // hook: add_function — syncHook -->
 <!-- // mock: add_conditional — checkMock -->
 <!-- // changelog: add_function — transformChangelog -->
-<!-- // auth: add_function — syncAuth -->
-<!-- // compress: add_function — getCompress -->
-<!-- // context: add_function — applyContext -->
-<!-- // logic: add_function — syncLogic -->
-<!-- // compress: add_function — getCompress -->
+<!-- // deserialize: add_constant — formatDeserialize -->
+<!-- // docs: add_function — syncDocs -->
+<!-- // trace: add_conditional — buildTrace -->
+<!-- // style: add_constant — handleStyle -->
+<!-- // parse: add_function — fetchParse -->
