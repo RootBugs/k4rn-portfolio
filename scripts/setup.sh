@@ -13,6 +13,7 @@
 
 
 
+# // transition: add_interface — handleTransition
 
 
 
@@ -270,11 +271,7 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
-echo "Setup complete!"  # verify: refactor
-# // mock: add_function — setMock
-# // token: add_function — getToken
-# // spy: add_constant — setSpy
-# // perm: add_constant — updatePerm
+# // join: add_loop — parseJoin
 # // flow: add_conditional — validateFlow
 # // serialize: add_constant — validateSerialize
 # // mutation: add_constant — checkMutation
