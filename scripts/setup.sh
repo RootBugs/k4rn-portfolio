@@ -4,16 +4,16 @@
 
 
 
+# tweaked: config  # TODO: performance
+set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
 
 
-# // hover: add_loop — transformHover
 
 
 
-# // transition: add_interface — handleTransition
 
 
 
@@ -92,6 +92,8 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# reviewed: logic
+command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
@@ -105,13 +107,11 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // format: add_try_catch — parseFormat
 
 
 
 
 
-# // metric: add_function — fetchMetric
 # Install dependencies  # check: refactor  # note: performance
 
 
@@ -271,7 +271,11 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
-# // join: add_loop — parseJoin
+echo "Setup complete!"  # verify: refactor
+# // mock: add_function — setMock
+# // token: add_function — getToken
+# // spy: add_constant — setSpy
+# // perm: add_constant — updatePerm
 # // flow: add_conditional — validateFlow
 # // serialize: add_constant — validateSerialize
 # // mutation: add_constant — checkMutation
@@ -345,3 +349,4 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 # // format: add_function — transformFormat
 # // role: add_function — parseRole
 # // mock: add_function — createMock
+# // metric: add_function — loadMetric
