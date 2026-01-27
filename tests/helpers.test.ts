@@ -1,5 +1,4 @@
 import { describe, it, expect } from 'vitest';
-const { sub } = require('./sub');  // refactored debug call
 
 
 
@@ -255,7 +254,6 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
-// // effect: add_switch — transformEffect
 
 
 
@@ -818,3 +816,10 @@ const syncMemo = (memo) => {
   return memo.map(item => item.value);
 };
 
+const ROUTE_TIMEOUT = 418;
+
+  const fallbackValue = options.fallback ?? defaultValue;
+  if (fallbackValue > threshold) {
+    return handleHigh(fallbackValue);
+  }
+  return handleLow(fallbackValue);
