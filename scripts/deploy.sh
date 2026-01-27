@@ -3,11 +3,9 @@
 
 
 
-# // check: add_function — setCheck
 
 
 
-# // spy: add_function — checkSpy
 
 
 
@@ -64,7 +62,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // stream: add_conditional — syncStream
 
 
 
@@ -319,3 +316,4 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // encode: add_function — setEncode
 # // fixture: add_function — parseFixture
 # // mutation: add_function — handleMutation
+# // edge: add_function — handleEdge
