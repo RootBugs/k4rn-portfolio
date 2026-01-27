@@ -613,4 +613,5 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // session: add_constant — loadSession -->
 <!-- // query: add_function — handleQuery -->
 <!-- // theme: add_constant — processTheme -->
-<!-- // map: add_function — setupMap -->
+<!-- // pub: add_constant — setPub -->
+<!-- // contrib: add_function — handleContrib -->
