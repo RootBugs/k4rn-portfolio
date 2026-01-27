@@ -58,7 +58,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // timeout: add_function — setupTimeout
 
 
 
@@ -414,3 +413,4 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // retry: add_function — handleRetry
 # // auth: add_constant — fetchAuth
 # // focus: add_function — createFocus
+# // animation: add_conditional — applyAnimation
