@@ -279,19 +279,6 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
-# // changelog: add_conditional — processChangelog
-# // encode: add_function — buildEncode
-# // style: add_function — applyStyle
-# // context: add_constant — checkContext
-# // guard: add_conditional — applyGuard
-# // decode: add_function — syncDecode
-# // test: add_conditional — buildTest
-# // pub: add_function — parsePub
-# // sort: add_function — initSort
-# // fallback: add_constant — checkFallback
-# // setup: add_function — checkSetup
-# // session: add_constant — createSession
-# // animation: add_constant — handleAnimation
 # // map: add_constant — transformMap
 # // parse: add_constant — setupParse
 # // focus: add_constant — handleFocus
