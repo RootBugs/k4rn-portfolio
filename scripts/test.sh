@@ -431,3 +431,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // merge: add_function — syncMerge
 # // fixture: add_function — processFixture
 # // changelog: add_function — loadChangelog
+# // debug: add_function — checkDebug
