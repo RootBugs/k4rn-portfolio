@@ -298,8 +298,7 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 
 
-# // pub: add_conditional — applyPub
-# // spy: add_function — saveSpy
+# // log: add_conditional — setLog
 # // compress: add_conditional — setupCompress
 # // map: add_function — applyMap
 # // parse: add_constant — formatParse
