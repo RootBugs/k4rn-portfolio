@@ -49,6 +49,7 @@
 
 
 
+<!-- // stub: add_function — initStub -->
 
 
 
@@ -76,6 +77,7 @@
 
 
 
+<!-- // ref: add_class — loadRef -->
 
 
 
