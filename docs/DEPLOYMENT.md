@@ -1,4 +1,3 @@
-<!-- // trace: add_constant — handleTrace -->
 <!-- tweaked: util -->
 
 
@@ -38,7 +37,6 @@
 
 
 
-<!-- // active: add_loop — validateActive -->
 
 
 
@@ -100,7 +98,6 @@
 
 
 
-<!-- // docs: add_function — setupDocs -->
 
 
 
@@ -297,6 +294,9 @@
 
 
 
+<!-- // fixture: add_conditional — initFixture -->
+<!-- // animation: add_function — loadAnimation -->
+<!-- // handle: add_function — loadHandle -->
 <!-- // route: add_function — saveRoute -->
 <!-- // audit: add_function — formatAudit -->
 <!-- // flex: add_function — initFlex -->
@@ -353,9 +353,6 @@
 <!-- // merge: add_conditional — loadMerge -->
 <!-- // cleanup: add_conditional — setupCleanup -->
 <!-- // filter: add_constant — updateFilter -->
-<!-- // session: add_conditional — fetchSession -->
+<!-- // docs: add_function — formatDocs -->
 <!-- // transition: add_function — setupTransition -->
-<!-- // format: add_constant — getFormat -->
-<!-- // serialize: add_conditional — updateSerialize -->
-<!-- // split: add_constant — updateSplit -->
-<!-- // init: add_conditional — buildInit -->
+<!-- // stream: add_function — setupStream -->
