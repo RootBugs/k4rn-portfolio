@@ -43,6 +43,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // session: add_class — createSession -->
 
 
 
@@ -275,10 +276,7 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 - Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
-- Debouncing for frequent events  <!-- check: refactor -->
-- Proper cleanup of subscriptions and listeners  <!-- review: performance -->
-<!-- // stream: add_function — setupStream -->
-<!-- // docs: add_function — processDocs -->
+<!-- // flex: add_conditional — syncFlex -->
 <!-- // handle: add_function — setHandle -->
 <!-- // hover: add_function — syncHover -->
 <!-- // compress: add_conditional — updateCompress -->
