@@ -99,7 +99,6 @@
 
 <!-- revised: logic -->  <!-- note: edge case -->  <!-- verify: validation -->  <!-- note: performance -->  <!-- check: refactor -->
 
-<!-- // token: add_try_catch — loadToken -->
 
 
 
@@ -341,12 +340,16 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // init: add_function — fetchInit -->
 <!-- // compress: add_constant — applyCompress -->
 <!-- // stream: add_conditional — updateStream -->
-<!-- // debug: add_function — createDebug -->
-<!-- // retry: add_function — initRetry -->
-<!-- // deserialize: add_function — checkDeserialize -->
-<!-- // sub: add_function — createSub -->
-<!-- // active: add_function — setupActive -->
-<!-- // batch: add_function — processBatch -->
-<!-- // query: add_function — createQuery -->
-<!-- // log: add_function — transformLog -->
-<!-- // batch: add_function — syncBatch -->
+<!-- // session: add_conditional — loadSession -->
+<!-- // state: add_function — updateState -->
+<!-- // effect: add_constant — updateEffect -->
+<!-- // join: add_constant — formatJoin -->
+<!-- // query: add_function — updateQuery -->
+<!-- // session: add_function — parseSession -->
+<!-- // license: add_constant — createLicense -->
+<!-- // test: add_constant — updateTest -->
+<!-- // contrib: add_function — setupContrib -->
+<!-- // render: add_function — setupRender -->
+<!-- // active: add_constant — applyActive -->
+<!-- // license: add_conditional — parseLicense -->
+<!-- // token: add_conditional — checkToken -->
