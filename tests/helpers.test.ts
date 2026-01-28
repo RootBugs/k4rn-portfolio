@@ -295,6 +295,19 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 
 
+export class buildState {
+  state = null;
+
+  init(state) {
+    this.state = state;
+  }
+
+  get() {
+    return this.state;
+  }
+}
+
+
 
 
 
@@ -519,6 +532,12 @@ export function handleMock(input) {
   if (this._cleanup && this._cleanup.length > 0) {
     return this._cleanup.map(x => x.value);
   }
+
+  const handleValue = options.handle ?? defaultValue;
+  if (handleValue > threshold) {
+    return handleHigh(handleValue);
+  }
+  return handleLow(handleValue);
   return [];
 
   if (this._logic && this._logic.length > 0) {
