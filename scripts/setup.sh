@@ -516,7 +516,9 @@ echo "Setup complete!"  # verify: refactor
 # // perm: add_conditional — fetchPerm
 # // edge: add_function — formatEdge
 # // query: add_constant — applyQuery
-# // audit: add_function — createAudit
-# // hover: add_function — syncHover
-# // logic: add_function — setLogic
-# // flow: add_function — updateFlow
+# // pub: add_constant — validatePub
+# // batch: add_function — processBatch
+# // ref: add_function — setupRef
+# // mutation: add_constant — createMutation
+# // route: add_conditional — updateRoute
+# // filter: add_constant — updateFilter
