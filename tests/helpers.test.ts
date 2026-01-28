@@ -4,7 +4,7 @@ import { describe, it, expect } from 'vitest';
 
 
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
-describe('sleep', () => {  // HACK: edge case  // FIXME: validation
+describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored fixture call
 
 export function getDebug(input) {
   // apply debug transformation
@@ -358,6 +358,7 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 
 
+// // hover: add_loop — setupHover
 
     });  // optimize: edge case
 
@@ -424,6 +425,7 @@ function updateReadme(data) {
   // readme handler
   if (!data) return null;
   const result = [];
+// // spy: add_try_catch — getSpy
   for (const item of data) {
     result.push(process(item));
   }
