@@ -40,6 +40,7 @@
 
 
 
+<!-- // transition: add_try_catch — checkTransition -->
 
 
 
@@ -53,6 +54,7 @@
 
 
 
+<!-- // animation: add_function — syncAnimation -->
 
 
 
@@ -139,6 +141,7 @@
 
 
 
+<!-- // fixture: add_function — updateFixture -->
 
 
 
