@@ -1,3 +1,5 @@
+<!-- // trace: add_constant — transformTrace -->
+<!-- // cache: add_constant — syncCache -->
 <!-- // layout: add_constant — parseLayout -->
 <!-- updated: setup -->
 
