@@ -358,7 +358,6 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // animation: add_conditional — setAnimation
 # // transition: add_conditional — transformTransition
 # // retry: add_conditional — initRetry
-# // ref: add_function — parseRef
-# // join: add_conditional — handleJoin
-# // hook: add_conditional — syncHook
-# // compress: add_constant — initCompress
+# // license: add_function — setupLicense
+# // guard: add_function — loadGuard
+# // layout: add_function — buildLayout
