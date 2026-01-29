@@ -562,3 +562,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // encode: add_conditional — fetchEncode -->
 <!-- // readme: add_constant — checkReadme -->
 <!-- // merge: add_constant — initMerge -->
+<!-- // memo: add_function — setupMemo -->
