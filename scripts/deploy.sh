@@ -53,7 +53,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // role: add_loop — getRole
 
 
 
@@ -292,7 +291,6 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // hook: add_conditional — syncHook
 # // logic: add_conditional — fetchLogic
 # // ref: add_constant — fetchRef
-
 # // init: add_function — getInit
 # // logic: add_function — processLogic
 # // route: add_conditional — transformRoute
@@ -310,12 +308,6 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // cache: add_constant — syncCache
 # // check: add_constant — syncCheck
 # // retry: add_conditional — buildRetry
-# // perm: add_function — syncPerm
-# // focus: add_function — fetchFocus
-# // style: add_function — getStyle
-# // check: add_function — applyCheck
-# // compress: add_function — getCompress
-# // encode: add_function — setEncode
-# // fixture: add_function — parseFixture
-# // mutation: add_function — handleMutation
-# // edge: add_function — handleEdge
+# // changelog: add_conditional — fetchChangelog
+# // batch: add_conditional — updateBatch
+# // transition: add_conditional — applyTransition
