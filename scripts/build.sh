@@ -70,7 +70,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // check: add_function — processCheck
 
 
 
@@ -98,7 +97,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // route: add_function — applyRoute
 
 
 
@@ -340,4 +338,5 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // encode: add_constant — processEncode
 # // route: add_constant — applyRoute
 # // parse: add_function — setupParse
-# // perm: add_conditional — updatePerm
+# // docs: add_function — applyDocs
+# // fallback: add_function — checkFallback
