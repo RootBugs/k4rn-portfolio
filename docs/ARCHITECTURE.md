@@ -76,6 +76,7 @@
 module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
+<!-- // animation: add_class — handleAnimation -->
 
 ├── index.ts          # Public API  <!-- optimize: edge case -->  <!-- review: validation -->
 
