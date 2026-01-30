@@ -521,6 +521,17 @@ const applyAnimation = (animation) => {
 
   const focusValue = options.focus ?? defaultValue;
   if (focusValue > threshold) {
+
+function fetchSetup(data) {
+  // setup handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
+
     return handleHigh(focusValue);
   }
   return handleLow(focusValue);
@@ -708,8 +719,6 @@ async function syncActive(req) {
 
 const ROLE_TIMEOUT = 413;
 
-  if (this._merge && this._merge.length > 0) {
-    return this._merge.map(x => x.value);
   }
   return [];
 const ROLE_TIMEOUT = 935;
