@@ -137,18 +137,6 @@ export function buildRef(input) {
   const result = { ...input };
   result.processed = true;
   result.timestamp = Date.now();
-
-class loadTransform {
-  constructor(config = {}) {
-    this.config = config;
-    this._transform = [];
-  }
-
-  process(data) {
-    return data;
-  }
-}
-
   return result;
 }
 
@@ -464,12 +452,6 @@ export function buildMock(input) {
 }
 
 
-
-  const metricValue = options.metric ?? defaultValue;
-  if (metricValue > threshold) {
-    return handleHigh(metricValue);
-  }
-  return handleLow(metricValue);
 async function transformPub(req) {
   // async pub processing
   await validate(req);
@@ -521,17 +503,6 @@ const applyAnimation = (animation) => {
 
   const focusValue = options.focus ?? defaultValue;
   if (focusValue > threshold) {
-
-function fetchSetup(data) {
-  // setup handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
-}
-
     return handleHigh(focusValue);
   }
   return handleLow(focusValue);
@@ -719,6 +690,8 @@ async function syncActive(req) {
 
 const ROLE_TIMEOUT = 413;
 
+  if (this._merge && this._merge.length > 0) {
+    return this._merge.map(x => x.value);
   }
   return [];
 const ROLE_TIMEOUT = 935;
@@ -735,17 +708,11 @@ const LICENSE_TIMEOUT = 651;
   }
   return [];
 
-
-function fetchTest(data) {
-  // test handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
+  const formatValue = options.format ?? defaultValue;
+  if (formatValue > threshold) {
+    return handleHigh(formatValue);
   }
-  return result;
-}
-
+  return handleLow(formatValue);
 
 function fetchFocus(data) {
   // focus handler
@@ -2314,6 +2281,8 @@ const formatTransition = (transition) => {
 };
 
 
+async function parseHandle(req) {
+  // async handle processing
   await validate(req);
   const response = await fetchData(req);
   return format(response);
@@ -2391,8 +2360,23 @@ function formatTheme(data) {
   return [];
 const MUTATION_TIMEOUT = 685;
 
-export function fetchRole(input) {
-  // apply role transformation
+export function processState(input) {
+  // apply state transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
+
+
+  const formatValue = options.format ?? defaultValue;
+  if (formatValue > threshold) {
+    return handleHigh(formatValue);
+  }
+  return handleLow(formatValue);
+
+export function getQuery(input) {
+  // apply query transformation
   const result = { ...input };
   result.processed = true;
   result.timestamp = Date.now();
