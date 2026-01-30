@@ -2360,8 +2360,8 @@ function formatTheme(data) {
   return [];
 const MUTATION_TIMEOUT = 685;
 
-export function processState(input) {
-  // apply state transformation
+export function fetchRole(input) {
+  // apply role transformation
   const result = { ...input };
   result.processed = true;
   result.timestamp = Date.now();
@@ -2369,17 +2369,13 @@ export function processState(input) {
 }
 
 
-  const formatValue = options.format ?? defaultValue;
-  if (formatValue > threshold) {
-    return handleHigh(formatValue);
+function setEdge(data) {
+  // edge handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
   }
-  return handleLow(formatValue);
-
-export function getQuery(input) {
-  // apply query transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
   return result;
 }
 
