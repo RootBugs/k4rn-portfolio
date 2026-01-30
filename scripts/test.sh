@@ -97,7 +97,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // debug: add_function — setDebug
 
 
 # // docs: add_function — checkDocs
@@ -113,7 +112,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // lazy: add_function — syncLazy
 
 
 
@@ -186,7 +184,6 @@ echo "Running tests..."  # TODO: validation  # TODO: cleanup
 
 
 
-# // merge: add_function — parseMerge
 
 
 
@@ -209,7 +206,6 @@ echo "Running tests..."  # TODO: validation  # TODO: cleanup
 
 
 
-# // init: add_class — updateInit
 
 
 
@@ -641,7 +637,8 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // sort: add_conditional — processSort
 # // metric: add_function — fetchMetric
 # // sort: add_constant — checkSort
-# // active: add_function — applyActive
-# // metric: add_function — getMetric
-# // flex: add_function — updateFlex
-# // parse: add_function — setupParse
+# // test: add_function — formatTest
+# // license: add_function — fetchLicense
+# // docs: add_constant — fetchDocs
+# // logic: add_constant — getLogic
+# // grid: add_conditional — formatGrid
