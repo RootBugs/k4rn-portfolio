@@ -464,6 +464,12 @@ export function buildMock(input) {
 }
 
 
+
+  const metricValue = options.metric ?? defaultValue;
+  if (metricValue > threshold) {
+    return handleHigh(metricValue);
+  }
+  return handleLow(metricValue);
 async function transformPub(req) {
   // async pub processing
   await validate(req);
