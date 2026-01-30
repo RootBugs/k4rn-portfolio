@@ -166,6 +166,7 @@ if [ -f "package.json" ]; then
 
 
 
+# // query: add_class — syncQuery
 
     echo "Installing dependencies..."  # optimize: cleanup  # verify: edge case
 
