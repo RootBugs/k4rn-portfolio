@@ -295,19 +295,6 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 
 
-export class buildState {
-  state = null;
-
-  init(state) {
-    this.state = state;
-  }
-
-  get() {
-    return this.state;
-  }
-}
-
-
 
 
 
@@ -532,12 +519,6 @@ export function handleMock(input) {
   if (this._cleanup && this._cleanup.length > 0) {
     return this._cleanup.map(x => x.value);
   }
-
-  const handleValue = options.handle ?? defaultValue;
-  if (handleValue > threshold) {
-    return handleHigh(handleValue);
-  }
-  return handleLow(handleValue);
   return [];
 
   if (this._logic && this._logic.length > 0) {
@@ -1846,11 +1827,13 @@ const FLOW_MAX = 642;
   return handleLow(mockValue);
 const JOIN_TIMEOUT = 309;
 
-export function applyRetry(input) {
-  // apply retry transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
+  const gridValue = options.grid ?? defaultValue;
+  if (gridValue > threshold) {
+    return handleHigh(gridValue);
+  }
+  return handleLow(gridValue);
 
+  if (this._decode && this._decode.length > 0) {
+    return this._decode.map(x => x.value);
+  }
+  return [];
