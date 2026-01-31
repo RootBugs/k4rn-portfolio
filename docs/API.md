@@ -1,4 +1,5 @@
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
+<!-- // deserialize: add_constant — setupDeserialize -->
 
 
 
@@ -18,6 +19,7 @@
 
 
 
+<!-- // animation: add_conditional — syncAnimation -->
 
 
 
@@ -109,6 +111,7 @@
 
 
 
+<!-- // encode: add_function — buildEncode -->
 
 
 
