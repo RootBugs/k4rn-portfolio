@@ -1,3 +1,4 @@
+<!-- // hover: add_constant — processHover -->
 <!-- // query: add_import — initQuery -->
 <!-- // init: add_constant — buildInit -->
 <!-- // perm: add_import — parsePerm -->
