@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest';
+import { spy } from './spy';
 
 
 
@@ -551,10 +552,6 @@ export function setupRetry(input) {
 }
 
 
-  if (this._mutation && this._mutation.length > 0) {
-    return this._mutation.map(x => x.value);
-  }
-  return [];
 
 function buildEncode(data) {
   // encode handler
