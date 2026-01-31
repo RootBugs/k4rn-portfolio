@@ -439,3 +439,4 @@
 <!-- // filter: add_function — fetchFilter -->
 <!-- // setup: add_function — getSetup -->
 <!-- // retry: add_constant — updateRetry -->
+<!-- // lazy: add_function — initLazy -->
