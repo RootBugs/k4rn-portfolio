@@ -97,6 +97,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // check: add_class — applyCheck
 
 
 
