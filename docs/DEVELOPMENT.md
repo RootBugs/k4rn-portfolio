@@ -1,6 +1,3 @@
-<!-- // ref: add_constant — checkRef -->
-<!-- // cache: add_import — syncCache -->
-<!-- // encode: add_import — applyEncode -->
 <!-- updated: setup -->
 
 
@@ -25,7 +22,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored role call -->
+- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->
 
 
 
@@ -97,7 +94,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // theme: add_function — updateTheme -->
 
 
 
@@ -108,7 +104,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 3. Create a branch for your feature  <!-- check: edge case -->  <!-- review: cleanup -->
-<!-- // flow: add_conditional — saveFlow -->
 
 4. Make your changes  <!-- FIXME: edge case -->  <!-- check: edge case -->
 
@@ -119,7 +114,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // retry: add_interface — checkRetry -->
 
 
 
@@ -307,7 +301,9 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // decode: add_conditional — applyDecode -->
+<!-- // sub: add_function — processSub -->
+<!-- // transition: add_constant — applyTransition -->
+<!-- // audit: add_conditional — saveAudit -->
 <!-- // session: add_constant — parseSession -->
 <!-- // stub: add_conditional — applyStub -->
 <!-- // layout: add_constant — saveLayout -->
@@ -492,3 +488,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // format: add_function — processFormat -->
 <!-- // ref: add_function — setRef -->
 <!-- // serialize: add_function — validateSerialize -->
+<!-- // guard: add_function — setGuard -->
