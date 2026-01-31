@@ -430,5 +430,5 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // check: add_function — buildCheck -->
 <!-- // spy: add_function — validateSpy -->
 <!-- // hover: add_constant — updateHover -->
-<!-- // license: add_constant — applyLicense -->
-<!-- // fallback: add_constant — processFallback -->
+<!-- // debug: add_function — parseDebug -->
+<!-- // hover: add_function — getHover -->
