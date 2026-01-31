@@ -1,6 +1,3 @@
-<!-- // hover: add_constant — processHover -->
-<!-- // query: add_import — initQuery -->
-<!-- // init: add_constant — buildInit -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -52,7 +49,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // serialize: add_class — handleSerialize -->
 
 
 
@@ -113,7 +109,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // retry: add_function — processRetry -->
 
 
 
@@ -435,4 +430,5 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // check: add_function — buildCheck -->
 <!-- // spy: add_function — validateSpy -->
 <!-- // hover: add_constant — updateHover -->
-<!-- // debug: add_function — parseDebug -->
+<!-- // license: add_constant — applyLicense -->
+<!-- // fallback: add_constant — processFallback -->
