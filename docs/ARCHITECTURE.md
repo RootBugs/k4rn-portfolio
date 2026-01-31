@@ -1,5 +1,4 @@
 <!-- // perm: add_import — parsePerm -->
-
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
 
@@ -105,7 +104,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // layout: add_class — formatLayout -->
 
 
 
@@ -432,5 +430,6 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // check: add_function — buildCheck -->
 <!-- // spy: add_function — validateSpy -->
 <!-- // hover: add_constant — updateHover -->
-<!-- // debug: add_function — parseDebug -->
-<!-- // hover: add_function — getHover -->
+<!-- // license: add_constant — applyLicense -->
+<!-- // fallback: add_constant — processFallback -->
+<!-- // timeout: add_function — checkTimeout -->
