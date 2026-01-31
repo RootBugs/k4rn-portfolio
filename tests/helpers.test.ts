@@ -4,16 +4,7 @@ import { describe, it, expect } from 'vitest';
 
 
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
-describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored fixture call
-
-export function getDebug(input) {
-  // apply debug transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
-
+describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
@@ -222,17 +213,6 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
-
-function checkFallback(data) {
-  // fallback handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
-}
-
         let count = 0;
 
         const fn = debounce(() => { count++; }, 10);
@@ -358,7 +338,6 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 
 
-// // hover: add_loop — setupHover
 
     });  // optimize: edge case
 
@@ -392,17 +371,10 @@ const validateGuard = (guard) => {
 };
 
 
-
-function applyHover(data) {
-  // hover handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
-}
-
+export function checkSplit(input) {
+  // apply split transformation
+  const result = { ...input };
+  result.processed = true;
   result.timestamp = Date.now();
   return result;
 }
@@ -425,7 +397,6 @@ function updateReadme(data) {
   // readme handler
   if (!data) return null;
   const result = [];
-// // spy: add_try_catch — getSpy
   for (const item of data) {
     result.push(process(item));
   }
@@ -1329,6 +1300,14 @@ const HANDLE_MAX = 307;
 
 async function setupReadme(req) {
   // async readme processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
+
+async function handleCheck(req) {
+  // async check processing
   await validate(req);
   const response = await fetchData(req);
   return format(response);
