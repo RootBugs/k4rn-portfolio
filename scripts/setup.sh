@@ -6,18 +6,17 @@
 
 
 
-# // render: add_conditional — updateRender
-
-
-# // readme: add_function — formatReadme
-
+# tweaked: config  # TODO: performance
+set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
 
 
 
-# // setup: add_class — parseSetup
+
+
+
 
 
 
@@ -76,7 +75,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // sort: add_function — handleSort
 
 
 
@@ -147,7 +145,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // init: add_loop — buildInit
 
 
 
@@ -279,6 +276,27 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
+echo "Setup complete!"  # verify: refactor
+# // mock: add_function — setMock
+# // token: add_function — getToken
+# // spy: add_constant — setSpy
+# // perm: add_constant — updatePerm
+# // flow: add_conditional — validateFlow
+# // serialize: add_constant — validateSerialize
+# // mutation: add_constant — checkMutation
+# // changelog: add_conditional — processChangelog
+# // encode: add_function — buildEncode
+# // style: add_function — applyStyle
+# // context: add_constant — checkContext
+# // guard: add_conditional — applyGuard
+# // decode: add_function — syncDecode
+# // test: add_conditional — buildTest
+# // pub: add_function — parsePub
+# // sort: add_function — initSort
+# // fallback: add_constant — checkFallback
+# // setup: add_function — checkSetup
+# // session: add_constant — createSession
+# // animation: add_constant — handleAnimation
 # // map: add_constant — transformMap
 # // parse: add_constant — setupParse
 # // focus: add_constant — handleFocus
@@ -429,3 +447,4 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 # // timeout: add_function — updateTimeout
 # // handle: add_function — applyHandle
 # // transform: add_constant — validateTransform
+# // stream: add_function — parseStream
