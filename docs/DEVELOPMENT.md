@@ -1,3 +1,5 @@
+<!-- // ref: add_constant — checkRef -->
+<!-- // cache: add_import — syncCache -->
 <!-- // encode: add_import — applyEncode -->
 <!-- updated: setup -->
 
@@ -305,9 +307,7 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // sub: add_function — processSub -->
-<!-- // transition: add_constant — applyTransition -->
-<!-- // audit: add_conditional — saveAudit -->
+<!-- // decode: add_conditional — applyDecode -->
 <!-- // session: add_constant — parseSession -->
 <!-- // stub: add_conditional — applyStub -->
 <!-- // layout: add_constant — saveLayout -->
