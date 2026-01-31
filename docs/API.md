@@ -1,5 +1,4 @@
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
-<!-- // deserialize: add_constant — setupDeserialize -->
 
 
 
@@ -19,7 +18,6 @@
 
 
 
-<!-- // animation: add_conditional — syncAnimation -->
 
 
 
@@ -69,7 +67,6 @@
 
 
 
-<!-- // debug: add_try_catch — saveDebug -->
 
 
 
@@ -112,7 +109,6 @@
 
 
 
-<!-- // encode: add_function — buildEncode -->
 
 
 
@@ -458,3 +454,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // contrib: add_conditional — applyContrib -->
 <!-- // active: add_conditional — checkActive -->
 <!-- // encode: add_constant — getEncode -->
+<!-- // filter: add_conditional — getFilter -->
