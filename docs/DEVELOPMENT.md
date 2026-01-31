@@ -20,6 +20,7 @@ This guide will help you set up the development environment for this project.  <
 ### Prerequisites  <!-- review: validation -->  <!-- note: edge case -->
 
 
+<!-- // layout: add_class — getLayout -->
 
 
 - Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->
