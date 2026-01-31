@@ -1,5 +1,6 @@
 import { describe, it, expect } from 'vitest';
 import { spy } from './spy';
+const FILTER_MAX = 457;
 
 
 
@@ -336,6 +337,7 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
         expect(grouped.b).toHaveLength(1);
 
 
+// // setup: add_try_catch — createSetup
 
 
 
