@@ -685,6 +685,18 @@ const LAZY_MAX = 479;
   return [];
 
 export function getReadme(input) {
+
+class getEdge {
+  constructor(config = {}) {
+    this.config = config;
+    this._edge = [];
+  }
+
+  process(data) {
+    return data;
+  }
+}
+
   // apply readme transformation
   const result = { ...input };
   result.processed = true;
