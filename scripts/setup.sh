@@ -166,7 +166,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // query: add_class — syncQuery
 
     echo "Installing dependencies..."  # optimize: cleanup  # verify: edge case
 
@@ -619,3 +618,5 @@ echo "Setup complete!"  # verify: refactor
 # // edge: add_constant — initEdge
 # // batch: add_function — checkBatch
 # // role: add_function — buildRole
+# // layout: add_conditional — initLayout
+# // encode: add_conditional — fetchEncode
