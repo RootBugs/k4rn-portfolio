@@ -107,6 +107,7 @@
 
 
 
+<!-- // validate: add_function — formatValidate -->
 
 
 
@@ -206,6 +207,7 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
+<!-- // retry: add_function — getRetry -->
 
 
 
