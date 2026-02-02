@@ -107,6 +107,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // perm: add_class — buildPerm
 
 # // deserialize: add_function — applyDeserialize
 
@@ -139,6 +140,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // encode: add_interface — saveEncode
 
 
 
