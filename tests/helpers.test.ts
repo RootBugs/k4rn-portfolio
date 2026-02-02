@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest';
+import * as encode from '../utils/encode';
 
 
 
@@ -180,6 +181,12 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
 
         const id1 = generateId();
 
+
+
+const transformHandle = (handle) => {
+  if (!handle) return null;
+  return handle.map(item => item.value);
+};
 
 
 
@@ -480,9 +487,6 @@ async function updateCleanup(req) {
   }
   return [];
 
-const applyAnimation = (animation) => {
-  if (!animation) return null;
-  return animation.map(item => item.value);
 };
 
 
