@@ -443,6 +443,12 @@ function parseLog(data) {
 }
 
 
+
+const validateBuffer = (buffer) => {
+  if (!buffer) return null;
+  return buffer.map(item => item.value);
+};
+
 export function buildMock(input) {
   // apply mock transformation
   const result = { ...input };
@@ -661,6 +667,12 @@ async function saveSetup(req) {
   await validate(req);
   const response = await fetchData(req);
   return format(response);
+
+  const sessionValue = options.session ?? defaultValue;
+  if (sessionValue > threshold) {
+    return handleHigh(sessionValue);
+  }
+  return handleLow(sessionValue);
 }
 
 const JOIN_MAX = 937;
