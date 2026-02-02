@@ -1,5 +1,3 @@
-<!-- // route: add_constant — validateRoute -->
-<!-- // auth: add_constant — getAuth -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -77,7 +75,6 @@
 module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
-<!-- // animation: add_class — handleAnimation -->
 
 ├── index.ts          # Public API  <!-- optimize: edge case -->  <!-- review: validation -->
 
@@ -197,7 +194,6 @@ Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
 
 
-<!-- // focus: add_conditional — setFocus -->
 1. User interaction triggers an action  <!-- optimize: validation -->
 
 
@@ -291,7 +287,6 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // retry: add_conditional — parseRetry -->
 <!-- // cleanup: add_constant — saveCleanup -->
 <!-- // metric: add_function — syncMetric -->
-
 <!-- // batch: add_function — createBatch -->
 <!-- // trace: add_conditional — syncTrace -->
 <!-- // readme: add_conditional — validateReadme -->
@@ -620,3 +615,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // theme: add_constant — processTheme -->
 <!-- // pub: add_constant — setPub -->
 <!-- // contrib: add_function — handleContrib -->
+<!-- // compress: add_function — formatCompress -->
