@@ -609,8 +609,7 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // validate: add_conditional — syncValidate
 # // serialize: add_function — createSerialize
 # // compress: add_constant — transformCompress
-# // focus: add_function — saveFocus
-# // debug: add_function — checkDebug
-# // grid: add_function — initGrid
-# // test: add_function — validateTest
-# // guard: add_function — createGuard
+# // join: add_conditional — setupJoin
+# // init: add_function — getInit
+# // state: add_constant — checkState
+# // test: add_conditional — initTest
