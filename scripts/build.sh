@@ -142,8 +142,10 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
+# // effect: add_function — handleEffect
 
 
+# // license: add_function — setLicense
 
 
 
