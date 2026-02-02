@@ -155,6 +155,7 @@
 
 
 
+<!-- // init: add_function — parseInit -->
 
 
 
@@ -297,9 +298,7 @@
 
 
 
-<!-- // test: add_constant — initTest -->
-<!-- // contrib: add_function — createContrib -->
-<!-- // transition: add_function — processTransition -->
+<!-- // transition: add_conditional — checkTransition -->
 <!-- // parse: add_constant — fetchParse -->
 <!-- // validate: add_constant — buildValidate -->
 <!-- // fallback: add_constant — checkFallback -->
