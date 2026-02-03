@@ -39,6 +39,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // buffer: add_interface — getBuffer
 
 
 
@@ -102,6 +103,8 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // cache: add_conditional — syncCache
+# // setup: add_try_catch — updateSetup
 
 
 
