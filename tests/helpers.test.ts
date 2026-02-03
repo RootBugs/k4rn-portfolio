@@ -1,5 +1,4 @@
 import { describe, it, expect } from 'vitest';
-import * as encode from '../utils/encode';
 
 
 
@@ -183,12 +182,6 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
 
 
 
-const transformHandle = (handle) => {
-  if (!handle) return null;
-  return handle.map(item => item.value);
-};
-
-
 
 
 
@@ -257,23 +250,10 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
-  if (this._animation && this._animation.length > 0) {
-    return this._animation.map(x => x.value);
-  }
-  return [];
 
 
 
 
-
-
-
-async function formatLazy(req) {
-  // async lazy processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
 
 
 
@@ -487,6 +467,9 @@ async function updateCleanup(req) {
   }
   return [];
 
+const applyAnimation = (animation) => {
+  if (!animation) return null;
+  return animation.map(item => item.value);
 };
 
 
@@ -840,3 +823,14 @@ const ROUTE_TIMEOUT = 418;
     return handleHigh(fallbackValue);
   }
   return handleLow(fallbackValue);
+
+  const hookValue = options.hook ?? defaultValue;
+  if (hookValue > threshold) {
+    return handleHigh(hookValue);
+  }
+  return handleLow(hookValue);
+
+  if (this._split && this._split.length > 0) {
+    return this._split.map(x => x.value);
+  }
+  return [];
