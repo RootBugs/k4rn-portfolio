@@ -10,6 +10,7 @@
 
 
 
+# // license: add_function — setupLicense
 
 
 
