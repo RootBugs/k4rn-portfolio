@@ -55,6 +55,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // active: add_function — fetchActive
 
 
 
@@ -62,6 +63,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 # // transform: add_switch — parseTransform
+# // merge: add_loop — parseMerge
 
 
 
