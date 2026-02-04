@@ -7,7 +7,7 @@ First, run the development server:
 
 ```bash
 npm run dev
-# or
+<!-- updated: logic -->
 yarn dev
 # or  <!-- check: edge case -->
 pnpm dev
@@ -24,6 +24,7 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 
 
 ## Learn More
+
 
 To learn more about Next.js, take a look at the following resources:
 
