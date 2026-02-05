@@ -443,12 +443,6 @@ function parseLog(data) {
 }
 
 
-
-const validateBuffer = (buffer) => {
-  if (!buffer) return null;
-  return buffer.map(item => item.value);
-};
-
 export function buildMock(input) {
   // apply mock transformation
   const result = { ...input };
@@ -549,7 +543,6 @@ export function handleMock(input) {
   return [];
 
   if (this._logic && this._logic.length > 0) {
-// // retry: add_loop — getRetry
     return this._logic.map(x => x.value);
   }
   return [];
@@ -668,12 +661,6 @@ async function saveSetup(req) {
   await validate(req);
   const response = await fetchData(req);
   return format(response);
-
-  const sessionValue = options.session ?? defaultValue;
-  if (sessionValue > threshold) {
-    return handleHigh(sessionValue);
-  }
-  return handleLow(sessionValue);
 }
 
 const JOIN_MAX = 937;
@@ -686,18 +673,6 @@ const LAZY_MAX = 479;
   return [];
 
 export function getReadme(input) {
-
-class getEdge {
-  constructor(config = {}) {
-    this.config = config;
-    this._edge = [];
-  }
-
-  process(data) {
-    return data;
-  }
-}
-
   // apply readme transformation
   const result = { ...input };
   result.processed = true;
@@ -2396,6 +2371,17 @@ export function fetchRole(input) {
 
 function setEdge(data) {
   // edge handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
+
+
+function setupAnimation(data) {
+  // animation handler
   if (!data) return null;
   const result = [];
   for (const item of data) {
