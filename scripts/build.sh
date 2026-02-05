@@ -1,6 +1,4 @@
-# // role: add_import — saveRole
 # checked: logic  # TODO: refactor
-# // retry: add_constant — handleRetry
 
 
 
@@ -27,11 +25,9 @@
 
 
 
-# // style: add_conditional — getStyle
 
 
 
-# // merge: add_function — initMerge
 
 
 
@@ -70,7 +66,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // test: add_function — parseTest
 
 
 
@@ -121,7 +116,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // context: add_conditional — syncContext
 
 
 
@@ -266,7 +260,9 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-# // log: add_function — loadLog
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
 # // effect: add_function — loadEffect
 # // query: add_function — initQuery
 # // map: add_constant — updateMap
@@ -514,4 +510,8 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // filter: add_function — setFilter
 # // spy: add_conditional — formatSpy
 # // sort: add_function — fetchSort
-# // query: add_function — syncQuery
+# // transition: add_function — initTransition
+# // metric: add_conditional — parseMetric
+# // setup: add_function — setSetup
+# // map: add_conditional — fetchMap
+# // validate: add_function — updateValidate
