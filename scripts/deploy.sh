@@ -77,7 +77,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // check: add_conditional — fetchCheck
 echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HACK: refactor
 
 
@@ -526,7 +525,9 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // pub: add_function — buildPub
 # // decode: add_constant — setupDecode
 # // cache: add_function — syncCache
-# // theme: add_function — handleTheme
-# // cleanup: add_function — getCleanup
-# // logic: add_function — validateLogic
-# // grid: add_function — validateGrid
+# // split: add_function — syncSplit
+# // sub: add_constant — setSub
+# // fixture: add_function — syncFixture
+# // focus: add_constant — fetchFocus
+# // join: add_constant — saveJoin
+# // session: add_function — setSession
