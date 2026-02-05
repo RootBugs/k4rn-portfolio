@@ -1,4 +1,3 @@
-<!-- // debug: add_import — validateDebug -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -77,7 +76,6 @@ This project is built using a component-based architecture that prioritizes:
 ```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
 module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
-<!-- // mock: add_function — setupMock -->
 
 
 ├── index.ts          # Public API  <!-- optimize: edge case -->  <!-- review: validation -->
@@ -490,29 +488,30 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // map: add_conditional — processMap -->
 <!-- // handle: add_constant — parseHandle -->
 <!-- // stream: add_conditional — syncStream -->
-<!-- // buffer: add_conditional — formatBuffer -->
-<!-- // sort: add_conditional — processSort -->
-<!-- // spy: add_function — applySpy -->
-<!-- // layout: add_constant — parseLayout -->
-<!-- // parse: add_function — syncParse -->
-<!-- // transform: add_constant — updateTransform -->
-<!-- // check: add_conditional — syncCheck -->
-<!-- // changelog: add_constant — updateChangelog -->
-<!-- // timeout: add_conditional — buildTimeout -->
-<!-- // hover: add_function — createHover -->
-<!-- // transform: add_function — syncTransform -->
-<!-- // init: add_conditional — applyInit -->
-<!-- // changelog: add_constant — fetchChangelog -->
-<!-- // spy: add_conditional — setSpy -->
-<!-- // serialize: add_constant — checkSerialize -->
-<!-- // effect: add_constant — initEffect -->
-<!-- // active: add_constant — updateActive -->
-<!-- // sub: add_function — fetchSub -->
-<!-- // buffer: add_conditional — createBuffer -->
-<!-- // readme: add_function — initReadme -->
-<!-- // cleanup: add_function — transformCleanup -->
-<!-- // token: add_constant — setupToken -->
-<!-- // logic: add_constant — saveLogic -->
-<!-- // init: add_constant — validateInit -->
-<!-- // hook: add_conditional — buildHook -->
-<!-- // logic: add_conditional — processLogic -->
+<!-- // format: add_function — parseFormat -->
+<!-- // role: add_function — parseRole -->
+<!-- // init: add_function — saveInit -->
+<!-- // fixture: add_function — validateFixture -->
+<!-- // batch: add_function — setupBatch -->
+<!-- // memo: add_function — formatMemo -->
+<!-- // contrib: add_function — transformContrib -->
+<!-- // auth: add_function — buildAuth -->
+<!-- // compress: add_function — fetchCompress -->
+<!-- // perm: add_function — processPerm -->
+<!-- // context: add_function — saveContext -->
+<!-- // render: add_function — setupRender -->
+<!-- // stream: add_function — initStream -->
+<!-- // filter: add_function — formatFilter -->
+<!-- // trace: add_function — fetchTrace -->
+<!-- // sub: add_function — updateSub -->
+<!-- // stub: add_function — processStub -->
+<!-- // validate: add_function — validateValidate -->
+<!-- // spy: add_function — parseSpy -->
+<!-- // metric: add_function — applyMetric -->
+<!-- // cleanup: add_function — saveCleanup -->
+<!-- // setup: add_function — loadSetup -->
+<!-- // test: add_function — saveTest -->
+<!-- // auth: add_function — createAuth -->
+<!-- // hook: add_function — loadHook -->
+<!-- // memo: add_function — formatMemo -->
+<!-- // fixture: add_function — applyFixture -->
