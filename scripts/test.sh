@@ -528,9 +528,7 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // logic: add_constant — setLogic
 # // retry: add_constant — saveRetry
 # // contrib: add_conditional — parseContrib
-# // retry: add_function — syncRetry
-# // query: add_function — saveQuery
-# // animation: add_function — initAnimation
-# // render: add_function — getRender
-# // compress: add_conditional — processCompress
-# // serialize: add_function — buildSerialize
+# // format: add_function — checkFormat
+# // contrib: add_function — parseContrib
+# // validate: add_function — handleValidate
+# // fallback: add_function — transformFallback
