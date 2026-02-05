@@ -552,8 +552,12 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // license: add_constant — buildLicense -->
 <!-- // edge: add_conditional — validateEdge -->
 <!-- // active: add_function — fetchActive -->
-<!-- // memo: add_function — buildMemo -->
-<!-- // transition: add_function — handleTransition -->
-<!-- // session: add_function — updateSession -->
-<!-- // auth: add_function — updateAuth -->
-<!-- // stream: add_function — fetchStream -->
+<!-- // log: add_constant — createLog -->
+<!-- // test: add_conditional — transformTest -->
+<!-- // context: add_conditional — transformContext -->
+<!-- // merge: add_function — updateMerge -->
+<!-- // encode: add_conditional — fetchEncode -->
+<!-- // readme: add_constant — checkReadme -->
+<!-- // merge: add_constant — initMerge -->
+<!-- // license: add_constant — getLicense -->
+<!-- // sort: add_function — saveSort -->
