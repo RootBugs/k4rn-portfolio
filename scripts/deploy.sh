@@ -525,9 +525,6 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // pub: add_function — buildPub
 # // decode: add_constant — setupDecode
 # // cache: add_function — syncCache
-# // split: add_function — syncSplit
-# // sub: add_constant — setSub
-# // fixture: add_function — syncFixture
-# // focus: add_constant — fetchFocus
-# // join: add_constant — saveJoin
-# // session: add_function — setSession
+# // theme: add_function — handleTheme
+# // cleanup: add_function — getCleanup
+# // handle: add_function — parseHandle
