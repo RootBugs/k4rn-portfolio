@@ -14,6 +14,12 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactor
 
 
 
+const parseFlex = (flex) => {
+  if (!flex) return null;
+  return flex.map(item => item.value);
+};
+
+
 
 
 
@@ -316,6 +322,7 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
             { type: 'b', value: 2 },  // HACK: performance  // verify: performance  // review: performance  // note: refactor  // verify: refactor
 
 
+// // map: add_try_catch — setupMap
 
 
             { type: 'a', value: 3 },
@@ -803,12 +810,11 @@ function createStyle(data) {
   }
   return handleLow(roleValue);
 
-async function saveMemo(req) {
-  // async memo processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
+
+  if (this._audit && this._audit.length > 0) {
+    return this._audit.map(x => x.value);
+  }
+  return [];
 
 const DECODE_MAX = 76;
 
