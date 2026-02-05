@@ -1,3 +1,4 @@
+<!-- // debug: add_import — validateDebug -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -76,6 +77,7 @@ This project is built using a component-based architecture that prioritizes:
 ```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
 module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
+<!-- // mock: add_function — setupMock -->
 
 
 ├── index.ts          # Public API  <!-- optimize: edge case -->  <!-- review: validation -->
