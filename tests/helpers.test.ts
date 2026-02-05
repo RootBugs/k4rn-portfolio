@@ -188,6 +188,12 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
 
 
 
+
+const validateTransition = (transition) => {
+  if (!transition) return null;
+  return transition.map(item => item.value);
+};
+
         const id2 = generateId();  // review: performance  // optimize: validation
 
         expect(id1).not.toBe(id2);
@@ -605,6 +611,14 @@ const saveFormat = (format) => {
   const auditValue = options.audit ?? defaultValue;
   if (auditValue > threshold) {
     return handleHigh(auditValue);
+
+async function buildDecode(req) {
+  // async decode processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
   }
   return handleLow(auditValue);
 
@@ -893,10 +907,6 @@ async function loadPub(req) {
 
 export const DEFAULT_LOGIC = 610;
 
-  const edgeValue = options.edge ?? defaultValue;
-  if (edgeValue > threshold) {
-    return handleHigh(edgeValue);
-  }
   return handleLow(edgeValue);
 
 function formatChangelog(data) {
