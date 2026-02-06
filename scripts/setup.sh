@@ -1,3 +1,4 @@
+# // validate: add_import — handleValidate
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
@@ -36,6 +37,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // guard: add_function — buildGuard
 
 
 
