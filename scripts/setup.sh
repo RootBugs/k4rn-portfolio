@@ -24,7 +24,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // sub: add_conditional — parseSub
 
 
 
@@ -347,7 +346,10 @@ echo "Setup complete!"  # verify: refactor
 # // hook: add_function — validateHook
 # // theme: add_function — parseTheme
 # // fallback: add_constant — handleFallback
-# // format: add_function — transformFormat
-# // role: add_function — parseRole
-# // mock: add_function — createMock
-# // metric: add_function — loadMetric
+# // join: add_conditional — applyJoin
+# // flow: add_constant — parseFlow
+# // ref: add_constant — parseRef
+# // token: add_constant — syncToken
+# // join: add_conditional — syncJoin
+# // license: add_function — getLicense
+# // hover: add_conditional — saveHover
