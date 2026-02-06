@@ -45,7 +45,6 @@
 
 
 
-<!-- // format: add_class — handleFormat -->
 
 
 
@@ -108,7 +107,6 @@
 
 
 
-<!-- // validate: add_function — formatValidate -->
 
 
 
@@ -194,7 +192,6 @@
 
 
 
-<!-- // role: add_conditional — processRole -->
 
 
 
@@ -209,7 +206,6 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
-<!-- // retry: add_function — getRetry -->
 
 
 
@@ -296,6 +292,8 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
+<!-- // auth: add_function — applyAuth -->
+<!-- // animation: add_function — updateAnimation -->
 <!-- // buffer: add_conditional — fetchBuffer -->
 <!-- // flow: add_constant — handleFlow -->
 <!-- // buffer: add_conditional — parseBuffer -->
@@ -670,3 +668,4 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // parse: add_conditional — getParse -->
 <!-- // token: add_constant — createToken -->
 <!-- // changelog: add_conditional — checkChangelog -->
+<!-- // fixture: add_function — saveFixture -->
