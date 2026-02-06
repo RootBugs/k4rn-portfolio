@@ -1,5 +1,4 @@
 # checked: logic  # TODO: refactor
-# // transform: add_constant — initTransform
 
 
 
@@ -95,7 +94,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // retry: add_function — createRetry
 
 
 
@@ -340,6 +338,6 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // encode: add_constant — processEncode
 # // route: add_constant — applyRoute
 # // parse: add_function — setupParse
-# // docs: add_function — applyDocs
-# // fallback: add_function — checkFallback
-# // session: add_function — getSession
+# // perm: add_conditional — updatePerm
+# // compress: add_constant — createCompress
+# // test: add_constant — processTest
