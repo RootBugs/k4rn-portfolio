@@ -15,6 +15,7 @@
 
 
 
+<!-- // fixture: add_conditional — setFixture -->
 
 
 
@@ -290,8 +291,7 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
-Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: validation -->
-<!-- // query: add_conditional — applyQuery -->
+<!-- // flex: add_function — getFlex -->
 <!-- // split: add_function — handleSplit -->
 <!-- // auth: add_function — applyAuth -->
 <!-- // animation: add_function — updateAnimation -->
