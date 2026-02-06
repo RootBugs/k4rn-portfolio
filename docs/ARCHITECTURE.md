@@ -1,4 +1,3 @@
-<!-- // stream: add_import — parseStream -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -6,14 +5,12 @@
 
 
 
-<!-- // fallback: add_function — formatFallback -->
 
 
 
 
 
 <!-- // context: add_function — loadContext -->
-<!-- // perm: add_function — setPerm -->
 
 
 
@@ -74,7 +71,8 @@
 
 <!-- updated: util -->
 
-<!-- // encode: add_conditional — formatEncode -->
+```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
+module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
@@ -275,9 +273,13 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 ## Performance Considerations  <!-- TODO: refactor -->  <!-- note: validation -->
 
 
+- Lazy loading for heavy dependencies  <!-- verify: performance -->
+- Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
-<!-- // init: add_conditional — updateInit -->
+<!-- // handle: add_function — setHandle -->
+<!-- // hover: add_function — syncHover -->
+<!-- // compress: add_conditional — updateCompress -->
 <!-- // batch: add_function — updateBatch -->
 <!-- // sub: add_constant — setSub -->
 <!-- // metric: add_function — updateMetric -->
@@ -443,7 +445,6 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // compress: add_function — createCompress -->
 <!-- // cleanup: add_function — checkCleanup -->
 <!-- // logic: add_function — loadLogic -->
-
 <!-- // cleanup: add_function — loadCleanup -->
 <!-- // lazy: add_constant — setLazy -->
 <!-- // transform: add_constant — applyTransform -->
@@ -473,7 +474,7 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // fallback: add_constant — formatFallback -->
 <!-- // spy: add_conditional — processSpy -->
 <!-- // hook: add_constant — syncHook -->
-<!-- // cleanup: add_function — createCleanup -->  <!-- render -->
+<!-- // cleanup: add_function — createCleanup -->
 <!-- // effect: add_function — setEffect -->
 <!-- // guard: add_conditional — createGuard -->
 <!-- // focus: add_function — updateFocus -->
@@ -615,3 +616,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // pub: add_constant — setPub -->
 <!-- // contrib: add_function — handleContrib -->
 <!-- // compress: add_function — formatCompress -->
+<!-- // sort: add_function — saveSort -->
