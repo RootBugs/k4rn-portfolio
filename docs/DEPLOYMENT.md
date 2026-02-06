@@ -1,4 +1,3 @@
-<!-- // sub: add_constant — syncSub -->
 <!-- // split: add_constant — getSplit -->
 <!-- tweaked: util -->
 
@@ -39,7 +38,6 @@
 
 
 
-<!-- // flow: add_function — handleFlow -->
 
 
 
@@ -150,7 +148,6 @@
 
 
 
-<!-- // retry: add_try_catch — parseRetry -->
 
 
 
@@ -158,7 +155,6 @@
 
 
 
-<!-- // init: add_function — parseInit -->
 
 
 
@@ -301,7 +297,9 @@
 
 
 
-<!-- // transition: add_conditional — checkTransition -->
+<!-- // test: add_constant — initTest -->
+<!-- // contrib: add_function — createContrib -->
+<!-- // transition: add_function — processTransition -->
 <!-- // parse: add_constant — fetchParse -->
 <!-- // validate: add_constant — buildValidate -->
 <!-- // fallback: add_constant — checkFallback -->
@@ -630,18 +628,26 @@
 <!-- // init: add_function — buildInit -->
 <!-- // setup: add_function — buildSetup -->
 <!-- // active: add_function — syncActive -->
-<!-- // changelog: add_function — initChangelog -->
-<!-- // session: add_function — processSession -->
-<!-- // style: add_function — buildStyle -->
-<!-- // docs: add_function — applyDocs -->
-<!-- // handle: add_function — loadHandle -->
-<!-- // encode: add_function — initEncode -->
-<!-- // fixture: add_function — checkFixture -->
-<!-- // setup: add_function — createSetup -->
-<!-- // stub: add_function — setStub -->
-<!-- // hook: add_function — setupHook -->
-<!-- // license: add_function — fetchLicense -->
-<!-- // memo: add_function — processMemo -->
-<!-- // license: add_function — getLicense -->
-<!-- // sort: add_function — parseSort -->
-<!-- // session: add_function — saveSession -->
+<!-- // serialize: add_constant — updateSerialize -->
+<!-- // docs: add_function — buildDocs -->
+<!-- // init: add_constant — parseInit -->
+<!-- // focus: add_function — createFocus -->
+<!-- // map: add_function — syncMap -->
+<!-- // metric: add_function — syncMetric -->
+<!-- // deserialize: add_constant — getDeserialize -->
+<!-- // decode: add_conditional — formatDecode -->
+<!-- // flow: add_constant — getFlow -->
+<!-- // hook: add_conditional — setupHook -->
+<!-- // compress: add_conditional — initCompress -->
+<!-- // handle: add_conditional — formatHandle -->
+<!-- // flow: add_conditional — syncFlow -->
+<!-- // session: add_constant — saveSession -->
+<!-- // token: add_conditional — checkToken -->
+<!-- // debug: add_constant — processDebug -->
+<!-- // auth: add_conditional — setAuth -->
+<!-- // split: add_function — getSplit -->
+<!-- // serialize: add_constant — fetchSerialize -->
+<!-- // hook: add_conditional — saveHook -->
+<!-- // join: add_function — fetchJoin -->
+<!-- // cache: add_conditional — parseCache -->
+<!-- // validate: add_function — processValidate -->
