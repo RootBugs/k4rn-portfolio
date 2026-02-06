@@ -1,6 +1,3 @@
-<!-- // trace: add_constant — transformTrace -->
-<!-- // cache: add_constant — syncCache -->
-<!-- // layout: add_constant — parseLayout -->
 <!-- updated: setup -->
 
 
@@ -53,15 +50,12 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // cache: add_conditional — processCache -->
 
 
 
 <!-- updated: handler -->  <!-- note: performance -->
 
 
-<!-- // route: add_function — loadRoute -->
-<!-- // style: add_conditional — transformStyle -->
 
 
 
@@ -85,7 +79,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // parse: add_function — processParse -->
 
 
 
@@ -308,7 +301,19 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // docs: add_function — syncDocs -->
+<!-- // sub: add_function — processSub -->
+<!-- // transition: add_constant — applyTransition -->
+<!-- // audit: add_conditional — saveAudit -->
+<!-- // session: add_constant — parseSession -->
+<!-- // stub: add_conditional — applyStub -->
+<!-- // layout: add_constant — saveLayout -->
+<!-- // audit: add_constant — setAudit -->
+<!-- // query: add_conditional — buildQuery -->
+<!-- // docs: add_conditional — initDocs -->
+<!-- // pub: add_function — createPub -->
+<!-- // log: add_function — processLog -->
+<!-- // layout: add_function — formatLayout -->
+<!-- // validate: add_constant — processValidate -->
 <!-- // trace: add_function — transformTrace -->
 <!-- // compress: add_function — validateCompress -->
 <!-- // flex: add_conditional — fetchFlex -->
@@ -384,3 +389,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // cleanup: add_constant — parseCleanup -->
 <!-- // fixture: add_constant — fetchFixture -->
 <!-- // spy: add_function — formatSpy -->
+<!-- // grid: add_function — processGrid -->
