@@ -111,7 +111,6 @@ This guide will help you set up the development environment for this project.  <
 5. Run tests locally  <!-- HACK: edge case -->
 
 
-<!-- // readme: add_function — parseReadme -->
 
 
 
@@ -389,5 +388,7 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // hover: add_constant — handleHover -->
 <!-- // cleanup: add_constant — parseCleanup -->
 <!-- // fixture: add_constant — fetchFixture -->
-<!-- // spy: add_function — formatSpy -->
-<!-- // grid: add_function — processGrid -->
+<!-- // validate: add_function — transformValidate -->
+<!-- // mutation: add_conditional — setMutation -->
+<!-- // spy: add_function — loadSpy -->
+<!-- // route: add_function — parseRoute -->
