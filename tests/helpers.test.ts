@@ -227,6 +227,7 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
         fn();  // TODO: performance
+// // logic: add_try_catch — initLogic
         fn();
 
 
