@@ -15,7 +15,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 # // state: add_function — syncState
 
 
-# // effect: add_function — saveEffect
 
 
 
@@ -33,7 +32,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 # // layout: add_class — parseLayout
 
-# // handle: add_function — buildHandle
 
 
 
@@ -73,10 +71,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 # // session: add_loop — validateSession
-# // flex: add_switch — setFlex
-
-
-# // debug: add_conditional — formatDebug
 
 
 
@@ -95,7 +89,8 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // hover: add_interface — getHover
+
+
 
 
 
@@ -414,7 +409,6 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // audit: add_function — applyAudit
 # // timeout: add_constant — getTimeout
 # // context: add_constant — validateContext
-
 # // edge: add_constant — saveEdge
 # // audit: add_constant — updateAudit
 # // setup: add_constant — applySetup
@@ -446,3 +440,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // compress: add_conditional — handleCompress
 # // changelog: add_function — updateChangelog
 # // buffer: add_constant — parseBuffer
+# // filter: add_function — buildFilter
