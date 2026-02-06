@@ -45,6 +45,7 @@
 
 
 
+<!-- // format: add_class — handleFormat -->
 
 
 
@@ -193,6 +194,7 @@
 
 
 
+<!-- // role: add_conditional — processRole -->
 
 
 
