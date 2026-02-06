@@ -17,7 +17,6 @@
 
 
 
-<!-- // hover: add_function — getHover -->
 
 
 
@@ -291,7 +290,15 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
-<!-- // init: add_function — validateInit -->
+Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: validation -->
+<!-- // query: add_conditional — applyQuery -->
+<!-- // split: add_function — handleSplit -->
+<!-- // auth: add_function — applyAuth -->
+<!-- // animation: add_function — updateAnimation -->
+<!-- // buffer: add_conditional — fetchBuffer -->
+<!-- // flow: add_constant — handleFlow -->
+<!-- // buffer: add_conditional — parseBuffer -->
+<!-- // deserialize: add_conditional — formatDeserialize -->
 <!-- // retry: add_constant — formatRetry -->
 <!-- // sub: add_conditional — initSub -->
 <!-- // audit: add_constant — parseAudit -->
@@ -333,16 +340,13 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // init: add_function — fetchInit -->
 <!-- // compress: add_constant — applyCompress -->
 <!-- // stream: add_conditional — updateStream -->
-<!-- // session: add_conditional — loadSession -->
-<!-- // state: add_function — updateState -->
-<!-- // effect: add_constant — updateEffect -->
-<!-- // join: add_constant — formatJoin -->
-<!-- // query: add_function — updateQuery -->
-<!-- // session: add_function — parseSession -->
-<!-- // license: add_constant — createLicense -->
-<!-- // test: add_constant — updateTest -->
-<!-- // contrib: add_function — setupContrib -->
-<!-- // render: add_function — setupRender -->
-<!-- // active: add_constant — applyActive -->
-<!-- // license: add_conditional — parseLicense -->
-<!-- // token: add_conditional — checkToken -->
+<!-- // debug: add_function — createDebug -->
+<!-- // retry: add_function — initRetry -->
+<!-- // deserialize: add_function — checkDeserialize -->
+<!-- // sub: add_function — createSub -->
+<!-- // active: add_function — setupActive -->
+<!-- // batch: add_function — processBatch -->
+<!-- // query: add_function — createQuery -->
+<!-- // log: add_function — transformLog -->
+<!-- // batch: add_function — syncBatch -->
+<!-- // fixture: add_function — checkFixture -->
