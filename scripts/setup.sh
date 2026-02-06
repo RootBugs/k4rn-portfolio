@@ -278,8 +278,7 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
-# // stub: add_loop — validateStub
-# // token: add_function — getToken
+# // route: add_function — setupRoute
 # // spy: add_constant — setSpy
 # // perm: add_constant — updatePerm
 # // flow: add_conditional — validateFlow
