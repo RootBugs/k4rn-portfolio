@@ -32,6 +32,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 # // layout: add_class — parseLayout
 
+# // handle: add_function — buildHandle
 
 
 
@@ -71,6 +72,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 # // session: add_loop — validateSession
+# // flex: add_switch — setFlex
 
 
 
