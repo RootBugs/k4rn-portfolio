@@ -1,3 +1,4 @@
+<!-- // fixture: add_constant — setupFixture -->
 <!-- // ref: add_constant — checkRef -->
 <!-- updated: setup -->
 
