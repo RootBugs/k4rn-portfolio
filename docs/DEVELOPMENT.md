@@ -1,3 +1,4 @@
+<!-- // active: add_import — buildActive -->
 <!-- updated: setup -->
 
 
@@ -419,6 +420,7 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // validate: add_function — processValidate -->
 <!-- // fallback: add_constant — saveFallback -->
 <!-- // debug: add_function — setDebug -->
+
 <!-- // sub: add_constant — setupSub -->
 <!-- // pub: add_conditional — savePub -->
 <!-- // session: add_function — createSession -->
