@@ -56,6 +56,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 # // theme: add_class — processTheme
 
+# // role: add_loop — getRole
 
 
 
@@ -134,6 +135,7 @@ if [ -f "package.json" ]; then
 
 
 
+# // docs: add_loop — applyDocs
 
 
 
@@ -276,8 +278,7 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
-echo "Setup complete!"  # verify: refactor
-# // mock: add_function — setMock
+# // stub: add_loop — validateStub
 # // token: add_function — getToken
 # // spy: add_constant — setSpy
 # // perm: add_constant — updatePerm
