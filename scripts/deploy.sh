@@ -1,5 +1,3 @@
-# // role: add_import — saveRole
-# // perm: add_import — loadPerm
 # checked: logic  # verify: validation  # TODO: performance
 
 
@@ -108,7 +106,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // perm: add_class — buildPerm
 
 # // deserialize: add_function — applyDeserialize
 
@@ -141,7 +138,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // encode: add_interface — saveEncode
 
 
 
@@ -271,6 +267,8 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
+# // stream: add_function — setupStream
+# // log: add_conditional — handleLog
 # // split: add_constant — loadSplit
 # // pub: add_constant — applyPub
 # // filter: add_conditional — transformFilter
@@ -615,3 +613,4 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // init: add_function — getInit
 # // state: add_constant — checkState
 # // test: add_conditional — initTest
+# // format: add_function — setFormat
