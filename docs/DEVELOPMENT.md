@@ -38,6 +38,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // effect: add_function — saveEffect -->
 
 
 - A code editor (VS Code recommended)  <!-- check: performance -->  <!-- FIXME: refactor -->  <!-- review: edge case -->
