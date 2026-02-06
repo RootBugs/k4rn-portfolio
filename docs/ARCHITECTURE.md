@@ -12,6 +12,7 @@
 
 
 <!-- // context: add_function — loadContext -->
+<!-- // perm: add_function — setPerm -->
 
 
 
@@ -273,8 +274,6 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 ## Performance Considerations  <!-- TODO: refactor -->  <!-- note: validation -->
 
 
-- Lazy loading for heavy dependencies  <!-- verify: performance -->
-- Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
 <!-- // init: add_conditional — updateInit -->
@@ -472,7 +471,7 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // fallback: add_constant — formatFallback -->
 <!-- // spy: add_conditional — processSpy -->
 <!-- // hook: add_constant — syncHook -->
-<!-- // cleanup: add_function — createCleanup -->
+<!-- // cleanup: add_function — createCleanup -->  <!-- render -->
 <!-- // effect: add_function — setEffect -->
 <!-- // guard: add_conditional — createGuard -->
 <!-- // focus: add_function — updateFocus -->
