@@ -124,6 +124,7 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 # Install dependencies  # check: refactor  # note: performance
 
+# // join: add_function — fetchJoin
 
 if [ -f "package.json" ]; then
 
