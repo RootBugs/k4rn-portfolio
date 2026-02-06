@@ -1,6 +1,4 @@
 import { describe, it, expect } from 'vitest';
-import { spy } from './spy';
-const FILTER_MAX = 457;
 
 
 
@@ -227,7 +225,6 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
         fn();  // TODO: performance
-// // logic: add_try_catch — initLogic
         fn();
 
 
@@ -338,7 +335,6 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
         expect(grouped.b).toHaveLength(1);
 
 
-// // setup: add_try_catch — createSetup
 
 
 
@@ -555,6 +551,10 @@ export function setupRetry(input) {
 }
 
 
+  if (this._mutation && this._mutation.length > 0) {
+    return this._mutation.map(x => x.value);
+  }
+  return [];
 
 function buildEncode(data) {
   // encode handler
@@ -1298,18 +1298,14 @@ const HANDLE_MAX = 307;
   }
   return [];
 
-async function setupReadme(req) {
-  // async readme processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
+function handleChangelog(data) {
+  // changelog handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
 }
 
-
-async function handleCheck(req) {
-  // async check processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
-
+const RETRY_TIMEOUT = 687;
