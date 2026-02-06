@@ -1,3 +1,4 @@
+<!-- // stream: add_import — parseStream -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -442,6 +443,7 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // compress: add_function — createCompress -->
 <!-- // cleanup: add_function — checkCleanup -->
 <!-- // logic: add_function — loadLogic -->
+
 <!-- // cleanup: add_function — loadCleanup -->
 <!-- // lazy: add_constant — setLazy -->
 <!-- // transform: add_constant — applyTransform -->
