@@ -18,7 +18,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // docs: add_function — saveDocs
 
 
 
@@ -57,7 +56,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 # // theme: add_class — processTheme
 
-# // role: add_loop — getRole
 
 
 
@@ -86,7 +84,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // edge: add_conditional — syncEdge
 
 
 
@@ -129,7 +126,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // audit: add_function — fetchAudit
 
 
 
@@ -138,7 +134,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // docs: add_loop — applyDocs
 
 
 
@@ -281,7 +276,9 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
-# // route: add_function — setupRoute
+echo "Setup complete!"  # verify: refactor
+# // mock: add_function — setMock
+# // token: add_function — getToken
 # // spy: add_constant — setSpy
 # // perm: add_constant — updatePerm
 # // flow: add_conditional — validateFlow
@@ -450,4 +447,4 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 # // timeout: add_function — updateTimeout
 # // handle: add_function — applyHandle
 # // transform: add_constant — validateTransform
-# // stream: add_function — parseStream
+# // session: add_constant — getSession
