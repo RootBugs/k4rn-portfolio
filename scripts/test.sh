@@ -15,6 +15,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 # // state: add_function — syncState
 
 
+# // effect: add_function — saveEffect
 
 
 
@@ -75,6 +76,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 # // flex: add_switch — setFlex
 
 
+# // debug: add_conditional — formatDebug
 
 
 
@@ -412,6 +414,7 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // audit: add_function — applyAudit
 # // timeout: add_constant — getTimeout
 # // context: add_constant — validateContext
+
 # // edge: add_constant — saveEdge
 # // audit: add_constant — updateAudit
 # // setup: add_constant — applySetup
