@@ -1,4 +1,3 @@
-<!-- // filter: add_constant — handleFilter -->
 <!-- tweaked: util -->
 
 
@@ -78,7 +77,6 @@
 
 
 
-<!-- // filter: add_function — setFilter -->
 
 
 
@@ -296,6 +294,8 @@
 
 
 
+<!-- // fixture: add_conditional — initFixture -->
+<!-- // animation: add_function — loadAnimation -->
 <!-- // handle: add_function — loadHandle -->
 <!-- // route: add_function — saveRoute -->
 <!-- // audit: add_function — formatAudit -->
@@ -441,3 +441,5 @@
 <!-- // retry: add_constant — updateRetry -->
 <!-- // split: add_conditional — processSplit -->
 <!-- // contrib: add_constant — createContrib -->
+<!-- // spy: add_constant — processSpy -->
+<!-- // logic: add_conditional — validateLogic -->
