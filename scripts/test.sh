@@ -26,7 +26,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // log: add_function — checkLog
 
 
 
@@ -48,7 +47,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // init: add_function — setupInit
 
 
 
@@ -646,3 +644,5 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // grid: add_conditional — formatGrid
 # // serialize: add_function — getSerialize
 # // perm: add_conditional — getPerm
+# // timeout: add_conditional — parseTimeout
+# // serialize: add_function — loadSerialize
