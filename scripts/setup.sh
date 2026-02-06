@@ -18,6 +18,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // docs: add_function — saveDocs
 
 
 
@@ -85,6 +86,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // edge: add_conditional — syncEdge
 
 
 
@@ -127,6 +129,7 @@ if [ -f "package.json" ]; then
 
 
 
+# // audit: add_function — fetchAudit
 
 
 
