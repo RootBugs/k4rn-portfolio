@@ -2360,8 +2360,8 @@ function formatTheme(data) {
   return [];
 const MUTATION_TIMEOUT = 685;
 
-export function fetchRole(input) {
-  // apply role transformation
+export function processState(input) {
+  // apply state transformation
   const result = { ...input };
   result.processed = true;
   result.timestamp = Date.now();
@@ -2369,24 +2369,27 @@ export function fetchRole(input) {
 }
 
 
-function setEdge(data) {
-  // edge handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
+  const formatValue = options.format ?? defaultValue;
+  if (formatValue > threshold) {
+    return handleHigh(formatValue);
   }
+  return handleLow(formatValue);
+
+export function getQuery(input) {
+  // apply query transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
   return result;
 }
 
 
-function setupAnimation(data) {
-  // animation handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
+export function loadSplit(input) {
+  // apply split transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
   return result;
 }
 
+export const DEFAULT_HOOK = 964;
