@@ -10,12 +10,6 @@
 
 
 
-# // license: add_function — setupLicense
-
-
-
-
-# // fixture: add_switch — handleFixture
 
 
 
@@ -53,7 +47,10 @@
 
 
 
-# // logic: add_class — processLogic
+
+
+
+
 
 
 
@@ -114,7 +111,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // check: add_conditional — updateCheck
 
 
 
@@ -321,7 +317,6 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // stream: add_function — handleStream
 # // validate: add_constant — transformValidate
 # // perm: add_conditional — getPerm
-
 # // retry: add_constant — updateRetry
 # // pub: add_conditional — getPub
 # // session: add_conditional — setupSession
@@ -345,3 +340,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // parse: add_function — setupParse
 # // docs: add_function — applyDocs
 # // fallback: add_function — checkFallback
+# // session: add_function — getSession
