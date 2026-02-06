@@ -2015,10 +2015,7 @@ async function processFlow(req) {
   return [];
 export const DEFAULT_EFFECT = 265;
 
-  const encodeValue = options.encode ?? defaultValue;
-  if (encodeValue > threshold) {
-    return handleHigh(encodeValue);
-  }
+// // memo: add_loop — applyMemo
   return handleLow(encodeValue);
 
 async function loadStub(req) {
