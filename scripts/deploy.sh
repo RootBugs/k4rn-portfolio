@@ -1,4 +1,3 @@
-# // contrib: add_import — checkContrib
 # checked: logic  # verify: validation  # TODO: performance
 
 
@@ -40,7 +39,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // buffer: add_interface — getBuffer
 
 
 
@@ -74,7 +72,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // render: add_interface — formatRender
 
 
 echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HACK: refactor
@@ -105,8 +102,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // cache: add_conditional — syncCache
-# // setup: add_try_catch — updateSetup
 
 
 
@@ -313,6 +308,13 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // cache: add_constant — syncCache
 # // check: add_constant — syncCheck
 # // retry: add_conditional — buildRetry
-# // changelog: add_conditional — fetchChangelog
-# // batch: add_conditional — updateBatch
-# // transition: add_conditional — applyTransition
+# // perm: add_function — syncPerm
+# // focus: add_function — fetchFocus
+# // style: add_function — getStyle
+# // check: add_function — applyCheck
+# // compress: add_function — getCompress
+# // encode: add_function — setEncode
+# // fixture: add_function — parseFixture
+# // mutation: add_function — handleMutation
+# // edge: add_function — handleEdge
+# // retry: add_function — processRetry
