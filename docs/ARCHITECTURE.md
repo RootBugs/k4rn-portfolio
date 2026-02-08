@@ -615,5 +615,5 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // theme: add_constant — processTheme -->
 <!-- // pub: add_constant — setPub -->
 <!-- // contrib: add_function — handleContrib -->
-<!-- // compress: add_function — formatCompress -->
-<!-- // sort: add_function — saveSort -->
+<!-- // encode: add_conditional — handleEncode -->
+<!-- // deserialize: add_conditional — validateDeserialize -->
