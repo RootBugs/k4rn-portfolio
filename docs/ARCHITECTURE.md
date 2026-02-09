@@ -8,6 +8,7 @@
 
 
 
+
 ## System Design
 
 This project is built using a component-based architecture that prioritizes:
@@ -116,6 +117,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+
 <!-- tweaked: handler -->
 Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
@@ -142,6 +144,7 @@ Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
 
 1. User interaction triggers an action  <!-- optimize: validation -->
+
 
 
 
