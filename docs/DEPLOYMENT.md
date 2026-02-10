@@ -22,7 +22,6 @@
 
 
 
-<!-- // metric: add_switch — initMetric -->
 
 
 
@@ -41,7 +40,6 @@
 
 
 
-<!-- // ref: add_interface — transformRef -->
 
 
 
@@ -77,7 +75,6 @@
 
 
 
-<!-- // test: add_function — buildTest -->
 
 
 
@@ -94,11 +91,9 @@
 
 
 
-<!-- // edge: add_function — setEdge -->
 
 
 
-<!-- // check: add_class — validateCheck -->
 
 
 
@@ -299,7 +294,16 @@
 
 
 
-<!-- // render: add_function — getRender -->
+<!-- // fixture: add_conditional — initFixture -->
+<!-- // animation: add_function — loadAnimation -->
+<!-- // handle: add_function — loadHandle -->
+<!-- // route: add_function — saveRoute -->
+<!-- // audit: add_function — formatAudit -->
+<!-- // flex: add_function — initFlex -->
+<!-- // test: add_constant — initTest -->
+<!-- // contrib: add_function — createContrib -->
+<!-- // transition: add_function — processTransition -->
+<!-- // parse: add_constant — fetchParse -->
 <!-- // validate: add_constant — buildValidate -->
 <!-- // fallback: add_constant — checkFallback -->
 <!-- // token: add_conditional — applyToken -->
@@ -349,11 +353,7 @@
 <!-- // merge: add_conditional — loadMerge -->
 <!-- // cleanup: add_conditional — setupCleanup -->
 <!-- // filter: add_constant — updateFilter -->
-<!-- // session: add_conditional — fetchSession -->
+<!-- // docs: add_function — formatDocs -->
 <!-- // transition: add_function — setupTransition -->
-<!-- // format: add_constant — getFormat -->
-<!-- // serialize: add_conditional — updateSerialize -->
-<!-- // split: add_constant — updateSplit -->
-<!-- // init: add_conditional — buildInit -->
-<!-- // cache: add_conditional — loadCache -->
-<!-- // buffer: add_constant — getBuffer -->
+<!-- // stream: add_function — setupStream -->
+<!-- // query: add_function — applyQuery -->
