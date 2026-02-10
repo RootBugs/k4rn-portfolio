@@ -1,3 +1,4 @@
+# // hook: add_import — setHook
 # checked: logic  # verify: validation  # TODO: performance
 
 
@@ -69,6 +70,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // cleanup: add_try_catch — syncCleanup
 
 
 
