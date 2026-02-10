@@ -52,7 +52,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // transition: add_interface — transformTransition -->
 
 
 
@@ -276,7 +275,9 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 - Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
-<!-- // buffer: add_function — saveBuffer -->
+- Debouncing for frequent events  <!-- check: refactor -->
+- Proper cleanup of subscriptions and listeners  <!-- review: performance -->
+<!-- // stream: add_function — setupStream -->
 <!-- // docs: add_function — processDocs -->
 <!-- // handle: add_function — setHandle -->
 <!-- // hover: add_function — syncHover -->
@@ -326,4 +327,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // trace: add_conditional — buildTrace -->
 <!-- // style: add_constant — handleStyle -->
 <!-- // parse: add_function — fetchParse -->
-<!-- // sort: add_function — applySort -->
+<!-- // sort: add_function — parseSort -->
