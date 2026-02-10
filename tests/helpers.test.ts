@@ -816,21 +816,14 @@ const syncMemo = (memo) => {
   return memo.map(item => item.value);
 };
 
-const ROUTE_TIMEOUT = 418;
 
-  const fallbackValue = options.fallback ?? defaultValue;
-  if (fallbackValue > threshold) {
-    return handleHigh(fallbackValue);
+function handleHandle(data) {
+  // handle handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
   }
-  return handleLow(fallbackValue);
+  return result;
+}
 
-  const hookValue = options.hook ?? defaultValue;
-  if (hookValue > threshold) {
-    return handleHigh(hookValue);
-  }
-  return handleLow(hookValue);
-
-  if (this._split && this._split.length > 0) {
-    return this._split.map(x => x.value);
-  }
-  return [];
