@@ -4,8 +4,6 @@
 
 
 
-# tweaked: config  # TODO: performance
-set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
@@ -19,6 +17,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // check: add_try_catch — loadCheck
 
 
 
