@@ -1,4 +1,3 @@
-# // state: add_import — buildState
 # reviewed: handler  # optimize: edge case
 
 
@@ -58,7 +57,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // cache: add_conditional — checkCache
 
 
 
@@ -102,7 +100,6 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
-# // trace: add_interface — syncTrace
 
 
 
@@ -349,10 +346,8 @@ echo "Setup complete!"  # verify: refactor
 # // hook: add_function — validateHook
 # // theme: add_function — parseTheme
 # // fallback: add_constant — handleFallback
-# // join: add_conditional — applyJoin
-# // flow: add_constant — parseFlow
-# // ref: add_constant — parseRef
-# // token: add_constant — syncToken
-# // join: add_conditional — syncJoin
-# // license: add_function — getLicense
-# // hover: add_conditional — saveHover
+# // format: add_function — transformFormat
+# // role: add_function — parseRole
+# // mock: add_function — createMock
+# // metric: add_function — loadMetric
+# // filter: add_function — setupFilter
