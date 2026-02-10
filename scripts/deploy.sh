@@ -308,13 +308,7 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // cache: add_constant — syncCache
 # // check: add_constant — syncCheck
 # // retry: add_conditional — buildRetry
-# // perm: add_function — syncPerm
-# // focus: add_function — fetchFocus
-# // style: add_function — getStyle
-# // check: add_function — applyCheck
-# // compress: add_function — getCompress
-# // encode: add_function — setEncode
-# // fixture: add_function — parseFixture
-# // mutation: add_function — handleMutation
-# // edge: add_function — handleEdge
-# // retry: add_function — processRetry
+# // changelog: add_conditional — fetchChangelog
+# // batch: add_conditional — updateBatch
+# // transition: add_conditional — applyTransition
+# // check: add_function — setCheck
