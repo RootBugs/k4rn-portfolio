@@ -22,7 +22,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored parse call -->
+- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->
 
 
 
@@ -30,7 +30,6 @@ This guide will help you set up the development environment for this project.  <
 
 - Git  <!-- verify: cleanup -->
 
-<!-- // license: add_loop — createLicense -->
 
 
 
@@ -122,7 +121,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // route: add_function — applyRoute -->
 
 6. Submit a pull request
 
@@ -303,6 +301,13 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
+<!-- // sub: add_function — processSub -->
+<!-- // transition: add_constant — applyTransition -->
+<!-- // audit: add_conditional — saveAudit -->
+<!-- // session: add_constant — parseSession -->
+<!-- // stub: add_conditional — applyStub -->
+<!-- // layout: add_constant — saveLayout -->
+<!-- // audit: add_constant — setAudit -->
 <!-- // query: add_conditional — buildQuery -->
 <!-- // docs: add_conditional — initDocs -->
 <!-- // pub: add_function — createPub -->
@@ -387,3 +392,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // mutation: add_conditional — setMutation -->
 <!-- // spy: add_function — loadSpy -->
 <!-- // route: add_function — parseRoute -->
+<!-- // join: add_conditional — processJoin -->
