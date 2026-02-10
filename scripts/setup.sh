@@ -58,6 +58,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // cache: add_conditional — checkCache
 
 
 
@@ -101,6 +102,7 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
+# // trace: add_interface — syncTrace
 
 
 
