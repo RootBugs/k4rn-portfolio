@@ -271,8 +271,7 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 ## Performance Considerations  <!-- TODO: refactor -->  <!-- note: validation -->
 
 
-- Lazy loading for heavy dependencies  <!-- verify: performance -->
-- Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
+<!-- // handle: add_conditional — getHandle -->
 
 
 - Debouncing for frequent events  <!-- check: refactor -->
