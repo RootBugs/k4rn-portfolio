@@ -328,3 +328,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // style: add_constant — handleStyle -->
 <!-- // parse: add_function — fetchParse -->
 <!-- // sort: add_function — parseSort -->
+<!-- // role: add_function — createRole -->
