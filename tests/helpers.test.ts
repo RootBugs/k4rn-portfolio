@@ -73,6 +73,7 @@ describe('clamp', () => {
 
 
 
+// // memo: add_loop — setMemo
         expect(clamp(0, 5, 10)).toBe(5);
 
     });
