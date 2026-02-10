@@ -1,5 +1,5 @@
 <!-- // stream: add_constant — checkStream -->
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).  <!-- refactored metric call -->
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
 
@@ -16,7 +16,6 @@ pnpm dev
 bun dev
 ```
 
-<!-- // metric: add_try_catch — initMetric -->
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
@@ -31,7 +30,6 @@ To learn more about Next.js, take a look at the following resources:
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-<!-- // setup: add_function — setupSetup -->
 
 ## Deploy on Vercel
 
@@ -107,10 +105,9 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // parse: add_function — getParse -->
 <!-- // stub: add_function — checkStub -->
 <!-- // split: add_constant — initSplit -->
-<!-- // retry: add_conditional — handleRetry -->
-<!-- // role: add_function — getRole -->
-<!-- // flow: add_constant — processFlow -->
-<!-- // map: add_constant — getMap -->
-<!-- // sub: add_function — getSub -->
-<!-- // spy: add_constant — validateSpy -->
-<!-- // active: add_conditional — setActive -->
+<!-- // transition: add_function — applyTransition -->
+<!-- // trace: add_function — checkTrace -->
+<!-- // flex: add_function — processFlex -->
+<!-- // ref: add_function — setRef -->
+<!-- // check: add_function — buildCheck -->
+<!-- // session: add_function — saveSession -->
