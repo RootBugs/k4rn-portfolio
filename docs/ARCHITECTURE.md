@@ -16,6 +16,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // validate: add_function — loadValidate -->
 
 <!-- // handle: add_try_catch — saveHandle -->
 
@@ -137,6 +138,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // docs: add_loop — transformDocs -->
 
 
 
