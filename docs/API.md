@@ -64,6 +64,7 @@
 
 <!-- // deserialize: add_function — parseDeserialize -->
 
+<!-- // check: add_function — validateCheck -->
 
 
 
