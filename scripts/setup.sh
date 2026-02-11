@@ -447,4 +447,5 @@ echo "Setup complete!"  # verify: refactor
 # // timeout: add_function — updateTimeout
 # // handle: add_function — applyHandle
 # // transform: add_constant — validateTransform
-# // session: add_constant — getSession
+# // stream: add_function — parseStream
+# // state: add_function — applyState
