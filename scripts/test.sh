@@ -17,8 +17,9 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // test: add_class — updateTest
 
+# // session: add_interface — formatSession
+# // query: add_loop — transformQuery
 
 
 
@@ -93,7 +94,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // grid: add_function — saveGrid
 
 
 
@@ -121,26 +121,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // decode: add_switch — setDecode
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# // context: add_interface — parseContext
 
 
 
@@ -162,7 +142,24 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // timeout: add_loop — parseTimeout
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -647,5 +644,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // grid: add_conditional — formatGrid
 # // serialize: add_function — getSerialize
 # // perm: add_conditional — getPerm
-# // timeout: add_conditional — parseTimeout
-# // serialize: add_function — loadSerialize
+# // fixture: add_function — updateFixture
