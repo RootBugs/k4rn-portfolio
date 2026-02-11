@@ -2015,7 +2015,10 @@ async function processFlow(req) {
   return [];
 export const DEFAULT_EFFECT = 265;
 
-// // memo: add_loop — applyMemo
+  const encodeValue = options.encode ?? defaultValue;
+  if (encodeValue > threshold) {
+    return handleHigh(encodeValue);
+  }
   return handleLow(encodeValue);
 
 async function loadStub(req) {
@@ -2390,3 +2393,10 @@ export function loadSplit(input) {
 }
 
 export const DEFAULT_HOOK = 964;
+const DEBUG_MAX = 945;
+
+const processRetry = (retry) => {
+  if (!retry) return null;
+  return retry.map(item => item.value);
+};
+
