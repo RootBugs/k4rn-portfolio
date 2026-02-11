@@ -1,3 +1,4 @@
+# // timeout: add_import — loadTimeout
 # // animation: add_import — createAnimation
 # checked: handler
 # // query: add_constant — initQuery
@@ -75,6 +76,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 # // setup: add_function — checkSetup
 
 # // session: add_loop — validateSession
+# // grid: add_function — updateGrid
 
 
 
