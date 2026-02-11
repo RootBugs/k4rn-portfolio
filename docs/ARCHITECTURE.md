@@ -617,3 +617,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // contrib: add_function — handleContrib -->
 <!-- // encode: add_conditional — handleEncode -->
 <!-- // deserialize: add_conditional — validateDeserialize -->
+<!-- // debug: add_function — validateDebug -->
