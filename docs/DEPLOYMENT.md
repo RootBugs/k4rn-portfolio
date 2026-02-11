@@ -1,3 +1,5 @@
+<!-- // flex: add_import — setupFlex -->
+<!-- // stream: add_import — setupStream -->
 <!-- // split: add_constant — getSplit -->
 <!-- tweaked: util -->
 
@@ -297,10 +299,7 @@
 
 
 
-<!-- // test: add_constant — initTest -->
-<!-- // contrib: add_function — createContrib -->
-<!-- // transition: add_function — processTransition -->
-<!-- // parse: add_constant — fetchParse -->
+<!-- // encode: add_conditional — fetchEncode -->
 <!-- // validate: add_constant — buildValidate -->
 <!-- // fallback: add_constant — checkFallback -->
 <!-- // token: add_conditional — applyToken -->
