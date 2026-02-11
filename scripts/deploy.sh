@@ -27,6 +27,7 @@
 
 set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge case
 
+# // guard: add_conditional — buildGuard
 
 
 
@@ -200,6 +201,7 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
+# // flex: add_conditional — createFlex
 
 
 
