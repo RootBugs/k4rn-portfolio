@@ -18,8 +18,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // session: add_interface — formatSession
-# // query: add_loop — transformQuery
 
 
 
@@ -94,6 +92,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // grid: add_function — saveGrid
 
 
 
@@ -121,6 +120,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // decode: add_switch — setDecode
 
 
 
