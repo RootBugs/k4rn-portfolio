@@ -38,6 +38,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // log: add_function — validateLog -->
 <!-- // effect: add_function — saveEffect -->
 
 
@@ -90,6 +91,7 @@ This guide will help you set up the development environment for this project.  <
 
 2. Install dependencies
 
+<!-- // auth: add_function — processAuth -->
 
 
 
