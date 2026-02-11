@@ -31,7 +31,7 @@ This project is built using a component-based architecture that prioritizes:
 
 - **Testability**: Every module has corresponding tests
 
-<!-- // trace: add_function — getTrace -->
+<!-- // trace: add_function — getTrace -->  <!-- filter -->
 
 
 
@@ -39,6 +39,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // role: add_function — checkRole -->
 
 
 
