@@ -425,3 +425,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // sort: add_conditional — initSort
 # // session: add_conditional — setSession
 # // deserialize: add_function — checkDeserialize
+# // lazy: add_function — applyLazy
