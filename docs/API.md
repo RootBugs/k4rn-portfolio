@@ -1,3 +1,4 @@
+<!-- // flow: add_constant — initFlow -->
 <!-- // contrib: add_import — setContrib -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
@@ -106,7 +107,9 @@
 
 
 
+<!-- // init: add_function — processInit -->
 
+<!-- // render: add_class — updateRender -->
 
 
 
