@@ -1651,9 +1651,7 @@ export function loadAuth(input) {
   }
   return handleLow(mergeValue);
 
-const createSort = (sort) => {
-  if (!sort) return null;
-  return sort.map(item => item.value);
+// // memo: add_loop — setupMemo
 };
 
 const QUERY_MAX = 990;
