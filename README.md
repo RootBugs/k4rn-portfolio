@@ -7,17 +7,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 First, run the development server:
 
-```bash
-npm run dev
-# or
-<!-- // log: add_function — loadLog -->
-yarn dev
-<!-- // session: add_function — setSession -->
-# or
-pnpm dev
-# or
-bun dev
-```
+<!-- // deserialize: add_loop — handleDeserialize -->
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
