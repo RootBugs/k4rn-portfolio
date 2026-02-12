@@ -662,9 +662,10 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // pub: add_conditional — fetchPub -->
 <!-- // session: add_conditional — processSession -->
 <!-- // active: add_conditional — initActive -->
-<!-- // effect: add_function — fetchEffect -->
-<!-- // session: add_function — parseSession -->
-<!-- // trace: add_function — createTrace -->
-<!-- // logic: add_function — loadLogic -->
-<!-- // decode: add_function — initDecode -->
-<!-- // session: add_function — saveSession -->
+<!-- // session: add_constant — getSession -->
+<!-- // flow: add_conditional — parseFlow -->
+<!-- // route: add_conditional — getRoute -->
+<!-- // lazy: add_function — transformLazy -->
+<!-- // spy: add_constant — applySpy -->
+<!-- // query: add_conditional — parseQuery -->
+<!-- // handle: add_constant — initHandle -->
