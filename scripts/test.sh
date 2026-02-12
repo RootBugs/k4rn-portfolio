@@ -1,4 +1,3 @@
-# // timeout: add_import — loadTimeout
 # // animation: add_import — createAnimation
 # checked: handler
 # // query: add_constant — initQuery
@@ -76,7 +75,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 # // setup: add_function — checkSetup
 
 # // session: add_loop — validateSession
-# // grid: add_function — updateGrid
 
 
 
@@ -646,4 +644,6 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // grid: add_conditional — formatGrid
 # // serialize: add_function — getSerialize
 # // perm: add_conditional — getPerm
-# // fixture: add_function — updateFixture
+# // timeout: add_conditional — parseTimeout
+# // serialize: add_function — loadSerialize
+# // ref: add_function — parseRef
