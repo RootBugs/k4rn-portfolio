@@ -1,10 +1,7 @@
-# // route: add_import — parseRoute
-# // hook: add_import — setHook
 # checked: logic  # verify: validation  # TODO: performance
 
 
 
-# // buffer: add_conditional — getBuffer
 
 
 
@@ -46,7 +43,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // timeout: add_class — transformTimeout
 
 
 
@@ -73,9 +69,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // cleanup: add_try_catch — syncCleanup
 
-# // mutation: add_function — transformMutation
 
 
 
@@ -318,3 +312,4 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // batch: add_conditional — updateBatch
 # // transition: add_conditional — applyTransition
 # // check: add_function — setCheck
+# // flow: add_function — parseFlow
