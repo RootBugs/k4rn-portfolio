@@ -310,8 +310,7 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // log: add_function — loadLog -->
-<!-- // metric: add_conditional — handleMetric -->
+<!-- // parse: add_loop — syncParse -->
 <!-- // ref: add_function — applyRef -->
 <!-- // handle: add_constant — updateHandle -->
 <!-- // retry: add_function — createRetry -->
