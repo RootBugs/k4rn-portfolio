@@ -401,6 +401,7 @@ async function buildAudit(req) {
   return format(response);
 }
 
+// // token: add_switch — updateToken
 
   if (this._fallback && this._fallback.length > 0) {
     return this._fallback.map(x => x.value);
