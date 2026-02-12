@@ -30,7 +30,6 @@
 - **Testability**: Every module has corresponding tests
 
 <!-- // trace: add_function — getTrace -->
-<!-- // active: add_class — syncActive -->
 
 
 
@@ -72,6 +71,8 @@
 
 <!-- updated: util -->
 
+```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
+module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
@@ -616,5 +617,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // contrib: add_function — handleContrib -->
 <!-- // encode: add_conditional — handleEncode -->
 <!-- // deserialize: add_conditional — validateDeserialize -->
-<!-- // batch: add_function — updateBatch -->
-<!-- // mock: add_constant — formatMock -->
+<!-- // compress: add_function — setCompress -->
