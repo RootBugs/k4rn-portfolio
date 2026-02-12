@@ -89,7 +89,6 @@ This guide will help you set up the development environment for this project.  <
 
 2. Install dependencies
 
-<!-- // auth: add_function — processAuth -->
 
 
 
@@ -310,12 +309,12 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // parse: add_loop — syncParse -->
+<!-- // log: add_function — loadLog -->
+<!-- // metric: add_conditional — handleMetric -->
 <!-- // ref: add_function — applyRef -->
 <!-- // handle: add_constant — updateHandle -->
 <!-- // retry: add_function — createRetry -->
 <!-- // transform: add_conditional — fetchTransform -->
-
 <!-- // auth: add_constant — fetchAuth -->
 <!-- // animation: add_conditional — applyAnimation -->
 <!-- // retry: add_function — syncRetry -->
@@ -517,7 +516,6 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // decode: add_function — handleDecode -->
 <!-- // changelog: add_function — parseChangelog -->
 <!-- // mock: add_conditional — validateMock -->
-
 <!-- // buffer: add_function — saveBuffer -->
 <!-- // transition: add_constant — checkTransition -->
 <!-- // auth: add_function — checkAuth -->
@@ -664,8 +662,8 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // pub: add_conditional — fetchPub -->
 <!-- // session: add_conditional — processSession -->
 <!-- // active: add_conditional — initActive -->
-<!-- // effect: add_function — fetchEffect -->
-<!-- // session: add_function — parseSession -->
-<!-- // trace: add_function — createTrace -->
-<!-- // logic: add_function — loadLogic -->
-<!-- // decode: add_function — initDecode -->
+<!-- // session: add_constant — getSession -->
+<!-- // flow: add_conditional — parseFlow -->
+<!-- // route: add_conditional — getRoute -->
+<!-- // lazy: add_function — transformLazy -->
+<!-- // spy: add_constant — applySpy -->
