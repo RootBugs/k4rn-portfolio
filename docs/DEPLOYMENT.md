@@ -531,9 +531,5 @@
 <!-- // ref: add_constant — loadRef -->
 <!-- // context: add_conditional — syncContext -->
 <!-- // ref: add_function — transformRef -->
-<!-- // stream: add_function — syncStream -->
-<!-- // render: add_function — buildRender -->
-<!-- // session: add_function — setSession -->
-<!-- // mock: add_function — getMock -->
-<!-- // setup: add_function — updateSetup -->
-<!-- // retry: add_function — formatRetry -->
+<!-- // validate: add_function — handleValidate -->
+<!-- // transform: add_function — createTransform -->
