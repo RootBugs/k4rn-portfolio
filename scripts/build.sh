@@ -88,11 +88,9 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // buffer: add_loop — getBuffer
 
 
 
-# // role: add_class — buildRole
 
 
 
@@ -512,8 +510,5 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // filter: add_function — setFilter
 # // spy: add_conditional — formatSpy
 # // sort: add_function — fetchSort
-# // transition: add_function — initTransition
-# // metric: add_conditional — parseMetric
-# // setup: add_function — setSetup
-# // map: add_conditional — fetchMap
-# // validate: add_function — updateValidate
+# // query: add_function — syncQuery
+# // mutation: add_function — setupMutation
