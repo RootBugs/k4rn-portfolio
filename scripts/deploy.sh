@@ -74,6 +74,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // test: add_try_catch — getTest
 
 
 
@@ -138,6 +139,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // render: add_function — syncRender
 
 
 
