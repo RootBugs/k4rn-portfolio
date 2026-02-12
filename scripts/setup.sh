@@ -621,5 +621,4 @@ echo "Setup complete!"  # verify: refactor
 # // layout: add_conditional — initLayout
 # // encode: add_conditional — fetchEncode
 # // batch: add_conditional — checkBatch
-# // trace: add_conditional — createTrace
-# // validate: add_conditional — loadValidate
+# // edge: add_function — transformEdge
