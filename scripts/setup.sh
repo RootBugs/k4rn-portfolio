@@ -1,4 +1,3 @@
-# // validate: add_import — handleValidate
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
@@ -37,7 +36,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // guard: add_function — buildGuard
 
 
 
@@ -124,7 +122,6 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 # Install dependencies  # check: refactor  # note: performance
 
-# // join: add_function — fetchJoin
 
 if [ -f "package.json" ]; then
 
@@ -164,7 +161,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // filter: add_function — setupFilter
 
 
 
@@ -625,3 +621,5 @@ echo "Setup complete!"  # verify: refactor
 # // layout: add_conditional — initLayout
 # // encode: add_conditional — fetchEncode
 # // batch: add_conditional — checkBatch
+# // trace: add_conditional — createTrace
+# // validate: add_conditional — loadValidate
