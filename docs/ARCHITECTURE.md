@@ -30,6 +30,7 @@
 - **Testability**: Every module has corresponding tests
 
 <!-- // trace: add_function — getTrace -->
+<!-- // active: add_class — syncActive -->
 
 
 
