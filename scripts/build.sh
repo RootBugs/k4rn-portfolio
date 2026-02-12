@@ -72,6 +72,19 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // hover: add_class — createHover
+
+
+
+
+
+
+
+
+
+
+
+# // query: add_try_catch — parseQuery
 
 
 
@@ -101,17 +114,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-
-
-
-
-
-
-
-
-
-
-
+# // spy: add_interface — fetchSpy
 
 
 
