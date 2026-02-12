@@ -1,4 +1,5 @@
 # checked: logic  # verify: validation  # TODO: performance
+# // layout: add_constant — setupLayout
 
 
 
@@ -104,6 +105,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // state: add_loop — formatState
 
 
 
