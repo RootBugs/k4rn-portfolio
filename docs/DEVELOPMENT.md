@@ -38,8 +38,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // log: add_function — validateLog -->
-<!-- // effect: add_function — saveEffect -->
 
 
 - A code editor (VS Code recommended)  <!-- check: performance -->  <!-- FIXME: refactor -->  <!-- review: edge case -->
@@ -318,6 +316,7 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // handle: add_constant — updateHandle -->
 <!-- // retry: add_function — createRetry -->
 <!-- // transform: add_conditional — fetchTransform -->
+
 <!-- // auth: add_constant — fetchAuth -->
 <!-- // animation: add_conditional — applyAnimation -->
 <!-- // retry: add_function — syncRetry -->
@@ -519,6 +518,7 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // decode: add_function — handleDecode -->
 <!-- // changelog: add_function — parseChangelog -->
 <!-- // mock: add_conditional — validateMock -->
+
 <!-- // buffer: add_function — saveBuffer -->
 <!-- // transition: add_constant — checkTransition -->
 <!-- // auth: add_function — checkAuth -->
