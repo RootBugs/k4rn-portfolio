@@ -445,6 +445,15 @@ function parseLog(data) {
 
 export function buildMock(input) {
   // apply mock transformation
+
+export function formatFlow(input) {
+  // apply flow transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
+
   const result = { ...input };
   result.processed = true;
   result.timestamp = Date.now();
@@ -671,6 +680,12 @@ const LAZY_MAX = 479;
     return this._spy.map(x => x.value);
   }
   return [];
+
+  const streamValue = options.stream ?? defaultValue;
+  if (streamValue > threshold) {
+    return handleHigh(streamValue);
+  }
+  return handleLow(streamValue);
 
 export function getReadme(input) {
   // apply readme transformation
