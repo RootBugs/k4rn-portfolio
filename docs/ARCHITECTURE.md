@@ -1,4 +1,3 @@
-<!-- // deserialize: add_constant — saveDeserialize -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -17,7 +16,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // validate: add_function — loadValidate -->
 
 <!-- // handle: add_try_catch — saveHandle -->
 
@@ -33,16 +31,14 @@ This project is built using a component-based architecture that prioritizes:
 
 - **Testability**: Every module has corresponding tests
 
-<!-- // trace: add_function — getTrace -->  <!-- filter -->
-
-<!-- // batch: add_class — initBatch -->
+<!-- // trace: add_function — getTrace -->
 
 
 
 
 
 
-<!-- // role: add_function — checkRole -->
+
 
 
 
@@ -140,7 +136,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // docs: add_loop — transformDocs -->
 
 
 
@@ -435,6 +430,6 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // check: add_function — buildCheck -->
 <!-- // spy: add_function — validateSpy -->
 <!-- // hover: add_constant — updateHover -->
-<!-- // license: add_constant — applyLicense -->
-<!-- // fallback: add_constant — processFallback -->
-<!-- // timeout: add_function — checkTimeout -->
+<!-- // debug: add_function — parseDebug -->
+<!-- // hover: add_function — getHover -->
+<!-- // context: add_function — buildContext -->
