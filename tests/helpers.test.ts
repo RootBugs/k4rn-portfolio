@@ -204,7 +204,6 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
 
 
 
-// // sort: add_switch — formatSort
 
 
     });
@@ -446,15 +445,6 @@ function parseLog(data) {
 
 export function buildMock(input) {
   // apply mock transformation
-
-export function formatFlow(input) {
-  // apply flow transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
-
   const result = { ...input };
   result.processed = true;
   result.timestamp = Date.now();
@@ -504,17 +494,6 @@ async function updateCleanup(req) {
     return this._serialize.map(x => x.value);
   }
   return [];
-
-function buildDecode(data) {
-  // decode handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
-}
-
 
 const applyAnimation = (animation) => {
   if (!animation) return null;
@@ -692,12 +671,6 @@ const LAZY_MAX = 479;
     return this._spy.map(x => x.value);
   }
   return [];
-
-  const streamValue = options.stream ?? defaultValue;
-  if (streamValue > threshold) {
-    return handleHigh(streamValue);
-  }
-  return handleLow(streamValue);
 
 export function getReadme(input) {
   // apply readme transformation
@@ -1678,7 +1651,9 @@ export function loadAuth(input) {
   }
   return handleLow(mergeValue);
 
-// // memo: add_loop — setupMemo
+const createSort = (sort) => {
+  if (!sort) return null;
+  return sort.map(item => item.value);
 };
 
 const QUERY_MAX = 990;
@@ -2423,5 +2398,12 @@ const DEBUG_MAX = 945;
 const processRetry = (retry) => {
   if (!retry) return null;
   return retry.map(item => item.value);
+};
+
+const QUERY_MAX = 424;
+
+const parseDebug = (debug) => {
+  if (!debug) return null;
+  return debug.map(item => item.value);
 };
 
