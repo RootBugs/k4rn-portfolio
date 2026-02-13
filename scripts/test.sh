@@ -1,3 +1,4 @@
+# // perm: add_import — loadPerm
 # // animation: add_import — createAnimation
 # checked: handler
 # // query: add_constant — initQuery
@@ -15,6 +16,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 # // state: add_function — syncState
 
+# // animation: add_function — getAnimation
 
 
 
