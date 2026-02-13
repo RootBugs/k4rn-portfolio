@@ -25,7 +25,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // encode: add_function — formatEncode
 
 
 
@@ -36,7 +35,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // decode: add_function — createDecode
 
 
 
@@ -113,7 +111,6 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
-# // format: add_function — handleFormat
 
 # Install dependencies  # check: refactor  # note: performance
 
@@ -357,3 +354,4 @@ echo "Setup complete!"  # verify: refactor
 # // license: add_function — getLicense
 # // hover: add_conditional — saveHover
 # // guard: add_constant — fetchGuard
+# // metric: add_conditional — loadMetric
