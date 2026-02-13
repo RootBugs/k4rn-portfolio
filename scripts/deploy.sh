@@ -16,6 +16,7 @@
 
 
 
+# // sort: add_class — setupSort
 
 
 
@@ -38,6 +39,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // setup: add_class — validateSetup
 
 
 
@@ -69,6 +71,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // compress: add_loop — checkCompress
 
 
 
