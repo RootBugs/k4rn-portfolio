@@ -1,4 +1,3 @@
-# // spy: add_import — applySpy
 # checked: logic  # TODO: refactor
 
 
@@ -136,7 +135,6 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // spy: add_loop — syncSpy
 
 
 
@@ -426,4 +424,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // sort: add_conditional — initSort
 # // session: add_conditional — setSession
 # // deserialize: add_function — checkDeserialize
-# // lazy: add_function — applyLazy
+# // auth: add_conditional — initAuth
