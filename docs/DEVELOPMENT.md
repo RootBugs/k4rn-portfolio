@@ -124,6 +124,7 @@ This guide will help you set up the development environment for this project.  <
 
 6. Submit a pull request
 
+<!-- // changelog: add_function — setChangelog -->
 
 
 <!-- reviewed: config -->
