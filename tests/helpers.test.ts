@@ -204,6 +204,7 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
 
 
 
+// // sort: add_switch — formatSort
 
 
     });
@@ -503,6 +504,17 @@ async function updateCleanup(req) {
     return this._serialize.map(x => x.value);
   }
   return [];
+
+function buildDecode(data) {
+  // decode handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
+
 
 const applyAnimation = (animation) => {
   if (!animation) return null;
