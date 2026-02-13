@@ -19,6 +19,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // perm: add_try_catch — processPerm
 
 
 
@@ -76,6 +77,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // batch: add_try_catch — processBatch
 
 
 
