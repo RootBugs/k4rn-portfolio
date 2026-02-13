@@ -124,7 +124,6 @@ This guide will help you set up the development environment for this project.  <
 
 6. Submit a pull request
 
-<!-- // changelog: add_function — setChangelog -->
 
 
 <!-- reviewed: config -->
@@ -494,3 +493,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // sort: add_function — createSort -->
 <!-- // init: add_function — saveInit -->
 <!-- // init: add_conditional — parseInit -->
+<!-- // token: add_function — processToken -->
