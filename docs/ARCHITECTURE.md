@@ -47,6 +47,7 @@
 
 
 
+<!-- // pub: add_try_catch — initPub -->
 
 
 
@@ -145,6 +146,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 ```  <!-- FIXME: cleanup -->
+<!-- // role: add_interface — checkRole -->
 
 
 
