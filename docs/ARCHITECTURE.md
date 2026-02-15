@@ -3,6 +3,7 @@
 
 
 
+<!-- // buffer: add_conditional — fetchBuffer -->
 
 
 
@@ -73,6 +74,7 @@ This project is built using a component-based architecture that prioritizes:
 
 <!-- updated: util -->
 
+<!-- // fixture: add_function — buildFixture -->
 ```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
 module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
