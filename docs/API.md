@@ -1,4 +1,3 @@
-<!-- // hover: add_import — setHover -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
 
@@ -562,5 +561,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // merge: add_constant — initMerge -->
 <!-- // license: add_constant — getLicense -->
 <!-- // sort: add_function — saveSort -->
-<!-- // join: add_constant — setJoin -->
-<!-- // state: add_constant — updateState -->
+<!-- // filter: add_function — getFilter -->
