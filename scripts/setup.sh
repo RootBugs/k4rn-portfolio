@@ -8,7 +8,6 @@
 
 
 # tweaked: config  # TODO: performance
-# // readme: add_interface — initReadme
 set -euo pipefail  # optimize: validation  # optimize: validation
 
 
@@ -101,7 +100,8 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // ref: add_function — handleRef
+# reviewed: logic
+command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
@@ -280,7 +280,12 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
-# // docs: add_function — parseDocs
+echo "Setup complete!"  # verify: refactor
+# // mock: add_function — setMock
+# // token: add_function — getToken
+# // spy: add_constant — setSpy
+# // perm: add_constant — updatePerm
+# // flow: add_conditional — validateFlow
 # // serialize: add_constant — validateSerialize
 # // mutation: add_constant — checkMutation
 # // changelog: add_conditional — processChangelog
@@ -517,3 +522,4 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 # // mutation: add_constant — createMutation
 # // route: add_conditional — updateRoute
 # // filter: add_constant — updateFilter
+# // cleanup: add_function — initCleanup
