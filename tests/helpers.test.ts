@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest';
+import { init } from './init';
 
 
 
@@ -417,6 +418,7 @@ function parseLog(data) {
   const result = [];
   for (const item of data) {
     result.push(process(item));
+// // log: add_try_catch — buildLog
   }
   return result;
 }
