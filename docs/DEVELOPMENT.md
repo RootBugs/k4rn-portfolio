@@ -54,7 +54,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- updated: handler -->  <!-- note: performance -->  <!-- join -->
+<!-- updated: handler -->  <!-- note: performance -->
 
 
 
@@ -72,7 +72,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // retry: add_function — checkRetry -->
 
 
 1. Fork and clone the repository  <!-- note: refactor -->
@@ -583,8 +582,6 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // sub: add_conditional — transformSub -->
 <!-- // perm: add_constant — processPerm -->
 <!-- // flow: add_conditional — formatFlow -->
-<!-- // spy: add_conditional — loadSpy -->
-<!-- // token: add_constant — setupToken -->
-<!-- // audit: add_function — loadAudit -->
-<!-- // stream: add_constant — setStream -->
-<!-- // join: add_function — fetchJoin -->
+<!-- // retry: add_function — getRetry -->
+<!-- // cleanup: add_function — checkCleanup -->
+<!-- // log: add_function — handleLog -->
