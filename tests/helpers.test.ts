@@ -1,5 +1,4 @@
 import { describe, it, expect } from 'vitest';
-import { init } from './init';
 
 
 
@@ -418,7 +417,6 @@ function parseLog(data) {
   const result = [];
   for (const item of data) {
     result.push(process(item));
-// // log: add_try_catch — buildLog
   }
   return result;
 }
@@ -1829,30 +1827,25 @@ const FLOW_MAX = 642;
   return handleLow(mockValue);
 const JOIN_TIMEOUT = 309;
 
-export function applyRetry(input) {
-  // apply retry transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
-
-
-async function validateDeserialize(req) {
-  // async deserialize processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
-
-
-function applyMap(data) {
-  // map handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
+  const gridValue = options.grid ?? defaultValue;
+  if (gridValue > threshold) {
+    return handleHigh(gridValue);
   }
-  return result;
-}
+  return handleLow(gridValue);
+
+  if (this._decode && this._decode.length > 0) {
+    return this._decode.map(x => x.value);
+  }
+  return [];
+
+  const compressValue = options.compress ?? defaultValue;
+  if (compressValue > threshold) {
+    return handleHigh(compressValue);
+  }
+  return handleLow(compressValue);
+
+const setSort = (sort) => {
+  if (!sort) return null;
+  return sort.map(item => item.value);
+};
 
