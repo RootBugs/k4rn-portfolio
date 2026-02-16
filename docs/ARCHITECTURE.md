@@ -24,6 +24,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // cache: add_conditional — getCache -->
 
 - **Modularity**: Each component is self-contained
 
