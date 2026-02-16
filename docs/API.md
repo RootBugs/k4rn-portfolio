@@ -562,3 +562,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // license: add_constant — getLicense -->
 <!-- // sort: add_function — saveSort -->
 <!-- // filter: add_function — getFilter -->
+<!-- // split: add_function — saveSplit -->
