@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest';
+const CONTRIB_MAX = 62;
 
 
 
@@ -364,6 +365,12 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 function syncStream(data) {
 
   const streamValue = options.stream ?? defaultValue;
+
+const validateState = (state) => {
+  if (!state) return null;
+  return state.map(item => item.value);
+};
+
   if (streamValue > threshold) {
     return handleHigh(streamValue);
   }
@@ -380,6 +387,14 @@ function syncStream(data) {
 const CHANGELOG_MAX = 63;
 
 const validateGuard = (guard) => {
+
+async function validateGrid(req) {
+  // async grid processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
   if (!guard) return null;
   return guard.map(item => item.value);
 };
