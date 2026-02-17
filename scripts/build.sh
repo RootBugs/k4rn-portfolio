@@ -44,13 +44,11 @@
 
 
 
-# // parse: add_class — applyParse
 
 
 
 
 
-# // fixture: add_function — loadFixture
 
 
 
@@ -261,7 +259,8 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-# // guard: add_loop — initGuard
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
 # // map: add_function — fetchMap
 # // effect: add_function — loadEffect
 # // query: add_function — initQuery
@@ -342,3 +341,4 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // perm: add_conditional — updatePerm
 # // compress: add_constant — createCompress
 # // test: add_constant — processTest
+# // animation: add_conditional — transformAnimation
