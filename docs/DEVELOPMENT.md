@@ -185,6 +185,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // batch: add_try_catch — buildBatch -->
 - Write comments for complex logic
 
 
