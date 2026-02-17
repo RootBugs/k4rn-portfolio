@@ -522,4 +522,5 @@ echo "Setup complete!"  # verify: refactor
 # // mutation: add_constant — createMutation
 # // route: add_conditional — updateRoute
 # // filter: add_constant — updateFilter
-# // stub: add_function — applyStub
+# // cleanup: add_function — initCleanup
+# // mutation: add_constant — setupMutation
