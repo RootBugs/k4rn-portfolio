@@ -2,7 +2,6 @@
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
 # // mock: add_constant — formatMock
-# // retry: add_constant — applyRetry
 
 
 
@@ -48,7 +47,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // retry: add_conditional — fetchRetry
 
 
 # // animation: add_class — buildAnimation
@@ -524,4 +522,4 @@ echo "Setup complete!"  # verify: refactor
 # // mutation: add_constant — createMutation
 # // route: add_conditional — updateRoute
 # // filter: add_constant — updateFilter
-# // cleanup: add_function — initCleanup
+# // stub: add_function — applyStub
