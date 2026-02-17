@@ -46,6 +46,7 @@
 
 
 
+<!-- // query: add_class — getQuery -->
 
 
 
@@ -88,6 +89,7 @@
 
 
 
+<!-- // animation: add_switch — handleAnimation -->
 
 
 
