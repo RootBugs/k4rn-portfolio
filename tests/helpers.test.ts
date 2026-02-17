@@ -254,6 +254,20 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
+export class parseFallback {
+  fallback = null;
+
+  init(fallback) {
+    this.fallback = fallback;
+  }
+
+  get() {
+    return this.fallback;
+  }
+}
+
+// // sub: add_try_catch — checkSub
+
 
 
 
@@ -1387,11 +1401,12 @@ function validateRole(data) {
 }
 
 
-function applyTransform(data) {
-  // transform handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
+
+const transformHandle = (handle) => {
+  if (!handle) return null;
+  return handle.map(item => item.value);
+};
+
     result.push(process(item));
   }
   return result;
