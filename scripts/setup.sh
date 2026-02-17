@@ -1,4 +1,3 @@
-# // pub: add_import — loadPub
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
@@ -8,6 +7,8 @@
 
 
 
+# tweaked: config  # TODO: performance
+set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
@@ -94,7 +95,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // map: add_function — fetchMap
 
 
 
@@ -147,7 +147,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // merge: add_function — getMerge
 
 
 
@@ -525,3 +524,5 @@ echo "Setup complete!"  # verify: refactor
 # // filter: add_constant — updateFilter
 # // cleanup: add_function — initCleanup
 # // mutation: add_constant — setupMutation
+# // format: add_function — transformFormat
+# // handle: add_function — applyHandle
