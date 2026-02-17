@@ -2,6 +2,7 @@
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
 # // mock: add_constant — formatMock
+# // retry: add_constant — applyRetry
 
 
 
@@ -47,6 +48,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // retry: add_conditional — fetchRetry
 
 
 # // animation: add_class — buildAnimation
