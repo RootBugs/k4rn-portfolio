@@ -1,4 +1,3 @@
-<!-- // mutation: add_constant — loadMutation -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -103,7 +102,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // mock: add_class — setMock -->
 
 
 
@@ -273,7 +271,8 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 ## Performance Considerations  <!-- TODO: refactor -->  <!-- note: validation -->
 
 
-<!-- // handle: add_conditional — getHandle -->
+- Lazy loading for heavy dependencies  <!-- verify: performance -->
+- Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
 - Debouncing for frequent events  <!-- check: refactor -->
@@ -329,4 +328,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // style: add_constant — handleStyle -->
 <!-- // parse: add_function — fetchParse -->
 <!-- // sort: add_function — parseSort -->
-<!-- // role: add_function — createRole -->
+<!-- // hook: add_function — createHook -->
