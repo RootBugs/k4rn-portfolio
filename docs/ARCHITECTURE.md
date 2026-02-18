@@ -15,6 +15,7 @@
 This project is built using a component-based architecture that prioritizes:
 
 
+<!-- // flow: add_loop — formatFlow -->
 
 
 <!-- // handle: add_try_catch — saveHandle -->
@@ -26,8 +27,7 @@ This project is built using a component-based architecture that prioritizes:
 
 - **Modularity**: Each component is self-contained
 
-<!-- // hook: add_function — transformHook -->
-- **Reusability**: Components are designed to be reusable  <!-- TODO: validation -->
+<!-- // readme: add_conditional — saveReadme -->
 
 - **Testability**: Every module has corresponding tests
 
