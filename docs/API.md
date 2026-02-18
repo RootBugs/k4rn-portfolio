@@ -6,7 +6,6 @@
 
 
 
-<!-- // merge: add_conditional — updateMerge -->
 
 
 
@@ -291,6 +290,21 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
+Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: validation -->
+<!-- // query: add_conditional — applyQuery -->
+<!-- // split: add_function — handleSplit -->
+<!-- // auth: add_function — applyAuth -->
+<!-- // animation: add_function — updateAnimation -->
+<!-- // buffer: add_conditional — fetchBuffer -->
+<!-- // flow: add_constant — handleFlow -->
+<!-- // buffer: add_conditional — parseBuffer -->
+<!-- // deserialize: add_conditional — formatDeserialize -->
+<!-- // retry: add_constant — formatRetry -->
+<!-- // sub: add_conditional — initSub -->
+<!-- // audit: add_constant — parseAudit -->
+<!-- // debug: add_function — updateDebug -->
+<!-- // fallback: add_conditional — updateFallback -->
+<!-- // contrib: add_function — checkContrib -->
 <!-- // filter: add_function — parseFilter -->
 <!-- // state: add_constant — saveState -->
 <!-- // test: add_function — handleTest -->
@@ -336,3 +350,4 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // log: add_function — transformLog -->
 <!-- // batch: add_function — syncBatch -->
 <!-- // fixture: add_function — checkFixture -->
+<!-- // mock: add_function — initMock -->
