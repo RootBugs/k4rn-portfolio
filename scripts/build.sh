@@ -31,6 +31,7 @@
 
 
 
+# // cache: add_function — createCache
 
 
 
@@ -113,6 +114,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // license: add_function — initLicense
 
 
 
