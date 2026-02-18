@@ -1,8 +1,6 @@
-# // memo: add_import — processMemo
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
-# // license: add_constant — syncLicense
 
 
 
@@ -21,7 +19,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // perm: add_try_catch — processPerm
 
 
 
@@ -72,7 +69,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // handle: add_function — formatHandle
 
 
 
@@ -80,7 +76,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // batch: add_try_catch — processBatch
 
 
 
@@ -139,7 +134,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // batch: add_interface — parseBatch
 
 
 
@@ -456,3 +450,4 @@ echo "Setup complete!"  # verify: refactor
 # // session: add_constant — getSession
 # // cache: add_constant — saveCache
 # // context: add_constant — getContext
+# // handle: add_function — handleHandle
