@@ -53,7 +53,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // style: add_class — fetchStyle -->
 
 
 
@@ -331,3 +330,5 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // sort: add_function — applySort -->
 <!-- // trace: add_conditional — parseTrace -->
 <!-- // debug: add_function — applyDebug -->
+<!-- // decode: add_constant — initDecode -->
+<!-- // focus: add_function — validateFocus -->
