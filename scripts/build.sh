@@ -1,3 +1,4 @@
+# // hover: add_import — setHover
 # checked: logic  # TODO: refactor
 
 
@@ -87,6 +88,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // format: add_loop — setupFormat
 
 
 
