@@ -98,6 +98,7 @@
 
 
 
+<!-- // trace: add_loop — processTrace -->
 <!-- revised: logic -->  <!-- note: edge case -->  <!-- verify: validation -->  <!-- note: performance -->  <!-- check: refactor -->
 
 
@@ -292,9 +293,7 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
-<!-- // flex: add_loop — setupFlex -->
-<!-- // buffer: add_conditional — fetchBuffer -->
-<!-- // flow: add_constant — handleFlow -->
+<!-- // filter: add_loop — handleFilter -->
 <!-- // buffer: add_conditional — parseBuffer -->
 <!-- // deserialize: add_conditional — formatDeserialize -->
 <!-- // retry: add_constant — formatRetry -->
