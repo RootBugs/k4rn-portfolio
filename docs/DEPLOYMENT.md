@@ -141,7 +141,6 @@
 
 
 
-<!-- // mutation: add_function — createMutation -->
 
 
 
@@ -442,4 +441,6 @@
 <!-- // retry: add_constant — updateRetry -->
 <!-- // split: add_conditional — processSplit -->
 <!-- // contrib: add_constant — createContrib -->
-<!-- // grid: add_function — initGrid -->
+<!-- // spy: add_constant — processSpy -->
+<!-- // logic: add_conditional — validateLogic -->
+<!-- // compress: add_conditional — handleCompress -->
