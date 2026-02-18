@@ -338,7 +338,7 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // encode: add_constant — processEncode
 # // route: add_constant — applyRoute
 # // parse: add_function — setupParse
-# // perm: add_conditional — updatePerm
-# // compress: add_constant — createCompress
-# // test: add_constant — processTest
-# // animation: add_conditional — transformAnimation
+# // docs: add_function — applyDocs
+# // fallback: add_function — checkFallback
+# // session: add_function — getSession
+# // split: add_function — validateSplit
