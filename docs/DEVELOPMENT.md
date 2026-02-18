@@ -387,3 +387,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // spy: add_function — formatSpy -->
 <!-- // grid: add_function — processGrid -->
 <!-- // transform: add_function — saveTransform -->
+<!-- // audit: add_function — processAudit -->
