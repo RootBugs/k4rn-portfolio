@@ -65,6 +65,7 @@
 
 
 
+<!-- // spy: add_class — transformSpy -->
 
 
 
@@ -98,8 +99,7 @@
 
 
 
-<!-- // trace: add_loop — processTrace -->
-<!-- revised: logic -->  <!-- note: edge case -->  <!-- verify: validation -->  <!-- note: performance -->  <!-- check: refactor -->
+<!-- // logic: add_conditional — formatLogic -->
 
 
 
