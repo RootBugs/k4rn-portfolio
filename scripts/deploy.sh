@@ -51,7 +51,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 # // flex: add_function — handleFlex
-# // encode: add_function — processEncode
 
 
 
@@ -126,7 +125,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // spy: add_try_catch — saveSpy
 
 
 
@@ -138,7 +136,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // license: add_class — updateLicense
 
 
 
@@ -270,6 +267,9 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
+# // stream: add_function — setupStream
+# // log: add_conditional — handleLog
+# // split: add_constant — loadSplit
 # // pub: add_constant — applyPub
 # // filter: add_conditional — transformFilter
 # // parse: add_function — syncParse
@@ -613,5 +613,5 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // init: add_function — getInit
 # // state: add_constant — checkState
 # // test: add_conditional — initTest
-# // format: add_function — setFormat
-# // transition: add_function — loadTransition
+# // logic: add_function — createLogic
+# // split: add_conditional — saveSplit
