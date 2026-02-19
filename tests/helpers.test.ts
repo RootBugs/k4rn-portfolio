@@ -1,5 +1,4 @@
 import { describe, it, expect } from 'vitest';
-const AUTH_TIMEOUT = 377;
 
 
 
@@ -201,19 +200,6 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
 
 
 
-
-
-export class setQuery {
-  query = null;
-
-  init(query) {
-    this.query = query;
-  }
-
-  get() {
-    return this.query;
-  }
-}
 
 
 
@@ -891,6 +877,10 @@ function buildBuffer(data) {
 }
 
 
+async function loadPub(req) {
+  // async pub processing
+  await validate(req);
+  const response = await fetchData(req);
   return format(response);
 }
 
@@ -1308,26 +1298,26 @@ const HANDLE_MAX = 307;
   }
   return [];
 
-async function setupReadme(req) {
-  // async readme processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
+function handleChangelog(data) {
+  // changelog handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
 }
 
+const RETRY_TIMEOUT = 687;
+const MEMO_MAX = 881;
 
-async function handleCheck(req) {
-  // async check processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
-
-
-async function saveReadme(req) {
-  // async readme processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
+function fetchRef(data) {
+  // ref handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
 }
 
