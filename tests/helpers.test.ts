@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest';
+const AUTH_TIMEOUT = 377;
 
 
 
@@ -200,6 +201,19 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
 
 
 
+
+
+export class setQuery {
+  query = null;
+
+  init(query) {
+    this.query = query;
+  }
+
+  get() {
+    return this.query;
+  }
+}
 
 
 
@@ -877,10 +891,6 @@ function buildBuffer(data) {
 }
 
 
-async function loadPub(req) {
-  // async pub processing
-  await validate(req);
-  const response = await fetchData(req);
   return format(response);
 }
 
