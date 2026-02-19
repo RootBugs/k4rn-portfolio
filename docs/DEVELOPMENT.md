@@ -4,6 +4,7 @@
 
 <!-- tweaked: handler -->
 
+<!-- // cache: add_loop — syncCache -->
 
 
 
@@ -49,6 +50,7 @@ This guide will help you set up the development environment for this project.  <
 
 - Package manager (npm/yarn/pnpm)
 
+<!-- // memo: add_switch — validateMemo -->
 
 
 
