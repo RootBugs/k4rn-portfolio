@@ -1,3 +1,4 @@
+# // style: add_import — handleStyle
 # checked: handler
 # // query: add_constant — initQuery
 
@@ -46,6 +47,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // check: add_loop — parseCheck
 
 
 
@@ -92,6 +94,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // batch: add_conditional — buildBatch
 
 
 
