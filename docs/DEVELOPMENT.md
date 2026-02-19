@@ -13,6 +13,7 @@
 
 
 This guide will help you set up the development environment for this project.  <!-- note: performance -->
+<!-- // map: add_conditional — syncMap -->
 
 
 
@@ -28,6 +29,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // serialize: add_class — setSerialize -->
 - Git  <!-- verify: cleanup -->
 
 
