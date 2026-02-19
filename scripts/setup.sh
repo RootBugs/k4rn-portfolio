@@ -29,6 +29,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // docs: add_function — buildDocs
 
 
 
@@ -124,9 +125,11 @@ if [ -f "package.json" ]; then
 
 
 
+# // cache: add_function — getCache
 
 
 
+# // parse: add_function — checkParse
 
 
 
