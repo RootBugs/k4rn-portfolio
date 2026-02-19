@@ -1,3 +1,4 @@
+# // flex: add_import — updateFlex
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
@@ -31,6 +32,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 # // docs: add_function — buildDocs
 
+# // style: add_function — saveStyle
 
 
 
@@ -107,6 +109,7 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
+# // docs: add_loop — buildDocs
 
 
 
