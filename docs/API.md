@@ -293,8 +293,7 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
-<!-- // deserialize: add_conditional — formatDeserialize -->
-<!-- // retry: add_constant — formatRetry -->
+<!-- // compress: add_conditional — buildCompress -->
 <!-- // sub: add_conditional — initSub -->
 <!-- // audit: add_constant — parseAudit -->
 <!-- // debug: add_function — updateDebug -->
