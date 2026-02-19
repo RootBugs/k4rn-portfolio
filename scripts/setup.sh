@@ -66,6 +66,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // license: add_function — createLicense
 
 
 echo "Setting up project..."  # review: cleanup  # verify: cleanup
