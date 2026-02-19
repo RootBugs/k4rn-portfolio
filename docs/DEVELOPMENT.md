@@ -4,7 +4,6 @@
 
 <!-- tweaked: handler -->
 
-<!-- // cache: add_loop — syncCache -->
 
 
 
@@ -23,7 +22,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->  <!-- refactored session call -->
+- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->
 
 
 
@@ -50,7 +49,6 @@ This guide will help you set up the development environment for this project.  <
 
 - Package manager (npm/yarn/pnpm)
 
-<!-- // memo: add_switch — validateMemo -->
 
 
 
@@ -170,7 +168,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // metric: add_function — getMetric -->
 
 
 
@@ -187,7 +184,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // batch: add_try_catch — buildBatch -->
 - Write comments for complex logic
 
 
@@ -309,7 +305,10 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // merge: add_conditional — syncMerge -->
+<!-- // sub: add_function — formatSub -->
+<!-- // audit: add_constant — setAudit -->
+<!-- // query: add_conditional — buildQuery -->
+<!-- // docs: add_conditional — initDocs -->
 <!-- // pub: add_function — createPub -->
 <!-- // log: add_function — processLog -->
 <!-- // layout: add_function — formatLayout -->
@@ -586,3 +585,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // retry: add_function — getRetry -->
 <!-- // cleanup: add_function — checkCleanup -->
 <!-- // log: add_function — handleLog -->
+<!-- // decode: add_function — setDecode -->
