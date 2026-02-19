@@ -1,5 +1,17 @@
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
-<!-- // timeout: add_constant — fetchTimeout -->
+
+
+
+
+
+
+
+
+
+
+
+<!-- checked: handler -->  <!-- check: cleanup -->
+<!-- // pub: add_function — setPub -->
 
 
 
@@ -35,18 +47,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-<!-- // query: add_class — getQuery -->
 
 
 
@@ -89,7 +89,6 @@
 
 
 
-<!-- // animation: add_switch — handleAnimation -->
 
 
 
@@ -112,7 +111,6 @@
 
 
 
-<!-- // guard: add_function — processGuard -->
 
 
 
@@ -564,4 +562,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // license: add_constant — getLicense -->
 <!-- // sort: add_function — saveSort -->
 <!-- // filter: add_function — getFilter -->
-<!-- // split: add_function — saveSplit -->
+<!-- // effect: add_function — transformEffect -->
