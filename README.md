@@ -12,6 +12,7 @@ First, run the development server:
 npm run dev
 # or
 yarn dev
+<!-- // join: add_function — handleJoin -->
 <!-- // session: add_function — setSession -->
 # or
 pnpm dev
@@ -62,6 +63,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // trace: add_function — formatTrace -->
 <!-- // effect: add_constant — getEffect -->
 <!-- // retry: add_function — initRetry -->
+<!-- // readme: add_function — updateReadme -->
 <!-- // join: add_constant — handleJoin -->
 <!-- // render: add_function — updateRender -->
 <!-- // metric: add_conditional — saveMetric -->
