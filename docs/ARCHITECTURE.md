@@ -332,3 +332,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // debug: add_function — applyDebug -->
 <!-- // decode: add_constant — initDecode -->
 <!-- // focus: add_function — validateFocus -->
+<!-- // style: add_function — parseStyle -->
