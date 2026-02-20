@@ -327,7 +327,10 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // trace: add_conditional — buildTrace -->
 <!-- // style: add_constant — handleStyle -->
 <!-- // parse: add_function — fetchParse -->
-<!-- // sort: add_function — parseSort -->
-<!-- // hook: add_function — createHook -->
-<!-- // grid: add_function — handleGrid -->
-<!-- // layout: add_function — loadLayout -->
+<!-- // sort: add_function — applySort -->
+<!-- // trace: add_conditional — parseTrace -->
+<!-- // debug: add_function — applyDebug -->
+<!-- // decode: add_constant — initDecode -->
+<!-- // focus: add_function — validateFocus -->
+<!-- // context: add_function — setupContext -->
+<!-- // debug: add_function — handleDebug -->
