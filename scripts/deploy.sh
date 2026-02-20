@@ -31,6 +31,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // logic: add_function — transformLogic
 
 
 
@@ -258,9 +259,7 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // decode: add_function — parseDecode
-# // logic: add_conditional — formatLogic
-# // focus: add_constant — processFocus
+# // fixture: add_loop — setupFixture
 # // log: add_conditional — handleLog
 # // split: add_constant — loadSplit
 # // pub: add_constant — applyPub
