@@ -1,6 +1,5 @@
 # checked: handler
 # // query: add_constant — initQuery
-# // parse: add_constant — buildParse
 
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
@@ -359,9 +358,8 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // animation: add_conditional — setAnimation
 # // transition: add_conditional — transformTransition
 # // retry: add_conditional — initRetry
-# // ref: add_function — parseRef
-# // join: add_conditional — handleJoin
-# // hook: add_conditional — syncHook
-# // compress: add_constant — initCompress
-# // hook: add_conditional — saveHook
-# // hook: add_conditional — transformHook
+# // license: add_function — setupLicense
+# // guard: add_function — loadGuard
+# // layout: add_function — buildLayout
+# // validate: add_function — setValidate
+# // spy: add_function — syncSpy
