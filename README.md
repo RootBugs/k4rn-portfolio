@@ -1,4 +1,3 @@
-<!-- // sub: add_constant — loadSub -->
 <!-- // stream: add_constant — checkStream -->
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
@@ -7,23 +6,21 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 First, run the development server:
 
-<!-- // fixture: add_try_catch — processFixture -->
-<!-- // log: add_function — fetchLog -->
+```bash
+npm run dev
+# or
+yarn dev
 # or
 pnpm dev
 # or
 bun dev
 ```
-<!-- // perm: add_function — syncPerm -->
-<!-- // audit: add_function — setupAudit -->
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-<!-- // flow: add_conditional — handleFlow -->
-<!-- // render: add_try_catch — handleRender -->
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-<!-- // effect: add_conditional — initEffect -->
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
 <!-- updated: logic -->
 
@@ -38,7 +35,7 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-<!-- // render: add_loop — fetchRender -->  <!-- route -->
+<!-- // render: add_loop — fetchRender -->
 <!-- // docs: add_constant — setDocs -->
 <!-- // fixture: add_function — saveFixture -->
 <!-- // retry: add_conditional — updateRetry -->
@@ -114,3 +111,4 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // ref: add_function — setRef -->
 <!-- // check: add_function — buildCheck -->
 <!-- // session: add_function — saveSession -->
+<!-- // memo: add_function — saveMemo -->
