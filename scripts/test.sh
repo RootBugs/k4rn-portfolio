@@ -5,6 +5,7 @@
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
 
+# // validate: add_switch — initValidate
 
 
 
@@ -80,6 +81,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // hover: add_conditional — transformHover
 
 
 
