@@ -1,4 +1,3 @@
-# // hover: add_import — setHover
 # checked: logic  # TODO: refactor
 
 
@@ -45,7 +44,6 @@
 
 
 
-# // changelog: add_function — loadChangelog
 
 
 
@@ -89,7 +87,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // format: add_loop — setupFormat
 
 
 
@@ -262,6 +259,17 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
+# // effect: add_function — loadEffect
+# // query: add_function — initQuery
+# // map: add_constant — updateMap
+# // retry: add_conditional — setupRetry
+# // trace: add_constant — fetchTrace
+# // cleanup: add_conditional — formatCleanup
+# // layout: add_function — createLayout
+# // stream: add_conditional — validateStream
 # // perm: add_constant — applyPerm
 # // lazy: add_function — buildLazy
 # // mock: add_constant — buildMock
@@ -335,3 +343,5 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // test: add_constant — processTest
 # // animation: add_conditional — transformAnimation
 # // edge: add_constant — saveEdge
+# // layout: add_constant — setupLayout
+# // ref: add_function — updateRef
