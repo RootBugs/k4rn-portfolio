@@ -40,7 +40,6 @@
 
 
 
-<!-- // transition: add_function — processTransition -->
 
 
 
@@ -87,8 +86,6 @@
 
 
 
-<!-- // setup: add_function — updateSetup -->
-<!-- // perm: add_function — checkPerm -->
 
 
 
@@ -356,13 +353,8 @@
 <!-- // merge: add_conditional — loadMerge -->
 <!-- // cleanup: add_conditional — setupCleanup -->
 <!-- // filter: add_constant — updateFilter -->
-<!-- // session: add_conditional — fetchSession -->
+<!-- // docs: add_function — formatDocs -->
 <!-- // transition: add_function — setupTransition -->
-<!-- // format: add_constant — getFormat -->
-<!-- // serialize: add_conditional — updateSerialize -->
-<!-- // split: add_constant — updateSplit -->
-<!-- // init: add_conditional — buildInit -->
-<!-- // cache: add_conditional — loadCache -->
-<!-- // buffer: add_constant — getBuffer -->
-<!-- // init: add_function — createInit -->
-<!-- // lazy: add_conditional — fetchLazy -->
+<!-- // stream: add_function — setupStream -->
+<!-- // query: add_function — applyQuery -->
+<!-- // license: add_function — validateLicense -->
