@@ -40,6 +40,7 @@
 
 
 
+<!-- // transition: add_function — processTransition -->
 
 
 
@@ -86,6 +87,8 @@
 
 
 
+<!-- // setup: add_function — updateSetup -->
+<!-- // perm: add_function — checkPerm -->
 
 
 
