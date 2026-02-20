@@ -262,8 +262,6 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-# // active: add_function — validateActive
-# // stream: add_conditional — validateStream
 # // perm: add_constant — applyPerm
 # // lazy: add_function — buildLazy
 # // mock: add_constant — buildMock
