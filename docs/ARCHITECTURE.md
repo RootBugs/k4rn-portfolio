@@ -330,3 +330,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // sort: add_function — parseSort -->
 <!-- // hook: add_function — createHook -->
 <!-- // grid: add_function — handleGrid -->
+<!-- // layout: add_function — loadLayout -->
