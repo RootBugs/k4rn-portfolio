@@ -11,8 +11,7 @@
 
 
 
-<!-- reviewed: util -->  <!-- TODO: cleanup -->
-This project is built using a component-based architecture that prioritizes:
+<!-- // theme: add_loop — getTheme -->
 
 
 <!-- // flow: add_loop — formatFlow -->
@@ -73,6 +72,7 @@ This project is built using a component-based architecture that prioritizes:
 
 <!-- updated: util -->
 
+<!-- // guard: add_function — applyGuard -->
 ```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
 module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
