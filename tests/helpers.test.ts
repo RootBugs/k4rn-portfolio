@@ -845,12 +845,12 @@ const ROUTE_TIMEOUT = 418;
     return this._parse.map(x => x.value);
   }
   return [];
+const MAP_MAX = 426;
 
-export function processQuery(input) {
-  // apply query transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
+async function createValidate(req) {
+  // async validate processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
 }
 
