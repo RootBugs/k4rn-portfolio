@@ -17,7 +17,6 @@
 
 
 
-<!-- // animation: add_try_catch — initAnimation -->
 
 
 
@@ -28,7 +27,6 @@
 
 
 
-<!-- // lazy: add_class — loadLazy -->
 
 
 
@@ -39,7 +37,6 @@
 
 
 
-<!-- // handle: add_try_catch — transformHandle -->
 
 
 
@@ -293,7 +290,20 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
-<!-- // filter: add_conditional — initFilter -->
+Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: validation -->
+<!-- // query: add_conditional — applyQuery -->
+<!-- // split: add_function — handleSplit -->
+<!-- // auth: add_function — applyAuth -->
+<!-- // animation: add_function — updateAnimation -->
+<!-- // buffer: add_conditional — fetchBuffer -->
+<!-- // flow: add_constant — handleFlow -->
+<!-- // buffer: add_conditional — parseBuffer -->
+<!-- // deserialize: add_conditional — formatDeserialize -->
+<!-- // retry: add_constant — formatRetry -->
+<!-- // sub: add_conditional — initSub -->
+<!-- // audit: add_constant — parseAudit -->
+<!-- // debug: add_function — updateDebug -->
+<!-- // fallback: add_conditional — updateFallback -->
 <!-- // contrib: add_function — checkContrib -->
 <!-- // filter: add_function — parseFilter -->
 <!-- // state: add_constant — saveState -->
@@ -438,11 +448,11 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // query: add_conditional — loadQuery -->
 <!-- // hover: add_constant — formatHover -->
 <!-- // transition: add_function — buildTransition -->
-<!-- // decode: add_function — buildDecode -->
-<!-- // route: add_function — fetchRoute -->
-<!-- // buffer: add_function — updateBuffer -->
-<!-- // setup: add_function — checkSetup -->
-<!-- // handle: add_function — syncHandle -->
-<!-- // hover: add_function — checkHover -->
-<!-- // parse: add_function — fetchParse -->
-<!-- // ref: add_function — buildRef -->
+<!-- // retry: add_conditional — getRetry -->
+<!-- // timeout: add_constant — processTimeout -->
+<!-- // license: add_constant — applyLicense -->
+<!-- // contrib: add_conditional — applyContrib -->
+<!-- // active: add_conditional — checkActive -->
+<!-- // encode: add_constant — getEncode -->
+<!-- // filter: add_conditional — getFilter -->
+<!-- // buffer: add_constant — updateBuffer -->
