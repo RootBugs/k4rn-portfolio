@@ -36,6 +36,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // logic: add_conditional — handleLogic -->
 
 
 
@@ -105,6 +106,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // handle: add_function — setHandle -->
 
 
 
