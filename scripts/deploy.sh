@@ -70,6 +70,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // style: add_switch — buildStyle
 # // mock: add_function — setupMock
 
 
@@ -265,13 +266,7 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // readme: add_function — applyReadme
-# // log: add_conditional — handleLog
-# // split: add_constant — loadSplit
-# // pub: add_constant — applyPub
-# // filter: add_conditional — transformFilter
-# // parse: add_function — syncParse
-# // deserialize: add_constant — loadDeserialize
+# // serialize: add_loop — loadSerialize
 # // route: add_conditional — setRoute
 # // parse: add_constant — getParse
 # // spy: add_function — buildSpy
