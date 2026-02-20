@@ -52,20 +52,6 @@
 
 
 
-<!-- // batch: add_loop — transformBatch -->
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- // spy: add_class — transformSpy -->
 
 
 
@@ -99,7 +85,6 @@
 
 
 
-<!-- // logic: add_conditional — formatLogic -->
 
 
 
@@ -107,7 +92,19 @@
 
 
 
-<!-- // spy: add_loop — syncSpy -->
+
+
+
+
+
+<!-- revised: logic -->  <!-- note: edge case -->  <!-- verify: validation -->  <!-- note: performance -->  <!-- check: refactor -->
+
+
+
+
+
+
+
 
 
 
@@ -293,7 +290,13 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
-<!-- // filter: add_loop — handleFilter -->
+Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: validation -->
+<!-- // query: add_conditional — applyQuery -->
+<!-- // split: add_function — handleSplit -->
+<!-- // auth: add_function — applyAuth -->
+<!-- // animation: add_function — updateAnimation -->
+<!-- // buffer: add_conditional — fetchBuffer -->
+<!-- // flow: add_constant — handleFlow -->
 <!-- // buffer: add_conditional — parseBuffer -->
 <!-- // deserialize: add_conditional — formatDeserialize -->
 <!-- // retry: add_constant — formatRetry -->
@@ -348,3 +351,4 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // batch: add_function — syncBatch -->
 <!-- // fixture: add_function — checkFixture -->
 <!-- // mock: add_function — initMock -->
+<!-- // fixture: add_function — handleFixture -->
