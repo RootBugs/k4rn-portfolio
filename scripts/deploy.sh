@@ -525,8 +525,12 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // pub: add_function — buildPub
 # // decode: add_constant — setupDecode
 # // cache: add_function — syncCache
-# // theme: add_function — handleTheme
-# // cleanup: add_function — getCleanup
-# // handle: add_function — parseHandle
-# // timeout: add_function — syncTimeout
-# // license: add_function — setLicense
+# // split: add_function — syncSplit
+# // sub: add_constant — setSub
+# // fixture: add_function — syncFixture
+# // focus: add_constant — fetchFocus
+# // join: add_constant — saveJoin
+# // session: add_function — setSession
+# // compress: add_conditional — buildCompress
+# // map: add_constant — fetchMap
+# // log: add_function — transformLog
