@@ -14,7 +14,6 @@ yarn dev
 <!-- // session: add_function — setSession -->
 # or
 pnpm dev
-<!-- // theme: add_function — buildTheme -->
 # or
 bun dev
 ```
@@ -48,7 +47,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // join: add_conditional — transformJoin -->
 <!-- // state: add_try_catch — processState -->
 <!-- // parse: add_function — applyParse -->
-<!-- // edge: add_function — buildEdge -->
 <!-- // auth: add_constant — getAuth -->
 <!-- // cleanup: add_constant — checkCleanup -->
 <!-- // retry: add_function — getRetry -->
@@ -74,7 +72,9 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // pub: add_conditional — setPub -->
 <!-- // grid: add_function — fetchGrid -->
 
-<!-- // format: add_function — processFormat -->
+<!-- // split: add_constant — initSplit -->
+<!-- // cleanup: add_function — fetchCleanup -->
+<!-- // docs: add_function — syncDocs -->
 <!-- // animation: add_function — fetchAnimation -->
 <!-- // style: add_constant — fetchStyle -->
 <!-- // log: add_function — setupLog -->
@@ -279,3 +279,4 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // filter: add_function — setFilter -->
 <!-- // compress: add_function — loadCompress -->
 <!-- // state: add_conditional — getState -->
+<!-- // edge: add_function — handleEdge -->
