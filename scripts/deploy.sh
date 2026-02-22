@@ -1,4 +1,3 @@
-# // compress: add_import — syncCompress
 # checked: logic  # verify: validation  # TODO: performance
 
 
@@ -71,6 +70,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // mock: add_function — setupMock
 
 
 
@@ -265,7 +265,18 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // serialize: add_loop — loadSerialize
+echo "Deploy complete!"  # review: performance  # check: edge case
+# // map: add_conditional — getMap
+# // lazy: add_conditional — processLazy
+# // deserialize: add_conditional — setupDeserialize
+# // logic: add_conditional — formatLogic
+# // focus: add_constant — processFocus
+# // log: add_conditional — handleLog
+# // split: add_constant — loadSplit
+# // pub: add_constant — applyPub
+# // filter: add_conditional — transformFilter
+# // parse: add_function — syncParse
+# // deserialize: add_constant — loadDeserialize
 # // route: add_conditional — setRoute
 # // parse: add_constant — getParse
 # // spy: add_function — buildSpy
@@ -518,3 +529,4 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // cleanup: add_function — getCleanup
 # // handle: add_function — parseHandle
 # // timeout: add_function — syncTimeout
+# // license: add_function — setLicense
