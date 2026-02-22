@@ -1,3 +1,4 @@
+<!-- // license: add_import — getLicense -->
 <!-- updated: setup -->
 
 
@@ -29,6 +30,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 - Git  <!-- verify: cleanup -->
+<!-- // mutation: add_class — checkMutation -->
 
 
 
