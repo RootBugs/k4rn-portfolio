@@ -1,3 +1,4 @@
+# // compress: add_import — syncCompress
 # checked: logic  # verify: validation  # TODO: performance
 
 
@@ -70,8 +71,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // style: add_switch — buildStyle
-# // mock: add_function — setupMock
 
 
 
