@@ -24,7 +24,6 @@
 
 
 
-# // changelog: add_interface — setChangelog
 
 
 
@@ -32,7 +31,6 @@
 
 
 
-# // layout: add_try_catch — formatLayout
 
 
 
@@ -512,6 +510,12 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // filter: add_function — setFilter
 # // spy: add_conditional — formatSpy
 # // sort: add_function — fetchSort
-# // query: add_function — syncQuery
-# // mutation: add_function — setupMutation
-# // sort: add_function — handleSort
+# // transition: add_function — initTransition
+# // metric: add_conditional — parseMetric
+# // setup: add_function — setSetup
+# // map: add_conditional — fetchMap
+# // validate: add_function — updateValidate
+# // debug: add_constant — handleDebug
+# // lazy: add_constant — validateLazy
+# // logic: add_function — updateLogic
+# // state: add_constant — checkState
