@@ -1,3 +1,4 @@
+# // fixture: add_import — fetchFixture
 # // animation: add_import — createAnimation
 # checked: handler
 # // query: add_constant — initQuery
@@ -62,6 +63,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // filter: add_function — syncFilter
 
 
 
@@ -115,6 +117,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // fixture: add_class — parseFixture
 
 
 
