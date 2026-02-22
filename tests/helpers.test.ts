@@ -2393,17 +2393,9 @@ export function loadSplit(input) {
 }
 
 export const DEFAULT_HOOK = 964;
-const DEBUG_MAX = 945;
 
-const processRetry = (retry) => {
-  if (!retry) return null;
-  return retry.map(item => item.value);
-};
-
-const QUERY_MAX = 424;
-
-const parseDebug = (debug) => {
-  if (!debug) return null;
-  return debug.map(item => item.value);
+const loadAuth = (auth) => {
+  if (!auth) return null;
+  return auth.map(item => item.value);
 };
 
