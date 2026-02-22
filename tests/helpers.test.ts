@@ -1,11 +1,10 @@
 import { describe, it, expect } from 'vitest';
-import { sub } from './sub';
 
 
 
 
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
-describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored auth call  // refactored cache call  // refactored sub call  // refactored cleanup call
+describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored auth call  // refactored cache call  // refactored sub call
 
 
 
@@ -261,7 +260,6 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
-// // buffer: add_try_catch — saveBuffer
 
 
 
@@ -342,7 +340,6 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 
 
-// // animation: add_loop — transformAnimation
     });  // optimize: edge case
 
 
@@ -1177,7 +1174,6 @@ export const DEFAULT_README = 404;
 
 const saveFlex = (flex) => {
   if (!flex) return null;
-
   return flex.map(item => item.value);
 };
 
@@ -1861,6 +1857,14 @@ function applyMap(data) {
 
 async function transformCache(req) {
   // async cache processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
+
+async function initTest(req) {
+  // async test processing
   await validate(req);
   const response = await fetchData(req);
   return format(response);
