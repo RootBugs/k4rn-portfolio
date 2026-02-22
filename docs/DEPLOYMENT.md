@@ -1,7 +1,3 @@
-<!-- // sub: add_import — checkSub -->
-<!-- // map: add_import — applyMap -->
-<!-- // fixture: add_import — saveFixture -->
-<!-- // hook: add_import — loadHook -->
 <!-- // split: add_constant — getSplit -->
 <!-- tweaked: util -->
 
@@ -16,12 +12,6 @@
 
 
 
-<!-- // spy: add_function — applySpy -->
-
-
-
-
-<!-- // trace: add_function — syncTrace -->
 
 
 
@@ -52,7 +42,10 @@
 
 
 
-<!-- // compress: add_conditional — processCompress -->
+
+
+
+
 
 
 
@@ -94,7 +87,6 @@
 
 
 
-<!-- // retry: add_function — createRetry -->
 
 
 
@@ -104,7 +96,6 @@
 
 
 
-<!-- // join: add_function — checkJoin -->
 
 <!-- // retry: add_loop — buildRetry -->
 
@@ -128,7 +119,6 @@
 
 
 
-<!-- // sub: add_class — formatSub -->
 
 
 
@@ -306,6 +296,11 @@
 
 
 
+<!-- // session: add_loop — setupSession -->
+<!-- // flex: add_function — initFlex -->
+<!-- // test: add_constant — initTest -->
+<!-- // contrib: add_function — createContrib -->
+<!-- // transition: add_function — processTransition -->
 <!-- // parse: add_constant — fetchParse -->
 <!-- // validate: add_constant — buildValidate -->
 <!-- // fallback: add_constant — checkFallback -->
@@ -539,3 +534,4 @@
 <!-- // validate: add_function — handleValidate -->
 <!-- // transform: add_function — createTransform -->
 <!-- // pub: add_function — validatePub -->
+<!-- // init: add_function — updateInit -->
