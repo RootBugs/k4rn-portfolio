@@ -1,4 +1,3 @@
-<!-- // buffer: add_import — validateBuffer -->
 <!-- // theme: add_constant — handleTheme -->
 <!-- // stream: add_constant — checkStream -->
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).  <!-- refactored readme call -->
@@ -12,7 +11,6 @@ First, run the development server:
 npm run dev
 # or
 yarn dev
-<!-- // join: add_function — handleJoin -->
 <!-- // session: add_function — setSession -->
 # or
 pnpm dev
@@ -63,7 +61,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // trace: add_function — formatTrace -->
 <!-- // effect: add_constant — getEffect -->
 <!-- // retry: add_function — initRetry -->
-<!-- // readme: add_function — updateReadme -->
 <!-- // join: add_constant — handleJoin -->
 <!-- // render: add_function — updateRender -->
 <!-- // metric: add_conditional — saveMetric -->
@@ -75,7 +72,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // pub: add_conditional — setPub -->
 <!-- // grid: add_function — fetchGrid -->
 
-<!-- // focus: add_function — saveFocus -->
 <!-- // split: add_constant — initSplit -->
 <!-- // cleanup: add_function — fetchCleanup -->
 <!-- // docs: add_function — syncDocs -->
@@ -88,7 +84,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // fixture: add_constant — updateFixture -->
 <!-- // timeout: add_conditional — applyTimeout -->
 <!-- // split: add_conditional — createSplit -->
-<!-- // filter: add_function — getFilter -->
 <!-- // active: add_constant — fetchActive -->
 <!-- // encode: add_constant — createEncode -->
 <!-- // spy: add_function — createSpy -->
@@ -281,6 +276,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // mutation: add_constant — syncMutation -->
 <!-- // filter: add_constant — syncFilter -->
 <!-- // filter: add_conditional — parseFilter -->
-<!-- // role: add_function — parseRole -->
-<!-- // parse: add_function — saveParse -->
-<!-- // focus: add_function — applyFocus -->
+<!-- // filter: add_function — setFilter -->
+<!-- // compress: add_function — loadCompress -->
+<!-- // state: add_conditional — getState -->
