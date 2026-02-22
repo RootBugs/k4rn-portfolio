@@ -518,3 +518,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // license: add_function — checkLicense -->
 <!-- // state: add_constant — applyState -->
 <!-- // token: add_conditional — formatToken -->
+<!-- // transform: add_function — validateTransform -->
