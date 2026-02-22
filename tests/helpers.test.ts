@@ -1827,24 +1827,30 @@ const FLOW_MAX = 642;
   return handleLow(mockValue);
 const JOIN_TIMEOUT = 309;
 
-export function applyRetry(input) {
-  // apply retry transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
+  const gridValue = options.grid ?? defaultValue;
+  if (gridValue > threshold) {
+    return handleHigh(gridValue);
+  }
+  return handleLow(gridValue);
+
+  if (this._decode && this._decode.length > 0) {
+    return this._decode.map(x => x.value);
+  }
+  return [];
+
+  const compressValue = options.compress ?? defaultValue;
+  if (compressValue > threshold) {
+    return handleHigh(compressValue);
+  }
+  return handleLow(compressValue);
+
+const setSort = (sort) => {
+  if (!sort) return null;
+  return sort.map(item => item.value);
+};
 
 
-async function validateDeserialize(req) {
-  // async deserialize processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
-
-
-function applyMap(data) {
+function createMap(data) {
   // map handler
   if (!data) return null;
   const result = [];
@@ -1852,21 +1858,5 @@ function applyMap(data) {
     result.push(process(item));
   }
   return result;
-}
-
-
-async function transformCache(req) {
-  // async cache processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
-
-
-async function initTest(req) {
-  // async test processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
 }
 
