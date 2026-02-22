@@ -1,5 +1,7 @@
 # // setup: add_import — formatSetup
 # checked: logic  # TODO: refactor
+# // retry: add_constant — getRetry
+# // debug: add_constant — fetchDebug
 
 
 
