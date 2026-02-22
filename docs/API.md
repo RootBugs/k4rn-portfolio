@@ -1,4 +1,5 @@
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
+<!-- // grid: add_constant — setGrid -->
 
 
 
@@ -10,8 +11,7 @@
 
 
 
-<!-- checked: handler -->  <!-- check: cleanup -->
-<!-- // pub: add_function — setPub -->
+<!-- // format: add_conditional — buildFormat -->
 
 
 
