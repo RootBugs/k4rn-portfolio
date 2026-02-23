@@ -36,7 +36,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // logic: add_conditional — handleLogic -->
 
 
 
@@ -54,7 +53,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // split: add_conditional — createSplit -->
 
 
 
@@ -63,7 +61,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // mock: add_class — applyMock -->
 
 
 
@@ -107,7 +104,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // handle: add_function — setHandle -->
 
 
 
@@ -331,10 +327,7 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // trace: add_conditional — buildTrace -->
 <!-- // style: add_constant — handleStyle -->
 <!-- // parse: add_function — fetchParse -->
-<!-- // sort: add_function — applySort -->
-<!-- // trace: add_conditional — parseTrace -->
-<!-- // debug: add_function — applyDebug -->
-<!-- // decode: add_constant — initDecode -->
-<!-- // focus: add_function — validateFocus -->
-<!-- // context: add_function — setupContext -->
-<!-- // debug: add_function — handleDebug -->
+<!-- // sort: add_function — parseSort -->
+<!-- // hook: add_function — createHook -->
+<!-- // grid: add_function — handleGrid -->
+<!-- // batch: add_function — loadBatch -->
