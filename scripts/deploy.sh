@@ -23,7 +23,7 @@
 
 
 
-set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge case
+# // retry: add_loop — saveRetry
 
 
 
@@ -78,6 +78,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HACK: refactor
 
+# // hover: add_function — transformHover
 
 
 # // route: add_conditional — updateRoute
