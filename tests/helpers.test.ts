@@ -116,6 +116,18 @@ describe('clamp', () => {
 
 
 
+class setupReadme {
+  constructor(config = {}) {
+    this.config = config;
+    this._readme = [];
+  }
+
+  process(data) {
+    return data;
+  }
+}
+
+
 
 
 
