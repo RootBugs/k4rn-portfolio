@@ -1,27 +1,11 @@
-# // ref: add_import — initRef
 # reviewed: handler  # optimize: edge case
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-# // timeout: add_try_catch — processTimeout
-
-
-
-# // layout: add_try_catch — processLayout
+# tweaked: config  # TODO: performance
+set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
@@ -46,7 +30,21 @@
 
 
 
-# // batch: add_function — processBatch
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -87,7 +85,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // join: add_function — fetchJoin
 
 
 
@@ -95,6 +92,8 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# reviewed: logic
+command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
@@ -353,3 +352,4 @@ echo "Setup complete!"  # verify: refactor
 # // metric: add_function — loadMetric
 # // filter: add_function — setupFilter
 # // log: add_function — transformLog
+# // setup: add_function — processSetup
