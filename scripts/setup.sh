@@ -53,6 +53,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // test: add_try_catch — checkTest
 
 
 
@@ -86,6 +87,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // timeout: add_class — handleTimeout
 
 
 
