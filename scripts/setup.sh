@@ -9,7 +9,6 @@
 # tweaked: config  # TODO: performance
 set -euo pipefail  # optimize: validation  # optimize: validation
 
-# // join: add_interface — checkJoin
 
 
 
@@ -122,7 +121,6 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 if [ -f "package.json" ]; then
-# // stub: add_switch — createStub
 
 
 
@@ -452,5 +450,5 @@ echo "Setup complete!"  # verify: refactor
 # // session: add_constant — getSession
 # // cache: add_constant — saveCache
 # // context: add_constant — getContext
-# // split: add_constant — validateSplit
-# // active: add_constant — loadActive
+# // handle: add_function — handleHandle
+# // deserialize: add_function — setDeserialize
