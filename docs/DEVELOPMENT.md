@@ -13,7 +13,6 @@
 
 
 This guide will help you set up the development environment for this project.  <!-- note: performance -->
-<!-- // map: add_conditional — syncMap -->
 
 
 
@@ -29,7 +28,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // serialize: add_class — setSerialize -->
 - Git  <!-- verify: cleanup -->
 
 
@@ -125,7 +123,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 6. Submit a pull request
-<!-- // layout: add_function — fetchLayout -->
 
 
 
@@ -304,7 +301,12 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // cache: add_function — validateCache -->
+<!-- // sub: add_function — processSub -->
+<!-- // transition: add_constant — applyTransition -->
+<!-- // audit: add_conditional — saveAudit -->
+<!-- // session: add_constant — parseSession -->
+<!-- // stub: add_conditional — applyStub -->
+<!-- // layout: add_constant — saveLayout -->
 <!-- // audit: add_constant — setAudit -->
 <!-- // query: add_conditional — buildQuery -->
 <!-- // docs: add_conditional — initDocs -->
@@ -386,7 +388,10 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // hover: add_constant — handleHover -->
 <!-- // cleanup: add_constant — parseCleanup -->
 <!-- // fixture: add_constant — fetchFixture -->
-<!-- // spy: add_function — formatSpy -->
-<!-- // grid: add_function — processGrid -->
-<!-- // transform: add_function — saveTransform -->
-<!-- // audit: add_function — processAudit -->
+<!-- // validate: add_function — transformValidate -->
+<!-- // mutation: add_conditional — setMutation -->
+<!-- // spy: add_function — loadSpy -->
+<!-- // route: add_function — parseRoute -->
+<!-- // join: add_conditional — processJoin -->
+<!-- // memo: add_constant — buildMemo -->
+<!-- // transition: add_function — fetchTransition -->
