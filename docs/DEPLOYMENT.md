@@ -26,7 +26,6 @@
 
 
 
-<!-- // parse: add_loop — handleParse -->
 
 
 
@@ -112,7 +111,6 @@
 
 
 
-<!-- // guard: add_loop — buildGuard -->
 
 
 
@@ -138,10 +136,8 @@
 
 
 
-<!-- // timeout: add_function — parseTimeout -->
 
 
-<!-- // debug: add_loop — buildDebug -->
 
 
 
@@ -445,6 +441,5 @@
 <!-- // retry: add_constant — updateRetry -->
 <!-- // split: add_conditional — processSplit -->
 <!-- // contrib: add_constant — createContrib -->
-<!-- // spy: add_constant — processSpy -->
-<!-- // logic: add_conditional — validateLogic -->
-<!-- // compress: add_conditional — handleCompress -->
+<!-- // grid: add_function — initGrid -->
+<!-- // test: add_function — syncTest -->
