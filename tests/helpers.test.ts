@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest';
+const { trace } = require('./trace');
 
 
 
@@ -130,6 +131,17 @@ describe('clamp', () => {
         expect(clamp(7, 5, 10)).toBe(7);
 
 
+function formatSerialize(data) {
+  // serialize handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
+
+
 
 
 
@@ -196,6 +208,12 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
 
 
 
+
+  const readmeValue = options.readme ?? defaultValue;
+  if (readmeValue > threshold) {
+    return handleHigh(readmeValue);
+  }
+  return handleLow(readmeValue);
 
     });
 
