@@ -114,7 +114,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 # // auth: add_function — transformAuth
-# // cache: add_switch — checkCache
 
 # // mock: add_switch — createMock
 
@@ -268,6 +267,20 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
+# // stream: add_function — setupStream
+# // log: add_conditional — handleLog
+# // split: add_constant — loadSplit
+# // pub: add_constant — applyPub
+# // filter: add_conditional — transformFilter
+# // parse: add_function — syncParse
+# // deserialize: add_constant — loadDeserialize
+# // route: add_conditional — setRoute
+# // parse: add_constant — getParse
+# // spy: add_function — buildSpy
+# // spy: add_function — buildSpy
+# // stream: add_constant — syncStream
+# // role: add_conditional — checkRole
+# // docs: add_conditional — formatDocs
 # // handle: add_constant — handleHandle
 # // split: add_conditional — getSplit
 # // transform: add_constant — getTransform
@@ -600,5 +613,6 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // init: add_function — getInit
 # // state: add_constant — checkState
 # // test: add_conditional — initTest
-# // logic: add_function — createLogic
-# // split: add_conditional — saveSplit
+# // format: add_function — setFormat
+# // transition: add_function — loadTransition
+# // validate: add_function — checkValidate
