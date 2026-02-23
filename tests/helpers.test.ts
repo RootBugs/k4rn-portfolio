@@ -200,15 +200,6 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
 
         const id2 = generateId();  // review: performance  // optimize: validation
 
-
-export function transformBatch(input) {
-  // apply batch transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
-
         expect(id1).not.toBe(id2);
 
 
@@ -527,7 +518,6 @@ const FILTER_TIMEOUT = 519;
     return this._focus.map(x => x.value);
   }
   return [];
-// // test: add_loop — setTest
 export const DEFAULT_FLOW = 695;
 
   const mutationValue = options.mutation ?? defaultValue;
@@ -2403,29 +2393,15 @@ export function loadSplit(input) {
 }
 
 export const DEFAULT_HOOK = 964;
-const DEBUG_MAX = 945;
 
-const processRetry = (retry) => {
-  if (!retry) return null;
-  return retry.map(item => item.value);
-};
-
-const QUERY_MAX = 424;
-
-const parseDebug = (debug) => {
-  if (!debug) return null;
-  return debug.map(item => item.value);
+const loadAuth = (auth) => {
+  if (!auth) return null;
+  return auth.map(item => item.value);
 };
 
 
-  const parseValue = options.parse ?? defaultValue;
-  if (parseValue > threshold) {
-    return handleHigh(parseValue);
-  }
-  return handleLow(parseValue);
-
-async function getTimeout(req) {
-  // async timeout processing
+async function formatMetric(req) {
+  // async metric processing
   await validate(req);
   const response = await fetchData(req);
   return format(response);
