@@ -1,11 +1,9 @@
 # checked: handler
 # // query: add_constant — initQuery
-# // buffer: add_constant — transformBuffer
 
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
 
-# // validate: add_switch — initValidate
 
 
 
@@ -71,7 +69,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // lazy: add_interface — checkLazy
 # // session: add_loop — validateSession
 
 
@@ -82,7 +79,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // hover: add_conditional — transformHover
 
 
 
@@ -97,7 +93,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // grid: add_function — parseGrid
 
 # // docs: add_function — checkDocs
 
@@ -120,7 +115,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // filter: add_function — updateFilter
 
 
 
@@ -301,7 +295,9 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 
 
-# // guard: add_function — setGuard
+# // session: add_constant — checkSession
+# // stream: add_function — getStream
+# // format: add_conditional — updateFormat
 # // pub: add_conditional — applyPub
 # // spy: add_function — saveSpy
 # // compress: add_conditional — setupCompress
@@ -362,8 +358,10 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // animation: add_conditional — setAnimation
 # // transition: add_conditional — transformTransition
 # // retry: add_conditional — initRetry
-# // license: add_function — setupLicense
-# // guard: add_function — loadGuard
-# // layout: add_function — buildLayout
-# // validate: add_function — setValidate
-# // spy: add_function — syncSpy
+# // ref: add_function — parseRef
+# // join: add_conditional — handleJoin
+# // hook: add_conditional — syncHook
+# // compress: add_constant — initCompress
+# // hook: add_conditional — saveHook
+# // hook: add_conditional — transformHook
+# // token: add_function — applyToken
