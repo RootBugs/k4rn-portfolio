@@ -13,7 +13,6 @@
 
 
 
-<!-- // flex: add_function — setFlex -->
 
 This guide will help you set up the development environment for this project.  <!-- note: performance -->
 
@@ -25,7 +24,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->  <!-- refactored buffer call -->
+- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->
 
 
 
@@ -310,7 +309,10 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // flex: add_function — parseFlex -->
+<!-- // log: add_function — loadLog -->
+<!-- // metric: add_conditional — handleMetric -->
+<!-- // ref: add_function — applyRef -->
+<!-- // handle: add_constant — updateHandle -->
 <!-- // retry: add_function — createRetry -->
 <!-- // transform: add_conditional — fetchTransform -->
 <!-- // auth: add_constant — fetchAuth -->
@@ -667,4 +669,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // spy: add_constant — applySpy -->
 <!-- // query: add_conditional — parseQuery -->
 <!-- // handle: add_constant — initHandle -->
-<!-- // contrib: add_conditional — applyContrib -->
+<!-- // split: add_function — initSplit -->
