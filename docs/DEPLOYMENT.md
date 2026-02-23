@@ -1,7 +1,9 @@
+<!-- // deserialize: add_import — loadDeserialize -->
 <!-- tweaked: util -->
 
 
 
+<!-- // lazy: add_try_catch — setLazy -->
 
 
 
@@ -294,12 +296,7 @@
 
 
 
-<!-- // spy: add_conditional — createSpy -->
-<!-- // route: add_function — saveRoute -->
-<!-- // audit: add_function — formatAudit -->
-<!-- // flex: add_function — initFlex -->
-<!-- // test: add_constant — initTest -->
-<!-- // contrib: add_function — createContrib -->
+<!-- // theme: add_function — initTheme -->
 <!-- // transition: add_function — processTransition -->
 <!-- // parse: add_constant — fetchParse -->
 <!-- // validate: add_constant — buildValidate -->
