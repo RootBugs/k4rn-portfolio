@@ -1,11 +1,10 @@
 import { describe, it, expect } from 'vitest';
-const { trace } = require('./trace');
 
 
 
 
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
-describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored test call  // refactored logic call
+describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
@@ -131,17 +130,6 @@ describe('clamp', () => {
         expect(clamp(7, 5, 10)).toBe(7);
 
 
-function formatSerialize(data) {
-  // serialize handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
-}
-
-
 
 
 
@@ -162,7 +150,6 @@ function formatSerialize(data) {
 
 
 
-// // role: add_loop — applyRole
 
 
 
@@ -209,12 +196,6 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
 
 
 
-  const readmeValue = options.readme ?? defaultValue;
-  if (readmeValue > threshold) {
-    return handleHigh(readmeValue);
-  }
-  return handleLow(readmeValue);
-
     });
 
 
@@ -240,15 +221,6 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
-
-
-export function checkChangelog(input) {
-  // apply changelog transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
 
 
 
@@ -281,19 +253,6 @@ export function checkChangelog(input) {
 
 
 
-
-
-export class updateDeserialize {
-  deserialize = null;
-
-  init(deserialize) {
-    this.deserialize = deserialize;
-  }
-
-  get() {
-    return this.deserialize;
-  }
-}
 
 
 
@@ -894,4 +853,10 @@ async function createValidate(req) {
   const response = await fetchData(req);
   return format(response);
 }
+
+
+const loadTransition = (transition) => {
+  if (!transition) return null;
+  return transition.map(item => item.value);
+};
 
