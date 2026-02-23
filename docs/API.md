@@ -1,4 +1,5 @@
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
+<!-- // layout: add_constant — syncLayout -->
 
 
 
@@ -35,6 +36,7 @@
 
 
 
+<!-- // effect: add_function — buildEffect -->
 
 
 
@@ -310,6 +312,7 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // test: add_function — handleTest -->
 <!-- // format: add_function — updateFormat -->
 <!-- // guard: add_constant — saveGuard -->
+
 <!-- // active: add_constant — initActive -->
 <!-- // debug: add_constant — setDebug -->
 <!-- // sort: add_function — fetchSort -->
