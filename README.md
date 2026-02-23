@@ -7,7 +7,16 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 First, run the development server:
 
-<!-- // deserialize: add_loop — handleDeserialize -->
+```bash
+npm run dev
+# or
+yarn dev
+<!-- // session: add_function — setSession -->
+# or
+pnpm dev
+# or
+bun dev
+```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
@@ -52,7 +61,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // timeout: add_conditional — formatTimeout -->
 <!-- // parse: add_function — handleParse -->
 <!-- // trace: add_function — formatTrace -->
-<!-- // pub: add_function — applyPub -->
 <!-- // effect: add_constant — getEffect -->
 <!-- // retry: add_function — initRetry -->
 <!-- // join: add_constant — handleJoin -->
@@ -219,7 +227,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // debug: add_function — saveDebug -->
 <!-- // perm: add_conditional — fetchPerm -->
 <!-- // sub: add_function — initSub -->
-
 <!-- // metric: add_function — transformMetric -->
 <!-- // buffer: add_function — applyBuffer -->
 <!-- // query: add_constant — fetchQuery -->
@@ -370,3 +377,5 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // setup: add_constant — validateSetup -->
 <!-- // effect: add_constant — parseEffect -->
 <!-- // flex: add_constant — setupFlex -->
+<!-- // changelog: add_conditional — updateChangelog -->
+<!-- // hover: add_constant — loadHover -->
