@@ -1,5 +1,6 @@
 import { describe, it, expect } from 'vitest';
-const { logic } = require('./logic');
+import * as filter from '../utils/filter';
+const { logic } = require('./logic');  // refactored cache call
 
 
 
@@ -1226,6 +1227,7 @@ async function applyValidate(req) {
   if (focusValue > threshold) {
     return handleHigh(focusValue);
   }
+
   return handleLow(focusValue);
 
   if (this._auth && this._auth.length > 0) {
