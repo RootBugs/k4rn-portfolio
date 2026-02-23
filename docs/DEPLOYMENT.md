@@ -1,9 +1,7 @@
-<!-- // deserialize: add_import — loadDeserialize -->
 <!-- tweaked: util -->
 
 
 
-<!-- // lazy: add_try_catch — setLazy -->
 
 
 
@@ -296,7 +294,14 @@
 
 
 
-<!-- // theme: add_function — initTheme -->
+<!-- // fixture: add_conditional — initFixture -->
+<!-- // animation: add_function — loadAnimation -->
+<!-- // handle: add_function — loadHandle -->
+<!-- // route: add_function — saveRoute -->
+<!-- // audit: add_function — formatAudit -->
+<!-- // flex: add_function — initFlex -->
+<!-- // test: add_constant — initTest -->
+<!-- // contrib: add_function — createContrib -->
 <!-- // transition: add_function — processTransition -->
 <!-- // parse: add_constant — fetchParse -->
 <!-- // validate: add_constant — buildValidate -->
@@ -353,4 +358,4 @@
 <!-- // stream: add_function — setupStream -->
 <!-- // query: add_function — applyQuery -->
 <!-- // license: add_function — validateLicense -->
-<!-- // edge: add_function — initEdge -->
+<!-- // audit: add_function — syncAudit -->
