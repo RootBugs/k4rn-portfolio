@@ -41,6 +41,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // license: add_function — syncLicense -->
 - A code editor (VS Code recommended)  <!-- check: performance -->  <!-- FIXME: refactor -->  <!-- review: edge case -->
 
 <!-- // active: add_conditional — setActive -->
@@ -159,6 +160,7 @@ This guide will help you set up the development environment for this project.  <
 - Follow the existing code conventions  <!-- review: refactor -->
 
 
+<!-- // encode: add_class — loadEncode -->
 
 
 
