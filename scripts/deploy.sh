@@ -310,3 +310,4 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // transition: add_conditional — applyTransition
 # // check: add_function — setCheck
 # // flow: add_function — parseFlow
+# // serialize: add_function — processSerialize
