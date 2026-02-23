@@ -388,10 +388,7 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // hover: add_constant — handleHover -->
 <!-- // cleanup: add_constant — parseCleanup -->
 <!-- // fixture: add_constant — fetchFixture -->
-<!-- // validate: add_function — transformValidate -->
-<!-- // mutation: add_conditional — setMutation -->
-<!-- // spy: add_function — loadSpy -->
-<!-- // route: add_function — parseRoute -->
-<!-- // join: add_conditional — processJoin -->
-<!-- // memo: add_constant — buildMemo -->
-<!-- // transition: add_function — fetchTransition -->
+<!-- // spy: add_function — formatSpy -->
+<!-- // grid: add_function — processGrid -->
+<!-- // transform: add_function — saveTransform -->
+<!-- // audit: add_function — buildAudit -->
