@@ -356,3 +356,4 @@
 <!-- // stream: add_function — setupStream -->
 <!-- // query: add_function — applyQuery -->
 <!-- // license: add_function — validateLicense -->
+<!-- // edge: add_function — initEdge -->
