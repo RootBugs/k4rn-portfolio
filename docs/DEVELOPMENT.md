@@ -51,6 +51,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // compress: add_function — initCompress -->
 
 
 <!-- updated: handler -->  <!-- note: performance -->
@@ -125,8 +126,10 @@ This guide will help you set up the development environment for this project.  <
 6. Submit a pull request
 
 
+<!-- // buffer: add_function — parseBuffer -->
 
 <!-- reviewed: config -->
+<!-- // effect: add_conditional — setEffect -->
 
 
 
