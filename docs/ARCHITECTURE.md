@@ -1,4 +1,3 @@
-<!-- // buffer: add_constant — processBuffer -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -48,7 +47,6 @@
 
 
 
-<!-- // pub: add_try_catch — initPub -->
 
 
 
@@ -73,7 +71,8 @@
 
 <!-- updated: util -->
 
-<!-- // check: add_conditional — applyCheck -->
+```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
+module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
@@ -146,7 +145,6 @@
 
 
 ```  <!-- FIXME: cleanup -->
-<!-- // role: add_interface — checkRole -->
 
 
 
@@ -620,3 +618,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // encode: add_conditional — handleEncode -->
 <!-- // deserialize: add_conditional — validateDeserialize -->
 <!-- // compress: add_function — setCompress -->
+<!-- // ref: add_function — fetchRef -->
