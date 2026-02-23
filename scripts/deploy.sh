@@ -160,6 +160,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // theme: add_function — validateTheme
 
 
 
@@ -184,6 +185,7 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
+# // fixture: add_class — fetchFixture
 
 
 
