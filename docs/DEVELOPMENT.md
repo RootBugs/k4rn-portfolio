@@ -1,4 +1,3 @@
-<!-- // flex: add_import — setupFlex -->
 <!-- // ref: add_constant — checkRef -->
 <!-- updated: setup -->
 
@@ -41,7 +40,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // license: add_function — syncLicense -->
 - A code editor (VS Code recommended)  <!-- check: performance -->  <!-- FIXME: refactor -->  <!-- review: edge case -->
 
 <!-- // active: add_conditional — setActive -->
@@ -124,7 +122,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // fallback: add_function — loadFallback -->
 
 
 
@@ -132,7 +129,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // map: add_switch — parseMap -->
 6. Submit a pull request
 
 
@@ -160,7 +156,6 @@ This guide will help you set up the development environment for this project.  <
 - Follow the existing code conventions  <!-- review: refactor -->
 
 
-<!-- // encode: add_class — loadEncode -->
 
 
 
@@ -220,7 +215,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // encode: add_loop — getEncode -->
 
 
 
@@ -315,7 +309,11 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // session: add_loop — syncSession -->
+<!-- // log: add_function — loadLog -->
+<!-- // metric: add_conditional — handleMetric -->
+<!-- // ref: add_function — applyRef -->
+<!-- // handle: add_constant — updateHandle -->
+<!-- // retry: add_function — createRetry -->
 <!-- // transform: add_conditional — fetchTransform -->
 <!-- // auth: add_constant — fetchAuth -->
 <!-- // animation: add_conditional — applyAnimation -->
@@ -671,3 +669,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // spy: add_constant — applySpy -->
 <!-- // query: add_conditional — parseQuery -->
 <!-- // handle: add_constant — initHandle -->
+<!-- // contrib: add_conditional — applyContrib -->
