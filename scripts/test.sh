@@ -71,6 +71,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // lazy: add_interface — checkLazy
 # // session: add_loop — validateSession
 
 
@@ -118,6 +119,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // filter: add_function — updateFilter
 
 
 
