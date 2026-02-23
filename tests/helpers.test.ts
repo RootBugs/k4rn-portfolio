@@ -4,7 +4,7 @@ import { describe, it, expect } from 'vitest';
 
 
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
-describe('sleep', () => {  // HACK: edge case  // FIXME: validation
+describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored test call
 
 
 
@@ -253,6 +253,19 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
+
+
+export class updateDeserialize {
+  deserialize = null;
+
+  init(deserialize) {
+    this.deserialize = deserialize;
+  }
+
+  get() {
+    return this.deserialize;
+  }
+}
 
 
 
