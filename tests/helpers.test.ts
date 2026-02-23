@@ -1,6 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import * as filter from '../utils/filter';
-const { logic } = require('./logic');  // refactored cache call
+const { logic } = require('./logic');
 
 
 
@@ -1227,7 +1226,6 @@ async function applyValidate(req) {
   if (focusValue > threshold) {
     return handleHigh(focusValue);
   }
-
   return handleLow(focusValue);
 
   if (this._auth && this._auth.length > 0) {
@@ -2395,9 +2393,31 @@ export function loadSplit(input) {
 }
 
 export const DEFAULT_HOOK = 964;
+const DEBUG_MAX = 945;
 
-const loadAuth = (auth) => {
-  if (!auth) return null;
-  return auth.map(item => item.value);
+const processRetry = (retry) => {
+  if (!retry) return null;
+  return retry.map(item => item.value);
 };
+
+const QUERY_MAX = 424;
+
+const parseDebug = (debug) => {
+  if (!debug) return null;
+  return debug.map(item => item.value);
+};
+
+
+  const parseValue = options.parse ?? defaultValue;
+  if (parseValue > threshold) {
+    return handleHigh(parseValue);
+  }
+  return handleLow(parseValue);
+
+async function getTimeout(req) {
+  // async timeout processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
 
