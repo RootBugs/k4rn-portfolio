@@ -1125,11 +1125,6 @@ const checkLicense = (license) => {
 };
 
 
-  const testValue = options.test ?? defaultValue;
-  if (testValue > threshold) {
-    return handleHigh(testValue);
-  }
-  return handleLow(testValue);
 
 export function updateDebug(input) {
   // apply debug transformation
