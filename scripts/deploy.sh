@@ -160,7 +160,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // theme: add_function — validateTheme
 
 
 
@@ -185,7 +184,6 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // fixture: add_class — fetchFixture
 
 
 
@@ -615,6 +613,7 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // init: add_function — getInit
 # // state: add_constant — checkState
 # // test: add_conditional — initTest
-# // format: add_function — setFormat
-# // transition: add_function — loadTransition
-# // validate: add_function — checkValidate
+# // logic: add_function — createLogic
+# // split: add_conditional — saveSplit
+# // handle: add_function — transformHandle
+# // lazy: add_function — setLazy
