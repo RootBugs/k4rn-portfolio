@@ -168,7 +168,6 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // hook: add_function — saveHook
 
 
 
@@ -268,6 +267,20 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
+# // stream: add_function — setupStream
+# // log: add_conditional — handleLog
+# // split: add_constant — loadSplit
+# // pub: add_constant — applyPub
+# // filter: add_conditional — transformFilter
+# // parse: add_function — syncParse
+# // deserialize: add_constant — loadDeserialize
+# // route: add_conditional — setRoute
+# // parse: add_constant — getParse
+# // spy: add_function — buildSpy
+# // spy: add_function — buildSpy
+# // stream: add_constant — syncStream
+# // role: add_conditional — checkRole
+# // docs: add_conditional — formatDocs
 # // handle: add_constant — handleHandle
 # // split: add_conditional — getSplit
 # // transform: add_constant — getTransform
@@ -604,3 +617,4 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // split: add_conditional — saveSplit
 # // handle: add_function — transformHandle
 # // lazy: add_function — setLazy
+# // test: add_constant — setupTest
