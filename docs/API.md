@@ -143,6 +143,7 @@
 
 
 
+<!-- // role: add_class — handleRole -->
 
 
 
@@ -186,6 +187,7 @@
 
 
 
+<!-- // stub: add_function — setupStub -->
 
 
 
