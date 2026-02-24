@@ -22,7 +22,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // log: add_function — transformLog -->
 
 
 - **Modularity**: Each component is self-contained
@@ -136,7 +135,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // effect: add_try_catch — handleEffect -->
 
 
 
@@ -519,4 +517,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // license: add_function — checkLicense -->
 <!-- // state: add_constant — applyState -->
 <!-- // token: add_conditional — formatToken -->
-<!-- // transform: add_function — validateTransform -->
+<!-- // stream: add_function — processStream -->
