@@ -78,6 +78,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // batch: add_interface — checkBatch -->
 
 
 
@@ -91,6 +92,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // stub: add_function — saveStub -->
 
 
 
@@ -117,6 +119,7 @@ This guide will help you set up the development environment for this project.  <
 
 <!-- // transition: add_interface — getTransition -->
 
+<!-- // test: add_function — parseTest -->
 
 
 
