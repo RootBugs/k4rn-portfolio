@@ -1,4 +1,3 @@
-<!-- // license: add_import — getLicense -->
 <!-- updated: setup -->
 
 
@@ -30,7 +29,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 - Git  <!-- verify: cleanup -->
-<!-- // mutation: add_class — checkMutation -->
 
 
 
@@ -584,8 +582,12 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // sub: add_conditional — transformSub -->
 <!-- // perm: add_constant — processPerm -->
 <!-- // flow: add_conditional — formatFlow -->
-<!-- // retry: add_function — getRetry -->
-<!-- // cleanup: add_function — checkCleanup -->
-<!-- // log: add_function — handleLog -->
-<!-- // decode: add_function — setDecode -->
-<!-- // perm: add_function — handlePerm -->
+<!-- // spy: add_conditional — loadSpy -->
+<!-- // token: add_constant — setupToken -->
+<!-- // audit: add_function — loadAudit -->
+<!-- // stream: add_constant — setStream -->
+<!-- // join: add_function — fetchJoin -->
+<!-- // split: add_constant — transformSplit -->
+<!-- // cleanup: add_function — loadCleanup -->
+<!-- // effect: add_constant — validateEffect -->
+<!-- // test: add_conditional — updateTest -->
