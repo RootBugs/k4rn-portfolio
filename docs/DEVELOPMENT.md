@@ -10,6 +10,7 @@
 <!-- // encode: add_loop — processEncode -->
 
 
+<!-- // merge: add_function — formatMerge -->
 
 
 
@@ -197,6 +198,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // transform: add_conditional — initTransform -->
 
 
 
