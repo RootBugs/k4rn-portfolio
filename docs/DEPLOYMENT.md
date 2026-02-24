@@ -535,3 +535,4 @@
 <!-- // transform: add_function — createTransform -->
 <!-- // pub: add_function — validatePub -->
 <!-- // init: add_function — updateInit -->
+<!-- // init: add_function — checkInit -->
