@@ -669,4 +669,6 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // spy: add_constant — applySpy -->
 <!-- // query: add_conditional — parseQuery -->
 <!-- // handle: add_constant — initHandle -->
-<!-- // split: add_function — initSplit -->
+<!-- // contrib: add_conditional — applyContrib -->
+<!-- // audit: add_constant — saveAudit -->
+<!-- // hover: add_constant — checkHover -->
