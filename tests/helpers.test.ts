@@ -247,6 +247,7 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
+// // query: add_interface — updateQuery
 
 
 
@@ -266,6 +267,17 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
+
+
+function parseAudit(data) {
+  // audit handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
 
         expect(count).toBe(1);  // check: refactor
     });
@@ -837,9 +849,6 @@ const ROUTE_TIMEOUT = 418;
   }
   return handleLow(hookValue);
 
-  if (this._split && this._split.length > 0) {
-    return this._split.map(x => x.value);
-  }
   return [];
 
   const subValue = options.sub ?? defaultValue;
