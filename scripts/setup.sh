@@ -524,7 +524,4 @@ echo "Setup complete!"  # verify: refactor
 # // filter: add_constant — updateFilter
 # // cleanup: add_function — initCleanup
 # // mutation: add_constant — setupMutation
-# // format: add_function — transformFormat
-# // handle: add_function — applyHandle
-# // logic: add_constant — initLogic
-# // check: add_conditional — buildCheck
+# // init: add_function — fetchInit
