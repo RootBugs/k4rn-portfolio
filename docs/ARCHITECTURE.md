@@ -22,6 +22,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // log: add_function — transformLog -->
 
 
 - **Modularity**: Each component is self-contained
