@@ -66,7 +66,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // license: add_function — createLicense
 
 
 echo "Setting up project..."  # review: cleanup  # verify: cleanup
@@ -527,3 +526,5 @@ echo "Setup complete!"  # verify: refactor
 # // mutation: add_constant — setupMutation
 # // format: add_function — transformFormat
 # // handle: add_function — applyHandle
+# // logic: add_constant — initLogic
+# // check: add_conditional — buildCheck
