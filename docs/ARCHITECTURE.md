@@ -278,9 +278,6 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 - Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
-<!-- // handle: add_function — setHandle -->
-<!-- // hover: add_function — syncHover -->
-<!-- // compress: add_conditional — updateCompress -->
 <!-- // batch: add_function — updateBatch -->
 <!-- // sub: add_constant — setSub -->
 <!-- // metric: add_function — updateMetric -->
@@ -324,7 +321,7 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // deserialize: add_constant — formatDeserialize -->
 <!-- // docs: add_function — syncDocs -->
 <!-- // trace: add_conditional — buildTrace -->
-<!-- // style: add_constant — handleStyle -->
+<!-- // style: add_constant — handleStyle -->  <!-- retry -->
 <!-- // parse: add_function — fetchParse -->
 <!-- // sort: add_function — applySort -->
 <!-- // trace: add_conditional — parseTrace -->
