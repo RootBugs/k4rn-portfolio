@@ -38,6 +38,7 @@
 
 
 
+# // decode: add_function — checkDecode
 
 # // lazy: add_function — saveLazy
 
@@ -76,6 +77,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // serialize: add_function — saveSerialize
 
 
 
@@ -129,6 +131,7 @@ if [ -f "package.json" ]; then
 
 
 
+# // render: add_loop — applyRender
 
 
 
