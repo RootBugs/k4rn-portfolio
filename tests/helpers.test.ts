@@ -177,6 +177,19 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
 
 
 
+export class applyStyle {
+  style = null;
+
+  init(style) {
+    this.style = style;
+  }
+
+  get() {
+    return this.style;
+  }
+}
+
+
     it('should generate unique IDs', () => {  // review: cleanup  // TODO: edge case
 
 
@@ -454,6 +467,15 @@ export function buildMock(input) {
 
 async function transformPub(req) {
   // async pub processing
+
+export function fetchFocus(input) {
+  // apply focus transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
+
   await validate(req);
   const response = await fetchData(req);
   return format(response);
