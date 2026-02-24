@@ -1,5 +1,4 @@
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
-<!-- // grid: add_constant — setGrid -->
 
 
 
@@ -11,7 +10,8 @@
 
 
 
-<!-- // format: add_conditional — buildFormat -->
+<!-- checked: handler -->  <!-- check: cleanup -->
+<!-- // pub: add_function — setPub -->
 
 
 
@@ -22,7 +22,6 @@
 
 
 
-<!-- // encode: add_function — handleEncode -->
 
 
 
@@ -143,7 +142,6 @@
 
 
 
-<!-- // role: add_class — handleRole -->
 
 
 
@@ -180,14 +178,12 @@
 
 
 
-<!-- // lazy: add_loop — updateLazy -->
 
 
 
 
 
 
-<!-- // stub: add_function — setupStub -->
 
 
 
@@ -567,3 +563,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // sort: add_function — saveSort -->
 <!-- // filter: add_function — getFilter -->
 <!-- // effect: add_function — transformEffect -->
+<!-- // transform: add_function — formatTransform -->
