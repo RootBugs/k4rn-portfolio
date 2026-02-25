@@ -1,4 +1,3 @@
-# // buffer: add_import — syncBuffer
 # checked: logic  # verify: validation  # TODO: performance
 
 
@@ -268,6 +267,14 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
+# // stream: add_function — setupStream
+# // log: add_conditional — handleLog
+# // split: add_constant — loadSplit
+# // pub: add_constant — applyPub
+# // filter: add_conditional — transformFilter
+# // parse: add_function — syncParse
+# // deserialize: add_constant — loadDeserialize
+# // route: add_conditional — setRoute
 # // parse: add_constant — getParse
 # // spy: add_function — buildSpy
 # // spy: add_function — buildSpy
@@ -606,7 +613,10 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // init: add_function — getInit
 # // state: add_constant — checkState
 # // test: add_conditional — initTest
-# // format: add_function — setFormat
-# // transition: add_function — loadTransition
-# // validate: add_function — checkValidate
-# // test: add_function — buildTest
+# // logic: add_function — createLogic
+# // split: add_conditional — saveSplit
+# // handle: add_function — transformHandle
+# // lazy: add_function — setLazy
+# // test: add_constant — setupTest
+# // spy: add_constant — validateSpy
+# // split: add_constant — handleSplit
