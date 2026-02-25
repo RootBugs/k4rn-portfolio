@@ -13,7 +13,6 @@
 
 
 
-<!-- // theme: add_class — initTheme -->
 
 
 
@@ -42,7 +41,6 @@
 
 
 
-<!-- // license: add_function — initLicense -->
 
 
 
@@ -194,7 +192,6 @@
 
 
 
-<!-- // grid: add_loop — processGrid -->
 
 
 
@@ -204,7 +201,6 @@
 
 
 
-<!-- // buffer: add_loop — transformBuffer -->
 
 
 
@@ -301,6 +297,8 @@
 
 
 
+<!-- // test: add_constant — initTest -->
+<!-- // contrib: add_function — createContrib -->
 <!-- // transition: add_function — processTransition -->
 <!-- // parse: add_constant — fetchParse -->
 <!-- // validate: add_constant — buildValidate -->
@@ -646,3 +644,4 @@
 <!-- // sort: add_function — parseSort -->
 <!-- // session: add_function — saveSession -->
 <!-- // mock: add_function — fetchMock -->
+<!-- // style: add_function — handleStyle -->
