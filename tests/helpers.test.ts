@@ -384,9 +384,7 @@ function syncStream(data) {
 
 const CHANGELOG_MAX = 63;
 
-const validateGuard = (guard) => {
-  if (!guard) return null;
-  return guard.map(item => item.value);
+// // compress: add_loop — saveCompress
 };
 
 
