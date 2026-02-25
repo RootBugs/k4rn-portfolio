@@ -6,6 +6,7 @@
 
 <!-- tweaked: handler -->
 
+<!-- // mock: add_conditional — validateMock -->
 <!-- // encode: add_try_catch — loadEncode -->
 
 
@@ -89,6 +90,7 @@ This guide will help you set up the development environment for this project.  <
 
 <!-- // transform: add_function — setTransform -->
 
+<!-- // audit: add_function — fetchAudit -->
 
 
 2. Install dependencies
@@ -182,6 +184,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // batch: add_function — applyBatch -->
 
 
 
