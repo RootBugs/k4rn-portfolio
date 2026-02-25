@@ -466,6 +466,14 @@ async function updateCleanup(req) {
   await validate(req);
   const response = await fetchData(req);
   return format(response);
+
+async function applySerialize(req) {
+  // async serialize processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
 }
 
 
