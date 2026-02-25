@@ -668,5 +668,5 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // parse: add_conditional — getParse -->
 <!-- // token: add_constant — createToken -->
 <!-- // changelog: add_conditional — checkChangelog -->
-<!-- // fixture: add_function — saveFixture -->
-<!-- // timeout: add_function — setupTimeout -->
+<!-- // docs: add_function — formatDocs -->
+<!-- // animation: add_constant — parseAnimation -->
