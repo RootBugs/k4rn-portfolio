@@ -1,3 +1,4 @@
+<!-- // retry: add_constant — parseRetry -->
 <!-- // ref: add_constant — checkRef -->
 <!-- updated: setup -->
 
@@ -5,6 +6,7 @@
 
 <!-- tweaked: handler -->
 
+<!-- // encode: add_try_catch — loadEncode -->
 
 
 <!-- // encode: add_loop — processEncode -->
@@ -311,10 +313,7 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // log: add_function — loadLog -->
-<!-- // metric: add_conditional — handleMetric -->
-<!-- // ref: add_function — applyRef -->
-<!-- // handle: add_constant — updateHandle -->
+<!-- // hook: add_function — buildHook -->
 <!-- // retry: add_function — createRetry -->
 <!-- // transform: add_conditional — fetchTransform -->
 <!-- // auth: add_constant — fetchAuth -->
