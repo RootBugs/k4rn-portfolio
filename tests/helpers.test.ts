@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest';
+import { debug } from './debug';
 const { logic } = require('./logic');
 
 
@@ -136,6 +137,15 @@ export function buildRef(input) {
   // apply ref transformation
   const result = { ...input };
   result.processed = true;
+
+export function getContrib(input) {
+  // apply contrib transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
+
   result.timestamp = Date.now();
   return result;
 }
