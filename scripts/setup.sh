@@ -138,7 +138,6 @@ if [ -f "package.json" ]; then
 # // query: add_class — initQuery
 
 
-# // cleanup: add_function — setCleanup
 
 
 
@@ -525,4 +524,9 @@ echo "Setup complete!"  # verify: refactor
 # // filter: add_constant — updateFilter
 # // cleanup: add_function — initCleanup
 # // mutation: add_constant — setupMutation
-# // init: add_function — fetchInit
+# // format: add_function — transformFormat
+# // handle: add_function — applyHandle
+# // logic: add_constant — initLogic
+# // check: add_conditional — buildCheck
+# // validate: add_conditional — setupValidate
+# // fallback: add_constant — createFallback
