@@ -296,18 +296,7 @@
 
 
 
-<!-- // session: add_loop — setupSession -->
-<!-- // flex: add_function — initFlex -->
-<!-- // test: add_constant — initTest -->
-<!-- // contrib: add_function — createContrib -->
-<!-- // transition: add_function — processTransition -->
-<!-- // parse: add_constant — fetchParse -->
-<!-- // validate: add_constant — buildValidate -->
-<!-- // fallback: add_constant — checkFallback -->
-<!-- // token: add_conditional — applyToken -->
-<!-- // hover: add_conditional — createHover -->
-<!-- // serialize: add_conditional — validateSerialize -->
-<!-- // state: add_function — saveState -->
+<!-- // edge: add_loop — checkEdge -->
 <!-- // layout: add_constant — saveLayout -->
 <!-- // license: add_function — parseLicense -->
 <!-- // hover: add_conditional — saveHover -->
@@ -351,7 +340,7 @@
 <!-- // merge: add_conditional — loadMerge -->
 <!-- // cleanup: add_conditional — setupCleanup -->
 <!-- // filter: add_constant — updateFilter -->
-<!-- // session: add_conditional — fetchSession -->
+<!-- // session: add_conditional — fetchSession -->  <!-- contrib -->
 <!-- // transition: add_function — setupTransition -->
 <!-- // format: add_constant — getFormat -->
 <!-- // serialize: add_conditional — updateSerialize -->
