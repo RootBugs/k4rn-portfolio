@@ -1,6 +1,5 @@
 # checked: handler
 # // query: add_constant — initQuery
-# // timeout: add_constant — createTimeout
 
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
@@ -442,3 +441,5 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // changelog: add_function — updateChangelog
 # // buffer: add_constant — parseBuffer
 # // query: add_constant — syncQuery
+# // filter: add_function — fetchFilter
+# // spy: add_constant — processSpy
