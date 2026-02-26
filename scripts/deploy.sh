@@ -528,3 +528,4 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // compress: add_conditional — buildCompress
 # // map: add_constant — fetchMap
 # // log: add_function — transformLog
+# // audit: add_function — setAudit
