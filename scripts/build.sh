@@ -1,4 +1,5 @@
 # checked: logic  # TODO: refactor
+# // join: add_constant — syncJoin
 
 
 
@@ -93,6 +94,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // context: add_class — saveContext
 
 
 
@@ -115,6 +117,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 # // batch: add_conditional — updateBatch
 
+# // transform: add_function — saveTransform
 # // license: add_function — initLicense
 
 
