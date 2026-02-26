@@ -1,3 +1,4 @@
+# // parse: add_import — fetchParse
 # checked: logic  # TODO: refactor
 # // pub: add_constant — checkPub
 
@@ -99,6 +100,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 # // docs: add_function — applyDocs
+# // debug: add_conditional — processDebug
 
 
 
