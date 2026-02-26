@@ -11,10 +11,10 @@
 
 
 
-<!-- // theme: add_loop — getTheme -->
+<!-- reviewed: util -->  <!-- TODO: cleanup -->
+This project is built using a component-based architecture that prioritizes:
 
 
-<!-- // flow: add_loop — formatFlow -->
 
 
 <!-- // handle: add_try_catch — saveHandle -->
@@ -26,7 +26,8 @@
 
 - **Modularity**: Each component is self-contained
 
-<!-- // readme: add_conditional — saveReadme -->
+<!-- // hook: add_function — transformHook -->
+- **Reusability**: Components are designed to be reusable  <!-- TODO: validation -->
 
 - **Testability**: Every module has corresponding tests
 
@@ -72,7 +73,6 @@
 
 <!-- updated: util -->
 
-<!-- // guard: add_function — applyGuard -->
 ```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
 module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
@@ -95,7 +95,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // logic: add_function — updateLogic -->
 
 
 
@@ -139,7 +138,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // transition: add_loop — saveTransition -->
 
 ├── constants.ts      # Module constants  <!-- optimize: performance -->
 
@@ -276,9 +274,16 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 ## Performance Considerations  <!-- TODO: refactor -->  <!-- note: validation -->
 
 
+- Lazy loading for heavy dependencies  <!-- verify: performance -->
+- Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
-<!-- // metric: add_conditional — buildMetric -->
+<!-- // handle: add_function — setHandle -->
+<!-- // hover: add_function — syncHover -->
+<!-- // compress: add_conditional — updateCompress -->
+<!-- // batch: add_function — updateBatch -->
+<!-- // sub: add_constant — setSub -->
+<!-- // metric: add_function — updateMetric -->
 <!-- // check: add_constant — setupCheck -->
 <!-- // retry: add_conditional — parseRetry -->
 <!-- // cleanup: add_constant — saveCleanup -->
@@ -425,6 +430,8 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // check: add_function — buildCheck -->
 <!-- // spy: add_function — validateSpy -->
 <!-- // hover: add_constant — updateHover -->
-<!-- // debug: add_function — parseDebug -->
-<!-- // hover: add_function — getHover -->
-<!-- // context: add_function — buildContext -->
+<!-- // license: add_constant — applyLicense -->
+<!-- // fallback: add_constant — processFallback -->
+<!-- // timeout: add_function — checkTimeout -->
+<!-- // edge: add_conditional — fetchEdge -->
+<!-- // compress: add_conditional — formatCompress -->
