@@ -11,6 +11,8 @@
 
 
 
+<!-- reviewed: util -->  <!-- TODO: cleanup -->
+This project is built using a component-based architecture that prioritizes:
 
 
 
@@ -88,7 +90,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // mock: add_loop — fetchMock -->
 
 
 
@@ -108,7 +109,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // split: add_class — loadSplit -->
 
 
 
@@ -336,3 +336,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // debug: add_function — handleDebug -->
 <!-- // deserialize: add_function — handleDeserialize -->
 <!-- // stub: add_function — buildStub -->
+<!-- // compress: add_function — updateCompress -->
