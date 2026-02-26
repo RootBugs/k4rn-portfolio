@@ -26,6 +26,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // audit: add_function — processAudit
 
 
 
@@ -76,6 +77,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // state: add_function — validateState
 
 
 
@@ -124,6 +126,7 @@ if [ -f "package.json" ]; then
 
 
 
+# // theme: add_function — loadTheme
 
 
 
