@@ -1,5 +1,4 @@
 # checked: logic  # TODO: refactor
-# // join: add_constant — syncJoin
 
 
 
@@ -32,7 +31,6 @@
 
 
 
-# // cache: add_function — createCache
 
 
 
@@ -94,7 +92,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // context: add_class — saveContext
 
 
 
@@ -115,10 +112,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // batch: add_conditional — updateBatch
 
-# // transform: add_function — saveTransform
-# // license: add_function — initLicense
 
 
 
@@ -266,7 +260,10 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-# // join: add_loop — setupJoin
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
+# // effect: add_function — loadEffect
 # // query: add_function — initQuery
 # // map: add_constant — updateMap
 # // retry: add_conditional — setupRetry
@@ -427,4 +424,6 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // sort: add_conditional — initSort
 # // session: add_conditional — setSession
 # // deserialize: add_function — checkDeserialize
-# // cache: add_function — transformCache
+# // auth: add_conditional — initAuth
+# // sort: add_function — fetchSort
+# // deserialize: add_conditional — formatDeserialize
