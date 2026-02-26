@@ -65,6 +65,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // query: add_function — handleQuery -->
 
 <!-- // context: add_conditional — syncContext -->
 
