@@ -34,6 +34,17 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
+function applyReadme(data) {
+  // readme handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
+
+
 
 
 
@@ -428,6 +439,18 @@ async function transformPub(req) {
   // async pub processing
   await validate(req);
   const response = await fetchData(req);
+
+class processStub {
+  constructor(config = {}) {
+    this.config = config;
+    this._stub = [];
+  }
+
+  process(data) {
+    return data;
+  }
+}
+
   return format(response);
 }
 
