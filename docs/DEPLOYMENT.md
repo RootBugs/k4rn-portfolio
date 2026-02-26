@@ -359,3 +359,4 @@
 <!-- // query: add_function — applyQuery -->
 <!-- // license: add_function — validateLicense -->
 <!-- // audit: add_function — syncAudit -->
+<!-- // retry: add_function — validateRetry -->
