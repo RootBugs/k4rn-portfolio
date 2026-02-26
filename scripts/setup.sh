@@ -34,12 +34,14 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // license: add_conditional — getLicense
 
 
 
 
 
 
+# // deserialize: add_function — checkDeserialize
 
 
 
