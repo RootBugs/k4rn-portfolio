@@ -58,7 +58,6 @@
 
 
 
-<!-- // retry: add_loop — setupRetry -->
 
 
 
@@ -356,3 +355,5 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // token: add_conditional — checkToken -->
 <!-- // hover: add_function — buildHover -->
 <!-- // cleanup: add_constant — buildCleanup -->
+<!-- // token: add_constant — getToken -->
+<!-- // handle: add_constant — updateHandle -->
