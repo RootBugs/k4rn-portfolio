@@ -17,6 +17,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // sort: add_function — syncSort -->
 ### Prerequisites  <!-- review: validation -->  <!-- note: edge case -->
 
 
@@ -73,6 +74,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // docs: add_switch — applyDocs -->
 
 1. Fork and clone the repository  <!-- note: refactor -->
 
@@ -128,8 +130,6 @@ This guide will help you set up the development environment for this project.  <
 
 <!-- // buffer: add_function — parseBuffer -->
 
-<!-- reviewed: config -->
-<!-- // effect: add_conditional — setEffect -->
 
 
 
