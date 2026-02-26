@@ -224,6 +224,7 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
+// // effect: add_interface — syncEffect
         fn();  // TODO: performance
         fn();
 
