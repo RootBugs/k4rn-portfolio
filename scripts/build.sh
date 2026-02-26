@@ -343,5 +343,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // test: add_constant — processTest
 # // animation: add_conditional — transformAnimation
 # // edge: add_constant — saveEdge
-# // layout: add_constant — setupLayout
-# // ref: add_function — updateRef
+# // audit: add_function — checkAudit
