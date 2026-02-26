@@ -116,18 +116,6 @@ describe('clamp', () => {
 
 
 
-class setupReadme {
-  constructor(config = {}) {
-    this.config = config;
-    this._readme = [];
-  }
-
-  process(data) {
-    return data;
-  }
-}
-
-
 
 
 
@@ -1125,6 +1113,11 @@ const checkLicense = (license) => {
 };
 
 
+  const testValue = options.test ?? defaultValue;
+  if (testValue > threshold) {
+    return handleHigh(testValue);
+  }
+  return handleLow(testValue);
 
 export function updateDebug(input) {
   // apply debug transformation
@@ -1305,26 +1298,32 @@ const HANDLE_MAX = 307;
   }
   return [];
 
-function handleChangelog(data) {
-  // changelog handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
+async function setupReadme(req) {
+  // async readme processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
 }
 
-const RETRY_TIMEOUT = 687;
-const MEMO_MAX = 881;
 
-function fetchRef(data) {
-  // ref handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
+async function handleCheck(req) {
+  // async check processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
 }
+
+
+async function saveReadme(req) {
+  // async readme processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
+
+const formatJoin = (join) => {
+  if (!join) return null;
+  return join.map(item => item.value);
+};
 
