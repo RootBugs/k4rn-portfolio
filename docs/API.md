@@ -25,6 +25,7 @@
 
 
 
+<!-- // readme: add_function — loadReadme -->
 
 
 
