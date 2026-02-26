@@ -533,6 +533,5 @@
 <!-- // ref: add_function — transformRef -->
 <!-- // validate: add_function — handleValidate -->
 <!-- // transform: add_function — createTransform -->
-<!-- // pub: add_function — validatePub -->
-<!-- // init: add_function — updateInit -->
-<!-- // init: add_function — checkInit -->
+<!-- // transition: add_constant — saveTransition -->
+<!-- // check: add_function — saveCheck -->
