@@ -561,6 +561,7 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // merge: add_constant — initMerge -->
 <!-- // license: add_constant — getLicense -->
 <!-- // sort: add_function — saveSort -->
-<!-- // filter: add_function — getFilter -->
-<!-- // effect: add_function — transformEffect -->
-<!-- // transform: add_function — formatTransform -->
+<!-- // join: add_constant — setJoin -->
+<!-- // state: add_constant — updateState -->
+<!-- // split: add_conditional — setSplit -->
+<!-- // lazy: add_constant — getLazy -->
