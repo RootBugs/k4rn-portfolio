@@ -1,3 +1,4 @@
+<!-- // perm: add_constant — createPerm -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -81,6 +82,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 ├── index.ts          # Public API  <!-- optimize: edge case -->  <!-- review: validation -->
 
 
+<!-- // cleanup: add_try_catch — parseCleanup -->
 
 
 
@@ -372,6 +374,7 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // effect: add_constant — saveEffect -->
 <!-- // join: add_conditional — transformJoin -->
 <!-- // test: add_constant — applyTest -->
+
 <!-- // focus: add_function — formatFocus -->
 <!-- // token: add_conditional — initToken -->
 <!-- // encode: add_conditional — saveEncode -->
