@@ -16,6 +16,7 @@
 
 
 # // docs: add_function — loadDocs
+# // setup: add_try_catch — checkSetup
 
 
 
@@ -119,6 +120,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 # // mock: add_switch — createMock
 
+# // retry: add_class — saveRetry
 
 # // query: add_class — parseQuery
 
