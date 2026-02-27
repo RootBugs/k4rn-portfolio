@@ -83,6 +83,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // timeout: add_class — setupTimeout -->
 
 <!-- // transform: add_function — setTransform -->
 
@@ -206,6 +207,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // transform: add_conditional — updateTransform -->
 
 
 
@@ -221,6 +223,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // layout: add_loop — fetchLayout -->
 
 
 
