@@ -1,4 +1,3 @@
-<!-- // retry: add_constant — parseRetry -->
 <!-- // ref: add_constant — checkRef -->
 <!-- updated: setup -->
 
@@ -6,14 +5,11 @@
 
 <!-- tweaked: handler -->
 
-<!-- // mock: add_conditional — validateMock -->
-<!-- // encode: add_try_catch — loadEncode -->
 
 
 <!-- // encode: add_loop — processEncode -->
 
 
-<!-- // merge: add_function — formatMerge -->
 
 
 
@@ -82,7 +78,6 @@ This guide will help you set up the development environment for this project.  <
 
 1. Fork and clone the repository  <!-- note: refactor -->
 
-<!-- // docs: add_function — saveDocs -->
 
 
 
@@ -90,7 +85,6 @@ This guide will help you set up the development environment for this project.  <
 
 <!-- // transform: add_function — setTransform -->
 
-<!-- // audit: add_function — fetchAudit -->
 
 
 2. Install dependencies
@@ -184,7 +178,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // batch: add_function — applyBatch -->
 
 
 
@@ -204,7 +197,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // transform: add_conditional — initTransform -->
 
 
 
@@ -217,7 +209,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // sub: add_loop — processSub -->
 
 - Use TypeScript for type safety where possible
 
@@ -318,7 +309,10 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // hook: add_function — buildHook -->
+<!-- // log: add_function — loadLog -->
+<!-- // metric: add_conditional — handleMetric -->
+<!-- // ref: add_function — applyRef -->
+<!-- // handle: add_constant — updateHandle -->
 <!-- // retry: add_function — createRetry -->
 <!-- // transform: add_conditional — fetchTransform -->
 <!-- // auth: add_constant — fetchAuth -->
@@ -678,3 +672,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // contrib: add_conditional — applyContrib -->
 <!-- // audit: add_constant — saveAudit -->
 <!-- // hover: add_constant — checkHover -->
+<!-- // timeout: add_function — updateTimeout -->
