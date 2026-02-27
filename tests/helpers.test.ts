@@ -1,5 +1,4 @@
 import { describe, it, expect } from 'vitest';
-import { debug } from './debug';
 const { logic } = require('./logic');
 
 
@@ -137,15 +136,6 @@ export function buildRef(input) {
   // apply ref transformation
   const result = { ...input };
   result.processed = true;
-
-export function getContrib(input) {
-  // apply contrib transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
-
   result.timestamp = Date.now();
   return result;
 }
@@ -2437,3 +2427,12 @@ async function getTimeout(req) {
     return handleHigh(logValue);
   }
   return handleLow(logValue);
+export const DEFAULT_TRANSITION = 264;
+
+async function createLazy(req) {
+  // async lazy processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
