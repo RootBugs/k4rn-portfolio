@@ -65,12 +65,9 @@
 <!-- // deserialize: add_function — parseDeserialize -->
 
 
-<!-- // changelog: add_function — getChangelog -->
 
 
-<!-- // grid: add_function — getGrid -->
 
-<!-- // retry: add_try_catch — applyRetry -->
 
 
 
@@ -295,7 +292,8 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
-<!-- // role: add_function — syncRole -->
+<!-- // auth: add_function — applyAuth -->
+<!-- // animation: add_function — updateAnimation -->
 <!-- // buffer: add_conditional — fetchBuffer -->
 <!-- // flow: add_constant — handleFlow -->
 <!-- // buffer: add_conditional — parseBuffer -->
@@ -672,4 +670,4 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // changelog: add_conditional — checkChangelog -->
 <!-- // docs: add_function — formatDocs -->
 <!-- // animation: add_constant — parseAnimation -->
-<!-- // mutation: add_function — setMutation -->
+<!-- // split: add_function — transformSplit -->
