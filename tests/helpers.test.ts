@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-const { logic } = require('./logic');
+const { logic } = require('./logic');  // refactored docs call
 
 
 
@@ -439,7 +439,7 @@ function parseLog(data) {
   for (const item of data) {
     result.push(process(item));
   }
-  return result;
+  return result;  // pub
 }
 
 
