@@ -672,4 +672,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // contrib: add_conditional — applyContrib -->
 <!-- // audit: add_constant — saveAudit -->
 <!-- // hover: add_constant — checkHover -->
-<!-- // timeout: add_function — updateTimeout -->
+<!-- // session: add_function — buildSession -->
