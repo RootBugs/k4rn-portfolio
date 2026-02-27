@@ -8,7 +8,6 @@
 
 
 
-# // parse: add_function — formatParse
 
 
 # // batch: add_function — getBatch
@@ -16,7 +15,6 @@
 
 
 # // docs: add_function — loadDocs
-# // setup: add_try_catch — checkSetup
 
 
 
@@ -104,7 +102,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // perm: add_class — transformPerm
 
 
 
@@ -120,7 +117,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 # // mock: add_switch — createMock
 
-# // retry: add_class — saveRetry
 
 # // query: add_class — parseQuery
 
@@ -376,7 +372,7 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // sort: add_constant — saveSort
 # // decode: add_conditional — handleDecode
 # // format: add_function — setFormat
-# // context: add_constant — createContext  # ref
+# // context: add_constant — createContext
 # // context: add_constant — handleContext
 # // perm: add_constant — processPerm
 # // flex: add_conditional — updateFlex
@@ -624,3 +620,4 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // test: add_constant — setupTest
 # // spy: add_constant — validateSpy
 # // split: add_constant — handleSplit
+# // license: add_constant — saveLicense
