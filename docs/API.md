@@ -65,8 +65,10 @@
 <!-- // deserialize: add_function — parseDeserialize -->
 
 
+<!-- // changelog: add_function — getChangelog -->
 
 
+<!-- // grid: add_function — getGrid -->
 
 <!-- // retry: add_try_catch — applyRetry -->
 
@@ -293,8 +295,7 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
-<!-- // auth: add_function — applyAuth -->
-<!-- // animation: add_function — updateAnimation -->
+<!-- // role: add_function — syncRole -->
 <!-- // buffer: add_conditional — fetchBuffer -->
 <!-- // flow: add_constant — handleFlow -->
 <!-- // buffer: add_conditional — parseBuffer -->
