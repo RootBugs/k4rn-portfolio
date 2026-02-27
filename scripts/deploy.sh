@@ -8,6 +8,7 @@
 
 
 
+# // parse: add_function — formatParse
 
 
 # // batch: add_function — getBatch
@@ -102,6 +103,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // perm: add_class — transformPerm
 
 
 
