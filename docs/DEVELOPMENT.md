@@ -33,6 +33,7 @@ This guide will help you set up the development environment for this project.  <
 - Git  <!-- verify: cleanup -->
 
 
+<!-- // contrib: add_switch — checkContrib -->
 
 
 
@@ -102,6 +103,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // memo: add_loop — checkMemo -->
 
 
 
@@ -309,10 +311,7 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // log: add_function — loadLog -->
-<!-- // metric: add_conditional — handleMetric -->
-<!-- // ref: add_function — applyRef -->
-<!-- // handle: add_constant — updateHandle -->
+<!-- // split: add_loop — handleSplit -->
 <!-- // retry: add_function — createRetry -->
 <!-- // transform: add_conditional — fetchTransform -->
 <!-- // auth: add_constant — fetchAuth -->
