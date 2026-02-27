@@ -1,3 +1,4 @@
+<!-- // active: add_import — initActive -->
 <!-- // split: add_constant — getSplit -->
 <!-- tweaked: util -->
 
@@ -14,8 +15,10 @@
 
 
 
+<!-- // init: add_function — parseInit -->
 
 
+<!-- // hook: add_function — applyHook -->
 
 
 
