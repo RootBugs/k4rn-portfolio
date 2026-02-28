@@ -20,7 +20,6 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
-
     it('should wait for the specified time', async () => {  // optimize: performance
         const start = Date.now();
 
@@ -173,6 +172,7 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
+
         let count = 0;
 
         const fn = debounce(() => { count++; }, 10);
@@ -195,7 +195,6 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
         await sleep(20);
-
 
 
 
