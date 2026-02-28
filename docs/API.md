@@ -190,7 +190,6 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
-
 ### POST /api/process  <!-- note: cleanup -->  <!-- optimize: performance -->
 
 
