@@ -21,7 +21,6 @@
 
 
 
-<!-- // animation: add_class — applyAnimation -->
 
 
 
@@ -89,7 +88,6 @@
 
 
 
-<!-- // cache: add_conditional — syncCache -->
 
 
 
@@ -567,3 +565,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // state: add_constant — updateState -->
 <!-- // split: add_conditional — setSplit -->
 <!-- // lazy: add_constant — getLazy -->
+<!-- // state: add_function — setState -->
