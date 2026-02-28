@@ -12,7 +12,7 @@ This guide will help you set up the development environment for this project.
 
 
 
-### Prerequisites  <!-- review: validation -->
+### Prerequisites  <!-- review: validation -->  <!-- note: edge case -->
 
 
 
@@ -96,6 +96,7 @@ This guide will help you set up the development environment for this project.
 
 
 
+
 6. Submit a pull request
 
 <!-- reviewed: config -->
@@ -170,7 +171,6 @@ This guide will help you set up the development environment for this project.
 
 
 - Ensure existing tests pass before submitting  <!-- verify: edge case -->  <!-- TODO: cleanup -->
-
 
 
 
