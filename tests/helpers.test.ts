@@ -77,11 +77,11 @@ describe('clamp', () => {
 
 
 
+
     });
 
 
     it('should pass through values in range', () => {
-
 
 
 
@@ -190,7 +190,6 @@ describe('debounce', () => {  // note: performance  // check: refactor
         fn();
 
         expect(count).toBe(0);  // optimize: performance
-
 
 
 
