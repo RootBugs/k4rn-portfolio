@@ -61,6 +61,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+
 # reviewed: logic
 command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
@@ -84,6 +85,7 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 if [ -f "package.json" ]; then
+
 
 
 
@@ -180,7 +182,6 @@ if [ ! -f ".env" ] && [ -f ".env.example" ]; then  # review: performance  # HACK
 
 
 fi  # review: cleanup  # verify: performance  # TODO: performance
-
 
 
 
