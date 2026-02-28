@@ -10,7 +10,7 @@
 
 
 
-## System Design
+<!-- reviewed: util -->
 
 This project is built using a component-based architecture that prioritizes:
 
@@ -102,6 +102,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+
 ├── utils.ts          # Internal utilities  <!-- review: cleanup -->
 
 
@@ -126,7 +127,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 <!-- tweaked: handler -->
 
 Data flows unidirectionally through the application:  <!-- HACK: validation -->
-
 
 
 
