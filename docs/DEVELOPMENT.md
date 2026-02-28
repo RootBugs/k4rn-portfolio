@@ -17,7 +17,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // sort: add_function — syncSort -->
 ### Prerequisites  <!-- review: validation -->  <!-- note: edge case -->
 
 
@@ -52,7 +51,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // compress: add_function — initCompress -->
 
 
 <!-- updated: handler -->  <!-- note: performance -->
@@ -74,7 +72,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // docs: add_switch — applyDocs -->
 
 1. Fork and clone the repository  <!-- note: refactor -->
 
@@ -128,8 +125,8 @@ This guide will help you set up the development environment for this project.  <
 6. Submit a pull request
 
 
-<!-- // buffer: add_function — parseBuffer -->
 
+<!-- reviewed: config -->
 
 
 
@@ -391,7 +388,12 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // hover: add_constant — handleHover -->
 <!-- // cleanup: add_constant — parseCleanup -->
 <!-- // fixture: add_constant — fetchFixture -->
-<!-- // spy: add_function — formatSpy -->
-<!-- // grid: add_function — processGrid -->
-<!-- // transform: add_function — saveTransform -->
-<!-- // audit: add_function — buildAudit -->
+<!-- // validate: add_function — transformValidate -->
+<!-- // mutation: add_conditional — setMutation -->
+<!-- // spy: add_function — loadSpy -->
+<!-- // route: add_function — parseRoute -->
+<!-- // join: add_conditional — processJoin -->
+<!-- // memo: add_constant — buildMemo -->
+<!-- // transition: add_function — fetchTransition -->
+<!-- // hover: add_function — applyHover -->
+<!-- // route: add_function — formatRoute -->
