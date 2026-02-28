@@ -1,4 +1,4 @@
-# API Documentation  <!-- review: cleanup -->
+# API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
 
 
@@ -127,7 +127,9 @@
 
 
 
+
 Returns the current status of the service.  <!-- TODO: validation -->  <!-- optimize: cleanup -->  <!-- review: validation -->
+
 
 
 
