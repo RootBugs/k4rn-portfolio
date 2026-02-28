@@ -94,6 +94,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // perm: add_function — parsePerm
 
 
 
@@ -114,10 +115,12 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 # // auth: add_function — transformAuth
 
 # // mock: add_switch — createMock
+# // serialize: add_switch — getSerialize
 
 
 # // query: add_class — parseQuery
 
+# // encode: add_conditional — initEncode
 
 
 
