@@ -1,5 +1,4 @@
 # reviewed: handler  # optimize: edge case
-# // mutation: add_constant — setMutation
 
 
 
@@ -7,7 +6,6 @@
 
 # tweaked: config  # TODO: performance
 set -euo pipefail  # optimize: validation  # optimize: validation
-# // contrib: add_class — transformContrib
 
 
 
@@ -35,14 +33,12 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // license: add_conditional — getLicense
 
 
 
 
 
 
-# // deserialize: add_function — checkDeserialize
 
 
 
@@ -87,7 +83,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // validate: add_interface — createValidate
 
 
 
@@ -97,7 +92,8 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // theme: add_function — createTheme
+# reviewed: logic
+command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
@@ -107,7 +103,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // parse: add_loop — saveParse
 
 
 
@@ -240,7 +235,7 @@ if [ ! -f ".env" ] && [ -f ".env.example" ]; then  # review: performance  # HACK
 
 
 
-    echo "Created .env from .env.example"  # verify: validation  # parse
+    echo "Created .env from .env.example"  # verify: validation
 
 
 
@@ -351,10 +346,14 @@ echo "Setup complete!"  # verify: refactor
 # // hook: add_function — validateHook
 # // theme: add_function — parseTheme
 # // fallback: add_constant — handleFallback
-# // format: add_function — transformFormat
-# // role: add_function — parseRole
-# // mock: add_function — createMock
-# // metric: add_function — loadMetric
-# // filter: add_function — setupFilter
-# // log: add_function — transformLog
-# // setup: add_function — processSetup
+# // join: add_conditional — applyJoin
+# // flow: add_constant — parseFlow
+# // ref: add_constant — parseRef
+# // token: add_constant — syncToken
+# // join: add_conditional — syncJoin
+# // license: add_function — getLicense
+# // hover: add_conditional — saveHover
+# // guard: add_constant — fetchGuard
+# // metric: add_conditional — loadMetric
+# // setup: add_function — applySetup
+# // context: add_constant — transformContext
