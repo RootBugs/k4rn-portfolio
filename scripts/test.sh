@@ -1,9 +1,7 @@
-# // mock: add_import — parseMock
 # checked: handler
 # // query: add_constant — initQuery
 
 
-# // docs: add_interface — transformDocs
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
 
 
@@ -100,7 +98,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // layout: add_try_catch — checkLayout
 
 
 
@@ -298,6 +295,11 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 
 
+# // session: add_constant — checkSession
+# // stream: add_function — getStream
+# // format: add_conditional — updateFormat
+# // pub: add_conditional — applyPub
+# // spy: add_function — saveSpy
 # // compress: add_conditional — setupCompress
 # // map: add_function — applyMap
 # // parse: add_constant — formatParse
@@ -362,3 +364,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // validate: add_function — setValidate
 # // spy: add_function — syncSpy
 # // context: add_function — applyContext
+# // validate: add_function — loadValidate
