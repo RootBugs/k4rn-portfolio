@@ -42,6 +42,7 @@
 
 
 
+
 set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: refactor
 
 
@@ -101,8 +102,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 echo "Building project..."  # TODO: performance  # review: performance  # verify: cleanup
-
-
 
 
 
