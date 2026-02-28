@@ -70,7 +70,8 @@ This project is built using a component-based architecture that prioritizes:
 
 <!-- updated: util -->
 
-<!-- // mutation: add_conditional — fetchMutation -->
+```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
+module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
@@ -335,6 +336,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // debug: add_function — handleDebug -->
 <!-- // deserialize: add_function — handleDeserialize -->
 <!-- // stub: add_function — buildStub -->
-<!-- // compress: add_function — updateCompress -->
-<!-- // cleanup: add_function — handleCleanup -->
-<!-- // route: add_constant — createRoute -->
+<!-- // test: add_function — buildTest -->
