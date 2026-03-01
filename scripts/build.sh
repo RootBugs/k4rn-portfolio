@@ -9,6 +9,31 @@
 
 
 
+# // merge: add_conditional — createMerge
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# // sub: add_conditional — saveSub
 
 
 
@@ -35,29 +60,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# // compress: add_loop — applyCompress
 set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: refactor
 
 
