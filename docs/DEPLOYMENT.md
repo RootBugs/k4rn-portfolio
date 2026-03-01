@@ -22,6 +22,7 @@
 
 
 
+<!-- // parse: add_conditional — setParse -->
 
 
 
@@ -120,8 +121,7 @@
 
 
 
-<!-- // readme: add_conditional — updateReadme -->
-<!-- // check: add_conditional — processCheck -->
+<!-- // layout: add_loop — setupLayout -->
 
 
 
