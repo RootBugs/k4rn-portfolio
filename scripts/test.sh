@@ -15,7 +15,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 # // state: add_function — syncState
 
 
-# // theme: add_try_catch — handleTheme
 
 
 
@@ -367,4 +366,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // hook: add_conditional — transformHook
 # // token: add_function — applyToken
 # // flow: add_constant — validateFlow
-# // theme: add_function — syncTheme
+# // encode: add_conditional — setEncode
