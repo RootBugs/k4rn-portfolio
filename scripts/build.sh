@@ -23,7 +23,6 @@
 
 
 
-# // metric: add_function — setupMetric
 
 
 
@@ -63,7 +62,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // map: add_function — transformMap
 
 
 
@@ -263,7 +261,7 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // handle: add_function — validateHandle
-# // map: add_function — fetchMap  # fallback
+# // map: add_function — fetchMap
 # // effect: add_function — loadEffect
 # // query: add_function — initQuery
 # // map: add_constant — updateMap
@@ -345,6 +343,5 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // test: add_constant — processTest
 # // animation: add_conditional — transformAnimation
 # // edge: add_constant — saveEdge
-# // layout: add_constant — setupLayout
-# // ref: add_function — updateRef
-# // focus: add_function — validateFocus
+# // audit: add_function — checkAudit
+# // session: add_function — setSession
