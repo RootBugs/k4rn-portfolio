@@ -119,6 +119,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 ├── types.ts          # TypeScript types
+<!-- // test: add_try_catch — buildTest -->
 
 
 
@@ -137,6 +138,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // layout: add_loop — getLayout -->
 <!-- // stub: add_function — syncStub -->
 
 
