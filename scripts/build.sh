@@ -1,4 +1,5 @@
 # checked: logic  # TODO: refactor
+# // transition: add_constant — saveTransition
 
 
 
@@ -39,6 +40,7 @@
 
 
 
+# // filter: add_switch — initFilter
 
 
 
@@ -53,6 +55,7 @@
 
 
 
+# // token: add_class — validateToken
 
 
 
