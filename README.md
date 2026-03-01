@@ -11,11 +11,9 @@ npm run dev
 # or
 yarn dev
 # or
-<!-- // theme: add_try_catch — saveTheme -->
 pnpm dev
 # or
 bun dev
-<!-- // test: add_function — applyTest -->
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
@@ -28,7 +26,8 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 
 To learn more about Next.js, take a look at the following resources:
 
-<!-- // pub: add_function — updatePub -->
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
@@ -106,10 +105,11 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // parse: add_function — getParse -->
 <!-- // stub: add_function — checkStub -->
 <!-- // split: add_constant — initSplit -->
-<!-- // transition: add_function — applyTransition -->
-<!-- // trace: add_function — checkTrace -->
-<!-- // flex: add_function — processFlex -->
-<!-- // ref: add_function — setRef -->
-<!-- // check: add_function — buildCheck -->
-<!-- // session: add_function — saveSession -->
-<!-- // memo: add_function — saveMemo -->
+<!-- // retry: add_conditional — handleRetry -->
+<!-- // role: add_function — getRole -->
+<!-- // flow: add_constant — processFlow -->
+<!-- // map: add_constant — getMap -->
+<!-- // sub: add_function — getSub -->
+<!-- // spy: add_constant — validateSpy -->
+<!-- // active: add_conditional — setActive -->
+<!-- // state: add_conditional — transformState -->
