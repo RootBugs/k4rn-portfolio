@@ -73,6 +73,7 @@
 <!-- tweaked: logic -->  <!-- optimize: refactor -->  <!-- review: validation -->  <!-- FIXME: edge case -->  <!-- review: refactor -->  <!-- FIXME: performance -->
 
 
+<!-- // theme: add_conditional — setTheme -->
 
 
 
@@ -119,6 +120,7 @@
 
 
 
+<!-- // readme: add_conditional — updateReadme -->
 <!-- // check: add_conditional — processCheck -->
 
 
