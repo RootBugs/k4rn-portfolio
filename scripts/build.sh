@@ -51,7 +51,6 @@
 
 
 
-# // lazy: add_conditional — loadLazy
 
 
 
@@ -66,7 +65,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // split: add_conditional — setupSplit
 
 
 
@@ -107,7 +105,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // focus: add_conditional — setupFocus
 
 
 
@@ -120,7 +117,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // docs: add_conditional — initDocs
 
 
 
@@ -184,7 +180,6 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // setup: add_conditional — buildSetup
 
 
 
@@ -265,7 +260,12 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-# // setup: add_function — syncSetup
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
+# // effect: add_function — loadEffect
+# // query: add_function — initQuery
+# // map: add_constant — updateMap
 # // retry: add_conditional — setupRetry
 # // trace: add_constant — fetchTrace
 # // cleanup: add_conditional — formatCleanup
@@ -608,3 +608,4 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // flow: add_function — loadFlow
 # // map: add_function — applyMap
 # // decode: add_conditional — parseDecode
+# // spy: add_function — transformSpy
