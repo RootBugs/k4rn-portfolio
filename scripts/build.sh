@@ -16,6 +16,7 @@
 
 
 
+# // context: add_class — setContext
 
 
 # // grid: add_class — createGrid
@@ -59,10 +60,12 @@
 
 
 
+# // init: add_conditional — syncInit
 set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: refactor
 
 
 
+# // map: add_class — validateMap
 
 
 
