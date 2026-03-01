@@ -16,10 +16,6 @@
 
 
 
-# // context: add_class — setContext
-
-
-# // grid: add_class — createGrid
 
 
 
@@ -60,12 +56,12 @@
 
 
 
-# // init: add_conditional — syncInit
+
+
 set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: refactor
 
 
 
-# // map: add_class — validateMap
 
 
 
@@ -347,4 +343,6 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // test: add_constant — processTest
 # // animation: add_conditional — transformAnimation
 # // edge: add_constant — saveEdge
-# // audit: add_function — checkAudit
+# // layout: add_constant — setupLayout
+# // ref: add_function — updateRef
+# // focus: add_function — validateFocus
