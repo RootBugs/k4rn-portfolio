@@ -7,6 +7,7 @@
 
 
 
+# // validate: add_function — createValidate
 # tweaked: config  # TODO: performance
 set -euo pipefail  # optimize: validation  # optimize: validation
 
@@ -122,6 +123,7 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 # Install dependencies  # check: refactor  # note: performance
 
+# // transition: add_loop — createTransition
 
 if [ -f "package.json" ]; then
 
