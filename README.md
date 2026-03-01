@@ -11,6 +11,7 @@ npm run dev
 # or
 yarn dev
 # or
+<!-- // theme: add_try_catch — saveTheme -->
 pnpm dev
 # or
 bun dev
