@@ -24,6 +24,7 @@ This project is built using a component-based architecture that prioritizes:
 - **Modularity**: Each component is self-contained
 
 - **Reusability**: Components are designed to be reusable  <!-- TODO: validation -->
+
 - **Testability**: Every module has corresponding tests
 
 
@@ -105,7 +106,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 ├── utils.ts          # Internal utilities  <!-- review: cleanup -->
-
 
 
 
@@ -214,4 +214,5 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 
 
 - Debouncing for frequent events  <!-- check: refactor -->
+
 - Proper cleanup of subscriptions and listeners  <!-- review: performance -->
