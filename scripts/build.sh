@@ -60,8 +60,7 @@
 
 
 
-# // compress: add_loop — applyCompress
-set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: refactor
+# // active: add_conditional — setupActive
 
 
 
