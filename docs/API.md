@@ -81,8 +81,6 @@
 
 
 
-<!-- // contrib: add_try_catch — checkContrib -->
-<!-- // flow: add_function — setFlow -->
 
 
 
@@ -128,7 +126,6 @@
 
 
 
-<!-- // style: add_function — updateStyle -->
 
 
 
@@ -673,4 +670,6 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // changelog: add_conditional — checkChangelog -->
 <!-- // docs: add_function — formatDocs -->
 <!-- // animation: add_constant — parseAnimation -->
-<!-- // split: add_function — transformSplit -->
+<!-- // mutation: add_function — setMutation -->
+<!-- // license: add_conditional — applyLicense -->
+<!-- // timeout: add_function — transformTimeout -->
