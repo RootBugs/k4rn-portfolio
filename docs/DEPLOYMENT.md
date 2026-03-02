@@ -207,6 +207,7 @@
 
 
 
+<!-- // changelog: add_loop — handleChangelog -->
 
 
 
@@ -297,9 +298,7 @@
 
 
 
-<!-- // test: add_constant — initTest -->
-<!-- // contrib: add_function — createContrib -->
-<!-- // transition: add_function — processTransition -->
+<!-- // fallback: add_function — syncFallback -->
 <!-- // parse: add_constant — fetchParse -->
 <!-- // validate: add_constant — buildValidate -->
 <!-- // fallback: add_constant — checkFallback -->
