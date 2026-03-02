@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-const { logic } = require('./logic');  // refactored docs call
+const { logic } = require('./logic');
 
 
 
@@ -439,7 +439,7 @@ function parseLog(data) {
   for (const item of data) {
     result.push(process(item));
   }
-  return result;  // pub
+  return result;
 }
 
 
@@ -2434,5 +2434,16 @@ async function createLazy(req) {
   await validate(req);
   const response = await fetchData(req);
   return format(response);
+}
+
+
+function handleEncode(data) {
+  // encode handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
 }
 
