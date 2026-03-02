@@ -28,6 +28,7 @@ This guide will help you set up the development environment for this project.
 
 
 
+
 - A code editor (VS Code recommended)  <!-- check: performance -->  <!-- FIXME: refactor -->  <!-- review: edge case -->
 
 
@@ -151,6 +152,7 @@ This guide will help you set up the development environment for this project.
 
 
 
+
 - Use TypeScript for type safety where possible
 
 
@@ -215,6 +217,7 @@ The project follows a modular architecture with clear separation of concerns.  <
 
 
 Each module is self-contained with its own types, utils, and tests.
+
 
 
 
