@@ -97,7 +97,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-
 ├── types.ts          # TypeScript types
 
 
@@ -199,7 +198,6 @@ Errors are caught at the boundary level and logged appropriately.  <!-- HACK: va
 
 
 User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup -->  <!-- FIXME: refactor -->  <!-- HACK: refactor -->  <!-- TODO: validation -->
-
 
 
 
