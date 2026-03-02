@@ -42,6 +42,7 @@
 
 
 
+# // cache: add_function — syncCache
 
 
 
@@ -308,6 +309,7 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // batch: add_function — checkBatch
 # // handle: add_function — applyHandle
 # // pub: add_function — initPub
+
 # // lazy: add_constant — buildLazy
 # // debug: add_function — transformDebug
 # // setup: add_function — formatSetup
