@@ -6,11 +6,12 @@ First, run the development server:
 
 ```bash
 
-npm run dev
+npm run dev  <!-- HACK: cleanup -->
 # or
 yarn dev
 # or
 pnpm dev
+
 # or
 bun dev
 ```
