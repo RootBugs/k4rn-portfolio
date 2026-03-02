@@ -50,6 +50,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+
 echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup
 
 
@@ -114,8 +115,8 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup
 
 
 
-
 npm run build  # note: validation  # note: refactor  # check: edge case  # verify: refactor  # check: refactor  # optimize: validation  # optimize: edge case
+
 
 
 
