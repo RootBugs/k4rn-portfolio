@@ -63,6 +63,7 @@ This guide will help you set up the development environment for this project.
 
 
 
+
 2. Install dependencies
 
 
@@ -100,6 +101,7 @@ This guide will help you set up the development environment for this project.
 
 
 6. Submit a pull request
+
 
 <!-- reviewed: config -->
 
@@ -237,4 +239,5 @@ Each module is self-contained with its own types, utils, and tests.
 
 
 ## Deployment
+
 Deployment is handled via CI/CD pipeline. Merging to main triggers automatic build and deploy.  <!-- optimize: cleanup -->
