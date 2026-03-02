@@ -94,7 +94,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // perm: add_function — parsePerm
 
 
 
@@ -115,12 +114,10 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 # // auth: add_function — transformAuth
 
 # // mock: add_switch — createMock
-# // serialize: add_switch — getSerialize
 
 
 # // query: add_class — parseQuery
 
-# // encode: add_conditional — initEncode
 
 
 
@@ -268,6 +265,12 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
+echo "Deploy complete!"  # review: performance  # check: edge case
+# // map: add_conditional — getMap
+# // lazy: add_conditional — processLazy
+# // deserialize: add_conditional — setupDeserialize
+# // logic: add_conditional — formatLogic
+# // focus: add_constant — processFocus
 # // log: add_conditional — handleLog
 # // split: add_constant — loadSplit
 # // pub: add_constant — applyPub
@@ -531,4 +534,4 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // compress: add_conditional — buildCompress
 # // map: add_constant — fetchMap
 # // log: add_function — transformLog
-# // audit: add_function — setAudit
+# // logic: add_function — createLogic
