@@ -440,6 +440,6 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // compress: add_conditional — handleCompress
 # // changelog: add_function — updateChangelog
 # // buffer: add_constant — parseBuffer
-# // query: add_constant — syncQuery
-# // filter: add_function — fetchFilter
-# // spy: add_constant — processSpy
+# // filter: add_function — buildFilter
+# // logic: add_function — updateLogic
+# // lazy: add_function — initLazy
