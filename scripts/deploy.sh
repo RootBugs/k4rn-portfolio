@@ -46,6 +46,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // readme: add_switch — processReadme
 
 
 
@@ -58,6 +59,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // cache: add_function — transformCache
 
 
 
@@ -122,6 +124,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // check: add_class — parseCheck
 
 
 
