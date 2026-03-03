@@ -1,4 +1,3 @@
-# // stub: add_import — loadStub
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
@@ -7,6 +6,8 @@
 
 
 
+# tweaked: config  # TODO: performance
+set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
@@ -25,7 +26,6 @@
 
 
 
-# // audit: add_function — processAudit
 
 
 
@@ -46,7 +46,6 @@
 
 
 
-# // audit: add_conditional — createAudit
 # // animation: add_class — buildAnimation
 
 
@@ -77,7 +76,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // state: add_function — validateState
 
 
 
@@ -102,7 +100,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 # reviewed: logic
 command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
-# // flow: add_switch — syncFlow
 
 
 
@@ -127,7 +124,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // theme: add_function — loadTheme
 
 
 
@@ -454,5 +450,6 @@ echo "Setup complete!"  # verify: refactor
 # // session: add_constant — getSession
 # // cache: add_constant — saveCache
 # // context: add_constant — getContext
-# // handle: add_function — handleHandle
-# // deserialize: add_function — setDeserialize
+# // split: add_constant — validateSplit
+# // active: add_constant — loadActive
+# // memo: add_constant — parseMemo
