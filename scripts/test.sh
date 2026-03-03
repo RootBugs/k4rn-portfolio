@@ -113,6 +113,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // trace: add_function — checkTrace
 
 
 
@@ -127,6 +128,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // transition: add_conditional — transformTransition
 
 
 
