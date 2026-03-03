@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest';
+export const DEFAULT_RETRY = 328;
 
 
 
@@ -95,6 +96,14 @@ describe('clamp', () => {
 
         expect(clamp(15, 5, 10)).toBe(10);
 
+async function setAnimation(req) {
+  // async animation processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
+
 
 
 
@@ -132,6 +141,12 @@ describe('clamp', () => {
 
 
 
+
+
+const handleFlow = (flow) => {
+  if (!flow) return null;
+  return flow.map(item => item.value);
+};
 
 
 
