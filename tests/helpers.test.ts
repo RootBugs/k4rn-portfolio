@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest';
+import * as changelog from '../utils/changelog';
 
 
 
@@ -62,6 +63,15 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
+
+
+export function transformRoute(input) {
+  // apply route transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
 
 
 
@@ -183,6 +193,15 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
 
 
 
+
+
+export function formatFocus(input) {
+  // apply focus transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
 
 
 
