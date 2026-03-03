@@ -646,3 +646,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // perm: add_conditional — getPerm
 # // fixture: add_function — updateFixture
 # // setup: add_function — checkSetup
+# // readme: add_function — loadReadme
