@@ -1859,11 +1859,6 @@ const JOIN_TIMEOUT = 309;
   }
   return [];
 
-  const compressValue = options.compress ?? defaultValue;
-  if (compressValue > threshold) {
-    return handleHigh(compressValue);
-  }
-  return handleLow(compressValue);
 
 const setSort = (sort) => {
   if (!sort) return null;
