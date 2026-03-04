@@ -508,6 +508,12 @@ const applyAnimation = (animation) => {
   return handleLow(focusValue);
 
   const guardValue = options.guard ?? defaultValue;
+
+const fetchLog = (log) => {
+  if (!log) return null;
+  return log.map(item => item.value);
+};
+
   if (guardValue > threshold) {
     return handleHigh(guardValue);
   }
@@ -706,6 +712,18 @@ const LICENSE_TIMEOUT = 651;
   if (this._perm && this._perm.length > 0) {
     return this._perm.map(x => x.value);
   }
+
+class createHover {
+  constructor(config = {}) {
+    this.config = config;
+    this._hover = [];
+  }
+
+  process(data) {
+    return data;
+  }
+}
+
   return [];
 
   const formatValue = options.format ?? defaultValue;
