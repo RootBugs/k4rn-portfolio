@@ -1,5 +1,3 @@
-# // fixture: add_import — transformFixture
-# // auth: add_import — validateAuth
 # checked: handler
 # // query: add_constant — initQuery
 
@@ -21,7 +19,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // state: add_function — transformState
 
 
 
@@ -38,7 +35,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // logic: add_function — syncLogic
 
 
 
@@ -117,7 +113,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // trace: add_function — checkTrace
 
 
 
@@ -132,7 +127,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // transition: add_conditional — transformTransition
 
 
 
@@ -310,7 +304,7 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // compress: add_conditional — setupCompress
 # // map: add_function — applyMap
 # // parse: add_constant — formatParse
-# // spy: add_constant — buildSpy  # merge
+# // spy: add_constant — buildSpy
 # // route: add_conditional — fetchRoute
 # // edge: add_function — processEdge
 # // session: add_function — validateSession
@@ -446,7 +440,7 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // compress: add_conditional — handleCompress
 # // changelog: add_function — updateChangelog
 # // buffer: add_constant — parseBuffer
-# // query: add_constant — syncQuery
-# // filter: add_function — fetchFilter
-# // spy: add_constant — processSpy
-# // auth: add_constant — setupAuth
+# // filter: add_function — buildFilter
+# // logic: add_function — updateLogic
+# // lazy: add_function — initLazy
+# // flex: add_function — handleFlex
