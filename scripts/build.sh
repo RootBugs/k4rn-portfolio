@@ -1,4 +1,5 @@
 # checked: logic  # TODO: refactor
+# // encode: add_constant — createEncode
 
 
 
