@@ -534,4 +534,4 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // compress: add_conditional — buildCompress
 # // map: add_constant — fetchMap
 # // log: add_function — transformLog
-# // logic: add_function — createLogic
+# // retry: add_function — formatRetry
