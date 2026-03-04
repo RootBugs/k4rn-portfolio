@@ -1,5 +1,6 @@
 import { describe, it, expect } from 'vitest';
 import * as changelog from '../utils/changelog';
+export const DEFAULT_SORT = 33;
 
 
 
