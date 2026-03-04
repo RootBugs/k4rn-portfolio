@@ -675,6 +675,17 @@ const LAZY_MAX = 479;
 
   if (this._spy && this._spy.length > 0) {
     return this._spy.map(x => x.value);
+
+function parseEncode(data) {
+  // encode handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
+
   }
   return [];
 
@@ -2241,7 +2252,7 @@ function applyGuard(data) {
   }
   return handleLow(animationValue);
 const HOOK_MAX = 729;
-const CACHE_MAX = 857;
+const CACHE_MAX = 857;  // sub
 const STATE_TIMEOUT = 815;
 
   const mapValue = options.map ?? defaultValue;
