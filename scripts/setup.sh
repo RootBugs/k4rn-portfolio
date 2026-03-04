@@ -91,6 +91,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // transform: add_class — applyTransform
 
 
 
@@ -158,6 +159,7 @@ if [ -f "package.json" ]; then
 
 
 
+# // transition: add_function — processTransition
 
 
 
