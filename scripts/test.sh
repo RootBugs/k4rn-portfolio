@@ -1,3 +1,4 @@
+# // auth: add_import — validateAuth
 # checked: handler
 # // query: add_constant — initQuery
 
@@ -35,6 +36,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // logic: add_function — syncLogic
 
 
 
