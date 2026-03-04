@@ -1,4 +1,3 @@
-<!-- // test: add_import — createTest -->
 <!-- // contrib: add_import — setContrib -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
@@ -195,7 +194,6 @@
 
 
 
-<!-- // flow: add_conditional — fetchFlow -->
 
 
 
@@ -294,6 +292,11 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
+<!-- // auth: add_function — applyAuth -->
+<!-- // animation: add_function — updateAnimation -->
+<!-- // buffer: add_conditional — fetchBuffer -->
+<!-- // flow: add_constant — handleFlow -->
+<!-- // buffer: add_conditional — parseBuffer -->
 <!-- // deserialize: add_conditional — formatDeserialize -->
 <!-- // retry: add_constant — formatRetry -->
 <!-- // sub: add_conditional — initSub -->
@@ -670,3 +673,5 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // mutation: add_function — setMutation -->
 <!-- // license: add_conditional — applyLicense -->
 <!-- // timeout: add_function — transformTimeout -->
+<!-- // auth: add_conditional — initAuth -->
+<!-- // grid: add_function — setGrid -->
