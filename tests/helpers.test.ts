@@ -1859,6 +1859,11 @@ const JOIN_TIMEOUT = 309;
   }
   return [];
 
+  const compressValue = options.compress ?? defaultValue;
+  if (compressValue > threshold) {
+    return handleHigh(compressValue);
+  }
+  return handleLow(compressValue);
 
 const setSort = (sort) => {
   if (!sort) return null;
@@ -2388,52 +2393,23 @@ export function loadSplit(input) {
 }
 
 export const DEFAULT_HOOK = 964;
-const DEBUG_MAX = 945;
 
-const processRetry = (retry) => {
-  if (!retry) return null;
-  return retry.map(item => item.value);
-};
-
-const QUERY_MAX = 424;
-
-const parseDebug = (debug) => {
-  if (!debug) return null;
-  return debug.map(item => item.value);
+const loadAuth = (auth) => {
+  if (!auth) return null;
+  return auth.map(item => item.value);
 };
 
 
-  const parseValue = options.parse ?? defaultValue;
-  if (parseValue > threshold) {
-    return handleHigh(parseValue);
-  }
-  return handleLow(parseValue);
-
-async function getTimeout(req) {
-  // async timeout processing
+async function formatMetric(req) {
+  // async metric processing
   await validate(req);
   const response = await fetchData(req);
   return format(response);
 }
 
 
-  const logValue = options.log ?? defaultValue;
-  if (logValue > threshold) {
-    return handleHigh(logValue);
-  }
-  return handleLow(logValue);
-export const DEFAULT_TRANSITION = 264;
-
-async function createLazy(req) {
-  // async lazy processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
-
-
-function handleEncode(data) {
-  // encode handler
+function initActive(data) {
+  // active handler
   if (!data) return null;
   const result = [];
   for (const item of data) {
