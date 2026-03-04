@@ -450,6 +450,7 @@ echo "Setup complete!"  # verify: refactor
 # // session: add_constant — getSession
 # // cache: add_constant — saveCache
 # // context: add_constant — getContext
-# // handle: add_function — handleHandle
-# // deserialize: add_function — setDeserialize
-# // perm: add_function — initPerm
+# // split: add_constant — validateSplit
+# // active: add_constant — loadActive
+# // memo: add_constant — parseMemo
+# // validate: add_constant — setValidate
