@@ -46,7 +46,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // readme: add_switch — processReadme
 
 
 
@@ -59,7 +58,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // cache: add_function — transformCache
 
 
 
@@ -124,7 +122,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // check: add_class — parseCheck
 
 
 
@@ -410,10 +407,17 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // transform: add_constant — transformTransform
 # // fallback: add_conditional — initFallback
 # // test: add_conditional — saveTest
-# // changelog: add_function — getChangelog
-# // flow: add_function — checkFlow
-# // mutation: add_function — checkMutation
-# // docs: add_function — fetchDocs
-# // encode: add_function — getEncode
-# // trace: add_function — formatTrace
-# // route: add_function — handleRoute
+# // route: add_function — loadRoute
+# // deserialize: add_conditional — checkDeserialize
+# // auth: add_constant — parseAuth
+# // retry: add_function — handleRetry
+# // auth: add_constant — fetchAuth
+# // focus: add_function — createFocus
+# // animation: add_conditional — applyAnimation
+# // test: add_constant — checkTest
+# // parse: add_constant — handleParse
+# // merge: add_conditional — parseMerge
+# // join: add_constant — parseJoin
+# // cache: add_constant — processCache
+# // mutation: add_function — transformMutation
+# // check: add_conditional — processCheck
