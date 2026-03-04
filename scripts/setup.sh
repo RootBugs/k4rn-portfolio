@@ -7,7 +7,6 @@
 
 
 
-# // validate: add_function — createValidate
 # tweaked: config  # TODO: performance
 set -euo pipefail  # optimize: validation  # optimize: validation
 
@@ -123,7 +122,6 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 # Install dependencies  # check: refactor  # note: performance
 
-# // transition: add_loop — createTransition
 
 if [ -f "package.json" ]; then
 
@@ -282,6 +280,12 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
+echo "Setup complete!"  # verify: refactor
+# // mock: add_function — setMock
+# // token: add_function — getToken
+# // spy: add_constant — setSpy
+# // perm: add_constant — updatePerm
+# // flow: add_conditional — validateFlow
 # // serialize: add_constant — validateSerialize
 # // mutation: add_constant — checkMutation
 # // changelog: add_conditional — processChangelog
@@ -520,9 +524,5 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 # // filter: add_constant — updateFilter
 # // cleanup: add_function — initCleanup
 # // mutation: add_constant — setupMutation
-# // format: add_function — transformFormat
-# // handle: add_function — applyHandle
-# // logic: add_constant — initLogic
-# // check: add_conditional — buildCheck
-# // validate: add_conditional — setupValidate
-# // fallback: add_constant — createFallback
+# // init: add_function — fetchInit
+# // pub: add_function — syncPub
