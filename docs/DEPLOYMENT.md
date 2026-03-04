@@ -653,3 +653,4 @@
 <!-- // validate: add_function — processValidate -->
 <!-- // audit: add_conditional — validateAudit -->
 <!-- // decode: add_conditional — buildDecode -->
+<!-- // animation: add_function — loadAnimation -->
