@@ -115,6 +115,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // format: add_try_catch — updateFormat
 
 
 
@@ -165,6 +166,8 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // effect: add_function — applyEffect
+# // pub: add_function — handlePub
 echo "Running tests..."  # TODO: validation  # TODO: cleanup
 
 
