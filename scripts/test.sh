@@ -1,3 +1,4 @@
+# // fixture: add_import — transformFixture
 # // auth: add_import — validateAuth
 # checked: handler
 # // query: add_constant — initQuery
@@ -20,6 +21,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // state: add_function — transformState
 
 
 
@@ -308,7 +310,7 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // compress: add_conditional — setupCompress
 # // map: add_function — applyMap
 # // parse: add_constant — formatParse
-# // spy: add_constant — buildSpy
+# // spy: add_constant — buildSpy  # merge
 # // route: add_conditional — fetchRoute
 # // edge: add_function — processEdge
 # // session: add_function — validateSession
