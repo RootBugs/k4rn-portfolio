@@ -1,5 +1,6 @@
 # checked: logic  # TODO: refactor
 # // encode: add_constant — createEncode
+# // docs: add_constant — transformDocs
 
 
 
@@ -192,6 +193,7 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
+# // batch: add_try_catch — checkBatch
 
 
 
