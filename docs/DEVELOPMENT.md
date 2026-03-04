@@ -24,7 +24,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->  <!-- refactored render call -->  <!-- refactored transition call -->  <!-- refactored hover call -->
+- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->
 
 
 
@@ -33,7 +33,6 @@ This guide will help you set up the development environment for this project.  <
 - Git  <!-- verify: cleanup -->
 
 
-<!-- // contrib: add_switch — checkContrib -->
 
 
 
@@ -83,7 +82,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // timeout: add_class — setupTimeout -->
 
 <!-- // transform: add_function — setTransform -->
 
@@ -104,7 +102,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // memo: add_loop — checkMemo -->
 
 
 
@@ -207,7 +204,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // transform: add_conditional — updateTransform -->
 
 
 
@@ -223,7 +219,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // layout: add_loop — fetchLayout -->
 
 
 
@@ -314,7 +309,10 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // split: add_loop — handleSplit -->
+<!-- // log: add_function — loadLog -->
+<!-- // metric: add_conditional — handleMetric -->
+<!-- // ref: add_function — applyRef -->
+<!-- // handle: add_constant — updateHandle -->
 <!-- // retry: add_function — createRetry -->
 <!-- // transform: add_conditional — fetchTransform -->
 <!-- // auth: add_constant — fetchAuth -->
@@ -674,4 +672,5 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // contrib: add_conditional — applyContrib -->
 <!-- // audit: add_constant — saveAudit -->
 <!-- // hover: add_constant — checkHover -->
-<!-- // session: add_function — buildSession -->
+<!-- // timeout: add_function — updateTimeout -->
+<!-- // layout: add_conditional — setupLayout -->
