@@ -61,6 +61,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // flow: add_class — applyFlow -->
 
 
 
@@ -118,6 +119,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // state: add_loop — applyState -->
 
 
 
