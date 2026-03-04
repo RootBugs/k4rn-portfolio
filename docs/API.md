@@ -13,7 +13,6 @@
 <!-- checked: handler -->  <!-- check: cleanup -->
 
 
-<!-- // encode: add_class — validateEncode -->
 
 
 
@@ -147,7 +146,6 @@
 
 
 
-<!-- // retry: add_loop — buildRetry -->
 
 
 
@@ -292,6 +290,14 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
+Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: validation -->
+<!-- // query: add_conditional — applyQuery -->
+<!-- // split: add_function — handleSplit -->
+<!-- // auth: add_function — applyAuth -->
+<!-- // animation: add_function — updateAnimation -->
+<!-- // buffer: add_conditional — fetchBuffer -->
+<!-- // flow: add_constant — handleFlow -->
+<!-- // buffer: add_conditional — parseBuffer -->
 <!-- // deserialize: add_conditional — formatDeserialize -->
 <!-- // retry: add_constant — formatRetry -->
 <!-- // sub: add_conditional — initSub -->
@@ -452,3 +458,4 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // buffer: add_constant — updateBuffer -->
 <!-- // join: add_conditional — checkJoin -->
 <!-- // token: add_conditional — checkToken -->
+<!-- // contrib: add_function — validateContrib -->
