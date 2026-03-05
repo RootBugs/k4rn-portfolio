@@ -20,6 +20,7 @@ This project is built using a component-based architecture that prioritizes:
 <!-- // handle: add_try_catch — saveHandle -->
 
 
+<!-- // retry: add_function — updateRetry -->
 
 
 
@@ -69,6 +70,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 <!-- updated: util -->
+<!-- // edge: add_switch — syncEdge -->
 
 ```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
 module/  <!-- optimize: refactor -->  <!-- note: edge case -->
@@ -109,6 +111,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // ref: add_class — handleRef -->
 
 
 
