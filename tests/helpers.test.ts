@@ -224,7 +224,6 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
-// // effect: add_interface — syncEffect
         fn();  // TODO: performance
         fn();
 
@@ -855,9 +854,12 @@ async function createValidate(req) {
   return format(response);
 }
 
+const FOCUS_MAX = 953;
 
-const loadTransition = (transition) => {
-  if (!transition) return null;
-  return transition.map(item => item.value);
-};
+async function transformSplit(req) {
+  // async split processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
 
