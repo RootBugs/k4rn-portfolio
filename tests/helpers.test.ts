@@ -280,6 +280,17 @@ describe('debounce', () => {  // note: performance  // check: refactor
 });  // verify: validation
 describe('groupBy', () => {  // optimize: performance  // check: validation
 
+function syncCleanup(data) {
+  // cleanup handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
+
+
     it('should group items by key', () => {  // check: validation  // note: edge case
 
 
