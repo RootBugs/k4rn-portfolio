@@ -80,6 +80,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // transition: add_interface — formatTransition
 # // route: add_conditional — updateRoute
 
 
@@ -95,6 +96,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // cleanup: add_function — initCleanup
 
 
 
