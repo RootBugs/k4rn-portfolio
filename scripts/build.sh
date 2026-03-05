@@ -1,16 +1,4 @@
 # checked: logic  # TODO: refactor
-# // transition: add_constant — saveTransition
-
-
-
-
-
-
-
-
-
-
-# // merge: add_conditional — createMerge
 
 
 
@@ -34,13 +22,6 @@
 
 
 
-# // sub: add_conditional — saveSub
-
-
-
-
-
-# // filter: add_switch — initFilter
 
 
 
@@ -55,7 +36,6 @@
 
 
 
-# // token: add_class — validateToken
 
 
 
@@ -63,7 +43,22 @@
 
 
 
-# // active: add_conditional — setupActive
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: refactor
 
 
 
@@ -348,5 +343,7 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // test: add_constant — processTest
 # // animation: add_conditional — transformAnimation
 # // edge: add_constant — saveEdge
-# // audit: add_function — checkAudit
-# // session: add_function — setSession
+# // layout: add_constant — setupLayout
+# // ref: add_function — updateRef
+# // focus: add_function — validateFocus
+# // handle: add_constant — loadHandle
