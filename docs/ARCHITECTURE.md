@@ -44,7 +44,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-
 - **Maintainability**: Clear separation of concerns
 <!-- checked: logic -->
 
@@ -124,6 +123,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+
 <!-- tweaked: handler -->
 
 Data flows unidirectionally through the application:  <!-- HACK: validation -->
@@ -166,6 +166,7 @@ Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
 
 3. Handler processes and updates state  <!-- optimize: edge case -->
+
 
 
 4. UI reacts to state changes  <!-- FIXME: edge case -->
