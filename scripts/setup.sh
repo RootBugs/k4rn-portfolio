@@ -83,6 +83,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // role: add_conditional — updateRole
 
 
 
@@ -108,6 +109,7 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
+# // effect: add_loop — handleEffect
 
 
 
@@ -149,6 +151,7 @@ if [ -f "package.json" ]; then
 
 
 
+# // edge: add_loop — parseEdge
 
 
 
