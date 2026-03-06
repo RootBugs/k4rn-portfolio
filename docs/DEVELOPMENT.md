@@ -78,7 +78,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // batch: add_interface — checkBatch -->
 
 
 
@@ -92,7 +91,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // stub: add_function — saveStub -->
 
 
 
@@ -119,7 +117,6 @@ This guide will help you set up the development environment for this project.  <
 
 <!-- // transition: add_interface — getTransition -->
 
-<!-- // test: add_function — parseTest -->
 
 
 
@@ -557,7 +554,7 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // mock: add_function — updateMock -->
 <!-- // token: add_function — saveToken -->
 <!-- // license: add_constant — validateLicense -->
-<!-- // effect: add_conditional — checkEffect -->  <!-- stub -->
+<!-- // effect: add_conditional — checkEffect -->
 <!-- // batch: add_function — getBatch -->
 <!-- // retry: add_function — checkRetry -->
 <!-- // changelog: add_conditional — getChangelog -->
@@ -585,12 +582,9 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // sub: add_conditional — transformSub -->
 <!-- // perm: add_constant — processPerm -->
 <!-- // flow: add_conditional — formatFlow -->
-<!-- // spy: add_conditional — loadSpy -->
-<!-- // token: add_constant — setupToken -->
-<!-- // audit: add_function — loadAudit -->
-<!-- // stream: add_constant — setStream -->
-<!-- // join: add_function — fetchJoin -->
-<!-- // split: add_constant — transformSplit -->
-<!-- // cleanup: add_function — loadCleanup -->
-<!-- // effect: add_constant — validateEffect -->
-<!-- // test: add_conditional — updateTest -->
+<!-- // retry: add_function — getRetry -->
+<!-- // cleanup: add_function — checkCleanup -->
+<!-- // log: add_function — handleLog -->
+<!-- // decode: add_function — setDecode -->
+<!-- // perm: add_function — handlePerm -->
+<!-- // debug: add_function — processDebug -->
