@@ -591,3 +591,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // decode: add_function — setDecode -->
 <!-- // perm: add_function — handlePerm -->
 <!-- // debug: add_function — processDebug -->
+<!-- // validate: add_function — processValidate -->
