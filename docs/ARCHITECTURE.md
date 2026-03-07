@@ -338,3 +338,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // stub: add_function — buildStub -->
 <!-- // test: add_function — buildTest -->
 <!-- // logic: add_function — processLogic -->
+<!-- // format: add_function — transformFormat -->
