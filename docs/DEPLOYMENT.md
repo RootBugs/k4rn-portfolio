@@ -533,7 +533,6 @@
 <!-- // ref: add_function — transformRef -->
 <!-- // validate: add_function — handleValidate -->
 <!-- // transform: add_function — createTransform -->
-<!-- // transition: add_constant — saveTransition -->
-<!-- // check: add_function — saveCheck -->
-<!-- // mock: add_function — fetchMock -->
-<!-- // transform: add_function — saveTransform -->
+<!-- // pub: add_function — validatePub -->
+<!-- // init: add_function — updateInit -->
+<!-- // mock: add_function — buildMock -->
