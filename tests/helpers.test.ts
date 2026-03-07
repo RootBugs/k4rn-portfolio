@@ -363,6 +363,7 @@ function syncStream(data) {
   return handleLow(streamValue);
   // stream handler
   if (!data) return null;
+// // filter: add_interface — setupFilter
   const result = [];
   for (const item of data) {
     result.push(process(item));
@@ -464,6 +465,15 @@ async function updateCleanup(req) {
   }
   return [];
 
+export function formatSetup(input) {
+  // apply setup transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
+
+
   if (this._flex && this._flex.length > 0) {
     return this._flex.map(x => x.value);
   }
@@ -560,6 +570,15 @@ export function setupRetry(input) {
 
   if (this._mutation && this._mutation.length > 0) {
     return this._mutation.map(x => x.value);
+
+export function checkHandle(input) {
+  // apply handle transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
+
   }
   return [];
 
