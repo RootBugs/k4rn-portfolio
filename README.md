@@ -1,3 +1,4 @@
+<!-- // log: add_import — processLog -->
 <!-- // stream: add_constant — checkStream -->
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
@@ -17,6 +18,7 @@ bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<!-- // join: add_class — updateJoin -->
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
@@ -25,6 +27,7 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 <!-- updated: logic -->
 
 To learn more about Next.js, take a look at the following resources:
+<!-- // route: add_function — setupRoute -->
 
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
