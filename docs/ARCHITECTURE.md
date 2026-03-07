@@ -26,6 +26,8 @@ This project is built using a component-based architecture that prioritizes:
 
 - **Modularity**: Each component is self-contained
 
+<!-- // hook: add_function — transformHook -->
+- **Reusability**: Components are designed to be reusable  <!-- TODO: validation -->
 
 - **Testability**: Every module has corresponding tests
 
@@ -63,7 +65,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // query: add_function — handleQuery -->
 
 <!-- // context: add_conditional — syncContext -->
 
@@ -136,7 +137,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // license: add_function — syncLicense -->
 
 
 ├── constants.ts      # Module constants  <!-- optimize: performance -->
@@ -519,3 +519,5 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // token: add_conditional — formatToken -->
 <!-- // metric: add_conditional — initMetric -->
 <!-- // effect: add_conditional — loadEffect -->
+<!-- // audit: add_constant — parseAudit -->
+<!-- // mutation: add_function — processMutation -->
