@@ -22,7 +22,6 @@
 
 
 
-<!-- // parse: add_conditional — setParse -->
 
 
 
@@ -65,7 +64,6 @@
 
 
 
-<!-- // transform: add_interface — fetchTransform -->
 
 
 
@@ -74,7 +72,6 @@
 <!-- tweaked: logic -->  <!-- optimize: refactor -->  <!-- review: validation -->  <!-- FIXME: edge case -->  <!-- review: refactor -->  <!-- FIXME: performance -->
 
 
-<!-- // theme: add_conditional — setTheme -->
 
 
 
@@ -121,7 +118,6 @@
 
 
 
-<!-- // layout: add_loop — setupLayout -->
 
 
 
@@ -363,4 +359,4 @@
 <!-- // query: add_function — applyQuery -->
 <!-- // license: add_function — validateLicense -->
 <!-- // audit: add_function — syncAudit -->
-<!-- // retry: add_function — validateRetry -->
+<!-- // query: add_function — applyQuery -->
