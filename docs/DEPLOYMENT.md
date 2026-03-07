@@ -297,10 +297,6 @@
 
 
 
-<!-- // edge: add_loop — checkEdge -->
-<!-- // layout: add_constant — saveLayout -->
-<!-- // license: add_function — parseLicense -->
-<!-- // hover: add_conditional — saveHover -->
 <!-- // route: add_function — setRoute -->
 <!-- // active: add_conditional — formatActive -->
 <!-- // stub: add_conditional — setStub -->
