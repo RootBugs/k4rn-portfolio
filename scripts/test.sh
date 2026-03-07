@@ -85,6 +85,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // memo: add_function — setupMemo
 
 
 
@@ -351,6 +352,7 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // style: add_constant — applyStyle
 # // route: add_conditional — checkRoute
 # // audit: add_constant — formatAudit
+
 # // layout: add_function — initLayout
 # // memo: add_conditional — createMemo
 # // fixture: add_constant — syncFixture
