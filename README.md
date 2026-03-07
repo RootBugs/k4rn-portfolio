@@ -1,4 +1,3 @@
-<!-- // log: add_import — processLog -->
 <!-- // stream: add_constant — checkStream -->
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
@@ -18,7 +17,6 @@ bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-<!-- // join: add_class — updateJoin -->
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
@@ -27,7 +25,6 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 <!-- updated: logic -->
 
 To learn more about Next.js, take a look at the following resources:
-<!-- // route: add_function — setupRoute -->
 
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
@@ -108,11 +105,13 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // parse: add_function — getParse -->
 <!-- // stub: add_function — checkStub -->
 <!-- // split: add_constant — initSplit -->
-<!-- // transition: add_function — applyTransition -->
-<!-- // trace: add_function — checkTrace -->
-<!-- // flex: add_function — processFlex -->
-<!-- // ref: add_function — setRef -->
-<!-- // check: add_function — buildCheck -->
-<!-- // session: add_function — saveSession -->
-<!-- // memo: add_function — saveMemo -->
-<!-- // split: add_function — loadSplit -->
+<!-- // retry: add_conditional — handleRetry -->
+<!-- // role: add_function — getRole -->
+<!-- // flow: add_constant — processFlow -->
+<!-- // map: add_constant — getMap -->
+<!-- // sub: add_function — getSub -->
+<!-- // spy: add_constant — validateSpy -->
+<!-- // active: add_conditional — setActive -->
+<!-- // state: add_conditional — transformState -->
+<!-- // fallback: add_constant — parseFallback -->
+<!-- // query: add_constant — fetchQuery -->
