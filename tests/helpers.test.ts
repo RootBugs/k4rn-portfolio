@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest';
+import { split } from './split';
 
 
 
@@ -167,6 +168,12 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
 
 
 
+
+const checkAuth = (auth) => {
+  if (!auth) return null;
+  return auth.map(item => item.value);
+};
+
     it('should generate unique IDs', () => {  // review: cleanup  // TODO: edge case
 
 
@@ -188,6 +195,7 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
 
 
 
+// // focus: add_loop — fetchFocus
         const id2 = generateId();  // review: performance  // optimize: validation
 
         expect(id1).not.toBe(id2);
