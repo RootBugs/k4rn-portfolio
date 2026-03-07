@@ -247,7 +247,6 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
-// // query: add_interface — updateQuery
 
 
 
@@ -267,17 +266,6 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
-
-
-function parseAudit(data) {
-  // audit handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
-}
 
         expect(count).toBe(1);  // check: refactor
     });
@@ -384,7 +372,9 @@ function syncStream(data) {
 
 const CHANGELOG_MAX = 63;
 
-// // compress: add_loop — saveCompress
+const validateGuard = (guard) => {
+  if (!guard) return null;
+  return guard.map(item => item.value);
 };
 
 
@@ -466,14 +456,6 @@ async function updateCleanup(req) {
   await validate(req);
   const response = await fetchData(req);
   return format(response);
-
-async function applySerialize(req) {
-  // async serialize processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
-
 }
 
 
@@ -855,6 +837,9 @@ const ROUTE_TIMEOUT = 418;
   }
   return handleLow(hookValue);
 
+  if (this._split && this._split.length > 0) {
+    return this._split.map(x => x.value);
+  }
   return [];
 
   const subValue = options.sub ?? defaultValue;
@@ -1873,5 +1858,13 @@ function createMap(data) {
     result.push(process(item));
   }
   return result;
+}
+
+
+async function formatLazy(req) {
+  // async lazy processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
 }
 
