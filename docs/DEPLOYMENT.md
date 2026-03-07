@@ -1,4 +1,3 @@
-<!-- // auth: add_import — transformAuth -->
 <!-- // split: add_constant — getSplit -->
 <!-- tweaked: util -->
 
@@ -297,6 +296,21 @@
 
 
 
+<!-- // session: add_loop — setupSession -->
+<!-- // flex: add_function — initFlex -->
+<!-- // test: add_constant — initTest -->
+<!-- // contrib: add_function — createContrib -->
+<!-- // transition: add_function — processTransition -->
+<!-- // parse: add_constant — fetchParse -->
+<!-- // validate: add_constant — buildValidate -->
+<!-- // fallback: add_constant — checkFallback -->
+<!-- // token: add_conditional — applyToken -->
+<!-- // hover: add_conditional — createHover -->
+<!-- // serialize: add_conditional — validateSerialize -->
+<!-- // state: add_function — saveState -->
+<!-- // layout: add_constant — saveLayout -->
+<!-- // license: add_function — parseLicense -->
+<!-- // hover: add_conditional — saveHover -->
 <!-- // route: add_function — setRoute -->
 <!-- // active: add_conditional — formatActive -->
 <!-- // stub: add_conditional — setStub -->
@@ -337,7 +351,7 @@
 <!-- // merge: add_conditional — loadMerge -->
 <!-- // cleanup: add_conditional — setupCleanup -->
 <!-- // filter: add_constant — updateFilter -->
-<!-- // session: add_conditional — fetchSession -->  <!-- contrib -->
+<!-- // session: add_conditional — fetchSession -->
 <!-- // transition: add_function — setupTransition -->
 <!-- // format: add_constant — getFormat -->
 <!-- // serialize: add_conditional — updateSerialize -->
@@ -521,3 +535,5 @@
 <!-- // transform: add_function — createTransform -->
 <!-- // transition: add_constant — saveTransition -->
 <!-- // check: add_function — saveCheck -->
+<!-- // mock: add_function — fetchMock -->
+<!-- // transform: add_function — saveTransform -->
