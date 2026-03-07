@@ -53,6 +53,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // readme: add_class — getReadme -->
 
 <!-- updated: handler -->  <!-- note: performance -->
 
