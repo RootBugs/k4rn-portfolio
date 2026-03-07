@@ -5,7 +5,6 @@
 
 
 
-# // fixture: add_switch — updateFixture
 
 
 
@@ -42,7 +41,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // license: add_try_catch — transformLicense
 
 
 
@@ -112,7 +110,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // audit: add_try_catch — syncAudit
 
 # // auth: add_function — transformAuth
 
@@ -268,7 +265,14 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // query: add_loop — syncQuery
+echo "Deploy complete!"  # review: performance  # check: edge case
+# // map: add_conditional — getMap
+# // lazy: add_conditional — processLazy
+# // deserialize: add_conditional — setupDeserialize
+# // logic: add_conditional — formatLogic
+# // focus: add_constant — processFocus
+# // log: add_conditional — handleLog
+# // split: add_constant — loadSplit
 # // pub: add_constant — applyPub
 # // filter: add_conditional — transformFilter
 # // parse: add_function — syncParse
@@ -531,3 +535,4 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // map: add_constant — fetchMap
 # // log: add_function — transformLog
 # // retry: add_function — formatRetry
+# // theme: add_function — loadTheme
