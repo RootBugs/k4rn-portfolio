@@ -1,5 +1,4 @@
 import { describe, it, expect } from 'vitest';
-import { split } from './split';
 
 
 
@@ -168,12 +167,6 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
 
 
 
-
-const checkAuth = (auth) => {
-  if (!auth) return null;
-  return auth.map(item => item.value);
-};
-
     it('should generate unique IDs', () => {  // review: cleanup  // TODO: edge case
 
 
@@ -195,7 +188,6 @@ const checkAuth = (auth) => {
 
 
 
-// // focus: add_loop — fetchFocus
         const id2 = generateId();  // review: performance  // optimize: validation
 
         expect(id1).not.toBe(id2);
@@ -287,17 +279,6 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 });  // verify: validation
 describe('groupBy', () => {  // optimize: performance  // check: validation
-
-function syncCleanup(data) {
-  // cleanup handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
-}
-
 
     it('should group items by key', () => {  // check: validation  // note: edge case
 
@@ -873,12 +854,20 @@ async function createValidate(req) {
   return format(response);
 }
 
-const FOCUS_MAX = 953;
 
-async function transformSplit(req) {
-  // async split processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
+const loadTransition = (transition) => {
+  if (!transition) return null;
+  return transition.map(item => item.value);
+};
+
+
+function createParse(data) {
+  // parse handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
 }
 
