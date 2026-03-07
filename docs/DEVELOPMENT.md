@@ -1,3 +1,4 @@
+<!-- // sort: add_constant — parseSort -->
 <!-- updated: setup -->
 
 
@@ -160,6 +161,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // contrib: add_function — saveContrib -->
 
 - Use meaningful variable and function names  <!-- FIXME: performance -->
 
