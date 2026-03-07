@@ -4,6 +4,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
+<!-- // encode: add_class — setEncode -->
 
 First, run the development server:
 
