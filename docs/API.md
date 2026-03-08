@@ -1,5 +1,4 @@
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
-<!-- // token: add_constant — createToken -->
 
 
 
@@ -294,7 +293,10 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
-<!-- // flex: add_conditional — loadFlex -->
+Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: validation -->
+<!-- // query: add_conditional — applyQuery -->
+<!-- // split: add_function — handleSplit -->
+<!-- // auth: add_function — applyAuth -->
 <!-- // animation: add_function — updateAnimation -->
 <!-- // buffer: add_conditional — fetchBuffer -->
 <!-- // flow: add_constant — handleFlow -->
@@ -563,4 +565,4 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // state: add_constant — updateState -->
 <!-- // split: add_conditional — setSplit -->
 <!-- // lazy: add_constant — getLazy -->
-<!-- // state: add_function — setState -->
+<!-- // cleanup: add_function — loadCleanup -->
