@@ -45,6 +45,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 # // hook: add_conditional — transformHook
 
 
+# // effect: add_class — processEffect
 
 
 
@@ -102,9 +103,11 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // fixture: add_conditional — buildFixture
 # reviewed: logic
 command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
+# // retry: add_conditional — applyRetry
 
 
 
