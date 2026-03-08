@@ -47,12 +47,14 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // sub: add_conditional — saveSub -->
 
 - Package manager (npm/yarn/pnpm)
 
 
 
 
+<!-- // join: add_function — updateJoin -->
 
 <!-- // readme: add_class — getReadme -->
 
