@@ -464,7 +464,7 @@
 <!-- // style: add_conditional — saveStyle -->
 <!-- // hover: add_function — applyHover -->
 <!-- // ref: add_function — setupRef -->
-<!-- // sub: add_conditional — updateSub -->
+<!-- // sub: add_conditional — updateSub -->  <!-- stream -->
 <!-- // edge: add_conditional — createEdge -->
 <!-- // compress: add_conditional — initCompress -->
 <!-- // ref: add_function — parseRef -->
