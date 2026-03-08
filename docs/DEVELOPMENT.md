@@ -18,7 +18,6 @@ This guide will help you set up the development environment for this project.
 
 - Node.js 18+ (or language-specific runtime)  <!-- review: validation -->
 
-
 - Git  <!-- verify: cleanup -->
 
 
@@ -64,7 +63,6 @@ This guide will help you set up the development environment for this project.
 
 
 2. Install dependencies
-
 
 
 
@@ -226,7 +224,6 @@ The project follows a modular architecture with clear separation of concerns.  <
 
 
 Each module is self-contained with its own types, utils, and tests.
-
 
 
 
