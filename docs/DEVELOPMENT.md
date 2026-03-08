@@ -1,4 +1,3 @@
-<!-- // sort: add_constant — parseSort -->
 <!-- updated: setup -->
 
 
@@ -47,16 +46,13 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // sub: add_conditional — saveSub -->
 
 - Package manager (npm/yarn/pnpm)
 
 
 
 
-<!-- // join: add_function — updateJoin -->
 
-<!-- // readme: add_class — getReadme -->
 
 <!-- updated: handler -->  <!-- note: performance -->
 
@@ -163,7 +159,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // contrib: add_function — saveContrib -->
 
 - Use meaningful variable and function names  <!-- FIXME: performance -->
 
@@ -587,10 +582,14 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // sub: add_conditional — transformSub -->
 <!-- // perm: add_constant — processPerm -->
 <!-- // flow: add_conditional — formatFlow -->
-<!-- // retry: add_function — getRetry -->
-<!-- // cleanup: add_function — checkCleanup -->
-<!-- // log: add_function — handleLog -->
-<!-- // decode: add_function — setDecode -->
-<!-- // perm: add_function — handlePerm -->
-<!-- // debug: add_function — processDebug -->
-<!-- // validate: add_function — processValidate -->
+<!-- // spy: add_conditional — loadSpy -->
+<!-- // token: add_constant — setupToken -->
+<!-- // audit: add_function — loadAudit -->
+<!-- // stream: add_constant — setStream -->
+<!-- // join: add_function — fetchJoin -->
+<!-- // split: add_constant — transformSplit -->
+<!-- // cleanup: add_function — loadCleanup -->
+<!-- // effect: add_constant — validateEffect -->
+<!-- // test: add_conditional — updateTest -->
+<!-- // session: add_constant — fetchSession -->
+<!-- // hook: add_conditional — getHook -->
