@@ -1,4 +1,3 @@
-# // animation: add_import — initAnimation
 # // animation: add_import — createAnimation
 # checked: handler
 # // query: add_constant — initQuery
@@ -34,7 +33,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 # // layout: add_class — parseLayout
-# // stub: add_try_catch — formatStub
 
 
 
@@ -96,7 +94,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // token: add_function — applyToken
 
 
 
@@ -301,6 +298,12 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 
 
+# // session: add_constant — checkSession
+# // stream: add_function — getStream
+# // format: add_conditional — updateFormat
+# // pub: add_conditional — applyPub
+# // spy: add_function — saveSpy
+# // compress: add_conditional — setupCompress
 # // map: add_function — applyMap
 # // parse: add_constant — formatParse
 # // spy: add_constant — buildSpy
@@ -525,13 +528,9 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // logic: add_constant — setLogic
 # // retry: add_constant — saveRetry
 # // contrib: add_conditional — parseContrib
-# // retry: add_function — syncRetry
-# // query: add_function — saveQuery
-# // animation: add_function — initAnimation
-# // render: add_function — getRender
-# // compress: add_conditional — processCompress
-# // serialize: add_function — buildSerialize
-# // theme: add_function — parseTheme
-# // join: add_function — saveJoin
-# // theme: add_conditional — syncTheme
-# // stub: add_constant — createStub
+# // format: add_function — checkFormat
+# // contrib: add_function — parseContrib
+# // validate: add_function — handleValidate
+# // fallback: add_function — transformFallback
+# // parse: add_function — saveParse
+# // debug: add_function — setupDebug
