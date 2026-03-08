@@ -1,5 +1,4 @@
 # checked: logic  # TODO: refactor
-# // map: add_constant — buildMap
 
 
 
@@ -261,6 +260,14 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
+# // effect: add_function — loadEffect
+# // query: add_function — initQuery
+# // map: add_constant — updateMap
+# // retry: add_conditional — setupRetry
+# // trace: add_constant — fetchTrace
 # // cleanup: add_conditional — formatCleanup
 # // layout: add_function — createLayout
 # // stream: add_conditional — validateStream
@@ -503,8 +510,15 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // filter: add_function — setFilter
 # // spy: add_conditional — formatSpy
 # // sort: add_function — fetchSort
-# // query: add_function — syncQuery
-# // mutation: add_function — setupMutation
-# // sort: add_function — handleSort
-# // debug: add_function — applyDebug
-# // stub: add_function — updateStub
+# // transition: add_function — initTransition
+# // metric: add_conditional — parseMetric
+# // setup: add_function — setSetup
+# // map: add_conditional — fetchMap
+# // validate: add_function — updateValidate
+# // debug: add_constant — handleDebug
+# // lazy: add_constant — validateLazy
+# // logic: add_function — updateLogic
+# // state: add_constant — checkState
+# // role: add_conditional — initRole
+# // perm: add_constant — fetchPerm
+# // audit: add_conditional — handleAudit
