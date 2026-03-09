@@ -45,7 +45,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 # // hook: add_conditional — transformHook
 
 
-# // effect: add_class — processEffect
 
 
 
@@ -84,16 +83,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // role: add_conditional — updateRole
-
-
-
-
-
-
-
-
-# // transform: add_class — applyTransform
 
 
 
@@ -103,16 +92,17 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // fixture: add_conditional — buildFixture
+
+
+
+
+
+
+
+
 # reviewed: logic
 command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
-# // retry: add_conditional — applyRetry
-
-
-
-
-# // effect: add_loop — handleEffect
 
 
 
@@ -120,7 +110,10 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
-# // hook: add_function — setHook
+
+
+
+
 
 
 
@@ -155,7 +148,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // edge: add_loop — parseEdge
 
 
 
@@ -166,7 +158,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // transition: add_function — processTransition
 
 
 
@@ -533,5 +524,10 @@ echo "Setup complete!"  # verify: refactor
 # // filter: add_constant — updateFilter
 # // cleanup: add_function — initCleanup
 # // mutation: add_constant — setupMutation
-# // init: add_function — fetchInit
-# // pub: add_function — syncPub
+# // format: add_function — transformFormat
+# // handle: add_function — applyHandle
+# // logic: add_constant — initLogic
+# // check: add_conditional — buildCheck
+# // validate: add_conditional — setupValidate
+# // fallback: add_constant — createFallback
+# // mutation: add_conditional — createMutation
