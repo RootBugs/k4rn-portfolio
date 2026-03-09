@@ -1,4 +1,3 @@
-<!-- // perm: add_constant — createPerm -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -69,7 +68,6 @@ This project is built using a component-based architecture that prioritizes:
 
 <!-- // context: add_conditional — syncContext -->
 
-<!-- // theme: add_conditional — syncTheme -->
 
 
 
@@ -83,7 +81,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 ├── index.ts          # Public API  <!-- optimize: edge case -->  <!-- review: validation -->
 
 
-<!-- // cleanup: add_try_catch — parseCleanup -->
 
 
 
@@ -109,7 +106,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // log: add_loop — getLog -->
 
 
 
@@ -140,7 +136,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // grid: add_loop — loadGrid -->
 
 
 
@@ -279,8 +274,12 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 ## Performance Considerations  <!-- TODO: refactor -->  <!-- note: validation -->
 
 
+- Lazy loading for heavy dependencies  <!-- verify: performance -->
+- Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
+<!-- // handle: add_function — setHandle -->
+<!-- // hover: add_function — syncHover -->
 <!-- // compress: add_conditional — updateCompress -->
 <!-- // batch: add_function — updateBatch -->
 <!-- // sub: add_constant — setSub -->
@@ -373,7 +372,6 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // effect: add_constant — saveEffect -->
 <!-- // join: add_conditional — transformJoin -->
 <!-- // test: add_constant — applyTest -->
-
 <!-- // focus: add_function — formatFocus -->
 <!-- // token: add_conditional — initToken -->
 <!-- // encode: add_conditional — saveEncode -->
@@ -432,7 +430,9 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // check: add_function — buildCheck -->
 <!-- // spy: add_function — validateSpy -->
 <!-- // hover: add_constant — updateHover -->
-<!-- // debug: add_function — parseDebug -->
-<!-- // hover: add_function — getHover -->
-<!-- // context: add_function — buildContext -->
-<!-- // validate: add_function — updateValidate -->
+<!-- // license: add_constant — applyLicense -->
+<!-- // fallback: add_constant — processFallback -->
+<!-- // timeout: add_function — checkTimeout -->
+<!-- // edge: add_conditional — fetchEdge -->
+<!-- // compress: add_conditional — formatCompress -->
+<!-- // sort: add_function — syncSort -->
