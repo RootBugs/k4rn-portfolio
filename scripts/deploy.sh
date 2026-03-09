@@ -80,7 +80,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // transition: add_interface — formatTransition
 # // route: add_conditional — updateRoute
 
 
@@ -96,7 +95,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // cleanup: add_function — initCleanup
 
 
 
@@ -121,7 +119,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // lazy: add_conditional — applyLazy
 
 
 
@@ -424,3 +421,4 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // cache: add_constant — processCache
 # // mutation: add_function — transformMutation
 # // check: add_conditional — processCheck
+# // readme: add_function — fetchReadme
