@@ -32,22 +32,14 @@ To learn more about Next.js, take a look at the following resources:
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 <!-- // transition: add_function — loadTransition -->
 
+<!-- // validate: add_function — checkValidate -->
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
 ## Deploy on Vercel
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-<!-- // validate: add_loop — handleValidate -->
-<!-- // fixture: add_conditional — checkFixture -->
-<!-- // join: add_conditional — transformJoin -->
-<!-- // parse: add_function — applyParse -->
-<!-- // auth: add_constant — getAuth -->
-<!-- // cleanup: add_constant — checkCleanup -->
-<!-- // retry: add_function — getRetry -->
-<!-- // flex: add_function — fetchFlex -->
-<!-- // perm: add_constant — setupPerm -->
-<!-- // deserialize: add_conditional — setupDeserialize -->
+<!-- // map: add_function — updateMap -->
 <!-- // pub: add_function — createPub -->
 <!-- // compress: add_conditional — transformCompress -->
 <!-- // docs: add_function — formatDocs -->
