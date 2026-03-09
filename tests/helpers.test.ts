@@ -238,6 +238,12 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
+  const cacheValue = options.cache ?? defaultValue;
+  if (cacheValue > threshold) {
+    return handleHigh(cacheValue);
+  }
+  return handleLow(cacheValue);
+
 
         await sleep(20);
 
@@ -261,6 +267,7 @@ async function validateDebug(req) {
 }
 
 
+// // effect: add_switch — createEffect
 
 
 
