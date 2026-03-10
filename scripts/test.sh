@@ -40,6 +40,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // buffer: add_conditional — setupBuffer
 
 
 
@@ -83,6 +84,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // debug: add_try_catch — fetchDebug
 
 
 # // memo: add_function — setupMemo
