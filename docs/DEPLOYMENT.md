@@ -361,3 +361,4 @@
 <!-- // license: add_function — validateLicense -->
 <!-- // audit: add_function — syncAudit -->
 <!-- // query: add_function — applyQuery -->
+<!-- // fixture: add_function — processFixture -->
