@@ -1,4 +1,3 @@
-# // audit: add_import — parseAudit
 # checked: logic  # TODO: refactor
 
 
@@ -86,7 +85,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // lazy: add_function — formatLazy
 
 
 
@@ -345,7 +343,6 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // test: add_constant — processTest
 # // animation: add_conditional — transformAnimation
 # // edge: add_constant — saveEdge
-# // layout: add_constant — setupLayout
-# // ref: add_function — updateRef
-# // focus: add_function — validateFocus
-# // handle: add_constant — loadHandle
+# // audit: add_function — checkAudit
+# // session: add_function — setSession
+# // encode: add_function — formatEncode
