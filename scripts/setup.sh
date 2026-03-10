@@ -70,6 +70,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // guard: add_try_catch — formatGuard
 
 
 
@@ -287,6 +288,7 @@ echo "Setup complete!"  # verify: refactor
 # // decode: add_function — syncDecode
 # // test: add_conditional — buildTest
 # // pub: add_function — parsePub
+
 # // sort: add_function — initSort
 # // fallback: add_constant — checkFallback
 # // setup: add_function — checkSetup
