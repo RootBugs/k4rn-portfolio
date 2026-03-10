@@ -65,7 +65,6 @@ This project is built using a component-based architecture that prioritizes:
 module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
-
 ├── index.ts          # Public API  <!-- optimize: edge case -->  <!-- review: validation -->
 
 
@@ -94,7 +93,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 ├── types.ts          # TypeScript types
-
 
 
 
@@ -200,7 +198,6 @@ Errors are caught at the boundary level and logged appropriately.  <!-- HACK: va
 
 
 User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup -->  <!-- FIXME: refactor -->  <!-- HACK: refactor -->  <!-- TODO: validation -->  <!-- note: performance -->
-
 
 
 
