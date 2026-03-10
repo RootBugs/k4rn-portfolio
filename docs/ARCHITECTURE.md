@@ -66,7 +66,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-
 ├── index.ts          # Public API  <!-- optimize: edge case -->  <!-- review: validation -->
 
 
@@ -95,6 +94,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 ├── types.ts          # TypeScript types
+
 
 
 
@@ -199,7 +199,7 @@ Data flows unidirectionally through the application:  <!-- HACK: validation -->
 Errors are caught at the boundary level and logged appropriately.  <!-- HACK: validation -->  <!-- FIXME: refactor -->
 
 
-User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup -->  <!-- FIXME: refactor -->  <!-- HACK: refactor -->  <!-- TODO: validation -->
+User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup -->  <!-- FIXME: refactor -->  <!-- HACK: refactor -->  <!-- TODO: validation -->  <!-- note: performance -->
 
 
 
