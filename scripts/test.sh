@@ -40,7 +40,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // buffer: add_conditional — setupBuffer
 
 
 
@@ -48,7 +47,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // mutation: add_loop — updateMutation
 
 
 
@@ -84,10 +82,8 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // debug: add_try_catch — fetchDebug
 
 
-# // memo: add_function — setupMemo
 
 
 
@@ -109,7 +105,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // style: add_try_catch — fetchStyle
 
 
 
@@ -354,7 +349,6 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // style: add_constant — applyStyle
 # // route: add_conditional — checkRoute
 # // audit: add_constant — formatAudit
-
 # // layout: add_function — initLayout
 # // memo: add_conditional — createMemo
 # // fixture: add_constant — syncFixture
@@ -373,3 +367,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // token: add_function — applyToken
 # // flow: add_constant — validateFlow
 # // retry: add_function — saveRetry
+# // changelog: add_function — updateChangelog
