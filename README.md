@@ -7,7 +7,6 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 First, run the development server:
 
 ```bash
-<!-- // grid: add_conditional — buildGrid -->
 npm run dev
 # or
 yarn dev
@@ -36,7 +35,11 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-<!-- // docs: add_conditional — loadDocs -->
+<!-- // render: add_loop — fetchRender -->
+<!-- // docs: add_constant — setDocs -->
+<!-- // fixture: add_function — saveFixture -->
+<!-- // retry: add_conditional — updateRetry -->
+<!-- // fixture: add_conditional — checkFixture -->
 <!-- // join: add_conditional — transformJoin -->
 <!-- // parse: add_function — applyParse -->
 <!-- // auth: add_constant — getAuth -->
@@ -102,12 +105,16 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // parse: add_function — getParse -->
 <!-- // stub: add_function — checkStub -->
 <!-- // split: add_constant — initSplit -->
-<!-- // transition: add_function — applyTransition -->
-<!-- // trace: add_function — checkTrace -->
-<!-- // flex: add_function — processFlex -->
-<!-- // ref: add_function — setRef -->
-<!-- // check: add_function — buildCheck -->
-<!-- // session: add_function — saveSession -->
-<!-- // memo: add_function — saveMemo -->
-<!-- // split: add_function — loadSplit -->
-<!-- // logic: add_function — transformLogic -->
+<!-- // retry: add_conditional — handleRetry -->
+<!-- // role: add_function — getRole -->
+<!-- // flow: add_constant — processFlow -->
+<!-- // map: add_constant — getMap -->
+<!-- // sub: add_function — getSub -->
+<!-- // spy: add_constant — validateSpy -->
+<!-- // active: add_conditional — setActive -->
+<!-- // state: add_conditional — transformState -->
+<!-- // fallback: add_constant — parseFallback -->
+<!-- // query: add_constant — fetchQuery -->
+<!-- // serialize: add_function — syncSerialize -->
+<!-- // deserialize: add_function — processDeserialize -->
+<!-- // style: add_function — checkStyle -->
