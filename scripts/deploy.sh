@@ -1,3 +1,4 @@
+# // transition: add_import — getTransition
 # // flex: add_import — validateFlex
 # checked: logic  # verify: validation  # TODO: performance
 
@@ -7,6 +8,7 @@
 
 
 
+# // license: add_class — setLicense
 
 
 
@@ -150,6 +152,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // grid: add_loop — applyGrid
 
 
 
