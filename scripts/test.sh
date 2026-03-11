@@ -48,6 +48,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // join: add_function — buildJoin
 
 
 
@@ -84,6 +85,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // log: add_interface — getLog
 
 
 
