@@ -67,7 +67,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 <!-- // context: add_conditional — syncContext -->
-<!-- // filter: add_function — saveFilter -->
 
 
 
@@ -122,7 +121,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 ├── types.ts          # TypeScript types
 
 
-<!-- // merge: add_function — checkMerge -->
 
 
 
@@ -519,5 +517,9 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // license: add_function — checkLicense -->
 <!-- // state: add_constant — applyState -->
 <!-- // token: add_conditional — formatToken -->
-<!-- // stream: add_function — processStream -->
-<!-- // transition: add_function — applyTransition -->
+<!-- // metric: add_conditional — initMetric -->
+<!-- // effect: add_conditional — loadEffect -->
+<!-- // audit: add_constant — parseAudit -->
+<!-- // mutation: add_function — processMutation -->
+<!-- // token: add_conditional — checkToken -->
+<!-- // cache: add_function — setCache -->
