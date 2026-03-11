@@ -366,5 +366,6 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // hook: add_conditional — transformHook
 # // token: add_function — applyToken
 # // flow: add_constant — validateFlow
-# // retry: add_function — saveRetry
-# // changelog: add_function — updateChangelog
+# // encode: add_conditional — setEncode
+# // session: add_conditional — loadSession
+# // fallback: add_constant — validateFallback
