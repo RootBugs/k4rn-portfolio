@@ -53,6 +53,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // hook: add_conditional — processHook
 
 
 
@@ -76,6 +77,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HACK: refactor
 
+# // validate: add_class — setValidate
 
 
 # // route: add_conditional — updateRoute
