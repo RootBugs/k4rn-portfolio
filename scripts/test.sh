@@ -108,6 +108,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // transform: add_function — loadTransform
 
 
 
@@ -140,6 +141,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // spy: add_switch — loadSpy
 
 
 
