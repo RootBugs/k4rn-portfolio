@@ -156,6 +156,7 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
+# // hook: add_function — validateHook
 
 
 
