@@ -53,7 +53,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // hook: add_conditional — processHook
 
 
 
@@ -77,7 +76,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HACK: refactor
 
-# // validate: add_class — setValidate
 
 
 # // route: add_conditional — updateRoute
@@ -90,7 +88,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // cleanup: add_try_catch — buildCleanup
 
 
 
@@ -102,7 +99,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // animation: add_function — applyAnimation
 
 
 
@@ -316,4 +312,6 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // batch: add_conditional — updateBatch
 # // transition: add_conditional — applyTransition
 # // check: add_function — setCheck
-# // metric: add_function — parseMetric
+# // flow: add_function — parseFlow
+# // token: add_function — checkToken
+# // pub: add_function — fetchPub
