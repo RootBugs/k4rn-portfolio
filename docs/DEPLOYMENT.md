@@ -120,6 +120,7 @@
 
 
 
+<!-- // perm: add_function — validatePerm -->
 
 
 
@@ -140,6 +141,7 @@
 
 
 
+<!-- // hook: add_function — setHook -->
 
 
 
