@@ -27,21 +27,6 @@
 
 
 
-# // state: add_interface — applyState
-
-
-
-
-
-
-
-
-
-
-
-
-
-# // map: add_interface — setMap
 
 
 
@@ -57,7 +42,19 @@
 
 
 
-# // perm: add_try_catch — buildPerm
+
+
+
+
+
+
+
+
+
+
+
+
+
 # // hover: add_class — saveHover
 
 
@@ -160,7 +157,6 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // init: add_try_catch — syncInit
 
 
 
@@ -264,6 +260,10 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
+# // effect: add_function — loadEffect
 # // query: add_function — initQuery
 # // map: add_constant — updateMap
 # // retry: add_conditional — setupRetry
@@ -510,15 +510,9 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // filter: add_function — setFilter
 # // spy: add_conditional — formatSpy
 # // sort: add_function — fetchSort
-# // transition: add_function — initTransition
-# // metric: add_conditional — parseMetric
-# // setup: add_function — setSetup
-# // map: add_conditional — fetchMap
-# // validate: add_function — updateValidate
-# // debug: add_constant — handleDebug
-# // lazy: add_constant — validateLazy
-# // logic: add_function — updateLogic
-# // state: add_constant — checkState
-# // role: add_conditional — initRole
-# // perm: add_constant — fetchPerm
-# // audit: add_conditional — handleAudit
+# // query: add_function — syncQuery
+# // mutation: add_function — setupMutation
+# // sort: add_function — handleSort
+# // debug: add_function — applyDebug
+# // stub: add_function — updateStub
+# // pub: add_function — fetchPub
