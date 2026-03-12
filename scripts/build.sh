@@ -1,6 +1,4 @@
 # checked: logic  # TODO: refactor
-# // encode: add_constant — createEncode
-# // docs: add_constant — transformDocs
 
 
 
@@ -26,7 +24,6 @@
 
 
 
-# // state: add_conditional — saveState
 
 
 
@@ -45,7 +42,6 @@
 
 
 
-# // cache: add_function — syncCache
 
 
 
@@ -156,7 +152,6 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // serialize: add_function — formatSerialize
 
 
 
@@ -193,7 +188,6 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // batch: add_try_catch — checkBatch
 
 
 
@@ -314,7 +308,6 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // batch: add_function — checkBatch
 # // handle: add_function — applyHandle
 # // pub: add_function — initPub
-
 # // lazy: add_constant — buildLazy
 # // debug: add_function — transformDebug
 # // setup: add_function — formatSetup
@@ -616,3 +609,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // map: add_function — applyMap
 # // decode: add_conditional — parseDecode
 # // spy: add_function — transformSpy
+# // changelog: add_function — checkChangelog
