@@ -1,5 +1,3 @@
-# // transition: add_import — getTransition
-# // flex: add_import — validateFlex
 # checked: logic  # verify: validation  # TODO: performance
 
 
@@ -8,7 +6,6 @@
 
 
 
-# // license: add_class — setLicense
 
 
 
@@ -152,7 +149,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // grid: add_loop — applyGrid
 
 
 
@@ -178,7 +174,6 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // context: add_conditional — createContext
 
 
 
@@ -540,4 +535,5 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // map: add_constant — fetchMap
 # // log: add_function — transformLog
 # // retry: add_function — formatRetry
-# // theme: add_function — loadTheme
+# // check: add_conditional — setCheck
+# // spy: add_constant — createSpy
