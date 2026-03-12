@@ -32,6 +32,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // batch: add_try_catch — parseBatch
 
 
 
@@ -90,7 +91,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // focus: add_switch — applyFocus
+# // query: add_loop — transformQuery
 
 
 
