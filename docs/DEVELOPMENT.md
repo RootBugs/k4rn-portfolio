@@ -76,6 +76,7 @@ This guide will help you set up the development environment for this project.  <
 
 1. Fork and clone the repository  <!-- note: refactor -->
 
+<!-- // docs: add_function — formatDocs -->
 
 <!-- // guard: add_loop — buildGuard -->
 
@@ -182,6 +183,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // batch: add_function — setBatch -->
 
 
 
@@ -194,6 +196,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // compress: add_function — validateCompress -->
 
 
 
