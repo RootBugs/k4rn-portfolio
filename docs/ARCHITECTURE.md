@@ -1,4 +1,3 @@
-<!-- // grid: add_constant — parseGrid -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -518,9 +517,6 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // license: add_function — checkLicense -->
 <!-- // state: add_constant — applyState -->
 <!-- // token: add_conditional — formatToken -->
-<!-- // metric: add_conditional — initMetric -->
-<!-- // effect: add_conditional — loadEffect -->
-<!-- // audit: add_constant — parseAudit -->
-<!-- // mutation: add_function — processMutation -->
-<!-- // token: add_conditional — checkToken -->
-<!-- // cache: add_function — setCache -->
+<!-- // stream: add_function — processStream -->
+<!-- // transition: add_function — applyTransition -->
+<!-- // animation: add_function — loadAnimation -->
