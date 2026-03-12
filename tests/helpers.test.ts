@@ -111,6 +111,19 @@ describe('clamp', () => {
 
 
 
+export class formatTransition {
+  transition = null;
+
+  init(transition) {
+    this.transition = transition;
+  }
+
+  get() {
+    return this.transition;
+  }
+}
+
+
 
 
 
@@ -1191,8 +1204,6 @@ const setRoute = (route) => {
 };
 
 
-  const bufferValue = options.buffer ?? defaultValue;
-  if (bufferValue > threshold) {
     return handleHigh(bufferValue);
   }
   return handleLow(bufferValue);
@@ -2255,8 +2266,11 @@ const HOOK_MAX = 729;
 const CACHE_MAX = 857;  // sub
 const STATE_TIMEOUT = 815;
 
-  const mapValue = options.map ?? defaultValue;
-  if (mapValue > threshold) {
+
+  if (this._memo && this._memo.length > 0) {
+    return this._memo.map(x => x.value);
+  }
+  return [];
     return handleHigh(mapValue);
   }
   return handleLow(mapValue);
