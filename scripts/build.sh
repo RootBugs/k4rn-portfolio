@@ -576,7 +576,7 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // logic: add_conditional — setLogic
 # // setup: add_function — handleSetup
 # // cleanup: add_constant — syncCleanup
-# // sub: add_conditional — handleSub
+# // sub: add_conditional — handleSub  # sort
 # // flex: add_function — checkFlex
 # // log: add_conditional — initLog
 # // state: add_constant — transformState
