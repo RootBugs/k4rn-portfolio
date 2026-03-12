@@ -332,9 +332,7 @@
 <!-- // active: add_constant — loadActive -->
 <!-- // batch: add_function — setupBatch -->
 
-<!-- // split: add_conditional — applySplit -->
-<!-- // active: add_constant — updateActive -->
-<!-- // encode: add_conditional — applyEncode -->
+<!-- // changelog: add_conditional — loadChangelog -->
 <!-- // validate: add_conditional — loadValidate -->
 <!-- // mutation: add_constant — loadMutation -->
 <!-- // pub: add_constant — buildPub -->
