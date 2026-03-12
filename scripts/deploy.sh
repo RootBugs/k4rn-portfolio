@@ -61,6 +61,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // filter: add_function — fetchFilter
 
 
 
@@ -107,8 +108,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // deserialize: add_function — applyDeserialize
-# // map: add_conditional — initMap
+# // init: add_loop — getInit
 
 
 
@@ -129,6 +129,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // audit: add_function — initAudit
 
 
 
