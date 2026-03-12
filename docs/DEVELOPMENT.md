@@ -81,7 +81,6 @@ This guide will help you set up the development environment for this project.
 
 
 
-
 3. Create a branch for your feature  <!-- check: edge case -->  <!-- review: cleanup -->
 
 4. Make your changes  <!-- FIXME: edge case -->
@@ -155,6 +154,7 @@ This guide will help you set up the development environment for this project.
 
 
 
+
 - Use TypeScript for type safety where possible
 
 
@@ -182,6 +182,7 @@ This guide will help you set up the development environment for this project.
 
 
 - Ensure existing tests pass before submitting  <!-- verify: edge case -->  <!-- TODO: cleanup -->
+
 
 
 
