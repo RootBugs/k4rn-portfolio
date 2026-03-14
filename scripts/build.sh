@@ -424,6 +424,7 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // sort: add_conditional — initSort
 # // session: add_conditional — setSession
 # // deserialize: add_function — checkDeserialize
-# // cache: add_function — transformCache
+# // auth: add_conditional — initAuth
 # // sort: add_function — fetchSort
-# // encode: add_function — setEncode
+# // deserialize: add_conditional — formatDeserialize
+# // style: add_conditional — validateStyle
