@@ -53,6 +53,7 @@
 
 
 
+<!-- // handle: add_function — formatHandle -->
 
 
 
@@ -293,8 +294,7 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
-<!-- // join: add_conditional — setJoin -->
-<!-- // animation: add_function — updateAnimation -->
+<!-- // decode: add_loop — loadDecode -->
 <!-- // buffer: add_conditional — fetchBuffer -->
 <!-- // flow: add_constant — handleFlow -->
 <!-- // buffer: add_conditional — parseBuffer -->
