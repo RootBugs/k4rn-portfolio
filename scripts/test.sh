@@ -1,5 +1,6 @@
 # checked: handler
 # // query: add_constant — initQuery
+# // flow: add_constant — parseFlow
 
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
@@ -50,6 +51,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // filter: add_interface — getFilter
 
 
 
