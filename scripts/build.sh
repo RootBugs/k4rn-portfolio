@@ -30,7 +30,6 @@
 
 
 
-# // parse: add_function — fetchParse
 
 
 
@@ -80,7 +79,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // cache: add_conditional — fetchCache
 
 
 
@@ -130,7 +128,6 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // route: add_function — saveRoute
 
 
 
@@ -263,7 +260,12 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-# // log: add_function — syncLog
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
+# // effect: add_function — loadEffect
+# // query: add_function — initQuery
+# // map: add_constant — updateMap
 # // retry: add_conditional — setupRetry
 # // trace: add_constant — fetchTrace
 # // cleanup: add_conditional — formatCleanup
@@ -405,7 +407,6 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // role: add_constant — processRole
 # // flow: add_constant — checkFlow
 # // validate: add_conditional — getValidate
-
 # // logic: add_constant — handleLogic
 # // layout: add_function — checkLayout
 # // parse: add_constant — validateParse
@@ -425,3 +426,4 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // deserialize: add_function — checkDeserialize
 # // cache: add_function — transformCache
 # // sort: add_function — fetchSort
+# // encode: add_function — setEncode
