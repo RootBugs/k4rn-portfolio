@@ -1,9 +1,7 @@
-# // contrib: add_import — updateContrib
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
 # // mock: add_constant — formatMock
-# // ref: add_constant — loadRef
 
 
 
@@ -85,7 +83,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // ref: add_try_catch — initRef
 
 
 
@@ -116,9 +113,7 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
-# // timeout: add_function — syncTimeout
 
-# // join: add_interface — getJoin
 
 
 
@@ -285,6 +280,11 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
+echo "Setup complete!"  # verify: refactor
+# // mock: add_function — setMock
+# // token: add_function — getToken
+# // spy: add_constant — setSpy
+# // perm: add_constant — updatePerm
 # // flow: add_conditional — validateFlow
 # // serialize: add_constant — validateSerialize
 # // mutation: add_constant — checkMutation
@@ -625,3 +625,4 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 # // validate: add_conditional — loadValidate
 # // split: add_function — parseSplit
 # // metric: add_conditional — buildMetric
+# // test: add_function — getTest
