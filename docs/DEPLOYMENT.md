@@ -1,3 +1,4 @@
+<!-- // buffer: add_import — syncBuffer -->
 <!-- // split: add_constant — getSplit -->
 <!-- tweaked: util -->
 
@@ -37,6 +38,7 @@
 
 
 
+<!-- // style: add_function — parseStyle -->
 
 
 
@@ -300,11 +302,7 @@
 
 
 
-<!-- // test: add_constant — initTest -->
-<!-- // contrib: add_function — createContrib -->
-<!-- // transition: add_function — processTransition -->
-<!-- // parse: add_constant — fetchParse -->
-<!-- // validate: add_constant — buildValidate -->
+<!-- // deserialize: add_function — formatDeserialize -->
 <!-- // fallback: add_constant — checkFallback -->
 <!-- // token: add_conditional — applyToken -->
 <!-- // hover: add_conditional — createHover -->
