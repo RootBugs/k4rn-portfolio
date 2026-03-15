@@ -32,7 +32,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // batch: add_try_catch — parseBatch
 
 
 
@@ -62,7 +61,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // filter: add_function — fetchFilter
 
 
 
@@ -91,7 +89,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // query: add_loop — transformQuery
+# // focus: add_switch — applyFocus
 
 
 
@@ -109,7 +107,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // init: add_loop — getInit
+# // deserialize: add_function — applyDeserialize
 
 
 
@@ -130,7 +128,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // audit: add_function — initAudit
 
 
 
@@ -200,7 +197,6 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // sub: add_switch — initSub
 
 
 
@@ -271,6 +267,8 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
+# // stream: add_function — setupStream
+# // log: add_conditional — handleLog
 # // split: add_constant — loadSplit
 # // pub: add_constant — applyPub
 # // filter: add_conditional — transformFilter
@@ -620,3 +618,4 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // validate: add_function — checkValidate
 # // test: add_function — buildTest
 # // split: add_function — buildSplit
+# // mutation: add_function — updateMutation
