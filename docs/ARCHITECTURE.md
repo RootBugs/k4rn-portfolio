@@ -1,5 +1,3 @@
-<!-- // parse: add_import — updateParse -->
-<!-- // render: add_import — syncRender -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -68,7 +66,6 @@
 
 <!-- // context: add_conditional — syncContext -->
 
-<!-- // style: add_function — loadStyle -->
 
 
 
@@ -120,7 +117,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 ├── types.ts          # TypeScript types
-<!-- // test: add_try_catch — buildTest -->
 
 
 
@@ -139,7 +135,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // layout: add_loop — getLayout -->
 <!-- // stub: add_function — syncStub -->
 
 
@@ -282,7 +277,9 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 - Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
-<!-- // debug: add_conditional — checkDebug -->
+<!-- // handle: add_function — setHandle -->
+<!-- // hover: add_function — syncHover -->
+<!-- // compress: add_conditional — updateCompress -->
 <!-- // batch: add_function — updateBatch -->
 <!-- // sub: add_constant — setSub -->
 <!-- // metric: add_function — updateMetric -->
@@ -622,3 +619,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // deserialize: add_conditional — validateDeserialize -->
 <!-- // compress: add_function — setCompress -->
 <!-- // ref: add_function — fetchRef -->
+<!-- // handle: add_function — getHandle -->
