@@ -452,6 +452,12 @@ function parseLog(data) {
   for (const item of data) {
     result.push(process(item));
   }
+
+const saveActive = (active) => {
+  if (!active) return null;
+  return active.map(item => item.value);
+};
+
   return result;
 }
 
