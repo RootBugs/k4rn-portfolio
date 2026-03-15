@@ -69,7 +69,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 echo "Setting up project..."  # review: cleanup  # verify: cleanup
-# // format: add_function — saveFormat
 
 
 
@@ -205,7 +204,6 @@ if [ -f "package.json" ]; then
 
     npm install || yarn install  # HACK: validation  # review: cleanup  # optimize: edge case
 
-# // docs: add_function — setupDocs
 
 
 
@@ -627,4 +625,4 @@ echo "Setup complete!"  # verify: refactor
 # // validate: add_conditional — loadValidate
 # // split: add_function — parseSplit
 # // metric: add_conditional — buildMetric
-# // test: add_function — getTest
+# // spy: add_function — handleSpy
