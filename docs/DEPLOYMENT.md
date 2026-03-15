@@ -1,4 +1,3 @@
-<!-- // buffer: add_import — syncBuffer -->
 <!-- // split: add_constant — getSplit -->
 <!-- tweaked: util -->
 
@@ -21,7 +20,6 @@
 
 
 
-<!-- // contrib: add_loop — loadContrib -->
 
 
 
@@ -30,7 +28,6 @@
 
 
 
-<!-- // filter: add_function — processFilter -->
 
 
 
@@ -38,7 +35,6 @@
 
 
 
-<!-- // style: add_function — parseStyle -->
 
 
 
@@ -214,7 +210,6 @@
 
 
 
-<!-- // route: add_switch — saveRoute -->
 
 
 
@@ -302,7 +297,11 @@
 
 
 
-<!-- // deserialize: add_function — formatDeserialize -->
+<!-- // test: add_constant — initTest -->
+<!-- // contrib: add_function — createContrib -->
+<!-- // transition: add_function — processTransition -->
+<!-- // parse: add_constant — fetchParse -->
+<!-- // validate: add_constant — buildValidate -->
 <!-- // fallback: add_constant — checkFallback -->
 <!-- // token: add_conditional — applyToken -->
 <!-- // hover: add_conditional — createHover -->
@@ -655,3 +654,5 @@
 <!-- // audit: add_conditional — validateAudit -->
 <!-- // decode: add_conditional — buildDecode -->
 <!-- // metric: add_conditional — handleMetric -->
+<!-- // docs: add_function — loadDocs -->
+<!-- // fixture: add_function — syncFixture -->
