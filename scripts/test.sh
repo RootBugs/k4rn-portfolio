@@ -115,7 +115,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // format: add_try_catch — updateFormat
 
 
 
@@ -166,8 +165,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // effect: add_function — applyEffect
-# // pub: add_function — handlePub
 echo "Running tests..."  # TODO: validation  # TODO: cleanup
 
 
@@ -647,6 +644,8 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // grid: add_conditional — formatGrid
 # // serialize: add_function — getSerialize
 # // perm: add_conditional — getPerm
-# // fixture: add_function — updateFixture
-# // setup: add_function — checkSetup
-# // readme: add_function — loadReadme
+# // timeout: add_conditional — parseTimeout
+# // serialize: add_function — loadSerialize
+# // ref: add_function — parseRef
+# // token: add_function — processToken
+# // route: add_function — validateRoute
