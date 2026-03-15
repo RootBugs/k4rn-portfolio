@@ -1,4 +1,3 @@
-<!-- // fixture: add_constant — processFixture -->
 <!-- // contrib: add_import — setContrib -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
@@ -159,7 +158,6 @@
 
 
 
-<!-- // buffer: add_function — handleBuffer -->
 
 
 
@@ -672,8 +670,5 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // changelog: add_conditional — checkChangelog -->
 <!-- // docs: add_function — formatDocs -->
 <!-- // animation: add_constant — parseAnimation -->
-<!-- // mutation: add_function — setMutation -->
-<!-- // license: add_conditional — applyLicense -->
-<!-- // timeout: add_function — transformTimeout -->
-<!-- // auth: add_conditional — initAuth -->
-<!-- // grid: add_function — setGrid -->
+<!-- // split: add_function — transformSplit -->
+<!-- // style: add_function — syncStyle -->
