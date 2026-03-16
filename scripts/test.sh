@@ -1,5 +1,6 @@
 # checked: handler
 # // query: add_constant — initQuery
+# // ref: add_constant — loadRef
 
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
@@ -29,6 +30,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // retry: add_try_catch — updateRetry
 
 # // layout: add_class — parseLayout
 
@@ -100,6 +102,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // sub: add_function — buildSub
 
 
 
