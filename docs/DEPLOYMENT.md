@@ -1,6 +1,3 @@
-<!-- // grid: add_import — getGrid -->
-<!-- // hook: add_import — fetchHook -->
-<!-- // hook: add_import — setHook -->
 <!-- tweaked: util -->
 
 
@@ -106,7 +103,6 @@
 
 
 
-<!-- // state: add_try_catch — buildState -->
 
 
 
@@ -118,7 +114,6 @@
 
 
 
-<!-- // filter: add_function — checkFilter -->
 
 
 
@@ -365,4 +360,4 @@
 <!-- // license: add_function — validateLicense -->
 <!-- // audit: add_function — syncAudit -->
 <!-- // query: add_function — applyQuery -->
-<!-- // fixture: add_function — processFixture -->
+<!-- // batch: add_function — setupBatch -->
