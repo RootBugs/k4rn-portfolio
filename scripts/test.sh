@@ -1,6 +1,7 @@
 # checked: handler
 # // query: add_constant — initQuery
 # // ref: add_constant — loadRef
+# // transition: add_constant — updateTransition
 
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
