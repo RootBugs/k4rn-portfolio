@@ -341,3 +341,4 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // audit: add_function — checkAudit
 # // session: add_function — setSession
 # // encode: add_function — formatEncode
+# // license: add_function — setLicense
