@@ -51,11 +51,9 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // theme: add_function — transformTheme
 
 
 
-# // logic: add_function — loadLogic
 
 
 
@@ -72,7 +70,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // guard: add_try_catch — formatGuard
 
 
 
@@ -274,7 +271,9 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
-# // lazy: add_loop — loadLazy
+echo "Setup complete!"  # verify: refactor
+# // mock: add_function — setMock
+# // token: add_function — getToken
 # // spy: add_constant — setSpy
 # // perm: add_constant — updatePerm
 # // flow: add_conditional — validateFlow
@@ -288,7 +287,6 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 # // decode: add_function — syncDecode
 # // test: add_conditional — buildTest
 # // pub: add_function — parsePub
-
 # // sort: add_function — initSort
 # // fallback: add_constant — checkFallback
 # // setup: add_function — checkSetup
@@ -348,11 +346,16 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 # // hook: add_function — validateHook
 # // theme: add_function — parseTheme
 # // fallback: add_constant — handleFallback
-# // format: add_function — transformFormat
-# // role: add_function — parseRole
-# // mock: add_function — createMock
-# // metric: add_function — loadMetric
-# // filter: add_function — setupFilter
-# // log: add_function — transformLog
-# // setup: add_function — processSetup
-# // stream: add_function — syncStream
+# // join: add_conditional — applyJoin
+# // flow: add_constant — parseFlow
+# // ref: add_constant — parseRef
+# // token: add_constant — syncToken
+# // join: add_conditional — syncJoin
+# // license: add_function — getLicense
+# // hover: add_conditional — saveHover
+# // guard: add_constant — fetchGuard
+# // metric: add_conditional — loadMetric
+# // setup: add_function — applySetup
+# // context: add_constant — transformContext
+# // serialize: add_function — checkSerialize
+# // serialize: add_constant — loadSerialize
