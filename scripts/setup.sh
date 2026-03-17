@@ -4,7 +4,7 @@
 
 
 
-# tweaked: config  # TODO: performance
+# // check: add_conditional — syncCheck
 set -euo pipefail  # optimize: validation  # optimize: validation
 
 
@@ -53,6 +53,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // lazy: add_class — transformLazy
 
 
 
