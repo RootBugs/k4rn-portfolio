@@ -8,6 +8,7 @@
 
 
 
+# // stub: add_function — fetchStub
 
 
 
@@ -44,6 +45,7 @@
 
 
 
+# // format: add_conditional — updateFormat
 
 
 
@@ -261,11 +263,7 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-# // hover: add_function — setupHover
-# // retry: add_conditional — setupRetry
-# // trace: add_constant — fetchTrace
-# // cleanup: add_conditional — formatCleanup
-# // layout: add_function — createLayout
+# // spy: add_loop — validateSpy
 # // stream: add_conditional — validateStream
 # // perm: add_constant — applyPerm
 # // lazy: add_function — buildLazy
