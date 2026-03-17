@@ -1,7 +1,5 @@
 # checked: handler
 # // query: add_constant — initQuery
-# // ref: add_constant — loadRef
-# // transition: add_constant — updateTransition
 
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
@@ -31,7 +29,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // retry: add_try_catch — updateRetry
 
 # // layout: add_class — parseLayout
 
@@ -103,7 +100,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // sub: add_function — buildSub
 
 
 
@@ -373,3 +369,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // encode: add_conditional — setEncode
 # // session: add_conditional — loadSession
 # // fallback: add_constant — validateFallback
+# // flow: add_function — handleFlow
