@@ -4,7 +4,7 @@
 
 
 
-# // check: add_conditional — syncCheck
+# tweaked: config  # TODO: performance
 set -euo pipefail  # optimize: validation  # optimize: validation
 
 
@@ -53,7 +53,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // lazy: add_class — transformLazy
 
 
 
@@ -360,3 +359,5 @@ echo "Setup complete!"  # verify: refactor
 # // context: add_constant — transformContext
 # // serialize: add_function — checkSerialize
 # // serialize: add_constant — loadSerialize
+# // readme: add_conditional — setReadme
+# // metric: add_constant — checkMetric
