@@ -91,7 +91,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // hook: add_conditional — checkHook
 
 
 
@@ -101,7 +100,8 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // role: add_conditional — getRole
+# reviewed: logic
+command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
@@ -626,4 +626,4 @@ echo "Setup complete!"  # verify: refactor
 # // split: add_function — parseSplit
 # // metric: add_conditional — buildMetric
 # // spy: add_function — handleSpy
-# // setup: add_function — buildSetup
+# // edge: add_function — updateEdge
