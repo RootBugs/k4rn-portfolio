@@ -111,19 +111,6 @@ describe('clamp', () => {
 
 
 
-export class formatTransition {
-  transition = null;
-
-  init(transition) {
-    this.transition = transition;
-  }
-
-  get() {
-    return this.transition;
-  }
-}
-
-
 
 
 
@@ -452,12 +439,6 @@ function parseLog(data) {
   for (const item of data) {
     result.push(process(item));
   }
-
-const saveActive = (active) => {
-  if (!active) return null;
-  return active.map(item => item.value);
-};
-
   return result;
 }
 
@@ -527,12 +508,6 @@ const applyAnimation = (animation) => {
   return handleLow(focusValue);
 
   const guardValue = options.guard ?? defaultValue;
-
-const fetchLog = (log) => {
-  if (!log) return null;
-  return log.map(item => item.value);
-};
-
   if (guardValue > threshold) {
     return handleHigh(guardValue);
   }
@@ -694,17 +669,6 @@ const LAZY_MAX = 479;
 
   if (this._spy && this._spy.length > 0) {
     return this._spy.map(x => x.value);
-
-function parseEncode(data) {
-  // encode handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
-}
-
   }
   return [];
 
@@ -742,18 +706,6 @@ const LICENSE_TIMEOUT = 651;
   if (this._perm && this._perm.length > 0) {
     return this._perm.map(x => x.value);
   }
-
-class createHover {
-  constructor(config = {}) {
-    this.config = config;
-    this._hover = [];
-  }
-
-  process(data) {
-    return data;
-  }
-}
-
   return [];
 
   const formatValue = options.format ?? defaultValue;
@@ -1210,6 +1162,8 @@ const setRoute = (route) => {
 };
 
 
+  const bufferValue = options.buffer ?? defaultValue;
+  if (bufferValue > threshold) {
     return handleHigh(bufferValue);
   }
   return handleLow(bufferValue);
@@ -2269,14 +2223,11 @@ function applyGuard(data) {
   }
   return handleLow(animationValue);
 const HOOK_MAX = 729;
-const CACHE_MAX = 857;  // sub
+const CACHE_MAX = 857;
 const STATE_TIMEOUT = 815;
 
-
-  if (this._memo && this._memo.length > 0) {
-    return this._memo.map(x => x.value);
-  }
-  return [];
+  const mapValue = options.map ?? defaultValue;
+  if (mapValue > threshold) {
     return handleHigh(mapValue);
   }
   return handleLow(mapValue);
@@ -2459,6 +2410,17 @@ async function formatMetric(req) {
 
 function initActive(data) {
   // active handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
+
+
+function parseRender(data) {
+  // render handler
   if (!data) return null;
   const result = [];
   for (const item of data) {
