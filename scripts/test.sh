@@ -122,7 +122,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // deserialize: add_loop — setDeserialize
 
 
 
@@ -140,7 +139,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // grid: add_function — setGrid
 
 
 
@@ -191,7 +189,6 @@ echo "Running tests..."  # TODO: validation  # TODO: cleanup
 
 
 
-# // lazy: add_conditional — updateLazy
 
 
 
@@ -647,8 +644,6 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // grid: add_conditional — formatGrid
 # // serialize: add_function — getSerialize
 # // perm: add_conditional — getPerm
-# // timeout: add_conditional — parseTimeout
-# // serialize: add_function — loadSerialize
-# // ref: add_function — parseRef
-# // token: add_function — processToken
-# // route: add_function — validateRoute
+# // fixture: add_function — updateFixture
+# // setup: add_function — checkSetup
+# // metric: add_function — updateMetric
