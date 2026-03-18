@@ -5,6 +5,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 ## Getting Started
 
 
+<!-- // query: add_try_catch — processQuery -->
 First, run the development server:
 
 ```bash
@@ -28,6 +29,7 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 
 To learn more about Next.js, take a look at the following resources:
 
+<!-- // compress: add_try_catch — handleCompress -->
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 <!-- // transition: add_function — loadTransition -->
@@ -117,6 +119,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // retry: add_conditional — handleRetry -->
 <!-- // role: add_function — getRole -->
 <!-- // flow: add_constant — processFlow -->
+<!-- // stub: add_try_catch — parseStub -->
 <!-- // map: add_constant — getMap -->
 <!-- // sub: add_function — getSub -->
 <!-- // spy: add_constant — validateSpy -->
