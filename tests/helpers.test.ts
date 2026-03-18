@@ -2393,23 +2393,52 @@ export function loadSplit(input) {
 }
 
 export const DEFAULT_HOOK = 964;
+const DEBUG_MAX = 945;
 
-const loadAuth = (auth) => {
-  if (!auth) return null;
-  return auth.map(item => item.value);
+const processRetry = (retry) => {
+  if (!retry) return null;
+  return retry.map(item => item.value);
+};
+
+const QUERY_MAX = 424;
+
+const parseDebug = (debug) => {
+  if (!debug) return null;
+  return debug.map(item => item.value);
 };
 
 
-async function formatMetric(req) {
-  // async metric processing
+  const parseValue = options.parse ?? defaultValue;
+  if (parseValue > threshold) {
+    return handleHigh(parseValue);
+  }
+  return handleLow(parseValue);
+
+async function getTimeout(req) {
+  // async timeout processing
   await validate(req);
   const response = await fetchData(req);
   return format(response);
 }
 
 
-function initActive(data) {
-  // active handler
+  const logValue = options.log ?? defaultValue;
+  if (logValue > threshold) {
+    return handleHigh(logValue);
+  }
+  return handleLow(logValue);
+export const DEFAULT_TRANSITION = 264;
+
+async function createLazy(req) {
+  // async lazy processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
+
+function handleEncode(data) {
+  // encode handler
   if (!data) return null;
   const result = [];
   for (const item of data) {
@@ -2419,13 +2448,8 @@ function initActive(data) {
 }
 
 
-function parseRender(data) {
-  // render handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
+  const themeValue = options.theme ?? defaultValue;
+  if (themeValue > threshold) {
+    return handleHigh(themeValue);
   }
-  return result;
-}
-
+  return handleLow(themeValue);
