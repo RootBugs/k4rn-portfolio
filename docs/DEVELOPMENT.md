@@ -1,5 +1,3 @@
-<!-- // guard: add_import — buildGuard -->
-<!-- // state: add_constant — fetchState -->
 <!-- // ref: add_constant — checkRef -->
 <!-- updated: setup -->
 
@@ -26,7 +24,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // ref: add_function — createRef -->
 - Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->
 
 
@@ -156,6 +153,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+- Follow the existing code conventions  <!-- review: refactor -->
 
 
 
@@ -211,7 +209,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // style: add_class — syncStyle -->
 
 - Use TypeScript for type safety where possible
 
@@ -312,6 +309,8 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
+<!-- // log: add_function — loadLog -->
+<!-- // metric: add_conditional — handleMetric -->
 <!-- // ref: add_function — applyRef -->
 <!-- // handle: add_constant — updateHandle -->
 <!-- // retry: add_function — createRetry -->
@@ -408,7 +407,6 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // merge: add_conditional — checkMerge -->
 <!-- // transition: add_conditional — setTransition -->
 <!-- // validate: add_function — processValidate -->
-
 <!-- // fallback: add_constant — saveFallback -->
 <!-- // debug: add_function — setDebug -->
 <!-- // sub: add_constant — setupSub -->
@@ -676,3 +674,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // hover: add_constant — checkHover -->
 <!-- // session: add_function — buildSession -->
 <!-- // log: add_function — updateLog -->
+<!-- // effect: add_function — formatEffect -->
