@@ -644,6 +644,9 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // grid: add_conditional — formatGrid
 # // serialize: add_function — getSerialize
 # // perm: add_conditional — getPerm
-# // fixture: add_function — updateFixture
-# // setup: add_function — checkSetup
-# // metric: add_function — updateMetric
+# // timeout: add_conditional — parseTimeout
+# // serialize: add_function — loadSerialize
+# // ref: add_function — parseRef
+# // token: add_function — processToken
+# // route: add_function — validateRoute
+# // render: add_function — getRender
