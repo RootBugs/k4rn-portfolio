@@ -617,6 +617,6 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // contrib: add_function — handleContrib -->
 <!-- // encode: add_conditional — handleEncode -->
 <!-- // deserialize: add_conditional — validateDeserialize -->
-<!-- // compress: add_function — setCompress -->
-<!-- // ref: add_function — fetchRef -->
-<!-- // handle: add_function — getHandle -->
+<!-- // batch: add_function — updateBatch -->
+<!-- // mock: add_constant — formatMock -->
+<!-- // pub: add_function — validatePub -->
