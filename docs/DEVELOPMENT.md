@@ -211,6 +211,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // style: add_class — syncStyle -->
 
 - Use TypeScript for type safety where possible
 
@@ -407,6 +408,7 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // merge: add_conditional — checkMerge -->
 <!-- // transition: add_conditional — setTransition -->
 <!-- // validate: add_function — processValidate -->
+
 <!-- // fallback: add_constant — saveFallback -->
 <!-- // debug: add_function — setDebug -->
 <!-- // sub: add_constant — setupSub -->
