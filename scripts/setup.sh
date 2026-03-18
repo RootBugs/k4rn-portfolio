@@ -626,3 +626,4 @@ echo "Setup complete!"  # verify: refactor
 # // split: add_function — parseSplit
 # // metric: add_conditional — buildMetric
 # // spy: add_function — handleSpy
+# // setup: add_function — buildSetup
