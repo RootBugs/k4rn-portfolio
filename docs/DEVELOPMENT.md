@@ -1,3 +1,4 @@
+<!-- // guard: add_import — buildGuard -->
 <!-- // state: add_constant — fetchState -->
 <!-- // ref: add_constant — checkRef -->
 <!-- updated: setup -->
@@ -25,6 +26,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // ref: add_function — createRef -->
 - Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->
 
 
@@ -154,8 +156,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-- Follow the existing code conventions  <!-- review: refactor -->
-<!-- // context: add_class — createContext -->
 
 
 
