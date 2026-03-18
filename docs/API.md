@@ -24,6 +24,7 @@
 
 
 
+<!-- // hook: add_class — checkHook -->
 
 
 
@@ -38,6 +39,7 @@
 
 
 
+<!-- // filter: add_function — updateFilter -->
 
 
 
@@ -138,6 +140,7 @@
 
 
 
+<!-- // sort: add_function — parseSort -->
 
 
 
