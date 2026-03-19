@@ -87,6 +87,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // changelog: add_conditional — fetchChangelog -->
 
 
 
@@ -108,6 +109,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 <!-- // animation: add_function — parseAnimation -->
 
+<!-- // compress: add_loop — transformCompress -->
 
 
 
