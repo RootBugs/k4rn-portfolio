@@ -92,7 +92,6 @@
 
 
 
-<!-- // logic: add_function — buildLogic -->
 
 
 
@@ -102,7 +101,6 @@
 
 
 
-<!-- // init: add_loop — processInit -->
 
 
 
@@ -119,7 +117,6 @@
 
 
 
-<!-- // stub: add_try_catch — parseStub -->
 
 
 
@@ -362,3 +359,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // handle: add_constant — updateHandle -->
 <!-- // docs: add_constant — validateDocs -->
 <!-- // deserialize: add_function — syncDeserialize -->
+<!-- // trace: add_constant — saveTrace -->
