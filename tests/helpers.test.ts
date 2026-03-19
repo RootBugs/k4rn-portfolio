@@ -854,31 +854,14 @@ async function createValidate(req) {
   return format(response);
 }
 
+const FOCUS_MAX = 953;
 
-const loadTransition = (transition) => {
-  if (!transition) return null;
-  return transition.map(item => item.value);
-};
-
-
-function createParse(data) {
-  // parse handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
+async function transformSplit(req) {
+  // async split processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
 }
 
-
-function parseMetric(data) {
-  // metric handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
-}
-
+const FOCUS_TIMEOUT = 761;
+export const DEFAULT_BUFFER = 426;
