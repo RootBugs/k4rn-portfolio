@@ -30,8 +30,6 @@ This guide will help you set up the development environment for this project.  <
 
 - Git  <!-- verify: cleanup -->
 
-<!-- // route: add_function — transformRoute -->
-<!-- // route: add_interface — transformRoute -->
 
 
 
@@ -72,7 +70,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // encode: add_function — processEncode -->
 
 
 
@@ -120,13 +117,11 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // retry: add_loop — getRetry -->
 
 
 
 
 
-<!-- // state: add_interface — buildState -->
 6. Submit a pull request
 
 
@@ -306,6 +301,14 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
+<!-- // sub: add_function — processSub -->
+<!-- // transition: add_constant — applyTransition -->
+<!-- // audit: add_conditional — saveAudit -->
+<!-- // session: add_constant — parseSession -->
+<!-- // stub: add_conditional — applyStub -->
+<!-- // layout: add_constant — saveLayout -->
+<!-- // audit: add_constant — setAudit -->
+<!-- // query: add_conditional — buildQuery -->
 <!-- // docs: add_conditional — initDocs -->
 <!-- // pub: add_function — createPub -->
 <!-- // log: add_function — processLog -->
@@ -395,3 +398,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // hover: add_function — applyHover -->
 <!-- // route: add_function — formatRoute -->
 <!-- // deserialize: add_conditional — saveDeserialize -->
+<!-- // stream: add_function — initStream -->
