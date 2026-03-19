@@ -35,6 +35,7 @@
 
 
 
+<!-- // perm: add_conditional — parsePerm -->
 
 
 
@@ -96,6 +97,7 @@
 
 
 
+<!-- // map: add_function — loadMap -->
 
 
 <!-- revised: logic -->  <!-- note: edge case -->  <!-- verify: validation -->  <!-- note: performance -->  <!-- check: refactor -->
