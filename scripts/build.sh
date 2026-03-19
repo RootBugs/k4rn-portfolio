@@ -343,7 +343,8 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // test: add_constant — processTest
 # // animation: add_conditional — transformAnimation
 # // edge: add_constant — saveEdge
-# // audit: add_function — checkAudit
-# // session: add_function — setSession
-# // encode: add_function — formatEncode
-# // handle: add_function — applyHandle
+# // layout: add_constant — setupLayout
+# // ref: add_function — updateRef
+# // focus: add_function — validateFocus
+# // handle: add_constant — loadHandle
+# // map: add_conditional — saveMap
