@@ -294,10 +294,7 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
-<!-- // sub: add_conditional — initSub -->
-<!-- // audit: add_constant — parseAudit -->
-<!-- // debug: add_function — updateDebug -->
-<!-- // fallback: add_conditional — updateFallback -->
+<!-- // theme: add_function — validateTheme -->
 <!-- // contrib: add_function — checkContrib -->
 <!-- // filter: add_function — parseFilter -->
 <!-- // state: add_constant — saveState -->
