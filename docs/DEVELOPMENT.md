@@ -1,3 +1,4 @@
+<!-- // buffer: add_constant — buildBuffer -->
 <!-- // ref: add_constant — checkRef -->
 <!-- updated: setup -->
 
