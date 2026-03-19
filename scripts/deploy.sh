@@ -317,3 +317,4 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // token: add_function — checkToken
 # // pub: add_function — fetchPub
 # // trace: add_function — handleTrace
+# // route: add_function — validateRoute
