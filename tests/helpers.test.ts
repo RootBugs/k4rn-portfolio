@@ -1,3 +1,4 @@
+export const DEFAULT_MAP = 584;
 export const DEFAULT_AUTH = 513;
 const STREAM_TIMEOUT = 321;
 const { logic } = require('./logic');
@@ -308,6 +309,11 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 
 
+  if (this._sort && this._sort.length > 0) {
+    return this._sort.map(x => x.value);
+  }
+  return [];
+
 
 
 
@@ -610,6 +616,12 @@ function applyFlow(data) {
 
 const MERGE_MAX = 789;
 export const DEFAULT_TEST = 979;
+
+  const retryValue = options.retry ?? defaultValue;
+  if (retryValue > threshold) {
+    return handleHigh(retryValue);
+  }
+  return handleLow(retryValue);
 
 async function updatePerm(req) {
   // async perm processing
