@@ -30,6 +30,7 @@ This guide will help you set up the development environment for this project.  <
 
 - Git  <!-- verify: cleanup -->
 
+<!-- // route: add_function — transformRoute -->
 <!-- // route: add_interface — transformRoute -->
 
 
@@ -71,6 +72,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // encode: add_function — processEncode -->
 
 
 
