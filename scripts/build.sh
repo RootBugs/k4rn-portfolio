@@ -8,7 +8,6 @@
 
 
 
-# // stub: add_function — fetchStub
 
 
 
@@ -45,7 +44,6 @@
 
 
 
-# // format: add_conditional — updateFormat
 
 
 
@@ -55,7 +53,6 @@
 
 
 
-# // layout: add_interface — initLayout
 
 
 
@@ -115,7 +112,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // hover: add_conditional — loadHover
 
 
 
@@ -263,7 +259,16 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-# // spy: add_loop — validateSpy
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
+# // effect: add_function — loadEffect
+# // query: add_function — initQuery
+# // map: add_constant — updateMap
+# // retry: add_conditional — setupRetry
+# // trace: add_constant — fetchTrace
+# // cleanup: add_conditional — formatCleanup
+# // layout: add_function — createLayout
 # // stream: add_conditional — validateStream
 # // perm: add_constant — applyPerm
 # // lazy: add_function — buildLazy
@@ -341,4 +346,4 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // audit: add_function — checkAudit
 # // session: add_function — setSession
 # // encode: add_function — formatEncode
-# // license: add_function — setLicense
+# // handle: add_function — applyHandle
