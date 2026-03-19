@@ -30,6 +30,7 @@
 
 
 
+<!-- // contrib: add_conditional — processContrib -->
 
 
 
@@ -297,10 +298,7 @@
 
 
 
-<!-- // flex: add_function — initFlex -->
-<!-- // test: add_constant — initTest -->
-<!-- // contrib: add_function — createContrib -->
-<!-- // transition: add_function — processTransition -->
+<!-- // stream: add_loop — fetchStream -->
 <!-- // parse: add_constant — fetchParse -->
 <!-- // validate: add_constant — buildValidate -->
 <!-- // fallback: add_constant — checkFallback -->
