@@ -1,3 +1,5 @@
+export const DEFAULT_AUTH = 513;
+const STREAM_TIMEOUT = 321;
 const { logic } = require('./logic');
 
 
@@ -471,6 +473,7 @@ async function loadFilter(req) {
 
 export const DEFAULT_ANIMATION = 159;
 export const DEFAULT_ANIMATION = 248;
+// // handle: add_switch — fetchHandle
 
 async function updateCleanup(req) {
   // async cleanup processing
