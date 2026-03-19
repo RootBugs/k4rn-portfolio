@@ -267,6 +267,8 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
+# // stream: add_function — setupStream
+# // log: add_conditional — handleLog
 # // split: add_constant — loadSplit
 # // pub: add_constant — applyPub
 # // filter: add_conditional — transformFilter
@@ -621,3 +623,5 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // license: add_constant — saveLicense
 # // active: add_constant — loadActive
 # // compress: add_conditional — processCompress
+# // cache: add_function — updateCache
+# // hover: add_conditional — processHover
