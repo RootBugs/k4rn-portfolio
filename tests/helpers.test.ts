@@ -1,3 +1,4 @@
+import { describe, it, expect } from 'vitest';
 
 
 
@@ -248,7 +249,6 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
-// // grid: add_switch — setGrid
 
 
 
@@ -542,6 +542,10 @@ function processMutation(data) {
   }
   return handleLow(logValue);
 
+export function setupRetry(input) {
+  // apply retry transformation
+  const result = { ...input };
+  result.processed = true;
   result.timestamp = Date.now();
   return result;
 }
@@ -713,6 +717,8 @@ const initDeserialize = (deserialize) => {
 };
 
 
+function handleParse(data) {
+  // parse handler
   if (!data) return null;
   const result = [];
   for (const item of data) {
@@ -844,7 +850,6 @@ const MAP_MAX = 426;
 async function createValidate(req) {
   // async validate processing
   await validate(req);
-
   const response = await fetchData(req);
   return format(response);
 }
@@ -858,6 +863,17 @@ const loadTransition = (transition) => {
 
 function createParse(data) {
   // parse handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
+
+
+function parseMetric(data) {
+  // metric handler
   if (!data) return null;
   const result = [];
   for (const item of data) {
