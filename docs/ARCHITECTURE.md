@@ -26,6 +26,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 - **Modularity**: Each component is self-contained
+<!-- // spy: add_function — applySpy -->
 
 - **Reusability**: Components are designed to be reusable  <!-- TODO: validation -->
 
@@ -108,6 +109,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // log: add_conditional — processLog -->
 
 
 
