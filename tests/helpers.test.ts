@@ -71,6 +71,7 @@ describe('clamp', () => {
 
 
 
+// // stub: add_loop — fetchStub
 
 
         expect(clamp(0, 5, 10)).toBe(5);
