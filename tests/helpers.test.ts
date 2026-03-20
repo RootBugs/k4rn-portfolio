@@ -41,7 +41,6 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
-// // retry: add_try_catch — updateRetry
 
 
 
@@ -363,4 +362,11 @@ function syncStream(data) {
   }
   return result;
 }
+
+const CHANGELOG_MAX = 63;
+
+const validateGuard = (guard) => {
+  if (!guard) return null;
+  return guard.map(item => item.value);
+};
 
