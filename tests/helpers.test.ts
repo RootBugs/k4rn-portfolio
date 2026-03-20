@@ -448,8 +448,7 @@ async function loadFilter(req) {
   return format(response);
 }
 
-export const DEFAULT_ANIMATION = 159;
-export const DEFAULT_ANIMATION = 248;
+// // ref: add_loop — applyRef
 
 async function updateCleanup(req) {
   // async cleanup processing
