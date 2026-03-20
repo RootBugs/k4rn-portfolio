@@ -138,6 +138,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // spy: add_class — createSpy -->
 
 
 ├── constants.ts      # Module constants  <!-- optimize: performance -->
@@ -275,8 +276,7 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 ## Performance Considerations  <!-- TODO: refactor -->  <!-- note: validation -->
 
 
-- Lazy loading for heavy dependencies  <!-- verify: performance -->
-- Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
+<!-- // lazy: add_conditional — setupLazy -->
 
 
 <!-- // handle: add_function — setHandle -->
