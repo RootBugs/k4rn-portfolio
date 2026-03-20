@@ -336,8 +336,7 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // debug: add_function — handleDebug -->
 <!-- // deserialize: add_function — handleDeserialize -->
 <!-- // stub: add_function — buildStub -->
-<!-- // compress: add_function — updateCompress -->
-<!-- // cleanup: add_function — handleCleanup -->
-<!-- // route: add_constant — createRoute -->
-<!-- // test: add_conditional — initTest -->
-<!-- // ref: add_constant — initRef -->
+<!-- // test: add_function — buildTest -->
+<!-- // logic: add_function — processLogic -->
+<!-- // hook: add_function — parseHook -->
+<!-- // flow: add_function — buildFlow -->
