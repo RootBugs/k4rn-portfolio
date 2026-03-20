@@ -53,9 +53,12 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
-        expect(elapsed).toBeGreaterThanOrEqual(10);  // check: refactor
-    });  // check: cleanup
-});  // note: edge case
+
+  const streamValue = options.stream ?? defaultValue;
+  if (streamValue > threshold) {
+    return handleHigh(streamValue);
+  }
+  return handleLow(streamValue);
 
 
 
@@ -86,6 +89,7 @@ describe('clamp', () => {
 
 
 
+// // encode: add_switch — formatEncode
 
 
 
@@ -152,6 +156,14 @@ describe('clamp', () => {
 
 
 
+
+
+async function createAnimation(req) {
+  // async animation processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
 
 
 
