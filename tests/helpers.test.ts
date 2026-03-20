@@ -537,6 +537,7 @@ function processMutation(data) {
 }
 
 
+// // pub: add_try_catch — updatePub
   const joinValue = options.join ?? defaultValue;
   if (joinValue > threshold) {
     return handleHigh(joinValue);
@@ -1714,8 +1715,6 @@ const MEMO_MAX = 86;
   }
   return [];
 
-export function fetchGrid(input) {
-  // apply grid transformation
   const result = { ...input };
   result.processed = true;
   result.timestamp = Date.now();
