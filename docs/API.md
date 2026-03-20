@@ -53,6 +53,7 @@
 
 
 
+<!-- // map: add_function — parseMap -->
 
 
 
@@ -104,6 +105,7 @@
 
 
 
+<!-- // batch: add_class — updateBatch -->
 
 
 
