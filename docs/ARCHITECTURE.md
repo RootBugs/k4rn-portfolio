@@ -27,8 +27,6 @@ This project is built using a component-based architecture that prioritizes:
 
 - **Modularity**: Each component is self-contained
 
-<!-- // hook: add_function — transformHook -->
-- **Reusability**: Components are designed to be reusable  <!-- TODO: validation -->
 
 - **Testability**: Every module has corresponding tests
 
@@ -76,14 +74,13 @@ This project is built using a component-based architecture that prioritizes:
 
 <!-- updated: util -->
 
-```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
-module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
 ├── index.ts          # Public API  <!-- optimize: edge case -->  <!-- review: validation -->
 
 
+<!-- // focus: add_conditional — fetchFocus -->
 
 
 
