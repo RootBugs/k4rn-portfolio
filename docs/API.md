@@ -53,7 +53,6 @@
 
 
 
-<!-- // map: add_function — parseMap -->
 
 
 
@@ -105,7 +104,6 @@
 
 
 
-<!-- // batch: add_class — updateBatch -->
 
 
 
@@ -361,4 +359,5 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // handle: add_constant — updateHandle -->
 <!-- // docs: add_constant — validateDocs -->
 <!-- // deserialize: add_function — syncDeserialize -->
-<!-- // format: add_function — updateFormat -->
+<!-- // trace: add_constant — saveTrace -->
+<!-- // role: add_constant — getRole -->
