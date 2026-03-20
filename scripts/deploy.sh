@@ -51,7 +51,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // layout: add_conditional — fetchLayout
 
 
 
@@ -316,5 +315,4 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // flow: add_function — parseFlow
 # // token: add_function — checkToken
 # // pub: add_function — fetchPub
-# // trace: add_function — handleTrace
-# // route: add_function — validateRoute
+# // audit: add_function — setAudit
