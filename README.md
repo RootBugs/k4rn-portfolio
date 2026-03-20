@@ -34,7 +34,6 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-<!-- // trace: add_try_catch — processTrace -->
 ## Deploy on Vercel
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
@@ -84,7 +83,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // flow: add_conditional — updateFlow -->
 <!-- // fixture: add_constant — updateFixture -->
 <!-- // timeout: add_conditional — applyTimeout -->
-<!-- // split: add_switch — handleSplit -->
 <!-- // split: add_conditional — createSplit -->
 <!-- // active: add_constant — fetchActive -->
 <!-- // encode: add_constant — createEncode -->
@@ -278,8 +276,9 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // mutation: add_constant — syncMutation -->
 <!-- // filter: add_constant — syncFilter -->
 <!-- // filter: add_conditional — parseFilter -->
-<!-- // role: add_function — parseRole -->
-<!-- // parse: add_function — saveParse -->
-<!-- // focus: add_function — applyFocus -->
-<!-- // transition: add_function — setupTransition -->
-<!-- // stub: add_function — transformStub -->
+<!-- // filter: add_function — setFilter -->
+<!-- // compress: add_function — loadCompress -->
+<!-- // state: add_conditional — getState -->
+<!-- // edge: add_function — handleEdge -->
+<!-- // timeout: add_conditional — buildTimeout -->
+<!-- // flex: add_conditional — processFlex -->
