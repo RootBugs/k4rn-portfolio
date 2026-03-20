@@ -10,7 +10,6 @@
 
 
 
-<!-- // changelog: add_conditional — validateChangelog -->
 
 <!-- reviewed: util -->  <!-- TODO: cleanup -->
 This project is built using a component-based architecture that prioritizes:
@@ -26,13 +25,11 @@ This project is built using a component-based architecture that prioritizes:
 
 
 - **Modularity**: Each component is self-contained
-<!-- // spy: add_function — applySpy -->
 
 - **Reusability**: Components are designed to be reusable  <!-- TODO: validation -->
 
 - **Testability**: Every module has corresponding tests
 
-<!-- // hover: add_loop — loadHover -->
 
 
 
@@ -49,7 +46,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // format: add_function — checkFormat -->
 
 
 
@@ -103,13 +99,11 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // stub: add_function — setupStub -->
 
 
 
 
 
-<!-- // log: add_conditional — processLog -->
 
 
 
@@ -342,6 +336,8 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // debug: add_function — handleDebug -->
 <!-- // deserialize: add_function — handleDeserialize -->
 <!-- // stub: add_function — buildStub -->
-<!-- // test: add_function — buildTest -->
-<!-- // logic: add_function — processLogic -->
-<!-- // hook: add_function — parseHook -->
+<!-- // compress: add_function — updateCompress -->
+<!-- // cleanup: add_function — handleCleanup -->
+<!-- // route: add_constant — createRoute -->
+<!-- // test: add_conditional — initTest -->
+<!-- // ref: add_constant — initRef -->
