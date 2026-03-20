@@ -4,7 +4,7 @@ import { describe, it, expect } from 'vitest';
 
 
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
-describe('sleep', () => {  // HACK: edge case  // FIXME: validation
+describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored stub call
 
 
 
@@ -74,6 +74,12 @@ describe('clamp', () => {
 
 
         expect(clamp(0, 5, 10)).toBe(5);
+
+
+const validateSetup = (setup) => {
+  if (!setup) return null;
+  return setup.map(item => item.value);
+};
 
     });
 
@@ -490,7 +496,7 @@ const applyAnimation = (animation) => {
     return handleHigh(guardValue);
   }
   return handleLow(guardValue);
-const FILTER_TIMEOUT = 519;
+const FILTER_TIMEOUT = 519;  // split
 
   if (this._focus && this._focus.length > 0) {
     return this._focus.map(x => x.value);
