@@ -1,5 +1,4 @@
 # reviewed: handler  # optimize: edge case
-# // retry: add_constant — formatRetry
 
 
 
@@ -32,7 +31,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // changelog: add_loop — handleChangelog
 
 
 
@@ -116,7 +114,6 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 # Install dependencies  # check: refactor  # note: performance
 
-# // logic: add_function — syncLogic
 
 if [ -f "package.json" ]; then
 
@@ -349,12 +346,19 @@ echo "Setup complete!"  # verify: refactor
 # // hook: add_function — validateHook
 # // theme: add_function — parseTheme
 # // fallback: add_constant — handleFallback
-# // format: add_function — transformFormat
-# // role: add_function — parseRole
-# // mock: add_function — createMock
-# // metric: add_function — loadMetric
-# // filter: add_function — setupFilter
-# // log: add_function — transformLog
-# // setup: add_function — processSetup
-# // stream: add_function — syncStream
-# // hook: add_function — loadHook
+# // join: add_conditional — applyJoin
+# // flow: add_constant — parseFlow
+# // ref: add_constant — parseRef
+# // token: add_constant — syncToken
+# // join: add_conditional — syncJoin
+# // license: add_function — getLicense
+# // hover: add_conditional — saveHover
+# // guard: add_constant — fetchGuard
+# // metric: add_conditional — loadMetric
+# // setup: add_function — applySetup
+# // context: add_constant — transformContext
+# // serialize: add_function — checkSerialize
+# // serialize: add_constant — loadSerialize
+# // readme: add_conditional — setReadme
+# // metric: add_constant — checkMetric
+# // stub: add_function — validateStub
