@@ -54,14 +54,12 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // active: add_loop — createActive
 
 
 
 
 
 
-# // filter: add_conditional — applyFilter
 
 
 
@@ -76,7 +74,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // stream: add_loop — formatStream
 
 
 
@@ -372,4 +369,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // encode: add_conditional — setEncode
 # // session: add_conditional — loadSession
 # // fallback: add_constant — validateFallback
-# // flow: add_function — handleFlow
+# // readme: add_function — checkReadme
