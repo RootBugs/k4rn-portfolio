@@ -11,6 +11,7 @@
 
 
 
+# // token: add_conditional — saveToken
 
 
 
@@ -256,14 +257,6 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // cache: add_conditional — checkCache
-# // lazy: add_conditional — processLazy
-# // deserialize: add_conditional — setupDeserialize
-# // logic: add_conditional — formatLogic
-# // focus: add_constant — processFocus
-# // log: add_conditional — handleLog
-# // split: add_constant — loadSplit
-# // pub: add_constant — applyPub
 # // filter: add_conditional — transformFilter
 # // parse: add_function — syncParse
 # // deserialize: add_constant — loadDeserialize
