@@ -1,10 +1,6 @@
-# // stub: add_import — getStub
 # // animation: add_import — createAnimation
 # checked: handler
 # // query: add_constant — initQuery
-# // perm: add_constant — syncPerm
-# // fallback: add_constant — createFallback
-# // contrib: add_constant — saveContrib
 
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
@@ -63,7 +59,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // cache: add_conditional — loadCache
 
 
 
@@ -111,7 +106,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // transform: add_function — loadTransform
 
 
 
@@ -144,7 +138,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // spy: add_switch — loadSpy
 
 
 
@@ -157,7 +150,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // stub: add_function — validateStub
 
 
 
@@ -306,6 +298,10 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 
 
+# // session: add_constant — checkSession
+# // stream: add_function — getStream
+# // format: add_conditional — updateFormat
+# // pub: add_conditional — applyPub
 # // spy: add_function — saveSpy
 # // compress: add_conditional — setupCompress
 # // map: add_function — applyMap
@@ -532,10 +528,14 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // logic: add_constant — setLogic
 # // retry: add_constant — saveRetry
 # // contrib: add_conditional — parseContrib
-# // format: add_function — checkFormat
-# // contrib: add_function — parseContrib
-# // validate: add_function — handleValidate
-# // fallback: add_function — transformFallback
-# // parse: add_function — saveParse
-# // debug: add_function — setupDebug
-# // mutation: add_function — updateMutation
+# // retry: add_function — syncRetry
+# // query: add_function — saveQuery
+# // animation: add_function — initAnimation
+# // render: add_function — getRender
+# // compress: add_conditional — processCompress
+# // serialize: add_function — buildSerialize
+# // theme: add_function — parseTheme
+# // join: add_function — saveJoin
+# // theme: add_conditional — syncTheme
+# // stub: add_constant — createStub
+# // style: add_constant — createStyle
