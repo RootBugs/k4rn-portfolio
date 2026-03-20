@@ -595,4 +595,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // hook: add_conditional — getHook -->
 <!-- // readme: add_function — updateReadme -->
 <!-- // docs: add_function — handleDocs -->
-<!-- // token: add_function — saveToken -->
+<!-- // pub: add_constant — createPub -->
