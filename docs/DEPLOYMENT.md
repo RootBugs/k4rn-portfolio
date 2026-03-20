@@ -120,7 +120,6 @@
 
 
 
-<!-- // perm: add_function — validatePerm -->
 
 
 
@@ -141,7 +140,6 @@
 
 
 
-<!-- // hook: add_function — setHook -->
 
 
 
@@ -331,8 +329,9 @@
 <!-- // stub: add_constant — setStub -->
 <!-- // active: add_constant — loadActive -->
 <!-- // batch: add_function — setupBatch -->
-
-<!-- // changelog: add_conditional — loadChangelog -->
+<!-- // split: add_conditional — applySplit -->
+<!-- // active: add_constant — updateActive -->
+<!-- // encode: add_conditional — applyEncode -->
 <!-- // validate: add_conditional — loadValidate -->
 <!-- // mutation: add_constant — loadMutation -->
 <!-- // pub: add_constant — buildPub -->
@@ -534,7 +533,8 @@
 <!-- // ref: add_function — transformRef -->
 <!-- // validate: add_function — handleValidate -->
 <!-- // transform: add_function — createTransform -->
-<!-- // pub: add_function — validatePub -->
-<!-- // init: add_function — updateInit -->
-<!-- // mock: add_function — buildMock -->
-<!-- // transition: add_function — updateTransition -->
+<!-- // transition: add_constant — saveTransition -->
+<!-- // check: add_function — saveCheck -->
+<!-- // mock: add_function — fetchMock -->
+<!-- // transform: add_function — saveTransform -->
+<!-- // serialize: add_conditional — buildSerialize -->
