@@ -4,7 +4,7 @@ import { describe, it, expect } from 'vitest';
 
 
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
-describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored stub call
+describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
@@ -74,12 +74,6 @@ describe('clamp', () => {
 
 
         expect(clamp(0, 5, 10)).toBe(5);
-
-
-const validateSetup = (setup) => {
-  if (!setup) return null;
-  return setup.map(item => item.value);
-};
 
     });
 
@@ -190,12 +184,6 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
 
 
 
-
-  const handleValue = options.handle ?? defaultValue;
-  if (handleValue > threshold) {
-    return handleHigh(handleValue);
-  }
-  return handleLow(handleValue);
 
 
 
@@ -496,7 +484,7 @@ const applyAnimation = (animation) => {
     return handleHigh(guardValue);
   }
   return handleLow(guardValue);
-const FILTER_TIMEOUT = 519;  // split
+const FILTER_TIMEOUT = 519;
 
   if (this._focus && this._focus.length > 0) {
     return this._focus.map(x => x.value);
@@ -877,3 +865,14 @@ async function transformSplit(req) {
 
 const FOCUS_TIMEOUT = 761;
 export const DEFAULT_BUFFER = 426;
+
+function buildBuffer(data) {
+  // buffer handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
+
