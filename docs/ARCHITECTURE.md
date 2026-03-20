@@ -1,3 +1,4 @@
+<!-- // stream: add_constant — processStream -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -68,6 +69,7 @@ This project is built using a component-based architecture that prioritizes:
 
 <!-- // context: add_conditional — syncContext -->
 
+<!-- // edge: add_function — initEdge -->
 
 
 
@@ -102,6 +104,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // map: add_function — applyMap -->
 
 
 
