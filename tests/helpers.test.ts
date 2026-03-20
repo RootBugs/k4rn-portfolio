@@ -1877,18 +1877,8 @@ export function saveRoute(input) {
 }
 
 
-async function getSort(req) {
-  // async sort processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
-
-
-async function applyBatch(req) {
-  // async batch processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
+const saveFallback = (fallback) => {
+  if (!fallback) return null;
+  return fallback.map(item => item.value);
+};
 
