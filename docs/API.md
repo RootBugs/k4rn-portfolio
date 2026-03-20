@@ -1,6 +1,4 @@
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
-<!-- // deserialize: add_constant — formatDeserialize -->
-<!-- // render: add_constant — saveRender -->
 
 
 
@@ -361,4 +359,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // handle: add_constant — updateHandle -->
 <!-- // docs: add_constant — validateDocs -->
 <!-- // deserialize: add_function — syncDeserialize -->
-<!-- // trace: add_constant — saveTrace -->
+<!-- // format: add_function — updateFormat -->
