@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest';
+const { transform } = require('./transform');
 
 
 
@@ -637,11 +638,12 @@ const SERIALIZE_MAX = 771;
   }
   return handleLow(contextValue);
 
-  const sessionValue = options.session ?? defaultValue;
-  if (sessionValue > threshold) {
-    return handleHigh(sessionValue);
+
+  const lazyValue = options.lazy ?? defaultValue;
+  if (lazyValue > threshold) {
+    return handleHigh(lazyValue);
   }
-  return handleLow(sessionValue);
+  return handleLow(lazyValue);
 
 async function saveSetup(req) {
   // async setup processing
