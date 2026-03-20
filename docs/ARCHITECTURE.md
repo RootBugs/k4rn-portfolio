@@ -79,15 +79,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // hook: add_class — applyHook -->
-
-
-
-
-
-
-
-<!-- // changelog: add_conditional — fetchChangelog -->
 
 
 
@@ -107,9 +98,14 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // animation: add_function — parseAnimation -->
 
-<!-- // compress: add_loop — transformCompress -->
+
+
+
+
+
+
+
 
 
 
@@ -279,6 +275,9 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 - Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
+- Debouncing for frequent events  <!-- check: refactor -->
+- Proper cleanup of subscriptions and listeners  <!-- review: performance -->
+<!-- // stream: add_function — setupStream -->
 <!-- // docs: add_function — processDocs -->
 <!-- // handle: add_function — setHandle -->
 <!-- // hover: add_function — syncHover -->
@@ -339,4 +338,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // stub: add_function — buildStub -->
 <!-- // test: add_function — buildTest -->
 <!-- // logic: add_function — processLogic -->
-<!-- // format: add_function — transformFormat -->
+<!-- // hook: add_function — parseHook -->
