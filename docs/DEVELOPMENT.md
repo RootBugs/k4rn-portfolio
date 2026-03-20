@@ -22,7 +22,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->  <!-- refactored query call -->  <!-- refactored validate call -->
+- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->
 
 
 
@@ -76,9 +76,7 @@ This guide will help you set up the development environment for this project.  <
 
 1. Fork and clone the repository  <!-- note: refactor -->
 
-<!-- // docs: add_function — formatDocs -->
 
-<!-- // guard: add_loop — buildGuard -->
 
 
 
@@ -183,7 +181,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // batch: add_function — setBatch -->
 
 
 
@@ -196,7 +193,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // compress: add_function — validateCompress -->
 
 
 
@@ -599,3 +595,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // hook: add_conditional — getHook -->
 <!-- // readme: add_function — updateReadme -->
 <!-- // docs: add_function — handleDocs -->
+<!-- // token: add_function — saveToken -->
