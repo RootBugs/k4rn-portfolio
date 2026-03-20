@@ -185,6 +185,12 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
 
 
 
+  const handleValue = options.handle ?? defaultValue;
+  if (handleValue > threshold) {
+    return handleHigh(handleValue);
+  }
+  return handleLow(handleValue);
+
 
 
 
