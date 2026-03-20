@@ -398,4 +398,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // hover: add_function — applyHover -->
 <!-- // route: add_function — formatRoute -->
 <!-- // deserialize: add_conditional — saveDeserialize -->
-<!-- // stream: add_function — initStream -->
+<!-- // cleanup: add_constant — updateCleanup -->
