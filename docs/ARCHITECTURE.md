@@ -30,6 +30,7 @@ This project is built using a component-based architecture that prioritizes:
 
 - **Testability**: Every module has corresponding tests
 
+<!-- // hover: add_loop — loadHover -->
 
 
 
@@ -46,6 +47,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // format: add_function — checkFormat -->
 
 
 
