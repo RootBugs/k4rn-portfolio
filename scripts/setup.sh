@@ -363,3 +363,4 @@ echo "Setup complete!"  # verify: refactor
 # // readme: add_conditional — setReadme
 # // metric: add_constant — checkMetric
 # // stub: add_function — validateStub
+# // ref: add_function — formatRef
