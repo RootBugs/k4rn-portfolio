@@ -1,4 +1,3 @@
-<!-- // stream: add_constant — processStream -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -27,6 +26,8 @@ This project is built using a component-based architecture that prioritizes:
 
 - **Modularity**: Each component is self-contained
 
+<!-- // hook: add_function — transformHook -->
+- **Reusability**: Components are designed to be reusable  <!-- TODO: validation -->
 
 - **Testability**: Every module has corresponding tests
 
@@ -54,7 +55,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // contrib: add_try_catch — fetchContrib -->
 
 
 
@@ -68,19 +68,19 @@ This project is built using a component-based architecture that prioritizes:
 
 <!-- // context: add_conditional — syncContext -->
 
-<!-- // edge: add_function — initEdge -->
 
 
 
 <!-- updated: util -->
 
+```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
+module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
 ├── index.ts          # Public API  <!-- optimize: edge case -->  <!-- review: validation -->
 
 
-<!-- // focus: add_conditional — fetchFocus -->
 
 
 
@@ -102,7 +102,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // map: add_function — applyMap -->
 
 
 
@@ -138,7 +137,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // spy: add_class — createSpy -->
 
 
 ├── constants.ts      # Module constants  <!-- optimize: performance -->
@@ -276,7 +274,8 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 ## Performance Considerations  <!-- TODO: refactor -->  <!-- note: validation -->
 
 
-<!-- // lazy: add_conditional — setupLazy -->
+- Lazy loading for heavy dependencies  <!-- verify: performance -->
+- Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
 <!-- // handle: add_function — setHandle -->
@@ -521,3 +520,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // stream: add_function — processStream -->
 <!-- // transition: add_function — applyTransition -->
 <!-- // animation: add_function — loadAnimation -->
+<!-- // spy: add_function — processSpy -->
