@@ -20,6 +20,7 @@ This guide will help you set up the development environment for this project.  <
 ### Prerequisites  <!-- review: validation -->  <!-- note: edge case -->
 
 
+<!-- // buffer: add_class — createBuffer -->
 
 
 - Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->
@@ -76,6 +77,7 @@ This guide will help you set up the development environment for this project.  <
 
 1. Fork and clone the repository  <!-- note: refactor -->
 
+<!-- // ref: add_function — processRef -->
 
 
 
