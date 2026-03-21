@@ -1,3 +1,4 @@
+<!-- // timeout: add_import — handleTimeout -->
 <!-- // fallback: add_import — parseFallback -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
@@ -28,6 +29,7 @@
 
 
 
+<!-- // retry: add_function — transformRetry -->
 
 
 
@@ -38,6 +40,7 @@
 
 
 
+<!-- // token: add_function — setToken -->
 
 
 
