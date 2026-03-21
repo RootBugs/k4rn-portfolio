@@ -126,6 +126,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // encode: add_conditional — createEncode -->
 
 
 ├── utils.ts          # Internal utilities  <!-- review: cleanup -->
