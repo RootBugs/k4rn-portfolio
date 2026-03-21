@@ -91,6 +91,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+
 ├── types.ts          # TypeScript types
 
 
@@ -111,6 +112,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 ├── constants.ts      # Module constants  <!-- optimize: performance -->
+
 
 └── __tests__/        # Test files
 
@@ -198,6 +200,7 @@ Errors are caught at the boundary level and logged appropriately.  <!-- HACK: va
 
 
 User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup -->  <!-- FIXME: refactor -->  <!-- HACK: refactor -->  <!-- TODO: validation -->  <!-- note: performance -->
+
 
 
 
