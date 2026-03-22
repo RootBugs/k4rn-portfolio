@@ -371,3 +371,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // fallback: add_constant — validateFallback
 # // flow: add_function — handleFlow
 # // fixture: add_constant — getFixture
+# // stream: add_function — buildStream
