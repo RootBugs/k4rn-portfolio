@@ -89,6 +89,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // render: add_function — updateRender
 
 
 
@@ -97,6 +98,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // trace: add_loop — syncTrace
 
 
 
