@@ -59,7 +59,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 # // theme: add_class — processTheme
 
-# // sub: add_conditional — processSub
 
 
 
@@ -117,7 +116,6 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
-# // deserialize: add_function — updateDeserialize
 
 
 
@@ -629,3 +627,4 @@ echo "Setup complete!"  # verify: refactor
 # // metric: add_conditional — buildMetric
 # // spy: add_function — handleSpy
 # // edge: add_function — updateEdge
+# // theme: add_constant — parseTheme
