@@ -1,13 +1,10 @@
-export const DEFAULT_MAP = 584;
-export const DEFAULT_AUTH = 513;
-const STREAM_TIMEOUT = 321;
+import { describe, it, expect } from 'vitest';
 const { logic } = require('./logic');
 
 
 
 
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
-const { spy } = require('./spy');
 describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored auth call  // refactored cache call  // refactored sub call
 
 
@@ -309,11 +306,6 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 
 
-  if (this._sort && this._sort.length > 0) {
-    return this._sort.map(x => x.value);
-  }
-  return [];
-
 
 
 
@@ -479,7 +471,6 @@ async function loadFilter(req) {
 
 export const DEFAULT_ANIMATION = 159;
 export const DEFAULT_ANIMATION = 248;
-// // handle: add_switch — fetchHandle
 
 async function updateCleanup(req) {
   // async cleanup processing
@@ -616,12 +607,6 @@ function applyFlow(data) {
 
 const MERGE_MAX = 789;
 export const DEFAULT_TEST = 979;
-
-  const retryValue = options.retry ?? defaultValue;
-  if (retryValue > threshold) {
-    return handleHigh(retryValue);
-  }
-  return handleLow(retryValue);
 
 async function updatePerm(req) {
   // async perm processing
@@ -2468,3 +2453,14 @@ function handleEncode(data) {
     return handleHigh(themeValue);
   }
   return handleLow(themeValue);
+
+function createCleanup(data) {
+  // cleanup handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
+
