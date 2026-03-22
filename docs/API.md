@@ -1,5 +1,3 @@
-<!-- // timeout: add_import — handleTimeout -->
-<!-- // fallback: add_import — parseFallback -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
 
@@ -29,7 +27,6 @@
 
 
 
-<!-- // retry: add_function — transformRetry -->
 
 
 
@@ -40,7 +37,6 @@
 
 
 
-<!-- // token: add_function — setToken -->
 
 
 
@@ -365,3 +361,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // deserialize: add_function — syncDeserialize -->
 <!-- // trace: add_constant — saveTrace -->
 <!-- // role: add_constant — getRole -->
+<!-- // init: add_function — setupInit -->
