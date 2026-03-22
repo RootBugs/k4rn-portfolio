@@ -14,6 +14,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 # // state: add_function — syncState
+# // theme: add_function — setTheme
 
 
 
@@ -188,9 +189,11 @@ echo "Running tests..."  # TODO: validation  # TODO: cleanup
 
 
 
+# // debug: add_conditional — applyDebug
 
 
 
+# // handle: add_function — syncHandle
 
 
 
