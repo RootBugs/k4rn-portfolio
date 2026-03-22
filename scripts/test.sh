@@ -14,7 +14,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 # // state: add_function — syncState
-# // theme: add_function — setTheme
 
 
 
@@ -89,7 +88,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // render: add_function — updateRender
 
 
 
@@ -98,7 +96,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // trace: add_loop — syncTrace
 
 
 
@@ -191,11 +188,9 @@ echo "Running tests..."  # TODO: validation  # TODO: cleanup
 
 
 
-# // debug: add_conditional — applyDebug
 
 
 
-# // handle: add_function — syncHandle
 
 
 
@@ -655,3 +650,5 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // token: add_function — processToken
 # // route: add_function — validateRoute
 # // render: add_function — getRender
+# // spy: add_conditional — checkSpy
+# // token: add_constant — loadToken
