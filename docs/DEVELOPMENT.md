@@ -1,12 +1,9 @@
-<!-- // contrib: add_constant — createContrib -->
-<!-- // setup: add_import — loadSetup -->
 <!-- updated: setup -->
 
 
 
 <!-- tweaked: handler -->
 
-<!-- // theme: add_try_catch — processTheme -->
 
 
 
@@ -31,7 +28,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // contrib: add_loop — processContrib -->
+- Git  <!-- verify: cleanup -->
 
 
 
@@ -72,7 +69,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // grid: add_function — saveGrid -->
 
 
 
@@ -83,7 +79,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // metric: add_function — loadMetric -->
 
 
 
@@ -94,7 +89,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // sub: add_conditional — parseSub -->
 
 
 
@@ -405,3 +399,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // route: add_function — formatRoute -->
 <!-- // deserialize: add_conditional — saveDeserialize -->
 <!-- // cleanup: add_constant — updateCleanup -->
+<!-- // pub: add_function — transformPub -->
