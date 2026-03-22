@@ -94,6 +94,8 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // init: add_function — formatInit
+# // debug: add_conditional — validateDebug
 
 
 
