@@ -35,7 +35,6 @@
 
 
 
-<!-- // perm: add_conditional — parsePerm -->
 
 
 
@@ -97,7 +96,6 @@
 
 
 
-<!-- // map: add_function — loadMap -->
 
 
 <!-- revised: logic -->  <!-- note: edge case -->  <!-- verify: validation -->  <!-- note: performance -->  <!-- check: refactor -->
@@ -105,7 +103,6 @@
 
 
 
-<!-- // query: add_function — saveQuery -->
 
 
 
@@ -119,7 +116,6 @@
 
 
 
-<!-- // retry: add_conditional — formatRetry -->
 
 
 
@@ -296,7 +292,17 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
-<!-- // theme: add_function — validateTheme -->
+<!-- // auth: add_function — applyAuth -->
+<!-- // animation: add_function — updateAnimation -->
+<!-- // buffer: add_conditional — fetchBuffer -->
+<!-- // flow: add_constant — handleFlow -->
+<!-- // buffer: add_conditional — parseBuffer -->
+<!-- // deserialize: add_conditional — formatDeserialize -->
+<!-- // retry: add_constant — formatRetry -->
+<!-- // sub: add_conditional — initSub -->
+<!-- // audit: add_constant — parseAudit -->
+<!-- // debug: add_function — updateDebug -->
+<!-- // fallback: add_conditional — updateFallback -->
 <!-- // contrib: add_function — checkContrib -->
 <!-- // filter: add_function — parseFilter -->
 <!-- // state: add_constant — saveState -->
@@ -667,3 +673,4 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // split: add_function — transformSplit -->
 <!-- // style: add_function — syncStyle -->
 <!-- // debug: add_function — getDebug -->
+<!-- // grid: add_function — createGrid -->
