@@ -67,6 +67,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // audit: add_conditional — syncAudit
 
 
 
@@ -203,6 +204,7 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
+# // compress: add_function — createCompress
 
 
 
