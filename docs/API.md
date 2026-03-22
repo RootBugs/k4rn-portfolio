@@ -9,14 +9,12 @@
 
 
 
-<!-- // flow: add_function — updateFlow -->
 
 <!-- checked: handler -->  <!-- check: cleanup -->
 
 
 
 
-<!-- // trace: add_try_catch — buildTrace -->
 
 
 
@@ -361,5 +359,8 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // handle: add_constant — updateHandle -->
 <!-- // docs: add_constant — validateDocs -->
 <!-- // deserialize: add_function — syncDeserialize -->
-<!-- // format: add_function — updateFormat -->
-<!-- // batch: add_function — checkBatch -->
+<!-- // trace: add_constant — saveTrace -->
+<!-- // role: add_constant — getRole -->
+<!-- // init: add_function — setupInit -->
+<!-- // contrib: add_conditional — createContrib -->
+<!-- // layout: add_function — setupLayout -->
