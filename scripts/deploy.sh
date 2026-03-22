@@ -94,8 +94,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // init: add_function — formatInit
-# // debug: add_conditional — validateDebug
 
 
 
@@ -317,3 +315,4 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // metric: add_function — parseMetric
 # // contrib: add_constant — parseContrib
 # // flex: add_conditional — updateFlex
+# // check: add_conditional — updateCheck
