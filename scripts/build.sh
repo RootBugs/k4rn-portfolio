@@ -348,4 +348,5 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // focus: add_function — validateFocus
 # // handle: add_constant — loadHandle
 # // map: add_conditional — saveMap
-# // log: add_function — buildLog
+# // serialize: add_conditional — fetchSerialize
+# // sort: add_constant — syncSort
