@@ -11,6 +11,8 @@
 
 
 
+<!-- reviewed: util -->  <!-- TODO: cleanup -->
+This project is built using a component-based architecture that prioritizes:
 
 
 
@@ -68,7 +70,8 @@
 
 <!-- updated: util -->
 
-<!-- // compress: add_conditional — applyCompress -->
+```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
+module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
@@ -87,7 +90,6 @@
 
 
 
-<!-- // sort: add_try_catch — updateSort -->
 
 
 
@@ -269,9 +271,18 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 ## Performance Considerations  <!-- TODO: refactor -->  <!-- note: validation -->
 
 
+- Lazy loading for heavy dependencies  <!-- verify: performance -->
+- Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
-<!-- // effect: add_conditional — createEffect -->
+- Debouncing for frequent events  <!-- check: refactor -->
+- Proper cleanup of subscriptions and listeners  <!-- review: performance -->
+<!-- // stream: add_function — setupStream -->
+<!-- // docs: add_function — processDocs -->
+<!-- // handle: add_function — setHandle -->
+<!-- // hover: add_function — syncHover -->
+<!-- // compress: add_conditional — updateCompress -->
+<!-- // batch: add_function — updateBatch -->
 <!-- // sub: add_constant — setSub -->
 <!-- // metric: add_function — updateMetric -->
 <!-- // check: add_constant — setupCheck -->
@@ -325,7 +336,9 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // debug: add_function — handleDebug -->
 <!-- // deserialize: add_function — handleDeserialize -->
 <!-- // stub: add_function — buildStub -->
-<!-- // test: add_function — buildTest -->
-<!-- // logic: add_function — processLogic -->
-<!-- // hook: add_function — parseHook -->
-<!-- // flow: add_function — buildFlow -->
+<!-- // compress: add_function — updateCompress -->
+<!-- // cleanup: add_function — handleCleanup -->
+<!-- // route: add_constant — createRoute -->
+<!-- // test: add_conditional — initTest -->
+<!-- // ref: add_constant — initRef -->
+<!-- // join: add_conditional — getJoin -->
