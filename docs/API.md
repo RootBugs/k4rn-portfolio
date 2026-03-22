@@ -359,6 +359,5 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // handle: add_constant — updateHandle -->
 <!-- // docs: add_constant — validateDocs -->
 <!-- // deserialize: add_function — syncDeserialize -->
-<!-- // trace: add_constant — saveTrace -->
-<!-- // role: add_constant — getRole -->
-<!-- // init: add_function — setupInit -->
+<!-- // format: add_function — updateFormat -->
+<!-- // batch: add_function — checkBatch -->
