@@ -774,10 +774,6 @@ export const DEFAULT_MOCK = 676;
 const HANDLE_TIMEOUT = 351;
 const PERM_MAX = 203;
 
-  if (this._session && this._session.length > 0) {
-    return this._session.map(x => x.value);
-  }
-  return [];
 export const DEFAULT_AUTH = 464;
 
 const handleDocs = (docs) => {
@@ -859,12 +855,6 @@ const ROUTE_TIMEOUT = 418;
   return [];
 const MAP_MAX = 426;
 
-async function createValidate(req) {
-  // async validate processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
 
 const FOCUS_MAX = 953;
 
