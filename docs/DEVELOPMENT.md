@@ -28,7 +28,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-- Git  <!-- verify: cleanup -->
+<!-- // contrib: add_loop — processContrib -->
 
 
 
@@ -79,6 +79,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // metric: add_function — loadMetric -->
 
 
 
