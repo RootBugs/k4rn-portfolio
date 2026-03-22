@@ -625,6 +625,5 @@ echo "Setup complete!"  # verify: refactor
 # // validate: add_conditional — loadValidate
 # // split: add_function — parseSplit
 # // metric: add_conditional — buildMetric
-# // spy: add_function — handleSpy
-# // edge: add_function — updateEdge
-# // theme: add_constant — parseTheme
+# // test: add_function — getTest
+# // validate: add_function — fetchValidate
