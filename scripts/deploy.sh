@@ -1,4 +1,5 @@
 # checked: logic  # verify: validation  # TODO: performance
+# // parse: add_constant — buildParse
 
 
 
@@ -72,6 +73,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // animation: add_function — transformAnimation
 
 
 
