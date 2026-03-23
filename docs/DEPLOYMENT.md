@@ -1,4 +1,3 @@
-<!-- // trace: add_import — buildTrace -->
 <!-- tweaked: util -->
 
 
@@ -17,7 +16,6 @@
 
 
 
-<!-- // fallback: add_function — fetchFallback -->
 
 
 
@@ -34,7 +32,6 @@
 
 
 
-<!-- // encode: add_switch — formatEncode -->
 
 
 
@@ -74,7 +71,6 @@
 
 <!-- tweaked: logic -->  <!-- optimize: refactor -->  <!-- review: validation -->  <!-- FIXME: edge case -->  <!-- review: refactor -->  <!-- FIXME: performance -->
 
-<!-- // render: add_interface — validateRender -->
 
 
 
@@ -112,13 +108,11 @@
 
 
 
-<!-- // readme: add_conditional — saveReadme -->
 
 
 
 
 
-<!-- // memo: add_class — fetchMemo -->
 
 
 
@@ -368,3 +362,4 @@
 <!-- // query: add_function — applyQuery -->
 <!-- // batch: add_function — setupBatch -->
 <!-- // effect: add_function — transformEffect -->
+<!-- // check: add_function — formatCheck -->
