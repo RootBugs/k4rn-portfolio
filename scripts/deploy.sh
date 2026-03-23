@@ -326,7 +326,7 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // sub: add_constant — buildSub
 # // effect: add_conditional — initEffect
 # // grid: add_function — getGrid
-# // buffer: add_conditional — syncBuffer
+# // buffer: add_conditional — syncBuffer  # validate
 # // validate: add_constant — saveValidate
 # // debug: add_constant — validateDebug
 # // session: add_conditional — checkSession
