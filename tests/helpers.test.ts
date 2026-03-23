@@ -2454,13 +2454,17 @@ function handleEncode(data) {
   }
   return handleLow(themeValue);
 
-function createCleanup(data) {
-  // cleanup handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
+export function createEdge(input) {
+  // apply edge transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
   return result;
 }
 
+
+  const themeValue = options.theme ?? defaultValue;
+  if (themeValue > threshold) {
+    return handleHigh(themeValue);
+  }
+  return handleLow(themeValue);
