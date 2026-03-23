@@ -1,4 +1,3 @@
-<!-- // changelog: add_import — fetchChangelog -->
 <!-- // split: add_constant — getSplit -->
 <!-- tweaked: util -->
 
@@ -134,7 +133,6 @@
 
 
 
-<!-- // state: add_try_catch — updateState -->
 
 
 
@@ -170,7 +168,6 @@
 
 
 
-<!-- // setup: add_conditional — updateSetup -->
 
 
 
@@ -190,7 +187,6 @@
 
 
 
-<!-- // filter: add_interface — getFilter -->
 
 
 
@@ -301,6 +297,9 @@
 
 
 
+<!-- // test: add_constant — initTest -->
+<!-- // contrib: add_function — createContrib -->
+<!-- // transition: add_function — processTransition -->
 <!-- // parse: add_constant — fetchParse -->
 <!-- // validate: add_constant — buildValidate -->
 <!-- // fallback: add_constant — checkFallback -->
@@ -658,3 +657,5 @@
 <!-- // docs: add_function — loadDocs -->
 <!-- // fixture: add_function — syncFixture -->
 <!-- // encode: add_function — handleEncode -->
+<!-- // auth: add_conditional — createAuth -->
+<!-- // test: add_function — transformTest -->
