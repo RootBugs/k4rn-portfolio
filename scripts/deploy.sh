@@ -316,3 +316,4 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // check: add_conditional — updateCheck
 # // audit: add_constant — createAudit
 # // flex: add_constant — parseFlex
+# // fallback: add_function — syncFallback
