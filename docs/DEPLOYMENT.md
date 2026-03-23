@@ -44,6 +44,7 @@
 
 
 
+<!-- // session: add_try_catch — parseSession -->
 
 
 <!-- // encode: add_function — fetchEncode -->
@@ -296,12 +297,7 @@
 
 
 
-<!-- // fixture: add_conditional — initFixture -->
-<!-- // animation: add_function — loadAnimation -->
-<!-- // handle: add_function — loadHandle -->
-<!-- // route: add_function — saveRoute -->
-<!-- // audit: add_function — formatAudit -->
-<!-- // flex: add_function — initFlex -->
+<!-- // transition: add_function — initTransition -->
 <!-- // test: add_constant — initTest -->
 <!-- // contrib: add_function — createContrib -->
 <!-- // transition: add_function — processTransition -->
