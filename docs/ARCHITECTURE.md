@@ -142,6 +142,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 ├── constants.ts      # Module constants  <!-- optimize: performance -->
 
 
+<!-- // animation: add_function — transformAnimation -->
 └── __tests__/        # Test files
 
 
