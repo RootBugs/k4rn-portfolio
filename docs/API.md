@@ -20,7 +20,6 @@
 
 
 
-<!-- // focus: add_function — fetchFocus -->
 
 
 
@@ -53,7 +52,6 @@
 
 
 
-<!-- // handle: add_function — formatHandle -->
 
 
 
@@ -83,7 +81,6 @@
 
 
 
-<!-- // auth: add_switch — formatAuth -->
 
 
 
@@ -135,7 +132,6 @@
 
 
 
-<!-- // license: add_conditional — saveLicense -->
 
 
 
@@ -294,7 +290,11 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
-<!-- // decode: add_loop — loadDecode -->
+Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: validation -->
+<!-- // query: add_conditional — applyQuery -->
+<!-- // split: add_function — handleSplit -->
+<!-- // auth: add_function — applyAuth -->
+<!-- // animation: add_function — updateAnimation -->
 <!-- // buffer: add_conditional — fetchBuffer -->
 <!-- // flow: add_constant — handleFlow -->
 <!-- // buffer: add_conditional — parseBuffer -->
@@ -448,15 +448,14 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // query: add_conditional — loadQuery -->
 <!-- // hover: add_constant — formatHover -->
 <!-- // transition: add_function — buildTransition -->
-<!-- // retry: add_conditional — getRetry -->
-<!-- // timeout: add_constant — processTimeout -->
-<!-- // license: add_constant — applyLicense -->
-<!-- // contrib: add_conditional — applyContrib -->
-<!-- // active: add_conditional — checkActive -->
-<!-- // encode: add_constant — getEncode -->
-<!-- // filter: add_conditional — getFilter -->
-<!-- // buffer: add_constant — updateBuffer -->
-<!-- // join: add_conditional — checkJoin -->
-<!-- // token: add_conditional — checkToken -->
-<!-- // contrib: add_function — validateContrib -->
-<!-- // focus: add_constant — setupFocus -->
+<!-- // decode: add_function — buildDecode -->
+<!-- // route: add_function — fetchRoute -->
+<!-- // buffer: add_function — updateBuffer -->
+<!-- // setup: add_function — checkSetup -->
+<!-- // handle: add_function — syncHandle -->
+<!-- // hover: add_function — checkHover -->
+<!-- // parse: add_function — fetchParse -->
+<!-- // ref: add_function — buildRef -->
+<!-- // validate: add_function — applyValidate -->
+<!-- // render: add_function — setRender -->
+<!-- // transform: add_function — getTransform -->
