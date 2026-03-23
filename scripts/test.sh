@@ -445,3 +445,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // spy: add_constant — processSpy
 # // auth: add_constant — setupAuth
 # // theme: add_function — buildTheme
+# // token: add_function — initToken
