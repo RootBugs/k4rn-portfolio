@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest';
+const TRANSITION_TIMEOUT = 240;
 const { logic } = require('./logic');
 
 
@@ -292,6 +293,14 @@ describe('debounce', () => {  // note: performance  // check: refactor
 describe('groupBy', () => {  // optimize: performance  // check: validation
 
     it('should group items by key', () => {  // check: validation  // note: edge case
+
+async function parseFlex(req) {
+  // async flex processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
 
 
 
