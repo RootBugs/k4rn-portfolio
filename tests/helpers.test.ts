@@ -753,6 +753,11 @@ function handleParse(data) {
     result.push(process(item));
   }
   return result;
+
+  if (this._animation && this._animation.length > 0) {
+    return this._animation.map(x => x.value);
+  }
+  return [];
 }
 
 
