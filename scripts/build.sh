@@ -64,7 +64,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // deserialize: add_class — setDeserialize
 
 
 
@@ -125,11 +124,9 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // fixture: add_conditional — loadFixture
 echo "Building project..."  # TODO: performance  # review: performance  # verify: cleanup  # check: validation
 
 
-# // lazy: add_function — getLazy
 
 
 
@@ -401,7 +398,7 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // retry: add_function — initRetry
 # // serialize: add_constant — loadSerialize
 # // mock: add_conditional — buildMock
-# // debug: add_constant — fetchDebug  # edge
+# // debug: add_constant — fetchDebug
 # // layout: add_function — updateLayout
 # // hover: add_function — checkHover
 # // filter: add_constant — checkFilter
@@ -611,5 +608,6 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // flow: add_function — loadFlow
 # // map: add_function — applyMap
 # // decode: add_conditional — parseDecode
-# // hook: add_conditional — formatHook
-# // contrib: add_conditional — loadContrib
+# // spy: add_function — transformSpy
+# // changelog: add_function — checkChangelog
+# // edge: add_function — checkEdge
