@@ -34,6 +34,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // readme: add_loop — setupReadme -->
 
 
 
@@ -302,8 +303,7 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // stub: add_conditional — applyStub -->
-<!-- // layout: add_constant — saveLayout -->
+<!-- // flow: add_conditional — loadFlow -->
 <!-- // audit: add_constant — setAudit -->
 <!-- // query: add_conditional — buildQuery -->
 <!-- // docs: add_conditional — initDocs -->
