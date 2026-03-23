@@ -128,6 +128,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 echo "Building project..."  # TODO: performance  # review: performance  # verify: cleanup  # check: validation
 
 
+# // lazy: add_function — getLazy
 
 
 
@@ -399,7 +400,7 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // retry: add_function — initRetry
 # // serialize: add_constant — loadSerialize
 # // mock: add_conditional — buildMock
-# // debug: add_constant — fetchDebug
+# // debug: add_constant — fetchDebug  # edge
 # // layout: add_function — updateLayout
 # // hover: add_function — checkHover
 # // filter: add_constant — checkFilter
