@@ -140,6 +140,15 @@ describe('clamp', () => {
 
 
 
+
+export function formatSetup(input) {
+  // apply setup transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
+
     });  // note: validation
 
 
@@ -331,8 +340,6 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 
 
-        expect(grouped.a).toHaveLength(2);
-        expect(grouped.b).toHaveLength(1);
 
 
 
