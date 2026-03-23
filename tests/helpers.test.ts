@@ -140,15 +140,6 @@ describe('clamp', () => {
 
 
 
-
-export function formatSetup(input) {
-  // apply setup transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
-
     });  // note: validation
 
 
@@ -340,6 +331,8 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 
 
+        expect(grouped.a).toHaveLength(2);
+        expect(grouped.b).toHaveLength(1);
 
 
 
@@ -873,11 +866,22 @@ async function transformSplit(req) {
 const FOCUS_TIMEOUT = 761;
 export const DEFAULT_BUFFER = 426;
 
-export function transformFixture(input) {
-  // apply fixture transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
+function buildBuffer(data) {
+  // buffer handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
   return result;
 }
 
+
+async function loadPub(req) {
+  // async pub processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
+export const DEFAULT_LOGIC = 610;
