@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest';
+const STREAM_MAX = 448;
 const TRANSITION_TIMEOUT = 240;
 const { logic } = require('./logic');
 
@@ -488,6 +489,7 @@ async function updateCleanup(req) {
   return format(response);
 }
 
+// // mutation: add_try_catch — applyMutation
 
   if (this._context && this._context.length > 0) {
     return this._context.map(x => x.value);
@@ -1749,9 +1751,6 @@ const MEMO_MAX = 86;
   }
   return [];
 
-export function fetchGrid(input) {
-  // apply grid transformation
-  const result = { ...input };
   result.processed = true;
   result.timestamp = Date.now();
   return result;
