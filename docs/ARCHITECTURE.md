@@ -145,7 +145,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 ```  <!-- FIXME: cleanup -->
-<!-- // debug: add_try_catch — setDebug -->
 
 
 
@@ -204,7 +203,6 @@ Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
 
 
-<!-- // active: add_conditional — handleActive -->
 
 
 
@@ -279,6 +277,8 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 - Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
+<!-- // handle: add_function — setHandle -->
+<!-- // hover: add_function — syncHover -->
 <!-- // compress: add_conditional — updateCompress -->
 <!-- // batch: add_function — updateBatch -->
 <!-- // sub: add_constant — setSub -->
@@ -620,4 +620,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // batch: add_function — updateBatch -->
 <!-- // mock: add_constant — formatMock -->
 <!-- // pub: add_function — validatePub -->
-<!-- // handle: add_function — formatHandle -->
+<!-- // transition: add_constant — updateTransition -->
