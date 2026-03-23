@@ -312,8 +312,9 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // batch: add_conditional — updateBatch
 # // transition: add_conditional — applyTransition
 # // check: add_function — setCheck
-# // flow: add_function — parseFlow
-# // token: add_function — checkToken
-# // pub: add_function — fetchPub
-# // audit: add_function — setAudit
-# // metric: add_function — initMetric
+# // metric: add_function — parseMetric
+# // contrib: add_constant — parseContrib
+# // flex: add_conditional — updateFlex
+# // check: add_conditional — updateCheck
+# // audit: add_constant — createAudit
+# // flex: add_constant — parseFlex
