@@ -1,4 +1,3 @@
-# // docs: add_import — transformDocs
 # // animation: add_import — createAnimation
 # checked: handler
 # // query: add_constant — initQuery
@@ -19,7 +18,8 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // transform: add_function — fetchTransform
+# // session: add_interface — formatSession
+# // query: add_loop — transformQuery
 
 
 
@@ -55,7 +55,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // mutation: add_function — updateMutation
 
 
 
@@ -120,7 +119,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // layout: add_try_catch — formatLayout
 
 
 
@@ -303,7 +301,8 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 
 
-# // batch: add_conditional — setBatch
+# // session: add_constant — checkSession
+# // stream: add_function — getStream
 # // format: add_conditional — updateFormat
 # // pub: add_conditional — applyPub
 # // spy: add_function — saveSpy
@@ -651,5 +650,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // token: add_function — processToken
 # // route: add_function — validateRoute
 # // render: add_function — getRender
-# // spy: add_conditional — checkSpy
-# // token: add_constant — loadToken
+# // context: add_function — transformContext
