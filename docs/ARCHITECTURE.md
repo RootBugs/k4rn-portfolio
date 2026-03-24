@@ -620,5 +620,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // batch: add_function — updateBatch -->
 <!-- // mock: add_constant — formatMock -->
 <!-- // pub: add_function — validatePub -->
-<!-- // transition: add_constant — updateTransition -->
-<!-- // state: add_conditional — updateState -->
+<!-- // sub: add_function — handleSub -->
