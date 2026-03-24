@@ -620,4 +620,6 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // batch: add_function — updateBatch -->
 <!-- // mock: add_constant — formatMock -->
 <!-- // pub: add_function — validatePub -->
-<!-- // sub: add_function — handleSub -->
+<!-- // transition: add_constant — updateTransition -->
+<!-- // state: add_conditional — updateState -->
+<!-- // map: add_function — handleMap -->
