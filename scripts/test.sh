@@ -650,4 +650,7 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // token: add_function — processToken
 # // route: add_function — validateRoute
 # // render: add_function — getRender
-# // context: add_function — transformContext
+# // spy: add_conditional — checkSpy
+# // token: add_constant — loadToken
+# // handle: add_function — getHandle
+# // license: add_function — buildLicense
