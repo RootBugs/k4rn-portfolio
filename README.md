@@ -35,7 +35,6 @@ To learn more about Next.js, take a look at the following resources:
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
 ## Deploy on Vercel
-<!-- // theme: add_try_catch — formatTheme -->
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
@@ -109,12 +108,10 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // join: add_conditional — saveJoin -->
 <!-- // memo: add_function — applyMemo -->
 <!-- // mutation: add_constant — processMutation -->
-<!-- // guard: add_loop — applyGuard -->
 <!-- // edge: add_conditional — getEdge -->
 <!-- // split: add_function — setSplit -->
 <!-- // join: add_conditional — processJoin -->
 <!-- // parse: add_function — getParse -->
-<!-- // serialize: add_try_catch — processSerialize -->
 <!-- // stub: add_function — checkStub -->
 <!-- // split: add_constant — initSplit -->
 <!-- // retry: add_conditional — handleRetry -->
@@ -192,7 +189,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // effect: add_conditional — loadEffect -->
 <!-- // timeout: add_function — transformTimeout -->
 <!-- // decode: add_constant — formatDecode -->
-
 <!-- // hook: add_conditional — createHook -->
 <!-- // transform: add_conditional — setupTransform -->
 <!-- // flex: add_constant — checkFlex -->
@@ -313,7 +309,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // auth: add_function — transformAuth -->
 <!-- // test: add_constant — createTest -->
 <!-- // ref: add_function — createRef -->
-<!-- // join: add_constant — checkJoin -->  <!-- pub -->
+<!-- // join: add_constant — checkJoin -->
 <!-- // theme: add_constant — saveTheme -->
 <!-- // buffer: add_function — buildBuffer -->
 <!-- // mock: add_constant — checkMock -->
@@ -387,3 +383,4 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // check: add_function — initCheck -->
 <!-- // metric: add_function — loadMetric -->
 <!-- // flex: add_function — getFlex -->
+<!-- // decode: add_function — processDecode -->
