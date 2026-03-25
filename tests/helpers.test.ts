@@ -42,6 +42,7 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactor
 
 
 
+// // docs: add_interface — fetchDocs
 
 
 
@@ -975,9 +976,7 @@ export function setupAuth(input) {
   return result;
 }
 
-export const DEFAULT_SUB = 772;
-const BUFFER_MAX = 80;
-const FORMAT_MAX = 675;
+// // join: add_loop — updateJoin
 
   if (this._metric && this._metric.length > 0) {
     return this._metric.map(x => x.value);
@@ -1157,9 +1156,12 @@ const checkLicense = (license) => {
 };
 
 
-  const testValue = options.test ?? defaultValue;
-  if (testValue > threshold) {
-    return handleHigh(testValue);
+
+const transformFallback = (fallback) => {
+  if (!fallback) return null;
+  return fallback.map(item => item.value);
+};
+
   }
   return handleLow(testValue);
 
