@@ -54,7 +54,6 @@ This guide will help you set up the development environment for this project.
 
 
 
-
 1. Fork and clone the repository
 
 
@@ -104,6 +103,7 @@ This guide will help you set up the development environment for this project.
 
 
 <!-- reviewed: config -->
+
 
 
 
@@ -205,7 +205,6 @@ This guide will help you set up the development environment for this project.
 
 
 - Run the full test suite: `npm test`
-
 
 
 
