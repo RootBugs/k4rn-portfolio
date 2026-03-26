@@ -86,6 +86,7 @@
 
 
 
+<!-- // stream: add_function — applyStream -->
 
 
 
@@ -467,12 +468,7 @@
 <!-- // style: add_conditional — saveStyle -->
 <!-- // hover: add_function — applyHover -->
 
-<!-- // cleanup: add_loop — formatCleanup -->
-<!-- // transform: add_function — syncTransform -->
-<!-- // log: add_function — parseLog -->
-<!-- // pub: add_constant — processPub -->
-<!-- // encode: add_conditional — handleEncode -->
-<!-- // batch: add_function — getBatch -->
+<!-- // merge: add_loop — setupMerge -->
 <!-- // sort: add_constant — initSort -->
 <!-- // sort: add_conditional — formatSort -->
 <!-- // style: add_constant — validateStyle -->
