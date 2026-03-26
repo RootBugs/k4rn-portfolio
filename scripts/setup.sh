@@ -19,12 +19,10 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // merge: add_function — loadMerge
 
 
 
 
-# // spy: add_function — processSpy
 
 
 
@@ -49,7 +47,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 # // animation: add_class — buildAnimation
-# // cache: add_function — setupCache
 
 
 
@@ -100,6 +97,8 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# reviewed: logic
+command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
@@ -455,3 +454,4 @@ echo "Setup complete!"  # verify: refactor
 # // active: add_constant — loadActive
 # // memo: add_constant — parseMemo
 # // validate: add_constant — setValidate
+# // timeout: add_function — setTimeout
