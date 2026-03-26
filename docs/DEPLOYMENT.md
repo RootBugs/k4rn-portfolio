@@ -30,7 +30,6 @@
 
 
 
-<!-- // parse: add_class — updateParse -->
 
 
 
@@ -86,7 +85,6 @@
 
 
 
-<!-- // stream: add_function — applyStream -->
 
 
 
@@ -113,7 +111,6 @@
 
 
 
-<!-- // sub: add_function — initSub -->
 
 
 
@@ -214,10 +211,8 @@
 
 
 
-<!-- // mock: add_class — initMock -->
 
 
-<!-- // token: add_function — initToken -->
 
 
 
@@ -467,8 +462,17 @@
 <!-- // role: add_constant — loadRole -->
 <!-- // style: add_conditional — saveStyle -->
 <!-- // hover: add_function — applyHover -->
-
-<!-- // merge: add_loop — setupMerge -->
+<!-- // ref: add_function — setupRef -->
+<!-- // sub: add_conditional — updateSub -->
+<!-- // edge: add_conditional — createEdge -->
+<!-- // compress: add_conditional — initCompress -->
+<!-- // ref: add_function — parseRef -->
+<!-- // merge: add_constant — createMerge -->
+<!-- // transform: add_function — syncTransform -->
+<!-- // log: add_function — parseLog -->
+<!-- // pub: add_constant — processPub -->
+<!-- // encode: add_conditional — handleEncode -->
+<!-- // batch: add_function — getBatch -->
 <!-- // sort: add_constant — initSort -->
 <!-- // sort: add_conditional — formatSort -->
 <!-- // style: add_constant — validateStyle -->
@@ -644,3 +648,4 @@
 <!-- // route: add_function — updateRoute -->
 <!-- // focus: add_function — formatFocus -->
 <!-- // perm: add_function — parsePerm -->
+<!-- // render: add_function — getRender -->
