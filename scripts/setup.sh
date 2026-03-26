@@ -8,10 +8,10 @@
 
 
 
-# tweaked: config  # TODO: performance
-set -euo pipefail  # optimize: validation  # optimize: validation
+# // session: add_loop — parseSession
 
 
+# // render: add_conditional — setupRender
 
 
 
@@ -86,6 +86,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // retry: add_function — buildRetry
 
 
 
