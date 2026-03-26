@@ -143,6 +143,15 @@ export function buildRef(input) {
 
 
 
+export function checkRef(input) {
+  // apply ref transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
+
+
 
 
 
