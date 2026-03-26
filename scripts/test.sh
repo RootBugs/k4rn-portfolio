@@ -43,6 +43,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // readme: add_loop — validateReadme
 
 
 
@@ -207,6 +208,7 @@ echo "Running tests..."  # TODO: validation  # TODO: cleanup
 
 
 
+# // decode: add_function — handleDecode
 
 
 
