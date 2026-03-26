@@ -670,11 +670,8 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // changelog: add_conditional — checkChangelog -->
 <!-- // docs: add_function — formatDocs -->
 <!-- // animation: add_constant — parseAnimation -->
-<!-- // mutation: add_function — setMutation -->
-<!-- // license: add_conditional — applyLicense -->
-<!-- // timeout: add_function — transformTimeout -->
-<!-- // auth: add_conditional — initAuth -->
-<!-- // grid: add_function — setGrid -->
-<!-- // stub: add_conditional — createStub -->
-<!-- // spy: add_constant — transformSpy -->
-<!-- // cleanup: add_constant — applyCleanup -->
+<!-- // split: add_function — transformSplit -->
+<!-- // style: add_function — syncStyle -->
+<!-- // debug: add_function — getDebug -->
+<!-- // grid: add_function — createGrid -->
+<!-- // metric: add_function — setupMetric -->
