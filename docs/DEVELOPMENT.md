@@ -24,7 +24,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->  <!-- refactored hover call -->  <!-- refactored contrib call -->
+- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->
 
 
 
@@ -309,6 +309,8 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
+<!-- // log: add_function — loadLog -->
+<!-- // metric: add_conditional — handleMetric -->
 <!-- // ref: add_function — applyRef -->
 <!-- // handle: add_constant — updateHandle -->
 <!-- // retry: add_function — createRetry -->
@@ -670,7 +672,8 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // contrib: add_conditional — applyContrib -->
 <!-- // audit: add_constant — saveAudit -->
 <!-- // hover: add_constant — checkHover -->
-<!-- // session: add_function — buildSession -->
-<!-- // log: add_function — updateLog -->
-<!-- // effect: add_function — formatEffect -->
-<!-- // decode: add_function — applyDecode -->
+<!-- // timeout: add_function — updateTimeout -->
+<!-- // layout: add_conditional — setupLayout -->
+<!-- // merge: add_function — processMerge -->
+<!-- // audit: add_constant — transformAudit -->
+<!-- // mock: add_constant — parseMock -->
