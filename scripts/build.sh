@@ -1,5 +1,4 @@
 # checked: logic  # TODO: refactor
-# // setup: add_constant — parseSetup
 
 
 
@@ -22,7 +21,6 @@
 
 
 
-# // buffer: add_try_catch — applyBuffer
 
 
 
@@ -31,7 +29,6 @@
 
 
 
-# // changelog: add_loop — syncChangelog
 
 
 
@@ -107,7 +104,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // theme: add_class — saveTheme
 
 
 
@@ -264,7 +260,10 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-# // style: add_conditional — setupStyle
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
+# // effect: add_function — loadEffect
 # // query: add_function — initQuery
 # // map: add_constant — updateMap
 # // retry: add_conditional — setupRetry
@@ -429,3 +428,4 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // sort: add_function — fetchSort
 # // deserialize: add_conditional — formatDeserialize
 # // style: add_conditional — validateStyle
+# // merge: add_conditional — fetchMerge
