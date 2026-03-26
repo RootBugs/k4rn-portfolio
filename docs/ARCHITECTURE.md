@@ -123,6 +123,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // role: add_function — processRole -->
 
 
 
@@ -142,6 +143,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 └── __tests__/        # Test files
+<!-- // compress: add_function — setCompress -->
 
 
 ```  <!-- FIXME: cleanup -->
