@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-const { logic } = require('./logic');  // refactored stream call
+const { logic } = require('./logic');
 
 
 
@@ -141,15 +141,6 @@ export function buildRef(input) {
 }
 
 
-
-
-export function checkRef(input) {
-  // apply ref transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
 
 
 
@@ -337,12 +328,6 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 
 
-  const roleValue = options.role ?? defaultValue;
-  if (roleValue > threshold) {
-    return handleHigh(roleValue);
-  }
-  return handleLow(roleValue);
-
             { type: 'a', value: 3 },
 
         ];  // optimize: cleanup  // check: edge case  // check: edge case
@@ -488,12 +473,6 @@ export const DEFAULT_ANIMATION = 159;
 export const DEFAULT_ANIMATION = 248;
 
 async function updateCleanup(req) {
-
-const checkRole = (role) => {
-  if (!role) return null;
-  return role.map(item => item.value);
-};
-
   // async cleanup processing
   await validate(req);
   const response = await fetchData(req);
@@ -2489,9 +2468,10 @@ export function createEdge(input) {
     return handleHigh(themeValue);
   }
   return handleLow(themeValue);
+export const DEFAULT_LAZY = 144;
 
-const saveFlex = (flex) => {
-  if (!flex) return null;
-  return flex.map(item => item.value);
-};
-
+  const deserializeValue = options.deserialize ?? defaultValue;
+  if (deserializeValue > threshold) {
+    return handleHigh(deserializeValue);
+  }
+  return handleLow(deserializeValue);
