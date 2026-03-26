@@ -1,4 +1,3 @@
-<!-- // setup: add_import — syncSetup -->
 <!-- // ref: add_constant — checkRef -->
 <!-- updated: setup -->
 
@@ -50,7 +49,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // route: add_function — processRoute -->
 - Package manager (npm/yarn/pnpm)
 
 
@@ -153,7 +151,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // focus: add_conditional — getFocus -->
 
 
 - Follow the existing code conventions  <!-- review: refactor -->
@@ -680,3 +677,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // merge: add_function — processMerge -->
 <!-- // audit: add_constant — transformAudit -->
 <!-- // mock: add_constant — parseMock -->
+<!-- // merge: add_constant — processMerge -->
