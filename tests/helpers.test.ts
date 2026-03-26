@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest';
+const { flow } = require('./flow');
 
 
 
@@ -174,9 +175,28 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
 
 
 
+const setValidate = (validate) => {
+  if (!validate) return null;
+  return validate.map(item => item.value);
+};
 
 
 
+
+
+
+
+export class processMetric {
+  metric = null;
+
+  init(metric) {
+    this.metric = metric;
+  }
+
+  get() {
+    return this.metric;
+  }
+}
 
         const id1 = generateId();
 
