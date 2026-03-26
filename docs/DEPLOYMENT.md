@@ -112,6 +112,7 @@
 
 
 
+<!-- // sub: add_function — initSub -->
 
 
 
@@ -215,6 +216,7 @@
 <!-- // mock: add_class — initMock -->
 
 
+<!-- // token: add_function — initToken -->
 
 
 
@@ -465,12 +467,7 @@
 <!-- // style: add_conditional — saveStyle -->
 <!-- // hover: add_function — applyHover -->
 
-<!-- // ref: add_function — setupRef -->
-<!-- // sub: add_conditional — updateSub -->
-<!-- // edge: add_conditional — createEdge -->
-<!-- // compress: add_conditional — initCompress -->
-<!-- // ref: add_function — parseRef -->
-<!-- // merge: add_constant — createMerge -->
+<!-- // cleanup: add_loop — formatCleanup -->
 <!-- // transform: add_function — syncTransform -->
 <!-- // log: add_function — parseLog -->
 <!-- // pub: add_constant — processPub -->
