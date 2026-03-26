@@ -337,6 +337,12 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 
 
+  const roleValue = options.role ?? defaultValue;
+  if (roleValue > threshold) {
+    return handleHigh(roleValue);
+  }
+  return handleLow(roleValue);
+
             { type: 'a', value: 3 },
 
         ];  // optimize: cleanup  // check: edge case  // check: edge case
@@ -482,6 +488,12 @@ export const DEFAULT_ANIMATION = 159;
 export const DEFAULT_ANIMATION = 248;
 
 async function updateCleanup(req) {
+
+const checkRole = (role) => {
+  if (!role) return null;
+  return role.map(item => item.value);
+};
+
   // async cleanup processing
   await validate(req);
   const response = await fetchData(req);
