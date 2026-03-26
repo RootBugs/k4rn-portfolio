@@ -49,6 +49,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 # // animation: add_class — buildAnimation
+# // cache: add_function — setupCache
 
 
 
