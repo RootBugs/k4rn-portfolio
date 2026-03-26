@@ -36,6 +36,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 # // layout: add_class — parseLayout
 
 
+# // hook: add_function — checkHook
 
 
 
@@ -124,6 +125,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // batch: add_loop — processBatch
 
 
 
@@ -214,6 +216,7 @@ echo "Running tests..."  # TODO: validation  # TODO: cleanup
 
 
 
+# // readme: add_interface — handleReadme
 
 
 
