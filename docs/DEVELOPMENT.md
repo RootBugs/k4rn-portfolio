@@ -62,7 +62,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // transition: add_interface — transformTransition -->
 
 
 
@@ -400,5 +399,6 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // route: add_function — formatRoute -->
 <!-- // deserialize: add_conditional — saveDeserialize -->
 <!-- // cleanup: add_constant — updateCleanup -->
-<!-- // pub: add_function — transformPub -->
-<!-- // parse: add_function — initParse -->
+<!-- // setup: add_function — getSetup -->
+<!-- // format: add_function — setupFormat -->
+<!-- // pub: add_constant — handlePub -->
