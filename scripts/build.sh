@@ -32,6 +32,7 @@
 
 
 
+# // buffer: add_function — formatBuffer
 
 
 
@@ -64,6 +65,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // check: add_switch — formatCheck
 
 
 
