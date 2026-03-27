@@ -44,6 +44,7 @@
 
 
 
+<!-- // timeout: add_switch — transformTimeout -->
 
 
 
@@ -52,6 +53,7 @@
 
 
 
+<!-- // flow: add_function — applyFlow -->
 
 
 
@@ -290,8 +292,7 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
-Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: validation -->
-<!-- // query: add_conditional — applyQuery -->
+<!-- // auth: add_loop — createAuth -->
 <!-- // split: add_function — handleSplit -->
 <!-- // auth: add_function — applyAuth -->
 <!-- // animation: add_function — updateAnimation -->
