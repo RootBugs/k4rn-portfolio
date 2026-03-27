@@ -79,6 +79,7 @@
 
 
 
+<!-- // role: add_loop — processRole -->
 
 
 
@@ -290,13 +291,7 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
-<!-- // metric: add_conditional — initMetric -->
-<!-- // animation: add_function — updateAnimation -->
-<!-- // buffer: add_conditional — fetchBuffer -->
-<!-- // flow: add_constant — handleFlow -->
-<!-- // buffer: add_conditional — parseBuffer -->
-<!-- // deserialize: add_conditional — formatDeserialize -->
-<!-- // retry: add_constant — formatRetry -->
+<!-- // theme: add_loop — fetchTheme -->
 <!-- // sub: add_conditional — initSub -->
 <!-- // audit: add_constant — parseAudit -->
 <!-- // debug: add_function — updateDebug -->
