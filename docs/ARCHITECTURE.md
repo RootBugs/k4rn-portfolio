@@ -277,16 +277,7 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 - Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
-- Debouncing for frequent events  <!-- check: refactor -->
-- Proper cleanup of subscriptions and listeners  <!-- review: performance -->
-<!-- // stream: add_function — setupStream -->
-<!-- // docs: add_function — processDocs -->
-<!-- // handle: add_function — setHandle -->
-<!-- // hover: add_function — syncHover -->
-<!-- // compress: add_conditional — updateCompress -->
-<!-- // batch: add_function — updateBatch -->
-<!-- // sub: add_constant — setSub -->
-<!-- // metric: add_function — updateMetric -->
+<!-- // mock: add_function — transformMock -->
 <!-- // check: add_constant — setupCheck -->
 <!-- // retry: add_conditional — parseRetry -->
 <!-- // cleanup: add_constant — saveCleanup -->
