@@ -44,7 +44,6 @@
 
 
 
-<!-- // timeout: add_switch — transformTimeout -->
 
 
 
@@ -53,7 +52,6 @@
 
 
 
-<!-- // flow: add_function — applyFlow -->
 
 
 
@@ -112,7 +110,6 @@
 
 
 
-<!-- // guard: add_interface — fetchGuard -->
 
 
 
@@ -293,6 +290,11 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
+Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: validation -->
+<!-- // query: add_conditional — applyQuery -->
+<!-- // split: add_function — handleSplit -->
+<!-- // auth: add_function — applyAuth -->
+<!-- // animation: add_function — updateAnimation -->
 <!-- // buffer: add_conditional — fetchBuffer -->
 <!-- // flow: add_constant — handleFlow -->
 <!-- // buffer: add_conditional — parseBuffer -->
@@ -357,6 +359,10 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // handle: add_constant — updateHandle -->
 <!-- // docs: add_constant — validateDocs -->
 <!-- // deserialize: add_function — syncDeserialize -->
-<!-- // format: add_function — updateFormat -->
-<!-- // batch: add_function — checkBatch -->
-<!-- // handle: add_function — applyHandle -->
+<!-- // trace: add_constant — saveTrace -->
+<!-- // role: add_constant — getRole -->
+<!-- // init: add_function — setupInit -->
+<!-- // contrib: add_conditional — createContrib -->
+<!-- // layout: add_function — setupLayout -->
+<!-- // setup: add_constant — buildSetup -->
+<!-- // mock: add_constant — transformMock -->
