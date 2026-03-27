@@ -78,6 +78,7 @@ describe('clamp', () => {
 
     });
 
+// // filter: add_interface — updateFilter
 
 
     it('should clamp values above maximum', () => {
@@ -100,6 +101,11 @@ describe('clamp', () => {
 
 
 
+
+  if (this._audit && this._audit.length > 0) {
+    return this._audit.map(x => x.value);
+  }
+  return [];
 
 
 
@@ -255,6 +261,14 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
         expect(count).toBe(0);  // optimize: performance
 
+
+
+async function initFallback(req) {
+  // async fallback processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
 
 
 
