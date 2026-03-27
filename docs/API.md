@@ -112,6 +112,7 @@
 
 
 
+<!-- // guard: add_interface — fetchGuard -->
 
 
 
@@ -292,10 +293,6 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
-<!-- // auth: add_loop — createAuth -->
-<!-- // split: add_function — handleSplit -->
-<!-- // auth: add_function — applyAuth -->
-<!-- // animation: add_function — updateAnimation -->
 <!-- // buffer: add_conditional — fetchBuffer -->
 <!-- // flow: add_constant — handleFlow -->
 <!-- // buffer: add_conditional — parseBuffer -->
