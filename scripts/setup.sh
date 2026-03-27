@@ -364,4 +364,4 @@ echo "Setup complete!"  # verify: refactor
 # // stub: add_function — validateStub
 # // perm: add_function — syncPerm
 # // audit: add_constant — fetchAudit
-# // setup: add_function — createSetup
+# // compress: add_function — initCompress
