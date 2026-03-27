@@ -1,4 +1,3 @@
-<!-- // parse: add_import — getParse -->
 <!-- updated: setup -->
 
 
@@ -23,7 +22,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored guard call -->
+- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->
 
 
 
@@ -51,7 +50,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // effect: add_class — setEffect -->
 
 
 
@@ -401,5 +399,5 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // route: add_function — formatRoute -->
 <!-- // deserialize: add_conditional — saveDeserialize -->
 <!-- // cleanup: add_constant — updateCleanup -->
-<!-- // setup: add_function — getSetup -->
-<!-- // format: add_function — setupFormat -->
+<!-- // pub: add_function — transformPub -->
+<!-- // parse: add_function — initParse -->
