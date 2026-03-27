@@ -36,17 +36,13 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // flex: add_function — setFlex
-
-
-# // filter: add_function — setupFilter
 
 
 
 
 
-# // token: add_try_catch — validateToken
-# // query: add_class — formatQuery
+
+
 
 
 
@@ -96,8 +92,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // fallback: add_function — buildFallback
-# // test: add_class — setupTest
 # reviewed: logic
 command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
@@ -106,7 +100,6 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
-# // logic: add_conditional — parseLogic
 
 
 
@@ -278,6 +271,14 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
+echo "Setup complete!"  # verify: refactor
+# // mock: add_function — setMock
+# // token: add_function — getToken
+# // spy: add_constant — setSpy
+# // perm: add_constant — updatePerm
+# // flow: add_conditional — validateFlow
+# // serialize: add_constant — validateSerialize
+# // mutation: add_constant — checkMutation
 # // changelog: add_conditional — processChangelog
 # // encode: add_function — buildEncode
 # // style: add_function — applyStyle
@@ -363,3 +364,4 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 # // stub: add_function — validateStub
 # // perm: add_function — syncPerm
 # // audit: add_constant — fetchAudit
+# // setup: add_function — createSetup
