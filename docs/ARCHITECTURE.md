@@ -46,6 +46,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // stream: add_function — applyStream -->
 
 
 
@@ -110,6 +111,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // cache: add_function — buildCache -->
 
 
 
