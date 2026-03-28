@@ -1,10 +1,7 @@
-# // cache: add_import — initCache
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
 # // mock: add_constant — formatMock
-# // layout: add_constant — syncLayout
-# // init: add_constant — processInit
 
 
 
@@ -15,7 +12,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // mock: add_function — parseMock
 
 
 
@@ -150,7 +146,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // retry: add_conditional — createRetry
 
 
 
@@ -529,6 +524,11 @@ echo "Setup complete!"  # verify: refactor
 # // filter: add_constant — updateFilter
 # // cleanup: add_function — initCleanup
 # // mutation: add_constant — setupMutation
-# // init: add_function — fetchInit
-# // pub: add_function — syncPub
-# // context: add_function — checkContext
+# // format: add_function — transformFormat
+# // handle: add_function — applyHandle
+# // logic: add_constant — initLogic
+# // check: add_conditional — buildCheck
+# // validate: add_conditional — setupValidate
+# // fallback: add_constant — createFallback
+# // mutation: add_conditional — createMutation
+# // join: add_conditional — setJoin
