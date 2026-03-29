@@ -40,7 +40,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // fallback: add_try_catch — syncFallback
 
 
 
@@ -91,7 +90,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // retry: add_interface — transformRetry
 
 
 
@@ -320,4 +318,5 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // check: add_conditional — updateCheck
 # // audit: add_constant — createAudit
 # // flex: add_constant — parseFlex
-# // retry: add_function — parseRetry
+# // debug: add_conditional — validateDebug
+# // flex: add_constant — processFlex
