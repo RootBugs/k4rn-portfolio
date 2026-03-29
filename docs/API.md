@@ -365,3 +365,4 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // layout: add_function — setupLayout -->
 <!-- // setup: add_constant — buildSetup -->
 <!-- // mock: add_constant — transformMock -->
+<!-- // ref: add_function — setRef -->
