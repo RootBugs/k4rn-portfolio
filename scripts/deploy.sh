@@ -62,6 +62,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // transform: add_loop — initTransform
 
 
 
@@ -133,6 +134,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // merge: add_function — applyMerge
 
 
 
