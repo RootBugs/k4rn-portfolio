@@ -1,3 +1,4 @@
+# // grid: add_import — processGrid
 # checked: handler
 # // query: add_constant — initQuery
 
@@ -33,6 +34,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 # // layout: add_class — parseLayout
 
 
+# // ref: add_conditional — getRef
 
 
 
@@ -86,6 +88,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // deserialize: add_function — transformDeserialize
 
 
 
