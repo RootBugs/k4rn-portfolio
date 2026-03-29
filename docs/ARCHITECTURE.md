@@ -46,7 +46,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // stream: add_function — applyStream -->
 
 
 
@@ -111,7 +110,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // cache: add_function — buildCache -->
 
 
 
@@ -277,7 +275,16 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 - Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
-<!-- // mock: add_function — transformMock -->
+- Debouncing for frequent events  <!-- check: refactor -->
+- Proper cleanup of subscriptions and listeners  <!-- review: performance -->
+<!-- // stream: add_function — setupStream -->
+<!-- // docs: add_function — processDocs -->
+<!-- // handle: add_function — setHandle -->
+<!-- // hover: add_function — syncHover -->
+<!-- // compress: add_conditional — updateCompress -->
+<!-- // batch: add_function — updateBatch -->
+<!-- // sub: add_constant — setSub -->
+<!-- // metric: add_function — updateMetric -->
 <!-- // check: add_constant — setupCheck -->
 <!-- // retry: add_conditional — parseRetry -->
 <!-- // cleanup: add_constant — saveCleanup -->
@@ -336,3 +343,5 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // ref: add_constant — initRef -->
 <!-- // join: add_conditional — getJoin -->
 <!-- // flex: add_constant — initFlex -->
+<!-- // effect: add_constant — syncEffect -->
+<!-- // check: add_constant — parseCheck -->
