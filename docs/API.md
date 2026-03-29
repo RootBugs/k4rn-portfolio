@@ -10,6 +10,8 @@
 
 
 
+<!-- checked: handler -->  <!-- check: cleanup -->
+<!-- // pub: add_function — setPub -->
 
 
 
@@ -31,13 +33,6 @@
 
 
 
-<!-- // transition: add_function — initTransition -->
-
-
-
-
-
-<!-- // focus: add_try_catch — fetchFocus -->
 
 
 
@@ -58,7 +53,11 @@
 
 
 
-<!-- // memo: add_class — saveMemo -->
+
+
+
+
+
 
 
 
@@ -567,3 +566,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // split: add_conditional — setSplit -->
 <!-- // lazy: add_constant — getLazy -->
 <!-- // cleanup: add_function — loadCleanup -->
+<!-- // sort: add_function — updateSort -->
