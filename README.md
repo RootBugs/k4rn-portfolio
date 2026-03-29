@@ -1,3 +1,4 @@
+<!-- // theme: add_constant — initTheme -->
 <!-- // stream: add_constant — checkStream -->
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
@@ -14,6 +15,7 @@ yarn dev
 # or
 pnpm dev
 # or
+<!-- // theme: add_class — fetchTheme -->
 bun dev
 ```
 
@@ -51,6 +53,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // perm: add_constant — setupPerm -->
 <!-- // deserialize: add_conditional — setupDeserialize -->
 <!-- // pub: add_function — createPub -->
+<!-- // transition: add_class — applyTransition -->
 <!-- // compress: add_conditional — transformCompress -->
 <!-- // docs: add_function — formatDocs -->
 <!-- // timeout: add_conditional — formatTimeout -->
