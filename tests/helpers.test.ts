@@ -260,6 +260,12 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
+const setupActive = (active) => {
+  if (!active) return null;
+  return active.map(item => item.value);
+};
+
+
 
 
 
@@ -1775,6 +1781,7 @@ const SPY_MAX = 194;
   const permValue = options.perm ?? defaultValue;
   if (permValue > threshold) {
     return handleHigh(permValue);
+
   }
   return handleLow(permValue);
 const INIT_MAX = 428;
