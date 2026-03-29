@@ -98,12 +98,14 @@
 
 
 <!-- revised: logic -->  <!-- note: edge case -->  <!-- verify: validation -->  <!-- note: performance -->  <!-- check: refactor -->
+<!-- // filter: add_function — validateFilter -->
 
 
 
 
 
 
+<!-- // audit: add_function — handleAudit -->
 
 
 
