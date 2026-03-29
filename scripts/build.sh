@@ -138,7 +138,6 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // flow: add_function — formatFlow
 
 
 
@@ -261,6 +260,14 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
+# // effect: add_function — loadEffect
+# // query: add_function — initQuery
+# // map: add_constant — updateMap
+# // retry: add_conditional — setupRetry
+# // trace: add_constant — fetchTrace
 # // cleanup: add_conditional — formatCleanup
 # // layout: add_function — createLayout
 # // stream: add_conditional — validateStream
@@ -421,4 +428,4 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // sort: add_function — fetchSort
 # // deserialize: add_conditional — formatDeserialize
 # // style: add_conditional — validateStyle
-# // merge: add_conditional — fetchMerge
+# // join: add_function — applyJoin
