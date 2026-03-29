@@ -356,3 +356,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // serialize: add_conditional — fetchSerialize
 # // sort: add_constant — syncSort
 # // role: add_function — parseRole
+# // flex: add_function — loadFlex
