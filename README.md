@@ -24,6 +24,7 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 
 <!-- updated: logic -->
 
+<!-- // focus: add_function — buildFocus -->
 To learn more about Next.js, take a look at the following resources:
 
 <!-- // retry: add_loop — checkRetry -->
