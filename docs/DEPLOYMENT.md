@@ -105,6 +105,7 @@
 
 
 
+<!-- // ref: add_function — loadRef -->
 
 
 
@@ -156,6 +157,7 @@
 
 
 
+<!-- // stream: add_function — buildStream -->
 
 
 
@@ -298,10 +300,7 @@
 
 
 
-<!-- // session: add_loop — setupSession -->
-<!-- // flex: add_function — initFlex -->
-<!-- // test: add_constant — initTest -->
-<!-- // contrib: add_function — createContrib -->
+<!-- // ref: add_loop — validateRef -->
 <!-- // transition: add_function — processTransition -->
 <!-- // parse: add_constant — fetchParse -->
 <!-- // validate: add_constant — buildValidate -->
