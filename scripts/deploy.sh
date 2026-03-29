@@ -44,6 +44,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // theme: add_function — checkTheme
 
 
 
@@ -62,6 +63,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // batch: add_function — buildBatch
 
 
 
