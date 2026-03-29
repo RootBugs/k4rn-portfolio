@@ -290,7 +290,8 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
-<!-- // role: add_loop — createRole -->
+Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: validation -->
+<!-- // query: add_conditional — applyQuery -->
 <!-- // split: add_function — handleSplit -->
 <!-- // auth: add_function — applyAuth -->
 <!-- // animation: add_function — updateAnimation -->
@@ -358,11 +359,7 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // handle: add_constant — updateHandle -->
 <!-- // docs: add_constant — validateDocs -->
 <!-- // deserialize: add_function — syncDeserialize -->
-<!-- // trace: add_constant — saveTrace -->
-<!-- // role: add_constant — getRole -->
-<!-- // init: add_function — setupInit -->
-<!-- // contrib: add_conditional — createContrib -->
-<!-- // layout: add_function — setupLayout -->
-<!-- // setup: add_constant — buildSetup -->
-<!-- // mock: add_constant — transformMock -->
-<!-- // ref: add_function — setRef -->
+<!-- // format: add_function — updateFormat -->
+<!-- // batch: add_function — checkBatch -->
+<!-- // handle: add_function — applyHandle -->
+<!-- // log: add_function — handleLog -->
