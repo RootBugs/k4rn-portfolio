@@ -374,3 +374,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // fallback: add_constant — validateFallback
 # // readme: add_function — checkReadme
 # // logic: add_function — loadLogic
+# // readme: add_function — saveReadme
