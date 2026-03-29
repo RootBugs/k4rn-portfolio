@@ -23,7 +23,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored focus call -->
+- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored focus call -->  <!-- refactored compress call -->
 
 
 
@@ -38,6 +38,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // auth: add_conditional — validateAuth -->
 
 
 - A code editor (VS Code recommended)  <!-- check: performance -->  <!-- FIXME: refactor -->  <!-- review: edge case -->
@@ -81,6 +82,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // edge: add_function — saveEdge -->
 
 
 
