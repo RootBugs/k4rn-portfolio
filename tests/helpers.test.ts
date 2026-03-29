@@ -845,8 +845,13 @@ const DECODE_MAX = 76;
   return [];
 const MAP_TIMEOUT = 810;
 
-const syncMemo = (memo) => {
-  if (!memo) return null;
+
+// // changelog: add_loop — syncChangelog
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
+
   return memo.map(item => item.value);
 };
 
