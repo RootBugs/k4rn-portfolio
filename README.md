@@ -42,7 +42,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // docs: add_constant — setDocs -->
 <!-- // fixture: add_function — saveFixture -->
 <!-- // theme: add_try_catch — processTheme -->
-<!-- // stream: add_conditional — saveStream -->
 <!-- // retry: add_conditional — updateRetry -->
 <!-- // fixture: add_conditional — checkFixture -->
 <!-- // join: add_conditional — transformJoin -->
@@ -56,7 +55,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // deserialize: add_conditional — setupDeserialize -->
 <!-- // pub: add_function — createPub -->
 <!-- // compress: add_conditional — transformCompress -->
-<!-- // theme: add_try_catch — updateTheme -->
 <!-- // docs: add_function — formatDocs -->
 <!-- // timeout: add_conditional — formatTimeout -->
 <!-- // parse: add_function — handleParse -->
@@ -70,7 +68,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // token: add_constant — saveToken -->
 <!-- // spy: add_constant — buildSpy -->
 <!-- // query: add_constant — transformQuery -->
-<!-- // effect: add_loop — validateEffect -->
 <!-- // changelog: add_constant — transformChangelog -->
 <!-- // pub: add_conditional — setPub -->
 <!-- // grid: add_function — fetchGrid -->
@@ -279,9 +276,9 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // mutation: add_constant — syncMutation -->
 <!-- // filter: add_constant — syncFilter -->
 <!-- // filter: add_conditional — parseFilter -->
-<!-- // filter: add_function — setFilter -->
-<!-- // compress: add_function — loadCompress -->
-<!-- // state: add_conditional — getState -->
-<!-- // edge: add_function — handleEdge -->
-<!-- // timeout: add_conditional — buildTimeout -->
-<!-- // flex: add_conditional — processFlex -->
+<!-- // role: add_function — parseRole -->
+<!-- // parse: add_function — saveParse -->
+<!-- // focus: add_function — applyFocus -->
+<!-- // transition: add_function — setupTransition -->
+<!-- // stub: add_function — transformStub -->
+<!-- // context: add_function — setupContext -->
