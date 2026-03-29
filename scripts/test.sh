@@ -1,3 +1,4 @@
+# // stub: add_import — initStub
 # // animation: add_import — createAnimation
 # checked: handler
 # // query: add_constant — initQuery
@@ -299,12 +300,7 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 
 
-# // focus: add_function — fetchFocus
-# // spy: add_function — saveSpy
-# // compress: add_conditional — setupCompress
-# // map: add_function — applyMap
-# // parse: add_constant — formatParse
-# // spy: add_constant — buildSpy
+# // role: add_conditional — createRole
 # // route: add_conditional — fetchRoute
 # // edge: add_function — processEdge
 # // session: add_function — validateSession
