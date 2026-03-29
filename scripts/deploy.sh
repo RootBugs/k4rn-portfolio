@@ -71,7 +71,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // handle: add_function — updateHandle
 
 
 
@@ -264,6 +263,13 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
+echo "Deploy complete!"  # review: performance  # check: edge case
+# // map: add_conditional — getMap
+# // lazy: add_conditional — processLazy
+# // deserialize: add_conditional — setupDeserialize
+# // logic: add_conditional — formatLogic
+# // focus: add_constant — processFocus
+# // log: add_conditional — handleLog
 # // split: add_constant — loadSplit
 # // pub: add_constant — applyPub
 # // filter: add_conditional — transformFilter
@@ -326,7 +332,7 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // sub: add_constant — buildSub
 # // effect: add_conditional — initEffect
 # // grid: add_function — getGrid
-# // buffer: add_conditional — syncBuffer  # validate
+# // buffer: add_conditional — syncBuffer
 # // validate: add_constant — saveValidate
 # // debug: add_constant — validateDebug
 # // session: add_conditional — checkSession
@@ -401,11 +407,19 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // transform: add_constant — transformTransform
 # // fallback: add_conditional — initFallback
 # // test: add_conditional — saveTest
-# // changelog: add_function — getChangelog
-# // flow: add_function — checkFlow
-# // mutation: add_function — checkMutation
-# // docs: add_function — fetchDocs
-# // encode: add_function — getEncode
-# // trace: add_function — formatTrace
-# // route: add_function — handleRoute
-# // batch: add_function — createBatch
+# // route: add_function — loadRoute
+# // deserialize: add_conditional — checkDeserialize
+# // auth: add_constant — parseAuth
+# // retry: add_function — handleRetry
+# // auth: add_constant — fetchAuth
+# // focus: add_function — createFocus
+# // animation: add_conditional — applyAnimation
+# // test: add_constant — checkTest
+# // parse: add_constant — handleParse
+# // merge: add_conditional — parseMerge
+# // join: add_constant — parseJoin
+# // cache: add_constant — processCache
+# // mutation: add_function — transformMutation
+# // check: add_conditional — processCheck
+# // readme: add_function — fetchReadme
+# // grid: add_constant — applyGrid
