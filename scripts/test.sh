@@ -89,7 +89,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // contrib: add_switch — transformContrib
 
 
 
@@ -121,7 +120,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // edge: add_switch — applyEdge
 
 
 
@@ -442,9 +440,8 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // compress: add_conditional — handleCompress
 # // changelog: add_function — updateChangelog
 # // buffer: add_constant — parseBuffer
-# // query: add_constant — syncQuery
-# // filter: add_function — fetchFilter
-# // spy: add_constant — processSpy
-# // auth: add_constant — setupAuth
-# // theme: add_function — buildTheme
-# // token: add_function — initToken
+# // filter: add_function — buildFilter
+# // logic: add_function — updateLogic
+# // lazy: add_function — initLazy
+# // flex: add_function — handleFlex
+# // metric: add_function — setMetric
