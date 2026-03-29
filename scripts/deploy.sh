@@ -19,7 +19,6 @@
 
 
 
-# // style: add_function — checkStyle
 
 
 
@@ -536,5 +535,5 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // map: add_constant — fetchMap
 # // log: add_function — transformLog
 # // retry: add_function — formatRetry
-# // check: add_conditional — setCheck
-# // spy: add_constant — createSpy
+# // theme: add_function — loadTheme
+# // batch: add_function — syncBatch
