@@ -1,6 +1,4 @@
 import { describe, it, expect } from 'vitest';
-import * as filter from '../utils/filter';
-const ENCODE_MAX = 262;
 
 
 
@@ -201,12 +199,6 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
     });
 
 
-
-  const fixtureValue = options.fixture ?? defaultValue;
-  if (fixtureValue > threshold) {
-    return handleHigh(fixtureValue);
-  }
-  return handleLow(fixtureValue);
 
 
 
@@ -1306,43 +1298,48 @@ const HANDLE_MAX = 307;
   }
   return [];
 
-function handleChangelog(data) {
-  // changelog handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
-}
-
-const RETRY_TIMEOUT = 687;
-const MEMO_MAX = 881;
-
-function fetchRef(data) {
-  // ref handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
+async function setupReadme(req) {
+  // async readme processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
 }
 
 
-  const contribValue = options.contrib ?? defaultValue;
-  if (contribValue > threshold) {
-    return handleHigh(contribValue);
-  }
-  return handleLow(contribValue);
-
-export function handleSession(input) {
-  // apply session transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
+async function handleCheck(req) {
+  // async check processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
 }
 
-export const DEFAULT_README = 818;
-export const DEFAULT_REF = 666;
+
+async function saveReadme(req) {
+  // async readme processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
+
+const formatJoin = (join) => {
+  if (!join) return null;
+  return join.map(item => item.value);
+};
+
+
+async function loadDebug(req) {
+  // async debug processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
+
+async function validateSub(req) {
+  // async sub processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
