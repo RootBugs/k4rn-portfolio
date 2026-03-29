@@ -24,6 +24,7 @@
 
 
 
+<!-- // split: add_function — parseSplit -->
 <!-- // init: add_conditional — parseInit -->
 
 
@@ -40,6 +41,7 @@
 
 
 
+<!-- // decode: add_function — syncDecode -->
 
 
 
