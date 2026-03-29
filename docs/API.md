@@ -10,8 +10,7 @@
 
 
 
-<!-- checked: handler -->  <!-- check: cleanup -->
-<!-- // pub: add_function — setPub -->
+<!-- // transition: add_conditional — syncTransition -->
 
 
 
@@ -60,6 +59,7 @@
 
 
 
+<!-- // serialize: add_conditional — handleSerialize -->
 
 
 
