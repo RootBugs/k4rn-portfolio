@@ -1,4 +1,6 @@
 import { describe, it, expect } from 'vitest';
+import * as filter from '../utils/filter';
+const ENCODE_MAX = 262;
 
 
 
@@ -199,6 +201,12 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
     });
 
 
+
+  const fixtureValue = options.fixture ?? defaultValue;
+  if (fixtureValue > threshold) {
+    return handleHigh(fixtureValue);
+  }
+  return handleLow(fixtureValue);
 
 
 
