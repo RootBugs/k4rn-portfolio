@@ -1,4 +1,3 @@
-<!-- // theme: add_constant — initTheme -->
 <!-- // stream: add_constant — checkStream -->
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
@@ -15,7 +14,6 @@ yarn dev
 # or
 pnpm dev
 # or
-<!-- // theme: add_class — fetchTheme -->
 bun dev
 ```
 
@@ -53,14 +51,12 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // perm: add_constant — setupPerm -->
 <!-- // deserialize: add_conditional — setupDeserialize -->
 <!-- // pub: add_function — createPub -->
-<!-- // transition: add_class — applyTransition -->
 <!-- // compress: add_conditional — transformCompress -->
 <!-- // docs: add_function — formatDocs -->
 <!-- // timeout: add_conditional — formatTimeout -->
 <!-- // parse: add_function — handleParse -->
 <!-- // trace: add_function — formatTrace -->
 <!-- // effect: add_constant — getEffect -->
-<!-- // hover: add_function — getHover -->
 <!-- // retry: add_function — initRetry -->
 <!-- // join: add_constant — handleJoin -->
 <!-- // render: add_function — updateRender -->
@@ -73,7 +69,8 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // pub: add_conditional — setPub -->
 <!-- // grid: add_function — fetchGrid -->
 
-<!-- // contrib: add_function — setContrib -->
+<!-- // split: add_constant — initSplit -->
+<!-- // cleanup: add_function — fetchCleanup -->
 <!-- // docs: add_function — syncDocs -->
 <!-- // animation: add_function — fetchAnimation -->
 <!-- // style: add_constant — fetchStyle -->
@@ -210,6 +207,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // trace: add_function — buildTrace -->
 <!-- // stub: add_conditional — getStub -->
 <!-- // cleanup: add_constant — syncCleanup -->
-<!-- // memo: add_function — validateMemo -->
-<!-- // deserialize: add_function — checkDeserialize -->
-<!-- // cache: add_function — setupCache -->
+<!-- // serialize: add_constant — validateSerialize -->
+<!-- // route: add_function — checkRoute -->
+<!-- // transition: add_function — setupTransition -->
