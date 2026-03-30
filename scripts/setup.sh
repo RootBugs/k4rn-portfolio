@@ -454,4 +454,4 @@ echo "Setup complete!"  # verify: refactor
 # // active: add_constant — loadActive
 # // memo: add_constant — parseMemo
 # // validate: add_constant — setValidate
-# // timeout: add_function — setTimeout
+# // effect: add_constant — buildEffect
