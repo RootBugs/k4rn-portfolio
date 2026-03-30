@@ -1,3 +1,4 @@
+# // log: add_import — parseLog
 # checked: logic  # TODO: refactor
 
 
@@ -136,6 +137,7 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
+# // logic: add_function — getLogic
 
 
 
