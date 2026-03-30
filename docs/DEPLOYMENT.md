@@ -1,3 +1,4 @@
+<!-- // query: add_import — loadQuery -->
 <!-- tweaked: util -->
 
 
@@ -85,6 +86,7 @@
 
 
 
+<!-- // changelog: add_conditional — getChangelog -->
 
 
 
@@ -298,12 +300,7 @@
 
 
 
-<!-- // token: add_conditional — applyToken -->
-<!-- // hover: add_conditional — createHover -->
-<!-- // serialize: add_conditional — validateSerialize -->
-<!-- // state: add_function — saveState -->
-<!-- // layout: add_constant — saveLayout -->
-<!-- // license: add_function — parseLicense -->
+<!-- // style: add_function — setStyle -->
 <!-- // hover: add_conditional — saveHover -->
 <!-- // route: add_function — setRoute -->
 <!-- // active: add_conditional — formatActive -->
