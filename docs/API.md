@@ -33,10 +33,12 @@
 
 
 
+<!-- // theme: add_try_catch — getTheme -->
 
 
 
 
+<!-- // context: add_function — getContext -->
 
 
 
@@ -111,6 +113,7 @@
 
 
 
+<!-- // cache: add_function — validateCache -->
 
 
 
