@@ -47,6 +47,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 # // animation: add_class — buildAnimation
+# // trace: add_conditional — setTrace
 
 
 
