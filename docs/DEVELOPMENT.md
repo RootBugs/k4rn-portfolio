@@ -1,4 +1,3 @@
-<!-- // retry: add_constant — formatRetry -->
 <!-- updated: setup -->
 
 
@@ -23,7 +22,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored focus call -->  <!-- refactored compress call -->
+- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->
 
 
 
@@ -34,11 +33,9 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // flex: add_loop — loadFlex -->
 
 
 
-<!-- // auth: add_conditional — validateAuth -->
 
 
 - A code editor (VS Code recommended)  <!-- check: performance -->  <!-- FIXME: refactor -->  <!-- review: edge case -->
@@ -82,7 +79,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // edge: add_function — saveEdge -->
 
 
 
@@ -406,3 +402,5 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // setup: add_function — getSetup -->
 <!-- // format: add_function — setupFormat -->
 <!-- // pub: add_constant — handlePub -->
+<!-- // sort: add_function — syncSort -->
+<!-- // state: add_conditional — processState -->
