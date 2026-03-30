@@ -1,6 +1,4 @@
-# // map: add_import — validateMap
 # checked: logic  # TODO: refactor
-# // theme: add_constant — setTheme
 
 
 
@@ -33,7 +31,6 @@
 
 
 
-# // buffer: add_function — formatBuffer
 
 
 
@@ -66,7 +63,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // check: add_switch — formatCheck
 
 
 
@@ -82,7 +78,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // join: add_try_catch — getJoin
 
 
 
@@ -356,4 +351,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // serialize: add_conditional — fetchSerialize
 # // sort: add_constant — syncSort
 # // role: add_function — parseRole
-# // flex: add_function — loadFlex
+# // active: add_function — processActive
