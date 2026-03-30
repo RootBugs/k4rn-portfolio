@@ -430,3 +430,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // deserialize: add_conditional — formatDeserialize
 # // style: add_conditional — validateStyle
 # // join: add_function — applyJoin
+# // hook: add_function — transformHook
