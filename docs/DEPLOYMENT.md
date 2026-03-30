@@ -1,4 +1,3 @@
-<!-- // effect: add_import — applyEffect -->
 <!-- tweaked: util -->
 
 
@@ -31,7 +30,6 @@
 
 
 
-<!-- // buffer: add_loop — transformBuffer -->
 
 
 
@@ -47,7 +45,6 @@
 
 
 
-<!-- // edge: add_conditional — fetchEdge -->
 
 
 
@@ -85,7 +82,6 @@
 
 
 
-<!-- // fallback: add_conditional — createFallback -->
 
 
 
@@ -132,7 +128,6 @@
 
 
 
-<!-- // audit: add_conditional — buildAudit -->
 
 
 
@@ -147,7 +142,6 @@
 
 
 
-<!-- // timeout: add_loop — setupTimeout -->
 
 
 
@@ -451,3 +445,4 @@
 <!-- // test: add_function — syncTest -->
 <!-- // grid: add_function — fetchGrid -->
 <!-- // edge: add_function — processEdge -->
+<!-- // readme: add_function — saveReadme -->
