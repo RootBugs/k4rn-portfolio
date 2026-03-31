@@ -68,6 +68,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // encode: add_interface — applyEncode -->
 
 
 
@@ -307,9 +308,7 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // sub: add_function — formatSub -->
-<!-- // audit: add_constant — setAudit -->
-<!-- // query: add_conditional — buildQuery -->
+<!-- // retry: add_loop — createRetry -->
 <!-- // docs: add_conditional — initDocs -->
 <!-- // pub: add_function — createPub -->
 <!-- // log: add_function — processLog -->
