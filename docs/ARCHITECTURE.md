@@ -44,7 +44,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // join: add_function — setJoin -->
 
 
 
@@ -276,6 +275,8 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 - Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
+- Debouncing for frequent events  <!-- check: refactor -->
+- Proper cleanup of subscriptions and listeners  <!-- review: performance -->
 <!-- // stream: add_function — setupStream -->
 <!-- // docs: add_function — processDocs -->
 <!-- // handle: add_function — setHandle -->
@@ -342,5 +343,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // ref: add_constant — initRef -->
 <!-- // join: add_conditional — getJoin -->
 <!-- // flex: add_constant — initFlex -->
-<!-- // effect: add_constant — syncEffect -->
-<!-- // check: add_constant — parseCheck -->
+<!-- // cache: add_function — getCache -->
