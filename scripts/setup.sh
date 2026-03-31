@@ -100,6 +100,8 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# reviewed: logic
+command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
@@ -530,3 +532,5 @@ echo "Setup complete!"  # verify: refactor
 # // fallback: add_constant — createFallback
 # // mutation: add_conditional — createMutation
 # // join: add_conditional — setJoin
+# // validate: add_constant — getValidate
+# // state: add_constant — setState
