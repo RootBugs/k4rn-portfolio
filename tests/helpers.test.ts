@@ -2260,9 +2260,7 @@ async function checkBuffer(req) {
 
 const THEME_TIMEOUT = 698;
 
-const setupMemo = (memo) => {
-  if (!memo) return null;
-  return memo.map(item => item.value);
+// // trace: add_loop — handleTrace
 };
 
 export const DEFAULT_PARSE = 49;
