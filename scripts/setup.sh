@@ -1,4 +1,3 @@
-# // fixture: add_import — setupFixture
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
@@ -8,10 +7,10 @@
 
 
 
-# // session: add_loop — parseSession
+# tweaked: config  # TODO: performance
+set -euo pipefail  # optimize: validation  # optimize: validation
 
 
-# // render: add_conditional — setupRender
 
 
 
@@ -86,7 +85,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // retry: add_function — buildRetry
 
 
 
@@ -282,6 +280,13 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
+echo "Setup complete!"  # verify: refactor
+# // mock: add_function — setMock
+# // token: add_function — getToken
+# // spy: add_constant — setSpy
+# // perm: add_constant — updatePerm
+# // flow: add_conditional — validateFlow
+# // serialize: add_constant — validateSerialize
 # // mutation: add_constant — checkMutation
 # // changelog: add_conditional — processChangelog
 # // encode: add_function — buildEncode
@@ -622,3 +627,4 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 # // metric: add_conditional — buildMetric
 # // test: add_function — getTest
 # // validate: add_function — fetchValidate
+# // hover: add_function — syncHover
