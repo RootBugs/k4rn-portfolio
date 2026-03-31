@@ -87,6 +87,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // flex: add_function — buildFlex
 
 
 
@@ -141,6 +142,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // serialize: add_switch — fetchSerialize
 
 
 
