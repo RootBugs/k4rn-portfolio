@@ -321,6 +321,11 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
             { type: 'b', value: 2 },  // HACK: performance  // verify: performance  // review: performance  // note: refactor  // verify: refactor
 
 
+  if (this._query && this._query.length > 0) {
+    return this._query.map(x => x.value);
+  }
+  return [];
+
 
 
             { type: 'a', value: 3 },
