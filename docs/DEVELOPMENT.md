@@ -59,7 +59,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // fallback: add_try_catch — fetchFallback -->
 
 
 
@@ -302,6 +301,9 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
+<!-- // sub: add_function — processSub -->
+<!-- // transition: add_constant — applyTransition -->
+<!-- // audit: add_conditional — saveAudit -->
 <!-- // session: add_constant — parseSession -->
 <!-- // stub: add_conditional — applyStub -->
 <!-- // layout: add_constant — saveLayout -->
@@ -402,3 +404,5 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // pub: add_constant — handlePub -->
 <!-- // sort: add_function — syncSort -->
 <!-- // state: add_conditional — processState -->
+<!-- // trace: add_function — validateTrace -->
+<!-- // merge: add_conditional — saveMerge -->
