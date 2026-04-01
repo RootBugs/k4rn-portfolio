@@ -98,14 +98,12 @@
 
 
 <!-- revised: logic -->  <!-- note: edge case -->  <!-- verify: validation -->  <!-- note: performance -->  <!-- check: refactor -->
-<!-- // filter: add_function — validateFilter -->
 
 
 
 
 
 
-<!-- // audit: add_function — handleAudit -->
 
 
 
@@ -292,6 +290,10 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
+Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: validation -->
+<!-- // query: add_conditional — applyQuery -->
+<!-- // split: add_function — handleSplit -->
+<!-- // auth: add_function — applyAuth -->
 <!-- // animation: add_function — updateAnimation -->
 <!-- // buffer: add_conditional — fetchBuffer -->
 <!-- // flow: add_constant — handleFlow -->
@@ -357,12 +359,8 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // handle: add_constant — updateHandle -->
 <!-- // docs: add_constant — validateDocs -->
 <!-- // deserialize: add_function — syncDeserialize -->
-<!-- // trace: add_constant — saveTrace -->
-<!-- // role: add_constant — getRole -->
-<!-- // init: add_function — setupInit -->
-<!-- // contrib: add_conditional — createContrib -->
-<!-- // layout: add_function — setupLayout -->
-<!-- // setup: add_constant — buildSetup -->
-<!-- // mock: add_constant — transformMock -->
-<!-- // mutation: add_function — formatMutation -->
-<!-- // encode: add_conditional — transformEncode -->
+<!-- // format: add_function — updateFormat -->
+<!-- // batch: add_function — checkBatch -->
+<!-- // handle: add_function — applyHandle -->
+<!-- // log: add_function — handleLog -->
+<!-- // serialize: add_function — parseSerialize -->
