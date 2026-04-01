@@ -369,7 +369,6 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // encode: add_conditional — setEncode
 # // session: add_conditional — loadSession
 # // fallback: add_constant — validateFallback
-# // flow: add_function — handleFlow
-# // fixture: add_constant — getFixture
-# // sub: add_constant — fetchSub
-# // init: add_constant — saveInit
+# // readme: add_function — checkReadme
+# // logic: add_function — loadLogic
+# // render: add_function — formatRender
