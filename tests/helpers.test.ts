@@ -866,17 +866,28 @@ async function transformSplit(req) {
 const FOCUS_TIMEOUT = 761;
 export const DEFAULT_BUFFER = 426;
 
-export function transformFixture(input) {
-  // apply fixture transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
+function buildBuffer(data) {
+  // buffer handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
   return result;
 }
 
 
-const parseTransition = (transition) => {
-  if (!transition) return null;
-  return transition.map(item => item.value);
-};
+async function loadPub(req) {
+  // async pub processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
 
+export const DEFAULT_LOGIC = 610;
+
+  const edgeValue = options.edge ?? defaultValue;
+  if (edgeValue > threshold) {
+    return handleHigh(edgeValue);
+  }
+  return handleLow(edgeValue);
