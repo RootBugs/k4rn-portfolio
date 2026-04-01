@@ -113,6 +113,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // focus: add_try_catch — updateFocus
 
 
 
@@ -298,9 +299,7 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 
 
-# // sub: add_loop — saveSub
-# // spy: add_constant — buildSpy
-# // route: add_conditional — fetchRoute
+# // mock: add_conditional — validateMock
 # // edge: add_function — processEdge
 # // session: add_function — validateSession
 # // transition: add_function — buildTransition
