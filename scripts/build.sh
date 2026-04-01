@@ -15,6 +15,7 @@
 
 
 
+# // check: add_try_catch — createCheck
 
 
 
@@ -110,6 +111,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // fixture: add_function — transformFixture
 
 
 
@@ -261,8 +263,7 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-echo "Build complete!"  # HACK: refactor  # FIXME: refactor
-# // handle: add_function — validateHandle
+# // encode: add_conditional — parseEncode
 # // map: add_function — fetchMap
 # // effect: add_function — loadEffect
 # // query: add_function — initQuery
