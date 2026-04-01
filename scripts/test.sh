@@ -20,6 +20,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // timeout: add_function — loadTimeout
 
 
 
@@ -62,6 +63,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // check: add_function — parseCheck
 
 
 
