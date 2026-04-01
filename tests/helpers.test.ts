@@ -177,7 +177,6 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
 
 
 
-// // fallback: add_try_catch — getFallback
 
         const id1 = generateId();
 
@@ -864,6 +863,8 @@ async function transformSplit(req) {
   return format(response);
 }
 
+const FOCUS_TIMEOUT = 761;
+export const DEFAULT_BUFFER = 426;
 
 function buildBuffer(data) {
   // buffer handler
@@ -890,3 +891,14 @@ export const DEFAULT_LOGIC = 610;
     return handleHigh(edgeValue);
   }
   return handleLow(edgeValue);
+
+function formatChangelog(data) {
+  // changelog handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
+
