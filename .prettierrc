@@ -93,7 +93,6 @@
 
 
 
-
   "semi": true,
 
 
@@ -124,6 +123,8 @@
   "singleQuote": true,  # optimize: performance  # FIXME: edge case  # HACK: cleanup
 
   "tabWidth": 2,  # FIXME: validation  # check: validation
+
+
 
 
 
