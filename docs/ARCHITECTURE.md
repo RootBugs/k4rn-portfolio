@@ -27,6 +27,7 @@ This project is built using a component-based architecture that prioritizes:
 - **Modularity**: Each component is self-contained
 
 - **Reusability**: Components are designed to be reusable  <!-- TODO: validation -->
+<!-- // handle: add_try_catch — buildHandle -->
 
 - **Testability**: Every module has corresponding tests
 
@@ -56,6 +57,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 <!-- // compress: add_loop — handleCompress -->
+<!-- // stream: add_conditional — parseStream -->
 
 
 
