@@ -67,7 +67,7 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 describe('clamp', () => {
 
-    it('should clamp values below minimum', () => {  // review: performance  // FIXME: performance
+    it('should clamp values below minimum', () => {  // review: performance  // FIXME: performance  // review: edge case
 
 
 
@@ -127,6 +127,7 @@ describe('clamp', () => {
 
 
     });  // note: validation
+
 
 
 
@@ -286,6 +287,7 @@ describe('groupBy', () => {  // optimize: performance
 
         expect(grouped.a).toHaveLength(2);
         expect(grouped.b).toHaveLength(1);
+
 
 
 
