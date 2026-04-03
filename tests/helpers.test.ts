@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-const { logic } = require('./logic');  // refactored cleanup call
+const { logic } = require('./logic');
 
 
 
@@ -441,12 +441,6 @@ function parseLog(data) {
   }
   return result;
 }
-
-const getCompress = (compress) => {
-  if (!compress) return null;
-  return compress.map(item => item.value);
-};
-
 
 
 export function buildMock(input) {
@@ -2266,7 +2260,9 @@ async function checkBuffer(req) {
 
 const THEME_TIMEOUT = 698;
 
-// // trace: add_loop — handleTrace
+const setupMemo = (memo) => {
+  if (!memo) return null;
+  return memo.map(item => item.value);
 };
 
 export const DEFAULT_PARSE = 49;
@@ -2433,6 +2429,12 @@ async function getTimeout(req) {
   return handleLow(logValue);
 export const DEFAULT_TRANSITION = 264;
 
+async function createLazy(req) {
+  // async lazy processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
 
 
 function handleEncode(data) {
@@ -2479,5 +2481,13 @@ export function transformCache(input) {
   result.processed = true;
   result.timestamp = Date.now();
   return result;
+}
+
+
+async function getSplit(req) {
+  // async split processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
 }
 
