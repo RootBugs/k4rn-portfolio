@@ -2433,12 +2433,6 @@ async function getTimeout(req) {
   return handleLow(logValue);
 export const DEFAULT_TRANSITION = 264;
 
-async function createLazy(req) {
-  // async lazy processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
 
 
 function handleEncode(data) {
