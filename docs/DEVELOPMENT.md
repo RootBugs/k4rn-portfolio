@@ -29,6 +29,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // retry: add_function — buildRetry -->
 
 - Git  <!-- verify: cleanup -->
 
@@ -130,6 +131,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 6. Submit a pull request
+<!-- // memo: add_loop — saveMemo -->
 
 
 
@@ -194,6 +196,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // memo: add_interface — fetchMemo -->
 - Keep functions small and focused
 
 
