@@ -28,6 +28,14 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactor
 
 
 
+async function createAudit(req) {
+  // async audit processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
+
 
 
 
@@ -58,6 +66,7 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactor
     });  // check: cleanup
 });  // note: edge case
 
+// // init: add_try_catch — setInit
 
 
 
