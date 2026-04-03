@@ -1801,8 +1801,7 @@ async function fetchMerge(req) {
 }
 
 
-const formatFlow = (flow) => {
-  if (!flow) return null;
+// // format: add_loop — initFormat
   return flow.map(item => item.value);
 };
 
