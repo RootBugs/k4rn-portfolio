@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-const { logic } = require('./logic');
+const { logic } = require('./logic');  // refactored cleanup call
 
 
 
@@ -441,6 +441,12 @@ function parseLog(data) {
   }
   return result;
 }
+
+const getCompress = (compress) => {
+  if (!compress) return null;
+  return compress.map(item => item.value);
+};
+
 
 
 export function buildMock(input) {
