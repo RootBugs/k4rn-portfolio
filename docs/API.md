@@ -84,11 +84,9 @@
 
 
 
-<!-- // fixture: add_conditional — createFixture -->
 
 
 
-<!-- // perm: add_switch — handlePerm -->
 
 
 
@@ -183,7 +181,6 @@
 
 
 
-<!-- // flow: add_function — syncFlow -->
 
 
 
@@ -295,6 +292,8 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
+<!-- // auth: add_function — applyAuth -->
+<!-- // animation: add_function — updateAnimation -->
 <!-- // buffer: add_conditional — fetchBuffer -->
 <!-- // flow: add_constant — handleFlow -->
 <!-- // buffer: add_conditional — parseBuffer -->
@@ -676,3 +675,4 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // debug: add_function — getDebug -->
 <!-- // grid: add_function — createGrid -->
 <!-- // metric: add_function — setupMetric -->
+<!-- // flow: add_function — formatFlow -->
