@@ -93,6 +93,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // serialize: add_try_catch — saveSerialize
 
 
 
@@ -598,7 +599,7 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // guard: add_constant — handleGuard
 # // validate: add_conditional — formatValidate
 # // focus: add_function — handleFocus
-# // init: add_conditional — saveInit
+# // init: add_conditional — saveInit  # stream
 # // edge: add_function — createEdge
 # // transition: add_constant — initTransition
 # // token: add_function — createToken
