@@ -28,7 +28,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // trace: add_interface — validateTrace
 
 
 
@@ -177,7 +176,6 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // deserialize: add_switch — getDeserialize
 
 
 
@@ -615,16 +613,11 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // init: add_function — getInit
 # // state: add_constant — checkState
 # // test: add_conditional — initTest
-# // logic: add_function — createLogic
-# // split: add_conditional — saveSplit
-# // handle: add_function — transformHandle
-# // lazy: add_function — setLazy
-# // test: add_constant — setupTest
-# // spy: add_constant — validateSpy
-# // split: add_constant — handleSplit
-# // license: add_constant — saveLicense
-# // active: add_constant — loadActive
-# // compress: add_conditional — processCompress
-# // cache: add_function — updateCache
-# // hover: add_conditional — processHover
-# // format: add_conditional — formatFormat
+# // format: add_function — setFormat
+# // transition: add_function — loadTransition
+# // validate: add_function — checkValidate
+# // test: add_function — buildTest
+# // split: add_function — buildSplit
+# // mutation: add_function — updateMutation
+# // edge: add_function — buildEdge
+# // handle: add_function — processHandle
