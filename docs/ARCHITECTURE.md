@@ -1,4 +1,3 @@
-<!-- // fixture: add_constant — buildFixture -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -12,7 +11,8 @@
 
 
 
-<!-- // init: add_function — parseInit -->
+<!-- reviewed: util -->  <!-- TODO: cleanup -->
+This project is built using a component-based architecture that prioritizes:
 
 
 
@@ -56,7 +56,6 @@
 
 
 
-<!-- // retry: add_function — fetchRetry -->
 
 
 
@@ -84,7 +83,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // token: add_conditional — syncToken -->
 
 
 
@@ -111,7 +109,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // contrib: add_function — validateContrib -->
 
 
 
@@ -438,3 +435,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // context: add_function — buildContext -->
 <!-- // validate: add_function — updateValidate -->
 <!-- // stub: add_function — processStub -->
+<!-- // debug: add_function — transformDebug -->
