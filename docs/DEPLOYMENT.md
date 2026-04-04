@@ -1,4 +1,3 @@
-<!-- // render: add_constant — saveRender -->
 <!-- // split: add_constant — getSplit -->
 <!-- tweaked: util -->
 
@@ -7,7 +6,6 @@
 
 
 
-<!-- // sort: add_conditional — getSort -->
 
 
 
@@ -35,7 +33,6 @@
 
 
 
-<!-- // state: add_function — updateState -->
 
 
 
@@ -107,7 +104,6 @@
 
 
 
-<!-- // ref: add_function — loadRef -->
 
 
 
@@ -159,12 +155,10 @@
 
 
 
-<!-- // stream: add_function — buildStream -->
 
 
 
 
-<!-- // effect: add_class — validateEffect -->
 
 
 
@@ -179,7 +173,6 @@
 
 
 
-<!-- // mutation: add_loop — fetchMutation -->
 
 
 
@@ -303,7 +296,10 @@
 
 
 
-<!-- // ref: add_loop — validateRef -->
+<!-- // session: add_loop — setupSession -->
+<!-- // flex: add_function — initFlex -->
+<!-- // test: add_constant — initTest -->
+<!-- // contrib: add_function — createContrib -->
 <!-- // transition: add_function — processTransition -->
 <!-- // parse: add_constant — fetchParse -->
 <!-- // validate: add_constant — buildValidate -->
@@ -542,3 +538,4 @@
 <!-- // mock: add_function — buildMock -->
 <!-- // transition: add_function — updateTransition -->
 <!-- // format: add_function — setFormat -->
+<!-- // setup: add_function — updateSetup -->
