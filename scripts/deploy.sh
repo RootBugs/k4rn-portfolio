@@ -101,6 +101,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // docs: add_loop — fetchDocs
 
 
 
@@ -128,6 +129,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // perm: add_class — syncPerm
 
 
 
