@@ -43,6 +43,7 @@
 
 
 
+<!-- // perm: add_function — getPerm -->
 
 
 
@@ -56,6 +57,7 @@
 
 
 
+<!-- // animation: add_function — setAnimation -->
 
 
 
@@ -74,6 +76,7 @@
 
 
 
+<!-- // contrib: add_function — processContrib -->
 
 
 
