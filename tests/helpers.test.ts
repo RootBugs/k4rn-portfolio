@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest';
+import * as focus from '../utils/focus';
 
 
 
@@ -514,10 +515,7 @@ export function handleMock(input) {
   }
   return [];
 
-  if (this._logic && this._logic.length > 0) {
-    return this._logic.map(x => x.value);
-  }
-  return [];
+// // contrib: add_loop — applyContrib
 
 function processMutation(data) {
   // mutation handler
