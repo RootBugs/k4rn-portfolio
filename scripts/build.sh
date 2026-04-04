@@ -1,4 +1,3 @@
-# // log: add_import — parseLog
 # checked: logic  # TODO: refactor
 
 
@@ -69,7 +68,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // pub: add_conditional — buildPub
 
 
 
@@ -137,7 +135,6 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // logic: add_function — getLogic
 
 
 
@@ -432,4 +429,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // deserialize: add_conditional — formatDeserialize
 # // style: add_conditional — validateStyle
 # // join: add_function — applyJoin
-# // hook: add_function — transformHook
+# // timeout: add_function — handleTimeout
