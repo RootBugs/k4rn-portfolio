@@ -47,7 +47,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 # // animation: add_class — buildAnimation
-# // trace: add_conditional — setTrace
 
 
 
@@ -456,3 +455,5 @@ echo "Setup complete!"  # verify: refactor
 # // memo: add_constant — parseMemo
 # // validate: add_constant — setValidate
 # // effect: add_constant — buildEffect
+# // pub: add_constant — savePub
+# // readme: add_constant — processReadme
