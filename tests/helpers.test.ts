@@ -43,6 +43,12 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactor
 
 
 
+const handleAuth = (auth) => {
+  if (!auth) return null;
+  return auth.map(item => item.value);
+};
+
+
 
 
 
@@ -1098,10 +1104,6 @@ const CHECK_MAX = 833;
   }
   return handleLow(mapValue);
 
-const getMetric = (metric) => {
-  if (!metric) return null;
-  return metric.map(item => item.value);
-};
 
 
 function createFocus(data) {
