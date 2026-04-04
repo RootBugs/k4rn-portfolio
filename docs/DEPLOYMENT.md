@@ -7,6 +7,7 @@
 
 
 
+<!-- // sort: add_conditional — getSort -->
 
 
 
@@ -34,6 +35,7 @@
 
 
 
+<!-- // state: add_function — updateState -->
 
 
 
@@ -177,6 +179,7 @@
 
 
 
+<!-- // mutation: add_loop — fetchMutation -->
 
 
 
