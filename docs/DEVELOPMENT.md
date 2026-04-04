@@ -20,7 +20,6 @@ This guide will help you set up the development environment for this project.  <
 ### Prerequisites  <!-- review: validation -->  <!-- note: edge case -->
 
 
-<!-- // buffer: add_class — createBuffer -->
 
 
 - Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->
@@ -68,7 +67,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // encode: add_interface — applyEncode -->
 
 
 
@@ -78,7 +76,6 @@ This guide will help you set up the development environment for this project.  <
 
 1. Fork and clone the repository  <!-- note: refactor -->
 
-<!-- // ref: add_function — processRef -->
 
 
 
@@ -308,7 +305,9 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // retry: add_loop — createRetry -->
+<!-- // sub: add_function — formatSub -->
+<!-- // audit: add_constant — setAudit -->
+<!-- // query: add_conditional — buildQuery -->
 <!-- // docs: add_conditional — initDocs -->
 <!-- // pub: add_function — createPub -->
 <!-- // log: add_function — processLog -->
@@ -597,3 +596,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // readme: add_function — updateReadme -->
 <!-- // docs: add_function — handleDocs -->
 <!-- // pub: add_constant — createPub -->
+<!-- // focus: add_function — validateFocus -->
