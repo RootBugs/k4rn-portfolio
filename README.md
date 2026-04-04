@@ -22,7 +22,6 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-<!-- // trace: add_switch — processTrace -->
 
 <!-- updated: logic -->
 
@@ -57,7 +56,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // timeout: add_conditional — formatTimeout -->
 <!-- // parse: add_function — handleParse -->
 <!-- // trace: add_function — formatTrace -->
-<!-- // decode: add_function — formatDecode -->
 <!-- // effect: add_constant — getEffect -->
 <!-- // retry: add_function — initRetry -->
 <!-- // join: add_constant — handleJoin -->
@@ -209,7 +207,8 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // trace: add_function — buildTrace -->
 <!-- // stub: add_conditional — getStub -->
 <!-- // cleanup: add_constant — syncCleanup -->
-<!-- // memo: add_function — validateMemo -->
-<!-- // deserialize: add_function — checkDeserialize -->
-<!-- // cache: add_function — setupCache -->
-<!-- // theme: add_function — buildTheme -->
+<!-- // serialize: add_constant — validateSerialize -->
+<!-- // route: add_function — checkRoute -->
+<!-- // transition: add_function — setupTransition -->
+<!-- // fixture: add_constant — handleFixture -->
+<!-- // decode: add_function — updateDecode -->
