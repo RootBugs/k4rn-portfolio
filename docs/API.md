@@ -33,12 +33,6 @@
 
 
 
-<!-- // theme: add_try_catch — getTheme -->
-
-
-
-
-<!-- // context: add_function — getContext -->
 
 
 
@@ -66,7 +60,10 @@
 
 
 
-<!-- // contrib: add_class — updateContrib -->
+
+
+
+
 
 
 
@@ -114,20 +111,6 @@
 
 
 
-<!-- // cache: add_function — validateCache -->
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- // cache: add_function — fetchCache -->
 
 
 
@@ -148,7 +131,18 @@
 
 
 
-<!-- // cleanup: add_try_catch — loadCleanup -->
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -468,3 +462,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // focus: add_constant — setupFocus -->
 <!-- // role: add_constant — fetchRole -->
 <!-- // merge: add_function — createMerge -->
+<!-- // metric: add_function — checkMetric -->
