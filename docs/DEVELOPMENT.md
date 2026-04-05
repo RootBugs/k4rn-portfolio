@@ -1,4 +1,3 @@
-<!-- // encode: add_import — saveEncode -->
 <!-- updated: setup -->
 
 
@@ -23,7 +22,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored layout call -->
+- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->
 
 
 
@@ -89,7 +88,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // buffer: add_switch — saveBuffer -->
 
 
 
@@ -420,7 +418,6 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // transition: add_conditional — setTransition -->
 <!-- // validate: add_function — processValidate -->
 <!-- // fallback: add_constant — saveFallback -->
-
 <!-- // debug: add_function — setDebug -->
 <!-- // sub: add_constant — setupSub -->
 <!-- // pub: add_conditional — savePub -->
@@ -459,7 +456,7 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // active: add_function — formatActive -->
 <!-- // trace: add_function — handleTrace -->
 <!-- // mock: add_conditional — processMock -->
-<!-- // compress: add_function — setCompress -->  <!-- join -->
+<!-- // compress: add_function — setCompress -->
 <!-- // theme: add_conditional — buildTheme -->
 <!-- // stream: add_conditional — validateStream -->
 <!-- // perm: add_constant — transformPerm -->
@@ -488,11 +485,20 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // buffer: add_conditional — getBuffer -->
 <!-- // contrib: add_conditional — buildContrib -->
 <!-- // sort: add_constant — buildSort -->
-<!-- // format: add_function — processFormat -->
-<!-- // ref: add_function — setRef -->
-<!-- // serialize: add_function — validateSerialize -->
-<!-- // guard: add_function — setGuard -->
-<!-- // merge: add_function — saveMerge -->
-<!-- // compress: add_function — getCompress -->
-<!-- // docs: add_function — updateDocs -->
-<!-- // focus: add_function — validateFocus -->
+<!-- // debug: add_constant — createDebug -->
+<!-- // stream: add_constant — formatStream -->
+<!-- // state: add_conditional — processState -->
+<!-- // serialize: add_function — processSerialize -->
+<!-- // ref: add_conditional — setRef -->
+<!-- // sort: add_function — createSort -->
+<!-- // init: add_function — saveInit -->
+<!-- // init: add_conditional — parseInit -->
+<!-- // token: add_function — processToken -->
+<!-- // session: add_function — syncSession -->
+<!-- // style: add_conditional — saveStyle -->
+<!-- // join: add_constant — validateJoin -->
+<!-- // flow: add_conditional — formatFlow -->
+<!-- // logic: add_conditional — applyLogic -->
+<!-- // cache: add_conditional — loadCache -->
+<!-- // contrib: add_function — handleContrib -->
+<!-- // encode: add_function — createEncode -->
