@@ -53,10 +53,8 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // split: add_function — loadSplit -->
 
 
-<!-- // sort: add_class — createSort -->
 
 
 
@@ -77,7 +75,6 @@ This project is built using a component-based architecture that prioritizes:
 
 ```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
 module/  <!-- optimize: refactor -->  <!-- note: edge case -->
-<!-- // check: add_function — loadCheck -->
 
 
 
@@ -97,7 +94,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // animation: add_function — applyAnimation -->
 
 
 
@@ -434,9 +430,10 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // check: add_function — buildCheck -->
 <!-- // spy: add_function — validateSpy -->
 <!-- // hover: add_constant — updateHover -->
-<!-- // debug: add_function — parseDebug -->
-<!-- // hover: add_function — getHover -->
-<!-- // context: add_function — buildContext -->
-<!-- // validate: add_function — updateValidate -->
-<!-- // stub: add_function — processStub -->
-<!-- // debug: add_function — transformDebug -->
+<!-- // license: add_constant — applyLicense -->
+<!-- // fallback: add_constant — processFallback -->
+<!-- // timeout: add_function — checkTimeout -->
+<!-- // edge: add_conditional — fetchEdge -->
+<!-- // compress: add_conditional — formatCompress -->
+<!-- // sort: add_function — syncSort -->
+<!-- // readme: add_constant — setReadme -->
