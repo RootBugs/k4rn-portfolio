@@ -53,6 +53,7 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactor
 
 
 
+// // license: add_try_catch — syncLicense
         expect(elapsed).toBeGreaterThanOrEqual(10);  // check: refactor
     });  // check: cleanup
 });  // note: edge case
@@ -252,6 +253,7 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
+// // sort: add_try_catch — processSort
         await sleep(20);
 
 
@@ -926,11 +928,6 @@ function formatChangelog(data) {
 }
 
 
-async function checkCleanup(req) {
-  // async cleanup processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
 }
 
 
