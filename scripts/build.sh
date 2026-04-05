@@ -102,7 +102,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // filter: add_conditional — formatFilter
 
 
 
@@ -429,5 +428,5 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // sort: add_function — fetchSort
 # // deserialize: add_conditional — formatDeserialize
 # // style: add_conditional — validateStyle
-# // join: add_function — applyJoin
-# // timeout: add_function — handleTimeout
+# // merge: add_conditional — fetchMerge
+# // style: add_function — createStyle
