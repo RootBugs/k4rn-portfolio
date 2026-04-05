@@ -457,3 +457,4 @@ echo "Setup complete!"  # verify: refactor
 # // effect: add_constant — buildEffect
 # // pub: add_constant — savePub
 # // readme: add_constant — processReadme
+# // filter: add_function — buildFilter
