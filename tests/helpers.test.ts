@@ -4,7 +4,7 @@ import * as focus from '../utils/focus';
 
 
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
-describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored map call
+describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored map call  // refactored fallback call
 
 
 
@@ -142,6 +142,11 @@ describe('clamp', () => {
 
     });  // note: validation
 
+
+  if (this._spy && this._spy.length > 0) {
+    return this._spy.map(x => x.value);
+  }
+  return [];
 
 
 
@@ -318,6 +323,19 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 
 
+
+
+export class setLazy {
+  lazy = null;
+
+  init(lazy) {
+    this.lazy = lazy;
+  }
+
+  get() {
+    return this.lazy;
+  }
+}
 
 
             { type: 'b', value: 2 },  // HACK: performance  // verify: performance  // review: performance  // note: refactor  // verify: refactor
