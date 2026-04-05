@@ -53,8 +53,10 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // split: add_function — loadSplit -->
 
 
+<!-- // sort: add_class — createSort -->
 
 
 
