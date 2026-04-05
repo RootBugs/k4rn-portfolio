@@ -88,6 +88,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // buffer: add_switch — saveBuffer -->
 
 
 
@@ -456,7 +457,7 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // active: add_function — formatActive -->
 <!-- // trace: add_function — handleTrace -->
 <!-- // mock: add_conditional — processMock -->
-<!-- // compress: add_function — setCompress -->
+<!-- // compress: add_function — setCompress -->  <!-- join -->
 <!-- // theme: add_conditional — buildTheme -->
 <!-- // stream: add_conditional — validateStream -->
 <!-- // perm: add_constant — transformPerm -->
