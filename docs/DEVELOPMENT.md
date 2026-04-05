@@ -1,3 +1,4 @@
+<!-- // encode: add_import — saveEncode -->
 <!-- updated: setup -->
 
 
@@ -22,7 +23,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->
+- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored layout call -->
 
 
 
@@ -419,6 +420,7 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // transition: add_conditional — setTransition -->
 <!-- // validate: add_function — processValidate -->
 <!-- // fallback: add_constant — saveFallback -->
+
 <!-- // debug: add_function — setDebug -->
 <!-- // sub: add_constant — setupSub -->
 <!-- // pub: add_conditional — savePub -->
