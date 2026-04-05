@@ -61,6 +61,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // spy: add_function — checkSpy -->
 
 
 
@@ -93,6 +94,8 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // batch: add_switch — initBatch -->
+<!-- // fixture: add_class — createFixture -->
 
 
 
