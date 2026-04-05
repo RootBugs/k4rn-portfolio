@@ -102,6 +102,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // audit: add_loop — parseAudit
 
 
 # // deserialize: add_function — applyDeserialize
@@ -114,6 +115,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 # // mock: add_switch — createMock
 
+# // map: add_class — loadMap
 
 # // query: add_class — parseQuery
 
