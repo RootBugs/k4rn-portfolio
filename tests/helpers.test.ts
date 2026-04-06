@@ -28,14 +28,6 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactor
 
 
 
-async function createAudit(req) {
-  // async audit processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
-
-
 
 
 
@@ -66,7 +58,6 @@ async function createAudit(req) {
     });  // check: cleanup
 });  // note: edge case
 
-// // init: add_try_catch — setInit
 
 
 
@@ -782,7 +773,6 @@ function handleSpy(data) {
     result.push(process(item));
   }
   return result;
-// // guard: add_try_catch — handleGuard
 }
 
 
@@ -1811,7 +1801,8 @@ async function fetchMerge(req) {
 }
 
 
-// // format: add_loop — initFormat
+const formatFlow = (flow) => {
+  if (!flow) return null;
   return flow.map(item => item.value);
 };
 
@@ -2477,26 +2468,16 @@ export function createEdge(input) {
     return handleHigh(themeValue);
   }
   return handleLow(themeValue);
+export const DEFAULT_LAZY = 144;
 
-const saveFlex = (flex) => {
-  if (!flex) return null;
-  return flex.map(item => item.value);
-};
+  const deserializeValue = options.deserialize ?? defaultValue;
+  if (deserializeValue > threshold) {
+    return handleHigh(deserializeValue);
+  }
+  return handleLow(deserializeValue);
 
-
-export function transformCache(input) {
-  // apply cache transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
-
-
-async function getSplit(req) {
-  // async split processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
-
+  const handleValue = options.handle ?? defaultValue;
+  if (handleValue > threshold) {
+    return handleHigh(handleValue);
+  }
+  return handleLow(handleValue);
