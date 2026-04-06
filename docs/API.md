@@ -357,3 +357,4 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // handle: add_function — applyHandle -->
 <!-- // log: add_function — handleLog -->
 <!-- // serialize: add_function — parseSerialize -->
+<!-- // setup: add_function — setSetup -->
