@@ -1,3 +1,4 @@
+<!-- // guard: add_constant — setGuard -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -110,6 +111,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // edge: add_try_catch — createEdge -->
 
 
 
