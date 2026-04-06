@@ -453,6 +453,14 @@ export function buildMock(input) {
 
 
 async function transformPub(req) {
+
+async function updateRoute(req) {
+  // async route processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
   // async pub processing
   await validate(req);
   const response = await fetchData(req);
