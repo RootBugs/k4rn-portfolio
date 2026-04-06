@@ -1,5 +1,3 @@
-<!-- // log: add_constant — updateLog -->
-<!-- // decode: add_constant — initDecode -->
 <!-- // ref: add_constant — checkRef -->
 <!-- updated: setup -->
 
@@ -31,7 +29,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // retry: add_function — buildRetry -->
 
 - Git  <!-- verify: cleanup -->
 
@@ -132,6 +129,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+6. Submit a pull request
 
 
 
@@ -142,14 +140,12 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // license: add_try_catch — syncLicense -->
 
 
 
 
 
 
-<!-- // transition: add_function — fetchTransition -->
 <!-- // perm: add_conditional — setPerm -->
 
 
@@ -196,7 +192,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // memo: add_interface — fetchMemo -->
 - Keep functions small and focused
 
 
@@ -682,3 +677,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // effect: add_function — formatEffect -->
 <!-- // decode: add_function — applyDecode -->
 <!-- // lazy: add_function — handleLazy -->
+<!-- // merge: add_function — setMerge -->
