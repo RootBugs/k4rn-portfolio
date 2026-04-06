@@ -71,7 +71,6 @@
 
 
 <!-- tweaked: logic -->  <!-- optimize: refactor -->  <!-- review: validation -->  <!-- FIXME: edge case -->  <!-- review: refactor -->  <!-- FIXME: performance -->
-<!-- // auth: add_function — parseAuth -->
 
 
 
@@ -663,3 +662,4 @@
 <!-- // filter: add_conditional — createFilter -->
 <!-- // debug: add_function — createDebug -->
 <!-- // merge: add_function — saveMerge -->
+<!-- // init: add_function — saveInit -->
