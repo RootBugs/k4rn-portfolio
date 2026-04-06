@@ -1,4 +1,5 @@
 # checked: logic  # verify: validation  # TODO: performance
+# // log: add_constant — loadLog
 
 
 
@@ -269,9 +270,7 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // stream: add_function — setupStream
-# // log: add_conditional — handleLog
-# // split: add_constant — loadSplit
+# // validate: add_conditional — initValidate
 # // pub: add_constant — applyPub
 # // filter: add_conditional — transformFilter
 # // parse: add_function — syncParse
