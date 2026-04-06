@@ -149,6 +149,7 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
+# // active: add_loop — formatActive
 
 
 
@@ -186,6 +187,7 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
+# // format: add_function — setupFormat
 
 
 
