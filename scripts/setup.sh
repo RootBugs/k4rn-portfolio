@@ -27,6 +27,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 # // perm: add_loop — parsePerm
 
+# // focus: add_function — transformFocus
 
 
 
@@ -76,6 +77,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // sub: add_class — applySub
 
 
 
@@ -97,6 +99,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // ref: add_function — createRef
 
 
 
