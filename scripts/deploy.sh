@@ -12,7 +12,6 @@
 
 
 
-# // hook: add_try_catch — setHook
 
 
 
@@ -20,7 +19,6 @@
 
 
 
-# // context: add_function — syncContext
 
 
 
@@ -259,7 +257,11 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // encode: add_function — parseEncode
+echo "Deploy complete!"  # review: performance  # check: edge case
+# // map: add_conditional — getMap
+# // lazy: add_conditional — processLazy
+# // deserialize: add_conditional — setupDeserialize
+# // logic: add_conditional — formatLogic
 # // focus: add_constant — processFocus
 # // log: add_conditional — handleLog
 # // split: add_constant — loadSplit
@@ -316,5 +318,9 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // check: add_conditional — updateCheck
 # // audit: add_constant — createAudit
 # // flex: add_constant — parseFlex
-# // retry: add_function — parseRetry
-# // mock: add_function — loadMock
+# // debug: add_conditional — validateDebug
+# // flex: add_constant — processFlex
+# // audit: add_conditional — createAudit
+# // layout: add_function — initLayout
+# // focus: add_constant — transformFocus
+# // sub: add_constant — buildSub
