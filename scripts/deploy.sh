@@ -42,7 +42,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // readme: add_function — setupReadme
 
 
 
@@ -325,3 +324,4 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // layout: add_function — initLayout
 # // focus: add_constant — transformFocus
 # // sub: add_constant — buildSub
+# // effect: add_conditional — initEffect
