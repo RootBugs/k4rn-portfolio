@@ -782,6 +782,7 @@ function handleSpy(data) {
     result.push(process(item));
   }
   return result;
+// // guard: add_try_catch — handleGuard
 }
 
 
