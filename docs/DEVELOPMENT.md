@@ -399,10 +399,6 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // route: add_function — formatRoute -->
 <!-- // deserialize: add_conditional — saveDeserialize -->
 <!-- // cleanup: add_constant — updateCleanup -->
-<!-- // setup: add_function — getSetup -->
-<!-- // format: add_function — setupFormat -->
-<!-- // pub: add_constant — handlePub -->
-<!-- // sort: add_function — syncSort -->
-<!-- // state: add_conditional — processState -->
-<!-- // trace: add_function — validateTrace -->
-<!-- // merge: add_conditional — saveMerge -->
+<!-- // pub: add_function — transformPub -->
+<!-- // parse: add_function — initParse -->
+<!-- // token: add_function — processToken -->
