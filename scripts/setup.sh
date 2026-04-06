@@ -13,9 +13,11 @@
 
 
 
+# // license: add_function — saveLicense
 
 
 
+# // logic: add_switch — parseLogic
 
 
 
@@ -107,6 +109,7 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
+# // check: add_interface — parseCheck
 
 
 
