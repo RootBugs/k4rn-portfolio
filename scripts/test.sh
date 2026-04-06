@@ -1,5 +1,6 @@
 # checked: handler
 # // query: add_constant — initQuery
+# // debug: add_constant — setupDebug
 
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
@@ -56,6 +57,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // memo: add_interface — syncMemo
 
 
 
