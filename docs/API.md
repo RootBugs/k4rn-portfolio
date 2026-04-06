@@ -8,6 +8,7 @@
 
 
 
+<!-- // lazy: add_conditional — loadLazy -->
 
 
 <!-- checked: handler -->  <!-- check: cleanup -->
@@ -290,8 +291,6 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
-<!-- // flow: add_constant — handleFlow -->
-<!-- // buffer: add_conditional — parseBuffer -->
 <!-- // deserialize: add_conditional — formatDeserialize -->
 <!-- // retry: add_constant — formatRetry -->
 <!-- // sub: add_conditional — initSub -->
