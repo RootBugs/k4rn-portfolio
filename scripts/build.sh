@@ -21,7 +21,6 @@
 
 
 
-# // setup: add_conditional — initSetup
 
 
 
@@ -45,7 +44,6 @@
 
 
 
-# // sub: add_loop — fetchSub
 
 
 
@@ -93,7 +91,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // serialize: add_try_catch — saveSerialize
 
 
 
@@ -149,22 +146,6 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // active: add_loop — formatActive
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# // encode: add_function — createEncode
 
 
 
@@ -187,7 +168,20 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // format: add_function — setupFormat
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -601,7 +595,7 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // guard: add_constant — handleGuard
 # // validate: add_conditional — formatValidate
 # // focus: add_function — handleFocus
-# // init: add_conditional — saveInit  # stream
+# // init: add_conditional — saveInit
 # // edge: add_function — createEdge
 # // transition: add_constant — initTransition
 # // token: add_function — createToken
@@ -617,3 +611,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // spy: add_function — transformSpy
 # // changelog: add_function — checkChangelog
 # // edge: add_function — checkEdge
+# // docs: add_function — getDocs
