@@ -6,6 +6,7 @@
 
 
 
+<!-- // init: add_function — checkInit -->
 
 
 
@@ -14,6 +15,7 @@
 
 
 
+<!-- // cache: add_class — initCache -->
 
 
 
