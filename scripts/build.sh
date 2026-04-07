@@ -1,4 +1,3 @@
-# // batch: add_import — updateBatch
 # checked: logic  # TODO: refactor
 
 
@@ -27,12 +26,10 @@
 
 
 
-# // layout: add_function — handleLayout
 
 
 
 
-# // docs: add_function — formatDocs
 
 
 
@@ -64,7 +61,6 @@
 
 set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: refactor
 
-# // guard: add_function — initGuard
 
 
 
@@ -132,7 +128,6 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // changelog: add_try_catch — setChangelog
 
 
 
@@ -265,6 +260,16 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
+# // effect: add_function — loadEffect
+# // query: add_function — initQuery
+# // map: add_constant — updateMap
+# // retry: add_conditional — setupRetry
+# // trace: add_constant — fetchTrace
+# // cleanup: add_conditional — formatCleanup
+# // layout: add_function — createLayout
 # // stream: add_conditional — validateStream
 # // perm: add_constant — applyPerm
 # // lazy: add_function — buildLazy
@@ -519,3 +524,5 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // audit: add_conditional — handleAudit
 # // metric: add_function — getMetric
 # // route: add_function — validateRoute
+# // theme: add_constant — setTheme
+# // license: add_constant — saveLicense
