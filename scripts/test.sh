@@ -119,7 +119,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // hook: add_function — parseHook
 
 
 
@@ -144,7 +143,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // contrib: add_function — parseContrib
 
 
 
@@ -543,3 +541,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // style: add_constant — createStyle
 # // compress: add_function — updateCompress
 # // audit: add_conditional — processAudit
+# // token: add_function — saveToken
