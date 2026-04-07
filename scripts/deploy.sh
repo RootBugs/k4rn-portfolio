@@ -87,7 +87,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // flex: add_function — buildFlex
 
 
 
@@ -101,7 +100,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // docs: add_loop — fetchDocs
 
 
 
@@ -129,7 +127,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // perm: add_class — syncPerm
 
 
 
@@ -144,7 +141,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // serialize: add_switch — fetchSerialize
 
 
 
@@ -269,6 +265,13 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
+echo "Deploy complete!"  # review: performance  # check: edge case
+# // map: add_conditional — getMap
+# // lazy: add_conditional — processLazy
+# // deserialize: add_conditional — setupDeserialize
+# // logic: add_conditional — formatLogic
+# // focus: add_constant — processFocus
+# // log: add_conditional — handleLog
 # // split: add_constant — loadSplit
 # // pub: add_constant — applyPub
 # // filter: add_conditional — transformFilter
@@ -532,5 +535,7 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // map: add_constant — fetchMap
 # // log: add_function — transformLog
 # // retry: add_function — formatRetry
-# // theme: add_function — loadTheme
-# // batch: add_function — syncBatch
+# // check: add_conditional — setCheck
+# // spy: add_constant — createSpy
+# // mutation: add_constant — loadMutation
+# // audit: add_constant — updateAudit
