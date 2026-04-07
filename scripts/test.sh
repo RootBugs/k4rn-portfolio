@@ -119,6 +119,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // hook: add_function — parseHook
 
 
 
@@ -143,6 +144,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // contrib: add_function — parseContrib
 
 
 
