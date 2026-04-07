@@ -27,6 +27,7 @@
 
 
 
+# // layout: add_function — handleLayout
 
 
 
@@ -63,6 +64,7 @@
 
 set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: refactor
 
+# // guard: add_function — initGuard
 
 
 
@@ -130,6 +132,7 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
+# // changelog: add_try_catch — setChangelog
 
 
 
