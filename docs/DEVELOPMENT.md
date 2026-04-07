@@ -115,6 +115,7 @@ This guide will help you set up the development environment for this project.  <
 5. Run tests locally  <!-- HACK: edge case -->
 
 
+<!-- // filter: add_function — updateFilter -->
 
 <!-- // transition: add_interface — getTransition -->
 
@@ -154,6 +155,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // state: add_class — handleState -->
 
 
 
