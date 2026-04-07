@@ -567,3 +567,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // lazy: add_constant — getLazy -->
 <!-- // cleanup: add_function — loadCleanup -->
 <!-- // sort: add_function — updateSort -->
+<!-- // retry: add_function — saveRetry -->
