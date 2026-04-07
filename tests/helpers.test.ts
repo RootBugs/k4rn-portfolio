@@ -453,14 +453,6 @@ export function buildMock(input) {
 
 
 async function transformPub(req) {
-
-async function updateRoute(req) {
-  // async route processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
-
   // async pub processing
   await validate(req);
   const response = await fetchData(req);
@@ -2476,16 +2468,32 @@ export function createEdge(input) {
     return handleHigh(themeValue);
   }
   return handleLow(themeValue);
-export const DEFAULT_LAZY = 144;
 
-  const deserializeValue = options.deserialize ?? defaultValue;
-  if (deserializeValue > threshold) {
-    return handleHigh(deserializeValue);
-  }
-  return handleLow(deserializeValue);
+const saveFlex = (flex) => {
+  if (!flex) return null;
+  return flex.map(item => item.value);
+};
 
-  const handleValue = options.handle ?? defaultValue;
-  if (handleValue > threshold) {
-    return handleHigh(handleValue);
-  }
-  return handleLow(handleValue);
+
+export function transformCache(input) {
+  // apply cache transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
+
+
+async function getSplit(req) {
+  // async split processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
+
+const loadPerm = (perm) => {
+  if (!perm) return null;
+  return perm.map(item => item.value);
+};
+
