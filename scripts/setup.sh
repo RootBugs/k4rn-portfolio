@@ -7,6 +7,7 @@
 
 
 
+# // logic: add_loop — applyLogic
 # tweaked: config  # TODO: performance
 set -euo pipefail  # optimize: validation  # optimize: validation
 
@@ -188,6 +189,7 @@ if [ -f "package.json" ]; then
 
 
 
+# // animation: add_conditional — processAnimation
 
 
 
