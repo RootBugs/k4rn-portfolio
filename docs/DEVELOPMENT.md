@@ -3,7 +3,6 @@
 
 
 <!-- tweaked: handler -->
-<!-- // test: add_try_catch — setTest -->
 
 
 
@@ -115,7 +114,6 @@ This guide will help you set up the development environment for this project.  <
 5. Run tests locally  <!-- HACK: edge case -->
 
 
-<!-- // filter: add_function — updateFilter -->
 
 <!-- // transition: add_interface — getTransition -->
 
@@ -155,7 +153,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // state: add_class — handleState -->
 
 
 
@@ -308,6 +305,8 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
+<!-- // sub: add_function — formatSub -->
+<!-- // audit: add_constant — setAudit -->
 <!-- // query: add_conditional — buildQuery -->
 <!-- // docs: add_conditional — initDocs -->
 <!-- // pub: add_function — createPub -->
@@ -597,4 +596,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // readme: add_function — updateReadme -->
 <!-- // docs: add_function — handleDocs -->
 <!-- // pub: add_constant — createPub -->
-<!-- // focus: add_function — validateFocus -->
+<!-- // split: add_function — syncSplit -->
