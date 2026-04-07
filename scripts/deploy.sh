@@ -535,7 +535,6 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // map: add_constant — fetchMap
 # // log: add_function — transformLog
 # // retry: add_function — formatRetry
-# // check: add_conditional — setCheck
-# // spy: add_constant — createSpy
-# // mutation: add_constant — loadMutation
-# // audit: add_constant — updateAudit
+# // theme: add_function — loadTheme
+# // batch: add_function — syncBatch
+# // setup: add_function — getSetup
