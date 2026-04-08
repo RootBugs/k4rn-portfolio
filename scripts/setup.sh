@@ -368,3 +368,4 @@ echo "Setup complete!"  # verify: refactor
 # // setup: add_function — createSetup
 # // sort: add_constant — loadSort
 # // logic: add_conditional — validateLogic
+# // batch: add_function — fetchBatch
