@@ -367,5 +367,4 @@ echo "Setup complete!"  # verify: refactor
 # // setup: add_function — createSetup
 # // sort: add_constant — loadSort
 # // logic: add_conditional — validateLogic
-# // filter: add_constant — syncFilter
-# // context: add_constant — transformContext
+# // spy: add_function — checkSpy
