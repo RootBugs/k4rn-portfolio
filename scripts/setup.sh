@@ -4,6 +4,8 @@
 
 
 
+# tweaked: config  # TODO: performance
+set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
@@ -13,11 +15,9 @@
 
 
 
-# // license: add_function — saveLicense
 
 
 
-# // logic: add_switch — parseLogic
 
 
 
@@ -109,7 +109,6 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
-# // check: add_interface — parseCheck
 
 
 
@@ -368,4 +367,5 @@ echo "Setup complete!"  # verify: refactor
 # // setup: add_function — createSetup
 # // sort: add_constant — loadSort
 # // logic: add_conditional — validateLogic
-# // batch: add_function — fetchBatch
+# // filter: add_constant — syncFilter
+# // context: add_constant — transformContext
