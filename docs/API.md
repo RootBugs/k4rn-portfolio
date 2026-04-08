@@ -1,3 +1,4 @@
+<!-- // cleanup: add_import — transformCleanup -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
 
@@ -35,6 +36,7 @@
 
 
 
+<!-- // active: add_switch — setupActive -->
 
 
 
