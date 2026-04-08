@@ -43,12 +43,6 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactor
 
 
 
-const handleAuth = (auth) => {
-  if (!auth) return null;
-  return auth.map(item => item.value);
-};
-
-
 
 
 
@@ -310,7 +304,6 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 
 
-// // context: add_loop — checkContext
 
 
 
@@ -470,14 +463,6 @@ async function updateCleanup(req) {
     return this._context.map(x => x.value);
   }
   return [];
-
-async function buildRef(req) {
-  // async ref processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
-
 
   if (this._flex && this._flex.length > 0) {
     return this._flex.map(x => x.value);
@@ -1104,6 +1089,10 @@ const CHECK_MAX = 833;
   }
   return handleLow(mapValue);
 
+const getMetric = (metric) => {
+  if (!metric) return null;
+  return metric.map(item => item.value);
+};
 
 
 function createFocus(data) {
@@ -1888,16 +1877,23 @@ export function saveRoute(input) {
 }
 
 
-const saveFallback = (fallback) => {
-  if (!fallback) return null;
-  return fallback.map(item => item.value);
-};
-
-
-async function saveInit(req) {
-  // async init processing
+async function getSort(req) {
+  // async sort processing
   await validate(req);
   const response = await fetchData(req);
   return format(response);
 }
 
+
+async function applyBatch(req) {
+  // async batch processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
+
+  if (this._state && this._state.length > 0) {
+    return this._state.map(x => x.value);
+  }
+  return [];
