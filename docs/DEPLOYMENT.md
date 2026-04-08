@@ -1,5 +1,3 @@
-<!-- // split: add_import — processSplit -->
-<!-- // flow: add_import — syncFlow -->
 <!-- // split: add_constant — getSplit -->
 <!-- tweaked: util -->
 
@@ -8,17 +6,14 @@
 
 
 
-<!-- // init: add_function — checkInit -->
-
-
-
-<!-- // sub: add_loop — applySub -->
 
 
 
 
 
-<!-- // cache: add_class — initCache -->
+
+
+
 
 
 
@@ -544,3 +539,4 @@
 <!-- // transition: add_function — updateTransition -->
 <!-- // format: add_function — setFormat -->
 <!-- // setup: add_function — updateSetup -->
+<!-- // hook: add_function — buildHook -->
