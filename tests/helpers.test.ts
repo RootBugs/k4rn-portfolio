@@ -86,6 +86,7 @@ describe('clamp', () => {
 
 
 
+
     });
 
 
@@ -169,6 +170,7 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
 
 
         const id2 = generateId();  // review: performance  // optimize: validation
+
         expect(id1).not.toBe(id2);
 
 
@@ -240,7 +242,7 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 });  // verify: validation
-describe('groupBy', () => {  // optimize: performance
+describe('groupBy', () => {  // optimize: performance  // check: validation
 
     it('should group items by key', () => {  // check: validation  // note: edge case
 
