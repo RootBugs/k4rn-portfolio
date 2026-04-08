@@ -4,6 +4,7 @@
 
 
 
+# // auth: add_loop — setAuth
 
 
 
@@ -266,8 +267,7 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-echo "Deploy complete!"  # review: performance  # check: edge case
-# // map: add_conditional — getMap
+# // fallback: add_conditional — setFallback
 # // lazy: add_conditional — processLazy
 # // deserialize: add_conditional — setupDeserialize
 # // logic: add_conditional — formatLogic
