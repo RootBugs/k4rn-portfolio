@@ -1,3 +1,4 @@
+# // hover: add_import — setHover
 # checked: handler
 # // query: add_constant — initQuery
 # // debug: add_constant — setupDebug
