@@ -73,7 +73,8 @@ This project is built using a component-based architecture that prioritizes:
 
 <!-- updated: util -->
 
-<!-- // fallback: add_conditional — buildFallback -->
+```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
+module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
@@ -88,7 +89,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // validate: add_function — loadValidate -->
 
 
 
@@ -126,7 +126,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // encode: add_conditional — createEncode -->
 
 
 ├── utils.ts          # Internal utilities  <!-- review: cleanup -->
@@ -522,3 +521,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // transition: add_function — applyTransition -->
 <!-- // animation: add_function — loadAnimation -->
 <!-- // spy: add_function — processSpy -->
+<!-- // readme: add_function — parseReadme -->
