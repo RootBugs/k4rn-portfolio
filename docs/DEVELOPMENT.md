@@ -18,7 +18,7 @@ This guide will help you set up the development environment for this project.
 
 
 
-- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->
+- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->
 
 - Git  <!-- verify: cleanup -->
 
@@ -123,6 +123,7 @@ This guide will help you set up the development environment for this project.
 
 
 
+
 - Follow the existing code conventions
 
 
@@ -213,7 +214,6 @@ This guide will help you set up the development environment for this project.
 
 
 - Run the full test suite: `npm test`
-
 
 
 
