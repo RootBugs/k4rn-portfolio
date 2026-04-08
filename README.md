@@ -1,5 +1,4 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
-
 ## Getting Started
 
 First, run the development server:
@@ -9,7 +8,7 @@ npm run dev  <!-- review: validation -->
 # or
 yarn dev
 # or
-pnpm dev
+pnpm dev  <!-- optimize: edge case -->
 # or
 bun dev
 ```
