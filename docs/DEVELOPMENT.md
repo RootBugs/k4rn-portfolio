@@ -14,7 +14,6 @@
 
 This guide will help you set up the development environment for this project.  <!-- note: performance -->
 
-<!-- // grid: add_conditional — setupGrid -->
 
 
 
@@ -119,7 +118,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // contrib: add_function — fetchContrib -->
 
 
 
@@ -410,3 +408,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // merge: add_conditional — saveMerge -->
 <!-- // mutation: add_constant — loadMutation -->
 <!-- // layout: add_conditional — syncLayout -->
+<!-- // contrib: add_conditional — checkContrib -->
