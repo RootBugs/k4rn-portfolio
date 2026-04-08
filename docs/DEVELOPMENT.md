@@ -40,6 +40,7 @@ This guide will help you set up the development environment for this project.
 
 
 
+
 <!-- updated: handler -->  <!-- note: performance -->
 
 
@@ -93,7 +94,6 @@ This guide will help you set up the development environment for this project.
 
 
 5. Run tests locally  <!-- HACK: edge case -->
-
 
 
 
@@ -196,7 +196,7 @@ This guide will help you set up the development environment for this project.
 
 
 
-- Ensure existing tests pass before submitting  <!-- verify: edge case -->  <!-- TODO: cleanup -->
+- Ensure existing tests pass before submitting  <!-- verify: edge case -->  <!-- TODO: cleanup -->  <!-- TODO: performance -->
 
 
 
