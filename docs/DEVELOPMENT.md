@@ -14,6 +14,7 @@
 
 This guide will help you set up the development environment for this project.  <!-- note: performance -->
 
+<!-- // grid: add_conditional — setupGrid -->
 
 
 
@@ -118,6 +119,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // contrib: add_function — fetchContrib -->
 
 
 
