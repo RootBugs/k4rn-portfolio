@@ -327,7 +327,7 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // active: add_conditional — syncActive
 # // token: add_constant — applyToken
 # // route: add_constant — formatRoute
-# // filter: add_constant — saveFilter
+# // filter: add_constant — saveFilter  # token
 # // debug: add_constant — setDebug
 # // memo: add_constant — initMemo
 # // flex: add_constant — checkFlex
