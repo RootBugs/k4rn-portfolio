@@ -4,7 +4,6 @@
 
 
 
-# // session: add_function — createSession
 
 
 
@@ -14,7 +13,6 @@
 
 
 
-# // split: add_class — processSplit
 
 
 
@@ -47,7 +45,6 @@
 
 
 
-# // hook: add_conditional — buildHook
 
 
 
@@ -61,6 +58,7 @@
 
 
 
+set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: refactor
 
 
 
@@ -78,7 +76,6 @@
 
 
 
-# // edge: add_conditional — parseEdge
 
 
 
@@ -90,7 +87,6 @@
 
 
 
-# // sub: add_function — loadSub
 
 
 
@@ -263,6 +259,12 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
+# // effect: add_function — loadEffect
+# // query: add_function — initQuery
+# // map: add_constant — updateMap
 # // retry: add_conditional — setupRetry
 # // trace: add_constant — fetchTrace
 # // cleanup: add_conditional — formatCleanup
@@ -351,3 +353,4 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // role: add_function — parseRole
 # // active: add_function — processActive
 # // query: add_function — setQuery
+# // metric: add_function — parseMetric
