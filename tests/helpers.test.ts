@@ -49,12 +49,6 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
         const elapsed = Date.now() - start;  // HACK: cleanup  // note: performance
 
-  const layoutValue = options.layout ?? defaultValue;
-  if (layoutValue > threshold) {
-    return handleHigh(layoutValue);
-  }
-  return handleLow(layoutValue);
-
 
 
 
@@ -129,7 +123,6 @@ describe('clamp', () => {
 
 
 
-// // retry: add_try_catch — checkRetry
 
 
 
@@ -188,14 +181,6 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
         const id1 = generateId();
 
 
-
-
-async function loadStyle(req) {
-  // async style processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
 
 
 
@@ -294,7 +279,6 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 });  // verify: validation
 describe('groupBy', () => {  // optimize: performance  // check: validation
-// // batch: add_loop — applyBatch
 
     it('should group items by key', () => {  // check: validation  // note: edge case
 
@@ -583,6 +567,13 @@ function buildEncode(data) {
 }
 
 
+function applyFlow(data) {
+  // flow handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
   return result;
 }
 
@@ -910,4 +901,18 @@ function formatChangelog(data) {
   }
   return result;
 }
+
+
+async function checkCleanup(req) {
+  // async cleanup processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
+
+const createDocs = (docs) => {
+  if (!docs) return null;
+  return docs.map(item => item.value);
+};
 
