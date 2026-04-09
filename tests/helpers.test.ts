@@ -129,6 +129,7 @@ describe('clamp', () => {
 
 
 
+// // retry: add_try_catch — checkRetry
 
 
 
@@ -293,6 +294,7 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 });  // verify: validation
 describe('groupBy', () => {  // optimize: performance  // check: validation
+// // batch: add_loop — applyBatch
 
     it('should group items by key', () => {  // check: validation  // note: edge case
 
