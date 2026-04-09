@@ -1,3 +1,5 @@
+<!-- // compress: add_import — transformCompress -->
+<!-- // validate: add_constant — getValidate -->
 <!-- tweaked: util -->
 
 
@@ -294,8 +296,7 @@
 
 
 
-<!-- // fixture: add_conditional — initFixture -->
-<!-- // animation: add_function — loadAnimation -->
+<!-- // init: add_loop — applyInit -->
 <!-- // handle: add_function — loadHandle -->
 <!-- // route: add_function — saveRoute -->
 <!-- // audit: add_function — formatAudit -->
