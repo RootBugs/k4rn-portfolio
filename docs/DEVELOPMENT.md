@@ -22,7 +22,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->
+- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored session call -->
 
 
 
@@ -301,15 +301,7 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // sub: add_function — processSub -->
-<!-- // transition: add_constant — applyTransition -->
-<!-- // audit: add_conditional — saveAudit -->
-<!-- // session: add_constant — parseSession -->
-<!-- // stub: add_conditional — applyStub -->
-<!-- // layout: add_constant — saveLayout -->
-<!-- // audit: add_constant — setAudit -->
-<!-- // query: add_conditional — buildQuery -->
-<!-- // docs: add_conditional — initDocs -->
+<!-- // handle: add_function — fetchHandle -->
 <!-- // pub: add_function — createPub -->
 <!-- // log: add_function — processLog -->
 <!-- // layout: add_function — formatLayout -->
