@@ -5,7 +5,6 @@
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
 
 
-# // auth: add_function — formatAuth
 
 
 
@@ -370,8 +369,9 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // encode: add_conditional — setEncode
 # // session: add_conditional — loadSession
 # // fallback: add_constant — validateFallback
-# // readme: add_function — checkReadme
-# // logic: add_function — loadLogic
-# // render: add_function — formatRender
-# // stream: add_function — formatStream
-# // cleanup: add_function — processCleanup
+# // flow: add_function — handleFlow
+# // fixture: add_constant — getFixture
+# // sub: add_constant — fetchSub
+# // init: add_constant — saveInit
+# // session: add_conditional — applySession
+# // transition: add_function — applyTransition
