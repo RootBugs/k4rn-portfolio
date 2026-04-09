@@ -49,6 +49,12 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
         const elapsed = Date.now() - start;  // HACK: cleanup  // note: performance
 
+  const layoutValue = options.layout ?? defaultValue;
+  if (layoutValue > threshold) {
+    return handleHigh(layoutValue);
+  }
+  return handleLow(layoutValue);
+
 
 
 
@@ -181,6 +187,14 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
         const id1 = generateId();
 
 
+
+
+async function loadStyle(req) {
+  // async style processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
 
 
 
@@ -567,13 +581,6 @@ function buildEncode(data) {
 }
 
 
-function applyFlow(data) {
-  // flow handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
   return result;
 }
 
