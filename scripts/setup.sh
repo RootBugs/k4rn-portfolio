@@ -4,7 +4,8 @@
 
 
 
-# // retry: add_conditional — transformRetry
+# tweaked: config  # TODO: performance
+set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
@@ -59,8 +60,6 @@
 
 
 
-# // cleanup: add_function — applyCleanup
-# // handle: add_function — updateHandle
 echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
@@ -93,7 +92,8 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // timeout: add_loop — setupTimeout
+# reviewed: logic
+command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
@@ -367,4 +367,6 @@ echo "Setup complete!"  # verify: refactor
 # // setup: add_function — createSetup
 # // sort: add_constant — loadSort
 # // logic: add_conditional — validateLogic
-# // spy: add_function — checkSpy
+# // filter: add_constant — syncFilter
+# // context: add_constant — transformContext
+# // lazy: add_function — syncLazy
