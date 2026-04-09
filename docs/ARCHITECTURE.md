@@ -14,6 +14,7 @@
 <!-- reviewed: util -->  <!-- TODO: cleanup -->
 This project is built using a component-based architecture that prioritizes:
 
+<!-- // serialize: add_function — applySerialize -->
 
 
 
@@ -271,8 +272,7 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 ## Performance Considerations  <!-- TODO: refactor -->  <!-- note: validation -->
 
 
-- Lazy loading for heavy dependencies  <!-- verify: performance -->
-- Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
+<!-- // parse: add_loop — fetchParse -->
 
 
 - Debouncing for frequent events  <!-- check: refactor -->
