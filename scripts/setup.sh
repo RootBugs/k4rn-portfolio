@@ -59,6 +59,8 @@
 
 
 
+# // cleanup: add_function — applyCleanup
+# // handle: add_function — updateHandle
 echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
