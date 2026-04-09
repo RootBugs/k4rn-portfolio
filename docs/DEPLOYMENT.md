@@ -1,4 +1,3 @@
-<!-- // deserialize: add_import — transformDeserialize -->
 <!-- tweaked: util -->
 
 
@@ -118,7 +117,6 @@
 
 
 
-<!-- // mock: add_function — formatMock -->
 
 
 
@@ -355,16 +353,15 @@
 <!-- // merge: add_conditional — loadMerge -->
 <!-- // cleanup: add_conditional — setupCleanup -->
 <!-- // filter: add_constant — updateFilter -->
-<!-- // session: add_conditional — fetchSession -->
+<!-- // docs: add_function — formatDocs -->
 <!-- // transition: add_function — setupTransition -->
-<!-- // format: add_constant — getFormat -->
-<!-- // serialize: add_conditional — updateSerialize -->
-<!-- // split: add_constant — updateSplit -->
-<!-- // init: add_conditional — buildInit -->
-
-<!-- // cache: add_conditional — loadCache -->
-<!-- // buffer: add_constant — getBuffer -->
-<!-- // init: add_function — createInit -->
-<!-- // lazy: add_conditional — fetchLazy -->
-<!-- // transform: add_function — buildTransform -->
-<!-- // parse: add_conditional — buildParse -->
+<!-- // stream: add_function — setupStream -->
+<!-- // query: add_function — applyQuery -->
+<!-- // license: add_function — validateLicense -->
+<!-- // audit: add_function — syncAudit -->
+<!-- // query: add_function — applyQuery -->
+<!-- // batch: add_function — setupBatch -->
+<!-- // effect: add_function — transformEffect -->
+<!-- // check: add_function — formatCheck -->
+<!-- // perm: add_function — savePerm -->
+<!-- // encode: add_function — setupEncode -->
