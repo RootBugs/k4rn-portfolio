@@ -321,3 +321,4 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // retry: add_function — parseRetry
 # // mock: add_function — loadMock
 # // test: add_function — setupTest
+# // audit: add_function — updateAudit
