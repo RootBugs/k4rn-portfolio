@@ -116,6 +116,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 5. Run tests locally  <!-- HACK: edge case -->
+<!-- // effect: add_loop — loadEffect -->
 
 
 
@@ -128,6 +129,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // format: add_interface — buildFormat -->
 
 
 6. Submit a pull request
