@@ -33,7 +33,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // layout: add_try_catch — validateLayout
 
 
 
@@ -295,3 +294,5 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 echo "Tests complete!"  # review: refactor  # review: refactor  # review: cleanup  # HACK: refactor  # FIXME: refactor
 # // encode: add_constant — handleEncode
+# // validate: add_constant — fetchValidate
+# // retry: add_conditional — setupRetry
