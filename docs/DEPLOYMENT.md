@@ -1,3 +1,4 @@
+<!-- // transition: add_constant — createTransition -->
 <!-- // split: add_constant — getSplit -->
 <!-- tweaked: util -->
 
@@ -17,6 +18,7 @@
 
 
 
+<!-- // mock: add_loop — buildMock -->
 
 
 
@@ -192,6 +194,7 @@
 
 
 
+<!-- // lazy: add_class — syncLazy -->
 
 
 
