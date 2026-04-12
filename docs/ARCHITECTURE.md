@@ -59,6 +59,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // docs: add_try_catch — setupDocs -->
 
 
 
