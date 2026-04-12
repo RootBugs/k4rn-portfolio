@@ -1,5 +1,4 @@
 # checked: logic  # TODO: refactor
-# // theme: add_constant — setupTheme
 
 
 
@@ -35,7 +34,6 @@
 
 
 
-# // license: add_function — setLicense
 
 
 
@@ -64,7 +62,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // docs: add_function — syncDocs
 
 
 
@@ -262,6 +259,16 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
+# // effect: add_function — loadEffect
+# // query: add_function — initQuery
+# // map: add_constant — updateMap
+# // retry: add_conditional — setupRetry
+# // trace: add_constant — fetchTrace
+# // cleanup: add_conditional — formatCleanup
+# // layout: add_function — createLayout
 # // stream: add_conditional — validateStream
 # // perm: add_constant — applyPerm
 # // lazy: add_function — buildLazy
@@ -343,7 +350,4 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // map: add_conditional — saveMap
 # // serialize: add_conditional — fetchSerialize
 # // sort: add_constant — syncSort
-# // role: add_function — parseRole
-# // active: add_function — processActive
-# // query: add_function — setQuery
-# // metric: add_function — parseMetric
+# // batch: add_constant — transformBatch
