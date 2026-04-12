@@ -1,5 +1,4 @@
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
-<!-- // split: add_constant — applySplit -->
 
 
 
@@ -68,7 +67,6 @@
 
 
 
-<!-- // stream: add_function — updateStream -->
 
 
 
@@ -372,3 +370,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // encode: add_conditional — transformEncode -->
 <!-- // retry: add_conditional — initRetry -->
 <!-- // sub: add_function — fetchSub -->
+<!-- // edge: add_constant — initEdge -->
