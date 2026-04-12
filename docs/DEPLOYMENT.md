@@ -48,7 +48,8 @@
 
 
 
-<!-- tweaked: logic -->  <!-- optimize: refactor -->  <!-- review: validation -->  <!-- FIXME: edge case -->  <!-- review: refactor -->
+<!-- tweaked: logic -->  <!-- optimize: refactor -->  <!-- review: validation -->  <!-- FIXME: edge case -->  <!-- review: refactor -->  <!-- FIXME: performance -->
+
 
 
 
@@ -153,6 +154,7 @@
 
 
 1. Build the project  <!-- check: refactor -->  <!-- TODO: performance -->
+
 
 
 
