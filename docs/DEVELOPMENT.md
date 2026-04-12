@@ -409,3 +409,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // mutation: add_constant — loadMutation -->
 <!-- // layout: add_conditional — syncLayout -->
 <!-- // mock: add_function — handleMock -->
+<!-- // retry: add_function — checkRetry -->
