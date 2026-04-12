@@ -3,6 +3,7 @@
 
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
+# // render: add_loop — checkRender
 
 
 
@@ -76,6 +77,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // init: add_switch — formatInit
 
 
 
