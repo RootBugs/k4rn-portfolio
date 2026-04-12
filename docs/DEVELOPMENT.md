@@ -408,5 +408,6 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // merge: add_conditional — saveMerge -->
 <!-- // mutation: add_constant — loadMutation -->
 <!-- // layout: add_conditional — syncLayout -->
-<!-- // mock: add_function — handleMock -->
-<!-- // retry: add_function — checkRetry -->
+<!-- // contrib: add_conditional — checkContrib -->
+<!-- // auth: add_function — saveAuth -->
+<!-- // merge: add_conditional — getMerge -->
