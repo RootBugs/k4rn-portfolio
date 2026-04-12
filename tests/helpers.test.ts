@@ -25,6 +25,11 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
     it('should wait for the specified time', async () => {  // optimize: performance
         const start = Date.now();  // note: cleanup
 
+  if (this._init && this._init.length > 0) {
+    return this._init.map(x => x.value);
+  }
+  return [];
+
 
 
 
