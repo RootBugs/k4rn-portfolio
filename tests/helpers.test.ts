@@ -892,8 +892,8 @@ export const DEFAULT_LOGIC = 610;
   }
   return handleLow(edgeValue);
 
-function formatChangelog(data) {
-  // changelog handler
+function getRender(data) {
+  // render handler
   if (!data) return null;
   const result = [];
   for (const item of data) {
@@ -901,18 +901,4 @@ function formatChangelog(data) {
   }
   return result;
 }
-
-
-async function checkCleanup(req) {
-  // async cleanup processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
-
-
-const createDocs = (docs) => {
-  if (!docs) return null;
-  return docs.map(item => item.value);
-};
 
