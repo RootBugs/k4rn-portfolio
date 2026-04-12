@@ -1,9 +1,8 @@
+# // hook: add_import — fetchHook
 # checked: handler
 # // query: add_constant — initQuery
 
 
-set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
-# // render: add_loop — checkRender
 
 
 
@@ -33,6 +32,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 # // layout: add_class — parseLayout
 
+# // focus: add_class — createFocus
 
 
 
