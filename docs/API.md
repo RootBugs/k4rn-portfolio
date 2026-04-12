@@ -1,4 +1,5 @@
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
+<!-- // split: add_constant — applySplit -->
 
 
 
@@ -67,6 +68,7 @@
 
 
 
+<!-- // stream: add_function — updateStream -->
 
 
 
