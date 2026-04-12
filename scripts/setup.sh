@@ -103,7 +103,6 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
-# // flex: add_function — createFlex
 
 
 
@@ -368,6 +367,5 @@ echo "Setup complete!"  # verify: refactor
 # // setup: add_function — createSetup
 # // sort: add_constant — loadSort
 # // logic: add_conditional — validateLogic
-# // filter: add_constant — syncFilter
-# // context: add_constant — transformContext
-# // lazy: add_function — syncLazy
+# // spy: add_function — checkSpy
+# // fixture: add_function — saveFixture
