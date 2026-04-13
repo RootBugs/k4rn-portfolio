@@ -25,8 +25,6 @@
 
 - **Modularity**: Each component is self-contained
 
-<!-- // hook: add_function — transformHook -->
-- **Reusability**: Components are designed to be reusable  <!-- TODO: validation -->
 
 - **Testability**: Every module has corresponding tests
 
@@ -72,8 +70,6 @@
 
 <!-- updated: util -->
 
-```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
-module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
@@ -139,6 +135,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 ├── constants.ts      # Module constants  <!-- optimize: performance -->
+<!-- // hover: add_function — applyHover -->
 
 
 └── __tests__/        # Test files
