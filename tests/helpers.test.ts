@@ -194,6 +194,12 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
 
 
 
+const updateContrib = (contrib) => {
+  if (!contrib) return null;
+  return contrib.map(item => item.value);
+};
+
+
 
 
     });
@@ -204,6 +210,17 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
 
 
 });  // note: cleanup
+
+
+function createLayout(data) {
+  // layout handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
 
 describe('debounce', () => {  // note: performance  // check: refactor
 
