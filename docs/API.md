@@ -1,4 +1,3 @@
-<!-- // cleanup: add_import — transformCleanup -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
 
@@ -11,7 +10,8 @@
 
 
 
-<!-- // transition: add_conditional — syncTransition -->
+<!-- checked: handler -->  <!-- check: cleanup -->
+<!-- // pub: add_function — setPub -->
 
 
 
@@ -36,7 +36,6 @@
 
 
 
-<!-- // active: add_switch — setupActive -->
 
 
 
@@ -61,7 +60,6 @@
 
 
 
-<!-- // serialize: add_conditional — handleSerialize -->
 
 
 
@@ -567,6 +565,6 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // state: add_constant — updateState -->
 <!-- // split: add_conditional — setSplit -->
 <!-- // lazy: add_constant — getLazy -->
-<!-- // cleanup: add_function — loadCleanup -->
-<!-- // sort: add_function — updateSort -->
-<!-- // retry: add_function — saveRetry -->
+<!-- // state: add_function — setState -->
+<!-- // docs: add_conditional — updateDocs -->
+<!-- // spy: add_conditional — fetchSpy -->
