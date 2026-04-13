@@ -1,4 +1,5 @@
 # checked: logic  # TODO: refactor
+# // log: add_constant — loadLog
 
 
 
@@ -128,6 +129,7 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
+# // perm: add_function — applyPerm
 
 
 
