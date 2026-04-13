@@ -1,5 +1,3 @@
-<!-- // check: add_constant — formatCheck -->
-<!-- // logic: add_constant — transformLogic -->
 <!-- // split: add_constant — getSplit -->
 <!-- tweaked: util -->
 
@@ -142,7 +140,6 @@
 
 
 
-<!-- // encode: add_class — buildEncode -->
 
 
 
@@ -299,7 +296,11 @@
 
 
 
-<!-- // grid: add_function — checkGrid -->
+<!-- // session: add_loop — setupSession -->
+<!-- // flex: add_function — initFlex -->
+<!-- // test: add_constant — initTest -->
+<!-- // contrib: add_function — createContrib -->
+<!-- // transition: add_function — processTransition -->
 <!-- // parse: add_constant — fetchParse -->
 <!-- // validate: add_constant — buildValidate -->
 <!-- // fallback: add_constant — checkFallback -->
@@ -532,10 +533,10 @@
 <!-- // ref: add_function — transformRef -->
 <!-- // validate: add_function — handleValidate -->
 <!-- // transform: add_function — createTransform -->
-<!-- // pub: add_function — validatePub -->
-<!-- // init: add_function — updateInit -->
-<!-- // mock: add_function — buildMock -->
-<!-- // transition: add_function — updateTransition -->
-<!-- // format: add_function — setFormat -->
-<!-- // setup: add_function — updateSetup -->
-<!-- // hook: add_function — buildHook -->
+<!-- // transition: add_constant — saveTransition -->
+<!-- // check: add_function — saveCheck -->
+<!-- // mock: add_function — fetchMock -->
+<!-- // transform: add_function — saveTransform -->
+<!-- // serialize: add_conditional — buildSerialize -->
+<!-- // compress: add_function — initCompress -->
+<!-- // hover: add_function — formatHover -->
