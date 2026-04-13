@@ -296,11 +296,7 @@
 
 
 
-<!-- // session: add_loop — setupSession -->
-<!-- // flex: add_function — initFlex -->
-<!-- // test: add_constant — initTest -->
-<!-- // contrib: add_function — createContrib -->
-<!-- // transition: add_function — processTransition -->
+<!-- // grid: add_function — checkGrid -->
 <!-- // parse: add_constant — fetchParse -->
 <!-- // validate: add_constant — buildValidate -->
 <!-- // fallback: add_constant — checkFallback -->
