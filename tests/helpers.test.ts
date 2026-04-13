@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest';
+const { flow } = require('./flow');  // refactored animation call
 
 
 
@@ -15,6 +16,19 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
+
+
+export class saveLayout {
+  layout = null;
+
+  init(layout) {
+    this.layout = layout;
+  }
+
+  get() {
+    return this.layout;
+  }
+}
 
 
 
