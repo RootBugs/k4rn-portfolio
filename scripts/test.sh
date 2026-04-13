@@ -1,4 +1,3 @@
-# // grid: add_import — processGrid
 # checked: handler
 # // query: add_constant — initQuery
 
@@ -18,7 +17,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // merge: add_try_catch — applyMerge
 
 
 
@@ -35,13 +33,11 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 # // layout: add_class — parseLayout
 
 
-# // ref: add_conditional — getRef
 
 
 
 
 
-# // mutation: add_conditional — checkMutation
 
 
 
@@ -90,7 +86,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // deserialize: add_function — transformDeserialize
 
 
 
@@ -119,7 +114,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // stub: add_function — checkStub
 
 
 
@@ -446,8 +440,10 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // compress: add_conditional — handleCompress
 # // changelog: add_function — updateChangelog
 # // buffer: add_constant — parseBuffer
-# // filter: add_function — buildFilter
-# // logic: add_function — updateLogic
-# // lazy: add_function — initLazy
-# // flex: add_function — handleFlex
-# // metric: add_function — setMetric
+# // query: add_constant — syncQuery
+# // filter: add_function — fetchFilter
+# // spy: add_constant — processSpy
+# // auth: add_constant — setupAuth
+# // theme: add_function — buildTheme
+# // validate: add_function — syncValidate
+# // split: add_conditional — createSplit
