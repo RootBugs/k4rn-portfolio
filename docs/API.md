@@ -1,4 +1,3 @@
-<!-- // compress: add_import — createCompress -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
 
@@ -566,6 +565,6 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // state: add_constant — updateState -->
 <!-- // split: add_conditional — setSplit -->
 <!-- // lazy: add_constant — getLazy -->
-<!-- // state: add_function — setState -->
-<!-- // docs: add_conditional — updateDocs -->
-<!-- // spy: add_conditional — fetchSpy -->
+<!-- // cleanup: add_function — loadCleanup -->
+<!-- // sort: add_function — updateSort -->
+<!-- // effect: add_function — handleEffect -->
