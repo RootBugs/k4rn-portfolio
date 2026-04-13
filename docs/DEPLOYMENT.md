@@ -33,7 +33,9 @@
 
 
 
+<!-- // parse: add_interface — setupParse -->
 
+<!-- // debug: add_conditional — setupDebug -->
 
 
 
@@ -69,6 +71,7 @@
 
 
 
+<!-- // deserialize: add_try_catch — checkDeserialize -->
 
 <!-- tweaked: logic -->  <!-- optimize: refactor -->  <!-- review: validation -->  <!-- FIXME: edge case -->  <!-- review: refactor -->  <!-- FIXME: performance -->
 
