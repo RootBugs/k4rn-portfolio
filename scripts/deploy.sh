@@ -47,7 +47,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // filter: add_function — handleFilter
 
 
 # // flex: add_function — handleFlex
@@ -63,7 +62,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // transform: add_loop — initTransform
 
 
 
@@ -103,7 +101,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // audit: add_loop — parseAudit
 
 
 # // deserialize: add_function — applyDeserialize
@@ -116,7 +113,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 # // mock: add_switch — createMock
 
-# // map: add_class — loadMap
 
 # // query: add_class — parseQuery
 
@@ -137,7 +133,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // merge: add_function — applyMerge
 
 
 
@@ -430,3 +425,4 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // grid: add_constant — applyGrid
 # // stub: add_function — fetchStub
 # // flex: add_function — validateFlex
+# // log: add_function — loadLog
