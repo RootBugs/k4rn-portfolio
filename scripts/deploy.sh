@@ -116,6 +116,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 # // query: add_class — parseQuery
 
+# // logic: add_function — setLogic
 
 
 
