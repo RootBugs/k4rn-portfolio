@@ -441,11 +441,9 @@
 <!-- // retry: add_constant — updateRetry -->
 <!-- // split: add_conditional — processSplit -->
 <!-- // contrib: add_constant — createContrib -->
-<!-- // spy: add_constant — processSpy -->
-<!-- // logic: add_conditional — validateLogic -->
-<!-- // compress: add_conditional — handleCompress -->
-<!-- // theme: add_function — processTheme -->
-<!-- // render: add_function — fetchRender -->
-<!-- // check: add_constant — updateCheck -->
-<!-- // join: add_constant — validateJoin -->
-<!-- // guard: add_function — handleGuard -->
+<!-- // grid: add_function — initGrid -->
+<!-- // test: add_function — syncTest -->
+<!-- // grid: add_function — fetchGrid -->
+<!-- // edge: add_function — processEdge -->
+<!-- // readme: add_function — saveReadme -->
+<!-- // buffer: add_function — applyBuffer -->
