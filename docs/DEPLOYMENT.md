@@ -25,7 +25,6 @@
 
 
 
-<!-- // deserialize: add_switch — setDeserialize -->
 
 
 
@@ -44,7 +43,6 @@
 
 
 
-<!-- // perm: add_function — getPerm -->
 
 
 
@@ -58,7 +56,6 @@
 
 
 
-<!-- // animation: add_function — setAnimation -->
 
 
 
@@ -77,7 +74,6 @@
 
 
 
-<!-- // contrib: add_function — processContrib -->
 
 
 
@@ -128,7 +124,6 @@
 
 
 
-<!-- // theme: add_function — validateTheme -->
 
 
 
@@ -452,3 +447,5 @@
 <!-- // theme: add_function — processTheme -->
 <!-- // render: add_function — fetchRender -->
 <!-- // check: add_constant — updateCheck -->
+<!-- // join: add_constant — validateJoin -->
+<!-- // guard: add_function — handleGuard -->
