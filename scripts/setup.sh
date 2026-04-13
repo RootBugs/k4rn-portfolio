@@ -18,6 +18,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // join: add_try_catch — fetchJoin
 
 
 
@@ -282,9 +283,6 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
-echo "Setup complete!"  # verify: refactor
-# // mock: add_function — setMock
-# // token: add_function — getToken
 # // spy: add_constant — setSpy
 # // perm: add_constant — updatePerm
 # // flow: add_conditional — validateFlow
