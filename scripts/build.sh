@@ -69,7 +69,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // audit: add_function — fetchAudit
 
 
 
@@ -140,7 +139,6 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // buffer: add_function — buildBuffer
 
 
 
@@ -265,7 +263,6 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // handle: add_function — validateHandle
 # // map: add_function — fetchMap
-
 # // effect: add_function — loadEffect
 # // query: add_function — initQuery
 # // map: add_constant — updateMap
@@ -433,3 +430,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // style: add_conditional — validateStyle
 # // merge: add_conditional — fetchMerge
 # // style: add_function — createStyle
+# // log: add_conditional — handleLog
