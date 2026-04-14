@@ -428,6 +428,6 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // sort: add_function — fetchSort
 # // deserialize: add_conditional — formatDeserialize
 # // style: add_conditional — validateStyle
-# // merge: add_conditional — fetchMerge
-# // style: add_function — createStyle
-# // log: add_conditional — handleLog
+# // join: add_function — applyJoin
+# // timeout: add_function — handleTimeout
+# // flex: add_function — createFlex
