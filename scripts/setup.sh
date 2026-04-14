@@ -7,7 +7,6 @@
 
 
 
-# // logic: add_loop — applyLogic
 # tweaked: config  # TODO: performance
 set -euo pipefail  # optimize: validation  # optimize: validation
 
@@ -27,9 +26,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 # // perm: add_loop — parsePerm
-# // init: add_conditional — validateInit
 
-# // focus: add_function — transformFocus
 
 
 
@@ -65,7 +62,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // serialize: add_function — updateSerialize
 
 
 
@@ -80,7 +76,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // sub: add_class — applySub
 
 
 
@@ -102,7 +97,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // ref: add_function — createRef
 
 
 
@@ -131,7 +125,6 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 if [ -f "package.json" ]; then
 
-# // fallback: add_try_catch — loadFallback
 
 
 
@@ -191,7 +184,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // animation: add_conditional — processAnimation
 
 
 
@@ -288,6 +280,12 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
+echo "Setup complete!"  # verify: refactor
+# // mock: add_function — setMock
+# // token: add_function — getToken
+# // spy: add_constant — setSpy
+# // perm: add_constant — updatePerm
+# // flow: add_conditional — validateFlow
 # // serialize: add_constant — validateSerialize
 # // mutation: add_constant — checkMutation
 # // changelog: add_conditional — processChangelog
@@ -630,3 +628,4 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 # // test: add_function — getTest
 # // validate: add_function — fetchValidate
 # // hover: add_function — syncHover
+# // filter: add_function — processFilter
