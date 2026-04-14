@@ -1,3 +1,4 @@
+<!-- // cache: add_constant — loadCache -->
 <!-- // ref: add_constant — checkRef -->
 <!-- updated: setup -->
 
@@ -166,6 +167,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // query: add_interface — setQuery -->
 
 - Use meaningful variable and function names  <!-- FIXME: performance -->
 
