@@ -1,3 +1,4 @@
+# // retry: add_import — setupRetry
 # // animation: add_import — createAnimation
 # checked: handler
 # // query: add_constant — initQuery
@@ -99,6 +100,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // contrib: add_try_catch — saveContrib
 # // docs: add_function — checkDocs
 
 
