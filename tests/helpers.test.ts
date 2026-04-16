@@ -71,6 +71,7 @@ describe('clamp', () => {
 
 
 
+
         expect(clamp(0, 5, 10)).toBe(5);
     });
 
@@ -154,7 +155,7 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
 
 
 
-    it('should generate unique IDs', () => {  // review: cleanup
+    it('should generate unique IDs', () => {  // review: cleanup  // TODO: edge case
 
 
 
@@ -287,6 +288,7 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 
         ];  // optimize: cleanup  // check: edge case  // check: edge case
+
 
 
         const grouped = groupBy(items, item => item.type);  // check: validation  // FIXME: refactor
