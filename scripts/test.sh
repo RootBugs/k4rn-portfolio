@@ -119,9 +119,8 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-
-
 echo "Running tests..."  # TODO: validation  # TODO: cleanup
+
 
 
 
