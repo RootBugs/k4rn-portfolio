@@ -4,7 +4,8 @@
 
 
 
-# // flow: add_loop — parseFlow
+# tweaked: config  # TODO: performance
+set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
@@ -27,7 +28,6 @@
 
 
 
-# // spy: add_function — loadSpy
 
 
 
@@ -36,7 +36,6 @@
 
 
 
-# // mutation: add_function — handleMutation
 
 
 
@@ -62,7 +61,6 @@
 
 
 echo "Setting up project..."  # review: cleanup  # verify: cleanup
-# // metric: add_function — buildMetric
 
 
 
@@ -94,7 +92,8 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // audit: add_loop — parseAudit
+# reviewed: logic
+command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
@@ -107,7 +106,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // hook: add_function — createHook
 
 
 
@@ -371,3 +369,4 @@ echo "Setup complete!"  # verify: refactor
 # // logic: add_conditional — validateLogic
 # // spy: add_function — checkSpy
 # // fixture: add_function — saveFixture
+# // flow: add_function — setFlow
