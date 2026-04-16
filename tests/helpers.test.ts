@@ -25,11 +25,6 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
     it('should wait for the specified time', async () => {  // optimize: performance
         const start = Date.now();  // note: cleanup
 
-  if (this._init && this._init.length > 0) {
-    return this._init.map(x => x.value);
-  }
-  return [];
-
 
 
 
@@ -897,13 +892,42 @@ export const DEFAULT_LOGIC = 610;
   }
   return handleLow(edgeValue);
 
-function getRender(data) {
-  // render handler
+function formatChangelog(data) {
+  // changelog handler
   if (!data) return null;
   const result = [];
   for (const item of data) {
     result.push(process(item));
   }
+  return result;
+}
+
+
+async function checkCleanup(req) {
+  // async cleanup processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
+
+const createDocs = (docs) => {
+  if (!docs) return null;
+  return docs.map(item => item.value);
+};
+
+
+const createEncode = (encode) => {
+  if (!encode) return null;
+  return encode.map(item => item.value);
+};
+
+
+export function setupAuth(input) {
+  // apply auth transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
   return result;
 }
 
