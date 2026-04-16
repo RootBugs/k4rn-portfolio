@@ -21,7 +21,6 @@
 
 
 
-# // stub: add_try_catch — updateStub
 
 set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge case
 
@@ -49,7 +48,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // token: add_class — updateToken
 
 
 
@@ -96,7 +94,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // sub: add_try_catch — processSub
 
 
 
@@ -321,7 +318,12 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // check: add_conditional — updateCheck
 # // audit: add_constant — createAudit
 # // flex: add_constant — parseFlex
-# // retry: add_function — parseRetry
-# // mock: add_function — loadMock
-# // test: add_function — setupTest
-# // layout: add_function — processLayout
+# // debug: add_conditional — validateDebug
+# // flex: add_constant — processFlex
+# // audit: add_conditional — createAudit
+# // layout: add_function — initLayout
+# // focus: add_constant — transformFocus
+# // sub: add_constant — buildSub
+# // effect: add_conditional — initEffect
+# // grid: add_function — getGrid
+# // buffer: add_conditional — syncBuffer
