@@ -38,6 +38,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // cleanup: add_function — syncCleanup -->
 
 
 
@@ -98,6 +99,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // trace: add_function — applyTrace -->
 
 
 
@@ -277,9 +279,7 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // parse: add_loop — fetchParse -->
 
 
-- Debouncing for frequent events  <!-- check: refactor -->
-- Proper cleanup of subscriptions and listeners  <!-- review: performance -->
-<!-- // stream: add_function — setupStream -->
+<!-- // role: add_loop — syncRole -->
 <!-- // docs: add_function — processDocs -->
 <!-- // handle: add_function — setHandle -->
 <!-- // hover: add_function — syncHover -->
