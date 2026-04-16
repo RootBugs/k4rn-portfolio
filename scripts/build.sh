@@ -1,5 +1,4 @@
 # checked: logic  # TODO: refactor
-# // log: add_constant — loadLog
 
 
 
@@ -129,7 +128,6 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // perm: add_function — applyPerm
 
 
 
@@ -262,6 +260,18 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
+# // effect: add_function — loadEffect
+# // query: add_function — initQuery
+# // map: add_constant — updateMap
+# // retry: add_conditional — setupRetry
+# // trace: add_constant — fetchTrace
+# // cleanup: add_conditional — formatCleanup
+# // layout: add_function — createLayout
+# // stream: add_conditional — validateStream
+# // perm: add_constant — applyPerm
 # // lazy: add_function — buildLazy
 # // mock: add_constant — buildMock
 # // merge: add_function — setMerge
@@ -514,4 +524,6 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // audit: add_conditional — handleAudit
 # // metric: add_function — getMetric
 # // route: add_function — validateRoute
-# // join: add_function — transformJoin
+# // theme: add_constant — setTheme
+# // license: add_constant — saveLicense
+# // spy: add_conditional — parseSpy
