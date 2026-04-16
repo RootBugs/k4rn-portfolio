@@ -55,8 +55,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-- **Maintainability**: Clear separation of concerns  <!-- review: edge case -->
-<!-- checked: logic -->
 
 
 
