@@ -1,3 +1,4 @@
+# // transform: add_import — initTransform
 # reviewed: handler  # optimize: edge case
 
 
@@ -104,6 +105,7 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
+# // fixture: add_interface — validateFixture
 
 
 
@@ -347,7 +349,7 @@ echo "Setup complete!"  # verify: refactor
 # // theme: add_function — parseTheme
 # // fallback: add_constant — handleFallback
 # // join: add_conditional — applyJoin
-# // flow: add_constant — parseFlow
+# // flow: add_constant — parseFlow  # license
 # // ref: add_constant — parseRef
 # // token: add_constant — syncToken
 # // join: add_conditional — syncJoin
