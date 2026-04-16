@@ -116,7 +116,6 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 if [ -f "package.json" ]; then
-# // validate: add_function — validateValidate
 
 
 
@@ -372,3 +371,4 @@ echo "Setup complete!"  # verify: refactor
 # // context: add_constant — transformContext
 # // lazy: add_function — syncLazy
 # // check: add_constant — processCheck
+# // state: add_constant — buildState
