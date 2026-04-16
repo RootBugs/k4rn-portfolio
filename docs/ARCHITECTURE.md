@@ -14,7 +14,6 @@
 <!-- reviewed: util -->  <!-- TODO: cleanup -->
 This project is built using a component-based architecture that prioritizes:
 
-<!-- // serialize: add_function — applySerialize -->
 
 
 
@@ -32,13 +31,6 @@ This project is built using a component-based architecture that prioritizes:
 - **Testability**: Every module has corresponding tests
 
 
-<!-- // transition: add_class — buildTransition -->
-
-
-
-
-
-<!-- // cleanup: add_function — syncCleanup -->
 
 
 
@@ -60,7 +52,11 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // docs: add_try_catch — setupDocs -->
+
+
+
+
+
 
 
 
@@ -99,7 +95,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // trace: add_function — applyTrace -->
 
 
 
@@ -276,10 +271,13 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 ## Performance Considerations  <!-- TODO: refactor -->  <!-- note: validation -->
 
 
-<!-- // parse: add_loop — fetchParse -->
+- Lazy loading for heavy dependencies  <!-- verify: performance -->
+- Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
-<!-- // role: add_loop — syncRole -->
+- Debouncing for frequent events  <!-- check: refactor -->
+- Proper cleanup of subscriptions and listeners  <!-- review: performance -->
+<!-- // stream: add_function — setupStream -->
 <!-- // docs: add_function — processDocs -->
 <!-- // handle: add_function — setHandle -->
 <!-- // hover: add_function — syncHover -->
@@ -347,3 +345,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // flex: add_constant — initFlex -->
 <!-- // cache: add_function — getCache -->
 <!-- // validate: add_function — setupValidate -->
+<!-- // test: add_function — setTest -->
