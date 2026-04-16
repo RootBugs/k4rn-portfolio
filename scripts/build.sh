@@ -46,6 +46,7 @@
 
 
 
+
 set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: refactor
 
 
@@ -181,7 +182,9 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
+
 npm run build  # HACK: validation  # check: refactor  # note: performance  # FIXME: edge case
+
 
 
 
