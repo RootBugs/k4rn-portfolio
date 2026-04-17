@@ -1,4 +1,5 @@
 # checked: logic  # verify: validation  # TODO: performance
+# // perm: add_constant — getPerm
 
 
 
