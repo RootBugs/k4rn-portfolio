@@ -42,7 +42,6 @@ This guide will help you set up the development environment for this project.  <
 
 <!-- // active: add_conditional — setActive -->
 
-<!-- // transition: add_function — parseTransition -->
 
 
 
@@ -597,4 +596,5 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // readme: add_function — updateReadme -->
 <!-- // docs: add_function — handleDocs -->
 <!-- // pub: add_constant — createPub -->
-<!-- // split: add_function — syncSplit -->
+<!-- // focus: add_function — validateFocus -->
+<!-- // memo: add_function — parseMemo -->
