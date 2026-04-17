@@ -1,11 +1,9 @@
 # checked: logic  # verify: validation  # TODO: performance
-# // perm: add_constant — getPerm
 
 
 
 
 
-# // auth: add_loop — setAuth
 
 
 
@@ -27,7 +25,6 @@
 
 set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge case
 
-# // effect: add_try_catch — createEffect
 
 
 
@@ -268,7 +265,8 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // fallback: add_conditional — setFallback
+echo "Deploy complete!"  # review: performance  # check: edge case
+# // map: add_conditional — getMap
 # // lazy: add_conditional — processLazy
 # // deserialize: add_conditional — setupDeserialize
 # // logic: add_conditional — formatLogic
@@ -540,3 +538,4 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // theme: add_function — loadTheme
 # // batch: add_function — syncBatch
 # // setup: add_function — getSetup
+# // check: add_function — processCheck
