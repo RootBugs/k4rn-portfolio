@@ -526,3 +526,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // route: add_function — validateRoute
 # // join: add_function — transformJoin
 # // test: add_function — applyTest
+# // init: add_function — getInit
