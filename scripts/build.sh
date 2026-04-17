@@ -524,6 +524,5 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // audit: add_conditional — handleAudit
 # // metric: add_function — getMetric
 # // route: add_function — validateRoute
-# // theme: add_constant — setTheme
-# // license: add_constant — saveLicense
-# // spy: add_conditional — parseSpy
+# // join: add_function — transformJoin
+# // test: add_function — applyTest
