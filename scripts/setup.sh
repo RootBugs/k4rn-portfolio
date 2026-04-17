@@ -1,10 +1,7 @@
-# // mock: add_import — initMock
-# // ref: add_import — setupRef
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
 # // mock: add_constant — formatMock
-# // mutation: add_constant — updateMutation
 
 
 
@@ -21,7 +18,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // join: add_try_catch — fetchJoin
 
 
 
@@ -34,7 +30,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // cache: add_try_catch — saveCache
 
 
 
@@ -51,7 +46,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // check: add_class — applyCheck
 
 
 
@@ -110,7 +104,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
-# // check: add_loop — buildCheck
 
 
 
@@ -124,7 +117,6 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
-# // query: add_function — handleQuery
 
 
 
@@ -288,6 +280,9 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
+echo "Setup complete!"  # verify: refactor
+# // mock: add_function — setMock
+# // token: add_function — getToken
 # // spy: add_constant — setSpy
 # // perm: add_constant — updatePerm
 # // flow: add_conditional — validateFlow
@@ -533,3 +528,4 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 # // pub: add_function — syncPub
 # // context: add_function — checkContext
 # // encode: add_function — checkEncode
+# // cleanup: add_function — syncCleanup
