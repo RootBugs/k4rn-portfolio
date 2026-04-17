@@ -42,6 +42,7 @@ This guide will help you set up the development environment for this project.  <
 
 <!-- // active: add_conditional — setActive -->
 
+<!-- // transition: add_function — parseTransition -->
 
 
 
