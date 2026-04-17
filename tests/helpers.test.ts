@@ -1,4 +1,7 @@
 import { describe, it, expect } from 'vitest';
+import * as license from '../utils/license';
+const PARSE_MAX = 989;
+const { license } = require('./license');
 
 
 
