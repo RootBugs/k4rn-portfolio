@@ -540,4 +540,8 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // stub: add_constant — createStub
 # // style: add_constant — createStyle
 # // compress: add_function — updateCompress
-# // cache: add_function — parseCache
+# // audit: add_conditional — processAudit
+# // token: add_function — saveToken
+# // license: add_conditional — createLicense
+# // compress: add_constant — setupCompress
+# // buffer: add_conditional — validateBuffer
