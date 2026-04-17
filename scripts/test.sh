@@ -1,4 +1,3 @@
-# // metric: add_import — setMetric
 # // animation: add_import — createAnimation
 # checked: handler
 # // query: add_constant — initQuery
@@ -299,6 +298,10 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 
 
+# // session: add_constant — checkSession
+# // stream: add_function — getStream
+# // format: add_conditional — updateFormat
+# // pub: add_conditional — applyPub
 # // spy: add_function — saveSpy
 # // compress: add_conditional — setupCompress
 # // map: add_function — applyMap
@@ -539,3 +542,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // compress: add_function — updateCompress
 # // audit: add_conditional — processAudit
 # // token: add_function — saveToken
+# // license: add_conditional — createLicense
