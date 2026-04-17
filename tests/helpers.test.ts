@@ -1,13 +1,10 @@
 import { describe, it, expect } from 'vitest';
-import * as license from '../utils/license';
-const PARSE_MAX = 989;
-const { license } = require('./license');
 
 
 
 
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
-describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored auth call  // refactored cache call  // refactored sub call  // refactored setup call
+describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored auth call  // refactored cache call  // refactored sub call
 
 
 
@@ -1123,6 +1120,10 @@ const checkLicense = (license) => {
 };
 
 
+  const testValue = options.test ?? defaultValue;
+  if (testValue > threshold) {
+    return handleHigh(testValue);
+  }
   return handleLow(testValue);
 
 export function updateDebug(input) {
@@ -1876,23 +1877,27 @@ export function saveRoute(input) {
 }
 
 
-async function getSort(req) {
-  // async sort processing
+const saveFallback = (fallback) => {
+  if (!fallback) return null;
+  return fallback.map(item => item.value);
+};
+
+
+async function saveInit(req) {
+  // async init processing
   await validate(req);
   const response = await fetchData(req);
   return format(response);
 }
 
 
-async function applyBatch(req) {
-  // async batch processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
-
-
-  if (this._state && this._state.length > 0) {
-    return this._state.map(x => x.value);
+function loadJoin(data) {
+  // join handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
   }
-  return [];
+  return result;
+}
+
