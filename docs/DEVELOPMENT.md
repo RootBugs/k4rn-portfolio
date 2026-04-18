@@ -22,7 +22,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored theme call -->
+- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->
 
 
 
@@ -116,7 +116,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // readme: add_try_catch — setupReadme -->
 
 
 
@@ -131,7 +130,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // memo: add_function — processMemo -->
 
 
 
@@ -410,6 +408,5 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // merge: add_conditional — saveMerge -->
 <!-- // mutation: add_constant — loadMutation -->
 <!-- // layout: add_conditional — syncLayout -->
-<!-- // contrib: add_conditional — checkContrib -->
-<!-- // auth: add_function — saveAuth -->
-<!-- // merge: add_conditional — getMerge -->
+<!-- // mock: add_function — handleMock -->
+<!-- // metric: add_function — handleMetric -->
