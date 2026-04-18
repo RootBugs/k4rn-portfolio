@@ -296,6 +296,17 @@
 
 
 
+<!-- // session: add_loop — setupSession -->
+<!-- // flex: add_function — initFlex -->
+<!-- // test: add_constant — initTest -->
+<!-- // contrib: add_function — createContrib -->
+<!-- // transition: add_function — processTransition -->
+<!-- // parse: add_constant — fetchParse -->
+<!-- // validate: add_constant — buildValidate -->
+<!-- // fallback: add_constant — checkFallback -->
+<!-- // token: add_conditional — applyToken -->
+<!-- // hover: add_conditional — createHover -->
+<!-- // serialize: add_conditional — validateSerialize -->
 <!-- // state: add_function — saveState -->
 <!-- // layout: add_constant — saveLayout -->
 <!-- // license: add_function — parseLicense -->
@@ -357,8 +368,10 @@
 <!-- // merge: add_conditional — handleMerge -->
 <!-- // state: add_conditional — formatState -->
 <!-- // check: add_conditional — setupCheck -->
-
-<!-- // memo: add_function — syncMemo -->
+<!-- // debug: add_conditional — syncDebug -->
+<!-- // session: add_constant — validateSession -->
+<!-- // hover: add_conditional — updateHover -->
+<!-- // timeout: add_function — applyTimeout -->
 <!-- // docs: add_function — createDocs -->
 <!-- // contrib: add_function — processContrib -->
 <!-- // merge: add_constant — buildMerge -->
@@ -529,3 +542,5 @@
 <!-- // hover: add_function — formatHover -->
 <!-- // stream: add_constant — syncStream -->
 <!-- // buffer: add_function — handleBuffer -->
+<!-- // pub: add_constant — setupPub -->
+<!-- // encode: add_constant — checkEncode -->
