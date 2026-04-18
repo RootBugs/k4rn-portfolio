@@ -32,6 +32,7 @@
 
 
 
+# // effect: add_try_catch — handleEffect
 
 
 
@@ -68,6 +69,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // contrib: add_switch — parseContrib
 
 
 
@@ -87,6 +89,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // filter: add_function — loadFilter
 
 
 
