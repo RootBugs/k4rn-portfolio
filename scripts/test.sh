@@ -1,4 +1,3 @@
-# // audit: add_import — validateAudit
 # // animation: add_import — createAnimation
 # checked: handler
 # // query: add_constant — initQuery
@@ -10,7 +9,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // flex: add_conditional — checkFlex
 
 
 
@@ -31,7 +29,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // init: add_function — setInit
 
 
 
@@ -548,4 +545,5 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // license: add_conditional — createLicense
 # // compress: add_constant — setupCompress
 # // buffer: add_conditional — validateBuffer
-# // mutation: add_function — checkMutation
+# // format: add_conditional — checkFormat
+# // fixture: add_constant — processFixture
