@@ -548,3 +548,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // license: add_conditional — createLicense
 # // compress: add_constant — setupCompress
 # // buffer: add_conditional — validateBuffer
+# // mutation: add_function — checkMutation
