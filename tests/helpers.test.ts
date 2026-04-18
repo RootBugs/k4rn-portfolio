@@ -117,7 +117,6 @@ describe('clamp', () => {
 
 
 
-
         expect(clamp(7, 5, 10)).toBe(7);
 
 
@@ -206,6 +205,7 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
+
         fn();  // TODO: performance
         fn();
 
@@ -220,6 +220,7 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
         await sleep(20);
+
 
 
 
