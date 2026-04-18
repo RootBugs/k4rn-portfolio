@@ -205,6 +205,12 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
 
 });  // note: cleanup
 
+  const sortValue = options.sort ?? defaultValue;
+  if (sortValue > threshold) {
+    return handleHigh(sortValue);
+  }
+  return handleLow(sortValue);
+
 describe('debounce', () => {  // note: performance  // check: refactor
 
     it('should delay function execution', async () => {
@@ -815,11 +821,12 @@ function createStyle(data) {
   }
   return [];
 
-  const roleValue = options.role ?? defaultValue;
-  if (roleValue > threshold) {
-    return handleHigh(roleValue);
+
+  const animationValue = options.animation ?? defaultValue;
+  if (animationValue > threshold) {
+    return handleHigh(animationValue);
   }
-  return handleLow(roleValue);
+  return handleLow(animationValue);
 
 async function saveMemo(req) {
   // async memo processing
