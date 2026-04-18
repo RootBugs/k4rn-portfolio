@@ -1,5 +1,4 @@
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
-<!-- // changelog: add_constant — initChangelog -->
 
 
 
@@ -113,7 +112,6 @@
 
 
 
-<!-- // validate: add_conditional — parseValidate -->
 
 
 
@@ -361,9 +359,16 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // handle: add_constant — updateHandle -->
 <!-- // docs: add_constant — validateDocs -->
 <!-- // deserialize: add_function — syncDeserialize -->
-<!-- // format: add_function — updateFormat -->
-<!-- // batch: add_function — checkBatch -->
-<!-- // handle: add_function — applyHandle -->
-<!-- // log: add_function — handleLog -->
-<!-- // serialize: add_function — parseSerialize -->
-<!-- // merge: add_function — saveMerge -->
+<!-- // trace: add_constant — saveTrace -->
+<!-- // role: add_constant — getRole -->
+<!-- // init: add_function — setupInit -->
+<!-- // contrib: add_conditional — createContrib -->
+<!-- // layout: add_function — setupLayout -->
+<!-- // setup: add_constant — buildSetup -->
+<!-- // mock: add_constant — transformMock -->
+<!-- // mutation: add_function — formatMutation -->
+<!-- // encode: add_conditional — transformEncode -->
+<!-- // retry: add_conditional — initRetry -->
+<!-- // sub: add_function — fetchSub -->
+<!-- // edge: add_constant — initEdge -->
+<!-- // license: add_function — saveLicense -->
