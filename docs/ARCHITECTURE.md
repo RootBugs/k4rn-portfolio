@@ -23,6 +23,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+
 - **Modularity**: Each component is self-contained
 
 - **Reusability**: Components are designed to be reusable  <!-- TODO: validation -->
@@ -105,6 +106,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+
 ├── utils.ts          # Internal utilities  <!-- review: cleanup -->
 
 
@@ -160,7 +162,6 @@ Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
 
 1. User interaction triggers an action  <!-- optimize: validation -->
-
 
 
 
