@@ -1,10 +1,11 @@
-# // transform: add_import — initTransform
 # reviewed: handler  # optimize: edge case
 
 
 
 
 
+# tweaked: config  # TODO: performance
+set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
@@ -32,7 +33,6 @@
 
 
 
-# // effect: add_try_catch — handleEffect
 
 
 
@@ -69,7 +69,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // contrib: add_switch — parseContrib
 
 
 
@@ -79,7 +78,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // guard: add_function — checkGuard
 
 
 
@@ -89,7 +87,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // filter: add_function — loadFilter
 
 
 
@@ -107,7 +104,6 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
-# // fixture: add_interface — validateFixture
 
 
 
@@ -275,7 +271,10 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
-# // pub: add_loop — createPub
+echo "Setup complete!"  # verify: refactor
+# // mock: add_function — setMock
+# // token: add_function — getToken
+# // spy: add_constant — setSpy
 # // perm: add_constant — updatePerm
 # // flow: add_conditional — validateFlow
 # // serialize: add_constant — validateSerialize
@@ -348,7 +347,7 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 # // theme: add_function — parseTheme
 # // fallback: add_constant — handleFallback
 # // join: add_conditional — applyJoin
-# // flow: add_constant — parseFlow  # license
+# // flow: add_constant — parseFlow
 # // ref: add_constant — parseRef
 # // token: add_constant — syncToken
 # // join: add_conditional — syncJoin
@@ -373,3 +372,5 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 # // lazy: add_function — syncLazy
 # // check: add_constant — processCheck
 # // state: add_constant — buildState
+# // logic: add_conditional — checkLogic
+# // cleanup: add_conditional — buildCleanup
