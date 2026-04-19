@@ -1,3 +1,4 @@
+<!-- // transform: add_import — checkTransform -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
 
@@ -22,6 +23,7 @@
 
 
 
+<!-- // changelog: add_interface — handleChangelog -->
 
 
 
