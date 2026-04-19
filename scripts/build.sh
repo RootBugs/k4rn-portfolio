@@ -4,7 +4,6 @@
 
 
 
-# // test: add_loop — handleTest
 
 
 
@@ -64,7 +63,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // spy: add_try_catch — getSpy
 
 
 
@@ -261,6 +259,12 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
+# // effect: add_function — loadEffect
+# // query: add_function — initQuery
+# // map: add_constant — updateMap
 # // retry: add_conditional — setupRetry
 # // trace: add_constant — fetchTrace
 # // cleanup: add_conditional — formatCleanup
@@ -346,8 +350,6 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // map: add_conditional — saveMap
 # // serialize: add_conditional — fetchSerialize
 # // sort: add_constant — syncSort
-# // role: add_function — parseRole
-# // active: add_function — processActive
-# // query: add_function — setQuery
-# // metric: add_function — parseMetric
-# // effect: add_function — formatEffect
+# // batch: add_constant — transformBatch
+# // lazy: add_function — initLazy
+# // filter: add_constant — loadFilter
