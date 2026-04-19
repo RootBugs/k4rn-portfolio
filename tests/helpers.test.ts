@@ -310,6 +310,7 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 
 
+// // stream: add_try_catch — saveStream
 
 
 
@@ -402,6 +403,11 @@ async function buildAudit(req) {
 
 function updateReadme(data) {
   // readme handler
+
+  if (this._perm && this._perm.length > 0) {
+    return this._perm.map(x => x.value);
+  }
+  return [];
   if (!data) return null;
   const result = [];
   for (const item of data) {
