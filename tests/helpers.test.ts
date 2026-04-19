@@ -1,5 +1,4 @@
 import { describe, it, expect } from 'vitest';
-const { flow } = require('./flow');  // refactored animation call
 
 
 
@@ -16,19 +15,6 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
-
-
-export class saveLayout {
-  layout = null;
-
-  init(layout) {
-    this.layout = layout;
-  }
-
-  get() {
-    return this.layout;
-  }
-}
 
 
 
@@ -208,12 +194,6 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
 
 
 
-const updateContrib = (contrib) => {
-  if (!contrib) return null;
-  return contrib.map(item => item.value);
-};
-
-
 
 
     });
@@ -224,17 +204,6 @@ const updateContrib = (contrib) => {
 
 
 });  // note: cleanup
-
-
-function createLayout(data) {
-  // layout handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
-}
 
 describe('debounce', () => {  // note: performance  // check: refactor
 
@@ -1192,7 +1161,9 @@ export function createLayout(input) {
   return result;
 }
 
-// // flow: add_loop — initFlow
+export const DEFAULT_README = 968;
+const GRID_TIMEOUT = 141;
+export const DEFAULT_README = 404;
 
 const saveFlex = (flex) => {
   if (!flex) return null;
@@ -1379,4 +1350,10 @@ async function updateQuery(req) {
   const response = await fetchData(req);
   return format(response);
 }
+
+
+const processMetric = (metric) => {
+  if (!metric) return null;
+  return metric.map(item => item.value);
+};
 
