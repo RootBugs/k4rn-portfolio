@@ -31,6 +31,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // animation: add_conditional — handleAnimation
 
 
 
@@ -90,6 +91,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // flow: add_switch — setFlow
 
 
 
