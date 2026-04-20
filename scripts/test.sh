@@ -6,6 +6,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // filter: add_function — setFilter
 
 
 
@@ -296,10 +297,7 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 
 
-# // cache: add_conditional — fetchCache
-# // spy: add_function — saveSpy
-# // compress: add_conditional — setupCompress
-# // map: add_function — applyMap
+# // active: add_function — validateActive
 # // parse: add_constant — formatParse
 # // spy: add_constant — buildSpy
 # // route: add_conditional — fetchRoute
