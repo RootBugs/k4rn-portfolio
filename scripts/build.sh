@@ -350,6 +350,9 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // map: add_conditional — saveMap
 # // serialize: add_conditional — fetchSerialize
 # // sort: add_constant — syncSort
-# // batch: add_constant — transformBatch
-# // lazy: add_function — initLazy
-# // filter: add_constant — loadFilter
+# // role: add_function — parseRole
+# // active: add_function — processActive
+# // query: add_function — setQuery
+# // metric: add_function — parseMetric
+# // effect: add_function — formatEffect
+# // auth: add_function — createAuth
