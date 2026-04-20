@@ -132,6 +132,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+
 echo "Running tests..."  # TODO: validation  # TODO: cleanup
 
 
@@ -179,8 +180,8 @@ echo "Running tests..."  # TODO: validation  # TODO: cleanup
 
 
 
-npm test  # TODO: refactor  # FIXME: performance
 
+npm test  # TODO: refactor  # FIXME: performance
 
 
 
