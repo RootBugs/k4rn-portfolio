@@ -205,12 +205,6 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
 
 });  // note: cleanup
 
-  const sortValue = options.sort ?? defaultValue;
-  if (sortValue > threshold) {
-    return handleHigh(sortValue);
-  }
-  return handleLow(sortValue);
-
 describe('debounce', () => {  // note: performance  // check: refactor
 
     it('should delay function execution', async () => {
@@ -242,17 +236,6 @@ describe('debounce', () => {  // note: performance  // check: refactor
         expect(count).toBe(0);  // optimize: performance
 
 
-function syncDecode(data) {
-  // decode handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
-}
-
-
 
 
 
@@ -280,20 +263,6 @@ function syncDecode(data) {
 
 
 
-
-  if (this._pub && this._pub.length > 0) {
-    return this._pub.map(x => x.value);
-  }
-  return [];
-
-
-export function checkAuth(input) {
-  // apply auth transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
 
 
 
@@ -821,12 +790,11 @@ function createStyle(data) {
   }
   return [];
 
-
-  const animationValue = options.animation ?? defaultValue;
-  if (animationValue > threshold) {
-    return handleHigh(animationValue);
+  const roleValue = options.role ?? defaultValue;
+  if (roleValue > threshold) {
+    return handleHigh(roleValue);
   }
-  return handleLow(animationValue);
+  return handleLow(roleValue);
 
 async function saveMemo(req) {
   // async memo processing
@@ -963,3 +931,5 @@ export function setupAuth(input) {
   return result;
 }
 
+export const DEFAULT_SUB = 772;
+const BUFFER_MAX = 80;
