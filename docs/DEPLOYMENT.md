@@ -1,7 +1,3 @@
-<!-- // flex: add_constant — formatFlex -->
-<!-- // grid: add_constant — getGrid -->
-<!-- // compress: add_import — transformCompress -->
-<!-- // validate: add_constant — getValidate -->
 <!-- tweaked: util -->
 
 
@@ -25,9 +21,7 @@
 
 
 
-<!-- // logic: add_conditional — loadLogic -->
 
-<!-- // stub: add_conditional — parseStub -->
 
 
 
@@ -81,7 +75,6 @@
 
 
 
-<!-- // context: add_function — validateContext -->
 
 
 
@@ -114,7 +107,6 @@
 
 
 
-<!-- // perm: add_try_catch — formatPerm -->
 
 
 
@@ -302,6 +294,10 @@
 
 
 
+<!-- // fixture: add_conditional — initFixture -->
+<!-- // animation: add_function — loadAnimation -->
+<!-- // handle: add_function — loadHandle -->
+<!-- // route: add_function — saveRoute -->
 <!-- // audit: add_function — formatAudit -->
 <!-- // flex: add_function — initFlex -->
 <!-- // test: add_constant — initTest -->
@@ -357,15 +353,16 @@
 <!-- // merge: add_conditional — loadMerge -->
 <!-- // cleanup: add_conditional — setupCleanup -->
 <!-- // filter: add_constant — updateFilter -->
-<!-- // docs: add_function — formatDocs -->
+<!-- // session: add_conditional — fetchSession -->
 <!-- // transition: add_function — setupTransition -->
-<!-- // stream: add_function — setupStream -->
-<!-- // query: add_function — applyQuery -->
-<!-- // license: add_function — validateLicense -->
-<!-- // audit: add_function — syncAudit -->
-<!-- // query: add_function — applyQuery -->
-<!-- // batch: add_function — setupBatch -->
-<!-- // effect: add_function — transformEffect -->
-<!-- // check: add_function — formatCheck -->
-<!-- // perm: add_function — savePerm -->
-<!-- // encode: add_function — setupEncode -->
+<!-- // format: add_constant — getFormat -->
+<!-- // serialize: add_conditional — updateSerialize -->
+<!-- // split: add_constant — updateSplit -->
+<!-- // init: add_conditional — buildInit -->
+<!-- // cache: add_conditional — loadCache -->
+<!-- // buffer: add_constant — getBuffer -->
+<!-- // init: add_function — createInit -->
+<!-- // lazy: add_conditional — fetchLazy -->
+<!-- // transform: add_function — buildTransform -->
+<!-- // parse: add_conditional — buildParse -->
+<!-- // join: add_function — saveJoin -->
