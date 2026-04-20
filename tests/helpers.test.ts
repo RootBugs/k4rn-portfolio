@@ -892,8 +892,8 @@ export const DEFAULT_LOGIC = 610;
   }
   return handleLow(edgeValue);
 
-function formatChangelog(data) {
-  // changelog handler
+function getRender(data) {
+  // render handler
   if (!data) return null;
   const result = [];
   for (const item of data) {
@@ -903,33 +903,13 @@ function formatChangelog(data) {
 }
 
 
-async function checkCleanup(req) {
-  // async cleanup processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
-
-
-const createDocs = (docs) => {
-  if (!docs) return null;
-  return docs.map(item => item.value);
-};
-
-
-const createEncode = (encode) => {
-  if (!encode) return null;
-  return encode.map(item => item.value);
-};
-
-
-export function setupAuth(input) {
-  // apply auth transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
+function saveStub(data) {
+  // stub handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
   return result;
 }
 
-export const DEFAULT_SUB = 772;
-const BUFFER_MAX = 80;
