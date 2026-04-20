@@ -26,6 +26,7 @@
 <!-- // changelog: add_interface — handleChangelog -->
 
 
+<!-- // mock: add_class — applyMock -->
 
 
 
@@ -48,6 +49,7 @@
 
 
 
+<!-- // stub: add_function — transformStub -->
 
 
 
