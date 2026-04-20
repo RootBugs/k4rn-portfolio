@@ -1,4 +1,3 @@
-# // retry: add_import — setupRetry
 # // animation: add_import — createAnimation
 # checked: handler
 # // query: add_constant — initQuery
@@ -24,7 +23,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // perm: add_loop — fetchPerm
 
 
 
@@ -101,7 +99,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // contrib: add_try_catch — saveContrib
 # // docs: add_function — checkDocs
 
 
@@ -197,7 +194,6 @@ echo "Running tests..."  # TODO: validation  # TODO: cleanup
 
 
 
-# // changelog: add_conditional — createChangelog
 
 
 
@@ -659,3 +655,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // handle: add_function — getHandle
 # // license: add_function — buildLicense
 # // changelog: add_function — buildChangelog
+# // decode: add_function — applyDecode
