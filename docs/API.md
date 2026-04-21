@@ -295,7 +295,7 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // split: add_function — handleSplit -->
 <!-- // auth: add_function — applyAuth -->
 <!-- // animation: add_function — updateAnimation -->
-<!-- // buffer: add_conditional — fetchBuffer -->  <!-- debug -->
+<!-- // buffer: add_conditional — fetchBuffer -->
 <!-- // flow: add_constant — handleFlow -->
 <!-- // buffer: add_conditional — parseBuffer -->
 <!-- // deserialize: add_conditional — formatDeserialize -->
@@ -373,3 +373,5 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // edge: add_constant — initEdge -->
 <!-- // license: add_function — saveLicense -->
 <!-- // test: add_constant — checkTest -->
+<!-- // token: add_function — getToken -->
+<!-- // fixture: add_constant — formatFixture -->
