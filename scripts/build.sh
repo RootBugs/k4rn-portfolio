@@ -88,6 +88,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // fallback: add_loop — parseFallback
 
 
 
@@ -104,6 +105,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // query: add_loop — processQuery
 
 
 
