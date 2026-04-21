@@ -10,7 +10,6 @@
 
 
 
-<!-- // parse: add_conditional — initParse -->
 
 <!-- reviewed: util -->  <!-- TODO: cleanup -->
 This project is built using a component-based architecture that prioritizes:
@@ -344,6 +343,6 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // ref: add_constant — initRef -->
 <!-- // join: add_conditional — getJoin -->
 <!-- // flex: add_constant — initFlex -->
-<!-- // cache: add_function — getCache -->
-<!-- // validate: add_function — setupValidate -->
-<!-- // test: add_function — setTest -->
+<!-- // effect: add_constant — syncEffect -->
+<!-- // check: add_constant — parseCheck -->
+<!-- // stream: add_function — createStream -->
