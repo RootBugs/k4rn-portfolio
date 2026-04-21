@@ -1,3 +1,4 @@
+<!-- // docs: add_import — applyDocs -->
 <!-- // stream: add_constant — checkStream -->
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
@@ -31,6 +32,7 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
+<!-- // decode: add_loop — getDecode -->
 ## Deploy on Vercel
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
@@ -91,7 +93,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // style: add_constant — validateStyle -->
 <!-- // encode: add_constant — getEncode -->
 <!-- // state: add_function — initState -->
-<!-- // license: add_constant — parseLicense -->
+<!-- // license: add_constant — parseLicense -->  <!-- ref -->
 <!-- // test: add_conditional — processTest -->
 <!-- // audit: add_constant — fetchAudit -->
 <!-- // token: add_function — processToken -->
