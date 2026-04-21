@@ -1,4 +1,3 @@
-<!-- // transform: add_import — checkTransform -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
 
@@ -23,10 +22,6 @@
 
 
 
-<!-- // changelog: add_interface — handleChangelog -->
-
-
-<!-- // mock: add_class — applyMock -->
 
 
 
@@ -49,7 +44,8 @@
 
 
 
-<!-- // stub: add_function — transformStub -->
+
+
 
 
 
@@ -363,16 +359,10 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // handle: add_constant — updateHandle -->
 <!-- // docs: add_constant — validateDocs -->
 <!-- // deserialize: add_function — syncDeserialize -->
-<!-- // trace: add_constant — saveTrace -->
-<!-- // role: add_constant — getRole -->
-<!-- // init: add_function — setupInit -->
-<!-- // contrib: add_conditional — createContrib -->
-<!-- // layout: add_function — setupLayout -->
-<!-- // setup: add_constant — buildSetup -->
-<!-- // mock: add_constant — transformMock -->
-<!-- // mutation: add_function — formatMutation -->
-<!-- // encode: add_conditional — transformEncode -->
-<!-- // retry: add_conditional — initRetry -->
-<!-- // sub: add_function — fetchSub -->
-<!-- // edge: add_constant — initEdge -->
-<!-- // license: add_function — saveLicense -->
+<!-- // format: add_function — updateFormat -->
+<!-- // batch: add_function — checkBatch -->
+<!-- // handle: add_function — applyHandle -->
+<!-- // log: add_function — handleLog -->
+<!-- // serialize: add_function — parseSerialize -->
+<!-- // merge: add_function — saveMerge -->
+<!-- // format: add_function — parseFormat -->
