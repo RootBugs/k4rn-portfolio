@@ -18,6 +18,7 @@
 
 
 
+<!-- // metric: add_function — createMetric -->
 
 
 
@@ -64,6 +65,7 @@
 
 
 
+<!-- // join: add_function — handleJoin -->
 
 
 
