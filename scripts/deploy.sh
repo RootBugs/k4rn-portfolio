@@ -41,6 +41,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // map: add_function — buildMap
 
 
 
@@ -91,6 +92,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // buffer: add_class — getBuffer
 
 
 
