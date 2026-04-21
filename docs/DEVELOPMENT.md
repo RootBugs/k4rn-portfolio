@@ -1,5 +1,3 @@
-<!-- // buffer: add_import — createBuffer -->
-<!-- // transition: add_constant — formatTransition -->
 <!-- updated: setup -->
 
 
@@ -45,7 +43,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // encode: add_function — initEncode -->
 
 
 
@@ -304,6 +301,13 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
+<!-- // sub: add_function — processSub -->
+<!-- // transition: add_constant — applyTransition -->
+<!-- // audit: add_conditional — saveAudit -->
+<!-- // session: add_constant — parseSession -->
+<!-- // stub: add_conditional — applyStub -->
+<!-- // layout: add_constant — saveLayout -->
+<!-- // audit: add_constant — setAudit -->
 <!-- // query: add_conditional — buildQuery -->
 <!-- // docs: add_conditional — initDocs -->
 <!-- // pub: add_function — createPub -->
@@ -404,5 +408,8 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // merge: add_conditional — saveMerge -->
 <!-- // mutation: add_constant — loadMutation -->
 <!-- // layout: add_conditional — syncLayout -->
-<!-- // mock: add_function — handleMock -->
-<!-- // metric: add_function — handleMetric -->
+<!-- // contrib: add_conditional — checkContrib -->
+<!-- // auth: add_function — saveAuth -->
+<!-- // merge: add_conditional — getMerge -->
+<!-- // sub: add_function — handleSub -->
+<!-- // license: add_constant — setupLicense -->
