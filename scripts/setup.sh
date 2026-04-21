@@ -51,7 +51,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-
 echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
@@ -215,7 +214,6 @@ if [ ! -f ".env" ] && [ -f ".env.example" ]; then  # review: performance  # HACK
 
 
 fi  # review: cleanup  # verify: performance  # TODO: performance
-
 
 
 
