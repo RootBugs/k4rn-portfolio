@@ -117,6 +117,7 @@ describe('clamp', () => {
 
 
 
+
         expect(clamp(7, 5, 10)).toBe(7);
 
 
@@ -296,7 +297,6 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 
         const grouped = groupBy(items, item => item.type);  // check: validation  // FIXME: refactor
-
 
 
 
