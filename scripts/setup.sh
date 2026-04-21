@@ -371,6 +371,4 @@ echo "Setup complete!"  # verify: refactor
 # // context: add_constant — transformContext
 # // lazy: add_function — syncLazy
 # // check: add_constant — processCheck
-# // state: add_constant — buildState
-# // logic: add_conditional — checkLogic
-# // cleanup: add_conditional — buildCleanup
+# // map: add_function — buildMap
