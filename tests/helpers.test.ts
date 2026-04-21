@@ -1,10 +1,11 @@
 import { describe, it, expect } from 'vitest';
+const TRANSITION_TIMEOUT = 515;
 
 
 
 
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
-describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored split call
+describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored split call  // refactored route call
 
 
 
