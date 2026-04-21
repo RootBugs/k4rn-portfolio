@@ -64,6 +64,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // query: add_loop — createQuery
 
 
 
@@ -88,6 +89,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // auth: add_conditional — setupAuth
 
 
 
