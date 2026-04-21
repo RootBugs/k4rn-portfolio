@@ -1,3 +1,4 @@
+# // state: add_import — loadState
 # checked: handler
 # // query: add_constant — initQuery
 
@@ -67,6 +68,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // animation: add_function — fetchAnimation
 
 
 # // session: add_loop — validateSession
@@ -92,6 +94,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // animation: add_function — saveAnimation
 
 
 # // docs: add_function — checkDocs
