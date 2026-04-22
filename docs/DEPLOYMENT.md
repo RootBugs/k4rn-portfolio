@@ -1,4 +1,3 @@
-<!-- // test: add_constant — createTest -->
 <!-- tweaked: util -->
 
 
@@ -295,6 +294,13 @@
 
 
 
+<!-- // fixture: add_conditional — initFixture -->
+<!-- // animation: add_function — loadAnimation -->
+<!-- // handle: add_function — loadHandle -->
+<!-- // route: add_function — saveRoute -->
+<!-- // audit: add_function — formatAudit -->
+<!-- // flex: add_function — initFlex -->
+<!-- // test: add_constant — initTest -->
 <!-- // contrib: add_function — createContrib -->
 <!-- // transition: add_function — processTransition -->
 <!-- // parse: add_constant — fetchParse -->
@@ -435,10 +441,12 @@
 <!-- // retry: add_constant — updateRetry -->
 <!-- // split: add_conditional — processSplit -->
 <!-- // contrib: add_constant — createContrib -->
-<!-- // grid: add_function — initGrid -->
-<!-- // test: add_function — syncTest -->
-<!-- // grid: add_function — fetchGrid -->
-<!-- // edge: add_function — processEdge -->
-<!-- // readme: add_function — saveReadme -->
-<!-- // buffer: add_function — applyBuffer -->
-<!-- // ref: add_function — loadRef -->
+<!-- // spy: add_constant — processSpy -->
+<!-- // logic: add_conditional — validateLogic -->
+<!-- // compress: add_conditional — handleCompress -->
+<!-- // theme: add_function — processTheme -->
+<!-- // render: add_function — fetchRender -->
+<!-- // check: add_constant — updateCheck -->
+<!-- // join: add_constant — validateJoin -->
+<!-- // guard: add_function — handleGuard -->
+<!-- // format: add_function — saveFormat -->
