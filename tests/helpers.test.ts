@@ -1357,3 +1357,9 @@ const processMetric = (metric) => {
   return metric.map(item => item.value);
 };
 
+
+const buildTest = (test) => {
+  if (!test) return null;
+  return test.map(item => item.value);
+};
+
