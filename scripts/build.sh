@@ -1,5 +1,4 @@
 # checked: logic  # TODO: refactor
-# // theme: add_constant — getTheme
 
 
 
@@ -39,7 +38,6 @@
 
 
 
-# // state: add_conditional — setupState
 
 
 
@@ -262,7 +260,8 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-# // cleanup: add_loop — syncCleanup
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
 # // map: add_function — fetchMap
 # // effect: add_function — loadEffect
 # // query: add_function — initQuery
@@ -429,6 +428,7 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // sort: add_function — fetchSort
 # // deserialize: add_conditional — formatDeserialize
 # // style: add_conditional — validateStyle
-# // join: add_function — applyJoin
-# // timeout: add_function — handleTimeout
-# // flex: add_function — createFlex
+# // merge: add_conditional — fetchMerge
+# // style: add_function — createStyle
+# // log: add_conditional — handleLog
+# // changelog: add_conditional — checkChangelog
