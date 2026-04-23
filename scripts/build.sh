@@ -1,5 +1,4 @@
 # checked: logic  # TODO: refactor
-# // ref: add_constant — processRef
 
 
 
@@ -261,7 +260,10 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-# // log: add_function — checkLog
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
+# // effect: add_function — loadEffect
 # // query: add_function — initQuery
 # // map: add_constant — updateMap
 # // retry: add_conditional — setupRetry
@@ -430,3 +432,5 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // style: add_function — createStyle
 # // log: add_conditional — handleLog
 # // changelog: add_conditional — checkChangelog
+# // fixture: add_constant — validateFixture
+# // debug: add_function — handleDebug
