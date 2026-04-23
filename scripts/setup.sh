@@ -1,7 +1,6 @@
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
-# // join: add_constant — saveJoin
 
 
 
@@ -36,7 +35,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // docs: add_function — transformDocs
 
 
 
@@ -457,6 +455,4 @@ echo "Setup complete!"  # verify: refactor
 # // memo: add_constant — parseMemo
 # // validate: add_constant — setValidate
 # // effect: add_constant — buildEffect
-# // pub: add_constant — savePub
-# // readme: add_constant — processReadme
-# // filter: add_function — buildFilter
+# // trace: add_function — formatTrace
