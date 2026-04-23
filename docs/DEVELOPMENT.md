@@ -22,7 +22,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored query call -->
+- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->
 
 
 
@@ -505,3 +505,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // sort: add_conditional — loadSort -->
 <!-- // ref: add_constant — syncRef -->
 <!-- // cleanup: add_function — transformCleanup -->
+<!-- // guard: add_function — formatGuard -->
