@@ -112,6 +112,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // docs: add_conditional — setDocs
 
 
 
@@ -133,6 +134,7 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
+# // perm: add_function — fetchPerm
 
 
 
