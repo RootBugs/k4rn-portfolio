@@ -291,11 +291,7 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
-Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: validation -->
-<!-- // query: add_conditional — applyQuery -->
-<!-- // split: add_function — handleSplit -->
-<!-- // auth: add_function — applyAuth -->
-<!-- // animation: add_function — updateAnimation -->
+<!-- // decode: add_function — transformDecode -->
 <!-- // buffer: add_conditional — fetchBuffer -->
 <!-- // flow: add_constant — handleFlow -->
 <!-- // buffer: add_conditional — parseBuffer -->
