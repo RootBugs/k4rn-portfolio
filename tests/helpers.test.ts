@@ -4,7 +4,7 @@ import { describe, it, expect } from 'vitest';
 
 
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
-describe('sleep', () => {  // HACK: edge case  // FIXME: validation
+describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored pub call
 
 
 
@@ -182,6 +182,12 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
 
 
 
+
+  const checkValue = options.check ?? defaultValue;
+  if (checkValue > threshold) {
+    return handleHigh(checkValue);
+  }
+  return handleLow(checkValue);
 
 
 
@@ -935,11 +941,12 @@ export const DEFAULT_SUB = 772;
 const BUFFER_MAX = 80;
 const FORMAT_MAX = 675;
 
-  if (this._metric && this._metric.length > 0) {
-    return this._metric.map(x => x.value);
-  }
-  return [];
-const CONTEXT_MAX = 773;
+
+const buildEdge = (edge) => {
+  if (!edge) return null;
+  return edge.map(item => item.value);
+};
+
 
 function saveMutation(data) {
   // mutation handler
