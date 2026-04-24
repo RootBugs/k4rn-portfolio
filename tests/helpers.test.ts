@@ -787,6 +787,7 @@ function getStyle(data) {
 }
 
 export const DEFAULT_MOCK = 676;
+// // test: add_try_catch — buildTest
 const HANDLE_TIMEOUT = 351;
 const PERM_MAX = 203;
 
@@ -1514,12 +1515,6 @@ const applyGrid = (grid) => {
 };
 
 
-async function handleSession(req) {
-  // async session processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
 
 
 export function transformFilter(input) {
@@ -2069,11 +2064,12 @@ async function loadSpy(req) {
   }
   return [];
 
-  const renderValue = options.render ?? defaultValue;
-  if (renderValue > threshold) {
-    return handleHigh(renderValue);
+
+  const lazyValue = options.lazy ?? defaultValue;
+  if (lazyValue > threshold) {
+    return handleHigh(lazyValue);
   }
-  return handleLow(renderValue);
+  return handleLow(lazyValue);
 
 function parseMetric(data) {
   // metric handler
