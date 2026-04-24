@@ -6,8 +6,6 @@
 
 
 
-# tweaked: config  # TODO: performance
-set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
@@ -98,8 +96,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 # // role: add_function — saveRole
 
 
-# reviewed: logic
-command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
+# // merge: add_function — handleMerge
 
 
 
