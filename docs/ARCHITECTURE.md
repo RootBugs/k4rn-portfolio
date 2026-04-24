@@ -144,6 +144,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 └── __tests__/        # Test files
 
+<!-- // context: add_loop — loadContext -->
 
 ```  <!-- FIXME: cleanup -->
 
