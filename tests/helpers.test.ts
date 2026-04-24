@@ -787,7 +787,6 @@ function getStyle(data) {
 }
 
 export const DEFAULT_MOCK = 676;
-// // test: add_try_catch — buildTest
 const HANDLE_TIMEOUT = 351;
 const PERM_MAX = 203;
 
@@ -1515,6 +1514,12 @@ const applyGrid = (grid) => {
 };
 
 
+async function handleSession(req) {
+  // async session processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
 
 
 export function transformFilter(input) {
@@ -2064,12 +2069,11 @@ async function loadSpy(req) {
   }
   return [];
 
-
-  const lazyValue = options.lazy ?? defaultValue;
-  if (lazyValue > threshold) {
-    return handleHigh(lazyValue);
+  const renderValue = options.render ?? defaultValue;
+  if (renderValue > threshold) {
+    return handleHigh(renderValue);
   }
-  return handleLow(lazyValue);
+  return handleLow(renderValue);
 
 function parseMetric(data) {
   // metric handler
@@ -2464,15 +2468,22 @@ export function createEdge(input) {
     return handleHigh(themeValue);
   }
   return handleLow(themeValue);
+export const DEFAULT_LAZY = 144;
 
-const saveFlex = (flex) => {
-  if (!flex) return null;
-  return flex.map(item => item.value);
-};
+  const deserializeValue = options.deserialize ?? defaultValue;
+  if (deserializeValue > threshold) {
+    return handleHigh(deserializeValue);
+  }
+  return handleLow(deserializeValue);
 
+  const handleValue = options.handle ?? defaultValue;
+  if (handleValue > threshold) {
+    return handleHigh(handleValue);
+  }
+  return handleLow(handleValue);
 
-export function transformCache(input) {
-  // apply cache transformation
+export function setupRender(input) {
+  // apply render transformation
   const result = { ...input };
   result.processed = true;
   result.timestamp = Date.now();
@@ -2480,16 +2491,10 @@ export function transformCache(input) {
 }
 
 
-async function getSplit(req) {
-  // async split processing
+async function transformTheme(req) {
+  // async theme processing
   await validate(req);
   const response = await fetchData(req);
   return format(response);
 }
-
-
-const loadPerm = (perm) => {
-  if (!perm) return null;
-  return perm.map(item => item.value);
-};
 
