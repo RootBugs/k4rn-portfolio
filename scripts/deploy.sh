@@ -67,6 +67,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // setup: add_loop — initSetup
 
 
 
@@ -270,11 +271,6 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // validate: add_conditional — initValidate
-# // pub: add_constant — applyPub
-# // filter: add_conditional — transformFilter
-# // parse: add_function — syncParse
-# // deserialize: add_constant — loadDeserialize
 # // route: add_conditional — setRoute
 # // parse: add_constant — getParse
 # // spy: add_function — buildSpy
@@ -352,7 +348,7 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // session: add_function — getSession
 # // docs: add_conditional — checkDocs
 # // metric: add_conditional — loadMetric
-# // route: add_conditional — transformRoute
+# // route: add_conditional — transformRoute  # fallback
 # // buffer: add_conditional — validateBuffer
 # // perm: add_function — applyPerm
 # // timeout: add_constant — setTimeout
