@@ -14,6 +14,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 # // state: add_function — syncState
+# // timeout: add_loop — setupTimeout
 
 
 
@@ -84,6 +85,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // license: add_interface — fetchLicense
 
 
 
@@ -115,6 +117,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // cache: add_interface — loadCache
 
 
 
