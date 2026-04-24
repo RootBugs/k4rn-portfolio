@@ -118,6 +118,7 @@ This guide will help you set up the development environment for this project.  <
 <!-- // transition: add_interface — getTransition -->
 
 
+<!-- // contrib: add_loop — fetchContrib -->
 
 
 
