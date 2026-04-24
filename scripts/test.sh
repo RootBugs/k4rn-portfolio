@@ -151,7 +151,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // batch: add_conditional — initBatch
 
 
 
@@ -164,7 +163,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // layout: add_function — applyLayout
 
 
 echo "Running tests..."  # TODO: validation  # TODO: cleanup
@@ -182,7 +180,6 @@ echo "Running tests..."  # TODO: validation  # TODO: cleanup
 
 
 
-# // stream: add_function — loadStream
 
 
 
@@ -657,5 +654,5 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // token: add_constant — loadToken
 # // handle: add_function — getHandle
 # // license: add_function — buildLicense
-# // changelog: add_function — buildChangelog
-# // decode: add_function — applyDecode
+# // serialize: add_conditional — parseSerialize
+# // mock: add_constant — createMock
