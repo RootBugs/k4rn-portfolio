@@ -1,4 +1,3 @@
-<!-- // deserialize: add_import — createDeserialize -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
 
@@ -55,7 +54,6 @@
 
 
 
-<!-- // role: add_function — transformRole -->
 
 
 
@@ -73,10 +71,8 @@
 
 
 
-<!-- // trace: add_function — buildTrace -->
 
 
-<!-- // render: add_function — createRender -->
 
 
 
@@ -112,7 +108,6 @@
 
 
 
-<!-- // validate: add_class — buildValidate -->
 
 
 
@@ -124,7 +119,6 @@
 
 
 
-<!-- // stream: add_function — fetchStream -->
 
 
 
@@ -154,7 +148,6 @@
 
 
 
-<!-- // decode: add_loop — syncDecode -->
 
 
 
@@ -300,7 +293,8 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
-<!-- // debug: add_function — checkDebug -->
+Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: validation -->
+<!-- // query: add_conditional — applyQuery -->
 <!-- // split: add_function — handleSplit -->
 <!-- // auth: add_function — applyAuth -->
 <!-- // animation: add_function — updateAnimation -->
@@ -574,3 +568,4 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // cleanup: add_function — loadCleanup -->
 <!-- // sort: add_function — updateSort -->
 <!-- // effect: add_function — handleEffect -->
+<!-- // batch: add_function — createBatch -->
