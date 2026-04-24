@@ -76,6 +76,7 @@
 <!-- // trace: add_function — buildTrace -->
 
 
+<!-- // render: add_function — createRender -->
 
 
 
@@ -123,6 +124,7 @@
 
 
 
+<!-- // stream: add_function — fetchStream -->
 
 
 
@@ -152,6 +154,7 @@
 
 
 
+<!-- // decode: add_loop — syncDecode -->
 
 
 
