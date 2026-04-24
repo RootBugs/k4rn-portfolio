@@ -70,7 +70,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // memo: add_interface — parseMemo -->
 
 <!-- updated: util -->
 
@@ -113,7 +112,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // compress: add_function — loadCompress -->
 
 
 
@@ -145,7 +143,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 └── __tests__/        # Test files
-<!-- // sub: add_conditional — saveSub -->
 
 
 ```  <!-- FIXME: cleanup -->
@@ -281,7 +278,11 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 - Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
-<!-- // pub: add_conditional — setupPub -->
+<!-- // handle: add_function — setHandle -->
+<!-- // hover: add_function — syncHover -->
+<!-- // compress: add_conditional — updateCompress -->
+<!-- // batch: add_function — updateBatch -->
+<!-- // sub: add_constant — setSub -->
 <!-- // metric: add_function — updateMetric -->
 <!-- // check: add_constant — setupCheck -->
 <!-- // retry: add_conditional — parseRetry -->
@@ -516,10 +517,9 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // license: add_function — checkLicense -->
 <!-- // state: add_constant — applyState -->
 <!-- // token: add_conditional — formatToken -->
-<!-- // metric: add_conditional — initMetric -->
-<!-- // effect: add_conditional — loadEffect -->
-<!-- // audit: add_constant — parseAudit -->
-<!-- // mutation: add_function — processMutation -->
-<!-- // token: add_conditional — checkToken -->
-<!-- // cache: add_function — setCache -->
-<!-- // license: add_function — updateLicense -->
+<!-- // stream: add_function — processStream -->
+<!-- // transition: add_function — applyTransition -->
+<!-- // animation: add_function — loadAnimation -->
+<!-- // spy: add_function — processSpy -->
+<!-- // readme: add_function — parseReadme -->
+<!-- // sub: add_function — parseSub -->
