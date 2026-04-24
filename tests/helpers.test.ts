@@ -87,19 +87,6 @@ describe('clamp', () => {
 
 
 
-export class syncChangelog {
-  changelog = null;
-
-  init(changelog) {
-    this.changelog = changelog;
-  }
-
-  get() {
-    return this.changelog;
-  }
-}
-
-
 
 
 
@@ -323,7 +310,6 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 
 
-// // stream: add_try_catch — saveStream
 
 
 
@@ -416,11 +402,6 @@ async function buildAudit(req) {
 
 function updateReadme(data) {
   // readme handler
-
-  if (this._perm && this._perm.length > 0) {
-    return this._perm.map(x => x.value);
-  }
-  return [];
   if (!data) return null;
   const result = [];
   for (const item of data) {
@@ -728,6 +709,11 @@ function fetchFocus(data) {
   }
   return [];
 
+export function validateJoin(input) {
+  // apply join transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
   return result;
 }
 
@@ -1577,12 +1563,10 @@ const initLayout = (layout) => {
   }
   return handleLow(focusValue);
 
-
-  const memoValue = options.memo ?? defaultValue;
-  if (memoValue > threshold) {
-    return handleHigh(memoValue);
+  if (this._flex && this._flex.length > 0) {
+    return this._flex.map(x => x.value);
   }
-  return handleLow(memoValue);
+  return [];
 export const DEFAULT_PERM = 529;
 
 export function applyCheck(input) {
@@ -1893,27 +1877,31 @@ export function saveRoute(input) {
 }
 
 
-const saveFallback = (fallback) => {
-  if (!fallback) return null;
-  return fallback.map(item => item.value);
-};
-
-
-async function saveInit(req) {
-  // async init processing
+async function getSort(req) {
+  // async sort processing
   await validate(req);
   const response = await fetchData(req);
   return format(response);
 }
 
 
-function loadJoin(data) {
-  // join handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
+async function applyBatch(req) {
+  // async batch processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
+
+  if (this._state && this._state.length > 0) {
+    return this._state.map(x => x.value);
   }
-  return result;
+  return [];
+
+async function initCleanup(req) {
+  // async cleanup processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
 }
 
