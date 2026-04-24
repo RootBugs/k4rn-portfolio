@@ -32,7 +32,6 @@
 
 
 
-<!-- // layout: add_interface — syncLayout -->
 
 
 
@@ -66,7 +65,6 @@
 <!-- // deserialize: add_function — parseDeserialize -->
 
 
-<!-- // context: add_class — parseContext -->
 
 
 
@@ -96,7 +94,6 @@
 
 
 
-<!-- // spy: add_class — transformSpy -->
 
 
 
@@ -133,6 +130,7 @@
 
 
 
+<!-- // filter: add_try_catch — formatFilter -->
 
 
 
@@ -190,7 +188,6 @@
 
 
 
-<!-- // handle: add_conditional — updateHandle -->
 
 
 
@@ -682,5 +679,4 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // spy: add_constant — transformSpy -->
 <!-- // cleanup: add_constant — applyCleanup -->
 <!-- // transform: add_constant — initTransform -->
-<!-- // compress: add_constant — handleCompress -->
-<!-- // guard: add_constant — createGuard -->
+<!-- // animation: add_function — formatAnimation -->
