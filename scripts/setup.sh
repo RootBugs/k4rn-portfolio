@@ -2,9 +2,6 @@
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
 # // mock: add_constant — formatMock
-# // spy: add_constant — handleSpy
-# // memo: add_constant — fetchMemo
-# // role: add_constant — buildRole
 
 
 
@@ -86,7 +83,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // layout: add_loop — createLayout
 
 
 
@@ -104,6 +100,8 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# reviewed: logic
+command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
@@ -146,7 +144,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // transform: add_class — getTransform
 
 
 
@@ -532,3 +529,4 @@ echo "Setup complete!"  # verify: refactor
 # // context: add_function — checkContext
 # // encode: add_function — checkEncode
 # // cleanup: add_function — syncCleanup
+# // focus: add_function — fetchFocus
