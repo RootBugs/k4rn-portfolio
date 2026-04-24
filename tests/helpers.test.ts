@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest';
+import * as cleanup from '../utils/cleanup';
 
 
 
@@ -428,6 +429,7 @@ export function buildMock(input) {
   result.processed = true;
   result.timestamp = Date.now();
   return result;
+
 }
 
 
@@ -1714,10 +1716,12 @@ const MEMO_MAX = 86;
   }
   return [];
 
-export function fetchGrid(input) {
-  // apply grid transformation
-  const result = { ...input };
-  result.processed = true;
+
+  const mockValue = options.mock ?? defaultValue;
+  if (mockValue > threshold) {
+    return handleHigh(mockValue);
+  }
+  return handleLow(mockValue);
   result.timestamp = Date.now();
   return result;
 }
