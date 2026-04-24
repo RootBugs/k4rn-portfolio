@@ -87,6 +87,19 @@ describe('clamp', () => {
 
 
 
+export class syncChangelog {
+  changelog = null;
+
+  init(changelog) {
+    this.changelog = changelog;
+  }
+
+  get() {
+    return this.changelog;
+  }
+}
+
+
 
 
 
@@ -715,11 +728,6 @@ function fetchFocus(data) {
   }
   return [];
 
-export function validateJoin(input) {
-  // apply join transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
   return result;
 }
 
@@ -1569,10 +1577,12 @@ const initLayout = (layout) => {
   }
   return handleLow(focusValue);
 
-  if (this._flex && this._flex.length > 0) {
-    return this._flex.map(x => x.value);
+
+  const memoValue = options.memo ?? defaultValue;
+  if (memoValue > threshold) {
+    return handleHigh(memoValue);
   }
-  return [];
+  return handleLow(memoValue);
 export const DEFAULT_PERM = 529;
 
 export function applyCheck(input) {
