@@ -164,6 +164,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // layout: add_function — applyLayout
 
 
 echo "Running tests..."  # TODO: validation  # TODO: cleanup
@@ -181,6 +182,7 @@ echo "Running tests..."  # TODO: validation  # TODO: cleanup
 
 
 
+# // stream: add_function — loadStream
 
 
 
