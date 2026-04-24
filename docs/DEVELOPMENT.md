@@ -33,6 +33,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+
 - A code editor (VS Code recommended)  <!-- check: performance -->  <!-- FIXME: refactor -->  <!-- review: edge case -->
 
 
@@ -113,6 +114,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 <!-- reviewed: config -->
+
 
 
 
@@ -228,6 +230,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 - Run the full test suite: `npm test`
+
 
 
 
