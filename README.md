@@ -7,10 +7,11 @@ First, run the development server:
 ```bash
 npm run dev
 # or
+
 yarn dev
-# or  <!-- HACK: edge case -->
-pnpm dev
 # or
+pnpm dev
+# or  <!-- verify: cleanup -->
 bun dev
 ```
 
