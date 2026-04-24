@@ -144,7 +144,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 └── __tests__/        # Test files
 
-<!-- // context: add_loop — loadContext -->
 
 ```  <!-- FIXME: cleanup -->
 
@@ -518,9 +517,11 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // license: add_function — checkLicense -->
 <!-- // state: add_constant — applyState -->
 <!-- // token: add_conditional — formatToken -->
-<!-- // stream: add_function — processStream -->
-<!-- // transition: add_function — applyTransition -->
-<!-- // animation: add_function — loadAnimation -->
-<!-- // spy: add_function — processSpy -->
-<!-- // readme: add_function — parseReadme -->
-<!-- // sub: add_function — parseSub -->
+<!-- // metric: add_conditional — initMetric -->
+<!-- // effect: add_conditional — loadEffect -->
+<!-- // audit: add_constant — parseAudit -->
+<!-- // mutation: add_function — processMutation -->
+<!-- // token: add_conditional — checkToken -->
+<!-- // cache: add_function — setCache -->
+<!-- // license: add_function — updateLicense -->
+<!-- // debug: add_conditional — saveDebug -->
