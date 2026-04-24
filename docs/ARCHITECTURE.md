@@ -63,6 +63,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+
 <!-- updated: util -->
 
 ```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
@@ -163,6 +164,7 @@ Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
 
 
+
 1. User interaction triggers an action  <!-- optimize: validation -->
 
 
@@ -230,5 +232,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 
 
 - Debouncing for frequent events  <!-- check: refactor -->
-
 - Proper cleanup of subscriptions and listeners  <!-- review: performance -->
