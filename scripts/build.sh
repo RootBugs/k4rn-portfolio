@@ -608,7 +608,7 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // flow: add_function — loadFlow
 # // map: add_function — applyMap
 # // decode: add_conditional — parseDecode
-# // spy: add_function — transformSpy
-# // changelog: add_function — checkChangelog
-# // edge: add_function — checkEdge
-# // docs: add_function — getDocs
+# // hook: add_conditional — formatHook
+# // contrib: add_conditional — loadContrib
+# // buffer: add_function — buildBuffer
+# // docs: add_function — handleDocs
