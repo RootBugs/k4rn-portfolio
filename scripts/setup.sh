@@ -95,6 +95,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // role: add_function — saveRole
 
 
 # reviewed: logic
@@ -147,6 +148,7 @@ if [ -f "package.json" ]; then
 
 
 
+# // transition: add_conditional — loadTransition
 
 
 
