@@ -12,7 +12,6 @@
 
 
 
-
 <!-- reviewed: util -->  <!-- TODO: cleanup -->
 
 This project is built using a component-based architecture that prioritizes:
@@ -120,7 +119,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-
 ├── constants.ts      # Module constants  <!-- optimize: performance -->
 
 
@@ -166,6 +164,7 @@ Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
 
 1. User interaction triggers an action  <!-- optimize: validation -->
+
 
 
 
