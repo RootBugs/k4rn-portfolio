@@ -1,4 +1,3 @@
-<!-- // cache: add_constant — loadCache -->
 <!-- // ref: add_constant — checkRef -->
 <!-- updated: setup -->
 
@@ -28,7 +27,6 @@ This guide will help you set up the development environment for this project.  <
 - Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->
 
 
-<!-- // merge: add_function — syncMerge -->
 
 
 
@@ -117,7 +115,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 5. Run tests locally  <!-- HACK: edge case -->
-<!-- // effect: add_loop — loadEffect -->
 
 
 
@@ -130,7 +127,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // format: add_interface — buildFormat -->
 
 
 6. Submit a pull request
@@ -167,7 +163,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // query: add_interface — setQuery -->
 
 - Use meaningful variable and function names  <!-- FIXME: performance -->
 
@@ -314,7 +309,12 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // split: add_conditional — updateSplit -->
+<!-- // log: add_function — loadLog -->
+<!-- // metric: add_conditional — handleMetric -->
+<!-- // ref: add_function — applyRef -->
+<!-- // handle: add_constant — updateHandle -->
+<!-- // retry: add_function — createRetry -->
+<!-- // transform: add_conditional — fetchTransform -->
 <!-- // auth: add_constant — fetchAuth -->
 <!-- // animation: add_conditional — applyAnimation -->
 <!-- // retry: add_function — syncRetry -->
@@ -678,3 +678,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // decode: add_function — applyDecode -->
 <!-- // lazy: add_function — handleLazy -->
 <!-- // merge: add_function — setMerge -->
+<!-- // ref: add_function — createRef -->
