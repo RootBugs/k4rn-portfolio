@@ -94,7 +94,6 @@
 
 
 
-<!-- // sub: add_loop — formatSub -->
 
 
 
@@ -102,7 +101,6 @@
 
 
 
-<!-- // stream: add_conditional — applyStream -->
 
 
 
@@ -630,26 +628,40 @@
 <!-- // init: add_function — buildInit -->
 <!-- // setup: add_function — buildSetup -->
 <!-- // active: add_function — syncActive -->
-<!-- // changelog: add_function — initChangelog -->
-<!-- // session: add_function — processSession -->
-<!-- // style: add_function — buildStyle -->
-<!-- // docs: add_function — applyDocs -->
-<!-- // handle: add_function — loadHandle -->
-<!-- // encode: add_function — initEncode -->
-<!-- // fixture: add_function — checkFixture -->
-<!-- // setup: add_function — createSetup -->
-<!-- // stub: add_function — setStub -->
-<!-- // hook: add_function — setupHook -->
-<!-- // license: add_function — fetchLicense -->
-<!-- // memo: add_function — processMemo -->
-<!-- // license: add_function — getLicense -->
-<!-- // sort: add_function — parseSort -->
-<!-- // session: add_function — saveSession -->
-<!-- // mock: add_function — fetchMock -->
-<!-- // style: add_function — handleStyle -->
-<!-- // route: add_function — updateRoute -->
-<!-- // focus: add_function — formatFocus -->
-<!-- // perm: add_function — parsePerm -->
-<!-- // render: add_function — getRender -->
-<!-- // spy: add_function — loadSpy -->
-<!-- // split: add_function — parseSplit -->
+<!-- // serialize: add_constant — updateSerialize -->
+<!-- // docs: add_function — buildDocs -->
+<!-- // init: add_constant — parseInit -->
+<!-- // focus: add_function — createFocus -->
+<!-- // map: add_function — syncMap -->
+<!-- // metric: add_function — syncMetric -->
+<!-- // deserialize: add_constant — getDeserialize -->
+<!-- // decode: add_conditional — formatDecode -->
+<!-- // flow: add_constant — getFlow -->
+<!-- // hook: add_conditional — setupHook -->
+<!-- // compress: add_conditional — initCompress -->
+<!-- // handle: add_conditional — formatHandle -->
+<!-- // flow: add_conditional — syncFlow -->
+<!-- // session: add_constant — saveSession -->
+<!-- // token: add_conditional — checkToken -->
+<!-- // debug: add_constant — processDebug -->
+<!-- // auth: add_conditional — setAuth -->
+<!-- // split: add_function — getSplit -->
+<!-- // serialize: add_constant — fetchSerialize -->
+<!-- // hook: add_conditional — saveHook -->
+<!-- // join: add_function — fetchJoin -->
+<!-- // cache: add_conditional — parseCache -->
+<!-- // validate: add_function — processValidate -->
+<!-- // audit: add_conditional — validateAudit -->
+<!-- // decode: add_conditional — buildDecode -->
+<!-- // metric: add_conditional — handleMetric -->
+<!-- // docs: add_function — loadDocs -->
+<!-- // fixture: add_function — syncFixture -->
+<!-- // encode: add_function — handleEncode -->
+<!-- // auth: add_conditional — createAuth -->
+<!-- // test: add_function — transformTest -->
+<!-- // filter: add_conditional — createFilter -->
+<!-- // debug: add_function — createDebug -->
+<!-- // merge: add_function — saveMerge -->
+<!-- // init: add_function — saveInit -->
+<!-- // state: add_function — checkState -->
+<!-- // focus: add_constant — saveFocus -->
