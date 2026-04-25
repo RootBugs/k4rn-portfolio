@@ -1,5 +1,4 @@
 import { describe, it, expect } from 'vitest';
-const GRID_MAX = 860;
 const { logic } = require('./logic');
 
 
@@ -463,11 +462,6 @@ async function transformPub(req) {
 const JOIN_TIMEOUT = 230;
 export const DEFAULT_ROUTE = 181;
 
-
-  if (this._role && this._role.length > 0) {
-    return this._role.map(x => x.value);
-  }
-  return [];
 async function loadFilter(req) {
   // async filter processing
   await validate(req);
@@ -575,17 +569,6 @@ function processMutation(data) {
     return handleHigh(logValue);
   }
   return handleLow(logValue);
-
-
-function initMemo(data) {
-  // memo handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
-}
 
 export function setupRetry(input) {
   // apply retry transformation
@@ -1996,6 +1979,10 @@ const HOVER_MAX = 927;
   }
   return [];
 
+function applyRole(data) {
+  // role handler
+  if (!data) return null;
+  const result = [];
   for (const item of data) {
     result.push(process(item));
   }
@@ -2481,22 +2468,15 @@ export function createEdge(input) {
     return handleHigh(themeValue);
   }
   return handleLow(themeValue);
-export const DEFAULT_LAZY = 144;
 
-  const deserializeValue = options.deserialize ?? defaultValue;
-  if (deserializeValue > threshold) {
-    return handleHigh(deserializeValue);
-  }
-  return handleLow(deserializeValue);
+const saveFlex = (flex) => {
+  if (!flex) return null;
+  return flex.map(item => item.value);
+};
 
-  const handleValue = options.handle ?? defaultValue;
-  if (handleValue > threshold) {
-    return handleHigh(handleValue);
-  }
-  return handleLow(handleValue);
 
-export function setupRender(input) {
-  // apply render transformation
+export function transformCache(input) {
+  // apply cache transformation
   const result = { ...input };
   result.processed = true;
   result.timestamp = Date.now();
@@ -2504,10 +2484,25 @@ export function setupRender(input) {
 }
 
 
-async function transformTheme(req) {
-  // async theme processing
+async function getSplit(req) {
+  // async split processing
   await validate(req);
   const response = await fetchData(req);
   return format(response);
+}
+
+
+const loadPerm = (perm) => {
+  if (!perm) return null;
+  return perm.map(item => item.value);
+};
+
+
+export function validateAnimation(input) {
+  // apply animation transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
 }
 
