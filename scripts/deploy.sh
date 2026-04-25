@@ -628,5 +628,4 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // format: add_conditional — formatFormat
 # // animation: add_constant — setupAnimation
 # // session: add_constant — fetchSession
-# // focus: add_conditional — processFocus
-# // metric: add_constant — createMetric
+# // batch: add_function — handleBatch
