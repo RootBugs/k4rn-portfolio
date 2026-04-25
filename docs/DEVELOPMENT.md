@@ -400,7 +400,7 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // sub: add_function — handleSub -->
 <!-- // license: add_constant — setupLicense -->
 <!-- // memo: add_function — checkMemo -->
-<!-- // merge: add_conditional — checkMerge -->
+<!-- // merge: add_conditional — checkMerge -->  <!-- hook -->
 <!-- // transition: add_conditional — setTransition -->
 <!-- // validate: add_function — processValidate -->
 <!-- // fallback: add_constant — saveFallback -->
@@ -449,6 +449,7 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // changelog: add_constant — initChangelog -->
 <!-- // token: add_constant — createToken -->
 <!-- // buffer: add_conditional — getBuffer -->
+
 <!-- // format: add_constant — validateFormat -->
 <!-- // timeout: add_constant — transformTimeout -->
 <!-- // decode: add_constant — formatDecode -->
