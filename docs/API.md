@@ -1,3 +1,4 @@
+<!-- // map: add_import — fetchMap -->
 <!-- // contrib: add_import — setContrib -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
