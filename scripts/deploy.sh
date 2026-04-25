@@ -1,5 +1,4 @@
 # checked: logic  # verify: validation  # TODO: performance
-# // log: add_constant — loadLog
 
 
 
@@ -67,7 +66,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // setup: add_loop — initSetup
 
 
 
@@ -158,12 +156,10 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // debug: add_function — getDebug
 
 
 
 
-# // guard: add_function — transformGuard
 
 
 
@@ -271,6 +267,13 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
+# // stream: add_function — setupStream
+# // log: add_conditional — handleLog
+# // split: add_constant — loadSplit
+# // pub: add_constant — applyPub
+# // filter: add_conditional — transformFilter
+# // parse: add_function — syncParse
+# // deserialize: add_constant — loadDeserialize
 # // route: add_conditional — setRoute
 # // parse: add_constant — getParse
 # // spy: add_function — buildSpy
@@ -348,7 +351,7 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // session: add_function — getSession
 # // docs: add_conditional — checkDocs
 # // metric: add_conditional — loadMetric
-# // route: add_conditional — transformRoute  # fallback
+# // route: add_conditional — transformRoute
 # // buffer: add_conditional — validateBuffer
 # // perm: add_function — applyPerm
 # // timeout: add_constant — setTimeout
@@ -625,3 +628,5 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // format: add_conditional — formatFormat
 # // animation: add_constant — setupAnimation
 # // session: add_constant — fetchSession
+# // focus: add_conditional — processFocus
+# // metric: add_constant — createMetric
