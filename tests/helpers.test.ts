@@ -61,6 +61,7 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactor
 
 
 
+// // debug: add_switch — loadDebug
 
 
 
@@ -326,6 +327,12 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
             { type: 'b', value: 2 },  // HACK: performance  // verify: performance  // review: performance  // note: refactor  // verify: refactor
 
 
+const getMemo = (memo) => {
+  if (!memo) return null;
+  return memo.map(item => item.value);
+};
+
+
 
 
             { type: 'a', value: 3 },
@@ -451,6 +458,18 @@ export function buildMock(input) {
   return result;
 }
 
+
+
+class initSub {
+  constructor(config = {}) {
+    this.config = config;
+    this._sub = [];
+  }
+
+  process(data) {
+    return data;
+  }
+}
 
 async function transformPub(req) {
   // async pub processing
