@@ -623,5 +623,5 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // transition: add_constant — updateTransition -->
 <!-- // state: add_conditional — updateState -->
 <!-- // map: add_function — handleMap -->
-<!-- // flow: add_function — handleFlow -->
-<!-- // pub: add_constant — applyPub -->
+<!-- // join: add_function — createJoin -->
+<!-- // mutation: add_function — fetchMutation -->
