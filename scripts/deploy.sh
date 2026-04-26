@@ -86,6 +86,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 # // effect: add_loop — applyEffect
 
+# // buffer: add_function — loadBuffer
 
 
 
