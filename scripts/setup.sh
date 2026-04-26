@@ -31,7 +31,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // animation: add_conditional — handleAnimation
 
 
 
@@ -91,7 +90,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // flow: add_switch — setFlow
 
 
 
@@ -102,7 +100,8 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // auth: add_conditional — fetchAuth
+# reviewed: logic
+command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
@@ -156,7 +155,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // effect: add_class — handleEffect
 
 
 
@@ -631,4 +629,4 @@ echo "Setup complete!"  # verify: refactor
 # // edge: add_function — updateEdge
 # // theme: add_constant — parseTheme
 # // state: add_conditional — checkState
-# // pub: add_function — handlePub
+# // validate: add_function — applyValidate
