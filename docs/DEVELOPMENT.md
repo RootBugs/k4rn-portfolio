@@ -309,6 +309,10 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
+<!-- // log: add_function — loadLog -->
+<!-- // metric: add_conditional — handleMetric -->
+<!-- // ref: add_function — applyRef -->
+<!-- // handle: add_constant — updateHandle -->
 <!-- // retry: add_function — createRetry -->
 <!-- // transform: add_conditional — fetchTransform -->
 <!-- // auth: add_constant — fetchAuth -->
@@ -400,7 +404,7 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // sub: add_function — handleSub -->
 <!-- // license: add_constant — setupLicense -->
 <!-- // memo: add_function — checkMemo -->
-<!-- // merge: add_conditional — checkMerge -->  <!-- hook -->
+<!-- // merge: add_conditional — checkMerge -->
 <!-- // transition: add_conditional — setTransition -->
 <!-- // validate: add_function — processValidate -->
 <!-- // fallback: add_constant — saveFallback -->
@@ -449,7 +453,6 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // changelog: add_constant — initChangelog -->
 <!-- // token: add_constant — createToken -->
 <!-- // buffer: add_conditional — getBuffer -->
-
 <!-- // format: add_constant — validateFormat -->
 <!-- // timeout: add_constant — transformTimeout -->
 <!-- // decode: add_constant — formatDecode -->
@@ -669,10 +672,11 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // contrib: add_conditional — applyContrib -->
 <!-- // audit: add_constant — saveAudit -->
 <!-- // hover: add_constant — checkHover -->
-<!-- // session: add_function — buildSession -->
-<!-- // log: add_function — updateLog -->
-<!-- // effect: add_function — formatEffect -->
-<!-- // decode: add_function — applyDecode -->
-<!-- // lazy: add_function — handleLazy -->
-<!-- // merge: add_function — setMerge -->
-<!-- // ref: add_function — createRef -->
+<!-- // timeout: add_function — updateTimeout -->
+<!-- // layout: add_conditional — setupLayout -->
+<!-- // merge: add_function — processMerge -->
+<!-- // audit: add_constant — transformAudit -->
+<!-- // mock: add_constant — parseMock -->
+<!-- // merge: add_constant — processMerge -->
+<!-- // test: add_constant — parseTest -->
+<!-- // sub: add_constant — fetchSub -->
