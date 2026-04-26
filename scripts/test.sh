@@ -29,7 +29,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // mutation: add_function — applyMutation
 
 
 
@@ -161,7 +160,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // changelog: add_conditional — fetchChangelog
 
 
 
@@ -656,5 +654,6 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // token: add_constant — loadToken
 # // handle: add_function — getHandle
 # // license: add_function — buildLicense
-# // serialize: add_conditional — parseSerialize
-# // mock: add_constant — createMock
+# // changelog: add_function — buildChangelog
+# // decode: add_function — applyDecode
+# // validate: add_function — applyValidate
