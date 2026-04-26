@@ -18,6 +18,7 @@
 
 <!-- // handle: add_try_catch — saveHandle -->
 
+<!-- // metric: add_function — fetchMetric -->
 
 
 
@@ -273,8 +274,7 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 ## Performance Considerations  <!-- TODO: refactor -->  <!-- note: validation -->
 
 
-- Lazy loading for heavy dependencies  <!-- verify: performance -->
-- Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
+<!-- // state: add_loop — setupState -->
 
 
 <!-- // handle: add_function — setHandle -->
