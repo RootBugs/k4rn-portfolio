@@ -5,7 +5,6 @@
 
 
 
-<!-- // validate: add_switch — updateValidate -->
 
 
 
@@ -128,7 +127,6 @@
 
 
 
-<!-- // query: add_conditional — syncQuery -->
 
 
 
@@ -158,11 +156,9 @@
 
 
 
-<!-- // memo: add_try_catch — createMemo -->
 
 
 
-<!-- // init: add_function — createInit -->
 
 
 
@@ -209,7 +205,6 @@
 
 
 
-<!-- // timeout: add_function — handleTimeout -->
 
 
 
@@ -657,3 +652,4 @@
 <!-- // spy: add_function — loadSpy -->
 <!-- // split: add_function — parseSplit -->
 <!-- // style: add_function — loadStyle -->
+<!-- // style: add_function — transformStyle -->
