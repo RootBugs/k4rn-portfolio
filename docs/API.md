@@ -11,6 +11,7 @@
 
 
 
+<!-- // validate: add_function — checkValidate -->
 
 
 
