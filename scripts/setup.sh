@@ -47,6 +47,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // pub: add_try_catch — buildPub
 
 
 # // animation: add_class — buildAnimation
