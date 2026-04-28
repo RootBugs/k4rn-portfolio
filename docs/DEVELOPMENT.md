@@ -118,7 +118,6 @@ This guide will help you set up the development environment for this project.  <
 <!-- // transition: add_interface — getTransition -->
 
 
-<!-- // contrib: add_loop — fetchContrib -->
 
 
 
@@ -597,6 +596,5 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // readme: add_function — updateReadme -->
 <!-- // docs: add_function — handleDocs -->
 <!-- // pub: add_constant — createPub -->
-<!-- // focus: add_function — validateFocus -->
-<!-- // memo: add_function — parseMemo -->
-<!-- // docs: add_constant — formatDocs -->
+<!-- // split: add_function — syncSplit -->
+<!-- // lazy: add_function — buildLazy -->
