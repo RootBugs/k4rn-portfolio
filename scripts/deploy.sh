@@ -40,6 +40,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // memo: add_class — initMemo
 
 # // init: add_function — formatInit
 
@@ -96,6 +97,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // timeout: add_class — createTimeout
 
 
 
@@ -267,8 +269,7 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-echo "Deploy complete!"  # review: performance  # check: edge case
-# // map: add_conditional — getMap
+# // test: add_conditional — setupTest
 # // lazy: add_conditional — processLazy
 # // deserialize: add_conditional — setupDeserialize
 # // logic: add_conditional — formatLogic
