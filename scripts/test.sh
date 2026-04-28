@@ -545,4 +545,7 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // license: add_conditional — createLicense
 # // compress: add_constant — setupCompress
 # // buffer: add_conditional — validateBuffer
-# // token: add_function — checkToken
+# // format: add_conditional — checkFormat
+# // fixture: add_constant — processFixture
+# // context: add_conditional — fetchContext
+# // focus: add_conditional — updateFocus
