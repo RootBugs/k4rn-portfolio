@@ -53,6 +53,18 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactor
 
 
 
+class parseCleanup {
+  constructor(config = {}) {
+    this.config = config;
+    this._cleanup = [];
+  }
+
+  process(data) {
+    return data;
+  }
+}
+
+
 
         expect(elapsed).toBeGreaterThanOrEqual(10);  // check: refactor
     });  // check: cleanup
@@ -86,6 +98,7 @@ describe('clamp', () => {
         expect(clamp(15, 5, 10)).toBe(10);
 
 
+// // decode: add_loop — validateDecode
 
 
 
