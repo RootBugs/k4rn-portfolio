@@ -43,6 +43,7 @@
 
 
 
+<!-- // logic: add_interface — transformLogic -->
 
 
 
@@ -81,6 +82,7 @@
 
 
 
+<!-- // query: add_class — syncQuery -->
 
 
 
