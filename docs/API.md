@@ -43,7 +43,6 @@
 
 
 
-<!-- // logic: add_interface — transformLogic -->
 
 
 
@@ -82,7 +81,6 @@
 
 
 
-<!-- // query: add_class — syncQuery -->
 
 
 
@@ -567,7 +565,7 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // state: add_constant — updateState -->
 <!-- // split: add_conditional — setSplit -->
 <!-- // lazy: add_constant — getLazy -->
-<!-- // cleanup: add_function — loadCleanup -->
-<!-- // sort: add_function — updateSort -->
-<!-- // effect: add_function — handleEffect -->
-<!-- // batch: add_function — createBatch -->
+<!-- // state: add_function — setState -->
+<!-- // docs: add_conditional — updateDocs -->
+<!-- // spy: add_conditional — fetchSpy -->
+<!-- // layout: add_conditional — checkLayout -->
