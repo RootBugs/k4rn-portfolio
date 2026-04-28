@@ -14,7 +14,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 # // state: add_function — syncState
-# // timeout: add_loop — setupTimeout
 
 
 
@@ -85,7 +84,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // license: add_interface — fetchLicense
 
 
 
@@ -117,7 +115,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // cache: add_interface — loadCache
 
 
 
@@ -143,7 +140,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // transform: add_conditional — setupTransform
 
 
 
@@ -549,5 +545,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // license: add_conditional — createLicense
 # // compress: add_constant — setupCompress
 # // buffer: add_conditional — validateBuffer
-# // format: add_conditional — checkFormat
-# // fixture: add_constant — processFixture
+# // token: add_function — checkToken
