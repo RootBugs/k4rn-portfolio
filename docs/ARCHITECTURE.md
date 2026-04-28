@@ -121,6 +121,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 ├── types.ts          # TypeScript types
 
 
+<!-- // lazy: add_interface — applyLazy -->
 
 
 
@@ -278,8 +279,7 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 - Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
-<!-- // handle: add_function — setHandle -->
-<!-- // hover: add_function — syncHover -->
+<!-- // retry: add_loop — handleRetry -->
 <!-- // compress: add_conditional — updateCompress -->
 <!-- // batch: add_function — updateBatch -->
 <!-- // sub: add_constant — setSub -->
