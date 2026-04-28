@@ -101,6 +101,7 @@
 
 
 
+<!-- // state: add_switch — checkState -->
 
 
 
@@ -119,6 +120,7 @@
 
 
 
+<!-- // transform: add_conditional — loadTransform -->
 
 
 
@@ -296,9 +298,7 @@
 
 
 
-<!-- // session: add_loop — setupSession -->
-<!-- // flex: add_function — initFlex -->
-<!-- // test: add_constant — initTest -->
+<!-- // audit: add_function — createAudit -->
 <!-- // contrib: add_function — createContrib -->
 <!-- // transition: add_function — processTransition -->
 <!-- // parse: add_constant — fetchParse -->
