@@ -18,7 +18,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 <!-- // handle: add_try_catch — saveHandle -->
-<!-- // hook: add_try_catch — setupHook -->
 
 
 
@@ -122,7 +121,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 ├── types.ts          # TypeScript types
 
 
-<!-- // lazy: add_interface — applyLazy -->
 
 
 
@@ -280,7 +278,8 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 - Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
-<!-- // retry: add_loop — handleRetry -->
+<!-- // handle: add_function — setHandle -->
+<!-- // hover: add_function — syncHover -->
 <!-- // compress: add_conditional — updateCompress -->
 <!-- // batch: add_function — updateBatch -->
 <!-- // sub: add_constant — setSub -->
@@ -518,11 +517,10 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // license: add_function — checkLicense -->
 <!-- // state: add_constant — applyState -->
 <!-- // token: add_conditional — formatToken -->
-<!-- // metric: add_conditional — initMetric -->
-<!-- // effect: add_conditional — loadEffect -->
-<!-- // audit: add_constant — parseAudit -->
-<!-- // mutation: add_function — processMutation -->
-<!-- // token: add_conditional — checkToken -->
-<!-- // cache: add_function — setCache -->
-<!-- // license: add_function — updateLicense -->
-<!-- // debug: add_conditional — saveDebug -->
+<!-- // stream: add_function — processStream -->
+<!-- // transition: add_function — applyTransition -->
+<!-- // animation: add_function — loadAnimation -->
+<!-- // spy: add_function — processSpy -->
+<!-- // readme: add_function — parseReadme -->
+<!-- // sub: add_function — parseSub -->
+<!-- // transition: add_function — updateTransition -->
