@@ -1,4 +1,3 @@
-<!-- // validate: add_constant — createValidate -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -12,7 +11,8 @@
 
 
 
-<!-- // setup: add_loop — processSetup -->
+<!-- reviewed: util -->  <!-- TODO: cleanup -->
+This project is built using a component-based architecture that prioritizes:
 
 
 
@@ -26,6 +26,8 @@
 
 - **Modularity**: Each component is self-contained
 
+<!-- // hook: add_function — transformHook -->
+- **Reusability**: Components are designed to be reusable  <!-- TODO: validation -->
 
 - **Testability**: Every module has corresponding tests
 
@@ -42,7 +44,6 @@
 
 
 
-<!-- // filter: add_function — getFilter -->
 
 
 
@@ -72,6 +73,8 @@
 
 <!-- updated: util -->
 
+```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
+module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
@@ -137,7 +140,6 @@
 
 
 ├── constants.ts      # Module constants  <!-- optimize: performance -->
-<!-- // hover: add_function — applyHover -->
 
 
 └── __tests__/        # Test files
@@ -272,7 +274,8 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 ## Performance Considerations  <!-- TODO: refactor -->  <!-- note: validation -->
 
 
-<!-- // state: add_loop — formatState -->
+- Lazy loading for heavy dependencies  <!-- verify: performance -->
+- Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
 <!-- // handle: add_function — setHandle -->
@@ -434,3 +437,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // stub: add_function — processStub -->
 <!-- // debug: add_function — transformDebug -->
 <!-- // map: add_function — initMap -->
+<!-- // spy: add_function — checkSpy -->
