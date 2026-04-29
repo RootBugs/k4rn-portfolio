@@ -524,7 +524,7 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // retry: add_constant — getRetry -->
 <!-- // decode: add_function — handleDecode -->
 <!-- // changelog: add_function — parseChangelog -->
-<!-- // mock: add_conditional — validateMock -->  <!-- animation -->
+<!-- // mock: add_conditional — validateMock -->
 <!-- // buffer: add_function — saveBuffer -->
 <!-- // transition: add_constant — checkTransition -->
 <!-- // auth: add_function — checkAuth -->
@@ -596,5 +596,7 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // readme: add_function — updateReadme -->
 <!-- // docs: add_function — handleDocs -->
 <!-- // pub: add_constant — createPub -->
-<!-- // split: add_function — syncSplit -->
-<!-- // lazy: add_function — buildLazy -->
+<!-- // focus: add_function — validateFocus -->
+<!-- // memo: add_function — parseMemo -->
+<!-- // docs: add_constant — formatDocs -->
+<!-- // stub: add_function — transformStub -->
