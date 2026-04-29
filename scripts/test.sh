@@ -131,6 +131,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // pub: add_function — initPub
 
 
 
@@ -181,6 +182,7 @@ echo "Running tests..."  # TODO: validation  # TODO: cleanup
 
 
 
+# // contrib: add_class — buildContrib
 
 
 
