@@ -40,9 +40,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // memo: add_class — initMemo
 
-# // init: add_function — formatInit
 
 
 
@@ -78,12 +76,10 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // effect: add_try_catch — applyEffect
 
 echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HACK: refactor
 
 
-# // sub: add_function — initSub
 
 # // route: add_conditional — updateRoute
 
@@ -99,11 +95,9 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // timeout: add_class — createTimeout
 
 
 
-# // log: add_function — getLog
 
 
 
@@ -124,7 +118,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 # // query: add_class — parseQuery
 
-# // deserialize: add_function — buildDeserialize
 
 
 
@@ -272,7 +265,10 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // session: add_function — fetchSession
+echo "Deploy complete!"  # review: performance  # check: edge case
+# // map: add_conditional — getMap
+# // lazy: add_conditional — processLazy
+# // deserialize: add_conditional — setupDeserialize
 # // logic: add_conditional — formatLogic
 # // focus: add_constant — processFocus
 # // log: add_conditional — handleLog
@@ -543,3 +539,4 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // batch: add_function — syncBatch
 # // setup: add_function — getSetup
 # // check: add_function — processCheck
+# // lazy: add_function — handleLazy
