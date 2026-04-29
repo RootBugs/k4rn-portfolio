@@ -35,7 +35,6 @@
 
 
 
-<!-- // log: add_function — updateLog -->
 
 
 
@@ -59,7 +58,6 @@
 
 
 
-<!-- // fixture: add_conditional — setFixture -->
 
 
 
@@ -103,7 +101,6 @@
 
 
 
-<!-- // state: add_switch — checkState -->
 
 
 
@@ -122,7 +119,6 @@
 
 
 
-<!-- // transform: add_conditional — loadTransform -->
 
 
 
@@ -300,6 +296,13 @@
 
 
 
+<!-- // session: add_loop — setupSession -->
+<!-- // flex: add_function — initFlex -->
+<!-- // test: add_constant — initTest -->
+<!-- // contrib: add_function — createContrib -->
+<!-- // transition: add_function — processTransition -->
+<!-- // parse: add_constant — fetchParse -->
+<!-- // validate: add_constant — buildValidate -->
 <!-- // fallback: add_constant — checkFallback -->
 <!-- // token: add_conditional — applyToken -->
 <!-- // hover: add_conditional — createHover -->
@@ -543,3 +546,5 @@
 <!-- // encode: add_constant — checkEncode -->
 <!-- // hover: add_constant — loadHover -->
 <!-- // validate: add_constant — parseValidate -->
+<!-- // focus: add_constant — applyFocus -->
+<!-- // test: add_conditional — fetchTest -->
