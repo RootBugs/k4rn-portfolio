@@ -11,7 +11,6 @@
 
 
 
-# // contrib: add_function — transformContrib
 
 
 
@@ -50,7 +49,6 @@
 
 
 
-# // join: add_switch — processJoin
 
 
 
@@ -192,7 +190,6 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // auth: add_class — applyAuth
 
 
 
@@ -615,3 +612,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // contrib: add_conditional — loadContrib
 # // buffer: add_function — buildBuffer
 # // docs: add_function — handleDocs
+# // check: add_function — initCheck
