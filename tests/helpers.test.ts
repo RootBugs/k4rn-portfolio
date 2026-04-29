@@ -37,6 +37,11 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactor
 
 
 
+  if (this._theme && this._theme.length > 0) {
+    return this._theme.map(x => x.value);
+  }
+  return [];
+
 
 
 
@@ -1218,8 +1223,9 @@ async function applyValidate(req) {
   }
   return handleLow(logValue);
 
-  if (this._parse && this._parse.length > 0) {
-    return this._parse.map(x => x.value);
+
+  if (this._guard && this._guard.length > 0) {
+    return this._guard.map(x => x.value);
   }
   return [];
 
