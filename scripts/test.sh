@@ -448,3 +448,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // flex: add_function — handleFlex
 # // metric: add_function — setMetric
 # // token: add_function — initToken
+# // style: add_function — setStyle
