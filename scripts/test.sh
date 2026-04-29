@@ -62,7 +62,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // layout: add_conditional — validateLayout
 
 
 
@@ -132,7 +131,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // pub: add_function — initPub
 
 
 
@@ -183,7 +181,6 @@ echo "Running tests..."  # TODO: validation  # TODO: cleanup
 
 
 
-# // contrib: add_class — buildContrib
 
 
 
@@ -552,4 +549,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // fixture: add_constant — processFixture
 # // context: add_conditional — fetchContext
 # // focus: add_conditional — updateFocus
-# // fallback: add_function — handleFallback
+# // session: add_function — fetchSession
