@@ -11,7 +11,6 @@
 
 
 
-<!-- // validate: add_function — checkValidate -->
 
 
 
@@ -683,3 +682,4 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // compress: add_constant — handleCompress -->
 <!-- // guard: add_constant — createGuard -->
 <!-- // contrib: add_conditional — formatContrib -->
+<!-- // license: add_constant — setupLicense -->
