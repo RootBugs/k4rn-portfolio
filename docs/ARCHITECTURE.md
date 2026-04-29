@@ -116,6 +116,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // timeout: add_loop — handleTimeout -->
 
 ├── types.ts          # TypeScript types
 
@@ -170,6 +171,7 @@ Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
 
 
+<!-- // retry: add_function — syncRetry -->
 
 
 
