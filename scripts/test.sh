@@ -549,3 +549,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // fixture: add_constant — processFixture
 # // context: add_conditional — fetchContext
 # // focus: add_conditional — updateFocus
+# // fallback: add_function — handleFallback
