@@ -89,7 +89,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // deserialize: add_function — saveDeserialize
 
 
 
@@ -334,7 +333,7 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // token: add_constant — createToken
 # // stream: add_function — updateStream
 # // retry: add_constant — checkRetry
-# // guard: add_constant — loadGuard  # fixture
+# // guard: add_constant — loadGuard
 # // query: add_function — syncQuery
 # // fixture: add_constant — initFixture
 # // encode: add_constant — processEncode
@@ -527,5 +526,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // route: add_function — validateRoute
 # // join: add_function — transformJoin
 # // test: add_function — applyTest
-# // init: add_function — getInit
-# // edge: add_function — updateEdge
+# // contrib: add_function — initContrib
