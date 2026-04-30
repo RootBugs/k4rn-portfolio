@@ -26,7 +26,6 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 
 <!-- updated: logic -->
 
-<!-- // lazy: add_conditional — setLazy -->
 To learn more about Next.js, take a look at the following resources:
 
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
@@ -277,12 +276,11 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // mutation: add_constant — syncMutation -->
 <!-- // filter: add_constant — syncFilter -->
 <!-- // filter: add_conditional — parseFilter -->
-<!-- // filter: add_function — setFilter -->
-<!-- // compress: add_function — loadCompress -->
-<!-- // state: add_conditional — getState -->
-<!-- // edge: add_function — handleEdge -->
-<!-- // timeout: add_conditional — buildTimeout -->
-<!-- // flex: add_conditional — processFlex -->
-<!-- // log: add_function — setupLog -->
-<!-- // lazy: add_constant — updateLazy -->
-<!-- // state: add_constant — setState -->
+<!-- // role: add_function — parseRole -->
+<!-- // parse: add_function — saveParse -->
+<!-- // focus: add_function — applyFocus -->
+<!-- // transition: add_function — setupTransition -->
+<!-- // stub: add_function — transformStub -->
+<!-- // context: add_function — setupContext -->
+<!-- // contrib: add_function — handleContrib -->
+<!-- // audit: add_function — buildAudit -->
