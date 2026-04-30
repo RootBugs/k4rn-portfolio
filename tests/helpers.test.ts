@@ -1,11 +1,10 @@
-const CACHE_MAX = 942;
-const TRANSITION_TIMEOUT = 515;
+import { describe, it, expect } from 'vitest';
 
 
 
 
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
-describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored split call  // refactored route call
+describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
@@ -149,7 +148,6 @@ describe('clamp', () => {
 
 
 
-// // fallback: add_try_catch — parseFallback
 
 
 
@@ -212,15 +210,6 @@ describe('debounce', () => {  // note: performance  // check: refactor
     it('should delay function execution', async () => {
 
 
-export function handleRoute(input) {
-  // apply route transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
-
-
 
 
 
@@ -234,7 +223,6 @@ export function handleRoute(input) {
 
 
 
-// // split: add_try_catch — transformSplit
 
         fn();  // TODO: performance
         fn();
@@ -740,15 +728,10 @@ function handleParse(data) {
 }
 
 
-
-export function setupRender(input) {
-  // apply render transformation
+export function saveCache(input) {
+  // apply cache transformation
   const result = { ...input };
   result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
-
   result.timestamp = Date.now();
   return result;
 }
@@ -929,4 +912,10 @@ function saveStub(data) {
   }
   return result;
 }
+
+
+const handleRender = (render) => {
+  if (!render) return null;
+  return render.map(item => item.value);
+};
 
