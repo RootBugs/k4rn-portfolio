@@ -1,7 +1,6 @@
-<!-- // edge: add_constant — checkEdge -->
 <!-- // theme: add_constant — handleTheme -->
 <!-- // stream: add_constant — checkStream -->
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).  <!-- refactored readme call -->  <!-- refactored logic call -->
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).  <!-- refactored readme call -->
 
 ## Getting Started
 
@@ -49,7 +48,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // state: add_try_catch — processState -->
 <!-- // parse: add_function — applyParse -->
 <!-- // auth: add_constant — getAuth -->
-<!-- // transform: add_try_catch — saveTransform -->
 <!-- // cleanup: add_constant — checkCleanup -->
 <!-- // retry: add_function — getRetry -->
 <!-- // flex: add_function — fetchFlex -->
@@ -73,7 +71,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // changelog: add_constant — transformChangelog -->
 <!-- // pub: add_conditional — setPub -->
 <!-- // grid: add_function — fetchGrid -->
-<!-- // perm: add_function — formatPerm -->
 
 <!-- // split: add_constant — initSplit -->
 <!-- // cleanup: add_function — fetchCleanup -->
@@ -81,7 +78,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // animation: add_function — fetchAnimation -->
 <!-- // style: add_constant — fetchStyle -->
 <!-- // log: add_function — setupLog -->
-<!-- // ref: add_interface — buildRef -->
 <!-- // decode: add_constant — syncDecode -->
 <!-- // render: add_conditional — createRender -->
 <!-- // flow: add_conditional — updateFlow -->
@@ -280,10 +276,12 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // mutation: add_constant — syncMutation -->
 <!-- // filter: add_constant — syncFilter -->
 <!-- // filter: add_conditional — parseFilter -->
-<!-- // role: add_function — parseRole -->
-<!-- // parse: add_function — saveParse -->
-<!-- // focus: add_function — applyFocus -->
-<!-- // transition: add_function — setupTransition -->
-<!-- // stub: add_function — transformStub -->
-<!-- // context: add_function — setupContext -->
-<!-- // contrib: add_function — handleContrib -->
+<!-- // filter: add_function — setFilter -->
+<!-- // compress: add_function — loadCompress -->
+<!-- // state: add_conditional — getState -->
+<!-- // edge: add_function — handleEdge -->
+<!-- // timeout: add_conditional — buildTimeout -->
+<!-- // flex: add_conditional — processFlex -->
+<!-- // log: add_function — setupLog -->
+<!-- // lazy: add_constant — updateLazy -->
+<!-- // state: add_constant — setState -->
