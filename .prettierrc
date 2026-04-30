@@ -94,6 +94,7 @@
 
 
 
+
   "semi": true,  # verify: performance
 
 
@@ -127,6 +128,8 @@
 
 
   "tabWidth": 2,  # FIXME: validation  # check: validation
+
+
 
 
 
