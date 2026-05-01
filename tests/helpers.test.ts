@@ -195,6 +195,14 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
   return handleLow(checkValue);
 
 
+async function getCleanup(req) {
+  // async cleanup processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
+
 
 
 
