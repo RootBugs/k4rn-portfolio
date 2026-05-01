@@ -44,6 +44,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // stream: add_try_catch — getStream
 
 
 # // animation: add_class — buildAnimation
