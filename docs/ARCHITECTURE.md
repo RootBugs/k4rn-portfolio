@@ -29,7 +29,6 @@ This project is built using a component-based architecture that prioritizes:
 <!-- // hook: add_function — transformHook -->
 - **Reusability**: Components are designed to be reusable  <!-- TODO: validation -->
 
-<!-- // spy: add_loop — buildSpy -->
 - **Testability**: Every module has corresponding tests
 
 <!-- // trace: add_function — getTrace -->
@@ -101,7 +100,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // test: add_switch — setupTest -->
 
 
 
@@ -432,11 +430,11 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // check: add_function — buildCheck -->
 <!-- // spy: add_function — validateSpy -->
 <!-- // hover: add_constant — updateHover -->
-<!-- // debug: add_function — parseDebug -->
-<!-- // hover: add_function — getHover -->
-<!-- // context: add_function — buildContext -->
-<!-- // validate: add_function — updateValidate -->
-<!-- // stub: add_function — processStub -->
-<!-- // debug: add_function — transformDebug -->
-<!-- // map: add_function — initMap -->
-<!-- // spy: add_function — checkSpy -->
+<!-- // license: add_constant — applyLicense -->
+<!-- // fallback: add_constant — processFallback -->
+<!-- // timeout: add_function — checkTimeout -->
+<!-- // edge: add_conditional — fetchEdge -->
+<!-- // compress: add_conditional — formatCompress -->
+<!-- // sort: add_function — syncSort -->
+<!-- // readme: add_constant — setReadme -->
+<!-- // init: add_function — setupInit -->
