@@ -1,5 +1,4 @@
 # checked: logic  # verify: validation  # TODO: performance
-# // format: add_constant — createFormat
 
 
 
@@ -106,7 +105,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 # // deserialize: add_function — applyDeserialize
 
-# // mock: add_function — updateMock
 
 
 
@@ -427,5 +425,5 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // grid: add_constant — applyGrid
 # // stub: add_function — fetchStub
 # // flex: add_function — validateFlex
-# // contrib: add_conditional — processContrib
-# // mutation: add_function — checkMutation
+# // log: add_function — loadLog
+# // ref: add_function — setupRef
