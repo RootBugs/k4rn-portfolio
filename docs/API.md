@@ -77,7 +77,6 @@
 
 
 
-<!-- // deserialize: add_conditional — saveDeserialize -->
 
 
 
@@ -85,7 +84,6 @@
 
 
 
-<!-- // validate: add_class — setValidate -->
 
 
 
@@ -292,7 +290,11 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
-<!-- // decode: add_function — transformDecode -->
+Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: validation -->
+<!-- // query: add_conditional — applyQuery -->
+<!-- // split: add_function — handleSplit -->
+<!-- // auth: add_function — applyAuth -->
+<!-- // animation: add_function — updateAnimation -->
 <!-- // buffer: add_conditional — fetchBuffer -->
 <!-- // flow: add_constant — handleFlow -->
 <!-- // buffer: add_conditional — parseBuffer -->
@@ -462,3 +464,4 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // merge: add_function — createMerge -->
 <!-- // metric: add_function — checkMetric -->
 <!-- // render: add_function — checkRender -->
+<!-- // theme: add_function — fetchTheme -->
