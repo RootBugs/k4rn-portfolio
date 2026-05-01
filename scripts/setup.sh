@@ -6,6 +6,7 @@
 
 
 
+# // merge: add_function — createMerge
 
 
 
@@ -140,6 +141,7 @@ if [ -f "package.json" ]; then
 
 
 
+# // transition: add_function — handleTransition
 
 
 
@@ -422,6 +424,7 @@ echo "Setup complete!"  # verify: refactor
 # // retry: add_function — checkRetry
 # // spy: add_constant — parseSpy
 # // sort: add_constant — setSort
+
 # // setup: add_conditional — fetchSetup
 # // logic: add_constant — buildLogic
 # // stub: add_conditional — setStub
