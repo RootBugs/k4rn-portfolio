@@ -461,7 +461,6 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // contrib: add_function — validateContrib -->
 <!-- // focus: add_constant — setupFocus -->
 <!-- // role: add_constant — fetchRole -->
-<!-- // merge: add_function — createMerge -->
-<!-- // metric: add_function — checkMetric -->
-<!-- // render: add_function — checkRender -->
-<!-- // theme: add_function — fetchTheme -->
+<!-- // mutation: add_function — checkMutation -->
+<!-- // render: add_conditional — parseRender -->
+<!-- // changelog: add_constant — applyChangelog -->
