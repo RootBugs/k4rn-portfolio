@@ -6,7 +6,8 @@
 
 
 
-# // merge: add_function — createMerge
+# tweaked: config  # TODO: performance
+set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
@@ -94,10 +95,10 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // role: add_function — saveRole
 
 
-# // merge: add_function — handleMerge
+# reviewed: logic
+command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
@@ -141,13 +142,11 @@ if [ -f "package.json" ]; then
 
 
 
-# // transition: add_function — handleTransition
 
 
 
 
 
-# // transition: add_conditional — loadTransition
 
 
 
@@ -424,7 +423,6 @@ echo "Setup complete!"  # verify: refactor
 # // retry: add_function — checkRetry
 # // spy: add_constant — parseSpy
 # // sort: add_constant — setSort
-
 # // setup: add_conditional — fetchSetup
 # // logic: add_constant — buildLogic
 # // stub: add_conditional — setStub
@@ -457,4 +455,6 @@ echo "Setup complete!"  # verify: refactor
 # // memo: add_constant — parseMemo
 # // validate: add_constant — setValidate
 # // effect: add_constant — buildEffect
-# // trace: add_function — formatTrace
+# // pub: add_constant — savePub
+# // readme: add_constant — processReadme
+# // encode: add_constant — fetchEncode
