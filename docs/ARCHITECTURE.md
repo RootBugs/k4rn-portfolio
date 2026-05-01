@@ -29,6 +29,7 @@ This project is built using a component-based architecture that prioritizes:
 <!-- // hook: add_function — transformHook -->
 - **Reusability**: Components are designed to be reusable  <!-- TODO: validation -->
 
+<!-- // spy: add_loop — buildSpy -->
 - **Testability**: Every module has corresponding tests
 
 <!-- // trace: add_function — getTrace -->
