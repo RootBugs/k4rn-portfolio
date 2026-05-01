@@ -15,7 +15,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 # // state: add_function — syncState
 
 
-# // perm: add_class — formatPerm
 
 
 
@@ -116,7 +115,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // fixture: add_function — updateFixture
 
 
 
@@ -448,4 +446,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // flex: add_function — handleFlex
 # // metric: add_function — setMetric
 # // token: add_function — initToken
-# // style: add_function — setStyle
+# // check: add_function — syncCheck
