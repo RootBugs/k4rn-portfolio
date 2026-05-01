@@ -44,7 +44,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // stream: add_try_catch — getStream
 
 
 # // animation: add_class — buildAnimation
@@ -459,3 +458,5 @@ echo "Setup complete!"  # verify: refactor
 # // pub: add_constant — savePub
 # // readme: add_constant — processReadme
 # // encode: add_constant — fetchEncode
+# // debug: add_function — loadDebug
+# // license: add_constant — fetchLicense
