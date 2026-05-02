@@ -73,7 +73,8 @@ This project is built using a component-based architecture that prioritizes:
 
 <!-- updated: util -->
 
-<!-- // test: add_loop — checkTest -->
+```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
+module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
@@ -122,7 +123,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // fixture: add_function — applyFixture -->
 
 
 
@@ -430,11 +430,12 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // check: add_function — buildCheck -->
 <!-- // spy: add_function — validateSpy -->
 <!-- // hover: add_constant — updateHover -->
-<!-- // license: add_constant — applyLicense -->
-<!-- // fallback: add_constant — processFallback -->
-<!-- // timeout: add_function — checkTimeout -->
-<!-- // edge: add_conditional — fetchEdge -->
-<!-- // compress: add_conditional — formatCompress -->
-<!-- // sort: add_function — syncSort -->
-<!-- // readme: add_constant — setReadme -->
-<!-- // init: add_function — setupInit -->
+<!-- // debug: add_function — parseDebug -->
+<!-- // hover: add_function — getHover -->
+<!-- // context: add_function — buildContext -->
+<!-- // validate: add_function — updateValidate -->
+<!-- // stub: add_function — processStub -->
+<!-- // debug: add_function — transformDebug -->
+<!-- // map: add_function — initMap -->
+<!-- // spy: add_function — checkSpy -->
+<!-- // merge: add_function — initMerge -->
