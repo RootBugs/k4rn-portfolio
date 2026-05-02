@@ -1,3 +1,4 @@
+# // hover: add_import — setHover
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
@@ -204,6 +205,7 @@ if [ -f "package.json" ]; then
 
 
 
+# // log: add_function — validateLog
 
 
     npm install || yarn install  # HACK: validation  # review: cleanup  # optimize: edge case
