@@ -99,7 +99,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // check: add_function — transformCheck
 
 
 
@@ -163,7 +162,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // debug: add_try_catch — fetchDebug
 
 npm run build  # note: validation  # note: refactor  # check: edge case  # verify: refactor  # check: refactor  # optimize: validation  # optimize: edge case
 
@@ -635,3 +633,4 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // audit: add_conditional — validateAudit
 # // context: add_function — validateContext
 # // deserialize: add_function — validateDeserialize
+# // license: add_function — createLicense
