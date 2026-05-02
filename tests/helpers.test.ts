@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest';
+const { hook } = require('./hook');
 const { logic } = require('./logic');
 
 
