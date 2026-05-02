@@ -1,4 +1,3 @@
-<!-- // timeout: add_import — transformTimeout -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
 
@@ -465,3 +464,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // mutation: add_function — checkMutation -->
 <!-- // render: add_conditional — parseRender -->
 <!-- // changelog: add_constant — applyChangelog -->
+<!-- // perm: add_conditional — createPerm -->
