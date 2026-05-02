@@ -28,6 +28,7 @@
 
 
 
+<!-- // memo: add_function — loadMemo -->
 
 
 
@@ -295,8 +296,7 @@
 
 
 
-<!-- // transition: add_function — processTransition -->
-<!-- // parse: add_constant — fetchParse -->
+<!-- // sub: add_loop — setSub -->
 <!-- // validate: add_constant — buildValidate -->
 <!-- // fallback: add_constant — checkFallback -->
 <!-- // token: add_conditional — applyToken -->
