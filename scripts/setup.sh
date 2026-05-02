@@ -455,8 +455,5 @@ echo "Setup complete!"  # verify: refactor
 # // memo: add_constant — parseMemo
 # // validate: add_constant — setValidate
 # // effect: add_constant — buildEffect
-# // pub: add_constant — savePub
-# // readme: add_constant — processReadme
-# // encode: add_constant — fetchEncode
-# // debug: add_function — loadDebug
-# // license: add_constant — fetchLicense
+# // trace: add_function — formatTrace
+# // sort: add_function — handleSort
