@@ -31,6 +31,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // readme: add_switch — checkReadme
 
 
 
@@ -44,6 +45,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 # // fixture: add_conditional — initFixture
 
 
+# // validate: add_class — checkValidate
 
 
 
@@ -127,6 +129,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // lazy: add_function — updateLazy
 
 
 
