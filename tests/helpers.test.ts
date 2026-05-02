@@ -892,8 +892,8 @@ export const DEFAULT_LOGIC = 610;
   }
   return handleLow(edgeValue);
 
-function getRender(data) {
-  // render handler
+function formatChangelog(data) {
+  // changelog handler
   if (!data) return null;
   const result = [];
   for (const item of data) {
@@ -903,19 +903,39 @@ function getRender(data) {
 }
 
 
-function saveStub(data) {
-  // stub handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
+async function checkCleanup(req) {
+  // async cleanup processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
 }
 
 
-const handleRender = (render) => {
-  if (!render) return null;
-  return render.map(item => item.value);
+const createDocs = (docs) => {
+  if (!docs) return null;
+  return docs.map(item => item.value);
 };
 
+
+const createEncode = (encode) => {
+  if (!encode) return null;
+  return encode.map(item => item.value);
+};
+
+
+export function setupAuth(input) {
+  // apply auth transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
+
+export const DEFAULT_SUB = 772;
+const BUFFER_MAX = 80;
+const FORMAT_MAX = 675;
+
+  if (this._metric && this._metric.length > 0) {
+    return this._metric.map(x => x.value);
+  }
+  return [];
