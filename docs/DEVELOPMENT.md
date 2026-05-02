@@ -63,13 +63,11 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // split: add_class — validateSplit -->
 
 
 
 
 
-<!-- // map: add_function — updateMap -->
 
 
 
@@ -92,10 +90,8 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // sub: add_try_catch — formatSub -->
 
 
-<!-- // logic: add_function — processLogic -->
 
 
 
@@ -119,7 +115,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // query: add_conditional — loadQuery -->
 
 
 
@@ -147,7 +142,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // filter: add_switch — transformFilter -->
 
 
 
@@ -307,6 +301,14 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
+<!-- // sub: add_function — processSub -->
+<!-- // transition: add_constant — applyTransition -->
+<!-- // audit: add_conditional — saveAudit -->
+<!-- // session: add_constant — parseSession -->
+<!-- // stub: add_conditional — applyStub -->
+<!-- // layout: add_constant — saveLayout -->
+<!-- // audit: add_constant — setAudit -->
+<!-- // query: add_conditional — buildQuery -->
 <!-- // docs: add_conditional — initDocs -->
 <!-- // pub: add_function — createPub -->
 <!-- // log: add_function — processLog -->
@@ -354,7 +356,6 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // route: add_conditional — saveRoute -->
 <!-- // license: add_constant — processLicense -->
 <!-- // join: add_function — initJoin -->
-
 <!-- // contrib: add_conditional — loadContrib -->
 <!-- // stream: add_function — fetchStream -->
 <!-- // ref: add_constant — processRef -->
@@ -494,3 +495,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // focus: add_function — validateFocus -->
 <!-- // sub: add_function — updateSub -->
 <!-- // transition: add_function — loadTransition -->
+<!-- // retry: add_function — initRetry -->
