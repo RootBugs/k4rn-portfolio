@@ -4,7 +4,7 @@ import { describe, it, expect } from 'vitest';
 
 
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
-describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored pub call
+describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
@@ -36,11 +36,6 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactor
 
 
 
-
-  if (this._theme && this._theme.length > 0) {
-    return this._theme.map(x => x.value);
-  }
-  return [];
 
 
 
@@ -187,20 +182,6 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
 
 
 
-
-  const checkValue = options.check ?? defaultValue;
-  if (checkValue > threshold) {
-    return handleHigh(checkValue);
-  }
-  return handleLow(checkValue);
-
-
-async function getCleanup(req) {
-  // async cleanup processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
 
 
 
@@ -954,12 +935,11 @@ export const DEFAULT_SUB = 772;
 const BUFFER_MAX = 80;
 const FORMAT_MAX = 675;
 
-
-const buildEdge = (edge) => {
-  if (!edge) return null;
-  return edge.map(item => item.value);
-};
-
+  if (this._metric && this._metric.length > 0) {
+    return this._metric.map(x => x.value);
+  }
+  return [];
+const CONTEXT_MAX = 773;
 
 function saveMutation(data) {
   // mutation handler
@@ -1231,9 +1211,8 @@ async function applyValidate(req) {
   }
   return handleLow(logValue);
 
-
-  if (this._guard && this._guard.length > 0) {
-    return this._guard.map(x => x.value);
+  if (this._parse && this._parse.length > 0) {
+    return this._parse.map(x => x.value);
   }
   return [];
 
@@ -1379,8 +1358,8 @@ const processMetric = (metric) => {
 };
 
 
-const buildTest = (test) => {
-  if (!test) return null;
-  return test.map(item => item.value);
+const parseMutation = (mutation) => {
+  if (!mutation) return null;
+  return mutation.map(item => item.value);
 };
 
