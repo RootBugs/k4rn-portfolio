@@ -1,4 +1,3 @@
-# // hover: add_import — setHover
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
@@ -48,7 +47,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // pub: add_try_catch — buildPub
 
 
 # // animation: add_class — buildAnimation
@@ -88,7 +86,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // filter: add_class — applyFilter
 
 
 
@@ -105,11 +102,9 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 # reviewed: logic
 command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
-# // trace: add_try_catch — buildTrace
 
 
 
-# // token: add_function — validateToken
 
 
 
@@ -205,7 +200,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // log: add_function — validateLog
 
 
     npm install || yarn install  # HACK: validation  # review: cleanup  # optimize: edge case
@@ -636,3 +630,4 @@ echo "Setup complete!"  # verify: refactor
 # // theme: add_constant — parseTheme
 # // state: add_conditional — checkState
 # // validate: add_function — applyValidate
+# // ref: add_function — updateRef
