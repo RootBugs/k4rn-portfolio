@@ -14,6 +14,7 @@
 <!-- reviewed: util -->  <!-- TODO: cleanup -->
 <!-- // effect: add_interface — setupEffect -->
 This project is built using a component-based architecture that prioritizes:
+<!-- // grid: add_function — checkGrid -->
 
 
 
