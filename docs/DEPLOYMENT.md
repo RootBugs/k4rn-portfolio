@@ -52,6 +52,7 @@
 
 
 
+<!-- // hover: add_function — updateHover -->
 
 
 
@@ -67,6 +68,7 @@
 
 
 
+<!-- // readme: add_function — setupReadme -->
 
 
 
