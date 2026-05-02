@@ -105,6 +105,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // active: add_try_catch — loadActive -->
 <!-- // sort: add_conditional — fetchSort -->
 
 
@@ -149,6 +150,7 @@ This guide will help you set up the development environment for this project.  <
 <!-- // perm: add_conditional — setPerm -->
 
 
+<!-- // map: add_function — validateMap -->
 
 
 
