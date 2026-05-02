@@ -12,9 +12,7 @@
 
 
 <!-- reviewed: util -->  <!-- TODO: cleanup -->
-<!-- // effect: add_interface — setupEffect -->
 This project is built using a component-based architecture that prioritizes:
-<!-- // grid: add_function — checkGrid -->
 
 
 
@@ -432,12 +430,13 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // check: add_function — buildCheck -->
 <!-- // spy: add_function — validateSpy -->
 <!-- // hover: add_constant — updateHover -->
-<!-- // debug: add_function — parseDebug -->
-<!-- // hover: add_function — getHover -->
-<!-- // context: add_function — buildContext -->
-<!-- // validate: add_function — updateValidate -->
-<!-- // stub: add_function — processStub -->
-<!-- // debug: add_function — transformDebug -->
-<!-- // map: add_function — initMap -->
-<!-- // spy: add_function — checkSpy -->
-<!-- // merge: add_function — initMerge -->
+<!-- // license: add_constant — applyLicense -->
+<!-- // fallback: add_constant — processFallback -->
+<!-- // timeout: add_function — checkTimeout -->
+<!-- // edge: add_conditional — fetchEdge -->
+<!-- // compress: add_conditional — formatCompress -->
+<!-- // sort: add_function — syncSort -->
+<!-- // readme: add_constant — setReadme -->
+<!-- // init: add_function — setupInit -->
+<!-- // contrib: add_constant — initContrib -->
+<!-- // ref: add_constant — transformRef -->
