@@ -1,5 +1,4 @@
 # checked: logic  # TODO: refactor
-# // focus: add_constant — updateFocus
 
 
 
@@ -158,7 +157,6 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // logic: add_function — syncLogic
 
 
 
@@ -615,3 +613,5 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // buffer: add_function — buildBuffer
 # // docs: add_function — handleDocs
 # // check: add_function — initCheck
+# // effect: add_function — validateEffect
+# // flex: add_constant — setFlex
