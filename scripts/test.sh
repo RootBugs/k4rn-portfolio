@@ -10,6 +10,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // grid: add_function — loadGrid
 
 
 # // state: add_function — syncState
@@ -87,6 +88,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // logic: add_conditional — transformLogic
 
 
 
