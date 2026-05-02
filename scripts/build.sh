@@ -1,4 +1,3 @@
-# // format: add_import — handleFormat
 # checked: logic  # TODO: refactor
 
 
@@ -113,7 +112,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // docs: add_conditional — setDocs
 
 
 
@@ -135,7 +133,6 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // perm: add_function — fetchPerm
 
 
 
@@ -431,7 +428,11 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // sort: add_function — fetchSort
 # // deserialize: add_conditional — formatDeserialize
 # // style: add_conditional — validateStyle
-# // join: add_function — applyJoin
-# // timeout: add_function — handleTimeout
-# // flex: add_function — createFlex
-# // fallback: add_function — transformFallback
+# // merge: add_conditional — fetchMerge
+# // style: add_function — createStyle
+# // log: add_conditional — handleLog
+# // changelog: add_conditional — checkChangelog
+# // fixture: add_constant — validateFixture
+# // debug: add_function — handleDebug
+# // mutation: add_conditional — syncMutation
+# // session: add_constant — buildSession
