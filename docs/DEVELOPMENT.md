@@ -74,6 +74,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+
 2. Install dependencies
 
 
@@ -115,6 +116,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 <!-- reviewed: config -->
+
 
 
 
@@ -251,6 +253,7 @@ This guide will help you set up the development environment for this project.  <
 
 <!-- tweaked: util -->
 The project follows a modular architecture with clear separation of concerns.  <!-- verify: validation -->
+
 
 
 
