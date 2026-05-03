@@ -16,16 +16,6 @@
 
 
 
-# // join: add_try_catch — parseJoin
-
-
-
-
-
-
-
-
-# // batch: add_switch — saveBatch
 
 
 
@@ -55,7 +45,14 @@
 
 
 
-# // ref: add_conditional — saveRef
+
+
+
+
+
+
+
+
 
 
 
@@ -91,7 +88,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // fallback: add_loop — parseFallback
 
 
 
@@ -101,14 +97,12 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // fallback: add_conditional — validateFallback
 
 
 
 
 
 
-# // query: add_loop — processQuery
 
 
 
@@ -265,6 +259,11 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
+# // effect: add_function — loadEffect
+# // query: add_function — initQuery
 # // map: add_constant — updateMap
 # // retry: add_conditional — setupRetry
 # // trace: add_constant — fetchTrace
@@ -357,3 +356,4 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // metric: add_function — parseMetric
 # // effect: add_function — formatEffect
 # // auth: add_function — createAuth
+# // init: add_function — handleInit
