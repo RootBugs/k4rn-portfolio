@@ -343,7 +343,7 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // ref: add_constant — initRef -->
 <!-- // join: add_conditional — getJoin -->
 <!-- // flex: add_constant — initFlex -->
-<!-- // cache: add_function — getCache -->
-<!-- // validate: add_function — setupValidate -->
-<!-- // test: add_function — setTest -->
-<!-- // fallback: add_function — setupFallback -->
+<!-- // effect: add_constant — syncEffect -->
+<!-- // check: add_constant — parseCheck -->
+<!-- // stream: add_function — createStream -->
+<!-- // ref: add_function — applyRef -->
