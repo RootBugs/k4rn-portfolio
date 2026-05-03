@@ -99,6 +99,8 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+
+
 ├── types.ts          # TypeScript types
 
 
@@ -164,6 +166,7 @@ Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
 
 1. User interaction triggers an action  <!-- optimize: validation -->
+
 
 
 
