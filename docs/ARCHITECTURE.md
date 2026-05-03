@@ -1,4 +1,3 @@
-<!-- // grid: add_import — loadGrid -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -66,7 +65,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // state: add_try_catch — initState -->
 
 
 
@@ -273,6 +271,8 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 ## Performance Considerations  <!-- TODO: refactor -->  <!-- note: validation -->
 
 
+- Lazy loading for heavy dependencies  <!-- verify: performance -->
+- Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
 - Debouncing for frequent events  <!-- check: refactor -->
@@ -343,6 +343,7 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // ref: add_constant — initRef -->
 <!-- // join: add_conditional — getJoin -->
 <!-- // flex: add_constant — initFlex -->
-<!-- // effect: add_constant — syncEffect -->
-<!-- // check: add_constant — parseCheck -->
-<!-- // stream: add_function — createStream -->
+<!-- // cache: add_function — getCache -->
+<!-- // validate: add_function — setupValidate -->
+<!-- // test: add_function — setTest -->
+<!-- // fallback: add_function — setupFallback -->
