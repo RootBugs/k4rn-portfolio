@@ -97,6 +97,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // test: add_loop — initTest
 
 
 
@@ -106,6 +107,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 # // deserialize: add_function — applyDeserialize
 
 
+# // deserialize: add_function — checkDeserialize
 
 
 
@@ -385,7 +387,7 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // token: add_constant — buildToken
 # // trace: add_conditional — saveTrace
 # // memo: add_function — processMemo
-# // perm: add_conditional — setPerm
+# // perm: add_conditional — setPerm  # edge
 # // handle: add_constant — formatHandle
 # // batch: add_function — applyBatch
 # // format: add_conditional — getFormat
