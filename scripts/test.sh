@@ -377,3 +377,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // transition: add_function — applyTransition
 # // transform: add_constant — applyTransform
 # // compress: add_conditional — buildCompress
+# // sort: add_function — syncSort
