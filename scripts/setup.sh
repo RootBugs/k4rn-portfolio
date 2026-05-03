@@ -1,4 +1,3 @@
-# // join: add_import — transformJoin
 # reviewed: handler  # optimize: edge case
 
 
@@ -91,7 +90,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // split: add_function — updateSplit
 
 
 # reviewed: logic
@@ -297,7 +295,6 @@ echo "Setup complete!"  # verify: refactor
 # // map: add_constant — transformMap
 # // parse: add_constant — setupParse
 # // focus: add_constant — handleFocus
-
 # // merge: add_function — buildMerge
 # // init: add_function — validateInit
 # // filter: add_constant — createFilter
@@ -374,4 +371,8 @@ echo "Setup complete!"  # verify: refactor
 # // context: add_constant — transformContext
 # // lazy: add_function — syncLazy
 # // check: add_constant — processCheck
-# // map: add_function — buildMap
+# // state: add_constant — buildState
+# // logic: add_conditional — checkLogic
+# // cleanup: add_conditional — buildCleanup
+# // hover: add_conditional — validateHover
+# // layout: add_constant — processLayout
