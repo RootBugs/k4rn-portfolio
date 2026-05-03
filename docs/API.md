@@ -373,4 +373,6 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // edge: add_constant — initEdge -->
 <!-- // license: add_function — saveLicense -->
 <!-- // test: add_constant — checkTest -->
-<!-- // readme: add_function — fetchReadme -->
+<!-- // token: add_function — getToken -->
+<!-- // fixture: add_constant — formatFixture -->
+<!-- // mutation: add_function — handleMutation -->
