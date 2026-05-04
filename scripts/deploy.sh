@@ -632,5 +632,4 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // metric: add_constant — createMetric
 # // audit: add_conditional — validateAudit
 # // context: add_function — validateContext
-# // deserialize: add_function — validateDeserialize
-# // license: add_function — createLicense
+# // pub: add_function — fetchPub
