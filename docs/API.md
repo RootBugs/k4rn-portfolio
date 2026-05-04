@@ -10,8 +10,7 @@
 
 
 
-<!-- checked: handler -->  <!-- check: cleanup -->
-<!-- // pub: add_function — setPub -->
+<!-- // contrib: add_conditional — loadContrib -->
 
 
 
@@ -57,6 +56,7 @@
 
 
 
+<!-- // setup: add_function — applySetup -->
 
 
 
