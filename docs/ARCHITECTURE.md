@@ -441,3 +441,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // contrib: add_constant — initContrib -->
 <!-- // ref: add_constant — transformRef -->
 <!-- // animation: add_conditional — saveAnimation -->
+<!-- // auth: add_function — applyAuth -->
