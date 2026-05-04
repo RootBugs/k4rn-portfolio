@@ -262,9 +262,7 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-echo "Build complete!"  # HACK: refactor  # FIXME: refactor
-# // handle: add_function — validateHandle
-# // map: add_function — fetchMap
+# // docs: add_function — buildDocs
 # // effect: add_function — loadEffect
 # // query: add_function — initQuery
 # // map: add_constant — updateMap
@@ -331,7 +329,7 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // style: add_constant — loadStyle
 # // transition: add_function — saveTransition
 # // theme: add_conditional — checkTheme
-# // retry: add_constant — loadRetry
+# // retry: add_constant — loadRetry  # stream
 # // token: add_constant — createToken
 # // stream: add_function — updateStream
 # // retry: add_constant — checkRetry
