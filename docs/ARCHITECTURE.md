@@ -440,3 +440,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // spy: add_function — checkSpy -->
 <!-- // merge: add_function — initMerge -->
 <!-- // active: add_function — buildActive -->
+<!-- // sub: add_function — initSub -->
