@@ -108,7 +108,6 @@
 
 
 
-<!-- // style: add_conditional — setStyle -->
 
 
 
@@ -467,3 +466,5 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // changelog: add_constant — applyChangelog -->
 <!-- // perm: add_conditional — createPerm -->
 <!-- // readme: add_function — loadReadme -->
+<!-- // transition: add_constant — loadTransition -->
+<!-- // license: add_function — fetchLicense -->
