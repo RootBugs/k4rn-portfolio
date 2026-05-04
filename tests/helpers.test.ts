@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest';
+const { guard } = require('./guard');
 
 
 
@@ -536,9 +537,6 @@ function processMutation(data) {
   }
   return handleLow(joinValue);
 
-  const logValue = options.log ?? defaultValue;
-  if (logValue > threshold) {
-    return handleHigh(logValue);
   }
   return handleLow(logValue);
 
