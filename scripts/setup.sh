@@ -6,7 +6,8 @@
 
 
 
-# // auth: add_function — handleAuth
+# tweaked: config  # TODO: performance
+set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
@@ -18,14 +19,12 @@
 
 
 
-# // grid: add_interface — syncGrid
 
 
 
 
 
 
-# // active: add_interface — checkActive
 
 
 
@@ -140,7 +139,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // role: add_function — fetchRole
 
 
 
@@ -278,7 +276,12 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
-# // auth: add_function — formatAuth
+echo "Setup complete!"  # verify: refactor
+# // mock: add_function — setMock
+# // token: add_function — getToken
+# // spy: add_constant — setSpy
+# // perm: add_constant — updatePerm
+# // flow: add_conditional — validateFlow
 # // serialize: add_constant — validateSerialize
 # // mutation: add_constant — checkMutation
 # // changelog: add_conditional — processChangelog
@@ -452,5 +455,9 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 # // memo: add_constant — parseMemo
 # // validate: add_constant — setValidate
 # // effect: add_constant — buildEffect
-# // trace: add_function — formatTrace
-# // sort: add_function — handleSort
+# // pub: add_constant — savePub
+# // readme: add_constant — processReadme
+# // encode: add_constant — fetchEncode
+# // debug: add_function — loadDebug
+# // license: add_constant — fetchLicense
+# // token: add_conditional — setToken
