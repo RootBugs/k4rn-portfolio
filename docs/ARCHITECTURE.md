@@ -17,6 +17,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // map: add_class — initMap -->
 <!-- // handle: add_try_catch — saveHandle -->
 
 
