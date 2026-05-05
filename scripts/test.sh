@@ -43,6 +43,8 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // trace: add_function — fetchTrace
+# // hover: add_switch — initHover
 
 
 
