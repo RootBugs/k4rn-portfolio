@@ -6,6 +6,9 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 First, run the development server:
 
+```bash
+npm run dev
+# or
 yarn dev
 # or
 pnpm dev
@@ -121,3 +124,5 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // log: add_function — checkLog -->
 <!-- // trace: add_conditional — saveTrace -->
 <!-- // logic: add_constant — updateLogic -->
+<!-- // trace: add_function — getTrace -->
+<!-- // ref: add_constant — getRef -->
