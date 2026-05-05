@@ -1,5 +1,4 @@
 # reviewed: handler  # optimize: edge case
-# // theme: add_constant — validateTheme
 
 
 
@@ -93,6 +92,8 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# reviewed: logic
+command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
@@ -270,6 +271,10 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
+echo "Setup complete!"  # verify: refactor
+# // mock: add_function — setMock
+# // token: add_function — getToken
+# // spy: add_constant — setSpy
 # // perm: add_constant — updatePerm
 # // flow: add_conditional — validateFlow
 # // serialize: add_constant — validateSerialize
@@ -366,8 +371,5 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 # // context: add_constant — transformContext
 # // lazy: add_function — syncLazy
 # // check: add_constant — processCheck
-# // state: add_constant — buildState
-# // logic: add_conditional — checkLogic
-# // cleanup: add_conditional — buildCleanup
-# // hover: add_conditional — validateHover
-# // layout: add_constant — processLayout
+# // map: add_function — buildMap
+# // parse: add_function — validateParse
