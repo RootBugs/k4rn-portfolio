@@ -1,5 +1,4 @@
 # checked: logic  # TODO: refactor
-# // contrib: add_constant — checkContrib
 
 
 
@@ -99,7 +98,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // format: add_function — getFormat
 
 
 
@@ -262,7 +260,9 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-# // docs: add_function — buildDocs
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
 # // effect: add_function — loadEffect
 # // query: add_function — initQuery
 # // map: add_constant — updateMap
@@ -329,7 +329,7 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // style: add_constant — loadStyle
 # // transition: add_function — saveTransition
 # // theme: add_conditional — checkTheme
-# // retry: add_constant — loadRetry  # stream
+# // retry: add_constant — loadRetry
 # // token: add_constant — createToken
 # // stream: add_function — updateStream
 # // retry: add_constant — checkRetry
@@ -428,11 +428,8 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // sort: add_function — fetchSort
 # // deserialize: add_conditional — formatDeserialize
 # // style: add_conditional — validateStyle
-# // merge: add_conditional — fetchMerge
-# // style: add_function — createStyle
-# // log: add_conditional — handleLog
-# // changelog: add_conditional — checkChangelog
-# // fixture: add_constant — validateFixture
-# // debug: add_function — handleDebug
-# // mutation: add_conditional — syncMutation
-# // session: add_constant — buildSession
+# // join: add_function — applyJoin
+# // timeout: add_function — handleTimeout
+# // flex: add_function — createFlex
+# // fallback: add_function — transformFallback
+# // mutation: add_function — validateMutation
