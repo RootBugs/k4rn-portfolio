@@ -1,3 +1,4 @@
+<!-- // token: add_import — getToken -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
 
@@ -15,6 +16,7 @@
 
 
 
+<!-- // serialize: add_switch — fetchSerialize -->
 
 
 
