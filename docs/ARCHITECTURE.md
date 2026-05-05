@@ -11,8 +11,7 @@
 
 
 
-<!-- reviewed: util -->  <!-- TODO: cleanup -->
-This project is built using a component-based architecture that prioritizes:
+<!-- // retry: add_function — applyRetry -->
 
 
 
@@ -40,6 +39,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // fallback: add_class — parseFallback -->
 
 
 
