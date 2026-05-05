@@ -464,7 +464,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // mutation: add_function — checkMutation -->
 <!-- // render: add_conditional — parseRender -->
 <!-- // changelog: add_constant — applyChangelog -->
-<!-- // perm: add_conditional — createPerm -->
-<!-- // readme: add_function — loadReadme -->
-<!-- // transition: add_constant — loadTransition -->
-<!-- // license: add_function — fetchLicense -->
+<!-- // cache: add_function — processCache -->
