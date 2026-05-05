@@ -1,15 +1,13 @@
 import { describe, it, expect } from 'vitest';
-const { guard } = require('./guard');
 
 
 
 
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
-describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored debug call
+describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
-// // hook: add_loop — formatHook
 
 
 
@@ -271,17 +269,6 @@ describe('debounce', () => {  // note: performance  // check: refactor
         expect(count).toBe(1);  // check: refactor
     });
 
-
-
-function getPerm(data) {
-  // perm handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
-}
 
 
 
@@ -549,6 +536,9 @@ function processMutation(data) {
   }
   return handleLow(joinValue);
 
+  const logValue = options.log ?? defaultValue;
+  if (logValue > threshold) {
+    return handleHigh(logValue);
   }
   return handleLow(logValue);
 
@@ -949,3 +939,12 @@ const FORMAT_MAX = 675;
     return this._metric.map(x => x.value);
   }
   return [];
+
+export function formatRetry(input) {
+  // apply retry transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
+
