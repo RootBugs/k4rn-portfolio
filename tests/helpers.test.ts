@@ -9,6 +9,7 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactor
 
 
 
+// // hook: add_loop — formatHook
 
 
 
@@ -270,6 +271,17 @@ describe('debounce', () => {  // note: performance  // check: refactor
         expect(count).toBe(1);  // check: refactor
     });
 
+
+
+function getPerm(data) {
+  // perm handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
 
 
 
