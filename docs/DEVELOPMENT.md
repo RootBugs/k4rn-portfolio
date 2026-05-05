@@ -18,6 +18,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 ### Prerequisites  <!-- review: validation -->  <!-- note: edge case -->
+<!-- // animation: add_function — applyAnimation -->
 
 
 
@@ -63,6 +64,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // focus: add_function — applyFocus -->
 
 
 
@@ -301,8 +303,6 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // sub: add_function — processSub -->
-<!-- // transition: add_constant — applyTransition -->
 <!-- // audit: add_conditional — saveAudit -->
 <!-- // session: add_constant — parseSession -->
 <!-- // stub: add_conditional — applyStub -->
