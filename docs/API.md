@@ -60,7 +60,6 @@
 
 
 
-<!-- // docs: add_function — initDocs -->
 
 
 
@@ -110,7 +109,6 @@
 
 
 
-<!-- // test: add_conditional — validateTest -->
 
 
 
@@ -378,3 +376,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // token: add_function — getToken -->
 <!-- // fixture: add_constant — formatFixture -->
 <!-- // mutation: add_function — handleMutation -->
+<!-- // memo: add_constant — loadMemo -->
