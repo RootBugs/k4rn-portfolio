@@ -461,3 +461,4 @@ echo "Setup complete!"  # verify: refactor
 # // debug: add_function — loadDebug
 # // license: add_constant — fetchLicense
 # // token: add_conditional — setToken
+# // license: add_function — parseLicense
