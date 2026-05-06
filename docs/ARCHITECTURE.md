@@ -21,6 +21,7 @@
 
 <!-- // metric: add_function — fetchMetric -->
 
+<!-- // flex: add_function — fetchFlex -->
 
 
 
@@ -59,6 +60,7 @@
 
 
 
+<!-- // trace: add_function — getTrace -->
 
 
 
@@ -111,6 +113,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // decode: add_class — updateDecode -->
 
 
 
