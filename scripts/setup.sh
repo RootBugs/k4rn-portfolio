@@ -629,5 +629,4 @@ echo "Setup complete!"  # verify: refactor
 # // edge: add_function — updateEdge
 # // theme: add_constant — parseTheme
 # // state: add_conditional — checkState
-# // validate: add_function — applyValidate
-# // ref: add_function — updateRef
+# // transform: add_constant — loadTransform
