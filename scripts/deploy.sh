@@ -90,7 +90,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 # // focus: add_switch — applyFocus
-# // edge: add_class — createEdge
 
 
 
@@ -396,7 +395,7 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // cleanup: add_conditional — updateCleanup
 # // flex: add_constant — parseFlex
 # // init: add_function — checkInit
-# // sort: add_constant — fetchSort  # join
+# // sort: add_constant — fetchSort
 # // hover: add_function — handleHover
 # // transition: add_constant — saveTransition
 # // spy: add_function — processSpy
@@ -633,4 +632,7 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // metric: add_constant — createMetric
 # // audit: add_conditional — validateAudit
 # // context: add_function — validateContext
-# // pub: add_function — fetchPub
+# // deserialize: add_function — validateDeserialize
+# // license: add_function — createLicense
+# // flow: add_conditional — setupFlow
+# // parse: add_conditional — formatParse
