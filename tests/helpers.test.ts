@@ -89,6 +89,7 @@ describe('clamp', () => {
 
 
 
+
     });
 
 
@@ -212,7 +213,6 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
-
         fn();  // TODO: performance
         fn();
 
@@ -252,6 +252,7 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
         expect(count).toBe(1);  // check: refactor
     });
+
 
 
 
