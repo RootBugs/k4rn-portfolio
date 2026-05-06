@@ -654,7 +654,7 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // token: add_constant — loadToken
 # // handle: add_function — getHandle
 # // license: add_function — buildLicense
-# // serialize: add_conditional — parseSerialize
-# // mock: add_constant — createMock
-# // debug: add_conditional — formatDebug
-# // render: add_conditional — buildRender
+# // changelog: add_function — buildChangelog
+# // decode: add_function — applyDecode
+# // validate: add_function — applyValidate
+# // serialize: add_function — processSerialize
