@@ -183,7 +183,6 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // mock: add_conditional — createMock
 
 
 
@@ -261,7 +260,8 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-# // debug: add_conditional — updateDebug
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
 # // map: add_function — fetchMap
 # // effect: add_function — loadEffect
 # // query: add_function — initQuery
@@ -612,6 +612,4 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // contrib: add_conditional — loadContrib
 # // buffer: add_function — buildBuffer
 # // docs: add_function — handleDocs
-# // check: add_function — initCheck
-# // effect: add_function — validateEffect
-# // flex: add_constant — setFlex
+# // role: add_function — processRole
