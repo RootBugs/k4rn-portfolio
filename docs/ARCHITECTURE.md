@@ -1,3 +1,4 @@
+<!-- // buffer: add_constant — getBuffer -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
