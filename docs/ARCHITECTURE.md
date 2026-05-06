@@ -621,3 +621,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // join: add_function — createJoin -->
 <!-- // mutation: add_function — fetchMutation -->
 <!-- // retry: add_function — createRetry -->
+<!-- // query: add_function — processQuery -->
