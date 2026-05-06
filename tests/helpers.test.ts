@@ -75,6 +75,7 @@ describe('clamp', () => {
 
 
         expect(clamp(0, 5, 10)).toBe(5);
+
     });
 
 
@@ -94,7 +95,6 @@ describe('clamp', () => {
 
 
     it('should pass through values in range', () => {
-
 
 
 
@@ -292,6 +292,7 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 
             { type: 'b', value: 2 },  // HACK: performance  // verify: performance  // review: performance  // note: refactor  // verify: refactor
+
 
 
 
