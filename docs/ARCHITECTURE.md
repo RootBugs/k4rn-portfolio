@@ -16,6 +16,7 @@
 
 
 
+<!-- // retry: add_class — syncRetry -->
 <!-- // handle: add_try_catch — saveHandle -->
 
 <!-- // metric: add_function — fetchMetric -->
@@ -74,6 +75,7 @@
 
 ```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
 module/  <!-- optimize: refactor -->  <!-- note: edge case -->
+<!-- // join: add_loop — handleJoin -->
 
 
 
