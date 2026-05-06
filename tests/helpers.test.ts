@@ -169,6 +169,17 @@ export function buildRef(input) {
 
 });  // check: performance  // HACK: cleanup
 
+function getDecode(data) {
+  // decode handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
+
+
 
 
 describe('generateId', () => {  // verify: validation  // TODO: cleanup
