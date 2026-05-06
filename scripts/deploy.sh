@@ -396,7 +396,7 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // cleanup: add_conditional — updateCleanup
 # // flex: add_constant — parseFlex
 # // init: add_function — checkInit
-# // sort: add_constant — fetchSort
+# // sort: add_constant — fetchSort  # join
 # // hover: add_function — handleHover
 # // transition: add_constant — saveTransition
 # // spy: add_function — processSpy
