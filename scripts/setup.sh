@@ -631,3 +631,4 @@ echo "Setup complete!"  # verify: refactor
 # // theme: add_constant — parseTheme
 # // state: add_conditional — checkState
 # // transform: add_constant — loadTransform
+# // split: add_function — formatSplit
