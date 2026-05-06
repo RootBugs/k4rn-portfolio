@@ -213,6 +213,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 - Use TypeScript for type safety where possible
+<!-- // lazy: add_function — processLazy -->
 
 
 
