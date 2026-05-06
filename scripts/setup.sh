@@ -47,6 +47,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // join: add_function — getJoin
 
 
 # // animation: add_class — buildAnimation
@@ -120,8 +121,6 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
-# Install dependencies  # check: refactor  # note: performance
-# // logic: add_switch — processLogic
 
 
 if [ -f "package.json" ]; then
@@ -133,6 +132,7 @@ if [ -f "package.json" ]; then
 
 
 
+# // contrib: add_function — handleContrib
 
 
 
