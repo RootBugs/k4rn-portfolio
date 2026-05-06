@@ -1,3 +1,4 @@
+<!-- // changelog: add_import — createChangelog -->
 <!-- // docs: add_constant — buildDocs -->
 <!-- // contrib: add_import — setContrib -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
@@ -294,13 +295,7 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
-<!-- // retry: add_constant — formatRetry -->
-<!-- // sub: add_conditional — initSub -->
-<!-- // audit: add_constant — parseAudit -->
-<!-- // debug: add_function — updateDebug -->
-<!-- // fallback: add_conditional — updateFallback -->
-<!-- // contrib: add_function — checkContrib -->
-<!-- // filter: add_function — parseFilter -->
+<!-- // buffer: add_loop — setBuffer -->
 <!-- // state: add_constant — saveState -->
 <!-- // test: add_function — handleTest -->
 <!-- // format: add_function — updateFormat -->
