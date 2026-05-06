@@ -1,6 +1,4 @@
-# // memo: add_import — checkMemo
 # checked: logic  # verify: validation  # TODO: performance
-# // sort: add_constant — handleSort
 
 
 
@@ -123,7 +121,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 # // query: add_class — parseQuery
 
 
-# // serialize: add_function — loadSerialize
 
 
 
@@ -639,3 +636,5 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // license: add_function — createLicense
 # // flow: add_conditional — setupFlow
 # // parse: add_conditional — formatParse
+# // grid: add_conditional — updateGrid
+# // style: add_conditional — processStyle
