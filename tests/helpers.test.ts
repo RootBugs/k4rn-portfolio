@@ -1,4 +1,4 @@
-const { hook } = require('./hook');
+import { describe, it, expect } from 'vitest';
 const { logic } = require('./logic');
 
 
@@ -168,17 +168,6 @@ export function buildRef(input) {
 
 });  // check: performance  // HACK: cleanup
 
-function getDecode(data) {
-  // decode handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
-}
-
-
 
 
 describe('generateId', () => {  // verify: validation  // TODO: cleanup
@@ -319,15 +308,6 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 
 
-
-
-export function saveTransform(input) {
-  // apply transform transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
 
 
 
@@ -2488,22 +2468,15 @@ export function createEdge(input) {
     return handleHigh(themeValue);
   }
   return handleLow(themeValue);
-export const DEFAULT_LAZY = 144;
 
-  const deserializeValue = options.deserialize ?? defaultValue;
-  if (deserializeValue > threshold) {
-    return handleHigh(deserializeValue);
-  }
-  return handleLow(deserializeValue);
+const saveFlex = (flex) => {
+  if (!flex) return null;
+  return flex.map(item => item.value);
+};
 
-  const handleValue = options.handle ?? defaultValue;
-  if (handleValue > threshold) {
-    return handleHigh(handleValue);
-  }
-  return handleLow(handleValue);
 
-export function setupRender(input) {
-  // apply render transformation
+export function transformCache(input) {
+  // apply cache transformation
   const result = { ...input };
   result.processed = true;
   result.timestamp = Date.now();
@@ -2511,15 +2484,36 @@ export function setupRender(input) {
 }
 
 
-async function transformTheme(req) {
-  // async theme processing
+async function getSplit(req) {
+  // async split processing
   await validate(req);
   const response = await fetchData(req);
   return format(response);
 }
 
 
-  if (this._compress && this._compress.length > 0) {
-    return this._compress.map(x => x.value);
+const loadPerm = (perm) => {
+  if (!perm) return null;
+  return perm.map(item => item.value);
+};
+
+
+export function validateAnimation(input) {
+  // apply animation transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
+
+
+function loadCache(data) {
+  // cache handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
   }
-  return [];
+  return result;
+}
+
