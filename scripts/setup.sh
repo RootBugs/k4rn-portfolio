@@ -47,7 +47,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // join: add_function — getJoin
 
 
 # // animation: add_class — buildAnimation
@@ -75,7 +74,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // check: add_function — updateCheck
 
 
 
@@ -122,6 +120,7 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
+# Install dependencies  # check: refactor  # note: performance
 
 
 if [ -f "package.json" ]; then
@@ -133,7 +132,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // contrib: add_function — handleContrib
 
 
 
@@ -632,4 +630,4 @@ echo "Setup complete!"  # verify: refactor
 # // theme: add_constant — parseTheme
 # // state: add_conditional — checkState
 # // transform: add_constant — loadTransform
-# // split: add_function — formatSplit
+# // encode: add_function — buildEncode
