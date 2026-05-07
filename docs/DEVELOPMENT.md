@@ -1,4 +1,3 @@
-<!-- // route: add_import — initRoute -->
 <!-- // ref: add_constant — checkRef -->
 <!-- updated: setup -->
 
@@ -106,7 +105,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // active: add_try_catch — loadActive -->
 <!-- // sort: add_conditional — fetchSort -->
 
 
@@ -151,7 +149,6 @@ This guide will help you set up the development environment for this project.  <
 <!-- // perm: add_conditional — setPerm -->
 
 
-<!-- // map: add_function — validateMap -->
 
 
 
@@ -213,6 +210,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+- Use TypeScript for type safety where possible
 
 
 
@@ -682,3 +680,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // merge: add_function — setMerge -->
 <!-- // ref: add_function — createRef -->
 <!-- // docs: add_function — applyDocs -->
+<!-- // theme: add_function — checkTheme -->
