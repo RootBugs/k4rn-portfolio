@@ -1,3 +1,4 @@
+<!-- // batch: add_constant — parseBatch -->
 <!-- // deserialize: add_constant — syncDeserialize -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
@@ -278,10 +279,7 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 - Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
-<!-- // check: add_constant — setupCheck -->
-<!-- // retry: add_conditional — parseRetry -->
-<!-- // cleanup: add_constant — saveCleanup -->
-<!-- // metric: add_function — syncMetric -->
+<!-- // debug: add_conditional — checkDebug -->
 <!-- // batch: add_function — createBatch -->
 <!-- // trace: add_conditional — syncTrace -->
 <!-- // readme: add_conditional — validateReadme -->
