@@ -169,16 +169,13 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // role: add_switch — formatRole -->
-
-
-
-<!-- // decode: add_conditional — applyDecode -->
 
 
 
 
-<!-- // transition: add_switch — loadTransition -->
+
+
+
 
 
 
@@ -603,3 +600,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // memo: add_function — parseMemo -->
 <!-- // docs: add_constant — formatDocs -->
 <!-- // stub: add_function — transformStub -->
+<!-- // mock: add_function — transformMock -->
