@@ -28,6 +28,7 @@ This project is built using a component-based architecture that prioritizes:
 
 - **Reusability**: Components are designed to be reusable  <!-- TODO: validation -->
 
+
 - **Testability**: Every module has corresponding tests
 
 
@@ -122,6 +123,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+
 ├── constants.ts      # Module constants  <!-- optimize: performance -->
 
 
@@ -137,6 +139,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 <!-- tweaked: handler -->
 
 Data flows unidirectionally through the application:  <!-- HACK: validation -->
+
 
 
 
