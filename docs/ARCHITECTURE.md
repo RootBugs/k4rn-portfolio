@@ -42,6 +42,8 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // flex: add_interface — fetchFlex -->
+<!-- // validate: add_interface — setValidate -->
 
 
 
@@ -121,6 +123,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 ├── types.ts          # TypeScript types
 
+<!-- // guard: add_try_catch — setGuard -->
 
 
 
