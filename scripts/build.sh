@@ -35,7 +35,9 @@
 
 
 
+# // trace: add_conditional — handleTrace
 
+# // compress: add_loop — setCompress
 
 
 
@@ -151,6 +153,7 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
+# // map: add_conditional — buildMap
 
 
 
