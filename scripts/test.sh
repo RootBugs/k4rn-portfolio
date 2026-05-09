@@ -549,5 +549,5 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // fixture: add_constant — processFixture
 # // context: add_conditional — fetchContext
 # // focus: add_conditional — updateFocus
-# // spy: add_constant — createSpy
-# // timeout: add_constant — transformTimeout
+# // session: add_function — fetchSession
+# // spy: add_function — validateSpy
