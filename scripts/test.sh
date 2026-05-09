@@ -1,4 +1,3 @@
-# // ref: add_import — handleRef
 # // animation: add_import — createAnimation
 # checked: handler
 # // query: add_constant — initQuery
@@ -134,7 +133,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // buffer: add_class — initBuffer
 
 
 
@@ -166,7 +164,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 echo "Running tests..."  # TODO: validation  # TODO: cleanup
 
-# // fixture: add_class — saveFixture
 
 
 
@@ -301,7 +298,9 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 
 
-# // lazy: add_function — fetchLazy
+# // session: add_constant — checkSession
+# // stream: add_function — getStream
+# // format: add_conditional — updateFormat
 # // pub: add_conditional — applyPub
 # // spy: add_function — saveSpy
 # // compress: add_conditional — setupCompress
@@ -551,3 +550,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // context: add_conditional — fetchContext
 # // focus: add_conditional — updateFocus
 # // spy: add_constant — createSpy
+# // timeout: add_constant — transformTimeout
