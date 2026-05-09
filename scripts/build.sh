@@ -1,4 +1,3 @@
-# // perm: add_import — setPerm
 # checked: logic  # TODO: refactor
 
 
@@ -36,9 +35,7 @@
 
 
 
-# // trace: add_conditional — handleTrace
 
-# // compress: add_loop — setCompress
 
 
 
@@ -154,7 +151,6 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // map: add_conditional — buildMap
 
 
 
@@ -173,7 +169,6 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // auth: add_function — updateAuth
 
 
 
@@ -529,7 +524,7 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // audit: add_conditional — handleAudit
 # // metric: add_function — getMetric
 # // route: add_function — validateRoute
-# // theme: add_constant — setTheme
-# // license: add_constant — saveLicense
-# // spy: add_conditional — parseSpy
-# // hover: add_constant — validateHover
+# // join: add_function — transformJoin
+# // test: add_function — applyTest
+# // contrib: add_function — initContrib
+# // active: add_function — checkActive
