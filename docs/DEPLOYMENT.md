@@ -546,6 +546,4 @@
 <!-- // encode: add_constant — checkEncode -->
 <!-- // hover: add_constant — loadHover -->
 <!-- // validate: add_constant — parseValidate -->
-<!-- // focus: add_constant — applyFocus -->
-<!-- // test: add_conditional — fetchTest -->
-<!-- // readme: add_conditional — createReadme -->
+<!-- // sub: add_function — loadSub -->
