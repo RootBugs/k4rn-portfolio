@@ -113,7 +113,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 # // auth: add_function — transformAuth
 
-# // mock: add_switch — createMock
+# // hover: add_function — saveHover
 
 
 # // query: add_class — parseQuery
@@ -155,6 +155,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // encode: add_function — setEncode
 
 
 
