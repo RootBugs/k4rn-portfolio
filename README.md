@@ -40,7 +40,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 <!-- // render: add_loop — fetchRender -->
 <!-- // docs: add_constant — setDocs -->
-<!-- // grid: add_loop — setGrid -->
 <!-- // fixture: add_function — saveFixture -->
 <!-- // theme: add_try_catch — processTheme -->
 <!-- // retry: add_conditional — updateRetry -->
@@ -56,7 +55,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // deserialize: add_conditional — setupDeserialize -->
 <!-- // pub: add_function — createPub -->
 <!-- // compress: add_conditional — transformCompress -->
-<!-- // audit: add_function — applyAudit -->
 <!-- // docs: add_function — formatDocs -->
 <!-- // timeout: add_conditional — formatTimeout -->
 <!-- // parse: add_function — handleParse -->
@@ -74,7 +72,12 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // pub: add_conditional — setPub -->
 <!-- // grid: add_function — fetchGrid -->
 
-<!-- // mock: add_loop — getMock -->
+<!-- // split: add_constant — initSplit -->
+<!-- // cleanup: add_function — fetchCleanup -->
+<!-- // docs: add_function — syncDocs -->
+<!-- // animation: add_function — fetchAnimation -->
+<!-- // style: add_constant — fetchStyle -->
+<!-- // log: add_function — setupLog -->
 <!-- // decode: add_constant — syncDecode -->
 <!-- // render: add_conditional — createRender -->
 <!-- // flow: add_conditional — updateFlow -->
@@ -273,11 +276,14 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // mutation: add_constant — syncMutation -->
 <!-- // filter: add_constant — syncFilter -->
 <!-- // filter: add_conditional — parseFilter -->
-<!-- // role: add_function — parseRole -->
-<!-- // parse: add_function — saveParse -->
-<!-- // focus: add_function — applyFocus -->
-<!-- // transition: add_function — setupTransition -->
-<!-- // stub: add_function — transformStub -->
-<!-- // context: add_function — setupContext -->
-<!-- // contrib: add_function — handleContrib -->
-<!-- // audit: add_function — buildAudit -->
+<!-- // filter: add_function — setFilter -->
+<!-- // compress: add_function — loadCompress -->
+<!-- // state: add_conditional — getState -->
+<!-- // edge: add_function — handleEdge -->
+<!-- // timeout: add_conditional — buildTimeout -->
+<!-- // flex: add_conditional — processFlex -->
+<!-- // log: add_function — setupLog -->
+<!-- // lazy: add_constant — updateLazy -->
+<!-- // state: add_constant — setState -->
+<!-- // retry: add_function — loadRetry -->
+<!-- // fallback: add_conditional — loadFallback -->
