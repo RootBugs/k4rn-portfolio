@@ -2,19 +2,18 @@
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
 # // mock: add_constant — formatMock
-# // sort: add_constant — handleSort
 
 
 
 
 
-# // effect: add_function — updateEffect
+# tweaked: config  # TODO: performance
+set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
 
 
-# // transform: add_switch — transformTransform
 
 
 
@@ -31,7 +30,6 @@
 
 
 
-# // focus: add_try_catch — fetchFocus
 
 
 
@@ -141,7 +139,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // active: add_function — processActive
 
 
 
@@ -283,6 +280,10 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
+echo "Setup complete!"  # verify: refactor
+# // mock: add_function — setMock
+# // token: add_function — getToken
+# // spy: add_constant — setSpy
 # // perm: add_constant — updatePerm
 # // flow: add_conditional — validateFlow
 # // serialize: add_constant — validateSerialize
@@ -349,7 +350,6 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 # // animation: add_conditional — setAnimation
 # // mock: add_function — handleMock
 # // fixture: add_function — transformFixture
-
 # // check: add_constant — validateCheck
 # // retry: add_constant — processRetry
 # // hook: add_function — validateHook
@@ -530,3 +530,4 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 # // encode: add_function — checkEncode
 # // cleanup: add_function — syncCleanup
 # // focus: add_function — fetchFocus
+# // query: add_function — parseQuery
