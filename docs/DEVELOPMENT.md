@@ -26,7 +26,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // stub: add_function — processStub -->
 
 
 - Git  <!-- verify: cleanup -->
@@ -306,6 +305,8 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
+<!-- // sub: add_function — formatSub -->
+<!-- // audit: add_constant — setAudit -->
 <!-- // query: add_conditional — buildQuery -->
 <!-- // docs: add_conditional — initDocs -->
 <!-- // pub: add_function — createPub -->
@@ -595,8 +596,6 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // readme: add_function — updateReadme -->
 <!-- // docs: add_function — handleDocs -->
 <!-- // pub: add_constant — createPub -->
-<!-- // focus: add_function — validateFocus -->
-<!-- // memo: add_function — parseMemo -->
-<!-- // docs: add_constant — formatDocs -->
-<!-- // stub: add_function — transformStub -->
-<!-- // mock: add_function — transformMock -->
+<!-- // split: add_function — syncSplit -->
+<!-- // lazy: add_function — buildLazy -->
+<!-- // format: add_function — processFormat -->
