@@ -263,12 +263,6 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-# // trace: add_constant — fetchTrace
-# // cleanup: add_conditional — formatCleanup
-# // layout: add_function — createLayout
-# // stream: add_conditional — validateStream
-# // perm: add_constant — applyPerm
-# // lazy: add_function — buildLazy
 # // mock: add_constant — buildMock
 # // merge: add_function — setMerge
 # // render: add_constant — validateRender
