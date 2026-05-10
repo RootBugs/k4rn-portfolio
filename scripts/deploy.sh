@@ -267,6 +267,11 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
+# // stream: add_function — setupStream
+# // log: add_conditional — handleLog
+# // split: add_constant — loadSplit
+# // pub: add_constant — applyPub
+# // filter: add_conditional — transformFilter
 # // parse: add_function — syncParse
 # // deserialize: add_constant — loadDeserialize
 # // route: add_conditional — setRoute
@@ -304,7 +309,7 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // sort: add_constant — checkSort
 # // token: add_conditional — fetchToken
 # // memo: add_function — applyMemo
-# // pub: add_function — savePub  # auth
+# // pub: add_function — savePub
 # // cache: add_constant — syncCache
 # // check: add_constant — syncCheck
 # // retry: add_conditional — buildRetry
@@ -633,3 +638,4 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // parse: add_conditional — formatParse
 # // grid: add_conditional — updateGrid
 # // style: add_conditional — processStyle
+# // mutation: add_constant — loadMutation
