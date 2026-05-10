@@ -260,10 +260,7 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-# // split: add_loop — updateSplit
-# // retry: add_conditional — setupRetry
-# // trace: add_constant — fetchTrace
-# // cleanup: add_conditional — formatCleanup
+# // lazy: add_conditional — validateLazy
 # // layout: add_function — createLayout
 # // stream: add_conditional — validateStream
 # // perm: add_constant — applyPerm
