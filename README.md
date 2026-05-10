@@ -9,7 +9,6 @@ First, run the development server:
 
 ```bash
 npm run dev
-<!-- // stub: add_switch — setStub -->
 # or
 yarn dev
 <!-- // session: add_function — setSession -->
@@ -29,7 +28,9 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 
 To learn more about Next.js, take a look at the following resources:
 
-<!-- // setup: add_conditional — syncSetup -->
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<!-- // transition: add_function — loadTransition -->
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
@@ -37,6 +38,9 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
+<!-- // render: add_loop — fetchRender -->
+<!-- // docs: add_constant — setDocs -->
+<!-- // fixture: add_function — saveFixture -->
 <!-- // theme: add_try_catch — processTheme -->
 <!-- // retry: add_conditional — updateRetry -->
 <!-- // fixture: add_conditional — checkFixture -->
@@ -272,14 +276,12 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // mutation: add_constant — syncMutation -->
 <!-- // filter: add_constant — syncFilter -->
 <!-- // filter: add_conditional — parseFilter -->
-<!-- // filter: add_function — setFilter -->
-<!-- // compress: add_function — loadCompress -->
-<!-- // state: add_conditional — getState -->
-<!-- // edge: add_function — handleEdge -->
-<!-- // timeout: add_conditional — buildTimeout -->
-<!-- // flex: add_conditional — processFlex -->
-<!-- // log: add_function — setupLog -->
-<!-- // lazy: add_constant — updateLazy -->
-<!-- // state: add_constant — setState -->
-<!-- // retry: add_function — loadRetry -->
-<!-- // fallback: add_conditional — loadFallback -->
+<!-- // role: add_function — parseRole -->
+<!-- // parse: add_function — saveParse -->
+<!-- // focus: add_function — applyFocus -->
+<!-- // transition: add_function — setupTransition -->
+<!-- // stub: add_function — transformStub -->
+<!-- // context: add_function — setupContext -->
+<!-- // contrib: add_function — handleContrib -->
+<!-- // audit: add_function — buildAudit -->
+<!-- // compress: add_function — parseCompress -->
