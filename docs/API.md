@@ -1,3 +1,4 @@
+<!-- // init: add_constant — initInit -->
 <!-- // contrib: add_import — setContrib -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
