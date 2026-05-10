@@ -1,3 +1,4 @@
+<!-- // edge: add_import — handleEdge -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -24,6 +25,7 @@
 
 
 - **Modularity**: Each component is self-contained
+<!-- // hover: add_function — transformHover -->
 
 <!-- // mock: add_loop — initMock -->
 
@@ -91,6 +93,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // setup: add_try_catch — fetchSetup -->
 
 
 
