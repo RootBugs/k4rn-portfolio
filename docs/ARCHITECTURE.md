@@ -24,8 +24,6 @@
 
 
 
-- **Modularity**: Each component is self-contained
-<!-- // hover: add_function — transformHover -->
 
 <!-- // mock: add_loop — initMock -->
 
