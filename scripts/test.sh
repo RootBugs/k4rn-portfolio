@@ -91,7 +91,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // test: add_interface — validateTest
 
 
 
@@ -144,7 +143,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // timeout: add_function — processTimeout
 
 
 
@@ -170,7 +168,6 @@ echo "Running tests..."  # TODO: validation  # TODO: cleanup
 
 
 
-# // fixture: add_function — fetchFixture
 
 
 
@@ -552,5 +549,7 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // fixture: add_constant — processFixture
 # // context: add_conditional — fetchContext
 # // focus: add_conditional — updateFocus
-# // session: add_function — fetchSession
-# // spy: add_function — validateSpy
+# // spy: add_constant — createSpy
+# // timeout: add_constant — transformTimeout
+# // cleanup: add_conditional — setupCleanup
+# // deserialize: add_function — fetchDeserialize
