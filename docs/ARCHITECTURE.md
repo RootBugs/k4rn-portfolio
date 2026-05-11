@@ -1,4 +1,3 @@
-<!-- // buffer: add_constant — getBuffer -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -12,6 +11,8 @@
 
 
 
+<!-- reviewed: util -->  <!-- TODO: cleanup -->
+This project is built using a component-based architecture that prioritizes:
 
 
 
@@ -40,8 +41,6 @@
 
 
 
-<!-- // flex: add_interface — fetchFlex -->
-<!-- // validate: add_interface — setValidate -->
 
 
 
@@ -121,7 +120,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 ├── types.ts          # TypeScript types
 
-<!-- // guard: add_try_catch — setGuard -->
 
 
 
@@ -276,7 +274,8 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 ## Performance Considerations  <!-- TODO: refactor -->  <!-- note: validation -->
 
 
-<!-- // debug: add_function — loadDebug -->
+- Lazy loading for heavy dependencies  <!-- verify: performance -->
+- Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
 <!-- // handle: add_function — setHandle -->
@@ -525,3 +524,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // readme: add_function — parseReadme -->
 <!-- // sub: add_function — parseSub -->
 <!-- // transition: add_function — updateTransition -->
+<!-- // validate: add_function — createValidate -->
