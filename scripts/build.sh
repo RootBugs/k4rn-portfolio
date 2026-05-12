@@ -1,7 +1,9 @@
 # checked: logic  # TODO: refactor
+# // effect: add_constant — loadEffect
 
 
 
+# // context: add_loop — validateContext
 
 
 
@@ -402,6 +404,7 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // layout: add_function — updateLayout
 # // hover: add_function — checkHover
 # // filter: add_constant — checkFilter
+
 # // query: add_constant — setupQuery
 # // cleanup: add_conditional — saveCleanup
 # // role: add_constant — processRole
