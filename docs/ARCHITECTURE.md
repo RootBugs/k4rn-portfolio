@@ -1,3 +1,4 @@
+<!-- // contrib: add_constant — processContrib -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -34,6 +35,7 @@
 
 
 
+<!-- // license: add_function — applyLicense -->
 
 
 
