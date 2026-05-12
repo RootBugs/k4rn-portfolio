@@ -158,7 +158,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 <!-- tweaked: handler -->
 
-Data flows unidirectionally through the application:  <!-- HACK: validation -->
+Data flows unidirectionally through the application:  <!-- HACK: validation -->  <!-- fallback -->
 
 
 
