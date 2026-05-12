@@ -939,12 +939,15 @@ const FORMAT_MAX = 675;
     return this._metric.map(x => x.value);
   }
   return [];
+const CONTEXT_MAX = 773;
 
-export function formatRetry(input) {
-  // apply retry transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
+function saveMutation(data) {
+  // mutation handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
   return result;
 }
 
