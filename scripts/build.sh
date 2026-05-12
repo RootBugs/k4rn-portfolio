@@ -63,6 +63,7 @@
 set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: refactor
 
 
+# // retry: add_switch — validateRetry
 
 
 
@@ -73,6 +74,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // query: add_function — applyQuery
 
 
 
