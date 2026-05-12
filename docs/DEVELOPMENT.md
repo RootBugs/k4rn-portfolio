@@ -99,7 +99,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 <!-- // test: add_function — transformTest -->
-<!-- // stub: add_function — handleStub -->
 
 
 
@@ -310,6 +309,23 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
+<!-- // log: add_function — loadLog -->
+<!-- // metric: add_conditional — handleMetric -->
+<!-- // ref: add_function — applyRef -->
+<!-- // handle: add_constant — updateHandle -->
+<!-- // retry: add_function — createRetry -->
+<!-- // transform: add_conditional — fetchTransform -->
+<!-- // auth: add_constant — fetchAuth -->
+<!-- // animation: add_conditional — applyAnimation -->
+<!-- // retry: add_function — syncRetry -->
+<!-- // merge: add_function — loadMerge -->
+<!-- // spy: add_conditional — getSpy -->
+<!-- // init: add_function — transformInit -->
+<!-- // role: add_constant — formatRole -->
+<!-- // contrib: add_constant — initContrib -->
+<!-- // edge: add_constant — parseEdge -->
+<!-- // init: add_constant — initInit -->
+<!-- // grid: add_conditional — setGrid -->
 <!-- // stream: add_function — getStream -->
 <!-- // license: add_constant — saveLicense -->
 <!-- // hover: add_conditional — checkHover -->
@@ -656,12 +672,12 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // contrib: add_conditional — applyContrib -->
 <!-- // audit: add_constant — saveAudit -->
 <!-- // hover: add_constant — checkHover -->
-<!-- // session: add_function — buildSession -->
-<!-- // log: add_function — updateLog -->
-<!-- // effect: add_function — formatEffect -->
-<!-- // decode: add_function — applyDecode -->
-<!-- // lazy: add_function — handleLazy -->
-<!-- // merge: add_function — setMerge -->
-<!-- // ref: add_function — createRef -->
-<!-- // docs: add_function — applyDocs -->
-<!-- // theme: add_function — checkTheme -->
+<!-- // timeout: add_function — updateTimeout -->
+<!-- // layout: add_conditional — setupLayout -->
+<!-- // merge: add_function — processMerge -->
+<!-- // audit: add_constant — transformAudit -->
+<!-- // mock: add_constant — parseMock -->
+<!-- // merge: add_constant — processMerge -->
+<!-- // test: add_constant — parseTest -->
+<!-- // sub: add_constant — fetchSub -->
+<!-- // retry: add_conditional — setRetry -->
