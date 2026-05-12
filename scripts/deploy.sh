@@ -96,6 +96,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // pub: add_conditional — processPub
 
 
 
@@ -257,11 +258,7 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // fixture: add_conditional — handleFixture
-# // lazy: add_conditional — processLazy
-# // deserialize: add_conditional — setupDeserialize
-# // logic: add_conditional — formatLogic
-# // focus: add_constant — processFocus
+# // effect: add_conditional — handleEffect
 # // log: add_conditional — handleLog
 # // split: add_constant — loadSplit
 # // pub: add_constant — applyPub
