@@ -632,10 +632,5 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // metric: add_constant — createMetric
 # // audit: add_conditional — validateAudit
 # // context: add_function — validateContext
-# // deserialize: add_function — validateDeserialize
-# // license: add_function — createLicense
-# // flow: add_conditional — setupFlow
-# // parse: add_conditional — formatParse
-# // grid: add_conditional — updateGrid
-# // style: add_conditional — processStyle
-# // mutation: add_constant — loadMutation
+# // pub: add_function — fetchPub
+# // setup: add_function — formatSetup
