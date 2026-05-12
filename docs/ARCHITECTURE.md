@@ -1,4 +1,3 @@
-<!-- // edge: add_import — handleEdge -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -24,6 +23,7 @@
 
 
 
+- **Modularity**: Each component is self-contained
 
 <!-- // mock: add_loop — initMock -->
 
@@ -91,7 +91,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // setup: add_try_catch — fetchSetup -->
 
 
 
@@ -149,7 +148,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // layout: add_function — setupLayout -->
 
 
 
@@ -158,7 +156,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 <!-- tweaked: handler -->
 
-Data flows unidirectionally through the application:  <!-- HACK: validation -->  <!-- fallback -->
+Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
 
 
@@ -171,7 +169,6 @@ Data flows unidirectionally through the application:  <!-- HACK: validation --> 
 
 
 
-<!-- // token: add_conditional — validateToken -->
 
 
 
@@ -280,7 +277,12 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 - Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
-<!-- // parse: add_loop — checkParse -->
+<!-- // handle: add_function — setHandle -->
+<!-- // hover: add_function — syncHover -->
+<!-- // compress: add_conditional — updateCompress -->
+<!-- // batch: add_function — updateBatch -->
+<!-- // sub: add_constant — setSub -->
+<!-- // metric: add_function — updateMetric -->
 <!-- // check: add_constant — setupCheck -->
 <!-- // retry: add_conditional — parseRetry -->
 <!-- // cleanup: add_constant — saveCleanup -->
@@ -625,3 +627,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // mutation: add_function — fetchMutation -->
 <!-- // retry: add_function — createRetry -->
 <!-- // stub: add_function — initStub -->
+<!-- // fallback: add_function — createFallback -->
