@@ -1,4 +1,3 @@
-<!-- // init: add_constant — initInit -->
 <!-- // contrib: add_import — setContrib -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
@@ -686,3 +685,5 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // license: add_constant — setupLicense -->
 <!-- // context: add_constant — checkContext -->
 <!-- // retry: add_constant — syncRetry -->
+<!-- // mock: add_function — fetchMock -->
+<!-- // token: add_constant — saveToken -->
