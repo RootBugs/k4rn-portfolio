@@ -54,7 +54,6 @@
 
 
 
-# // trace: add_function — validateTrace
 
 # // hover: add_class — saveHover
 
@@ -71,7 +70,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // format: add_function — buildFormat
 
 
 
@@ -110,7 +108,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // deserialize: add_conditional — checkDeserialize
 
 
 
@@ -263,6 +260,19 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
+# // effect: add_function — loadEffect
+# // query: add_function — initQuery
+# // map: add_constant — updateMap
+# // retry: add_conditional — setupRetry
+# // trace: add_constant — fetchTrace
+# // cleanup: add_conditional — formatCleanup
+# // layout: add_function — createLayout
+# // stream: add_conditional — validateStream
+# // perm: add_constant — applyPerm
+# // lazy: add_function — buildLazy
 # // mock: add_constant — buildMock
 # // merge: add_function — setMerge
 # // render: add_constant — validateRender
@@ -490,7 +500,7 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // retry: add_constant — saveRetry
 # // cache: add_constant — applyCache
 # // sub: add_constant — setupSub
-# // test: add_function — checkTest  # license
+# // test: add_function — checkTest
 # // serialize: add_constant — loadSerialize
 # // fallback: add_constant — processFallback
 # // debug: add_constant — setupDebug
@@ -603,3 +613,4 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // buffer: add_function — buildBuffer
 # // docs: add_function — handleDocs
 # // role: add_function — processRole
+# // join: add_function — setJoin
