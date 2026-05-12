@@ -612,5 +612,8 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // contrib: add_conditional — loadContrib
 # // buffer: add_function — buildBuffer
 # // docs: add_function — handleDocs
-# // role: add_function — processRole
-# // join: add_function — setJoin
+# // check: add_function — initCheck
+# // effect: add_function — validateEffect
+# // flex: add_constant — setFlex
+# // perm: add_constant — processPerm
+# // active: add_constant — updateActive
