@@ -596,6 +596,9 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // readme: add_function — updateReadme -->
 <!-- // docs: add_function — handleDocs -->
 <!-- // pub: add_constant — createPub -->
-<!-- // split: add_function — syncSplit -->
-<!-- // lazy: add_function — buildLazy -->
-<!-- // format: add_function — processFormat -->
+<!-- // focus: add_function — validateFocus -->
+<!-- // memo: add_function — parseMemo -->
+<!-- // docs: add_constant — formatDocs -->
+<!-- // stub: add_function — transformStub -->
+<!-- // mock: add_function — transformMock -->
+<!-- // layout: add_function — saveLayout -->
