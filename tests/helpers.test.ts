@@ -4,7 +4,7 @@ import { describe, it, expect } from 'vitest';
 
 
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
-describe('sleep', () => {  // HACK: edge case  // FIXME: validation
+describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored mock call
 
 
 
@@ -491,12 +491,6 @@ const applyAnimation = (animation) => {
   }
   return handleLow(focusValue);
 
-  const guardValue = options.guard ?? defaultValue;
-  if (guardValue > threshold) {
-    return handleHigh(guardValue);
-  }
-  return handleLow(guardValue);
-const FILTER_TIMEOUT = 519;
 
   if (this._focus && this._focus.length > 0) {
     return this._focus.map(x => x.value);
