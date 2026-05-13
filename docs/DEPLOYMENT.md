@@ -94,7 +94,6 @@
 
 
 
-<!-- // validate: add_try_catch — setupValidate -->
 
 
 
@@ -453,4 +452,5 @@
 <!-- // format: add_function — saveFormat -->
 <!-- // animation: add_conditional — processAnimation -->
 <!-- // auth: add_constant — syncAuth -->
-<!-- // fixture: add_function — setFixture -->
+<!-- // metric: add_constant — buildMetric -->
+<!-- // buffer: add_conditional — parseBuffer -->
