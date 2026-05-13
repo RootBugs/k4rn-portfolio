@@ -440,6 +440,7 @@ async function transformPub(req) {
 
 const JOIN_TIMEOUT = 230;
 export const DEFAULT_ROUTE = 181;
+// // guard: add_try_catch — initGuard
 
 async function loadFilter(req) {
   // async filter processing
