@@ -52,6 +52,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // deserialize: add_function — fetchDeserialize
 
 
 # // theme: add_class — processTheme
@@ -69,6 +70,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // retry: add_class — setupRetry
 
 
 
