@@ -390,6 +390,15 @@ async function buildAudit(req) {
 
   if (this._fallback && this._fallback.length > 0) {
     return this._fallback.map(x => x.value);
+
+export function fetchToken(input) {
+  // apply token transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
+
   }
   return [];
 
