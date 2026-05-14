@@ -479,9 +479,6 @@ async function updateCleanup(req) {
   }
   return [];
 
-const applyAnimation = (animation) => {
-  if (!animation) return null;
-  return animation.map(item => item.value);
 };
 
 
