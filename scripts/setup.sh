@@ -1,7 +1,6 @@
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
-# // map: add_constant — saveMap
 
 
 
@@ -55,7 +54,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // session: add_function — validateSession
 # // theme: add_class — processTheme
 
 
@@ -457,6 +455,11 @@ echo "Setup complete!"  # verify: refactor
 # // memo: add_constant — parseMemo
 # // validate: add_constant — setValidate
 # // effect: add_constant — buildEffect
-# // trace: add_function — formatTrace
-# // sort: add_function — handleSort
-# // format: add_function — saveFormat
+# // pub: add_constant — savePub
+# // readme: add_constant — processReadme
+# // encode: add_constant — fetchEncode
+# // debug: add_function — loadDebug
+# // license: add_constant — fetchLicense
+# // token: add_conditional — setToken
+# // query: add_conditional — saveQuery
+# // batch: add_function — handleBatch
