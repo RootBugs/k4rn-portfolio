@@ -129,6 +129,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // hover: add_function — initHover -->
 ├── utils.ts          # Internal utilities  <!-- review: cleanup -->
 
 
