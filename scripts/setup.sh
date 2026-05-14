@@ -1,6 +1,7 @@
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
+# // map: add_constant — saveMap
 
 
 
@@ -54,6 +55,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // session: add_function — validateSession
 # // theme: add_class — processTheme
 
 
