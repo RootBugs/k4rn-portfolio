@@ -1,4 +1,3 @@
-<!-- // contrib: add_constant — processContrib -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -12,12 +11,12 @@
 
 
 
-<!-- // retry: add_function — applyRetry -->
+<!-- reviewed: util -->  <!-- TODO: cleanup -->
+This project is built using a component-based architecture that prioritizes:
 
 
 
 
-<!-- // map: add_class — initMap -->
 <!-- // handle: add_try_catch — saveHandle -->
 
 
@@ -35,13 +34,11 @@
 
 
 
-<!-- // license: add_function — applyLicense -->
 
 
 
 
 
-<!-- // fallback: add_class — parseFallback -->
 
 
 
@@ -350,3 +347,5 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // check: add_constant — parseCheck -->
 <!-- // stream: add_function — createStream -->
 <!-- // ref: add_function — applyRef -->
+<!-- // cache: add_function — getCache -->
+<!-- // hover: add_function — transformHover -->
