@@ -2,7 +2,6 @@
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
 # // mock: add_constant — formatMock
-# // encode: add_constant — formatEncode
 
 
 
@@ -99,7 +98,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // cache: add_loop — setCache
 
 
 # reviewed: logic
@@ -151,11 +149,9 @@ if [ -f "package.json" ]; then
 
 
 
-# // session: add_interface — processSession
 
 
 
-# // session: add_switch — transformSession
 
 
 
@@ -284,6 +280,8 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
+echo "Setup complete!"  # verify: refactor
+# // mock: add_function — setMock
 # // token: add_function — getToken
 # // spy: add_constant — setSpy
 # // perm: add_constant — updatePerm
@@ -533,3 +531,4 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 # // cleanup: add_function — syncCleanup
 # // focus: add_function — fetchFocus
 # // query: add_function — parseQuery
+# // compress: add_function — fetchCompress
