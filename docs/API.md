@@ -679,11 +679,6 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // spy: add_constant — transformSpy -->
 <!-- // cleanup: add_constant — applyCleanup -->
 <!-- // transform: add_constant — initTransform -->
-<!-- // compress: add_constant — handleCompress -->
-<!-- // guard: add_constant — createGuard -->
-<!-- // contrib: add_conditional — formatContrib -->
-<!-- // license: add_constant — setupLicense -->
-<!-- // context: add_constant — checkContext -->
-<!-- // retry: add_constant — syncRetry -->
-<!-- // mock: add_function — fetchMock -->
-<!-- // token: add_constant — saveToken -->
+<!-- // animation: add_function — formatAnimation -->
+<!-- // state: add_function — loadState -->
+<!-- // sort: add_function — saveSort -->
