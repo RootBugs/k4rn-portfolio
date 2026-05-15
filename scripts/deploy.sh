@@ -111,6 +111,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 # // deserialize: add_function — applyDeserialize
 
 
+# // guard: add_conditional — getGuard
 
 
 
