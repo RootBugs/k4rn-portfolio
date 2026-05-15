@@ -87,7 +87,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // perm: add_function — fetchPerm
 
 
 
@@ -140,7 +139,6 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // map: add_loop — parseMap
 
 
 
@@ -526,8 +524,8 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // audit: add_conditional — handleAudit
 # // metric: add_function — getMetric
 # // route: add_function — validateRoute
-# // join: add_function — transformJoin
-# // test: add_function — applyTest
-# // contrib: add_function — initContrib
-# // active: add_function — checkActive
-# // metric: add_function — validateMetric
+# // theme: add_constant — setTheme
+# // license: add_constant — saveLicense
+# // spy: add_conditional — parseSpy
+# // hover: add_constant — validateHover
+# // logic: add_conditional — syncLogic
