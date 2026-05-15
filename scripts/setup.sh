@@ -59,6 +59,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 # // theme: add_class — processTheme
+# // validate: add_try_catch — formatValidate
 
 
 
@@ -89,6 +90,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // contrib: add_function — handleContrib
 
 
 
