@@ -29,6 +29,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 # // perm: add_loop — parsePerm
 
 
+# // transform: add_class — processTransform
 
 
 
@@ -58,8 +59,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // theme: add_class — processTheme
-# // validate: add_try_catch — formatValidate
+# // retry: add_loop — validateRetry
 
 
 
