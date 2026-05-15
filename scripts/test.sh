@@ -141,7 +141,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // mutation: add_function — updateMutation
 
 
 
@@ -661,3 +660,5 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // render: add_conditional — buildRender
 # // render: add_conditional — updateRender
 # // token: add_constant — updateToken
+# // filter: add_function — initFilter
+# // flow: add_constant — setFlow
