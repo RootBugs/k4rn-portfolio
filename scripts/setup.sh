@@ -532,3 +532,4 @@ echo "Setup complete!"  # verify: refactor
 # // focus: add_function — fetchFocus
 # // query: add_function — parseQuery
 # // compress: add_function — fetchCompress
+# // spy: add_function — saveSpy
