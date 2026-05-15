@@ -1,7 +1,6 @@
 # // animation: add_import — createAnimation
 # checked: handler
 # // query: add_constant — initQuery
-# // style: add_constant — updateStyle
 
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
@@ -554,3 +553,5 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // timeout: add_constant — transformTimeout
 # // cleanup: add_conditional — setupCleanup
 # // deserialize: add_function — fetchDeserialize
+# // active: add_constant — processActive
+# // hook: add_conditional — initHook
