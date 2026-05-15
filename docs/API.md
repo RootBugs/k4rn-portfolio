@@ -1,3 +1,4 @@
+<!-- // hover: add_constant — processHover -->
 <!-- // contrib: add_import — setContrib -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
@@ -106,6 +107,7 @@
 
 
 
+<!-- // route: add_class — getRoute -->
 
 
 
@@ -165,6 +167,7 @@
 
 
 
+<!-- // spy: add_function — handleSpy -->
 
 
 
