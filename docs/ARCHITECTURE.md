@@ -623,8 +623,7 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // transition: add_constant — updateTransition -->
 <!-- // state: add_conditional — updateState -->
 <!-- // map: add_function — handleMap -->
-<!-- // join: add_function — createJoin -->
-<!-- // mutation: add_function — fetchMutation -->
-<!-- // retry: add_function — createRetry -->
-<!-- // stub: add_function — initStub -->
-<!-- // fallback: add_function — createFallback -->
+<!-- // flow: add_function — handleFlow -->
+<!-- // pub: add_constant — applyPub -->
+<!-- // buffer: add_function — applyBuffer -->
+<!-- // format: add_constant — fetchFormat -->
