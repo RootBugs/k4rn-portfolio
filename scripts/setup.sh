@@ -19,7 +19,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // docs: add_class — applyDocs
 
 
 
@@ -29,7 +28,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 # // perm: add_loop — parsePerm
 
 
-# // transform: add_class — processTransform
 
 
 
@@ -59,7 +57,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // retry: add_loop — validateRetry
+# // theme: add_class — processTheme
 
 
 
@@ -90,7 +88,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // contrib: add_function — handleContrib
 
 
 
@@ -103,6 +100,8 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# reviewed: logic
+command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
@@ -135,7 +134,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // route: add_interface — transformRoute
 
 # // query: add_class — initQuery
 
@@ -188,7 +186,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // sort: add_conditional — parseSort
 
 
 
@@ -634,3 +631,4 @@ echo "Setup complete!"  # verify: refactor
 # // state: add_conditional — checkState
 # // transform: add_constant — loadTransform
 # // encode: add_function — buildEncode
+# // effect: add_function — setEffect
