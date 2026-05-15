@@ -1,7 +1,6 @@
 # // animation: add_import — createAnimation
 # checked: handler
 # // query: add_constant — initQuery
-# // role: add_constant — syncRole
 
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
@@ -655,7 +654,9 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // token: add_constant — loadToken
 # // handle: add_function — getHandle
 # // license: add_function — buildLicense
-# // changelog: add_function — buildChangelog
-# // decode: add_function — applyDecode
-# // validate: add_function — applyValidate
-# // serialize: add_function — processSerialize
+# // serialize: add_conditional — parseSerialize
+# // mock: add_constant — createMock
+# // debug: add_conditional — formatDebug
+# // render: add_conditional — buildRender
+# // render: add_conditional — updateRender
+# // token: add_constant — updateToken
