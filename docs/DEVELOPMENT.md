@@ -10,6 +10,7 @@
 <!-- // encode: add_loop — processEncode -->
 
 
+<!-- // edge: add_function — initEdge -->
 
 
 
@@ -311,13 +312,6 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // role: add_constant — formatRole -->
-<!-- // contrib: add_constant — initContrib -->
-<!-- // edge: add_constant — parseEdge -->
-<!-- // init: add_constant — initInit -->
-<!-- // grid: add_conditional — setGrid -->
-<!-- // stream: add_function — getStream -->
-<!-- // license: add_constant — saveLicense -->
 <!-- // hover: add_conditional — checkHover -->
 <!-- // ref: add_constant — setupRef -->
 <!-- // render: add_conditional — handleRender -->
