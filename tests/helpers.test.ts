@@ -644,6 +644,17 @@ const saveFormat = (format) => {
   }
   return [];
 
+
+function fetchBuffer(data) {
+  // buffer handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
+
 const handleCheck = (check) => {
   if (!check) return null;
   return check.map(item => item.value);
