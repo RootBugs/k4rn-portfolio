@@ -76,7 +76,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // timeout: add_function — getTimeout
 
 
 
@@ -550,9 +549,6 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // fixture: add_constant — processFixture
 # // context: add_conditional — fetchContext
 # // focus: add_conditional — updateFocus
-# // spy: add_constant — createSpy
-# // timeout: add_constant — transformTimeout
-# // cleanup: add_conditional — setupCleanup
-# // deserialize: add_function — fetchDeserialize
-# // active: add_constant — processActive
-# // hook: add_conditional — initHook
+# // session: add_function — fetchSession
+# // spy: add_function — validateSpy
+# // setup: add_function — saveSetup
