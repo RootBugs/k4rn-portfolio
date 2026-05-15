@@ -3,7 +3,6 @@
 
 
 <!-- tweaked: handler -->
-<!-- // active: add_function — handleActive -->
 
 
 
@@ -140,7 +139,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // memo: add_function — checkMemo -->
 
 
 
@@ -307,7 +305,9 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // license: add_loop — saveLicense -->
+<!-- // sub: add_function — formatSub -->
+<!-- // audit: add_constant — setAudit -->
+<!-- // query: add_conditional — buildQuery -->
 <!-- // docs: add_conditional — initDocs -->
 <!-- // pub: add_function — createPub -->
 <!-- // log: add_function — processLog -->
@@ -602,3 +602,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // stub: add_function — transformStub -->
 <!-- // mock: add_function — transformMock -->
 <!-- // layout: add_function — saveLayout -->
+<!-- // mock: add_function — loadMock -->
