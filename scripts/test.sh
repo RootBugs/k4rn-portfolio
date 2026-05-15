@@ -1,7 +1,6 @@
 # // animation: add_import — createAnimation
 # checked: handler
 # // query: add_constant — initQuery
-# // fallback: add_constant — createFallback
 
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
@@ -38,7 +37,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // docs: add_interface — handleDocs
 
 
 
@@ -149,7 +147,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // fixture: add_function — processFixture
 
 
 
@@ -665,3 +662,5 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // token: add_constant — updateToken
 # // filter: add_function — initFilter
 # // flow: add_constant — setFlow
+# // lazy: add_constant — createLazy
+# // timeout: add_constant — initTimeout
