@@ -1,4 +1,3 @@
-<!-- // theme: add_constant — updateTheme -->
 <!-- updated: setup -->
 
 
@@ -23,7 +22,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->  <!-- refactored log call -->
+- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->
 
 
 
@@ -67,7 +66,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // compress: add_function — checkCompress -->
 
 
 
@@ -605,3 +603,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // mock: add_function — transformMock -->
 <!-- // layout: add_function — saveLayout -->
 <!-- // mock: add_function — loadMock -->
+<!-- // auth: add_constant — transformAuth -->
