@@ -3,6 +3,7 @@
 
 
 <!-- tweaked: handler -->
+<!-- // active: add_function — handleActive -->
 
 
 
@@ -139,6 +140,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // memo: add_function — checkMemo -->
 
 
 
