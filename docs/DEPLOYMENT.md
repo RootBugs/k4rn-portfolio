@@ -546,8 +546,5 @@
 <!-- // encode: add_constant — checkEncode -->
 <!-- // hover: add_constant — loadHover -->
 <!-- // validate: add_constant — parseValidate -->
-<!-- // focus: add_constant — applyFocus -->
-<!-- // test: add_conditional — fetchTest -->
-<!-- // readme: add_conditional — createReadme -->
-<!-- // merge: add_conditional — handleMerge -->
-<!-- // parse: add_constant — processParse -->
+<!-- // sub: add_function — loadSub -->
+<!-- // role: add_function — getRole -->
