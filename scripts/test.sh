@@ -1,3 +1,4 @@
+# // logic: add_import — loadLogic
 # checked: handler
 # // query: add_constant — initQuery
 
@@ -298,8 +299,6 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 
 
-# // focus: add_loop — saveFocus
-# // format: add_conditional — updateFormat
 # // pub: add_conditional — applyPub
 # // spy: add_function — saveSpy
 # // compress: add_conditional — setupCompress
