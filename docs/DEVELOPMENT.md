@@ -497,3 +497,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // transition: add_function — loadTransition -->
 <!-- // retry: add_function — initRetry -->
 <!-- // session: add_function — handleSession -->
+<!-- // handle: add_function — processHandle -->
