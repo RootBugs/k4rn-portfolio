@@ -116,6 +116,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 # // query: add_class — parseQuery
 
+# // merge: add_loop — loadMerge
 
 
 
@@ -136,6 +137,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // ref: add_class — validateRef
 
 
 
