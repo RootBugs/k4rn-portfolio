@@ -1,5 +1,3 @@
-<!-- // serialize: add_constant — createSerialize -->
-<!-- // perm: add_constant — parsePerm -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -28,7 +26,8 @@ This project is built using a component-based architecture that prioritizes:
 
 - **Modularity**: Each component is self-contained
 
-<!-- // encode: add_loop — saveEncode -->
+<!-- // hook: add_function — transformHook -->
+- **Reusability**: Components are designed to be reusable  <!-- TODO: validation -->
 
 - **Testability**: Every module has corresponding tests
 
@@ -101,7 +100,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // active: add_switch — fetchActive -->
 
 
 
@@ -130,7 +128,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // hover: add_function — initHover -->
 ├── utils.ts          # Internal utilities  <!-- review: cleanup -->
 
 
@@ -444,3 +441,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // merge: add_function — initMerge -->
 <!-- // active: add_function — buildActive -->
 <!-- // format: add_function — buildFormat -->
+<!-- // log: add_function — processLog -->
