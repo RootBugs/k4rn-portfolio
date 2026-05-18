@@ -54,6 +54,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // state: add_class — applyState
 # // lazy: add_function — processLazy
 
 
@@ -117,6 +118,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // readme: add_function — parseReadme
 # // setup: add_loop — initSetup
 
 
