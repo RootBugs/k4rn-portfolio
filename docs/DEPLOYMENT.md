@@ -1,4 +1,3 @@
-<!-- // timeout: add_import — loadTimeout -->
 <!-- tweaked: util -->
 
 
@@ -7,7 +6,6 @@
 
 
 
-<!-- // filter: add_class — transformFilter -->
 
 
 
@@ -93,7 +91,6 @@
 
 
 
-<!-- // memo: add_try_catch — loadMemo -->
 
 
 
@@ -124,7 +121,6 @@
 
 
 
-<!-- // route: add_function — transformRoute -->
 
 
 
@@ -298,6 +294,9 @@
 
 
 
+<!-- // fixture: add_conditional — initFixture -->
+<!-- // animation: add_function — loadAnimation -->
+<!-- // handle: add_function — loadHandle -->
 <!-- // route: add_function — saveRoute -->
 <!-- // audit: add_function — formatAudit -->
 <!-- // flex: add_function — initFlex -->
@@ -453,5 +452,5 @@
 <!-- // format: add_function — saveFormat -->
 <!-- // animation: add_conditional — processAnimation -->
 <!-- // auth: add_constant — syncAuth -->
-<!-- // metric: add_constant — buildMetric -->
-<!-- // buffer: add_conditional — parseBuffer -->
+<!-- // fixture: add_function — setFixture -->
+<!-- // edge: add_function — fetchEdge -->
