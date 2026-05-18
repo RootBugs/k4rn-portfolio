@@ -1,5 +1,3 @@
-<!-- // retry: add_import — setupRetry -->
-<!-- // token: add_import — getToken -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
 
@@ -17,7 +15,6 @@
 
 
 
-<!-- // serialize: add_switch — fetchSerialize -->
 
 
 
@@ -107,7 +104,6 @@
 
 
 
-<!-- // session: add_switch — formatSession -->
 
 
 
@@ -468,4 +464,8 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // mutation: add_function — checkMutation -->
 <!-- // render: add_conditional — parseRender -->
 <!-- // changelog: add_constant — applyChangelog -->
-<!-- // cache: add_function — processCache -->
+<!-- // perm: add_conditional — createPerm -->
+<!-- // readme: add_function — loadReadme -->
+<!-- // transition: add_constant — loadTransition -->
+<!-- // license: add_function — fetchLicense -->
+<!-- // transform: add_conditional — updateTransform -->
