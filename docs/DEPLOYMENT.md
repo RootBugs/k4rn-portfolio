@@ -72,6 +72,7 @@
 <!-- tweaked: logic -->  <!-- optimize: refactor -->  <!-- review: validation -->  <!-- FIXME: edge case -->  <!-- review: refactor -->  <!-- FIXME: performance -->
 
 
+<!-- // auth: add_conditional — setupAuth -->
 
 
 
@@ -294,10 +295,7 @@
 
 
 
-<!-- // fixture: add_conditional — initFixture -->
-<!-- // animation: add_function — loadAnimation -->
-<!-- // handle: add_function — loadHandle -->
-<!-- // route: add_function — saveRoute -->
+<!-- // timeout: add_loop — setupTimeout -->
 <!-- // audit: add_function — formatAudit -->
 <!-- // flex: add_function — initFlex -->
 <!-- // test: add_constant — initTest -->
