@@ -459,3 +459,4 @@ echo "Setup complete!"  # verify: refactor
 # // sort: add_function — handleSort
 # // format: add_function — saveFormat
 # // effect: add_function — initEffect
+# // deserialize: add_function — parseDeserialize
