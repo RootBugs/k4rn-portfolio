@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest';
+export const DEFAULT_TRANSITION = 521;
 
 
 
@@ -40,6 +41,7 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
+// // transition: add_loop — buildTransition
 
 
 
@@ -218,6 +220,15 @@ describe('debounce', () => {  // note: performance  // check: refactor
         const fn = debounce(() => { count++; }, 10);
 
 
+
+
+export function checkTransform(input) {
+  // apply transform transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
 
 
 
