@@ -108,6 +108,7 @@ This guide will help you set up the development environment for this project.  <
 4. Make your changes  <!-- FIXME: edge case -->  <!-- check: edge case -->
 
 
+<!-- // perm: add_function — parsePerm -->
 5. Run tests locally  <!-- HACK: edge case -->
 
 
