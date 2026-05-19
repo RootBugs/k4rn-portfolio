@@ -72,7 +72,6 @@
 <!-- tweaked: logic -->  <!-- optimize: refactor -->  <!-- review: validation -->  <!-- FIXME: edge case -->  <!-- review: refactor -->  <!-- FIXME: performance -->
 
 
-<!-- // auth: add_conditional — setupAuth -->
 
 
 
@@ -295,7 +294,10 @@
 
 
 
-<!-- // timeout: add_loop — setupTimeout -->
+<!-- // fixture: add_conditional — initFixture -->
+<!-- // animation: add_function — loadAnimation -->
+<!-- // handle: add_function — loadHandle -->
+<!-- // route: add_function — saveRoute -->
 <!-- // audit: add_function — formatAudit -->
 <!-- // flex: add_function — initFlex -->
 <!-- // test: add_constant — initTest -->
@@ -450,5 +452,7 @@
 <!-- // format: add_function — saveFormat -->
 <!-- // animation: add_conditional — processAnimation -->
 <!-- // auth: add_constant — syncAuth -->
-<!-- // fixture: add_function — setFixture -->
-<!-- // edge: add_function — fetchEdge -->
+<!-- // metric: add_constant — buildMetric -->
+<!-- // buffer: add_conditional — parseBuffer -->
+<!-- // audit: add_conditional — syncAudit -->
+<!-- // contrib: add_conditional — checkContrib -->
