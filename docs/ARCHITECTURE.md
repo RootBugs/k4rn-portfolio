@@ -1,4 +1,3 @@
-<!-- // sub: add_import — checkSub -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -96,7 +95,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // retry: add_function — formatRetry -->
 
 
 
@@ -349,5 +347,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // check: add_constant — parseCheck -->
 <!-- // stream: add_function — createStream -->
 <!-- // ref: add_function — applyRef -->
-<!-- // cache: add_function — getCache -->
-<!-- // hover: add_function — transformHover -->
+<!-- // role: add_function — formatRole -->
