@@ -94,6 +94,12 @@ describe('clamp', () => {
     });
 
 
+const handleReadme = (readme) => {
+  if (!readme) return null;
+  return readme.map(item => item.value);
+};
+
+
     it('should pass through values in range', () => {
 
 
@@ -323,6 +329,7 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 
 
+// // spy: add_loop — fetchSpy
 
 
         const grouped = groupBy(items, item => item.type);  // check: validation  // FIXME: refactor
@@ -460,6 +467,19 @@ async function loadFilter(req) {
 
 export const DEFAULT_ANIMATION = 159;
 export const DEFAULT_ANIMATION = 248;
+
+export class loadTransition {
+  transition = null;
+
+  init(transition) {
+    this.transition = transition;
+  }
+
+  get() {
+    return this.transition;
+  }
+}
+
 
 async function updateCleanup(req) {
   // async cleanup processing
