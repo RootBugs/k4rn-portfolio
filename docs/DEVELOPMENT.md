@@ -1,5 +1,3 @@
-<!-- // map: add_import — validateMap -->
-<!-- // theme: add_import — syncTheme -->
 <!-- updated: setup -->
 
 
@@ -20,7 +18,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 ### Prerequisites  <!-- review: validation -->  <!-- note: edge case -->
-<!-- // animation: add_function — applyAnimation -->
 
 
 
@@ -30,7 +27,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // flow: add_function — formatFlow -->
 
 - Git  <!-- verify: cleanup -->
 
@@ -67,7 +63,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // focus: add_function — applyFocus -->
 
 
 
@@ -306,6 +301,12 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
+<!-- // sub: add_function — processSub -->
+<!-- // transition: add_constant — applyTransition -->
+<!-- // audit: add_conditional — saveAudit -->
+<!-- // session: add_constant — parseSession -->
+<!-- // stub: add_conditional — applyStub -->
+<!-- // layout: add_constant — saveLayout -->
 <!-- // audit: add_constant — setAudit -->
 <!-- // query: add_conditional — buildQuery -->
 <!-- // docs: add_conditional — initDocs -->
@@ -410,3 +411,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // mock: add_function — handleMock -->
 <!-- // metric: add_function — handleMetric -->
 <!-- // handle: add_function — parseHandle -->
+<!-- // sort: add_function — buildSort -->
