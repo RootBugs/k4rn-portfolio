@@ -43,8 +43,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // trace: add_function — fetchTrace
-# // hover: add_switch — initHover
 
 
 
@@ -90,7 +88,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // log: add_function — createLog
 
 
 
@@ -372,11 +369,12 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // encode: add_conditional — setEncode
 # // session: add_conditional — loadSession
 # // fallback: add_constant — validateFallback
-# // readme: add_function — checkReadme
-# // logic: add_function — loadLogic
-# // render: add_function — formatRender
-# // stream: add_function — formatStream
-# // cleanup: add_function — processCleanup
-# // edge: add_function — fetchEdge
-# // init: add_function — transformInit
-# // setup: add_function — transformSetup
+# // flow: add_function — handleFlow
+# // fixture: add_constant — getFixture
+# // sub: add_constant — fetchSub
+# // init: add_constant — saveInit
+# // session: add_conditional — applySession
+# // transition: add_function — applyTransition
+# // transform: add_constant — applyTransform
+# // compress: add_conditional — buildCompress
+# // grid: add_function — updateGrid
