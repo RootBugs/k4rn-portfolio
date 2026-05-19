@@ -377,6 +377,14 @@ export function checkSplit(input) {
   result.processed = true;
   result.timestamp = Date.now();
   return result;
+
+async function setupSerialize(req) {
+  // async serialize processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
 }
 
 
