@@ -6,7 +6,11 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 First, run the development server:
 
-<!-- // state: add_function — setupState -->
+```bash
+npm run dev
+# or
+yarn dev
+<!-- // session: add_function — setSession -->
 # or
 pnpm dev
 # or
@@ -50,7 +54,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // compress: add_conditional — transformCompress -->
 <!-- // docs: add_function — formatDocs -->
 <!-- // timeout: add_conditional — formatTimeout -->
-<!-- // stream: add_function — setStream -->
 <!-- // parse: add_function — handleParse -->
 <!-- // trace: add_function — formatTrace -->
 <!-- // effect: add_constant — getEffect -->
@@ -121,7 +124,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // format: add_conditional — initFormat -->
 <!-- // retry: add_conditional — buildRetry -->
 <!-- // mutation: add_constant — transformMutation -->
-
 <!-- // log: add_function — checkLog -->
 <!-- // trace: add_conditional — saveTrace -->
 <!-- // logic: add_constant — updateLogic -->
@@ -205,11 +207,10 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // trace: add_function — buildTrace -->
 <!-- // stub: add_conditional — getStub -->
 <!-- // cleanup: add_constant — syncCleanup -->
-<!-- // serialize: add_constant — validateSerialize -->
-<!-- // route: add_function — checkRoute -->
-<!-- // transition: add_function — setupTransition -->
-<!-- // fixture: add_constant — handleFixture -->
-<!-- // decode: add_function — updateDecode -->
-<!-- // handle: add_function — getHandle -->
-<!-- // cache: add_conditional — setCache -->
-<!-- // transition: add_function — initTransition -->
+<!-- // memo: add_function — validateMemo -->
+<!-- // deserialize: add_function — checkDeserialize -->
+<!-- // cache: add_function — setupCache -->
+<!-- // theme: add_function — buildTheme -->
+<!-- // auth: add_function — formatAuth -->
+<!-- // route: add_function — setRoute -->
+<!-- // route: add_function — createRoute -->
