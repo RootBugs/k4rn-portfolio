@@ -6,11 +6,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-<!-- // session: add_function — setSession -->
+<!-- // state: add_function — setupState -->
 # or
 pnpm dev
 # or
@@ -54,6 +50,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // compress: add_conditional — transformCompress -->
 <!-- // docs: add_function — formatDocs -->
 <!-- // timeout: add_conditional — formatTimeout -->
+<!-- // stream: add_function — setStream -->
 <!-- // parse: add_function — handleParse -->
 <!-- // trace: add_function — formatTrace -->
 <!-- // effect: add_constant — getEffect -->
@@ -124,6 +121,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // format: add_conditional — initFormat -->
 <!-- // retry: add_conditional — buildRetry -->
 <!-- // mutation: add_constant — transformMutation -->
+
 <!-- // log: add_function — checkLog -->
 <!-- // trace: add_conditional — saveTrace -->
 <!-- // logic: add_constant — updateLogic -->
