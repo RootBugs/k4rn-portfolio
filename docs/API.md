@@ -99,10 +99,12 @@
 
 <!-- revised: logic -->  <!-- note: edge case -->  <!-- verify: validation -->  <!-- note: performance -->  <!-- check: refactor -->
 
+<!-- // guard: add_function — applyGuard -->
 
 
 
 
+<!-- // theme: add_loop — handleTheme -->
 
 
 
