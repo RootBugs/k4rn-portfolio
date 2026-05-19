@@ -321,3 +321,4 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // parse: add_function — fetchParse
 # // docs: add_function — getDocs
 # // guard: add_function — fetchGuard
+# // log: add_function — applyLog
