@@ -105,6 +105,7 @@
 
 
 <!-- // theme: add_loop — handleTheme -->
+<!-- // docs: add_try_catch — buildDocs -->
 
 
 
