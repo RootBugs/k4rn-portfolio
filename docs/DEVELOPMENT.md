@@ -1,3 +1,4 @@
+<!-- // query: add_import — checkQuery -->
 <!-- updated: setup -->
 
 
@@ -27,6 +28,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // context: add_function — setContext -->
 
 - Git  <!-- verify: cleanup -->
 
@@ -97,6 +99,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // query: add_function — handleQuery -->
 
 
 
