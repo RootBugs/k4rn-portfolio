@@ -23,6 +23,7 @@
 
 
 set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge case
+# // role: add_try_catch — applyRole
 
 
 
