@@ -1,5 +1,3 @@
-<!-- // logic: add_import — loadLogic -->
-<!-- // query: add_import — checkQuery -->
 <!-- updated: setup -->
 
 
@@ -24,12 +22,11 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored auth call -->
+- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->
 
 
 
 
-<!-- // context: add_function — setContext -->
 
 - Git  <!-- verify: cleanup -->
 
@@ -47,7 +44,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // sub: add_class — setSub -->
 
 
 - Package manager (npm/yarn/pnpm)
@@ -101,7 +97,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // query: add_function — handleQuery -->
 
 
 
@@ -306,7 +301,13 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // transform: add_conditional — createTransform -->
+<!-- // sub: add_function — processSub -->
+<!-- // transition: add_constant — applyTransition -->
+<!-- // audit: add_conditional — saveAudit -->
+<!-- // session: add_constant — parseSession -->
+<!-- // stub: add_conditional — applyStub -->
+<!-- // layout: add_constant — saveLayout -->
+<!-- // audit: add_constant — setAudit -->
 <!-- // query: add_conditional — buildQuery -->
 <!-- // docs: add_conditional — initDocs -->
 <!-- // pub: add_function — createPub -->
@@ -407,7 +408,11 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // merge: add_conditional — saveMerge -->
 <!-- // mutation: add_constant — loadMutation -->
 <!-- // layout: add_conditional — syncLayout -->
-<!-- // mock: add_function — handleMock -->
-<!-- // metric: add_function — handleMetric -->
-<!-- // handle: add_function — parseHandle -->
-<!-- // sort: add_function — buildSort -->
+<!-- // contrib: add_conditional — checkContrib -->
+<!-- // auth: add_function — saveAuth -->
+<!-- // merge: add_conditional — getMerge -->
+<!-- // sub: add_function — handleSub -->
+<!-- // license: add_constant — setupLicense -->
+<!-- // memo: add_function — checkMemo -->
+<!-- // merge: add_conditional — checkMerge -->
+<!-- // transition: add_conditional — setTransition -->
