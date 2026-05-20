@@ -1,3 +1,4 @@
+# // contrib: add_import — setContrib
 # reviewed: handler  # optimize: edge case
 
 
@@ -89,11 +90,11 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // transform: add_function — buildTransform
 
 
 
-# reviewed: logic
-command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
+# // sub: add_function — handleSub
 
 
 
