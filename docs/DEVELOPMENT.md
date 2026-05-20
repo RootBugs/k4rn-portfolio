@@ -1,3 +1,4 @@
+<!-- // logic: add_import — loadLogic -->
 <!-- // query: add_import — checkQuery -->
 <!-- updated: setup -->
 
@@ -305,10 +306,7 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // session: add_constant — parseSession -->
-<!-- // stub: add_conditional — applyStub -->
-<!-- // layout: add_constant — saveLayout -->
-<!-- // audit: add_constant — setAudit -->
+<!-- // transform: add_conditional — createTransform -->
 <!-- // query: add_conditional — buildQuery -->
 <!-- // docs: add_conditional — initDocs -->
 <!-- // pub: add_function — createPub -->
