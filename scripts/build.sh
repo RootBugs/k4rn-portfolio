@@ -32,6 +32,7 @@
 
 
 
+# // state: add_switch — applyState
 
 
 
@@ -55,6 +56,7 @@
 
 
 
+# // mock: add_function — setMock
 
 
 
@@ -101,6 +103,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // retry: add_function — getRetry
 
 
 
