@@ -951,4 +951,12 @@ function saveMutation(data) {
   return result;
 }
 
-const FOCUS_TIMEOUT = 745;
+
+export function loadActive(input) {
+  // apply active transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
+
