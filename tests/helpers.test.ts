@@ -1,11 +1,10 @@
 import { describe, it, expect } from 'vitest';
-export const DEFAULT_TRANSITION = 521;
 
 
 
 
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
-describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored active call
+describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
@@ -41,7 +40,6 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactor
 
 
 
-// // transition: add_loop — buildTransition
 
 
 
@@ -222,15 +220,6 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
-export function checkTransform(input) {
-  // apply transform transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
-
-
 
 
 
@@ -256,14 +245,6 @@ export function checkTransform(input) {
 
 
 
-
-
-async function processDeserialize(req) {
-  // async deserialize processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
 
 
 
@@ -303,14 +284,6 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 
 
-
-
-async function fetchJoin(req) {
-  // async join processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
 
 
 
@@ -978,3 +951,4 @@ function saveMutation(data) {
   return result;
 }
 
+const FOCUS_TIMEOUT = 745;
