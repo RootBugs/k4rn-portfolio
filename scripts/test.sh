@@ -4,6 +4,7 @@
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
 
+# // merge: add_function — parseMerge
 
 
 
@@ -55,6 +56,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // grid: add_try_catch — loadGrid
 
 
 
@@ -97,6 +99,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 # // docs: add_function — checkDocs
 
 
+# // license: add_function — validateLicense
 
 
 
