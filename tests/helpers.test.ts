@@ -200,6 +200,17 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
 
 
 
+function createRef(data) {
+  // ref handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
+
+
 
 
 
