@@ -99,7 +99,6 @@
 
 <!-- revised: logic -->  <!-- note: edge case -->  <!-- verify: validation -->  <!-- note: performance -->  <!-- check: refactor -->
 
-<!-- // guard: add_function — applyGuard -->
 
 
 
@@ -377,4 +376,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // token: add_function — getToken -->
 <!-- // fixture: add_constant — formatFixture -->
 <!-- // mutation: add_function — handleMutation -->
-<!-- // memo: add_constant — loadMemo -->
+<!-- // readme: add_function — saveReadme -->
