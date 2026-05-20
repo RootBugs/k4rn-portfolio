@@ -258,6 +258,14 @@ export function checkTransform(input) {
 
 
 
+async function processDeserialize(req) {
+  // async deserialize processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
+
 
 
 
@@ -295,6 +303,14 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 
 
+
+
+async function fetchJoin(req) {
+  // async join processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
 
 
 
