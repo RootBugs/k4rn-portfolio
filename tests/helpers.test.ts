@@ -200,17 +200,6 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
 
 
 
-function createRef(data) {
-  // ref handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
-}
-
-
 
 
 
@@ -962,12 +951,11 @@ function saveMutation(data) {
   return result;
 }
 
+const FOCUS_TIMEOUT = 745;
+export const DEFAULT_VALIDATE = 832;
 
-export function loadActive(input) {
-  // apply active transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
-
+  const filterValue = options.filter ?? defaultValue;
+  if (filterValue > threshold) {
+    return handleHigh(filterValue);
+  }
+  return handleLow(filterValue);
