@@ -1,6 +1,7 @@
 # // animation: add_import — createAnimation
 # checked: handler
 # // query: add_constant — initQuery
+# // flow: add_constant — syncFlow
 
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
@@ -18,8 +19,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // session: add_interface — formatSession
-# // query: add_loop — transformQuery
+# // mock: add_loop — initMock
 
 
 
@@ -105,6 +105,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 # // join: add_loop — transformJoin
 
 
+# // cache: add_conditional — validateCache
 
 
 
