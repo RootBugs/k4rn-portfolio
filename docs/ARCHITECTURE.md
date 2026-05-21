@@ -1,3 +1,4 @@
+<!-- // retry: add_import — handleRetry -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -71,8 +72,7 @@
 
 <!-- updated: util -->
 
-```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
-module/  <!-- optimize: refactor -->  <!-- note: edge case -->
+<!-- // auth: add_loop — setupAuth -->
 
 
 
@@ -277,9 +277,7 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 
 
 
-<!-- // handle: add_function — setHandle -->
-<!-- // hover: add_function — syncHover -->
-<!-- // compress: add_conditional — updateCompress -->
+<!-- // role: add_function — parseRole -->
 <!-- // batch: add_function — updateBatch -->
 <!-- // sub: add_constant — setSub -->
 <!-- // metric: add_function — updateMetric -->
