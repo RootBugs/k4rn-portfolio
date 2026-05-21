@@ -56,6 +56,7 @@
 
 
 # // hover: add_class — saveHover
+# // auth: add_loop — loadAuth
 
 
 
