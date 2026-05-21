@@ -121,7 +121,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-
 ├── utils.ts          # Internal utilities  <!-- review: cleanup -->
 
 
@@ -184,6 +183,7 @@ Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
 
 1. User interaction triggers an action  <!-- optimize: validation -->
+
 
 
 
