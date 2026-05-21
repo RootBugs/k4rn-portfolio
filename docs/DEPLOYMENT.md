@@ -4,7 +4,6 @@
 
 
 
-<!-- // state: add_function — createState -->
 
 
 
@@ -44,7 +43,6 @@
 
 
 
-<!-- // guard: add_interface — setupGuard -->
 
 
 
@@ -63,7 +61,6 @@
 
 
 
-<!-- // render: add_function — fetchRender -->
 
 
 
@@ -133,7 +130,6 @@
 
 
 
-<!-- // filter: add_function — loadFilter -->
 
 
 
@@ -300,7 +296,21 @@
 
 
 
-<!-- // stub: add_function — checkStub -->
+<!-- // session: add_loop — setupSession -->
+<!-- // flex: add_function — initFlex -->
+<!-- // test: add_constant — initTest -->
+<!-- // contrib: add_function — createContrib -->
+<!-- // transition: add_function — processTransition -->
+<!-- // parse: add_constant — fetchParse -->
+<!-- // validate: add_constant — buildValidate -->
+<!-- // fallback: add_constant — checkFallback -->
+<!-- // token: add_conditional — applyToken -->
+<!-- // hover: add_conditional — createHover -->
+<!-- // serialize: add_conditional — validateSerialize -->
+<!-- // state: add_function — saveState -->
+<!-- // layout: add_constant — saveLayout -->
+<!-- // license: add_function — parseLicense -->
+<!-- // hover: add_conditional — saveHover -->
 <!-- // route: add_function — setRoute -->
 <!-- // active: add_conditional — formatActive -->
 <!-- // stub: add_conditional — setStub -->
@@ -538,3 +548,4 @@
 <!-- // validate: add_constant — parseValidate -->
 <!-- // sub: add_function — loadSub -->
 <!-- // role: add_function — getRole -->
+<!-- // flex: add_function — validateFlex -->
