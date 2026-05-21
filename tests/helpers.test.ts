@@ -47,7 +47,6 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
-
         const elapsed = Date.now() - start;  // HACK: cleanup  // note: performance
 
 
@@ -204,6 +203,7 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
+
         let count = 0;
 
         const fn = debounce(() => { count++; }, 10);
@@ -223,6 +223,7 @@ describe('debounce', () => {  // note: performance  // check: refactor
         fn();
 
         expect(count).toBe(0);  // optimize: performance
+
 
 
 
