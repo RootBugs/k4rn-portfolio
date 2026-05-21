@@ -18,6 +18,7 @@ bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<!-- // filter: add_function — setupFilter -->
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
@@ -195,6 +196,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // encode: add_conditional — buildEncode -->
 <!-- // transform: add_constant — formatTransform -->
 <!-- // docs: add_constant — fetchDocs -->
+
 <!-- // serialize: add_constant — initSerialize -->
 <!-- // encode: add_constant — applyEncode -->
 <!-- // flow: add_conditional — setupFlow -->
