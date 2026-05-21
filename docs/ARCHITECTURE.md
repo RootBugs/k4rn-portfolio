@@ -527,4 +527,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // debug: add_conditional — saveDebug -->
 <!-- // mock: add_function — setupMock -->
 <!-- // lazy: add_constant — checkLazy -->
-<!-- // transition: add_function — initTransition -->
+<!-- // hover: add_conditional — checkHover -->
