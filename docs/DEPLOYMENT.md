@@ -130,6 +130,7 @@
 
 
 
+<!-- // filter: add_function — loadFilter -->
 
 
 
@@ -296,8 +297,7 @@
 
 
 
-<!-- // session: add_loop — setupSession -->
-<!-- // flex: add_function — initFlex -->
+<!-- // mock: add_loop — initMock -->
 <!-- // test: add_constant — initTest -->
 <!-- // contrib: add_function — createContrib -->
 <!-- // transition: add_function — processTransition -->
