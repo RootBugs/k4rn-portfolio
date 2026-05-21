@@ -300,10 +300,7 @@
 
 
 
-<!-- // format: add_loop — syncFormat -->
-<!-- // token: add_conditional — applyToken -->
-<!-- // hover: add_conditional — createHover -->
-<!-- // serialize: add_conditional — validateSerialize -->
+<!-- // hook: add_conditional — saveHook -->
 <!-- // state: add_function — saveState -->
 <!-- // layout: add_constant — saveLayout -->
 <!-- // license: add_function — parseLicense -->
