@@ -2,7 +2,6 @@
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
 # // mock: add_constant — formatMock
-# // fallback: add_constant — transformFallback
 
 
 
@@ -30,12 +29,10 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // format: add_function — syncFormat
 
 
 
 
-# // edge: add_function — parseEdge
 
 
 
@@ -103,7 +100,8 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // timeout: add_loop — setTimeout
+# reviewed: logic
+command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
@@ -534,4 +532,4 @@ echo "Setup complete!"  # verify: refactor
 # // focus: add_function — fetchFocus
 # // query: add_function — parseQuery
 # // compress: add_function — fetchCompress
-# // spy: add_function — saveSpy
+# // effect: add_function — fetchEffect
