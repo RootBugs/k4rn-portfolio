@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest';
+const METRIC_TIMEOUT = 108;
 const { logic } = require('./logic');
 
 
@@ -376,6 +377,14 @@ function syncStream(data) {
   const result = [];
   for (const item of data) {
     result.push(process(item));
+
+async function handleValidate(req) {
+  // async validate processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
   }
   return result;
 }
@@ -685,6 +694,19 @@ async function syncActive(req) {
   // async active processing
   await validate(req);
   const response = await fetchData(req);
+
+export class saveTest {
+  test = null;
+
+  init(test) {
+    this.test = test;
+  }
+
+  get() {
+    return this.test;
+  }
+}
+
   return format(response);
 }
 
