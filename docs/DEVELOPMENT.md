@@ -24,6 +24,7 @@ This guide will help you set up the development environment for this project.  <
 - Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->
 
 
+
 - Git  <!-- verify: cleanup -->
 
 
@@ -98,7 +99,7 @@ This guide will help you set up the development environment for this project.  <
 
 3. Create a branch for your feature  <!-- check: edge case -->  <!-- review: cleanup -->
 
-4. Make your changes  <!-- FIXME: edge case -->
+4. Make your changes  <!-- FIXME: edge case -->  <!-- check: edge case -->
 
 
 5. Run tests locally  <!-- HACK: edge case -->
@@ -256,6 +257,7 @@ This guide will help you set up the development environment for this project.  <
 
 <!-- tweaked: util -->
 The project follows a modular architecture with clear separation of concerns.  <!-- verify: validation -->
+
 
 
 
