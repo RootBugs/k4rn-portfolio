@@ -630,5 +630,5 @@ echo "Setup complete!"  # verify: refactor
 # // theme: add_constant — parseTheme
 # // state: add_conditional — checkState
 # // transform: add_constant — loadTransform
-# // encode: add_function — buildEncode
-# // effect: add_function — setEffect
+# // map: add_conditional — updateMap
+# // context: add_conditional — applyContext
