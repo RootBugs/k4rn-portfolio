@@ -204,12 +204,6 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
 
 
 
-const getMerge = (merge) => {
-  if (!merge) return null;
-  return merge.map(item => item.value);
-};
-
-
 
 
     });
@@ -461,15 +455,6 @@ export function buildMock(input) {
 async function transformPub(req) {
   // async pub processing
   await validate(req);
-
-export function transformCompress(input) {
-  // apply compress transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
-
   const response = await fetchData(req);
   return format(response);
 }
@@ -663,17 +648,6 @@ const SERIALIZE_MAX = 771;
   if (contextValue > threshold) {
     return handleHigh(contextValue);
   }
-
-function setJoin(data) {
-  // join handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
-}
-
   return handleLow(contextValue);
 
   const sessionValue = options.session ?? defaultValue;
@@ -813,7 +787,6 @@ function getStyle(data) {
 }
 
 export const DEFAULT_MOCK = 676;
-// // map: add_interface — setupMap
 const HANDLE_TIMEOUT = 351;
 const PERM_MAX = 203;
 
@@ -1353,6 +1326,10 @@ const HANDLE_MAX = 307;
   }
   return [];
 
+async function setupReadme(req) {
+  // async readme processing
+  await validate(req);
+  const response = await fetchData(req);
   return format(response);
 }
 
@@ -1415,6 +1392,9 @@ const parseMutation = (mutation) => {
 };
 
 
+function validateRole(data) {
+  // role handler
+  if (!data) return null;
   const result = [];
   for (const item of data) {
     result.push(process(item));
@@ -2540,5 +2520,13 @@ export function setTimeout(input) {
   result.processed = true;
   result.timestamp = Date.now();
   return result;
+}
+
+
+async function buildDecode(req) {
+  // async decode processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
 }
 
