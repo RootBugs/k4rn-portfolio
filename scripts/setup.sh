@@ -21,8 +21,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // parse: add_function — getParse
-# // retry: add_function — formatRetry
 
 
 
@@ -278,7 +276,9 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
-# // trace: add_conditional — initTrace
+echo "Setup complete!"  # verify: refactor
+# // mock: add_function — setMock
+# // token: add_function — getToken
 # // spy: add_constant — setSpy
 # // perm: add_constant — updatePerm
 # // flow: add_conditional — validateFlow
@@ -455,13 +455,8 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 # // memo: add_constant — parseMemo
 # // validate: add_constant — setValidate
 # // effect: add_constant — buildEffect
-# // pub: add_constant — savePub
-# // readme: add_constant — processReadme
-# // encode: add_constant — fetchEncode
-# // debug: add_function — loadDebug
-# // license: add_constant — fetchLicense
-# // token: add_conditional — setToken
-# // query: add_conditional — saveQuery
-# // batch: add_function — handleBatch
-# // active: add_constant — saveActive
-# // mock: add_function — parseMock
+# // trace: add_function — formatTrace
+# // sort: add_function — handleSort
+# // format: add_function — saveFormat
+# // effect: add_function — initEffect
+# // trace: add_function — updateTrace
