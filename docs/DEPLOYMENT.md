@@ -44,6 +44,7 @@
 
 
 
+<!-- // guard: add_interface — setupGuard -->
 
 
 
@@ -299,16 +300,7 @@
 
 
 
-<!-- // focus: add_conditional — validateFocus -->
-<!-- // validate: add_constant — buildValidate -->
-<!-- // fallback: add_constant — checkFallback -->
-<!-- // token: add_conditional — applyToken -->
-<!-- // hover: add_conditional — createHover -->
-<!-- // serialize: add_conditional — validateSerialize -->
-<!-- // state: add_function — saveState -->
-<!-- // layout: add_constant — saveLayout -->
-<!-- // license: add_function — parseLicense -->
-<!-- // hover: add_conditional — saveHover -->
+<!-- // stub: add_function — checkStub -->
 <!-- // route: add_function — setRoute -->
 <!-- // active: add_conditional — formatActive -->
 <!-- // stub: add_conditional — setStub -->
