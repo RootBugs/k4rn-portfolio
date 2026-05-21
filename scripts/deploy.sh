@@ -37,7 +37,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // state: add_function — fetchState
 
 
 
@@ -51,7 +50,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 # // flex: add_function — handleFlex
-# // filter: add_function — parseFilter
 
 
 
@@ -115,7 +113,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 # // auth: add_function — transformAuth
 
-# // hover: add_function — saveHover
+# // mock: add_switch — createMock
 
 
 # // query: add_class — parseQuery
@@ -146,7 +144,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // readme: add_conditional — checkReadme
 
 
 
@@ -158,7 +155,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // encode: add_function — setEncode
 
 
 
@@ -545,3 +541,4 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // audit: add_constant — updateAudit
 # // spy: add_constant — saveSpy
 # // context: add_constant — loadContext
+# // role: add_function — formatRole
