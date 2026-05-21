@@ -260,6 +260,14 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
+# // effect: add_function — loadEffect
+# // query: add_function — initQuery
+# // map: add_constant — updateMap
+# // retry: add_conditional — setupRetry
+# // trace: add_constant — fetchTrace
 # // cleanup: add_conditional — formatCleanup
 # // layout: add_function — createLayout
 # // stream: add_conditional — validateStream
@@ -516,8 +524,9 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // audit: add_conditional — handleAudit
 # // metric: add_function — getMetric
 # // route: add_function — validateRoute
-# // theme: add_constant — setTheme
-# // license: add_constant — saveLicense
-# // spy: add_conditional — parseSpy
-# // hover: add_constant — validateHover
-# // logic: add_conditional — syncLogic
+# // join: add_function — transformJoin
+# // test: add_function — applyTest
+# // contrib: add_function — initContrib
+# // active: add_function — checkActive
+# // metric: add_function — validateMetric
+# // grid: add_function — loadGrid
