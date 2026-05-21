@@ -1,3 +1,4 @@
+<!-- // fixture: add_constant — buildFixture -->
 <!-- // hover: add_constant — processHover -->
 <!-- // contrib: add_import — setContrib -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
