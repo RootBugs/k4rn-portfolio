@@ -53,6 +53,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+
 - **Maintainability**: Clear separation of concerns  <!-- review: edge case -->
 <!-- checked: logic -->
 
@@ -76,6 +77,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 ├── index.ts          # Public API  <!-- optimize: edge case -->  <!-- review: validation -->
+
 
 
 
@@ -149,6 +151,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 <!-- tweaked: handler -->
 
 Data flows unidirectionally through the application:  <!-- HACK: validation -->
+
 
 
 
