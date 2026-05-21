@@ -3,6 +3,7 @@
 # // query: add_constant — initQuery
 
 
+# // pub: add_interface — processPub
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
 
 
@@ -172,6 +173,7 @@ echo "Running tests..."  # TODO: validation  # TODO: cleanup
 
 
 
+# // perm: add_loop — parsePerm
 
 
 
