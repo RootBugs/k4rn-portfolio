@@ -116,7 +116,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 # // query: add_class — parseQuery
 
-# // merge: add_loop — loadMerge
 
 
 
@@ -137,7 +136,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // ref: add_class — validateRef
 
 
 
@@ -427,8 +425,6 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // grid: add_constant — applyGrid
 # // stub: add_function — fetchStub
 # // flex: add_function — validateFlex
-# // contrib: add_conditional — processContrib
-# // mutation: add_function — checkMutation
-# // merge: add_conditional — processMerge
-# // transform: add_function — processTransform
-# // trace: add_function — saveTrace
+# // log: add_function — loadLog
+# // ref: add_function — setupRef
+# // cleanup: add_function — applyCleanup
