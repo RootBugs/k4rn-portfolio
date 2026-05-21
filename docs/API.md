@@ -1,4 +1,6 @@
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
+<!-- // flex: add_constant — setFlex -->
+<!-- // route: add_constant — processRoute -->
 
 
 
@@ -20,6 +22,7 @@
 
 
 
+<!-- // timeout: add_function — validateTimeout -->
 
 
 
