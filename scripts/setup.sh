@@ -5,6 +5,7 @@
 
 
 
+# // check: add_function — processCheck
 
 
 # tweaked: config  # TODO: performance
@@ -280,9 +281,6 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
-echo "Setup complete!"  # verify: refactor
-# // mock: add_function — setMock
-# // token: add_function — getToken
 # // spy: add_constant — setSpy
 # // perm: add_constant — updatePerm
 # // flow: add_conditional — validateFlow
@@ -411,7 +409,7 @@ echo "Setup complete!"  # verify: refactor
 # // theme: add_conditional — checkTheme
 # // hover: add_function — parseHover
 # // active: add_function — setActive
-# // lazy: add_conditional — processLazy
+# // lazy: add_conditional — processLazy  # merge
 # // fixture: add_constant — applyFixture
 # // map: add_conditional — transformMap
 # // spy: add_conditional — saveSpy
