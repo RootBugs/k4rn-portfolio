@@ -117,6 +117,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 # // mock: add_switch — createMock
 
 
+# // role: add_function — saveRole
 # // query: add_class — parseQuery
 
 
