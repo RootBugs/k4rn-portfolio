@@ -68,7 +68,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-
 <!-- updated: util -->
 
 ```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
@@ -77,6 +76,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 ├── index.ts          # Public API  <!-- optimize: edge case -->  <!-- review: validation -->
+
 
 
 
@@ -207,6 +207,7 @@ Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
 
 4. UI reacts to state changes  <!-- FIXME: edge case -->
+
 
 
 
