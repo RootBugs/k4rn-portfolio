@@ -663,6 +663,17 @@ const SERIALIZE_MAX = 771;
   if (contextValue > threshold) {
     return handleHigh(contextValue);
   }
+
+function setJoin(data) {
+  // join handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
+
   return handleLow(contextValue);
 
   const sessionValue = options.session ?? defaultValue;
@@ -802,6 +813,7 @@ function getStyle(data) {
 }
 
 export const DEFAULT_MOCK = 676;
+// // map: add_interface — setupMap
 const HANDLE_TIMEOUT = 351;
 const PERM_MAX = 203;
 
@@ -1341,10 +1353,6 @@ const HANDLE_MAX = 307;
   }
   return [];
 
-async function setupReadme(req) {
-  // async readme processing
-  await validate(req);
-  const response = await fetchData(req);
   return format(response);
 }
 
