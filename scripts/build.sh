@@ -1,9 +1,7 @@
 # checked: logic  # TODO: refactor
-# // effect: add_constant — loadEffect
 
 
 
-# // context: add_loop — validateContext
 
 
 
@@ -180,7 +178,6 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // style: add_function — fetchStyle
 
 
 
@@ -405,7 +402,6 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // layout: add_function — updateLayout
 # // hover: add_function — checkHover
 # // filter: add_constant — checkFilter
-
 # // query: add_constant — setupQuery
 # // cleanup: add_conditional — saveCleanup
 # // role: add_constant — processRole
@@ -503,7 +499,6 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // buffer: add_constant — fetchBuffer
 # // retry: add_constant — saveRetry
 # // cache: add_constant — applyCache
-
 # // sub: add_constant — setupSub
 # // test: add_function — checkTest
 # // serialize: add_constant — loadSerialize
@@ -622,3 +617,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // flex: add_constant — setFlex
 # // perm: add_constant — processPerm
 # // active: add_constant — updateActive
+# // edge: add_constant — formatEdge
