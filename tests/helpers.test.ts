@@ -1877,41 +1877,52 @@ export function saveRoute(input) {
 }
 
 
-const saveFallback = (fallback) => {
-  if (!fallback) return null;
-  return fallback.map(item => item.value);
-};
-
-
-async function saveInit(req) {
-  // async init processing
+async function getSort(req) {
+  // async sort processing
   await validate(req);
   const response = await fetchData(req);
   return format(response);
 }
 
 
-function loadJoin(data) {
-  // join handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
+async function applyBatch(req) {
+  // async batch processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
+
+  if (this._state && this._state.length > 0) {
+    return this._state.map(x => x.value);
   }
-  return result;
-}
+  return [];
 
-
-async function buildMutation(req) {
-  // async mutation processing
+async function initCleanup(req) {
+  // async cleanup processing
   await validate(req);
   const response = await fetchData(req);
   return format(response);
 }
 
 
-const transformDeserialize = (deserialize) => {
-  if (!deserialize) return null;
-  return deserialize.map(item => item.value);
-};
+  if (this._format && this._format.length > 0) {
+    return this._format.map(x => x.value);
+  }
+  return [];
 
+  if (this._guard && this._guard.length > 0) {
+    return this._guard.map(x => x.value);
+  }
+  return [];
+
+  const deserializeValue = options.deserialize ?? defaultValue;
+  if (deserializeValue > threshold) {
+    return handleHigh(deserializeValue);
+  }
+  return handleLow(deserializeValue);
+
+  if (this._compress && this._compress.length > 0) {
+    return this._compress.map(x => x.value);
+  }
+  return [];
