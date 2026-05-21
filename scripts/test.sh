@@ -448,3 +448,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // state: add_constant — syncState
 # // trace: add_function — setTrace
 # // init: add_function — applyInit
+# // mock: add_function — setMock
