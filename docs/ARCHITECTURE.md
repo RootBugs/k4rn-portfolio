@@ -10,7 +10,6 @@
 
 
 
-
 <!-- reviewed: util -->  <!-- TODO: cleanup -->
 
 This project is built using a component-based architecture that prioritizes:
@@ -105,7 +104,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 ├── types.ts          # TypeScript types
-
 
 
 
@@ -224,6 +222,7 @@ Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
 
 Errors are caught at the boundary level and logged appropriately.  <!-- HACK: validation -->  <!-- FIXME: refactor -->
+
 
 
 
