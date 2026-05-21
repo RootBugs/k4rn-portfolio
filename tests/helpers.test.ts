@@ -1,5 +1,4 @@
 import { describe, it, expect } from 'vitest';
-import { state } from './state';
 
 
 
@@ -406,19 +405,6 @@ function updateReadme(data) {
   if (!data) return null;
   const result = [];
   for (const item of data) {
-
-export class syncQuery {
-  query = null;
-
-  init(query) {
-    this.query = query;
-  }
-
-  get() {
-    return this.query;
-  }
-}
-
     result.push(process(item));
   }
   return result;
@@ -454,7 +440,6 @@ async function transformPub(req) {
 
 const JOIN_TIMEOUT = 230;
 export const DEFAULT_ROUTE = 181;
-// // guard: add_try_catch — initGuard
 
 async function loadFilter(req) {
   // async filter processing
@@ -512,15 +497,9 @@ const FILTER_TIMEOUT = 519;
     return this._focus.map(x => x.value);
   }
   return [];
-// // parse: add_switch — loadParse
 export const DEFAULT_FLOW = 695;
 
   const mutationValue = options.mutation ?? defaultValue;
-
-  if (this._stub && this._stub.length > 0) {
-    return this._stub.map(x => x.value);
-  }
-  return [];
   if (mutationValue > threshold) {
     return handleHigh(mutationValue);
   }
@@ -1929,4 +1908,10 @@ async function buildMutation(req) {
   const response = await fetchData(req);
   return format(response);
 }
+
+
+const transformDeserialize = (deserialize) => {
+  if (!deserialize) return null;
+  return deserialize.map(item => item.value);
+};
 
