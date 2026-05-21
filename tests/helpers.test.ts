@@ -204,6 +204,12 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
 
 
 
+const getMerge = (merge) => {
+  if (!merge) return null;
+  return merge.map(item => item.value);
+};
+
+
 
 
     });
@@ -455,6 +461,15 @@ export function buildMock(input) {
 async function transformPub(req) {
   // async pub processing
   await validate(req);
+
+export function transformCompress(input) {
+  // apply compress transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
+
   const response = await fetchData(req);
   return format(response);
 }
