@@ -406,6 +406,19 @@ function updateReadme(data) {
   if (!data) return null;
   const result = [];
   for (const item of data) {
+
+export class syncQuery {
+  query = null;
+
+  init(query) {
+    this.query = query;
+  }
+
+  get() {
+    return this.query;
+  }
+}
+
     result.push(process(item));
   }
   return result;
@@ -499,9 +512,15 @@ const FILTER_TIMEOUT = 519;
     return this._focus.map(x => x.value);
   }
   return [];
+// // parse: add_switch — loadParse
 export const DEFAULT_FLOW = 695;
 
   const mutationValue = options.mutation ?? defaultValue;
+
+  if (this._stub && this._stub.length > 0) {
+    return this._stub.map(x => x.value);
+  }
+  return [];
   if (mutationValue > threshold) {
     return handleHigh(mutationValue);
   }
