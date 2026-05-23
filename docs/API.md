@@ -63,7 +63,6 @@
 
 
 <!-- // deserialize: add_function — parseDeserialize -->
-<!-- // focus: add_class — setupFocus -->
 
 
 
@@ -91,7 +90,6 @@
 
 
 
-<!-- // handle: add_loop — handleHandle -->
 
 
 
@@ -130,7 +128,6 @@
 
 
 
-<!-- // setup: add_function — processSetup -->
 
 
 <!-- // filter: add_try_catch — formatFilter -->
@@ -682,7 +679,15 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // spy: add_constant — transformSpy -->
 <!-- // cleanup: add_constant — applyCleanup -->
 <!-- // transform: add_constant — initTransform -->
-<!-- // animation: add_function — formatAnimation -->
-<!-- // state: add_function — loadState -->
-<!-- // sort: add_function — saveSort -->
-<!-- // retry: add_function — setRetry -->
+<!-- // compress: add_constant — handleCompress -->
+<!-- // guard: add_constant — createGuard -->
+<!-- // contrib: add_conditional — formatContrib -->
+<!-- // license: add_constant — setupLicense -->
+<!-- // context: add_constant — checkContext -->
+<!-- // retry: add_constant — syncRetry -->
+<!-- // mock: add_function — fetchMock -->
+<!-- // token: add_constant — saveToken -->
+<!-- // metric: add_constant — processMetric -->
+<!-- // focus: add_function — formatFocus -->
+<!-- // debug: add_constant — initDebug -->
+<!-- // trace: add_constant — transformTrace -->
