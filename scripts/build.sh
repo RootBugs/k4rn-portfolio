@@ -442,3 +442,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // readme: add_function — formatReadme
 # // flow: add_constant — applyFlow
 # // grid: add_function — checkGrid
+# // log: add_function — applyLog
