@@ -26,6 +26,7 @@
 
 
 
+# // split: add_function — transformSplit
 
 
 
@@ -148,6 +149,7 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
+# // lazy: add_try_catch — initLazy
 
 
 
@@ -261,9 +263,6 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-# // format: add_function — setupFormat
-# // effect: add_function — loadEffect
-# // query: add_function — initQuery
 # // map: add_constant — updateMap
 # // retry: add_conditional — setupRetry
 # // trace: add_constant — fetchTrace
