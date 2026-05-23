@@ -53,7 +53,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // transform: add_function — initTransform
 
 # // theme: add_class — processTheme
 
@@ -469,3 +468,5 @@ echo "Setup complete!"  # verify: refactor
 # // encode: add_function — fetchEncode
 # // metric: add_constant — getMetric
 # // hook: add_function — loadHook
+# // spy: add_function — handleSpy
+# // stub: add_constant — saveStub
