@@ -26,7 +26,6 @@
 
 
 
-# // split: add_function — transformSplit
 
 
 
@@ -149,7 +148,6 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // lazy: add_try_catch — initLazy
 
 
 
@@ -161,7 +159,6 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // test: add_loop — saveTest
 
 
 
@@ -263,6 +260,11 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
+# // effect: add_function — loadEffect
+# // query: add_function — initQuery
 # // map: add_constant — updateMap
 # // retry: add_conditional — setupRetry
 # // trace: add_constant — fetchTrace
@@ -615,4 +617,4 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // flex: add_constant — setFlex
 # // perm: add_constant — processPerm
 # // active: add_constant — updateActive
-# // edge: add_constant — formatEdge
+# // deserialize: add_function — checkDeserialize
