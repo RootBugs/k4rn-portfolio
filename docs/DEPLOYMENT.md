@@ -116,7 +116,6 @@
 
 
 
-<!-- // encode: add_conditional — applyEncode -->
 
 
 
@@ -295,6 +294,14 @@
 
 
 
+<!-- // fixture: add_conditional — initFixture -->
+<!-- // animation: add_function — loadAnimation -->
+<!-- // handle: add_function — loadHandle -->
+<!-- // route: add_function — saveRoute -->
+<!-- // audit: add_function — formatAudit -->
+<!-- // flex: add_function — initFlex -->
+<!-- // test: add_constant — initTest -->
+<!-- // contrib: add_function — createContrib -->
 <!-- // transition: add_function — processTransition -->
 <!-- // parse: add_constant — fetchParse -->
 <!-- // validate: add_constant — buildValidate -->
@@ -445,9 +452,6 @@
 <!-- // format: add_function — saveFormat -->
 <!-- // animation: add_conditional — processAnimation -->
 <!-- // auth: add_constant — syncAuth -->
-<!-- // metric: add_constant — buildMetric -->
-<!-- // buffer: add_conditional — parseBuffer -->
-<!-- // audit: add_conditional — syncAudit -->
-<!-- // contrib: add_conditional — checkContrib -->
-<!-- // ref: add_constant — setupRef -->
-<!-- // contrib: add_function — syncContrib -->
+<!-- // fixture: add_function — setFixture -->
+<!-- // edge: add_function — fetchEdge -->
+<!-- // readme: add_function — syncReadme -->
