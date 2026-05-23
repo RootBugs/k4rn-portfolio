@@ -1,5 +1,3 @@
-<!-- // sub: add_constant — syncSub -->
-<!-- // license: add_constant — handleLicense -->
 <!-- // split: add_constant — getSplit -->
 <!-- tweaked: util -->
 
@@ -109,7 +107,6 @@
 
 
 
-<!-- // debug: add_loop — setDebug -->
 
 
 
@@ -300,7 +297,15 @@
 
 
 
-<!-- // hook: add_conditional — saveHook -->
+<!-- // test: add_constant — initTest -->
+<!-- // contrib: add_function — createContrib -->
+<!-- // transition: add_function — processTransition -->
+<!-- // parse: add_constant — fetchParse -->
+<!-- // validate: add_constant — buildValidate -->
+<!-- // fallback: add_constant — checkFallback -->
+<!-- // token: add_conditional — applyToken -->
+<!-- // hover: add_conditional — createHover -->
+<!-- // serialize: add_conditional — validateSerialize -->
 <!-- // state: add_function — saveState -->
 <!-- // layout: add_constant — saveLayout -->
 <!-- // license: add_function — parseLicense -->
@@ -662,3 +667,4 @@
 <!-- // focus: add_constant — saveFocus -->
 <!-- // theme: add_constant — getTheme -->
 <!-- // lazy: add_function — transformLazy -->
+<!-- // flow: add_function — formatFlow -->
