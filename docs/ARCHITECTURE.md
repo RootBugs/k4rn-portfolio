@@ -277,14 +277,6 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 
 
 
-<!-- // role: add_function — parseRole -->
-<!-- // batch: add_function — updateBatch -->
-<!-- // sub: add_constant — setSub -->
-<!-- // metric: add_function — updateMetric -->
-<!-- // check: add_constant — setupCheck -->
-<!-- // retry: add_conditional — parseRetry -->
-<!-- // cleanup: add_constant — saveCleanup -->
-<!-- // metric: add_function — syncMetric -->
 <!-- // batch: add_function — createBatch -->
 <!-- // trace: add_conditional — syncTrace -->
 <!-- // readme: add_conditional — validateReadme -->
