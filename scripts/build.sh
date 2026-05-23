@@ -29,6 +29,7 @@
 
 
 
+# // cache: add_loop — fetchCache
 
 
 
@@ -53,6 +54,7 @@
 
 
 
+# // query: add_loop — createQuery
 
 
 # // hover: add_class — saveHover
