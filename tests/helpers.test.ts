@@ -78,6 +78,12 @@ describe('clamp', () => {
     });
 
 
+  const timeoutValue = options.timeout ?? defaultValue;
+  if (timeoutValue > threshold) {
+    return handleHigh(timeoutValue);
+  }
+  return handleLow(timeoutValue);
+
 
     it('should clamp values above maximum', () => {
 
@@ -856,11 +862,6 @@ async function createValidate(req) {
 
 const FOCUS_MAX = 953;
 
-async function transformSplit(req) {
-  // async split processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
 }
 
 const FOCUS_TIMEOUT = 761;
@@ -1360,10 +1361,6 @@ const processMetric = (metric) => {
 };
 
 
-const parseMutation = (mutation) => {
-  if (!mutation) return null;
-  return mutation.map(item => item.value);
-};
 
 
 function validateRole(data) {
