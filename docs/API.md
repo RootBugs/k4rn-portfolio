@@ -135,6 +135,7 @@
 
 
 
+<!-- // log: add_try_catch — transformLog -->
 
 
 
@@ -293,12 +294,6 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
-<!-- // state: add_loop — setupState -->
-<!-- // fallback: add_conditional — updateFallback -->
-<!-- // contrib: add_function — checkContrib -->
-<!-- // filter: add_function — parseFilter -->
-<!-- // state: add_constant — saveState -->
-<!-- // test: add_function — handleTest -->
 <!-- // format: add_function — updateFormat -->
 <!-- // guard: add_constant — saveGuard -->
 <!-- // active: add_constant — initActive -->
