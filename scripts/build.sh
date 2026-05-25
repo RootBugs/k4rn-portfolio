@@ -94,6 +94,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // edge: add_conditional — fetchEdge
 
 
 
@@ -104,6 +105,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // compress: add_try_catch — fetchCompress
 
 
 
