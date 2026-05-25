@@ -70,6 +70,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+
 <!-- updated: util -->
 
 ```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
@@ -187,6 +188,7 @@ Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
 
 
+
 1. User interaction triggers an action  <!-- optimize: validation -->
 
 
@@ -212,6 +214,7 @@ Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
 
 4. UI reacts to state changes  <!-- FIXME: edge case -->
+
 
 
 
