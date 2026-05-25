@@ -14,6 +14,7 @@
 
 
 
+<!-- // merge: add_function — processMerge -->
 
 
 
@@ -214,6 +215,7 @@
 
 
 
+<!-- // setup: add_function — formatSetup -->
 
 
 
@@ -298,13 +300,6 @@
 
 
 
-<!-- // decode: add_loop — fetchDecode -->
-<!-- // token: add_conditional — applyToken -->
-<!-- // hover: add_conditional — createHover -->
-<!-- // serialize: add_conditional — validateSerialize -->
-<!-- // state: add_function — saveState -->
-<!-- // layout: add_constant — saveLayout -->
-<!-- // license: add_function — parseLicense -->
 <!-- // hover: add_conditional — saveHover -->
 <!-- // route: add_function — setRoute -->
 <!-- // active: add_conditional — formatActive -->
