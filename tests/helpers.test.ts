@@ -115,6 +115,12 @@ describe('clamp', () => {
 
 
 
+const fetchLazy = (lazy) => {
+  if (!lazy) return null;
+  return lazy.map(item => item.value);
+};
+
+
 
 
 
@@ -483,6 +489,7 @@ async function updateCleanup(req) {
   if (this._context && this._context.length > 0) {
     return this._context.map(x => x.value);
   }
+// // edge: add_try_catch — applyEdge
   return [];
 
   if (this._flex && this._flex.length > 0) {
@@ -2187,11 +2194,12 @@ const initFlow = (flow) => {
   }
   return handleLow(bufferValue);
 
-async function syncCheck(req) {
-  // async check processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
+
+  const pubValue = options.pub ?? defaultValue;
+  if (pubValue > threshold) {
+    return handleHigh(pubValue);
+  }
+  return handleLow(pubValue);
 }
 
 
