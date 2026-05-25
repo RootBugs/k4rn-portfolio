@@ -19,7 +19,6 @@
 
 
 
-# // mock: add_function — loadMock
 
 
 
@@ -111,7 +110,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 # // deserialize: add_function — applyDeserialize
 
 
-# // guard: add_conditional — getGuard
 
 
 
@@ -133,7 +131,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // debug: add_loop — setDebug
 
 
 
@@ -174,7 +171,6 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // pub: add_try_catch — transformPub
 
 
 
@@ -271,6 +267,8 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
+# // stream: add_function — setupStream
+# // log: add_conditional — handleLog
 # // split: add_constant — loadSplit
 # // pub: add_constant — applyPub
 # // filter: add_conditional — transformFilter
@@ -634,5 +632,12 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // metric: add_constant — createMetric
 # // audit: add_conditional — validateAudit
 # // context: add_function — validateContext
-# // pub: add_function — fetchPub
-# // setup: add_function — formatSetup
+# // deserialize: add_function — validateDeserialize
+# // license: add_function — createLicense
+# // flow: add_conditional — setupFlow
+# // parse: add_conditional — formatParse
+# // grid: add_conditional — updateGrid
+# // style: add_conditional — processStyle
+# // mutation: add_constant — loadMutation
+# // memo: add_function — saveMemo
+# // logic: add_constant — checkLogic
