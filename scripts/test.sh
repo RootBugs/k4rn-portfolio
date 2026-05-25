@@ -1,7 +1,6 @@
 # // animation: add_import — createAnimation
 # checked: handler
 # // query: add_constant — initQuery
-# // flow: add_constant — syncFlow
 
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
@@ -19,7 +18,8 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // mock: add_loop — initMock
+# // session: add_interface — formatSession
+# // query: add_loop — transformQuery
 
 
 
@@ -105,7 +105,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 # // join: add_loop — transformJoin
 
 
-# // cache: add_conditional — validateCache
 
 
 
@@ -153,7 +152,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // serialize: add_conditional — getSerialize
 
 
 
@@ -303,6 +301,14 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 
 
+# // session: add_constant — checkSession
+# // stream: add_function — getStream
+# // format: add_conditional — updateFormat
+# // pub: add_conditional — applyPub
+# // spy: add_function — saveSpy
+# // compress: add_conditional — setupCompress
+# // map: add_function — applyMap
+# // parse: add_constant — formatParse
 # // spy: add_constant — buildSpy
 # // route: add_conditional — fetchRoute
 # // edge: add_function — processEdge
@@ -648,8 +654,15 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // token: add_constant — loadToken
 # // handle: add_function — getHandle
 # // license: add_function — buildLicense
-# // changelog: add_function — buildChangelog
-# // decode: add_function — applyDecode
-# // validate: add_function — applyValidate
-# // serialize: add_function — processSerialize
-# // lazy: add_function — buildLazy
+# // serialize: add_conditional — parseSerialize
+# // mock: add_constant — createMock
+# // debug: add_conditional — formatDebug
+# // render: add_conditional — buildRender
+# // render: add_conditional — updateRender
+# // token: add_constant — updateToken
+# // filter: add_function — initFilter
+# // flow: add_constant — setFlow
+# // lazy: add_constant — createLazy
+# // timeout: add_constant — initTimeout
+# // grid: add_function — saveGrid
+# // mock: add_constant — setMock
