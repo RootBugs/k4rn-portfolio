@@ -2,7 +2,6 @@
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
 # // mock: add_constant — formatMock
-# // context: add_constant — updateContext
 
 
 
@@ -98,7 +97,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // map: add_function — syncMap
 
 
 
@@ -634,3 +632,4 @@ echo "Setup complete!"  # verify: refactor
 # // transform: add_constant — loadTransform
 # // map: add_conditional — updateMap
 # // context: add_conditional — applyContext
+# // perm: add_constant — setPerm
