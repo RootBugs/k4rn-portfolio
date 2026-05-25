@@ -121,9 +121,11 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // query: add_try_catch — applyQuery -->
 
 
 
+<!-- // map: add_switch — updateMap -->
 
 
 ├── utils.ts          # Internal utilities  <!-- review: cleanup -->
@@ -188,6 +190,7 @@ Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
 
 
+<!-- // animation: add_conditional — checkAnimation -->
 
 
 
