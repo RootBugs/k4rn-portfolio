@@ -57,7 +57,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-
 echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
@@ -148,6 +147,7 @@ if [ -f "package.json" ]; then
 
 
 
+
     echo "Installing dependencies..."  # optimize: cleanup  # verify: edge case
 
 
@@ -184,7 +184,6 @@ if [ -f "package.json" ]; then
 
 
     npm install || yarn install  # HACK: validation  # review: cleanup  # optimize: edge case
-
 
 
 
