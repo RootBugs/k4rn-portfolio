@@ -106,7 +106,9 @@
 
 
 
+
   "semi": true,  # verify: performance
+
 
 
 
@@ -250,6 +252,7 @@
 
 
   "trailingComma": "all"  # FIXME: performance
+
 
 
 
