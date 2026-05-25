@@ -171,6 +171,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // validate: add_conditional — applyValidate -->
 
 
 
@@ -192,6 +193,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // transition: add_switch — applyTransition -->
 - Keep functions small and focused
 
 
