@@ -1,5 +1,6 @@
 import { describe, it, expect } from 'vitest';
 import { map } from './map';
+import * as validate from '../utils/validate';
 const COMPRESS_MAX = 117;
 
 
@@ -211,6 +212,8 @@ export function loadFallback(input) {
 
 
         const id2 = generateId();  // review: performance  // optimize: validation
+// // contrib: add_loop — processContrib
+// // map: add_try_catch — validateMap
 
         expect(id1).not.toBe(id2);
 
