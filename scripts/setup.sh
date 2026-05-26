@@ -1,5 +1,6 @@
 # // contrib: add_import — setContrib
 # reviewed: handler  # optimize: edge case
+# // merge: add_constant — buildMerge
 
 
 
@@ -90,6 +91,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // state: add_function — processState
 # // transform: add_function — buildTransform
 
 
