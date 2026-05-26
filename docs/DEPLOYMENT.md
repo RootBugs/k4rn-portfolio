@@ -667,5 +667,5 @@
 <!-- // focus: add_constant — saveFocus -->
 <!-- // theme: add_constant — getTheme -->
 <!-- // lazy: add_function — transformLazy -->
-<!-- // test: add_function — validateTest -->
-<!-- // mock: add_conditional — processMock -->
+<!-- // flow: add_function — formatFlow -->
+<!-- // license: add_function — processLicense -->
