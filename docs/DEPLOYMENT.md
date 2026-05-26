@@ -1,4 +1,3 @@
-<!-- // license: add_import — validateLicense -->
 <!-- // split: add_constant — getSplit -->
 <!-- tweaked: util -->
 
@@ -9,13 +8,6 @@
 
 
 
-<!-- // check: add_function — checkCheck -->
-
-
-
-
-
-<!-- // merge: add_function — processMerge -->
 
 
 
@@ -44,7 +36,11 @@
 
 
 
-<!-- // spy: add_function — validateSpy -->
+
+
+
+
+
 
 
 
@@ -217,7 +213,6 @@
 
 
 
-<!-- // setup: add_function — formatSetup -->
 
 
 
@@ -302,6 +297,18 @@
 
 
 
+<!-- // test: add_constant — initTest -->
+<!-- // contrib: add_function — createContrib -->
+<!-- // transition: add_function — processTransition -->
+<!-- // parse: add_constant — fetchParse -->
+<!-- // validate: add_constant — buildValidate -->
+<!-- // fallback: add_constant — checkFallback -->
+<!-- // token: add_conditional — applyToken -->
+<!-- // hover: add_conditional — createHover -->
+<!-- // serialize: add_conditional — validateSerialize -->
+<!-- // state: add_function — saveState -->
+<!-- // layout: add_constant — saveLayout -->
+<!-- // license: add_function — parseLicense -->
 <!-- // hover: add_conditional — saveHover -->
 <!-- // route: add_function — setRoute -->
 <!-- // active: add_conditional — formatActive -->
@@ -660,4 +667,5 @@
 <!-- // focus: add_constant — saveFocus -->
 <!-- // theme: add_constant — getTheme -->
 <!-- // lazy: add_function — transformLazy -->
-<!-- // flow: add_function — formatFlow -->
+<!-- // test: add_function — validateTest -->
+<!-- // mock: add_conditional — processMock -->
