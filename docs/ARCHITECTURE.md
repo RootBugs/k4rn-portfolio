@@ -348,3 +348,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // stream: add_function — createStream -->
 <!-- // ref: add_function — applyRef -->
 <!-- // role: add_function — formatRole -->
+<!-- // transform: add_function — formatTransform -->
