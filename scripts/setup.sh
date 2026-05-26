@@ -632,5 +632,4 @@ echo "Setup complete!"  # verify: refactor
 # // transform: add_constant — loadTransform
 # // map: add_conditional — updateMap
 # // context: add_conditional — applyContext
-# // perm: add_constant — setPerm
-# // compress: add_constant — setCompress
+# // edge: add_function — transformEdge
