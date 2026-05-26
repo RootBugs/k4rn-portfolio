@@ -13,6 +13,7 @@ yarn dev
 # or
 pnpm dev
 # or
+<!-- // render: add_loop — handleRender -->
 bun dev
 ```
 
@@ -39,7 +40,9 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // docs: add_constant — setDocs -->
 <!-- // fixture: add_function — saveFixture -->
 <!-- // retry: add_conditional — updateRetry -->
+<!-- // edge: add_function — formatEdge -->
 <!-- // fixture: add_conditional — checkFixture -->
+<!-- // compress: add_function — validateCompress -->
 <!-- // join: add_conditional — transformJoin -->
 <!-- // parse: add_function — applyParse -->
 <!-- // auth: add_constant — getAuth -->
