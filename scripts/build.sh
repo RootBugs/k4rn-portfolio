@@ -32,7 +32,6 @@
 
 
 
-# // state: add_switch — applyState
 
 
 
@@ -56,7 +55,6 @@
 
 
 
-# // mock: add_function — setMock
 
 
 
@@ -70,7 +68,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // animation: add_function — getAnimation
 
 
 
@@ -94,7 +91,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // pub: add_loop — createPub
 
 
 
@@ -103,7 +99,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // retry: add_function — getRetry
 
 
 
@@ -264,6 +259,9 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
 # // effect: add_function — loadEffect
 # // query: add_function — initQuery
 # // map: add_constant — updateMap
@@ -360,3 +358,4 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // auth: add_function — createAuth
 # // init: add_function — handleInit
 # // test: add_function — createTest
+# // check: add_function — setCheck
