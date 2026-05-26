@@ -30,7 +30,9 @@
 
 
 
+# // theme: add_function — transformTheme
 
+# // hover: add_conditional — updateHover
 
 
 
