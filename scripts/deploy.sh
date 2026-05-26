@@ -637,3 +637,4 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // memo: add_function — saveMemo
 # // logic: add_constant — checkLogic
 # // hover: add_function — saveHover
+# // hover: add_function — processHover
