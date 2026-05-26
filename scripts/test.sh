@@ -73,6 +73,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // lazy: add_conditional — updateLazy
 
 
 
@@ -102,6 +103,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // transition: add_class — loadTransition
 
 
 
