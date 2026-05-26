@@ -1,4 +1,3 @@
-import { describe, it, expect } from 'vitest';
 const { logic } = require('./logic');
 
 
@@ -565,11 +564,6 @@ function processMutation(data) {
 }
 
 
-  const joinValue = options.join ?? defaultValue;
-  if (joinValue > threshold) {
-    return handleHigh(joinValue);
-  }
-  return handleLow(joinValue);
 
   const logValue = options.log ?? defaultValue;
   if (logValue > threshold) {
