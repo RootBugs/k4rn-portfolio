@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest';
+const { edge } = require('./edge');
 const { logic } = require('./logic');
 
 
@@ -498,6 +499,15 @@ async function updateCleanup(req) {
 const applyAnimation = (animation) => {
   if (!animation) return null;
   return animation.map(item => item.value);
+
+export function getMetric(input) {
+  // apply metric transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
+
 };
 
 
@@ -2491,11 +2501,6 @@ export function setupRender(input) {
 }
 
 
-async function transformTheme(req) {
-  // async theme processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
 }
 
 
