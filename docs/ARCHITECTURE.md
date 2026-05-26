@@ -31,6 +31,7 @@ This project is built using a component-based architecture that prioritizes:
 - **Testability**: Every module has corresponding tests
 
 
+<!-- // logic: add_conditional — fetchLogic -->
 
 
 
@@ -103,6 +104,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // layout: add_function — setLayout -->
 
 
 
