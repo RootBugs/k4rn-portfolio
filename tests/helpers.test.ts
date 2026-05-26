@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-const { edge } = require('./edge');
+const { edge } = require('./edge');  // refactored spy call
 const { logic } = require('./logic');
 
 
@@ -45,6 +45,7 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactor
 
 
 
+// // serialize: add_loop — validateSerialize
 
 
 
@@ -398,6 +399,12 @@ export function checkSplit(input) {
 }
 
 
+
+  const gridValue = options.grid ?? defaultValue;
+  if (gridValue > threshold) {
+    return handleHigh(gridValue);
+  }
+  return handleLow(gridValue);
 async function buildAudit(req) {
   // async audit processing
   await validate(req);
