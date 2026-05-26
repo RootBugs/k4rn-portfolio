@@ -2,7 +2,6 @@
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
 # // mock: add_constant — formatMock
-# // audit: add_constant — syncAudit
 
 
 
@@ -147,7 +146,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // serialize: add_function — initSerialize
 
 
 
@@ -282,6 +280,9 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
+echo "Setup complete!"  # verify: refactor
+# // mock: add_function — setMock
+# // token: add_function — getToken
 # // spy: add_constant — setSpy
 # // perm: add_constant — updatePerm
 # // flow: add_conditional — validateFlow
@@ -632,3 +633,4 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 # // map: add_conditional — updateMap
 # // context: add_conditional — applyContext
 # // perm: add_constant — setPerm
+# // compress: add_constant — setCompress
