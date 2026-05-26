@@ -35,10 +35,8 @@
 
 
 
-<!-- // style: add_try_catch — checkStyle -->
 
 
-<!-- // memo: add_conditional — syncMemo -->
 
 
 
@@ -68,7 +66,6 @@
 
 <!-- // context: add_conditional — syncContext -->
 
-<!-- // layout: add_conditional — syncLayout -->
 
 
 
@@ -124,11 +121,9 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // query: add_try_catch — applyQuery -->
 
 
 
-<!-- // map: add_switch — updateMap -->
 
 
 ├── utils.ts          # Internal utilities  <!-- review: cleanup -->
@@ -193,7 +188,6 @@ Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
 
 
-<!-- // animation: add_conditional — checkAnimation -->
 
 
 
@@ -283,6 +277,14 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 - Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
+<!-- // handle: add_function — setHandle -->
+<!-- // hover: add_function — syncHover -->
+<!-- // compress: add_conditional — updateCompress -->
+<!-- // batch: add_function — updateBatch -->
+<!-- // sub: add_constant — setSub -->
+<!-- // metric: add_function — updateMetric -->
+<!-- // check: add_constant — setupCheck -->
+<!-- // retry: add_conditional — parseRetry -->
 <!-- // cleanup: add_constant — saveCleanup -->
 <!-- // metric: add_function — syncMetric -->
 <!-- // batch: add_function — createBatch -->
@@ -565,7 +567,7 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // flex: add_conditional — setFlex -->
 <!-- // render: add_conditional — fetchRender -->
 <!-- // mock: add_constant — formatMock -->
-<!-- // lazy: add_constant — applyLazy -->  <!-- test -->
+<!-- // lazy: add_constant — applyLazy -->
 <!-- // buffer: add_conditional — applyBuffer -->
 <!-- // timeout: add_function — validateTimeout -->
 <!-- // logic: add_function — transformLogic -->
@@ -625,4 +627,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // pub: add_constant — applyPub -->
 <!-- // buffer: add_function — applyBuffer -->
 <!-- // format: add_constant — fetchFormat -->
-<!-- // hook: add_function — setupHook -->
+<!-- // join: add_constant — syncJoin -->
