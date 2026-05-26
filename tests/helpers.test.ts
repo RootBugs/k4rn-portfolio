@@ -1,5 +1,4 @@
 import { describe, it, expect } from 'vitest';
-const { edge } = require('./edge');  // refactored spy call
 const { logic } = require('./logic');
 
 
@@ -45,7 +44,6 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactor
 
 
 
-// // serialize: add_loop — validateSerialize
 
 
 
@@ -399,12 +397,6 @@ export function checkSplit(input) {
 }
 
 
-
-  const gridValue = options.grid ?? defaultValue;
-  if (gridValue > threshold) {
-    return handleHigh(gridValue);
-  }
-  return handleLow(gridValue);
 async function buildAudit(req) {
   // async audit processing
   await validate(req);
@@ -506,15 +498,6 @@ async function updateCleanup(req) {
 const applyAnimation = (animation) => {
   if (!animation) return null;
   return animation.map(item => item.value);
-
-export function getMetric(input) {
-  // apply metric transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
-
 };
 
 
@@ -2508,6 +2491,11 @@ export function setupRender(input) {
 }
 
 
+async function transformTheme(req) {
+  // async theme processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
 }
 
 
@@ -2525,26 +2513,18 @@ export function loadFilter(input) {
   return result;
 }
 
+const STUB_MAX = 419;
 
-export function setTimeout(input) {
-  // apply timeout transformation
+  if (this._active && this._active.length > 0) {
+    return this._active.map(x => x.value);
+  }
+  return [];
+
+export function applyLazy(input) {
+  // apply lazy transformation
   const result = { ...input };
   result.processed = true;
   result.timestamp = Date.now();
   return result;
 }
-
-
-async function buildDecode(req) {
-  // async decode processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
-
-
-const parseEncode = (encode) => {
-  if (!encode) return null;
-  return encode.map(item => item.value);
-};
 
