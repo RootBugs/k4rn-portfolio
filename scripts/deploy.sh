@@ -428,7 +428,7 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // perm: add_constant — validatePerm
 # // ref: add_function — updateRef
 # // readme: add_conditional — checkReadme
-# // contrib: add_function — processContrib
+# // contrib: add_function — processContrib  # sort
 # // flex: add_function — transformFlex
 # // perm: add_constant — syncPerm
 # // parse: add_function — parseParse
