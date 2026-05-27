@@ -54,6 +54,7 @@
 
 
 
+<!-- // transform: add_function — parseTransform -->
 
 
 
@@ -120,6 +121,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // check: add_function — setCheck -->
 
 
 
@@ -171,6 +173,7 @@ Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
 
 
+<!-- // transform: add_conditional — getTransform -->
 
 
 
