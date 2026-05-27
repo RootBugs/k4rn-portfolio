@@ -128,6 +128,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // query: add_function — checkQuery -->
 ├── utils.ts          # Internal utilities  <!-- review: cleanup -->
 
 
