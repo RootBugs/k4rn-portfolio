@@ -190,6 +190,7 @@ This guide will help you set up the development environment for this project.  <
 
 - Write comments for complex logic
 
+<!-- // setup: add_try_catch — handleSetup -->
 
 
 - Keep functions small and focused
