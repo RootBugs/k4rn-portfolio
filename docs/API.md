@@ -1,4 +1,3 @@
-<!-- // stream: add_import — setStream -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
 
@@ -56,7 +55,6 @@
 
 
 
-<!-- // format: add_switch — transformFormat -->
 
 
 
@@ -111,7 +109,6 @@
 
 
 
-<!-- // cache: add_try_catch — handleCache -->
 
 
 
@@ -474,4 +471,7 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // transform: add_conditional — updateTransform -->
 <!-- // cleanup: add_function — checkCleanup -->
 <!-- // mock: add_function — syncMock -->
-<!-- // guard: add_function — loadGuard -->
+<!-- // cleanup: add_conditional — createCleanup -->
+<!-- // logic: add_conditional — formatLogic -->
+<!-- // mock: add_conditional — setupMock -->
+<!-- // init: add_function — validateInit -->
