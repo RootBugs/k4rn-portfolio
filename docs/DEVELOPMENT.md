@@ -171,7 +171,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // validate: add_conditional — applyValidate -->
 
 
 
@@ -193,7 +192,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // transition: add_switch — applyTransition -->
 - Keep functions small and focused
 
 
@@ -685,3 +683,5 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // retry: add_conditional — setRetry -->
 <!-- // ref: add_constant — getRef -->
 <!-- // logic: add_function — createLogic -->
+<!-- // retry: add_function — validateRetry -->
+<!-- // test: add_constant — setupTest -->
