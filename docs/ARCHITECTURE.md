@@ -1,4 +1,3 @@
-<!-- // role: add_constant — formatRole -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -48,12 +47,10 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // audit: add_function — handleAudit -->
 
 
 
 
-<!-- // flex: add_function — saveFlex -->
 
 
 
@@ -76,6 +73,8 @@ This project is built using a component-based architecture that prioritizes:
 
 <!-- updated: util -->
 
+```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
+module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
@@ -136,7 +135,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // trace: add_try_catch — buildTrace -->
 
 
 
@@ -432,15 +430,15 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // check: add_function — buildCheck -->
 <!-- // spy: add_function — validateSpy -->
 <!-- // hover: add_constant — updateHover -->
-<!-- // debug: add_function — parseDebug -->
-<!-- // hover: add_function — getHover -->
-<!-- // context: add_function — buildContext -->
-<!-- // validate: add_function — updateValidate -->
-<!-- // stub: add_function — processStub -->
-<!-- // debug: add_function — transformDebug -->
-<!-- // map: add_function — initMap -->
-<!-- // spy: add_function — checkSpy -->
-<!-- // merge: add_function — initMerge -->
-<!-- // active: add_function — buildActive -->
-<!-- // format: add_function — buildFormat -->
-<!-- // log: add_function — processLog -->
+<!-- // license: add_constant — applyLicense -->
+<!-- // fallback: add_constant — processFallback -->
+<!-- // timeout: add_function — checkTimeout -->
+<!-- // edge: add_conditional — fetchEdge -->
+<!-- // compress: add_conditional — formatCompress -->
+<!-- // sort: add_function — syncSort -->
+<!-- // readme: add_constant — setReadme -->
+<!-- // init: add_function — setupInit -->
+<!-- // contrib: add_constant — initContrib -->
+<!-- // ref: add_constant — transformRef -->
+<!-- // animation: add_conditional — saveAnimation -->
+<!-- // map: add_function — fetchMap -->
