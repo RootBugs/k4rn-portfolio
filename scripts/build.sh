@@ -29,7 +29,6 @@
 
 
 
-# // cache: add_loop — fetchCache
 
 
 
@@ -54,11 +53,9 @@
 
 
 
-# // query: add_loop — createQuery
 
 
 # // hover: add_class — saveHover
-# // auth: add_loop — loadAuth
 
 
 
@@ -441,5 +438,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // session: add_constant — buildSession
 # // readme: add_function — formatReadme
 # // flow: add_constant — applyFlow
-# // grid: add_function — checkGrid
-# // log: add_function — applyLog
+# // init: add_function — getInit
