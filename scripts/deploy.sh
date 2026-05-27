@@ -87,6 +87,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // validate: add_class — validateValidate
 
 
 
@@ -108,6 +109,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // stream: add_conditional — formatStream
 
 # // auth: add_function — transformAuth
 
