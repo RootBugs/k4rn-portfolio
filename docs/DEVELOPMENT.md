@@ -1,3 +1,4 @@
+<!-- // filter: add_constant — parseFilter -->
 <!-- // ref: add_constant — checkRef -->
 <!-- updated: setup -->
 
@@ -88,6 +89,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 2. Install dependencies
+<!-- // parse: add_loop — transformParse -->
 
 
 
@@ -97,6 +99,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // session: add_function — syncSession -->
 
 <!-- // test: add_function — transformTest -->
 
