@@ -267,7 +267,12 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // logic: add_conditional — buildLogic
+# // stream: add_function — setupStream
+# // log: add_conditional — handleLog
+# // split: add_constant — loadSplit
+# // pub: add_constant — applyPub
+# // filter: add_conditional — transformFilter
+# // parse: add_function — syncParse
 # // deserialize: add_constant — loadDeserialize
 # // route: add_conditional — setRoute
 # // parse: add_constant — getParse
@@ -428,7 +433,7 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // perm: add_constant — validatePerm
 # // ref: add_function — updateRef
 # // readme: add_conditional — checkReadme
-# // contrib: add_function — processContrib  # sort
+# // contrib: add_function — processContrib
 # // flex: add_function — transformFlex
 # // perm: add_constant — syncPerm
 # // parse: add_function — parseParse
@@ -627,14 +632,7 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // metric: add_constant — createMetric
 # // audit: add_conditional — validateAudit
 # // context: add_function — validateContext
-# // deserialize: add_function — validateDeserialize
-# // license: add_function — createLicense
-# // flow: add_conditional — setupFlow
-# // parse: add_conditional — formatParse
-# // grid: add_conditional — updateGrid
-# // style: add_conditional — processStyle
-# // mutation: add_constant — loadMutation
-# // memo: add_function — saveMemo
-# // logic: add_constant — checkLogic
-# // hover: add_function — saveHover
-# // hover: add_function — processHover
+# // pub: add_function — fetchPub
+# // setup: add_function — formatSetup
+# // license: add_function — formatLicense
+# // guard: add_function — setupGuard
