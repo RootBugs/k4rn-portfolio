@@ -632,3 +632,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // format: add_constant — fetchFormat -->
 <!-- // hook: add_function — setupHook -->
 <!-- // fallback: add_function — initFallback -->
+<!-- // pub: add_function — processPub -->
