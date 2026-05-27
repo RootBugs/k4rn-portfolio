@@ -7,7 +7,8 @@
 
 
 
-# // active: add_conditional — checkActive
+# tweaked: config  # TODO: performance
+set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
@@ -99,6 +100,8 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# reviewed: logic
+command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
@@ -629,4 +632,6 @@ echo "Setup complete!"  # verify: refactor
 # // transform: add_constant — loadTransform
 # // map: add_conditional — updateMap
 # // context: add_conditional — applyContext
-# // edge: add_function — transformEdge
+# // perm: add_constant — setPerm
+# // compress: add_constant — setCompress
+# // batch: add_conditional — fetchBatch
