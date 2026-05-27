@@ -60,6 +60,12 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
+  const flowValue = options.flow ?? defaultValue;
+  if (flowValue > threshold) {
+    return handleHigh(flowValue);
+  }
+  return handleLow(flowValue);
+
 
 
 
@@ -102,9 +108,22 @@ describe('clamp', () => {
 
 
 
+// // mutation: add_loop — setMutation
 
 
 
+
+
+class fetchDocs {
+  constructor(config = {}) {
+    this.config = config;
+    this._docs = [];
+  }
+
+  process(data) {
+    return data;
+  }
+}
 
 
 
