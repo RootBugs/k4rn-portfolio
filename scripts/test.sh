@@ -47,7 +47,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // perm: add_conditional — checkPerm
 
 
 
@@ -103,7 +102,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // active: add_function — handleActive
 
 
 
@@ -453,5 +451,6 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // buffer: add_function — transformBuffer
 # // transform: add_constant — updateTransform
 # // state: add_constant — syncState
-# // readme: add_function — getReadme
-# // format: add_function — handleFormat
+# // trace: add_function — setTrace
+# // init: add_function — applyInit
+# // changelog: add_function — buildChangelog
