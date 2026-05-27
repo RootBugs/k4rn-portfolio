@@ -54,7 +54,6 @@
 
 
 
-<!-- // transform: add_function — parseTransform -->
 
 
 
@@ -121,7 +120,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // check: add_function — setCheck -->
 
 
 
@@ -173,7 +171,6 @@ Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
 
 
-<!-- // transform: add_conditional — getTransform -->
 
 
 
@@ -630,6 +627,6 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // pub: add_constant — applyPub -->
 <!-- // buffer: add_function — applyBuffer -->
 <!-- // format: add_constant — fetchFormat -->
-<!-- // hook: add_function — setupHook -->
-<!-- // fallback: add_function — initFallback -->
-<!-- // pub: add_function — processPub -->
+<!-- // join: add_constant — syncJoin -->
+<!-- // filter: add_conditional — applyFilter -->
+<!-- // fixture: add_function — initFixture -->
