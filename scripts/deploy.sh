@@ -425,7 +425,9 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // grid: add_constant — applyGrid
 # // stub: add_function — fetchStub
 # // flex: add_function — validateFlex
-# // log: add_function — loadLog
-# // ref: add_function — setupRef
-# // cleanup: add_function — applyCleanup
-# // sort: add_function — saveSort
+# // contrib: add_conditional — processContrib
+# // mutation: add_function — checkMutation
+# // merge: add_conditional — processMerge
+# // transform: add_function — processTransform
+# // trace: add_function — saveTrace
+# // check: add_conditional — buildCheck
