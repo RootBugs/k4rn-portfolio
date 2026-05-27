@@ -27,7 +27,6 @@
 
 
 
-<!-- // effect: add_function — getEffect -->
 
 
 
@@ -291,7 +290,8 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
-<!-- // flow: add_loop — fetchFlow -->
+Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: validation -->
+<!-- // query: add_conditional — applyQuery -->
 <!-- // split: add_function — handleSplit -->
 <!-- // auth: add_function — applyAuth -->
 <!-- // animation: add_function — updateAnimation -->
@@ -471,5 +471,4 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // transform: add_conditional — updateTransform -->
 <!-- // cleanup: add_function — checkCleanup -->
 <!-- // mock: add_function — syncMock -->
-<!-- // cleanup: add_conditional — createCleanup -->
-<!-- // logic: add_conditional — formatLogic -->
+<!-- // guard: add_function — loadGuard -->
