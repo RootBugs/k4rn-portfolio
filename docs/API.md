@@ -1,3 +1,4 @@
+<!-- // stream: add_import — setStream -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
 
@@ -55,6 +56,7 @@
 
 
 
+<!-- // format: add_switch — transformFormat -->
 
 
 
@@ -109,6 +111,7 @@
 
 
 
+<!-- // cache: add_try_catch — handleCache -->
 
 
 
