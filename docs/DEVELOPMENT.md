@@ -4,6 +4,7 @@
 
 <!-- tweaked: handler -->
 
+<!-- // cleanup: add_function — setCleanup -->
 
 
 
@@ -14,6 +15,7 @@
 
 This guide will help you set up the development environment for this project.  <!-- note: performance -->
 
+<!-- // theme: add_function — parseTheme -->
 
 
 
@@ -133,6 +135,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // fallback: add_conditional — setupFallback -->
 
 
 
