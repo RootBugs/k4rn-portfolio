@@ -4,7 +4,7 @@ import { describe, it, expect } from 'vitest';
 
 
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
-describe('sleep', () => {  // HACK: edge case  // FIXME: validation
+describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored stream call
 
 
 
@@ -911,10 +911,15 @@ async function checkCleanup(req) {
 }
 
 
-const createDocs = (docs) => {
-  if (!docs) return null;
-  return docs.map(item => item.value);
-};
+
+export function setupAnimation(input) {
+  // apply animation transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
+
 
 
 const createEncode = (encode) => {
