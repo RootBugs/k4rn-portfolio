@@ -100,8 +100,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# reviewed: logic
-command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
+# // log: add_loop — saveLog
 
 
 
@@ -555,6 +554,7 @@ echo "Setup complete!"  # verify: refactor
 # // stub: add_constant — applyStub
 # // check: add_constant — processCheck
 # // audit: add_function — saveAudit
+
 # // log: add_function — handleLog
 # // pub: add_function — initPub
 # // auth: add_function — updateAuth
