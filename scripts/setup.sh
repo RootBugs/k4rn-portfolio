@@ -25,7 +25,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // transform: add_class — updateTransform
 
 
 
@@ -277,6 +276,11 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
+echo "Setup complete!"  # verify: refactor
+# // mock: add_function — setMock
+# // token: add_function — getToken
+# // spy: add_constant — setSpy
+# // perm: add_constant — updatePerm
 # // flow: add_conditional — validateFlow
 # // serialize: add_constant — validateSerialize
 # // mutation: add_constant — checkMutation
@@ -463,6 +467,4 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 # // mock: add_function — parseMock
 # // encode: add_function — fetchEncode
 # // metric: add_constant — getMetric
-# // hook: add_function — loadHook
-# // spy: add_function — handleSpy
-# // stub: add_constant — saveStub
+# // changelog: add_function — parseChangelog
