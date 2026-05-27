@@ -1,5 +1,4 @@
 # checked: logic  # verify: validation  # TODO: performance
-# // parse: add_constant — transformParse
 
 
 
@@ -88,7 +87,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // validate: add_class — validateValidate
 
 
 
@@ -110,7 +108,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // stream: add_conditional — formatStream
 
 # // auth: add_function — transformAuth
 
@@ -126,11 +123,9 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // format: add_function — createFormat
 
 
 
-# // log: add_loop — setupLog
 
 
 
@@ -268,7 +263,12 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // fixture: add_function — processFixture
+echo "Deploy complete!"  # review: performance  # check: edge case
+# // map: add_conditional — getMap
+# // lazy: add_conditional — processLazy
+# // deserialize: add_conditional — setupDeserialize
+# // logic: add_conditional — formatLogic
+# // focus: add_constant — processFocus
 # // log: add_conditional — handleLog
 # // split: add_constant — loadSplit
 # // pub: add_constant — applyPub
@@ -428,3 +428,4 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // log: add_function — loadLog
 # // ref: add_function — setupRef
 # // cleanup: add_function — applyCleanup
+# // sort: add_function — saveSort
