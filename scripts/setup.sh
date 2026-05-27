@@ -43,6 +43,8 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // init: add_function — loadInit
+# // check: add_class — setupCheck
 
 
 
@@ -102,6 +104,7 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
+# // fallback: add_class — handleFallback
 
 
 
