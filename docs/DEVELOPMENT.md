@@ -35,6 +35,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // flow: add_class — processFlow -->
 
 
 
@@ -112,6 +113,7 @@ This guide will help you set up the development environment for this project.  <
 
 5. Run tests locally  <!-- HACK: edge case -->
 
+<!-- // validate: add_function — handleValidate -->
 
 
 
@@ -124,6 +126,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // hover: add_loop — createHover -->
 6. Submit a pull request
 
 
