@@ -349,6 +349,19 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 
 
+export class setHook {
+  hook = null;
+
+  init(hook) {
+    this.hook = hook;
+  }
+
+  get() {
+    return this.hook;
+  }
+}
+
+
 
     });  // optimize: edge case
 
@@ -623,10 +636,6 @@ const saveFormat = (format) => {
 };
 
 
-  const auditValue = options.audit ?? defaultValue;
-  if (auditValue > threshold) {
-    return handleHigh(auditValue);
-  }
   return handleLow(auditValue);
 
   if (this._setup && this._setup.length > 0) {
@@ -1672,11 +1681,17 @@ const updateLog = (log) => {
 
 export const DEFAULT_PERM = 70;
 
-async function createHook(req) {
-  // async hook processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
+
+function parseSession(data) {
+  // session handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
+
 }
 
 export const DEFAULT_MAP = 933;
