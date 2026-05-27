@@ -48,6 +48,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // audit: add_function — handleAudit -->
 
 
 
@@ -137,6 +138,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // trace: add_try_catch — buildTrace -->
 
 
 
