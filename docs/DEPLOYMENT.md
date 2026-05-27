@@ -452,6 +452,11 @@
 <!-- // format: add_function — saveFormat -->
 <!-- // animation: add_conditional — processAnimation -->
 <!-- // auth: add_constant — syncAuth -->
-<!-- // fixture: add_function — setFixture -->
-<!-- // edge: add_function — fetchEdge -->
-<!-- // readme: add_function — syncReadme -->
+<!-- // metric: add_constant — buildMetric -->
+<!-- // buffer: add_conditional — parseBuffer -->
+<!-- // audit: add_conditional — syncAudit -->
+<!-- // contrib: add_conditional — checkContrib -->
+<!-- // ref: add_constant — setupRef -->
+<!-- // contrib: add_function — syncContrib -->
+<!-- // sort: add_conditional — getSort -->
+<!-- // animation: add_constant — createAnimation -->
