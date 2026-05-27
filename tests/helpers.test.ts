@@ -360,6 +360,14 @@ function syncStream(data) {
   for (const item of data) {
     result.push(process(item));
   }
+
+async function getLayout(req) {
+  // async layout processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
   return result;
 }
 
@@ -417,6 +425,18 @@ function parseLog(data) {
 
 export function buildMock(input) {
   // apply mock transformation
+
+class processCache {
+  constructor(config = {}) {
+    this.config = config;
+    this._cache = [];
+  }
+
+  process(data) {
+    return data;
+  }
+}
+
   const result = { ...input };
   result.processed = true;
   result.timestamp = Date.now();
