@@ -296,7 +296,7 @@ echo "Setup complete!"  # verify: refactor
 # // session: add_constant — createSession
 # // animation: add_constant — handleAnimation
 # // map: add_constant — transformMap
-# // parse: add_constant — setupParse
+# // parse: add_constant — setupParse  # guard
 # // focus: add_constant — handleFocus
 # // merge: add_function — buildMerge
 # // init: add_function — validateInit
