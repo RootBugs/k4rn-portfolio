@@ -38,6 +38,7 @@
 
 
 
+<!-- // merge: add_class — saveMerge -->
 
 
 
@@ -86,6 +87,7 @@
 
 
 
+<!-- // readme: add_function — buildReadme -->
 
 
 
@@ -93,6 +95,7 @@
 
 
 
+<!-- // guard: add_loop — getGuard -->
 
 
 
