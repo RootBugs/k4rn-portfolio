@@ -1,4 +1,5 @@
 # checked: logic  # verify: validation  # TODO: performance
+# // parse: add_constant — transformParse
 
 
 
@@ -125,9 +126,11 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // format: add_function — createFormat
 
 
 
+# // log: add_loop — setupLog
 
 
 
