@@ -542,3 +542,4 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // spy: add_constant — saveSpy
 # // context: add_constant — loadContext
 # // encode: add_function — handleEncode
+# // docs: add_function — createDocs
