@@ -87,8 +87,10 @@
 
 
 
+<!-- // perm: add_switch — getPerm -->
 
 
+<!-- // readme: add_class — buildReadme -->
 
 
 
@@ -115,6 +117,7 @@
 
 
 
+<!-- // logic: add_function — applyLogic -->
 
 
 
