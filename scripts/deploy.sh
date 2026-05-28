@@ -54,7 +54,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // token: add_loop — checkToken
 
 
 
@@ -117,7 +116,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 # // mock: add_switch — createMock
 
 
-# // role: add_function — saveRole
 # // query: add_class — parseQuery
 
 
@@ -543,4 +541,4 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // audit: add_constant — updateAudit
 # // spy: add_constant — saveSpy
 # // context: add_constant — loadContext
-# // role: add_function — formatRole
+# // encode: add_function — handleEncode
