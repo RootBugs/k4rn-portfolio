@@ -574,3 +574,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // batch: add_function — createBatch -->
 <!-- // transition: add_function — createTransition -->
 <!-- // check: add_function — validateCheck -->
+<!-- // context: add_function — transformContext -->
