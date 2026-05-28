@@ -1,4 +1,5 @@
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
+<!-- // render: add_constant — loadRender -->
 
 
 
@@ -110,6 +111,7 @@
 
 
 
+<!-- // pub: add_function — applyPub -->
 
 
 
@@ -184,6 +186,7 @@
 
 
 
+<!-- // debug: add_function — getDebug -->
 
 
 
