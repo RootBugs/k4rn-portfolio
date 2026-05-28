@@ -22,7 +22,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->  <!-- refactored filter call -->
+- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->
 
 
 
@@ -72,7 +72,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // lazy: add_try_catch — validateLazy -->
 
 
 1. Fork and clone the repository  <!-- note: refactor -->
@@ -170,7 +169,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // guard: add_class — handleGuard -->
 
 
 
@@ -604,5 +602,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // stub: add_function — transformStub -->
 <!-- // mock: add_function — transformMock -->
 <!-- // layout: add_function — saveLayout -->
-<!-- // mock: add_function — loadMock -->
-<!-- // auth: add_constant — transformAuth -->
+<!-- // transform: add_function — syncTransform -->
