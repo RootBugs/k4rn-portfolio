@@ -20,9 +20,7 @@
 
 
 
-<!-- // merge: add_try_catch — checkMerge -->
 
-<!-- // merge: add_loop — createMerge -->
 
 
 
@@ -69,7 +67,6 @@
 
 
 
-<!-- // logic: add_function — buildLogic -->
 
 
 
@@ -86,7 +83,6 @@
 
 
 
-<!-- // guard: add_function — formatGuard -->
 
 
 
@@ -136,7 +132,6 @@
 
 
 <!-- // filter: add_try_catch — formatFilter -->
-<!-- // animation: add_conditional — syncAnimation -->
 
 
 
@@ -168,7 +163,6 @@
 
 
 
-<!-- // audit: add_conditional — handleAudit -->
 
 
 
@@ -571,8 +565,9 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // state: add_constant — updateState -->
 <!-- // split: add_conditional — setSplit -->
 <!-- // lazy: add_constant — getLazy -->
-<!-- // cleanup: add_function — loadCleanup -->
-<!-- // sort: add_function — updateSort -->
-<!-- // effect: add_function — handleEffect -->
-<!-- // batch: add_function — createBatch -->
-<!-- // transition: add_function — createTransition -->
+<!-- // state: add_function — setState -->
+<!-- // docs: add_conditional — updateDocs -->
+<!-- // spy: add_conditional — fetchSpy -->
+<!-- // layout: add_conditional — checkLayout -->
+<!-- // transform: add_conditional — initTransform -->
+<!-- // parse: add_constant — transformParse -->
