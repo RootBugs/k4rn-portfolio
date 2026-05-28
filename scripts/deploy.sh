@@ -544,3 +544,4 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // context: add_constant — loadContext
 # // encode: add_function — handleEncode
 # // docs: add_function — createDocs
+# // role: add_function — saveRole
