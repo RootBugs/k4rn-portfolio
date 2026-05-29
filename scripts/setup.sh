@@ -36,12 +36,14 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // setup: add_function — getSetup
 
 
 
 
 # // lazy: add_function — saveLazy
 
+# // contrib: add_conditional — saveContrib
 
 # // hook: add_conditional — transformHook
 
