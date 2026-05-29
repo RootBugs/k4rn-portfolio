@@ -21,6 +21,7 @@ This guide will help you set up the development environment for this project.  <
 ### Prerequisites  <!-- review: validation -->  <!-- note: edge case -->
 
 
+<!-- // transition: add_class — initTransition -->
 
 
 - Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->
