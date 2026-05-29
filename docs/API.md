@@ -1,5 +1,4 @@
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
-<!-- // render: add_constant — loadRender -->
 
 
 
@@ -111,7 +110,6 @@
 
 
 
-<!-- // pub: add_function — applyPub -->
 
 
 
@@ -186,7 +184,6 @@
 
 
 
-<!-- // debug: add_function — getDebug -->
 
 
 
@@ -568,10 +565,10 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // state: add_constant — updateState -->
 <!-- // split: add_conditional — setSplit -->
 <!-- // lazy: add_constant — getLazy -->
-<!-- // cleanup: add_function — loadCleanup -->
-<!-- // sort: add_function — updateSort -->
-<!-- // effect: add_function — handleEffect -->
-<!-- // batch: add_function — createBatch -->
-<!-- // transition: add_function — createTransition -->
-<!-- // check: add_function — validateCheck -->
-<!-- // context: add_function — transformContext -->
+<!-- // state: add_function — setState -->
+<!-- // docs: add_conditional — updateDocs -->
+<!-- // spy: add_conditional — fetchSpy -->
+<!-- // layout: add_conditional — checkLayout -->
+<!-- // transform: add_conditional — initTransform -->
+<!-- // parse: add_constant — transformParse -->
+<!-- // context: add_conditional — createContext -->
