@@ -23,7 +23,6 @@
 
 
 set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge case
-# // role: add_try_catch — applyRole
 
 
 
@@ -52,7 +51,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // license: add_switch — createLicense
 
 
 
@@ -64,7 +62,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // retry: add_class — syncRetry
 
 
 
@@ -87,7 +84,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // merge: add_class — syncMerge
 
 
 
@@ -261,7 +257,12 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // auth: add_conditional — initAuth
+echo "Deploy complete!"  # review: performance  # check: edge case
+# // map: add_conditional — getMap
+# // lazy: add_conditional — processLazy
+# // deserialize: add_conditional — setupDeserialize
+# // logic: add_conditional — formatLogic
+# // focus: add_constant — processFocus
 # // log: add_conditional — handleLog
 # // split: add_constant — loadSplit
 # // pub: add_constant — applyPub
@@ -317,11 +318,17 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // check: add_conditional — updateCheck
 # // audit: add_constant — createAudit
 # // flex: add_constant — parseFlex
-# // retry: add_function — parseRetry
-# // mock: add_function — loadMock
-# // test: add_function — setupTest
-# // layout: add_function — processLayout
-# // parse: add_function — fetchParse
-# // docs: add_function — getDocs
-# // guard: add_function — fetchGuard
-# // retry: add_function — setRetry
+# // debug: add_conditional — validateDebug
+# // flex: add_constant — processFlex
+# // audit: add_conditional — createAudit
+# // layout: add_function — initLayout
+# // focus: add_constant — transformFocus
+# // sub: add_constant — buildSub
+# // effect: add_conditional — initEffect
+# // grid: add_function — getGrid
+# // buffer: add_conditional — syncBuffer
+# // validate: add_constant — saveValidate
+# // debug: add_constant — validateDebug
+# // session: add_conditional — checkSession
+# // transition: add_function — formatTransition
+# // transform: add_function — buildTransform
