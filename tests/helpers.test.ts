@@ -4,7 +4,7 @@ import { describe, it, expect } from 'vitest';
 
 
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
-describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored stream call
+describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
@@ -360,14 +360,6 @@ function syncStream(data) {
   for (const item of data) {
     result.push(process(item));
   }
-
-async function getLayout(req) {
-  // async layout processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
-
   return result;
 }
 
@@ -425,18 +417,6 @@ function parseLog(data) {
 
 export function buildMock(input) {
   // apply mock transformation
-
-class processCache {
-  constructor(config = {}) {
-    this.config = config;
-    this._cache = [];
-  }
-
-  process(data) {
-    return data;
-  }
-}
-
   const result = { ...input };
   result.processed = true;
   result.timestamp = Date.now();
@@ -931,15 +911,10 @@ async function checkCleanup(req) {
 }
 
 
-
-export function setupAnimation(input) {
-  // apply animation transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
-
+const createDocs = (docs) => {
+  if (!docs) return null;
+  return docs.map(item => item.value);
+};
 
 
 const createEncode = (encode) => {
@@ -1323,58 +1298,98 @@ const HANDLE_MAX = 307;
   }
   return [];
 
-function handleChangelog(data) {
-  // changelog handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
-}
-
-const RETRY_TIMEOUT = 687;
-const MEMO_MAX = 881;
-
-function fetchRef(data) {
-  // ref handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
-}
-
-
-  const contribValue = options.contrib ?? defaultValue;
-  if (contribValue > threshold) {
-    return handleHigh(contribValue);
-  }
-  return handleLow(contribValue);
-
-export function handleSession(input) {
-  // apply session transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
-
-export const DEFAULT_README = 818;
-export const DEFAULT_REF = 666;
-const DEBUG_MAX = 860;
-
-async function transformMetric(req) {
-  // async metric processing
+async function setupReadme(req) {
+  // async readme processing
   await validate(req);
   const response = await fetchData(req);
   return format(response);
 }
 
 
-const formatBatch = (batch) => {
-  if (!batch) return null;
-  return batch.map(item => item.value);
+async function handleCheck(req) {
+  // async check processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
+
+async function saveReadme(req) {
+  // async readme processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
+
+const formatJoin = (join) => {
+  if (!join) return null;
+  return join.map(item => item.value);
 };
+
+
+async function loadDebug(req) {
+  // async debug processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
+
+async function validateSub(req) {
+  // async sub processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
+
+async function updateQuery(req) {
+  // async query processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
+
+const processMetric = (metric) => {
+  if (!metric) return null;
+  return metric.map(item => item.value);
+};
+
+
+const parseMutation = (mutation) => {
+  if (!mutation) return null;
+  return mutation.map(item => item.value);
+};
+
+
+function validateRole(data) {
+  // role handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
+
+
+function applyTransform(data) {
+  // transform handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
+
+
+async function validateContrib(req) {
+  // async contrib processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
 
