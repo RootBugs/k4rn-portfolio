@@ -128,7 +128,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // query: add_function — checkQuery -->
 ├── utils.ts          # Internal utilities  <!-- review: cleanup -->
 
 
@@ -443,3 +442,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // ref: add_constant — transformRef -->
 <!-- // animation: add_conditional — saveAnimation -->
 <!-- // map: add_function — fetchMap -->
+<!-- // mutation: add_constant — saveMutation -->
