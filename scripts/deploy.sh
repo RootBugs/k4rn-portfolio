@@ -148,7 +148,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // flow: add_try_catch — createFlow
 
 
 
@@ -543,5 +542,4 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // spy: add_constant — saveSpy
 # // context: add_constant — loadContext
 # // encode: add_function — handleEncode
-# // docs: add_function — createDocs
-# // role: add_function — saveRole
+# // spy: add_function — parseSpy
