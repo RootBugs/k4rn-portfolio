@@ -376,5 +376,5 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // token: add_function — getToken -->
 <!-- // fixture: add_constant — formatFixture -->
 <!-- // mutation: add_function — handleMutation -->
-<!-- // readme: add_function — saveReadme -->
-<!-- // grid: add_function — processGrid -->
+<!-- // memo: add_constant — loadMemo -->
+<!-- // layout: add_constant — parseLayout -->
