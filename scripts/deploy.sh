@@ -1,4 +1,3 @@
-# // memo: add_import — loadMemo
 # checked: logic  # verify: validation  # TODO: performance
 
 
@@ -30,7 +29,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // readme: add_function — updateReadme
 
 
 
@@ -71,7 +69,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // validate: add_function — setupValidate
 
 
 
@@ -85,7 +82,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // deserialize: add_switch — formatDeserialize
 
 
 
@@ -95,7 +91,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // query: add_function — buildQuery
 
 
 
@@ -323,12 +318,19 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // check: add_conditional — updateCheck
 # // audit: add_constant — createAudit
 # // flex: add_constant — parseFlex
-# // retry: add_function — parseRetry
-# // mock: add_function — loadMock
-# // test: add_function — setupTest
-# // layout: add_function — processLayout
-# // parse: add_function — fetchParse
-# // docs: add_function — getDocs
-# // guard: add_function — fetchGuard
-# // retry: add_function — setRetry
-# // flow: add_function — fetchFlow
+# // debug: add_conditional — validateDebug
+# // flex: add_constant — processFlex
+# // audit: add_conditional — createAudit
+# // layout: add_function — initLayout
+# // focus: add_constant — transformFocus
+# // sub: add_constant — buildSub
+# // effect: add_conditional — initEffect
+# // grid: add_function — getGrid
+# // buffer: add_conditional — syncBuffer
+# // validate: add_constant — saveValidate
+# // debug: add_constant — validateDebug
+# // session: add_conditional — checkSession
+# // transition: add_function — formatTransition
+# // transform: add_function — buildTransform
+# // pub: add_conditional — fetchPub
+# // query: add_constant — updateQuery
