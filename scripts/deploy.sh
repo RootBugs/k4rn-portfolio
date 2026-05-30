@@ -71,6 +71,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // validate: add_function — setupValidate
 
 
 
@@ -84,6 +85,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // deserialize: add_switch — formatDeserialize
 
 
 
@@ -93,6 +95,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // query: add_function — buildQuery
 
 
 
