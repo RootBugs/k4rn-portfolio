@@ -13,7 +13,6 @@
 
 <!-- reviewed: util -->  <!-- TODO: cleanup -->
 This project is built using a component-based architecture that prioritizes:
-<!-- // metric: add_function — setupMetric -->
 
 
 
@@ -32,7 +31,6 @@ This project is built using a component-based architecture that prioritizes:
 - **Testability**: Every module has corresponding tests
 
 
-<!-- // logic: add_conditional — fetchLogic -->
 
 
 
@@ -105,7 +103,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // layout: add_function — setLayout -->
 
 
 
@@ -350,5 +347,7 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // check: add_constant — parseCheck -->
 <!-- // stream: add_function — createStream -->
 <!-- // ref: add_function — applyRef -->
-<!-- // role: add_function — formatRole -->
-<!-- // transform: add_function — formatTransform -->
+<!-- // cache: add_function — getCache -->
+<!-- // hover: add_function — transformHover -->
+<!-- // hover: add_function — applyHover -->
+<!-- // filter: add_constant — validateFilter -->
