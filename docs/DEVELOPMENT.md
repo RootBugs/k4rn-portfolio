@@ -4,7 +4,6 @@
 
 <!-- tweaked: handler -->
 
-<!-- // cleanup: add_function — setCleanup -->
 
 
 
@@ -15,7 +14,6 @@
 
 This guide will help you set up the development environment for this project.  <!-- note: performance -->
 
-<!-- // theme: add_function — parseTheme -->
 
 
 
@@ -35,7 +33,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // flow: add_class — processFlow -->
 
 
 
@@ -74,7 +71,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // debug: add_function — handleDebug -->
 
 
 1. Fork and clone the repository  <!-- note: refactor -->
@@ -114,7 +110,6 @@ This guide will help you set up the development environment for this project.  <
 
 5. Run tests locally  <!-- HACK: edge case -->
 
-<!-- // validate: add_function — handleValidate -->
 
 
 
@@ -127,7 +122,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // hover: add_loop — createHover -->
 6. Submit a pull request
 
 
@@ -139,7 +133,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // fallback: add_conditional — setupFallback -->
 
 
 
@@ -308,6 +301,12 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
+<!-- // sub: add_function — processSub -->
+<!-- // transition: add_constant — applyTransition -->
+<!-- // audit: add_conditional — saveAudit -->
+<!-- // session: add_constant — parseSession -->
+<!-- // stub: add_conditional — applyStub -->
+<!-- // layout: add_constant — saveLayout -->
 <!-- // audit: add_constant — setAudit -->
 <!-- // query: add_conditional — buildQuery -->
 <!-- // docs: add_conditional — initDocs -->
@@ -460,7 +459,6 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // compress: add_function — setCompress -->
 <!-- // theme: add_conditional — buildTheme -->
 <!-- // stream: add_conditional — validateStream -->
-
 <!-- // perm: add_constant — transformPerm -->
 <!-- // changelog: add_constant — initChangelog -->
 <!-- // token: add_constant — createToken -->
@@ -500,3 +498,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // retry: add_function — initRetry -->
 <!-- // session: add_function — handleSession -->
 <!-- // hover: add_function — buildHover -->
+<!-- // map: add_function — setMap -->
