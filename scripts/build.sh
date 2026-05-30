@@ -360,3 +360,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // test: add_function — createTest
 # // check: add_function — setCheck
 # // stub: add_function — saveStub
+# // lazy: add_function — applyLazy
