@@ -499,3 +499,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // session: add_function — handleSession -->
 <!-- // hover: add_function — buildHover -->
 <!-- // map: add_function — setMap -->
+<!-- // format: add_function — checkFormat -->
