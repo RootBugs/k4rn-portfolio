@@ -74,6 +74,7 @@
 <!-- tweaked: logic -->  <!-- optimize: refactor -->  <!-- review: validation -->  <!-- FIXME: edge case -->  <!-- review: refactor -->  <!-- FIXME: performance -->
 
 
+<!-- // debug: add_function — buildDebug -->
 
 
 
@@ -97,6 +98,8 @@
 
 
 
+<!-- // context: add_switch — transformContext -->
+<!-- // filter: add_loop — setupFilter -->
 
 
 
