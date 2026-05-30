@@ -19,6 +19,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // compress: add_function — createCompress -->
 ### Prerequisites  <!-- review: validation -->  <!-- note: edge case -->
 
 
