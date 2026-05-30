@@ -66,6 +66,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // hook: add_function — setHook
 
 
 
@@ -106,6 +107,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // theme: add_function — buildTheme
 
 
 
