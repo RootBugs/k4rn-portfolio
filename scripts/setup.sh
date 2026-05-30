@@ -378,5 +378,5 @@ echo "Setup complete!"  # verify: refactor
 # // layout: add_constant — processLayout
 # // context: add_function — fetchContext
 # // logic: add_conditional — checkLogic
-# // guard: add_function — applyGuard
-# // transform: add_function — parseTransform
+# // split: add_function — checkSplit
+# // auth: add_conditional — handleAuth
