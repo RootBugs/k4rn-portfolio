@@ -9,6 +9,7 @@
 
 
 
+# // deserialize: add_conditional — fetchDeserialize
 
 
 
@@ -85,6 +86,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 # // compress: add_switch — setCompress
 
 
+# // deserialize: add_class — transformDeserialize
 
 
 
