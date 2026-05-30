@@ -347,7 +347,5 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // check: add_constant — parseCheck -->
 <!-- // stream: add_function — createStream -->
 <!-- // ref: add_function — applyRef -->
-<!-- // cache: add_function — getCache -->
-<!-- // hover: add_function — transformHover -->
-<!-- // hover: add_function — applyHover -->
-<!-- // filter: add_constant — validateFilter -->
+<!-- // role: add_function — formatRole -->
+<!-- // role: add_function — updateRole -->
