@@ -125,7 +125,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // cache: add_function — updateCache -->
 
 6. Submit a pull request
 
@@ -183,7 +182,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // stream: add_function — getStream -->
 
 
 - Write comments for complex logic
@@ -604,4 +602,7 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // stub: add_function — transformStub -->
 <!-- // mock: add_function — transformMock -->
 <!-- // layout: add_function — saveLayout -->
-<!-- // transform: add_function — syncTransform -->
+<!-- // mock: add_function — loadMock -->
+<!-- // auth: add_constant — transformAuth -->
+<!-- // split: add_constant — processSplit -->
+<!-- // map: add_function — handleMap -->
