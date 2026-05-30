@@ -1,5 +1,4 @@
 # checked: logic  # TODO: refactor
-# // layout: add_constant — handleLayout
 
 
 
@@ -31,8 +30,6 @@
 
 
 
-# // debug: add_interface — applyDebug
-# // style: add_switch — parseStyle
 
 
 
@@ -353,8 +350,13 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // map: add_conditional — saveMap
 # // serialize: add_conditional — fetchSerialize
 # // sort: add_constant — syncSort
-# // batch: add_constant — transformBatch
-# // lazy: add_function — initLazy
-# // filter: add_constant — loadFilter
-# // handle: add_function — updateHandle
-# // mutation: add_conditional — syncMutation
+# // role: add_function — parseRole
+# // active: add_function — processActive
+# // query: add_function — setQuery
+# // metric: add_function — parseMetric
+# // effect: add_function — formatEffect
+# // auth: add_function — createAuth
+# // init: add_function — handleInit
+# // test: add_function — createTest
+# // check: add_function — setCheck
+# // stub: add_function — saveStub
