@@ -17,7 +17,6 @@
 
 
 
-<!-- // merge: add_function — handleMerge -->
 
 
 
@@ -37,10 +36,8 @@
 
 
 
-<!-- // effect: add_try_catch — setupEffect -->
 
 
-<!-- // merge: add_class — saveMerge -->
 
 
 
@@ -89,7 +86,6 @@
 
 
 
-<!-- // readme: add_function — buildReadme -->
 
 
 
@@ -97,7 +93,6 @@
 
 
 
-<!-- // guard: add_loop — getGuard -->
 
 
 
@@ -465,3 +460,4 @@
 <!-- // contrib: add_function — syncContrib -->
 <!-- // sort: add_conditional — getSort -->
 <!-- // animation: add_constant — createAnimation -->
+<!-- // fixture: add_constant — parseFixture -->
