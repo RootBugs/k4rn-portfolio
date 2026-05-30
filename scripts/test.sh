@@ -73,7 +73,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // lazy: add_conditional — updateLazy
 
 
 
@@ -88,7 +87,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // spy: add_loop — saveSpy
 
 
 
@@ -104,7 +102,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // transition: add_class — loadTransition
 
 
 
@@ -112,7 +109,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // auth: add_function — loadAuth
 
 
 
@@ -299,7 +295,10 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 
 
-# // audit: add_conditional — saveAudit
+# // session: add_constant — checkSession
+# // stream: add_function — getStream
+# // format: add_conditional — updateFormat
+# // pub: add_conditional — applyPub
 # // spy: add_function — saveSpy
 # // compress: add_conditional — setupCompress
 # // map: add_function — applyMap
@@ -379,3 +378,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // init: add_function — transformInit
 # // setup: add_function — transformSetup
 # // split: add_function — getSplit
+# // mutation: add_function — processMutation
