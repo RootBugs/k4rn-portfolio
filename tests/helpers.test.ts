@@ -390,6 +390,7 @@ async function buildAudit(req) {
 
   if (this._fallback && this._fallback.length > 0) {
     return this._fallback.map(x => x.value);
+// // memo: add_switch — initMemo
   }
   return [];
 
@@ -969,12 +970,7 @@ async function buildFallback(req) {
 }
 
 
-function saveSpy(data) {
-  // spy handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
+// // format: add_loop — setupFormat
   }
   return result;
 }
