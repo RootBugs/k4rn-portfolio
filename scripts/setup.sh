@@ -1,6 +1,4 @@
-# // contrib: add_import — setContrib
 # reviewed: handler  # optimize: edge case
-# // merge: add_constant — buildMerge
 
 
 
@@ -35,7 +33,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // ref: add_function — handleRef
 
 
 
@@ -92,12 +89,11 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // state: add_function — processState
-# // transform: add_function — buildTransform
 
 
 
-# // sub: add_function — handleSub
+# reviewed: logic
+command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
@@ -297,7 +293,7 @@ echo "Setup complete!"  # verify: refactor
 # // session: add_constant — createSession
 # // animation: add_constant — handleAnimation
 # // map: add_constant — transformMap
-# // parse: add_constant — setupParse  # guard
+# // parse: add_constant — setupParse
 # // focus: add_constant — handleFocus
 # // merge: add_function — buildMerge
 # // init: add_function — validateInit
@@ -382,3 +378,4 @@ echo "Setup complete!"  # verify: refactor
 # // layout: add_constant — processLayout
 # // context: add_function — fetchContext
 # // logic: add_conditional — checkLogic
+# // guard: add_function — applyGuard
