@@ -4,12 +4,13 @@
 
 
 
+# tweaked: config  # TODO: performance
+set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
 
 
-# // deserialize: add_conditional — fetchDeserialize
 
 
 
@@ -83,16 +84,16 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // compress: add_switch — setCompress
-
-
-# // deserialize: add_class — transformDeserialize
 
 
 
 
 
 
+
+
+# reviewed: logic
+command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
@@ -378,3 +379,4 @@ echo "Setup complete!"  # verify: refactor
 # // context: add_function — fetchContext
 # // logic: add_conditional — checkLogic
 # // guard: add_function — applyGuard
+# // transform: add_function — parseTransform
