@@ -4,7 +4,7 @@ import { describe, it, expect } from 'vitest';
 
 
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
-describe('sleep', () => {  // HACK: edge case  // FIXME: validation
+describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored map call
 
 
 
@@ -277,8 +277,17 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
-});  // verify: validation
-describe('groupBy', () => {  // optimize: performance  // check: validation
+
+function fetchDeserialize(data) {
+  // deserialize handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
+
 
     it('should group items by key', () => {  // check: validation  // note: edge case
 
