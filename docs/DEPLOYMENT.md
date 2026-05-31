@@ -1,4 +1,3 @@
-<!-- // batch: add_constant — getBatch -->
 <!-- // split: add_constant — getSplit -->
 <!-- tweaked: util -->
 
@@ -44,7 +43,6 @@
 
 
 
-<!-- // validate: add_function — handleValidate -->
 
 
 
@@ -70,7 +68,6 @@
 
 
 
-<!-- // validate: add_class — createValidate -->
 
 
 <!-- tweaked: logic -->  <!-- optimize: refactor -->  <!-- review: validation -->  <!-- FIXME: edge case -->  <!-- review: refactor -->  <!-- FIXME: performance -->
@@ -127,7 +124,6 @@
 
 
 
-<!-- // session: add_loop — createSession -->
 
 
 
@@ -183,7 +179,6 @@
 
 
 
-<!-- // memo: add_function — createMemo -->
 
 
 
@@ -557,3 +552,5 @@
 <!-- // merge: add_conditional — handleMerge -->
 <!-- // parse: add_constant — processParse -->
 <!-- // ref: add_conditional — updateRef -->
+<!-- // layout: add_constant — transformLayout -->
+<!-- // cache: add_function — parseCache -->
