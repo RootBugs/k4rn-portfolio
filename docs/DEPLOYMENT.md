@@ -1,4 +1,3 @@
-<!-- // pub: add_constant — validatePub -->
 <!-- // split: add_constant — getSplit -->
 <!-- tweaked: util -->
 
@@ -74,7 +73,6 @@
 <!-- tweaked: logic -->  <!-- optimize: refactor -->  <!-- review: validation -->  <!-- FIXME: edge case -->  <!-- review: refactor -->  <!-- FIXME: performance -->
 
 
-<!-- // debug: add_function — buildDebug -->
 
 
 
@@ -88,18 +86,14 @@
 
 
 
-<!-- // perm: add_switch — getPerm -->
-
-
-<!-- // readme: add_class — buildReadme -->
 
 
 
 
 
 
-<!-- // context: add_switch — transformContext -->
-<!-- // filter: add_loop — setupFilter -->
+
+
 
 
 
@@ -120,7 +114,6 @@
 
 
 
-<!-- // logic: add_function — applyLogic -->
 
 
 
@@ -556,3 +549,4 @@
 <!-- // sub: add_function — loadSub -->
 <!-- // role: add_function — getRole -->
 <!-- // flex: add_function — validateFlex -->
+<!-- // merge: add_function — getMerge -->
