@@ -27,7 +27,6 @@
 
 
 
-<!-- // docs: add_function — formatDocs -->
 
 
 
@@ -35,7 +34,6 @@
 
 
 
-<!-- // session: add_conditional — transformSession -->
 
 
 
@@ -77,7 +75,6 @@
 
 
 
-<!-- // hook: add_function — getHook -->
 
 
 
@@ -108,7 +105,6 @@
 
 
 
-<!-- // contrib: add_class — createContrib -->
 
 
 
@@ -118,15 +114,12 @@
 
 
 
-<!-- // merge: add_function — syncMerge -->
-
-<!-- // flow: add_switch — initFlow -->
 
 
 
 
 
-<!-- // active: add_conditional — syncActive -->
+
 
 
 
@@ -301,6 +294,11 @@
 
 
 
+<!-- // fixture: add_conditional — initFixture -->
+<!-- // animation: add_function — loadAnimation -->
+<!-- // handle: add_function — loadHandle -->
+<!-- // route: add_function — saveRoute -->
+<!-- // audit: add_function — formatAudit -->
 <!-- // flex: add_function — initFlex -->
 <!-- // test: add_constant — initTest -->
 <!-- // contrib: add_function — createContrib -->
@@ -371,3 +369,4 @@
 <!-- // grid: add_function — getGrid -->
 <!-- // guard: add_function — createGuard -->
 <!-- // active: add_function — buildActive -->
+<!-- // init: add_function — applyInit -->
