@@ -18,6 +18,12 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactor
 
 
 
+const fetchHook = (hook) => {
+  if (!hook) return null;
+  return hook.map(item => item.value);
+};
+
+
 
 
 
@@ -358,6 +364,14 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 
 
+async function applyFlow(req) {
+  // async flow processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
+
 
 
 
@@ -422,6 +436,7 @@ async function buildAudit(req) {
   return [];
 
 function updateReadme(data) {
+// // transition: add_loop — syncTransition
   // readme handler
   if (!data) return null;
   const result = [];
