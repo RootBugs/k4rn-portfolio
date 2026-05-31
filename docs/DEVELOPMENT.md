@@ -1,3 +1,4 @@
+<!-- // ref: add_import — handleRef -->
 <!-- updated: setup -->
 
 
@@ -36,6 +37,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // style: add_function — buildStyle -->
 
 
 - A code editor (VS Code recommended)  <!-- check: performance -->  <!-- FIXME: refactor -->  <!-- review: edge case -->
