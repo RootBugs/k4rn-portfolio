@@ -139,6 +139,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // format: add_conditional — initFormat -->
 ├── constants.ts      # Module constants  <!-- optimize: performance -->
 
 
