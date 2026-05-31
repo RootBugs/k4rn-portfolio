@@ -2,11 +2,9 @@
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
 # // mock: add_constant — formatMock
-# // changelog: add_constant — initChangelog
 
 
 
-# // check: add_function — processCheck
 
 
 # tweaked: config  # TODO: performance
@@ -46,7 +44,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 # // hook: add_conditional — transformHook
 
-# // deserialize: add_try_catch — applyDeserialize
 
 
 
@@ -88,7 +85,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // edge: add_loop — updateEdge
 
 
 
@@ -284,6 +280,9 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
+echo "Setup complete!"  # verify: refactor
+# // mock: add_function — setMock
+# // token: add_function — getToken
 # // spy: add_constant — setSpy
 # // perm: add_constant — updatePerm
 # // flow: add_conditional — validateFlow
@@ -412,7 +411,7 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 # // theme: add_conditional — checkTheme
 # // hover: add_function — parseHover
 # // active: add_function — setActive
-# // lazy: add_conditional — processLazy  # merge
+# // lazy: add_conditional — processLazy
 # // fixture: add_constant — applyFixture
 # // map: add_conditional — transformMap
 # // spy: add_conditional — saveSpy
@@ -534,3 +533,4 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 # // query: add_function — parseQuery
 # // compress: add_function — fetchCompress
 # // effect: add_function — fetchEffect
+# // token: add_function — setToken
