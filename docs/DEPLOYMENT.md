@@ -182,7 +182,6 @@
 
 
 
-<!-- // animation: add_try_catch — buildAnimation -->
 
 
 
@@ -297,7 +296,9 @@
 
 
 
-<!-- // logic: add_conditional — syncLogic -->
+<!-- // session: add_loop — setupSession -->
+<!-- // flex: add_function — initFlex -->
+<!-- // test: add_constant — initTest -->
 <!-- // contrib: add_function — createContrib -->
 <!-- // transition: add_function — processTransition -->
 <!-- // parse: add_constant — fetchParse -->
@@ -553,3 +554,5 @@
 <!-- // ref: add_conditional — updateRef -->
 <!-- // layout: add_constant — transformLayout -->
 <!-- // cache: add_function — parseCache -->
+<!-- // validate: add_constant — createValidate -->
+<!-- // active: add_function — handleActive -->
