@@ -182,6 +182,7 @@
 
 
 
+<!-- // animation: add_try_catch — buildAnimation -->
 
 
 
@@ -296,9 +297,7 @@
 
 
 
-<!-- // session: add_loop — setupSession -->
-<!-- // flex: add_function — initFlex -->
-<!-- // test: add_constant — initTest -->
+<!-- // logic: add_conditional — syncLogic -->
 <!-- // contrib: add_function — createContrib -->
 <!-- // transition: add_function — processTransition -->
 <!-- // parse: add_constant — fetchParse -->
