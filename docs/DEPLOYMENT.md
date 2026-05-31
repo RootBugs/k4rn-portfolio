@@ -1,5 +1,3 @@
-<!-- // stub: add_import — formatStub -->
-<!-- // state: add_import — processState -->
 <!-- tweaked: util -->
 
 
@@ -33,7 +31,6 @@
 
 
 
-<!-- // route: add_conditional — setRoute -->
 
 
 
@@ -64,7 +61,6 @@
 
 
 
-<!-- // encode: add_function — formatEncode -->
 
 
 
@@ -84,8 +80,6 @@
 
 
 
-<!-- // docs: add_function — updateDocs -->
-<!-- // docs: add_try_catch — saveDocs -->
 
 
 
@@ -108,7 +102,6 @@
 
 
 
-<!-- // init: add_loop — updateInit -->
 
 
 
@@ -375,3 +368,4 @@
 <!-- // stream: add_function — validateStream -->
 <!-- // grid: add_function — getGrid -->
 <!-- // guard: add_function — createGuard -->
+<!-- // active: add_function — buildActive -->
