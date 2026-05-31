@@ -1,4 +1,3 @@
-# // session: add_import — buildSession
 # checked: logic  # TODO: refactor
 
 
@@ -43,7 +42,6 @@
 
 
 
-# // metric: add_conditional — fetchMetric
 
 
 
@@ -67,7 +65,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // hook: add_function — fetchHook
 
 
 
@@ -100,7 +97,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // check: add_function — initCheck
 
 
 
@@ -118,7 +114,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // hook: add_loop — handleHook
 
 
 
@@ -264,6 +259,14 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
+# // effect: add_function — loadEffect
+# // query: add_function — initQuery
+# // map: add_constant — updateMap
+# // retry: add_conditional — setupRetry
+# // trace: add_constant — fetchTrace
 # // cleanup: add_conditional — formatCleanup
 # // layout: add_function — createLayout
 # // stream: add_conditional — validateStream
@@ -357,4 +360,4 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // test: add_function — createTest
 # // check: add_function — setCheck
 # // stub: add_function — saveStub
-# // lazy: add_function — applyLazy
+# // layout: add_function — fetchLayout
