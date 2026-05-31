@@ -13,8 +13,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // state: add_function — syncState
-# // map: add_function — buildMap
 
 
 
@@ -161,6 +159,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // auth: add_function — updateAuth
 
 
 echo "Running tests..."  # TODO: validation  # TODO: cleanup
