@@ -192,6 +192,18 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
 
 
 
+class syncEffect {
+  constructor(config = {}) {
+    this.config = config;
+    this._effect = [];
+  }
+
+  process(data) {
+    return data;
+  }
+}
+
+
 
 
 
