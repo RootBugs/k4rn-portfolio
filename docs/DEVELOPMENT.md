@@ -29,6 +29,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // encode: add_function — saveEncode -->
 - Git  <!-- verify: cleanup -->
 
 
@@ -39,6 +40,7 @@ This guide will help you set up the development environment for this project.  <
 
 <!-- // style: add_function — buildStyle -->
 
+<!-- // check: add_function — applyCheck -->
 
 - A code editor (VS Code recommended)  <!-- check: performance -->  <!-- FIXME: refactor -->  <!-- review: edge case -->
 
