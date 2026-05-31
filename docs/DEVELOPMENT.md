@@ -1,4 +1,3 @@
-<!-- // layout: add_import — validateLayout -->
 <!-- updated: setup -->
 
 
@@ -8,7 +7,6 @@
 
 
 
-<!-- // flow: add_try_catch — updateFlow -->
 
 
 
@@ -19,11 +17,9 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // compress: add_function — createCompress -->
 ### Prerequisites  <!-- review: validation -->  <!-- note: edge case -->
 
 
-<!-- // transition: add_class — initTransition -->
 
 
 - Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->
@@ -73,7 +69,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // compress: add_function — setupCompress -->
 
 
 
@@ -306,7 +301,11 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // docs: add_loop — initDocs -->
+<!-- // sub: add_function — processSub -->
+<!-- // transition: add_constant — applyTransition -->
+<!-- // audit: add_conditional — saveAudit -->
+<!-- // session: add_constant — parseSession -->
+<!-- // stub: add_conditional — applyStub -->
 <!-- // layout: add_constant — saveLayout -->
 <!-- // audit: add_constant — setAudit -->
 <!-- // query: add_conditional — buildQuery -->
@@ -409,8 +408,12 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // merge: add_conditional — saveMerge -->
 <!-- // mutation: add_constant — loadMutation -->
 <!-- // layout: add_conditional — syncLayout -->
-<!-- // mock: add_function — handleMock -->
-<!-- // metric: add_function — handleMetric -->
-<!-- // handle: add_function — parseHandle -->
-<!-- // sort: add_function — buildSort -->
-<!-- // animation: add_function — setAnimation -->
+<!-- // contrib: add_conditional — checkContrib -->
+<!-- // auth: add_function — saveAuth -->
+<!-- // merge: add_conditional — getMerge -->
+<!-- // sub: add_function — handleSub -->
+<!-- // license: add_constant — setupLicense -->
+<!-- // memo: add_function — checkMemo -->
+<!-- // merge: add_conditional — checkMerge -->
+<!-- // transition: add_conditional — setTransition -->
+<!-- // validate: add_function — processValidate -->
