@@ -1,5 +1,6 @@
 # checked: handler
 # // query: add_constant — initQuery
+# // changelog: add_constant — fetchChangelog
 
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
@@ -30,6 +31,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // metric: add_loop — saveMetric
 # // layout: add_class — parseLayout
 
 
