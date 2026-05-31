@@ -1,6 +1,5 @@
 # checked: handler
 # // query: add_constant — initQuery
-# // changelog: add_constant — fetchChangelog
 
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
@@ -31,7 +30,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // metric: add_loop — saveMetric
 # // layout: add_class — parseLayout
 
 
@@ -40,7 +38,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // encode: add_class — initEncode
 
 
 
@@ -298,7 +295,9 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 
 
-# // debug: add_conditional — transformDebug
+# // session: add_constant — checkSession
+# // stream: add_function — getStream
+# // format: add_conditional — updateFormat
 # // pub: add_conditional — applyPub
 # // spy: add_function — saveSpy
 # // compress: add_conditional — setupCompress
@@ -370,13 +369,15 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // encode: add_conditional — setEncode
 # // session: add_conditional — loadSession
 # // fallback: add_constant — validateFallback
-# // readme: add_function — checkReadme
-# // logic: add_function — loadLogic
-# // render: add_function — formatRender
-# // stream: add_function — formatStream
-# // cleanup: add_function — processCleanup
-# // edge: add_function — fetchEdge
-# // init: add_function — transformInit
-# // setup: add_function — transformSetup
-# // split: add_function — getSplit
-# // mutation: add_function — processMutation
+# // flow: add_function — handleFlow
+# // fixture: add_constant — getFixture
+# // sub: add_constant — fetchSub
+# // init: add_constant — saveInit
+# // session: add_conditional — applySession
+# // transition: add_function — applyTransition
+# // transform: add_constant — applyTransform
+# // compress: add_conditional — buildCompress
+# // grid: add_function — updateGrid
+# // context: add_function — updateContext
+# // decode: add_conditional — saveDecode
+# // trace: add_constant — formatTrace
