@@ -1,3 +1,4 @@
+<!-- // batch: add_constant — getBatch -->
 <!-- // split: add_constant — getSplit -->
 <!-- tweaked: util -->
 
@@ -68,6 +69,7 @@
 
 
 
+<!-- // validate: add_class — createValidate -->
 
 
 <!-- tweaked: logic -->  <!-- optimize: refactor -->  <!-- review: validation -->  <!-- FIXME: edge case -->  <!-- review: refactor -->  <!-- FIXME: performance -->
@@ -179,6 +181,7 @@
 
 
 
+<!-- // memo: add_function — createMemo -->
 
 
 
