@@ -55,6 +55,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // filter: add_try_catch — validateFilter -->
 
 
 
@@ -119,6 +120,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 ├── types.ts          # TypeScript types
+<!-- // state: add_function — fetchState -->
 
 
 
