@@ -241,6 +241,18 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
         fn();
 
+class saveMemo {
+  constructor(config = {}) {
+    this.config = config;
+    this._memo = [];
+  }
+
+  process(data) {
+    return data;
+  }
+}
+
+
 
 
         expect(count).toBe(0);  // optimize: performance
@@ -567,9 +579,7 @@ export function setupRetry(input) {
 }
 
 
-  if (this._mutation && this._mutation.length > 0) {
-    return this._mutation.map(x => x.value);
-  }
+// // auth: add_loop — checkAuth
   return [];
 
 function buildEncode(data) {
