@@ -139,7 +139,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // format: add_conditional — initFormat -->
 ├── constants.ts      # Module constants  <!-- optimize: performance -->
 
 
@@ -531,3 +530,5 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // hover: add_conditional — checkHover -->
 <!-- // memo: add_constant — applyMemo -->
 <!-- // state: add_function — formatState -->
+<!-- // theme: add_function — applyTheme -->
+<!-- // readme: add_constant — fetchReadme -->
