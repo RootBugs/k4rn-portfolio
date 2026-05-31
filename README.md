@@ -31,6 +31,7 @@ To learn more about Next.js, take a look at the following resources:
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 <!-- // transition: add_function — loadTransition -->
+<!-- // deserialize: add_class — checkDeserialize -->
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
@@ -72,14 +73,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // pub: add_conditional — setPub -->
 <!-- // grid: add_function — fetchGrid -->
 
-<!-- // split: add_constant — initSplit -->
-<!-- // cleanup: add_function — fetchCleanup -->
-<!-- // docs: add_function — syncDocs -->
-<!-- // animation: add_function — fetchAnimation -->
-<!-- // style: add_constant — fetchStyle -->
-<!-- // log: add_function — setupLog -->
-<!-- // decode: add_constant — syncDecode -->
-<!-- // render: add_conditional — createRender -->
 <!-- // flow: add_conditional — updateFlow -->
 <!-- // fixture: add_constant — updateFixture -->
 <!-- // timeout: add_conditional — applyTimeout -->
