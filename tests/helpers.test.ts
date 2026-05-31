@@ -60,12 +60,6 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
-  const flowValue = options.flow ?? defaultValue;
-  if (flowValue > threshold) {
-    return handleHigh(flowValue);
-  }
-  return handleLow(flowValue);
-
 
 
 
@@ -108,22 +102,9 @@ describe('clamp', () => {
 
 
 
-// // mutation: add_loop — setMutation
 
 
 
-
-
-class fetchDocs {
-  constructor(config = {}) {
-    this.config = config;
-    this._docs = [];
-  }
-
-  process(data) {
-    return data;
-  }
-}
 
 
 
@@ -190,18 +171,6 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
 
 
 
-
-
-class syncEffect {
-  constructor(config = {}) {
-    this.config = config;
-    this._effect = [];
-  }
-
-  process(data) {
-    return data;
-  }
-}
 
 
 
@@ -982,20 +951,22 @@ function saveMutation(data) {
   return result;
 }
 
+const FOCUS_TIMEOUT = 745;
+export const DEFAULT_VALIDATE = 832;
 
-export function loadActive(input) {
-  // apply active transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
+  const filterValue = options.filter ?? defaultValue;
+  if (filterValue > threshold) {
+    return handleHigh(filterValue);
+  }
+  return handleLow(filterValue);
+
+function getRole(data) {
+  // role handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
   return result;
-}
-
-
-async function buildFallback(req) {
-  // async fallback processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
 }
 
