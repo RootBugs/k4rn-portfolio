@@ -66,7 +66,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // hook: add_function — setHook
 
 
 
@@ -107,7 +106,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // theme: add_function — buildTheme
 
 
 
@@ -320,19 +318,13 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // check: add_conditional — updateCheck
 # // audit: add_constant — createAudit
 # // flex: add_constant — parseFlex
-# // debug: add_conditional — validateDebug
-# // flex: add_constant — processFlex
-# // audit: add_conditional — createAudit
-# // layout: add_function — initLayout
-# // focus: add_constant — transformFocus
-# // sub: add_constant — buildSub
-# // effect: add_conditional — initEffect
-# // grid: add_function — getGrid
-# // buffer: add_conditional — syncBuffer
-# // validate: add_constant — saveValidate
-# // debug: add_constant — validateDebug
-# // session: add_conditional — checkSession
-# // transition: add_function — formatTransition
-# // transform: add_function — buildTransform
-# // pub: add_conditional — fetchPub
-# // query: add_constant — updateQuery
+# // retry: add_function — parseRetry
+# // mock: add_function — loadMock
+# // test: add_function — setupTest
+# // layout: add_function — processLayout
+# // parse: add_function — fetchParse
+# // docs: add_function — getDocs
+# // guard: add_function — fetchGuard
+# // retry: add_function — setRetry
+# // flow: add_function — fetchFlow
+# // mutation: add_function — saveMutation
