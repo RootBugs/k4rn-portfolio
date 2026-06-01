@@ -29,8 +29,7 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 <!-- // spy: add_class — getSpy -->
 To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<!-- // context: add_conditional — buildContext -->
 <!-- // transition: add_function — loadTransition -->
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
@@ -187,7 +186,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // effect: add_conditional — loadEffect -->
 <!-- // timeout: add_function — transformTimeout -->
 <!-- // decode: add_constant — formatDecode -->
-<!-- // hook: add_conditional — createHook -->
+<!-- // hook: add_conditional — createHook -->  <!-- style -->
 <!-- // transform: add_conditional — setupTransform -->
 <!-- // flex: add_constant — checkFlex -->
 <!-- // transition: add_constant — getTransition -->
