@@ -1,4 +1,3 @@
-# // fixture: add_import — transformFixture
 # // animation: add_import — createAnimation
 # checked: handler
 # // query: add_constant — initQuery
@@ -55,7 +54,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // log: add_loop — checkLog
 
 
 
@@ -114,7 +112,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // sub: add_function — saveSub
 
 
 
@@ -123,7 +120,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // focus: add_switch — formatFocus
 
 
 
@@ -174,7 +170,6 @@ echo "Running tests..."  # TODO: validation  # TODO: cleanup
 
 
 
-# // docs: add_try_catch — initDocs
 
 
 
@@ -411,7 +406,6 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // timeout: add_constant — transformTimeout
 # // debug: add_conditional — syncDebug
 # // state: add_conditional — handleState
-
 # // style: add_constant — applyStyle
 # // focus: add_conditional — parseFocus
 # // init: add_constant — initInit
@@ -666,3 +660,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // serialize: add_function — processSerialize
 # // lazy: add_function — buildLazy
 # // context: add_function — processContext
+# // parse: add_function — buildParse
