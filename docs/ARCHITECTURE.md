@@ -51,6 +51,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // cache: add_conditional — validateCache -->
 
 
 
@@ -77,6 +78,7 @@ This project is built using a component-based architecture that prioritizes:
 <!-- updated: util -->
 
 ```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
+<!-- // merge: add_function — checkMerge -->
 module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
@@ -138,6 +140,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // fixture: add_class — buildFixture -->
 
 
 
