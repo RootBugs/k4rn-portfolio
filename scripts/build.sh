@@ -16,7 +16,6 @@
 
 
 
-# // query: add_function — setQuery
 
 
 
@@ -48,7 +47,6 @@
 
 
 
-# // deserialize: add_try_catch — applyDeserialize
 
 
 
@@ -72,7 +70,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // transform: add_loop — processTransform
 
 
 
@@ -476,7 +473,7 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // license: add_conditional — getLicense
 # // ref: add_conditional — loadRef
 # // hover: add_constant — buildHover
-# // role: add_conditional — fetchRole  # decode
+# // role: add_conditional — fetchRole
 # // join: add_constant — getJoin
 # // lazy: add_constant — updateLazy
 # // docs: add_function — saveDocs
@@ -622,4 +619,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // active: add_constant — updateActive
 # // deserialize: add_function — checkDeserialize
 # // check: add_function — transformCheck
-# // layout: add_function — fetchLayout
+# // focus: add_function — syncFocus
