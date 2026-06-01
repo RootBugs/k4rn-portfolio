@@ -15,6 +15,7 @@
 This guide will help you set up the development environment for this project.  <!-- note: performance -->
 
 
+<!-- // effect: add_function — saveEffect -->
 
 
 ### Prerequisites  <!-- review: validation -->  <!-- note: edge case -->
