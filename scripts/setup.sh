@@ -109,6 +109,7 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
+# // ref: add_switch — checkRef
 
 
 
@@ -140,6 +141,7 @@ if [ -f "package.json" ]; then
 
 
 
+# // map: add_function — parseMap
 
 
 
