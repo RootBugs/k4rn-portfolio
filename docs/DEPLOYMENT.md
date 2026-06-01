@@ -460,4 +460,7 @@
 <!-- // contrib: add_function — syncContrib -->
 <!-- // sort: add_conditional — getSort -->
 <!-- // animation: add_constant — createAnimation -->
-<!-- // mock: add_function — handleMock -->
+<!-- // fixture: add_constant — parseFixture -->
+<!-- // contrib: add_constant — transformContrib -->
+<!-- // role: add_constant — loadRole -->
+<!-- // style: add_conditional — saveStyle -->
