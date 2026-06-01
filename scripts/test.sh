@@ -104,6 +104,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // license: add_function — processLicense
 
 
 
