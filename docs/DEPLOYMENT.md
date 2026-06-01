@@ -71,7 +71,6 @@
 
 <!-- tweaked: logic -->  <!-- optimize: refactor -->  <!-- review: validation -->  <!-- FIXME: edge case -->  <!-- review: refactor -->  <!-- FIXME: performance -->
 
-<!-- // transition: add_conditional — transformTransition -->
 
 
 
@@ -465,3 +464,4 @@
 <!-- // contrib: add_constant — transformContrib -->
 <!-- // role: add_constant — loadRole -->
 <!-- // style: add_conditional — saveStyle -->
+<!-- // metric: add_function — checkMetric -->
