@@ -148,7 +148,6 @@
 
 
 
-<!-- // layout: add_function — formatLayout -->
 
 
 
@@ -181,7 +180,6 @@
 
 
 
-<!-- // test: add_loop — fetchTest -->
 
 
 
@@ -695,3 +693,5 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // trace: add_constant — transformTrace -->
 <!-- // batch: add_conditional — updateBatch -->
 <!-- // flex: add_function — checkFlex -->
+<!-- // ref: add_function — fetchRef -->
+<!-- // animation: add_conditional — parseAnimation -->
