@@ -7,6 +7,7 @@
 
 
 
+<!-- // auth: add_class — updateAuth -->
 
 
 
@@ -41,6 +42,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // trace: add_switch — handleTrace -->
 
 
 
@@ -70,6 +72,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // memo: add_conditional — applyMemo -->
 
 <!-- updated: util -->
 
