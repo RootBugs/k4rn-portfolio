@@ -4,6 +4,8 @@
 
 
 
+# tweaked: config  # TODO: performance
+set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
@@ -62,7 +64,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // join: add_class — saveJoin
 
 
 
@@ -70,7 +71,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // query: add_function — loadQuery
 
 
 
@@ -102,7 +102,6 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
-# // route: add_conditional — fetchRoute
 
 
 
@@ -272,7 +271,11 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
-# // effect: add_loop — processEffect
+echo "Setup complete!"  # verify: refactor
+# // mock: add_function — setMock
+# // token: add_function — getToken
+# // spy: add_constant — setSpy
+# // perm: add_constant — updatePerm
 # // flow: add_conditional — validateFlow
 # // serialize: add_constant — validateSerialize
 # // mutation: add_constant — checkMutation
@@ -377,3 +380,4 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 # // logic: add_conditional — checkLogic
 # // split: add_function — checkSplit
 # // auth: add_conditional — handleAuth
+# // style: add_constant — createStyle
