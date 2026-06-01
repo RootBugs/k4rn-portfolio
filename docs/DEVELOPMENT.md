@@ -15,7 +15,6 @@
 This guide will help you set up the development environment for this project.  <!-- note: performance -->
 
 
-<!-- // effect: add_function — saveEffect -->
 
 
 ### Prerequisites  <!-- review: validation -->  <!-- note: edge case -->
@@ -486,31 +485,18 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // buffer: add_conditional — getBuffer -->
 <!-- // contrib: add_conditional — buildContrib -->
 <!-- // sort: add_constant — buildSort -->
-<!-- // debug: add_constant — createDebug -->
-<!-- // stream: add_constant — formatStream -->
-<!-- // state: add_conditional — processState -->
-<!-- // serialize: add_function — processSerialize -->
-<!-- // ref: add_conditional — setRef -->
-<!-- // sort: add_function — createSort -->
-<!-- // init: add_function — saveInit -->
-<!-- // init: add_conditional — parseInit -->
-<!-- // token: add_function — processToken -->
-<!-- // session: add_function — syncSession -->
-<!-- // style: add_conditional — saveStyle -->
-<!-- // join: add_constant — validateJoin -->
-<!-- // flow: add_conditional — formatFlow -->
-<!-- // logic: add_conditional — applyLogic -->
-<!-- // cache: add_conditional — loadCache -->
-<!-- // contrib: add_function — handleContrib -->
-<!-- // encode: add_function — createEncode -->
-<!-- // sort: add_conditional — loadSort -->
-<!-- // ref: add_constant — syncRef -->
-<!-- // cleanup: add_function — transformCleanup -->
-<!-- // guard: add_function — formatGuard -->
-<!-- // mock: add_conditional — saveMock -->
-<!-- // hook: add_conditional — transformHook -->
-<!-- // stream: add_constant — transformStream -->
-<!-- // context: add_constant — fetchContext -->
-<!-- // cache: add_constant — syncCache -->
-<!-- // focus: add_constant — loadFocus -->
-<!-- // debug: add_constant — applyDebug -->
+<!-- // format: add_function — processFormat -->
+<!-- // ref: add_function — setRef -->
+<!-- // serialize: add_function — validateSerialize -->
+<!-- // guard: add_function — setGuard -->
+<!-- // merge: add_function — saveMerge -->
+<!-- // compress: add_function — getCompress -->
+<!-- // docs: add_function — updateDocs -->
+<!-- // focus: add_function — validateFocus -->
+<!-- // sub: add_function — updateSub -->
+<!-- // transition: add_function — loadTransition -->
+<!-- // retry: add_function — initRetry -->
+<!-- // session: add_function — handleSession -->
+<!-- // hover: add_function — buildHover -->
+<!-- // map: add_function — setMap -->
+<!-- // edge: add_function — setEdge -->
