@@ -43,8 +43,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // init: add_function — loadInit
-# // check: add_class — setupCheck
 
 
 
@@ -104,7 +102,6 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
-# // fallback: add_class — handleFallback
 
 
 
@@ -470,4 +467,7 @@ echo "Setup complete!"  # verify: refactor
 # // mock: add_function — parseMock
 # // encode: add_function — fetchEncode
 # // metric: add_constant — getMetric
-# // changelog: add_function — parseChangelog
+# // hook: add_function — loadHook
+# // spy: add_function — handleSpy
+# // stub: add_constant — saveStub
+# // hover: add_conditional — setupHover
