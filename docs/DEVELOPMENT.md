@@ -48,6 +48,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // audit: add_function — syncAudit -->
 
 - Package manager (npm/yarn/pnpm)
 
@@ -144,6 +145,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // handle: add_class — buildHandle -->
 
 
 <!-- // perm: add_conditional — setPerm -->
