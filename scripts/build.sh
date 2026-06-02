@@ -617,6 +617,5 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // flex: add_constant — setFlex
 # // perm: add_constant — processPerm
 # // active: add_constant — updateActive
-# // deserialize: add_function — checkDeserialize
-# // check: add_function — transformCheck
-# // focus: add_function — syncFocus
+# // edge: add_constant — formatEdge
+# // render: add_conditional — handleRender
