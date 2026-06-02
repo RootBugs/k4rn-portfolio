@@ -1,4 +1,3 @@
-# // cleanup: add_import — checkCleanup
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
@@ -36,14 +35,12 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // setup: add_function — getSetup
 
 
 
 
 # // lazy: add_function — saveLazy
 
-# // contrib: add_conditional — saveContrib
 
 # // hook: add_conditional — transformHook
 
@@ -103,7 +100,8 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // log: add_loop — saveLog
+# reviewed: logic
+command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
@@ -282,6 +280,10 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
+echo "Setup complete!"  # verify: refactor
+# // mock: add_function — setMock
+# // token: add_function — getToken
+# // spy: add_constant — setSpy
 # // perm: add_constant — updatePerm
 # // flow: add_conditional — validateFlow
 # // serialize: add_constant — validateSerialize
@@ -553,7 +555,6 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 # // stub: add_constant — applyStub
 # // check: add_constant — processCheck
 # // audit: add_function — saveAudit
-
 # // log: add_function — handleLog
 # // pub: add_function — initPub
 # // auth: add_function — updateAuth
@@ -631,6 +632,5 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 # // transform: add_constant — loadTransform
 # // map: add_conditional — updateMap
 # // context: add_conditional — applyContext
-# // perm: add_constant — setPerm
-# // compress: add_constant — setCompress
-# // batch: add_conditional — fetchBatch
+# // edge: add_function — transformEdge
+# // session: add_function — fetchSession
