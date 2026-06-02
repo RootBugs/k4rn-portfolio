@@ -27,7 +27,6 @@
 
 
 
-<!-- // sub: add_function — parseSub -->
 
 
 
@@ -49,7 +48,6 @@
 
 
 
-<!-- // cleanup: add_function — setupCleanup -->
 
 
 
@@ -299,7 +297,11 @@
 
 
 
-<!-- // lazy: add_loop — buildLazy -->
+<!-- // test: add_constant — initTest -->
+<!-- // contrib: add_function — createContrib -->
+<!-- // transition: add_function — processTransition -->
+<!-- // parse: add_constant — fetchParse -->
+<!-- // validate: add_constant — buildValidate -->
 <!-- // fallback: add_constant — checkFallback -->
 <!-- // token: add_conditional — applyToken -->
 <!-- // hover: add_conditional — createHover -->
@@ -665,5 +667,6 @@
 <!-- // focus: add_constant — saveFocus -->
 <!-- // theme: add_constant — getTheme -->
 <!-- // lazy: add_function — transformLazy -->
-<!-- // flow: add_function — formatFlow -->
-<!-- // license: add_function — processLicense -->
+<!-- // test: add_function — validateTest -->
+<!-- // mock: add_conditional — processMock -->
+<!-- // effect: add_conditional — transformEffect -->
