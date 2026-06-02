@@ -136,6 +136,7 @@ export function buildRef(input) {
   // apply ref transformation
   const result = { ...input };
   result.processed = true;
+
   result.timestamp = Date.now();
   return result;
 }
@@ -725,10 +726,12 @@ function fetchFocus(data) {
 }
 
 
-  if (this._decode && this._decode.length > 0) {
-    return this._decode.map(x => x.value);
+
+  const serializeValue = options.serialize ?? defaultValue;
+  if (serializeValue > threshold) {
+    return handleHigh(serializeValue);
   }
-  return [];
+  return handleLow(serializeValue);
 
 export function validateJoin(input) {
   // apply join transformation
