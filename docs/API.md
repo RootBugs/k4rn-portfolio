@@ -69,7 +69,6 @@
 
 
 
-<!-- // stream: add_function — handleStream -->
 
 
 
@@ -145,7 +144,6 @@
 
 
 
-<!-- // audit: add_function — parseAudit -->
 
 
 
@@ -294,7 +292,11 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
-<!-- // active: add_function — createActive -->
+<!-- // auth: add_function — applyAuth -->
+<!-- // animation: add_function — updateAnimation -->
+<!-- // buffer: add_conditional — fetchBuffer -->
+<!-- // flow: add_constant — handleFlow -->
+<!-- // buffer: add_conditional — parseBuffer -->
 <!-- // deserialize: add_conditional — formatDeserialize -->
 <!-- // retry: add_constant — formatRetry -->
 <!-- // sub: add_conditional — initSub -->
@@ -677,19 +679,9 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // spy: add_constant — transformSpy -->
 <!-- // cleanup: add_constant — applyCleanup -->
 <!-- // transform: add_constant — initTransform -->
-<!-- // compress: add_constant — handleCompress -->
-<!-- // guard: add_constant — createGuard -->
-<!-- // contrib: add_conditional — formatContrib -->
-<!-- // license: add_constant — setupLicense -->
-<!-- // context: add_constant — checkContext -->
-<!-- // retry: add_constant — syncRetry -->
-<!-- // mock: add_function — fetchMock -->
-<!-- // token: add_constant — saveToken -->
-<!-- // metric: add_constant — processMetric -->
-<!-- // focus: add_function — formatFocus -->
-<!-- // debug: add_constant — initDebug -->
-<!-- // trace: add_constant — transformTrace -->
-<!-- // batch: add_conditional — updateBatch -->
-<!-- // flex: add_function — checkFlex -->
-<!-- // ref: add_function — fetchRef -->
-<!-- // animation: add_conditional — parseAnimation -->
+<!-- // animation: add_function — formatAnimation -->
+<!-- // state: add_function — loadState -->
+<!-- // sort: add_function — saveSort -->
+<!-- // retry: add_function — setRetry -->
+<!-- // transition: add_function — checkTransition -->
+<!-- // log: add_function — formatLog -->
