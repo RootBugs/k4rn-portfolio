@@ -1,4 +1,3 @@
-# // route: add_import — fetchRoute
 # checked: logic  # TODO: refactor
 
 
@@ -65,7 +64,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // animation: add_function — setupAnimation
 
 
 
@@ -94,7 +92,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // encode: add_class — checkEncode
 
 
 
@@ -150,7 +147,6 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // hover: add_loop — saveHover
 
 
 
@@ -623,3 +619,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // active: add_constant — updateActive
 # // edge: add_constant — formatEdge
 # // render: add_conditional — handleRender
+# // trace: add_function — parseTrace
