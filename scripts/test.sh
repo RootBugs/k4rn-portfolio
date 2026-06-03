@@ -1,5 +1,7 @@
 # checked: handler
 # // query: add_constant — initQuery
+# // lazy: add_constant — fetchLazy
+# // audit: add_constant — getAudit
 
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
@@ -16,6 +18,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // metric: add_conditional — saveMetric
 
 
 
