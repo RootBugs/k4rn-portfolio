@@ -1,10 +1,10 @@
-import { describe, it, expect } from 'vitest';
 const { log } = require('./log');
 
 
 
 
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
+import * as readme from '../utils/readme';
 describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
