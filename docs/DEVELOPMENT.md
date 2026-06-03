@@ -29,8 +29,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // encode: add_function — saveEncode -->
-- Git  <!-- verify: cleanup -->
+<!-- // buffer: add_conditional — applyBuffer -->
 
 
 
@@ -63,6 +62,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // grid: add_try_catch — saveGrid -->
 
 
 
@@ -305,8 +305,7 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // sub: add_function — processSub -->
-<!-- // transition: add_constant — applyTransition -->
+<!-- // spy: add_conditional — parseSpy -->
 <!-- // audit: add_conditional — saveAudit -->
 <!-- // session: add_constant — parseSession -->
 <!-- // stub: add_conditional — applyStub -->
