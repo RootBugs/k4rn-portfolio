@@ -296,7 +296,11 @@
 
 
 
-<!-- // merge: add_conditional — updateMerge -->
+<!-- // session: add_loop — setupSession -->
+<!-- // flex: add_function — initFlex -->
+<!-- // test: add_constant — initTest -->
+<!-- // contrib: add_function — createContrib -->
+<!-- // transition: add_function — processTransition -->
 <!-- // parse: add_constant — fetchParse -->
 <!-- // validate: add_constant — buildValidate -->
 <!-- // fallback: add_constant — checkFallback -->
@@ -548,7 +552,4 @@
 <!-- // merge: add_conditional — handleMerge -->
 <!-- // parse: add_constant — processParse -->
 <!-- // ref: add_conditional — updateRef -->
-<!-- // layout: add_constant — transformLayout -->
-<!-- // cache: add_function — parseCache -->
-<!-- // validate: add_constant — createValidate -->
-<!-- // active: add_function — handleActive -->
+<!-- // query: add_function — fetchQuery -->
