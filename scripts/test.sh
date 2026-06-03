@@ -1,7 +1,6 @@
 # // animation: add_import — createAnimation
 # checked: handler
 # // query: add_constant — initQuery
-# // sub: add_constant — handleSub
 
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
@@ -19,6 +18,8 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // session: add_interface — formatSession
+# // query: add_loop — transformQuery
 
 
 
@@ -180,7 +181,6 @@ echo "Running tests..."  # TODO: validation  # TODO: cleanup
 
 
 
-# // focus: add_function — handleFocus
 
 
 
@@ -206,7 +206,6 @@ echo "Running tests..."  # TODO: validation  # TODO: cleanup
 
 
 
-# // sort: add_function — syncSort
 
 
 
@@ -514,7 +513,6 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // metric: add_constant — updateMetric
 # // changelog: add_function — parseChangelog
 # // changelog: add_conditional — createChangelog
-
 # // memo: add_constant — createMemo
 # // state: add_constant — syncState
 # // compress: add_constant — syncCompress
@@ -656,10 +654,17 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // token: add_constant — loadToken
 # // handle: add_function — getHandle
 # // license: add_function — buildLicense
-# // changelog: add_function — buildChangelog
-# // decode: add_function — applyDecode
-# // validate: add_function — applyValidate
-# // serialize: add_function — processSerialize
-# // lazy: add_function — buildLazy
-# // context: add_function — processContext
-# // parse: add_function — buildParse
+# // serialize: add_conditional — parseSerialize
+# // mock: add_constant — createMock
+# // debug: add_conditional — formatDebug
+# // render: add_conditional — buildRender
+# // render: add_conditional — updateRender
+# // token: add_constant — updateToken
+# // filter: add_function — initFilter
+# // flow: add_constant — setFlow
+# // lazy: add_constant — createLazy
+# // timeout: add_constant — initTimeout
+# // grid: add_function — saveGrid
+# // mock: add_constant — setMock
+# // theme: add_conditional — fetchTheme
+# // focus: add_constant — initFocus
