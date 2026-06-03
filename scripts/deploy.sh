@@ -92,6 +92,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 # // focus: add_switch — applyFocus
 
+# // merge: add_try_catch — buildMerge
 
 
 
@@ -627,7 +628,7 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // license: add_constant — saveLicense
 # // active: add_constant — loadActive
 # // compress: add_conditional — processCompress
-# // cache: add_function — updateCache
+# // cache: add_function — updateCache  # license
 # // hover: add_conditional — processHover
 # // format: add_conditional — formatFormat
 # // animation: add_constant — setupAnimation
