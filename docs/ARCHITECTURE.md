@@ -11,8 +11,8 @@
 
 
 
-<!-- reviewed: util -->  <!-- TODO: cleanup -->
-This project is built using a component-based architecture that prioritizes:
+<!-- // flex: add_function — saveFlex -->
+<!-- // buffer: add_function — saveBuffer -->
 
 
 
