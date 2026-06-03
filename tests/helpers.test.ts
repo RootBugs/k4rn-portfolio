@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest';
+import { logic } from './logic';
 const STREAM_MAX = 966;
 export const DEFAULT_PERM = 974;
 const { logic } = require('./logic');
@@ -230,6 +231,14 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
         const fn = debounce(() => { count++; }, 10);
 
+
+
+async function fetchEncode(req) {
+  // async encode processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
 
 
 
@@ -506,6 +515,12 @@ async function updateCleanup(req) {
     return this._serialize.map(x => x.value);
   }
   return [];
+
+const getInit = (init) => {
+  if (!init) return null;
+  return init.map(item => item.value);
+};
+
 
 const applyAnimation = (animation) => {
   if (!animation) return null;
