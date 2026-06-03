@@ -100,7 +100,8 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // stub: add_conditional — setStub
+# reviewed: logic
+command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
@@ -631,8 +632,6 @@ echo "Setup complete!"  # verify: refactor
 # // transform: add_constant — loadTransform
 # // map: add_conditional — updateMap
 # // context: add_conditional — applyContext
-# // perm: add_constant — setPerm
-# // compress: add_constant — setCompress
-# // batch: add_conditional — fetchBatch
-# // edge: add_constant — fetchEdge
-# // effect: add_function — fetchEffect
+# // edge: add_function — transformEdge
+# // session: add_function — fetchSession
+# // cache: add_function — transformCache
