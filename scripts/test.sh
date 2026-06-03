@@ -514,6 +514,7 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // metric: add_constant — updateMetric
 # // changelog: add_function — parseChangelog
 # // changelog: add_conditional — createChangelog
+
 # // memo: add_constant — createMemo
 # // state: add_constant — syncState
 # // compress: add_constant — syncCompress
