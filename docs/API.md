@@ -54,6 +54,7 @@
 
 
 
+<!-- // debug: add_function — loadDebug -->
 
 
 
@@ -292,10 +293,7 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
-<!-- // style: add_loop — fetchStyle -->
-<!-- // buffer: add_conditional — fetchBuffer -->
-<!-- // flow: add_constant — handleFlow -->
-<!-- // buffer: add_conditional — parseBuffer -->
+<!-- // trace: add_function — createTrace -->
 <!-- // deserialize: add_conditional — formatDeserialize -->
 <!-- // retry: add_constant — formatRetry -->
 <!-- // sub: add_conditional — initSub -->
