@@ -1,6 +1,7 @@
 # // animation: add_import — createAnimation
 # checked: handler
 # // query: add_constant — initQuery
+# // sub: add_constant — handleSub
 
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
@@ -179,6 +180,7 @@ echo "Running tests..."  # TODO: validation  # TODO: cleanup
 
 
 
+# // focus: add_function — handleFocus
 
 
 
@@ -204,6 +206,7 @@ echo "Running tests..."  # TODO: validation  # TODO: cleanup
 
 
 
+# // sort: add_function — syncSort
 
 
 
