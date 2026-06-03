@@ -378,4 +378,6 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // mutation: add_function — handleMutation -->
 <!-- // memo: add_constant — loadMemo -->
 <!-- // layout: add_constant — parseLayout -->
-<!-- // format: add_function — handleFormat -->
+<!-- // transition: add_function — formatTransition -->
+<!-- // auth: add_function — getAuth -->
+<!-- // format: add_constant — parseFormat -->
