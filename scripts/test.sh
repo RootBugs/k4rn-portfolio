@@ -1,3 +1,4 @@
+# // map: add_import — checkMap
 # checked: handler
 # // query: add_constant — initQuery
 # // lazy: add_constant — fetchLazy
@@ -31,6 +32,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // context: add_interface — getContext
 
 
 # // layout: add_class — parseLayout
