@@ -572,3 +572,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // transform: add_conditional — initTransform -->
 <!-- // parse: add_constant — transformParse -->
 <!-- // context: add_conditional — createContext -->
+<!-- // timeout: add_function — loadTimeout -->
