@@ -574,3 +574,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // context: add_conditional — createContext -->
 <!-- // ref: add_constant — setRef -->
 <!-- // token: add_function — fetchToken -->
+<!-- // focus: add_function — setupFocus -->
