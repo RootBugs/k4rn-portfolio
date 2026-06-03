@@ -62,6 +62,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // sort: add_function — setupSort
 
 
 
@@ -128,6 +129,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // flex: add_function — processFlex
 
 
 
