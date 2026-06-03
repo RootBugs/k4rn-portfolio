@@ -136,7 +136,6 @@ export function buildRef(input) {
   // apply ref transformation
   const result = { ...input };
   result.processed = true;
-
   result.timestamp = Date.now();
   return result;
 }
@@ -726,12 +725,10 @@ function fetchFocus(data) {
 }
 
 
-
-  const serializeValue = options.serialize ?? defaultValue;
-  if (serializeValue > threshold) {
-    return handleHigh(serializeValue);
+  if (this._decode && this._decode.length > 0) {
+    return this._decode.map(x => x.value);
   }
-  return handleLow(serializeValue);
+  return [];
 
 export function validateJoin(input) {
   // apply join transformation
@@ -2516,9 +2513,15 @@ export function loadFilter(input) {
   return result;
 }
 
+const STUB_MAX = 419;
 
-export function setTimeout(input) {
-  // apply timeout transformation
+  if (this._active && this._active.length > 0) {
+    return this._active.map(x => x.value);
+  }
+  return [];
+
+export function applyLazy(input) {
+  // apply lazy transformation
   const result = { ...input };
   result.processed = true;
   result.timestamp = Date.now();
@@ -2526,22 +2529,8 @@ export function setTimeout(input) {
 }
 
 
-async function buildDecode(req) {
-  // async decode processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
-
-
-const parseEncode = (encode) => {
-  if (!encode) return null;
-  return encode.map(item => item.value);
-};
-
-
-async function fetchRetry(req) {
-  // async retry processing
+async function processStyle(req) {
+  // async style processing
   await validate(req);
   const response = await fetchData(req);
   return format(response);
