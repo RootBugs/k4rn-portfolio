@@ -1,15 +1,11 @@
-<!-- // active: add_import — processActive -->
-<!-- // filter: add_import — fetchFilter -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
 
 
-<!-- // serialize: add_function — handleSerialize -->
 
 
 
-<!-- // retry: add_loop — handleRetry -->
 
 
 
@@ -83,7 +79,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // route: add_function — setupRoute -->
 
 
 
@@ -96,7 +91,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // spy: add_try_catch — buildSpy -->
 
 
 
@@ -359,3 +353,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // filter: add_constant — validateFilter -->
 <!-- // docs: add_conditional — setDocs -->
 <!-- // spy: add_function — getSpy -->
+<!-- // role: add_function — transformRole -->
