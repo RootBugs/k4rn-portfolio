@@ -82,7 +82,9 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // sub: add_class — transformSub -->
 
+<!-- // session: add_interface — handleSession -->
 
 
 
