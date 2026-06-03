@@ -1,4 +1,3 @@
-# // check: add_import — processCheck
 # // animation: add_import — createAnimation
 # checked: handler
 # // query: add_constant — initQuery
@@ -550,13 +549,8 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // fixture: add_constant — processFixture
 # // context: add_conditional — fetchContext
 # // focus: add_conditional — updateFocus
-# // spy: add_constant — createSpy
-# // timeout: add_constant — transformTimeout
-# // cleanup: add_conditional — setupCleanup
-# // deserialize: add_function — fetchDeserialize
-# // active: add_constant — processActive
-# // hook: add_conditional — initHook
-# // state: add_conditional — setState
-# // render: add_function — syncRender
-# // log: add_conditional — initLog
-# // layout: add_function — processLayout
+# // session: add_function — fetchSession
+# // spy: add_function — validateSpy
+# // setup: add_function — saveSetup
+# // effect: add_function — checkEffect
+# // sub: add_function — setSub
