@@ -4,7 +4,7 @@ import { describe, it, expect } from 'vitest';
 
 
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
-describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored auth call  // refactored cache call  // refactored sub call  // refactored pub call
+describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored auth call  // refactored cache call  // refactored sub call
 
 
 
@@ -16,12 +16,6 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactor
 
 
 
-
-
-const fetchHook = (hook) => {
-  if (!hook) return null;
-  return hook.map(item => item.value);
-};
 
 
 
@@ -198,15 +192,6 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
 
         expect(id1).not.toBe(id2);
 
-export function saveStub(input) {
-  // apply stub transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
-
-
 
 
 
@@ -246,18 +231,6 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
         fn();
-
-class saveMemo {
-  constructor(config = {}) {
-    this.config = config;
-    this._memo = [];
-  }
-
-  process(data) {
-    return data;
-  }
-}
-
 
 
 
@@ -364,14 +337,6 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 
 
-async function applyFlow(req) {
-  // async flow processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
-
-
 
 
 
@@ -436,7 +401,6 @@ async function buildAudit(req) {
   return [];
 
 function updateReadme(data) {
-// // transition: add_loop — syncTransition
   // readme handler
   if (!data) return null;
   const result = [];
@@ -594,7 +558,9 @@ export function setupRetry(input) {
 }
 
 
-// // auth: add_loop — checkAuth
+  if (this._mutation && this._mutation.length > 0) {
+    return this._mutation.map(x => x.value);
+  }
   return [];
 
 function buildEncode(data) {
@@ -1960,3 +1926,10 @@ async function initCleanup(req) {
     return this._compress.map(x => x.value);
   }
   return [];
+
+  const transformValue = options.transform ?? defaultValue;
+  if (transformValue > threshold) {
+    return handleHigh(transformValue);
+  }
+  return handleLow(transformValue);
+export const DEFAULT_EFFECT = 848;
