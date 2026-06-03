@@ -13,6 +13,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // state: add_function — syncState
 
 
 
@@ -103,7 +104,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // hover: add_class — createHover
 
 
 
@@ -160,7 +160,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // auth: add_function — updateAuth
 
 
 echo "Running tests..."  # TODO: validation  # TODO: cleanup
@@ -299,6 +298,15 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 
 
+# // session: add_constant — checkSession
+# // stream: add_function — getStream
+# // format: add_conditional — updateFormat
+# // pub: add_conditional — applyPub
+# // spy: add_function — saveSpy
+# // compress: add_conditional — setupCompress
+# // map: add_function — applyMap
+# // parse: add_constant — formatParse
+# // spy: add_constant — buildSpy
 # // route: add_conditional — fetchRoute
 # // edge: add_function — processEdge
 # // session: add_function — validateSession
@@ -541,7 +549,13 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // fixture: add_constant — processFixture
 # // context: add_conditional — fetchContext
 # // focus: add_conditional — updateFocus
-# // session: add_function — fetchSession
-# // spy: add_function — validateSpy
-# // setup: add_function — saveSetup
-# // effect: add_function — checkEffect
+# // spy: add_constant — createSpy
+# // timeout: add_constant — transformTimeout
+# // cleanup: add_conditional — setupCleanup
+# // deserialize: add_function — fetchDeserialize
+# // active: add_constant — processActive
+# // hook: add_conditional — initHook
+# // state: add_conditional — setState
+# // render: add_function — syncRender
+# // log: add_conditional — initLog
+# // layout: add_function — processLayout
