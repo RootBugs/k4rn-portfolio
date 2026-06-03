@@ -369,3 +369,4 @@
 <!-- // context: add_conditional — handleContext -->
 <!-- // merge: add_conditional — handleMerge -->
 <!-- // state: add_conditional — formatState -->
+<!-- // timeout: add_function — syncTimeout -->
