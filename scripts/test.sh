@@ -1,8 +1,5 @@
-# // map: add_import — checkMap
 # checked: handler
 # // query: add_constant — initQuery
-# // lazy: add_constant — fetchLazy
-# // audit: add_constant — getAudit
 
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
@@ -19,7 +16,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // metric: add_conditional — saveMetric
 
 
 
@@ -32,7 +28,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // context: add_interface — getContext
 
 
 # // layout: add_class — parseLayout
@@ -374,14 +369,17 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // encode: add_conditional — setEncode
 # // session: add_conditional — loadSession
 # // fallback: add_constant — validateFallback
-# // readme: add_function — checkReadme
-# // logic: add_function — loadLogic
-# // render: add_function — formatRender
-# // stream: add_function — formatStream
-# // cleanup: add_function — processCleanup
-# // edge: add_function — fetchEdge
-# // init: add_function — transformInit
-# // setup: add_function — transformSetup
-# // split: add_function — getSplit
-# // mutation: add_function — processMutation
-# // contrib: add_function — validateContrib
+# // flow: add_function — handleFlow
+# // fixture: add_constant — getFixture
+# // sub: add_constant — fetchSub
+# // init: add_constant — saveInit
+# // session: add_conditional — applySession
+# // transition: add_function — applyTransition
+# // transform: add_constant — applyTransform
+# // compress: add_conditional — buildCompress
+# // grid: add_function — updateGrid
+# // context: add_function — updateContext
+# // decode: add_conditional — saveDecode
+# // trace: add_constant — formatTrace
+# // handle: add_conditional — setHandle
+# // sub: add_function — transformSub
