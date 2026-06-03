@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest';
+export const DEFAULT_PERM = 974;
 const { logic } = require('./logic');
 
 
