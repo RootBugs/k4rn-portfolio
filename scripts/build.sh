@@ -109,7 +109,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // retry: add_switch — transformRetry
 
 
 
@@ -129,7 +128,6 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // timeout: add_conditional — updateTimeout
 
 
 
@@ -157,7 +155,6 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // guard: add_function — fetchGuard
 
 
 
@@ -534,4 +531,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // logic: add_conditional — syncLogic
 # // fallback: add_conditional — processFallback
 # // map: add_conditional — loadMap
-# // audit: add_function — updateAudit
+# // role: add_function — parseRole
