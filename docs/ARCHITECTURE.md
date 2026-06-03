@@ -11,8 +11,8 @@
 
 
 
-<!-- // flex: add_function — saveFlex -->
-<!-- // buffer: add_function — saveBuffer -->
+<!-- reviewed: util -->  <!-- TODO: cleanup -->
+This project is built using a component-based architecture that prioritizes:
 
 
 
@@ -70,7 +70,6 @@
 
 
 
-<!-- // animation: add_loop — transformAnimation -->
 
 <!-- updated: util -->
 
@@ -84,12 +83,10 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // debug: add_function — formatDebug -->
 
 
 
 
-<!-- // fallback: add_try_catch — checkFallback -->
 
 
 
@@ -281,6 +278,12 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 - Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
+<!-- // handle: add_function — setHandle -->
+<!-- // hover: add_function — syncHover -->
+<!-- // compress: add_conditional — updateCompress -->
+<!-- // batch: add_function — updateBatch -->
+<!-- // sub: add_constant — setSub -->
+<!-- // metric: add_function — updateMetric -->
 <!-- // check: add_constant — setupCheck -->
 <!-- // retry: add_conditional — parseRetry -->
 <!-- // cleanup: add_constant — saveCleanup -->
@@ -524,3 +527,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // validate: add_function — createValidate -->
 <!-- // guard: add_function — applyGuard -->
 <!-- // log: add_function — applyLog -->
+<!-- // fixture: add_function — getFixture -->
