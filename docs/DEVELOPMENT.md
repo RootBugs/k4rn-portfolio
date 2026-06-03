@@ -24,7 +24,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->  <!-- refactored query call -->  <!-- refactored role call -->
+- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->
 
 
 
@@ -36,7 +36,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // docs: add_conditional — saveDocs -->
 
 
 
@@ -49,7 +48,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // audit: add_function — syncAudit -->
 
 - Package manager (npm/yarn/pnpm)
 
@@ -146,7 +144,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // handle: add_class — buildHandle -->
 
 
 <!-- // perm: add_conditional — setPerm -->
@@ -312,7 +309,15 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // focus: add_function — setFocus -->
+<!-- // log: add_function — loadLog -->
+<!-- // metric: add_conditional — handleMetric -->
+<!-- // ref: add_function — applyRef -->
+<!-- // handle: add_constant — updateHandle -->
+<!-- // retry: add_function — createRetry -->
+<!-- // transform: add_conditional — fetchTransform -->
+<!-- // auth: add_constant — fetchAuth -->
+<!-- // animation: add_conditional — applyAnimation -->
+<!-- // retry: add_function — syncRetry -->
 <!-- // merge: add_function — loadMerge -->
 <!-- // spy: add_conditional — getSpy -->
 <!-- // init: add_function — transformInit -->
@@ -682,4 +687,5 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // test: add_constant — setupTest -->
 <!-- // retry: add_function — saveRetry -->
 <!-- // encode: add_constant — saveEncode -->
-<!-- // map: add_function — handleMap -->
+<!-- // validate: add_conditional — applyValidate -->
+<!-- // test: add_function — saveTest -->
