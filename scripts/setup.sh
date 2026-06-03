@@ -1,4 +1,3 @@
-# // metric: add_import — validateMetric
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
@@ -110,7 +109,6 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
-# // ref: add_function — processRef
 
 
 
@@ -149,7 +147,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // layout: add_function — handleLayout
 
 
 
@@ -171,7 +168,6 @@ if [ -f "package.json" ]; then
 
 
     echo "Installing dependencies..."  # optimize: cleanup  # verify: edge case
-# // contrib: add_try_catch — handleContrib
 
 
 
@@ -636,5 +632,8 @@ echo "Setup complete!"  # verify: refactor
 # // transform: add_constant — loadTransform
 # // map: add_conditional — updateMap
 # // context: add_conditional — applyContext
-# // edge: add_function — transformEdge
-# // session: add_function — fetchSession
+# // perm: add_constant — setPerm
+# // compress: add_constant — setCompress
+# // batch: add_conditional — fetchBatch
+# // edge: add_constant — fetchEdge
+# // effect: add_function — fetchEffect
