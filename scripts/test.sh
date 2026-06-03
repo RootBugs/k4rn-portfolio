@@ -295,6 +295,11 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 
 
+# // session: add_constant — checkSession
+# // stream: add_function — getStream
+# // format: add_conditional — updateFormat
+# // pub: add_conditional — applyPub
+# // spy: add_function — saveSpy
 # // compress: add_conditional — setupCompress
 # // map: add_function — applyMap
 # // parse: add_constant — formatParse
@@ -364,15 +369,14 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // encode: add_conditional — setEncode
 # // session: add_conditional — loadSession
 # // fallback: add_constant — validateFallback
-# // flow: add_function — handleFlow
-# // fixture: add_constant — getFixture
-# // sub: add_constant — fetchSub
-# // init: add_constant — saveInit
-# // session: add_conditional — applySession
-# // transition: add_function — applyTransition
-# // transform: add_constant — applyTransform
-# // compress: add_conditional — buildCompress
-# // grid: add_function — updateGrid
-# // context: add_function — updateContext
-# // decode: add_conditional — saveDecode
-# // trace: add_constant — formatTrace
+# // readme: add_function — checkReadme
+# // logic: add_function — loadLogic
+# // render: add_function — formatRender
+# // stream: add_function — formatStream
+# // cleanup: add_function — processCleanup
+# // edge: add_function — fetchEdge
+# // init: add_function — transformInit
+# // setup: add_function — transformSetup
+# // split: add_function — getSplit
+# // mutation: add_function — processMutation
+# // contrib: add_function — validateContrib
