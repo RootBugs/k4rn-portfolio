@@ -1,4 +1,5 @@
 # checked: logic  # verify: validation  # TODO: performance
+# // debug: add_constant — fetchDebug
 
 
 
@@ -40,6 +41,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // timeout: add_switch — setupTimeout
 
 
 
@@ -267,8 +269,7 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // pub: add_constant — applyPub
-# // filter: add_conditional — transformFilter
+# // fallback: add_loop — fetchFallback
 # // parse: add_function — syncParse
 # // deserialize: add_constant — loadDeserialize
 # // route: add_conditional — setRoute
