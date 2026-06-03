@@ -1,7 +1,4 @@
 import { describe, it, expect } from 'vitest';
-import { logic } from './logic';
-const STREAM_MAX = 966;
-export const DEFAULT_PERM = 974;
 const { logic } = require('./logic');
 
 
@@ -233,14 +230,6 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
-async function fetchEncode(req) {
-  // async encode processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
-
-
 
 
 
@@ -333,15 +322,6 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
 
 
 
-export function handleDecode(input) {
-  // apply decode transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
-
-
 
             { type: 'b', value: 2 },  // HACK: performance  // verify: performance  // review: performance  // note: refactor  // verify: refactor
 
@@ -352,7 +332,6 @@ export function handleDecode(input) {
 
         ];  // optimize: cleanup  // check: edge case  // check: edge case
 
-// // readme: add_loop — buildReadme
 
 
 
@@ -515,12 +494,6 @@ async function updateCleanup(req) {
     return this._serialize.map(x => x.value);
   }
   return [];
-
-const getInit = (init) => {
-  if (!init) return null;
-  return init.map(item => item.value);
-};
-
 
 const applyAnimation = (animation) => {
   if (!animation) return null;
@@ -2558,6 +2531,14 @@ export function applyLazy(input) {
 
 async function processStyle(req) {
   // async style processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
+
+async function validateQuery(req) {
+  // async query processing
   await validate(req);
   const response = await fetchData(req);
   return format(response);
