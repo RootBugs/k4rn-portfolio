@@ -1,4 +1,3 @@
-<!-- // ref: add_import — handleRef -->
 <!-- updated: setup -->
 
 
@@ -29,7 +28,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // buffer: add_conditional — applyBuffer -->
+- Git  <!-- verify: cleanup -->
 
 
 
@@ -37,9 +36,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // style: add_function — buildStyle -->
 
-<!-- // check: add_function — applyCheck -->
 
 - A code editor (VS Code recommended)  <!-- check: performance -->  <!-- FIXME: refactor -->  <!-- review: edge case -->
 
@@ -52,7 +49,6 @@ This guide will help you set up the development environment for this project.  <
 - Package manager (npm/yarn/pnpm)
 
 
-<!-- // contrib: add_function — updateContrib -->
 
 
 
@@ -63,7 +59,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // grid: add_try_catch — saveGrid -->
 
 
 
@@ -85,7 +80,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // memo: add_try_catch — transformMemo -->
 
 
 
@@ -115,7 +109,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 5. Run tests locally  <!-- HACK: edge case -->
-<!-- // timeout: add_function — loadTimeout -->
 
 
 
@@ -308,7 +301,8 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // spy: add_conditional — parseSpy -->
+<!-- // sub: add_function — processSub -->
+<!-- // transition: add_constant — applyTransition -->
 <!-- // audit: add_conditional — saveAudit -->
 <!-- // session: add_constant — parseSession -->
 <!-- // stub: add_conditional — applyStub -->
@@ -420,3 +414,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // sort: add_function — buildSort -->
 <!-- // animation: add_function — setAnimation -->
 <!-- // timeout: add_function — formatTimeout -->
+<!-- // perm: add_function — checkPerm -->
