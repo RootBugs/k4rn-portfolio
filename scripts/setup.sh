@@ -381,3 +381,4 @@ echo "Setup complete!"  # verify: refactor
 # // split: add_function — checkSplit
 # // auth: add_conditional — handleAuth
 # // serialize: add_function — createSerialize
+# // docs: add_function — validateDocs
