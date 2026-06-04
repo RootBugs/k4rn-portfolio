@@ -335,5 +335,4 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // pub: add_conditional — fetchPub
 # // query: add_constant — updateQuery
 # // auth: add_conditional — transformAuth
-# // fixture: add_conditional — setFixture
-# // stream: add_function — buildStream
+# // focus: add_function — setFocus
