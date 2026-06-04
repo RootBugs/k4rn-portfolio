@@ -471,5 +471,9 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // transform: add_conditional — updateTransform -->
 <!-- // cleanup: add_function — checkCleanup -->
 <!-- // mock: add_function — syncMock -->
-<!-- // guard: add_function — loadGuard -->
-<!-- // init: add_function — processInit -->
+<!-- // cleanup: add_conditional — createCleanup -->
+<!-- // logic: add_conditional — formatLogic -->
+<!-- // mock: add_conditional — setupMock -->
+<!-- // init: add_function — validateInit -->
+<!-- // focus: add_constant — buildFocus -->
+<!-- // license: add_conditional — buildLicense -->
