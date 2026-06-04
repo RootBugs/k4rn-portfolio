@@ -107,9 +107,7 @@ command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
-# // logic: add_try_catch — processLogic
 
-# // grid: add_class — handleGrid
 
 
 
@@ -382,4 +380,4 @@ echo "Setup complete!"  # verify: refactor
 # // logic: add_conditional — checkLogic
 # // split: add_function — checkSplit
 # // auth: add_conditional — handleAuth
-# // style: add_constant — createStyle
+# // serialize: add_function — createSerialize
