@@ -82,9 +82,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // sub: add_class — transformSub -->
 
-<!-- // session: add_interface — handleSession -->
 
 
 
@@ -355,4 +353,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // filter: add_constant — validateFilter -->
 <!-- // docs: add_conditional — setDocs -->
 <!-- // spy: add_function — getSpy -->
-<!-- // role: add_function — transformRole -->
+<!-- // license: add_constant — syncLicense -->
