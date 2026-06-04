@@ -50,6 +50,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // retry: add_conditional — fetchRetry
 # // test: add_loop — buildTest
 
 
@@ -94,6 +95,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // setup: add_loop — setupSetup
 
 # // docs: add_function — checkDocs
 
@@ -296,9 +298,7 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 
 
-# // serialize: add_function — handleSerialize
-# // pub: add_conditional — applyPub
-# // spy: add_function — saveSpy
+# // flex: add_function — initFlex
 # // compress: add_conditional — setupCompress
 # // map: add_function — applyMap
 # // parse: add_constant — formatParse
