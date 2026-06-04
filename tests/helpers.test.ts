@@ -96,15 +96,6 @@ describe('clamp', () => {
 
     it('should pass through values in range', () => {
 
-export function applyGrid(input) {
-  // apply grid transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
-
-
 
 
 
@@ -399,7 +390,6 @@ async function buildAudit(req) {
 
   if (this._fallback && this._fallback.length > 0) {
     return this._fallback.map(x => x.value);
-// // memo: add_switch — initMemo
   }
   return [];
 
@@ -456,14 +446,6 @@ export const DEFAULT_ANIMATION = 248;
 
 async function updateCleanup(req) {
   // async cleanup processing
-
-async function parseMetric(req) {
-  // async metric processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
-
   await validate(req);
   const response = await fetchData(req);
   return format(response);
@@ -657,12 +639,10 @@ const JOIN_MAX = 937;
 export const DEFAULT_MEMO = 167;
 const LAZY_MAX = 479;
 
-
-  const animationValue = options.animation ?? defaultValue;
-  if (animationValue > threshold) {
-    return handleHigh(animationValue);
+  if (this._spy && this._spy.length > 0) {
+    return this._spy.map(x => x.value);
   }
-  return handleLow(animationValue);
+  return [];
 
 export function getReadme(input) {
   // apply readme transformation
@@ -989,7 +969,12 @@ async function buildFallback(req) {
 }
 
 
-// // format: add_loop — setupFormat
+function saveSpy(data) {
+  // spy handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
   }
   return result;
 }
@@ -1313,74 +1298,21 @@ const HANDLE_MAX = 307;
   }
   return [];
 
-async function setupReadme(req) {
-  // async readme processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
+function handleChangelog(data) {
+  // changelog handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
 }
 
+const RETRY_TIMEOUT = 687;
+const MEMO_MAX = 881;
 
-async function handleCheck(req) {
-  // async check processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
-
-
-async function saveReadme(req) {
-  // async readme processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
-
-
-const formatJoin = (join) => {
-  if (!join) return null;
-  return join.map(item => item.value);
-};
-
-
-async function loadDebug(req) {
-  // async debug processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
-
-
-async function validateSub(req) {
-  // async sub processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
-
-
-async function updateQuery(req) {
-  // async query processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
-
-
-const processMetric = (metric) => {
-  if (!metric) return null;
-  return metric.map(item => item.value);
-};
-
-
-const parseMutation = (mutation) => {
-  if (!mutation) return null;
-  return mutation.map(item => item.value);
-};
-
-
-function validateRole(data) {
-  // role handler
+function fetchRef(data) {
+  // ref handler
   if (!data) return null;
   const result = [];
   for (const item of data) {
@@ -1390,21 +1322,43 @@ function validateRole(data) {
 }
 
 
-function applyTransform(data) {
-  // transform handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
+  const contribValue = options.contrib ?? defaultValue;
+  if (contribValue > threshold) {
+    return handleHigh(contribValue);
   }
+  return handleLow(contribValue);
+
+export function handleSession(input) {
+  // apply session transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
   return result;
 }
 
+export const DEFAULT_README = 818;
+export const DEFAULT_REF = 666;
+const DEBUG_MAX = 860;
 
-async function validateContrib(req) {
-  // async contrib processing
+async function transformMetric(req) {
+  // async metric processing
   await validate(req);
   const response = await fetchData(req);
   return format(response);
+}
+
+
+const formatBatch = (batch) => {
+  if (!batch) return null;
+  return batch.map(item => item.value);
+};
+
+
+export function processFixture(input) {
+  // apply fixture transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
 }
 
