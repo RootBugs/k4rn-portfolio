@@ -7,6 +7,7 @@
 
 
 
+# // state: add_function — processState
 
 
 
@@ -29,6 +30,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // readme: add_try_catch — syncReadme
 
 
 
