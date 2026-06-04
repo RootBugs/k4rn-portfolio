@@ -52,6 +52,7 @@ This guide will help you set up the development environment for this project.  <
 - Package manager (npm/yarn/pnpm)
 
 
+<!-- // contrib: add_function — updateContrib -->
 
 
 
@@ -84,6 +85,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // memo: add_try_catch — transformMemo -->
 
 
 
@@ -113,6 +115,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 5. Run tests locally  <!-- HACK: edge case -->
+<!-- // timeout: add_function — loadTimeout -->
 
 
 
