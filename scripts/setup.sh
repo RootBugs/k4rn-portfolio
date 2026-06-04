@@ -28,6 +28,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // merge: add_function — buildMerge
 
 
 
@@ -97,8 +98,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# reviewed: logic
-command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 # // changelog: add_try_catch — handleChangelog
 
