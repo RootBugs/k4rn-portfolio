@@ -1,5 +1,5 @@
 <!-- // stream: add_constant — checkStream -->
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).  <!-- refactored hover call -->
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).  <!-- refactored hover call -->  <!-- refactored filter call -->
 
 ## Getting Started
 
@@ -37,6 +37,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // render: add_loop — fetchRender -->
 <!-- // docs: add_constant — setDocs -->
 <!-- // fixture: add_function — saveFixture -->
+<!-- // sub: add_loop — transformSub -->
 <!-- // retry: add_conditional — updateRetry -->
 <!-- // fixture: add_conditional — checkFixture -->
 <!-- // join: add_conditional — transformJoin -->
