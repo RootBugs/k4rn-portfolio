@@ -38,20 +38,17 @@
 
 
 
-# // render: add_function — processRender
-
-
-
-
-
-# // retry: add_conditional — createRetry
 
 
 
 
 
 
-# // mock: add_class — loadMock
+
+
+
+
+
 
 
 
@@ -76,7 +73,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // retry: add_function — updateRetry
 
 
 
@@ -263,6 +259,10 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
+# // effect: add_function — loadEffect
 # // query: add_function — initQuery
 # // map: add_constant — updateMap
 # // retry: add_conditional — setupRetry
@@ -350,14 +350,9 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // map: add_conditional — saveMap
 # // serialize: add_conditional — fetchSerialize
 # // sort: add_constant — syncSort
-# // role: add_function — parseRole
-# // active: add_function — processActive
-# // query: add_function — setQuery
-# // metric: add_function — parseMetric
-# // effect: add_function — formatEffect
-# // auth: add_function — createAuth
-# // init: add_function — handleInit
-# // test: add_function — createTest
-# // check: add_function — setCheck
-# // stub: add_function — saveStub
-# // layout: add_function — fetchLayout
+# // batch: add_constant — transformBatch
+# // lazy: add_function — initLazy
+# // filter: add_constant — loadFilter
+# // handle: add_function — updateHandle
+# // mutation: add_conditional — syncMutation
+# // query: add_conditional — validateQuery
