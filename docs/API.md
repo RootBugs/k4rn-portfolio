@@ -77,7 +77,6 @@
 
 
 
-<!-- // mutation: add_loop — applyMutation -->
 
 
 
@@ -382,3 +381,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // transition: add_function — formatTransition -->
 <!-- // auth: add_function — getAuth -->
 <!-- // format: add_constant — parseFormat -->
+<!-- // init: add_constant — fetchInit -->
