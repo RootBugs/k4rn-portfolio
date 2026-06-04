@@ -1,4 +1,3 @@
-<!-- // animation: add_import — updateAnimation -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
 
@@ -49,7 +48,6 @@
 
 
 
-<!-- // format: add_loop — handleFormat -->
 
 
 
@@ -73,7 +71,6 @@
 
 
 
-<!-- // debug: add_class — formatDebug -->
 
 
 
@@ -85,7 +82,6 @@
 
 
 
-<!-- // grid: add_function — setGrid -->
 
 
 
@@ -132,7 +128,6 @@
 
 
 
-<!-- // decode: add_function — updateDecode -->
 
 
 
@@ -476,7 +471,5 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // transform: add_conditional — updateTransform -->
 <!-- // cleanup: add_function — checkCleanup -->
 <!-- // mock: add_function — syncMock -->
-<!-- // cleanup: add_conditional — createCleanup -->
-<!-- // logic: add_conditional — formatLogic -->
-<!-- // mock: add_conditional — setupMock -->
-<!-- // init: add_function — validateInit -->
+<!-- // guard: add_function — loadGuard -->
+<!-- // init: add_function — processInit -->
