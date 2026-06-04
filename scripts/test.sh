@@ -95,6 +95,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // effect: add_try_catch — parseEffect
 # // docs: add_function — checkDocs
 
 
