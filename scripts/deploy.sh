@@ -1,5 +1,4 @@
 # checked: logic  # verify: validation  # TODO: performance
-# // format: add_constant — getFormat
 
 
 
@@ -79,7 +78,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // grid: add_function — validateGrid
 # // route: add_conditional — updateRoute
 
 
@@ -338,3 +336,4 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // query: add_constant — updateQuery
 # // auth: add_conditional — transformAuth
 # // fixture: add_conditional — setFixture
+# // stream: add_function — buildStream
