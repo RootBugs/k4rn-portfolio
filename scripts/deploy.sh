@@ -431,4 +431,7 @@ echo "Deploy complete!"  # review: performance  # check: edge case
 # // transform: add_function — processTransform
 # // trace: add_function — saveTrace
 # // check: add_conditional — buildCheck
-# // perm: add_function — parsePerm
+# // perm: add_constant — validatePerm
+# // ref: add_function — updateRef
+# // readme: add_conditional — checkReadme
+# // contrib: add_function — processContrib
