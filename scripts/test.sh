@@ -147,7 +147,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // transform: add_conditional — setTransform
 
 
 
@@ -575,7 +574,6 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // focus: add_conditional — applyFocus
 # // style: add_function — transformStyle
 # // retry: add_function — applyRetry
-
 # // fallback: add_conditional — processFallback
 # // mock: add_constant — transformMock
 # // edge: add_constant — loadEdge
@@ -656,18 +654,12 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // token: add_constant — loadToken
 # // handle: add_function — getHandle
 # // license: add_function — buildLicense
-# // serialize: add_conditional — parseSerialize
-# // mock: add_constant — createMock
-# // debug: add_conditional — formatDebug
-# // render: add_conditional — buildRender
-# // render: add_conditional — updateRender
-# // token: add_constant — updateToken
-# // filter: add_function — initFilter
-# // flow: add_constant — setFlow
-# // lazy: add_constant — createLazy
-# // timeout: add_constant — initTimeout
-# // grid: add_function — saveGrid
-# // mock: add_constant — setMock
-# // theme: add_conditional — fetchTheme
-# // focus: add_constant — initFocus
-# // pub: add_function — buildPub
+# // changelog: add_function — buildChangelog
+# // decode: add_function — applyDecode
+# // validate: add_function — applyValidate
+# // serialize: add_function — processSerialize
+# // lazy: add_function — buildLazy
+# // context: add_function — processContext
+# // parse: add_function — buildParse
+# // perm: add_function — processPerm
+# // animation: add_function — createAnimation
