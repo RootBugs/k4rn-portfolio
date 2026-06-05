@@ -1,3 +1,4 @@
+<!-- // flow: add_constant — loadFlow -->
 <!-- // validate: add_import — createValidate -->
 <!-- // timeout: add_import — handleTimeout -->
 <!-- // perm: add_import — parsePerm -->
@@ -64,6 +65,7 @@
 
 
 
+<!-- // format: add_function — formatFormat -->
 
 
 <!-- // context: add_conditional — syncContext -->
@@ -184,6 +186,7 @@ Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
 
 
+<!-- // check: add_loop — transformCheck -->
 
 
 
