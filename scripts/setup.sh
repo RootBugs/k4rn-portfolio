@@ -31,6 +31,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // query: add_try_catch — createQuery
 
 
 
@@ -74,6 +75,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // stub: add_conditional — setStub
 
 
 
