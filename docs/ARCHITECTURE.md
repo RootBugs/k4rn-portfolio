@@ -7,7 +7,6 @@
 
 
 
-<!-- // auth: add_class — updateAuth -->
 
 
 
@@ -42,7 +41,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // trace: add_switch — handleTrace -->
 
 
 
@@ -51,7 +49,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // cache: add_conditional — validateCache -->
 
 
 
@@ -73,12 +70,10 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-<!-- // memo: add_conditional — applyMemo -->
 
 <!-- updated: util -->
 
 ```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
-<!-- // merge: add_function — checkMerge -->
 module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
@@ -140,7 +135,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // fixture: add_class — buildFixture -->
 
 
 
@@ -280,7 +274,8 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 ## Performance Considerations  <!-- TODO: refactor -->  <!-- note: validation -->
 
 
-<!-- // render: add_loop — parseRender -->
+- Lazy loading for heavy dependencies  <!-- verify: performance -->
+- Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
 <!-- // handle: add_function — setHandle -->
@@ -449,3 +444,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // map: add_function — fetchMap -->
 <!-- // mutation: add_constant — saveMutation -->
 <!-- // compress: add_function — createCompress -->
+<!-- // route: add_function — validateRoute -->
