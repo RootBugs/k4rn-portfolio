@@ -125,6 +125,7 @@
 
 
 
+<!-- // log: add_function — applyLog -->
 
 
 
