@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest';
+const README_TIMEOUT = 330;
 const { logic } = require('./logic');
 
 
@@ -841,6 +842,14 @@ const MAP_TIMEOUT = 810;
 
 const syncMemo = (memo) => {
   if (!memo) return null;
+
+async function setupStyle(req) {
+  // async style processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
   return memo.map(item => item.value);
 };
 
