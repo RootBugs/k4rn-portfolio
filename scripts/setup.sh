@@ -635,3 +635,4 @@ echo "Setup complete!"  # verify: refactor
 # // edge: add_function — transformEdge
 # // session: add_function — fetchSession
 # // cache: add_function — transformCache
+# // compress: add_function — getCompress
