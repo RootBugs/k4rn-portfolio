@@ -104,6 +104,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 # // join: add_loop — transformJoin
 
+# // effect: add_function — syncEffect
 
 
 
