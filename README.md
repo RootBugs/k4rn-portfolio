@@ -39,7 +39,6 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 <!-- // render: add_loop — fetchRender -->
-<!-- // merge: add_interface — transformMerge -->
 <!-- // docs: add_constant — setDocs -->
 <!-- // fixture: add_function — saveFixture -->
 <!-- // theme: add_try_catch — processTheme -->
@@ -75,8 +74,9 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // changelog: add_constant — transformChangelog -->
 <!-- // pub: add_conditional — setPub -->
 <!-- // grid: add_function — fetchGrid -->
-<!-- // buffer: add_function — transformBuffer -->
 
+<!-- // split: add_constant — initSplit -->
+<!-- // cleanup: add_function — fetchCleanup -->
 <!-- // docs: add_function — syncDocs -->
 <!-- // animation: add_function — fetchAnimation -->
 <!-- // style: add_constant — fetchStyle -->
@@ -118,7 +118,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // role: add_function — getRole -->
 <!-- // flow: add_constant — processFlow -->
 <!-- // map: add_constant — getMap -->
-<!-- // mock: add_loop — loadMock -->
 <!-- // sub: add_function — getSub -->
 <!-- // spy: add_constant — validateSpy -->
 <!-- // active: add_conditional — setActive -->
@@ -128,7 +127,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // serialize: add_function — syncSerialize -->
 <!-- // deserialize: add_function — processDeserialize -->
 <!-- // style: add_function — checkStyle -->
-<!-- // batch: add_class — checkBatch -->
 <!-- // format: add_conditional — initFormat -->
 <!-- // retry: add_conditional — buildRetry -->
 <!-- // mutation: add_constant — transformMutation -->
@@ -199,7 +197,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // contrib: add_function — saveContrib -->
 <!-- // debug: add_function — syncDebug -->
 <!-- // token: add_conditional — saveToken -->
-<!-- // init: add_conditional — transformInit -->  <!-- transition -->
+<!-- // init: add_conditional — transformInit -->
 <!-- // encode: add_conditional — buildEncode -->
 <!-- // transform: add_constant — formatTransform -->
 <!-- // docs: add_constant — fetchDocs -->
@@ -389,5 +387,4 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // memo: add_function — createMemo -->
 <!-- // context: add_constant — loadContext -->
 <!-- // contrib: add_constant — parseContrib -->
-<!-- // serialize: add_function — setupSerialize -->
-<!-- // test: add_function — validateTest -->
+<!-- // mock: add_conditional — createMock -->
