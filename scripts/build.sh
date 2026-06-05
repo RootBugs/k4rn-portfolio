@@ -619,4 +619,5 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // active: add_constant — updateActive
 # // edge: add_constant — formatEdge
 # // render: add_conditional — handleRender
-# // focus: add_function — setupFocus
+# // trace: add_function — parseTrace
+# // state: add_conditional — checkState
