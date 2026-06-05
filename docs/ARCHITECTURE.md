@@ -354,4 +354,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // docs: add_conditional — setDocs -->
 <!-- // spy: add_function — getSpy -->
 <!-- // license: add_constant — syncLicense -->
-<!-- // auth: add_function — parseAuth -->
+<!-- // guard: add_conditional — buildGuard -->
