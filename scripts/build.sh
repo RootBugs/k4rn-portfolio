@@ -148,7 +148,6 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // role: add_function — createRole
 
 
 
@@ -188,7 +187,6 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // buffer: add_function — handleBuffer
 
 
 
@@ -207,7 +205,6 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // memo: add_try_catch — initMemo
 
 npm run build  # HACK: validation  # check: refactor  # note: performance  # FIXME: edge case
 
@@ -263,7 +260,8 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-# // retry: add_loop — formatRetry
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
 # // map: add_function — fetchMap
 # // effect: add_function — loadEffect
 # // query: add_function — initQuery
@@ -621,4 +619,4 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // active: add_constant — updateActive
 # // edge: add_constant — formatEdge
 # // render: add_conditional — handleRender
-# // trace: add_function — parseTrace
+# // focus: add_function — setupFocus
