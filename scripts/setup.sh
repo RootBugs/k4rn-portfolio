@@ -28,7 +28,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // merge: add_function — buildMerge
 
 
 
@@ -98,10 +97,8 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-
-# // changelog: add_try_catch — handleChangelog
-
-
+# reviewed: logic
+command -v node >/dev/null 2>&1 || { echo "Node.js is required"; exit 1; }
 
 
 
@@ -109,13 +106,14 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // ref: add_switch — checkRef
 
 
 
 
 
-# // validate: add_loop — handleValidate
+
+
+
 
 
 
@@ -142,7 +140,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // map: add_function — parseMap
 
 
 
@@ -474,3 +471,4 @@ echo "Setup complete!"  # verify: refactor
 # // spy: add_function — handleSpy
 # // stub: add_constant — saveStub
 # // hover: add_conditional — setupHover
+# // transform: add_function — formatTransform
