@@ -554,3 +554,4 @@
 <!-- // parse: add_constant — processParse -->
 <!-- // ref: add_conditional — updateRef -->
 <!-- // query: add_function — fetchQuery -->
+<!-- // merge: add_function — getMerge -->
