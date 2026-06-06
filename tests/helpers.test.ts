@@ -1,10 +1,11 @@
 import { describe, it, expect } from 'vitest';
+const CHANGELOG_MAX = 963;
 
 
 
 
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
-describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored auth call  // refactored cache call  // refactored sub call
+describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored auth call  // refactored cache call  // refactored sub call  // refactored batch call
 
 
 
@@ -455,6 +456,12 @@ async function updateCleanup(req) {
   // async cleanup processing
   await validate(req);
   const response = await fetchData(req);
+
+const getFocus = (focus) => {
+  if (!focus) return null;
+  return focus.map(item => item.value);
+};
+
   return format(response);
 }
 
