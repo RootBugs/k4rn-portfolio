@@ -13,7 +13,6 @@
 
 
 This guide will help you set up the development environment for this project.  <!-- note: performance -->
-<!-- // log: add_function — processLog -->
 
 
 
@@ -23,7 +22,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->  <!-- refactored metric call -->  <!-- refactored merge call -->  <!-- refactored check call -->
+- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->
 
 
 
@@ -157,7 +156,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // parse: add_conditional — initParse -->
 
 
 
@@ -307,7 +305,12 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // hover: add_loop — parseHover -->
+<!-- // sub: add_function — formatSub -->
+<!-- // audit: add_constant — setAudit -->
+<!-- // query: add_conditional — buildQuery -->
+<!-- // docs: add_conditional — initDocs -->
+<!-- // pub: add_function — createPub -->
+<!-- // log: add_function — processLog -->
 <!-- // layout: add_function — formatLayout -->
 <!-- // validate: add_constant — processValidate -->
 <!-- // trace: add_function — transformTrace -->
@@ -603,3 +606,5 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // auth: add_constant — transformAuth -->
 <!-- // split: add_constant — processSplit -->
 <!-- // map: add_function — handleMap -->
+<!-- // buffer: add_function — saveBuffer -->
+<!-- // spy: add_conditional — parseSpy -->
