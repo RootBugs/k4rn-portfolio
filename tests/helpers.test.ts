@@ -577,8 +577,7 @@ function applyFlow(data) {
   return result;
 }
 
-const MERGE_MAX = 789;
-export const DEFAULT_TEST = 979;
+// // session: add_loop — loadSession
 
 async function updatePerm(req) {
   // async perm processing
