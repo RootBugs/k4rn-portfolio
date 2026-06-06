@@ -1,13 +1,10 @@
 # checked: logic  # verify: validation  # TODO: performance
-# // debug: add_constant — fetchDebug
 
 
 
 
-# // encode: add_function — getEncode
 
 
-# // session: add_function — createSession
 
 
 
@@ -41,7 +38,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // timeout: add_switch — setupTimeout
 
 
 
@@ -158,7 +154,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // session: add_function — fetchSession
 
 
 
@@ -270,7 +265,16 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // fallback: add_loop — fetchFallback
+echo "Deploy complete!"  # review: performance  # check: edge case
+# // map: add_conditional — getMap
+# // lazy: add_conditional — processLazy
+# // deserialize: add_conditional — setupDeserialize
+# // logic: add_conditional — formatLogic
+# // focus: add_constant — processFocus
+# // log: add_conditional — handleLog
+# // split: add_constant — loadSplit
+# // pub: add_constant — applyPub
+# // filter: add_conditional — transformFilter
 # // parse: add_function — syncParse
 # // deserialize: add_constant — loadDeserialize
 # // route: add_conditional — setRoute
@@ -539,3 +543,4 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // context: add_constant — loadContext
 # // encode: add_function — handleEncode
 # // spy: add_function — parseSpy
+# // logic: add_function — applyLogic
