@@ -602,9 +602,5 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // stub: add_function — transformStub -->
 <!-- // mock: add_function — transformMock -->
 <!-- // layout: add_function — saveLayout -->
-<!-- // mock: add_function — loadMock -->
-<!-- // auth: add_constant — transformAuth -->
-<!-- // split: add_constant — processSplit -->
-<!-- // map: add_function — handleMap -->
-<!-- // buffer: add_function — saveBuffer -->
-<!-- // spy: add_conditional — parseSpy -->
+<!-- // transform: add_function — syncTransform -->
+<!-- // hook: add_function — loadHook -->
