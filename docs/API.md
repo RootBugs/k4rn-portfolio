@@ -64,6 +64,7 @@
 
 
 
+<!-- // fixture: add_conditional — setFixture -->
 
 <!-- // deserialize: add_function — parseDeserialize -->
 
@@ -334,6 +335,7 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // mock: add_conditional — processMock -->
 <!-- // guard: add_conditional — createGuard -->
 <!-- // query: add_conditional — applyQuery -->
+
 <!-- // ref: add_constant — transformRef -->
 <!-- // token: add_function — setupToken -->
 <!-- // transition: add_conditional — loadTransition -->
