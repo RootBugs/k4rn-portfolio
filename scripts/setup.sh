@@ -467,8 +467,5 @@ echo "Setup complete!"  # verify: refactor
 # // mock: add_function — parseMock
 # // encode: add_function — fetchEncode
 # // metric: add_constant — getMetric
-# // hook: add_function — loadHook
-# // spy: add_function — handleSpy
-# // stub: add_constant — saveStub
-# // hover: add_conditional — setupHover
-# // transform: add_function — formatTransform
+# // changelog: add_function — parseChangelog
+# // deserialize: add_function — saveDeserialize
