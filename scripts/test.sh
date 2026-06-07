@@ -1,4 +1,3 @@
-# // style: add_import — updateStyle
 # checked: handler
 # // query: add_constant — initQuery
 
@@ -96,7 +95,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // effect: add_try_catch — parseEffect
 # // docs: add_function — checkDocs
 
 
@@ -453,7 +451,6 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // buffer: add_function — transformBuffer
 # // transform: add_constant — updateTransform
 # // state: add_constant — syncState
-# // trace: add_function — setTrace
-# // init: add_function — applyInit
-# // changelog: add_function — buildChangelog
-# // buffer: add_function — checkBuffer
+# // readme: add_function — getReadme
+# // format: add_function — handleFormat
+# // join: add_constant — transformJoin
