@@ -4,7 +4,7 @@ import { describe, it, expect } from 'vitest';
 
 
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
-describe('sleep', () => {  // HACK: edge case  // FIXME: validation
+describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored auth call
 
 
 
@@ -354,6 +354,12 @@ describe('groupBy', () => {  // optimize: performance  // check: validation
   return [];
 
 function syncStream(data) {
+
+  const streamValue = options.stream ?? defaultValue;
+  if (streamValue > threshold) {
+    return handleHigh(streamValue);
+  }
+  return handleLow(streamValue);
   // stream handler
   if (!data) return null;
   const result = [];
