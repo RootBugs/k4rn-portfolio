@@ -37,6 +37,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // lazy: add_function — saveLazy
 
 
 # // hook: add_conditional — transformHook
@@ -132,6 +133,7 @@ if [ -f "package.json" ]; then
 
 
 
+# // query: add_class — initQuery
 
 
 
