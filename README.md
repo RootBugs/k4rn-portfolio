@@ -25,7 +25,6 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 
 <!-- updated: logic -->
 
-<!-- // flow: add_function — loadFlow -->
 To learn more about Next.js, take a look at the following resources:
 
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
@@ -208,12 +207,13 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // trace: add_function — buildTrace -->
 <!-- // stub: add_conditional — getStub -->
 <!-- // cleanup: add_constant — syncCleanup -->
-<!-- // memo: add_function — validateMemo -->
-<!-- // deserialize: add_function — checkDeserialize -->
-<!-- // cache: add_function — setupCache -->
-<!-- // theme: add_function — buildTheme -->
-<!-- // auth: add_function — formatAuth -->
-<!-- // route: add_function — setRoute -->
-<!-- // route: add_function — createRoute -->
-<!-- // render: add_function — buildRender -->
-<!-- // check: add_function — initCheck -->
+<!-- // serialize: add_constant — validateSerialize -->
+<!-- // route: add_function — checkRoute -->
+<!-- // transition: add_function — setupTransition -->
+<!-- // fixture: add_constant — handleFixture -->
+<!-- // decode: add_function — updateDecode -->
+<!-- // handle: add_function — getHandle -->
+<!-- // cache: add_conditional — setCache -->
+<!-- // transition: add_function — initTransition -->
+<!-- // route: add_conditional — initRoute -->
+<!-- // split: add_constant — processSplit -->
