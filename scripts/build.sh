@@ -67,6 +67,7 @@
 
 
 
+# // retry: add_switch — saveRetry
 
 
 
@@ -262,11 +263,7 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-echo "Build complete!"  # HACK: refactor  # FIXME: refactor
-# // handle: add_function — validateHandle
-# // map: add_function — fetchMap
-# // effect: add_function — loadEffect
-# // query: add_function — initQuery
+# // hover: add_conditional — initHover
 # // map: add_constant — updateMap
 # // retry: add_conditional — setupRetry
 # // trace: add_constant — fetchTrace
