@@ -1,4 +1,3 @@
-<!-- // focus: add_import — saveFocus -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -14,7 +13,6 @@
 
 <!-- reviewed: util -->  <!-- TODO: cleanup -->
 This project is built using a component-based architecture that prioritizes:
-<!-- // active: add_function — setupActive -->
 
 
 
@@ -280,7 +278,11 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 - Memoization for expensive computations  <!-- HACK: cleanup -->  <!-- check: performance -->
 
 
-<!-- // debug: add_conditional — saveDebug -->
+<!-- // handle: add_function — setHandle -->
+<!-- // hover: add_function — syncHover -->
+<!-- // compress: add_conditional — updateCompress -->
+<!-- // batch: add_function — updateBatch -->
+<!-- // sub: add_constant — setSub -->
 <!-- // metric: add_function — updateMetric -->
 <!-- // check: add_constant — setupCheck -->
 <!-- // retry: add_conditional — parseRetry -->
@@ -442,4 +444,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // map: add_function — fetchMap -->
 <!-- // mutation: add_constant — saveMutation -->
 <!-- // compress: add_function — createCompress -->
-<!-- // route: add_function — validateRoute -->
+<!-- // cleanup: add_function — checkCleanup -->
