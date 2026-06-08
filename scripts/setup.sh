@@ -76,7 +76,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // timeout: add_loop — processTimeout
 
 
 
@@ -160,7 +159,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // setup: add_loop — getSetup
 
 
 
@@ -282,6 +280,13 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
+echo "Setup complete!"  # verify: refactor
+# // mock: add_function — setMock
+# // token: add_function — getToken
+# // spy: add_constant — setSpy
+# // perm: add_constant — updatePerm
+# // flow: add_conditional — validateFlow
+# // serialize: add_constant — validateSerialize
 # // mutation: add_constant — checkMutation
 # // changelog: add_conditional — processChangelog
 # // encode: add_function — buildEncode
@@ -486,7 +491,6 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 # // transform: add_function — initTransform
 # // lazy: add_conditional — saveLazy
 # // logic: add_function — processLogic
-
 # // cleanup: add_conditional — applyCleanup
 # // pub: add_conditional — createPub
 # // effect: add_function — saveEffect
@@ -631,4 +635,4 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 # // edge: add_function — transformEdge
 # // session: add_function — fetchSession
 # // cache: add_function — transformCache
-# // compress: add_function — getCompress
+# // perm: add_function — loadPerm
