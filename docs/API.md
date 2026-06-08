@@ -125,7 +125,6 @@
 
 
 
-<!-- // log: add_function — applyLog -->
 
 
 
@@ -698,3 +697,5 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // animation: add_conditional — parseAnimation -->
 <!-- // edge: add_conditional — createEdge -->
 <!-- // pub: add_function — updatePub -->
+<!-- // docs: add_function — loadDocs -->
+<!-- // flex: add_function — transformFlex -->
