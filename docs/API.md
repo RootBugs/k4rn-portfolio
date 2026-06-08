@@ -1,3 +1,4 @@
+<!-- // filter: add_import — formatFilter -->
 <!-- // contrib: add_import — setContrib -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
@@ -20,6 +21,7 @@
 
 
 
+<!-- // cache: add_function — applyCache -->
 
 
 
@@ -292,8 +294,7 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
-<!-- // auth: add_function — applyAuth -->
-<!-- // animation: add_function — updateAnimation -->
+<!-- // contrib: add_loop — updateContrib -->
 <!-- // buffer: add_conditional — fetchBuffer -->
 <!-- // flow: add_constant — handleFlow -->
 <!-- // buffer: add_conditional — parseBuffer -->
