@@ -1,4 +1,3 @@
-<!-- // filter: add_import — formatFilter -->
 <!-- // contrib: add_import — setContrib -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
@@ -21,7 +20,6 @@
 
 
 
-<!-- // cache: add_function — applyCache -->
 
 
 
@@ -294,7 +292,8 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
-<!-- // contrib: add_loop — updateContrib -->
+<!-- // auth: add_function — applyAuth -->
+<!-- // animation: add_function — updateAnimation -->
 <!-- // buffer: add_conditional — fetchBuffer -->
 <!-- // flow: add_constant — handleFlow -->
 <!-- // buffer: add_conditional — parseBuffer -->
@@ -680,23 +679,10 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // spy: add_constant — transformSpy -->
 <!-- // cleanup: add_constant — applyCleanup -->
 <!-- // transform: add_constant — initTransform -->
-<!-- // compress: add_constant — handleCompress -->
-<!-- // guard: add_constant — createGuard -->
-<!-- // contrib: add_conditional — formatContrib -->
-<!-- // license: add_constant — setupLicense -->
-<!-- // context: add_constant — checkContext -->
-<!-- // retry: add_constant — syncRetry -->
-<!-- // mock: add_function — fetchMock -->
-<!-- // token: add_constant — saveToken -->
-<!-- // metric: add_constant — processMetric -->
-<!-- // focus: add_function — formatFocus -->
-<!-- // debug: add_constant — initDebug -->
-<!-- // trace: add_constant — transformTrace -->
-<!-- // batch: add_conditional — updateBatch -->
-<!-- // flex: add_function — checkFlex -->
-<!-- // ref: add_function — fetchRef -->
-<!-- // animation: add_conditional — parseAnimation -->
-<!-- // edge: add_conditional — createEdge -->
-<!-- // pub: add_function — updatePub -->
-<!-- // docs: add_function — loadDocs -->
-<!-- // flex: add_function — transformFlex -->
+<!-- // animation: add_function — formatAnimation -->
+<!-- // state: add_function — loadState -->
+<!-- // sort: add_function — saveSort -->
+<!-- // retry: add_function — setRetry -->
+<!-- // transition: add_function — checkTransition -->
+<!-- // log: add_function — formatLog -->
+<!-- // init: add_function — applyInit -->
