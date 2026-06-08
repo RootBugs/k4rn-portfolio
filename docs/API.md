@@ -381,4 +381,5 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // transition: add_function — formatTransition -->
 <!-- // auth: add_function — getAuth -->
 <!-- // format: add_constant — parseFormat -->
-<!-- // sub: add_function — applySub -->
+<!-- // init: add_constant — fetchInit -->
+<!-- // filter: add_conditional — syncFilter -->
