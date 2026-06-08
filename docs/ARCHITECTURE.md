@@ -1,6 +1,3 @@
-<!-- // flow: add_constant — loadFlow -->
-<!-- // validate: add_import — createValidate -->
-<!-- // timeout: add_import — handleTimeout -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -65,7 +62,6 @@
 
 
 
-<!-- // format: add_function — formatFormat -->
 
 
 <!-- // context: add_conditional — syncContext -->
@@ -186,7 +182,6 @@ Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
 
 
-<!-- // check: add_loop — transformCheck -->
 
 
 
@@ -635,3 +630,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // join: add_constant — syncJoin -->
 <!-- // filter: add_conditional — applyFilter -->
 <!-- // fixture: add_function — initFixture -->
+<!-- // format: add_conditional — parseFormat -->
