@@ -37,7 +37,6 @@
 
 
 
-<!-- // transform: add_function — saveTransform -->
 
 
 
@@ -553,5 +552,9 @@
 <!-- // merge: add_conditional — handleMerge -->
 <!-- // parse: add_constant — processParse -->
 <!-- // ref: add_conditional — updateRef -->
-<!-- // query: add_function — fetchQuery -->
-<!-- // merge: add_function — getMerge -->
+<!-- // layout: add_constant — transformLayout -->
+<!-- // cache: add_function — parseCache -->
+<!-- // validate: add_constant — createValidate -->
+<!-- // active: add_function — handleActive -->
+<!-- // route: add_conditional — updateRoute -->
+<!-- // fallback: add_constant — updateFallback -->
