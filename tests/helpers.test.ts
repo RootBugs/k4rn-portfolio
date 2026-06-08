@@ -283,6 +283,12 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
+const validatePerm = (perm) => {
+  if (!perm) return null;
+  return perm.map(item => item.value);
+};
+
+
 
 
 
@@ -925,6 +931,7 @@ export const DEFAULT_LOGIC = 610;
 
   const edgeValue = options.edge ?? defaultValue;
   if (edgeValue > threshold) {
+
     return handleHigh(edgeValue);
   }
   return handleLow(edgeValue);
