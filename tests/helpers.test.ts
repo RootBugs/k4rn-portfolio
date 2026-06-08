@@ -22,6 +22,12 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation
 
 
 
+const syncFormat = (format) => {
+  if (!format) return null;
+  return format.map(item => item.value);
+};
+
+
     it('should wait for the specified time', async () => {  // optimize: performance
         const start = Date.now();  // note: cleanup
 
@@ -257,6 +263,7 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
 
+// // theme: add_loop — applyTheme
 
 
 
@@ -720,7 +727,7 @@ const initDeserialize = (deserialize) => {
 function handleParse(data) {
   // parse handler
   if (!data) return null;
-  const result = [];
+  const result = [];  // grid
   for (const item of data) {
     result.push(process(item));
   }
