@@ -80,6 +80,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // split: add_loop — getSplit
 
 
 
@@ -126,6 +127,7 @@ if [ -f "package.json" ]; then
 
 
 
+# // perm: add_switch — setPerm
 
 
 
