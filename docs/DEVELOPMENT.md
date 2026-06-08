@@ -45,7 +45,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // spy: add_function — initSpy -->
 
 - Package manager (npm/yarn/pnpm)
 
@@ -104,7 +103,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // parse: add_loop — initParse -->
 3. Create a branch for your feature  <!-- check: edge case -->  <!-- review: cleanup -->
 
 4. Make your changes  <!-- FIXME: edge case -->  <!-- check: edge case -->
@@ -303,7 +301,14 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // fallback: add_function — transformFallback -->
+<!-- // sub: add_function — processSub -->
+<!-- // transition: add_constant — applyTransition -->
+<!-- // audit: add_conditional — saveAudit -->
+<!-- // session: add_constant — parseSession -->
+<!-- // stub: add_conditional — applyStub -->
+<!-- // layout: add_constant — saveLayout -->
+<!-- // audit: add_constant — setAudit -->
+<!-- // query: add_conditional — buildQuery -->
 <!-- // docs: add_conditional — initDocs -->
 <!-- // pub: add_function — createPub -->
 <!-- // log: add_function — processLog -->
@@ -403,10 +408,14 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // merge: add_conditional — saveMerge -->
 <!-- // mutation: add_constant — loadMutation -->
 <!-- // layout: add_conditional — syncLayout -->
-<!-- // mock: add_function — handleMock -->
-<!-- // metric: add_function — handleMetric -->
-<!-- // handle: add_function — parseHandle -->
-<!-- // sort: add_function — buildSort -->
-<!-- // animation: add_function — setAnimation -->
-<!-- // timeout: add_function — formatTimeout -->
-<!-- // perm: add_function — checkPerm -->
+<!-- // contrib: add_conditional — checkContrib -->
+<!-- // auth: add_function — saveAuth -->
+<!-- // merge: add_conditional — getMerge -->
+<!-- // sub: add_function — handleSub -->
+<!-- // license: add_constant — setupLicense -->
+<!-- // memo: add_function — checkMemo -->
+<!-- // merge: add_conditional — checkMerge -->
+<!-- // transition: add_conditional — setTransition -->
+<!-- // validate: add_function — processValidate -->
+<!-- // fallback: add_constant — saveFallback -->
+<!-- // debug: add_function — setDebug -->
