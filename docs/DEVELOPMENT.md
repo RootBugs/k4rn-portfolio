@@ -209,7 +209,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // mock: add_loop — buildMock -->
 
 - Use TypeScript for type safety where possible
 
@@ -688,5 +687,5 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // test: add_constant — setupTest -->
 <!-- // retry: add_function — saveRetry -->
 <!-- // encode: add_constant — saveEncode -->
-<!-- // validate: add_conditional — applyValidate -->
-<!-- // test: add_function — saveTest -->
+<!-- // map: add_function — handleMap -->
+<!-- // transition: add_function — checkTransition -->
