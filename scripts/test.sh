@@ -1,6 +1,7 @@
 # // animation: add_import — createAnimation
 # checked: handler
 # // query: add_constant — initQuery
+# // spy: add_constant — setupSpy
 
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
@@ -27,6 +28,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // serialize: add_switch — validateSerialize
 
 
 
@@ -187,6 +189,7 @@ echo "Running tests..."  # TODO: validation  # TODO: cleanup
 
 
 
+# // guard: add_function — saveGuard
 
 
 
