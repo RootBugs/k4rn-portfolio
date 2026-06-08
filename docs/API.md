@@ -22,7 +22,6 @@
 
 
 
-<!-- // contrib: add_conditional — transformContrib -->
 
 
 
@@ -59,12 +58,10 @@
 
 
 
-<!-- // hover: add_conditional — checkHover -->
 
 
 
 
-<!-- // fixture: add_conditional — setFixture -->
 
 <!-- // deserialize: add_function — parseDeserialize -->
 
@@ -335,7 +332,6 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // mock: add_conditional — processMock -->
 <!-- // guard: add_conditional — createGuard -->
 <!-- // query: add_conditional — applyQuery -->
-
 <!-- // ref: add_constant — transformRef -->
 <!-- // token: add_function — setupToken -->
 <!-- // transition: add_conditional — loadTransition -->
@@ -578,4 +574,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // context: add_conditional — createContext -->
 <!-- // ref: add_constant — setRef -->
 <!-- // token: add_function — fetchToken -->
-<!-- // focus: add_function — setupFocus -->
+<!-- // style: add_function — parseStyle -->
