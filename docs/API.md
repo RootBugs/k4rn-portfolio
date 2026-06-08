@@ -86,6 +86,7 @@
 
 
 
+<!-- // session: add_function — initSession -->
 
 
 
@@ -292,12 +293,7 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
-<!-- // fallback: add_conditional — updateFallback -->
-<!-- // contrib: add_function — checkContrib -->
-<!-- // filter: add_function — parseFilter -->
-<!-- // state: add_constant — saveState -->
-<!-- // test: add_function — handleTest -->
-<!-- // format: add_function — updateFormat -->
+<!-- // serialize: add_function — getSerialize -->
 <!-- // guard: add_constant — saveGuard -->
 <!-- // active: add_constant — initActive -->
 <!-- // debug: add_constant — setDebug -->
