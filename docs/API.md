@@ -14,7 +14,6 @@
 
 
 
-<!-- // memo: add_interface — validateMemo -->
 
 
 
@@ -86,7 +85,6 @@
 
 
 
-<!-- // session: add_function — initSession -->
 
 
 
@@ -94,7 +92,6 @@
 
 
 
-<!-- // grid: add_function — parseGrid -->
 
 
 
@@ -293,7 +290,25 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
-<!-- // serialize: add_function — getSerialize -->
+Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: validation -->
+<!-- // query: add_conditional — applyQuery -->
+<!-- // split: add_function — handleSplit -->
+<!-- // auth: add_function — applyAuth -->
+<!-- // animation: add_function — updateAnimation -->
+<!-- // buffer: add_conditional — fetchBuffer -->
+<!-- // flow: add_constant — handleFlow -->
+<!-- // buffer: add_conditional — parseBuffer -->
+<!-- // deserialize: add_conditional — formatDeserialize -->
+<!-- // retry: add_constant — formatRetry -->
+<!-- // sub: add_conditional — initSub -->
+<!-- // audit: add_constant — parseAudit -->
+<!-- // debug: add_function — updateDebug -->
+<!-- // fallback: add_conditional — updateFallback -->
+<!-- // contrib: add_function — checkContrib -->
+<!-- // filter: add_function — parseFilter -->
+<!-- // state: add_constant — saveState -->
+<!-- // test: add_function — handleTest -->
+<!-- // format: add_function — updateFormat -->
 <!-- // guard: add_constant — saveGuard -->
 <!-- // active: add_constant — initActive -->
 <!-- // debug: add_constant — setDebug -->
@@ -366,4 +381,4 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // transition: add_function — formatTransition -->
 <!-- // auth: add_function — getAuth -->
 <!-- // format: add_constant — parseFormat -->
-<!-- // init: add_constant — fetchInit -->
+<!-- // sub: add_function — applySub -->
