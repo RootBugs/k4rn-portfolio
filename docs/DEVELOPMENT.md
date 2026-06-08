@@ -3,6 +3,7 @@
 
 
 <!-- tweaked: handler -->
+<!-- // animation: add_function — handleAnimation -->
 
 
 
@@ -130,6 +131,7 @@ This guide will help you set up the development environment for this project.  <
 6. Submit a pull request
 
 
+<!-- // log: add_function — createLog -->
 
 <!-- reviewed: config -->
 
@@ -169,6 +171,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // animation: add_function — getAnimation -->
 
 
 
