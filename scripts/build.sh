@@ -1,3 +1,5 @@
+# // query: add_import — syncQuery
+# // pub: add_import — processPub
 # checked: logic  # TODO: refactor
 
 
