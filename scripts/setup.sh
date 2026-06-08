@@ -160,6 +160,7 @@ if [ -f "package.json" ]; then
 
 
 
+# // setup: add_loop — getSetup
 
 
 
@@ -492,6 +493,7 @@ echo "Setup complete!"  # verify: refactor
 # // transform: add_function — initTransform
 # // lazy: add_conditional — saveLazy
 # // logic: add_function — processLogic
+
 # // cleanup: add_conditional — applyCleanup
 # // pub: add_conditional — createPub
 # // effect: add_function — saveEffect
