@@ -434,7 +434,7 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // changelog: add_conditional — validateChangelog -->
 <!-- // changelog: add_function — checkChangelog -->
 <!-- // token: add_function — syncToken -->
-<!-- // session: add_function — validateSession -->
+<!-- // session: add_function — validateSession -->  <!-- render -->
 <!-- // filter: add_function — setFilter -->
 <!-- // auth: add_constant — checkAuth -->
 <!-- // format: add_function — setFormat -->
