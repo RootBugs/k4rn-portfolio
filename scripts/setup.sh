@@ -31,7 +31,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // query: add_try_catch — createQuery
 
 
 
@@ -75,12 +74,10 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // stub: add_conditional — setStub
 
 
 
 
-# // split: add_loop — getSplit
 
 
 
@@ -127,7 +124,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // perm: add_switch — setPerm
 
 
 
@@ -384,5 +380,5 @@ echo "Setup complete!"  # verify: refactor
 # // logic: add_conditional — checkLogic
 # // split: add_function — checkSplit
 # // auth: add_conditional — handleAuth
-# // serialize: add_function — createSerialize
-# // docs: add_function — validateDocs
+# // style: add_constant — createStyle
+# // role: add_conditional — getRole
