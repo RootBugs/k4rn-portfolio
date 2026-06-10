@@ -29,6 +29,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // effect: add_loop — buildEffect
 
 
 
@@ -294,6 +295,7 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 # // pub: add_function — parsePub
 # // sort: add_function — initSort
 # // fallback: add_constant — checkFallback
+
 # // setup: add_function — checkSetup
 # // session: add_constant — createSession
 # // animation: add_constant — handleAnimation
@@ -367,6 +369,7 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 # // readme: add_conditional — setReadme
 # // metric: add_constant — checkMetric
 # // stub: add_function — validateStub
+
 # // perm: add_function — syncPerm
 # // audit: add_constant — fetchAudit
 # // setup: add_function — createSetup
