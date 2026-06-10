@@ -23,7 +23,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-
 - **Modularity**: Each component is self-contained
 
 - **Reusability**: Components are designed to be reusable  <!-- TODO: validation -->
@@ -144,7 +143,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 └── __tests__/        # Test files
 
 
-
 ```  <!-- FIXME: cleanup -->
 
 
@@ -198,6 +196,7 @@ Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
 
 1. User interaction triggers an action  <!-- optimize: validation -->
+
 
 
 
