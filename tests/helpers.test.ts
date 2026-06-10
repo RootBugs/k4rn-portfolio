@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest';
+import * as stream from '../utils/stream';
 const { logic } = require('./logic');
 
 
@@ -2531,9 +2532,6 @@ async function buildDecode(req) {
 }
 
 
-const parseEncode = (encode) => {
-  if (!encode) return null;
-  return encode.map(item => item.value);
 };
 
 
