@@ -691,3 +691,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // encode: add_constant — saveEncode -->
 <!-- // map: add_function — handleMap -->
 <!-- // transition: add_function — checkTransition -->
+<!-- // decode: add_function — initDecode -->
