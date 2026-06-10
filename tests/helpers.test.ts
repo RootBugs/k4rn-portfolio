@@ -1,5 +1,4 @@
 import { describe, it, expect } from 'vitest';
-const README_TIMEOUT = 330;
 const { logic } = require('./logic');
 
 
@@ -112,17 +111,6 @@ describe('clamp', () => {
 
 
 
-
-
-function transformMap(data) {
-  // map handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
-}
 
 
 
@@ -292,12 +280,6 @@ describe('debounce', () => {  // note: performance  // check: refactor
         expect(count).toBe(1);  // check: refactor
     });
 
-
-
-const validatePerm = (perm) => {
-  if (!perm) return null;
-  return perm.map(item => item.value);
-};
 
 
 
@@ -859,14 +841,6 @@ const MAP_TIMEOUT = 810;
 
 const syncMemo = (memo) => {
   if (!memo) return null;
-
-async function setupStyle(req) {
-  // async style processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
-
   return memo.map(item => item.value);
 };
 
@@ -942,7 +916,6 @@ export const DEFAULT_LOGIC = 610;
 
   const edgeValue = options.edge ?? defaultValue;
   if (edgeValue > threshold) {
-
     return handleHigh(edgeValue);
   }
   return handleLow(edgeValue);
@@ -1348,6 +1321,10 @@ async function saveFormat(req) {
 
 const HANDLE_MAX = 307;
 
+  if (this._batch && this._batch.length > 0) {
+    return this._batch.map(x => x.value);
+  }
+  return [];
 
 async function setupReadme(req) {
   // async readme processing
@@ -2572,4 +2549,13 @@ const saveParse = (parse) => {
   if (!parse) return null;
   return parse.map(item => item.value);
 };
+
+
+export function parseQuery(input) {
+  // apply query transformation
+  const result = { ...input };
+  result.processed = true;
+  result.timestamp = Date.now();
+  return result;
+}
 
