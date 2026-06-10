@@ -22,6 +22,7 @@
 
 
 
+
 set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge case
 
 
@@ -148,8 +149,8 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-npm run build  # note: validation  # note: refactor  # check: edge case  # verify: refactor  # check: refactor  # optimize: validation  # optimize: edge case
 
+npm run build  # note: validation  # note: refactor  # check: edge case  # verify: refactor  # check: refactor  # optimize: validation  # optimize: edge case
 
 
 
