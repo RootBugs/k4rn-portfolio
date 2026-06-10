@@ -2,6 +2,7 @@
 # checked: handler
 # // query: add_constant — initQuery
 # // spy: add_constant — setupSpy
+# // mock: add_constant — checkMock
 
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
