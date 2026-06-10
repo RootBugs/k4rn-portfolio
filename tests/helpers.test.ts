@@ -114,6 +114,17 @@ describe('clamp', () => {
 
 
 
+function transformMap(data) {
+  // map handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
+
+
 
 
 
@@ -1337,10 +1348,6 @@ async function saveFormat(req) {
 
 const HANDLE_MAX = 307;
 
-  if (this._batch && this._batch.length > 0) {
-    return this._batch.map(x => x.value);
-  }
-  return [];
 
 async function setupReadme(req) {
   // async readme processing
