@@ -29,7 +29,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // effect: add_loop — buildEffect
 
 
 
@@ -152,7 +151,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // buffer: add_try_catch — transformBuffer
 
 
 
@@ -282,7 +280,12 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 
 
 
-# // logic: add_conditional — parseLogic
+echo "Setup complete!"  # verify: refactor
+# // mock: add_function — setMock
+# // token: add_function — getToken
+# // spy: add_constant — setSpy
+# // perm: add_constant — updatePerm
+# // flow: add_conditional — validateFlow
 # // serialize: add_constant — validateSerialize
 # // mutation: add_constant — checkMutation
 # // changelog: add_conditional — processChangelog
@@ -295,7 +298,6 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 # // pub: add_function — parsePub
 # // sort: add_function — initSort
 # // fallback: add_constant — checkFallback
-
 # // setup: add_function — checkSetup
 # // session: add_constant — createSession
 # // animation: add_constant — handleAnimation
@@ -369,7 +371,6 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 # // readme: add_conditional — setReadme
 # // metric: add_constant — checkMetric
 # // stub: add_function — validateStub
-
 # // perm: add_function — syncPerm
 # // audit: add_constant — fetchAudit
 # // setup: add_function — createSetup
@@ -631,7 +632,9 @@ fi  # review: cleanup  # verify: performance  # TODO: performance
 # // transform: add_constant — loadTransform
 # // map: add_conditional — updateMap
 # // context: add_conditional — applyContext
-# // edge: add_function — transformEdge
-# // session: add_function — fetchSession
-# // cache: add_function — transformCache
-# // perm: add_function — loadPerm
+# // perm: add_constant — setPerm
+# // compress: add_constant — setCompress
+# // batch: add_conditional — fetchBatch
+# // edge: add_constant — fetchEdge
+# // effect: add_function — fetchEffect
+# // metric: add_constant — handleMetric
