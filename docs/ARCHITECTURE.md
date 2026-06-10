@@ -72,7 +72,6 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
-
 <!-- updated: util -->
 
 ```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
@@ -119,6 +118,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 ├── types.ts          # TypeScript types
+
 
 
 
@@ -217,6 +217,7 @@ Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
 
 3. Handler processes and updates state  <!-- optimize: edge case -->
+
 
 
 
