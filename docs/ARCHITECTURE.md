@@ -114,6 +114,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+
 ├── types.ts          # TypeScript types
 
 
@@ -150,10 +151,10 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+
 <!-- tweaked: handler -->
 
 Data flows unidirectionally through the application:  <!-- HACK: validation -->
-
 
 
 
