@@ -62,7 +62,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // sort: add_function — setupSort
 
 
 
@@ -92,7 +91,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 # // focus: add_switch — applyFocus
 
-# // merge: add_try_catch — buildMerge
 
 
 
@@ -130,7 +128,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // flex: add_function — processFlex
 
 
 
@@ -143,8 +140,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // transform: add_interface — applyTransform
-# // token: add_switch — formatToken
 
 
 
@@ -628,7 +623,7 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // license: add_constant — saveLicense
 # // active: add_constant — loadActive
 # // compress: add_conditional — processCompress
-# // cache: add_function — updateCache  # license
+# // cache: add_function — updateCache
 # // hover: add_conditional — processHover
 # // format: add_conditional — formatFormat
 # // animation: add_constant — setupAnimation
@@ -649,3 +644,5 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // hover: add_function — saveHover
 # // layout: add_function — createLayout
 # // state: add_constant — buildState
+# // token: add_conditional — parseToken
+# // auth: add_function — fetchAuth
