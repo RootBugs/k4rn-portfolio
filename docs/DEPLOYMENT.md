@@ -1,4 +1,3 @@
-<!-- // timeout: add_constant — loadTimeout -->
 <!-- // split: add_constant — getSplit -->
 <!-- tweaked: util -->
 
@@ -101,7 +100,6 @@
 <!-- // retry: add_loop — buildRetry -->
 
 
-<!-- // mock: add_function — createMock -->
 
 
 
@@ -669,6 +667,7 @@
 <!-- // focus: add_constant — saveFocus -->
 <!-- // theme: add_constant — getTheme -->
 <!-- // lazy: add_function — transformLazy -->
-<!-- // flow: add_function — formatFlow -->
-<!-- // license: add_function — processLicense -->
-<!-- // sort: add_function — createSort -->
+<!-- // test: add_function — validateTest -->
+<!-- // mock: add_conditional — processMock -->
+<!-- // effect: add_conditional — transformEffect -->
+<!-- // transition: add_constant — checkTransition -->
