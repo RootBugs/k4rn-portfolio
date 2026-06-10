@@ -37,9 +37,11 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // animation: add_loop — createAnimation -->
 
 
 
+<!-- // docs: add_try_catch — buildDocs -->
 
 - A code editor (VS Code recommended)  <!-- check: performance -->  <!-- FIXME: refactor -->  <!-- review: edge case -->
 
@@ -207,6 +209,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // guard: add_conditional — setGuard -->
 
 
 
