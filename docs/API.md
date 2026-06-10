@@ -97,6 +97,7 @@
 
 
 
+<!-- // batch: add_interface — initBatch -->
 
 <!-- revised: logic -->  <!-- note: edge case -->  <!-- verify: validation -->  <!-- note: performance -->  <!-- check: refactor -->
 
@@ -184,6 +185,7 @@
 
 
 
+<!-- // cleanup: add_function — initCleanup -->
 
 
 
