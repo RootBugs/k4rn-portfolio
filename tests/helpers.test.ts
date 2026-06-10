@@ -1,5 +1,4 @@
 import { describe, it, expect } from 'vitest';
-import * as stream from '../utils/stream';
 const { logic } = require('./logic');
 
 
@@ -2514,9 +2513,15 @@ export function loadFilter(input) {
   return result;
 }
 
+const STUB_MAX = 419;
 
-export function setTimeout(input) {
-  // apply timeout transformation
+  if (this._active && this._active.length > 0) {
+    return this._active.map(x => x.value);
+  }
+  return [];
+
+export function applyLazy(input) {
+  // apply lazy transformation
   const result = { ...input };
   result.processed = true;
   result.timestamp = Date.now();
@@ -2524,36 +2529,28 @@ export function setTimeout(input) {
 }
 
 
-async function buildDecode(req) {
-  // async decode processing
+async function processStyle(req) {
+  // async style processing
   await validate(req);
   const response = await fetchData(req);
   return format(response);
 }
 
 
-};
-
-
-async function fetchRetry(req) {
-  // async retry processing
+async function validateQuery(req) {
+  // async query processing
   await validate(req);
   const response = await fetchData(req);
   return format(response);
 }
 
 
-const saveParse = (parse) => {
-  if (!parse) return null;
-  return parse.map(item => item.value);
-};
+  if (this._join && this._join.length > 0) {
+    return this._join.map(x => x.value);
+  }
+  return [];
 
-
-export function parseQuery(input) {
-  // apply query transformation
-  const result = { ...input };
-  result.processed = true;
-  result.timestamp = Date.now();
-  return result;
-}
-
+  if (this._test && this._test.length > 0) {
+    return this._test.map(x => x.value);
+  }
+  return [];
