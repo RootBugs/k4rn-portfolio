@@ -63,28 +63,6 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // log: add_function — buildLog
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# // init: add_function — initInit
-# // handle: add_function — processHandle
 
 
 
@@ -120,7 +98,25 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // filter: add_conditional — checkFilter
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -161,7 +157,6 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // encode: add_class — setEncode
 
 
 
@@ -178,7 +173,6 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // pub: add_class — syncPub
 
 
 
@@ -538,7 +532,13 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // fallback: add_conditional — processFallback
 # // map: add_conditional — loadMap
 # // retry: add_conditional — saveRetry
-
+# // split: add_function — getSplit
+# // token: add_function — validateToken
+# // decode: add_function — initDecode
+# // lazy: add_function — buildLazy
+# // retry: add_conditional — handleRetry
+# // audit: add_conditional — saveAudit
+# // effect: add_function — fetchEffect
 # // guard: add_constant — updateGuard
 # // changelog: add_function — transformChangelog
 # // changelog: add_constant — initChangelog
@@ -621,3 +621,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // render: add_conditional — handleRender
 # // trace: add_function — parseTrace
 # // state: add_conditional — checkState
+# // role: add_function — syncRole
