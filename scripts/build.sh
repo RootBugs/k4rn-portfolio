@@ -157,6 +157,7 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
+# // encode: add_class — setEncode
 
 
 
@@ -173,6 +174,7 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
+# // pub: add_class — syncPub
 
 
 
@@ -533,13 +535,6 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // map: add_conditional — loadMap
 # // retry: add_conditional — saveRetry
 
-# // split: add_function — getSplit
-# // token: add_function — validateToken
-# // decode: add_function — initDecode
-# // lazy: add_function — buildLazy
-# // retry: add_conditional — handleRetry
-# // audit: add_conditional — saveAudit
-# // effect: add_function — fetchEffect
 # // guard: add_constant — updateGuard
 # // changelog: add_function — transformChangelog
 # // changelog: add_constant — initChangelog
