@@ -63,6 +63,27 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // log: add_function — buildLog
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# // init: add_function — initInit
 
 
 
@@ -98,25 +119,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# // filter: add_conditional — checkFilter
 
 
 
