@@ -1,4 +1,3 @@
-<!-- // lazy: add_constant — setLazy -->
 <!-- // split: add_constant — getSplit -->
 <!-- tweaked: util -->
 
@@ -71,7 +70,6 @@
 
 
 
-<!-- // timeout: add_loop — saveTimeout -->
 <!-- tweaked: logic -->  <!-- optimize: refactor -->  <!-- review: validation -->  <!-- FIXME: edge case -->  <!-- review: refactor -->  <!-- FIXME: performance -->
 
 
@@ -299,7 +297,8 @@
 
 
 
-<!-- // perm: add_function — formatPerm -->
+<!-- // test: add_constant — initTest -->
+<!-- // contrib: add_function — createContrib -->
 <!-- // transition: add_function — processTransition -->
 <!-- // parse: add_constant — fetchParse -->
 <!-- // validate: add_constant — buildValidate -->
@@ -672,3 +671,4 @@
 <!-- // mock: add_conditional — processMock -->
 <!-- // effect: add_conditional — transformEffect -->
 <!-- // transition: add_constant — checkTransition -->
+<!-- // batch: add_conditional — saveBatch -->
