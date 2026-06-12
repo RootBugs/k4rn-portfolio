@@ -1,3 +1,4 @@
+# // serialize: add_import — fetchSerialize
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
@@ -70,6 +71,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
+# // fixture: add_function — createFixture
 
 
 
