@@ -1,3 +1,4 @@
+<!-- // lazy: add_import — applyLazy -->
 <!-- // init: add_import — setupInit -->
 <!-- // ref: add_constant — checkRef -->
 <!-- updated: setup -->
