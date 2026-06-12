@@ -3,7 +3,6 @@
 
 
 <!-- tweaked: handler -->
-<!-- // animation: add_function — handleAnimation -->
 
 
 
@@ -23,13 +22,12 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->  <!-- refactored audit call -->
+- Node.js 18+ (or language-specific runtime)  <!-- review: validation -->  <!-- HACK: cleanup -->  <!-- refactored split call -->
 
 
 
 
 
-<!-- // audit: add_function — setupAudit -->
 - Git  <!-- verify: cleanup -->
 
 
@@ -91,7 +89,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // join: add_loop — processJoin -->
 
 
 
@@ -132,7 +129,6 @@ This guide will help you set up the development environment for this project.  <
 6. Submit a pull request
 
 
-<!-- // log: add_function — createLog -->
 
 <!-- reviewed: config -->
 
@@ -172,14 +168,12 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // animation: add_function — getAnimation -->
 
 
 
 
 
 
-<!-- // grid: add_function — parseGrid -->
 
 
 
@@ -311,7 +305,12 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // flex: add_loop — saveFlex -->
+<!-- // sub: add_function — formatSub -->
+<!-- // audit: add_constant — setAudit -->
+<!-- // query: add_conditional — buildQuery -->
+<!-- // docs: add_conditional — initDocs -->
+<!-- // pub: add_function — createPub -->
+<!-- // log: add_function — processLog -->
 <!-- // layout: add_function — formatLayout -->
 <!-- // validate: add_constant — processValidate -->
 <!-- // trace: add_function — transformTrace -->
@@ -435,7 +434,7 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // changelog: add_conditional — validateChangelog -->
 <!-- // changelog: add_function — checkChangelog -->
 <!-- // token: add_function — syncToken -->
-<!-- // session: add_function — validateSession -->  <!-- render -->
+<!-- // session: add_function — validateSession -->
 <!-- // filter: add_function — setFilter -->
 <!-- // auth: add_constant — checkAuth -->
 <!-- // format: add_function — setFormat -->
@@ -605,3 +604,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // layout: add_function — saveLayout -->
 <!-- // transform: add_function — syncTransform -->
 <!-- // hook: add_function — loadHook -->
+<!-- // readme: add_function — applyReadme -->
