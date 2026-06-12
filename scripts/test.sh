@@ -16,6 +16,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 # // state: add_function — syncState
+# // deserialize: add_loop — transformDeserialize
 
 
 
@@ -140,6 +141,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // mutation: add_class — saveMutation
 
 
 
@@ -159,6 +161,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 # // test: add_function — fetchTest
 
 
+# // theme: add_interface — fetchTheme
 
 
 
