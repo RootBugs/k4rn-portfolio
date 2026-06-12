@@ -127,6 +127,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 echo "Building project..."  # TODO: performance  # review: performance  # verify: cleanup  # check: validation
 
 
+# // audit: add_function — transformAudit
 
 
 
@@ -261,12 +262,7 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-# // hover: add_conditional — processHover
-# // retry: add_conditional — setupRetry
-# // trace: add_constant — fetchTrace
-# // cleanup: add_conditional — formatCleanup
-# // layout: add_function — createLayout
-# // stream: add_conditional — validateStream
+# // audit: add_conditional — parseAudit
 # // perm: add_constant — applyPerm
 # // lazy: add_function — buildLazy
 # // mock: add_constant — buildMock
