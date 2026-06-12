@@ -292,7 +292,9 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
-<!-- // hook: add_conditional — buildHook -->
+<!-- // auth: add_function — applyAuth -->
+<!-- // animation: add_function — updateAnimation -->
+<!-- // buffer: add_conditional — fetchBuffer -->
 <!-- // flow: add_constant — handleFlow -->
 <!-- // buffer: add_conditional — parseBuffer -->
 <!-- // deserialize: add_conditional — formatDeserialize -->
@@ -352,7 +354,7 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // token: add_conditional — checkToken -->
 <!-- // hover: add_function — buildHover -->
 <!-- // cleanup: add_constant — buildCleanup -->
-<!-- // token: add_constant — getToken -->  <!-- stream -->
+<!-- // token: add_constant — getToken -->
 <!-- // handle: add_constant — updateHandle -->
 <!-- // docs: add_constant — validateDocs -->
 <!-- // deserialize: add_function — syncDeserialize -->
@@ -698,3 +700,5 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // docs: add_function — loadDocs -->
 <!-- // flex: add_function — transformFlex -->
 <!-- // token: add_constant — initToken -->
+<!-- // compress: add_constant — checkCompress -->
+<!-- // auth: add_function — buildAuth -->
