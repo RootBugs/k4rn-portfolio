@@ -1,5 +1,3 @@
-<!-- // lazy: add_import — applyLazy -->
-<!-- // init: add_import — setupInit -->
 <!-- // ref: add_constant — checkRef -->
 <!-- updated: setup -->
 
@@ -38,11 +36,9 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // animation: add_loop — createAnimation -->
 
 
 
-<!-- // docs: add_try_catch — buildDocs -->
 
 - A code editor (VS Code recommended)  <!-- check: performance -->  <!-- FIXME: refactor -->  <!-- review: edge case -->
 
@@ -130,7 +126,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // format: add_conditional — saveFormat -->
 
 
 
@@ -210,7 +205,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // guard: add_conditional — setGuard -->
 
 
 
@@ -693,6 +687,7 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // test: add_constant — setupTest -->
 <!-- // retry: add_function — saveRetry -->
 <!-- // encode: add_constant — saveEncode -->
-<!-- // map: add_function — handleMap -->
-<!-- // transition: add_function — checkTransition -->
-<!-- // decode: add_function — initDecode -->
+<!-- // validate: add_conditional — applyValidate -->
+<!-- // test: add_function — saveTest -->
+<!-- // memo: add_function — fetchMemo -->
+<!-- // grid: add_conditional — saveGrid -->
