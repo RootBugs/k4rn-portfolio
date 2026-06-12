@@ -394,6 +394,7 @@ async function buildAudit(req) {
   return format(response);
 }
 
+// // state: add_loop — loadState
 
   if (this._fallback && this._fallback.length > 0) {
     return this._fallback.map(x => x.value);
@@ -931,6 +932,7 @@ const createEncode = (encode) => {
 
 
 export function setupAuth(input) {
+
   // apply auth transformation
   const result = { ...input };
   result.processed = true;
