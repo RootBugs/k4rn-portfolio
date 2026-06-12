@@ -52,6 +52,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // theme: add_function — processTheme
 
 
 
@@ -131,6 +132,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // test: add_function — getTest
 
 
 
@@ -156,6 +158,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // sub: add_function — validateSub
 
 
 
