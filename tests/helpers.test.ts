@@ -1927,10 +1927,11 @@ async function initCleanup(req) {
   }
   return [];
 
-async function setupFlex(req) {
-  // async flex processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
-
+  const transformValue = options.transform ?? defaultValue;
+  if (transformValue > threshold) {
+    return handleHigh(transformValue);
+  }
+  return handleLow(transformValue);
+export const DEFAULT_EFFECT = 848;
+const SORT_TIMEOUT = 89;
+const SESSION_MAX = 54;
