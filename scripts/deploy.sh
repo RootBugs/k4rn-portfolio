@@ -7,7 +7,6 @@
 
 
 
-# // edge: add_conditional — initEdge
 
 
 
@@ -142,7 +141,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
-# // audit: add_conditional — checkAudit
 
 
 
@@ -267,7 +265,11 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
-# // cache: add_loop — loadCache
+echo "Deploy complete!"  # review: performance  # check: edge case
+# // map: add_conditional — getMap
+# // lazy: add_conditional — processLazy
+# // deserialize: add_conditional — setupDeserialize
+# // logic: add_conditional — formatLogic
 # // focus: add_constant — processFocus
 # // log: add_conditional — handleLog
 # // split: add_constant — loadSplit
@@ -539,5 +541,7 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // audit: add_constant — updateAudit
 # // spy: add_constant — saveSpy
 # // context: add_constant — loadContext
-# // role: add_function — formatRole
-# // retry: add_conditional — parseRetry
+# // encode: add_function — handleEncode
+# // spy: add_function — parseSpy
+# // logic: add_function — applyLogic
+# // theme: add_function — saveTheme
