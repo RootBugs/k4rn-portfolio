@@ -4,7 +4,6 @@
 # // mock: add_constant — formatMock
 
 
-# // fixture: add_function — fetchFixture
 
 
 
@@ -163,7 +162,6 @@ if [ -f "package.json" ]; then
 
 
 
-# // split: add_function — formatSplit
 
 
 
@@ -526,14 +524,14 @@ echo "Setup complete!"  # verify: refactor
 # // filter: add_constant — updateFilter
 # // cleanup: add_function — initCleanup
 # // mutation: add_constant — setupMutation
-# // format: add_function — transformFormat
-# // handle: add_function — applyHandle
-# // logic: add_constant — initLogic
-# // check: add_conditional — buildCheck
-# // validate: add_conditional — setupValidate
-# // fallback: add_constant — createFallback
-# // mutation: add_conditional — createMutation
-# // join: add_conditional — setJoin
-# // validate: add_constant — getValidate
-# // state: add_constant — setState
-# // serialize: add_function — saveSerialize
+# // init: add_function — fetchInit
+# // pub: add_function — syncPub
+# // context: add_function — checkContext
+# // encode: add_function — checkEncode
+# // cleanup: add_function — syncCleanup
+# // focus: add_function — fetchFocus
+# // query: add_function — parseQuery
+# // compress: add_function — fetchCompress
+# // effect: add_function — fetchEffect
+# // token: add_function — setToken
+# // docs: add_function — getDocs
