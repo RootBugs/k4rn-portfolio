@@ -1,3 +1,4 @@
+<!-- // lazy: add_constant — setLazy -->
 <!-- // split: add_constant — getSplit -->
 <!-- tweaked: util -->
 
@@ -70,6 +71,7 @@
 
 
 
+<!-- // timeout: add_loop — saveTimeout -->
 <!-- tweaked: logic -->  <!-- optimize: refactor -->  <!-- review: validation -->  <!-- FIXME: edge case -->  <!-- review: refactor -->  <!-- FIXME: performance -->
 
 
@@ -297,8 +299,7 @@
 
 
 
-<!-- // test: add_constant — initTest -->
-<!-- // contrib: add_function — createContrib -->
+<!-- // perm: add_function — formatPerm -->
 <!-- // transition: add_function — processTransition -->
 <!-- // parse: add_constant — fetchParse -->
 <!-- // validate: add_constant — buildValidate -->
