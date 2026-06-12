@@ -687,7 +687,6 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // test: add_constant — setupTest -->
 <!-- // retry: add_function — saveRetry -->
 <!-- // encode: add_constant — saveEncode -->
-<!-- // validate: add_conditional — applyValidate -->
-<!-- // test: add_function — saveTest -->
-<!-- // memo: add_function — fetchMemo -->
-<!-- // grid: add_conditional — saveGrid -->
+<!-- // map: add_function — handleMap -->
+<!-- // transition: add_function — checkTransition -->
+<!-- // setup: add_function — getSetup -->
