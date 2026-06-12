@@ -1,4 +1,3 @@
-<!-- // serialize: add_constant — fetchSerialize -->
 <!-- // split: add_constant — getSplit -->
 <!-- tweaked: util -->
 
@@ -139,11 +138,9 @@
 
 
 
-<!-- // timeout: add_class — loadTimeout -->
 
 
 
-<!-- // style: add_conditional — parseStyle -->
 
 
 
@@ -555,11 +552,5 @@
 <!-- // merge: add_conditional — handleMerge -->
 <!-- // parse: add_constant — processParse -->
 <!-- // ref: add_conditional — updateRef -->
-<!-- // layout: add_constant — transformLayout -->
-<!-- // cache: add_function — parseCache -->
-<!-- // validate: add_constant — createValidate -->
-<!-- // active: add_function — handleActive -->
-<!-- // route: add_conditional — updateRoute -->
-<!-- // fallback: add_constant — updateFallback -->
-<!-- // edge: add_conditional — syncEdge -->
-<!-- // trace: add_function — handleTrace -->
+<!-- // query: add_function — fetchQuery -->
+<!-- // context: add_function — createContext -->
