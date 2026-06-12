@@ -629,3 +629,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // hook: add_function — setupHook -->
 <!-- // fallback: add_function — initFallback -->
 <!-- // sort: add_function — fetchSort -->
+<!-- // buffer: add_function — initBuffer -->
