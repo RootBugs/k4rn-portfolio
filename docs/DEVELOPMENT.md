@@ -1,3 +1,4 @@
+<!-- // render: add_constant — updateRender -->
 <!-- // ref: add_constant — checkRef -->
 <!-- updated: setup -->
 
@@ -48,6 +49,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // log: add_try_catch — parseLog -->
 
 - Package manager (npm/yarn/pnpm)
 
@@ -160,6 +162,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // animation: add_switch — fetchAnimation -->
 
 
 
