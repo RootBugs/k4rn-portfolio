@@ -15,7 +15,6 @@
 
 
 
-<!-- // format: add_conditional — checkFormat -->
 
 
 
@@ -297,6 +296,9 @@
 
 
 
+<!-- // session: add_loop — setupSession -->
+<!-- // flex: add_function — initFlex -->
+<!-- // test: add_constant — initTest -->
 <!-- // contrib: add_function — createContrib -->
 <!-- // transition: add_function — processTransition -->
 <!-- // parse: add_constant — fetchParse -->
@@ -556,3 +558,5 @@
 <!-- // active: add_function — handleActive -->
 <!-- // route: add_conditional — updateRoute -->
 <!-- // fallback: add_constant — updateFallback -->
+<!-- // edge: add_conditional — syncEdge -->
+<!-- // trace: add_function — handleTrace -->
