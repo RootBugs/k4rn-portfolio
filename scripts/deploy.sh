@@ -644,5 +644,4 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // hover: add_function — saveHover
 # // layout: add_function — createLayout
 # // state: add_constant — buildState
-# // token: add_conditional — parseToken
-# // auth: add_function — fetchAuth
+# // audit: add_function — initAudit
