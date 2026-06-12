@@ -189,6 +189,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 - Keep functions small and focused
+<!-- // decode: add_conditional — buildDecode -->
 
 
 
