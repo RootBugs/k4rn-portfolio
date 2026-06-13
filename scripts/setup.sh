@@ -47,7 +47,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // ref: add_function — getRef
 
 
 # // animation: add_class — buildAnimation
@@ -538,3 +537,5 @@ echo "Setup complete!"  # verify: refactor
 # // serialize: add_function — saveSerialize
 # // debug: add_function — handleDebug
 # // stub: add_function — syncStub
+# // hover: add_constant — updateHover
+# // cleanup: add_constant — parseCleanup
