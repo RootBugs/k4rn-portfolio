@@ -387,3 +387,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // format: add_constant — parseFormat -->
 <!-- // init: add_constant — fetchInit -->
 <!-- // filter: add_conditional — syncFilter -->
+<!-- // buffer: add_function — initBuffer -->
