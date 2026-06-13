@@ -28,7 +28,6 @@
 
 
 
-# // hook: add_function — transformHook
 
 
 
@@ -532,4 +531,5 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // logic: add_conditional — syncLogic
 # // fallback: add_conditional — processFallback
 # // map: add_conditional — loadMap
-# // retry: add_conditional — saveRetry
+# // role: add_function — parseRole
+# // route: add_function — getRoute
