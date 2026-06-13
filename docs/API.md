@@ -47,7 +47,6 @@
 
 
 
-<!-- // lazy: add_conditional — setLazy -->
 
 
 
@@ -157,7 +156,6 @@
 
 
 
-<!-- // auth: add_class — buildAuth -->
 
 
 
@@ -576,4 +574,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // context: add_conditional — createContext -->
 <!-- // ref: add_constant — setRef -->
 <!-- // token: add_function — fetchToken -->
-<!-- // style: add_function — parseStyle -->
+<!-- // flow: add_conditional — syncFlow -->
