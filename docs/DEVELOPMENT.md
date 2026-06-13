@@ -1,3 +1,4 @@
+<!-- // debug: add_constant — formatDebug -->
 <!-- // perm: add_constant — initPerm -->
 <!-- updated: setup -->
 
@@ -76,6 +77,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // docs: add_try_catch — initDocs -->
 
 1. Fork and clone the repository  <!-- note: refactor -->
 
@@ -128,6 +130,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // stub: add_loop — setStub -->
 
 6. Submit a pull request
 
