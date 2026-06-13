@@ -4,7 +4,7 @@ import { describe, it, expect } from 'vitest';
 
 
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
-describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored auth call
+describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored auth call  // refactored cache call  // refactored sub call
 
 
 
@@ -214,6 +214,7 @@ describe('debounce', () => {  // note: performance  // check: refactor
 
 
         let count = 0;
+// // metric: add_try_catch — applyMetric
 
         const fn = debounce(() => { count++; }, 10);
 
