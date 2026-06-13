@@ -47,6 +47,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // ref: add_function — getRef
 
 
 # // animation: add_class — buildAnimation
