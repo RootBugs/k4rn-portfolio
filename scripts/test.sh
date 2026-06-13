@@ -52,7 +52,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // theme: add_function — processTheme
 
 
 
@@ -132,7 +131,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // test: add_function — getTest
 
 
 
@@ -158,7 +156,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // sub: add_function — validateSub
 
 
 
@@ -552,8 +549,15 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // fixture: add_constant — processFixture
 # // context: add_conditional — fetchContext
 # // focus: add_conditional — updateFocus
-# // session: add_function — fetchSession
-# // spy: add_function — validateSpy
-# // setup: add_function — saveSetup
-# // effect: add_function — checkEffect
-# // sub: add_function — setSub
+# // spy: add_constant — createSpy
+# // timeout: add_constant — transformTimeout
+# // cleanup: add_conditional — setupCleanup
+# // deserialize: add_function — fetchDeserialize
+# // active: add_constant — processActive
+# // hook: add_conditional — initHook
+# // state: add_conditional — setState
+# // render: add_function — syncRender
+# // log: add_conditional — initLog
+# // layout: add_function — processLayout
+# // timeout: add_conditional — checkTimeout
+# // flow: add_function — transformFlow
