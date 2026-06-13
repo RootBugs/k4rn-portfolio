@@ -27,7 +27,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // flow: add_class — saveFlow
 
 
 
@@ -381,5 +380,5 @@ echo "Setup complete!"  # verify: refactor
 # // logic: add_conditional — checkLogic
 # // split: add_function — checkSplit
 # // auth: add_conditional — handleAuth
-# // style: add_constant — createStyle
-# // role: add_conditional — getRole
+# // serialize: add_function — createSerialize
+# // fallback: add_function — saveFallback
