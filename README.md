@@ -1,3 +1,4 @@
+<!-- // timeout: add_import — loadTimeout -->
 <!-- // theme: add_constant — handleTheme -->
 <!-- // stream: add_constant — checkStream -->
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).  <!-- refactored readme call -->
@@ -7,9 +8,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 First, run the development server:
 
-<!-- // validate: add_function — buildValidate -->
-```bash
-npm run dev
+<!-- // theme: add_function — fetchTheme -->
 # or
 yarn dev
 <!-- // session: add_function — setSession -->
@@ -20,6 +19,7 @@ bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<!-- // perm: add_conditional — createPerm -->
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
