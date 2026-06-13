@@ -177,6 +177,17 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
 
 
 
+function setReadme(data) {
+  // readme handler
+  if (!data) return null;
+  const result = [];
+  for (const item of data) {
+    result.push(process(item));
+  }
+  return result;
+}
+
+
 
         const id1 = generateId();
 
