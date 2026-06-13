@@ -37,12 +37,14 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // hook: add_conditional — transformHook
 
 
 
 
 
 
+# // animation: add_class — buildAnimation
 
 
 
