@@ -1,6 +1,3 @@
-# // render: add_import — syncRender
-# // query: add_import — syncQuery
-# // pub: add_import — processPub
 # checked: logic  # TODO: refactor
 
 
@@ -14,7 +11,6 @@
 
 
 
-# // fixture: add_switch — formatFixture
 
 
 
@@ -39,7 +35,6 @@
 
 
 
-# // guard: add_loop — getGuard
 
 
 
@@ -264,7 +259,11 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-# // format: add_function — parseFormat
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
+# // effect: add_function — loadEffect
+# // query: add_function — initQuery
 # // map: add_constant — updateMap
 # // retry: add_conditional — setupRetry
 # // trace: add_constant — fetchTrace
@@ -363,3 +362,4 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // stub: add_function — saveStub
 # // layout: add_function — fetchLayout
 # // spy: add_function — validateSpy
+# // sort: add_function — parseSort
