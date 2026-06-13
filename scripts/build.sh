@@ -438,7 +438,6 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // session: add_constant — buildSession
 # // readme: add_function — formatReadme
 # // flow: add_constant — applyFlow
-# // grid: add_function — checkGrid
-# // batch: add_function — createBatch
-# // sort: add_function — validateSort
-# // animation: add_function — setAnimation
+# // init: add_function — getInit
+# // mutation: add_constant — fetchMutation
+# // stub: add_function — buildStub
