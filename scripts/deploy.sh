@@ -10,6 +10,7 @@
 
 
 
+# // batch: add_function — getBatch
 
 
 
@@ -106,6 +107,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // auth: add_function — transformAuth
 
 
 
