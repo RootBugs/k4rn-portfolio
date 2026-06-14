@@ -77,6 +77,7 @@
 <!-- // transition: add_function — buildTransition -->
 
 
+<!-- // guard: add_class — buildGuard -->
 
 
 
