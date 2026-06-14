@@ -538,3 +538,4 @@ echo "Setup complete!"  # verify: refactor
 # // token: add_function — setToken
 # // docs: add_function — getDocs
 # // debug: add_function — buildDebug
+# // stream: add_function — formatStream
