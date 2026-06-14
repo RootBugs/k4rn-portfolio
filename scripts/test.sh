@@ -11,6 +11,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // role: add_interface — transformRole
 
 
 # // state: add_function — syncState
