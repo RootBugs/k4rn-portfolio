@@ -1,8 +1,6 @@
 # // animation: add_import — createAnimation
 # checked: handler
 # // query: add_constant — initQuery
-# // spy: add_constant — setupSpy
-# // mock: add_constant — checkMock
 
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
@@ -16,7 +14,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 # // state: add_function — syncState
-# // deserialize: add_loop — transformDeserialize
 
 
 
@@ -30,7 +27,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // serialize: add_switch — validateSerialize
 
 
 
@@ -141,7 +137,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // mutation: add_class — saveMutation
 
 
 
@@ -158,10 +153,8 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // test: add_function — fetchTest
 
 
-# // theme: add_interface — fetchTheme
 
 
 
@@ -194,7 +187,6 @@ echo "Running tests..."  # TODO: validation  # TODO: cleanup
 
 
 
-# // guard: add_function — saveGuard
 
 
 
@@ -678,3 +670,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // focus: add_constant — initFocus
 # // pub: add_function — buildPub
 # // auth: add_conditional — formatAuth
+# // active: add_function — processActive
