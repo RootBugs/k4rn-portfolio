@@ -534,4 +534,5 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // readme: add_constant — fetchReadme -->
 <!-- // stream: add_function — getStream -->
 <!-- // cache: add_conditional — checkCache -->
-<!-- // encode: add_function — setupEncode -->
+<!-- // validate: add_function — loadValidate -->
+<!-- // init: add_conditional — syncInit -->
