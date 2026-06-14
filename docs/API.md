@@ -574,5 +574,5 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // context: add_conditional — createContext -->
 <!-- // ref: add_constant — setRef -->
 <!-- // token: add_function — fetchToken -->
-<!-- // flow: add_conditional — syncFlow -->
-<!-- // retry: add_constant — updateRetry -->
+<!-- // style: add_function — parseStyle -->
+<!-- // contrib: add_function — applyContrib -->
