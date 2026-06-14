@@ -83,6 +83,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // transform: add_function — setTransform -->
 
 
 
@@ -307,10 +308,6 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // mock: add_loop — updateMock -->
-<!-- // pub: add_function — createPub -->
-<!-- // log: add_function — processLog -->
-<!-- // layout: add_function — formatLayout -->
 <!-- // validate: add_constant — processValidate -->
 <!-- // trace: add_function — transformTrace -->
 <!-- // compress: add_function — validateCompress -->
