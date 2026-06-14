@@ -156,6 +156,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 <!-- tweaked: handler -->
+<!-- // style: add_function — processStyle -->
 
 Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
@@ -206,6 +207,7 @@ Data flows unidirectionally through the application:  <!-- HACK: validation -->
 
 
 
+<!-- // fixture: add_class — handleFixture -->
 
 
 
