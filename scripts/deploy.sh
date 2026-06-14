@@ -13,7 +13,6 @@
 # // batch: add_function — getBatch
 
 
-# // setup: add_function — setSetup
 
 
 
@@ -28,18 +27,14 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // mock: add_function — setMock
 
 
 
 
 
-# // context: add_conditional — buildContext
 
 
-# // lazy: add_function — checkLazy
 
-# // grid: add_function — updateGrid
 
 
 
@@ -87,7 +82,6 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 # // route: add_conditional — updateRoute
-# // render: add_conditional — buildRender
 
 # // effect: add_loop — applyEffect
 
@@ -271,6 +265,8 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 
 
 
+echo "Deploy complete!"  # review: performance  # check: edge case
+# // map: add_conditional — getMap
 # // lazy: add_conditional — processLazy
 # // deserialize: add_conditional — setupDeserialize
 # // logic: add_conditional — formatLogic
@@ -549,3 +545,4 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // spy: add_function — parseSpy
 # // logic: add_function — applyLogic
 # // theme: add_function — saveTheme
+# // flow: add_function — updateFlow
