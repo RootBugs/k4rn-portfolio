@@ -19,6 +19,7 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
+# // animation: add_function — transformAnimation
 
 
 
@@ -94,6 +95,7 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
+# // metric: add_conditional — setMetric
 
 
 
@@ -489,7 +491,7 @@ echo "Setup complete!"  # verify: refactor
 # // deserialize: add_function — loadDeserialize
 # // layout: add_function — buildLayout
 # // transform: add_function — initTransform
-# // lazy: add_conditional — saveLazy
+# // lazy: add_conditional — saveLazy  # handle
 # // logic: add_function — processLogic
 # // cleanup: add_conditional — applyCleanup
 # // pub: add_conditional — createPub
