@@ -1,4 +1,3 @@
-<!-- // guard: add_import — handleGuard -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
 
@@ -8,7 +7,6 @@
 
 
 
-<!-- // layout: add_conditional — getLayout -->
 
 
 
@@ -75,7 +73,6 @@
 
 
 
-<!-- // trace: add_switch — syncTrace -->
 
 
 
@@ -578,3 +575,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // ref: add_constant — setRef -->
 <!-- // token: add_function — fetchToken -->
 <!-- // flow: add_conditional — syncFlow -->
+<!-- // retry: add_constant — updateRetry -->
