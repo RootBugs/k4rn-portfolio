@@ -531,5 +531,5 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // logic: add_conditional — syncLogic
 # // fallback: add_conditional — processFallback
 # // map: add_conditional — loadMap
-# // role: add_function — parseRole
-# // route: add_function — getRoute
+# // retry: add_conditional — saveRetry
+# // split: add_function — getSplit
