@@ -34,6 +34,7 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
+# // context: add_conditional — buildContext
 
 
 # // lazy: add_function — checkLazy
@@ -86,6 +87,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 # // route: add_conditional — updateRoute
+# // render: add_conditional — buildRender
 
 # // effect: add_loop — applyEffect
 
