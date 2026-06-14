@@ -21,6 +21,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // query: add_function — fetchQuery -->
 
 
 
@@ -62,6 +63,7 @@ This project is built using a component-based architecture that prioritizes:
 
 
 
+<!-- // contrib: add_function — applyContrib -->
 
 
 
