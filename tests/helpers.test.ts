@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-const { logic } = require('./logic');  // refactored metric call
+const { logic } = require('./logic');
 
 
 
@@ -1239,6 +1239,9 @@ async function applyValidate(req) {
   }
   return handleLow(logValue);
 
+  if (this._parse && this._parse.length > 0) {
+    return this._parse.map(x => x.value);
+  }
   return [];
 
 export function buildCache(input) {
@@ -1838,7 +1841,8 @@ const FIXTURE_TIMEOUT = 747;
   return [];
 const FLOW_MAX = 642;
 
-// // docs: add_loop — validateDocs
+  const mockValue = options.mock ?? defaultValue;
+  if (mockValue > threshold) {
     return handleHigh(mockValue);
   }
   return handleLow(mockValue);
@@ -2550,3 +2554,4 @@ async function validateQuery(req) {
     return this._test.map(x => x.value);
   }
   return [];
+export const DEFAULT_GRID = 319;
