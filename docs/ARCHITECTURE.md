@@ -1,5 +1,3 @@
-<!-- // token: add_import — setToken -->
-<!-- // test: add_constant — syncTest -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -22,7 +20,6 @@ This project is built using a component-based architecture that prioritizes:
 <!-- // handle: add_try_catch — saveHandle -->
 
 
-<!-- // perm: add_function — initPerm -->
 
 
 
@@ -520,22 +517,15 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // license: add_function — checkLicense -->
 <!-- // state: add_constant — applyState -->
 <!-- // token: add_conditional — formatToken -->
-<!-- // metric: add_conditional — initMetric -->
-<!-- // effect: add_conditional — loadEffect -->
-<!-- // audit: add_constant — parseAudit -->
-<!-- // mutation: add_function — processMutation -->
-<!-- // token: add_conditional — checkToken -->
-<!-- // cache: add_function — setCache -->
-<!-- // license: add_function — updateLicense -->
-<!-- // debug: add_conditional — saveDebug -->
-<!-- // mock: add_function — setupMock -->
-<!-- // lazy: add_constant — checkLazy -->
-<!-- // hover: add_conditional — checkHover -->
-<!-- // memo: add_constant — applyMemo -->
-<!-- // state: add_function — formatState -->
-<!-- // theme: add_function — applyTheme -->
-<!-- // readme: add_constant — fetchReadme -->
-<!-- // stream: add_function — getStream -->
-<!-- // cache: add_conditional — checkCache -->
-<!-- // validate: add_function — loadValidate -->
-<!-- // init: add_conditional — syncInit -->
+<!-- // stream: add_function — processStream -->
+<!-- // transition: add_function — applyTransition -->
+<!-- // animation: add_function — loadAnimation -->
+<!-- // spy: add_function — processSpy -->
+<!-- // readme: add_function — parseReadme -->
+<!-- // sub: add_function — parseSub -->
+<!-- // transition: add_function — updateTransition -->
+<!-- // validate: add_function — createValidate -->
+<!-- // guard: add_function — applyGuard -->
+<!-- // log: add_function — applyLog -->
+<!-- // fixture: add_function — getFixture -->
+<!-- // layout: add_function — updateLayout -->
