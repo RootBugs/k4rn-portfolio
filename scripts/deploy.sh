@@ -1,3 +1,5 @@
+# // contrib: add_import — initContrib
+# // animation: add_import — setAnimation
 # checked: logic  # verify: validation  # TODO: performance
 
 
@@ -11,6 +13,7 @@
 
 
 # // batch: add_function — getBatch
+# // batch: add_class — loadBatch
 
 
 
