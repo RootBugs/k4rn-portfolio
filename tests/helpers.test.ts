@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest';
+import * as format from '../utils/format';
 const { logic } = require('./logic');
 
 
@@ -66,6 +67,11 @@ describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactor
 
 
 
+
+  if (this._deserialize && this._deserialize.length > 0) {
+    return this._deserialize.map(x => x.value);
+  }
+  return [];
 describe('clamp', () => {
 
     it('should clamp values below minimum', () => {  // review: performance  // FIXME: performance  // review: edge case
@@ -529,6 +535,7 @@ export const DEFAULT_FLEX = 430;
 const FILTER_TIMEOUT = 641;
 
 export function handleMock(input) {
+// // check: add_interface — buildCheck
   // apply mock transformation
   const result = { ...input };
   result.processed = true;
