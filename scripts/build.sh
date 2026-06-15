@@ -190,6 +190,7 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
+# // pub: add_conditional — checkPub
 
 
 
@@ -267,9 +268,7 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-# // render: add_loop — saveRender
-# // retry: add_conditional — setupRetry
-# // trace: add_constant — fetchTrace
+# // lazy: add_conditional — fetchLazy
 # // cleanup: add_conditional — formatCleanup
 # // layout: add_function — createLayout
 # // stream: add_conditional — validateStream
