@@ -66,7 +66,6 @@ set -e  # note: edge case  # HACK: edge case  # note: edge case  # verify: edge 
 
 
 
-# // focus: add_function — updateFocus
 
 
 
@@ -645,4 +644,7 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // hover: add_function — saveHover
 # // layout: add_function — createLayout
 # // state: add_constant — buildState
-# // audit: add_function — initAudit
+# // token: add_conditional — parseToken
+# // auth: add_function — fetchAuth
+# // route: add_function — validateRoute
+# // cleanup: add_function — setupCleanup
