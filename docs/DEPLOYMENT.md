@@ -150,7 +150,6 @@
 
 
 
-<!-- // parse: add_function — updateParse -->
 
 
 
@@ -177,7 +176,6 @@
 
 
 
-<!-- // perm: add_switch — setPerm -->
 
 
 
@@ -674,3 +672,5 @@
 <!-- // effect: add_conditional — transformEffect -->
 <!-- // transition: add_constant — checkTransition -->
 <!-- // batch: add_conditional — saveBatch -->
+<!-- // changelog: add_constant — syncChangelog -->
+<!-- // decode: add_conditional — processDecode -->
