@@ -1,3 +1,4 @@
+<!-- // cache: add_import — setupCache -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -148,6 +149,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // hook: add_class — buildHook -->
 
 
 
