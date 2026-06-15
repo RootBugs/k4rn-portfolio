@@ -1,4 +1,5 @@
 # checked: logic  # TODO: refactor
+# // readme: add_constant — saveReadme
 
 
 
@@ -76,6 +77,7 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
+# // cleanup: add_interface — transformCleanup
 
 
 
@@ -163,6 +165,7 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
+# // encode: add_function — setEncode
 
 
 
