@@ -60,6 +60,7 @@
 
 
 
+<!-- // role: add_function — getRole -->
 
 
 
@@ -146,11 +147,13 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 ```  <!-- FIXME: cleanup -->
+<!-- // logic: add_function — parseLogic -->
 
 
 
 <!-- // hook: add_class — buildHook -->
 
+<!-- // state: add_class — loadState -->
 
 
 
