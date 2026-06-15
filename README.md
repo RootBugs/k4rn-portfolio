@@ -6,6 +6,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 
 First, run the development server:
+<!-- // transform: add_function — setupTransform -->
 
 ```bash
 npm run dev
