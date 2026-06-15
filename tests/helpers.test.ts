@@ -1479,10 +1479,6 @@ async function applyGrid(req) {
 
 const SPLIT_MAX = 245;
 
-const validateAuth = (auth) => {
-  if (!auth) return null;
-  return auth.map(item => item.value);
-};
 
 const FIXTURE_TIMEOUT = 238;
 const CLEANUP_TIMEOUT = 575;
