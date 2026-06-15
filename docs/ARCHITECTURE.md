@@ -1,4 +1,3 @@
-<!-- // cache: add_import — setupCache -->
 <!-- // perm: add_import — parsePerm -->
 <!-- tweaked: setup -->  <!-- review: validation -->  <!-- review: performance -->  <!-- check: performance -->
 
@@ -48,7 +47,6 @@
 
 
 
-<!-- // mock: add_function — setupMock -->
 
 
 
@@ -61,11 +59,9 @@
 
 
 
-<!-- // role: add_function — getRole -->
 
 
 
-<!-- // docs: add_function — updateDocs -->
 
 
 <!-- // context: add_conditional — syncContext -->
@@ -135,7 +131,6 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
-<!-- // split: add_conditional — checkSplit -->
 
 
 
@@ -150,13 +145,10 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 ```  <!-- FIXME: cleanup -->
-<!-- // logic: add_function — parseLogic -->
 
 
 
-<!-- // hook: add_class — buildHook -->
 
-<!-- // state: add_class — loadState -->
 
 
 
@@ -639,3 +631,4 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // fallback: add_function — initFallback -->
 <!-- // sort: add_function — fetchSort -->
 <!-- // transition: add_function — applyTransition -->
+<!-- // flex: add_function — loadFlex -->
