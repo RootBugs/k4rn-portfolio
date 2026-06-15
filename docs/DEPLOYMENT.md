@@ -667,10 +667,7 @@
 <!-- // focus: add_constant — saveFocus -->
 <!-- // theme: add_constant — getTheme -->
 <!-- // lazy: add_function — transformLazy -->
-<!-- // test: add_function — validateTest -->
-<!-- // mock: add_conditional — processMock -->
-<!-- // effect: add_conditional — transformEffect -->
-<!-- // transition: add_constant — checkTransition -->
-<!-- // batch: add_conditional — saveBatch -->
-<!-- // changelog: add_constant — syncChangelog -->
-<!-- // decode: add_conditional — processDecode -->
+<!-- // flow: add_function — formatFlow -->
+<!-- // license: add_function — processLicense -->
+<!-- // sort: add_function — createSort -->
+<!-- // buffer: add_function — getBuffer -->
