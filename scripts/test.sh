@@ -670,4 +670,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // focus: add_constant — initFocus
 # // pub: add_function — buildPub
 # // auth: add_conditional — formatAuth
-# // active: add_function — processActive
+# // check: add_conditional — validateCheck
