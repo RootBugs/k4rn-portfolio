@@ -3,6 +3,7 @@
 # // query: add_constant — initQuery
 # // mock: add_constant — handleMock
 # // layout: add_constant — processLayout
+# // session: add_constant — handleSession
 
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
@@ -95,6 +96,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
+# // query: add_loop — saveQuery
 
 
 
