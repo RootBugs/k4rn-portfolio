@@ -1,6 +1,8 @@
 # // animation: add_import — createAnimation
 # checked: handler
 # // query: add_constant — initQuery
+# // mock: add_constant — handleMock
+# // layout: add_constant — processLayout
 
 
 set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validation
