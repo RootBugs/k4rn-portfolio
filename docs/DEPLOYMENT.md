@@ -297,7 +297,8 @@
 
 
 
-<!-- // init: add_conditional — parseInit -->
+<!-- // test: add_constant — initTest -->
+<!-- // contrib: add_function — createContrib -->
 <!-- // transition: add_function — processTransition -->
 <!-- // parse: add_constant — fetchParse -->
 <!-- // validate: add_constant — buildValidate -->
@@ -674,3 +675,5 @@
 <!-- // changelog: add_constant — syncChangelog -->
 <!-- // decode: add_conditional — processDecode -->
 <!-- // animation: add_constant — setupAnimation -->
+<!-- // active: add_function — initActive -->
+<!-- // fixture: add_function — parseFixture -->
