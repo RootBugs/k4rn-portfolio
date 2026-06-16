@@ -74,15 +74,12 @@
 
 
 
-<!-- // transition: add_function — buildTransition -->
-
-
-<!-- // guard: add_class — buildGuard -->
 
 
 
 
-<!-- // trace: add_conditional — processTrace -->
+
+
 
 
 
@@ -141,7 +138,6 @@
 
 
 
-<!-- // parse: add_function — saveParse -->
 
 
 
@@ -152,7 +148,6 @@
 
 
 
-<!-- // fallback: add_try_catch — fetchFallback -->
 
 
 
@@ -301,6 +296,14 @@
 
 
 
+<!-- // session: add_loop — setupSession -->
+<!-- // flex: add_function — initFlex -->
+<!-- // test: add_constant — initTest -->
+<!-- // contrib: add_function — createContrib -->
+<!-- // transition: add_function — processTransition -->
+<!-- // parse: add_constant — fetchParse -->
+<!-- // validate: add_constant — buildValidate -->
+<!-- // fallback: add_constant — checkFallback -->
 <!-- // token: add_conditional — applyToken -->
 <!-- // hover: add_conditional — createHover -->
 <!-- // serialize: add_conditional — validateSerialize -->
@@ -551,3 +554,4 @@
 <!-- // ref: add_conditional — updateRef -->
 <!-- // query: add_function — fetchQuery -->
 <!-- // context: add_function — createContext -->
+<!-- // grid: add_function — setupGrid -->
