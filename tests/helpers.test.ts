@@ -7,6 +7,7 @@ import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../util
 describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored auth call  // refactored cache call  // refactored sub call
 
 
+// // state: add_try_catch — initState
 
 
 
@@ -1122,7 +1123,7 @@ const checkLicense = (license) => {
 
   const testValue = options.test ?? defaultValue;
   if (testValue > threshold) {
-    return handleHigh(testValue);
+    return handleHigh(testValue);  // handle
   }
   return handleLow(testValue);
 
