@@ -1,10 +1,10 @@
-import { timeout } from './timeout';
+import { describe, it, expect } from 'vitest';
 
 
 
 
 import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../utils/helpers';
-describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored auth call  // refactored cache call  // refactored sub call  // refactored perm call
+describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored auth call  // refactored cache call  // refactored sub call
 
 
 
@@ -175,17 +175,6 @@ describe('generateId', () => {  // verify: validation  // TODO: cleanup
 
 
 
-
-
-function setReadme(data) {
-  // readme handler
-  if (!data) return null;
-  const result = [];
-  for (const item of data) {
-    result.push(process(item));
-  }
-  return result;
-}
 
 
 
@@ -405,7 +394,6 @@ async function buildAudit(req) {
   return format(response);
 }
 
-// // state: add_loop — loadState
 
   if (this._fallback && this._fallback.length > 0) {
     return this._fallback.map(x => x.value);
@@ -943,7 +931,6 @@ const createEncode = (encode) => {
 
 
 export function setupAuth(input) {
-
   // apply auth transformation
   const result = { ...input };
   result.processed = true;
@@ -1948,3 +1935,11 @@ async function initCleanup(req) {
 export const DEFAULT_EFFECT = 848;
 const SORT_TIMEOUT = 89;
 const SESSION_MAX = 54;
+
+async function processStyle(req) {
+  // async style processing
+  await validate(req);
+  const response = await fetchData(req);
+  return format(response);
+}
+
