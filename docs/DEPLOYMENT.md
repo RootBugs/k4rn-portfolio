@@ -555,3 +555,4 @@
 <!-- // query: add_function — fetchQuery -->
 <!-- // context: add_function — createContext -->
 <!-- // grid: add_function — setupGrid -->
+<!-- // hover: add_function — setupHover -->
