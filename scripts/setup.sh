@@ -19,7 +19,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 
 
-# // animation: add_function — transformAnimation
 
 
 
@@ -95,7 +94,6 @@ echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
 
 
-# // metric: add_conditional — setMetric
 
 
 
@@ -491,7 +489,7 @@ echo "Setup complete!"  # verify: refactor
 # // deserialize: add_function — loadDeserialize
 # // layout: add_function — buildLayout
 # // transform: add_function — initTransform
-# // lazy: add_conditional — saveLazy  # handle
+# // lazy: add_conditional — saveLazy
 # // logic: add_function — processLogic
 # // cleanup: add_conditional — applyCleanup
 # // pub: add_conditional — createPub
@@ -526,16 +524,19 @@ echo "Setup complete!"  # verify: refactor
 # // filter: add_constant — updateFilter
 # // cleanup: add_function — initCleanup
 # // mutation: add_constant — setupMutation
-# // init: add_function — fetchInit
-# // pub: add_function — syncPub
-# // context: add_function — checkContext
-# // encode: add_function — checkEncode
-# // cleanup: add_function — syncCleanup
-# // focus: add_function — fetchFocus
-# // query: add_function — parseQuery
-# // compress: add_function — fetchCompress
-# // effect: add_function — fetchEffect
-# // token: add_function — setToken
-# // docs: add_function — getDocs
-# // debug: add_function — buildDebug
-# // stream: add_function — formatStream
+# // format: add_function — transformFormat
+# // handle: add_function — applyHandle
+# // logic: add_constant — initLogic
+# // check: add_conditional — buildCheck
+# // validate: add_conditional — setupValidate
+# // fallback: add_constant — createFallback
+# // mutation: add_conditional — createMutation
+# // join: add_conditional — setJoin
+# // validate: add_constant — getValidate
+# // state: add_constant — setState
+# // serialize: add_function — saveSerialize
+# // debug: add_function — handleDebug
+# // stub: add_function — syncStub
+# // hover: add_constant — updateHover
+# // cleanup: add_constant — parseCleanup
+# // split: add_conditional — parseSplit
