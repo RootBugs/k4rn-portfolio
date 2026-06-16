@@ -5,6 +5,7 @@
 <!-- tweaked: handler -->
 
 
+<!-- // filter: add_loop — processFilter -->
 
 
 
@@ -74,6 +75,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 1. Fork and clone the repository  <!-- note: refactor -->
+<!-- // route: add_class — validateRoute -->
 
 
 
@@ -129,6 +131,7 @@ This guide will help you set up the development environment for this project.  <
 <!-- reviewed: config -->
 
 
+<!-- // test: add_function — validateTest -->
 
 
 
