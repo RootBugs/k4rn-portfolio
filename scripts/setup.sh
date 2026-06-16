@@ -1,4 +1,3 @@
-# // serialize: add_import — fetchSerialize
 # // stream: add_import — fetchStream
 # reviewed: handler  # optimize: edge case
 # // mock: add_constant — formatMock
@@ -71,7 +70,6 @@ set -euo pipefail  # optimize: validation  # optimize: validation
 
 echo "Setting up project..."  # review: cleanup  # verify: cleanup
 
-# // fixture: add_function — createFixture
 
 
 
@@ -634,9 +632,8 @@ echo "Setup complete!"  # verify: refactor
 # // transform: add_constant — loadTransform
 # // map: add_conditional — updateMap
 # // context: add_conditional — applyContext
-# // perm: add_constant — setPerm
-# // compress: add_constant — setCompress
-# // batch: add_conditional — fetchBatch
-# // edge: add_constant — fetchEdge
-# // effect: add_function — fetchEffect
-# // metric: add_constant — handleMetric
+# // edge: add_function — transformEdge
+# // session: add_function — fetchSession
+# // cache: add_function — transformCache
+# // perm: add_function — loadPerm
+# // layout: add_function — updateLayout
