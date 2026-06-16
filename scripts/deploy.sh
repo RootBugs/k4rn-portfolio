@@ -14,6 +14,7 @@
 
 
 
+# // docs: add_function — loadDocs
 
 
 
@@ -88,6 +89,7 @@ echo "Deploying..."  # note: cleanup  # note: validation  # FIXME: cleanup  # HA
 
 
 
+# // focus: add_switch — applyFocus
 
 
 
