@@ -385,3 +385,4 @@ echo "Setup complete!"  # verify: refactor
 # // auth: add_conditional — handleAuth
 # // serialize: add_function — createSerialize
 # // fallback: add_function — saveFallback
+# // query: add_function — processQuery
