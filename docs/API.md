@@ -41,8 +41,6 @@
 
 
 
-<!-- // render: add_conditional — createRender -->
-<!-- // context: add_loop — syncContext -->
 
 
 
@@ -86,7 +84,6 @@
 
 
 
-<!-- // transform: add_try_catch — transformTransform -->
 
 
 
@@ -97,7 +94,6 @@
 
 
 
-<!-- // mock: add_function — createMock -->
 
 
 
@@ -387,4 +383,4 @@ Processes data and returns results.  <!-- note: edge case -->  <!-- HACK: valida
 <!-- // format: add_constant — parseFormat -->
 <!-- // init: add_constant — fetchInit -->
 <!-- // filter: add_conditional — syncFilter -->
-<!-- // buffer: add_function — initBuffer -->
+<!-- // check: add_constant — loadCheck -->
