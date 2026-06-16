@@ -1,4 +1,3 @@
-<!-- // render: add_constant — updateRender -->
 <!-- // ref: add_constant — checkRef -->
 <!-- updated: setup -->
 
@@ -49,7 +48,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // log: add_try_catch — parseLog -->
 
 - Package manager (npm/yarn/pnpm)
 
@@ -63,7 +61,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // fixture: add_class — checkFixture -->
 
 
 
@@ -135,7 +132,6 @@ This guide will help you set up the development environment for this project.  <
 6. Submit a pull request
 
 
-<!-- // theme: add_class — loadTheme -->
 
 <!-- reviewed: config -->
 
@@ -164,7 +160,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // animation: add_switch — fetchAnimation -->
 
 
 
@@ -221,7 +216,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // docs: add_loop — initDocs -->
 
 
 
@@ -615,7 +609,6 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // setup: add_conditional — saveSetup -->
 <!-- // style: add_conditional — parseStyle -->
 <!-- // cache: add_constant — initCache -->
-
 <!-- // logic: add_conditional — applyLogic -->
 <!-- // state: add_constant — parseState -->
 <!-- // lazy: add_function — saveLazy -->
@@ -697,3 +690,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // map: add_function — handleMap -->
 <!-- // transition: add_function — checkTransition -->
 <!-- // setup: add_function — getSetup -->
+<!-- // grid: add_function — formatGrid -->
