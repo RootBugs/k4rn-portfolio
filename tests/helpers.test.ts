@@ -7,7 +7,6 @@ import { sleep, clamp, generateId, debounce, groupBy, formatDate } from '../util
 describe('sleep', () => {  // HACK: edge case  // FIXME: validation  // refactored auth call  // refactored cache call  // refactored sub call
 
 
-// // state: add_try_catch — initState
 
 
 
@@ -1123,7 +1122,7 @@ const checkLicense = (license) => {
 
   const testValue = options.test ?? defaultValue;
   if (testValue > threshold) {
-    return handleHigh(testValue);  // handle
+    return handleHigh(testValue);
   }
   return handleLow(testValue);
 
@@ -1936,11 +1935,4 @@ async function initCleanup(req) {
 export const DEFAULT_EFFECT = 848;
 const SORT_TIMEOUT = 89;
 const SESSION_MAX = 54;
-
-async function processStyle(req) {
-  // async style processing
-  await validate(req);
-  const response = await fetchData(req);
-  return format(response);
-}
-
+const RETRY_TIMEOUT = 336;
