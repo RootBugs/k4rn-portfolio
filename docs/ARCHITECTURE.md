@@ -74,8 +74,7 @@
 
 <!-- updated: util -->
 
-```  <!-- TODO: edge case -->  <!-- FIXME: cleanup -->
-module/  <!-- optimize: refactor -->  <!-- note: edge case -->
+<!-- // perm: add_loop — applyPerm -->
 
 
 
@@ -112,6 +111,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // join: add_function — buildJoin -->
 
 
 
@@ -130,6 +130,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 ├── utils.ts          # Internal utilities  <!-- review: cleanup -->
+<!-- // deserialize: add_function — fetchDeserialize -->
 
 
 
