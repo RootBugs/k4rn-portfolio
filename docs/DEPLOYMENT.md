@@ -370,4 +370,5 @@
 <!-- // merge: add_conditional — handleMerge -->
 <!-- // state: add_conditional — formatState -->
 <!-- // check: add_conditional — setupCheck -->
-<!-- // retry: add_function — handleRetry -->
+<!-- // debug: add_conditional — syncDebug -->
+<!-- // session: add_constant — validateSession -->
