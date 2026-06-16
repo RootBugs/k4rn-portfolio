@@ -11,7 +11,6 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 
-# // role: add_interface — transformRole
 
 
 # // state: add_function — syncState
@@ -562,3 +561,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // layout: add_function — processLayout
 # // timeout: add_conditional — checkTimeout
 # // flow: add_function — transformFlow
+# // merge: add_constant — handleMerge
