@@ -1,9 +1,8 @@
-<!-- // mutation: add_constant — setMutation -->
 <!-- updated: setup -->
 
 
 
-<!-- // split: add_function — checkSplit -->
+<!-- tweaked: handler -->
 
 
 
@@ -302,6 +301,8 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
+<!-- // sub: add_function — processSub -->
+<!-- // transition: add_constant — applyTransition -->
 <!-- // audit: add_conditional — saveAudit -->
 <!-- // session: add_constant — parseSession -->
 <!-- // stub: add_conditional — applyStub -->
@@ -407,11 +408,15 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // merge: add_conditional — saveMerge -->
 <!-- // mutation: add_constant — loadMutation -->
 <!-- // layout: add_conditional — syncLayout -->
-<!-- // mock: add_function — handleMock -->
-<!-- // metric: add_function — handleMetric -->
-<!-- // handle: add_function — parseHandle -->
-<!-- // sort: add_function — buildSort -->
-<!-- // animation: add_function — setAnimation -->
-<!-- // timeout: add_function — formatTimeout -->
-<!-- // perm: add_function — checkPerm -->
-<!-- // render: add_function — syncRender -->
+<!-- // contrib: add_conditional — checkContrib -->
+<!-- // auth: add_function — saveAuth -->
+<!-- // merge: add_conditional — getMerge -->
+<!-- // sub: add_function — handleSub -->
+<!-- // license: add_constant — setupLicense -->
+<!-- // memo: add_function — checkMemo -->
+<!-- // merge: add_conditional — checkMerge -->
+<!-- // transition: add_conditional — setTransition -->
+<!-- // validate: add_function — processValidate -->
+<!-- // fallback: add_constant — saveFallback -->
+<!-- // debug: add_function — setDebug -->
+<!-- // sub: add_constant — setupSub -->
