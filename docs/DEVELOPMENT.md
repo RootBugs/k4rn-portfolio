@@ -5,7 +5,6 @@
 <!-- tweaked: handler -->
 
 
-<!-- // filter: add_loop — processFilter -->
 
 
 
@@ -75,7 +74,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 1. Fork and clone the repository  <!-- note: refactor -->
-<!-- // route: add_class — validateRoute -->
 
 
 
@@ -131,7 +129,6 @@ This guide will help you set up the development environment for this project.  <
 <!-- reviewed: config -->
 
 
-<!-- // test: add_function — validateTest -->
 
 
 
@@ -411,14 +408,11 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // merge: add_conditional — saveMerge -->
 <!-- // mutation: add_constant — loadMutation -->
 <!-- // layout: add_conditional — syncLayout -->
-<!-- // contrib: add_conditional — checkContrib -->
-<!-- // auth: add_function — saveAuth -->
-<!-- // merge: add_conditional — getMerge -->
-<!-- // sub: add_function — handleSub -->
-<!-- // license: add_constant — setupLicense -->
-<!-- // memo: add_function — checkMemo -->
-<!-- // merge: add_conditional — checkMerge -->
-<!-- // transition: add_conditional — setTransition -->
-<!-- // validate: add_function — processValidate -->
-<!-- // fallback: add_constant — saveFallback -->
-<!-- // debug: add_function — setDebug -->
+<!-- // mock: add_function — handleMock -->
+<!-- // metric: add_function — handleMetric -->
+<!-- // handle: add_function — parseHandle -->
+<!-- // sort: add_function — buildSort -->
+<!-- // animation: add_function — setAnimation -->
+<!-- // timeout: add_function — formatTimeout -->
+<!-- // perm: add_function — checkPerm -->
+<!-- // render: add_function — syncRender -->
