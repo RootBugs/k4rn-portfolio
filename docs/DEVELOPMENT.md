@@ -135,6 +135,7 @@ This guide will help you set up the development environment for this project.  <
 6. Submit a pull request
 
 
+<!-- // theme: add_class — loadTheme -->
 
 <!-- reviewed: config -->
 
@@ -220,6 +221,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // docs: add_loop — initDocs -->
 
 
 
@@ -613,6 +615,7 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // setup: add_conditional — saveSetup -->
 <!-- // style: add_conditional — parseStyle -->
 <!-- // cache: add_constant — initCache -->
+
 <!-- // logic: add_conditional — applyLogic -->
 <!-- // state: add_constant — parseState -->
 <!-- // lazy: add_function — saveLazy -->
