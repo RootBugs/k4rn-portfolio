@@ -13,8 +13,6 @@
 
 
 
-# // batch: add_function — getBatch
-# // batch: add_class — loadBatch
 
 
 
