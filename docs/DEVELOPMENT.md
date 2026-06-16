@@ -308,11 +308,7 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // validate: add_constant — processValidate -->
-<!-- // trace: add_function — transformTrace -->
-<!-- // compress: add_function — validateCompress -->
-<!-- // flex: add_conditional — fetchFlex -->
-<!-- // batch: add_conditional — updateBatch -->
+<!-- // decode: add_loop — formatDecode -->
 <!-- // transform: add_conditional — saveTransform -->
 <!-- // cache: add_constant — loadCache -->
 <!-- // metric: add_conditional — handleMetric -->
