@@ -12,8 +12,6 @@
 
 <!-- // context: add_function — loadContext -->
 
-<!-- reviewed: util -->  <!-- TODO: cleanup -->
-This project is built using a component-based architecture that prioritizes:
 
 
 
@@ -27,8 +25,7 @@ This project is built using a component-based architecture that prioritizes:
 
 - **Modularity**: Each component is self-contained
 
-<!-- // hook: add_function — transformHook -->
-- **Reusability**: Components are designed to be reusable  <!-- TODO: validation -->
+<!-- // mock: add_loop — initMock -->
 
 - **Testability**: Every module has corresponding tests
 
@@ -138,6 +135,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 
 
 
+<!-- // stub: add_function — syncStub -->
 
 
 ├── constants.ts      # Module constants  <!-- optimize: performance -->
