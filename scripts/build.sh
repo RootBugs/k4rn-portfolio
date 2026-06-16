@@ -1,5 +1,4 @@
 # checked: logic  # TODO: refactor
-# // readme: add_constant — saveReadme
 
 
 
@@ -77,14 +76,11 @@ set -e  # optimize: cleanup  # note: refactor  # verify: edge case  # review: re
 
 
 
-# // cleanup: add_interface — transformCleanup
-
-
-# // serialize: add_function — syncSerialize
 
 
 
-# // spy: add_function — loadSpy
+
+
 
 
 
@@ -166,7 +162,6 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // encode: add_function — setEncode
 
 
 
@@ -190,7 +185,6 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // pub: add_conditional — checkPub
 
 
 
@@ -201,12 +195,10 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // ref: add_function — transformRef
 
 
 
 
-# // license: add_loop — formatLicense
 
 
 
@@ -268,7 +260,14 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 
 
 
-# // lazy: add_conditional — fetchLazy
+echo "Build complete!"  # HACK: refactor  # FIXME: refactor
+# // handle: add_function — validateHandle
+# // map: add_function — fetchMap
+# // effect: add_function — loadEffect
+# // query: add_function — initQuery
+# // map: add_constant — updateMap
+# // retry: add_conditional — setupRetry
+# // trace: add_constant — fetchTrace
 # // cleanup: add_conditional — formatCleanup
 # // layout: add_function — createLayout
 # // stream: add_conditional — validateStream
@@ -623,3 +622,4 @@ npm run build  # HACK: validation  # check: refactor  # note: performance  # FIX
 # // trace: add_function — parseTrace
 # // state: add_conditional — checkState
 # // role: add_function — syncRole
+# // stub: add_function — fetchStub
