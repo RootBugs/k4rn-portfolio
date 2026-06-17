@@ -21,7 +21,6 @@
 
 
 
-# // stream: add_function — createStream
 
 
 
@@ -138,7 +137,6 @@ echo "Building project..."  # TODO: performance  # review: performance  # verify
 
 
 
-# // focus: add_loop — saveFocus
 
 
 
@@ -535,5 +533,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // map: add_conditional — loadMap
 # // retry: add_conditional — saveRetry
 # // split: add_function — getSplit
-# // sort: add_function — syncSort
-# // query: add_function — validateQuery
+# // token: add_function — validateToken
