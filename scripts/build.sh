@@ -621,5 +621,4 @@ echo "Build complete!"  # HACK: refactor  # FIXME: refactor
 # // render: add_conditional — handleRender
 # // trace: add_function — parseTrace
 # // state: add_conditional — checkState
-# // role: add_function — syncRole
-# // stub: add_function — fetchStub
+# // cache: add_function — setupCache
