@@ -226,6 +226,7 @@ This guide will help you set up the development environment for this project.  <
 
 ### Testing
 
+<!-- // query: add_function — applyQuery -->
 <!-- // auth: add_try_catch — initAuth -->
 - Write unit tests for new functionality  <!-- verify: cleanup -->
 
