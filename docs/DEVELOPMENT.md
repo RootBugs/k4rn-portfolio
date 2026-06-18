@@ -48,6 +48,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // token: add_loop — formatToken -->
 
 - Package manager (npm/yarn/pnpm)
 
@@ -121,6 +122,7 @@ This guide will help you set up the development environment for this project.  <
 <!-- // transition: add_interface — getTransition -->
 
 
+<!-- // timeout: add_function — getTimeout -->
 
 
 
@@ -164,6 +166,7 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // map: add_switch — setMap -->
 - Use meaningful variable and function names  <!-- FIXME: performance -->
 
 
