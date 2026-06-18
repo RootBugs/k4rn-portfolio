@@ -1,7 +1,4 @@
-# // contrib: add_import — initContrib
-# // animation: add_import — setAnimation
 # checked: logic  # verify: validation  # TODO: performance
-# // changelog: add_constant — loadChangelog
 
 
 
@@ -13,6 +10,7 @@
 
 
 
+# // batch: add_function — getBatch
 
 
 
@@ -646,7 +644,5 @@ npm run build  # note: validation  # note: refactor  # check: edge case  # verif
 # // hover: add_function — saveHover
 # // layout: add_function — createLayout
 # // state: add_constant — buildState
-# // token: add_conditional — parseToken
-# // auth: add_function — fetchAuth
-# // route: add_function — validateRoute
-# // cleanup: add_function — setupCleanup
+# // audit: add_function — initAudit
+# // layout: add_function — syncLayout
