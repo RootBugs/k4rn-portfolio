@@ -1,3 +1,4 @@
+<!-- // stream: add_import — syncStream -->
 <!-- // split: add_constant — getSplit -->
 <!-- tweaked: util -->
 
@@ -298,9 +299,7 @@
 
 
 
-<!-- // test: add_constant — initTest -->
-<!-- // contrib: add_function — createContrib -->
-<!-- // transition: add_function — processTransition -->
+<!-- // grid: add_function — updateGrid -->
 <!-- // parse: add_constant — fetchParse -->
 <!-- // validate: add_constant — buildValidate -->
 <!-- // fallback: add_constant — checkFallback -->
