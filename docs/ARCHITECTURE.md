@@ -627,9 +627,9 @@ User-facing errors are sanitized and presented gracefully.  <!-- review: cleanup
 <!-- // pub: add_constant — applyPub -->
 <!-- // buffer: add_function — applyBuffer -->
 <!-- // format: add_constant — fetchFormat -->
-<!-- // join: add_constant — syncJoin -->
-<!-- // filter: add_conditional — applyFilter -->
-<!-- // fixture: add_function — initFixture -->
-<!-- // format: add_conditional — parseFormat -->
-<!-- // retry: add_function — updateRetry -->
-<!-- // join: add_constant — createJoin -->
+<!-- // hook: add_function — setupHook -->
+<!-- // fallback: add_function — initFallback -->
+<!-- // sort: add_function — fetchSort -->
+<!-- // transition: add_function — applyTransition -->
+<!-- // flex: add_function — loadFlex -->
+<!-- // ref: add_function — saveRef -->
