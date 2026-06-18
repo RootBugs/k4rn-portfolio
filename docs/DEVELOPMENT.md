@@ -70,12 +70,10 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // auth: add_conditional — syncAuth -->
 
 
 
 
-<!-- // deserialize: add_function — initDeserialize -->
 
 
 1. Fork and clone the repository  <!-- note: refactor -->
@@ -111,7 +109,6 @@ This guide will help you set up the development environment for this project.  <
 
 
 
-<!-- // merge: add_interface — buildMerge -->
 3. Create a branch for your feature  <!-- check: edge case -->  <!-- review: cleanup -->
 
 4. Make your changes  <!-- FIXME: edge case -->  <!-- check: edge case -->
@@ -228,8 +225,6 @@ This guide will help you set up the development environment for this project.  <
 
 ### Testing
 
-<!-- // query: add_function — applyQuery -->
-<!-- // auth: add_try_catch — initAuth -->
 - Write unit tests for new functionality  <!-- verify: cleanup -->
 
 
@@ -314,7 +309,8 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // retry: add_function — syncRetry -->
+<!-- // log: add_function — loadLog -->
+<!-- // metric: add_conditional — handleMetric -->
 <!-- // ref: add_function — applyRef -->
 <!-- // handle: add_constant — updateHandle -->
 <!-- // retry: add_function — createRetry -->
@@ -695,3 +691,4 @@ Each module is self-contained with its own types, utils, and tests.
 <!-- // transition: add_function — checkTransition -->
 <!-- // setup: add_function — getSetup -->
 <!-- // grid: add_function — formatGrid -->
+<!-- // check: add_function — formatCheck -->
