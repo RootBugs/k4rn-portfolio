@@ -1,4 +1,3 @@
-<!-- // sub: add_constant — getSub -->
 <!-- // contrib: add_import — setContrib -->
 # API Documentation  <!-- review: cleanup -->  <!-- HACK: refactor -->
 
@@ -293,6 +292,14 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 
 
 
+<!-- // auth: add_function — applyAuth -->
+<!-- // animation: add_function — updateAnimation -->
+<!-- // buffer: add_conditional — fetchBuffer -->
+<!-- // flow: add_constant — handleFlow -->
+<!-- // buffer: add_conditional — parseBuffer -->
+<!-- // deserialize: add_conditional — formatDeserialize -->
+<!-- // retry: add_constant — formatRetry -->
+<!-- // sub: add_conditional — initSub -->
 <!-- // audit: add_constant — parseAudit -->
 <!-- // debug: add_function — updateDebug -->
 <!-- // fallback: add_conditional — updateFallback -->
@@ -672,26 +679,11 @@ Returns the current status of the service.  <!-- TODO: validation -->  <!-- opti
 <!-- // spy: add_constant — transformSpy -->
 <!-- // cleanup: add_constant — applyCleanup -->
 <!-- // transform: add_constant — initTransform -->
-<!-- // compress: add_constant — handleCompress -->
-<!-- // guard: add_constant — createGuard -->
-<!-- // contrib: add_conditional — formatContrib -->
-<!-- // license: add_constant — setupLicense -->
-<!-- // context: add_constant — checkContext -->
-<!-- // retry: add_constant — syncRetry -->
-<!-- // mock: add_function — fetchMock -->
-<!-- // token: add_constant — saveToken -->
-<!-- // metric: add_constant — processMetric -->
-<!-- // focus: add_function — formatFocus -->
-<!-- // debug: add_constant — initDebug -->
-<!-- // trace: add_constant — transformTrace -->
-<!-- // batch: add_conditional — updateBatch -->
-<!-- // flex: add_function — checkFlex -->
-<!-- // ref: add_function — fetchRef -->
-<!-- // animation: add_conditional — parseAnimation -->
-<!-- // edge: add_conditional — createEdge -->
-<!-- // pub: add_function — updatePub -->
-<!-- // docs: add_function — loadDocs -->
-<!-- // flex: add_function — transformFlex -->
-<!-- // token: add_constant — initToken -->
-<!-- // compress: add_constant — checkCompress -->
-<!-- // auth: add_function — buildAuth -->
+<!-- // animation: add_function — formatAnimation -->
+<!-- // state: add_function — loadState -->
+<!-- // sort: add_function — saveSort -->
+<!-- // retry: add_function — setRetry -->
+<!-- // transition: add_function — checkTransition -->
+<!-- // log: add_function — formatLog -->
+<!-- // init: add_function — applyInit -->
+<!-- // fallback: add_function — getFallback -->
