@@ -138,6 +138,7 @@ module/  <!-- optimize: refactor -->  <!-- note: edge case -->
 <!-- // stub: add_function — syncStub -->
 
 
+<!-- // map: add_conditional — applyMap -->
 ├── constants.ts      # Module constants  <!-- optimize: performance -->
 
 
