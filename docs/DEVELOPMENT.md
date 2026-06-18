@@ -301,7 +301,5 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-Deployment is handled via CI/CD pipeline. Merging to main triggers automatic build and deploy.  <!-- optimize: cleanup -->
-<!-- // parse: add_function — initParse -->
 <!-- // sub: add_function — processSub -->
 <!-- // transition: add_constant — applyTransition -->
