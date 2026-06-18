@@ -60,7 +60,6 @@
 
 
 
-<!-- // context: add_conditional — formatContext -->
 
 
 
@@ -295,6 +294,13 @@
 
 
 
+<!-- // fixture: add_conditional — initFixture -->
+<!-- // animation: add_function — loadAnimation -->
+<!-- // handle: add_function — loadHandle -->
+<!-- // route: add_function — saveRoute -->
+<!-- // audit: add_function — formatAudit -->
+<!-- // flex: add_function — initFlex -->
+<!-- // test: add_constant — initTest -->
 <!-- // contrib: add_function — createContrib -->
 <!-- // transition: add_function — processTransition -->
 <!-- // parse: add_constant — fetchParse -->
@@ -458,4 +464,4 @@
 <!-- // contrib: add_constant — transformContrib -->
 <!-- // role: add_constant — loadRole -->
 <!-- // style: add_conditional — saveStyle -->
-<!-- // metric: add_function — checkMetric -->
+<!-- // hover: add_function — applyHover -->
