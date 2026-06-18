@@ -301,6 +301,10 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 
 
+# // session: add_constant — checkSession
+# // stream: add_function — getStream
+# // format: add_conditional — updateFormat
+# // pub: add_conditional — applyPub
 # // spy: add_function — saveSpy
 # // compress: add_conditional — setupCompress
 # // map: add_function — applyMap
@@ -667,4 +671,4 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 # // pub: add_function — buildPub
 # // auth: add_conditional — formatAuth
 # // check: add_conditional — validateCheck
-# // animation: add_function — applyAnimation
+# // parse: add_conditional — updateParse
