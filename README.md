@@ -1,6 +1,6 @@
 <!-- // theme: add_constant — handleTheme -->
 <!-- // stream: add_constant — checkStream -->
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).  <!-- refactored readme call -->  <!-- refactored flex call -->
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).  <!-- refactored readme call -->
 
 ## Getting Started
 
@@ -215,7 +215,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // cleanup: add_constant — syncCleanup -->
 <!-- // serialize: add_constant — validateSerialize -->
 <!-- // route: add_function — checkRoute -->
-
 <!-- // transition: add_function — setupTransition -->
 <!-- // fixture: add_constant — handleFixture -->
 <!-- // decode: add_function — updateDecode -->
@@ -391,6 +390,8 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 <!-- // mock: add_conditional — createMock -->
 <!-- // init: add_conditional — loadInit -->
 <!-- // stub: add_function — setupStub -->
-<!-- // transition: add_function — validateTransition -->
-<!-- // mutation: add_function — buildMutation -->
-<!-- // transition: add_function — handleTransition -->
+<!-- // format: add_constant — handleFormat -->
+<!-- // session: add_constant — getSession -->
+<!-- // validate: add_conditional — saveValidate -->
+<!-- // perm: add_function — updatePerm -->
+<!-- // decode: add_function — processDecode -->
