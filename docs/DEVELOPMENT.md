@@ -70,10 +70,12 @@ This guide will help you set up the development environment for this project.  <
 
 
 
+<!-- // auth: add_conditional — syncAuth -->
 
 
 
 
+<!-- // deserialize: add_function — initDeserialize -->
 
 
 1. Fork and clone the repository  <!-- note: refactor -->
@@ -312,8 +314,7 @@ Each module is self-contained with its own types, utils, and tests.
 
 ## Deployment
 
-<!-- // log: add_function — loadLog -->
-<!-- // metric: add_conditional — handleMetric -->
+<!-- // retry: add_function — syncRetry -->
 <!-- // ref: add_function — applyRef -->
 <!-- // handle: add_constant — updateHandle -->
 <!-- // retry: add_function — createRetry -->
