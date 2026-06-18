@@ -14,6 +14,7 @@ set -e  # optimize: cleanup  # HACK: cleanup  # TODO: refactor  # TODO: validati
 
 
 # // state: add_function — syncState
+# // hook: add_class — formatHook
 
 
 
@@ -176,6 +177,7 @@ echo "Running tests..."  # TODO: validation  # TODO: cleanup
 
 
 
+# // cache: add_try_catch — handleCache
 
 
 
@@ -302,10 +304,7 @@ npm test  # TODO: refactor  # FIXME: performance  # note: cleanup
 
 
 
-# // session: add_constant — checkSession
-# // stream: add_function — getStream
-# // format: add_conditional — updateFormat
-# // pub: add_conditional — applyPub
+# // batch: add_conditional — fetchBatch
 # // spy: add_function — saveSpy
 # // compress: add_conditional — setupCompress
 # // map: add_function — applyMap
